@@ -1,0 +1,13 @@
+{
+  "name": "Murder",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

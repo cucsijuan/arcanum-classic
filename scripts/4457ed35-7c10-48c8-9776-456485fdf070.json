@@ -1,0 +1,14 @@
+{
+  "name": "Lightning Bolt",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

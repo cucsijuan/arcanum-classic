@@ -1,0 +1,16 @@
+{
+  "name": "Krenko's Command",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Goblin",
+          "types": "Creature — Goblin",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

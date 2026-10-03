@@ -1,0 +1,16 @@
+{
+  "name": "Raise the Alarm",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

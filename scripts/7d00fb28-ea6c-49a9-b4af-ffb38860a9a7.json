@@ -1,0 +1,13 @@
+{
+  "name": "Cancel",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

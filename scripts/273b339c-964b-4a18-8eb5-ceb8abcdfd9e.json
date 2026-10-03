@@ -1,0 +1,10 @@
+{
+  "name": "Divination",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

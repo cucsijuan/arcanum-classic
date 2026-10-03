@@ -1,0 +1,14 @@
+{
+  "name": "Flame Slash",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

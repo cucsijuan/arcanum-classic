@@ -1,0 +1,18 @@
+{
+  "name": "Chandra's Outrage",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      },
+      {
+        "damage": 2,
+        "to": "targetController"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Unsummon",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

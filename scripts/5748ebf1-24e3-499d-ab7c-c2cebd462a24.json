@@ -1,0 +1,17 @@
+{
+  "name": "Giant Growth",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

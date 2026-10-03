@@ -1,0 +1,14 @@
+{
+  "name": "Ancestral Recall",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 3,
+        "who": "target"
+      }
+    ]
+  }
+}

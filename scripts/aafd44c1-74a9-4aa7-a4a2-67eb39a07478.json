@@ -1,0 +1,14 @@
+{
+  "name": "Searing Spear",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

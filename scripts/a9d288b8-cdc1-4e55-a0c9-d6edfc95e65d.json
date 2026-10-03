@@ -1,0 +1,14 @@
+{
+  "name": "Shock",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      }
+    ]
+  }
+}

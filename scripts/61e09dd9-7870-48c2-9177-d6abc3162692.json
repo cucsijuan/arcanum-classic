@@ -1,0 +1,17 @@
+{
+  "name": "Titanic Growth",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          4
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

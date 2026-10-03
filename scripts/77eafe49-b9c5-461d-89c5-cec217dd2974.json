@@ -1,0 +1,17 @@
+{
+  "name": "Disfigure",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

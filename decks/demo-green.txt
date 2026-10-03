@@ -1,8 +1,11 @@
 # Sample deck used by the hotseat demo.
 17 Forest
-8 Grizzly Bears
-4 Trained Armodon
-4 Giant Spider
-3 Colossal Dreadmaw
-2 Craw Wurm
-2 Spined Wurm
+4 Llanowar Elves
+3 Elvish Visionary
+4 Grizzly Bears
+3 Giant Spider
+2 Colossal Dreadmaw
+1 Craw Wurm
+1 Trained Armodon
+3 Giant Growth
+2 Titanic Growth

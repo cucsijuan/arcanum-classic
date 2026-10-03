@@ -1,0 +1,14 @@
+{
+  "name": "Inspiration",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      }
+    ]
+  }
+}
