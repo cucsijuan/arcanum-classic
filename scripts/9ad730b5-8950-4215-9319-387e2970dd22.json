@@ -15,6 +15,7 @@
       "trigger": "countersPlaced",
       "onSelf": true,
       "oncePerTurn": true,
+      "placedByYou": true,
       "effects": [
         {
           "draw": 1

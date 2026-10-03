@@ -14,7 +14,8 @@
                 ],
                 "minManaValue": 6
               },
-              "to": "hand"
+              "to": "hand",
+              "reveal": true
             }
           ]
         }

@@ -9,7 +9,11 @@
           0,
           2
         ],
-        "subtype": "Green"
+        "filter": {
+          "colors": [
+            "G"
+          ]
+        }
       },
       "text": "Green creatures you control get +0/+2."
     }

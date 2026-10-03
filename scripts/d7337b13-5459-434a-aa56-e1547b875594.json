@@ -11,7 +11,11 @@
         "controller": "you"
       },
       "targets": [
-        "creature:opponent"
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true
+        }
       ],
       "effects": [
         {

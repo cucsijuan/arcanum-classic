@@ -9,7 +9,9 @@
           1,
           0
         ],
-        "subtype": "Attacking",
+        "filter": {
+          "attacking": true
+        },
         "keywords": [
           "Menace"
         ]

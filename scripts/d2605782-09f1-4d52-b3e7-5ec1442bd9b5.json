@@ -16,7 +16,8 @@
                 "minManaValue": 1,
                 "maxManaValue": 1
               },
-              "to": "hand"
+              "to": "hand",
+              "reveal": true
             }
           ]
         }

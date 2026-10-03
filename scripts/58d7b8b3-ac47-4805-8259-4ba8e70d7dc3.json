@@ -4,7 +4,11 @@
   "spell": {
     "targets": [
       "creature:you",
-      "creature:opponent"
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "optional": true
+      }
     ],
     "effects": [
       {
@@ -15,7 +19,7 @@
         "what": "target"
       },
       {
-        "fight": "self",
+        "fight": "target",
         "with": "target2"
       }
     ]

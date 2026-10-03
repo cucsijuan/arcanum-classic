@@ -14,7 +14,8 @@
                   "land"
                 ]
               },
-              "to": "top"
+              "to": "top",
+              "reveal": true
             }
           ]
         }

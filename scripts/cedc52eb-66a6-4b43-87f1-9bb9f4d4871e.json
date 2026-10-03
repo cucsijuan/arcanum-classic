@@ -11,6 +11,7 @@
           ]
         },
         "count": 1,
+        "reveal": true,
         "to": "hand"
       }
     ]

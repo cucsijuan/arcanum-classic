@@ -9,7 +9,9 @@
           2,
           0
         ],
-        "subtype": "Attacking"
+        "filter": {
+          "attacking": true
+        }
       },
       "text": "Attacking creatures you control get +2/+0."
     }

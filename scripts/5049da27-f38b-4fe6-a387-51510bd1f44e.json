@@ -2,7 +2,7 @@
   "name": "Nine-Lives Familiar",
   "entersWithCounters": 8,
   "entersWithCounterKind": "revival",
-  "entersWithCountersIf": "castFromHand",
+  "entersWithCountersIf": "wasCast",
   "abilities": [
     {
       "trigger": "dies",

@@ -12,7 +12,7 @@
         "what": "target"
       },
       {
-        "fight": "self",
+        "fight": "target",
         "with": "target2"
       }
     ]

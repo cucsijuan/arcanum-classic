@@ -9,7 +9,9 @@
           0,
           2
         ],
-        "subtype": "Untapped"
+        "filter": {
+          "tapped": false
+        }
       },
       "text": "Untapped creatures you control get +0/+2."
     }

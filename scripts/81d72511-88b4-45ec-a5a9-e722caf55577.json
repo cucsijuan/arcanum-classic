@@ -15,7 +15,8 @@
             }
           ]
         },
-        "to": "hand"
+        "to": "hand",
+        "reveal": true
       }
     ]
   }

@@ -349,6 +349,8 @@ def effect(sentence, b):
         else:
             flt["types"] = [what]
         out = {"search": flt, "count": 1 if m.group(1) == "a" else 2}
+        if "reveal" in s:
+            out["reveal"] = True
         dest = m.group(3)
         out["to"] = "hand" if dest == "into your hand" else "battlefield"
         if dest.endswith("tapped"):
@@ -423,8 +425,16 @@ def effect(sentence, b):
         return [{"tokens": num(m.group(1)), "token": m.group(2)}]
     m = re.fullmatch(r"(Target creature you control|This creature|CARDNAME|It|it) fights (target creature(?: you don't control| an opponent controls)?|up to one target creature you don't control)", s)
     if m:
-        first = "self" if not m.group(1).startswith("Target") else b.add_target("creature:you")
-        second = b.add_target("creature" if m.group(2) == "target creature" else "creature:opponent")
+        if m.group(1).startswith("Target"):
+            first = b.add_target("creature:you")
+        elif m.group(1) in ("It", "it"):
+            first = b.it()
+        else:
+            first = "self"
+        if m.group(2).startswith("up to one"):
+            second = b.add_target({"kind": "creature", "controller": "opponent", "optional": True})
+        else:
+            second = b.add_target("creature" if m.group(2) == "target creature" else "creature:opponent")
         return [{"fight": first, "with": second}]
     m = re.fullmatch(r"(Target player|Target opponent|Each opponent|Each player|You) discards? (\w+) cards?", s)
     if m:
@@ -699,7 +709,18 @@ def static(line):
         if m.group(1):
             st["other"] = True
         if m.group(2):
-            st["subtype"] = m.group(2)
+            word = m.group(2)
+            colors = {"White": "W", "Blue": "U", "Black": "B", "Red": "R", "Green": "G"}
+            if word in ("Attacking", "Tapped"):
+                st["filter"] = {word.lower(): True}
+            elif word == "Untapped":
+                st["filter"] = {"tapped": False}
+            elif word in colors:
+                st["filter"] = {"colors": [colors[word]]}
+            elif word in ("Blocking", "Legendary", "Artifact", "Enchantment", "Token", "Nontoken", "Multicolored", "Colorless"):
+                return None
+            else:
+                st["subtype"] = word
         if m.group(5):
             st["keywords"] = keywords_list(m.group(5))
         return st
