@@ -1,0 +1,21 @@
+{
+  "name": "Ajani's Welcome",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a creature you control enters, you gain 1 life."
+    }
+  ]
+}

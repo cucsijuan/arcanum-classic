@@ -1,0 +1,27 @@
+{
+  "name": "Giant's Ire",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Giant"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

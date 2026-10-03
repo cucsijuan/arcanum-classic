@@ -1,0 +1,16 @@
+{
+  "name": "Sabotender",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

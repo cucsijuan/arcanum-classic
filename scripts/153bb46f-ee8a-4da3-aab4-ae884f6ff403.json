@@ -1,0 +1,19 @@
+{
+  "name": "Kamahl, Pit Fighter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: Kamahl, Pit Fighter deals 3 damage to any target."
+    }
+  ]
+}

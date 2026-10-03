@@ -1,0 +1,23 @@
+{
+  "name": "Daily Bugle Newspaper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{2}, {T}: Draw a card, then discard a card. Create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Romantic Rendezvous",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "discard": 1,
+        "who": "you"
+      },
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

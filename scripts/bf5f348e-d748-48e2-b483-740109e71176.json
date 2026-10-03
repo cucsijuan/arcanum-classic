@@ -1,0 +1,17 @@
+{
+  "name": "Eat to Extinction",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

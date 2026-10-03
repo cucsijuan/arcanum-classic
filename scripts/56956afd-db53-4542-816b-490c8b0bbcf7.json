@@ -1,0 +1,14 @@
+{
+  "name": "Serum Visions",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

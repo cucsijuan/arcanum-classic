@@ -1,0 +1,17 @@
+{
+  "name": "Memory Drain",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Tuktuk Rubblefort",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creatures you control have haste."
+    }
+  ]
+}

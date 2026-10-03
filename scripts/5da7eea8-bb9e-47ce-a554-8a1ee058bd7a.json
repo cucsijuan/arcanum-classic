@@ -1,0 +1,20 @@
+{
+  "name": "Beast Whisperer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast a creature spell, draw a card."
+    }
+  ]
+}

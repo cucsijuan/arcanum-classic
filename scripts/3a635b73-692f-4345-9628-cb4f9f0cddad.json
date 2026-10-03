@@ -1,0 +1,19 @@
+{
+  "name": "Springjaw Trap",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this artifact: It deals 3 damage to any target."
+    }
+  ]
+}

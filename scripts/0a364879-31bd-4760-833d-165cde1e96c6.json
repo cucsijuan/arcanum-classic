@@ -1,0 +1,30 @@
+{
+  "name": "Yellowjacket, Heartless Marauder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Villain",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Whenever another Villain you control enters, Yellowjacket, Heartless Marauder gets +1/+0 and gains lifelink until end of turn."
+    }
+  ]
+}

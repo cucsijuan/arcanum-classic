@@ -1,0 +1,19 @@
+{
+  "name": "Frantic Strength",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has trample."
+    }
+  ]
+}

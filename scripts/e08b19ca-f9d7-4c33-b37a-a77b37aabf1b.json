@@ -1,0 +1,24 @@
+{
+  "name": "Hamato Guardian Stance",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Flying"
+        ]
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

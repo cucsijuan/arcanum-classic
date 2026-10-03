@@ -1,0 +1,20 @@
+{
+  "name": "Psychic Membrane",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature blocks, you may draw a card."
+    }
+  ]
+}

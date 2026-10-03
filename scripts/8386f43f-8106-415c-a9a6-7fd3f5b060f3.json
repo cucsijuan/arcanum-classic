@@ -1,0 +1,12 @@
+{
+  "name": "Unnerve",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "discard": 2,
+        "who": "opponents"
+      }
+    ]
+  }
+}

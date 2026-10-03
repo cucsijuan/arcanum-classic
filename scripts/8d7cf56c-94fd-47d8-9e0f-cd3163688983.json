@@ -1,0 +1,32 @@
+{
+  "name": "Luminous Angel",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "may": "Create a 1/1 white Spirit creature token with flying?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

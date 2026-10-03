@@ -1,0 +1,25 @@
+{
+  "name": "Chosen by Heliod",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +0/+2."
+    }
+  ]
+}

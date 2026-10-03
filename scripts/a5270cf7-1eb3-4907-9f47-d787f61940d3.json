@@ -1,0 +1,16 @@
+{
+  "name": "Sphinx Mindbreaker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 10,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature enters, each opponent mills ten cards."
+    }
+  ]
+}

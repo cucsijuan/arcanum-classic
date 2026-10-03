@@ -1,0 +1,23 @@
+{
+  "name": "Goblin Wizardry",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Goblin Wizard",
+          "types": "Creature — Goblin Wizard",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "R"
+          ],
+          "keywords": [
+            "Prowess"
+          ]
+        }
+      }
+    ]
+  }
+}

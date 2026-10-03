@@ -1,0 +1,15 @@
+{
+  "name": "Naga Oracle",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 3
+        }
+      ],
+      "text": "When this creature enters, surveil 3."
+    }
+  ]
+}

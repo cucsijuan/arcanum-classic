@@ -1,0 +1,18 @@
+{
+  "name": "Fill with Fright",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

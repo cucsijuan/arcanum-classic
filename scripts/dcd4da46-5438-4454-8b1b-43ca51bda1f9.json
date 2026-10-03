@@ -1,0 +1,33 @@
+{
+  "name": "Murmuring Mystic",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird Illusion",
+            "types": "Creature — Bird Illusion",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying."
+    }
+  ]
+}

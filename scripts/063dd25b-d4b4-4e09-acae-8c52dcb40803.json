@@ -1,0 +1,15 @@
+{
+  "name": "Foot Headquarters",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this land enters, you gain 1 life."
+    }
+  ]
+}

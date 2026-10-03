@@ -1,0 +1,20 @@
+{
+  "name": "Hithlain Knots",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "scry": 1
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Cathar's Companion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, this creature gains indestructible until end of turn."
+    }
+  ]
+}

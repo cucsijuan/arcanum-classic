@@ -1,0 +1,18 @@
+{
+  "name": "Weight of Memory",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "mill": 3,
+        "who": "target"
+      }
+    ]
+  }
+}

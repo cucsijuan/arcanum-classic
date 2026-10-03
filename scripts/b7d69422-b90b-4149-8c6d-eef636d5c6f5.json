@@ -1,0 +1,28 @@
+{
+  "name": "Eyeblight Cullers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        },
+        {
+          "mill": 3,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature dies, create three 1/1 green Elf Warrior creature tokens, then mill three cards."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Lothlórien Lookout",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, scry 1."
+    }
+  ]
+}

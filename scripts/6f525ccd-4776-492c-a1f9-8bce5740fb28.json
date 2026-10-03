@@ -1,0 +1,19 @@
+{
+  "name": "Vampire Opportunist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{B}",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{6}{B}: Each opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

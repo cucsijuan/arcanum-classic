@@ -1,0 +1,16 @@
+{
+  "name": "Tolarian Serpent",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mill": 7,
+          "who": "you"
+        }
+      ],
+      "text": "At the beginning of your upkeep, mill seven cards."
+    }
+  ]
+}

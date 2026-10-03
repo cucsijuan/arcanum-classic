@@ -1,0 +1,16 @@
+{
+  "name": "Gleaming Barrier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature dies, create a Treasure token."
+    }
+  ]
+}

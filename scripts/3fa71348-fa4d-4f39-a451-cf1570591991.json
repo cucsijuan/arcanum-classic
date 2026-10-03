@@ -1,0 +1,36 @@
+{
+  "name": "Imperious Perfect",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    },
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{G}, {T}: Create a 1/1 green Elf Warrior creature token."
+    }
+  ]
+}

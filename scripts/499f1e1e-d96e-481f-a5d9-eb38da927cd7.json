@@ -1,0 +1,25 @@
+{
+  "name": "Primordial Sage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a creature spell, you may draw a card."
+    }
+  ]
+}

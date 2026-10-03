@@ -1,0 +1,24 @@
+{
+  "name": "Furious Bellow",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

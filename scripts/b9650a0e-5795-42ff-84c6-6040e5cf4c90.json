@@ -1,0 +1,19 @@
+{
+  "name": "Icecave Crasher",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +1/+0 until end of turn."
+    }
+  ]
+}

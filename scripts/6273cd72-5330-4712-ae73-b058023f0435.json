@@ -1,0 +1,18 @@
+{
+  "name": "Moriok Replica",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "{1}{B}, Sacrifice this creature: You draw two cards and you lose 2 life."
+    }
+  ]
+}

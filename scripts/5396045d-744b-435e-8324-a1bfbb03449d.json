@@ -1,0 +1,44 @@
+{
+  "name": "Clachan Festival",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create two 1/1 green and white Kithkin creature tokens."
+    },
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{4}{W}: Create a 1/1 green and white Kithkin creature token."
+    }
+  ]
+}

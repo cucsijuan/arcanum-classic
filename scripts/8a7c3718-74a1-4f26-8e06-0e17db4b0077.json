@@ -1,0 +1,29 @@
+{
+  "name": "Gilded Pinions",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this Equipment enters, create a Treasure token."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature has flying."
+    }
+  ]
+}

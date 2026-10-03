@@ -1,0 +1,29 @@
+{
+  "name": "Lightning Diadem",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "When this Aura enters, it deals 2 damage to any target."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2."
+    }
+  ]
+}

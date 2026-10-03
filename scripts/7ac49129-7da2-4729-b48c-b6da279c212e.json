@@ -1,0 +1,30 @@
+{
+  "name": "Chilling Trap",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -4,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Wizard"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

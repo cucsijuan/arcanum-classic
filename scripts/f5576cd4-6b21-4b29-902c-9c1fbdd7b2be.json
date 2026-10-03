@@ -1,0 +1,25 @@
+{
+  "name": "Sudden Breakthrough",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

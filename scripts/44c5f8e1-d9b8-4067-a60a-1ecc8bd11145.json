@@ -1,0 +1,15 @@
+{
+  "name": "Augury Owl",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 3
+        }
+      ],
+      "text": "When this creature enters, scry 3."
+    }
+  ]
+}

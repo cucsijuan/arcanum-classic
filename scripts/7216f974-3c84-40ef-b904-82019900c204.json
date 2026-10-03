@@ -1,0 +1,19 @@
+{
+  "name": "Hedron Crab",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, target player mills three cards."
+    }
+  ]
+}

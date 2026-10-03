@@ -1,0 +1,28 @@
+{
+  "name": "Arterial Flow",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "discard": 2,
+        "who": "opponents"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Vampire"
+          }
+        },
+        "then": [
+          {
+            "loseLife": 2,
+            "who": "opponents"
+          },
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Folk of An-Havva",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature blocks, it gets +2/+0 until end of turn."
+    }
+  ]
+}

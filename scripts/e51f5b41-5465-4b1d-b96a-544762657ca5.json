@@ -1,0 +1,18 @@
+{
+  "name": "Novice Occultist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "When this creature dies, you draw a card and you lose 1 life."
+    }
+  ]
+}

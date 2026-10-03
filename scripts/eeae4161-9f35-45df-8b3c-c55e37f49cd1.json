@@ -1,0 +1,15 @@
+{
+  "name": "Deduce",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "tokens": 1,
+        "token": "Clue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Impact Tremors",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent."
+    }
+  ]
+}

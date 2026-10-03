@@ -1,0 +1,16 @@
+{
+  "name": "Cunning Lethemancer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "At the beginning of your upkeep, each player discards a card."
+    }
+  ]
+}

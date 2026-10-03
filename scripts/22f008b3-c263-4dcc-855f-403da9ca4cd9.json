@@ -1,0 +1,19 @@
+{
+  "name": "Knighthood",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Creatures you control have first strike."
+    }
+  ]
+}

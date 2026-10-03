@@ -1,0 +1,22 @@
+{
+  "name": "Cunning Maneuver",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Clue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Samut's Sprint",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

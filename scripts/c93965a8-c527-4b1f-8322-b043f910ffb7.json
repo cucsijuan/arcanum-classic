@@ -1,0 +1,21 @@
+{
+  "name": "Moonlit Wake",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a creature dies, you gain 1 life."
+    }
+  ]
+}

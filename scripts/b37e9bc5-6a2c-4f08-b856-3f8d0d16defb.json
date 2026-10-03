@@ -1,0 +1,17 @@
+{
+  "name": "Fire Nation Raider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, create a Clue token."
+    }
+  ]
+}

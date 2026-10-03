@@ -1,0 +1,19 @@
+{
+  "name": "Deadbridge Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature dies, target opponent discards a card."
+    }
+  ]
+}

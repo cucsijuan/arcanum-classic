@@ -1,0 +1,15 @@
+{
+  "name": "Stormcaller of Keranos",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{1}{U}: Scry 1."
+    }
+  ]
+}

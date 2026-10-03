@@ -1,0 +1,44 @@
+{
+  "name": "Drogskol Cavalry",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Spirit",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever another Spirit you control enters, you gain 2 life."
+    },
+    {
+      "cost": "{3}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{W}: Create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

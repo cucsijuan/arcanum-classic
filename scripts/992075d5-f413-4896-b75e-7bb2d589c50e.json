@@ -1,0 +1,24 @@
+{
+  "name": "Pendulum of Patterns",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this artifact enters, you gain 3 life."
+    },
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

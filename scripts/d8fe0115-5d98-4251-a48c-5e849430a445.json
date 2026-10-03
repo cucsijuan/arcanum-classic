@@ -1,0 +1,22 @@
+{
+  "name": "Root Spider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Whenever this creature blocks, it gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

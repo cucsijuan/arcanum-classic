@@ -1,0 +1,14 @@
+{
+  "name": "Consider",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 1
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

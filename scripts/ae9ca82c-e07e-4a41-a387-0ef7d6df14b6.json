@@ -1,0 +1,23 @@
+{
+  "name": "Onslaught",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever you cast a creature spell, tap target creature."
+    }
+  ]
+}

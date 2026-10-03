@@ -1,0 +1,15 @@
+{
+  "name": "Wretched Doll",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{B}, {T}: Surveil 1."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Rottenheart Ghoul",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature dies, target player discards a card."
+    }
+  ]
+}

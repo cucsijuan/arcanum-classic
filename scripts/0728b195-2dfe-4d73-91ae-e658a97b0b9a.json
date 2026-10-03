@@ -1,0 +1,20 @@
+{
+  "name": "Hard Evidence",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Crab",
+          "types": "Creature — Crab",
+          "power": 0,
+          "toughness": 3,
+          "colors": [
+            "U"
+          ]
+        }
+      }
+    ]
+  }
+}

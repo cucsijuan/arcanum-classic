@@ -1,0 +1,25 @@
+{
+  "name": "Might of the Ancestors",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gets +2/+0 and gains vigilance until end of turn."
+    }
+  ]
+}

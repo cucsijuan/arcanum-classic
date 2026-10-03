@@ -1,0 +1,31 @@
+{
+  "name": "Harrier Strix",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target permanent."
+    },
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{2}{U}: Draw a card, then discard a card."
+    }
+  ]
+}

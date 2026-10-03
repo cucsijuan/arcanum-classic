@@ -1,0 +1,15 @@
+{
+  "name": "Paradox Gardens",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}{U}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}{G}{U}, {T}: Surveil 1."
+    }
+  ]
+}

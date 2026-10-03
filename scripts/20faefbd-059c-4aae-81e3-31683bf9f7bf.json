@@ -1,0 +1,15 @@
+{
+  "name": "Jaddi Offshoot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you gain 1 life."
+    }
+  ]
+}

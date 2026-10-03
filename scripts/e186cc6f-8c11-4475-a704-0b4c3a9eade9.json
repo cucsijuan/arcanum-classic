@@ -1,0 +1,16 @@
+{
+  "name": "Byway Courier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this creature dies, investigate."
+    }
+  ]
+}

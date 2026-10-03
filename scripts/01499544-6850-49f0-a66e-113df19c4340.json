@@ -1,0 +1,19 @@
+{
+  "name": "Pheres-Band Brawler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "fight": "self",
+          "with": "target"
+        }
+      ],
+      "text": "When this creature enters, it fights up to one target creature you don't control."
+    }
+  ]
+}

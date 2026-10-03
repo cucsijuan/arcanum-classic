@@ -1,0 +1,16 @@
+{
+  "name": "Gift of Granite",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +0/+2."
+    }
+  ]
+}

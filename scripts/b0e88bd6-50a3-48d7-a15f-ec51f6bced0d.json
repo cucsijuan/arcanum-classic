@@ -1,0 +1,26 @@
+{
+  "name": "Bard, Heir of Girion",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +1/+1."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you attack, draw a card."
+    }
+  ]
+}

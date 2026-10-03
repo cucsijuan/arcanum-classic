@@ -1,0 +1,19 @@
+{
+  "name": "Piranha Marsh",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this land enters, target player loses 1 life."
+    }
+  ]
+}

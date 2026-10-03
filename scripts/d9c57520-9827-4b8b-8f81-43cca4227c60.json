@@ -1,0 +1,11 @@
+{
+  "name": "Taigam's Scheming",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 5
+      }
+    ]
+  }
+}

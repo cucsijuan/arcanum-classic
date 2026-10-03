@@ -1,0 +1,15 @@
+{
+  "name": "Prying Eyes",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 4
+      },
+      {
+        "discard": 2,
+        "who": "you"
+      }
+    ]
+  }
+}

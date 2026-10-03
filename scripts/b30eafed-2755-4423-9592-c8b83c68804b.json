@@ -1,0 +1,22 @@
+{
+  "name": "Watcher of the Wayside",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters, target player mills two cards. You gain 2 life."
+    }
+  ]
+}

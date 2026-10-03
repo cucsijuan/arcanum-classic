@@ -1,0 +1,16 @@
+{
+  "name": "Skull Prophet",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "mill": 2,
+          "who": "you"
+        }
+      ],
+      "text": "{T}: Mill two cards."
+    }
+  ]
+}

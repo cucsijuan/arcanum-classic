@@ -1,0 +1,18 @@
+{
+  "name": "Jeskai Shrinekeeper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you gain 1 life and draw a card."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Teetering Peaks",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this land enters, target creature gets +2/+0 until end of turn."
+    }
+  ]
+}

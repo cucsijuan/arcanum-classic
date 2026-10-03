@@ -1,0 +1,28 @@
+{
+  "name": "Setessan Training",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+0 and has trample."
+    }
+  ]
+}

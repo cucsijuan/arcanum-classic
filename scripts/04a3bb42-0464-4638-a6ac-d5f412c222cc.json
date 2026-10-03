@@ -1,0 +1,17 @@
+{
+  "name": "Deadly Visit",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "surveil": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Darksteel Pendant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{1}, {T}: Scry 1."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Tower of Murmurs",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 8,
+          "who": "target"
+        }
+      ],
+      "text": "{8}, {T}: Target player mills eight cards."
+    }
+  ]
+}

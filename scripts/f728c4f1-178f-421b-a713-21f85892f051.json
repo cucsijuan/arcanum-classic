@@ -1,0 +1,27 @@
+{
+  "name": "Scroll of Avacyn",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "control": {
+              "subtype": "Angel"
+            }
+          },
+          "then": [
+            {
+              "gainLife": 5
+            }
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card. If you control an Angel, you gain 5 life."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Lonely Arroyo",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this land enters, it deals 1 damage to target opponent."
+    }
+  ]
+}

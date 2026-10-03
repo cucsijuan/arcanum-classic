@@ -1,0 +1,19 @@
+{
+  "name": "Desolate Lighthouse",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}{R}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{1}{U}{R}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

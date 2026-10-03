@@ -1,0 +1,25 @@
+{
+  "name": "Viashino Bladescout",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature gains first strike until end of turn."
+    }
+  ]
+}

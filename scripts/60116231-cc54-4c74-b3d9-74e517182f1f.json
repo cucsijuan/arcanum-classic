@@ -1,0 +1,16 @@
+{
+  "name": "Hollowhenge Scavenger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "Morbid — When this creature enters, if a creature died this turn, you gain 5 life."
+    }
+  ]
+}

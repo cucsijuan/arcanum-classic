@@ -1,0 +1,15 @@
+{
+  "name": "Oggyar Battle-Seer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{T}: Scry 1."
+    }
+  ]
+}

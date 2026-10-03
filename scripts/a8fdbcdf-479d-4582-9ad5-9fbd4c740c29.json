@@ -1,0 +1,15 @@
+{
+  "name": "Spectral Sailor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}{U}: Draw a card."
+    }
+  ]
+}

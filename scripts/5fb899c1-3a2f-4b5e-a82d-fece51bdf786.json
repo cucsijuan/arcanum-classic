@@ -1,0 +1,21 @@
+{
+  "name": "Blessed Spirits",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, put a +1/+1 counter on this creature."
+    }
+  ]
+}

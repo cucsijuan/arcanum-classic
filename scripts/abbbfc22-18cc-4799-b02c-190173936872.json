@@ -1,0 +1,22 @@
+{
+  "name": "Bogardan Rager",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            4,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature gets +4/+0 until end of turn."
+    }
+  ]
+}

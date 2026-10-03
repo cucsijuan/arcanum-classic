@@ -1,0 +1,28 @@
+{
+  "name": "Omen of the Forge",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "When this enchantment enters, it deals 2 damage to any target."
+    },
+    {
+      "cost": "{2}{R}, sacrifice",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{2}{R}, Sacrifice this enchantment: Scry 2."
+    }
+  ]
+}

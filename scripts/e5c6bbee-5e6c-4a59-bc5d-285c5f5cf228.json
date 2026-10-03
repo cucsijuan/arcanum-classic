@@ -1,0 +1,19 @@
+{
+  "name": "Furtive Analyst",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{2}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

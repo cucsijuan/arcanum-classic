@@ -1,0 +1,28 @@
+{
+  "name": "Hero in Training",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "control": {
+              "subtype": "Hero",
+              "other": true
+            }
+          },
+          "then": [
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, draw a card. If you control another Hero, you gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Altac Bloodseeker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, this creature gets +2/+0 and gains first strike and haste until end of turn."
+    }
+  ]
+}

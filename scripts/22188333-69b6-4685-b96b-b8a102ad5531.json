@@ -1,0 +1,25 @@
+{
+  "name": "Blood Mist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gains double strike until end of turn."
+    }
+  ]
+}

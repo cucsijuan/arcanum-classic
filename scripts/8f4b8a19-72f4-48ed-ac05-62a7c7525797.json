@@ -1,0 +1,25 @@
+{
+  "name": "Mesa Enchantress",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, you may draw a card."
+    }
+  ]
+}

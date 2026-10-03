@@ -1,0 +1,15 @@
+{
+  "name": "Fields of Strife",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}{W}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}{R}{W}, {T}: Surveil 1."
+    }
+  ]
+}

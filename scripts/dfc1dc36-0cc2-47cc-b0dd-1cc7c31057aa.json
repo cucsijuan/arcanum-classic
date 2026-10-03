@@ -1,0 +1,22 @@
+{
+  "name": "Savor",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

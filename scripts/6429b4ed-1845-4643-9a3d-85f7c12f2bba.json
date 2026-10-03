@@ -1,0 +1,19 @@
+{
+  "name": "Nephalia Drownyard",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{1}{U}{B}, {T}: Target player mills three cards."
+    }
+  ]
+}

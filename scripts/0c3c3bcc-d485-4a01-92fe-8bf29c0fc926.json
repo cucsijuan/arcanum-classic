@@ -1,0 +1,19 @@
+{
+  "name": "Meteorite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "When this artifact enters, it deals 2 damage to any target."
+    }
+  ]
+}

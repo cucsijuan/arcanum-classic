@@ -1,0 +1,19 @@
+{
+  "name": "Jeska, Warrior Adept",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: Jeska, Warrior Adept deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ruthless Predation",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "fight": "self",
+        "with": "target2"
+      }
+    ]
+  }
+}

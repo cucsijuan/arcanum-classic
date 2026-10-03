@@ -1,0 +1,56 @@
+{
+  "name": "Primeval Bounty",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a creature spell, create a 3/3 green Beast creature token."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, put three +1/+1 counters on target creature you control."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you gain 3 life."
+    }
+  ]
+}

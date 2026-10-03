@@ -1,0 +1,30 @@
+{
+  "name": "Zhalfirin Lancer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Knight",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever another Knight you control enters, this creature gets +1/+1 and gains vigilance until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Deathcap Marionette",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Mill two cards?",
+          "effects": [
+            {
+              "mill": 2,
+              "who": "you"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may mill two cards."
+    }
+  ]
+}

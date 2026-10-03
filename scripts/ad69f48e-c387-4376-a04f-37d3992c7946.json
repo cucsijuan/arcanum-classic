@@ -1,0 +1,16 @@
+{
+  "name": "Fierce Witchstalker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create a Food token."
+    }
+  ]
+}

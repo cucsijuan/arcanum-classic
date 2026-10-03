@@ -1,0 +1,15 @@
+{
+  "name": "Titan's Grave",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}{G}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}{B}{G}, {T}: Surveil 1."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Magus of the Bazaar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 3,
+          "who": "you"
+        }
+      ],
+      "text": "{T}: Draw two cards, then discard three cards."
+    }
+  ]
+}

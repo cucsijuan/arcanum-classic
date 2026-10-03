@@ -1,0 +1,17 @@
+{
+  "name": "Nasty Little Rabbit",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": "ferocious",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Ferocious — At the beginning of combat on your turn, if you control a creature with power 4 or greater, put a +1/+1 counter on this creature."
+    }
+  ]
+}

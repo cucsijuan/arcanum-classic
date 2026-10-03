@@ -1,0 +1,30 @@
+{
+  "name": "Tura Kennerüd, Skyknight",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, create a 1/1 white Soldier creature token."
+    }
+  ]
+}

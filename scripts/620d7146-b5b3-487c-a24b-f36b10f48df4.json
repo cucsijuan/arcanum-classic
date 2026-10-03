@@ -1,0 +1,23 @@
+{
+  "name": "Angler Drake",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Return target creature to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target creature to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Noxious Toad",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature dies, each opponent discards a card."
+    }
+  ]
+}

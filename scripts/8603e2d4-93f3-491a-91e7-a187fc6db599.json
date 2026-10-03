@@ -1,0 +1,16 @@
+{
+  "name": "Bloodrage Brawler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature enters, discard a card."
+    }
+  ]
+}

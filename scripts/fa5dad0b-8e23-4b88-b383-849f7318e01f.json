@@ -1,0 +1,19 @@
+{
+  "name": "Improvised Weaponry",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

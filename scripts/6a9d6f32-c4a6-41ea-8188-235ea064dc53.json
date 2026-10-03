@@ -1,0 +1,22 @@
+{
+  "name": "Lumberknot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature dies, put a +1/+1 counter on this creature."
+    }
+  ]
+}

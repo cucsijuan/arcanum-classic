@@ -1,0 +1,17 @@
+{
+  "name": "Rubble Reading",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

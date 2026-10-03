@@ -1,0 +1,21 @@
+{
+  "name": "Inordinate Rage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Vampire Spawn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters, each opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

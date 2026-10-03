@@ -1,0 +1,24 @@
+{
+  "name": "Boggart Cursecrafter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "subtype": "Goblin",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another Goblin you control dies, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

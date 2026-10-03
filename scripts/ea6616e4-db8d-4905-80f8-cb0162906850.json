@@ -1,0 +1,32 @@
+{
+  "name": "Emeria Angel",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "may": "Create a 1/1 white Bird creature token with flying?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Bird",
+                "types": "Creature — Bird",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may create a 1/1 white Bird creature token with flying."
+    }
+  ]
+}

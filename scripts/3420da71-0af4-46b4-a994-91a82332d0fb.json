@@ -1,0 +1,21 @@
+{
+  "name": "Apothecary Geist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "subtype": "Spirit",
+          "other": true
+        }
+      },
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, if you control another Spirit, you gain 3 life."
+    }
+  ]
+}

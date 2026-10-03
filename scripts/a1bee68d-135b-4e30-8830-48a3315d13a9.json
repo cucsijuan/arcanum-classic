@@ -1,0 +1,17 @@
+{
+  "name": "Rix Maadi, Dungeon Palace",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}{R}, {T}",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{1}{B}{R}, {T}: Each player discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Malakir Cullblade",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, put a +1/+1 counter on this creature."
+    }
+  ]
+}

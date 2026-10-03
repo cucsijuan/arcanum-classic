@@ -1,0 +1,27 @@
+{
+  "name": "Wirewood Savage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Beast",
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Beast enters, you may draw a card."
+    }
+  ]
+}

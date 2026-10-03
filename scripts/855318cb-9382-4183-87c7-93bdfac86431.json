@@ -1,0 +1,34 @@
+{
+  "name": "Robotics Mastery",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Robot",
+            "types": "Creature — Robot",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this Aura enters, create two 1/1 colorless Robot artifact creature tokens with flying."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Prismari Campus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{4}, {T}: Scry 1."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Deception",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Foresee",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "scry": 4
+      },
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Rakshasa's Secret",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      },
+      {
+        "mill": 2,
+        "who": "you"
+      }
+    ]
+  }
+}

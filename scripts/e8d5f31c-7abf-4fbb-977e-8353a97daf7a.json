@@ -1,0 +1,15 @@
+{
+  "name": "Mental Note",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "mill": 2,
+        "who": "you"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Undercity Sewers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this land enters, surveil 1."
+    }
+  ]
+}

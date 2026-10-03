@@ -1,0 +1,18 @@
+{
+  "name": "Yotian Tactician",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Soldier",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Soldiers you control get +1/+1."
+    }
+  ]
+}

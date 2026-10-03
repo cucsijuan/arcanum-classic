@@ -1,0 +1,25 @@
+{
+  "name": "Scavenged Weaponry",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1."
+    }
+  ]
+}

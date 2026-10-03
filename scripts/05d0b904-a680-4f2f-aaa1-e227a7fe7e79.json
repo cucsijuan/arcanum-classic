@@ -1,0 +1,23 @@
+{
+  "name": "Unruly Mob",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature you control dies, put a +1/+1 counter on this creature."
+    }
+  ]
+}

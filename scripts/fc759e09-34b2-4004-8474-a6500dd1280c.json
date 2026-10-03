@@ -1,0 +1,16 @@
+{
+  "name": "Morgue Thrull",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "mill": 3,
+          "who": "you"
+        }
+      ],
+      "text": "Sacrifice this creature: Mill three cards."
+    }
+  ]
+}

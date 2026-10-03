@@ -1,0 +1,19 @@
+{
+  "name": "Millstone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "{2}, {T}: Target player mills two cards."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Savage Smash",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "fight": "self",
+        "with": "target2"
+      }
+    ]
+  }
+}

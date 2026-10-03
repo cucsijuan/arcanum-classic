@@ -1,0 +1,15 @@
+{
+  "name": "Forum of Amity",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}{B}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}{W}{B}, {T}: Surveil 1."
+    }
+  ]
+}

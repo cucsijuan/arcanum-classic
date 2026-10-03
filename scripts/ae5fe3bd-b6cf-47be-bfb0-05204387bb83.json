@@ -1,0 +1,24 @@
+{
+  "name": "Tilonalli's Knight",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "control": {
+          "subtype": "Dinosaur"
+        }
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, if you control a Dinosaur, this creature gets +1/+1 until end of turn."
+    }
+  ]
+}

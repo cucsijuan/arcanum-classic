@@ -1,0 +1,19 @@
+{
+  "name": "Malakir Familiar",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, this creature gets +1/+1 until end of turn."
+    }
+  ]
+}

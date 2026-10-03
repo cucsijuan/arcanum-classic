@@ -1,0 +1,43 @@
+{
+  "name": "Siege Veteran",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "subtype": "Soldier",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever another nontoken Soldier you control dies, create a 1/1 colorless Soldier artifact creature token."
+    }
+  ]
+}

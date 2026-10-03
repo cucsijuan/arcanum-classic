@@ -1,0 +1,17 @@
+{
+  "name": "Sinister Sabotage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

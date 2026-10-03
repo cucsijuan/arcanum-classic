@@ -1,0 +1,28 @@
+{
+  "name": "Harvester of Souls",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature dies, you may draw a card."
+    }
+  ]
+}

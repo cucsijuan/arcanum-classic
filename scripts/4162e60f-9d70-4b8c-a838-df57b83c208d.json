@@ -1,0 +1,24 @@
+{
+  "name": "Obyra, Dreaming Duelist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Faerie",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever another Faerie you control enters, each opponent loses 1 life."
+    }
+  ]
+}

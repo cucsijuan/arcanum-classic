@@ -1,0 +1,11 @@
+{
+  "name": "Contingency Plan",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 5
+      }
+    ]
+  }
+}

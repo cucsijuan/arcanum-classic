@@ -1,0 +1,19 @@
+{
+  "name": "Emmessi Tome",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{5}, {T}: Draw two cards, then discard a card."
+    }
+  ]
+}

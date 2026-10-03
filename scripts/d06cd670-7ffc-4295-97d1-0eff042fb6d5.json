@@ -1,0 +1,16 @@
+{
+  "name": "Jenara, Asura of War",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{1}{W}: Put a +1/+1 counter on Jenara, Asura of War."
+    }
+  ]
+}

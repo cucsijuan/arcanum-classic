@@ -1,0 +1,20 @@
+{
+  "name": "Ulvenwald Bear",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "Morbid — When this creature enters, if a creature died this turn, put two +1/+1 counters on target creature."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Team Transmitter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Hero",
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a Hero you control enters, you gain 1 life."
+    }
+  ]
+}

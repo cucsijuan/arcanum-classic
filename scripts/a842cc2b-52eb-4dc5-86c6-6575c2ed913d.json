@@ -1,0 +1,24 @@
+{
+  "name": "Zendikar's Roil",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 2/2 green Elemental creature token."
+    }
+  ]
+}

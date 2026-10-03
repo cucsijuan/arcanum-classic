@@ -1,0 +1,25 @@
+{
+  "name": "Well-Worn Spatula",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this Equipment enters, you gain 2 life."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    }
+  ]
+}

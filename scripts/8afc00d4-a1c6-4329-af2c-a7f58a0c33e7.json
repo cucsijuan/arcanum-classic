@@ -1,0 +1,16 @@
+{
+  "name": "Ruin Crab",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "mill": 3,
+          "who": "opponents"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, each opponent mills three cards."
+    }
+  ]
+}

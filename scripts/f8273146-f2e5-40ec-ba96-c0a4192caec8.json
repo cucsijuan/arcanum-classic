@@ -1,0 +1,23 @@
+{
+  "name": "Alaborn Cavalier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Tap target creature?",
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may tap target creature."
+    }
+  ]
+}

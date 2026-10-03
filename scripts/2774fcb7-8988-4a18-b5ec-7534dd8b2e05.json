@@ -1,0 +1,17 @@
+{
+  "name": "Hour of Defeat",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

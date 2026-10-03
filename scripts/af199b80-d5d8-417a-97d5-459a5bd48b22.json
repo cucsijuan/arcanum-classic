@@ -1,0 +1,21 @@
+{
+  "name": "Prescient Chimera",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, scry 1."
+    }
+  ]
+}

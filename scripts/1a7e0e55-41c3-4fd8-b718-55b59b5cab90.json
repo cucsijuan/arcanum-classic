@@ -1,0 +1,16 @@
+{
+  "name": "Liliana's Specter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature enters, each opponent discards a card."
+    }
+  ]
+}

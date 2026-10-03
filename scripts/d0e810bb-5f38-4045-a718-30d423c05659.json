@@ -1,0 +1,23 @@
+{
+  "name": "Poison-Tip Archer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever another creature dies, each opponent loses 1 life."
+    }
+  ]
+}

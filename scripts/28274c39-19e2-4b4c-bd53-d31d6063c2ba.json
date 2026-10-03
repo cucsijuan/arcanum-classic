@@ -1,0 +1,25 @@
+{
+  "name": "Weaver of Lightning",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature deals 1 damage to target creature an opponent controls."
+    }
+  ]
+}

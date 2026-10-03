@@ -1,0 +1,36 @@
+{
+  "name": "Cogworker's Puzzleknot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Servo",
+            "types": "Creature — Servo",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this artifact enters, create a 1/1 colorless Servo artifact creature token."
+    },
+    {
+      "cost": "{1}{W}, sacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Servo",
+            "types": "Creature — Servo",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{1}{W}, Sacrifice this artifact: Create a 1/1 colorless Servo artifact creature token."
+    }
+  ]
+}

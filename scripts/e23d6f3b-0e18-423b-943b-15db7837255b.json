@@ -1,0 +1,35 @@
+{
+  "name": "Fires of Yavimaya",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creatures you control have haste."
+    },
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: Target creature gets +2/+2 until end of turn."
+    }
+  ]
+}

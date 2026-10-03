@@ -1,0 +1,19 @@
+{
+  "name": "Dragonborn Looter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{1}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

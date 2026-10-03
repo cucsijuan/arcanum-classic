@@ -1,0 +1,31 @@
+{
+  "name": "Skateboard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "When this Equipment enters, tap target permanent."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 and has haste."
+    }
+  ]
+}

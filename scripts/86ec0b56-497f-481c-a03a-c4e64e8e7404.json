@@ -1,0 +1,25 @@
+{
+  "name": "Searslicer Goblin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token."
+    }
+  ]
+}

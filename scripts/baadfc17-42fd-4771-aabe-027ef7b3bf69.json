@@ -1,0 +1,24 @@
+{
+  "name": "Witching Well",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this artifact enters, scry 2."
+    },
+    {
+      "cost": "{3}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{3}{U}, Sacrifice this artifact: Draw two cards."
+    }
+  ]
+}

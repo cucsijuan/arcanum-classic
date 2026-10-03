@@ -1,0 +1,22 @@
+{
+  "name": "Belligerent Whiptail",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gains first strike until end of turn."
+    }
+  ]
+}

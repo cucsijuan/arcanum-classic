@@ -1,0 +1,18 @@
+{
+  "name": "Tithebearer Giant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "When this creature enters, you draw a card and you lose 1 life."
+    }
+  ]
+}

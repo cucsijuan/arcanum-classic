@@ -1,0 +1,16 @@
+{
+  "name": "Storm Fleet Spy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, draw a card."
+    }
+  ]
+}

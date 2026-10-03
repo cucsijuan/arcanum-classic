@@ -1,0 +1,37 @@
+{
+  "name": "Darling of the Masses",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Citizen",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Other Citizens you control get +1/+0."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Citizen",
+            "types": "Creature — Citizen",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, create a 1/1 green and white Citizen creature token."
+    }
+  ]
+}

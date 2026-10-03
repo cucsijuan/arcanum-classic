@@ -1,0 +1,20 @@
+{
+  "name": "Navigator's Ruin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "raid",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "mill": 4,
+          "who": "target"
+        }
+      ],
+      "text": "Raid — At the beginning of your end step, if you attacked this turn, target opponent mills four cards."
+    }
+  ]
+}

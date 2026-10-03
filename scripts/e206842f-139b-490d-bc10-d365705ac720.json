@@ -1,0 +1,27 @@
+{
+  "name": "Seeker of the Way",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, this creature gains lifelink until end of turn."
+    }
+  ]
+}

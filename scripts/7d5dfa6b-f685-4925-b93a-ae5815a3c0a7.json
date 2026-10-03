@@ -1,0 +1,15 @@
+{
+  "name": "Rain of Revelation",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "discard": 1,
+        "who": "you"
+      }
+    ]
+  }
+}

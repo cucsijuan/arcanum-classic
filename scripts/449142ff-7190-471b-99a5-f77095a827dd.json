@@ -1,0 +1,20 @@
+{
+  "name": "Surveilling Sprite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may draw a card."
+    }
+  ]
+}

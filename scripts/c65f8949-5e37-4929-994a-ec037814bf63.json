@@ -1,0 +1,33 @@
+{
+  "name": "Cult Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{3}{B}, {T}: Target player discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    },
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, {T}: This creature deals 1 damage to target opponent or planeswalker."
+    }
+  ]
+}

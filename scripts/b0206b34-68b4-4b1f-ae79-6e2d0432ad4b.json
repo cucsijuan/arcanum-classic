@@ -1,0 +1,21 @@
+{
+  "name": "Titan's Strength",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

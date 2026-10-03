@@ -1,0 +1,28 @@
+{
+  "name": "Future Flight",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this Aura enters, draw two cards."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+0 and has flying."
+    }
+  ]
+}

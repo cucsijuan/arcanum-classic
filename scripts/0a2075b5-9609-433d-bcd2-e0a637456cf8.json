@@ -1,0 +1,35 @@
+{
+  "name": "Maja, Bretagard Protector",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +1/+1."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Warrior",
+            "types": "Creature — Human Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 white Human Warrior creature token."
+    }
+  ]
+}

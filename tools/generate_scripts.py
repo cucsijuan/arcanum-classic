@@ -22,9 +22,13 @@ SCRIPTS = os.path.join(HERE, "..", "scripts")
 # Keywords the engine implements (keep in sync with the engine's Keyword enum).
 ENGINE_KEYWORDS = {
     "flying", "reach", "vigilance", "haste", "defender", "menace", "trample", "deathtouch", "lifelink",
-    "first strike", "double strike", "indestructible", "hexproof", "shroud",
+    "first strike", "double strike", "indestructible", "hexproof", "shroud", "flash", "prowess",
     "equip", "enchant",  # derived from rules text by the engine's card factory
+    # keyword actions and ability words: they label rules text the script spells out
+    "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
+    "raid", "landfall", "morbid", "threshold", "ferocious",
 }
+ABILITY_WORD = re.compile(r"^(Raid|Landfall|Morbid|Threshold|Ferocious|Formidable|Alliance) — ")
 # Lines the engine derives from card data on its own.
 DERIVED_LINE = re.compile(
     r"^(\{T\}: Add \{[WUBRGC]\}((, | or |, or )\{[WUBRGC]\})*"
@@ -100,12 +104,77 @@ def keywords_list(text):
     return out
 
 
+PREDEFINED_TOKENS = {"Treasure", "Food", "Clue"}
+
+CONDITIONS = {
+    "you attacked this turn": "raid",
+    "a creature died this turn": "morbid",
+    "you gained life this turn": "gainedLife",
+    "seven or more cards are in your graveyard": "threshold",
+    "there are seven or more cards in your graveyard": "threshold",
+    "you control a creature with power 4 or greater": "ferocious",
+}
+
+
+def condition(text):
+    """'you attacked this turn' -> 'raid'; 'you control a Wizard' -> {control: ...}. Raises Unsupported."""
+    text = text.strip()
+    if text in CONDITIONS:
+        return CONDITIONS[text]
+    m = re.fullmatch(r"you control (?:a|an|another) ([A-Z][a-z]+)", text)
+    if m:
+        return {"control": {"subtype": m.group(1), **({"other": True} if "another" in text else {})}}
+    m = re.fullmatch(r"you control (\w+) or more (creatures|artifacts|enchantments|lands)", text)
+    if m:
+        return {"control": {"types": [m.group(2)[:-1]]}, "count": num(m.group(1))}
+    m = re.fullmatch(r"you have (\d+) or more life", text)
+    if m:
+        return {"life": int(m.group(1))}
+    raise Unsupported("if " + text)
+
+
 def effect(sentence, b):
     """Parses one effect sentence (no trailing period). Returns a list of effect dicts."""
     s = sentence.strip()
     s = re.sub(r"^(Then|then) ", "", s)
     if s and s[0].islower() and not s.startswith(("it ",)):
         s = s[0].upper() + s[1:]
+    # Compound sentences: "Draw a card, then discard a card", "You gain 2 life and draw a card".
+    m = re.fullmatch(r"(.+?), then (.+)", s)
+    if m:
+        return effect(m.group(1), b) + effect(m.group(2), b)
+    m = re.fullmatch(r"(Each opponent loses \w+ life|You gain \w+ life|You draw \w+ cards?|Draw \w+ cards?) and (you gain \w+ life|draw \w+ cards?|you lose \w+ life|scry \w+|surveil \w+)", s)
+    if m:
+        return effect(m.group(1), b) + effect(m.group(2), b)
+    m = re.fullmatch(r"If (.+?), (.+)", s)
+    if m:
+        return [{"if": condition(m.group(1)), "then": effect(m.group(2), b)}]
+    m = re.fullmatch(r"You may (.+)", s)
+    if m:
+        inner = m.group(1)
+        return [{"may": inner[0].upper() + inner[1:] + "?", "effects": effect(inner, b)}]
+    m = re.fullmatch(r"(Scry|Surveil) (\d+)", s)
+    if m:
+        return [{m.group(1).lower(): int(m.group(2))}]
+    if s == "Investigate":
+        return [{"tokens": 1, "token": "Clue"}]
+    m = re.fullmatch(r"Create (\w+) (Treasure|Food|Clue) tokens?", s)
+    if m:
+        return [{"tokens": num(m.group(1)), "token": m.group(2)}]
+    m = re.fullmatch(r"(Target creature you control|This creature|CARDNAME|It|it) fights (target creature(?: you don't control| an opponent controls)?|up to one target creature you don't control)", s)
+    if m:
+        first = "self" if not m.group(1).startswith("Target") else b.add_target("creature:you")
+        second = b.add_target("creature" if m.group(2) == "target creature" else "creature:opponent")
+        return [{"fight": first, "with": second}]
+    m = re.fullmatch(r"(Target player|Target opponent|Each opponent|Each player|You) discards? (\w+) cards?", s)
+    if m:
+        who = {"Each opponent": "opponents", "Each player": "everyone", "You": "you"}.get(m.group(1))
+        if who is None:
+            who = b.add_target("player" if m.group(1) == "Target player" else "opponent")
+        return [{"discard": num(m.group(2)), "who": who}]
+    m = re.fullmatch(r"Discard (\w+) cards?", s)
+    if m:
+        return [{"discard": num(m.group(1)), "who": "you"}]
     m = re.fullmatch(r"(?:CARDNAME|This \w+|It|it) deals (\w+) damage to (.+?)(?: and (\w+) damage to that (?:creature|permanent)'s controller)?", s)
     if m:
         kind = target_kind(m.group(2))
@@ -157,6 +226,9 @@ def effect(sentence, b):
         return [{"bounce": b.add_target(kind)}]
     if s == "Counter target spell":
         return [{"counter": b.add_target("spell")}]
+    m = re.fullmatch(r"Mill (\w+) cards?", s)
+    if m:
+        return [{"mill": num(m.group(1)), "who": "you"}]
     m = re.fullmatch(r"(Target player|Target opponent|Each opponent|You) mills? (\w+) cards?", s)
     if m:
         who = {"Each opponent": "opponents", "You": "you"}.get(m.group(1))
@@ -206,13 +278,47 @@ def effects_of(text, b):
 
 
 TRIGGERS = [
-    (r"When (?:this creature|CARDNAME) enters, (.+)", "enters"),
+    (r"When (?:this \w+|CARDNAME) enters, (.+)", "enters"),
+    (r"Whenever (?:this creature|CARDNAME) blocks, (.+)", "blocks"),
+    (r"Whenever (?:this creature|CARDNAME) attacks or blocks, (.+)", "attacksOrBlocks"),
+    (r"Whenever a land you control enters, (.+)", "landfall"),
+    (r"Whenever you gain life, (.+)", "gainLife"),
+    (r"At the beginning of combat on your turn, (.+)", "beginCombat"),
+    (r"Whenever you attack, (.+)", "youAttack"),
     (r"When (?:this creature|CARDNAME) dies, (.+)", "dies"),
     (r"Whenever (?:this creature|CARDNAME) attacks, (.+)", "attacks"),
     (r"At the beginning of your upkeep, (.+)", "upkeep"),
     (r"At the beginning of your end step, (.+)", "endStep"),
     (r"Whenever (?:this creature|CARDNAME) deals combat damage to a player, (.+)", "combatDamageToPlayer"),
 ]
+
+PLURALS = {"Elves": "Elf", "Wolves": "Wolf", "Dwarves": "Dwarf"}
+
+
+def singular(word):
+    return PLURALS.get(word, word[:-1] if word.endswith("s") else word)
+
+
+def filtered_trigger(line):
+    """Triggers on other objects: returns (trigger, filter, rest) or None."""
+    m = re.fullmatch(r"Whenever (a|another) (nontoken )?(creature|[A-Z][a-z]+)( you control| an opponent controls)? (enters|dies), (.+)", line)
+    if m:
+        f = {}
+        if m.group(3) != "creature":
+            f["subtype"] = m.group(3)
+        f["types"] = ["creature"]
+        if m.group(1) == "another":
+            f["other"] = True
+        if m.group(2):
+            f["token"] = False
+        f["controller"] = {" you control": "you", " an opponent controls": "opponent", None: "any"}[m.group(4)]
+        return ("creatureEnters" if m.group(5) == "enters" else "creatureDies"), f, m.group(6)
+    m = re.fullmatch(r"Whenever you cast (?:a|an) (noncreature|creature|instant or sorcery|instant|sorcery|enchantment|artifact) spell, (.+)", line)
+    if m:
+        kind = m.group(1)
+        f = {"not": ["creature"]} if kind == "noncreature" else {"types": kind.split(" or ")}
+        return "castSpell", f, m.group(2)
+    return None
 
 
 def parse_cost(cost):
@@ -244,6 +350,18 @@ def static(line):
         if m.group(5):
             st["keywords"] = keywords_list(m.group(5))
         return st
+    m = re.fullmatch(r"Other ([A-Z][a-z]+) you control get ([+-]\d+)/([+-]\d+)(?: and have (.+))?", line)
+    if m and m.group(1) not in ("creatures",):
+        st = {"affects": "creatures:you", "other": True, "subtype": singular(m.group(1)), "pump": [int(m.group(2)), int(m.group(3))]}
+        if m.group(4):
+            st["keywords"] = keywords_list(m.group(4))
+        return st
+    m = re.fullmatch(r"(Other )?[Cc]reatures you control have (.+)", line)
+    if m:
+        st = {"affects": "creatures:you", "pump": [0, 0], "keywords": keywords_list(m.group(2))}
+        if m.group(1):
+            st["other"] = True
+        return st
     m = re.fullmatch(r"Creatures your opponents control get ([+-]\d+)/([+-]\d+)", line)
     if m:
         return {"affects": "creatures:opponents", "pump": [int(m.group(1)), int(m.group(2))]}
@@ -268,8 +386,9 @@ def is_keyword_line(line, keywords):
 def generate(card):
     if card.get("layout") not in SINGLE_FACE:
         raise Unsupported("layout")
-    if any(k.lower() not in ENGINE_KEYWORDS for k in card.get("keywords", [])):
-        raise Unsupported("keyword")
+    for k in card.get("keywords", []):
+        if k.lower() not in ENGINE_KEYWORDS:
+            raise Unsupported("keyword " + k)
     for stat in ("power", "toughness"):
         if stat in card and not re.fullmatch(r"-?\d+", card[stat]):
             raise Unsupported("stat")
@@ -279,6 +398,8 @@ def generate(card):
     name = card["name"]
     text = re.sub(r"\s*\([^)]*\)", "", card.get("oracle_text", ""))
     text = text.replace(name, "CARDNAME")
+    if "Legendary" in card.get("type_line", "") and "," in name:
+        text = text.replace(name.split(",")[0], "CARDNAME")  # "Whenever Alesha attacks"
     types = card.get("type_line", "")
     is_spell = "Instant" in types or "Sorcery" in types
     lines = [l.strip() for l in text.split("\n") if l.strip()]
@@ -287,6 +408,8 @@ def generate(card):
     abilities = []
     spell_text = []
     for line in lines:
+        original = line
+        line = ABILITY_WORD.sub("", line)
         bare = line.rstrip(".")
         if DERIVED_LINE.fullmatch(bare) or is_keyword_line(bare, card.get("keywords", [])):
             continue
@@ -301,21 +424,30 @@ def generate(card):
         if st is not None:
             abilities.append({"static": st, "text": line.replace("CARDNAME", name)})
             continue
-        handled = False
+        trig = None
         for pattern, trigger in TRIGGERS:
             m = re.fullmatch(pattern, line)
             if m:
-                b = Builder()
-                effs = effects_of(m.group(1), b)
-                ab = {"trigger": trigger}
-                if b.targets:
-                    ab["targets"] = b.targets
-                ab["effects"] = effs
-                ab["text"] = line.replace("CARDNAME", name)
-                abilities.append(ab)
-                handled = True
+                trig = (trigger, None, m.group(1))
                 break
-        if handled:
+        if trig is None:
+            trig = filtered_trigger(line)
+        if trig is not None:
+            trigger, flt, rest = trig
+            ab = {"trigger": trigger}
+            if flt:
+                ab["filter"] = flt
+            m = re.fullmatch(r"if (.+?), (.+)", rest)
+            if m:
+                ab["if"] = condition(m.group(1))
+                rest = m.group(2)
+            b = Builder()
+            effs = effects_of(rest, b)
+            if b.targets:
+                ab["targets"] = b.targets
+            ab["effects"] = effs
+            ab["text"] = original.replace("CARDNAME", name)
+            abilities.append(ab)
             continue
         m = re.fullmatch(r"([^:]+): (.+)", line)
         if m and not m.group(1).startswith(("When", "Whenever", "At ")):

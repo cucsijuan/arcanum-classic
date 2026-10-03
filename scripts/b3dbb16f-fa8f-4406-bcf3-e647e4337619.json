@@ -1,0 +1,15 @@
+{
+  "name": "Kabira Crossroads",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this land enters, you gain 2 life."
+    }
+  ]
+}

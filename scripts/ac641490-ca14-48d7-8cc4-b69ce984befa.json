@@ -1,0 +1,14 @@
+{
+  "name": "Preordain",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "scry": 2
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

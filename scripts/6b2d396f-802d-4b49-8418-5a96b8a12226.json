@@ -1,0 +1,15 @@
+{
+  "name": "Pride Guardian",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever this creature blocks, you gain 3 life."
+    }
+  ]
+}

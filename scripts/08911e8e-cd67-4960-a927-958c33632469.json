@@ -1,0 +1,25 @@
+{
+  "name": "Sandstone Bridge",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "When this land enters, target creature gets +1/+1 and gains vigilance until end of turn."
+    }
+  ]
+}

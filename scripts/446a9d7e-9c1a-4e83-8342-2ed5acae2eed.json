@@ -1,0 +1,15 @@
+{
+  "name": "Tome Scour",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": 5,
+        "who": "target"
+      }
+    ]
+  }
+}

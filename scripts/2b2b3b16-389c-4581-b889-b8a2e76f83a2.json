@@ -1,0 +1,16 @@
+{
+  "name": "Meticulous Artisan",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters, create a Treasure token."
+    }
+  ]
+}

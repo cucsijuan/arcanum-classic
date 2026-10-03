@@ -1,0 +1,27 @@
+{
+  "name": "Omen of the Sea",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this enchantment enters, scry 2, then draw a card."
+    },
+    {
+      "cost": "{2}{U}, sacrifice",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{2}{U}, Sacrifice this enchantment: Scry 2."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Champion of the Parish",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Human",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Human you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

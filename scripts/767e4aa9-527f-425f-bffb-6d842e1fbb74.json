@@ -1,0 +1,24 @@
+{
+  "name": "Swarm of Bloodflies",
+  "generated": true,
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature dies, put a +1/+1 counter on this creature."
+    }
+  ]
+}

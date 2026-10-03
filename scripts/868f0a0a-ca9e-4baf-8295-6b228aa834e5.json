@@ -1,0 +1,38 @@
+{
+  "name": "Tegwyll, Duke of Splendor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Faerie",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Faeries you control get +1/+1."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "subtype": "Faerie",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever another Faerie you control dies, you draw a card and you lose 1 life."
+    }
+  ]
+}

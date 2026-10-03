@@ -1,0 +1,21 @@
+{
+  "name": "Resistance Squad",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "subtype": "Human",
+          "other": true
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, if you control another Human, draw a card."
+    }
+  ]
+}

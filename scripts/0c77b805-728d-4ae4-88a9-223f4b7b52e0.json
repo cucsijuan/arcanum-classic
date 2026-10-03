@@ -1,0 +1,23 @@
+{
+  "name": "Corpse Knight",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever another creature you control enters, each opponent loses 1 life."
+    }
+  ]
+}

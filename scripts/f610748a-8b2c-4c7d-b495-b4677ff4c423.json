@@ -1,0 +1,22 @@
+{
+  "name": "Kalastria Nightwatch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, this creature gains flying until end of turn."
+    }
+  ]
+}

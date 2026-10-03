@@ -1,0 +1,21 @@
+{
+  "name": "Lost in a Labyrinth",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

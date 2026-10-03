@@ -1,0 +1,28 @@
+{
+  "name": "Corsair Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters, create a Treasure token."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Pirate",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Pirates you control get +1/+1."
+    }
+  ]
+}

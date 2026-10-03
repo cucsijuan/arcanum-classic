@@ -1,0 +1,21 @@
+{
+  "name": "Lyra Dawnbringer",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Angel",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Other Angels you control get +1/+1 and have lifelink."
+    }
+  ]
+}

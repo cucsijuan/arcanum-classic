@@ -1,0 +1,22 @@
+{
+  "name": "Broadside Barrage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "discard": 1,
+        "who": "you"
+      }
+    ]
+  }
+}

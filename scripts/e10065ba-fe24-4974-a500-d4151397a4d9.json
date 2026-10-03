@@ -1,0 +1,22 @@
+{
+  "name": "Trail of Evidence",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, investigate."
+    }
+  ]
+}

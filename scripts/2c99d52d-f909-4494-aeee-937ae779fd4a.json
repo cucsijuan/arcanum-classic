@@ -1,0 +1,19 @@
+{
+  "name": "Sustainer of the Realm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature blocks, it gets +0/+2 until end of turn."
+    }
+  ]
+}

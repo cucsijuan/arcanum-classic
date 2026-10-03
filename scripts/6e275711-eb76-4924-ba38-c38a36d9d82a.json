@@ -1,0 +1,20 @@
+{
+  "name": "Troll Negotiations",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "counters": 2,
+        "what": "target"
+      },
+      {
+        "fight": "self",
+        "with": "target2"
+      }
+    ]
+  }
+}

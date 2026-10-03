@@ -1,0 +1,17 @@
+{
+  "name": "Tel-Jilad Justice",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

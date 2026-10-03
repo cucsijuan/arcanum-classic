@@ -1,0 +1,18 @@
+{
+  "name": "Notion Rain",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 2
+      },
+      {
+        "draw": 2
+      },
+      {
+        "damage": 2,
+        "to": "you"
+      }
+    ]
+  }
+}

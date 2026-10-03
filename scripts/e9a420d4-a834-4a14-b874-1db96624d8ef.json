@@ -1,0 +1,19 @@
+{
+  "name": "Rotcrown Ghoul",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 5,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature dies, target player mills five cards."
+    }
+  ]
+}

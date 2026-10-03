@@ -1,0 +1,23 @@
+{
+  "name": "Niblis of the Mist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Tap target creature?",
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may tap target creature."
+    }
+  ]
+}

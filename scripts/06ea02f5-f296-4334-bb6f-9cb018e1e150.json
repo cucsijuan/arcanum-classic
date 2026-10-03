@@ -1,0 +1,19 @@
+{
+  "name": "Thought Courier",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{T}: Draw a card, then discard a card."
+    }
+  ]
+}

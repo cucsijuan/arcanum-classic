@@ -1,0 +1,37 @@
+{
+  "name": "Judith, the Scourge Diva",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +1/+0."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, Judith, the Scourge Diva deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Laboratory Brute",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature enters, mill four cards."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Novice Inspector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this creature enters, investigate."
+    }
+  ]
+}

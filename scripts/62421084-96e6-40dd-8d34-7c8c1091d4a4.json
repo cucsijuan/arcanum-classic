@@ -1,0 +1,27 @@
+{
+  "name": "Muse's Encouragement",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Elemental",
+          "types": "Creature — Elemental",
+          "power": 3,
+          "toughness": 3,
+          "colors": [
+            "U",
+            "R"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      },
+      {
+        "surveil": 2
+      }
+    ]
+  }
+}

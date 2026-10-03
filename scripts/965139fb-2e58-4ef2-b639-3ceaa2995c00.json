@@ -1,0 +1,15 @@
+{
+  "name": "Catalog",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "discard": 1,
+        "who": "you"
+      }
+    ]
+  }
+}

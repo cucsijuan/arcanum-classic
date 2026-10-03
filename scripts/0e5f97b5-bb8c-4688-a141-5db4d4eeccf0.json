@@ -1,0 +1,24 @@
+{
+  "name": "Futurist Forge",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "cost": "{3}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{3}{U}, Sacrifice this artifact: Draw two cards."
+    }
+  ]
+}

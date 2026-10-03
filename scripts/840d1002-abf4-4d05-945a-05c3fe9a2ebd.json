@@ -1,0 +1,22 @@
+{
+  "name": "Geyser Glider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gains flying until end of turn."
+    }
+  ]
+}

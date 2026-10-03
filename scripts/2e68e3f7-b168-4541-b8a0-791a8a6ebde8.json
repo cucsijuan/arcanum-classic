@@ -1,0 +1,17 @@
+{
+  "name": "Cruel Truths",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 2
+      },
+      {
+        "draw": 2
+      },
+      {
+        "loseLife": 2
+      }
+    ]
+  }
+}

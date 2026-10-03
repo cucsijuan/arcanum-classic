@@ -1,0 +1,23 @@
+{
+  "name": "Dispersal Technician",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "may": "Return target artifact to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target artifact to its owner's hand."
+    }
+  ]
+}

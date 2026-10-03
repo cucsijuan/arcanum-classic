@@ -1,0 +1,15 @@
+{
+  "name": "Think Tank",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1."
+    }
+  ]
+}

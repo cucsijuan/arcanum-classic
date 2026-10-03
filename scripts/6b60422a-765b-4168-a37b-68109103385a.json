@@ -1,0 +1,19 @@
+{
+  "name": "Abyssal Horror",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 2,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target player discards two cards."
+    }
+  ]
+}

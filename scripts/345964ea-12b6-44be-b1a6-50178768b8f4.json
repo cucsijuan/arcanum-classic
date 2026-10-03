@@ -1,0 +1,15 @@
+{
+  "name": "Geist of the Archives",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, scry 1."
+    }
+  ]
+}

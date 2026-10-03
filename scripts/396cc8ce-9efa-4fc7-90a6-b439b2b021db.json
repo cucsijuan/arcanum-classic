@@ -1,0 +1,25 @@
+{
+  "name": "Battlesong Berserker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "Whenever you attack, target creature you control gets +1/+0 and gains menace until end of turn."
+    }
+  ]
+}

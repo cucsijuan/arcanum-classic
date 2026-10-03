@@ -1,0 +1,24 @@
+{
+  "name": "Razorkin Hordecaller",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Gremlin",
+            "types": "Creature — Gremlin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you attack, create a 1/1 red Gremlin creature token."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Woodland Liege",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Beast",
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a Beast you control enters, draw a card."
+    }
+  ]
+}

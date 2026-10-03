@@ -1,0 +1,32 @@
+{
+  "name": "Sigil of the Empty Throne",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying."
+    }
+  ]
+}

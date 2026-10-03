@@ -1,0 +1,19 @@
+{
+  "name": "Cathartic Adept",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{T}: Target player mills a card."
+    }
+  ]
+}

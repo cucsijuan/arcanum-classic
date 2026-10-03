@@ -1,0 +1,20 @@
+{
+  "name": "Needletooth Pack",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "morbid",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control."
+    }
+  ]
+}

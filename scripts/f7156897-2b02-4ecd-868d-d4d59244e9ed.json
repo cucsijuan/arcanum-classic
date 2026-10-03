@@ -1,0 +1,26 @@
+{
+  "name": "Third Path Iconoclast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create a 1/1 colorless Soldier artifact creature token."
+    }
+  ]
+}

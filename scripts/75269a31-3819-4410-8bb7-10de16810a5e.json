@@ -1,0 +1,16 @@
+{
+  "name": "Howling Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "Whenever this creature attacks or blocks, each player draws a card."
+    }
+  ]
+}

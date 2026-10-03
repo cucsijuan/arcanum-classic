@@ -1,0 +1,15 @@
+{
+  "name": "Witness of Tomorrows",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{3}{U}: Scry 1."
+    }
+  ]
+}

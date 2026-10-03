@@ -1,0 +1,32 @@
+{
+  "name": "Warleader's Call",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creatures you control get +1/+1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever a creature you control enters, this enchantment deals 1 damage to each opponent."
+    }
+  ]
+}

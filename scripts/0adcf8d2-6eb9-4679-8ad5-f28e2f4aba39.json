@@ -1,0 +1,20 @@
+{
+  "name": "Student of Ojutai",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, you gain 2 life."
+    }
+  ]
+}

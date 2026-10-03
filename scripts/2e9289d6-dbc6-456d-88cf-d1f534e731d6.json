@@ -1,0 +1,21 @@
+{
+  "name": "Firebrand Archer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

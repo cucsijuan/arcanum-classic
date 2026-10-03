@@ -1,0 +1,19 @@
+{
+  "name": "Primal Rage",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Creatures you control have trample."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Bladestitched Skaab",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Zombie",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Other Zombies you control get +1/+0."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Merfolk Mistbinder",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Merfolk",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Merfolk you control get +1/+1."
+    }
+  ]
+}

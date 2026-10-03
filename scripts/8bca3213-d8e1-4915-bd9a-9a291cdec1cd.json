@@ -1,0 +1,32 @@
+{
+  "name": "Hagra Crocodile",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fireforger's Puzzleknot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this artifact enters, it deals 1 damage to any target."
+    },
+    {
+      "cost": "{2}{R}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, Sacrifice this artifact: It deals 1 damage to any target."
+    }
+  ]
+}

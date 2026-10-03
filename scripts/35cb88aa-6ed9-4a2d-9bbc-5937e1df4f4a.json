@@ -1,0 +1,20 @@
+{
+  "name": "Heir of the Wilds",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": "ferocious",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Ferocious — Whenever this creature attacks, if you control a creature with power 4 or greater, this creature gets +1/+1 until end of turn."
+    }
+  ]
+}

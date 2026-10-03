@@ -1,0 +1,39 @@
+{
+  "name": "Strength of Arms",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Equipment"
+          }
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Human Soldier",
+              "types": "Creature — Human Soldier",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

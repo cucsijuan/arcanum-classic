@@ -1,0 +1,15 @@
+{
+  "name": "Tocasia's Dig Site",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{3}, {T}: Surveil 1."
+    }
+  ]
+}

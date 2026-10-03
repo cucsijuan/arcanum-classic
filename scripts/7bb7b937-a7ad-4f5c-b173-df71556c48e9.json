@@ -1,0 +1,16 @@
+{
+  "name": "Serum Raker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player discards a card."
+    }
+  ]
+}

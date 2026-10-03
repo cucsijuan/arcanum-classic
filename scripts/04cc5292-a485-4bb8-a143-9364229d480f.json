@@ -1,0 +1,19 @@
+{
+  "name": "Vedalken Entrancer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "{U}, {T}: Target player mills two cards."
+    }
+  ]
+}

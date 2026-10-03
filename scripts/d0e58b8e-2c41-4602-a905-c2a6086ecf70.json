@@ -1,0 +1,25 @@
+{
+  "name": "Molecular Modifier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

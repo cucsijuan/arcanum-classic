@@ -1,0 +1,23 @@
+{
+  "name": "Morkrut Banshee",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -4,
+            -4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Morbid — When this creature enters, if a creature died this turn, target creature gets -4/-4 until end of turn."
+    }
+  ]
+}

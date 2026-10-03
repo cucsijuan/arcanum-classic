@@ -1,0 +1,18 @@
+{
+  "name": "Fateful End",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Koth of the Homestead",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you gain 1 life."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Plains",
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever a Plains you control enters, put a +1/+1 counter on target creature."
+    }
+  ]
+}

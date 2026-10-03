@@ -1,0 +1,28 @@
+{
+  "name": "Emissary of the Sleepless",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if a creature died this turn, create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

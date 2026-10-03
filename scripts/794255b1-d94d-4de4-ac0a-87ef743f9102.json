@@ -1,0 +1,30 @@
+{
+  "name": "Mistfire Adept",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, target creature gains flying until end of turn."
+    }
+  ]
+}

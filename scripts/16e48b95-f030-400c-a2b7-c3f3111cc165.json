@@ -1,0 +1,16 @@
+{
+  "name": "Excavated Wall",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "mill": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{1}, {T}: Mill a card."
+    }
+  ]
+}

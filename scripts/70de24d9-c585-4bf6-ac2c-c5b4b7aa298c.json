@@ -1,0 +1,39 @@
+{
+  "name": "Diregraf Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Zombie"
+      },
+      "text": "Other Zombie creatures you control get +1/+1."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "subtype": "Zombie",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever another Zombie you control dies, target opponent loses 1 life."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Pitiless Plunderer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever another creature you control dies, create a Treasure token."
+    }
+  ]
+}

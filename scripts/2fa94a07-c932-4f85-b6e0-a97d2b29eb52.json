@@ -1,0 +1,22 @@
+{
+  "name": "Electrostatic Field",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

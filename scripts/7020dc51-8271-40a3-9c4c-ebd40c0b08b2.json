@@ -1,0 +1,28 @@
+{
+  "name": "Algae Gharial",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on this creature?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature dies, you may put a +1/+1 counter on this creature."
+    }
+  ]
+}

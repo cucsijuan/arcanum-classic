@@ -1,0 +1,15 @@
+{
+  "name": "Spectacle Summit",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}{R}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}{U}{R}, {T}: Surveil 1."
+    }
+  ]
+}

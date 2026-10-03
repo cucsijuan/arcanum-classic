@@ -1,0 +1,25 @@
+{
+  "name": "Mardu Hordechief",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Warrior",
+            "types": "Creature — Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, create a 1/1 white Warrior creature token."
+    }
+  ]
+}

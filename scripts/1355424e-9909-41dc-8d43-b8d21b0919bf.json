@@ -1,0 +1,24 @@
+{
+  "name": "Deadeye Rig-Hauler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Return target creature to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, you may return target creature to its owner's hand."
+    }
+  ]
+}

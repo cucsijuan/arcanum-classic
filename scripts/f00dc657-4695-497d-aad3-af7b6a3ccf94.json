@@ -1,0 +1,26 @@
+{
+  "name": "Fortifying Provisions",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          1
+        ]
+      },
+      "text": "Creatures you control get +0/+1."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this enchantment enters, create a Food token."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Billiard Room",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "{4}, {T}: Investigate."
+    }
+  ]
+}

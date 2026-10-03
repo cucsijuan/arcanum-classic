@@ -1,0 +1,19 @@
+{
+  "name": "Epic Proportions",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          5,
+          5
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +5/+5 and has trample."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Rage Reflection",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Creatures you control have double strike."
+    }
+  ]
+}

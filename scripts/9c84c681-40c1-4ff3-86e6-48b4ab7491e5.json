@@ -1,0 +1,21 @@
+{
+  "name": "Black Waltz No. 3",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Black Waltz No. 3 deals 2 damage to each opponent."
+    }
+  ]
+}

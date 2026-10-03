@@ -1,0 +1,15 @@
+{
+  "name": "Watchful Automaton",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{2}{U}: Scry 1."
+    }
+  ]
+}

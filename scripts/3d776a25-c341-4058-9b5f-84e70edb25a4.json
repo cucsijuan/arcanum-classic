@@ -1,0 +1,16 @@
+{
+  "name": "Luke Cage, Hero for Hire",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a Treasure token."
+    }
+  ]
+}

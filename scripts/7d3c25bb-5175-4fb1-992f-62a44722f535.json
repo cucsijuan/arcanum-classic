@@ -1,0 +1,32 @@
+{
+  "name": "Aspect of Lamprey",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 2,
+          "who": "target"
+        }
+      ],
+      "text": "When this Aura enters, target opponent discards two cards."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Enchanted creature has lifelink."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Scream Puff",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a Food token."
+    }
+  ]
+}

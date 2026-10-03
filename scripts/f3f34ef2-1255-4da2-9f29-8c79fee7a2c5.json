@@ -1,0 +1,15 @@
+{
+  "name": "Waking Nightmare",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      }
+    ]
+  }
+}

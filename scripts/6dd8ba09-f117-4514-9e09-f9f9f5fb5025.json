@@ -1,0 +1,16 @@
+{
+  "name": "Floodhound",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "{3}, {T}: Investigate."
+    }
+  ]
+}

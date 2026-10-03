@@ -1,0 +1,32 @@
+{
+  "name": "Galvanic Arc",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "When this Aura enters, it deals 3 damage to any target."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Enchanted creature has first strike."
+    }
+  ]
+}

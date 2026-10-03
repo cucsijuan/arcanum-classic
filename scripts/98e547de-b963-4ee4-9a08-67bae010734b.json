@@ -1,0 +1,15 @@
+{
+  "name": "University Campus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{4}, {T}: Surveil 1."
+    }
+  ]
+}

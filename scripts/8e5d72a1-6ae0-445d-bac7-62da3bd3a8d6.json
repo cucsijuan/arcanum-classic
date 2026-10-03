@@ -1,0 +1,28 @@
+{
+  "name": "Mirran Spy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Untap target creature?",
+          "effects": [
+            {
+              "untap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an artifact spell, you may untap target creature."
+    }
+  ]
+}

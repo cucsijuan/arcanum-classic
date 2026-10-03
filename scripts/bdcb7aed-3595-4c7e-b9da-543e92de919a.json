@@ -1,0 +1,19 @@
+{
+  "name": "Locke Cole",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever Locke Cole deals combat damage to a player, draw a card, then discard a card."
+    }
+  ]
+}

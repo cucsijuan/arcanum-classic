@@ -1,0 +1,16 @@
+{
+  "name": "Dori, Bearer of Friends",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When Dori, Bearer of Friends enters, create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Potion of Healing",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "cost": "{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{W}, {T}, Sacrifice this artifact: You gain 3 life."
+    }
+  ]
+}

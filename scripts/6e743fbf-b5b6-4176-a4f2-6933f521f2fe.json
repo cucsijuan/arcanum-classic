@@ -1,0 +1,15 @@
+{
+  "name": "New Benalia",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this land enters, scry 1."
+    }
+  ]
+}

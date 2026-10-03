@@ -1,0 +1,16 @@
+{
+  "name": "Dictate of Heliod",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Creatures you control get +2/+2."
+    }
+  ]
+}

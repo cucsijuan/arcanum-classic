@@ -1,0 +1,24 @@
+{
+  "name": "Champion of the Perished",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Zombie",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Zombie you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

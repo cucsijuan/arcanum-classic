@@ -1,0 +1,24 @@
+{
+  "name": "Sporemound",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 green Saproling creature token."
+    }
+  ]
+}

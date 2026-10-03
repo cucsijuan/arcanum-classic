@@ -1,0 +1,16 @@
+{
+  "name": "Burrowing Razormaw",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature dies, mill four cards."
+    }
+  ]
+}

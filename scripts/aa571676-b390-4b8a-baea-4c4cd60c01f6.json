@@ -1,0 +1,42 @@
+{
+  "name": "Regal Caracal",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Cat",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Other Cats you control get +1/+1 and have lifelink."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 1/1 white Cat creature tokens with lifelink."
+    }
+  ]
+}

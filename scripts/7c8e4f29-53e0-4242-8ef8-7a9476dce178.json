@@ -1,0 +1,27 @@
+{
+  "name": "Candy Trail",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this artifact enters, scry 2."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life and draw a card."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Spare Supplies",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

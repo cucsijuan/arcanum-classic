@@ -1,0 +1,19 @@
+{
+  "name": "Ambassador Laquatus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{3}: Target player mills three cards."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fortress Cyclops",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +3/+0 until end of turn."
+    },
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature blocks, it gets +0/+3 until end of turn."
+    }
+  ]
+}

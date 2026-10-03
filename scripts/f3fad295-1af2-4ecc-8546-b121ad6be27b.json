@@ -1,0 +1,22 @@
+{
+  "name": "Soul Warden",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever another creature enters, you gain 1 life."
+    }
+  ]
+}

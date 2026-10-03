@@ -1,0 +1,15 @@
+{
+  "name": "Mind Sculpt",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "mill": 7,
+        "who": "target"
+      }
+    ]
+  }
+}

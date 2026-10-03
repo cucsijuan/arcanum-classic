@@ -1,0 +1,24 @@
+{
+  "name": "Moldervine Reclamation",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control dies, you gain 1 life and draw a card."
+    }
+  ]
+}

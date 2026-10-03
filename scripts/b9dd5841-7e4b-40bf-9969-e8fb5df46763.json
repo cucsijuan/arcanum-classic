@@ -1,0 +1,23 @@
+{
+  "name": "Batterhorn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "may": "Destroy target artifact?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy target artifact."
+    }
+  ]
+}

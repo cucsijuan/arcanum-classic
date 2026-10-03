@@ -1,0 +1,28 @@
+{
+  "name": "In the Web of War",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control enters, it gets +2/+0 and gains haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Cat Burglar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{2}{B}, {T}: Target player discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Rushwood Elemental",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on this creature?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may put a +1/+1 counter on this creature."
+    }
+  ]
+}

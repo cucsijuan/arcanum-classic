@@ -1,0 +1,20 @@
+{
+  "name": "Settlement Blacksmith",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "subtype": "Equipment"
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, if you control an Equipment, draw a card."
+    }
+  ]
+}

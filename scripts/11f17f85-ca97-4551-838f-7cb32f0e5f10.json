@@ -1,0 +1,20 @@
+{
+  "name": "Argothian Enchantress",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, draw a card."
+    }
+  ]
+}

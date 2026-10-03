@@ -1,0 +1,16 @@
+{
+  "name": "Ant-Man, Scott Lang",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{4}: Put a +1/+1 counter on Ant-Man, Scott Lang."
+    }
+  ]
+}

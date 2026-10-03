@@ -1,0 +1,18 @@
+{
+  "name": "River Hoopoe",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}{U}",
+      "effects": [
+        {
+          "gainLife": 2
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}{G}{U}: You gain 2 life and draw a card."
+    }
+  ]
+}

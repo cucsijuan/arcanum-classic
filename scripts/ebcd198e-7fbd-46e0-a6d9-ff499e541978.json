@@ -1,0 +1,22 @@
+{
+  "name": "Reckless Ransacking",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

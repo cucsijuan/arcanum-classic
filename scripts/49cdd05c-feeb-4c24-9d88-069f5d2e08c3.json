@@ -1,0 +1,19 @@
+{
+  "name": "Serra's Blessing",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Creatures you control have vigilance."
+    }
+  ]
+}

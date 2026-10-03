@@ -1,0 +1,14 @@
+{
+  "name": "Opt",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "scry": 1
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

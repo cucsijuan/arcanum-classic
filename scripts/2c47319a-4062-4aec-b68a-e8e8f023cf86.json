@@ -1,0 +1,19 @@
+{
+  "name": "Bloodfire Mentor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{2}{U}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Hinterland Sanctifier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever another creature you control enters, you gain 1 life."
+    }
+  ]
+}

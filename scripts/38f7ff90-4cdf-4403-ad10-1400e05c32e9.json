@@ -1,0 +1,38 @@
+{
+  "name": "Manhole Cover",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "When this artifact enters, target creature gains indestructible until end of turn."
+    },
+    {
+      "cost": "{2}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{2}, Sacrifice this artifact: Target player draws a card."
+    }
+  ]
+}

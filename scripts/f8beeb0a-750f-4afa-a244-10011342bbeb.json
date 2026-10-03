@@ -1,0 +1,22 @@
+{
+  "name": "Wretched Anurid",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever another creature enters, you lose 1 life."
+    }
+  ]
+}

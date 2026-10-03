@@ -1,0 +1,27 @@
+{
+  "name": "Psychic Whorl",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Rat"
+          }
+        },
+        "then": [
+          {
+            "surveil": 2
+          }
+        ]
+      }
+    ]
+  }
+}

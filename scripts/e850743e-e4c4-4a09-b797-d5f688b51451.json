@@ -1,0 +1,25 @@
+{
+  "name": "Wakedancer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Morbid — When this creature enters, if a creature died this turn, create a 2/2 black Zombie creature token."
+    }
+  ]
+}

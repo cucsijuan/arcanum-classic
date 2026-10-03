@@ -1,0 +1,16 @@
+{
+  "name": "Colossal Majesty",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": "ferocious",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control a creature with power 4 or greater, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sultai Ascendancy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 2."
+    }
+  ]
+}

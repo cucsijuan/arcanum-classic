@@ -1,0 +1,22 @@
+{
+  "name": "Baloth Woodcrasher",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +4/+4 and gains trample until end of turn."
+    }
+  ]
+}

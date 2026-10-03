@@ -1,0 +1,16 @@
+{
+  "name": "Rapacious Dragon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters, create two Treasure tokens."
+    }
+  ]
+}

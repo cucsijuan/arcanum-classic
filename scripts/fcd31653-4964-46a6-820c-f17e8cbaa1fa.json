@@ -1,0 +1,15 @@
+{
+  "name": "Imperious Inkmage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this creature enters, surveil 2."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Vigilante Justice",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Human",
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a Human you control enters, this enchantment deals 1 damage to any target."
+    }
+  ]
+}

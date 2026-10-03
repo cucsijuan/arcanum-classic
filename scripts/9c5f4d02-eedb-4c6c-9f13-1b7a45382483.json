@@ -1,0 +1,18 @@
+{
+  "name": "Supreme Phantom",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Spirit",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Spirits you control get +1/+1."
+    }
+  ]
+}

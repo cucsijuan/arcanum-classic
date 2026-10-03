@@ -1,0 +1,20 @@
+{
+  "name": "Nylea's Forerunner",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control have trample."
+    }
+  ]
+}

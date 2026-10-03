@@ -1,0 +1,23 @@
+{
+  "name": "Sythis, Harvest's Hand",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, you gain 1 life and draw a card."
+    }
+  ]
+}

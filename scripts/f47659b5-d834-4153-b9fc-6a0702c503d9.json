@@ -1,0 +1,24 @@
+{
+  "name": "Dark Prophecy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever a creature you control dies, you draw a card and you lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Levitation",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Creatures you control have flying."
+    }
+  ]
+}

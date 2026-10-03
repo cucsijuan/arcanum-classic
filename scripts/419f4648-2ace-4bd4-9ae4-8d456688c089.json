@@ -1,0 +1,25 @@
+{
+  "name": "Gristle Grinner",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature dies, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

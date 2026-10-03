@@ -1,0 +1,23 @@
+{
+  "name": "Riddlemaster Sphinx",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "may": "Return target creature an opponent controls to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target creature an opponent controls to its owner's hand."
+    }
+  ]
+}

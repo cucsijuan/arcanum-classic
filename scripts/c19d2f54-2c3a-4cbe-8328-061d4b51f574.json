@@ -1,0 +1,30 @@
+{
+  "name": "Metalspinner's Puzzleknot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "When this artifact enters, you draw a card and you lose 1 life."
+    },
+    {
+      "cost": "{2}{B}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "{2}{B}, Sacrifice this artifact: You draw a card and you lose 1 life."
+    }
+  ]
+}

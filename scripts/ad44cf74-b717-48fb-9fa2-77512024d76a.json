@@ -1,0 +1,15 @@
+{
+  "name": "Mind Rot",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      }
+    ]
+  }
+}

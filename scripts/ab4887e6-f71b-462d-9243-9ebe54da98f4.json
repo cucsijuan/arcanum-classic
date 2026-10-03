@@ -1,0 +1,16 @@
+{
+  "name": "Maggot Therapy",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          -2
+        ]
+      },
+      "text": "Enchanted creature gets +2/-2."
+    }
+  ]
+}

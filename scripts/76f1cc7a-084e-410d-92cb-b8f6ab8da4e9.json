@@ -1,0 +1,28 @@
+{
+  "name": "Senate Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{W}, {T}: You gain 2 life."
+    },
+    {
+      "cost": "{U}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{U}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

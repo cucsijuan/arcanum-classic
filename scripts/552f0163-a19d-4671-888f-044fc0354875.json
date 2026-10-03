@@ -1,0 +1,15 @@
+{
+  "name": "Glimpse the Unthinkable",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": 10,
+        "who": "target"
+      }
+    ]
+  }
+}

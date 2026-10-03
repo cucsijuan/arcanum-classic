@@ -1,0 +1,25 @@
+{
+  "name": "Nightsquad Commando",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if you attacked this turn, create a 1/1 white Human Soldier creature token."
+    }
+  ]
+}

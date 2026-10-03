@@ -1,0 +1,21 @@
+{
+  "name": "Cryptic Annelid",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "scry": 2
+        },
+        {
+          "scry": 3
+        }
+      ],
+      "text": "When this creature enters, scry 1, then scry 2, then scry 3."
+    }
+  ]
+}

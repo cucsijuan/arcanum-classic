@@ -1,0 +1,16 @@
+{
+  "name": "Wailing Ghoul",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 2,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature enters, mill two cards."
+    }
+  ]
+}

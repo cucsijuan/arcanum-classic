@@ -1,0 +1,19 @@
+{
+  "name": "Dementia Bat",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 2,
+          "who": "target"
+        }
+      ],
+      "text": "{4}{B}, Sacrifice this creature: Target player discards two cards."
+    }
+  ]
+}

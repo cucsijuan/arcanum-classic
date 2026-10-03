@@ -1,0 +1,20 @@
+{
+  "name": "True Conviction",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike",
+          "Lifelink"
+        ]
+      },
+      "text": "Creatures you control have double strike and lifelink."
+    }
+  ]
+}

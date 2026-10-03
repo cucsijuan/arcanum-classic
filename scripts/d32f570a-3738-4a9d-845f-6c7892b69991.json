@@ -1,0 +1,16 @@
+{
+  "name": "Screaming Phantom",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever this creature attacks, mill a card."
+    }
+  ]
+}

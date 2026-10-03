@@ -1,0 +1,15 @@
+{
+  "name": "Nightveil Sprite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, surveil 1."
+    }
+  ]
+}

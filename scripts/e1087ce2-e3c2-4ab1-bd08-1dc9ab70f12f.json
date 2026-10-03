@@ -1,0 +1,19 @@
+{
+  "name": "Siege Rhino",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, each opponent loses 3 life and you gain 3 life."
+    }
+  ]
+}

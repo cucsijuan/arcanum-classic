@@ -1,0 +1,19 @@
+{
+  "name": "Returned Centaur",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 4,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target player mills four cards."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Bazaar Trademage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 3,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature enters, draw two cards, then discard three cards."
+    }
+  ]
+}

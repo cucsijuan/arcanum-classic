@@ -1,0 +1,28 @@
+{
+  "name": "Soul of the Harvest",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature you control enters, you may draw a card."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Swift Kick",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "fight": "self",
+        "with": "target2"
+      }
+    ]
+  }
+}

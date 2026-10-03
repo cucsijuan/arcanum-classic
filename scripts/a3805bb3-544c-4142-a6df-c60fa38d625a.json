@@ -1,0 +1,21 @@
+{
+  "name": "Chain to Memory",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -4,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

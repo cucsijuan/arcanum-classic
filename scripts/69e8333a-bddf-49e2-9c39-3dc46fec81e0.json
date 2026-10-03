@@ -1,0 +1,19 @@
+{
+  "name": "Remnant Elemental",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

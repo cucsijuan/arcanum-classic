@@ -1,0 +1,14 @@
+{
+  "name": "Succumb to Temptation",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "loseLife": 2
+      }
+    ]
+  }
+}

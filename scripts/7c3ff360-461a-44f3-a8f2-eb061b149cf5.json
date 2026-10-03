@@ -1,0 +1,19 @@
+{
+  "name": "Symbiote Spawn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature dies, each opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ancient Craving",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "loseLife": 3
+      }
+    ]
+  }
+}

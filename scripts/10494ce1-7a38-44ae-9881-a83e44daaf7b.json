@@ -1,0 +1,54 @@
+{
+  "name": "Reaper of the Wilds",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever another creature dies, scry 1."
+    },
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{B}: This creature gains deathtouch until end of turn."
+    },
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Hexproof"
+          ]
+        }
+      ],
+      "text": "{1}{G}: This creature gains hexproof until end of turn."
+    }
+  ]
+}

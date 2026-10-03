@@ -1,0 +1,20 @@
+{
+  "name": "Liliana's Steward",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Target opponent discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

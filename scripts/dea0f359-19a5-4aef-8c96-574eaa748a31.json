@@ -1,0 +1,15 @@
+{
+  "name": "Windrider Patrol",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, scry 2."
+    }
+  ]
+}

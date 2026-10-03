@@ -1,0 +1,16 @@
+{
+  "name": "Exiled Boggart",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature dies, discard a card."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Mardu Heart-Piercer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, this creature deals 2 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Bronzebeak Moa",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature you control enters, this creature gets +3/+3 until end of turn."
+    }
+  ]
+}

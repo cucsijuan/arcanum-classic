@@ -1,0 +1,24 @@
+{
+  "name": "Heartless Pillage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      },
+      {
+        "if": "raid",
+        "then": [
+          {
+            "tokens": 1,
+            "token": "Treasure"
+          }
+        ]
+      }
+    ]
+  }
+}

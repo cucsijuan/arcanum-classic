@@ -1,0 +1,30 @@
+{
+  "name": "Tinker's Tote",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Gnome",
+            "types": "Creature — Gnome",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this artifact enters, create two 1/1 colorless Gnome artifact creature tokens."
+    },
+    {
+      "cost": "{W}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{W}, Sacrifice this artifact: You gain 3 life."
+    }
+  ]
+}

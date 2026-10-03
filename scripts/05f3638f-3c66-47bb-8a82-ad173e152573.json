@@ -1,0 +1,28 @@
+{
+  "name": "Merfolk Coralsmith",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            -1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}: This creature gets +1/-1 until end of turn."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this creature dies, scry 2."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Phyrexian Vivisector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever a creature you control dies, scry 1."
+    }
+  ]
+}

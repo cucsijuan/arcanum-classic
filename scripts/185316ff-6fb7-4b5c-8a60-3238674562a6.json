@@ -1,0 +1,24 @@
+{
+  "name": "Invasion Reinforcements",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ally",
+            "types": "Creature — Ally",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Ally creature token."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Goblin War Drums",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Creatures you control have menace."
+    }
+  ]
+}

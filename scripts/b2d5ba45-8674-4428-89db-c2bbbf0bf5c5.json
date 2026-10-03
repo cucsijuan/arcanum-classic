@@ -1,0 +1,24 @@
+{
+  "name": "Khalni Garden",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Plant",
+            "types": "Creature — Plant",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When this land enters, create a 0/1 green Plant creature token."
+    }
+  ]
+}

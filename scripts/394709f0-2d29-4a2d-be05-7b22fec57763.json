@@ -1,0 +1,21 @@
+{
+  "name": "Dazzling Lights",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "surveil": 2
+      }
+    ]
+  }
+}

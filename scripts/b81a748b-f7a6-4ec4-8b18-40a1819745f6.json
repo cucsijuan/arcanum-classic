@@ -1,0 +1,19 @@
+{
+  "name": "Sanguine Syphoner",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

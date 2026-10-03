@@ -1,0 +1,16 @@
+{
+  "name": "Stark Industries Executive",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{2}, {T}: Create a Treasure token."
+    }
+  ]
+}

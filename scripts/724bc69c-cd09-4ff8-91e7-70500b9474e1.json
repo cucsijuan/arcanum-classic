@@ -1,0 +1,23 @@
+{
+  "name": "Frilled Mystic",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "spell"
+      ],
+      "effects": [
+        {
+          "may": "Counter target spell?",
+          "effects": [
+            {
+              "counter": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may counter target spell."
+    }
+  ]
+}

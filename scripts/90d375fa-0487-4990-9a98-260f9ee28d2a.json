@@ -1,0 +1,26 @@
+{
+  "name": "Llanowar Stalker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature you control enters, this creature gets +1/+0 until end of turn."
+    }
+  ]
+}

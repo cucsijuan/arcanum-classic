@@ -1,0 +1,19 @@
+{
+  "name": "Hapless Researcher",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Sacrifice this creature: Draw a card, then discard a card."
+    }
+  ]
+}

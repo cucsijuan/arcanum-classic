@@ -1,0 +1,17 @@
+{
+  "name": "Voyage's End",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

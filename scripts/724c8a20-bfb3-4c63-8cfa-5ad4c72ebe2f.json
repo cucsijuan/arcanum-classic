@@ -1,0 +1,15 @@
+{
+  "name": "Fugue",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 3,
+        "who": "target"
+      }
+    ]
+  }
+}

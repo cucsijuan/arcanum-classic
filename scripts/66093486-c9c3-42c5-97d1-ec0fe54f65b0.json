@@ -1,0 +1,16 @@
+{
+  "name": "Twinblade Assassins",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if a creature died this turn, draw a card."
+    }
+  ]
+}

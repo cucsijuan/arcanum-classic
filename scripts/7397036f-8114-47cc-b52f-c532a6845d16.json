@@ -1,0 +1,12 @@
+{
+  "name": "Delirium Skeins",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "discard": 3,
+        "who": "everyone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Drogskol Reaver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you gain life, draw a card."
+    }
+  ]
+}

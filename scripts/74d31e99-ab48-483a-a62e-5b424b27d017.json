@@ -1,0 +1,15 @@
+{
+  "name": "Rune-Sealed Wall",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{T}: Surveil 1."
+    }
+  ]
+}

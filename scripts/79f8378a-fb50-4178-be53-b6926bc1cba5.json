@@ -1,0 +1,19 @@
+{
+  "name": "Merrow Witsniper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target player mills a card."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Demon's Due",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "scry": 2
+      },
+      {
+        "draw": 2
+      },
+      {
+        "loseLife": 2
+      }
+    ]
+  }
+}

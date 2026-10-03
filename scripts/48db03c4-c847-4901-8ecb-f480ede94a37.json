@@ -1,0 +1,14 @@
+{
+  "name": "Tamiyo's Epiphany",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "scry": 4
+      },
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

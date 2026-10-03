@@ -1,0 +1,16 @@
+{
+  "name": "Cliffhaven Vampire",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you gain life, each opponent loses 1 life."
+    }
+  ]
+}

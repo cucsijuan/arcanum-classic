@@ -1,0 +1,23 @@
+{
+  "name": "Deal Gone Bad",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      "player"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          -3
+        ],
+        "what": "target"
+      },
+      {
+        "mill": 3,
+        "who": "target2"
+      }
+    ]
+  }
+}

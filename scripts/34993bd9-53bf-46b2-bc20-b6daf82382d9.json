@@ -1,0 +1,28 @@
+{
+  "name": "Necrogen Spellbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, Sacrifice this artifact: Target player discards a card."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Nirkana Assassin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, this creature gains deathtouch until end of turn."
+    }
+  ]
+}

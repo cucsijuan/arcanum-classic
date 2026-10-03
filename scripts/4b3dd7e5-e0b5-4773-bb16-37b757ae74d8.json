@@ -1,0 +1,15 @@
+{
+  "name": "Seer's Lantern",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{2}, {T}: Scry 1."
+    }
+  ]
+}

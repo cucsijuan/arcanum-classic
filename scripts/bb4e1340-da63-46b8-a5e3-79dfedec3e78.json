@@ -1,0 +1,22 @@
+{
+  "name": "Snapping Creeper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gains vigilance until end of turn."
+    }
+  ]
+}

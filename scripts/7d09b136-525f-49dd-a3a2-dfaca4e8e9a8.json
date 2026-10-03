@@ -1,0 +1,25 @@
+{
+  "name": "Looming Spires",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "When this land enters, target creature gets +1/+1 and gains first strike until end of turn."
+    }
+  ]
+}

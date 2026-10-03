@@ -1,0 +1,23 @@
+{
+  "name": "War Priest of Thune",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "enchantment"
+      ],
+      "effects": [
+        {
+          "may": "Destroy target enchantment?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy target enchantment."
+    }
+  ]
+}

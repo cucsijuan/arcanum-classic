@@ -1,0 +1,20 @@
+{
+  "name": "Crypt Feaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": "threshold",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Threshold — Whenever this creature attacks, if there are seven or more cards in your graveyard, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

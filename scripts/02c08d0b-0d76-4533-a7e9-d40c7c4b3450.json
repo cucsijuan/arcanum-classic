@@ -1,0 +1,25 @@
+{
+  "name": "Shoreline Salvager",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": {
+        "control": {
+          "subtype": "Island"
+        }
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, if you control an Island, you may draw a card."
+    }
+  ]
+}

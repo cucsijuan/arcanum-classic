@@ -1,0 +1,19 @@
+{
+  "name": "Sphinx of Magosi",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}{U}: Draw a card, then put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Funnel-Web Recluse",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "morbid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Morbid — When this creature enters, if a creature died this turn, investigate."
+    }
+  ]
+}

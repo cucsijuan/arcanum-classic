@@ -1,0 +1,28 @@
+{
+  "name": "Flight of Fancy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this Aura enters, draw two cards."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature has flying."
+    }
+  ]
+}

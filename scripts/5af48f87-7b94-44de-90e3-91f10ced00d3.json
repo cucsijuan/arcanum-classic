@@ -1,0 +1,29 @@
+{
+  "name": "Efficient Construction",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying."
+    }
+  ]
+}

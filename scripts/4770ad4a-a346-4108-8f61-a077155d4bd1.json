@@ -1,0 +1,40 @@
+{
+  "name": "Squire's Devotion",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has lifelink."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Vampire",
+            "types": "Creature — Vampire",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "When this Aura enters, create a 1/1 white Vampire creature token with lifelink."
+    }
+  ]
+}

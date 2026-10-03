@@ -1,0 +1,24 @@
+{
+  "name": "Elfsworn Giant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Excavation Mole",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3,
+          "who": "you"
+        }
+      ],
+      "text": "When this creature enters, mill three cards."
+    }
+  ]
+}

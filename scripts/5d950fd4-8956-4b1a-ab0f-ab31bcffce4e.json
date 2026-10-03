@@ -1,0 +1,20 @@
+{
+  "name": "Callous Inspector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "you"
+        },
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this creature dies, it deals 1 damage to you. Create a Clue token."
+    }
+  ]
+}

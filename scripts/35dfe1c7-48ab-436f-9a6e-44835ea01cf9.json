@@ -1,0 +1,15 @@
+{
+  "name": "Wall of Runes",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this creature enters, scry 1."
+    }
+  ]
+}

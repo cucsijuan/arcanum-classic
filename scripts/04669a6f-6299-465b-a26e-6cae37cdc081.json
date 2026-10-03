@@ -1,0 +1,25 @@
+{
+  "name": "Plumecreed Escort",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control gains hexproof until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sunscorched Desert",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this land enters, it deals 1 damage to target player or planeswalker."
+    }
+  ]
+}

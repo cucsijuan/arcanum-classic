@@ -1,0 +1,32 @@
+{
+  "name": "Rousing Read",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When this Aura enters, draw two cards, then discard a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has flying."
+    }
+  ]
+}

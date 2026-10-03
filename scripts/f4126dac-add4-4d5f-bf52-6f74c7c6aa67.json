@@ -1,0 +1,16 @@
+{
+  "name": "Pounce",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "fight": "target",
+        "with": "target2"
+      }
+    ]
+  }
+}

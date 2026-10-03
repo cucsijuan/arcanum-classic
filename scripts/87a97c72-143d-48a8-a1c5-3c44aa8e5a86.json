@@ -1,0 +1,25 @@
+{
+  "name": "Sokka's Haiku",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell",
+      "land"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "mill": 3,
+        "who": "you"
+      },
+      {
+        "untap": "target2"
+      }
+    ]
+  }
+}

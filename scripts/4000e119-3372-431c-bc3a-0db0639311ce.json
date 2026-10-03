@@ -1,0 +1,25 @@
+{
+  "name": "Fire Urchin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn."
+    }
+  ]
+}

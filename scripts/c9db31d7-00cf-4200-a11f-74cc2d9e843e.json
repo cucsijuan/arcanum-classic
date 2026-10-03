@@ -1,0 +1,39 @@
+{
+  "name": "Thundering Spineback",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Dinosaur",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Dinosaurs you control get +1/+1."
+    },
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dinosaur",
+            "types": "Creature — Dinosaur",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "{5}{G}: Create a 3/3 green Dinosaur creature token with trample."
+    }
+  ]
+}

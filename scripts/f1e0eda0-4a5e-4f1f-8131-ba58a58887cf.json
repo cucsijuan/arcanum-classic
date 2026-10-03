@@ -1,0 +1,24 @@
+{
+  "name": "Scute Mob",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "control": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 5
+      },
+      "effects": [
+        {
+          "counters": 4,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control five or more lands, put four +1/+1 counters on this creature."
+    }
+  ]
+}

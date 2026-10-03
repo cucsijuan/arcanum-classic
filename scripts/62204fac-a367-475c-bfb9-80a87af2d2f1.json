@@ -1,0 +1,16 @@
+{
+  "name": "Vinelasher Kudzu",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

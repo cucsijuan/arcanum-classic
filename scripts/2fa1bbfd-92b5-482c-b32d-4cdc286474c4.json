@@ -1,0 +1,19 @@
+{
+  "name": "Ravenous Rats",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target opponent discards a card."
+    }
+  ]
+}

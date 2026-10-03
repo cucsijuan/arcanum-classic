@@ -1,0 +1,40 @@
+{
+  "name": "River Sneak",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "This creature can't be blocked."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Merfolk",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Merfolk you control enters, this creature gets +1/+1 until end of turn."
+    }
+  ]
+}

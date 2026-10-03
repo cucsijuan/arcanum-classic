@@ -1,0 +1,16 @@
+{
+  "name": "Hoard Robber",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a Treasure token."
+    }
+  ]
+}

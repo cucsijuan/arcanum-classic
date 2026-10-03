@@ -1,0 +1,18 @@
+{
+  "name": "King of the Pride",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Cat",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Other Cats you control get +2/+1."
+    }
+  ]
+}

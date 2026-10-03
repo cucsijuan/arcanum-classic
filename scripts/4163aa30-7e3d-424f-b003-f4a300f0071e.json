@@ -1,0 +1,24 @@
+{
+  "name": "Elvish Vanguard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Elf",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Elf enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

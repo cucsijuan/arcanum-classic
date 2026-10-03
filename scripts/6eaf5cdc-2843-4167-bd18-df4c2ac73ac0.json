@@ -1,0 +1,15 @@
+{
+  "name": "Sage's Row Savant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this creature enters, scry 2."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Furious Assault",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a creature spell, this enchantment deals 1 damage to target player or planeswalker."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Neurok Commando",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you may draw a card."
+    }
+  ]
+}

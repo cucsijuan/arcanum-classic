@@ -1,0 +1,22 @@
+{
+  "name": "Dream Beavers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this creature enters, each opponent loses 1 life and you gain 1 life. Scry 1."
+    }
+  ]
+}

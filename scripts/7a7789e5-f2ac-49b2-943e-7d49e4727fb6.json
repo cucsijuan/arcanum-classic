@@ -1,0 +1,25 @@
+{
+  "name": "Gift of Strands",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this Aura enters, scry 2."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          3
+        ]
+      },
+      "text": "Enchanted creature gets +3/+3."
+    }
+  ]
+}

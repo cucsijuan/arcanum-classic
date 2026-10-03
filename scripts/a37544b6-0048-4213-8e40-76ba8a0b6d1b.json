@@ -1,0 +1,25 @@
+{
+  "name": "Soaring Seacliff",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this land enters, target creature gains flying until end of turn."
+    }
+  ]
+}

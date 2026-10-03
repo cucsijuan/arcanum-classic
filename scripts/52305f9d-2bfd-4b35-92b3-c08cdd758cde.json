@@ -1,0 +1,23 @@
+{
+  "name": "Glowing Anemone",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "may": "Return target land to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target land to its owner's hand."
+    }
+  ]
+}

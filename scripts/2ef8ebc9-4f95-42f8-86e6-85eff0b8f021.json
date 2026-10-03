@@ -1,0 +1,19 @@
+{
+  "name": "Tiger Claws",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has trample."
+    }
+  ]
+}

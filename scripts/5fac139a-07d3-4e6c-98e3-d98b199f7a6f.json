@@ -1,0 +1,30 @@
+{
+  "name": "Young Pyromancer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, create a 1/1 red Elemental creature token."
+    }
+  ]
+}

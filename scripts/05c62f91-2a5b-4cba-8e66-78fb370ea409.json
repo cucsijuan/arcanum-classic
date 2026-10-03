@@ -1,0 +1,19 @@
+{
+  "name": "Flaming Sword",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+0 and has first strike."
+    }
+  ]
+}

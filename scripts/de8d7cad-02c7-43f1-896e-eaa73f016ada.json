@@ -1,0 +1,19 @@
+{
+  "name": "Desperate Bloodseeker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target player mills two cards."
+    }
+  ]
+}

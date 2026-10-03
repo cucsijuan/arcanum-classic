@@ -1,0 +1,24 @@
+{
+  "name": "Kindled Heroism",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mercurial Geists",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature gets +3/+0 until end of turn."
+    }
+  ]
+}

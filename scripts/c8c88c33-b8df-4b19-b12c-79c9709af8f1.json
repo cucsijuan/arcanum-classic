@@ -1,0 +1,16 @@
+{
+  "name": "Mintstrosity",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature dies, create a Food token."
+    }
+  ]
+}
