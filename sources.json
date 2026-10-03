@@ -4,7 +4,28 @@
     "format": "oracle-jsonl",
     "index": "https://api.scryfall.com/bulk-data/oracle-cards",
     "downloadField": "jsonl_download_uri",
-    "updatedField": "updated_at"
+    "updatedField": "updated_at",
+    "includeIfLegalIn": [
+      "vintage",
+      "legacy",
+      "commander",
+      "pauper",
+      "oathbreaker",
+      "premodern",
+      "oldschool",
+      "predh"
+    ],
+    "excludeLayouts": [
+      "art_series",
+      "planar",
+      "scheme",
+      "vanguard",
+      "emblem",
+      "front_card",
+      "augment",
+      "host",
+      "double_faced_token"
+    ]
   },
   "images": {
     "urlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&exact={name}",
