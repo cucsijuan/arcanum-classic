@@ -11,7 +11,10 @@
             "name": "Knight",
             "types": "Creature — Knight",
             "power": 3,
-            "toughness": 3
+            "toughness": 3,
+            "colors": [
+              "W"
+            ]
           }
         }
       ],

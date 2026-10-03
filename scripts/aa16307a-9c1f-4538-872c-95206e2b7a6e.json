@@ -9,7 +9,10 @@
           "name": "Soldier Ally",
           "types": "Creature — Soldier Ally",
           "power": 1,
-          "toughness": 1
+          "toughness": 1,
+          "colors": [
+            "W"
+          ]
         }
       }
     ]

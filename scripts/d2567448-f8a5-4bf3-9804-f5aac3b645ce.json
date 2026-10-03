@@ -24,7 +24,10 @@
             "name": "Saproling",
             "types": "Creature — Saproling",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
           }
         }
       ],

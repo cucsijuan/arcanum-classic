@@ -11,7 +11,10 @@
             "name": "Kavu",
             "types": "Creature — Kavu",
             "power": 3,
-            "toughness": 3
+            "toughness": 3,
+            "colors": [
+              "B"
+            ]
           }
         }
       ],

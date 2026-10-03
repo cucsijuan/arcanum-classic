@@ -12,6 +12,10 @@
             "types": "Creature — Insect",
             "power": 1,
             "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
             "keywords": [
               "Flying"
             ]

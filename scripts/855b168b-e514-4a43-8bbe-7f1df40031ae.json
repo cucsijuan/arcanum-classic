@@ -10,6 +10,9 @@
           "types": "Creature — Knight",
           "power": 2,
           "toughness": 2,
+          "colors": [
+            "W"
+          ],
           "keywords": [
             "Vigilance"
           ]

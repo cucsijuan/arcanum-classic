@@ -9,7 +9,10 @@
           "name": "Centaur",
           "types": "Creature — Centaur",
           "power": 3,
-          "toughness": 3
+          "toughness": 3,
+          "colors": [
+            "G"
+          ]
         }
       }
     ]

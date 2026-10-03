@@ -12,6 +12,9 @@
             "types": "Creature — Angel",
             "power": 4,
             "toughness": 4,
+            "colors": [
+              "W"
+            ],
             "keywords": [
               "Flying"
             ]

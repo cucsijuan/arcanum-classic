@@ -10,6 +10,9 @@
           "types": "Creature — Vampire",
           "power": 1,
           "toughness": 1,
+          "colors": [
+            "W"
+          ],
           "keywords": [
             "Lifelink"
           ]

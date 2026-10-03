@@ -11,7 +11,11 @@
             "name": "Elemental",
             "types": "Creature — Elemental",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "U",
+              "R"
+            ]
           }
         }
       ],

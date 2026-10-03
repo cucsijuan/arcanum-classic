@@ -11,7 +11,10 @@
             "name": "Ally",
             "types": "Creature — Ally",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
           }
         }
       ],

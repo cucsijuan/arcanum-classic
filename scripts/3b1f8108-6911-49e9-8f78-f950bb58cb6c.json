@@ -12,6 +12,9 @@
             "types": "Creature — Insect",
             "power": 1,
             "toughness": 1,
+            "colors": [
+              "G"
+            ],
             "keywords": [
               "Flying",
               "Deathtouch"

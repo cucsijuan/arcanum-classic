@@ -10,6 +10,9 @@
           "types": "Creature — Spirit",
           "power": 1,
           "toughness": 1,
+          "colors": [
+            "W"
+          ],
           "keywords": [
             "Flying"
           ]

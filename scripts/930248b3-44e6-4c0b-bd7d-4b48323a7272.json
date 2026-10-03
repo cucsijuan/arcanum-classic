@@ -11,7 +11,10 @@
             "name": "Bear",
             "types": "Creature — Bear",
             "power": 4,
-            "toughness": 4
+            "toughness": 4,
+            "colors": [
+              "G"
+            ]
           }
         }
       ],

@@ -12,6 +12,9 @@
             "types": "Creature — Dragon",
             "power": 4,
             "toughness": 4,
+            "colors": [
+              "R"
+            ],
             "keywords": [
               "Flying"
             ]

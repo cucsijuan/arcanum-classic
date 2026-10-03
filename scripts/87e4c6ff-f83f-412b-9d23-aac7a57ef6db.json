@@ -12,6 +12,9 @@
             "types": "Creature — Bird",
             "power": 1,
             "toughness": 1,
+            "colors": [
+              "W"
+            ],
             "keywords": [
               "Flying"
             ]

@@ -9,7 +9,10 @@
           "name": "Knight Ally",
           "types": "Creature — Knight Ally",
           "power": 2,
-          "toughness": 2
+          "toughness": 2,
+          "colors": [
+            "W"
+          ]
         }
       }
     ]

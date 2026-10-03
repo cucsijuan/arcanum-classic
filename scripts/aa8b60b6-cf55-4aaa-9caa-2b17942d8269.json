@@ -9,7 +9,10 @@
           "name": "Citizen",
           "types": "Creature — Citizen",
           "power": 1,
-          "toughness": 1
+          "toughness": 1,
+          "colors": [
+            "W"
+          ]
         }
       }
     ]

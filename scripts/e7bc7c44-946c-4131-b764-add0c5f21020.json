@@ -11,7 +11,10 @@
             "name": "Human Soldier",
             "types": "Creature — Human Soldier",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
           }
         }
       ],

@@ -12,6 +12,10 @@
             "types": "Creature — Inkling",
             "power": 1,
             "toughness": 1,
+            "colors": [
+              "W",
+              "B"
+            ],
             "keywords": [
               "Flying"
             ]

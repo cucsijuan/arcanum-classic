@@ -11,7 +11,10 @@
             "name": "Goat",
             "types": "Creature — Goat",
             "power": 0,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
           }
         }
       ],

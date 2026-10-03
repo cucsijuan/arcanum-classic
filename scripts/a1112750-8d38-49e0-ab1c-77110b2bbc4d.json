@@ -11,7 +11,10 @@
             "name": "Wolf",
             "types": "Creature — Wolf",
             "power": 2,
-            "toughness": 2
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
           }
         }
       ],

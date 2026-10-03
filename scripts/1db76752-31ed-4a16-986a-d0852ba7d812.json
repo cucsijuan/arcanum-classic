@@ -12,6 +12,9 @@
             "types": "Creature — Spider",
             "power": 2,
             "toughness": 1,
+            "colors": [
+              "B"
+            ],
             "keywords": [
               "Reach",
               "Menace"

@@ -11,7 +11,10 @@
             "name": "Boar",
             "types": "Creature — Boar",
             "power": 3,
-            "toughness": 3
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
           }
         }
       ],

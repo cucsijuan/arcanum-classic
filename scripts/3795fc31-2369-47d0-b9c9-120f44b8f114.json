@@ -11,7 +11,10 @@
             "name": "Elf Warrior",
             "types": "Creature — Elf Warrior",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
           }
         }
       ],

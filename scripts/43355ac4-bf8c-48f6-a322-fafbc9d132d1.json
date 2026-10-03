@@ -10,6 +10,9 @@
           "types": "Creature — Drake",
           "power": 2,
           "toughness": 2,
+          "colors": [
+            "U"
+          ],
           "keywords": [
             "Flying"
           ]

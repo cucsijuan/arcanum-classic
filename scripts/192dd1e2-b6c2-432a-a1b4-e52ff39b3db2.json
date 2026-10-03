@@ -11,7 +11,11 @@
             "name": "Human Citizen",
             "types": "Creature — Human Citizen",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
           }
         }
       ],

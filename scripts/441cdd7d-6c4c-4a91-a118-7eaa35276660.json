@@ -12,6 +12,9 @@
             "types": "Creature — Demon",
             "power": 5,
             "toughness": 5,
+            "colors": [
+              "B"
+            ],
             "keywords": [
               "Flying"
             ]

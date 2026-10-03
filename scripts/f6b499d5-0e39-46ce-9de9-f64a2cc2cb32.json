@@ -11,7 +11,10 @@
             "name": "Phyrexian Goblin",
             "types": "Creature — Phyrexian Goblin",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
           }
         }
       ],

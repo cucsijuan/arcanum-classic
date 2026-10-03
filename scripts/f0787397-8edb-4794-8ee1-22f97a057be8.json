@@ -11,7 +11,10 @@
             "name": "Cat",
             "types": "Creature — Cat",
             "power": 2,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
           }
         }
       ],

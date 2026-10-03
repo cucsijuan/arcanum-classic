@@ -10,6 +10,10 @@
           "types": "Creature — Satyr",
           "power": 2,
           "toughness": 2,
+          "colors": [
+            "R",
+            "G"
+          ],
           "keywords": [
             "Haste"
           ]

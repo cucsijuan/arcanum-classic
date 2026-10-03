@@ -187,6 +187,10 @@ def effect(sentence, b):
     m = re.fullmatch(r"Create (\w+) (\d+)/(\d+) ((?:white|blue|black|red|green|colorless)(?: and (?:white|blue|black|red|green))?) ([A-Z][a-z]+(?: [A-Z][a-z]+)*) (?:artifact )?creature tokens?(?: with (.+))?", s)
     if m:
         token = {"name": m.group(5), "types": "Creature — " + m.group(5), "power": int(m.group(2)), "toughness": int(m.group(3))}
+        letters = {"white": "W", "blue": "U", "black": "B", "red": "R", "green": "G"}
+        colors = [letters[w] for w in m.group(4).split(" and ") if w in letters]
+        if colors:
+            token["colors"] = colors
         if m.group(6):
             token["keywords"] = keywords_list(m.group(6))
         return [{"tokens": num(m.group(1)), "token": token}]

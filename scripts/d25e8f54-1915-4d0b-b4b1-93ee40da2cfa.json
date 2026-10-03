@@ -11,7 +11,11 @@
             "name": "Worm",
             "types": "Creature — Worm",
             "power": 1,
-            "toughness": 1
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ]
           }
         }
       ],

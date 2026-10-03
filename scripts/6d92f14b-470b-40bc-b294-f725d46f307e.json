@@ -12,6 +12,9 @@
             "types": "Creature — Elemental",
             "power": 3,
             "toughness": 1,
+            "colors": [
+              "R"
+            ],
             "keywords": [
               "Haste"
             ]
