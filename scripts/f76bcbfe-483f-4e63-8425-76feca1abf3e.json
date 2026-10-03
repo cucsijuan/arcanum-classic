@@ -1,0 +1,5 @@
+{
+  "name": "Pyromancer's Goggles",
+  "tapForMana": "{R}",
+  "manaRider": "CopyRedInstantOrSorcery"
+}

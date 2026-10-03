@@ -1,0 +1,17 @@
+{
+  "name": "Cultivator's Caravan",
+  "abilities": [
+    {
+      "cost": "crew:3",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 3"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Flamewake Phoenix",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": "ferocious",
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "mayPay": "Pay {R} to return this card to the battlefield?",
+          "mana": "{R}",
+          "effects": [
+            {
+              "reanimate": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Ferocious — At the beginning of combat on your turn, if you control a creature with power 4 or greater, you may pay {R}. If you do, return this card from your graveyard to the battlefield."
+    }
+  ]
+}

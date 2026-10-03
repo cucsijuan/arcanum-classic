@@ -1,0 +1,29 @@
+{
+  "name": "Ovika, Enigma Goliath",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": {
+            "name": "Phyrexian Goblin",
+            "types": "Creature — Phyrexian Goblin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          },
+          "hasteUntilEndOfTurn": true
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create X 1/1 red Phyrexian Goblin creature tokens, where X is the mana value of that spell. They gain haste until end of turn."
+    }
+  ]
+}

@@ -11,6 +11,7 @@
 1 Elementalist Adept
 1 Fog Bank
 1 Gatekeeper of Malakir
+1 Harbinger of the Tides
 1 Hungry Ghoul
 1 Kalastria Highborn
 1 Kitesail Corsair
@@ -19,20 +20,19 @@
 1 Mystic Archaeologist
 1 Nullpriest of Oblivion
 1 Reassembling Skeleton
-1 Sanguine Syphoner
 1 Adventuring Gear
 1 An Offer You Can't Refuse
 1 Deathmark
 1 Dive Down
 1 Duress
+1 Eaten Alive
 1 Fleeting Distraction
 1 Opt
 1 Soul-Guide Lantern
 1 Stab
+1 Undying Malice
 1 Unsummon
 1 Vampiric Rites
-1 Cemetery Recruitment
-1 Chart a Course
-1 Essence Scatter
+1 Witness Protection
 12 Island
 12 Swamp

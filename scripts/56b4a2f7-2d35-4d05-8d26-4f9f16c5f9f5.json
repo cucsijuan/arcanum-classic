@@ -1,0 +1,16 @@
+{
+  "name": "Lunar Insight",
+  "spell": {
+    "effects": [
+      {
+        "draw": {
+          "distinctManaValues": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

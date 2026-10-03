@@ -1,0 +1,27 @@
+{
+  "name": "Undying Malice",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "abilities": [
+          {
+            "trigger": "dies",
+            "effects": [
+              {
+                "reanimate": "self",
+                "tapped": true,
+                "ownerControl": true,
+                "counters": 1
+              }
+            ],
+            "text": "When this creature dies, return it to the battlefield tapped under its owner's control with a +1/+1 counter on it."
+          }
+        ]
+      }
+    ]
+  }
+}

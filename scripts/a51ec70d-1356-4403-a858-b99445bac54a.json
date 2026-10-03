@@ -1,0 +1,32 @@
+{
+  "name": "Predator Ooze",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, put a +1/+1 counter on it."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "damagedBySource": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature dealt damage by this creature this turn dies, put a +1/+1 counter on this creature."
+    }
+  ]
+}

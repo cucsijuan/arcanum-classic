@@ -1,0 +1,53 @@
+{
+  "name": "Redcap Gutter-Dweller",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Can't block"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 1/1 black Rat creature tokens with \"This token can't block.\""
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            },
+            {
+              "exileTopPlayable": 1,
+              "chooseOne": false
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature and exile the top card of your library. You may play that card this turn."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "New Horizons",
+  "aura": "land",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this Aura enters, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "grantsMana": "any",
+        "grantsManaAmount": 2,
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted land has \"{T}: Add two mana of any one color.\""
+    }
+  ]
+}

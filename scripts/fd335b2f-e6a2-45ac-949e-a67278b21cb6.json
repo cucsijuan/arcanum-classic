@@ -1,0 +1,29 @@
+{
+  "name": "Tinybones, Bauble Burglar",
+  "replaces": [
+    "PlayStashedCards"
+  ],
+  "abilities": [
+    {
+      "trigger": "opponentDiscards",
+      "effects": [
+        {
+          "exile": "triggered",
+          "withCounter": "stash"
+        }
+      ],
+      "text": "Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it."
+    },
+    {
+      "cost": "{3}{B}, {T}",
+      "sorcery": true,
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "{3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery."
+    }
+  ]
+}

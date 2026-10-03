@@ -1,0 +1,32 @@
+{
+  "name": "Garna, Bloodfist of Keld",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "if": "triggeredWasAttacking",
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "damage": 1,
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control dies, draw a card if it was attacking. Otherwise, Garna deals 1 damage to each opponent."
+    }
+  ]
+}

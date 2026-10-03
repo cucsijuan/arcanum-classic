@@ -1,0 +1,55 @@
+{
+  "name": "Demonic Pact",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "modesOnce": true,
+      "modes": [
+        {
+          "text": "This enchantment deals 4 damage to any target and you gain 4 life.",
+          "targets": [
+            "any"
+          ],
+          "effects": [
+            {
+              "damage": 4,
+              "to": "target"
+            },
+            {
+              "gainLife": 4
+            }
+          ]
+        },
+        {
+          "text": "Target opponent discards two cards.",
+          "targets": [
+            "opponent"
+          ],
+          "effects": [
+            {
+              "discard": 2,
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Draw two cards.",
+          "effects": [
+            {
+              "draw": 2
+            }
+          ]
+        },
+        {
+          "text": "You lose the game.",
+          "effects": [
+            {
+              "loseGame": true
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, choose one that hasn't been chosen —"
+    }
+  ]
+}

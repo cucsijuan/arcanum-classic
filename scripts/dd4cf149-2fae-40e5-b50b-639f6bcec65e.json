@@ -1,0 +1,29 @@
+{
+  "name": "Thousand-Year Storm",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "copySpell": "triggered",
+          "count": {
+            "spellsCast": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            },
+            "offset": -1
+          }
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, copy it for each other instant and sorcery spell you've cast before it this turn. You may choose new targets for the copies."
+    }
+  ]
+}

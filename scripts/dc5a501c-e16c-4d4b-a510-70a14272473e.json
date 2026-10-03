@@ -1,0 +1,22 @@
+{
+  "name": "Tribute to Hunger",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "target"
+      },
+      {
+        "gainLife": "sacrificedToughness"
+      }
+    ]
+  }
+}

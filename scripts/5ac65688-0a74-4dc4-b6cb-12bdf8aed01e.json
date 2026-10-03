@@ -1,0 +1,34 @@
+{
+  "name": "Myojin of Night's Reach",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "divinity",
+  "entersWithCountersIf": "castFromHand",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 1,
+          "kind": "divinity"
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Myojin of Night's Reach has indestructible as long as it has a divinity counter on it."
+    },
+    {
+      "cost": "removeCounters:1:divinity",
+      "effects": [
+        {
+          "discardHand": "opponents"
+        }
+      ],
+      "text": "Remove a divinity counter from Myojin of Night's Reach: Each opponent discards their hand."
+    }
+  ]
+}

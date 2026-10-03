@@ -1,0 +1,27 @@
+{
+  "name": "Eaten Alive",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    },
+    {
+      "mana": "{3}{B}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

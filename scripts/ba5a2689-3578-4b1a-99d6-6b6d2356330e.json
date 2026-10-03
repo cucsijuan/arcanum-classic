@@ -1,0 +1,16 @@
+{
+  "name": "Strongbox Raider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "exileTopPlayable": 2,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card."
+    }
+  ]
+}

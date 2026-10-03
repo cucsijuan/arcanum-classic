@@ -1,0 +1,22 @@
+{
+  "name": "Hidetsugu's Second Rite",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "if": {
+          "targetLifeExactly": 10,
+          "target": "target"
+        },
+        "then": [
+          {
+            "damage": 10,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

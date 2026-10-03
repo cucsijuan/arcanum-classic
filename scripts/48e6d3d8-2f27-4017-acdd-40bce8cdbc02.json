@@ -1,0 +1,10 @@
+{
+  "name": "Giada, Font of Hope",
+  "replaces": [
+    "AngelsEnterWithCounters"
+  ],
+  "tapForMana": "{W}",
+  "manaOnlyFor": {
+    "subtype": "Angel"
+  }
+}

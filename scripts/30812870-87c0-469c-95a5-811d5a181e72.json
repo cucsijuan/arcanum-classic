@@ -1,0 +1,30 @@
+{
+  "name": "Biogenic Upgrade",
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "optional": true
+      },
+      {
+        "kind": "creature",
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "distributeCounters": 3
+      },
+      {
+        "doubleCounters": "target"
+      },
+      {
+        "doubleCounters": "target2"
+      },
+      {
+        "doubleCounters": "target3"
+      }
+    ]
+  }
+}

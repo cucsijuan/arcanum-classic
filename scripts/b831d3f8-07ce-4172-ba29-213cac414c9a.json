@@ -1,0 +1,36 @@
+{
+  "name": "Deadly Brew",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ]
+        },
+        "who": "everyone"
+      },
+      {
+        "if": "youSacrificed",
+        "then": [
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "creature",
+                "artifact",
+                "enchantment",
+                "land",
+                "planeswalker"
+              ]
+            },
+            "count": 1,
+            "upTo": true,
+            "excludeSacrificed": true
+          }
+        ]
+      }
+    ]
+  }
+}

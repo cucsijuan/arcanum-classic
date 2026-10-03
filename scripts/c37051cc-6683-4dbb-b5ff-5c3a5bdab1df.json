@@ -1,0 +1,25 @@
+{
+  "name": "Painful Quandary",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "unless": "triggeredPlayer",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 5,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, that player loses 5 life unless they discard a card."
+    }
+  ]
+}

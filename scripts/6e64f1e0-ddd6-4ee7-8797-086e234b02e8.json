@@ -1,0 +1,28 @@
+{
+  "name": "Steel Hellkite",
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{2}: This creature gets +1/+0 until end of turn."
+    },
+    {
+      "cost": "{X}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "destroyManaValueXDamaged": true
+        }
+      ],
+      "text": "{X}: Destroy each nonland permanent with mana value X whose controller was dealt combat damage by this creature this turn. Activate only once each turn."
+    }
+  ]
+}

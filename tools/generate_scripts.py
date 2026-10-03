@@ -27,7 +27,7 @@ ENGINE_KEYWORDS = {
     "equip", "enchant",  # derived from rules text by the engine's card factory
     # keyword actions and ability words: they label rules text the script spells out
     "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
-    "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance",
+    "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance", "crew", "protection",
 }
 ABILITY_WORD = re.compile(r"^(Raid|Landfall|Morbid|Threshold|Ferocious|Formidable|Alliance) — ")
 # Lines the engine derives from card data on its own.

@@ -1,0 +1,28 @@
+{
+  "name": "Wildborn Preserver",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you",
+        "notSubtype": "Human"
+      },
+      "effects": [
+        {
+          "mayPayX": "Pay {X} to put X +1/+1 counters on this creature?",
+          "effects": [
+            {
+              "counters": "X",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on this creature."
+    }
+  ]
+}

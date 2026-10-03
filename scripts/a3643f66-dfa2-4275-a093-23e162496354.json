@@ -1,0 +1,36 @@
+{
+  "name": "Perforating Artist",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "raid",
+      "effects": [
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "sacrifice": {
+                "types": [
+                  "creature",
+                  "artifact",
+                  "enchantment",
+                  "planeswalker"
+                ]
+              }
+            },
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Raid — At the beginning of your end step, if you attacked this turn, each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card."
+    }
+  ]
+}

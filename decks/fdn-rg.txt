@@ -2,7 +2,9 @@
 1 Fanatical Firebrand
 1 Frenzied Goblin
 1 Ghitu Lavarunner
+1 Kellan, Planar Trailblazer
 1 Llanowar Elves
+1 Mild-Mannered Librarian
 1 Mold Adder
 1 Stromkirk Noble
 1 Wildwood Scourge
@@ -13,13 +15,11 @@
 1 Druid of the Cowl
 1 Dwynen's Elite
 1 Firebrand Archer
+1 Fynn, the Fangbearer
 1 Gnarlid Colony
 1 Heartfire Immolator
 1 Kargan Dragonrider
 1 Nessian Hornbeetle
-1 Ruby, Daring Tracker
-1 Scavenging Ooze
-1 Searslicer Goblin
 1 Adventuring Gear
 1 Boltwave
 1 Burst Lightning

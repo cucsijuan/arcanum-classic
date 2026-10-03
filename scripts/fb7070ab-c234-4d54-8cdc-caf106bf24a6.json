@@ -1,0 +1,26 @@
+{
+  "name": "Mild-Mannered Librarian",
+  "abilities": [
+    {
+      "cost": "{3}{G}",
+      "onlyOnce": true,
+      "effects": [
+        {
+          "become": "self",
+          "addSubtypes": [
+            "Werewolf"
+          ],
+          "permanent": true
+        },
+        {
+          "counters": 2,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}{G}: This creature becomes a Werewolf. Put two +1/+1 counters on it and you draw a card. Activate only once."
+    }
+  ]
+}

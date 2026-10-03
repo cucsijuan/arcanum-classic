@@ -1,0 +1,50 @@
+{
+  "name": "Dropkick Bomber",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Goblin",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Goblins you control get +1/+1."
+    },
+    {
+      "cost": "{R}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Goblin",
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "keywords": [
+            "Flying"
+          ],
+          "abilities": [
+            {
+              "trigger": "dealsCombatDamage",
+              "effects": [
+                {
+                  "sacrificeIt": "self"
+                }
+              ],
+              "text": "When this creature deals combat damage, sacrifice it."
+            }
+          ]
+        }
+      ],
+      "text": "{R}: Until end of turn, another target Goblin you control gains flying and \"When this creature deals combat damage, sacrifice it.\""
+    }
+  ]
+}

@@ -17,9 +17,9 @@
 1 Elementalist Adept
 1 Felidar Cub
 1 Fog Bank
+1 Giada, Font of Hope
+1 Harbinger of the Tides
 1 Hare Apparent
-1 Helpful Hunter
-1 Kitesail Corsair
 1 Adventuring Gear
 1 An Offer You Can't Refuse
 1 Authority of the Consuls
@@ -32,7 +32,7 @@
 1 Opt
 1 Soul-Guide Lantern
 1 Unsummon
+1 Witness Protection
 1 Adamant Will
-1 Chart a Course
 12 Plains
 12 Island

@@ -1,0 +1,37 @@
+{
+  "name": "Elenda, Saint of Dusk",
+  "hexproofFromTypes": [
+    "instant"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "lifeAboveStarting": 1
+        },
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "As long as your life total is greater than your starting life total, Elenda gets +1/+1 and has menace."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "lifeAboveStarting": 10
+        },
+        "pump": [
+          5,
+          5
+        ]
+      },
+      "text": "Elenda gets an additional +5/+5 as long as your life total is at least 10 greater than your starting life total."
+    }
+  ]
+}

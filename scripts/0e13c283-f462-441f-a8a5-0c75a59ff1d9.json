@@ -1,0 +1,24 @@
+{
+  "name": "Infernal Vessel",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "if": {
+        "not": {
+          "sourceWas": "Demon"
+        }
+      },
+      "effects": [
+        {
+          "reanimate": "self",
+          "ownerControl": true,
+          "counters": 2,
+          "addSubtypes": [
+            "Demon"
+          ]
+        }
+      ],
+      "text": "When this creature dies, if it wasn't a Demon, return it to the battlefield under its owner's control with two +1/+1 counters on it. It's a Demon in addition to its other types."
+    }
+  ]
+}

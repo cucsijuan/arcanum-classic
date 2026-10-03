@@ -1,0 +1,36 @@
+{
+  "name": "Ayli, Eternal Pilgrim",
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "gainLife": "sacrificedToughness"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: You gain life equal to the sacrificed creature's toughness."
+    },
+    {
+      "cost": "{1}{W}{B}, sacrifice:creature",
+      "activateIf": {
+        "lifeAboveStarting": 10
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}{W}{B}, Sacrifice another creature: Exile target nonland permanent. Activate only if you have at least 10 life more than your starting life total."
+    }
+  ]
+}

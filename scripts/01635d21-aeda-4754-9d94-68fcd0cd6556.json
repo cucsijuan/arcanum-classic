@@ -1,0 +1,25 @@
+{
+  "name": "Quilled Greatwurm",
+  "graveyardCastCost": {
+    "removeCountersFromCreatures": 6
+  },
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamage",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": "yourTurn",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage during your turn, put that many +1/+1 counters on it."
+    }
+  ]
+}

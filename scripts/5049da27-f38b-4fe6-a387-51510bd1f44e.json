@@ -1,0 +1,20 @@
+{
+  "name": "Nine-Lives Familiar",
+  "entersWithCounters": 8,
+  "entersWithCounterKind": "revival",
+  "entersWithCountersIf": "castFromHand",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "if": {
+        "sourceHadCounters": "revival"
+      },
+      "effects": [
+        {
+          "returnNextEndStepOneFewer": "revival"
+        }
+      ],
+      "text": "When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step."
+    }
+  ]
+}

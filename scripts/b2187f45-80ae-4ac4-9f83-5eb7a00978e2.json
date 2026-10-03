@@ -1,0 +1,7 @@
+{
+  "name": "Sorcerous Spyglass",
+  "chooseOnEnter": "cardName",
+  "replaces": [
+    "StopsChosenNameAbilities"
+  ]
+}

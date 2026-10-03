@@ -1,0 +1,14 @@
+{
+  "name": "Savage Ventmaw",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "addManaUntilEndOfTurn": "{R}{R}{R}{G}{G}{G}"
+        }
+      ],
+      "text": "Whenever this creature attacks, add {R}{R}{R}{G}{G}{G}. Until end of turn, you don't lose this mana as steps and phases end."
+    }
+  ]
+}

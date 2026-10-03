@@ -1,0 +1,37 @@
+{
+  "name": "Alesha, Who Laughs at Fate",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever Alesha attacks, put a +1/+1 counter on it."
+    },
+    {
+      "trigger": "endStep",
+      "if": "raid",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValueSourcePower": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "Raid — At the beginning of your end step, if you attacked this turn, return target creature card with mana value less than or equal to Alesha's power from your graveyard to the battlefield."
+    }
+  ]
+}

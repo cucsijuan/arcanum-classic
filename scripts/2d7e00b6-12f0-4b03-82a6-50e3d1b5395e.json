@@ -1,0 +1,21 @@
+{
+  "name": "Progenitus",
+  "replaces": [
+    "ShuffleIntoLibraryInsteadOfGraveyard"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Protection from everything"
+        ]
+      },
+      "text": "Protection from everything"
+    }
+  ]
+}

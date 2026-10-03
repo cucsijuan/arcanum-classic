@@ -1,0 +1,36 @@
+{
+  "name": "Gate Colossus",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Gate"
+    }
+  },
+  "cantBeBlockedBy": {
+    "maxPower": 2
+  },
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Gate"
+      },
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "may": "Put this card from your graveyard on top of your library?",
+          "effects": [
+            {
+              "toLibrary": "self",
+              "top": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Gate you control enters, you may put this card from your graveyard on top of your library."
+    }
+  ]
+}

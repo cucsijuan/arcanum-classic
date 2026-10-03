@@ -1,0 +1,17 @@
+{
+  "name": "Niv-Mizzet, Visionary",
+  "replaces": [
+    "NoMaximumHandSize"
+  ],
+  "abilities": [
+    {
+      "trigger": "noncombatDamageToOpponent",
+      "effects": [
+        {
+          "draw": "triggerAmount"
+        }
+      ],
+      "text": "Whenever a source you control deals noncombat damage to an opponent, you draw that many cards."
+    }
+  ]
+}

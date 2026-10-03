@@ -1,0 +1,36 @@
+{
+  "name": "Lathril, Blade of the Elves",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Lathril deals combat damage to a player, create that many 1/1 green Elf Warrior creature tokens."
+    },
+    {
+      "cost": "{T}, tapCreatures:10:Elf",
+      "effects": [
+        {
+          "loseLife": 10,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 10
+        }
+      ],
+      "text": "{T}, Tap ten untapped Elves you control: Each opponent loses 10 life and you gain 10 life."
+    }
+  ]
+}

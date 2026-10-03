@@ -1,0 +1,41 @@
+{
+  "name": "Mazemind Tome",
+  "abilities": [
+    {
+      "cost": "{T}, addCounters:1:page",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "{T}, Put a page counter on this artifact: Scry 1."
+    },
+    {
+      "cost": "{2}, {T}, addCounters:1:page",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Put a page counter on this artifact: Draw a card."
+    },
+    {
+      "trigger": "countersPlaced",
+      "onSelf": true,
+      "counterKind": "page",
+      "if": {
+        "counters": 4,
+        "kind": "page"
+      },
+      "effects": [
+        {
+          "exile": "self"
+        },
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "When there are four or more page counters on this artifact, exile it. If you do, you gain 4 life."
+    }
+  ]
+}

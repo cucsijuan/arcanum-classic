@@ -1,0 +1,37 @@
+{
+  "name": "Hoarding Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for an artifact card and exile it?",
+          "effects": [
+            {
+              "searchExileWithThis": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for an artifact card, exile it, then shuffle."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Put the exiled card into its owner's hand?",
+          "effects": [
+            {
+              "returnExiledWithThis": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may put the exiled card into its owner's hand."
+    }
+  ]
+}

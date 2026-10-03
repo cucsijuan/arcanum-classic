@@ -4,6 +4,7 @@
 1 Frenzied Goblin
 1 Ghitu Lavarunner
 1 Infestation Sage
+1 Kellan, Planar Trailblazer
 1 Pulse Tracker
 1 Stromkirk Noble
 1 Vampire Neonate
@@ -19,20 +20,19 @@
 1 Kargan Dragonrider
 1 Knight of Malice
 1 Nullpriest of Oblivion
-1 Reassembling Skeleton
 1 Adventuring Gear
 1 Boltwave
 1 Burst Lightning
 1 Crash Through
 1 Deathmark
 1 Duress
+1 Eaten Alive
 1 Kindled Fury
 1 Soul-Guide Lantern
 1 Stab
+1 Undying Malice
 1 Vampiric Rites
 1 Abrade
 1 Bulk Up
-1 Cemetery Recruitment
-1 Dragon Fodder
 12 Swamp
 12 Mountain

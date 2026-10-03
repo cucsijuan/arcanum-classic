@@ -1,0 +1,22 @@
+{
+  "name": "Wishclaw Talisman",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "wish",
+  "abilities": [
+    {
+      "cost": "{1}, {T}, removeCounters:1:wish",
+      "activateIf": "yourTurn",
+      "effects": [
+        {
+          "search": {},
+          "to": "hand"
+        },
+        {
+          "gainControl": "self",
+          "to": "opponents"
+        }
+      ],
+      "text": "{1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn."
+    }
+  ]
+}

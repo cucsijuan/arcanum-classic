@@ -3,6 +3,7 @@
 1 Hinterland Sanctifier
 1 Leonin Vanguard
 1 Llanowar Elves
+1 Mild-Mannered Librarian
 1 Mold Adder
 1 Savannah Lions
 1 Wildwood Scourge
@@ -17,9 +18,8 @@
 1 Druid of the Cowl
 1 Dwynen's Elite
 1 Felidar Cub
-1 Gnarlid Colony
-1 Hare Apparent
-1 Helpful Hunter
+1 Fynn, the Fangbearer
+1 Giada, Font of Hope
 1 Adventuring Gear
 1 Authority of the Consuls
 1 Bushwhack

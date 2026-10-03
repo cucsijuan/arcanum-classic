@@ -1,0 +1,10 @@
+{
+  "name": "Time Stop",
+  "spell": {
+    "effects": [
+      {
+        "endTurn": true
+      }
+    ]
+  }
+}

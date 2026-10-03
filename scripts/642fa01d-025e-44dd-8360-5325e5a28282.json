@@ -1,0 +1,30 @@
+{
+  "name": "Dread Summons",
+  "spell": {
+    "effects": [
+      {
+        "mill": "X",
+        "who": "everyone"
+      },
+      {
+        "tokens": {
+          "milled": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "B"
+          ]
+        },
+        "tapped": true
+      }
+    ]
+  }
+}

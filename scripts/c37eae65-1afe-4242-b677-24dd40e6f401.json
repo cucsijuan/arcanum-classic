@@ -1,0 +1,28 @@
+{
+  "name": "Eaten by Piranhas",
+  "aura": "creature",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "setTypes": [
+          "creature"
+        ],
+        "setSubtypes": [
+          "Skeleton"
+        ],
+        "setColors": [
+          "B"
+        ],
+        "setPower": 1,
+        "setToughness": 1,
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted creature loses all abilities and is a black Skeleton creature with base power and toughness 1/1."
+    }
+  ]
+}

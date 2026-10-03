@@ -1,0 +1,32 @@
+{
+  "name": "Imprisoned in the Moon",
+  "aura": {
+    "kind": "permanent",
+    "filter": {
+      "types": [
+        "creature",
+        "land",
+        "planeswalker"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "setTypes": [
+          "land"
+        ],
+        "setSubtypes": [],
+        "setColors": [],
+        "grantsMana": "{C}",
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted permanent is a colorless land with \"{T}: Add {C}\" and loses all other card types and abilities."
+    }
+  ]
+}

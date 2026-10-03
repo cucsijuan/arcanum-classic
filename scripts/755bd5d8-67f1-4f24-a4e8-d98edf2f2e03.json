@@ -1,0 +1,32 @@
+{
+  "name": "Finale of Revelation",
+  "spell": {
+    "exileAfter": true,
+    "effects": [
+      {
+        "if": {
+          "xAtLeast": 10
+        },
+        "then": [
+          {
+            "shuffleGraveyard": "you"
+          },
+          {
+            "draw": "X"
+          },
+          {
+            "untapUpTo": 5
+          },
+          {
+            "noMaxHandSize": true
+          }
+        ],
+        "else": [
+          {
+            "draw": "X"
+          }
+        ]
+      }
+    ]
+  }
+}

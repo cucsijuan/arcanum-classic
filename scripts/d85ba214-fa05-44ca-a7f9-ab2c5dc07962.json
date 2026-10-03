@@ -1,0 +1,10 @@
+{
+  "name": "Teach by Example",
+  "spell": {
+    "effects": [
+      {
+        "copyNextInstantOrSorcery": true
+      }
+    ]
+  }
+}

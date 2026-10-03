@@ -1,0 +1,25 @@
+{
+  "name": "Circuitous Route",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "anyOf": [
+            {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            {
+              "subtype": "Gate"
+            }
+          ]
+        },
+        "count": 2,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Kellan, Planar Trailblazer",
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Scout"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "permanent": true,
+              "setSubtypes": [
+                "Human",
+                "Faerie",
+                "Detective"
+              ],
+              "abilities": [
+                {
+                  "trigger": "combatDamageToPlayer",
+                  "effects": [
+                    {
+                      "exileTopPlayable": 1,
+                      "chooseOne": false
+                    }
+                  ],
+                  "text": "Whenever Kellan deals combat damage to a player, exile the top card of your library. You may play that card this turn."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}{R}: If Kellan is a Scout, it becomes a Human Faerie Detective and gains \"Whenever Kellan deals combat damage to a player, exile the top card of your library. You may play that card this turn.\""
+    },
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Detective"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "permanent": true,
+              "power": 3,
+              "toughness": 2,
+              "setSubtypes": [
+                "Human",
+                "Faerie",
+                "Rogue"
+              ],
+              "keywords": [
+                "Double strike"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{2}{R}: If Kellan is a Detective, it becomes a 3/2 Human Faerie Rogue and gains double strike."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Ordeal of Nylea",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "triggered"
+        },
+        {
+          "if": {
+            "triggeredCounters": 3
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, put a +1/+1 counter on it. Then if it has three or more +1/+1 counters on it, sacrifice this Aura."
+    },
+    {
+      "trigger": "selfSacrificed",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "When you sacrifice this Aura, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

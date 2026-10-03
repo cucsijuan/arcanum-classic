@@ -1,0 +1,28 @@
+{
+  "name": "Blasphemous Edict",
+  "alternativeCost": {
+    "cost": "{B}",
+    "if": {
+      "control": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "count": 13
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 13,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "everyone"
+      }
+    ]
+  }
+}

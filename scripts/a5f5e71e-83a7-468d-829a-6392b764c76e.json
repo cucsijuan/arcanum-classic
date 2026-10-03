@@ -1,0 +1,30 @@
+{
+  "name": "Witness Protection",
+  "aura": "creature",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "setTypes": [
+          "creature"
+        ],
+        "setSubtypes": [
+          "Citizen"
+        ],
+        "setColors": [
+          "G",
+          "W"
+        ],
+        "setPower": 1,
+        "setToughness": 1,
+        "setName": "Legitimate Businessperson",
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted creature loses all abilities and is a green and white Citizen creature with base power and toughness 1/1 named Legitimate Businessperson."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Crawling Barrens",
+  "abilities": [
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        },
+        {
+          "may": "Have it become a 0/0 Elemental creature until end of turn?",
+          "effects": [
+            {
+              "become": "self",
+              "power": 0,
+              "toughness": 0,
+              "addTypes": [
+                "creature"
+              ],
+              "addSubtypes": [
+                "Elemental"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{4}: Put two +1/+1 counters on this land. Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land."
+    }
+  ]
+}

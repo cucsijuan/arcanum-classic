@@ -1,0 +1,16 @@
+{
+  "name": "Aurelia, the Warleader",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "nth": 1,
+      "effects": [
+        {
+          "additionalCombat": true,
+          "untapCreatures": true
+        }
+      ],
+      "text": "Whenever Aurelia attacks for the first time each turn, untap all creatures you control. After this phase, there is an additional combat phase."
+    }
+  ]
+}

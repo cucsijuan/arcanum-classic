@@ -1,0 +1,14 @@
+{
+  "name": "Exsanguinate",
+  "spell": {
+    "effects": [
+      {
+        "loseLife": "X",
+        "who": "opponents"
+      },
+      {
+        "gainLife": "lifeLostThisWay"
+      }
+    ]
+  }
+}

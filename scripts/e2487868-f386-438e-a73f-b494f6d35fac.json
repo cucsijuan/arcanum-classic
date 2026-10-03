@@ -1,0 +1,24 @@
+{
+  "name": "Genesis Wave",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 0,
+        "countIsX": true,
+        "maxManaValueX": true,
+        "filter": {
+          "types": [
+            "creature",
+            "artifact",
+            "enchantment",
+            "land",
+            "planeswalker"
+          ]
+        },
+        "take": -1,
+        "to": "battlefield",
+        "rest": "graveyard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Luminous Rebuke",
+  "costReduction": {
+    "amount": 3,
+    "ifTargets": {
+      "types": [
+        "creature"
+      ],
+      "tapped": true
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

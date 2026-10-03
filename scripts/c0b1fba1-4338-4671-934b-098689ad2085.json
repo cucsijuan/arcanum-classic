@@ -1,0 +1,22 @@
+{
+  "name": "Fynn, the Fangbearer",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "keyword": "Deathtouch"
+      },
+      "effects": [
+        {
+          "poison": 2,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters."
+    }
+  ]
+}

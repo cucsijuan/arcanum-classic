@@ -1,0 +1,14 @@
+{
+  "name": "Curator of Destinies",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "piles": 5
+        }
+      ],
+      "text": "When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard."
+    }
+  ]
+}

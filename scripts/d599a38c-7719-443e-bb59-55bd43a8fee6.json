@@ -1,0 +1,17 @@
+{
+  "name": "Confiscate",
+  "aura": "permanent",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "givesControl": true
+      },
+      "text": "You control enchanted permanent."
+    }
+  ]
+}
