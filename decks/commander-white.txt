@@ -1,0 +1,68 @@
+# Commander starter deck (white), built from fully supported cards.
+Commander
+1 Zetalpa, Primal Dawn
+
+Deck
+1 Chaplain's Blessing
+1 Clockwork Drawbridge
+1 Dragon's Eye Sentry
+1 Resolute Watchdog
+1 Sunbeam Spellbomb
+1 Unholy Officiant
+1 Daybreak Charger
+1 Frostbridge Guard
+1 Hero's Resolve
+1 Knight of Meadowgrain
+1 Longbow Archer
+1 Nimbus Wings
+1 Outlaw Medic
+1 Precinct Captain
+1 Ronom Unicorn
+1 Sacred Nectar
+1 Soothing Balm
+1 Sundial, Dawn Tyrant
+1 Veteran Armorer
+1 Veteran Armorsmith
+1 Aerial Responder
+1 Amateur Hero
+1 Bastion Protector
+1 Benalish Marshal
+1 Envoy of Okinec Ahau
+1 Haazda Officer
+1 Healer's Flock
+1 Healing Hands
+1 Koala-Sheep
+1 Kor Sky Climber
+1 Marble Chalice
+1 Queen's Commission
+1 Ray of Dissolution
+1 Steadfast Sentry
+1 Allied Reinforcements
+1 Builder's Blessing
+1 Captain's Call
+1 Clarion Cathars
+1 Divine Transformation
+1 Eager Glyphmage
+1 Friendly Ghost
+1 Gale Swooper
+1 Hawkeye, Clint Barton
+1 Indomitable Ancients
+1 Sparring Mummy
+1 Wall of Swords
+1 Archon of Justice
+1 Bastion Mastodon
+1 Herald of Faith
+1 Knight Watch
+1 Serra Angel
+1 Soulbound Guardians
+1 Take Up Arms
+1 Valkyrior Skyrider
+1 Deathless Angel
+1 Jhovall Queen
+1 Knight of the Tusk
+1 Pearl Dragon
+1 Resupply
+1 Angel of Retribution
+1 Archangel
+1 Elesh Norn, Grand Cenobite
+37 Plains

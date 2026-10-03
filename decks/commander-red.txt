@@ -1,0 +1,68 @@
+# Commander starter deck (red), built from fully supported cards.
+Commander
+1 Rorix Bladewing
+
+Deck
+1 Bold Impaler
+1 Bull Rush
+1 Fanatical Firebrand
+1 Lavastep Raider
+1 Repulsor Rays
+1 Sarpadian Simulacrum
+1 Axgard Cavalry
+1 Breath of Fire
+1 Deadeye Duelist
+1 Frenzied Rage
+1 Hulking Goblin
+1 Ogre Sentry
+1 Playful Shove
+1 Raccoon Rallier
+1 Rig for War
+1 Sell-Sword Brute
+1 Taxi Driver
+1 Wall of Earth
+1 Wall of Razors
+1 Wall of Torches
+1 Blistering Barrier
+1 Brazen Scourge
+1 Craven Giant
+1 Flowstone Kavu
+1 Flowstone Wall
+1 Ghitu War Cry
+1 Hulking Ogre
+1 Lightning Talons
+1 Minotaur Sureshot
+1 Rageblood Shaman
+1 Smash
+1 Wall of Heat
+1 Wall of Stone
+1 Zap
+1 Bloodsworn Steward
+1 Craterize
+1 Crucible of Fire
+1 Dinotomaton
+1 Engulfing Eruption
+1 Fire Nation Archers
+1 Lava Hounds
+1 Monster Mashup
+1 Ogre Taskmaster
+1 Orcish Oriflamme
+1 Ravenous Giant
+1 Zealot of the God-Pharaoh
+1 Charging Monstrosaur
+1 Command the Storm
+1 Flurry of Horns
+1 Hulk, Bruce Banner
+1 Hulking Cyclops
+1 Panicked Altisaur
+1 Quaketusk Boar
+1 Resistance Skywarden
+1 Survey the Wreckage
+1 Explosive Impact
+1 Pyre Spawn
+1 Ripscale Predator
+1 Shivan Dragon
+1 Volcanic Rambler
+1 Hellkite Punisher
+1 Brimstone Dragon
+37 Mountain

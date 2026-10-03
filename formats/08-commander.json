@@ -1,0 +1,12 @@
+{
+  "id": "commander",
+  "name": "Commander",
+  "legality": "commander",
+  "minDeckSize": 100,
+  "maxDeckSize": 100,
+  "maxCopies": 1,
+  "sideboardMax": 0,
+  "commander": true,
+  "startingLife": 40,
+  "description": "100-card singleton decks led by a legendary creature, 40 life, 21 commander damage. Great for 3-4 players."
+}

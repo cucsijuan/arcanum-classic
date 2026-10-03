@@ -1,0 +1,68 @@
+# Commander starter deck (black), built from fully supported cards.
+Commander
+1 Yargle, Glutton of Urborg
+
+Deck
+1 Battlefly Swarm
+1 Fungal Infection
+1 Monoist Sentry
+1 Ravine Raider
+1 Unholy Strength
+1 Vicious Conquistador
+1 Craven Knight
+1 Fledgling Djinn
+1 Foul Imp
+1 Gifted Aetherborn
+1 Give In to Violence
+1 Grotesque Mutation
+1 Merciless Enforcers
+1 Mire's Grasp
+1 Moment of Craving
+1 Spineless Thug
+1 Spiteful Bully
+1 Toxic Abomination
+1 Vampire Interloper
+1 Young Wei Recruits
+1 Boon of Emrakul
+1 Daggerclaw Imp
+1 Deathbloom Thallid
+1 Dread Shade
+1 Hero's Downfall
+1 Kalakscion, Hunger Tyrant
+1 Lawless Broker
+1 Master of the Feast
+1 Moment of Defiance
+1 Necrogen Scudder
+1 Serpent Warrior
+1 Spinal Centipede
+1 Tar Snare
+1 Vampire Nighthawk
+1 Fatal Fumes
+1 Feast of the Unicorn
+1 Grendel, Spawn of Knull
+1 Howling Banshee
+1 Juzám Djinn
+1 Phyrexian Defiler
+1 Rampart Hunter
+1 Scavenging Scarab
+1 Skeleton Archer
+1 Strangling Spores
+1 Vampiric Spirit
+1 Vraska's Contempt
+1 Catacomb Crocodile
+1 Demon's Grasp
+1 Douser of Lights
+1 Drider
+1 Lazotep Behemoth
+1 Lich's Caress
+1 Rage-Scarred Berserker
+1 Throttle
+1 Unhallowed Phalanx
+1 Bogstomper
+1 Caustic Hound
+1 Dread Reaper
+1 Eyes of the Beholder
+1 Feral Abomination
+1 Maalfeld Twins
+1 Minotaur Abomination
+37 Swamp

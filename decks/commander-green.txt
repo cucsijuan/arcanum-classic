@@ -1,0 +1,68 @@
+# Commander starter deck (green), built from fully supported cards.
+Commander
+1 Terrian, World Tyrant
+
+Deck
+1 Almighty Brushwagg
+1 Dragon Sniper
+1 Healer of the Glade
+1 Jungle Lion
+1 Ornamental Courage
+1 Unnatural Predation
+1 Aggressive Urge
+1 Death-Hood Cobra
+1 Garruk's Companion
+1 Grappling Sundew
+1 Guardian of the Halls
+1 Iridescent Blademaster
+1 Ixalli's Keeper
+1 Kalonian Tusker
+1 Monstrous Growth
+1 Pestilent Wolf
+1 Quilled Wolf
+1 Tread Upon
+1 Wall of Tanglecord
+1 Wielding the Green Dragon
+1 Carven Caryatid
+1 Confidence from Strength
+1 Force of Savagery
+1 Gaea's Anthem
+1 Gnottvold Recluse
+1 Grasping Longneck
+1 Hungry Megasloth
+1 Hyrax Tower Scout
+1 Lace with Moonglove
+1 Leatherback Baloth
+1 Shopkeeper's Bane
+1 Spidery Grasp
+1 Springmane Cervin
+1 Wildwood Patrol
+1 Archers of Qarsi
+1 Carnivorous Plant
+1 Colossadactyl
+1 Harmonize
+1 Might of Oaks
+1 Nettletooth Djinn
+1 Ordinary Bear
+1 Pheres-Band Warchief
+1 Primordial Pachyderm
+1 Spore Swarm
+1 Sudden Strength
+1 Warriors of Wakanda
+1 Ant Queen
+1 Arborback Stomper
+1 Centaur Glade
+1 Dosan's Oldest Chant
+1 Gigantosaurus
+1 Kodama of the North Tree
+1 Silverback Shaman
+1 Spring of Eternal Peace
+1 Turntimber Ascetic
+1 Hill Giant Herdgorger
+1 Prodigious Growth
+1 Quakestrider Ceratops
+1 Ravenous Lindwurm
+1 Vorstclaw
+1 Kalonian Behemoth
+1 Ancient Brontodon
+37 Forest

@@ -1,0 +1,68 @@
+# Commander starter deck (blue), built from fully supported cards.
+Commander
+1 The Terror of Serpent's Pass
+
+Deck
+1 Eidolon of Philosophy
+1 Network Disruptor
+1 Robe of Mirrors
+1 Sensory Deprivation
+1 Shore Keeper
+1 Slither Blade
+1 Buzz Bots
+1 Caelorna, Coral Tyrant
+1 Eye of Nowhere
+1 Glint
+1 Gust-Skimmer
+1 Hermitic Nautilus
+1 Lord of the Unreal
+1 Malcator's Watcher
+1 Metropolis Sprite
+1 Moat Piranhas
+1 Murmuring Phantasm
+1 Refocus
+1 Shocking Grasp
+1 Summit Sentinel
+1 Chant of the Skifsang
+1 Divination
+1 Drag Under
+1 Glacial Wall
+1 Hover Barrier
+1 Regress
+1 S.H.I.E.L.D. Deployment Drone
+1 Serendib Efreet
+1 Soaring Show-Off
+1 Soulknife Spy
+1 Third Path Savant
+1 Wall of Air
+1 Wall of Water
+1 Watercourser
+1 Bigfin Bouncer
+1 Darkslick Drake
+1 Disorient
+1 Dukhara Peafowl
+1 Nimble Thopterist
+1 Oscorp Research Team
+1 Retrieval Agent
+1 Scion of Glaciers
+1 Talrand's Invocation
+1 Treasure Trove
+1 Water Servant
+1 Zephid's Embrace
+1 Contradict
+1 Faerie Formation
+1 Killer Whale
+1 Lost in the Mist
+1 Serra Sphinx
+1 Stormcloud Spirit
+1 Tidings
+1 Water Elemental
+1 Yargle, Goliath of Otaria
+1 Benthic Giant
+1 Cold-Water Snapper
+1 Mahamoti Djinn
+1 Opportunity
+1 Zephid
+1 Goliath Sphinx
+1 Tidal Kraken
+37 Island
