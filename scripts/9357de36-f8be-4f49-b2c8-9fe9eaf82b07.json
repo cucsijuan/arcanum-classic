@@ -1,0 +1,15 @@
+{
+  "name": "Holy Strength",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +1/+2."
+    }
+  ]
+}

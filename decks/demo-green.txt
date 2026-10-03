@@ -2,10 +2,11 @@
 17 Forest
 4 Llanowar Elves
 3 Elvish Visionary
-4 Grizzly Bears
+2 Timberland Guide
+3 Grizzly Bears
 3 Giant Spider
 2 Colossal Dreadmaw
 1 Craw Wurm
-1 Trained Armodon
 3 Giant Growth
-2 Titanic Growth
+1 Titanic Growth
+1 Leonin Scimitar

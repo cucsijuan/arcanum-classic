@@ -1,0 +1,24 @@
+{
+  "name": "Wildheart Invoker",
+  "abilities": [
+    {
+      "cost": "{8}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            5,
+            5
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{8}: Target creature gets +5/+5 and gains trample until end of turn."
+    }
+  ]
+}

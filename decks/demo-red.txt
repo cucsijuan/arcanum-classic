@@ -3,11 +3,11 @@
 2 Raging Goblin
 3 Mogg Fanatic
 2 Fanatical Firebrand
-2 Goblin Piker
+2 Goblin Chieftain
 3 Borderland Marauder
 2 Highland Giant
 2 Charging Monstrosaur
-1 Volcanic Dragon
 3 Shock
 2 Lightning Strike
-1 Searing Spear
+1 Giant Strength
+1 Bonesplitter

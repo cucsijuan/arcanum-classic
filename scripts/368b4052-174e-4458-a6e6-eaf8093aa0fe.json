@@ -1,0 +1,20 @@
+{
+  "name": "Goblin Chieftain",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Goblin",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Other Goblin creatures you control get +1/+1 and have haste."
+    }
+  ]
+}

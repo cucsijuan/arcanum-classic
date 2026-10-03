@@ -1,0 +1,14 @@
+{
+  "name": "Brindle Boar",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "Sacrifice this creature: You gain 4 life."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Fists of the Anvil",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          0
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

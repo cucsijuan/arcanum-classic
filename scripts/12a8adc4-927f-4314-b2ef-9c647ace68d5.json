@@ -1,0 +1,15 @@
+{
+  "name": "Vulshok Morningstar",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +2/+2."
+    }
+  ]
+}
