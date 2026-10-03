@@ -24,6 +24,7 @@
 1 An Offer You Can't Refuse
 1 Authority of the Consuls
 1 Dive Down
+1 Divine Resilience
 1 Elspeth's Smite
 1 Fleeting Distraction
 1 Fleeting Flight
@@ -33,6 +34,5 @@
 1 Soul-Guide Lantern
 1 Unsummon
 1 Witness Protection
-1 Adamant Will
 12 Plains
 12 Island

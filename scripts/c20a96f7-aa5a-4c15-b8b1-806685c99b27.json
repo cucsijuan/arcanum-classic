@@ -1,0 +1,21 @@
+{
+  "name": "Bolt Bend",
+  "costReduction": {
+    "amount": 3,
+    "if": "ferocious"
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellOrAbility",
+        "singleTarget": true,
+        "text": "target spell or ability with a single target"
+      }
+    ],
+    "effects": [
+      {
+        "changeTarget": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Divine Resilience",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ],
+    "whenKicked": {
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "anyNumber": true,
+          "text": "any number of target creatures you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "eachTarget",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ]
+    }
+  }
+}

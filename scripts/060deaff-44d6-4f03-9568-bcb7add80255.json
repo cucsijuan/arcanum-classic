@@ -30,7 +30,8 @@
           "to": "target3"
         }
       ],
-      "text": "Whenever Drakuseth attacks, Drakuseth deals 4 damage to any target and 3 damage to each of up to two other targets."
+      "text": "Whenever Drakuseth attacks, Drakuseth deals 4 damage to any target and 3 damage to each of up to two other targets.",
+      "targetRule": "allDifferent"
     }
   ]
 }

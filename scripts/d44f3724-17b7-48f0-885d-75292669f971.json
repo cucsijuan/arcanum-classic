@@ -9,6 +9,7 @@
         "filter": {
           "subtype": "Equipment"
         },
+        "attachedToTarget": "target",
         "text": "up to one target Equipment attached to that creature"
       }
     ],
@@ -21,15 +22,7 @@
         "to": "target"
       },
       {
-        "if": {
-          "targetAttachedTo": "target2",
-          "to": "target"
-        },
-        "then": [
-          {
-            "exile": "target2"
-          }
-        ]
+        "exile": "target2"
       }
     ]
   }

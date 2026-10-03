@@ -32,43 +32,8 @@
       "targets": [
         {
           "kind": "creatureOrPlaneswalker",
-          "optional": false,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
-        },
-        {
-          "kind": "creatureOrPlaneswalker",
-          "optional": true,
-          "text": "up to eight target creatures and/or planeswalkers"
+          "anyNumber": true,
+          "text": "any number of target creatures and/or planeswalkers"
         }
       ],
       "effects": [

@@ -1,0 +1,16 @@
+{
+  "name": "Secluded Courtyard",
+  "chooseOnEnter": "creatureType",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "creature"
+        ],
+        "chosenType": true
+      },
+      "abilitiesToo": true
+    }
+  ]
+}

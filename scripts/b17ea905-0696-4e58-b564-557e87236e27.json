@@ -3,16 +3,6 @@
   "spell": {
     "effects": [
       {
-        "gainLife": {
-          "count": {
-            "types": [
-              "creature"
-            ],
-            "controller": "any"
-          }
-        }
-      },
-      {
         "destroy": {
           "each": {
             "types": [
@@ -20,6 +10,9 @@
             ]
           }
         }
+      },
+      {
+        "gainLife": "destroyedThisWay"
       }
     ]
   }

@@ -1,0 +1,66 @@
+{
+  "name": "Fishing Pole",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "grants": [
+          {
+            "cost": "{1}, {T}, tapGranter",
+            "effects": [
+              {
+                "counters": 1,
+                "what": "granterPermanent",
+                "kind": "bait"
+              }
+            ],
+            "text": "{1}, {T}, Tap Fishing Pole: Put a bait counter on Fishing Pole."
+          }
+        ]
+      },
+      "text": "Equipped creature has \"{1}, {T}, Tap Fishing Pole: Put a bait counter on Fishing Pole.\""
+    },
+    {
+      "trigger": "becomesUntapped",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "if": {
+            "counters": 1,
+            "kind": "bait"
+          },
+          "then": [
+            {
+              "removeCounters": 1,
+              "what": "self",
+              "kind": "bait"
+            },
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Fish",
+                "types": "Creature — Fish",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "U"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature becomes untapped, remove a bait counter from this Equipment. If you do, create a 1/1 blue Fish creature token."
+    }
+  ]
+}

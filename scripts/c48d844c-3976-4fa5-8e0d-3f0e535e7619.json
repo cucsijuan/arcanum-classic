@@ -25,10 +25,11 @@
           "targets": [
             {
               "kind": "creature",
-              "controller": "you",
               "filter": {
-                "other": true
-              }
+                "other": true,
+                "ownedByYou": true
+              },
+              "text": "another target creature you own"
             }
           ],
           "effects": [

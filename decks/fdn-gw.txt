@@ -23,6 +23,7 @@
 1 Adventuring Gear
 1 Authority of the Consuls
 1 Bushwhack
+1 Divine Resilience
 1 Elspeth's Smite
 1 Fleeting Flight
 1 Giant Growth
@@ -33,6 +34,5 @@
 1 Soul-Guide Lantern
 1 Adamant Will
 1 Anthem of Champions
-1 Bite Down
 12 Forest
 12 Plains

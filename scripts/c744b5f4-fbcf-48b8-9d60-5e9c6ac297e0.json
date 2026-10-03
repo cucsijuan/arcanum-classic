@@ -6,13 +6,14 @@
       "targets": [
         {
           "kind": "permanent",
-          "controller": "opponent",
+          "controlledByTriggeredPlayer": true,
           "filter": {
             "types": [
               "artifact",
               "enchantment"
             ]
-          }
+          },
+          "text": "target artifact or enchantment that player controls"
         }
       ],
       "effects": [

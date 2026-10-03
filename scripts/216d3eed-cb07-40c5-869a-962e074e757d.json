@@ -1,0 +1,24 @@
+{
+  "name": "Joraga Invocation",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Must be blocked"
+        ]
+      }
+    ]
+  }
+}
