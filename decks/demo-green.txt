@@ -1,0 +1,6 @@
+# Sample deck used by the hotseat demo.
+17 Forest
+3 Mountain
+14 Grizzly Bears
+4 Craw Wurm
+2 Gray Ogre

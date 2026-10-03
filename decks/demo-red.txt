@@ -1,0 +1,5 @@
+# Sample deck used by the hotseat demo.
+17 Mountain
+10 Gray Ogre
+8 Hill Giant
+5 Earth Elemental

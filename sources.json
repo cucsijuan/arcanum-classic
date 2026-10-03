@@ -1,0 +1,13 @@
+{
+  "userAgent": "Arcanum/0.1 (open-source card game client)",
+  "cards": {
+    "format": "oracle-jsonl",
+    "index": "https://api.scryfall.com/bulk-data/oracle-cards",
+    "downloadField": "jsonl_download_uri",
+    "updatedField": "updated_at"
+  },
+  "images": {
+    "urlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&exact={name}",
+    "minIntervalMs": 120
+  }
+}
