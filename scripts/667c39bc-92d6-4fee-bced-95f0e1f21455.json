@@ -1,0 +1,32 @@
+{
+  "name": "Pygmy Pyrosaur",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ember Hauler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice this creature: It deals 2 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Burst of Energy",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      }
+    ]
+  }
+}

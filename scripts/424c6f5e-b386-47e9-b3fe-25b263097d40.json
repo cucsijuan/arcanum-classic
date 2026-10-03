@@ -1,0 +1,17 @@
+{
+  "name": "Sprout",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Saproling",
+          "types": "Creature — Saproling",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Dedicated Martyr",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{W}, Sacrifice this creature: You gain 3 life."
+    }
+  ]
+}

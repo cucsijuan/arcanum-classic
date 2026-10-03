@@ -1,0 +1,24 @@
+{
+  "name": "Aim High",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "self",
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Fiery Finish",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 7,
+        "to": "target"
+      }
+    ]
+  }
+}

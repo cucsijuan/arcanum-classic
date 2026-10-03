@@ -1,0 +1,14 @@
+{
+  "name": "Drown in Shapelessness",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

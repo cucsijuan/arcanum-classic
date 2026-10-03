@@ -1,0 +1,24 @@
+{
+  "name": "Crested Herdcaller",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dinosaur",
+            "types": "Creature — Dinosaur",
+            "power": 3,
+            "toughness": 3,
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 3/3 green Dinosaur creature token with trample."
+    }
+  ]
+}

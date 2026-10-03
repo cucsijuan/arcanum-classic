@@ -1,0 +1,21 @@
+{
+  "name": "Centaur's Herald",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}, sacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Centaur",
+            "types": "Creature — Centaur",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "{2}{G}, Sacrifice this creature: Create a 3/3 green Centaur creature token."
+    }
+  ]
+}

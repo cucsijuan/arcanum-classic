@@ -1,0 +1,18 @@
+{
+  "name": "Overkill",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          -9999
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

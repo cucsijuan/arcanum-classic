@@ -1,0 +1,16 @@
+{
+  "name": "Shivan Gorge",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, {T}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "{2}{R}, {T}: Shivan Gorge deals 1 damage to each opponent."
+    }
+  ]
+}

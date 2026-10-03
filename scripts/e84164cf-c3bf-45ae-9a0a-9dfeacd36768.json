@@ -1,0 +1,24 @@
+{
+  "name": "Elgaud Inquisitor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

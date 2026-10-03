@@ -1,0 +1,27 @@
+{
+  "name": "Elesh Norn, Grand Cenobite",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +2/+2."
+    },
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "pump": [
+          -2,
+          -2
+        ]
+      },
+      "text": "Creatures your opponents control get -2/-2."
+    }
+  ]
+}

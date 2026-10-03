@@ -1,0 +1,19 @@
+{
+  "name": "Spiteful Bully",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "At the beginning of your upkeep, this creature deals 3 damage to target creature you control."
+    }
+  ]
+}

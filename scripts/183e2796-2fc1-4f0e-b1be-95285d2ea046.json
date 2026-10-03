@@ -1,0 +1,25 @@
+{
+  "name": "Ixalli's Keeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{G}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            5,
+            5
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{7}{G}, {T}, Sacrifice this creature: Target creature gets +5/+5 and gains trample until end of turn."
+    }
+  ]
+}

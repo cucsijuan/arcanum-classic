@@ -1,0 +1,15 @@
+{
+  "name": "Silverback Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature dies, draw a card."
+    }
+  ]
+}

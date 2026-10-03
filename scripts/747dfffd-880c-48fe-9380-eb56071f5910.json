@@ -1,0 +1,38 @@
+{
+  "name": "Death-Hood Cobra",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Reach"
+          ]
+        }
+      ],
+      "text": "{1}{G}: This creature gains reach until end of turn."
+    },
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{1}{G}: This creature gains deathtouch until end of turn."
+    }
+  ]
+}

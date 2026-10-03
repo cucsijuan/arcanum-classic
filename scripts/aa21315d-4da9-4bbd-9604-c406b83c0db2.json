@@ -1,0 +1,20 @@
+{
+  "name": "Messenger's Speed",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Enchanted creature has trample and haste."
+    }
+  ]
+}

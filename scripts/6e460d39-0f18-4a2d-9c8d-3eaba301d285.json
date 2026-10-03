@@ -1,0 +1,22 @@
+{
+  "name": "Rush of Vitality",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Lifelink",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

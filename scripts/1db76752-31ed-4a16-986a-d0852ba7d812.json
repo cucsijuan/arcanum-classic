@@ -1,0 +1,25 @@
+{
+  "name": "Drider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "power": 2,
+            "toughness": 1,
+            "keywords": [
+              "Reach",
+              "Menace"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a 2/1 black Spider creature token with reach and menace."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Flamekin Spitfire",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{3}{R}: This creature deals 1 damage to any target."
+    }
+  ]
+}

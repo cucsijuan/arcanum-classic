@@ -1,0 +1,15 @@
+{
+  "name": "Eidolon of Philosophy",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 3
+        }
+      ],
+      "text": "{6}{U}, Sacrifice this creature: Draw three cards."
+    }
+  ]
+}

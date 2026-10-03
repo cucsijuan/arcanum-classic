@@ -1,0 +1,19 @@
+{
+  "name": "Crystal Slipper",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 and has haste."
+    }
+  ]
+}

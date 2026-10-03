@@ -1,0 +1,22 @@
+{
+  "name": "Frog Butler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Reach"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains reach until end of turn."
+    }
+  ]
+}

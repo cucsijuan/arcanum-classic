@@ -1,0 +1,18 @@
+{
+  "name": "Auriok Transfixer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{W}, {T}: Tap target artifact."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Searchlight Companion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 colorless Spirit creature token."
+    }
+  ]
+}

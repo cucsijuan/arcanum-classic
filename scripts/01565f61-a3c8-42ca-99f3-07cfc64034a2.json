@@ -1,0 +1,32 @@
+{
+  "name": "Stone Kavu",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    },
+    {
+      "cost": "{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{W}: This creature gets +0/+1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Demystify",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "enchantment"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

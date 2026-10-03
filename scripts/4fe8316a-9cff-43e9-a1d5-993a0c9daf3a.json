@@ -1,0 +1,19 @@
+{
+  "name": "Lifelink",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Enchanted creature has lifelink."
+    }
+  ]
+}

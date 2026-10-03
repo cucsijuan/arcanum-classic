@@ -1,0 +1,19 @@
+{
+  "name": "Reflexes",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Enchanted creature has first strike."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Darksteel Plate",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Equipped creature has indestructible."
+    }
+  ]
+}

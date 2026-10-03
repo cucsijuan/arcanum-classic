@@ -1,0 +1,19 @@
+{
+  "name": "Prodigious Growth",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          7,
+          7
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +7/+7 and has trample."
+    }
+  ]
+}

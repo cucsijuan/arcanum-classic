@@ -1,0 +1,19 @@
+{
+  "name": "Deadeye Duelist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}, {T}: This creature deals 1 damage to target opponent."
+    }
+  ]
+}

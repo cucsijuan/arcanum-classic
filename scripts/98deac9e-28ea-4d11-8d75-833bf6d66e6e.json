@@ -1,0 +1,25 @@
+{
+  "name": "Keen Glidemaster",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}{U}: Target creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Flight",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature has flying."
+    }
+  ]
+}

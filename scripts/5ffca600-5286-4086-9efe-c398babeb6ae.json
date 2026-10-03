@@ -1,0 +1,18 @@
+{
+  "name": "Polluted Dead",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature dies, destroy target land."
+    }
+  ]
+}

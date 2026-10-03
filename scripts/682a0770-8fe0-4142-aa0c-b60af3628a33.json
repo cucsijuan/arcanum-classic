@@ -1,0 +1,17 @@
+{
+  "name": "A Tale for the Ages",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "subtype": "Enchanted"
+      },
+      "text": "Enchanted creatures you control get +2/+2."
+    }
+  ]
+}

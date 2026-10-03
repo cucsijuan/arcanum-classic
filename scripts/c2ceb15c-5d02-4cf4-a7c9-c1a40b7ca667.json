@@ -1,0 +1,14 @@
+{
+  "name": "Erase",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "enchantment"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Seal of Removal",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: Return target creature to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sugar Rush",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

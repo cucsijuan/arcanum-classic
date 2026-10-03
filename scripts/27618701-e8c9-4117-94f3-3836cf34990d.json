@@ -1,0 +1,19 @@
+{
+  "name": "Tower of Calamities",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 12,
+          "to": "target"
+        }
+      ],
+      "text": "{8}, {T}: This artifact deals 12 damage to target creature."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Titanium Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}{W}: This creature gains first strike until end of turn."
+    }
+  ]
+}

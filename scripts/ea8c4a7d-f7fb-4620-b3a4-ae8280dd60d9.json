@@ -1,0 +1,19 @@
+{
+  "name": "Magefire Wings",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+0 and has flying."
+    }
+  ]
+}

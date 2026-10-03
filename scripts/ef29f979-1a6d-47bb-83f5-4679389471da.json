@@ -1,0 +1,21 @@
+{
+  "name": "Mortal's Resolve",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

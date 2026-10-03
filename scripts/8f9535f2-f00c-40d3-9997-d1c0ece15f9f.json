@@ -1,0 +1,15 @@
+{
+  "name": "Stealer of Secrets",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, draw a card."
+    }
+  ]
+}

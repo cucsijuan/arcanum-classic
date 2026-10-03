@@ -1,0 +1,22 @@
+{
+  "name": "Locthwain Gargoyle",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{4}: This creature gets +2/+0 and gains flying until end of turn."
+    }
+  ]
+}

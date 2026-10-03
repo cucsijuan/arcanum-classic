@@ -1,0 +1,25 @@
+{
+  "name": "Elvish Herder",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{G}: Target creature gains trample until end of turn."
+    }
+  ]
+}

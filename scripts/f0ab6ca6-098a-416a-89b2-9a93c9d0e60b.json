@@ -1,0 +1,19 @@
+{
+  "name": "Boa Constrictor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{T}: This creature gets +3/+3 until end of turn."
+    }
+  ]
+}

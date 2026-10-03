@@ -1,0 +1,19 @@
+{
+  "name": "Imposing Visage",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Enchanted creature has menace."
+    }
+  ]
+}

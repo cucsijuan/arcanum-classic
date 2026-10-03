@@ -1,0 +1,21 @@
+{
+  "name": "Snare the Skies",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

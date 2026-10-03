@@ -1,0 +1,21 @@
+{
+  "name": "Uncaged Fury",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Double strike"
+        ]
+      }
+    ]
+  }
+}

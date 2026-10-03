@@ -1,0 +1,15 @@
+{
+  "name": "Selesnya Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{G}{W}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

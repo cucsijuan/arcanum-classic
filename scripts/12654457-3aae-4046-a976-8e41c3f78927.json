@@ -1,0 +1,18 @@
+{
+  "name": "Mist Raven",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return target creature to its owner's hand."
+    }
+  ]
+}

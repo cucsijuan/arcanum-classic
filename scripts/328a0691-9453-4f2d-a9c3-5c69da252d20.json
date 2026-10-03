@@ -1,0 +1,24 @@
+{
+  "name": "Dragon Trainer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dragon",
+            "types": "Creature — Dragon",
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 4/4 red Dragon creature token with flying."
+    }
+  ]
+}

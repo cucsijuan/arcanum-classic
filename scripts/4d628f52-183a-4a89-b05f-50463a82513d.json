@@ -1,0 +1,14 @@
+{
+  "name": "Volcanic Upheaval",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

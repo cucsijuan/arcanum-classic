@@ -1,0 +1,19 @@
+{
+  "name": "Marked by Honor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has vigilance."
+    }
+  ]
+}

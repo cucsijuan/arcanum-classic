@@ -1,0 +1,24 @@
+{
+  "name": "Urbis Protector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 4/4 white Angel creature token with flying."
+    }
+  ]
+}

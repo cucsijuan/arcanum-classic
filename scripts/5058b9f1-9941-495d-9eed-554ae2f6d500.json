@@ -1,0 +1,19 @@
+{
+  "name": "Lionheart Maverick",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{4}{W}: This creature gets +1/+2 until end of turn."
+    }
+  ]
+}

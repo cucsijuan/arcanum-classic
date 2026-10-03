@@ -1,0 +1,25 @@
+{
+  "name": "Savage Gorilla",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{B}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{U}{B}, {T}, Sacrifice this creature: Target creature gets -3/-3 until end of turn. Draw a card."
+    }
+  ]
+}

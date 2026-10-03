@@ -1,0 +1,15 @@
+{
+  "name": "Searing Wind",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 10,
+        "to": "target"
+      }
+    ]
+  }
+}

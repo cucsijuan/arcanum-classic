@@ -1,0 +1,17 @@
+{
+  "name": "Dragon Fodder",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Goblin",
+          "types": "Creature — Goblin",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

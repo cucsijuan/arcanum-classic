@@ -1,0 +1,18 @@
+{
+  "name": "Brute Force",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

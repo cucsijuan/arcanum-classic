@@ -1,0 +1,22 @@
+{
+  "name": "Tenth District Guard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature gets +0/+1 until end of turn."
+    }
+  ]
+}

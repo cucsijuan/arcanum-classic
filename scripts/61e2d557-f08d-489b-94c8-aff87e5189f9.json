@@ -1,0 +1,17 @@
+{
+  "name": "Take Up Arms",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Warrior",
+          "types": "Creature — Warrior",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

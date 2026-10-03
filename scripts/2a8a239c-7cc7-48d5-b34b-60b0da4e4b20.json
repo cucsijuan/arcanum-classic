@@ -1,0 +1,35 @@
+{
+  "name": "Truefire Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{W}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}{W}: This creature gets +2/+0 until end of turn."
+    },
+    {
+      "cost": "{R}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}{W}: This creature gains first strike until end of turn."
+    }
+  ]
+}

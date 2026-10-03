@@ -1,0 +1,15 @@
+{
+  "name": "Sultai Banner",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{G}{U}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{B}{G}{U}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

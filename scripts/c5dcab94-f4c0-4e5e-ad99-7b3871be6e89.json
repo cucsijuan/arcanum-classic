@@ -1,0 +1,22 @@
+{
+  "name": "Oran-Rief Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}",
+      "effects": [
+        {
+          "pump": [
+            5,
+            5
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{8}: This creature gets +5/+5 and gains trample until end of turn."
+    }
+  ]
+}

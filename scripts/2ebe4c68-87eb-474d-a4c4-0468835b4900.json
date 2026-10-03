@@ -1,0 +1,21 @@
+{
+  "name": "Shocking Grasp",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -2,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

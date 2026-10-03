@@ -1,0 +1,16 @@
+{
+  "name": "Pin to the Earth",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -6,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets -6/-0."
+    }
+  ]
+}

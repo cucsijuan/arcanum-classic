@@ -1,0 +1,19 @@
+{
+  "name": "Flamecast Wheel",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this artifact: It deals 3 damage to target creature."
+    }
+  ]
+}

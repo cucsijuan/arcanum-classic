@@ -1,0 +1,11 @@
+{
+  "name": "Nourish",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 6
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Third Path Savant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{7}: Draw two cards."
+    }
+  ]
+}

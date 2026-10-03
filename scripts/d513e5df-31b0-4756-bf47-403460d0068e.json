@@ -1,0 +1,17 @@
+{
+  "name": "Battle Sliver",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          0
+        ],
+        "subtype": "Sliver"
+      },
+      "text": "Sliver creatures you control get +2/+0."
+    }
+  ]
+}

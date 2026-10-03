@@ -1,0 +1,19 @@
+{
+  "name": "Mournful Zombie",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "gainLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{W}, {T}: Target player gains 1 life."
+    }
+  ]
+}

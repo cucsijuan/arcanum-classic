@@ -1,0 +1,16 @@
+{
+  "name": "Storm Caller",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "When this creature enters, it deals 2 damage to each opponent."
+    }
+  ]
+}

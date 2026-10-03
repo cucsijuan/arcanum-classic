@@ -1,0 +1,19 @@
+{
+  "name": "Flamewave Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{R}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "{7}{R}: This creature deals 5 damage to target player or planeswalker."
+    }
+  ]
+}

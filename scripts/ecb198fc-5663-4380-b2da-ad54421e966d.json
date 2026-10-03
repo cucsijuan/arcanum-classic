@@ -1,0 +1,21 @@
+{
+  "name": "Knight Exemplar",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Knight",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Other Knight creatures you control get +1/+1 and have indestructible."
+    }
+  ]
+}

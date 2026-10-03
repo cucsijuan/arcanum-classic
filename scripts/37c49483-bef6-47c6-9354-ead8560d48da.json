@@ -1,0 +1,22 @@
+{
+  "name": "Pradesh Gypsies",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{1}{G}, {T}: Target creature gets -2/-0 until end of turn."
+    }
+  ]
+}

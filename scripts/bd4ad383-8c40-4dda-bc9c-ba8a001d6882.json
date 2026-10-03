@@ -1,0 +1,19 @@
+{
+  "name": "Strider Harness",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has haste."
+    }
+  ]
+}

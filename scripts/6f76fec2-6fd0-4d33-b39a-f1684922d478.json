@@ -1,0 +1,19 @@
+{
+  "name": "Blisterstick Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Granite Gargoyle",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +0/+1 until end of turn."
+    }
+  ]
+}

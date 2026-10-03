@@ -1,0 +1,16 @@
+{
+  "name": "Jungle Delver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{3}{G}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Stonehorn Chanter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{5}{W}: This creature gains vigilance and lifelink until end of turn."
+    }
+  ]
+}

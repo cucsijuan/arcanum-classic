@@ -1,0 +1,17 @@
+{
+  "name": "Jacques le Vert",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          2
+        ],
+        "subtype": "Green"
+      },
+      "text": "Green creatures you control get +0/+2."
+    }
+  ]
+}

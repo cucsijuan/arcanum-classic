@@ -1,0 +1,16 @@
+{
+  "name": "Rabid Bloodsucker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player loses 2 life."
+    }
+  ]
+}

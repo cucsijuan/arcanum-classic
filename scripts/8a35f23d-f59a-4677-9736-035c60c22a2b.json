@@ -1,0 +1,15 @@
+{
+  "name": "Temur Banner",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}{U}{R}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{G}{U}{R}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

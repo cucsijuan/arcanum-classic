@@ -1,0 +1,25 @@
+{
+  "name": "Whip Sergeant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}: Target creature gains haste until end of turn."
+    }
+  ]
+}

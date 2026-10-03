@@ -1,0 +1,22 @@
+{
+  "name": "Horrid Vigor",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Deathtouch",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

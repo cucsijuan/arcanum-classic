@@ -1,0 +1,20 @@
+{
+  "name": "Flurry of Horns",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Minotaur",
+          "types": "Creature — Minotaur",
+          "power": 2,
+          "toughness": 3,
+          "keywords": [
+            "Haste"
+          ]
+        }
+      }
+    ]
+  }
+}

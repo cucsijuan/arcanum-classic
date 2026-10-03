@@ -1,0 +1,19 @@
+{
+  "name": "Hematite Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +2/+0 until end of turn."
+    }
+  ]
+}

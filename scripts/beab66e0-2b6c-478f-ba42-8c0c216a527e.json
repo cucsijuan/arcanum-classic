@@ -1,0 +1,15 @@
+{
+  "name": "Heroes' Reunion",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "gainLife": 7,
+        "who": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Weight of the Underworld",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -3,
+          -2
+        ]
+      },
+      "text": "Enchanted creature gets -3/-2."
+    }
+  ]
+}

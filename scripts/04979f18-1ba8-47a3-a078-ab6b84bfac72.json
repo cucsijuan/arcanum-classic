@@ -1,0 +1,19 @@
+{
+  "name": "Spidersilk Net",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          2
+        ],
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Equipped creature gets +0/+2 and has reach."
+    }
+  ]
+}

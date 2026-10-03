@@ -1,0 +1,21 @@
+{
+  "name": "Envoy of Okinec Ahau",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Gnome",
+            "types": "Creature — Gnome",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{4}{W}: Create a 1/1 colorless Gnome artifact creature token."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Llanowar Vanguard",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            4
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{T}: This creature gets +0/+4 until end of turn."
+    }
+  ]
+}

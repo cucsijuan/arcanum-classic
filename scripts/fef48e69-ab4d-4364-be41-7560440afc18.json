@@ -1,0 +1,22 @@
+{
+  "name": "Stonefare Crocodile",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{2}{B}: This creature gains lifelink until end of turn."
+    }
+  ]
+}

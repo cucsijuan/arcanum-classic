@@ -1,0 +1,19 @@
+{
+  "name": "Sun-Collared Raptor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{2}{R}: This creature gets +3/+0 until end of turn."
+    }
+  ]
+}

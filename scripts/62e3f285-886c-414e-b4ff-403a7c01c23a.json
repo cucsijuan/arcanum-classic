@@ -1,0 +1,19 @@
+{
+  "name": "Abbey Matron",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{W}, {T}: This creature gets +0/+3 until end of turn."
+    }
+  ]
+}

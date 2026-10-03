@@ -1,0 +1,26 @@
+{
+  "name": "Traveling Minister",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{T}: Target creature gets +1/+0 until end of turn. You gain 1 life. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

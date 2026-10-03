@@ -1,0 +1,22 @@
+{
+  "name": "Saberclaw Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains first strike until end of turn."
+    }
+  ]
+}

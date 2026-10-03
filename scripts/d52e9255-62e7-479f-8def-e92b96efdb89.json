@@ -1,0 +1,20 @@
+{
+  "name": "Common Bond",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ]
+  }
+}

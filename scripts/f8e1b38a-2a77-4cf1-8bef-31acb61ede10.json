@@ -1,0 +1,18 @@
+{
+  "name": "Aegis of the Heavens",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          7
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

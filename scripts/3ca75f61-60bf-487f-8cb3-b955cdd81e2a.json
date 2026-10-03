@@ -1,0 +1,22 @@
+{
+  "name": "Miner's Bane",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{2}{R}: This creature gets +1/+0 and gains trample until end of turn."
+    }
+  ]
+}

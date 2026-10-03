@@ -1,0 +1,21 @@
+{
+  "name": "Bestow Greatness",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          4
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

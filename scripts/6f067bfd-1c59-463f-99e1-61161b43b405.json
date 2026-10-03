@@ -1,0 +1,34 @@
+{
+  "name": "Bounty of Might",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      "creature",
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target2"
+      },
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target3"
+      }
+    ]
+  }
+}

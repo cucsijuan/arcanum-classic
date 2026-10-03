@@ -1,0 +1,22 @@
+{
+  "name": "Steeple Creeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{3}{U}: This creature gains flying until end of turn."
+    }
+  ]
+}

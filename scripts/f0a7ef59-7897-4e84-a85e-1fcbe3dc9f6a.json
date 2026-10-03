@@ -1,0 +1,24 @@
+{
+  "name": "Brood Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "power": 1,
+            "toughness": 2,
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/2 green Spider creature token with reach."
+    }
+  ]
+}

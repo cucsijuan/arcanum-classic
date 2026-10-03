@@ -1,0 +1,25 @@
+{
+  "name": "Impolite Entrance",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample",
+          "Haste"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

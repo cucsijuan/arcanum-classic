@@ -1,0 +1,16 @@
+{
+  "name": "Energizer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}, {T}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

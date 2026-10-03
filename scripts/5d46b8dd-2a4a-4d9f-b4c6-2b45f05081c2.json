@@ -1,0 +1,20 @@
+{
+  "name": "Revel of the Fallen God",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Satyr",
+          "types": "Creature — Satyr",
+          "power": 2,
+          "toughness": 2,
+          "keywords": [
+            "Haste"
+          ]
+        }
+      }
+    ]
+  }
+}

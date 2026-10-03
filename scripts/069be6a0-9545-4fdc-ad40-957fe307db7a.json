@@ -1,0 +1,19 @@
+{
+  "name": "Shivan Hellkite",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}: This creature deals 1 damage to any target."
+    }
+  ]
+}

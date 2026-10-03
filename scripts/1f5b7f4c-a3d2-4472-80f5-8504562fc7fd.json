@@ -1,0 +1,23 @@
+{
+  "name": "Brave-Kin Duo",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{1}, {T}: Target creature gets +1/+1 until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

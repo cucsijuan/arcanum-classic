@@ -1,0 +1,27 @@
+{
+  "name": "Fungal Infection",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Saproling",
+          "types": "Creature — Saproling",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

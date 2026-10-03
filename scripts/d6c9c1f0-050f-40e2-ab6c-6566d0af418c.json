@@ -1,0 +1,17 @@
+{
+  "name": "Master's Call",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Myr",
+          "types": "Creature — Myr",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "No-Dachi",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Equipped creature gets +2/+0 and has first strike."
+    }
+  ]
+}

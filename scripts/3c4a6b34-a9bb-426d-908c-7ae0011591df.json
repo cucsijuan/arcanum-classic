@@ -1,0 +1,15 @@
+{
+  "name": "Treasure Trove",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}{U}",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{U}{U}: Draw a card."
+    }
+  ]
+}

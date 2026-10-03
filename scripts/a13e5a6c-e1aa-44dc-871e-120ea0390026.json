@@ -1,0 +1,22 @@
+{
+  "name": "Grappling Sundew",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{4}{G}: This creature gains indestructible until end of turn."
+    }
+  ]
+}

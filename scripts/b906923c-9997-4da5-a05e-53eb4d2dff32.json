@@ -1,0 +1,15 @@
+{
+  "name": "Fountain of Youth",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{2}, {T}: You gain 1 life."
+    }
+  ]
+}

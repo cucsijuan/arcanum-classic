@@ -1,0 +1,16 @@
+{
+  "name": "Unholy Officiant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{4}{W}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

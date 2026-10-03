@@ -1,0 +1,19 @@
+{
+  "name": "Bile Urchin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Target player loses 1 life."
+    }
+  ]
+}

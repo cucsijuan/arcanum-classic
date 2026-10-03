@@ -1,0 +1,41 @@
+{
+  "name": "Shaper Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{W}, {T}: Target creature gains first strike until end of turn."
+    },
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target creature gets +1/+0 until end of turn."
+    }
+  ]
+}

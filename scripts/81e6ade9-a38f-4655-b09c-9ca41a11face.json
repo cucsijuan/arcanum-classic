@@ -1,0 +1,12 @@
+{
+  "name": "Breath of Malfegor",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 5,
+        "to": "opponents"
+      }
+    ]
+  }
+}

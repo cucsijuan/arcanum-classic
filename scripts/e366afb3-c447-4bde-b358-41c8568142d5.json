@@ -1,0 +1,22 @@
+{
+  "name": "Sword of Vengeance",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "First strike",
+          "Vigilance",
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +2/+0 and has first strike, vigilance, trample, and haste."
+    }
+  ]
+}

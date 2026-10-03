@@ -1,0 +1,19 @@
+{
+  "name": "Frostling",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: It deals 1 damage to target creature."
+    }
+  ]
+}

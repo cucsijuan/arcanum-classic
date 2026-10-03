@@ -1,0 +1,19 @@
+{
+  "name": "Charging Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +0/+3 until end of turn."
+    }
+  ]
+}

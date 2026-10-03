@@ -1,0 +1,19 @@
+{
+  "name": "Kraul Warrior",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{5}{G}: This creature gets +3/+3 until end of turn."
+    }
+  ]
+}

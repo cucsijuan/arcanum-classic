@@ -1,0 +1,22 @@
+{
+  "name": "Phyrexian Defiler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Target creature gets -3/-3 until end of turn."
+    }
+  ]
+}

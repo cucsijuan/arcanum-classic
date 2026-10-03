@@ -1,0 +1,25 @@
+{
+  "name": "Arborea Pegasus",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature gets +1/+1 and gains flying until end of turn."
+    }
+  ]
+}

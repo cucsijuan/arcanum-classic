@@ -1,0 +1,19 @@
+{
+  "name": "Steadfast Cathar",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +0/+2 until end of turn."
+    }
+  ]
+}

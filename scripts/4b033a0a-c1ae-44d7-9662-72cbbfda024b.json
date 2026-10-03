@@ -1,0 +1,27 @@
+{
+  "name": "Aether Spellbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{U}, Sacrifice this artifact: Return target creature to its owner's hand."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

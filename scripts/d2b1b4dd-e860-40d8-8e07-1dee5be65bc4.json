@@ -1,0 +1,22 @@
+{
+  "name": "Volcano Imp",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}{R}: This creature gains first strike until end of turn."
+    }
+  ]
+}

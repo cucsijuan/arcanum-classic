@@ -1,0 +1,19 @@
+{
+  "name": "Rakdos Trumpeter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}{R}: This creature gets +2/+0 until end of turn."
+    }
+  ]
+}

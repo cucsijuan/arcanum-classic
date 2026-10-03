@@ -1,0 +1,16 @@
+{
+  "name": "Siegecraft",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          4
+        ]
+      },
+      "text": "Enchanted creature gets +2/+4."
+    }
+  ]
+}

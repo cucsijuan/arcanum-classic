@@ -1,0 +1,24 @@
+{
+  "name": "Steady Aim",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          1,
+          4
+        ],
+        "what": "self",
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Cloudheath Drake",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "{1}{W}: This creature gains vigilance until end of turn."
+    }
+  ]
+}

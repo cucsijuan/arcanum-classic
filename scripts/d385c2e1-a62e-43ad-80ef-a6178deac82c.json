@@ -1,0 +1,21 @@
+{
+  "name": "Brindle Shoat",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Boar",
+            "types": "Creature — Boar",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 3/3 green Boar creature token."
+    }
+  ]
+}

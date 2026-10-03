@@ -1,0 +1,21 @@
+{
+  "name": "Syphon Fuel",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -6,
+          -6
+        ],
+        "what": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

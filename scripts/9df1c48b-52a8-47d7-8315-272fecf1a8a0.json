@@ -1,0 +1,16 @@
+{
+  "name": "Archers' Parapet",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, {T}",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "{1}{B}, {T}: Each opponent loses 1 life."
+    }
+  ]
+}

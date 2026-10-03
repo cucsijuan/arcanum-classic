@@ -1,0 +1,15 @@
+{
+  "name": "Explosive Impact",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

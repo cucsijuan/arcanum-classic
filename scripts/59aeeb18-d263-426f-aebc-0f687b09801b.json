@@ -1,0 +1,14 @@
+{
+  "name": "Dosan's Oldest Chant",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 6
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

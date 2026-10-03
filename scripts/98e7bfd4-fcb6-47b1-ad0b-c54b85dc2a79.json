@@ -1,0 +1,22 @@
+{
+  "name": "Shield Mate",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Target creature gets +0/+4 until end of turn."
+    }
+  ]
+}

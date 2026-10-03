@@ -1,0 +1,32 @@
+{
+  "name": "Unyaro Bees",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{G}: This creature gets +1/+1 until end of turn."
+    },
+    {
+      "cost": "{3}{G}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{3}{G}, Sacrifice this creature: It deals 2 damage to any target."
+    }
+  ]
+}

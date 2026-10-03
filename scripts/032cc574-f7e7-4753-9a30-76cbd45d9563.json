@@ -1,0 +1,16 @@
+{
+  "name": "Caustic Hound",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "loseLife": 4,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player loses 4 life."
+    }
+  ]
+}

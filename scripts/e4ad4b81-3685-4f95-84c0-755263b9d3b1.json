@@ -1,0 +1,16 @@
+{
+  "name": "Maggot Carrier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player loses 1 life."
+    }
+  ]
+}

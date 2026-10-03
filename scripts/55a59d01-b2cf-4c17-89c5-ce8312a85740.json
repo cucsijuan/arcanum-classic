@@ -1,0 +1,80 @@
+{
+  "name": "Thornling",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{G}: This creature gains haste until end of turn."
+    },
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{G}: This creature gains trample until end of turn."
+    },
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{G}: This creature gains indestructible until end of turn."
+    },
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            -1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}: This creature gets +1/-1 until end of turn."
+    },
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            -1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}: This creature gets -1/+1 until end of turn."
+    }
+  ]
+}

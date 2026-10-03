@@ -1,0 +1,21 @@
+{
+  "name": "Guarded Heir",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Knight",
+            "types": "Creature — Knight",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 3/3 white Knight creature tokens."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Stormscape Apprentice",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{W}, {T}: Tap target creature."
+    },
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target player loses 1 life."
+    }
+  ]
+}

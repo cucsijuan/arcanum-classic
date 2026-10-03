@@ -1,0 +1,19 @@
+{
+  "name": "Primal Visitation",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          3
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Enchanted creature gets +3/+3 and has haste."
+    }
+  ]
+}

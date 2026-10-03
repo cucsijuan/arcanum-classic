@@ -1,0 +1,24 @@
+{
+  "name": "Fountain of Renewal",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, you gain 1 life."
+    },
+    {
+      "cost": "{3}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

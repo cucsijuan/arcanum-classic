@@ -1,0 +1,22 @@
+{
+  "name": "Pestilent Kathari",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{2}{R}: This creature gains first strike until end of turn."
+    }
+  ]
+}

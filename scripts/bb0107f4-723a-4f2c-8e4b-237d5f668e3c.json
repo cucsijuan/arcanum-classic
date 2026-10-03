@@ -1,0 +1,21 @@
+{
+  "name": "Discordant Piper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goat",
+            "types": "Creature — Goat",
+            "power": 0,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 0/1 white Goat creature token."
+    }
+  ]
+}

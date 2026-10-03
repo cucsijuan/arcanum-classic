@@ -1,0 +1,25 @@
+{
+  "name": "Skarrg, the Rage Pits",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{R}{G}, {T}: Target creature gets +1/+1 and gains trample until end of turn."
+    }
+  ]
+}

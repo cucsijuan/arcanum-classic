@@ -1,0 +1,19 @@
+{
+  "name": "Telim'Tor's Darts",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{2}, {T}: This artifact deals 1 damage to target player or planeswalker."
+    }
+  ]
+}

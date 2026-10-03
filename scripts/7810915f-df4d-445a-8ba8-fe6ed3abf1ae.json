@@ -1,0 +1,19 @@
+{
+  "name": "Aladdin's Ring",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}, {T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{8}, {T}: This artifact deals 4 damage to any target."
+    }
+  ]
+}

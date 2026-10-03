@@ -1,0 +1,25 @@
+{
+  "name": "Welkin Guide",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature gets +2/+2 and gains flying until end of turn."
+    }
+  ]
+}

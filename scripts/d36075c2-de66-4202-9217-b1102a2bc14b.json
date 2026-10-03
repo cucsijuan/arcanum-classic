@@ -1,0 +1,24 @@
+{
+  "name": "Pelakka Wurm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 7
+        }
+      ],
+      "text": "When this creature enters, you gain 7 life."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature dies, draw a card."
+    }
+  ]
+}

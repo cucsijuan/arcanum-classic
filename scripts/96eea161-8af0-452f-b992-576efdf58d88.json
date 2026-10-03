@@ -1,0 +1,19 @@
+{
+  "name": "Jousting Dummy",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Folk of the Pines",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{G}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

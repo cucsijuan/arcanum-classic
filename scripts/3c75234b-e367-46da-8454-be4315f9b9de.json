@@ -1,0 +1,21 @@
+{
+  "name": "Precinct Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a 1/1 white Soldier creature token."
+    }
+  ]
+}

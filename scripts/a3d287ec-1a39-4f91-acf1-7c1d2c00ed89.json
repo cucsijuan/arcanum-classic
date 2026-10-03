@@ -1,0 +1,11 @@
+{
+  "name": "Concentrate",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

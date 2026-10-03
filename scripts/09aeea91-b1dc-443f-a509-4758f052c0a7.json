@@ -1,0 +1,18 @@
+{
+  "name": "Voltaic Key",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{1}, {T}: Untap target artifact."
+    }
+  ]
+}

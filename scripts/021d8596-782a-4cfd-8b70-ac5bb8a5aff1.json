@@ -1,0 +1,17 @@
+{
+  "name": "Drag Under",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

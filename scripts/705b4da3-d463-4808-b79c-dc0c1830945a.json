@@ -1,0 +1,19 @@
+{
+  "name": "Primal Frenzy",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature has trample."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Grotesque Mutation",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Lifelink"
+        ]
+      }
+    ]
+  }
+}

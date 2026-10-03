@@ -1,0 +1,19 @@
+{
+  "name": "Greater Forgeling",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            -3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +3/-3 until end of turn."
+    }
+  ]
+}

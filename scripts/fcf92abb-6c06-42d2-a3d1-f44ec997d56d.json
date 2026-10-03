@@ -1,0 +1,22 @@
+{
+  "name": "Ursapine",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}: Target creature gets +1/+1 until end of turn."
+    }
+  ]
+}

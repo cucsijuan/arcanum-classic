@@ -1,0 +1,22 @@
+{
+  "name": "Hagra Sharpshooter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{4}{B}: Target creature gets -1/-1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Scour from Existence",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

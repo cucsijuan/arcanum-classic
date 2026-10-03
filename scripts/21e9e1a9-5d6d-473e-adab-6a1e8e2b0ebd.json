@@ -1,0 +1,17 @@
+{
+  "name": "Kongming, \"Sleeping Dragon\"",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +1/+1."
+    }
+  ]
+}

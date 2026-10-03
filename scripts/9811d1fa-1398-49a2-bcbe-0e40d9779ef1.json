@@ -1,0 +1,20 @@
+{
+  "name": "Fleetfeather Sandals",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature has flying and haste."
+    }
+  ]
+}

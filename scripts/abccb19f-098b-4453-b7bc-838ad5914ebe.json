@@ -1,0 +1,24 @@
+{
+  "name": "Penumbra Wurm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wurm",
+            "types": "Creature — Wurm",
+            "power": 6,
+            "toughness": 6,
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 6/6 black Wurm creature token with trample."
+    }
+  ]
+}

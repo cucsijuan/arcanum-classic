@@ -1,0 +1,21 @@
+{
+  "name": "Sangrite Surge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Double strike"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Leaping Master",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}{W}: This creature gains flying until end of turn."
+    }
+  ]
+}

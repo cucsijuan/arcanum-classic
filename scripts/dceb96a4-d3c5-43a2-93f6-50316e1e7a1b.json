@@ -1,0 +1,19 @@
+{
+  "name": "Scalding Cauldron",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this artifact: It deals 3 damage to target creature."
+    }
+  ]
+}

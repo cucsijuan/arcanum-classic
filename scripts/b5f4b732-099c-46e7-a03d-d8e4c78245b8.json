@@ -1,0 +1,14 @@
+{
+  "name": "Smelt",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

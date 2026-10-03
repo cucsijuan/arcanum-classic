@@ -1,0 +1,21 @@
+{
+  "name": "Chariot of Victory",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike",
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature has first strike, trample, and haste."
+    }
+  ]
+}

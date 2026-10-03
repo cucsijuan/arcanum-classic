@@ -1,0 +1,19 @@
+{
+  "name": "Spidersilk Armor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          1
+        ],
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Creatures you control get +0/+1 and have reach."
+    }
+  ]
+}

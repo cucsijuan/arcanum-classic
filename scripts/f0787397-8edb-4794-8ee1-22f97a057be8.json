@@ -1,0 +1,21 @@
+{
+  "name": "Penumbra Bobcat",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 2,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 2/1 black Cat creature token."
+    }
+  ]
+}

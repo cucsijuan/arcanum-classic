@@ -1,0 +1,34 @@
+{
+  "name": "Jund Battlemage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target player loses 1 life."
+    },
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{G}, {T}: Create a 1/1 green Saproling creature token."
+    }
+  ]
+}

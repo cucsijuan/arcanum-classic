@@ -1,0 +1,21 @@
+{
+  "name": "Howling Giant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 2/2 green Wolf creature tokens."
+    }
+  ]
+}

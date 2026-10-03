@@ -1,0 +1,22 @@
+{
+  "name": "Aquus Steed",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}{U}, {T}: Target creature gets -2/-0 until end of turn."
+    }
+  ]
+}

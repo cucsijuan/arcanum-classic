@@ -1,0 +1,19 @@
+{
+  "name": "Fire-Omen Crane",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, it deals 1 damage to target creature an opponent controls."
+    }
+  ]
+}

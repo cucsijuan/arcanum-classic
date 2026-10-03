@@ -1,0 +1,22 @@
+{
+  "name": "Noble Panther",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}: This creature gains first strike until end of turn."
+    }
+  ]
+}

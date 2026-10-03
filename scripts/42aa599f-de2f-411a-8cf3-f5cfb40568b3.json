@@ -1,0 +1,25 @@
+{
+  "name": "Angelheart Protector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control gains indestructible until end of turn."
+    }
+  ]
+}

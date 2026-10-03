@@ -1,0 +1,15 @@
+{
+  "name": "Repulsor Rays",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

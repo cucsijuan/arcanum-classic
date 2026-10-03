@@ -1,0 +1,17 @@
+{
+  "name": "War Horn",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "subtype": "Attacking"
+      },
+      "text": "Attacking creatures you control get +1/+0."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Fervent Strike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike",
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

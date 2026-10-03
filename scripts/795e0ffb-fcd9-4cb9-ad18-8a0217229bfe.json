@@ -1,0 +1,21 @@
+{
+  "name": "Unlikely Aid",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Starnheim Memento",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{W}, {T}: Target creature gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

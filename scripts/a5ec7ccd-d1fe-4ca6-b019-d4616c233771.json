@@ -1,0 +1,20 @@
+{
+  "name": "Bloodsworn Steward",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "subtype": "Commander",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Commander creatures you control get +2/+2 and have haste."
+    }
+  ]
+}

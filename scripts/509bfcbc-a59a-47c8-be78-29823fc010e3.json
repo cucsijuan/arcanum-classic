@@ -1,0 +1,17 @@
+{
+  "name": "Ray of Dissolution",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "enchantment"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

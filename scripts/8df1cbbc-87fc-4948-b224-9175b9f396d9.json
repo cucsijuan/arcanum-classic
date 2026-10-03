@@ -1,0 +1,14 @@
+{
+  "name": "Caustic Rain",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

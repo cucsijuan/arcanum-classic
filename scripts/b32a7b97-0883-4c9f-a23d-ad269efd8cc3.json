@@ -1,0 +1,16 @@
+{
+  "name": "Merciless Enforcers",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "{3}{B}: This creature deals 1 damage to each opponent."
+    }
+  ]
+}

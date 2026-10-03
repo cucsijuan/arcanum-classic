@@ -1,0 +1,21 @@
+{
+  "name": "Maalfeld Twins",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this creature dies, create two 2/2 black Zombie creature tokens."
+    }
+  ]
+}

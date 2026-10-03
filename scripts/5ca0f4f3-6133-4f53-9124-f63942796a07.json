@@ -1,0 +1,16 @@
+{
+  "name": "Soaring Show-Off",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player draws a card."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Contradict",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

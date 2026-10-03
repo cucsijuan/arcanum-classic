@@ -1,0 +1,19 @@
+{
+  "name": "Font of Ire",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "{3}{R}, Sacrifice this enchantment: It deals 5 damage to target player or planeswalker."
+    }
+  ]
+}

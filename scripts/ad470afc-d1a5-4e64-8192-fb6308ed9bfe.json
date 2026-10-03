@@ -1,0 +1,14 @@
+{
+  "name": "Reviving Dose",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 3
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

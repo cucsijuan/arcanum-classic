@@ -1,0 +1,17 @@
+{
+  "name": "Infernal Grasp",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "loseLife": 2
+      }
+    ]
+  }
+}

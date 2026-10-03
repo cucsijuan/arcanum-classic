@@ -1,0 +1,17 @@
+{
+  "name": "Smash",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

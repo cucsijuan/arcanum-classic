@@ -1,0 +1,15 @@
+{
+  "name": "Moroii",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 1 life."
+    }
+  ]
+}

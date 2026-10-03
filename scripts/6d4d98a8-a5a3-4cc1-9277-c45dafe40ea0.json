@@ -1,0 +1,23 @@
+{
+  "name": "Zookeeper Mechan",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{R}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            4,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{6}{R}: Target creature you control gets +4/+0 until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

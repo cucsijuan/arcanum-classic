@@ -1,0 +1,21 @@
+{
+  "name": "Conscripted Infantry",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/1 colorless Soldier artifact creature token."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Whiptail Moloch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 3 damage to target creature you control."
+    }
+  ]
+}

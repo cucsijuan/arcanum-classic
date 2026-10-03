@@ -1,0 +1,19 @@
+{
+  "name": "Anointed Chorister",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{4}{W}: This creature gets +3/+3 until end of turn."
+    }
+  ]
+}

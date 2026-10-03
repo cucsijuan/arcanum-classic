@@ -1,0 +1,11 @@
+{
+  "name": "Angel's Mercy",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 7
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Dinotomaton",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control gains menace until end of turn."
+    }
+  ]
+}

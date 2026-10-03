@@ -1,0 +1,15 @@
+{
+  "name": "Font of Vigor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 7
+        }
+      ],
+      "text": "{2}{W}, Sacrifice this enchantment: You gain 7 life."
+    }
+  ]
+}

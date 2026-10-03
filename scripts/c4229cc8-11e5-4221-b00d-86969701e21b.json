@@ -1,0 +1,22 @@
+{
+  "name": "Alesha's Legacy",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Deathtouch",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

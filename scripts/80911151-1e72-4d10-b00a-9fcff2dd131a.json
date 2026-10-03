@@ -1,0 +1,15 @@
+{
+  "name": "Gruul Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{G}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}{G}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

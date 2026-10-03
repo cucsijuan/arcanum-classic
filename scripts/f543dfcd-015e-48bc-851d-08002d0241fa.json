@@ -1,0 +1,41 @@
+{
+  "name": "Ana Disciple",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{U}, {T}: Target creature gains flying until end of turn."
+    },
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target creature gets -2/-0 until end of turn."
+    }
+  ]
+}

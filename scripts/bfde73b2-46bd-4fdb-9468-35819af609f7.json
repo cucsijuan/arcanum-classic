@@ -1,0 +1,17 @@
+{
+  "name": "Implode",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

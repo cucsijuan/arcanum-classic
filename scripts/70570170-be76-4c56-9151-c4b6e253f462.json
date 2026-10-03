@@ -1,0 +1,19 @@
+{
+  "name": "Vigilance",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Enchanted creature has vigilance."
+    }
+  ]
+}

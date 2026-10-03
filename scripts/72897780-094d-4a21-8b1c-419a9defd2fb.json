@@ -1,0 +1,11 @@
+{
+  "name": "Tidings",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 4
+      }
+    ]
+  }
+}

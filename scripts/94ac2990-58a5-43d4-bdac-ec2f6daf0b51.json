@@ -1,0 +1,17 @@
+{
+  "name": "Sephiroth's Intervention",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

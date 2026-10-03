@@ -1,0 +1,21 @@
+{
+  "name": "Prideful Parent",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Cat creature token."
+    }
+  ]
+}

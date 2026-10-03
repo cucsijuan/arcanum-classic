@@ -1,0 +1,25 @@
+{
+  "name": "Iron Lance",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{3}, {T}: Target creature gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Tanglebloom",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{1}, {T}: You gain 1 life."
+    }
+  ]
+}

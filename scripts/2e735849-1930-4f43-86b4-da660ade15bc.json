@@ -1,0 +1,25 @@
+{
+  "name": "Fire Nation Archers",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{5}: This creature deals 2 damage to each opponent. Create a 2/2 red Soldier creature token."
+    }
+  ]
+}

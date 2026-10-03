@@ -1,0 +1,18 @@
+{
+  "name": "Ertai, Wizard Adept",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}{U}, {T}",
+      "targets": [
+        "spell"
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "{2}{U}{U}, {T}: Counter target spell."
+    }
+  ]
+}

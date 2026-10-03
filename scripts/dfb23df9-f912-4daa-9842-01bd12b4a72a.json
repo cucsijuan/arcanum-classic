@@ -1,0 +1,15 @@
+{
+  "name": "Tower of Fortunes",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}, {T}",
+      "effects": [
+        {
+          "draw": 4
+        }
+      ],
+      "text": "{8}, {T}: Draw four cards."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Torch Gauntlet",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +2/+0."
+    }
+  ]
+}

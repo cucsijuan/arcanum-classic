@@ -1,0 +1,17 @@
+{
+  "name": "Hop to It",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Rabbit",
+          "types": "Creature — Rabbit",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Resupply",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 6
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Jayemdae Tome",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{4}, {T}: Draw a card."
+    }
+  ]
+}

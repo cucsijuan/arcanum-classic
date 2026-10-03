@@ -1,0 +1,23 @@
+{
+  "name": "Spectral Reserves",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Flying"
+          ]
+        }
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

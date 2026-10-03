@@ -1,0 +1,19 @@
+{
+  "name": "Guul Draz Mucklord",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature dies, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

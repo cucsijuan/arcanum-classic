@@ -1,0 +1,19 @@
+{
+  "name": "Dragon Blood",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{3}, {T}: Put a +1/+1 counter on target creature."
+    }
+  ]
+}

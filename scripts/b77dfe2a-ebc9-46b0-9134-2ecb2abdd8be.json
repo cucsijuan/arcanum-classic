@@ -1,0 +1,15 @@
+{
+  "name": "Mystic Archaeologist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{U}{U}",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{3}{U}{U}: Draw two cards."
+    }
+  ]
+}

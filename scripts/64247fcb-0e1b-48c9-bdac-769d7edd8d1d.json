@@ -1,0 +1,17 @@
+{
+  "name": "Day of Destiny",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "subtype": "Legendary"
+      },
+      "text": "Legendary creatures you control get +2/+2."
+    }
+  ]
+}

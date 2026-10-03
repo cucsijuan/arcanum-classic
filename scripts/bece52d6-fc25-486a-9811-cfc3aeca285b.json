@@ -1,0 +1,51 @@
+{
+  "name": "Skyship Stalker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains first strike until end of turn."
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains haste until end of turn."
+    }
+  ]
+}

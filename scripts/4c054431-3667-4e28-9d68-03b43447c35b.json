@@ -1,0 +1,14 @@
+{
+  "name": "Bilbo's Deadly Slice",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

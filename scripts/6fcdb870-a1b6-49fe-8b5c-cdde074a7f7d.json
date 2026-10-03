@@ -1,0 +1,11 @@
+{
+  "name": "Spring of Eternal Peace",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 8
+      }
+    ]
+  }
+}

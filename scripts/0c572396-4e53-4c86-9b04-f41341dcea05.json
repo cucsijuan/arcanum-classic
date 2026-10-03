@@ -1,0 +1,17 @@
+{
+  "name": "Crucible of Fire",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          3,
+          3
+        ],
+        "subtype": "Dragon"
+      },
+      "text": "Dragon creatures you control get +3/+3."
+    }
+  ]
+}

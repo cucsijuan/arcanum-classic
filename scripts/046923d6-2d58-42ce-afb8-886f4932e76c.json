@@ -1,0 +1,15 @@
+{
+  "name": "Breath of Fire",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      }
+    ]
+  }
+}

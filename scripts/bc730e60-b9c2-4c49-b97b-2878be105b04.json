@@ -1,0 +1,21 @@
+{
+  "name": "Skillful Lunge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

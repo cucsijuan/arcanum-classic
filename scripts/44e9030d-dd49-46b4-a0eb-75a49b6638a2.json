@@ -1,0 +1,17 @@
+{
+  "name": "Maw of the Mire",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 4
+      }
+    ]
+  }
+}

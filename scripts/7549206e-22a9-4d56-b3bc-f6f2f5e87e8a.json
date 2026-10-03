@@ -1,0 +1,19 @@
+{
+  "name": "Mantle of Webs",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          3
+        ],
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+3 and has reach."
+    }
+  ]
+}

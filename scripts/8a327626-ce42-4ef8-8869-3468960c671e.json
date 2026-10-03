@@ -1,0 +1,19 @@
+{
+  "name": "Crackling Triton",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, Sacrifice this creature: It deals 2 damage to any target."
+    }
+  ]
+}

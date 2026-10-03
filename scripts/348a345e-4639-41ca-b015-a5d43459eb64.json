@@ -1,0 +1,19 @@
+{
+  "name": "Seal of Fire",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: It deals 2 damage to any target."
+    }
+  ]
+}

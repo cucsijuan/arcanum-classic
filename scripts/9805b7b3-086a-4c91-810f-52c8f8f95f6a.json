@@ -1,0 +1,15 @@
+{
+  "name": "Mardu Banner",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{W}{B}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}{W}{B}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

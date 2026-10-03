@@ -1,0 +1,25 @@
+{
+  "name": "Alabaster Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{1}{W}: Target creature you control gains lifelink until end of turn."
+    }
+  ]
+}

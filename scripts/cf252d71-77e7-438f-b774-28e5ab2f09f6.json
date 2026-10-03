@@ -1,0 +1,22 @@
+{
+  "name": "Serpentine Kavu",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains haste until end of turn."
+    }
+  ]
+}

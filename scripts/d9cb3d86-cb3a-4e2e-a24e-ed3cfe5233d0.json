@@ -1,0 +1,18 @@
+{
+  "name": "Tyrant's Machine",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{4}, {T}: Tap target creature."
+    }
+  ]
+}

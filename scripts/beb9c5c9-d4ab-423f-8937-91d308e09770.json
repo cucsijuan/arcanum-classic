@@ -1,0 +1,19 @@
+{
+  "name": "Infectious Host",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature dies, target player loses 2 life."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Sarkhan's Catharsis",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

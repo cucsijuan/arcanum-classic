@@ -1,0 +1,16 @@
+{
+  "name": "Serendib Efreet",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "you"
+        }
+      ],
+      "text": "At the beginning of your upkeep, this creature deals 1 damage to you."
+    }
+  ]
+}

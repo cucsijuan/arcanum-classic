@@ -1,0 +1,20 @@
+{
+  "name": "Wings of Aesthir",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "First strike"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+0 and has flying and first strike."
+    }
+  ]
+}

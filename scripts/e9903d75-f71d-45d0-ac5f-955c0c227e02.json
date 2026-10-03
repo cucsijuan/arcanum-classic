@@ -1,0 +1,25 @@
+{
+  "name": "Wind Dancer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature gains flying until end of turn."
+    }
+  ]
+}

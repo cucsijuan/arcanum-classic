@@ -1,0 +1,21 @@
+{
+  "name": "Yavimaya Sapherd",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 green Saproling creature token."
+    }
+  ]
+}

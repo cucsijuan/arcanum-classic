@@ -1,0 +1,14 @@
+{
+  "name": "Counterspell",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

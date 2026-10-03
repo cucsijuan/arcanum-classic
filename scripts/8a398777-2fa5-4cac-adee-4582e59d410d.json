@@ -1,0 +1,25 @@
+{
+  "name": "Onyx Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{1}{B}: Target creature you control gains deathtouch until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Goblin War Paint",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has haste."
+    }
+  ]
+}

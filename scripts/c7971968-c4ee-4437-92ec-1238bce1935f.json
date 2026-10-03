@@ -1,0 +1,15 @@
+{
+  "name": "Cinder Storm",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 7,
+        "to": "target"
+      }
+    ]
+  }
+}

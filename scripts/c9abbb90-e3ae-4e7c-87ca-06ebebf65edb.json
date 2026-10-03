@@ -1,0 +1,21 @@
+{
+  "name": "Sunrise Sovereign",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "other": true,
+        "subtype": "Giant",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Other Giant creatures you control get +2/+2 and have trample."
+    }
+  ]
+}

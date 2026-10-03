@@ -1,0 +1,19 @@
+{
+  "name": "Arcane Flight",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has flying."
+    }
+  ]
+}

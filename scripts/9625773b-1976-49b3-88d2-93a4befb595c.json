@@ -1,0 +1,15 @@
+{
+  "name": "Shore Keeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{U}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 3
+        }
+      ],
+      "text": "{7}{U}, {T}, Sacrifice this creature: Draw three cards."
+    }
+  ]
+}

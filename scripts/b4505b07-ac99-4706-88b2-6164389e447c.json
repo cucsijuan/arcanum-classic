@@ -1,0 +1,18 @@
+{
+  "name": "Ark of Blight",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this artifact: Destroy target land."
+    }
+  ]
+}

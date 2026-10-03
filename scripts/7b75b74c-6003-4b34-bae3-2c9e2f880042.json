@@ -1,0 +1,38 @@
+{
+  "name": "Armorer Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target creature gets +1/+0 until end of turn."
+    },
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, {T}: Target creature gets +0/+1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Diplomatic Immunity",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Shroud"
+        ]
+      },
+      "text": "Enchanted creature has shroud."
+    }
+  ]
+}

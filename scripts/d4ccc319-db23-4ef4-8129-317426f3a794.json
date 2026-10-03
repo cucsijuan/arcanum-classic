@@ -1,0 +1,22 @@
+{
+  "name": "Aerial Maneuver",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Flying",
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

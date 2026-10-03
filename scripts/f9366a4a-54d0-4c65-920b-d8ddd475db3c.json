@@ -1,0 +1,22 @@
+{
+  "name": "Searchlight Geist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{3}{B}: This creature gains deathtouch until end of turn."
+    }
+  ]
+}

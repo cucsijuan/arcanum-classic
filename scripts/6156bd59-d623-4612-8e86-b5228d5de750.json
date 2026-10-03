@@ -1,0 +1,16 @@
+{
+  "name": "Howling Banshee",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player loses 3 life."
+    }
+  ]
+}

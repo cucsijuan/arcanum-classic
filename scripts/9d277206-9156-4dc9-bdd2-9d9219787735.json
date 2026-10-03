@@ -1,0 +1,19 @@
+{
+  "name": "Stonewood Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{G}",
+      "effects": [
+        {
+          "pump": [
+            5,
+            5
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{7}{G}: This creature gets +5/+5 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Advance Scout",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{W}: Target creature gains first strike until end of turn."
+    }
+  ]
+}

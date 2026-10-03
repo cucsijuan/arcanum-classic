@@ -1,0 +1,19 @@
+{
+  "name": "Virtuous Variant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

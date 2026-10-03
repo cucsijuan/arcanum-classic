@@ -1,0 +1,15 @@
+{
+  "name": "Searing Flesh",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "damage": 7,
+        "to": "target"
+      }
+    ]
+  }
+}

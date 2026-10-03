@@ -1,0 +1,20 @@
+{
+  "name": "Treetop Snarespinner",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{2}{G}: Put a +1/+1 counter on target creature you control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Sizzle",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 3,
+        "to": "opponents"
+      }
+    ]
+  }
+}

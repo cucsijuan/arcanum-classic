@@ -1,0 +1,21 @@
+{
+  "name": "Screaming Fury",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          5,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Captain's Call",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

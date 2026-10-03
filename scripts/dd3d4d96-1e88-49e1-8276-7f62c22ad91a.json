@@ -1,0 +1,34 @@
+{
+  "name": "Seeds of Strength",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      "creature",
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target2"
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target3"
+      }
+    ]
+  }
+}

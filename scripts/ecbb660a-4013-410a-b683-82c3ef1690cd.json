@@ -1,0 +1,16 @@
+{
+  "name": "Soulcage Fiend",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player loses 3 life."
+    }
+  ]
+}

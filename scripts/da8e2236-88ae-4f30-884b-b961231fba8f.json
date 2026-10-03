@@ -1,0 +1,19 @@
+{
+  "name": "Vulshok Replica",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}, Sacrifice this creature: It deals 3 damage to target player or planeswalker."
+    }
+  ]
+}

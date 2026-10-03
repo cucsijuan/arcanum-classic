@@ -1,0 +1,19 @@
+{
+  "name": "Wall of Water",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{U}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

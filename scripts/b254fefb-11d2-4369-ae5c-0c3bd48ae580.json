@@ -1,0 +1,16 @@
+{
+  "name": "Oakenform",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          3
+        ]
+      },
+      "text": "Enchanted creature gets +3/+3."
+    }
+  ]
+}

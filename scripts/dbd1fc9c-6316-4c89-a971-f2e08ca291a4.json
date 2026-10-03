@@ -1,0 +1,15 @@
+{
+  "name": "Vampiric Spirit",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 4
+        }
+      ],
+      "text": "When this creature enters, you lose 4 life."
+    }
+  ]
+}

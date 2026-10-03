@@ -1,0 +1,25 @@
+{
+  "name": "Hornet Queen",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 4,
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying",
+              "Deathtouch"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create four 1/1 green Insect creature tokens with flying and deathtouch."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Pulse Tracker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent loses 1 life."
+    }
+  ]
+}

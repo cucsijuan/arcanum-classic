@@ -1,0 +1,22 @@
+{
+  "name": "Blighted Bat",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{1}: This creature gains haste until end of turn."
+    }
+  ]
+}

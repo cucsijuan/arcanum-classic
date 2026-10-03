@@ -1,0 +1,21 @@
+{
+  "name": "Rise to the Challenge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

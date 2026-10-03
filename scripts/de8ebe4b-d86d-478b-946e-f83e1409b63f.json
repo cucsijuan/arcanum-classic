@@ -1,0 +1,21 @@
+{
+  "name": "Gerrard's Command",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "self"
+      }
+    ]
+  }
+}

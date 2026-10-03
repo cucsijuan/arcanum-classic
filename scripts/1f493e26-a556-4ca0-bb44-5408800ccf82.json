@@ -1,0 +1,15 @@
+{
+  "name": "Soothing Balm",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "gainLife": 5,
+        "who": "target"
+      }
+    ]
+  }
+}

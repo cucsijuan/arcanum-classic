@@ -1,0 +1,20 @@
+{
+  "name": "Sworn Companions",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      }
+    ]
+  }
+}

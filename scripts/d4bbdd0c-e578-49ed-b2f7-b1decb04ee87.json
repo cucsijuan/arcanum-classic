@@ -1,0 +1,17 @@
+{
+  "name": "Pressure Point",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

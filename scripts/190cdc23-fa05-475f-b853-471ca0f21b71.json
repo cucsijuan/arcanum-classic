@@ -1,0 +1,19 @@
+{
+  "name": "Gorgon's Head",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Equipped creature has deathtouch."
+    }
+  ]
+}

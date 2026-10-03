@@ -1,0 +1,24 @@
+{
+  "name": "Paladin of the Bloodstained",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Vampire",
+            "types": "Creature — Vampire",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Vampire creature token with lifelink."
+    }
+  ]
+}

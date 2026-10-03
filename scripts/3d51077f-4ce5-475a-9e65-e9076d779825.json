@@ -1,0 +1,25 @@
+{
+  "name": "Vial of Poison",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Target creature gains deathtouch until end of turn."
+    }
+  ]
+}

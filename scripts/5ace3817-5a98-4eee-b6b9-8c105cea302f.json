@@ -1,0 +1,22 @@
+{
+  "name": "Killer Whale",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{U}: This creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Dark Nourishment",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

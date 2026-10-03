@@ -1,0 +1,19 @@
+{
+  "name": "Guard Duty",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Defender"
+        ]
+      },
+      "text": "Enchanted creature has defender."
+    }
+  ]
+}

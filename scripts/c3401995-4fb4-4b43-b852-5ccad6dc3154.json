@@ -1,0 +1,21 @@
+{
+  "name": "Mortal's Ardor",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Lifelink"
+        ]
+      }
+    ]
+  }
+}

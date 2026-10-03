@@ -1,0 +1,17 @@
+{
+  "name": "Builder's Blessing",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          2
+        ],
+        "subtype": "Untapped"
+      },
+      "text": "Untapped creatures you control get +0/+2."
+    }
+  ]
+}

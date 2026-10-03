@@ -1,0 +1,19 @@
+{
+  "name": "Volcanic Rambler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}: This creature deals 1 damage to target player or planeswalker."
+    }
+  ]
+}

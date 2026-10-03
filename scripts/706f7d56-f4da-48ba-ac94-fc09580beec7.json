@@ -1,0 +1,18 @@
+{
+  "name": "Priest of Iroas",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{W}, sacrifice",
+      "targets": [
+        "enchantment"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{3}{W}, Sacrifice this creature: Destroy target enchantment."
+    }
+  ]
+}

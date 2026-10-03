@@ -1,0 +1,16 @@
+{
+  "name": "Runed Servitor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player draws a card."
+    }
+  ]
+}

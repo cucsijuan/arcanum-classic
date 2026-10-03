@@ -1,0 +1,17 @@
+{
+  "name": "Aura Blast",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "enchantment"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

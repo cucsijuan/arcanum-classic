@@ -1,0 +1,16 @@
+{
+  "name": "Ogre's Cleaver",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          5,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +5/+0."
+    }
+  ]
+}

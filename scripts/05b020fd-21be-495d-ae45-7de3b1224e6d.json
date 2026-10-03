@@ -1,0 +1,28 @@
+{
+  "name": "Angelic Shield",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          1
+        ]
+      },
+      "text": "Creatures you control get +0/+1."
+    },
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: Return target creature to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Arcane Encyclopedia",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, {T}: Draw a card."
+    }
+  ]
+}

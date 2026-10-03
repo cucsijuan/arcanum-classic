@@ -1,0 +1,22 @@
+{
+  "name": "Relentless Hunter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{1}{R}{G}: This creature gets +1/+1 and gains trample until end of turn."
+    }
+  ]
+}

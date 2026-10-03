@@ -1,0 +1,17 @@
+{
+  "name": "Goblin Rally",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Goblin",
+          "types": "Creature — Goblin",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

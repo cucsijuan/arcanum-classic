@@ -1,0 +1,21 @@
+{
+  "name": "Angelic Blessing",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Flying"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Refocus",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

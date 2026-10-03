@@ -1,0 +1,21 @@
+{
+  "name": "Blossoming Defense",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      }
+    ]
+  }
+}

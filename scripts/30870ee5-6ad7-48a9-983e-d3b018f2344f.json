@@ -1,0 +1,11 @@
+{
+  "name": "Sacred Nectar",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Herald of Faith",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever this creature attacks, you gain 2 life."
+    }
+  ]
+}

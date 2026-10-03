@@ -1,0 +1,15 @@
+{
+  "name": "Golgari Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{G}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{B}{G}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

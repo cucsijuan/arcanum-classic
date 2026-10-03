@@ -1,0 +1,24 @@
+{
+  "name": "Sunbeam Spellbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "{W}, Sacrifice this artifact: You gain 5 life."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

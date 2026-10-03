@@ -1,0 +1,34 @@
+{
+  "name": "Naya Battlemage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{R}, {T}: Target creature gets +2/+0 until end of turn."
+    },
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{W}, {T}: Tap target creature."
+    }
+  ]
+}

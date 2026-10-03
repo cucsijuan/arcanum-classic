@@ -1,0 +1,15 @@
+{
+  "name": "Zarichi Tiger",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{1}{W}, {T}: You gain 2 life."
+    }
+  ]
+}

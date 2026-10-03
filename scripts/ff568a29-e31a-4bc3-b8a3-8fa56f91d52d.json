@@ -1,0 +1,11 @@
+{
+  "name": "Weave Fate",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

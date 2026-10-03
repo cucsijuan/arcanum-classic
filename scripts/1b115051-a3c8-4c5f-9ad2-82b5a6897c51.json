@@ -1,0 +1,16 @@
+{
+  "name": "Sledding Otter-Penguin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{3}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

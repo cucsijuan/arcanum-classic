@@ -1,0 +1,20 @@
+{
+  "name": "Unflinching Courage",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Trample",
+          "Lifelink"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has trample and lifelink."
+    }
+  ]
+}

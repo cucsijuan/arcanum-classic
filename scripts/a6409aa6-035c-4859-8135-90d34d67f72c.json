@@ -1,0 +1,21 @@
+{
+  "name": "Kobold Drill Sergeant",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          1
+        ],
+        "other": true,
+        "subtype": "Kobold",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Other Kobold creatures you control get +0/+1 and have trample."
+    }
+  ]
+}

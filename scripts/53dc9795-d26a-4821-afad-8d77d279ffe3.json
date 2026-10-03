@@ -1,0 +1,21 @@
+{
+  "name": "Awaken the Bear",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

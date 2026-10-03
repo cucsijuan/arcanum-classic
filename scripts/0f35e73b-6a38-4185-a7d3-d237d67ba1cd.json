@@ -1,0 +1,19 @@
+{
+  "name": "Nimbus Wings",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          2
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+2 and has flying."
+    }
+  ]
+}

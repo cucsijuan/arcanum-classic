@@ -1,0 +1,22 @@
+{
+  "name": "Firehoof Cavalry",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{3}{R}: This creature gets +2/+0 and gains trample until end of turn."
+    }
+  ]
+}

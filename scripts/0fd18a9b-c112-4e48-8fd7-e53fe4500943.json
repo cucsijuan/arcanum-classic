@@ -1,0 +1,17 @@
+{
+  "name": "Kaysa",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "subtype": "Green"
+      },
+      "text": "Green creatures you control get +1/+1."
+    }
+  ]
+}

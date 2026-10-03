@@ -1,0 +1,17 @@
+{
+  "name": "Vraska's Contempt",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

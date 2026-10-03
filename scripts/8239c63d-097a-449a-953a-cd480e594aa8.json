@@ -1,0 +1,21 @@
+{
+  "name": "Watchful Giant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human",
+            "types": "Creature — Human",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Human creature token."
+    }
+  ]
+}

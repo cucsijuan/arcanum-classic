@@ -1,0 +1,16 @@
+{
+  "name": "Master of the Feast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of your upkeep, each opponent draws a card."
+    }
+  ]
+}

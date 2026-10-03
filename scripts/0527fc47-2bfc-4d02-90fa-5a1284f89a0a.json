@@ -1,0 +1,18 @@
+{
+  "name": "Dazzling Ramparts",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Tap target creature."
+    }
+  ]
+}

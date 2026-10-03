@@ -1,0 +1,19 @@
+{
+  "name": "Almighty Brushwagg",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}{G}: This creature gets +3/+3 until end of turn."
+    }
+  ]
+}

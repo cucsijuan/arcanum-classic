@@ -1,0 +1,44 @@
+{
+  "name": "Bant Battlemage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{G}, {T}: Target creature gains trample until end of turn."
+    },
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{U}, {T}: Target creature gains flying until end of turn."
+    }
+  ]
+}

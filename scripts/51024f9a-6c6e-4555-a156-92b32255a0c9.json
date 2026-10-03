@@ -1,0 +1,16 @@
+{
+  "name": "Greatsword",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +3/+0."
+    }
+  ]
+}

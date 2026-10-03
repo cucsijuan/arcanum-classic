@@ -1,0 +1,24 @@
+{
+  "name": "Conclave Cavalier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Elf Knight",
+            "types": "Creature — Elf Knight",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create two 2/2 green and white Elf Knight creature tokens with vigilance."
+    }
+  ]
+}

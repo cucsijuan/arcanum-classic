@@ -1,0 +1,19 @@
+{
+  "name": "Rod of Ruin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{3}, {T}: This artifact deals 1 damage to any target."
+    }
+  ]
+}

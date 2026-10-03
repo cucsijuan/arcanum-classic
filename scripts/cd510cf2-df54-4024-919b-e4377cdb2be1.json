@@ -1,0 +1,20 @@
+{
+  "name": "Zephyr Net",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Defender",
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature has defender and flying."
+    }
+  ]
+}

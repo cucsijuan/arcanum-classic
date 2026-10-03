@@ -1,0 +1,14 @@
+{
+  "name": "Desert Twister",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

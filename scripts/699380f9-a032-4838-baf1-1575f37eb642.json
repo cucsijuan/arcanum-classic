@@ -1,0 +1,19 @@
+{
+  "name": "Angelic Reward",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          3
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +3/+3 and has flying."
+    }
+  ]
+}

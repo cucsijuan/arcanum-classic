@@ -1,0 +1,22 @@
+{
+  "name": "Prakhata Pillar-Bug",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{B}: This creature gains lifelink until end of turn."
+    }
+  ]
+}

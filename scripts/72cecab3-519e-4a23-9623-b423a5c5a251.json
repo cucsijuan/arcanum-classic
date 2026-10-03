@@ -1,0 +1,14 @@
+{
+  "name": "Rain of Tears",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

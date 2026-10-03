@@ -1,0 +1,16 @@
+{
+  "name": "Sell-Sword Brute",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "you"
+        }
+      ],
+      "text": "When this creature dies, it deals 2 damage to you."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Lost in the Mist",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell",
+      "permanent"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "bounce": "target2"
+      }
+    ]
+  }
+}

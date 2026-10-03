@@ -1,0 +1,22 @@
+{
+  "name": "Patagia Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{3}: This creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Risky Shortcut",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "loseLife": 2,
+        "who": "everyone"
+      }
+    ]
+  }
+}

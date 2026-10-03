@@ -1,0 +1,15 @@
+{
+  "name": "Simic Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}{U}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{G}{U}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

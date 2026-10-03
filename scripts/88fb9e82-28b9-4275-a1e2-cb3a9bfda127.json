@@ -1,0 +1,21 @@
+{
+  "name": "Vitu-Ghazi, the City-Tree",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}{W}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{2}{G}{W}, {T}: Create a 1/1 green Saproling creature token."
+    }
+  ]
+}

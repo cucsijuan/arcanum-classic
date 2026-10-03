@@ -1,0 +1,16 @@
+{
+  "name": "Fire Nation's Conquest",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Creatures you control get +1/+0."
+    }
+  ]
+}

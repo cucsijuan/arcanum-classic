@@ -1,0 +1,22 @@
+{
+  "name": "Wall of Tanglecord",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Reach"
+          ]
+        }
+      ],
+      "text": "{G}: This creature gains reach until end of turn."
+    }
+  ]
+}

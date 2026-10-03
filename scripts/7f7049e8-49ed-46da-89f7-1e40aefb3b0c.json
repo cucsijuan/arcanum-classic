@@ -1,0 +1,16 @@
+{
+  "name": "Collective Blessing",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          3,
+          3
+        ]
+      },
+      "text": "Creatures you control get +3/+3."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Highland Game",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature dies, you gain 2 life."
+    }
+  ]
+}

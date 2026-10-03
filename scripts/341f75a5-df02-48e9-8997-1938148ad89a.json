@@ -1,0 +1,21 @@
+{
+  "name": "Confidence from Strength",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          4
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Penumbra Kavu",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kavu",
+            "types": "Creature — Kavu",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 3/3 black Kavu creature token."
+    }
+  ]
+}

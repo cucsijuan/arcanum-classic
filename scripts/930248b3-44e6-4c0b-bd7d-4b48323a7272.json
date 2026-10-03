@@ -1,0 +1,21 @@
+{
+  "name": "Bear's Companion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bear",
+            "types": "Creature — Bear",
+            "power": 4,
+            "toughness": 4
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 4/4 green Bear creature token."
+    }
+  ]
+}

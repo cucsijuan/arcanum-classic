@@ -1,0 +1,19 @@
+{
+  "name": "Into the Maw of Hell",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land",
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "damage": 13,
+        "to": "target2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Boros Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}{W}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

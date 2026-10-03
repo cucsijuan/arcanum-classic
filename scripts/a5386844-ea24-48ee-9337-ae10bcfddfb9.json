@@ -1,0 +1,17 @@
+{
+  "name": "Dramatic Rescue",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

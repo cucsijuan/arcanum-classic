@@ -1,0 +1,38 @@
+{
+  "name": "Maze Skullbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    },
+    {
+      "cost": "{2}{G}, sacrifice",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{G}, Sacrifice this artifact: Target creature you control gets +3/+3 and gains trample until end of turn. Draw a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

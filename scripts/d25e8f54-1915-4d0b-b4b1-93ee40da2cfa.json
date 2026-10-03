@@ -1,0 +1,21 @@
+{
+  "name": "Wriggling Grub",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Worm",
+            "types": "Creature — Worm",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create two 1/1 black and green Worm creature tokens."
+    }
+  ]
+}

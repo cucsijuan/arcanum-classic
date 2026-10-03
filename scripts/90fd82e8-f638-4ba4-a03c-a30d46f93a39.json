@@ -1,0 +1,21 @@
+{
+  "name": "Inspirit",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          2,
+          4
+        ],
+        "what": "self"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Perilous Myr",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature dies, it deals 2 damage to any target."
+    }
+  ]
+}

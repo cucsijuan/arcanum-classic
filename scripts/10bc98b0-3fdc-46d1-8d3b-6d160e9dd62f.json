@@ -1,0 +1,22 @@
+{
+  "name": "Goblin Balloon Brigade",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains flying until end of turn."
+    }
+  ]
+}

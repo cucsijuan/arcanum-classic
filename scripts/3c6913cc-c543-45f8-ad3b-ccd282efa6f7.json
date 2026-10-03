@@ -1,0 +1,18 @@
+{
+  "name": "Ronom Unicorn",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "enchantment"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Destroy target enchantment."
+    }
+  ]
+}

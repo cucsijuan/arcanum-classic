@@ -1,0 +1,15 @@
+{
+  "name": "Oscorp Research Team",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{U}",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{6}{U}: Draw two cards."
+    }
+  ]
+}

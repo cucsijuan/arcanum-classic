@@ -1,0 +1,19 @@
+{
+  "name": "Flametongue Kavu",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 4 damage to target creature."
+    }
+  ]
+}

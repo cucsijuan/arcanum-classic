@@ -1,0 +1,16 @@
+{
+  "name": "Welder Automaton",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "{3}{R}: This creature deals 1 damage to each opponent."
+    }
+  ]
+}

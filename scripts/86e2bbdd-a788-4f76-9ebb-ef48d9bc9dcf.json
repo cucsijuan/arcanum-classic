@@ -1,0 +1,19 @@
+{
+  "name": "Pitchburn Devils",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature dies, it deals 3 damage to any target."
+    }
+  ]
+}

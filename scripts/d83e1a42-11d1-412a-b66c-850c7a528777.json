@@ -1,0 +1,11 @@
+{
+  "name": "Brilliant Plan",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

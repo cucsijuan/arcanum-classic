@@ -1,0 +1,21 @@
+{
+  "name": "Ranger's Guile",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      }
+    ]
+  }
+}

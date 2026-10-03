@@ -1,0 +1,15 @@
+{
+  "name": "Enatu Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "When this creature dies, you gain 4 life."
+    }
+  ]
+}

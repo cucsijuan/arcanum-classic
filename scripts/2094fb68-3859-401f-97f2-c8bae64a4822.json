@@ -1,0 +1,18 @@
+{
+  "name": "Playful Shove",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 1,
+        "to": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

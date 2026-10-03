@@ -1,0 +1,21 @@
+{
+  "name": "Dwarven Castle Guard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Hero",
+            "types": "Creature — Hero",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/1 colorless Hero creature token."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Goretusk Firebeast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 4 damage to target player or planeswalker."
+    }
+  ]
+}

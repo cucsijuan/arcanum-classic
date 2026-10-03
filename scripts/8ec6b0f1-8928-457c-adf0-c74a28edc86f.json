@@ -1,0 +1,22 @@
+{
+  "name": "Blister Beetle",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature gets -1/-1 until end of turn."
+    }
+  ]
+}

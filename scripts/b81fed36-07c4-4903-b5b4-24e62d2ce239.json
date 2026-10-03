@@ -1,0 +1,16 @@
+{
+  "name": "Barbed Battlegear",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          4,
+          -1
+        ]
+      },
+      "text": "Equipped creature gets +4/-1."
+    }
+  ]
+}

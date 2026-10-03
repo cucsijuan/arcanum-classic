@@ -1,0 +1,22 @@
+{
+  "name": "Saltfield Recluse",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target creature gets -2/-0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Deathless Angel",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{W}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{W}{W}: Target creature gains indestructible until end of turn."
+    }
+  ]
+}

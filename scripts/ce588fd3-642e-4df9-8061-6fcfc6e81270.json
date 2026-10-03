@@ -1,0 +1,11 @@
+{
+  "name": "Jace's Ingenuity",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

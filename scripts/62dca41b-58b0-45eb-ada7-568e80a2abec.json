@@ -1,0 +1,19 @@
+{
+  "name": "Acolyte of Xathrid",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{1}{B}, {T}: Target player loses 1 life."
+    }
+  ]
+}

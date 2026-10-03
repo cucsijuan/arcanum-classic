@@ -1,0 +1,18 @@
+{
+  "name": "Rathi Trapper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{B}, {T}: Tap target creature."
+    }
+  ]
+}

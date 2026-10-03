@@ -1,0 +1,24 @@
+{
+  "name": "Elixir of Vitality",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "{T}, Sacrifice this artifact: You gain 4 life."
+    },
+    {
+      "cost": "{8}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 8
+        }
+      ],
+      "text": "{8}, {T}, Sacrifice this artifact: You gain 8 life."
+    }
+  ]
+}

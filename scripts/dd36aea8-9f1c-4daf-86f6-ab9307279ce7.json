@@ -1,0 +1,19 @@
+{
+  "name": "Minotaur Skullcleaver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "When this creature enters, it gets +2/+0 until end of turn."
+    }
+  ]
+}

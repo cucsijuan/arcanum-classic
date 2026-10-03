@@ -1,0 +1,20 @@
+{
+  "name": "Gruul War Chant",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "subtype": "Attacking",
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Attacking creatures you control get +1/+0 and have menace."
+    }
+  ]
+}

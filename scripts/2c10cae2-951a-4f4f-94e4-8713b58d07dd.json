@@ -1,0 +1,28 @@
+{
+  "name": "Pyrite Spellbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, Sacrifice this artifact: It deals 2 damage to any target."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

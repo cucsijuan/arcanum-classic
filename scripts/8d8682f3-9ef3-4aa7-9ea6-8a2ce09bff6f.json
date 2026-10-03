@@ -1,0 +1,19 @@
+{
+  "name": "Cobbled Wings",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature has flying."
+    }
+  ]
+}

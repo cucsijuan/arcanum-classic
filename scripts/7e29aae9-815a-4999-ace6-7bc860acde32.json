@@ -1,0 +1,16 @@
+{
+  "name": "Engine Rat",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{B}",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "{5}{B}: Each opponent loses 2 life."
+    }
+  ]
+}

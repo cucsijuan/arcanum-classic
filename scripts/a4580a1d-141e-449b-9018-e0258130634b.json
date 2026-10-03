@@ -1,0 +1,16 @@
+{
+  "name": "Mikokoro, Center of the Sea",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{2}, {T}: Each player draws a card."
+    }
+  ]
+}

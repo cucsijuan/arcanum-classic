@@ -1,0 +1,21 @@
+{
+  "name": "Rush of Adrenaline",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Super-Skrull",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wall",
+            "types": "Creature — Wall",
+            "power": 0,
+            "toughness": 4,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{W}: Create a 0/4 colorless Wall creature token with defender."
+    },
+    {
+      "cost": "{3}{G}",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}{G}: Super-Skrull gets +4/+4 until end of turn."
+    },
+    {
+      "cost": "{4}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{R}: Super-Skrull deals 4 damage to target creature."
+    },
+    {
+      "cost": "{5}{U}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 4,
+          "who": "target"
+        }
+      ],
+      "text": "{5}{U}: Target player draws four cards."
+    }
+  ]
+}

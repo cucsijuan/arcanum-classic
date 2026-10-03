@@ -1,0 +1,24 @@
+{
+  "name": "Armada Wurm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wurm",
+            "types": "Creature — Wurm",
+            "power": 5,
+            "toughness": 5,
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 5/5 green Wurm creature token with trample."
+    }
+  ]
+}

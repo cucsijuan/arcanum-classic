@@ -1,0 +1,16 @@
+{
+  "name": "Hero's Resolve",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          5
+        ]
+      },
+      "text": "Enchanted creature gets +1/+5."
+    }
+  ]
+}

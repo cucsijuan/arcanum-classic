@@ -1,0 +1,18 @@
+{
+  "name": "Archon of Justice",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this creature dies, exile target permanent."
+    }
+  ]
+}

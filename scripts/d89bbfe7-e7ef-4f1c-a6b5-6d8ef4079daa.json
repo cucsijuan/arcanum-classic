@@ -1,0 +1,25 @@
+{
+  "name": "Cavalry Drillmaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature gets +2/+0 and gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Harrier Griffin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "At the beginning of your upkeep, tap target creature."
+    }
+  ]
+}

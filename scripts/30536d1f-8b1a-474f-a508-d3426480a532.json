@@ -1,0 +1,20 @@
+{
+  "name": "Call to the Feast",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Vampire",
+          "types": "Creature — Vampire",
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      }
+    ]
+  }
+}

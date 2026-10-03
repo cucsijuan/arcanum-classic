@@ -1,0 +1,22 @@
+{
+  "name": "Wyluli Wolf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target creature gets +1/+1 until end of turn."
+    }
+  ]
+}

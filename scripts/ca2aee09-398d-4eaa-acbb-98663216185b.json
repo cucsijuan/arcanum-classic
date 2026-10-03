@@ -1,0 +1,25 @@
+{
+  "name": "Resolute Watchdog",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice this creature: Target creature you control gains indestructible until end of turn."
+    }
+  ]
+}

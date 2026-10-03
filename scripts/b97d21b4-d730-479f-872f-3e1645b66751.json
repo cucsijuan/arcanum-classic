@@ -1,0 +1,17 @@
+{
+  "name": "Release the Dogs",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Dog",
+          "types": "Creature — Dog",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

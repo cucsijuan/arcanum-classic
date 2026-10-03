@@ -1,0 +1,19 @@
+{
+  "name": "Aesthir Glider",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    }
+  ]
+}

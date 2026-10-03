@@ -1,0 +1,24 @@
+{
+  "name": "Jungleborn Pioneer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Merfolk",
+            "types": "Creature — Merfolk",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Hexproof"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 blue Merfolk creature token with hexproof."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Chant of the Skifsang",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -13,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets -13/-0."
+    }
+  ]
+}

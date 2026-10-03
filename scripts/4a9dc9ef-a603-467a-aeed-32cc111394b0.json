@@ -1,0 +1,19 @@
+{
+  "name": "Madcap Skills",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Enchanted creature gets +3/+0 and has menace."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Shape the Sands",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          5
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

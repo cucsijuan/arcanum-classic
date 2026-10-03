@@ -1,0 +1,20 @@
+{
+  "name": "Bastion Protector",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "subtype": "Commander",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Commander creatures you control get +2/+2 and have indestructible."
+    }
+  ]
+}

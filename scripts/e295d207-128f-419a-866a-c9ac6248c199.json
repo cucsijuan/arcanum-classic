@@ -1,0 +1,19 @@
+{
+  "name": "Capashen Knight",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{W}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

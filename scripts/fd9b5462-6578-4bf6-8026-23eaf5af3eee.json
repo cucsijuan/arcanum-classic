@@ -1,0 +1,18 @@
+{
+  "name": "Temporal Adept",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{U}{U}, {T}",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{U}{U}{U}, {T}: Return target permanent to its owner's hand."
+    }
+  ]
+}

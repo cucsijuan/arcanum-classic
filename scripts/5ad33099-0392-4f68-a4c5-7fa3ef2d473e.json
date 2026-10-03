@@ -1,0 +1,17 @@
+{
+  "name": "Fall of the Gavel",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "gainLife": 5
+      }
+    ]
+  }
+}

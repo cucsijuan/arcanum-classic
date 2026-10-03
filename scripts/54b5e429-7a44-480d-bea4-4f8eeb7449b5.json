@@ -1,0 +1,15 @@
+{
+  "name": "Bottle Gnomes",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Sacrifice this creature: You gain 3 life."
+    }
+  ]
+}

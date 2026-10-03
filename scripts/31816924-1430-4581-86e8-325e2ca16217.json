@@ -1,0 +1,24 @@
+{
+  "name": "Agents of HYDRA",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Villain",
+            "types": "Creature — Villain",
+            "power": 2,
+            "toughness": 1,
+            "keywords": [
+              "Menace"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 2/1 black Villain creature token with menace."
+    }
+  ]
+}

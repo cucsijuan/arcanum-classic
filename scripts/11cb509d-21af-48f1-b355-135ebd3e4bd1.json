@@ -1,0 +1,21 @@
+{
+  "name": "Doomed Dissenter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 2/2 black Zombie creature token."
+    }
+  ]
+}

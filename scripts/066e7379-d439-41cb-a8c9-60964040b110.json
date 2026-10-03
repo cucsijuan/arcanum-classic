@@ -1,0 +1,16 @@
+{
+  "name": "Tattered Mummy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature dies, each opponent loses 2 life."
+    }
+  ]
+}

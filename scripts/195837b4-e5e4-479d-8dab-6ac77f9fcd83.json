@@ -1,0 +1,11 @@
+{
+  "name": "Chaplain's Blessing",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 5
+      }
+    ]
+  }
+}

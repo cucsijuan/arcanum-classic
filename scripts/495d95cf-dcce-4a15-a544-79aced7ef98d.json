@@ -1,0 +1,16 @@
+{
+  "name": "Centaur Peacemaker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 4,
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player gains 4 life."
+    }
+  ]
+}

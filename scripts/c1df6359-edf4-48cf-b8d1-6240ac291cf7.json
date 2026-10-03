@@ -1,0 +1,19 @@
+{
+  "name": "Wings of Hope",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          3
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+3 and has flying."
+    }
+  ]
+}

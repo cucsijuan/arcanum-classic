@@ -1,0 +1,21 @@
+{
+  "name": "Peregrine Mask",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Defender",
+          "Flying",
+          "First strike"
+        ]
+      },
+      "text": "Equipped creature has defender, flying, and first strike."
+    }
+  ]
+}

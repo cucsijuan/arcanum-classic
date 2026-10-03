@@ -1,0 +1,37 @@
+{
+  "name": "Thornscape Apprentice",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}, {T}: Target creature gains first strike until end of turn."
+    },
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{W}, {T}: Tap target creature."
+    }
+  ]
+}

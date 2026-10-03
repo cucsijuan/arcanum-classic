@@ -1,0 +1,19 @@
+{
+  "name": "Barbarian Lunatic",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, Sacrifice this creature: It deals 2 damage to target creature."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Eyes of the Beholder",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -11,
+          -11
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

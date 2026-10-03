@@ -1,0 +1,19 @@
+{
+  "name": "Perilous Shadow",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{B}: This creature gets +2/+2 until end of turn."
+    }
+  ]
+}

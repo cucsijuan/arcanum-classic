@@ -1,0 +1,19 @@
+{
+  "name": "Gravel-Hide Goblin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}{G}: This creature gets +2/+2 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Icatian Scout",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Target creature gains first strike until end of turn."
+    }
+  ]
+}

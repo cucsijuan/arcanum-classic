@@ -1,0 +1,23 @@
+{
+  "name": "Sunmane Pegasus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{1}{W}: This creature gains vigilance and lifelink until end of turn."
+    }
+  ]
+}

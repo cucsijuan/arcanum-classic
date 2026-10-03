@@ -1,0 +1,19 @@
+{
+  "name": "Chitinous Cloak",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has menace."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Zuran Spellcaster",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to any target."
+    }
+  ]
+}

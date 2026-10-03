@@ -1,0 +1,15 @@
+{
+  "name": "Font of Fortunes",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{1}{U}, Sacrifice this enchantment: Draw two cards."
+    }
+  ]
+}

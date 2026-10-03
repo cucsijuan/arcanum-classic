@@ -1,0 +1,21 @@
+{
+  "name": "Elder Auntie",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 black and red Goblin creature token."
+    }
+  ]
+}

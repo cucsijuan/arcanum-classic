@@ -1,0 +1,15 @@
+{
+  "name": "Crushing Disappointment",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "loseLife": 2,
+        "who": "everyone"
+      },
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

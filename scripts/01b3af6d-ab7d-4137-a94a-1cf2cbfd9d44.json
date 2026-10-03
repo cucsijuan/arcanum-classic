@@ -1,0 +1,17 @@
+{
+  "name": "Lich's Caress",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Ritual of Rejuvenation",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 4
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

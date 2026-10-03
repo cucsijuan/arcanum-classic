@@ -1,0 +1,15 @@
+{
+  "name": "Amateur Hero",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters, you gain 2 life."
+    }
+  ]
+}

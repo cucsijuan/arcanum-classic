@@ -1,0 +1,11 @@
+{
+  "name": "Quick Study",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

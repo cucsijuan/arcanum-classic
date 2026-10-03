@@ -1,0 +1,14 @@
+{
+  "name": "Hero's Downfall",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

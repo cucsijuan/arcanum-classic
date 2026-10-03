@@ -1,0 +1,19 @@
+{
+  "name": "Anaba Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, {T}: This creature deals 1 damage to any target."
+    }
+  ]
+}

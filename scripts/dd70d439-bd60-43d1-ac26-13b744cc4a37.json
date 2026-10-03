@@ -1,0 +1,19 @@
+{
+  "name": "Accorder's Shield",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          3
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Equipped creature gets +0/+3 and has vigilance."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sorcerer of the Fang",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{B}, {T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{5}{B}, {T}: This creature deals 2 damage to target opponent or planeswalker."
+    }
+  ]
+}

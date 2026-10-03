@@ -1,0 +1,18 @@
+{
+  "name": "Seeker of Skybreak",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{T}: Untap target creature."
+    }
+  ]
+}

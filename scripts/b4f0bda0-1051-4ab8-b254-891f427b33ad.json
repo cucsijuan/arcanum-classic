@@ -1,0 +1,15 @@
+{
+  "name": "Rakdos Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{B}{R}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Survey the Wreckage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Goblin",
+          "types": "Creature — Goblin",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

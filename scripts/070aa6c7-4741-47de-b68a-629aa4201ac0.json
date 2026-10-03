@@ -1,0 +1,24 @@
+{
+  "name": "Eager Glyphmage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white and black Inkling creature token with flying."
+    }
+  ]
+}

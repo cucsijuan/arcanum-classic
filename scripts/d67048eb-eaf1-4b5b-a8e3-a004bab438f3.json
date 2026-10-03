@@ -1,0 +1,21 @@
+{
+  "name": "Flowstone Strike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          -1
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

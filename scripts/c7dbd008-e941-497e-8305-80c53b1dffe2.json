@@ -1,0 +1,21 @@
+{
+  "name": "Tukatongue Thallid",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/1 green Saproling creature token."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Rage-Scarred Berserker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control gets +1/+0 and gains indestructible until end of turn."
+    }
+  ]
+}

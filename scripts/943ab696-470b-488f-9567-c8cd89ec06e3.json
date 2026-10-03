@@ -1,0 +1,18 @@
+{
+  "name": "Juniper Order Druid",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{T}: Untap target land."
+    }
+  ]
+}

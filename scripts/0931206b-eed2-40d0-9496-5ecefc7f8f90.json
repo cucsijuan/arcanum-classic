@@ -1,0 +1,16 @@
+{
+  "name": "Infectious Horror",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent loses 2 life."
+    }
+  ]
+}

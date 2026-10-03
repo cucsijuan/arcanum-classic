@@ -1,0 +1,15 @@
+{
+  "name": "Electrify",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Hopping Automaton",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{0}",
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{0}: This creature gets -1/-1 and gains flying until end of turn."
+    }
+  ]
+}

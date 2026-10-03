@@ -1,0 +1,17 @@
+{
+  "name": "Hordeling Outburst",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Goblin",
+          "types": "Creature — Goblin",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

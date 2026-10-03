@@ -1,0 +1,18 @@
+{
+  "name": "Territorial Hammerskull",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, tap target creature an opponent controls."
+    }
+  ]
+}

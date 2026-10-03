@@ -1,0 +1,31 @@
+{
+  "name": "Sarcomite Myr",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains flying until end of turn."
+    },
+    {
+      "cost": "{2}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Draw a card."
+    }
+  ]
+}

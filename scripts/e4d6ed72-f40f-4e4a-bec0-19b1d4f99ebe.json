@@ -1,0 +1,15 @@
+{
+  "name": "Stone Haven Medic",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{W}, {T}: You gain 1 life."
+    }
+  ]
+}

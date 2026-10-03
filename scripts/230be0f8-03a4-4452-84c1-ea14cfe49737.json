@@ -1,0 +1,22 @@
+{
+  "name": "Nantuko Disciple",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, {T}: Target creature gets +2/+2 until end of turn."
+    }
+  ]
+}

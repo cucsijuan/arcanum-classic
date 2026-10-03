@@ -1,0 +1,19 @@
+{
+  "name": "Raging Regisaur",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, it deals 1 damage to any target."
+    }
+  ]
+}

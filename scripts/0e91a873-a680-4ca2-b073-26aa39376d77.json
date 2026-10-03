@@ -1,0 +1,19 @@
+{
+  "name": "Yavimaya Ancients",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            -2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{G}: This creature gets +1/-2 until end of turn."
+    }
+  ]
+}

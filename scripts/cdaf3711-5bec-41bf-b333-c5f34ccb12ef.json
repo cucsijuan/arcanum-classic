@@ -1,0 +1,19 @@
+{
+  "name": "Lightning-Core Excavator",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this creature: It deals 3 damage to any target."
+    }
+  ]
+}

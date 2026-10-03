@@ -1,0 +1,16 @@
+{
+  "name": "Bone Saw",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +1/+0."
+    }
+  ]
+}

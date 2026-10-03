@@ -1,0 +1,16 @@
+{
+  "name": "Feast of the Unicorn",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          4,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets +4/+0."
+    }
+  ]
+}

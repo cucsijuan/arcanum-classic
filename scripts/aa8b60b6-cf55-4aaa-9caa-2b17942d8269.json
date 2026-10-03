@@ -1,0 +1,17 @@
+{
+  "name": "Icatian Town",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Citizen",
+          "types": "Creature — Citizen",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

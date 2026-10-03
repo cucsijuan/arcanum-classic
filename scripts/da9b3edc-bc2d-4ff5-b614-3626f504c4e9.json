@@ -1,0 +1,22 @@
+{
+  "name": "Bloodtallow Candle",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -5,
+            -5
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{6}, {T}, Sacrifice this artifact: Target creature gets -5/-5 until end of turn."
+    }
+  ]
+}

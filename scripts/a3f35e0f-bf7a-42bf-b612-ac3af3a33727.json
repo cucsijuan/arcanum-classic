@@ -1,0 +1,15 @@
+{
+  "name": "Arborback Stomper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "When this creature enters, you gain 5 life."
+    }
+  ]
+}

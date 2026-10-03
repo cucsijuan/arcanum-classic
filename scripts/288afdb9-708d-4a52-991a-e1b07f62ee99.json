@@ -1,0 +1,21 @@
+{
+  "name": "Nuisance Engine",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 0,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{2}, {T}: Create a 0/1 colorless Pest artifact creature token."
+    }
+  ]
+}

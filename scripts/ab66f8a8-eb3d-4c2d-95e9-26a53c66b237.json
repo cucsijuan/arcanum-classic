@@ -1,0 +1,19 @@
+{
+  "name": "Mask of Avacyn",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ],
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Equipped creature gets +1/+2 and has hexproof."
+    }
+  ]
+}

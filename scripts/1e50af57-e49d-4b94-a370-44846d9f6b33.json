@@ -1,0 +1,22 @@
+{
+  "name": "Cobalt Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{U}: This creature gains flying until end of turn."
+    }
+  ]
+}

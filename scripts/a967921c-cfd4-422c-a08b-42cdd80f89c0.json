@@ -1,0 +1,17 @@
+{
+  "name": "Glass of the Guildpact",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "subtype": "Multicolored"
+      },
+      "text": "Multicolored creatures you control get +1/+1."
+    }
+  ]
+}

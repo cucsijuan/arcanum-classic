@@ -1,0 +1,35 @@
+{
+  "name": "Thunderscape Apprentice",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target player loses 1 life."
+    },
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, {T}: Target creature gets +1/+1 until end of turn."
+    }
+  ]
+}

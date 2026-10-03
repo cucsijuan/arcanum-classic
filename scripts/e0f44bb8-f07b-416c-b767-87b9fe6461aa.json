@@ -1,0 +1,25 @@
+{
+  "name": "Chasm Drake",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, target creature you control gains flying until end of turn."
+    }
+  ]
+}

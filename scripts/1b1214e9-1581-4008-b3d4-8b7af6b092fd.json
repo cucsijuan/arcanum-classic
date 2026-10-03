@@ -1,0 +1,17 @@
+{
+  "name": "Veteran Armorer",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          1
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +0/+1."
+    }
+  ]
+}

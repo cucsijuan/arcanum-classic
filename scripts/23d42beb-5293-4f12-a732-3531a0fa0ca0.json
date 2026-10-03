@@ -1,0 +1,22 @@
+{
+  "name": "Leaping Lizard",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            -1
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{G}: This creature gets -0/-1 and gains flying until end of turn."
+    }
+  ]
+}

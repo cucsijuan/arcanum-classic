@@ -1,0 +1,22 @@
+{
+  "name": "Thriss, Nantuko Primus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            5,
+            5
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, {T}: Target creature gets +5/+5 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Library Larcenist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, draw a card."
+    }
+  ]
+}

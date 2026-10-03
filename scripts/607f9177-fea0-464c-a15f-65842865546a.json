@@ -1,0 +1,19 @@
+{
+  "name": "Quilled Wolf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{5}{G}: This creature gets +4/+4 until end of turn."
+    }
+  ]
+}

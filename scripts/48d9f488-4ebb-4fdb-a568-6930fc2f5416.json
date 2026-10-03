@@ -1,0 +1,28 @@
+{
+  "name": "Staff of Nin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, draw a card."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This artifact deals 1 damage to any target."
+    }
+  ]
+}

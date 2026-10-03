@@ -1,0 +1,19 @@
+{
+  "name": "Pyroclastic Elemental",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}{R}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}{R}: This creature deals 1 damage to target player."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Always Watching",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "subtype": "Nontoken",
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Nontoken creatures you control get +1/+1 and have vigilance."
+    }
+  ]
+}

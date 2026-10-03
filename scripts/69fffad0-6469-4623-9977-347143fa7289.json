@@ -1,0 +1,19 @@
+{
+  "name": "Graceful Cat",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +1/+1 until end of turn."
+    }
+  ]
+}

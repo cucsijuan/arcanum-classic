@@ -1,0 +1,15 @@
+{
+  "name": "Mind Stone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

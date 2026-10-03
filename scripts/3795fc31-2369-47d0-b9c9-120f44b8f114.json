@@ -1,0 +1,21 @@
+{
+  "name": "Elderleaf Mentor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 green Elf Warrior creature token."
+    }
+  ]
+}

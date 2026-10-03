@@ -1,0 +1,19 @@
+{
+  "name": "Pavel Maliki",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{B}{R}: Pavel Maliki gets +1/+0 until end of turn."
+    }
+  ]
+}

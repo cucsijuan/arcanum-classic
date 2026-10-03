@@ -1,0 +1,18 @@
+{
+  "name": "Kiss of Death",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      },
+      {
+        "gainLife": 4
+      }
+    ]
+  }
+}

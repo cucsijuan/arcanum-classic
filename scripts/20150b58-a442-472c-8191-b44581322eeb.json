@@ -1,0 +1,17 @@
+{
+  "name": "Mass Production",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

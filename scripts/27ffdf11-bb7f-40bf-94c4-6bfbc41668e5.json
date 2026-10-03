@@ -1,0 +1,14 @@
+{
+  "name": "Eye of Nowhere",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Burrenton Shield-Bearers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, target creature gets +0/+3 until end of turn."
+    }
+  ]
+}

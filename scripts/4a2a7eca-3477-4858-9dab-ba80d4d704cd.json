@@ -1,0 +1,19 @@
+{
+  "name": "Lightning Talons",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Enchanted creature gets +3/+0 and has first strike."
+    }
+  ]
+}

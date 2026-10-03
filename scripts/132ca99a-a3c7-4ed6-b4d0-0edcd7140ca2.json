@@ -1,0 +1,17 @@
+{
+  "name": "Absorb",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

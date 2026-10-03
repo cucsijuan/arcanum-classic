@@ -1,0 +1,20 @@
+{
+  "name": "Lord of the Unreal",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "subtype": "Illusion",
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Illusion creatures you control get +1/+1 and have hexproof."
+    }
+  ]
+}

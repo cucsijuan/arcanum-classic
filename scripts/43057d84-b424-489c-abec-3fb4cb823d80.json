@@ -1,0 +1,38 @@
+{
+  "name": "Basilica Skullbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    },
+    {
+      "cost": "{2}{W}, sacrifice",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{W}, Sacrifice this artifact: Target creature you control gets +2/+2 and gains flying until end of turn. Draw a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Oathsworn Giant",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          2
+        ],
+        "other": true,
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Other creatures you control get +0/+2 and have vigilance."
+    }
+  ]
+}

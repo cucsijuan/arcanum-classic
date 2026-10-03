@@ -1,0 +1,15 @@
+{
+  "name": "Dread Reaper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 5
+        }
+      ],
+      "text": "When this creature enters, you lose 5 life."
+    }
+  ]
+}

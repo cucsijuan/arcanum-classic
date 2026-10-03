@@ -1,0 +1,25 @@
+{
+  "name": "Zephyr Charge",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{U}: Target creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Preening Champion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 blue and red Elemental creature token."
+    }
+  ]
+}

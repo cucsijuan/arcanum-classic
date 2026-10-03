@@ -1,0 +1,33 @@
+{
+  "name": "Priest of the Blood Rite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Demon",
+            "types": "Creature — Demon",
+            "power": 5,
+            "toughness": 5,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 5/5 black Demon creature token with flying."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 2 life."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Haunted Cloak",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Vigilance",
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature has vigilance, trample, and haste."
+    }
+  ]
+}

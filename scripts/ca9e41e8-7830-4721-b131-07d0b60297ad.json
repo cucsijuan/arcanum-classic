@@ -1,0 +1,22 @@
+{
+  "name": "Crenellated Wall",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target creature gets +0/+4 until end of turn."
+    }
+  ]
+}

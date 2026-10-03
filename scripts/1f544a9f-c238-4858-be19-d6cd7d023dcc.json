@@ -1,0 +1,15 @@
+{
+  "name": "Opportunity",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 4,
+        "who": "target"
+      }
+    ]
+  }
+}

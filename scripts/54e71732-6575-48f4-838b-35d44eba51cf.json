@@ -1,0 +1,22 @@
+{
+  "name": "Malachite Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{1}{G}: This creature gains trample until end of turn."
+    }
+  ]
+}

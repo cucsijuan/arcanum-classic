@@ -1,0 +1,14 @@
+{
+  "name": "Feed the Serpent",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

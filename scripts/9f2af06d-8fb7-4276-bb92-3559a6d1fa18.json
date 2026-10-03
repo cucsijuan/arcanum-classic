@@ -1,0 +1,36 @@
+{
+  "name": "Captain of the Watch",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Soldier",
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Other Soldier creatures you control get +1/+1 and have vigilance."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create three 1/1 white Soldier creature tokens."
+    }
+  ]
+}

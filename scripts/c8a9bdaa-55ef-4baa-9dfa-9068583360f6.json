@@ -1,0 +1,22 @@
+{
+  "name": "Glintwing Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{U}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{7}{U}: This creature gets +3/+3 and gains flying until end of turn."
+    }
+  ]
+}

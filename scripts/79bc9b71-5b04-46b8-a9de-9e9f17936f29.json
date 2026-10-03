@@ -1,0 +1,22 @@
+{
+  "name": "Pheres-Band Warchief",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Centaur",
+        "keywords": [
+          "Vigilance",
+          "Trample"
+        ]
+      },
+      "text": "Other Centaur creatures you control get +1/+1 and have vigilance and trample."
+    }
+  ]
+}

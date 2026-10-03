@@ -1,0 +1,21 @@
+{
+  "name": "Oltec Cloud Guard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Gnome",
+            "types": "Creature — Gnome",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 colorless Gnome artifact creature token."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Agony Warp",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          -3
+        ],
+        "what": "target2"
+      }
+    ]
+  }
+}

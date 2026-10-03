@@ -1,0 +1,15 @@
+{
+  "name": "Tower of Eons",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}, {T}",
+      "effects": [
+        {
+          "gainLife": 10
+        }
+      ],
+      "text": "{8}, {T}: You gain 10 life."
+    }
+  ]
+}

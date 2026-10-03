@@ -1,0 +1,22 @@
+{
+  "name": "Bladed Sentinel",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "{W}: This creature gains vigilance until end of turn."
+    }
+  ]
+}

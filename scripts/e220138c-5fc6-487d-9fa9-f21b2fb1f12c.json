@@ -1,0 +1,17 @@
+{
+  "name": "Tempered Steel",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "subtype": "Artifact"
+      },
+      "text": "Artifact creatures you control get +2/+2."
+    }
+  ]
+}

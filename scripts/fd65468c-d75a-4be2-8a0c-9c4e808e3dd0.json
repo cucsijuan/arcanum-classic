@@ -1,0 +1,19 @@
+{
+  "name": "Shambling Strider",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            -1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}{G}: This creature gets +1/-1 until end of turn."
+    }
+  ]
+}

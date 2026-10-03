@@ -1,0 +1,38 @@
+{
+  "name": "Dega Disciple",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, {T}: Target creature gets -2/-0 until end of turn."
+    },
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{R}, {T}: Target creature gets +2/+0 until end of turn."
+    }
+  ]
+}

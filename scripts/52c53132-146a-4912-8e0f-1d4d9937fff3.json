@@ -1,0 +1,22 @@
+{
+  "name": "Staff of Zegon",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{3}, {T}: Target creature gets -2/-0 until end of turn."
+    }
+  ]
+}

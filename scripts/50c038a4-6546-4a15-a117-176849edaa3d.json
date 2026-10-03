@@ -1,0 +1,26 @@
+{
+  "name": "Raccoon Rallier",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature you control gains haste until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

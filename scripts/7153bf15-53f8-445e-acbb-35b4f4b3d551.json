@@ -1,0 +1,19 @@
+{
+  "name": "Candlelight Vigil",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          3,
+          2
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Enchanted creature gets +3/+2 and has vigilance."
+    }
+  ]
+}

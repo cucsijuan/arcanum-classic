@@ -1,0 +1,18 @@
+{
+  "name": "Fyndhorn Brownie",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{2}{G}, {T}: Untap target creature."
+    }
+  ]
+}

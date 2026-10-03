@@ -1,0 +1,24 @@
+{
+  "name": "Desperate Lunge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Flying"
+        ]
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

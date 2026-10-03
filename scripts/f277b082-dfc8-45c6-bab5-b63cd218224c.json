@@ -1,0 +1,18 @@
+{
+  "name": "Silverchase Fox",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, sacrifice",
+      "targets": [
+        "enchantment"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}{W}, Sacrifice this creature: Exile target enchantment."
+    }
+  ]
+}

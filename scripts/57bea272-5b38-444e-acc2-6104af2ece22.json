@@ -1,0 +1,38 @@
+{
+  "name": "Mantis Engine",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains flying until end of turn."
+    },
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains first strike until end of turn."
+    }
+  ]
+}

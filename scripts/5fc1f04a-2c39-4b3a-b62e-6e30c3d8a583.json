@@ -1,0 +1,31 @@
+{
+  "name": "Witch Hunter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to target player or planeswalker."
+    },
+    {
+      "cost": "{1}{W}{W}, {T}",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{W}{W}, {T}: Return target creature an opponent controls to its owner's hand."
+    }
+  ]
+}

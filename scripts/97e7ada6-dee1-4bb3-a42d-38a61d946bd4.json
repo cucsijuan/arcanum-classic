@@ -1,0 +1,21 @@
+{
+  "name": "Asha's Favor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "First strike",
+          "Vigilance"
+        ]
+      },
+      "text": "Enchanted creature has flying, first strike, and vigilance."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Stromkirk Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Vampire",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Other Vampire creatures you control get +1/+1 and have first strike."
+    }
+  ]
+}

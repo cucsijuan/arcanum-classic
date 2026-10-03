@@ -1,0 +1,22 @@
+{
+  "name": "Weldfast Monitor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{R}: This creature gains menace until end of turn."
+    }
+  ]
+}

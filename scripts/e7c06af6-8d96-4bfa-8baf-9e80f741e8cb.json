@@ -1,0 +1,32 @@
+{
+  "name": "Tyrant of Kher Ridges",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 4 damage to any target."
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

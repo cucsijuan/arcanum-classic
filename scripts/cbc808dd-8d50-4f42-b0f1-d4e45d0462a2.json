@@ -1,0 +1,21 @@
+{
+  "name": "Coat with Venom",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Deathtouch"
+        ]
+      }
+    ]
+  }
+}

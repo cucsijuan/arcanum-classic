@@ -1,0 +1,24 @@
+{
+  "name": "Moment of Defiance",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

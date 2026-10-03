@@ -1,0 +1,16 @@
+{
+  "name": "River's Favor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1."
+    }
+  ]
+}

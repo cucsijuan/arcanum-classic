@@ -1,0 +1,22 @@
+{
+  "name": "Flowstone Overseer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{R}{R}: Target creature gets +1/-1 until end of turn."
+    }
+  ]
+}

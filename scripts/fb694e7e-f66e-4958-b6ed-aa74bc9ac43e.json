@@ -1,0 +1,21 @@
+{
+  "name": "Sure Strike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

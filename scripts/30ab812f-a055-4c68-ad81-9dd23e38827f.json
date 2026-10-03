@@ -1,0 +1,24 @@
+{
+  "name": "Knight of the New Coalition",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Knight",
+            "types": "Creature — Knight",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 white and blue Knight creature token with vigilance."
+    }
+  ]
+}

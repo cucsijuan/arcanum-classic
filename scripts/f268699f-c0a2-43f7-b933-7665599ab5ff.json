@@ -1,0 +1,33 @@
+{
+  "name": "Smoldering Tar",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "At the beginning of your upkeep, target player loses 1 life."
+    },
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: It deals 4 damage to target creature. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

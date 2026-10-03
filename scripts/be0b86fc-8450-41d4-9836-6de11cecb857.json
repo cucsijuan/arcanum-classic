@@ -1,0 +1,16 @@
+{
+  "name": "Vibranium Energy Daggers",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +2/+2."
+    }
+  ]
+}

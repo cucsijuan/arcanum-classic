@@ -1,0 +1,19 @@
+{
+  "name": "Xira Arien",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}{G}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}{R}{G}, {T}: Target player draws a card."
+    }
+  ]
+}

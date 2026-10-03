@@ -1,0 +1,16 @@
+{
+  "name": "Temple Bell",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{T}: Each player draws a card."
+    }
+  ]
+}

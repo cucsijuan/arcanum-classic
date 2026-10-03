@@ -1,0 +1,21 @@
+{
+  "name": "Moment of Craving",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Slayers' Stronghold",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}{W}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Vigilance",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}{W}, {T}: Target creature gets +2/+0 and gains vigilance and haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Penumbra Spider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "power": 2,
+            "toughness": 4,
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 2/4 black Spider creature token with reach."
+    }
+  ]
+}

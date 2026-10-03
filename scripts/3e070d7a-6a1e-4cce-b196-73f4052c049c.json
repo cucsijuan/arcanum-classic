@@ -1,0 +1,19 @@
+{
+  "name": "Onyx Goblet",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{T}: Target player loses 1 life."
+    }
+  ]
+}

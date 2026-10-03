@@ -1,0 +1,19 @@
+{
+  "name": "Mythic Proportions",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          8,
+          8
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Enchanted creature gets +8/+8 and has trample."
+    }
+  ]
+}

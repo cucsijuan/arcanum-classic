@@ -1,0 +1,15 @@
+{
+  "name": "Izzet Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{R}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{U}{R}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

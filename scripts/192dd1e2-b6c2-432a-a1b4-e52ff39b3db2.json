@@ -1,0 +1,21 @@
+{
+  "name": "News Helicopter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Citizen",
+            "types": "Creature — Human Citizen",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 green and white Human Citizen creature token."
+    }
+  ]
+}

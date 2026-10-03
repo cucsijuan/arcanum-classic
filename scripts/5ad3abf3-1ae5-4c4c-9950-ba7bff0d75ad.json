@@ -1,0 +1,16 @@
+{
+  "name": "Clinging Darkness",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -4,
+          -1
+        ]
+      },
+      "text": "Enchanted creature gets -4/-1."
+    }
+  ]
+}

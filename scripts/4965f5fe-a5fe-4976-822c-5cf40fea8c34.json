@@ -1,0 +1,20 @@
+{
+  "name": "Knight Watch",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Knight",
+          "types": "Creature — Knight",
+          "power": 2,
+          "toughness": 2,
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      }
+    ]
+  }
+}

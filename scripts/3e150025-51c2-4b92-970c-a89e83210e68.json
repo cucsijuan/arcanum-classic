@@ -1,0 +1,16 @@
+{
+  "name": "Riot Gear",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +1/+2."
+    }
+  ]
+}

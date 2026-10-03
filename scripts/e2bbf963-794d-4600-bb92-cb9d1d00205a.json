@@ -1,0 +1,19 @@
+{
+  "name": "Pierce Strider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target opponent loses 3 life."
+    }
+  ]
+}

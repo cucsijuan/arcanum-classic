@@ -1,0 +1,15 @@
+{
+  "name": "Two-Headed Hellkite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "Whenever this creature attacks, draw two cards."
+    }
+  ]
+}

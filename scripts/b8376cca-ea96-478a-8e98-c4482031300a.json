@@ -1,0 +1,21 @@
+{
+  "name": "Sliver Queen",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Sliver",
+            "types": "Creature — Sliver",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{2}: Create a 1/1 colorless Sliver creature token."
+    }
+  ]
+}

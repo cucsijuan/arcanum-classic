@@ -1,0 +1,25 @@
+{
+  "name": "Crimson Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}: Target creature you control gains haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Overflowing Insight",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 7,
+        "who": "target"
+      }
+    ]
+  }
+}

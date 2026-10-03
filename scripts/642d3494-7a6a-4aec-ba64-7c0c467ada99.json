@@ -1,0 +1,21 @@
+{
+  "name": "Lash of Thorns",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Deathtouch"
+        ]
+      }
+    ]
+  }
+}

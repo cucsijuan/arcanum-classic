@@ -1,0 +1,11 @@
+{
+  "name": "Counsel of the Soratami",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

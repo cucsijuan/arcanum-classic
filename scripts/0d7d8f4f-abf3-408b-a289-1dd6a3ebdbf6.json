@@ -1,0 +1,32 @@
+{
+  "name": "Tibalt's Rager",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature dies, it deals 1 damage to any target."
+    },
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +2/+0 until end of turn."
+    }
+  ]
+}

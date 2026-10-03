@@ -1,0 +1,19 @@
+{
+  "name": "Valakut Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{8}: This creature deals 3 damage to any target."
+    }
+  ]
+}

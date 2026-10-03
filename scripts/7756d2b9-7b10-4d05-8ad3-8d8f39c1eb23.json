@@ -1,0 +1,21 @@
+{
+  "name": "Woodcutter's Grit",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      }
+    ]
+  }
+}

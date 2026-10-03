@@ -1,0 +1,21 @@
+{
+  "name": "Jade Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{2}{G}: Create a 1/1 green Saproling creature token."
+    }
+  ]
+}

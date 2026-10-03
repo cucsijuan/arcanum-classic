@@ -1,0 +1,20 @@
+{
+  "name": "Basilisk Collar",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch",
+          "Lifelink"
+        ]
+      },
+      "text": "Equipped creature has deathtouch and lifelink."
+    }
+  ]
+}

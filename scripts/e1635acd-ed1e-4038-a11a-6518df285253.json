@@ -1,0 +1,17 @@
+{
+  "name": "Call of the Conclave",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Centaur",
+          "types": "Creature — Centaur",
+          "power": 3,
+          "toughness": 3
+        }
+      }
+    ]
+  }
+}

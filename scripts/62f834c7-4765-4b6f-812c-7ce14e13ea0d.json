@@ -1,0 +1,15 @@
+{
+  "name": "Dimir Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{B}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{U}{B}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

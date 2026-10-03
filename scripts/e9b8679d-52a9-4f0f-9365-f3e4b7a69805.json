@@ -1,0 +1,14 @@
+{
+  "name": "Winter's Grasp",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

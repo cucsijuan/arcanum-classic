@@ -1,0 +1,19 @@
+{
+  "name": "Battle Mastery",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Enchanted creature has double strike."
+    }
+  ]
+}

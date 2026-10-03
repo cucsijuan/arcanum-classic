@@ -1,0 +1,21 @@
+{
+  "name": "Seize the Initiative",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

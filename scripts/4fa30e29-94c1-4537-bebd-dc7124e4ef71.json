@@ -1,0 +1,15 @@
+{
+  "name": "Silent Attendant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{T}: You gain 1 life."
+    }
+  ]
+}

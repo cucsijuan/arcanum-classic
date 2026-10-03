@@ -1,0 +1,22 @@
+{
+  "name": "Igneous Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains trample until end of turn."
+    }
+  ]
+}

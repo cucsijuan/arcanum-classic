@@ -1,0 +1,21 @@
+{
+  "name": "S.H.I.E.L.D. Deployment Drone",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Soldier creature token."
+    }
+  ]
+}

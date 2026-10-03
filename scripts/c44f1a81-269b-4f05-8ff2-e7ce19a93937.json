@@ -1,0 +1,17 @@
+{
+  "name": "Symbol of Unsummoning",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Dampening Pulse",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "pump": [
+          -1,
+          0
+        ]
+      },
+      "text": "Creatures your opponents control get -1/-0."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Crowd Favorites",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{W}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{3}{W}: Tap target creature."
+    },
+    {
+      "cost": "{3}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            5
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{3}{W}: This creature gets +0/+5 until end of turn."
+    }
+  ]
+}

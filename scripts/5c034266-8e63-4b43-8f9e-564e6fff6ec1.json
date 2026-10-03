@@ -1,0 +1,22 @@
+{
+  "name": "Smaug's Fury",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach",
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

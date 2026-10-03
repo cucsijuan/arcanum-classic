@@ -1,0 +1,11 @@
+{
+  "name": "Touch of Brilliance",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Narnam Cobra",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{G}: This creature gains deathtouch until end of turn."
+    }
+  ]
+}

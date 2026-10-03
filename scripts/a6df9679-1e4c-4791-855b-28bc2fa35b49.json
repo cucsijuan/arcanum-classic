@@ -1,0 +1,22 @@
+{
+  "name": "Smokespew Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{B}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{7}{B}: Target creature gets -3/-3 until end of turn."
+    }
+  ]
+}

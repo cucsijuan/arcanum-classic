@@ -1,0 +1,25 @@
+{
+  "name": "Pixie Queen",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}{G}{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{G}{G}{G}, {T}: Target creature gains flying until end of turn."
+    }
+  ]
+}

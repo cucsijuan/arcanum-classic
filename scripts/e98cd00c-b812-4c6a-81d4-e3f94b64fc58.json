@@ -1,0 +1,18 @@
+{
+  "name": "Dark Deed",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -4,
+          -4
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

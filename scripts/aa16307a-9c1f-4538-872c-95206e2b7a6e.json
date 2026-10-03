@@ -1,0 +1,17 @@
+{
+  "name": "Join the Ranks",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Soldier Ally",
+          "types": "Creature — Soldier Ally",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

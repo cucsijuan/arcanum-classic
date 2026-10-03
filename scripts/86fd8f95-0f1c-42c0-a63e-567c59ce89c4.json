@@ -1,0 +1,25 @@
+{
+  "name": "Caller of Gales",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{U}, {T}: Target creature gains flying until end of turn."
+    }
+  ]
+}

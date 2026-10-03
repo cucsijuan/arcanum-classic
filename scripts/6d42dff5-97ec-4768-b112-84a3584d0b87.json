@@ -1,0 +1,12 @@
+{
+  "name": "Vision Skeins",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2,
+        "who": "everyone"
+      }
+    ]
+  }
+}

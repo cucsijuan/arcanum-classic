@@ -1,0 +1,15 @@
+{
+  "name": "Necrogen Scudder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 3
+        }
+      ],
+      "text": "When this creature enters, you lose 3 life."
+    }
+  ]
+}

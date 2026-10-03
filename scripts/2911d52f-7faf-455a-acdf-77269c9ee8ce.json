@@ -1,0 +1,19 @@
+{
+  "name": "Zealot of the God-Pharaoh",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{R}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{R}: This creature deals 2 damage to target opponent or planeswalker."
+    }
+  ]
+}

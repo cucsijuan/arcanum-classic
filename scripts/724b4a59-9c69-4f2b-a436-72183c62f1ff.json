@@ -1,0 +1,19 @@
+{
+  "name": "Nebula Dragon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 3 damage to any target."
+    }
+  ]
+}

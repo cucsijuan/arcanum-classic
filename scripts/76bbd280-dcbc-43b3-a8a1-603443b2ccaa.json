@@ -1,0 +1,22 @@
+{
+  "name": "Moorland Inquisitor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{2}{W}: This creature gains first strike until end of turn."
+    }
+  ]
+}

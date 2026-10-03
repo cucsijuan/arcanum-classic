@@ -1,0 +1,19 @@
+{
+  "name": "First Volley",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 1,
+        "to": "target"
+      },
+      {
+        "damage": 1,
+        "to": "targetController"
+      }
+    ]
+  }
+}

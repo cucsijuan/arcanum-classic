@@ -1,0 +1,16 @@
+{
+  "name": "Carnivorous Moss-Beast",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{G}{G}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{5}{G}{G}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

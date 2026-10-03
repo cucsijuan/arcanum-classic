@@ -1,0 +1,22 @@
+{
+  "name": "Sacred Armory",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}: Target creature gets +1/+0 until end of turn."
+    }
+  ]
+}

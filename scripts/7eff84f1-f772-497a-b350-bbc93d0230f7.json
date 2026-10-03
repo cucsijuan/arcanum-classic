@@ -1,0 +1,11 @@
+{
+  "name": "Harmonize",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

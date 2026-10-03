@@ -1,0 +1,19 @@
+{
+  "name": "Limestone Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Target player draws a card."
+    }
+  ]
+}

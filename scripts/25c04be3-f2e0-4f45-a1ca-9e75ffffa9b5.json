@@ -1,0 +1,15 @@
+{
+  "name": "Foul Imp",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "When this creature enters, you lose 2 life."
+    }
+  ]
+}

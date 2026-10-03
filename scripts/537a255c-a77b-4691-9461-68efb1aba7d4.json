@@ -1,0 +1,22 @@
+{
+  "name": "Kabuto Moth",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target creature gets +1/+2 until end of turn."
+    }
+  ]
+}

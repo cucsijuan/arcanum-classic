@@ -1,0 +1,18 @@
+{
+  "name": "Scavenger Folk",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}, sacrifice",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{G}, {T}, Sacrifice this creature: Destroy target artifact."
+    }
+  ]
+}

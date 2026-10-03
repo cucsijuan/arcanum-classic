@@ -1,0 +1,21 @@
+{
+  "name": "Glint",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      }
+    ]
+  }
+}

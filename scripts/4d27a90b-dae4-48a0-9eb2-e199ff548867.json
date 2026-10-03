@@ -1,0 +1,15 @@
+{
+  "name": "Starlight Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{W}",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "{7}{W}: You gain 5 life."
+    }
+  ]
+}

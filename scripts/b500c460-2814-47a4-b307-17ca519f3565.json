@@ -1,0 +1,24 @@
+{
+  "name": "Gallant Cavalry",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Knight",
+            "types": "Creature — Knight",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 white Knight creature token with vigilance."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ornamental Courage",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          1,
+          3
+        ],
+        "what": "self"
+      }
+    ]
+  }
+}

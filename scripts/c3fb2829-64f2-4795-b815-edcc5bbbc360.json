@@ -1,0 +1,16 @@
+{
+  "name": "Guardian of the Halls",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{G}{G}",
+      "effects": [
+        {
+          "counters": 3,
+          "what": "self"
+        }
+      ],
+      "text": "{5}{G}{G}: Put three +1/+1 counters on this creature."
+    }
+  ]
+}

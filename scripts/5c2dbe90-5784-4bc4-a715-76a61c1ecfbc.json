@@ -1,0 +1,15 @@
+{
+  "name": "Anodet Lurker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature dies, you gain 3 life."
+    }
+  ]
+}

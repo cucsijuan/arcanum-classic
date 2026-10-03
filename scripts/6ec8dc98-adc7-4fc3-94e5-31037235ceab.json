@@ -1,0 +1,19 @@
+{
+  "name": "Jhessian Infiltrator",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "This creature can't be blocked."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Dismiss",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

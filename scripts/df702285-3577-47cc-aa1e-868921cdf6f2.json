@@ -1,0 +1,11 @@
+{
+  "name": "Whitesun's Passage",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 5
+      }
+    ]
+  }
+}

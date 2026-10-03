@@ -1,0 +1,15 @@
+{
+  "name": "Orzhov Cluestone",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{B}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{W}{B}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}
