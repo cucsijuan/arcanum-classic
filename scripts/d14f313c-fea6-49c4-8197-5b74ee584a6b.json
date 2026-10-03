@@ -2,10 +2,7 @@
   "name": "Scorching Dragonfire",
   "spell": {
     "targets": [
-      {
-        "kind": "creature",
-        "text": "target creature or planeswalker"
-      }
+      "creatureOrPlaneswalker"
     ],
     "effects": [
       {

@@ -4,10 +4,7 @@
     {
       "cost": "{R}, sacrifice",
       "targets": [
-        {
-          "kind": "creature",
-          "text": "target creature or planeswalker"
-        }
+        "creatureOrPlaneswalker"
       ],
       "effects": [
         {

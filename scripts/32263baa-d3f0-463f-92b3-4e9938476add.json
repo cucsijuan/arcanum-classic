@@ -1,0 +1,16 @@
+{
+  "name": "Hedron Archive",
+  "tapForMana": "{C}",
+  "manaAmount": 2,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Draw two cards."
+    }
+  ]
+}

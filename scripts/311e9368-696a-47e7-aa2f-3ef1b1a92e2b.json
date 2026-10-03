@@ -1,0 +1,17 @@
+{
+  "name": "Prime Speaker Zegana",
+  "entersWithCounters": "greatestOtherPower",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": {
+            "power": "self"
+          }
+        }
+      ],
+      "text": "When Prime Speaker Zegana enters, draw cards equal to its power."
+    }
+  ]
+}

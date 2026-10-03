@@ -4,7 +4,7 @@
   "spell": {
     "targets": [
       {
-        "kind": "creature",
+        "kind": "creatureOrPlaneswalker",
         "filter": {
           "colors": [
             "G",

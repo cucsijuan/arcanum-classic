@@ -5,7 +5,10 @@
     {
       "cost": "{4}{R}",
       "targets": [
-        "opponent"
+        {
+          "kind": "playerOrPlaneswalker",
+          "controller": "opponent"
+        }
       ],
       "effects": [
         {

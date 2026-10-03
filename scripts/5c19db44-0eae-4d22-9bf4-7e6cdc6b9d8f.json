@@ -6,7 +6,7 @@
       {
         "text": "Energy Bolt deals X damage to target player or planeswalker.",
         "targets": [
-          "player"
+          "playerOrPlaneswalker"
         ],
         "effects": [
           {

@@ -5,7 +5,7 @@
       {
         "text": "Boros Charm deals 4 damage to target player or planeswalker.",
         "targets": [
-          "player"
+          "playerOrPlaneswalker"
         ],
         "effects": [
           {

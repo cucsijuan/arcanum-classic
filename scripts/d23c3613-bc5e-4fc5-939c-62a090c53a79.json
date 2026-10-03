@@ -1,0 +1,6 @@
+{
+  "name": "Uncharted Haven",
+  "chooseOnEnter": "color",
+  "manaFromChosenColor": true,
+  "entersTapped": true
+}

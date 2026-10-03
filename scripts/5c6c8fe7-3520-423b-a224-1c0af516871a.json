@@ -50,14 +50,7 @@
       {
         "text": "Destroy target planeswalker.",
         "targets": [
-          {
-            "kind": "permanent",
-            "filter": {
-              "types": [
-                "planeswalker"
-              ]
-            }
-          }
+          "planeswalker"
         ],
         "effects": [
           {

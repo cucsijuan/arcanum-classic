@@ -3,7 +3,7 @@
   "generated": true,
   "spell": {
     "targets": [
-      "creature"
+      "creatureOrPlaneswalker"
     ],
     "effects": [
       {

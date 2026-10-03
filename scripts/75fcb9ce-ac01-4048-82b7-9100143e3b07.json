@@ -43,7 +43,7 @@
     {
       "cost": "{1}{R}, {T}",
       "targets": [
-        "player"
+        "playerOrPlaneswalker"
       ],
       "effects": [
         {

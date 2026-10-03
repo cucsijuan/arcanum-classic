@@ -5,7 +5,7 @@
     {
       "trigger": "dies",
       "targets": [
-        "creature:opponent"
+        "creatureOrPlaneswalker:opponent"
       ],
       "effects": [
         {

@@ -1,0 +1,98 @@
+{
+  "name": "Kaito, Cunning Infiltrator",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "loyalty"
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito."
+    },
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        },
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "+1: Up to one target creature you control can't be blocked this turn. Draw a card, then discard a card."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "power": 2,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      ],
+      "text": "−2: Create a 2/1 blue Ninja creature token."
+    },
+    {
+      "cost": "-9",
+      "effects": [
+        {
+          "emblem": "Kaito emblem",
+          "abilities": [
+            {
+              "trigger": "anyPlayerCastsSpell",
+              "effects": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Ninja",
+                    "types": "Creature — Ninja",
+                    "power": 2,
+                    "toughness": 1,
+                    "colors": [
+                      "U"
+                    ]
+                  }
+                }
+              ],
+              "text": "Whenever a player casts a spell, you create a 2/1 blue Ninja creature token."
+            }
+          ]
+        }
+      ],
+      "text": "−9: You get an emblem with \"Whenever a player casts a spell, you create a 2/1 blue Ninja creature token.\""
+    }
+  ]
+}

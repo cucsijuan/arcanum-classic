@@ -23,7 +23,7 @@ SCRIPTS = os.path.join(HERE, "..", "scripts")
 ENGINE_KEYWORDS = {
     "flying", "reach", "vigilance", "haste", "defender", "menace", "trample", "deathtouch", "lifelink",
     "first strike", "double strike", "indestructible", "hexproof", "shroud", "flash", "prowess",
-    "kicker", "flashback", "ward", "changeling", "hexproof from",
+    "kicker", "flashback", "ward", "changeling", "hexproof from", "loyalty",
     "equip", "enchant",  # derived from rules text by the engine's card factory
     # keyword actions and ability words: they label rules text the script spells out
     "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
@@ -67,14 +67,18 @@ def target_kind(phrase):
     table = {
         "any target": "any",
         "target creature": "creature",
-        "target creature or planeswalker": "creature",
+        "target creature or planeswalker": "creatureOrPlaneswalker",
+        "target creature or planeswalker you control": "creatureOrPlaneswalker:you",
+        "target creature or planeswalker an opponent controls": "creatureOrPlaneswalker:opponent",
+        "target creature or planeswalker you don't control": "creatureOrPlaneswalker:opponent",
+        "target planeswalker": "planeswalker",
         "target creature you control": "creature:you",
         "target creature you don't control": "creature:opponent",
         "target creature an opponent controls": "creature:opponent",
         "target player": "player",
-        "target player or planeswalker": "player",
+        "target player or planeswalker": "playerOrPlaneswalker",
         "target opponent": "opponent",
-        "target opponent or planeswalker": "opponent",
+        "target opponent or planeswalker": {"kind": "playerOrPlaneswalker", "controller": "opponent"},
         "target artifact": "artifact",
         "target enchantment": "enchantment",
         "target land": "land",
@@ -186,6 +190,7 @@ def filtered_target(phrase):
     if m:
         rest = m.group(1)
         flt["colors"] = [COLOR_WORDS[c] for c in m.group(2).split(" or ")]
+    walker = " or planeswalker" in rest
     rest = rest.replace(" or planeswalker", "")
     words = [w.strip(",") for w in re.split(r", or |, | or ", rest)]
     if not all(w in TYPE_WORDS for w in words):
@@ -193,7 +198,7 @@ def filtered_target(phrase):
     if qualified and len(words) > 1:
         return None  # "artifact, enchantment, or creature with flying": the qualifier applies to the last type only
     if words == ["creature"]:
-        spec["kind"] = "creature"
+        spec["kind"] = "creatureOrPlaneswalker" if walker else "creature"
     elif len(words) == 1 and words[0] != "planeswalker":
         spec["kind"] = words[0]
     else:

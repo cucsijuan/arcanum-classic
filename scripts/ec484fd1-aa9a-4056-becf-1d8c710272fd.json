@@ -22,7 +22,10 @@
     {
       "cost": "{4}{B}, {T}",
       "targets": [
-        "opponent"
+        {
+          "kind": "playerOrPlaneswalker",
+          "controller": "opponent"
+        }
       ],
       "effects": [
         {

@@ -5,7 +5,7 @@
     {
       "trigger": "enters",
       "targets": [
-        "creature:opponent"
+        "creatureOrPlaneswalker:opponent"
       ],
       "effects": [
         {

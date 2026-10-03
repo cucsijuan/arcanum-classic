@@ -5,7 +5,10 @@
     {
       "trigger": "enters",
       "targets": [
-        "opponent"
+        {
+          "kind": "playerOrPlaneswalker",
+          "controller": "opponent"
+        }
       ],
       "effects": [
         {

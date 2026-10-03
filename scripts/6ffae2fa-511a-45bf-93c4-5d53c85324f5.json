@@ -6,7 +6,7 @@
       {
         "text": "Thunderbolt deals 3 damage to target player or planeswalker.",
         "targets": [
-          "player"
+          "playerOrPlaneswalker"
         ],
         "effects": [
           {

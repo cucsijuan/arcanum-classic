@@ -1,0 +1,79 @@
+{
+  "name": "Vivien Reid",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "filter": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          },
+          "take": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "+1: Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ],
+                "keyword": "Flying"
+              }
+            ]
+          },
+          "text": "target artifact, enchantment, or creature with flying"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "−3: Destroy target artifact, enchantment, or creature with flying."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "emblem": "Vivien Reid emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "creatures:you",
+                "pump": [
+                  2,
+                  2
+                ],
+                "keywords": [
+                  "Vigilance",
+                  "Trample",
+                  "Indestructible"
+                ]
+              },
+              "text": "Creatures you control get +2/+2 and have vigilance, trample, and indestructible."
+            }
+          ]
+        }
+      ],
+      "text": "−8: You get an emblem with \"Creatures you control get +2/+2 and have vigilance, trample, and indestructible.\""
+    }
+  ]
+}

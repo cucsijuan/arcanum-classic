@@ -2,10 +2,7 @@
   "name": "Obliterating Bolt",
   "spell": {
     "targets": [
-      {
-        "kind": "creature",
-        "text": "target creature or planeswalker"
-      }
+      "creatureOrPlaneswalker"
     ],
     "effects": [
       {

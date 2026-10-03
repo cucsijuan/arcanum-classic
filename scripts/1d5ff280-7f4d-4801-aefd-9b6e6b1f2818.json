@@ -1,0 +1,59 @@
+{
+  "name": "Ajani, Caller of the Pride",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "+1: Put a +1/+1 counter on up to one target creature."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying",
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "−3: Target creature gains flying and double strike until end of turn."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "tokens": "life",
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "−8: Create X 2/2 white Cat creature tokens, where X is your life total."
+    }
+  ]
+}

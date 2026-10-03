@@ -1,0 +1,23 @@
+{
+  "name": "Elvish Archdruid",
+  "tapForMana": "{G}",
+  "manaAmountFrom": {
+    "count": {
+      "subtype": "Elf"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elf creatures you control get +1/+1."
+    }
+  ]
+}

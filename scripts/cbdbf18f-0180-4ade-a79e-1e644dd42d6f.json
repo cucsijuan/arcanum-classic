@@ -6,7 +6,7 @@
       {
         "text": "Rip Apart deals 3 damage to target creature or planeswalker.",
         "targets": [
-          "creature"
+          "creatureOrPlaneswalker"
         ],
         "effects": [
           {

@@ -5,7 +5,10 @@
     {
       "cost": "{5}{B}, {T}",
       "targets": [
-        "opponent"
+        {
+          "kind": "playerOrPlaneswalker",
+          "controller": "opponent"
+        }
       ],
       "effects": [
         {

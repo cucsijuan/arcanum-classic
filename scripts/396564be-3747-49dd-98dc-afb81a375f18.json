@@ -5,7 +5,7 @@
     {
       "cost": "{T}",
       "targets": [
-        "player"
+        "playerOrPlaneswalker"
       ],
       "effects": [
         {

@@ -3,7 +3,10 @@
   "generated": true,
   "spell": {
     "targets": [
-      "opponent"
+      {
+        "kind": "playerOrPlaneswalker",
+        "controller": "opponent"
+      }
     ],
     "effects": [
       {

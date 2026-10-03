@@ -1,0 +1,31 @@
+{
+  "name": "Adaptive Automaton",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "addChosenType": true
+      },
+      "text": "This creature is the chosen type in addition to its other types."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other creatures you control of the chosen type get +1/+1."
+    }
+  ]
+}

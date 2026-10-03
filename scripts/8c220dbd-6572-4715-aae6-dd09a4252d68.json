@@ -1,0 +1,24 @@
+{
+  "name": "Banner of Kinship",
+  "chooseOnEnter": "creatureType",
+  "countersPerChosenType": "fellowship",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          {
+            "counters": "fellowship"
+          },
+          {
+            "counters": "fellowship"
+          }
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +1/+1 for each fellowship counter on this artifact."
+    }
+  ]
+}
