@@ -6,7 +6,7 @@
       "static": {
         "affects": "creatures:you",
         "other": true,
-        "subtype": "Allie",
+        "subtype": "Ally",
         "pump": [
           1,
           1

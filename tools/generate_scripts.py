@@ -592,11 +592,32 @@ TRIGGERS = [
     (r"Whenever (?:this creature|CARDNAME) deals combat damage to a player, (.+)", "combatDamageToPlayer"),
 ]
 
-PLURALS = {"Elves": "Elf", "Wolves": "Wolf", "Dwarves": "Dwarf"}
+PLURALS = {"Elves": "Elf", "Wolves": "Wolf", "Dwarves": "Dwarf", "Mice": "Mouse", "Oxen": "Ox", "Pegasi": "Pegasus", "Homunculi": "Homunculus"}
+
+# Every subtype printed on a type line in the card data; filled by main() before generating.
+SUBTYPES = set()
+
+
+def check_subtypes(node):
+    """Refuses a script that names a subtype no card has: the pattern misread an adjective as a type."""
+    if isinstance(node, dict):
+        for key, value in node.items():
+            if key in ("subtype", "notSubtype") and isinstance(value, str) and SUBTYPES and value not in SUBTYPES:
+                raise Unsupported(f"unknown subtype '{value}'")
+            check_subtypes(value)
+    elif isinstance(node, list):
+        for value in node:
+            check_subtypes(value)
 
 
 def singular(word):
-    return PLURALS.get(word, word[:-1] if word.endswith("s") else word)
+    """Plural subtype -> its singular form, checked against the subtypes that really exist."""
+    candidates = [PLURALS.get(word), word[:-3] + "y" if word.endswith("ies") else None,
+                  word[:-2] if word.endswith("es") else None, word[:-1] if word.endswith("s") else None, word]
+    for c in candidates:
+        if c and (not SUBTYPES or c in SUBTYPES):
+            return c
+    raise Unsupported(f"unknown subtype '{word}'")
 
 
 def filtered_trigger(line):
@@ -711,14 +732,18 @@ def static(line):
         if m.group(2):
             word = m.group(2)
             colors = {"White": "W", "Blue": "U", "Black": "B", "Red": "R", "Green": "G"}
-            if word in ("Attacking", "Tapped"):
-                st["filter"] = {word.lower(): True}
-            elif word == "Untapped":
-                st["filter"] = {"tapped": False}
+            adjectives = {
+                "Attacking": {"attacking": True}, "Blocking": {"blocking": True}, "Tapped": {"tapped": True},
+                "Untapped": {"tapped": False}, "Legendary": {"supertype": "legendary"},
+                "Artifact": {"types": ["artifact"]}, "Enchantment": {"types": ["enchantment"]},
+                "Token": {"token": True}, "Nontoken": {"token": False},
+                "Multicolored": {"multicolored": True}, "Colorless": {"colorless": True},
+                "Enchanted": {"enchanted": True}, "Equipped": {"equipped": True}, "Commander": {"commander": True},
+            }
+            if word in adjectives:
+                st["filter"] = adjectives[word]
             elif word in colors:
                 st["filter"] = {"colors": [colors[word]]}
-            elif word in ("Blocking", "Legendary", "Artifact", "Enchantment", "Token", "Nontoken", "Multicolored", "Colorless"):
-                return None
             else:
                 st["subtype"] = word
         if m.group(5):
@@ -1026,6 +1051,14 @@ def main():
         print(__doc__)
         return 1
     opener = gzip.open if args[0].endswith(".gz") else open
+    with opener(args[0], "rt", encoding="utf-8") as f:
+        for line in f:
+            card = json.loads(line)
+            for face in [card] + card.get("card_faces", []):
+                type_line = face.get("type_line", "")
+                for part in type_line.split("//"):
+                    if "—" in part:
+                        SUBTYPES.update(part.split("—", 1)[1].split())
     written = skipped = 0
     reasons = {}
     generated_names = []
@@ -1044,6 +1077,7 @@ def main():
                         continue  # hand-written: never overwrite
             try:
                 script = generate(card)
+                check_subtypes(script)
             except Unsupported as e:
                 skipped += 1
                 key = str(e)[:60]

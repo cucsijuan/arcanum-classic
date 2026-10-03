@@ -9,7 +9,9 @@
           2,
           2
         ],
-        "subtype": "Commander",
+        "filter": {
+          "commander": true
+        },
         "keywords": [
           "Indestructible"
         ]

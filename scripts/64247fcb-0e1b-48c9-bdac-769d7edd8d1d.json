@@ -1,5 +1,5 @@
 {
-  "name": "Bloodsworn Steward",
+  "name": "Day of Destiny",
   "generated": true,
   "abilities": [
     {
@@ -10,13 +10,10 @@
           2
         ],
         "filter": {
-          "commander": true
-        },
-        "keywords": [
-          "Haste"
-        ]
+          "supertype": "legendary"
+        }
       },
-      "text": "Commander creatures you control get +2/+2 and have haste."
+      "text": "Legendary creatures you control get +2/+2."
     }
   ]
 }

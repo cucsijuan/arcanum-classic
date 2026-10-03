@@ -1,22 +1,22 @@
 {
-  "name": "Bloodsworn Steward",
+  "name": "Always Watching",
   "generated": true,
   "abilities": [
     {
       "static": {
         "affects": "creatures:you",
         "pump": [
-          2,
-          2
+          1,
+          1
         ],
         "filter": {
-          "commander": true
+          "token": false
         },
         "keywords": [
-          "Haste"
+          "Vigilance"
         ]
       },
-      "text": "Commander creatures you control get +2/+2 and have haste."
+      "text": "Nontoken creatures you control get +1/+1 and have vigilance."
     }
   ]
 }

@@ -1,19 +1,19 @@
 {
-  "name": "A Tale for the Ages",
+  "name": "Glass of the Guildpact",
   "generated": true,
   "abilities": [
     {
       "static": {
         "affects": "creatures:you",
         "pump": [
-          2,
-          2
+          1,
+          1
         ],
         "filter": {
-          "enchanted": true
+          "multicolored": true
         }
       },
-      "text": "Enchanted creatures you control get +2/+2."
+      "text": "Multicolored creatures you control get +1/+1."
     }
   ]
 }

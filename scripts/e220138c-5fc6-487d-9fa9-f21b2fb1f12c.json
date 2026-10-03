@@ -1,5 +1,5 @@
 {
-  "name": "Bloodsworn Steward",
+  "name": "Tempered Steel",
   "generated": true,
   "abilities": [
     {
@@ -10,13 +10,12 @@
           2
         ],
         "filter": {
-          "commander": true
-        },
-        "keywords": [
-          "Haste"
-        ]
+          "types": [
+            "artifact"
+          ]
+        }
       },
-      "text": "Commander creatures you control get +2/+2 and have haste."
+      "text": "Artifact creatures you control get +2/+2."
     }
   ]
 }
