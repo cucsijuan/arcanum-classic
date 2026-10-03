@@ -1,0 +1,15 @@
+{
+  "name": "Raise the Past",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "creature"
+          ],
+          "maxManaValue": 2
+        }
+      }
+    ]
+  }
+}

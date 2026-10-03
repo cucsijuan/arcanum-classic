@@ -1,0 +1,20 @@
+{
+  "name": "Ambush Wolf",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this creature enters, exile up to one target card from a graveyard."
+    }
+  ]
+}

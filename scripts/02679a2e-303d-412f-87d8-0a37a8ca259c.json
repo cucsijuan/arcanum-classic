@@ -1,0 +1,23 @@
+{
+  "name": "Blighted Woodland",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{3}{G}, {T}, Sacrifice this land: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

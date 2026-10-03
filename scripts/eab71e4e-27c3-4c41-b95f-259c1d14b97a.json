@@ -1,0 +1,18 @@
+{
+  "name": "Dragon Mage",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "discardHand": "everyone"
+        },
+        {
+          "draw": 7,
+          "who": "everyone"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, each player discards their hand, then draws seven cards."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Electroduplicate",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "copy": "target",
+        "haste": true,
+        "sacrificeAtEndStep": true
+      }
+    ]
+  }
+}

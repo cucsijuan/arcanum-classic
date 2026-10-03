@@ -1,0 +1,25 @@
+{
+  "name": "Campus Guide",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card and put it on top?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "to": "top"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top."
+    }
+  ]
+}

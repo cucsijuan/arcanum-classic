@@ -1,0 +1,22 @@
+{
+  "name": "Elspeth's Smite",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Reassembling Skeleton",
+  "abilities": [
+    {
+      "cost": "{1}{B}, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{1}{B}: Return this card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

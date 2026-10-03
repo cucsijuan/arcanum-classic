@@ -1,6 +1,5 @@
 {
   "name": "Arcane Epiphany",
-  "generated": true,
   "costReduction": {
     "amount": 1,
     "if": {

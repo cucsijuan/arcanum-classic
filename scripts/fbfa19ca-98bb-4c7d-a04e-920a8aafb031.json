@@ -1,0 +1,19 @@
+{
+  "name": "Felling Blow",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "bite": "target",
+        "to": "target2"
+      }
+    ]
+  }
+}

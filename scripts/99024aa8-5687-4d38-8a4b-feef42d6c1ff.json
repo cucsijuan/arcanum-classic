@@ -1,0 +1,29 @@
+{
+  "name": "Death Baron",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Skeleton"
+            },
+            {
+              "subtype": "Zombie",
+              "other": true
+            }
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Skeletons you control and other Zombies you control get +1/+1 and have deathtouch."
+    }
+  ]
+}

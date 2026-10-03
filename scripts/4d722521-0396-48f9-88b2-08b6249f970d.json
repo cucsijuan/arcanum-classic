@@ -1,0 +1,15 @@
+{
+  "name": "Blighted Cataract",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{U}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{5}{U}, {T}, Sacrifice this land: Draw two cards."
+    }
+  ]
+}

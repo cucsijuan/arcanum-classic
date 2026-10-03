@@ -1,0 +1,32 @@
+{
+  "name": "Make Your Move",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4
+            }
+          ]
+        },
+        "text": "target artifact, enchantment, or creature with power 4 or greater"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Crystal Barricade",
+  "givesHexproof": true,
+  "replaces": [
+    "PreventNoncombatDamageToYourOtherCreatures"
+  ]
+}

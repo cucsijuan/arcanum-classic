@@ -1,0 +1,23 @@
+{
+  "name": "Gnarlid Colony",
+  "entersWithCounters": 2,
+  "entersWithCountersIf": "kicked",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounters": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Each creature you control with a +1/+1 counter on it has trample."
+    }
+  ]
+}

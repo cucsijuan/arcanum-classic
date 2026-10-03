@@ -1,0 +1,35 @@
+{
+  "name": "Soul-Guide Lantern",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "graveyardCard"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this artifact enters, exile target card from a graveyard."
+    },
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "exileGraveyard": "opponents"
+        }
+      ],
+      "text": "{T}, Sacrifice this artifact: Exile each opponent's graveyard."
+    },
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

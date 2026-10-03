@@ -1,0 +1,23 @@
+{
+  "name": "Heartfire Immolator",
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "text": "target creature or planeswalker"
+        }
+      ],
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "{R}, Sacrifice this creature: It deals damage equal to its power to target creature or planeswalker."
+    }
+  ]
+}

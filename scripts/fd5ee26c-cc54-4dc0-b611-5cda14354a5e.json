@@ -1,6 +1,5 @@
 {
   "name": "Taurean Mauler",
-  "generated": true,
   "abilities": [
     {
       "trigger": "opponentCastsSpell",

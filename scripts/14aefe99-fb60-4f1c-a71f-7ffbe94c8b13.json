@@ -1,0 +1,15 @@
+{
+  "name": "Rune-Scarred Demon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {},
+          "to": "hand"
+        }
+      ],
+      "text": "When this creature enters, search your library for a card, put it into your hand, then shuffle."
+    }
+  ]
+}

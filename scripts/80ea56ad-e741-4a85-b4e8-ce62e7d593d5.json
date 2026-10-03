@@ -1,0 +1,29 @@
+{
+  "name": "Blanchwood Armor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Forest"
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Forest"
+            }
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 for each Forest you control."
+    }
+  ]
+}

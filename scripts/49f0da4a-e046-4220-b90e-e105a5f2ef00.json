@@ -1,0 +1,25 @@
+{
+  "name": "Incinerating Blast",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "mayPay": "Discard a card to draw a card?",
+        "cost": {
+          "discard": 1
+        },
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

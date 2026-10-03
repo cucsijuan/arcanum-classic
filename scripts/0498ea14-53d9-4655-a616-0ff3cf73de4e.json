@@ -1,0 +1,24 @@
+{
+  "name": "Foundry of the Consuls",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Thopter",
+            "types": "Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this land: Create two 1/1 colorless Thopter artifact creature tokens with flying."
+    }
+  ]
+}

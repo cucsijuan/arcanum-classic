@@ -1,0 +1,14 @@
+{
+  "name": "Dragonlord's Servant",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Dragon"
+        },
+        "amount": 1
+      },
+      "text": "Dragon spells you cast cost {1} less to cast."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Deadly Plot",
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature or planeswalker.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target Zombie creature card from your graveyard to the battlefield tapped.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Zombie"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target",
+            "tapped": true
+          }
+        ]
+      }
+    ]
+  }
+}

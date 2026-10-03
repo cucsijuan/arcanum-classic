@@ -1,0 +1,6 @@
+{
+  "name": "Fog Bank",
+  "replaces": [
+    "PreventCombatDamageToAndBySelf"
+  ]
+}

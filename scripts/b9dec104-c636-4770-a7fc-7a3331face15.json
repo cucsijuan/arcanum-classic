@@ -1,0 +1,24 @@
+{
+  "name": "Wildwood Scourge",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you",
+        "notSubtype": "Hydra"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever one or more +1/+1 counters are put on another non-Hydra creature you control, put a +1/+1 counter on this creature."
+    }
+  ]
+}

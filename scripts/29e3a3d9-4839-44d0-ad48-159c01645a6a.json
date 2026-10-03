@@ -1,0 +1,26 @@
+{
+  "name": "Revenge of the Rats",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "graveyard": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "token": {
+          "name": "Rat",
+          "types": "Creature — Rat",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "B"
+          ]
+        },
+        "tapped": true
+      }
+    ]
+  }
+}

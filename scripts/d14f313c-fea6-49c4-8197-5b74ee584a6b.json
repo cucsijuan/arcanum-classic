@@ -1,0 +1,20 @@
+{
+  "name": "Scorching Dragonfire",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "text": "target creature or planeswalker"
+      }
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

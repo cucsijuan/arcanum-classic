@@ -1,0 +1,29 @@
+{
+  "name": "Trufflesnout",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on this creature.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "You gain 4 life.",
+          "effects": [
+            {
+              "gainLife": 4
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Vengeful Bloodwitch",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

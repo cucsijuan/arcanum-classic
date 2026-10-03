@@ -1,0 +1,15 @@
+{
+  "name": "Harmless Offering",
+  "spell": {
+    "targets": [
+      "opponent",
+      "permanent:you"
+    ],
+    "effects": [
+      {
+        "gainControl": "target2",
+        "to": "target"
+      }
+    ]
+  }
+}

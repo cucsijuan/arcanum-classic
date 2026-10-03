@@ -1,0 +1,36 @@
+{
+  "name": "Inspiring Paladin",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, this creature has first strike."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounters": true
+        },
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, creatures you control with +1/+1 counters on them have first strike."
+    }
+  ]
+}

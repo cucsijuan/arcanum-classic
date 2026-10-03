@@ -1,0 +1,35 @@
+{
+  "name": "Tragic Banshee",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "if": "morbid",
+          "then": [
+            {
+              "pump": [
+                -13,
+                -13
+              ],
+              "what": "target"
+            }
+          ],
+          "else": [
+            {
+              "pump": [
+                -1,
+                -1
+              ],
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Morbid — When this creature enters, target creature an opponent controls gets -1/-1 until end of turn. If a creature died this turn, that creature gets -13/-13 until end of turn instead."
+    }
+  ]
+}

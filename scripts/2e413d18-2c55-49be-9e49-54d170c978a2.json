@@ -1,0 +1,33 @@
+{
+  "name": "Gnottvold Slumbermound",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{R}{G}{G}, {T}, sacrifice",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Troll Warrior",
+            "types": "Creature — Troll Warrior",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{R}{G}{G}, {T}, Sacrifice this land: Destroy target land. Create a 4/4 green Troll Warrior creature token with trample."
+    }
+  ]
+}

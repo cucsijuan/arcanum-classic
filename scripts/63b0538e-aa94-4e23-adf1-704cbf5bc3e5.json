@@ -1,0 +1,17 @@
+{
+  "name": "Brass's Bounty",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "count": {
+            "types": [
+              "land"
+            ]
+          }
+        },
+        "token": "Treasure"
+      }
+    ]
+  }
+}

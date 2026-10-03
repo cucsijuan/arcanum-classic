@@ -1,0 +1,42 @@
+{
+  "name": "Tormentor Exarch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Target creature gets +2/+0 until end of turn.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "pump": [
+                2,
+                0
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target creature gets -0/-2 until end of turn.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "pump": [
+                0,
+                -2
+              ],
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

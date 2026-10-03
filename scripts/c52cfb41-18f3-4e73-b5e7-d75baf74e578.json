@@ -1,0 +1,19 @@
+{
+  "name": "River's Rebuke",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "bounceAll": {
+          "not": [
+            "land"
+          ],
+          "controller": "you"
+        },
+        "relativeTo": "target"
+      }
+    ]
+  }
+}

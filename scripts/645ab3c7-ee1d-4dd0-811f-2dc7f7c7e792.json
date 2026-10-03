@@ -1,0 +1,34 @@
+{
+  "name": "Grow from the Ashes",
+  "spell": {
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 2,
+            "to": "battlefield"
+          }
+        ],
+        "else": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 1,
+            "to": "battlefield"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Saurian Symbiote",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on this creature.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Create a 1/1 green Saproling creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Saproling",
+                "types": "Creature — Saproling",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "G"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

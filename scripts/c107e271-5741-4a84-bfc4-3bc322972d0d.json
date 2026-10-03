@@ -1,0 +1,22 @@
+{
+  "name": "Courageous Goblin",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": "ferocious",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +1/+0 and gains menace until end of turn."
+    }
+  ]
+}

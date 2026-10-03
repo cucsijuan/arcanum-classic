@@ -1,0 +1,18 @@
+{
+  "name": "Heroes' Bane",
+  "entersWithCounters": 4,
+  "abilities": [
+    {
+      "cost": "{2}{G}{G}",
+      "effects": [
+        {
+          "counters": {
+            "power": "self"
+          },
+          "what": "self"
+        }
+      ],
+      "text": "{2}{G}{G}: Put X +1/+1 counters on this creature, where X is its power."
+    }
+  ]
+}

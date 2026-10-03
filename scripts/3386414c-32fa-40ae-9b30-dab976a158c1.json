@@ -1,0 +1,37 @@
+{
+  "name": "Vampire Gourmand",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "self",
+              "keywords": [
+                "Can't be blocked"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn."
+    }
+  ]
+}

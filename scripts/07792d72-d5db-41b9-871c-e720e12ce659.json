@@ -1,0 +1,34 @@
+{
+  "name": "Cemetery Recruitment",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "subtype": "Zombie"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

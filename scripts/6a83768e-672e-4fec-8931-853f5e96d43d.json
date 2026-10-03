@@ -1,0 +1,17 @@
+{
+  "name": "Stasis Snare",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this enchantment enters, exile target creature an opponent controls until this enchantment leaves the battlefield."
+    }
+  ]
+}

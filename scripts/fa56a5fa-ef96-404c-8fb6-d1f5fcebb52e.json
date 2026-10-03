@@ -1,0 +1,27 @@
+{
+  "name": "Surrak, the Hunt Caller",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "totalPower": 8
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn."
+    }
+  ]
+}

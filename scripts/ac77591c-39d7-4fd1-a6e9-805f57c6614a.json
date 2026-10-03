@@ -1,0 +1,33 @@
+{
+  "name": "Pirate's Cutlass",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Pirate"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target Pirate you control."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    }
+  ]
+}

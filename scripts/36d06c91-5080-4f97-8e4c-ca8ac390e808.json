@@ -1,0 +1,25 @@
+{
+  "name": "Cradle of the Accursed",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this land: Create a 2/2 black Zombie creature token. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

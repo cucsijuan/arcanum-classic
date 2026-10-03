@@ -1,0 +1,19 @@
+{
+  "name": "Pacifism",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ]
+      },
+      "text": "Enchanted creature can't attack or block."
+    }
+  ]
+}

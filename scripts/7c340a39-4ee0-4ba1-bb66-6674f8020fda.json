@@ -1,0 +1,6 @@
+{
+  "name": "Gratuitous Violence",
+  "replaces": [
+    "DoubleCreatureDamage"
+  ]
+}

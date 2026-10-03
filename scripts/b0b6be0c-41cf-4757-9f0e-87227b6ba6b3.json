@@ -1,0 +1,7 @@
+{
+  "name": "Ghalta, Primal Hunger",
+  "costReduction": {
+    "amount": 1,
+    "byTotalPower": true
+  }
+}

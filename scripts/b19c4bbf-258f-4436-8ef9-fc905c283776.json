@@ -1,0 +1,39 @@
+{
+  "name": "Oltec Archaeologists",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Return target artifact card from your graveyard to your hand.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "controller": "you",
+              "filter": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        },
+        {
+          "text": "Scry 3.",
+          "effects": [
+            {
+              "scry": 3
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

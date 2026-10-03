@@ -1,0 +1,36 @@
+{
+  "name": "Gateway Sneak",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Gate"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever a Gate you control enters, this creature can't be blocked this turn."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, draw a card."
+    }
+  ]
+}

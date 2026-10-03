@@ -1,0 +1,26 @@
+{
+  "name": "Driver of the Dead",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValue": 2
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this creature dies, return target creature card with mana value 2 or less from your graveyard to the battlefield."
+    }
+  ]
+}

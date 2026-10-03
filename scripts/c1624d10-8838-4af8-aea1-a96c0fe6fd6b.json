@@ -1,0 +1,32 @@
+{
+  "name": "Goldvein Pick",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mentor of the Meek",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you",
+        "maxPower": 2
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {1} to draw a card?",
+          "mana": "{1}",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card."
+    }
+  ]
+}

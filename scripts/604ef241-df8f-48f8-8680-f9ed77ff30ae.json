@@ -1,0 +1,19 @@
+{
+  "name": "Quick-Draw Katana",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "while": "yourTurn",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, equipped creature gets +2/+0 and has first strike."
+    }
+  ]
+}

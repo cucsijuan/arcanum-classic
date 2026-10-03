@@ -1,0 +1,13 @@
+{
+  "name": "Self-Reflection",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "copy": "target"
+      }
+    ]
+  }
+}

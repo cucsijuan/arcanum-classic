@@ -1,0 +1,31 @@
+{
+  "name": "Involuntary Employment",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "gainControl": "target",
+        "untilEndOfTurn": true
+      },
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

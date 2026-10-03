@@ -1,0 +1,46 @@
+{
+  "name": "Ferocification",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "modes": [
+        {
+          "text": "Target creature you control gets +2/+0 until end of turn.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "pump": [
+                2,
+                0
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target creature you control gains menace and haste until end of turn.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Menace",
+                "Haste"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn choose one —"
+    }
+  ]
+}

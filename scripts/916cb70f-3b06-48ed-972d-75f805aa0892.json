@@ -1,0 +1,18 @@
+{
+  "name": "Brineborn Cutthroat",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "if": {
+        "not": "yourTurn"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

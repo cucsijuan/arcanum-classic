@@ -1,0 +1,15 @@
+{
+  "name": "Dictate of Kruphix",
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each player's draw step, that player draws an additional card."
+    }
+  ]
+}

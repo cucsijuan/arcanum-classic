@@ -1,0 +1,16 @@
+{
+  "name": "Treasure Vault",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{X}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": "Treasure"
+        }
+      ],
+      "text": "{X}{X}, {T}, Sacrifice this land: Create X Treasure tokens."
+    }
+  ]
+}

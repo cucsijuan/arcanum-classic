@@ -1,0 +1,18 @@
+{
+  "name": "Gates of Istfell",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}{U}{U}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 2
+        },
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{2}{W}{U}{U}, {T}, Sacrifice this land: You gain 2 life and draw two cards."
+    }
+  ]
+}

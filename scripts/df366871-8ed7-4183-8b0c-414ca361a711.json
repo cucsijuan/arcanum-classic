@@ -1,0 +1,23 @@
+{
+  "name": "Kargan Dragonrider",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "control": {
+            "subtype": "Dragon"
+          }
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "As long as you control a Dragon, this creature has flying."
+    }
+  ]
+}

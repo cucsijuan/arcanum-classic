@@ -1,0 +1,21 @@
+{
+  "name": "Angel of Vitality",
+  "replaces": [
+    "ExtraLifeGain"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "life": 25
+        },
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "This creature gets +2/+2 as long as you have 25 or more life."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Midnight Snack",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Raid — At the beginning of your end step, if you attacked this turn, create a Food token."
+    },
+    {
+      "cost": "{2}{B}, sacrifice",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": "lifeGained",
+          "who": "target"
+        }
+      ],
+      "text": "{2}{B}, Sacrifice this enchantment: Target opponent loses X life, where X is the amount of life you gained this turn."
+    }
+  ]
+}

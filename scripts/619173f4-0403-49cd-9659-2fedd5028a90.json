@@ -1,0 +1,23 @@
+{
+  "name": "Shire Terrace",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

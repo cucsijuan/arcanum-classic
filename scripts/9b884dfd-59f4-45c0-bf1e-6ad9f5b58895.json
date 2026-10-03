@@ -1,0 +1,14 @@
+{
+  "name": "Feldon's Cane",
+  "abilities": [
+    {
+      "cost": "{T}, exile",
+      "effects": [
+        {
+          "shuffleGraveyard": "you"
+        }
+      ],
+      "text": "{T}, Exile this artifact: Shuffle your graveyard into your library."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Sylvan Scavenging",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on target creature you control.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a 3/3 green Raccoon creature token if you control a creature with power 4 or greater.",
+          "effects": [
+            {
+              "if": "ferocious",
+              "then": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Raccoon",
+                    "types": "Creature — Raccoon",
+                    "power": 3,
+                    "toughness": 3,
+                    "colors": [
+                      "G"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, choose one —"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ballyrush Banneret",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Kithkin"
+            },
+            {
+              "subtype": "Soldier"
+            }
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Kithkin spells and Soldier spells you cast cost {1} less to cast."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Surtland Frostpyre",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}{U}{R}, {T}, sacrifice",
+      "effects": [
+        {
+          "scry": 2
+        },
+        {
+          "damage": 2,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{2}{U}{U}{R}, {T}, Sacrifice this land: Scry 2. This land deals 2 damage to each creature. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

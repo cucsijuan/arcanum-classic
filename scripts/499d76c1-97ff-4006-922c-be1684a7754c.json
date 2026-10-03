@@ -1,0 +1,27 @@
+{
+  "name": "Claws Out",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Cat"
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

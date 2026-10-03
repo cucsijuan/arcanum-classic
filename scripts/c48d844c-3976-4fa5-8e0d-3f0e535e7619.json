@@ -1,0 +1,45 @@
+{
+  "name": "Charming Prince",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Scry 2.",
+          "effects": [
+            {
+              "scry": 2
+            }
+          ]
+        },
+        {
+          "text": "You gain 3 life.",
+          "effects": [
+            {
+              "gainLife": 3
+            }
+          ]
+        },
+        {
+          "text": "Exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "you",
+              "filter": {
+                "other": true
+              }
+            }
+          ],
+          "effects": [
+            {
+              "flicker": "target",
+              "yours": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one —"
+    }
+  ]
+}

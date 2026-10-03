@@ -1,0 +1,26 @@
+{
+  "name": "Exemplar of Light",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "countersPlaced",
+      "onSelf": true,
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

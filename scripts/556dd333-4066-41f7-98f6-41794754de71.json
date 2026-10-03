@@ -1,0 +1,15 @@
+{
+  "name": "Vile Entomber",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {},
+          "to": "graveyard"
+        }
+      ],
+      "text": "When this creature enters, search your library for a card, put that card into your graveyard, then shuffle."
+    }
+  ]
+}

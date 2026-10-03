@@ -1,0 +1,15 @@
+{
+  "name": "Rise of the Dark Realms",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "creature"
+          ]
+        },
+        "from": "everyone"
+      }
+    ]
+  }
+}

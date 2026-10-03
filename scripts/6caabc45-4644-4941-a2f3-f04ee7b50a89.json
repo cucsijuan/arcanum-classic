@@ -1,0 +1,15 @@
+{
+  "name": "Boiling Rock Prison",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this land: Draw a card."
+    }
+  ]
+}

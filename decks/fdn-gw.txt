@@ -1,0 +1,38 @@
+1 Dryad Militant
+1 Healer's Hawk
+1 Hinterland Sanctifier
+1 Leonin Vanguard
+1 Llanowar Elves
+1 Mold Adder
+1 Savannah Lions
+1 Wildwood Scourge
+1 Ajani's Pridemate
+1 Ballyrush Banneret
+1 Bear Cub
+1 Bishop's Soldier
+1 Cathar Commando
+1 Charming Prince
+1 Crystal Barricade
+1 Dawnwing Marshal
+1 Druid of the Cowl
+1 Dwynen's Elite
+1 Felidar Cub
+1 Gnarlid Colony
+1 Hare Apparent
+1 Helpful Hunter
+1 Adventuring Gear
+1 Authority of the Consuls
+1 Bushwhack
+1 Elspeth's Smite
+1 Fleeting Flight
+1 Giant Growth
+1 Joust Through
+1 Moment of Triumph
+1 Primal Might
+1 Snakeskin Veil
+1 Soul-Guide Lantern
+1 Adamant Will
+1 Anthem of Champions
+1 Bite Down
+12 Forest
+12 Plains

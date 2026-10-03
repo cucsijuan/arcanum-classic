@@ -1,0 +1,32 @@
+{
+  "name": "Broken Wings",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          ]
+        },
+        "text": "target artifact, enchantment, or creature with flying"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

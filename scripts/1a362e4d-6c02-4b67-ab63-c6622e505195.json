@@ -1,0 +1,47 @@
+{
+  "name": "Crossway Troublemakers",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Vampire",
+        "filter": {
+          "attacking": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch",
+          "Lifelink"
+        ]
+      },
+      "text": "Attacking Vampires you control have deathtouch and lifelink."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Vampire",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay 2 life to draw a card?",
+          "cost": {
+            "life": 2
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Vampire you control dies, you may pay 2 life. If you do, draw a card."
+    }
+  ]
+}

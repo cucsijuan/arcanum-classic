@@ -1,0 +1,15 @@
+{
+  "name": "Waterfront District",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}{B}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{U}{B}, {T}, Sacrifice this land: Draw a card."
+    }
+  ]
+}

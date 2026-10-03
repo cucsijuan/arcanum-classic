@@ -1,0 +1,23 @@
+{
+  "name": "Tempest Djinn",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Island",
+              "supertype": "basic"
+            }
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +1/+0 for each basic Island you control."
+    }
+  ]
+}

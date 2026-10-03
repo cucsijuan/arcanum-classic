@@ -1,0 +1,36 @@
+{
+  "name": "Shambling Ghast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "modes": [
+        {
+          "text": "Target creature an opponent controls gets -1/-1 until end of turn.",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "pump": [
+                -1,
+                -1
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies choose one —"
+    }
+  ]
+}

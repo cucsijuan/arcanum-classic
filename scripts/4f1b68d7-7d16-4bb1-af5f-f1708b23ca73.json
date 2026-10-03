@@ -1,0 +1,41 @@
+{
+  "name": "Celestial Armor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control. That creature gains hexproof and indestructible until end of turn."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature gets +2/+0 and has flying."
+    }
+  ]
+}

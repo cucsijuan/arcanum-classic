@@ -1,0 +1,26 @@
+{
+  "name": "Knight of Malice",
+  "hexproofFrom": [
+    "W"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "control": {
+            "colors": [
+              "W"
+            ],
+            "controller": "any"
+          }
+        },
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "This creature gets +1/+0 as long as any player controls a white permanent."
+    }
+  ]
+}

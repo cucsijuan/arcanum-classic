@@ -1,0 +1,6 @@
+{
+  "name": "Darksteel Colossus",
+  "replaces": [
+    "ShuffleIntoLibraryInsteadOfGraveyard"
+  ]
+}

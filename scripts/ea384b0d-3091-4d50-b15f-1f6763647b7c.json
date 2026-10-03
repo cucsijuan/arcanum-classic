@@ -1,0 +1,19 @@
+{
+  "name": "Crusader of Odric",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ],
+      "controller": "you"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ],
+      "controller": "you"
+    }
+  }
+}

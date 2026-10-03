@@ -1,0 +1,52 @@
+{
+  "name": "Fangkeeper's Familiar",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "You gain 3 life and surveil 3.",
+          "effects": [
+            {
+              "gainLife": 3
+            },
+            {
+              "surveil": 3
+            }
+          ]
+        },
+        {
+          "text": "Destroy target enchantment.",
+          "targets": [
+            "enchantment"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Counter target creature spell.",
+          "targets": [
+            {
+              "kind": "spell",
+              "filter": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "counter": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

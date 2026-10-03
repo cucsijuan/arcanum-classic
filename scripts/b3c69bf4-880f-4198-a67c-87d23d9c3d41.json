@@ -1,0 +1,15 @@
+{
+  "name": "Homunculus Horde",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "copy": "self"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a token that's a copy of this creature."
+    }
+  ]
+}

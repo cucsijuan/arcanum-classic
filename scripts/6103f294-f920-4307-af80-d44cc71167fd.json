@@ -1,0 +1,19 @@
+{
+  "name": "Kitesail Corsair",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "attacking",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "This creature has flying as long as it's attacking."
+    }
+  ]
+}

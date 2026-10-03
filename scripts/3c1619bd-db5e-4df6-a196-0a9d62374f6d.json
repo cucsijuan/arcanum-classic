@@ -1,0 +1,28 @@
+{
+  "name": "Hare Apparent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "name": "Hare Apparent",
+              "other": true
+            }
+          },
+          "token": {
+            "name": "Rabbit",
+            "types": "Creature — Rabbit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent."
+    }
+  ]
+}

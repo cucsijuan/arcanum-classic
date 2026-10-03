@@ -1,0 +1,36 @@
+{
+  "name": "Drakuseth, Maw of Flames",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "any",
+        {
+          "kind": "any",
+          "optional": true,
+          "text": "up to one other target"
+        },
+        {
+          "kind": "any",
+          "optional": true,
+          "text": "up to one other target"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        },
+        {
+          "damage": 3,
+          "to": "target2"
+        },
+        {
+          "damage": 3,
+          "to": "target3"
+        }
+      ],
+      "text": "Whenever Drakuseth attacks, Drakuseth deals 4 damage to any target and 3 damage to each of up to two other targets."
+    }
+  ]
+}

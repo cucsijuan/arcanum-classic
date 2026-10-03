@@ -1,0 +1,40 @@
+{
+  "name": "Jazal Goldmane",
+  "abilities": [
+    {
+      "cost": "{3}{W}{W}",
+      "effects": [
+        {
+          "pump": [
+            {
+              "attacking": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "attacking": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "attacking": true
+            }
+          }
+        }
+      ],
+      "text": "{3}{W}{W}: Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures."
+    }
+  ]
+}

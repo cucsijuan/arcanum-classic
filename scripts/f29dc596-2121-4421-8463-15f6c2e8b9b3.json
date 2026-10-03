@@ -1,0 +1,24 @@
+{
+  "name": "Rogue's Passage",
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{4}, {T}: Target creature can't be blocked this turn."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mystical Teachings",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "anyOf": [
+            {
+              "types": [
+                "instant"
+              ]
+            },
+            {
+              "keyword": "Flash"
+            }
+          ]
+        },
+        "to": "hand"
+      }
+    ]
+  }
+}

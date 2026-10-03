@@ -1,0 +1,20 @@
+{
+  "name": "Obliterating Bolt",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "text": "target creature or planeswalker"
+      }
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

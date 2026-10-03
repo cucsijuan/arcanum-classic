@@ -1,0 +1,38 @@
+{
+  "name": "Wilt-Leaf Liege",
+  "ontoBattlefieldIfDiscarded": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "colors": [
+            "G"
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other green creatures you control get +1/+1."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "colors": [
+            "W"
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other white creatures you control get +1/+1."
+    }
+  ]
+}

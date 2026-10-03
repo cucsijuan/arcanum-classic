@@ -1,0 +1,39 @@
+{
+  "name": "Skemfar Elderhall",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}{B}{G}, {T}, sacrifice",
+      "targets": [
+        {
+          "optional": true,
+          "controller": "opponent",
+          "kind": "creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": "target"
+        },
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{B}{B}{G}, {T}, Sacrifice this land: Up to one target creature you don't control gets -2/-2 until end of turn. Create two 1/1 green Elf Warrior creature tokens. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

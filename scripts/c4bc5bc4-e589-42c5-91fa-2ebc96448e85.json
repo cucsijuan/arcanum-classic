@@ -1,0 +1,26 @@
+{
+  "name": "Petrified Field",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Return target land card from your graveyard to your hand."
+    }
+  ]
+}

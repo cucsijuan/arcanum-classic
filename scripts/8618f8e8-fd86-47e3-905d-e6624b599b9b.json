@@ -1,0 +1,15 @@
+{
+  "name": "The Fair Basilica",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{W}, {T}, Sacrifice this land: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Bulk Up",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          {
+            "power": "target"
+          },
+          0
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

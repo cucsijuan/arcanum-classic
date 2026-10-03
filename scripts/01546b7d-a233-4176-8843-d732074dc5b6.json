@@ -1,0 +1,7 @@
+{
+  "name": "Doubling Season",
+  "replaces": [
+    "DoubleTokens",
+    "DoubleCounters"
+  ]
+}

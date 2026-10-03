@@ -1,0 +1,36 @@
+{
+  "name": "Heroic Reinforcements",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ]
+        }
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

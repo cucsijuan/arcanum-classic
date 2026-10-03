@@ -1,0 +1,34 @@
+{
+  "name": "Deceiver Exarch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Untap target permanent you control.",
+          "targets": [
+            "permanent:you"
+          ],
+          "effects": [
+            {
+              "untap": "target"
+            }
+          ]
+        },
+        {
+          "text": "Tap target permanent an opponent controls.",
+          "targets": [
+            "permanent:opponent"
+          ],
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

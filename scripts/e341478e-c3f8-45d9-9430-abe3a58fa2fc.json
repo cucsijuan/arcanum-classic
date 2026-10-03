@@ -1,0 +1,22 @@
+{
+  "name": "Deadly Riposte",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "tapped": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

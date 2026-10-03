@@ -1,0 +1,38 @@
+1 Dragonmaster Outcast
+1 Fanatical Firebrand
+1 Frenzied Goblin
+1 Ghitu Lavarunner
+1 Llanowar Elves
+1 Mold Adder
+1 Stromkirk Noble
+1 Wildwood Scourge
+1 Axgard Cavalry
+1 Bear Cub
+1 Courageous Goblin
+1 Dragonlord's Servant
+1 Druid of the Cowl
+1 Dwynen's Elite
+1 Firebrand Archer
+1 Gnarlid Colony
+1 Heartfire Immolator
+1 Kargan Dragonrider
+1 Nessian Hornbeetle
+1 Ruby, Daring Tracker
+1 Scavenging Ooze
+1 Searslicer Goblin
+1 Adventuring Gear
+1 Boltwave
+1 Burst Lightning
+1 Bushwhack
+1 Crash Through
+1 Giant Growth
+1 Kindled Fury
+1 Primal Might
+1 Snakeskin Veil
+1 Soul-Guide Lantern
+1 Abrade
+1 Bite Down
+1 Bulk Up
+1 Dragon Fodder
+12 Mountain
+12 Forest

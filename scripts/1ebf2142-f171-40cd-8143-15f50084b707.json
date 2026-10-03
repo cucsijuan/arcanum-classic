@@ -1,0 +1,23 @@
+{
+  "name": "Koma, World-Eater",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 4,
+          "token": {
+            "name": "Koma's Coil",
+            "types": "Creature — Serpent",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Koma deals combat damage to a player, create four 3/3 blue Serpent creature tokens named Koma's Coil."
+    }
+  ]
+}

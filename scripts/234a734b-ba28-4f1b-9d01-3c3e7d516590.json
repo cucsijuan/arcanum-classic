@@ -1,0 +1,25 @@
+{
+  "name": "An Offer You Can't Refuse",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "not": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "tokens": 2,
+        "token": "Treasure",
+        "for": "targetController"
+      }
+    ]
+  }
+}

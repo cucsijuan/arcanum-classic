@@ -1,0 +1,17 @@
+{
+  "name": "Seize the Spoils",
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

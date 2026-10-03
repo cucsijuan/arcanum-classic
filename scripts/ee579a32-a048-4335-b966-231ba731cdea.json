@@ -1,0 +1,17 @@
+{
+  "name": "Phyrexian Arena",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, you draw a card and lose 1 life."
+    }
+  ]
+}

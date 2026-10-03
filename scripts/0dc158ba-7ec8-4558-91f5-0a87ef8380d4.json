@@ -1,0 +1,45 @@
+{
+  "name": "High-Society Hunter",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature to put a +1/+1 counter on this creature?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever another nontoken creature dies, draw a card."
+    }
+  ]
+}

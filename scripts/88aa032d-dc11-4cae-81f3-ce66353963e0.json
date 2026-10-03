@@ -1,0 +1,23 @@
+{
+  "name": "Affectionate Indrik",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "may": "Have it fight target creature you don't control?",
+          "effects": [
+            {
+              "fight": "self",
+              "with": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may have it fight target creature you don't control."
+    }
+  ]
+}

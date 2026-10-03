@@ -1,0 +1,24 @@
+{
+  "name": "Mischievous Pup",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return up to one other target permanent you control to its owner's hand."
+    }
+  ]
+}

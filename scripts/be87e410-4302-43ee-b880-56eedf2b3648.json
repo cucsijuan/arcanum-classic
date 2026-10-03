@@ -1,0 +1,19 @@
+{
+  "name": "Inspiration from Beyond",
+  "spell": {
+    "effects": [
+      {
+        "mill": 3
+      },
+      {
+        "returnFromGraveyard": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "count": 1
+      }
+    ]
+  }
+}

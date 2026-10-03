@@ -1,0 +1,16 @@
+{
+  "name": "Slumbering Cerberus",
+  "doesntUntap": true,
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Morbid — At the beginning of each end step, if a creature died this turn, untap this creature."
+    }
+  ]
+}

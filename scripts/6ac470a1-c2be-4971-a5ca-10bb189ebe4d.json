@@ -1,0 +1,30 @@
+{
+  "name": "Frenzied Goblin",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "mayPay": "Pay {R} so target creature can't block this turn?",
+          "mana": "{R}",
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Can't block"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may pay {R}. If you do, target creature can't block this turn."
+    }
+  ]
+}

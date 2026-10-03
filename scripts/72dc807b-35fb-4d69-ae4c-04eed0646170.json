@@ -1,0 +1,26 @@
+{
+  "name": "Battle-Rattle Shaman",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Give target creature +2/+0?",
+          "effects": [
+            {
+              "pump": [
+                2,
+                0
+              ],
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn."
+    }
+  ]
+}

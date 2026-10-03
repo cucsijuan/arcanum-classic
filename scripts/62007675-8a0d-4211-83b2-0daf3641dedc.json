@@ -1,0 +1,11 @@
+{
+  "name": "Enigma Drake",
+  "powerFrom": {
+    "graveyard": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  }
+}

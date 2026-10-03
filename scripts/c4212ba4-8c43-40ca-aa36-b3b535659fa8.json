@@ -1,0 +1,48 @@
+{
+  "name": "Knight of Autumn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Put two +1/+1 counters on this creature.",
+          "effects": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target artifact or enchantment.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "You gain 4 life.",
+          "effects": [
+            {
+              "gainLife": 4
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

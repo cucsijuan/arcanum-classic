@@ -1,0 +1,19 @@
+{
+  "name": "Blighted Gorge",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{R}, {T}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{R}, {T}, Sacrifice this land: It deals 2 damage to any target."
+    }
+  ]
+}

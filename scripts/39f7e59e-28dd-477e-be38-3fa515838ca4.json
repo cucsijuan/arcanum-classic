@@ -1,0 +1,23 @@
+{
+  "name": "Celebrity Fencer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

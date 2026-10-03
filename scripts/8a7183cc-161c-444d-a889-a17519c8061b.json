@@ -1,0 +1,23 @@
+{
+  "name": "Arcanis the Omnipotent",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 3
+        }
+      ],
+      "text": "{T}: Draw three cards."
+    },
+    {
+      "cost": "{2}{U}{U}",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{U}{U}: Return Arcanis to its owner's hand."
+    }
+  ]
+}

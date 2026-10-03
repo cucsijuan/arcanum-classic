@@ -1,0 +1,27 @@
+{
+  "name": "Feed the Swarm",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "loseLife": {
+          "manaValue": "target"
+        }
+      }
+    ]
+  }
+}

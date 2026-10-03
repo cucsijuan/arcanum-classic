@@ -27,7 +27,7 @@ ENGINE_KEYWORDS = {
     "equip", "enchant",  # derived from rules text by the engine's card factory
     # keyword actions and ability words: they label rules text the script spells out
     "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
-    "raid", "landfall", "morbid", "threshold", "ferocious",
+    "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance",
 }
 ABILITY_WORD = re.compile(r"^(Raid|Landfall|Morbid|Threshold|Ferocious|Formidable|Alliance) — ")
 # Lines the engine derives from card data on its own.
@@ -664,7 +664,7 @@ def parse_cost(cost):
     for raw in [c.strip() for c in cost.split(",")]:
         if raw == "{T}":
             parts.append("{T}")
-        elif re.fullmatch(r"Sacrifice (this creature|this artifact|this enchantment|CARDNAME)", raw):
+        elif re.fullmatch(r"Sacrifice (this creature|this artifact|this enchantment|this land|this permanent|CARDNAME)", raw):
             parts.append("sacrifice")
         elif re.fullmatch(r"(\{[0-9WUBRGCX]+\})+", raw):
             parts.append(raw)
@@ -900,12 +900,12 @@ def generate(card):
                 continue
             trig = None
             for pattern, trigger in TRIGGERS:
-                m = re.fullmatch(pattern, header + " X")
+                m = re.fullmatch(pattern, header + ", X")
                 if m:
                     trig = (trigger, None)
                     break
-            if trig is None and filtered_trigger(header + " X") is not None:
-                t, f, _ = filtered_trigger(header + " X")
+            if trig is None and filtered_trigger(header + ", X") is not None:
+                t, f, _ = filtered_trigger(header + ", X")
                 trig = (t, f)
             if trig is None:
                 raise Unsupported("modal " + header)

@@ -1,0 +1,24 @@
+{
+  "name": "Rite of Replication",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "copy": "target",
+            "count": 5
+          }
+        ],
+        "else": [
+          {
+            "copy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

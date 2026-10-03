@@ -1,0 +1,66 @@
+{
+  "name": "Felidar Retreat",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "modes": [
+        {
+          "text": "Create a 2/2 white Cat Beast creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Cat Beast",
+                "types": "Creature — Cat Beast",
+                "power": 2,
+                "toughness": 2,
+                "colors": [
+                  "W"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            },
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              },
+              "keywords": [
+                "Vigilance"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, choose one —"
+    }
+  ]
+}

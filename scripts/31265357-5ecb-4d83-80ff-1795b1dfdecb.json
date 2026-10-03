@@ -1,0 +1,18 @@
+{
+  "name": "Gutless Plunderer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "lookAtTop": 3,
+          "take": 1,
+          "to": "top",
+          "rest": "graveyard"
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard."
+    }
+  ]
+}

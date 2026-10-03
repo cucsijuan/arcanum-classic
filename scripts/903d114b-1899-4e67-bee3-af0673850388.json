@@ -1,0 +1,28 @@
+{
+  "name": "Faebloom Trick",
+  "spell": {
+    "targets": [
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Faerie",
+          "types": "Creature — Faerie",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "U"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      },
+      {
+        "tap": "target"
+      }
+    ]
+  }
+}

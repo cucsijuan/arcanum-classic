@@ -1,0 +1,24 @@
+{
+  "name": "Sower of Chaos",
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "{2}{R}: Target creature can't block this turn."
+    }
+  ]
+}

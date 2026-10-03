@@ -1,0 +1,39 @@
+{
+  "name": "Titanium Man",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "modes": [
+        {
+          "text": "Titanium Man gains flying until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "self",
+              "keywords": [
+                "Flying"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Titanium Man deals 1 damage to any target.",
+          "targets": [
+            "any"
+          ],
+          "effects": [
+            {
+              "damage": 1,
+              "to": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Titanium Man attacks choose one —"
+    }
+  ]
+}

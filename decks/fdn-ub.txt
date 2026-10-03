@@ -1,0 +1,38 @@
+1 Aegis Turtle
+1 Diregraf Ghoul
+1 Infestation Sage
+1 Pulse Tracker
+1 Spectral Sailor
+1 Vampire Neonate
+1 Brineborn Cutthroat
+1 Burglar Rat
+1 Burrog Befuddler
+1 Drake Hatcher
+1 Elementalist Adept
+1 Fog Bank
+1 Gatekeeper of Malakir
+1 Hungry Ghoul
+1 Kalastria Highborn
+1 Kitesail Corsair
+1 Knight of Malice
+1 Mischievous Mystic
+1 Mystic Archaeologist
+1 Nullpriest of Oblivion
+1 Reassembling Skeleton
+1 Sanguine Syphoner
+1 Adventuring Gear
+1 An Offer You Can't Refuse
+1 Deathmark
+1 Dive Down
+1 Duress
+1 Fleeting Distraction
+1 Opt
+1 Soul-Guide Lantern
+1 Stab
+1 Unsummon
+1 Vampiric Rites
+1 Cemetery Recruitment
+1 Chart a Course
+1 Essence Scatter
+12 Island
+12 Swamp

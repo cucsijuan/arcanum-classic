@@ -1,0 +1,25 @@
+{
+  "name": "Midnight Reaper",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "you"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, this creature deals 1 damage to you and you draw a card."
+    }
+  ]
+}

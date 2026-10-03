@@ -1,0 +1,30 @@
+{
+  "name": "Goblin Smuggler",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "maxPower": 2
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{T}: Another target creature with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

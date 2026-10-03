@@ -1,0 +1,7 @@
+{
+  "name": "Juggernaut",
+  "attacksEachCombat": true,
+  "cantBeBlockedBy": {
+    "subtype": "Wall"
+  }
+}

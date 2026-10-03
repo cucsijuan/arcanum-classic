@@ -1,0 +1,41 @@
+{
+  "name": "Slash, Reptile Rampager",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, Slash, Reptile Rampager deals 2 damage to each opponent."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Mutant",
+            "types": "Creature — Mutant",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Slash, Reptile Rampager attacks, create a 2/2 red Mutant creature token."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Etherwrought Page",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "modes": [
+        {
+          "text": "You gain 2 life.",
+          "effects": [
+            {
+              "gainLife": 2
+            }
+          ]
+        },
+        {
+          "text": "Surveil 1.",
+          "effects": [
+            {
+              "surveil": 1
+            }
+          ]
+        },
+        {
+          "text": "Each opponent loses 1 life.",
+          "effects": [
+            {
+              "loseLife": 1,
+              "who": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep choose one —"
+    }
+  ]
+}

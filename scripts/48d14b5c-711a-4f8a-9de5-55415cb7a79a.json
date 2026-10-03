@@ -1,0 +1,17 @@
+{
+  "name": "Angel of Finality",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "exileGraveyard": "target"
+        }
+      ],
+      "text": "When this creature enters, exile target player's graveyard."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Burst Lightning",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ],
+        "else": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

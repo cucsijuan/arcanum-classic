@@ -1,0 +1,38 @@
+{
+  "name": "Angelic Destiny",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          4,
+          4
+        ],
+        "keywords": [
+          "Flying",
+          "First strike"
+        ],
+        "addSubtypes": [
+          "Angel"
+        ]
+      },
+      "text": "Enchanted creature gets +4/+4, has flying and first strike, and is an Angel in addition to its other types."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When enchanted creature dies, return this card to its owner's hand."
+    }
+  ]
+}

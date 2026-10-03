@@ -1,0 +1,27 @@
+{
+  "name": "Grappling Kraken",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "stun"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it."
+    }
+  ]
+}

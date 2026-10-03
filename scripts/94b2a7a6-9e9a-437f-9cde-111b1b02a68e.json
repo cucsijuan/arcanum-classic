@@ -1,0 +1,37 @@
+{
+  "name": "Shuri, Vibranium Technologist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Create a 1/1 colorless Robot Hero artifact creature token with flying.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Robot Hero",
+                "types": "Creature — Robot Hero",
+                "power": 1,
+                "toughness": 1,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When Shuri, Vibranium Technologist enters choose one —"
+    }
+  ]
+}

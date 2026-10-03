@@ -1,0 +1,37 @@
+{
+  "name": "Drake Hatcher",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self",
+          "kind": "incubation"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, put that many incubation counters on it."
+    },
+    {
+      "cost": "removeCounters:3:incubation",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Drake",
+            "types": "Creature — Drake",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Remove three incubation counters from this creature: Create a 2/2 blue Drake creature token with flying."
+    }
+  ]
+}

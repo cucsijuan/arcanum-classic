@@ -1,0 +1,16 @@
+{
+  "name": "Uncharted Voyage",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

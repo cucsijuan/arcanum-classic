@@ -1,0 +1,31 @@
+{
+  "name": "Wardens of the Cycle",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "morbid",
+      "modes": [
+        {
+          "text": "You gain 2 life.",
+          "effects": [
+            {
+              "gainLife": 2
+            }
+          ]
+        },
+        {
+          "text": "You draw a card and you lose 1 life.",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "loseLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Morbid — At the beginning of your end step, if a creature died this turn, choose one —"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Duress",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "creature",
+            "land"
+          ]
+        }
+      }
+    ]
+  }
+}

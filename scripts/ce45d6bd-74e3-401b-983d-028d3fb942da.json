@@ -1,0 +1,25 @@
+{
+  "name": "Billowing Shriekmass",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "When this creature enters, mill three cards."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": "threshold",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Threshold — This creature gets +2/+1 as long as there are seven or more cards in your graveyard."
+    }
+  ]
+}

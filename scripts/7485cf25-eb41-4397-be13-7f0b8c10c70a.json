@@ -1,0 +1,14 @@
+{
+  "name": "Ball Lightning",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "At the beginning of the end step, sacrifice this creature."
+    }
+  ]
+}

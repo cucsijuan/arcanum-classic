@@ -1,0 +1,53 @@
+{
+  "name": "Kykar, Zephyr Awakener",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "modes": [
+        {
+          "text": "Exile another target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "you",
+              "filter": {
+                "other": true
+              }
+            }
+          ],
+          "effects": [
+            {
+              "flicker": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a 1/1 white Spirit creature token with flying.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, choose one —"
+    }
+  ]
+}

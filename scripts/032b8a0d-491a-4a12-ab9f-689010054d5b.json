@@ -1,0 +1,22 @@
+{
+  "name": "Prismatic Vista",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, life:1, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield"
+        }
+      ],
+      "text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

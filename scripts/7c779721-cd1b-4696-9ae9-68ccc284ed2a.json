@@ -1,0 +1,15 @@
+{
+  "name": "Aetherize",
+  "spell": {
+    "effects": [
+      {
+        "bounceAll": {
+          "types": [
+            "creature"
+          ],
+          "attacking": true
+        }
+      }
+    ]
+  }
+}

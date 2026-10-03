@@ -1,0 +1,24 @@
+{
+  "name": "Blighted Fen",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}, {T}, sacrifice",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "target"
+        }
+      ],
+      "text": "{4}{B}, {T}, Sacrifice this land: Target opponent sacrifices a creature of their choice."
+    }
+  ]
+}

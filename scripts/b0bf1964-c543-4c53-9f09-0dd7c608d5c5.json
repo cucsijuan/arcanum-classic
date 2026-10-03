@@ -1,0 +1,57 @@
+{
+  "name": "Black Panther, Vanguard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Hero",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "modes": [
+        {
+          "text": "Create a 1/1 white Soldier creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Soldier",
+                "types": "Creature — Soldier",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Creatures you control get +1/+1 until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                1,
+                1
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken Hero you control enters choose one —"
+    }
+  ]
+}

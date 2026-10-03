@@ -1,0 +1,24 @@
+{
+  "name": "Memorial to Glory",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{W}, {T}, Sacrifice this land: Create two 1/1 white Soldier creature tokens."
+    }
+  ]
+}

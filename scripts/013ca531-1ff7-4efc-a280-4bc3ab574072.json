@@ -1,0 +1,17 @@
+{
+  "name": "Mocking Sprite",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Instant and sorcery spells you cast cost {1} less to cast."
+    }
+  ]
+}

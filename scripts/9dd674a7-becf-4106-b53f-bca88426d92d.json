@@ -1,0 +1,67 @@
+{
+  "name": "Zimone, Paradox Sculptor",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target2"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on each of up to two target creatures you control."
+    },
+    {
+      "cost": "{G}{U}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature",
+              "artifact"
+            ]
+          }
+        },
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature",
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "doubleCounters": "target"
+        },
+        {
+          "doubleCounters": "target2"
+        }
+      ],
+      "text": "{G}{U}, {T}: Double the number of each kind of counter on up to two target creatures and/or artifacts you control."
+    }
+  ]
+}

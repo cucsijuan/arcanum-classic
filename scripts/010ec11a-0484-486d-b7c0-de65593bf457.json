@@ -1,0 +1,41 @@
+{
+  "name": "Sanguine Indulgence",
+  "costReduction": {
+    "amount": 3,
+    "if": {
+      "gainedLife": 3
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "optional": true
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Ravenous Sailback",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "This creature gains haste until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "self",
+              "keywords": [
+                "Haste"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Destroy target artifact or enchantment.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

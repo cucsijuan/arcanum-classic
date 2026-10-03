@@ -1,0 +1,23 @@
+{
+  "name": "Witty Roastmaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Micromancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for an instant or sorcery card with mana value 1?",
+          "effects": [
+            {
+              "search": {
+                "types": [
+                  "instant",
+                  "sorcery"
+                ],
+                "minManaValue": 1,
+                "maxManaValue": 1
+              },
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

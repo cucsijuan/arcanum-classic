@@ -1,0 +1,29 @@
+{
+  "name": "Prayer of Binding",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this enchantment enters, exile up to one target nonland permanent an opponent controls until this enchantment leaves the battlefield. You gain 2 life."
+    }
+  ]
+}

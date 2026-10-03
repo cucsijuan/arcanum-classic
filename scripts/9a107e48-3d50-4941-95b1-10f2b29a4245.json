@@ -1,0 +1,33 @@
+{
+  "name": "Stroke of Midnight",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Human",
+          "types": "Creature — Human",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ]
+        },
+        "for": "targetController"
+      }
+    ]
+  }
+}

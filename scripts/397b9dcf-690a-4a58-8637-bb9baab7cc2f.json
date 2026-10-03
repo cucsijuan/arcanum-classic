@@ -1,0 +1,45 @@
+{
+  "name": "Elder Gargaroth",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "modes": [
+        {
+          "text": "Create a 3/3 green Beast creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Beast",
+                "types": "Creature — Beast",
+                "power": 3,
+                "toughness": 3,
+                "colors": [
+                  "G"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "You gain 3 life.",
+          "effects": [
+            {
+              "gainLife": 3
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks or blocks choose one —"
+    }
+  ]
+}

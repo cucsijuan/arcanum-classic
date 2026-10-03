@@ -38,7 +38,7 @@ def supported(card, scripts):
     if any(k.lower() not in ENGINE_KEYWORDS for k in card.get("keywords", [])):
         return False
     for stat in ("power", "toughness"):
-        if stat in card and not re.fullmatch(r"-?\d+", card[stat]):
+        if stat in card and not re.fullmatch(r"-?\d+", card[stat]) and card["oracle_id"] not in scripts:
             return False
     if re.search(r"/P\}", card.get("mana_cost", "")):
         return False

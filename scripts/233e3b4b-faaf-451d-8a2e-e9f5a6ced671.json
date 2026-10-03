@@ -1,0 +1,48 @@
+{
+  "name": "Giant-Sized Flying Ant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Tap target nonland permanent.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "not": [
+                  "land"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        },
+        {
+          "text": "Untap target nonland permanent.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "not": [
+                  "land"
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "untap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

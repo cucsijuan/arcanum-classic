@@ -1,0 +1,56 @@
+{
+  "name": "Boros Charm",
+  "spell": {
+    "modes": [
+      {
+        "text": "Boros Charm deals 4 damage to target player or planeswalker.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Permanents you control gain indestructible until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": {
+              "each": {
+                "controller": "you"
+              }
+            },
+            "keywords": [
+              "Indestructible"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Target creature gains double strike until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Double strike"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

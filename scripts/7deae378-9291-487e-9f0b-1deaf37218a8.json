@@ -1,0 +1,32 @@
+{
+  "name": "Inquisitor Exarch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "You gain 2 life.",
+          "effects": [
+            {
+              "gainLife": 2
+            }
+          ]
+        },
+        {
+          "text": "Target opponent loses 2 life.",
+          "targets": [
+            "opponent"
+          ],
+          "effects": [
+            {
+              "loseLife": 2,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

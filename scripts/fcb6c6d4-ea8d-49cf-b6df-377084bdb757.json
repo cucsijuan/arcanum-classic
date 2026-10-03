@@ -1,0 +1,43 @@
+{
+  "name": "Immersturm Predator",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "Sacrifice another creature: This creature gains indestructible until end of turn. Tap it."
+    }
+  ]
+}

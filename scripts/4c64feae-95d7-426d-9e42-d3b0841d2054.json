@@ -1,0 +1,5 @@
+{
+  "name": "Goblin Boarders",
+  "entersWithCounters": 1,
+  "entersWithCountersIf": "raid"
+}

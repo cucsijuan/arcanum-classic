@@ -1,0 +1,30 @@
+{
+  "name": "Sun-Blessed Healer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature",
+              "artifact",
+              "enchantment",
+              "planeswalker"
+            ],
+            "maxManaValue": 2
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield."
+    }
+  ]
+}

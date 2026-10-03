@@ -1,0 +1,41 @@
+{
+  "name": "Sandsteppe Outcast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on this creature.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Create a 1/1 white Spirit creature token with flying.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

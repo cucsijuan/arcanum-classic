@@ -1,0 +1,35 @@
+{
+  "name": "Inspiring Call",
+  "spell": {
+    "effects": [
+      {
+        "draw": {
+          "count": {
+            "types": [
+              "creature"
+            ],
+            "hasCounters": true
+          }
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "hasCounters": true
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

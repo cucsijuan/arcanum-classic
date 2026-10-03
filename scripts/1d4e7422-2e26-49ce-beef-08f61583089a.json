@@ -1,0 +1,21 @@
+{
+  "name": "Armasaur Guide",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "if": {
+        "attackers": 3
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack with three or more creatures, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

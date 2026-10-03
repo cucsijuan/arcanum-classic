@@ -1,0 +1,22 @@
+{
+  "name": "Volley Veteran",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "subtype": "Goblin"
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals damage to target creature an opponent controls equal to the number of Goblins you control."
+    }
+  ]
+}

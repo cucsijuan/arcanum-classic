@@ -1,0 +1,55 @@
+{
+  "name": "Cleanup Crew",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Destroy target artifact.",
+          "targets": [
+            "artifact"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target enchantment.",
+          "targets": [
+            "enchantment"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Exile target card from a graveyard.",
+          "targets": [
+            {
+              "kind": "graveyardCard"
+            }
+          ],
+          "effects": [
+            {
+              "exile": "target"
+            }
+          ]
+        },
+        {
+          "text": "You gain 4 life.",
+          "effects": [
+            {
+              "gainLife": 4
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

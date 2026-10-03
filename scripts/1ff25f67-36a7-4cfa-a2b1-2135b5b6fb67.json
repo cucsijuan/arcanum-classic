@@ -1,0 +1,36 @@
+{
+  "name": "Scavenging Ooze",
+  "abilities": [
+    {
+      "cost": "{G}",
+      "targets": [
+        "graveyardCard"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "self"
+            },
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "{G}: Exile target card from a graveyard. If it was a creature card, put a +1/+1 counter on this creature and you gain 1 life."
+    }
+  ]
+}

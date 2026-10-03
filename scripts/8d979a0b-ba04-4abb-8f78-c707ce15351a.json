@@ -1,0 +1,28 @@
+{
+  "name": "Cephalid Inkmage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 3
+        }
+      ],
+      "text": "When this creature enters, surveil 3."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": "threshold",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Threshold — This creature can't be blocked as long as there are seven or more cards in your graveyard."
+    }
+  ]
+}

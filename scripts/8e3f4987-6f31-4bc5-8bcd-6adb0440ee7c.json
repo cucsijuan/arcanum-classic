@@ -1,0 +1,27 @@
+{
+  "name": "Ghitu Lavarunner",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "As long as there are two or more instant and/or sorcery cards in your graveyard, this creature gets +1/+0 and has haste."
+    }
+  ]
+}
