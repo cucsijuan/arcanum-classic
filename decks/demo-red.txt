@@ -1,5 +1,8 @@
 # Sample deck used by the hotseat demo.
 17 Mountain
-10 Gray Ogre
-8 Hill Giant
-5 Earth Elemental
+4 Raging Goblin
+6 Goblin Piker
+4 Gray Ogre
+3 Highland Giant
+3 Charging Monstrosaur
+3 Volcanic Dragon
