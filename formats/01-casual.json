@@ -1,0 +1,7 @@
+{
+  "id": "casual",
+  "name": "Casual",
+  "minDeckSize": 40,
+  "maxCopies": 4,
+  "description": "Any cards. At least 40 cards, up to 4 copies of each."
+}

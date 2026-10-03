@@ -1,0 +1,9 @@
+{
+  "id": "pauper",
+  "name": "Pauper",
+  "legality": "pauper",
+  "minDeckSize": 60,
+  "maxCopies": 4,
+  "sideboardMax": 15,
+  "description": "Commons only."
+}

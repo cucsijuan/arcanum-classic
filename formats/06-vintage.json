@@ -1,0 +1,9 @@
+{
+  "id": "vintage",
+  "name": "Vintage",
+  "legality": "vintage",
+  "minDeckSize": 60,
+  "maxCopies": 4,
+  "sideboardMax": 15,
+  "description": "Every card, with a restricted list instead of most bans."
+}

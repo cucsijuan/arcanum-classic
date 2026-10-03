@@ -1,0 +1,9 @@
+{
+  "id": "legacy",
+  "name": "Legacy",
+  "legality": "legacy",
+  "minDeckSize": 60,
+  "maxCopies": 4,
+  "sideboardMax": 15,
+  "description": "Almost every card ever printed, with a ban list."
+}
