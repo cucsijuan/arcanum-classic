@@ -1,0 +1,19 @@
+{
+  "name": "Orcish Bloodpainter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice a creature: This creature deals 1 damage to any target."
+    }
+  ]
+}

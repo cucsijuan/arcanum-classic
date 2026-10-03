@@ -1,0 +1,23 @@
+{
+  "name": "Scorch Rider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, it gains haste until end of turn."
+    }
+  ]
+}

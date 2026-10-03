@@ -1,0 +1,19 @@
+{
+  "name": "Drowned Rusalka",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, sacrifice:creature",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "you"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{U}, Sacrifice a creature: Discard a card, then draw a card."
+    }
+  ]
+}

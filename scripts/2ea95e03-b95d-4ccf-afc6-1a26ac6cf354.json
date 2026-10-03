@@ -1,0 +1,25 @@
+{
+  "name": "Sergeant-at-Arms",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, create two 1/1 white Soldier creature tokens."
+    }
+  ]
+}

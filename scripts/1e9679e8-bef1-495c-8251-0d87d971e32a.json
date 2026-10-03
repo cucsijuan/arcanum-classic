@@ -1,0 +1,23 @@
+{
+  "name": "Leatherhead, Iron Gator",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 2,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Leatherhead, Iron Gator attacks, put two +1/+1 counters on each creature you control."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Mishra's Onslaught",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Create two 1/1 colorless Soldier artifact creature tokens.",
+        "effects": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Soldier",
+              "types": "Creature — Soldier",
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control get +2/+0 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Phyrexian Missionary",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, return target creature card from your graveyard to your hand."
+    }
+  ]
+}

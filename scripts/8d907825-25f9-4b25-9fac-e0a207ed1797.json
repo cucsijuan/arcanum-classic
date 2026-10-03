@@ -1,0 +1,24 @@
+{
+  "name": "Skyway Sniper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{G}: This creature deals 1 damage to target creature with flying."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Miraculous Recovery",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Fallowsage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you may draw a card."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Invoke the Firemind",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Draw X cards.",
+        "effects": [
+          {
+            "draw": "X"
+          }
+        ]
+      },
+      {
+        "text": "Invoke the Firemind deals X damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": "X",
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

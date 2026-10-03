@@ -1,0 +1,19 @@
+{
+  "name": "Reckless Assault",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, life:2",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}, Pay 2 life: This enchantment deals 1 damage to any target."
+    }
+  ]
+}

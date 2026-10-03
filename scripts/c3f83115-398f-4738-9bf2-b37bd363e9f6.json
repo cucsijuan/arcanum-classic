@@ -1,0 +1,26 @@
+{
+  "name": "Captain's Defense",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

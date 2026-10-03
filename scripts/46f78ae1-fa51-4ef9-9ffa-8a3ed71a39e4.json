@@ -1,0 +1,22 @@
+{
+  "name": "Songbird, Sonic Screamer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Discard a card: Songbird, Sonic Screamer gains flying until end of turn."
+    }
+  ]
+}

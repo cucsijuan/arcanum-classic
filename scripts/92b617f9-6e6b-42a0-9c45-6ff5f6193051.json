@@ -1,0 +1,27 @@
+{
+  "name": "Aang's Defense",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "controller": "you",
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

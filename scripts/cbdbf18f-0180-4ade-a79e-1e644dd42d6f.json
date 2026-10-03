@@ -1,0 +1,39 @@
+{
+  "name": "Rip Apart",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Rip Apart deals 3 damage to target creature or planeswalker.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact or enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Utter End",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

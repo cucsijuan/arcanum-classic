@@ -1,0 +1,53 @@
+{
+  "name": "Methods of the Mighty",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target tapped creature.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "tapped": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on each creature you control.",
+        "effects": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "chooseCount": 3,
+    "upTo": true
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Nephalia Moondrakes",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature gains flying until end of turn."
+    },
+    {
+      "cost": "{4}{U}{U}, exileFromGraveyard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{4}{U}{U}, Exile this card from your graveyard: Creatures you control gain flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Kill Shot",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Artful Takedown",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Tap target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "tap": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -2/-4 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -2,
+              -4
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sands of Delirium",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": "X",
+          "who": "target"
+        }
+      ],
+      "text": "{X}, {T}: Target player mills X cards."
+    }
+  ]
+}

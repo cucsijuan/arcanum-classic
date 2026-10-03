@@ -1,0 +1,31 @@
+{
+  "name": "Soulblade Djinn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

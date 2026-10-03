@@ -1,0 +1,22 @@
+{
+  "name": "Wrecking Ball",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

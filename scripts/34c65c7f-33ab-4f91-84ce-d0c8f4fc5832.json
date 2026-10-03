@@ -1,0 +1,34 @@
+{
+  "name": "Lunatic Pandora",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{2}, {T}: Surveil 1."
+    },
+    {
+      "cost": "{6}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{6}, {T}, Sacrifice Lunatic Pandora: Destroy target nonland permanent."
+    }
+  ]
+}

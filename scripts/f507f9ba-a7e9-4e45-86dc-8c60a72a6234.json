@@ -1,0 +1,22 @@
+{
+  "name": "Vedalken Mesmerist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, target creature an opponent controls gets -2/-0 until end of turn."
+    }
+  ]
+}

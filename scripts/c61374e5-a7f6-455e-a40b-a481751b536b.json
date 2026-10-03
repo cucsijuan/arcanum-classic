@@ -1,0 +1,36 @@
+{
+  "name": "Bushwhack",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "effects": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 1,
+            "to": "hand"
+          }
+        ]
+      },
+      {
+        "text": "Target creature you control fights target creature you don't control.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

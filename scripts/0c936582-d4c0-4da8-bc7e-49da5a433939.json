@@ -1,0 +1,21 @@
+{
+  "name": "Bone Splinters",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

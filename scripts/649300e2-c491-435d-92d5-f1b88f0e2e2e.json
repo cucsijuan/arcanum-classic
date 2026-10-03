@@ -1,0 +1,24 @@
+{
+  "name": "Elite Javelineer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "blocks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this creature blocks, it deals 1 damage to target attacking creature."
+    }
+  ]
+}

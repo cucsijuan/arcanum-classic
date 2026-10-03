@@ -1,0 +1,51 @@
+{
+  "name": "Abzan Ascendancy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this enchantment enters, put a +1/+1 counter on each creature you control."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

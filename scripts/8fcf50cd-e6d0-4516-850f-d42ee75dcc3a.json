@@ -1,0 +1,21 @@
+{
+  "name": "Expedition Map",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

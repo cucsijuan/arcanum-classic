@@ -1,0 +1,32 @@
+{
+  "name": "Théoden, King of Rohan",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Human"
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "Whenever Théoden, King of Rohan or another Human you control enters, target creature gains double strike until end of turn."
+    }
+  ]
+}

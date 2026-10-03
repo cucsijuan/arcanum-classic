@@ -1,0 +1,45 @@
+{
+  "name": "Wingmate Roc",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "raid",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "power": 3,
+            "toughness": 4,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Raid — When this creature enters, if you attacked this turn, create a 3/4 white Bird creature token with flying."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "gainLife": {
+            "attacking": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            },
+            "times": 1
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, you gain 1 life for each attacking creature."
+    }
+  ]
+}

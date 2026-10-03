@@ -1,0 +1,31 @@
+{
+  "name": "Molten Blast",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Molten Blast deals 2 damage to target creature or planeswalker.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

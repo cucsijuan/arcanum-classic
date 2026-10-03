@@ -1,0 +1,20 @@
+{
+  "name": "Tranquil Path",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

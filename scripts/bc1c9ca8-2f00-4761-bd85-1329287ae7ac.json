@@ -1,0 +1,8 @@
+{
+  "name": "Siren Reaver",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "if": "raid"
+  }
+}

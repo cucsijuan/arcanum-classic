@@ -1,0 +1,15 @@
+{
+  "name": "Peace of Mind",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, discard",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{W}, Discard a card: You gain 3 life."
+    }
+  ]
+}

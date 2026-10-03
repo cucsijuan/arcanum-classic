@@ -1,0 +1,22 @@
+{
+  "name": "Your Fate Ends Here",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "minManaValue": 3
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

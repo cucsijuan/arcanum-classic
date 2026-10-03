@@ -1,0 +1,62 @@
+{
+  "name": "Trading Post",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, discard",
+      "effects": [
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "{1}, {T}, Discard a card: You gain 4 life."
+    },
+    {
+      "cost": "{1}, {T}, life:1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goat",
+            "types": "Creature — Goat",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token."
+    },
+    {
+      "cost": "{1}, {T}, sacrifice:creature",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand."
+    },
+    {
+      "cost": "{1}, {T}, sacrifice:artifact",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice an artifact: Draw a card."
+    }
+  ]
+}

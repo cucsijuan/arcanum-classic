@@ -1,0 +1,17 @@
+{
+  "name": "Cackling Prowler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

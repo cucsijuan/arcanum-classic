@@ -3,66 +3,66 @@ Commander
 1 Yargle, Glutton of Urborg
 
 Deck
-1 Battlefly Swarm
+1 Barrier of Bones
+1 Dream Beavers
 1 Fungal Infection
 1 Monoist Sentry
-1 Ravine Raider
-1 Unholy Strength
-1 Vicious Conquistador
-1 Craven Knight
-1 Fledgling Djinn
-1 Foul Imp
+1 Peppersmoke
+1 Snarling Gorehound
+1 Desperate Bloodseeker
+1 Diabolic Edict
 1 Gifted Aetherborn
-1 Give In to Violence
 1 Grotesque Mutation
-1 Merciless Enforcers
-1 Mire's Grasp
-1 Moment of Craving
-1 Spineless Thug
+1 Mintstrosity
+1 Morgue Theft
+1 Nullpriest of Oblivion
+1 Scarblade Scout
 1 Spiteful Bully
+1 Subtle Strike
 1 Toxic Abomination
-1 Vampire Interloper
-1 Young Wei Recruits
-1 Boon of Emrakul
-1 Daggerclaw Imp
-1 Deathbloom Thallid
-1 Dread Shade
+1 Wreckage Wickerfolk
+1 Wretched Anurid
+1 Wretched Doll
+1 Appendage Amalgam
+1 Cruel Finality
+1 Daggerfang Duo
+1 Gibbering Barricade
 1 Hero's Downfall
 1 Kalakscion, Hunger Tyrant
-1 Lawless Broker
+1 Mardu Outrider
 1 Master of the Feast
-1 Moment of Defiance
+1 Morbid Plunder
 1 Necrogen Scudder
-1 Serpent Warrior
-1 Spinal Centipede
-1 Tar Snare
-1 Vampire Nighthawk
-1 Fatal Fumes
+1 Reaver Ambush
+1 Rotting Regisaur
+1 Venomized Cat
+1 Warren Soultrader
+1 Bake into a Pie
+1 Bone Picker
+1 Crypt Feaster
+1 Demon of Catastrophes
 1 Feast of the Unicorn
-1 Grendel, Spawn of Knull
-1 Howling Banshee
+1 Forsaken Drifters
+1 Greed
 1 Juzám Djinn
-1 Phyrexian Defiler
 1 Rampart Hunter
-1 Scavenging Scarab
-1 Skeleton Archer
-1 Strangling Spores
+1 Rankle's Prank
 1 Vampiric Spirit
-1 Vraska's Contempt
-1 Catacomb Crocodile
-1 Demon's Grasp
-1 Douser of Lights
-1 Drider
-1 Lazotep Behemoth
+1 Venomous Hierophant
+1 Bloodthirsty Conqueror
+1 Deadly Visit
+1 Doom Whisperer
+1 Dreadwurm
 1 Lich's Caress
-1 Rage-Scarred Berserker
+1 Scream Puff
 1 Throttle
 1 Unhallowed Phalanx
-1 Bogstomper
-1 Caustic Hound
+1 Venom, Evil Unleashed
+1 Abyssal Gorestalker
 1 Dread Reaper
 1 Eyes of the Beholder
-1 Feral Abomination
-1 Maalfeld Twins
-1 Minotaur Abomination
+1 Necropolis Regent
+1 Soul of Innistrad
+1 Baleful Force
+1 Pestilence Demon
 37 Swamp

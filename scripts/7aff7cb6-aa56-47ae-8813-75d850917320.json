@@ -1,0 +1,23 @@
+{
+  "name": "White Widow, Yelena Belova",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "keyword": "Deathtouch"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature you control with deathtouch deals combat damage to a player, put a +1/+1 counter on it."
+    }
+  ]
+}

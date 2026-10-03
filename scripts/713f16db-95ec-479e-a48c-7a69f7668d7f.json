@@ -1,0 +1,21 @@
+{
+  "name": "Void Rend",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

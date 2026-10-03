@@ -1,0 +1,26 @@
+{
+  "name": "Nebelgast Intruder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "optional": true,
+          "controller": "opponent",
+          "kind": "creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, up to one target creature an opponent controls gets -2/-0 until end of turn."
+    }
+  ]
+}

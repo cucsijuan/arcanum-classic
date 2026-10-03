@@ -1,0 +1,17 @@
+{
+  "name": "Nobilis of War",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          0
+        ],
+        "subtype": "Attacking"
+      },
+      "text": "Attacking creatures you control get +2/+0."
+    }
+  ]
+}

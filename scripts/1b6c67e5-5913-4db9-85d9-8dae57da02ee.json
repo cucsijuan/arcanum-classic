@@ -1,0 +1,34 @@
+{
+  "name": "Dimir Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{U}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{3}{U}: Target player draws a card. Activate only as a sorcery.",
+      "sorcery": true
+    },
+    {
+      "cost": "{3}{B}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{3}{B}: Target player discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

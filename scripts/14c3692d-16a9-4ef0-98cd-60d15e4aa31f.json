@@ -1,0 +1,22 @@
+{
+  "name": "Benalish Sleeper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, each player sacrifices a creature of their choice."
+    }
+  ]
+}

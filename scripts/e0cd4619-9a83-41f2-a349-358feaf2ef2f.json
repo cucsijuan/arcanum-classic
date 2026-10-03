@@ -1,0 +1,26 @@
+{
+  "name": "Moonveil Dragon",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{R}: Each creature you control gets +1/+0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Spectral Procession",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ]
+  }
+}

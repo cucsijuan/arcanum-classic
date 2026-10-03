@@ -1,0 +1,22 @@
+{
+  "name": "Patrol Hound",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Discard a card: This creature gains first strike until end of turn."
+    }
+  ]
+}

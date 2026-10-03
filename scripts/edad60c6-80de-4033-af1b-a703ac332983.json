@@ -1,0 +1,19 @@
+{
+  "name": "Goblin Bombardment",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Sacrifice a creature: This enchantment deals 1 damage to any target."
+    }
+  ]
+}

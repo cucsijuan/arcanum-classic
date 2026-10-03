@@ -1,0 +1,32 @@
+{
+  "name": "Shell Skulkin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Shroud"
+          ]
+        }
+      ],
+      "text": "{3}: Target blue creature gains shroud until end of turn."
+    }
+  ]
+}

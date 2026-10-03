@@ -1,0 +1,16 @@
+{
+  "name": "Warren Soultrader",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:1, sacrifice:creature",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Pay 1 life, Sacrifice another creature: Create a Treasure token."
+    }
+  ]
+}

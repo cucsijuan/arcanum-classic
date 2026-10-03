@@ -1,0 +1,17 @@
+{
+  "name": "Narrow Escape",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent:you"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "gainLife": 4
+      }
+    ]
+  }
+}

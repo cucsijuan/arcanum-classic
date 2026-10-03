@@ -1,0 +1,20 @@
+{
+  "name": "Leaf Arrow",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Centaur Rootcaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

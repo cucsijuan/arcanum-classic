@@ -1,0 +1,19 @@
+{
+  "name": "Kris Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}, discard",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, {T}, Discard a card: This creature deals 1 damage to any target."
+    }
+  ]
+}

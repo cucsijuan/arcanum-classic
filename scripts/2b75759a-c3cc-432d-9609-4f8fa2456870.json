@@ -1,0 +1,26 @@
+{
+  "name": "Screeching Phoenix",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{2}{R}: Creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

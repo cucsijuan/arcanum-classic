@@ -1,0 +1,19 @@
+{
+  "name": "Pearl of Wisdom",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "subtype": "Otter"
+      }
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

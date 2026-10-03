@@ -1,0 +1,27 @@
+{
+  "name": "Pegasus Refuge",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, discard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pegasus",
+            "types": "Creature — Pegasus",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{2}, Discard a card: Create a 1/1 white Pegasus creature token with flying."
+    }
+  ]
+}

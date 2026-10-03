@@ -1,0 +1,20 @@
+{
+  "name": "Moan of the Unhallowed",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "B"
+          ]
+        }
+      }
+    ]
+  }
+}

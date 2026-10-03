@@ -1,0 +1,23 @@
+{
+  "name": "Piercing Light",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Arbor Armament",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

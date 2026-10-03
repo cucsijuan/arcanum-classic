@@ -1,0 +1,24 @@
+{
+  "name": "Leave in the Dust",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

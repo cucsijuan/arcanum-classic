@@ -1,0 +1,14 @@
+{
+  "name": "Electric Revelation",
+  "generated": true,
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

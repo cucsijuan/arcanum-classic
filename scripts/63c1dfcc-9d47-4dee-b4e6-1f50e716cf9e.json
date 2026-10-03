@@ -1,0 +1,23 @@
+{
+  "name": "Intrepid Hero",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "minPower": 4
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}: Destroy target creature with power 4 or greater."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Phyrexian Plaguelord",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -4,
+            -4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Target creature gets -4/-4 until end of turn."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Sacrifice a creature: Target creature gets -1/-1 until end of turn."
+    }
+  ]
+}

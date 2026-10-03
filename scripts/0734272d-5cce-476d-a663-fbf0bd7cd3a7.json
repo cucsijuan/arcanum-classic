@@ -1,0 +1,27 @@
+{
+  "name": "Kithkin Shielddare",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{W}, {T}: Target blocking creature gets +2/+2 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Joust Through",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "gainLife": 1
+      }
+    ]
+  }
+}

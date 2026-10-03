@@ -1,0 +1,37 @@
+{
+  "name": "World Map",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this artifact: Search your library for a land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

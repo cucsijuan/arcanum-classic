@@ -1,0 +1,27 @@
+{
+  "name": "Icy Manipulator",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}, {T}: Tap target artifact, creature, or land."
+    }
+  ]
+}

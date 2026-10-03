@@ -1,0 +1,35 @@
+{
+  "name": "Gnawing Vermin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target player mills two cards."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature dies, target creature you don't control gets -1/-1 until end of turn."
+    }
+  ]
+}

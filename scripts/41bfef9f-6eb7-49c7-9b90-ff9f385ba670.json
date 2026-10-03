@@ -1,0 +1,22 @@
+{
+  "name": "Second Thoughts",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

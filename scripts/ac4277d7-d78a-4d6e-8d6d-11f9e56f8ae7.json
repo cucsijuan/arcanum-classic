@@ -1,0 +1,52 @@
+{
+  "name": "Glorious Decay",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Glorious Decay deals 4 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target card from a graveyard. Draw a card.",
+        "targets": [
+          {
+            "kind": "graveyardCard"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          },
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

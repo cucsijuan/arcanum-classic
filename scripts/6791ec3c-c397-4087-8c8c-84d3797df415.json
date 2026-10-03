@@ -1,0 +1,17 @@
+{
+  "name": "Innocent Blood",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "everyone"
+      }
+    ]
+  }
+}

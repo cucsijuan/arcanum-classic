@@ -1,0 +1,22 @@
+{
+  "name": "Select for Inspection",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "tapped": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

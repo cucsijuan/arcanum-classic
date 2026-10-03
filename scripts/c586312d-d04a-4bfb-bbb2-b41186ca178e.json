@@ -1,0 +1,12 @@
+{
+  "name": "Prosperity",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": "X",
+        "who": "everyone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Dry Spell",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "damage": 1,
+        "to": "everyone"
+      }
+    ]
+  }
+}

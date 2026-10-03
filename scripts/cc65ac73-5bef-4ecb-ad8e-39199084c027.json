@@ -1,0 +1,29 @@
+{
+  "name": "Cathars' Crusade",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever a creature you control enters, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Spear Spewer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "everyone"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to each player."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Spirit Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G",
+              "U"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}: Target green or blue creature gets +0/+1 until end of turn."
+    }
+  ]
+}

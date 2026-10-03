@@ -1,0 +1,21 @@
+{
+  "name": "Elemental Summoning",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Elemental",
+          "types": "Creature — Elemental",
+          "power": 4,
+          "toughness": 4,
+          "colors": [
+            "U",
+            "R"
+          ]
+        }
+      }
+    ]
+  }
+}

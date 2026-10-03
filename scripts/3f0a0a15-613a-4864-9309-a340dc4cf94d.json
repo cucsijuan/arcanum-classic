@@ -1,0 +1,22 @@
+{
+  "name": "Rally the Peasants",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

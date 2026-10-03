@@ -1,0 +1,26 @@
+{
+  "name": "Fearless Fledgling",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature. It gains flying until end of turn."
+    }
+  ]
+}

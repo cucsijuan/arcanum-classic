@@ -1,0 +1,14 @@
+{
+  "name": "Bash to Bits",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

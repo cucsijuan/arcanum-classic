@@ -1,0 +1,15 @@
+{
+  "name": "Starfighter Pilot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, surveil 1."
+    }
+  ]
+}

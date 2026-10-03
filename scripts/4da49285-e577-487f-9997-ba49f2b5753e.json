@@ -1,0 +1,28 @@
+{
+  "name": "Haradrim Spearmaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, another target creature you control gets +1/+0 until end of turn."
+    }
+  ]
+}

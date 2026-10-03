@@ -1,0 +1,15 @@
+{
+  "name": "Moonrise Cleric",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, you gain 1 life."
+    }
+  ]
+}

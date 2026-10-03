@@ -1,0 +1,25 @@
+{
+  "name": "Suspicious Shambler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}{B}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "{4}{B}{B}, Exile this card from your graveyard: Create two 2/2 black Zombie creature tokens. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

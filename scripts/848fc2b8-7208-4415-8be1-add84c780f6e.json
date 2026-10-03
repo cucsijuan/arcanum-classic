@@ -1,0 +1,29 @@
+{
+  "name": "Territorial Boar",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 4
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control with power 4 or greater enters, this creature gets +1/+1 and gains vigilance until end of turn."
+    }
+  ]
+}

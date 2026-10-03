@@ -1,0 +1,19 @@
+{
+  "name": "Scorched Rusalka",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice:creature",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, Sacrifice a creature: This creature deals 1 damage to target player or planeswalker."
+    }
+  ]
+}

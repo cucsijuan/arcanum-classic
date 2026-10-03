@@ -1,0 +1,30 @@
+{
+  "name": "Wilderness Hypnotist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "R",
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target red or green creature gets -2/-0 until end of turn."
+    }
+  ]
+}

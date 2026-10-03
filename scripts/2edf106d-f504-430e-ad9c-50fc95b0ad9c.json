@@ -1,0 +1,8 @@
+{
+  "name": "Bone Picker",
+  "generated": true,
+  "costReduction": {
+    "amount": 3,
+    "if": "morbid"
+  }
+}

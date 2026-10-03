@@ -1,0 +1,28 @@
+{
+  "name": "Viridian Emissary",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

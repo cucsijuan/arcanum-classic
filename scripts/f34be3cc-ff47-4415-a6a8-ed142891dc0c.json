@@ -1,0 +1,15 @@
+{
+  "name": "Sage of Lat-Nam",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:artifact",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Sacrifice an artifact: Draw a card."
+    }
+  ]
+}

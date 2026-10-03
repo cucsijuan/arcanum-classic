@@ -1,0 +1,24 @@
+{
+  "name": "Birthing Boughs",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "{4}, {T}: Create a 2/2 colorless Shapeshifter creature token with changeling."
+    }
+  ]
+}

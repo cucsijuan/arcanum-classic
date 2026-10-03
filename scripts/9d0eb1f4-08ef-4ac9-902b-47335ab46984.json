@@ -1,0 +1,51 @@
+{
+  "name": "Conclave Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{G}, {T}: Creatures you control gain trample until end of turn."
+    },
+    {
+      "cost": "{5}{W}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf Knight",
+            "types": "Creature — Elf Knight",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G",
+              "W"
+            ],
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "{5}{W}, {T}: Create a 2/2 green and white Elf Knight creature token with vigilance."
+    }
+  ]
+}

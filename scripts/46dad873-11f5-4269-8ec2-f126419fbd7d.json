@@ -1,0 +1,39 @@
+{
+  "name": "Golgari Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}, sacrifice:creature",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{4}{B}, Sacrifice a creature: Return target creature card from your graveyard to your hand."
+    },
+    {
+      "cost": "{4}{G}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{4}{G}: Put a +1/+1 counter on target creature."
+    }
+  ]
+}

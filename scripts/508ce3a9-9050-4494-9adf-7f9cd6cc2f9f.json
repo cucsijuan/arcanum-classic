@@ -1,0 +1,15 @@
+{
+  "name": "Soulreaper of Mogis",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{B}, Sacrifice a creature: Draw a card."
+    }
+  ]
+}

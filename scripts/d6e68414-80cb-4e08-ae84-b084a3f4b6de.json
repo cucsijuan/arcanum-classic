@@ -1,0 +1,27 @@
+{
+  "name": "Faerie Dreamthief",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters, surveil 1."
+    },
+    {
+      "cost": "{2}{B}, exileFromGraveyard",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "{2}{B}, Exile this card from your graveyard: You draw a card and you lose 1 life."
+    }
+  ]
+}

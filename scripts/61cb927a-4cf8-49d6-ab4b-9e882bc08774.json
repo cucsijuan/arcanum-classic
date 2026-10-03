@@ -1,0 +1,36 @@
+{
+  "name": "Keep Out",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Keep Out deals 4 damage to target tapped creature.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "tapped": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

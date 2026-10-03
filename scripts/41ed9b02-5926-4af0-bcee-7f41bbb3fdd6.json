@@ -1,0 +1,20 @@
+{
+  "name": "Sandblast",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

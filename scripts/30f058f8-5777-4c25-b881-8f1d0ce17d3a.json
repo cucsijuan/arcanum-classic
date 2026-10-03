@@ -1,0 +1,39 @@
+{
+  "name": "Sarkhan's Resolve",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gets +3/+3 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

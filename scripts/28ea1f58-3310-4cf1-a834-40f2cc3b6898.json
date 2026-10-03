@@ -1,0 +1,20 @@
+{
+  "name": "Terashi's Verdict",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true,
+          "maxPower": 3
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

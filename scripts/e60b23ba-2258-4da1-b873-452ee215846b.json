@@ -1,0 +1,28 @@
+{
+  "name": "Fallaji Vanguard",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control enters, target creature gets +2/+0 until end of turn."
+    }
+  ]
+}

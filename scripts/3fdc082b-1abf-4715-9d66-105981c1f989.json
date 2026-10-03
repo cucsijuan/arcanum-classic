@@ -1,0 +1,20 @@
+{
+  "name": "Steelgaze Griffin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

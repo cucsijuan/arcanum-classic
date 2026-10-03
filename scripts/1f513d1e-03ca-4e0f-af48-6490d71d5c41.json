@@ -1,0 +1,19 @@
+{
+  "name": "Needle Storm",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 4,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "keyword": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

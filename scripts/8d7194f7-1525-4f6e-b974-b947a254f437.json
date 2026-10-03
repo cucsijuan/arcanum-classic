@@ -1,0 +1,15 @@
+{
+  "name": "Etherium Astrolabe",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}, sacrifice:artifact",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{B}, {T}, Sacrifice an artifact: Draw a card."
+    }
+  ]
+}

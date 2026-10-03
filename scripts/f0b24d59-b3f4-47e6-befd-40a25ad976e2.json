@@ -1,0 +1,34 @@
+{
+  "name": "Strength of the Coalition",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

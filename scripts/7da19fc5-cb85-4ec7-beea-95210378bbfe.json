@@ -1,0 +1,35 @@
+{
+  "name": "Balmor, Battlemage Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, creatures you control get +1/+0 and gain trample until end of turn."
+    }
+  ]
+}

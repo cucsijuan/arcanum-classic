@@ -1,0 +1,16 @@
+{
+  "name": "Skirsdag Supplicant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}, discard",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "everyone"
+        }
+      ],
+      "text": "{B}, {T}, Discard a card: Each player loses 2 life."
+    }
+  ]
+}

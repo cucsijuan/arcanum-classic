@@ -1,0 +1,25 @@
+{
+  "name": "Northern Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{W}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{W}{W}, {T}: Destroy target black permanent."
+    }
+  ]
+}

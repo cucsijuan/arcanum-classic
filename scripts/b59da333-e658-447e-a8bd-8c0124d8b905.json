@@ -1,0 +1,30 @@
+{
+  "name": "Bloodthorn Taunter",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "minPower": 5
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature with power 5 or greater gains haste until end of turn."
+    }
+  ]
+}

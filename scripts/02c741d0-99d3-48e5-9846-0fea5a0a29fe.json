@@ -1,0 +1,34 @@
+{
+  "name": "Sage of the Inward Eye",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, creatures you control gain lifelink until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lawbringer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Exile target red creature."
+    }
+  ]
+}

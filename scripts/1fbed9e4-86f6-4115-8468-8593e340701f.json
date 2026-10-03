@@ -1,0 +1,16 @@
+{
+  "name": "Krosan Druid",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "gainLife": 10
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, you gain 10 life."
+    }
+  ]
+}

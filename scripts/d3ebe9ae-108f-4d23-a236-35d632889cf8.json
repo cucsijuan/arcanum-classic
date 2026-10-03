@@ -1,0 +1,21 @@
+{
+  "name": "Dark Betrayal",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "B"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

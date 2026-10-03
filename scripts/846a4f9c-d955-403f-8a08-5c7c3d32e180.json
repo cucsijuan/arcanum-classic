@@ -1,0 +1,15 @@
+{
+  "name": "Volcanic Geyser",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      }
+    ]
+  }
+}

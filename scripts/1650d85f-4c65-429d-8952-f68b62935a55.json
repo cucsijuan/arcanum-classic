@@ -1,0 +1,22 @@
+{
+  "name": "Belbe's Armor",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "-X",
+            "X"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{X}, {T}: Target creature gets -X/+X until end of turn."
+    }
+  ]
+}

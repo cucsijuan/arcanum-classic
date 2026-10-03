@@ -1,0 +1,22 @@
+{
+  "name": "Moonglove Changeling",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{B}: This creature gains deathtouch until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Crypt Creeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Exile target card from a graveyard."
+    }
+  ]
+}

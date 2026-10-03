@@ -1,0 +1,16 @@
+{
+  "name": "Rumbling Slum",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "everyone"
+        }
+      ],
+      "text": "At the beginning of your upkeep, this creature deals 1 damage to each player."
+    }
+  ]
+}

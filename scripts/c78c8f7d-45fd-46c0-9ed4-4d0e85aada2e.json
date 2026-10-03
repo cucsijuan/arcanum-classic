@@ -1,0 +1,24 @@
+{
+  "name": "Fell the Pheasant",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

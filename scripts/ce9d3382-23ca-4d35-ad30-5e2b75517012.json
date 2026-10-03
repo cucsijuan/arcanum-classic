@@ -1,0 +1,28 @@
+{
+  "name": "Regal Bloodlord",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "gainedLife",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bat",
+            "types": "Creature — Bat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained life this turn, create a 1/1 black Bat creature token with flying."
+    }
+  ]
+}

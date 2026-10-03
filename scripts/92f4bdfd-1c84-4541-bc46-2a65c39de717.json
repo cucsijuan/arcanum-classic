@@ -1,0 +1,22 @@
+{
+  "name": "Steam Blast",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 2,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "damage": 2,
+        "to": "everyone"
+      }
+    ]
+  }
+}

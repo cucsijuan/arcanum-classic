@@ -1,0 +1,17 @@
+{
+  "name": "Day of Judgment",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

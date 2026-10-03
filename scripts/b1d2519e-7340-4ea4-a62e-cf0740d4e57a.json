@@ -1,0 +1,22 @@
+{
+  "name": "Wreak Havoc",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

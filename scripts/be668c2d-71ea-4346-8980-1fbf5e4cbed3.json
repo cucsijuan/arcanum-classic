@@ -1,0 +1,11 @@
+{
+  "name": "Otherworldly Gaze",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "surveil": 3
+      }
+    ]
+  }
+}

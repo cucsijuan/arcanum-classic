@@ -1,0 +1,32 @@
+{
+  "name": "Kelsinko Ranger",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}{W}: Target green creature gains first strike until end of turn."
+    }
+  ]
+}

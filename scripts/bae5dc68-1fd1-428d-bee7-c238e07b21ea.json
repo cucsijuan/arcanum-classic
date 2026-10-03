@@ -1,0 +1,40 @@
+{
+  "name": "Mouser Attack!",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Create a 1/1 colorless Robot artifact creature token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Robot",
+              "types": "Creature — Robot",
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +3/+0 and gains first strike until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "First strike"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

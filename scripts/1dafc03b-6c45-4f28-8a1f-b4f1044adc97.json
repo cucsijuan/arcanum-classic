@@ -1,0 +1,16 @@
+{
+  "name": "Purify the Grave",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Surrakar Banisher",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "tapped": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target tapped creature to its owner's hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target tapped creature to its owner's hand."
+    }
+  ]
+}

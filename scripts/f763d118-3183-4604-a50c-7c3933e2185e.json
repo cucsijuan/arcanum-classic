@@ -1,0 +1,38 @@
+{
+  "name": "Qasali Slingers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Cat"
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy target artifact or enchantment?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another Cat you control enters, you may destroy target artifact or enchantment."
+    }
+  ]
+}

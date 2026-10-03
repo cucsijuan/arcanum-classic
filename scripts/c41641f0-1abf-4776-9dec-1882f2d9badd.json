@@ -1,0 +1,14 @@
+{
+  "name": "Silent Departure",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

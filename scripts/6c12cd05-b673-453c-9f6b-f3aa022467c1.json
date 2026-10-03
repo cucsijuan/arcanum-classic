@@ -1,0 +1,20 @@
+{
+  "name": "Crush of Wurms",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Wurm",
+          "types": "Creature — Wurm",
+          "power": 6,
+          "toughness": 6,
+          "colors": [
+            "G"
+          ]
+        }
+      }
+    ]
+  }
+}

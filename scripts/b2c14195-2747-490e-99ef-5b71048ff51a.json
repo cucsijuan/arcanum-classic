@@ -1,0 +1,26 @@
+{
+  "name": "Pacification Array",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{2}, {T}: Tap target artifact or creature."
+    }
+  ]
+}

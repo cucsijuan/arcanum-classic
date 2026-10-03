@@ -1,0 +1,24 @@
+{
+  "name": "Grapeshot Catapult",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to target creature with flying."
+    }
+  ]
+}

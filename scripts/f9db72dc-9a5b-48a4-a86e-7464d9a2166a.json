@@ -1,0 +1,31 @@
+{
+  "name": "Abrade",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Abrade deals 3 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

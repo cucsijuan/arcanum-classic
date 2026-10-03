@@ -1,0 +1,63 @@
+{
+  "name": "Kolaghan's Command",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Return target creature card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player discards a card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discard": 1,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Kolaghan's Command deals 2 damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2
+  }
+}

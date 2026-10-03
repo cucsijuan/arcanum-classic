@@ -1,0 +1,23 @@
+{
+  "name": "Air Servant",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{2}{U}: Tap target creature with flying."
+    }
+  ]
+}

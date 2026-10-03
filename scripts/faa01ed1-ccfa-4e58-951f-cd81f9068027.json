@@ -1,0 +1,22 @@
+{
+  "name": "Mortify",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

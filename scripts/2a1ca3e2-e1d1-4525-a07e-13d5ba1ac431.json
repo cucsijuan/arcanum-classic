@@ -1,0 +1,25 @@
+{
+  "name": "Exorcist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Destroy target black creature."
+    }
+  ]
+}

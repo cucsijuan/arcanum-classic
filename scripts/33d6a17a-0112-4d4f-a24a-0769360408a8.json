@@ -1,0 +1,14 @@
+{
+  "name": "Last Word",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ethereal Guidance",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

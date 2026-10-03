@@ -1,0 +1,26 @@
+{
+  "name": "On the Job",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "tokens": 1,
+        "token": "Clue"
+      }
+    ]
+  }
+}

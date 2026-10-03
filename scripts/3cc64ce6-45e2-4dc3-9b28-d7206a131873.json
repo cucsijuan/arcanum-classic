@@ -1,0 +1,8 @@
+{
+  "name": "Dreaded Bat-Cloud",
+  "generated": true,
+  "costReduction": {
+    "amount": 3,
+    "if": "morbid"
+  }
+}

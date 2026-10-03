@@ -1,0 +1,21 @@
+{
+  "name": "Righteous Cause",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a creature attacks, you gain 1 life."
+    }
+  ]
+}

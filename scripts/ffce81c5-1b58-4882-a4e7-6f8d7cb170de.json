@@ -1,0 +1,25 @@
+{
+  "name": "Withering Torment",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "loseLife": 2
+      }
+    ]
+  }
+}

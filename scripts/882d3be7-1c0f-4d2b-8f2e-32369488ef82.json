@@ -1,0 +1,39 @@
+{
+  "name": "Urborg Uprising",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

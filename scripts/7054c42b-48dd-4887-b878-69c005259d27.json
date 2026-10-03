@@ -1,0 +1,25 @@
+{
+  "name": "Thistledown Players",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, untap target nonland permanent."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Baloth Null",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "bounce": "target2"
+        }
+      ],
+      "text": "When this creature enters, return up to two target creature cards from your graveyard to your hand."
+    }
+  ]
+}

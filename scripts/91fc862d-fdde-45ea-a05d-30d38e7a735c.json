@@ -1,0 +1,26 @@
+{
+  "name": "Dispeller's Capsule",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{2}{W}, {T}, Sacrifice this artifact: Destroy target artifact or enchantment."
+    }
+  ]
+}

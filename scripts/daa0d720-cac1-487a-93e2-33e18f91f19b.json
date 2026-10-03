@@ -1,0 +1,25 @@
+{
+  "name": "Daraja Griffin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Destroy target black creature."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Call to Mind",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

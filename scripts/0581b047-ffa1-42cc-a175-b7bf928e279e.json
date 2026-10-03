@@ -1,0 +1,46 @@
+{
+  "name": "Festering Evil",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "damage": 1,
+          "to": "everyone"
+        }
+      ],
+      "text": "At the beginning of your upkeep, this enchantment deals 1 damage to each creature and each player."
+    },
+    {
+      "cost": "{B}{B}, sacrifice",
+      "effects": [
+        {
+          "damage": 3,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "damage": 3,
+          "to": "everyone"
+        }
+      ],
+      "text": "{B}{B}, Sacrifice this enchantment: It deals 3 damage to each creature and each player."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Combat Tutorial",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player",
+      {
+        "optional": true,
+        "controller": "you",
+        "kind": "creature"
+      }
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Appetite for the Unnatural",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

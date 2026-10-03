@@ -1,0 +1,11 @@
+{
+  "name": "Think Twice",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

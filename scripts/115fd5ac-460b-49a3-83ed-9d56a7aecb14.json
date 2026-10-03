@@ -1,0 +1,25 @@
+{
+  "name": "Artisan's Sorrow",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

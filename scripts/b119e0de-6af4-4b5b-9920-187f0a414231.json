@@ -1,0 +1,43 @@
+{
+  "name": "Nahiri's Machinations",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gains indestructible until end of turn."
+    },
+    {
+      "cost": "{1}{R}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}: This enchantment deals 1 damage to target blocking creature."
+    }
+  ]
+}

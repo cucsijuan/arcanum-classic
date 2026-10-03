@@ -1,0 +1,16 @@
+{
+  "name": "Red Herring",
+  "generated": true,
+  "attacksEachCombat": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Draw a card."
+    }
+  ]
+}

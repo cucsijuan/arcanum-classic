@@ -1,0 +1,23 @@
+{
+  "name": "Silklash Spider",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{G}{G}",
+      "effects": [
+        {
+          "damage": "X",
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          }
+        }
+      ],
+      "text": "{X}{G}{G}: This creature deals X damage to each creature with flying."
+    }
+  ]
+}

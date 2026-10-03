@@ -1,0 +1,26 @@
+{
+  "name": "Protomatter Powder",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "{4}{W}, {T}, Sacrifice this artifact: Return target artifact card from your graveyard to the battlefield."
+    }
+  ]
+}

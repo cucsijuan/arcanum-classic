@@ -1,0 +1,30 @@
+{
+  "name": "Marketwatch Phantom",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "maxPower": 2,
+        "other": true
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control with power 2 or less enters, this creature gains flying until end of turn."
+    }
+  ]
+}

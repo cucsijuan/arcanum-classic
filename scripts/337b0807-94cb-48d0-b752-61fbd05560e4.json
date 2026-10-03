@@ -1,0 +1,19 @@
+{
+  "name": "Gale Force",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 5,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "keyword": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

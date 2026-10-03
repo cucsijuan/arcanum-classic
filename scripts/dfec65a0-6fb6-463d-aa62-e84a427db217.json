@@ -1,0 +1,44 @@
+{
+  "name": "Arahbo, the First Fang",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Cat",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Cats you control get +1/+1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Cat",
+        "token": false
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Arahbo, the First Fang or another nontoken Cat you control enters, create a 1/1 white Cat creature token."
+    }
+  ]
+}

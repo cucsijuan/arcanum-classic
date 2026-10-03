@@ -1,0 +1,45 @@
+{
+  "name": "Moment of Valor",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Untap target creature. It gets +1/+0 and gains indestructible until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "untap": "target"
+          },
+          {
+            "pump": [
+              1,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Indestructible"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

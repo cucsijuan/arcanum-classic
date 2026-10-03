@@ -1,0 +1,22 @@
+{
+  "name": "Dross Hopper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Sacrifice a creature: This creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Odric's Outrider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

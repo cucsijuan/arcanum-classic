@@ -1,0 +1,42 @@
+{
+  "name": "Dromar's Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "You gain 5 life.",
+        "effects": [
+          {
+            "gainLife": 5
+          }
+        ]
+      },
+      {
+        "text": "Counter target spell.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -2/-2 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -2,
+              -2
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

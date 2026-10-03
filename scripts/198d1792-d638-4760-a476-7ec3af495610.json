@@ -1,0 +1,23 @@
+{
+  "name": "Krark-Clan Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "without": "Flying"
+            }
+          }
+        }
+      ],
+      "text": "Sacrifice an artifact: This creature deals 1 damage to each creature without flying."
+    }
+  ]
+}

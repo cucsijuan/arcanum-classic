@@ -1,0 +1,15 @@
+{
+  "name": "Skull Fracture",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 1,
+        "who": "target"
+      }
+    ]
+  }
+}

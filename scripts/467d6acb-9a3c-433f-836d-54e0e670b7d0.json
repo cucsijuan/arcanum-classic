@@ -1,0 +1,24 @@
+{
+  "name": "Head of the Homestead",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Rabbit",
+            "types": "Creature — Rabbit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 1/1 white Rabbit creature tokens."
+    }
+  ]
+}

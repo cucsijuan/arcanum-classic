@@ -1,0 +1,26 @@
+{
+  "name": "Argivian Archaeologist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{W}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{W}{W}, {T}: Return target artifact card from your graveyard to your hand."
+    }
+  ]
+}

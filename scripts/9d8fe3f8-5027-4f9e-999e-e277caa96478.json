@@ -1,0 +1,21 @@
+{
+  "name": "Disperse",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

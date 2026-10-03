@@ -1,0 +1,22 @@
+{
+  "name": "Splatter Goblin",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature dies, target creature an opponent controls gets -1/-1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Whisper Agent",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters, surveil 1."
+    }
+  ]
+}

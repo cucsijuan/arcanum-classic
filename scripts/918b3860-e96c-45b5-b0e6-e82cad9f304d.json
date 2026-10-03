@@ -1,0 +1,22 @@
+{
+  "name": "Blessed Light",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

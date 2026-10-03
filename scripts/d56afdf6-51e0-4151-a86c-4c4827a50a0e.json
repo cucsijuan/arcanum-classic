@@ -1,0 +1,46 @@
+{
+  "name": "Umbral Juke",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target player sacrifices a creature or planeswalker of their choice.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a 2/1 white and black Inkling creature token with flying.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Inkling",
+              "types": "Creature — Inkling",
+              "power": 2,
+              "toughness": 1,
+              "colors": [
+                "W",
+                "B"
+              ],
+              "keywords": [
+                "Flying"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

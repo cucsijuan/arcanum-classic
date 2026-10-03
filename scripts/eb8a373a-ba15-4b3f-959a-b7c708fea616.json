@@ -1,0 +1,29 @@
+{
+  "name": "Nighthawk, Dark Defender",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Hero"
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Nighthawk, Dark Defender or another Hero you control enters, target creature gets +1/+1 until end of turn."
+    }
+  ]
+}

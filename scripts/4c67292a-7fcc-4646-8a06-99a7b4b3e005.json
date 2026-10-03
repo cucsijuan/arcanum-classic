@@ -1,0 +1,27 @@
+{
+  "name": "Serra Advocate",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target attacking or blocking creature gets +2/+2 until end of turn."
+    }
+  ]
+}

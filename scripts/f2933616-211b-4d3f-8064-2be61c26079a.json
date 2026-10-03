@@ -1,0 +1,32 @@
+{
+  "name": "Mnemonic Wall",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target instant or sorcery card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target instant or sorcery card from your graveyard to your hand."
+    }
+  ]
+}

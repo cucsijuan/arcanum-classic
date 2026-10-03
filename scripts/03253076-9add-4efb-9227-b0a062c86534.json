@@ -1,0 +1,30 @@
+{
+  "name": "Nori, Teller of Tales",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Whenever Nori, Teller of Tales attacks, target attacking creature gains first strike until end of turn."
+    }
+  ]
+}

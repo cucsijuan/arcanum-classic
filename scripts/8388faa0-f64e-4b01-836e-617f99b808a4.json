@@ -1,0 +1,25 @@
+{
+  "name": "Venom's Hunger",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "control": {
+        "subtype": "Villain"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Rats of Rath",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{B}: Destroy target artifact, creature, or land you control."
+    }
+  ]
+}

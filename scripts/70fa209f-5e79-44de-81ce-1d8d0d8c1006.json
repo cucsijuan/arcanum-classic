@@ -1,0 +1,49 @@
+{
+  "name": "Cemetery Reaper",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Zombie"
+      },
+      "text": "Other Zombie creatures you control get +1/+1."
+    },
+    {
+      "cost": "{2}{B}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{B}, {T}: Exile target creature card from a graveyard. Create a 2/2 black Zombie creature token."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Wallop",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "U",
+            "B"
+          ],
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

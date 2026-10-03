@@ -1,0 +1,28 @@
+{
+  "name": "Bloodsoaked Altar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, life:2, discard, sacrifice:creature",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Demon",
+            "types": "Creature — Demon",
+            "power": 5,
+            "toughness": 5,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{T}, Pay 2 life, Discard a card, Sacrifice a creature: Create a 5/5 black Demon creature token with flying. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

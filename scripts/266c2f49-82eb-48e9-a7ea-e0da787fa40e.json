@@ -1,0 +1,44 @@
+{
+  "name": "Boros Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{1}{R}: Target creature gains haste until end of turn."
+    },
+    {
+      "cost": "{1}{W}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}{W}: Target creature gains first strike until end of turn."
+    }
+  ]
+}

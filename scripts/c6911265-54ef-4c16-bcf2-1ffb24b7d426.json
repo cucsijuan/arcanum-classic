@@ -1,0 +1,25 @@
+{
+  "name": "Kessig Wolf Run",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{R}{G}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "X",
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{X}{R}{G}, {T}: Target creature gets +X/+0 and gains trample until end of turn."
+    }
+  ]
+}

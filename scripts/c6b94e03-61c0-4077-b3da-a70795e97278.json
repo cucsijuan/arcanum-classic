@@ -1,0 +1,32 @@
+{
+  "name": "Teferi's Tutelage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When this enchantment enters, draw a card, then discard a card."
+    },
+    {
+      "trigger": "draw",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you draw a card, target opponent mills two cards."
+    }
+  ]
+}

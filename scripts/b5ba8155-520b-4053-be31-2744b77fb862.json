@@ -1,0 +1,100 @@
+{
+  "name": "Soul of Innistrad",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}{B}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "bounce": "target2"
+        },
+        {
+          "bounce": "target3"
+        }
+      ],
+      "text": "{3}{B}{B}: Return up to three target creature cards from your graveyard to your hand."
+    },
+    {
+      "cost": "{3}{B}{B}, exileFromGraveyard",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "bounce": "target2"
+        },
+        {
+          "bounce": "target3"
+        }
+      ],
+      "text": "{3}{B}{B}, Exile this card from your graveyard: Return up to three target creature cards from your graveyard to your hand."
+    }
+  ]
+}

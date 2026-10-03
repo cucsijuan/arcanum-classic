@@ -1,0 +1,15 @@
+{
+  "name": "Braingeyser",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": "X",
+        "who": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Evolution Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "effects": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 1,
+            "to": "hand"
+          }
+        ]
+      },
+      {
+        "text": "Return target creature card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gains flying until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Flying"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

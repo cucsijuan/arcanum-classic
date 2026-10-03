@@ -1,0 +1,17 @@
+{
+  "name": "Sylvan Scrying",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "hand"
+      }
+    ]
+  }
+}

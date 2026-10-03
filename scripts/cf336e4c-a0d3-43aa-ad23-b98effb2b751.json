@@ -1,0 +1,25 @@
+{
+  "name": "Nebelgast Herald",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Spirit"
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever this creature or another Spirit you control enters, tap target creature an opponent controls."
+    }
+  ]
+}

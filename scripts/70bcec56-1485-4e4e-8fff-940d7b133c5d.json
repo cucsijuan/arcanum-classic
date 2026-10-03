@@ -1,0 +1,21 @@
+{
+  "name": "Veteran of the Depths",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on it?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you may put a +1/+1 counter on it."
+    }
+  ]
+}

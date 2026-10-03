@@ -1,0 +1,40 @@
+{
+  "name": "Hurly-Burly",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Hurly-Burly deals 1 damage to each creature without flying.",
+        "effects": [
+          {
+            "damage": 1,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "without": "Flying"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Hurly-Burly deals 1 damage to each creature with flying.",
+        "effects": [
+          {
+            "damage": 1,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "keyword": "Flying"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

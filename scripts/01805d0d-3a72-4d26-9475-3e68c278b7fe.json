@@ -1,0 +1,19 @@
+{
+  "name": "Cinder Elemental",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{R}, {T}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "target"
+        }
+      ],
+      "text": "{X}{R}, {T}, Sacrifice this creature: It deals X damage to any target."
+    }
+  ]
+}

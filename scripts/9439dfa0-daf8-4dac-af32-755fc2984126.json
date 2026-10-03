@@ -1,0 +1,24 @@
+{
+  "name": "Tor Wauki",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: Tor Wauki deals 2 damage to target attacking or blocking creature."
+    }
+  ]
+}

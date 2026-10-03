@@ -1,0 +1,19 @@
+{
+  "name": "Shadowfeed",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

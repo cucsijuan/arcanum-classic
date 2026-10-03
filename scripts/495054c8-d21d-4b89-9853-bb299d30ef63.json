@@ -1,0 +1,22 @@
+{
+  "name": "Hulk, Always Angry",
+  "generated": true,
+  "attacksEachCombat": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "artifact"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When Hulk, Always Angry enters, destroy all artifacts."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Stern Dismissal",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "controller": "opponent",
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

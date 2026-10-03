@@ -1,0 +1,22 @@
+{
+  "name": "Elemental Bond",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 3
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with power 3 or greater enters, draw a card."
+    }
+  ]
+}

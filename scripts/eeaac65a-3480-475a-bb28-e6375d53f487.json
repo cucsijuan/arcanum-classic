@@ -1,0 +1,30 @@
+{
+  "name": "Vault of the Archangel",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}{B}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Deathtouch",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{2}{W}{B}, {T}: Creatures you control gain deathtouch and lifelink until end of turn."
+    }
+  ]
+}

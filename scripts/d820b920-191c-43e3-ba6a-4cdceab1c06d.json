@@ -1,0 +1,54 @@
+{
+  "name": "Soul of Theros",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{W}{W}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "First strike",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{4}{W}{W}: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn."
+    },
+    {
+      "cost": "{4}{W}{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "First strike",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{4}{W}{W}, Exile this card from your graveyard: Creatures you control get +2/+2 and gain first strike and lifelink until end of turn."
+    }
+  ]
+}

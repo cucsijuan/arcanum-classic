@@ -1,0 +1,24 @@
+{
+  "name": "Skullmead Cauldron",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{T}: You gain 1 life."
+    },
+    {
+      "cost": "{T}, discard",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{T}, Discard a card: You gain 3 life."
+    }
+  ]
+}

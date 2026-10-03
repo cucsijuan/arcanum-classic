@@ -1,0 +1,38 @@
+{
+  "name": "Yahenni, Undying Partisan",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, put a +1/+1 counter on Yahenni, Undying Partisan."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Sacrifice another creature: Yahenni, Undying Partisan gains indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Fiery Intervention",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Fiery Intervention deals 5 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Spectacular Tactics",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Put a +1/+1 counter on target creature you control. It gains hexproof until end of turn.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": "target"
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Hexproof"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

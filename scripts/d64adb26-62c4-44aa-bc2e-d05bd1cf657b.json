@@ -1,0 +1,29 @@
+{
+  "name": "Trap Essence",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "optional": true,
+        "kind": "creature"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "counters": 2,
+        "what": "target2"
+      }
+    ]
+  }
+}

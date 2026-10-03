@@ -1,0 +1,46 @@
+{
+  "name": "Umezawa's Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gets +2/+2 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -1/-1 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "You gain 2 life.",
+        "effects": [
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ]
+  }
+}

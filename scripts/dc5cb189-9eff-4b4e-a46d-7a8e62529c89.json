@@ -1,0 +1,19 @@
+{
+  "name": "Seer of the Last Tomorrow",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, {T}, discard",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{U}, {T}, Discard a card: Target player mills three cards."
+    }
+  ]
+}

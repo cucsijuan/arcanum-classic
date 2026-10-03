@@ -1,0 +1,29 @@
+{
+  "name": "Jilt",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "filter": {
+          "other": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "damage": 2,
+            "to": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

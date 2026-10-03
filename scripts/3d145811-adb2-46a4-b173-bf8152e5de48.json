@@ -1,0 +1,24 @@
+{
+  "name": "Unauthorized Exit",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

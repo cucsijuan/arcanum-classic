@@ -1,0 +1,35 @@
+{
+  "name": "Crushing Vines",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Rise of the Ants",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Insect",
+          "types": "Creature — Insect",
+          "power": 3,
+          "toughness": 3,
+          "colors": [
+            "G"
+          ]
+        }
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

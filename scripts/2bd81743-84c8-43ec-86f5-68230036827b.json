@@ -1,0 +1,23 @@
+{
+  "name": "Wizard's Lightning",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "control": {
+        "subtype": "Wizard"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ]
+  }
+}

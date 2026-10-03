@@ -1,0 +1,15 @@
+{
+  "name": "Masked Meower",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Discard a card, Sacrifice this creature: Draw a card."
+    }
+  ]
+}

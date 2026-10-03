@@ -1,0 +1,27 @@
+{
+  "name": "Infantry Veteran",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target attacking creature gets +1/+1 until end of turn."
+    }
+  ]
+}

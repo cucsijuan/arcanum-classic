@@ -1,0 +1,21 @@
+{
+  "name": "Deathreap Ritual",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Morbid — At the beginning of each end step, if a creature died this turn, you may draw a card."
+    }
+  ]
+}

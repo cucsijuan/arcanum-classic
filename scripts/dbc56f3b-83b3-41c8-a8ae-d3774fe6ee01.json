@@ -1,0 +1,24 @@
+{
+  "name": "Linden, the Steadfast Queen",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "colors": [
+          "W"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a white creature you control attacks, you gain 1 life."
+    }
+  ]
+}

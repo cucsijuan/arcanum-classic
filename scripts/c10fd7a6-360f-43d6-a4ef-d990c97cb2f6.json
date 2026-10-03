@@ -1,0 +1,25 @@
+{
+  "name": "Crossbow Ambush",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

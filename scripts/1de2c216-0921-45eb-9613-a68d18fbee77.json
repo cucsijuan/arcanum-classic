@@ -1,0 +1,22 @@
+{
+  "name": "Bright Reprisal",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

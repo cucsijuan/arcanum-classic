@@ -1,0 +1,21 @@
+{
+  "name": "Dovin's Veto",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "not": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

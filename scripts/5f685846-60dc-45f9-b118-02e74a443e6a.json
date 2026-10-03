@@ -1,0 +1,23 @@
+{
+  "name": "Frontier Guide",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}, {T}",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{3}{G}, {T}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

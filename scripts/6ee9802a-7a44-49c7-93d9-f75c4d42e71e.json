@@ -1,0 +1,31 @@
+{
+  "name": "Sanctum Gargoyle",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target artifact card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target artifact card from your graveyard to your hand."
+    }
+  ]
+}

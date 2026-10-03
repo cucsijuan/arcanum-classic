@@ -1,0 +1,29 @@
+{
+  "name": "Dawnfeather Eagle",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "When this creature enters, creatures you control get +1/+1 and gain vigilance until end of turn."
+    }
+  ]
+}

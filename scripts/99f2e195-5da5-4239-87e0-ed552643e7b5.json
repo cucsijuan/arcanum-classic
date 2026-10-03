@@ -1,0 +1,19 @@
+{
+  "name": "Benalish Emissary",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, destroy target land."
+    }
+  ]
+}

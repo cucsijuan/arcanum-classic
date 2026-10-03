@@ -1,0 +1,43 @@
+{
+  "name": "Lossarnach Captain",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Human"
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever this creature or another Human you control enters, tap target creature an opponent controls."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 1/1 white Human Soldier creature token."
+    }
+  ]
+}

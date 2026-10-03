@@ -1,0 +1,25 @@
+{
+  "name": "Noxious Grasp",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "G",
+            "W"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Mortality Spear",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": "gainedLife"
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

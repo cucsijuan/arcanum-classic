@@ -1,0 +1,27 @@
+{
+  "name": "Drogskol Shieldmate",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, other creatures you control get +0/+1 until end of turn."
+    }
+  ]
+}

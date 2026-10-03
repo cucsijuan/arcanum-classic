@@ -1,0 +1,23 @@
+{
+  "name": "They Went This Way",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "tokens": 1,
+        "token": "Clue"
+      }
+    ]
+  }
+}

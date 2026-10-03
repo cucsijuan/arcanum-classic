@@ -1,0 +1,47 @@
+{
+  "name": "Soul Manipulation",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Counter target creature spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target creature card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

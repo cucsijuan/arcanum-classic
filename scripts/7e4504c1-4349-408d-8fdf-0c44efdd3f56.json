@@ -1,0 +1,20 @@
+{
+  "name": "Pierce the Sky",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 7,
+        "to": "target"
+      }
+    ]
+  }
+}

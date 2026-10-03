@@ -1,0 +1,37 @@
+{
+  "name": "Thunderbolt",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Thunderbolt deals 3 damage to target player or planeswalker.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Thunderbolt deals 4 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

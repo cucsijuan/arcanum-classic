@@ -1,0 +1,30 @@
+{
+  "name": "Ashen Rider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this creature enters or dies, exile target permanent."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this creature enters or dies, exile target permanent."
+    }
+  ]
+}

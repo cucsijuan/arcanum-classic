@@ -1,0 +1,33 @@
+{
+  "name": "Might Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "R",
+              "W"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{2}: Target red or white creature gains trample until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "The Art of Tea",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "optional": true,
+        "controller": "you",
+        "kind": "creature"
+      }
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

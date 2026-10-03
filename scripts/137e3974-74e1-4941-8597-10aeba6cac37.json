@@ -1,0 +1,25 @@
+{
+  "name": "Homarid Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{U}: Tap target green creature."
+    }
+  ]
+}

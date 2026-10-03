@@ -1,0 +1,28 @@
+{
+  "name": "Celestial Ancient",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

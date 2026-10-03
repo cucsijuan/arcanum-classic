@@ -1,0 +1,29 @@
+{
+  "name": "Trash for Treasure",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      }
+    ]
+  }
+}

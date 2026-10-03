@@ -1,0 +1,35 @@
+{
+  "name": "Vastwood Surge",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 2,
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "counters": 2,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

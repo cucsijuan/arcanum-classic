@@ -1,0 +1,15 @@
+{
+  "name": "Gutless Ghoul",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{1}, Sacrifice a creature: You gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Headless Rider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Zombie",
+        "token": false
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature or another nontoken Zombie you control dies, create a 2/2 black Zombie creature token."
+    }
+  ]
+}

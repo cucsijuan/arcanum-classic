@@ -1,0 +1,35 @@
+{
+  "name": "Omen of the Dead",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this enchantment enters, return target creature card from your graveyard to your hand."
+    },
+    {
+      "cost": "{2}{B}, sacrifice",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{2}{B}, Sacrifice this enchantment: Scry 2."
+    }
+  ]
+}

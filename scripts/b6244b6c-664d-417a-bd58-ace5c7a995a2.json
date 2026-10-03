@@ -1,0 +1,31 @@
+{
+  "name": "Foot Elite",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target creature you control gets +1/+0 and gains indestructible until end of turn."
+    }
+  ]
+}

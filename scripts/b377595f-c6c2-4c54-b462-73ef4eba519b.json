@@ -1,0 +1,26 @@
+{
+  "name": "Slingshot Goblin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, {T}: This creature deals 2 damage to target blue creature."
+    }
+  ]
+}

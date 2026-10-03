@@ -1,0 +1,22 @@
+{
+  "name": "Burrog Befuddler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature an opponent controls gets -1/-0 until end of turn."
+    }
+  ]
+}

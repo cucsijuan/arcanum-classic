@@ -1,0 +1,47 @@
+{
+  "name": "Pawpatch Formation",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Draw a card. Create a Food token.",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "tokens": 1,
+            "token": "Food"
+          }
+        ]
+      }
+    ]
+  }
+}

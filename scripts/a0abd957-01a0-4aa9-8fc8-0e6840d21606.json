@@ -1,0 +1,19 @@
+{
+  "name": "Explosive Vegetation",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 2,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ]
+  }
+}

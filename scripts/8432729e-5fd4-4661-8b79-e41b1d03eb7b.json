@@ -1,0 +1,26 @@
+{
+  "name": "Travel Preparations",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true
+      },
+      {
+        "kind": "creature",
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ]
+  }
+}

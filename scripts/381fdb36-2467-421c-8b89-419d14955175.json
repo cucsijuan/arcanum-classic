@@ -1,0 +1,32 @@
+{
+  "name": "Goblin Dynamo",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to any target."
+    },
+    {
+      "cost": "{X}{R}, {T}, sacrifice",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "target"
+        }
+      ],
+      "text": "{X}{R}, {T}, Sacrifice this creature: It deals X damage to any target."
+    }
+  ]
+}

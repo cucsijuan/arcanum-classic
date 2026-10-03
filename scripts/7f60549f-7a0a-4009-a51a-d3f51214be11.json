@@ -1,0 +1,29 @@
+{
+  "name": "Hoof Skulkin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{3}: Target green creature gets +1/+1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Wayfarer's Bauble",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

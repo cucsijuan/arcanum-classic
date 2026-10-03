@@ -1,0 +1,20 @@
+{
+  "name": "Irencrag Pyromancer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, this creature deals 3 damage to any target."
+    }
+  ]
+}

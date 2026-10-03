@@ -1,0 +1,22 @@
+{
+  "name": "Refurbish",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      }
+    ]
+  }
+}

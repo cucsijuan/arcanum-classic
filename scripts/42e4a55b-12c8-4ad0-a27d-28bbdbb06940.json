@@ -1,0 +1,31 @@
+{
+  "name": "Leeching Bite",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "filter": {
+          "other": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": "target2"
+      }
+    ]
+  }
+}

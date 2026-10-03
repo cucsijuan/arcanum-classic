@@ -1,0 +1,27 @@
+{
+  "name": "Probe",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "discard": 2,
+        "who": "you"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "discard": 2,
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

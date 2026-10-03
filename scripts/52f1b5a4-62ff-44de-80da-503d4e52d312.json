@@ -1,0 +1,36 @@
+{
+  "name": "Cat Collector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create a Food token."
+    },
+    {
+      "trigger": "gainLife",
+      "nth": 1,
+      "if": "yourTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token."
+    }
+  ]
+}

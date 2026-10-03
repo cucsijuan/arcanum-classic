@@ -1,0 +1,30 @@
+{
+  "name": "Goblin Bushwhacker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, creatures you control get +1/+0 and gain haste until end of turn."
+    }
+  ]
+}

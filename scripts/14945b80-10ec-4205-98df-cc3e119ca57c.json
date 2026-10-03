@@ -1,0 +1,25 @@
+{
+  "name": "Springsage Ritual",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Swarm Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{B}, {T}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{4}{B}, {T}: Creatures you control get +1/+0 and gain menace until end of turn."
+    },
+    {
+      "cost": "{1}{G}, {T}",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{1}{G}, {T}: You gain 2 life."
+    }
+  ]
+}

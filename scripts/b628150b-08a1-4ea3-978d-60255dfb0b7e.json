@@ -1,0 +1,15 @@
+{
+  "name": "Phyrexian Vault",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice a creature: Draw a card."
+    }
+  ]
+}

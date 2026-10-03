@@ -1,0 +1,14 @@
+{
+  "name": "Fervent Denial",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

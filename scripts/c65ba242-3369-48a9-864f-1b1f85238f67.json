@@ -1,0 +1,27 @@
+{
+  "name": "Emmara, Soul of the Accord",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Emmara, Soul of the Accord becomes tapped, create a 1/1 white Soldier creature token with lifelink."
+    }
+  ]
+}

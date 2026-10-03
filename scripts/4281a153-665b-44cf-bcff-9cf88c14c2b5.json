@@ -1,0 +1,19 @@
+{
+  "name": "Tremor",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "without": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

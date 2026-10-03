@@ -1,0 +1,32 @@
+{
+  "name": "Slagstorm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Slagstorm deals 3 damage to each creature.",
+        "effects": [
+          {
+            "damage": 3,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Slagstorm deals 3 damage to each player.",
+        "effects": [
+          {
+            "damage": 3,
+            "to": "everyone"
+          }
+        ]
+      }
+    ]
+  }
+}

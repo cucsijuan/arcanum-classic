@@ -1,0 +1,17 @@
+{
+  "name": "Voracious Null",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, sacrifice:creature",
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "{1}{B}, Sacrifice another creature: Put two +1/+1 counters on this creature. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "High Market",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:creature",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{T}, Sacrifice a creature: You gain 1 life."
+    }
+  ]
+}

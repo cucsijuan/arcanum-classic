@@ -1,0 +1,23 @@
+{
+  "name": "Royal Assassin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "tapped": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}: Destroy target tapped creature."
+    }
+  ]
+}

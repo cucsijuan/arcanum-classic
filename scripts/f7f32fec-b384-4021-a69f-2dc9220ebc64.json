@@ -1,0 +1,22 @@
+{
+  "name": "Scouring Sands",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

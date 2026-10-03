@@ -1,0 +1,23 @@
+{
+  "name": "Ancestor Dragon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "gainLife": {
+            "attacking": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            },
+            "times": 1
+          }
+        }
+      ],
+      "text": "Whenever one or more creatures you control attack, you gain 1 life for each attacking creature."
+    }
+  ]
+}

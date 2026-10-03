@@ -1,0 +1,16 @@
+{
+  "name": "Halo Scarab",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{2}, Exile this card from your graveyard: Create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Consume Strength",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "filter": {
+          "other": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": "target2"
+      }
+    ]
+  }
+}

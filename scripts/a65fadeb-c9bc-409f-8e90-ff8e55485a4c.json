@@ -1,0 +1,30 @@
+{
+  "name": "Whalebone Glider",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Target creature with power 3 or less gains flying until end of turn."
+    }
+  ]
+}

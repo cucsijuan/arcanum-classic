@@ -1,0 +1,28 @@
+{
+  "name": "Goremand",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature enters, each opponent sacrifices a creature."
+    }
+  ]
+}

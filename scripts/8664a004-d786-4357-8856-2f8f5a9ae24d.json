@@ -1,0 +1,25 @@
+{
+  "name": "Bone Flute",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "pump": [
+            -1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{2}, {T}: All creatures get -1/-0 until end of turn."
+    }
+  ]
+}

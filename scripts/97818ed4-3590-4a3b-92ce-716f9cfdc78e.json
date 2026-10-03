@@ -1,0 +1,26 @@
+{
+  "name": "Sylvok Replica",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{G}, Sacrifice this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

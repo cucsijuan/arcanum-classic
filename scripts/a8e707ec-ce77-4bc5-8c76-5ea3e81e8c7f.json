@@ -1,0 +1,22 @@
+{
+  "name": "Toski, Bearer of Secrets",
+  "generated": true,
+  "attacksEachCombat": true,
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Plague Witch",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}, discard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, {T}, Discard a card: Target creature gets -1/-1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Fated Conflagration",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "if": "yourTurn",
+        "then": [
+          {
+            "scry": 2
+          }
+        ]
+      }
+    ]
+  }
+}

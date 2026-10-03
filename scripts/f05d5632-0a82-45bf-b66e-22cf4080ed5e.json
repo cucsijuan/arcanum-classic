@@ -1,0 +1,20 @@
+{
+  "name": "Shadowbeast Sighting",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Beast",
+          "types": "Creature — Beast",
+          "power": 4,
+          "toughness": 4,
+          "colors": [
+            "G"
+          ]
+        }
+      }
+    ]
+  }
+}

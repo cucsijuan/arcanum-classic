@@ -1,0 +1,21 @@
+{
+  "name": "Environmental Sciences",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "hand"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

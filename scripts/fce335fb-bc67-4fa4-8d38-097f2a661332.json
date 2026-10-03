@@ -1,0 +1,20 @@
+{
+  "name": "Tears of Valakut",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

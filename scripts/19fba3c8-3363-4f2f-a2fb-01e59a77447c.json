@@ -1,0 +1,23 @@
+{
+  "name": "Mine Bearer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Destroy target attacking creature."
+    }
+  ]
+}

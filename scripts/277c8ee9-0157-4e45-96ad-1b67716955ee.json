@@ -1,0 +1,23 @@
+{
+  "name": "Vengeful Dead",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "subtype": "Zombie"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever this creature or another Zombie dies, each opponent loses 1 life."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Sunhome Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{1}{R}{W}: Creatures you control get +1/+0 until end of turn."
+    },
+    {
+      "cost": "{2}{R}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R",
+              "W"
+            ],
+            "keywords": [
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{R}{W}: Create a 1/1 red and white Soldier creature token with haste."
+    }
+  ]
+}

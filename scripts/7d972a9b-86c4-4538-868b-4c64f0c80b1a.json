@@ -1,0 +1,19 @@
+{
+  "name": "Pain Kami",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{R}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "target"
+        }
+      ],
+      "text": "{X}{R}, Sacrifice this creature: It deals X damage to target creature."
+    }
+  ]
+}

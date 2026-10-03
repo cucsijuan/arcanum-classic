@@ -1,0 +1,22 @@
+{
+  "name": "Precise Redaction",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "colors": [
+            "W",
+            "B"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Incendiary Sabotage",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "damage": 3,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Back to Nature",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Repel the Vile",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Exile target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

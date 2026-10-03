@@ -1,0 +1,26 @@
+{
+  "name": "Tragic Poet",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Return target enchantment card from your graveyard to your hand."
+    }
+  ]
+}

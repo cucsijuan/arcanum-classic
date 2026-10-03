@@ -1,0 +1,22 @@
+{
+  "name": "Shield Wall",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

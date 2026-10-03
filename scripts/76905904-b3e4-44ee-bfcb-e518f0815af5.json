@@ -1,0 +1,29 @@
+{
+  "name": "Iroas's Blessing",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "When this Aura enters, it deals 4 damage to target creature or planeswalker an opponent controls."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1."
+    }
+  ]
+}

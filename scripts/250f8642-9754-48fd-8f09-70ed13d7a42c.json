@@ -1,0 +1,21 @@
+{
+  "name": "Preemptive Strike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

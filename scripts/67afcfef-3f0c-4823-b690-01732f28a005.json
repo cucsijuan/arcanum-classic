@@ -1,0 +1,30 @@
+{
+  "name": "Revive the Shire",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature",
+            "artifact",
+            "enchantment",
+            "planeswalker",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

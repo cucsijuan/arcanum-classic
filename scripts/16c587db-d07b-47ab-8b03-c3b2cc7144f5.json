@@ -1,0 +1,28 @@
+{
+  "name": "Nearheath Chaplain",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{W}, Exile this card from your graveyard: Create two 1/1 white Spirit creature tokens with flying. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

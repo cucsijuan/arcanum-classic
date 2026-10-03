@@ -1,0 +1,25 @@
+{
+  "name": "Slobad, Goblin Tinkerer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Sacrifice an artifact: Target artifact gains indestructible until end of turn."
+    }
+  ]
+}

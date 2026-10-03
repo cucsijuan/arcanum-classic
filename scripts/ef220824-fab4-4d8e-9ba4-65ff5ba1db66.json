@@ -1,0 +1,26 @@
+{
+  "name": "Thrashing Wumpus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "damage": 1,
+          "to": "everyone"
+        }
+      ],
+      "text": "{B}: This creature deals 1 damage to each creature and each player."
+    }
+  ]
+}

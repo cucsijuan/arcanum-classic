@@ -1,0 +1,30 @@
+{
+  "name": "Dismantling Blow",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "draw": 2
+          }
+        ]
+      }
+    ]
+  }
+}

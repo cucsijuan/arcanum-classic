@@ -1,0 +1,25 @@
+{
+  "name": "Snakeskin Veil",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      }
+    ]
+  }
+}

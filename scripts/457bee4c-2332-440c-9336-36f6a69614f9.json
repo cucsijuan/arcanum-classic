@@ -1,0 +1,19 @@
+{
+  "name": "Goblin Medics",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, it deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Sword Dancer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{W}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{W}{W}: Target attacking creature gets -1/-0 until end of turn."
+    }
+  ]
+}

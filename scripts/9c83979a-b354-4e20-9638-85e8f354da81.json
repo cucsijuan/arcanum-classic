@@ -1,0 +1,30 @@
+{
+  "name": "Aether Helix",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent",
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature",
+            "artifact",
+            "enchantment",
+            "planeswalker",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      }
+    ]
+  }
+}

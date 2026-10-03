@@ -1,0 +1,38 @@
+{
+  "name": "Gruesome Realization",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "You draw two cards and you lose 2 life.",
+        "effects": [
+          {
+            "draw": 2
+          },
+          {
+            "loseLife": 2
+          }
+        ]
+      },
+      {
+        "text": "Creatures your opponents control get -1/-1 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

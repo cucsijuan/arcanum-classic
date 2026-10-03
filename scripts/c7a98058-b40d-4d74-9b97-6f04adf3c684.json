@@ -1,0 +1,40 @@
+{
+  "name": "Dawn to Dusk",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Return target enchantment card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

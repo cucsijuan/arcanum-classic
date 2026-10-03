@@ -1,0 +1,29 @@
+{
+  "name": "Frostwind Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{8}: Creatures you control gain flying until end of turn."
+    }
+  ]
+}

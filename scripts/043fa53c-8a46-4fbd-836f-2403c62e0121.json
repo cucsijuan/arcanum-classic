@@ -1,0 +1,24 @@
+{
+  "name": "Oran-Rief Recluse",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, destroy target creature with flying."
+    }
+  ]
+}

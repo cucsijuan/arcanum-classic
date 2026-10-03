@@ -1,0 +1,28 @@
+{
+  "name": "Stingerfling Spider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy target creature with flying?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy target creature with flying."
+    }
+  ]
+}

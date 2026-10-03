@@ -1,0 +1,15 @@
+{
+  "name": "Bump in the Night",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "loseLife": 3,
+        "who": "target"
+      }
+    ]
+  }
+}

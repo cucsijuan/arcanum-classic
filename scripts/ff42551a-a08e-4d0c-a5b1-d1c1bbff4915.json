@@ -1,0 +1,23 @@
+{
+  "name": "Bloodfire Dwarf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "without": "Flying"
+            }
+          }
+        }
+      ],
+      "text": "{R}, Sacrifice this creature: It deals 1 damage to each creature without flying."
+    }
+  ]
+}

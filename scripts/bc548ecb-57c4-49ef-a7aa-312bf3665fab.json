@@ -1,0 +1,19 @@
+{
+  "name": "Ravenous Bloodseeker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            2,
+            -2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Discard a card: This creature gets +2/-2 until end of turn."
+    }
+  ]
+}

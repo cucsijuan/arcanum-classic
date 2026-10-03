@@ -1,0 +1,22 @@
+{
+  "name": "Gnathosaur",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Sacrifice an artifact: This creature gains trample until end of turn."
+    }
+  ]
+}

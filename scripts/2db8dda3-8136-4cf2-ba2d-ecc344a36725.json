@@ -1,0 +1,21 @@
+{
+  "name": "Mechanized Ninja Cavalry",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Creature — Robot",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 colorless Robot artifact creature token."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Atarka, World Render",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Dragon"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "Whenever a Dragon you control attacks, it gains double strike until end of turn."
+    }
+  ]
+}

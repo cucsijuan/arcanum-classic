@@ -1,0 +1,32 @@
+{
+  "name": "Consult the Necrosages",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target player draws two cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player discards two cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discard": 2,
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Landbind Ritual",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": {
+          "count": {
+            "subtype": "Plains"
+          },
+          "times": 2
+        }
+      }
+    ]
+  }
+}

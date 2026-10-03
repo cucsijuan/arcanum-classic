@@ -1,0 +1,15 @@
+{
+  "name": "Viscera Seer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Sacrifice a creature: Scry 1."
+    }
+  ]
+}

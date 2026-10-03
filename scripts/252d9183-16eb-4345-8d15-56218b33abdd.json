@@ -1,0 +1,22 @@
+{
+  "name": "Righteous Charge",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Geist Snatch",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "U"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ]
+  }
+}

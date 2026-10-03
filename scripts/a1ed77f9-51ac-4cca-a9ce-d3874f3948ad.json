@@ -1,0 +1,15 @@
+{
+  "name": "Horizon Chimera",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you draw a card, you gain 1 life."
+    }
+  ]
+}

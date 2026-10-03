@@ -1,0 +1,30 @@
+{
+  "name": "Torch Courier",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Sacrifice this creature: Another target creature gains haste until end of turn."
+    }
+  ]
+}

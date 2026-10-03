@@ -1,0 +1,23 @@
+{
+  "name": "Hurloon Battle Hymn",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "gainLife": 4
+          }
+        ]
+      }
+    ]
+  }
+}

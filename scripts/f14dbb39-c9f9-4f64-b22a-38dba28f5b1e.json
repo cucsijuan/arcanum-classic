@@ -1,0 +1,26 @@
+{
+  "name": "Seal of Primordium",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice this enchantment: Destroy target artifact or enchantment."
+    }
+  ]
+}

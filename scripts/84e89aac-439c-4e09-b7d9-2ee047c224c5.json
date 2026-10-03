@@ -1,0 +1,17 @@
+{
+  "name": "Drain the Well",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

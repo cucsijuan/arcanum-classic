@@ -1,0 +1,25 @@
+{
+  "name": "Make a Stand",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

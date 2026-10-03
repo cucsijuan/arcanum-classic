@@ -1,0 +1,31 @@
+{
+  "name": "Selfless Savior",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Sacrifice this creature: Another target creature you control gains indestructible until end of turn."
+    }
+  ]
+}

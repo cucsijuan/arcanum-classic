@@ -1,0 +1,23 @@
+{
+  "name": "Snarling Gorehound",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "maxPower": 2,
+        "other": true
+      },
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever another creature you control with power 2 or less enters, surveil 1."
+    }
+  ]
+}

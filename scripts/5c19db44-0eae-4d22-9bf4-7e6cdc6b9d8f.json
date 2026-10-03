@@ -1,0 +1,32 @@
+{
+  "name": "Energy Bolt",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Energy Bolt deals X damage to target player or planeswalker.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": "X",
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player gains X life.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "gainLife": "X",
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

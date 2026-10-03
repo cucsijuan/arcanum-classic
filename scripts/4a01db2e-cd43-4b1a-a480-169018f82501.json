@@ -1,0 +1,15 @@
+{
+  "name": "Doom Whisperer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:2",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "Pay 2 life: Surveil 2."
+    }
+  ]
+}

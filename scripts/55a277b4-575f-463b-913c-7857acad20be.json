@@ -1,0 +1,28 @@
+{
+  "name": "Tazeem Roilmage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, return target instant or sorcery card from your graveyard to your hand."
+    }
+  ]
+}

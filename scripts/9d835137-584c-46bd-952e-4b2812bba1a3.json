@@ -1,0 +1,49 @@
+{
+  "name": "Charge the Sanctum",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Creatures you control get +2/+0 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +2/+0 and gains first strike until end of turn. Put a +1/+1 counter on it.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "First strike"
+            ]
+          },
+          {
+            "counters": 1,
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

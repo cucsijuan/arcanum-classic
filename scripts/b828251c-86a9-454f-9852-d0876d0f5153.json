@@ -1,0 +1,22 @@
+{
+  "name": "Wizard's Retort",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "subtype": "Wizard"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

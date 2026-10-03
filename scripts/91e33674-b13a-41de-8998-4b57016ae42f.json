@@ -1,0 +1,25 @@
+{
+  "name": "Burst of Speed",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

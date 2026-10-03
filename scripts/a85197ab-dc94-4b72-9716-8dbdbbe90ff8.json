@@ -1,0 +1,27 @@
+{
+  "name": "Butcher of Malakir",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, each opponent sacrifices a creature of their choice."
+    }
+  ]
+}

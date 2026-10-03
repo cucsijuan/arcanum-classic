@@ -1,0 +1,25 @@
+{
+  "name": "Balloon Peddler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}, {T}, discard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{U}, {T}, Discard a card: Target creature gains flying until end of turn."
+    }
+  ]
+}

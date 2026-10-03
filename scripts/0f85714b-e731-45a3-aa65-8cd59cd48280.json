@@ -1,0 +1,15 @@
+{
+  "name": "Attentive Sunscribe",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, scry 1."
+    }
+  ]
+}

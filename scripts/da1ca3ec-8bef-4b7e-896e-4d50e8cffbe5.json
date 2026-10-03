@@ -1,0 +1,16 @@
+{
+  "name": "Torpor Dust",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -3,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets -3/-0."
+    }
+  ]
+}

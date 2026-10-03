@@ -1,0 +1,33 @@
+{
+  "name": "Vampire's Bite",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

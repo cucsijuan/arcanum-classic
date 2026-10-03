@@ -1,0 +1,22 @@
+{
+  "name": "Inspired Charge",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

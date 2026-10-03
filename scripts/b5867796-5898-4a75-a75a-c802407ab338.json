@@ -1,0 +1,25 @@
+{
+  "name": "Femeref Archers",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true,
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 4 damage to target attacking creature with flying."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Worthy Cost",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Cast Away Doubt",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "damage": 2,
+        "to": "everyone"
+      }
+    ]
+  }
+}

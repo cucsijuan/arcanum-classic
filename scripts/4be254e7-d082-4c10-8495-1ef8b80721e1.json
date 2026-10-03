@@ -1,0 +1,22 @@
+{
+  "name": "Oxidda Daredevil",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Sacrifice an artifact: This creature gains haste until end of turn."
+    }
+  ]
+}

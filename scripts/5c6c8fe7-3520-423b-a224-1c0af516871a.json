@@ -1,0 +1,72 @@
+{
+  "name": "Casualties of War",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target land.",
+        "targets": [
+          "land"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target planeswalker.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 5,
+    "upTo": true
+  }
+}

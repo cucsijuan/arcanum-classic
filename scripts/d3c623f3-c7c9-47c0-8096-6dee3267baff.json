@@ -1,0 +1,22 @@
+{
+  "name": "Shrapnel Blast",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

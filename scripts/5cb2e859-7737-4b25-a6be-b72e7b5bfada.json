@@ -1,0 +1,22 @@
+{
+  "name": "Corpse Blockade",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Sacrifice another creature: This creature gains deathtouch until end of turn."
+    }
+  ]
+}

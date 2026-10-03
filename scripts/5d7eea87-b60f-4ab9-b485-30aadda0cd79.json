@@ -1,0 +1,25 @@
+{
+  "name": "Ant-Man's Air Force",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "optional": true,
+          "kind": "creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, up to one target creature gets -1/-0 until end of turn."
+    }
+  ]
+}

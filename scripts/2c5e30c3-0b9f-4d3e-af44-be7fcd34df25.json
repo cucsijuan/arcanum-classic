@@ -1,0 +1,29 @@
+{
+  "name": "Take Heart",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "gainLife": {
+          "attacking": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "times": 1
+        }
+      }
+    ]
+  }
+}

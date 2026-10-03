@@ -1,0 +1,19 @@
+{
+  "name": "Weaponize the Monsters",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{2}, Sacrifice a creature: This enchantment deals 2 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Reroute Systems",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target artifact or creature gains indestructible until end of turn.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Indestructible"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Reroute Systems deals 2 damage to target tapped creature.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "tapped": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

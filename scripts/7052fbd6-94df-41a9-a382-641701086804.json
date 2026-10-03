@@ -1,0 +1,71 @@
+{
+  "name": "Silumgar's Command",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Counter target noncreature spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target permanent to its owner's hand.",
+        "targets": [
+          "permanent"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -3/-3 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -3,
+              -3
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target planeswalker.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2
+  }
+}

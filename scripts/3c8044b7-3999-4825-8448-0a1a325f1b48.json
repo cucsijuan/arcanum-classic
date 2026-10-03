@@ -1,0 +1,23 @@
+{
+  "name": "Storm Front",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}{G}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{G}{G}: Tap target creature with flying."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "War Screecher",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{W}, {T}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "{5}{W}, {T}: Other creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

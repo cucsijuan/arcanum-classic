@@ -1,0 +1,30 @@
+{
+  "name": "Stonehoof Chieftain",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control attacks, it gains trample and indestructible until end of turn."
+    }
+  ]
+}

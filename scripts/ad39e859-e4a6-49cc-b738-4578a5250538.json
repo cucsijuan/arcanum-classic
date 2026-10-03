@@ -1,0 +1,23 @@
+{
+  "name": "Lieutenant Kirtar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}{W}, Sacrifice Lieutenant Kirtar: Exile target attacking creature."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Burnished Hart",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{3}, Sacrifice this creature: Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

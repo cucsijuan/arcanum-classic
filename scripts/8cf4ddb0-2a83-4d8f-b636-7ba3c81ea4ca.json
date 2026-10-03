@@ -1,0 +1,25 @@
+{
+  "name": "Loxodon Battle Priest",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on another target creature you control."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Scribe of the Mindful",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this creature: Return target instant or sorcery card from your graveyard to your hand."
+    }
+  ]
+}

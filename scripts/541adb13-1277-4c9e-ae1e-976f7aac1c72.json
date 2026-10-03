@@ -1,0 +1,51 @@
+{
+  "name": "Return from the Wilds",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+        "effects": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 1,
+            "to": "battlefield",
+            "tapped": true
+          }
+        ]
+      },
+      {
+        "text": "Create a 1/1 white Human creature token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Human",
+              "types": "Creature — Human",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "text": "Create a Food token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": "Food"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2
+  }
+}

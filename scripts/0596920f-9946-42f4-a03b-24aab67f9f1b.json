@@ -1,0 +1,15 @@
+{
+  "name": "Blaze",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      }
+    ]
+  }
+}

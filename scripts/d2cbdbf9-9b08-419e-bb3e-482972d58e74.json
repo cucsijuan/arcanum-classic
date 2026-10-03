@@ -1,0 +1,25 @@
+{
+  "name": "Western Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{B}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{B}{B}, {T}: Destroy target white creature."
+    }
+  ]
+}

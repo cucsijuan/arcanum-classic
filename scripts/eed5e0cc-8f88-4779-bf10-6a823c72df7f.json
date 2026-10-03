@@ -1,0 +1,46 @@
+{
+  "name": "Spectacular Spider-Man",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}: Spectacular Spider-Man gains flying until end of turn."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice Spectacular Spider-Man: Creatures you control gain hexproof and indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Vermin Gorger",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:creature",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{T}, Sacrifice another creature: Each opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

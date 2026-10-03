@@ -1,0 +1,18 @@
+{
+  "name": "Seismic Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, {T}, discard",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{2}{R}, {T}, Discard a card: Destroy target land."
+    }
+  ]
+}

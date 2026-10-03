@@ -1,0 +1,25 @@
+{
+  "name": "Overcome",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

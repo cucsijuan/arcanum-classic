@@ -1,0 +1,19 @@
+{
+  "name": "Pillar of Light",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "minToughness": 4
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

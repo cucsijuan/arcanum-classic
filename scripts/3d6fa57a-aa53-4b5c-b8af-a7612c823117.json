@@ -1,0 +1,15 @@
+{
+  "name": "Faithless Looting",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "discard": 2,
+        "who": "you"
+      }
+    ]
+  }
+}

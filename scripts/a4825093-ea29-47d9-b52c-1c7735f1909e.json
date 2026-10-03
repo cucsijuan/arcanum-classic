@@ -1,0 +1,21 @@
+{
+  "name": "Spirit Summoning",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 3,
+          "toughness": 2,
+          "colors": [
+            "R",
+            "W"
+          ]
+        }
+      }
+    ]
+  }
+}

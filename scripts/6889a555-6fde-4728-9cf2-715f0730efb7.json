@@ -1,0 +1,31 @@
+{
+  "name": "Imperial Aerosaur",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, another target creature you control gets +1/+1 and gains flying until end of turn."
+    }
+  ]
+}

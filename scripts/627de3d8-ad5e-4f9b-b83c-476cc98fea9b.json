@@ -1,0 +1,39 @@
+{
+  "name": "Paleoloth",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 5,
+        "other": true
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control with power 5 or greater enters, you may return target creature card from your graveyard to your hand."
+    }
+  ]
+}

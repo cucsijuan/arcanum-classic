@@ -1,0 +1,22 @@
+{
+  "name": "Tendrils of Despair",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      }
+    ]
+  }
+}

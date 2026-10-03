@@ -1,0 +1,15 @@
+{
+  "name": "Heat Ray",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      }
+    ]
+  }
+}

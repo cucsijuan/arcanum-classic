@@ -1,0 +1,48 @@
+{
+  "name": "Engineered Might",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gets +5/+5 and gains trample until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              5,
+              5
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control get +2/+2 and gain vigilance until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

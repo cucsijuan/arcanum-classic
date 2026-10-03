@@ -1,0 +1,28 @@
+{
+  "name": "Noxious Dragon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxManaValue": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy target creature with mana value 3 or less?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may destroy target creature with mana value 3 or less."
+    }
+  ]
+}

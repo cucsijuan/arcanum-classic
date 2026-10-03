@@ -1,0 +1,27 @@
+{
+  "name": "Knowledge Seeker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this creature dies, create a Clue token."
+    }
+  ]
+}

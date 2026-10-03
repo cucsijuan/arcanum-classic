@@ -1,0 +1,24 @@
+{
+  "name": "Drown in Sorrow",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

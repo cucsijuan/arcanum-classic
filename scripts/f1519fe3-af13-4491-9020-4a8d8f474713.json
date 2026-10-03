@@ -1,0 +1,22 @@
+{
+  "name": "Cower in Fear",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

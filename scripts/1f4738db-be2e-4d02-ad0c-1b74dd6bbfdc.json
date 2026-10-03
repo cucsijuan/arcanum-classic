@@ -1,0 +1,27 @@
+{
+  "name": "Living Lightning",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature dies, return target instant or sorcery card from your graveyard to your hand."
+    }
+  ]
+}

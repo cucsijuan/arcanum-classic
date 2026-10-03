@@ -1,0 +1,25 @@
+{
+  "name": "Sterling Supplier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on another target creature you control."
+    }
+  ]
+}

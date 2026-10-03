@@ -1,0 +1,18 @@
+{
+  "name": "Skulltap",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

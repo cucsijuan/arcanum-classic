@@ -1,0 +1,19 @@
+{
+  "name": "Silvergill Peddler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, draw a card, then discard a card."
+    }
+  ]
+}

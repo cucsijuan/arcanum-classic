@@ -1,0 +1,19 @@
+{
+  "name": "Tonic Peddler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}, discard",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "gainLife": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{W}, {T}, Discard a card: Target player gains 3 life."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Strength of the Pack",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "counters": 2,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

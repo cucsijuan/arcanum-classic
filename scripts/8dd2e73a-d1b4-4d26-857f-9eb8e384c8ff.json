@@ -1,0 +1,36 @@
+{
+  "name": "Iroh's Demonstration",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Iroh's Demonstration deals 1 damage to each creature your opponents control.",
+        "effects": [
+          {
+            "damage": 1,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Iroh's Demonstration deals 4 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

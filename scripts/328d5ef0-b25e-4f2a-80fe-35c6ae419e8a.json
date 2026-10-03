@@ -1,0 +1,29 @@
+{
+  "name": "Crashing Drawbridge",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Creatures you control gain haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mighty Emergence",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 5
+      },
+      "effects": [
+        {
+          "may": "Put two +1/+1 counters on it?",
+          "effects": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control with power 5 or greater enters, you may put two +1/+1 counters on it."
+    }
+  ]
+}

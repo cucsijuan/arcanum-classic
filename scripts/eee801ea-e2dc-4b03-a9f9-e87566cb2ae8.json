@@ -1,0 +1,15 @@
+{
+  "name": "Thallid Soothsayer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice a creature: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Uncomfortable Chill",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -2,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

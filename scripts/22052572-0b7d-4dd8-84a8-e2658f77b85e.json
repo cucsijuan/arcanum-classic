@@ -1,0 +1,30 @@
+{
+  "name": "Ankle Shanker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "First strike",
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, creatures you control gain first strike and deathtouch until end of turn."
+    }
+  ]
+}

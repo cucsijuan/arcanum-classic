@@ -1,0 +1,39 @@
+{
+  "name": "Binding Mummy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Zombie",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Tap target artifact or creature?",
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another Zombie you control enters, you may tap target artifact or creature."
+    }
+  ]
+}

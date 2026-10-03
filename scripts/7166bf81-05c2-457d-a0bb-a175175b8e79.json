@@ -1,0 +1,26 @@
+{
+  "name": "Wandering Musicians",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

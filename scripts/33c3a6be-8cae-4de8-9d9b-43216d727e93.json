@@ -1,0 +1,22 @@
+{
+  "name": "Necropolis Regent",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, put that many +1/+1 counters on it."
+    }
+  ]
+}

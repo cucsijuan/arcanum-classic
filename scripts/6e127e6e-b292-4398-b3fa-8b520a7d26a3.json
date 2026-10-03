@@ -1,0 +1,21 @@
+{
+  "name": "Glare of Heresy",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "colors": [
+            "W"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

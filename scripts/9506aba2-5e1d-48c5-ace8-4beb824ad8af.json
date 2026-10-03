@@ -1,0 +1,25 @@
+{
+  "name": "True Love's Kiss",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Essence Capture",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "optional": true,
+        "controller": "you",
+        "kind": "creature"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ]
+  }
+}

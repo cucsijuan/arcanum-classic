@@ -1,0 +1,16 @@
+{
+  "name": "Spiteflame Witch",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{B}{R}: Each player loses 1 life."
+    }
+  ]
+}

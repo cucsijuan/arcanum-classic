@@ -1,0 +1,15 @@
+{
+  "name": "Survivor of Korlis",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{1}{W}, Exile this card from your graveyard: Scry 2."
+    }
+  ]
+}

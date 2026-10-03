@@ -1,0 +1,22 @@
+{
+  "name": "Journeyer's Kite",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{3}, {T}: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

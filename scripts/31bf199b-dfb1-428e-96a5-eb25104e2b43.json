@@ -1,0 +1,26 @@
+{
+  "name": "Late to Dinner",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

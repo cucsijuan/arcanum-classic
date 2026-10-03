@@ -1,0 +1,23 @@
+{
+  "name": "Rending Volley",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "W",
+            "U"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

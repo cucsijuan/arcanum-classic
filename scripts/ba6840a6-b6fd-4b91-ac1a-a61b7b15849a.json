@@ -1,0 +1,26 @@
+{
+  "name": "Cat-Owl",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, untap target artifact or creature."
+    }
+  ]
+}

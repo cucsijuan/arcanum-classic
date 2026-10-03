@@ -1,0 +1,27 @@
+{
+  "name": "Corridor Monitor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "When this creature enters, untap target artifact or creature you control."
+    }
+  ]
+}

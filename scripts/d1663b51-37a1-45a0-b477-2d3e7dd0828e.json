@@ -1,0 +1,47 @@
+{
+  "name": "Warg Tactics",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on target creature you control. It gains trample and hexproof until end of turn.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": "target"
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample",
+              "Hexproof"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

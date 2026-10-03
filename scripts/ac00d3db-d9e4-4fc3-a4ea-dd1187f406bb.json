@@ -1,0 +1,23 @@
+{
+  "name": "Silverglade Pathfinder",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}, discard",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{1}{G}, {T}, Discard a card: Search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

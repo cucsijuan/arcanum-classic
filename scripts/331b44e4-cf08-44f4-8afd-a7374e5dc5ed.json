@@ -1,0 +1,18 @@
+{
+  "name": "Tidespout Tyrant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever you cast a spell, return target permanent to its owner's hand."
+    }
+  ]
+}

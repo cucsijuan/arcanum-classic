@@ -1,0 +1,20 @@
+{
+  "name": "Torch Slinger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, it deals 2 damage to target creature."
+    }
+  ]
+}

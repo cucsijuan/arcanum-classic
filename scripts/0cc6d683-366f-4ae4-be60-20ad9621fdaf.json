@@ -1,0 +1,15 @@
+{
+  "name": "Stroke of Genius",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": "X",
+        "who": "target"
+      }
+    ]
+  }
+}

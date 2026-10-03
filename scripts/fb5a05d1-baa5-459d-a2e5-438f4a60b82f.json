@@ -1,0 +1,47 @@
+{
+  "name": "Gladiolus Amicitia",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "When Gladiolus Amicitia enters, search your library for a land card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "landfall",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, another target creature you control gets +2/+2 and gains trample until end of turn."
+    }
+  ]
+}

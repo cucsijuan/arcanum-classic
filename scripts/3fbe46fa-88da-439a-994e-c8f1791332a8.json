@@ -1,0 +1,27 @@
+{
+  "name": "Undergrowth Recon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, return target land card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

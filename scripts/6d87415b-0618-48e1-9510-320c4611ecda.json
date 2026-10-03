@@ -1,0 +1,24 @@
+{
+  "name": "Withering Boon",
+  "generated": true,
+  "additionalCost": {
+    "life": 3
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Meteor Golem",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "opponent",
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy target nonland permanent an opponent controls."
+    }
+  ]
+}

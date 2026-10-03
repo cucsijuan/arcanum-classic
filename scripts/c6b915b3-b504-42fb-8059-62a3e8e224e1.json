@@ -1,0 +1,25 @@
+{
+  "name": "Frenzied Tilling",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ]
+  }
+}

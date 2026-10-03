@@ -1,0 +1,23 @@
+{
+  "name": "Foul Play",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "maxPower": 2
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Clue"
+      }
+    ]
+  }
+}

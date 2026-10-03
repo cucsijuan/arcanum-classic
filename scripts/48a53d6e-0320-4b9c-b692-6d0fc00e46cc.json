@@ -1,0 +1,27 @@
+{
+  "name": "Rambunctious Mutt",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "opponent",
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy target artifact or enchantment an opponent controls."
+    }
+  ]
+}

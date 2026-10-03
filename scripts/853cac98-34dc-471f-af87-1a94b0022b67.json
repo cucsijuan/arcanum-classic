@@ -1,0 +1,17 @@
+{
+  "name": "Simplify",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "who": "everyone"
+      }
+    ]
+  }
+}

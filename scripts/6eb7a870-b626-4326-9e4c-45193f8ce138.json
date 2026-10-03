@@ -1,0 +1,37 @@
+{
+  "name": "Hire a Crew",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Villain",
+          "types": "Creature — Villain",
+          "power": 2,
+          "toughness": 1,
+          "colors": [
+            "B"
+          ],
+          "keywords": [
+            "Menace"
+          ]
+        }
+      },
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Archangel of Thune",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

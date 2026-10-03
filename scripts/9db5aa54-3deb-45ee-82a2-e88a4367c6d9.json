@@ -1,0 +1,16 @@
+{
+  "name": "Coffin Purge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

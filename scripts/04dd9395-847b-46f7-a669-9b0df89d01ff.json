@@ -1,0 +1,31 @@
+{
+  "name": "Ready to Rumble",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Ready to Rumble deals 5 damage to target creature or planeswalker.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

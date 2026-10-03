@@ -1,0 +1,26 @@
+{
+  "name": "Patron of the Arts",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters or dies, create a Treasure token."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters or dies, create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Narcissism",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, discard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, Discard a card: Target creature gets +2/+2 until end of turn."
+    },
+    {
+      "cost": "{G}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, Sacrifice this enchantment: Target creature gets +2/+2 until end of turn."
+    }
+  ]
+}

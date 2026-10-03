@@ -1,0 +1,29 @@
+{
+  "name": "Carrion Feeder",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Sacrifice a creature: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Devout Witness",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, discard",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}, Discard a card: Destroy target artifact or enchantment."
+    }
+  ]
+}

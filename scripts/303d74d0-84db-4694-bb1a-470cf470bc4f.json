@@ -1,0 +1,28 @@
+{
+  "name": "Battlefield Promotion",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

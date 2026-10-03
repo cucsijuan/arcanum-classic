@@ -1,0 +1,15 @@
+{
+  "name": "Exquisite Blood",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentLosesLife",
+      "effects": [
+        {
+          "gainLife": "triggerAmount"
+        }
+      ],
+      "text": "Whenever an opponent loses life, you gain that much life."
+    }
+  ]
+}

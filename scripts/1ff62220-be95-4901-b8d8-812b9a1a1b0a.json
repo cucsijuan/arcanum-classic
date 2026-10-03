@@ -1,0 +1,15 @@
+{
+  "name": "Greed",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, life:2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{B}, Pay 2 life: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Krosan Archer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{G}, Discard a card: This creature gets +0/+2 until end of turn."
+    }
+  ]
+}

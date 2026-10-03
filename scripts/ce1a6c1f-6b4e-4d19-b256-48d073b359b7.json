@@ -1,0 +1,52 @@
+{
+  "name": "Additive Evolution",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "power": 0,
+            "toughness": 0,
+            "colors": [
+              "G",
+              "U"
+            ]
+          }
+        },
+        {
+          "counters": 3,
+          "what": "self"
+        }
+      ],
+      "text": "When this enchantment enters, create a 0/0 green and blue Fractal creature token. Put three +1/+1 counters on it."
+    },
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. It gains vigilance until end of turn."
+    }
+  ]
+}

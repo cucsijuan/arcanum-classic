@@ -1,0 +1,22 @@
+{
+  "name": "Tyvar's Stand",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "X",
+          "X"
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

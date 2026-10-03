@@ -1,0 +1,22 @@
+{
+  "name": "Cogwork Wrestler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature an opponent controls gets -2/-0 until end of turn."
+    }
+  ]
+}

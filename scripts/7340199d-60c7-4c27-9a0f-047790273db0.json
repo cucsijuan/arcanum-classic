@@ -1,0 +1,28 @@
+{
+  "name": "Warlord's Fury",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

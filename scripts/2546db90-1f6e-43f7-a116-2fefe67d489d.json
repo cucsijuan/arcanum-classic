@@ -1,0 +1,22 @@
+{
+  "name": "Turn the Tide",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -2,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Windstorm",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": "X",
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "keyword": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

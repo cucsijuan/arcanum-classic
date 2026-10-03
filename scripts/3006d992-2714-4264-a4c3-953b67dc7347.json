@@ -1,0 +1,22 @@
+{
+  "name": "Galestrike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "tapped": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

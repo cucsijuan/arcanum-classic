@@ -1,0 +1,23 @@
+{
+  "name": "Yavimaya Iconoclast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, it gets +1/+1 and gains haste until end of turn."
+    }
+  ]
+}

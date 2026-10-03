@@ -1,0 +1,36 @@
+{
+  "name": "Syndicate Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "minPower": 4
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Tap target creature with power 4 or greater."
+    },
+    {
+      "cost": "{4}{B}, {T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{B}, {T}: This creature deals 2 damage to target opponent or planeswalker."
+    }
+  ]
+}

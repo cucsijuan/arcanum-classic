@@ -1,0 +1,13 @@
+{
+  "name": "Cryptic Serpent",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "perGraveyardCard": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  }
+}

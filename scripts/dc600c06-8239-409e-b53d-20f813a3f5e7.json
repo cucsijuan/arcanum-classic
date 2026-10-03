@@ -1,0 +1,38 @@
+{
+  "name": "Grand Crescendo",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Citizen",
+          "types": "Creature — Citizen",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "G",
+            "W"
+          ]
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

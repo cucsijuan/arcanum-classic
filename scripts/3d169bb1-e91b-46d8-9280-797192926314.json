@@ -1,0 +1,23 @@
+{
+  "name": "Aliban's Tower",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          1
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

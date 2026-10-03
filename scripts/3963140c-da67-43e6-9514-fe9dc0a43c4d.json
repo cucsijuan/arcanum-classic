@@ -1,0 +1,22 @@
+{
+  "name": "Armillary Sphere",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "hand"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle."
+    }
+  ]
+}

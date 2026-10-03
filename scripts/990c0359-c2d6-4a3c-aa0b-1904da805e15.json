@@ -1,0 +1,25 @@
+{
+  "name": "Spinal Villain",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}: Destroy target blue creature."
+    }
+  ]
+}

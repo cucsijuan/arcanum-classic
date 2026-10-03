@@ -1,0 +1,29 @@
+{
+  "name": "Orzhov Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "gainLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{2}{W}: Target player gains 1 life."
+    },
+    {
+      "cost": "{2}{B}",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{2}{B}: Each player loses 1 life."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Furious Resistance",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      }
+    ]
+  }
+}

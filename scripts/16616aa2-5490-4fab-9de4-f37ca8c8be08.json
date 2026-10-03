@@ -1,0 +1,25 @@
+{
+  "name": "Ghoulcaller's Accomplice",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{B}, Exile this card from your graveyard: Create a 2/2 black Zombie creature token. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

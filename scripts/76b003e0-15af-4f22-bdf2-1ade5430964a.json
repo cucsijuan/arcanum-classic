@@ -1,0 +1,25 @@
+{
+  "name": "Zulaport Cutthroat",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

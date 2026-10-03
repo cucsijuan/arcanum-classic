@@ -1,0 +1,27 @@
+{
+  "name": "Undercity Necrolisk",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: Put a +1/+1 counter on this creature. It gains menace until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

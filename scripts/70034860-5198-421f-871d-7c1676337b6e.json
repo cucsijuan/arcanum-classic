@@ -1,0 +1,38 @@
+{
+  "name": "Reaper King",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Scarecrow"
+      },
+      "text": "Other Scarecrow creatures you control get +1/+1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Scarecrow",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Whenever another Scarecrow you control enters, destroy target permanent."
+    }
+  ]
+}

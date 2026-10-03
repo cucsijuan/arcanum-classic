@@ -1,0 +1,25 @@
+{
+  "name": "Mad Ratter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create two 1/1 black Rat creature tokens."
+    }
+  ]
+}

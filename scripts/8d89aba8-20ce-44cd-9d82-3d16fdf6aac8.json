@@ -1,0 +1,26 @@
+{
+  "name": "Ghost Tactician",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}, discard",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{W}, {T}, Discard a card: Creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

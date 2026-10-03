@@ -1,0 +1,25 @@
+{
+  "name": "Deathsprout",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ]
+  }
+}

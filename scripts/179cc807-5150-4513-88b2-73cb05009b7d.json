@@ -1,0 +1,8 @@
+{
+  "name": "Purple Worm",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": "morbid"
+  }
+}

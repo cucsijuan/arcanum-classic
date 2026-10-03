@@ -1,0 +1,19 @@
+{
+  "name": "Skull Catapult",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice a creature: This artifact deals 2 damage to any target."
+    }
+  ]
+}

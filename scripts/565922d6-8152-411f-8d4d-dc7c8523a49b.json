@@ -1,0 +1,26 @@
+{
+  "name": "Nature's Spiral",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature",
+            "artifact",
+            "enchantment",
+            "planeswalker",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

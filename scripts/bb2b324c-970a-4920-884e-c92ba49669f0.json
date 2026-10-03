@@ -1,0 +1,25 @@
+{
+  "name": "Tamiyo's Safekeeping",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ]
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

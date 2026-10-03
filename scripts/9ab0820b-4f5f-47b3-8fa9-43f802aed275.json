@@ -1,0 +1,23 @@
+{
+  "name": "Borborygmos",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Borborygmos deals combat damage to a player, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Lunar Frenzy",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "X",
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike",
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "The Falcon, Sam Wilson",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "When The Falcon, Sam Wilson enters, put a +1/+1 counter on each other creature you control."
+    }
+  ]
+}

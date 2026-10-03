@@ -1,0 +1,31 @@
+{
+  "name": "End-Raze Forerunners",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Vigilance",
+            "Trample"
+          ]
+        }
+      ],
+      "text": "When this creature enters, other creatures you control get +2/+2 and gain vigilance and trample until end of turn."
+    }
+  ]
+}

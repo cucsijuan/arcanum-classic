@@ -1,0 +1,35 @@
+{
+  "name": "Thrór's Map",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "When Thrór's Map enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{2}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Angelfire Ignition",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 2,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Vigilance",
+          "Trample",
+          "Lifelink",
+          "Indestructible",
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

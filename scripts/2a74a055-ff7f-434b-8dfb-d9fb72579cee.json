@@ -1,0 +1,43 @@
+{
+  "name": "Hazel's Nocturne",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "loseLife": 2,
+        "who": "opponents"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

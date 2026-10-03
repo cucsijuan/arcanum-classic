@@ -1,0 +1,35 @@
+{
+  "name": "Captain America, Steve Rogers",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever Captain America, Steve Rogers attacks, put a +1/+1 counter on another target creature you control. That creature gains indestructible until end of turn."
+    }
+  ]
+}

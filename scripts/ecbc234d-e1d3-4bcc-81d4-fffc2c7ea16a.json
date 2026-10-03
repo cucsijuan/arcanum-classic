@@ -1,0 +1,32 @@
+{
+  "name": "Crush Contraband",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Exile target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Unforgiving Aim",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a 2/2 black and green Elf creature token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Elf",
+              "types": "Creature — Elf",
+              "power": 2,
+              "toughness": 2,
+              "colors": [
+                "B",
+                "G"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

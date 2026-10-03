@@ -1,0 +1,19 @@
+{
+  "name": "Stone Docent",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "gainLife": 2
+        },
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{W}, Exile this card from your graveyard: You gain 2 life. Surveil 1. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

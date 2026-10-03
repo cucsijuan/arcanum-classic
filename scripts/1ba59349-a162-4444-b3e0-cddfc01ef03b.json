@@ -1,0 +1,29 @@
+{
+  "name": "Rubblebelt Maverick",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this creature enters, surveil 2."
+    },
+    {
+      "cost": "{G}, exileFromGraveyard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{G}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

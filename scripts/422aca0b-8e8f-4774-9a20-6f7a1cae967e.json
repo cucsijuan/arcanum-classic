@@ -1,0 +1,36 @@
+{
+  "name": "Scout the Wilderness",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Soldier",
+              "types": "Creature — Soldier",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

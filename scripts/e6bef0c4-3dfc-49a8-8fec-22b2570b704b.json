@@ -1,0 +1,27 @@
+{
+  "name": "Aftershock",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "damage": 3,
+        "to": "you"
+      }
+    ]
+  }
+}

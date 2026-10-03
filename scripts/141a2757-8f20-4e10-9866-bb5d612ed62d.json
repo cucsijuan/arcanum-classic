@@ -1,0 +1,33 @@
+{
+  "name": "Loxodon Eavesdropper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this creature enters, investigate."
+    },
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, this creature gets +1/+1 and gains vigilance until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Cremate",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

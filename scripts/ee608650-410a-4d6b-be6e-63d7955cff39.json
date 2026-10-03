@@ -1,0 +1,22 @@
+{
+  "name": "Cackling Witch",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}{B}, {T}, discard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "X",
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{X}{B}, {T}, Discard a card: Target creature gets +X/+0 until end of turn."
+    }
+  ]
+}

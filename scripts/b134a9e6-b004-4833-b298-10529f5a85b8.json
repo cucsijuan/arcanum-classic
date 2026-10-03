@@ -1,0 +1,22 @@
+{
+  "name": "Eriette's Lullaby",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "tapped": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 2
+      }
+    ]
+  }
+}

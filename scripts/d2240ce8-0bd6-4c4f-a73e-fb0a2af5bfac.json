@@ -1,0 +1,25 @@
+{
+  "name": "Tolarian Geyser",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "gainLife": 3
+          }
+        ]
+      }
+    ]
+  }
+}

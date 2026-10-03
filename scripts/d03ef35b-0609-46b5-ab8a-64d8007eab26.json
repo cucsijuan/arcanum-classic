@@ -1,0 +1,29 @@
+{
+  "name": "Spectral Hunt-Caller",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{5}{G}: Creatures you control get +1/+1 and gain trample until end of turn."
+    }
+  ]
+}

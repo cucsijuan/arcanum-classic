@@ -1,0 +1,36 @@
+{
+  "name": "Tangletrap",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Tangletrap deals 5 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

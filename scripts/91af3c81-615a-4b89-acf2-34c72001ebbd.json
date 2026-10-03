@@ -1,0 +1,22 @@
+{
+  "name": "Fiery Conclusion",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ]
+  }
+}

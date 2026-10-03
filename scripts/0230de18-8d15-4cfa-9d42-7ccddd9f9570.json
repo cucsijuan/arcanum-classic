@@ -1,0 +1,17 @@
+{
+  "name": "Supreme Verdict",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

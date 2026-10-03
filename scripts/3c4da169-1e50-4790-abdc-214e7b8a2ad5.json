@@ -1,0 +1,49 @@
+{
+  "name": "Thorin's Last Stand",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Creatures you control get +2/+1 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              2,
+              1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact or enchantment. You gain 2 life.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          },
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ]
+  }
+}

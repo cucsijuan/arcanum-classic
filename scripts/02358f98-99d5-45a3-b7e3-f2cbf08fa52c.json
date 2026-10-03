@@ -1,0 +1,29 @@
+{
+  "name": "Viashino Lashclaw",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}, Discard a card: Creatures you control gain haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Shattering Blow",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

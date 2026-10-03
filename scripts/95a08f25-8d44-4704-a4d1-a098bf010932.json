@@ -1,0 +1,19 @@
+{
+  "name": "Burlfist Oak",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw a card, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

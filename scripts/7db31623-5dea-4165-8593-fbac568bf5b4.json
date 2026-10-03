@@ -1,0 +1,30 @@
+{
+  "name": "Spellgyre",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Counter target spell.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Surveil 2, then draw two cards.",
+        "effects": [
+          {
+            "surveil": 2
+          },
+          {
+            "draw": 2
+          }
+        ]
+      }
+    ]
+  }
+}

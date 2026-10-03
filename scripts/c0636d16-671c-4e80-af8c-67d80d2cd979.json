@@ -1,0 +1,24 @@
+{
+  "name": "Irregular Cohort",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 colorless Shapeshifter creature token with changeling."
+    }
+  ]
+}

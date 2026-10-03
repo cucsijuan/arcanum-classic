@@ -1,0 +1,28 @@
+{
+  "name": "Gaea's Gift",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach",
+          "Trample",
+          "Hexproof",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}

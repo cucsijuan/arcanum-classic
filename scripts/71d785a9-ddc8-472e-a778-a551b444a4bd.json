@@ -1,0 +1,29 @@
+{
+  "name": "Selfless Spirit",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Sacrifice this creature: Creatures you control gain indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Compulsion",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{U}, Discard a card: Draw a card."
+    },
+    {
+      "cost": "{1}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{U}, Sacrifice this enchantment: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Double Cleave",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Double strike"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Capashen Unicorn",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}, Sacrifice this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

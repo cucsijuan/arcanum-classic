@@ -1,0 +1,47 @@
+{
+  "name": "Ardoz, Cobbler of War",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever Ardoz, Cobbler of War or another creature you control enters, that creature gets +2/+0 until end of turn."
+    },
+    {
+      "cost": "{3}{R}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ],
+            "keywords": [
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{R}: Create a 1/1 red Goblin creature token with haste. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

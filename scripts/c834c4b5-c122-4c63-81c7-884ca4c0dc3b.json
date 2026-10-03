@@ -1,0 +1,29 @@
+{
+  "name": "Ogre Battledriver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "triggered",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control enters, that creature gets +2/+0 and gains haste until end of turn."
+    }
+  ]
+}

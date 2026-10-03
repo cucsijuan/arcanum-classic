@@ -1,0 +1,26 @@
+{
+  "name": "Encampment Keeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{7}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{7}{W}, {T}, Sacrifice this creature: Creatures you control get +2/+2 until end of turn."
+    }
+  ]
+}

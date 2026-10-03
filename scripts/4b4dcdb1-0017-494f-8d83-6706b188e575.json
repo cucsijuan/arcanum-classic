@@ -1,0 +1,15 @@
+{
+  "name": "Wanderbrine Preacher",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you gain 2 life."
+    }
+  ]
+}

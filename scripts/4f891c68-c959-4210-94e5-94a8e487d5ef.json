@@ -1,0 +1,21 @@
+{
+  "name": "False Summoning",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Mold Adder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "colors": [
+          "U",
+          "B"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on this creature?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on this creature."
+    }
+  ]
+}

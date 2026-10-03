@@ -1,0 +1,26 @@
+{
+  "name": "Smashing Spree",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ]
+  }
+}

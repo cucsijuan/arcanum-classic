@@ -1,0 +1,34 @@
+{
+  "name": "Cleric of Life's Bond",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Cleric",
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever another Cleric you control enters, you gain 1 life."
+    },
+    {
+      "trigger": "gainLife",
+      "nth": 1,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life for the first time each turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

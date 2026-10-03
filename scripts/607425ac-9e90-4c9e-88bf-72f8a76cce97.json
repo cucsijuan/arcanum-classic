@@ -1,0 +1,25 @@
+{
+  "name": "Big Play",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach"
+        ]
+      },
+      {
+        "counters": 1,
+        "what": "target"
+      }
+    ]
+  }
+}

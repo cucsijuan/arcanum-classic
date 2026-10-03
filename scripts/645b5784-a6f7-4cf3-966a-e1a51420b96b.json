@@ -1,0 +1,23 @@
+{
+  "name": "Mystic Skyfish",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, this creature gains flying until end of turn."
+    }
+  ]
+}

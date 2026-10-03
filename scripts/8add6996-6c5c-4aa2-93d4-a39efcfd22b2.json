@@ -1,0 +1,15 @@
+{
+  "name": "Celestial Force",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "At the beginning of each upkeep, you gain 3 life."
+    }
+  ]
+}

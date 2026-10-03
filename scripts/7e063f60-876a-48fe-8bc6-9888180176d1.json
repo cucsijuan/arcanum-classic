@@ -1,0 +1,24 @@
+{
+  "name": "Wary Watchdog",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters or dies, surveil 1."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters or dies, surveil 1."
+    }
+  ]
+}

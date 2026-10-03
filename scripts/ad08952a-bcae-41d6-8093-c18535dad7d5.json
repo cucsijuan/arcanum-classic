@@ -1,0 +1,37 @@
+{
+  "name": "Necrogenesis",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{2}: Exile target creature card from a graveyard. Create a 1/1 green Saproling creature token."
+    }
+  ]
+}

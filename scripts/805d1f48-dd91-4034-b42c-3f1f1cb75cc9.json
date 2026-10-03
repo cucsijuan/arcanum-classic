@@ -1,0 +1,23 @@
+{
+  "name": "Ephara's Warden",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{T}: Tap target creature with power 3 or less."
+    }
+  ]
+}

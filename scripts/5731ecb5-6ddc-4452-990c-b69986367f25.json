@@ -1,0 +1,24 @@
+{
+  "name": "Mephitic Vapors",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "surveil": 2
+      }
+    ]
+  }
+}

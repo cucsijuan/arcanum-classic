@@ -1,0 +1,26 @@
+{
+  "name": "Selfless Cathar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, sacrifice",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{1}{W}, Sacrifice this creature: Creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

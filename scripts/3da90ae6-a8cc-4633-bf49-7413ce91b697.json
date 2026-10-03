@@ -1,0 +1,19 @@
+{
+  "name": "Rust Monster",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Sacrifice an artifact: This creature gets +2/+0 until end of turn."
+    }
+  ]
+}

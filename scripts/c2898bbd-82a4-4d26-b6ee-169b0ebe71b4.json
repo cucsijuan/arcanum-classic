@@ -1,0 +1,29 @@
+{
+  "name": "Into the Roil",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

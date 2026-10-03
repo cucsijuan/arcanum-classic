@@ -1,0 +1,19 @@
+{
+  "name": "Cirith Ungol Patrol",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice another creature: Draw a card, then create a Food token."
+    }
+  ]
+}

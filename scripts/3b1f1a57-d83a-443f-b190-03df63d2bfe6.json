@@ -1,0 +1,19 @@
+{
+  "name": "Seismic Rupture",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 2,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "without": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

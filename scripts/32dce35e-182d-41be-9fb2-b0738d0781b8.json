@@ -1,0 +1,20 @@
+{
+  "name": "Phyrexian Espionage",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "discard": 1,
+            "who": "opponents"
+          }
+        ]
+      }
+    ]
+  }
+}

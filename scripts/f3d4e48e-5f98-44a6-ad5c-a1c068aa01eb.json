@@ -1,0 +1,22 @@
+{
+  "name": "Skywhaler's Shot",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "minPower": 3
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Vinereap Mentor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters or dies, create a Food token."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters or dies, create a Food token."
+    }
+  ]
+}

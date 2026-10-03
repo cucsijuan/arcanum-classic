@@ -1,0 +1,23 @@
+{
+  "name": "Aysen Bureaucrats",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 2
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{T}: Tap target creature with power 2 or less."
+    }
+  ]
+}

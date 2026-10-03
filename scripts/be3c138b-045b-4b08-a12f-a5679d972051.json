@@ -1,0 +1,35 @@
+{
+  "name": "Ominous Parcel",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this artifact: It deals 4 damage to target creature."
+    }
+  ]
+}

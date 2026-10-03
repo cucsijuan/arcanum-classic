@@ -1,0 +1,14 @@
+{
+  "name": "Sphinx's Revelation",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "gainLife": "X"
+      },
+      {
+        "draw": "X"
+      }
+    ]
+  }
+}

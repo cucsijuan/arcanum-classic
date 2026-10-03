@@ -1,0 +1,25 @@
+{
+  "name": "Bewildering Blizzard",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "pump": [
+          -3,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

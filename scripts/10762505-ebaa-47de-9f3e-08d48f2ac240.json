@@ -1,0 +1,32 @@
+{
+  "name": "Beckon Apparition",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W",
+            "B"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ]
+  }
+}

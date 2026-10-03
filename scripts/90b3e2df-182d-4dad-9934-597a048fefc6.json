@@ -1,0 +1,28 @@
+{
+  "name": "Devastate",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "damage": 1,
+        "to": "everyone"
+      }
+    ]
+  }
+}

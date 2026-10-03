@@ -1,0 +1,31 @@
+{
+  "name": "Gravedigger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target creature card from your graveyard to your hand."
+    }
+  ]
+}

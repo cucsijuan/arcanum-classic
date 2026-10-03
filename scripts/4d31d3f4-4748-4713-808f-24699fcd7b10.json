@@ -1,0 +1,18 @@
+{
+  "name": "Slice from the Shadows",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "-X",
+          "-X"
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

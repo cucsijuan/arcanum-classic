@@ -1,0 +1,15 @@
+{
+  "name": "Stream of Life",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "gainLife": "X",
+        "who": "target"
+      }
+    ]
+  }
+}

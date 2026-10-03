@@ -1,0 +1,19 @@
+{
+  "name": "Squall",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 2,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "keyword": "Flying"
+          }
+        }
+      }
+    ]
+  }
+}

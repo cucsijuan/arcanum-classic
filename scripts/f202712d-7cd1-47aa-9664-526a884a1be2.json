@@ -1,0 +1,20 @@
+{
+  "name": "Arrogant Outlaw",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "opponentLostLife",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters, if an opponent lost life this turn, each opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Grim Bauble",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this artifact enters, target creature an opponent controls gets -2/-2 until end of turn."
+    },
+    {
+      "cost": "{2}{B}, {T}, sacrifice",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "{2}{B}, {T}, Sacrifice this artifact: Surveil 2."
+    }
+  ]
+}

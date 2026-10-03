@@ -1,0 +1,35 @@
+{
+  "name": "Tyrant's Scorn",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with mana value 3 or less.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "maxManaValue": 3
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target creature to its owner's hand.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

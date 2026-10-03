@@ -1,0 +1,54 @@
+{
+  "name": "Darigaaz's Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Return target creature card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Darigaaz's Charm deals 3 damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +3/+3 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

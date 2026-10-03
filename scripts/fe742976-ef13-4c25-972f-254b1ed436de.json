@@ -1,0 +1,25 @@
+{
+  "name": "Mother Bear",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}{G}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Bear",
+            "types": "Creature — Bear",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{G}{G}, Exile this card from your graveyard: Create two 2/2 green Bear creature tokens. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

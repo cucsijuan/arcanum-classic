@@ -1,0 +1,20 @@
+{
+  "name": "Juniper Order Rootweaver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

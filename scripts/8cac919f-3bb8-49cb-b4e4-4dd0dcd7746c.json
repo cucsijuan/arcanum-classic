@@ -1,0 +1,33 @@
+{
+  "name": "Erkenbrand, Lord of Westfold",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Human"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Erkenbrand, Lord of Westfold or another Human you control enters, creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

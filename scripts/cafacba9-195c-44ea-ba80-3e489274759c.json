@@ -1,0 +1,37 @@
+{
+  "name": "Glissa, the Traitor",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target artifact card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, you may return target artifact card from your graveyard to your hand."
+    }
+  ]
+}

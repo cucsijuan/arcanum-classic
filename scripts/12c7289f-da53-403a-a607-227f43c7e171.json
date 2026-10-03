@@ -1,0 +1,26 @@
+{
+  "name": "Trusty Packbeast",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return target artifact card from your graveyard to your hand."
+    }
+  ]
+}

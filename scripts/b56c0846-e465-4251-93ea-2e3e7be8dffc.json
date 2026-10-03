@@ -1,0 +1,31 @@
+{
+  "name": "Aerial Guide",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target attacking creature gains flying until end of turn."
+    }
+  ]
+}

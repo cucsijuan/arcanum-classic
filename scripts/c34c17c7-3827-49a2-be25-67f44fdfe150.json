@@ -1,0 +1,12 @@
+{
+  "name": "Strike It Rich",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

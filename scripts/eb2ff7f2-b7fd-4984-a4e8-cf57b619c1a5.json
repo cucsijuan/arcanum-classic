@@ -1,0 +1,30 @@
+{
+  "name": "Wose Pathfinder",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{G}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{6}{G}, {T}: Another target creature gets +3/+3 and gains trample until end of turn."
+    }
+  ]
+}

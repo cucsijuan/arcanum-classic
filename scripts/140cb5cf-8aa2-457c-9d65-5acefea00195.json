@@ -1,0 +1,28 @@
+{
+  "name": "Eternal Student",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W",
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{B}, Exile this card from your graveyard: Create two 1/1 white and black Inkling creature tokens with flying."
+    }
+  ]
+}

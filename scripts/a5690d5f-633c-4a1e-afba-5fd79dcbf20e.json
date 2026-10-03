@@ -1,0 +1,19 @@
+{
+  "name": "Unspeakable Symbol",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Pay 3 life: Put a +1/+1 counter on target creature."
+    }
+  ]
+}

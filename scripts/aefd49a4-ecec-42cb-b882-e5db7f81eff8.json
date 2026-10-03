@@ -1,0 +1,26 @@
+{
+  "name": "Adun Oakenshield",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}{G}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{B}{R}{G}, {T}: Return target creature card from your graveyard to your hand."
+    }
+  ]
+}

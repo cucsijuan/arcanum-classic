@@ -1,0 +1,25 @@
+{
+  "name": "Cleaver Riot",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Double strike"
+        ]
+      }
+    ]
+  }
+}

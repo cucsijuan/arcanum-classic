@@ -1,0 +1,28 @@
+{
+  "name": "Feed the Cauldron",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "maxManaValue": 3
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "if": "yourTurn",
+        "then": [
+          {
+            "tokens": 1,
+            "token": "Food"
+          }
+        ]
+      }
+    ]
+  }
+}

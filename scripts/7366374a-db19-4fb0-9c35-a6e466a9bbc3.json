@@ -1,0 +1,39 @@
+{
+  "name": "Parch",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Parch deals 2 damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Parch deals 4 damage to target blue creature.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "colors": [
+                "U"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Citanul Woodreaders",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, draw two cards."
+    }
+  ]
+}

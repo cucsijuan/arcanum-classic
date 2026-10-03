@@ -1,0 +1,24 @@
+{
+  "name": "Verdant Force",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each upkeep, create a 1/1 green Saproling creature token."
+    }
+  ]
+}

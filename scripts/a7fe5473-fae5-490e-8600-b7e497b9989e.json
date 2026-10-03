@@ -1,0 +1,19 @@
+{
+  "name": "Skirsdag Cultist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, {T}, Sacrifice a creature: This creature deals 2 damage to any target."
+    }
+  ]
+}

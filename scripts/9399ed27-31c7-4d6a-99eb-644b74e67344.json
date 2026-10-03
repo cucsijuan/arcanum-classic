@@ -1,0 +1,17 @@
+{
+  "name": "Tempest of Light",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

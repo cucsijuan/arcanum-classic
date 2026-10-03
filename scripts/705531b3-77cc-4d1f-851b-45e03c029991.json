@@ -1,0 +1,22 @@
+{
+  "name": "Hysterical Blindness",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -4,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

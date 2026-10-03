@@ -1,0 +1,27 @@
+{
+  "name": "Syr Alin, the Lion's Claw",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

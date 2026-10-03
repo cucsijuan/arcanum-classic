@@ -1,0 +1,22 @@
+{
+  "name": "Shadowcloak Vampire",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:2",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Pay 2 life: This creature gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Rotlung Reanimator",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "subtype": "Cleric"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature or another Cleric dies, create a 2/2 black Zombie creature token."
+    }
+  ]
+}

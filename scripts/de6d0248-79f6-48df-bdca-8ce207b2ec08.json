@@ -1,0 +1,23 @@
+{
+  "name": "Dawntreader Elk",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{G}, Sacrifice this creature: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

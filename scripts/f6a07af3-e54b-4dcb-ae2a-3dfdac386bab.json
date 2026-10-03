@@ -1,0 +1,22 @@
+{
+  "name": "Wild-Field Scarecrow",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "hand"
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle."
+    }
+  ]
+}

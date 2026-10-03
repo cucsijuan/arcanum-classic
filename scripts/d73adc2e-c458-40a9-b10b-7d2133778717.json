@@ -1,0 +1,24 @@
+{
+  "name": "Tidy Conclusion",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": {
+          "count": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "times": 1
+        }
+      }
+    ]
+  }
+}

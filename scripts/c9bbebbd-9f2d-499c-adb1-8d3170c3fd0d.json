@@ -1,0 +1,47 @@
+{
+  "name": "Deafening Clarion",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Deafening Clarion deals 3 damage to each creature.",
+        "effects": [
+          {
+            "damage": 3,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control gain lifelink until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

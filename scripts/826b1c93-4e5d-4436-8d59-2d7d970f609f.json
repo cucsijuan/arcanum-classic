@@ -1,0 +1,17 @@
+{
+  "name": "Cleanfall",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

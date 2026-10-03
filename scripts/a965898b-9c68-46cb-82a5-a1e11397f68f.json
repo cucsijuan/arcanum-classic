@@ -1,0 +1,38 @@
+{
+  "name": "Ghitu Amplifier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, return target creature an opponent controls to its owner's hand."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

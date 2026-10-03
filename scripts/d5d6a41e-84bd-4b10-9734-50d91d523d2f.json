@@ -1,0 +1,20 @@
+{
+  "name": "Novice Dissector",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: Put a +1/+1 counter on target creature. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

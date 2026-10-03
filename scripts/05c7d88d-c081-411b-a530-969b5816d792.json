@@ -1,0 +1,44 @@
+{
+  "name": "Kill! Maim! Burn!",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Kill! Maim! Burn! deals 3 damage to target player.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 3,
+    "upTo": true
+  }
+}

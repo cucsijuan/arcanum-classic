@@ -1,0 +1,28 @@
+{
+  "name": "Bala Ged Scorpion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 1
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy target creature with power 1 or less?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy target creature with power 1 or less."
+    }
+  ]
+}

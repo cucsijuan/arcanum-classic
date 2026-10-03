@@ -1,0 +1,33 @@
+{
+  "name": "Undercity Uprising",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      {
+        "fight": "target",
+        "with": "target2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Ampryn Tactician",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

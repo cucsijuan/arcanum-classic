@@ -1,0 +1,23 @@
+{
+  "name": "Righteousness",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          7,
+          7
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

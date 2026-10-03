@@ -1,0 +1,26 @@
+{
+  "name": "Maw of the Obzedat",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Sacrifice a creature: Creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

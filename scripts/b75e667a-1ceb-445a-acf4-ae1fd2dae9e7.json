@@ -1,0 +1,35 @@
+{
+  "name": "Destroy Evil",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with toughness 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minToughness": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

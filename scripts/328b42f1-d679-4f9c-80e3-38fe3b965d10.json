@@ -1,0 +1,16 @@
+{
+  "name": "Psychic Corrosion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "mill": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you draw a card, each opponent mills two cards."
+    }
+  ]
+}

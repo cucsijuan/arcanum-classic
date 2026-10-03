@@ -1,0 +1,17 @@
+{
+  "name": "Caligo Skin-Witch",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "discard": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, each opponent discards two cards."
+    }
+  ]
+}

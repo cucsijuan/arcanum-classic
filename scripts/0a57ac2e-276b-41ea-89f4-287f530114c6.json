@@ -1,0 +1,15 @@
+{
+  "name": "Starved Rusalka",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, sacrifice:creature",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{G}, Sacrifice a creature: You gain 1 life."
+    }
+  ]
+}

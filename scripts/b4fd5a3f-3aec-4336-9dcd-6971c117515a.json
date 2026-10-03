@@ -1,0 +1,27 @@
+{
+  "name": "Kithkin Daggerdare",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}, {T}: Target attacking creature gets +2/+2 until end of turn."
+    }
+  ]
+}

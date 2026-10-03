@@ -1,0 +1,20 @@
+{
+  "name": "Nezumi Bone-Reader",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, sacrifice:creature",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, Sacrifice a creature: Target player discards a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

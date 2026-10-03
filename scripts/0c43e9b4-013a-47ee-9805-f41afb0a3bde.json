@@ -1,0 +1,39 @@
+{
+  "name": "Dross Skullbomb",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    },
+    {
+      "cost": "{2}{B}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{B}, Sacrifice this artifact: Return target creature card from your graveyard to your hand. Draw a card. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

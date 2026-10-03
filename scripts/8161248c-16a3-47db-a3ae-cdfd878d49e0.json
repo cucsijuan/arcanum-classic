@@ -1,0 +1,29 @@
+{
+  "name": "Terror of Mount Velus",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "When this creature enters, creatures you control gain double strike until end of turn."
+    }
+  ]
+}

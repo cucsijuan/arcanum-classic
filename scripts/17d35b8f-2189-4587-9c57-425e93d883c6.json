@@ -1,0 +1,27 @@
+{
+  "name": "Westfold Rider",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Destroy target artifact or enchantment. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

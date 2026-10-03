@@ -1,0 +1,14 @@
+{
+  "name": "Dematerialize",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

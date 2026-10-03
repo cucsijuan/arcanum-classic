@@ -1,0 +1,11 @@
+{
+  "name": "Demon of Catastrophes",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}

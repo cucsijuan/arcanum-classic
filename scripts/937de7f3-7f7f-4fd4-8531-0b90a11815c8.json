@@ -1,0 +1,20 @@
+{
+  "name": "Sadistic Hypnotist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:creature",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Sacrifice a creature: Target player discards two cards. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

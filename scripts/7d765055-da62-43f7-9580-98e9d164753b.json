@@ -1,0 +1,23 @@
+{
+  "name": "Truck Toss",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "control": {
+        "subtype": "Vehicle"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

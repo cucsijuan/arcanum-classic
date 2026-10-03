@@ -1,0 +1,30 @@
+{
+  "name": "Exhilarating Elocution",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 2,
+        "what": "target"
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "other": true
+          }
+        }
+      }
+    ]
+  }
+}

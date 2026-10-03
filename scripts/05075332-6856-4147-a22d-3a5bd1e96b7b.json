@@ -1,0 +1,38 @@
+{
+  "name": "Phyrexian Warhorse",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, create a 1/1 white Soldier creature token."
+    },
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            2,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: This creature gets +2/+1 until end of turn."
+    }
+  ]
+}

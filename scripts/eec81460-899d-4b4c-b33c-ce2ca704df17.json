@@ -1,0 +1,34 @@
+{
+  "name": "Crude Bent Blade",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "target"
+        }
+      ],
+      "text": "When this Equipment enters, target opponent sacrifices a creature of their choice."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    }
+  ]
+}

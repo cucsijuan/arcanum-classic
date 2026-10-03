@@ -1,0 +1,22 @@
+{
+  "name": "Angel of Renewal",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            },
+            "times": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, you gain 1 life for each creature you control."
+    }
+  ]
+}

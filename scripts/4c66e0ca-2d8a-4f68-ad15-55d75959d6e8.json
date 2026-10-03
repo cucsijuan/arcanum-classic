@@ -1,0 +1,25 @@
+{
+  "name": "Prince Imrahil the Fair",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a 1/1 white Human Soldier creature token."
+    }
+  ]
+}

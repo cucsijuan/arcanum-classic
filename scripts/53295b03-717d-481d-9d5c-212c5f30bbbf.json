@@ -1,0 +1,37 @@
+{
+  "name": "Omen of the Hunt",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "When this enchantment enters, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+      "cost": "{2}{G}, sacrifice",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{2}{G}, Sacrifice this enchantment: Scry 2."
+    }
+  ]
+}

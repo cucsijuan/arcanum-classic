@@ -1,0 +1,33 @@
+{
+  "name": "Rage Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "B",
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{2}: Target black or green creature gains haste until end of turn."
+    }
+  ]
+}

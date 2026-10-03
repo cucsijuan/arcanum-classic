@@ -1,0 +1,35 @@
+{
+  "name": "Foggy Nelson, On Retainer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof"
+          ]
+        }
+      ],
+      "text": "When Foggy Nelson, On Retainer enters, put a +1/+1 counter on another target creature you control. It gains hexproof until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Spireside Infiltrator",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, it deals 1 damage to each opponent."
+    }
+  ]
+}

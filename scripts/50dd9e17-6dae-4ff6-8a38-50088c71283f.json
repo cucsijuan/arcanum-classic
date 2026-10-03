@@ -1,0 +1,32 @@
+{
+  "name": "Thoughtweft Lieutenant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Kithkin"
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another Kithkin you control enters, target creature you control gets +1/+1 and gains trample until end of turn."
+    }
+  ]
+}

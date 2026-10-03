@@ -1,0 +1,20 @@
+{
+  "name": "Honored Heirloom",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{2}, {T}: Exile target card from a graveyard."
+    }
+  ]
+}

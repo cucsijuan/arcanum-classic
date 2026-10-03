@@ -1,0 +1,22 @@
+{
+  "name": "Silverstrike",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

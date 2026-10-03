@@ -3,66 +3,66 @@ Commander
 1 Terrian, World Tyrant
 
 Deck
-1 Almighty Brushwagg
-1 Dragon Sniper
-1 Healer of the Glade
+1 Jaddi Offshoot
 1 Jungle Lion
-1 Ornamental Courage
+1 Nasty Little Rabbit
+1 Skyway Sniper
+1 Take Down
 1 Unnatural Predation
-1 Aggressive Urge
-1 Death-Hood Cobra
-1 Garruk's Companion
-1 Grappling Sundew
-1 Guardian of the Halls
-1 Iridescent Blademaster
-1 Ixalli's Keeper
-1 Kalonian Tusker
-1 Monstrous Growth
-1 Pestilent Wolf
-1 Quilled Wolf
+1 Attercop
+1 Eumidian Terrabotanist
+1 Flesh Burrower
+1 Gaea's Gift
+1 Heir of the Wilds
+1 Lys Alana Informant
+1 Origin of Metalbending
+1 Tigra, Feline Fury
 1 Tread Upon
+1 Undergrowth Leopard
 1 Wall of Tanglecord
+1 Wary Thespian
+1 Wary Watchdog
 1 Wielding the Green Dragon
+1 Burrowing Razormaw
 1 Carven Caryatid
-1 Confidence from Strength
+1 Eager Trufflesnout
+1 Excavation Mole
 1 Force of Savagery
-1 Gaea's Anthem
-1 Gnottvold Recluse
 1 Grasping Longneck
-1 Hungry Megasloth
-1 Hyrax Tower Scout
+1 Jewel Thief
 1 Lace with Moonglove
 1 Leatherback Baloth
-1 Shopkeeper's Bane
+1 Natural End
+1 Regal Imperiosaur
 1 Spidery Grasp
-1 Springmane Cervin
-1 Wildwood Patrol
-1 Archers of Qarsi
-1 Carnivorous Plant
+1 Squall
+1 Thawbringer
+1 Arasta of the Endless Web
+1 Artisan's Sorrow
+1 Cackling Prowler
 1 Colossadactyl
-1 Harmonize
-1 Might of Oaks
-1 Nettletooth Djinn
-1 Ordinary Bear
-1 Pheres-Band Warchief
+1 Devil Dinosaur
+1 Elephant Ambush
+1 Fierce Witchstalker
+1 Hit-Monkey
+1 Icecave Crasher
 1 Primordial Pachyderm
-1 Spore Swarm
-1 Sudden Strength
-1 Warriors of Wakanda
+1 Snake Pit
+1 Titania's Boon
 1 Ant Queen
-1 Arborback Stomper
-1 Centaur Glade
-1 Dosan's Oldest Chant
+1 Bountiful Harvest
+1 Funnel-Web Recluse
 1 Gigantosaurus
 1 Kodama of the North Tree
-1 Silverback Shaman
-1 Spring of Eternal Peace
-1 Turntimber Ascetic
-1 Hill Giant Herdgorger
+1 Overcome
+1 Overrun
+1 Ridgescale Tusker
+1 Wrecking Gecko
+1 Aggressive Mammoth
 1 Prodigious Growth
 1 Quakestrider Ceratops
-1 Ravenous Lindwurm
-1 Vorstclaw
-1 Kalonian Behemoth
-1 Ancient Brontodon
+1 Rampaging Baloths
+1 Terra Stomper
+1 Gigantic Big Bear
+1 Stonehoof Chieftain
 37 Forest

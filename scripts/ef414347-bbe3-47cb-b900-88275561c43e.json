@@ -1,0 +1,30 @@
+{
+  "name": "Neighborhood Guardian",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "maxPower": 2,
+        "other": true
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever another creature you control with power 2 or less enters, target creature you control gets +1/+1 until end of turn."
+    }
+  ]
+}

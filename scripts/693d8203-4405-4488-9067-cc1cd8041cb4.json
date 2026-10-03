@@ -1,0 +1,22 @@
+{
+  "name": "Greenseeker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, {T}, discard",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{G}, {T}, Discard a card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

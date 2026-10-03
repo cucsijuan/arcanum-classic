@@ -1,0 +1,31 @@
+{
+  "name": "Starling, Aerial Ally",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When Starling, Aerial Ally enters, another target creature you control gains flying until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Dauntless Veteran",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

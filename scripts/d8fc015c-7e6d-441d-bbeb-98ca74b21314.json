@@ -1,0 +1,20 @@
+{
+  "name": "Join the Dance",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Human",
+          "types": "Creature — Human",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ]
+        }
+      }
+    ]
+  }
+}

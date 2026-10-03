@@ -1,0 +1,27 @@
+{
+  "name": "Escape Routes",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "W",
+              "B"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}{U}: Return target white or black creature you control to its owner's hand."
+    }
+  ]
+}

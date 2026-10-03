@@ -1,0 +1,22 @@
+{
+  "name": "Famine",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 3,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "damage": 3,
+        "to": "everyone"
+      }
+    ]
+  }
+}

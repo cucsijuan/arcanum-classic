@@ -1,0 +1,26 @@
+{
+  "name": "Crack Open",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

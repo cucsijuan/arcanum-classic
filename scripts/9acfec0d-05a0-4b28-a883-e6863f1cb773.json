@@ -1,0 +1,23 @@
+{
+  "name": "Mistmeadow Council",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "subtype": "Kithkin"
+      }
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, draw a card."
+    }
+  ]
+}

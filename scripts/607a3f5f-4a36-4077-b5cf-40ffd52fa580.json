@@ -1,0 +1,24 @@
+{
+  "name": "Altar of Bone",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "creature"
+          ]
+        },
+        "count": 1,
+        "to": "hand"
+      }
+    ]
+  }
+}

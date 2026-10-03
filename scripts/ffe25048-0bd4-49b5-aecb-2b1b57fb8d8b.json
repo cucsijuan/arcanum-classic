@@ -1,0 +1,27 @@
+{
+  "name": "Borderland Ranger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

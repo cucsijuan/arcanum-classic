@@ -1,0 +1,33 @@
+{
+  "name": "Winterflame",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Tap target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "tap": "target"
+          }
+        ]
+      },
+      {
+        "text": "Winterflame deals 2 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

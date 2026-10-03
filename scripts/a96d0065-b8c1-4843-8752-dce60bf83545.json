@@ -1,0 +1,25 @@
+{
+  "name": "Slice in Twain",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

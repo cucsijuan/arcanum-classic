@@ -1,0 +1,25 @@
+{
+  "name": "Emerge from the Cocoon",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

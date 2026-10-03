@@ -1,0 +1,53 @@
+{
+  "name": "Grixis Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Return target permanent to its owner's hand.",
+        "targets": [
+          "permanent"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -4/-4 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -4,
+              -4
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control get +2/+0 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

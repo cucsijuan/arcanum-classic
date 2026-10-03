@@ -1,0 +1,19 @@
+{
+  "name": "Blazing Volley",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

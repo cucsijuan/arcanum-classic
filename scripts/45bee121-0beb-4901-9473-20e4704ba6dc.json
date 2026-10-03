@@ -1,0 +1,21 @@
+{
+  "name": "Reckless Charge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ]
+  }
+}

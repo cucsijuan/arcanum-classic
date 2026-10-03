@@ -1,0 +1,34 @@
+{
+  "name": "Mortiphobia",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, discard",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}{B}, Discard a card: Exile target card from a graveyard."
+    },
+    {
+      "cost": "{1}{B}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}{B}, Sacrifice this enchantment: Exile target card from a graveyard."
+    }
+  ]
+}

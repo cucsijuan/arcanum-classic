@@ -1,0 +1,18 @@
+{
+  "name": "Blood Divination",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

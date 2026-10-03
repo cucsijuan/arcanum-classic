@@ -1,0 +1,22 @@
+{
+  "name": "Fledgling Imp",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{B}, Discard a card: This creature gains flying until end of turn."
+    }
+  ]
+}

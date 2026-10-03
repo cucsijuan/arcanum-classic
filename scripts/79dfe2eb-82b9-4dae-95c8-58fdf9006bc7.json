@@ -1,0 +1,26 @@
+{
+  "name": "Goldmeadow Nomad",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{W}, Exile this card from your graveyard: Create a 1/1 green and white Kithkin creature token. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Spearbreaker Behemoth",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "minPower": 5
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}: Target creature with power 5 or greater gains indestructible until end of turn."
+    }
+  ]
+}

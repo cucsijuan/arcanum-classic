@@ -1,0 +1,19 @@
+{
+  "name": "Keldon Necropolis",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{R}, {T}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{R}, {T}, Sacrifice a creature: Keldon Necropolis deals 2 damage to any target."
+    }
+  ]
+}

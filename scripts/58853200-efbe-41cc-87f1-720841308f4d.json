@@ -1,0 +1,25 @@
+{
+  "name": "Tower Defense",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          5
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Reach"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Footlight Fiend",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature dies, it deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Elite Archers",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 3 damage to target attacking or blocking creature."
+    }
+  ]
+}

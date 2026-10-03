@@ -1,0 +1,24 @@
+{
+  "name": "Dragonlair Spider",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, create a 1/1 green Insect creature token."
+    }
+  ]
+}

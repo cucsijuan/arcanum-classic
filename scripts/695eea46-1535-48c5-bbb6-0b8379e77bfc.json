@@ -1,0 +1,33 @@
+{
+  "name": "Arasta of the Endless Web",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "power": 1,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever an opponent casts an instant or sorcery spell, create a 1/2 green Spider creature token with reach."
+    }
+  ]
+}

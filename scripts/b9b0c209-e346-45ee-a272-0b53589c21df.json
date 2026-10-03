@@ -1,0 +1,33 @@
+{
+  "name": "Summoner's Bane",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Illusion",
+          "types": "Creature — Illusion",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "U"
+          ]
+        }
+      }
+    ]
+  }
+}

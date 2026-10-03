@@ -1,0 +1,14 @@
+{
+  "name": "Rescue",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent:you"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ]
+  }
+}

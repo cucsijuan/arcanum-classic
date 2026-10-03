@@ -1,0 +1,26 @@
+{
+  "name": "Initiate's Companion",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, untap target creature or land."
+    }
+  ]
+}

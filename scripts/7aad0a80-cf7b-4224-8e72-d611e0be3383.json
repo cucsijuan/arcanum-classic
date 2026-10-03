@@ -1,0 +1,25 @@
+{
+  "name": "Wicked Reward",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          2
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

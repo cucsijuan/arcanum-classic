@@ -1,0 +1,25 @@
+{
+  "name": "Soulsworn Jury",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, sacrifice",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "{1}{U}, Sacrifice this creature: Counter target creature spell."
+    }
+  ]
+}

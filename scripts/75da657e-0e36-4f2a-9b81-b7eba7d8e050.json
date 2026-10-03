@@ -1,0 +1,16 @@
+{
+  "name": "Unburied Earthcarver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}, Sacrifice another creature: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

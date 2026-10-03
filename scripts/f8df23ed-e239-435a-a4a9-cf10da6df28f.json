@@ -1,0 +1,21 @@
+{
+  "name": "Hell Swarm",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -1,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Wanderer's Twig",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

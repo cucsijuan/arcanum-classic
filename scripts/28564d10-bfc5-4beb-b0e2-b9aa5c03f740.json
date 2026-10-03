@@ -1,0 +1,38 @@
+{
+  "name": "Dundoolin Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ]
+        },
+        "count": 3
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature",
+              "artifact",
+              "enchantment",
+              "planeswalker",
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if you control three or more creatures, return target permanent card from your graveyard to your hand."
+    }
+  ]
+}

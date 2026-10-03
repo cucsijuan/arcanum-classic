@@ -1,0 +1,37 @@
+{
+  "name": "Appa, the Vigilant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Ally"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Flying",
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever Appa, the Vigilant or another Ally you control enters, creatures you control get +1/+1 and gain flying and vigilance until end of turn."
+    }
+  ]
+}

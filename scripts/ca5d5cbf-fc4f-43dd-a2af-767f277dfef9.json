@@ -1,0 +1,26 @@
+{
+  "name": "Griffin Dreamfinder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return target enchantment card from your graveyard to your hand."
+    }
+  ]
+}

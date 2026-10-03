@@ -1,0 +1,43 @@
+{
+  "name": "Return to Nature",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target card from a graveyard.",
+        "targets": [
+          {
+            "kind": "graveyardCard"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

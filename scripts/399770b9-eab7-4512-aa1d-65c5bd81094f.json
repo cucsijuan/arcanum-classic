@@ -1,0 +1,30 @@
+{
+  "name": "Trailblazing Historian",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Another target creature gains haste until end of turn."
+    }
+  ]
+}

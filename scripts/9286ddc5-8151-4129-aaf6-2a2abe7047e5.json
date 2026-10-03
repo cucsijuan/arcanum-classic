@@ -1,0 +1,39 @@
+{
+  "name": "Raze the Effigy",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target attacking creature gets +2/+2 until end of turn.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "attacking": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

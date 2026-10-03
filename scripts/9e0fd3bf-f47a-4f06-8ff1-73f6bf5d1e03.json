@@ -1,0 +1,19 @@
+{
+  "name": "Shared Roots",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ]
+  }
+}

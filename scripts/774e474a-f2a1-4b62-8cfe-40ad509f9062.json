@@ -1,0 +1,16 @@
+{
+  "name": "Markov Blademaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, put a +1/+1 counter on it."
+    }
+  ]
+}

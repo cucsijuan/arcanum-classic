@@ -1,0 +1,18 @@
+{
+  "name": "Death Wind",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "-X",
+          "-X"
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

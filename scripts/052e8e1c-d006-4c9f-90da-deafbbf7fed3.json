@@ -1,0 +1,42 @@
+{
+  "name": "Rankle's Prank",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Each player discards two cards.",
+        "effects": [
+          {
+            "discard": 2,
+            "who": "everyone"
+          }
+        ]
+      },
+      {
+        "text": "Each player loses 4 life.",
+        "effects": [
+          {
+            "loseLife": 4,
+            "who": "everyone"
+          }
+        ]
+      },
+      {
+        "text": "Each player sacrifices two creatures of their choice.",
+        "effects": [
+          {
+            "sacrifice": 2,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "who": "everyone"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 3,
+    "upTo": true
+  }
+}

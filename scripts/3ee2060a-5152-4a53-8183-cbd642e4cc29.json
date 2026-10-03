@@ -1,0 +1,18 @@
+{
+  "name": "Bloodcurdling Scream",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "X",
+          0
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

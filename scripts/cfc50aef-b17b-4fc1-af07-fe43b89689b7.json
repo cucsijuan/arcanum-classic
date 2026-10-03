@@ -1,0 +1,15 @@
+{
+  "name": "Vampire Envoy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you gain 1 life."
+    }
+  ]
+}

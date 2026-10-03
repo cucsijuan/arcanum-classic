@@ -1,0 +1,15 @@
+{
+  "name": "Goblin Picker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}, {T}, Discard a card: Draw a card."
+    }
+  ]
+}

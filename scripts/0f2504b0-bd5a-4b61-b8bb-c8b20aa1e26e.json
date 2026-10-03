@@ -1,0 +1,27 @@
+{
+  "name": "Rabid Rats",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target blocking creature gets -1/-1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Liberated Dwarf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}, Sacrifice this creature: Target green creature gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Fodder Cannon",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}, sacrifice:creature",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice a creature: This artifact deals 4 damage to target creature."
+    }
+  ]
+}

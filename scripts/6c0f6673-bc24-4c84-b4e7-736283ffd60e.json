@@ -1,0 +1,22 @@
+{
+  "name": "Wanderwine Distracter",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, target creature an opponent controls gets -3/-0 until end of turn."
+    }
+  ]
+}

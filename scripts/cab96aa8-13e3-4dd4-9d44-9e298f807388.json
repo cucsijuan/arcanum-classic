@@ -1,0 +1,25 @@
+{
+  "name": "Southern Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}{W}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{W}{W}, {T}: Destroy target red permanent."
+    }
+  ]
+}

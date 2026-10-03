@@ -1,0 +1,25 @@
+{
+  "name": "Terminal Criticism",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "U",
+            "R"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 1
+      }
+    ]
+  }
+}

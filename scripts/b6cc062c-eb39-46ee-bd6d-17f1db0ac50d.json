@@ -1,0 +1,15 @@
+{
+  "name": "Phyrexia's Core",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice:artifact",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice an artifact: You gain 1 life."
+    }
+  ]
+}

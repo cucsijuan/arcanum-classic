@@ -1,0 +1,19 @@
+{
+  "name": "Carrion Howler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:1",
+      "effects": [
+        {
+          "pump": [
+            2,
+            -1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Pay 1 life: This creature gets +2/-1 until end of turn."
+    }
+  ]
+}

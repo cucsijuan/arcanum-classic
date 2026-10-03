@@ -1,0 +1,22 @@
+{
+  "name": "Shake the Foundations",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "without": "Flying"
+          }
+        }
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

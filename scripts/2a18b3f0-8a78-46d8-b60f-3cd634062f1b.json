@@ -1,0 +1,25 @@
+{
+  "name": "Refute Destiny",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ]
+  }
+}

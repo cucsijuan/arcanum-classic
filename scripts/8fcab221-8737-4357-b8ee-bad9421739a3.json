@@ -1,0 +1,26 @@
+{
+  "name": "Dwarven Provisioner",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{3}{W}: Creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

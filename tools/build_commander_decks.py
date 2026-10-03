@@ -40,7 +40,7 @@ def supported(card, scripts):
     for stat in ("power", "toughness"):
         if stat in card and not re.fullmatch(r"-?\d+", card[stat]):
             return False
-    if re.search(r"\{X\}|/", card.get("mana_cost", "")):
+    if re.search(r"/P\}", card.get("mana_cost", "")):
         return False
     if card["oracle_id"] in scripts:
         return True

@@ -1,0 +1,27 @@
+{
+  "name": "Skyshroud Archer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{T}: Target creature with flying gets -1/-1 until end of turn."
+    }
+  ]
+}

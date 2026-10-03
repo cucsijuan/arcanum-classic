@@ -1,0 +1,26 @@
+{
+  "name": "Inspired Insurgent",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

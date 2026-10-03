@@ -1,0 +1,27 @@
+{
+  "name": "Blight Grenade",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "pump": [
+          -3,
+          -3
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

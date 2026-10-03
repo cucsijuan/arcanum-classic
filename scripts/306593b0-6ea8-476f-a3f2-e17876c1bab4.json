@@ -1,0 +1,14 @@
+{
+  "name": "Ancient Grudge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "artifact"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

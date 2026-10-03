@@ -1,0 +1,27 @@
+{
+  "name": "Gravewaker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}{B}{B}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{5}{B}{B}: Return target creature card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

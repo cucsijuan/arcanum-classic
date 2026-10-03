@@ -1,0 +1,29 @@
+{
+  "name": "Wild Pack Squad",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "optional": true,
+          "kind": "creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike",
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, up to one target creature gains first strike and vigilance until end of turn."
+    }
+  ]
+}

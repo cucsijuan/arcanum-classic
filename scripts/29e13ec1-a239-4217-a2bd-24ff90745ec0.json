@@ -1,0 +1,20 @@
+{
+  "name": "Withered Wretch",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}: Exile target card from a graveyard."
+    }
+  ]
+}

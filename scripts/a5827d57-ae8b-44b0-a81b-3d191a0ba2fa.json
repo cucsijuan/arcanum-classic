@@ -1,0 +1,19 @@
+{
+  "name": "Unfulfilled Desires",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, life:1",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{1}, Pay 1 life: Draw a card, then discard a card."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Krark-Clan Grunt",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Sacrifice an artifact: This creature gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

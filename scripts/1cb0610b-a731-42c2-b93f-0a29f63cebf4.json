@@ -1,0 +1,14 @@
+{
+  "name": "Thrill of Possibility",
+  "generated": true,
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

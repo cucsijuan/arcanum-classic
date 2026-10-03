@@ -1,0 +1,29 @@
+{
+  "name": "Spider-Man, Peter Parker",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on target creature you control. It gains indestructible until end of turn."
+    }
+  ]
+}

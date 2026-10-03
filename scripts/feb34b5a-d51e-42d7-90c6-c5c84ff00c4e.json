@@ -1,0 +1,19 @@
+{
+  "name": "Fodder Tosser",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, discard",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{T}, Discard a card: This artifact deals 2 damage to target player or planeswalker."
+    }
+  ]
+}

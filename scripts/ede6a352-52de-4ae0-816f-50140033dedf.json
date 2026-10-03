@@ -1,0 +1,22 @@
+{
+  "name": "Fire Tempest",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 6,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "damage": 6,
+        "to": "everyone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Garruk's Packleader",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 3,
+        "other": true
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control with power 3 or greater enters, you may draw a card."
+    }
+  ]
+}

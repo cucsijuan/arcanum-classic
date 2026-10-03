@@ -1,0 +1,15 @@
+{
+  "name": "Oread of Mountain's Blaze",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{R}, Discard a card: Draw a card."
+    }
+  ]
+}

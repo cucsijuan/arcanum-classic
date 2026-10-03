@@ -1,0 +1,33 @@
+{
+  "name": "Dwynen, Gilt-Leaf Daen",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Elf"
+      },
+      "text": "Other Elf creatures you control get +1/+1."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "gainLife": {
+            "attacking": {
+              "subtype": "Elf",
+              "controller": "you"
+            },
+            "times": 1
+          }
+        }
+      ],
+      "text": "Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control."
+    }
+  ]
+}

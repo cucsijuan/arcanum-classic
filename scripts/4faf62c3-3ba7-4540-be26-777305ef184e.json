@@ -1,0 +1,22 @@
+{
+  "name": "Ambush Gigapede",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature an opponent controls gets -2/-2 until end of turn."
+    }
+  ]
+}

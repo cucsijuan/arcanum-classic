@@ -1,0 +1,25 @@
+{
+  "name": "Snake Basket",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}, sacrifice",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Snake",
+            "types": "Creature — Snake",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{X}, Sacrifice this artifact: Create X 1/1 green Snake creature tokens. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

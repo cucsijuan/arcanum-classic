@@ -1,0 +1,28 @@
+{
+  "name": "Pillardrop Warden",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this creature: Return target instant or sorcery card from your graveyard to your hand. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

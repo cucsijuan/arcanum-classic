@@ -1,0 +1,20 @@
+{
+  "name": "Elephant Ambush",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Elephant",
+          "types": "Creature — Elephant",
+          "power": 3,
+          "toughness": 3,
+          "colors": [
+            "G"
+          ]
+        }
+      }
+    ]
+  }
+}

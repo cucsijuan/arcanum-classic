@@ -1,0 +1,24 @@
+{
+  "name": "Inkling Summoning",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Inkling",
+          "types": "Creature — Inkling",
+          "power": 2,
+          "toughness": 1,
+          "colors": [
+            "W",
+            "B"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ]
+  }
+}

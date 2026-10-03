@@ -1,0 +1,19 @@
+{
+  "name": "Magmatic Force",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "At the beginning of each upkeep, this creature deals 3 damage to any target."
+    }
+  ]
+}

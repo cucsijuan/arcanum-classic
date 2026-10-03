@@ -1,0 +1,62 @@
+{
+  "name": "Selesnya Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gets +2/+2 and gains trample until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Exile target creature with power 5 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 5
+            }
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a 2/2 white Knight creature token with vigilance.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Knight",
+              "types": "Creature — Knight",
+              "power": 2,
+              "toughness": 2,
+              "colors": [
+                "W"
+              ],
+              "keywords": [
+                "Vigilance"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

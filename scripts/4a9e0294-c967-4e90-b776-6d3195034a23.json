@@ -1,0 +1,22 @@
+{
+  "name": "Wrecking Gecko",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{6}{G}{G}",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{6}{G}{G}: This creature gets +4/+4 and gains trample until end of turn."
+    }
+  ]
+}

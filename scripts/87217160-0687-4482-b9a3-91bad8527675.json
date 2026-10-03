@@ -1,0 +1,42 @@
+{
+  "name": "Soul of Zendikar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}{G}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{G}{G}: Create a 3/3 green Beast creature token."
+    },
+    {
+      "cost": "{3}{G}{G}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{G}{G}, Exile this card from your graveyard: Create a 3/3 green Beast creature token."
+    }
+  ]
+}

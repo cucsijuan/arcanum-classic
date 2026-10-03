@@ -1,0 +1,29 @@
+{
+  "name": "Stonybrook Schoolmaster",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "may": "Create a 1/1 blue Merfolk Wizard creature token?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Merfolk Wizard",
+                "types": "Creature — Merfolk Wizard",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "U"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you may create a 1/1 blue Merfolk Wizard creature token."
+    }
+  ]
+}

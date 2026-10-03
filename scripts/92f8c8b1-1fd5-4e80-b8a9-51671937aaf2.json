@@ -1,0 +1,25 @@
+{
+  "name": "Devout Decree",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "B",
+            "R"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

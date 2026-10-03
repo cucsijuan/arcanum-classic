@@ -1,0 +1,47 @@
+{
+  "name": "Dubious Delicacy",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "optional": true,
+          "kind": "creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this artifact enters, up to one target creature gets -3/-3 until end of turn."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: Target opponent loses 3 life."
+    }
+  ]
+}

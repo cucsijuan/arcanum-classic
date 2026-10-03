@@ -1,0 +1,30 @@
+{
+  "name": "Bog Badger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, creatures you control gain menace until end of turn."
+    }
+  ]
+}

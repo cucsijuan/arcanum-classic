@@ -1,0 +1,31 @@
+{
+  "name": "Reya Dawnbringer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may return target creature card from your graveyard to the battlefield."
+    }
+  ]
+}

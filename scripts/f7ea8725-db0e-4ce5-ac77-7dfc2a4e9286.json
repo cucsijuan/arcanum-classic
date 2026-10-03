@@ -1,0 +1,15 @@
+{
+  "name": "Oracle of Nectars",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{X}, {T}",
+      "effects": [
+        {
+          "gainLife": "X"
+        }
+      ],
+      "text": "{X}, {T}: You gain X life."
+    }
+  ]
+}

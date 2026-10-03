@@ -1,0 +1,22 @@
+{
+  "name": "Olivia's Dragoon",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Discard a card: This creature gains flying until end of turn."
+    }
+  ]
+}

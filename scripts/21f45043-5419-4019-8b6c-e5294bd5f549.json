@@ -1,0 +1,27 @@
+{
+  "name": "Acidic Slime",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment",
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy target artifact, enchantment, or land."
+    }
+  ]
+}

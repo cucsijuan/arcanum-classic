@@ -1,0 +1,22 @@
+{
+  "name": "Flashfreeze",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "colors": [
+            "R",
+            "G"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ]
+  }
+}

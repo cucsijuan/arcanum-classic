@@ -1,0 +1,34 @@
+{
+  "name": "Steamclaw",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{3}, {T}: Exile target card from a graveyard."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Exile target card from a graveyard."
+    }
+  ]
+}

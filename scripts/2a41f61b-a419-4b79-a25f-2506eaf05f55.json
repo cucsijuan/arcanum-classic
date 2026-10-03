@@ -1,0 +1,30 @@
+{
+  "name": "Hate Weaver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "U",
+              "R"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}: Target blue or red creature gets +1/+0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Dismissive Pyromancer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, {T}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}, {T}, Discard a card: Draw a card."
+    },
+    {
+      "cost": "{2}{R}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, {T}, Sacrifice this creature: It deals 4 damage to target creature."
+    }
+  ]
+}

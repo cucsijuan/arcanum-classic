@@ -1,0 +1,19 @@
+{
+  "name": "Titania's Boon",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

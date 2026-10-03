@@ -1,0 +1,20 @@
+{
+  "name": "Planar Cleansing",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature",
+              "artifact",
+              "enchantment",
+              "planeswalker"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

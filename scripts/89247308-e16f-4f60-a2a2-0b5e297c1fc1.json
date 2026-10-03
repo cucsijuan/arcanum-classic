@@ -1,0 +1,36 @@
+{
+  "name": "Reckless Air Strike",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Reckless Air Strike deals 3 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Garruk's Uprising",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "ferocious",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this enchantment enters, if you control a creature with power 4 or greater, draw a card."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Creatures you control have trample."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 4
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with power 4 or greater enters, draw a card."
+    }
+  ]
+}

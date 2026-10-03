@@ -1,0 +1,30 @@
+{
+  "name": "Beetle, Legacy Criminal",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, exileFromGraveyard",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{U}, Exile this card from your graveyard: Put a +1/+1 counter on target creature. It gains flying until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

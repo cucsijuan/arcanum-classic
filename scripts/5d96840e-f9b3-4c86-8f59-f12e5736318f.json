@@ -1,0 +1,26 @@
+{
+  "name": "Voracious Greatshark",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "When this creature enters, counter target artifact or creature spell."
+    }
+  ]
+}

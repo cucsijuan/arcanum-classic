@@ -1,0 +1,19 @@
+{
+  "name": "Tolarian Emissary",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "enchantment"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, destroy target enchantment."
+    }
+  ]
+}

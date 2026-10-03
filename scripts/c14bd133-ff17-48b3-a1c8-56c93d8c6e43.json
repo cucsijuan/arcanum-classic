@@ -1,0 +1,28 @@
+{
+  "name": "Dauntless Cathar",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{W}, Exile this card from your graveyard: Create a 1/1 white Spirit creature token with flying. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Bloodhaze Wolverine",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, this creature gets +1/+1 and gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Treasure Dredger",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, life:1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{1}, {T}, Pay 1 life: Create a Treasure token."
+    }
+  ]
+}

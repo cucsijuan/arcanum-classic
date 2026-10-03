@@ -1,0 +1,43 @@
+{
+  "name": "Fungal Rebirth",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature",
+            "artifact",
+            "enchantment",
+            "planeswalker",
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": "morbid",
+        "then": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Saproling",
+              "types": "Creature — Saproling",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "G"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

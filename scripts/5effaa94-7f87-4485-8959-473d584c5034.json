@@ -1,0 +1,15 @@
+{
+  "name": "Grim Backwoods",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{B}{G}, {T}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{B}{G}, {T}, Sacrifice a creature: Draw a card."
+    }
+  ]
+}

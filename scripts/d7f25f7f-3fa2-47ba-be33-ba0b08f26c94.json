@@ -1,0 +1,21 @@
+{
+  "name": "Waste Away",
+  "generated": true,
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -5,
+          -5
+        ],
+        "what": "target"
+      }
+    ]
+  }
+}

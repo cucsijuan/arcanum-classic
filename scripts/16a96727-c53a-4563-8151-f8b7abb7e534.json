@@ -1,0 +1,33 @@
+{
+  "name": "Sootstoke Kindler",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "B",
+              "R"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Target black or red creature gains haste until end of turn."
+    }
+  ]
+}

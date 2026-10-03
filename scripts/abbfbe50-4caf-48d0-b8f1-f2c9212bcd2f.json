@@ -1,0 +1,22 @@
+{
+  "name": "Iona's Judgment",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

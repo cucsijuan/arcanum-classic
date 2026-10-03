@@ -1,0 +1,23 @@
+{
+  "name": "Squash",
+  "generated": true,
+  "costReduction": {
+    "amount": 3,
+    "if": {
+      "control": {
+        "subtype": "Giant"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Red Ghost, Intangible Genius",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Red Ghost, Intangible Genius can't be blocked."
+    },
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ape Villain",
+            "types": "Creature — Ape Villain",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "R"
+            ],
+            "keywords": [
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a 3/3 red Ape Villain creature token with haste."
+    }
+  ]
+}

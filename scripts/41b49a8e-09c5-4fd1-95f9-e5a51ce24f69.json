@@ -1,0 +1,26 @@
+{
+  "name": "Lavafume Invoker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{8}",
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{8}: Creatures you control get +3/+0 until end of turn."
+    }
+  ]
+}

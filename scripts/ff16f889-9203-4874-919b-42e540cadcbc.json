@@ -1,0 +1,28 @@
+{
+  "name": "Wild Wanderer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

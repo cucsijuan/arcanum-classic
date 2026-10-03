@@ -1,0 +1,20 @@
+{
+  "name": "Shredding Winds",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 7,
+        "to": "target"
+      }
+    ]
+  }
+}

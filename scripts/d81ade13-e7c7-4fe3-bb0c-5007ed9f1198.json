@@ -1,0 +1,24 @@
+{
+  "name": "Sunset Strikemaster",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 6,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, {T}, Sacrifice this creature: It deals 6 damage to target creature with flying."
+    }
+  ]
+}

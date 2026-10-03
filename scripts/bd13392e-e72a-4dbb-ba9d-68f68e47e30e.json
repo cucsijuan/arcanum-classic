@@ -1,0 +1,23 @@
+{
+  "name": "Law-Rune Enforcer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "minManaValue": 2
+          }
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}, {T}: Tap target creature with mana value 2 or greater."
+    }
+  ]
+}

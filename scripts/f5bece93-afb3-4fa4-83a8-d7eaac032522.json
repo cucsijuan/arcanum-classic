@@ -1,0 +1,30 @@
+{
+  "name": "Most Valuable Slayer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "Whenever you attack, target attacking creature gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Lyla, Holographic Assistant",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you draw a card, put a +1/+1 counter on target creature."
+    }
+  ]
+}

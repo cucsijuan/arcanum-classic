@@ -1,0 +1,33 @@
+{
+  "name": "Failed Fording",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Desert"
+          }
+        },
+        "then": [
+          {
+            "surveil": 1
+          }
+        ]
+      }
+    ]
+  }
+}

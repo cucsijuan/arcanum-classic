@@ -1,0 +1,19 @@
+{
+  "name": "Tireless Tribe",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            4
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Discard a card: This creature gets +0/+4 until end of turn."
+    }
+  ]
+}

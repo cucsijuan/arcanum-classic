@@ -1,0 +1,15 @@
+{
+  "name": "Mental Discipline",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{U}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{U}, Discard a card: Draw a card."
+    }
+  ]
+}

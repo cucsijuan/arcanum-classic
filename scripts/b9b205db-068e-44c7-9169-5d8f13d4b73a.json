@@ -1,0 +1,24 @@
+{
+  "name": "Kapsho Kitefins",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control enters, tap target creature an opponent controls."
+    }
+  ]
+}

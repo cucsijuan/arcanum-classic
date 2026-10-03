@@ -1,0 +1,16 @@
+{
+  "name": "Riot Spikes",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          -1
+        ]
+      },
+      "text": "Enchanted creature gets +2/-1."
+    }
+  ]
+}

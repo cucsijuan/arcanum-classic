@@ -1,0 +1,33 @@
+{
+  "name": "Vile Rebirth",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "B"
+          ]
+        }
+      }
+    ]
+  }
+}

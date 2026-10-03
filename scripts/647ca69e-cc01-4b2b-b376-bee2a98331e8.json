@@ -1,0 +1,26 @@
+{
+  "name": "Phyrexian Reclamation",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}, life:2",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{B}, Pay 2 life: Return target creature card from your graveyard to your hand."
+    }
+  ]
+}

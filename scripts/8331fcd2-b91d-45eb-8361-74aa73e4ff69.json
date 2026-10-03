@@ -1,0 +1,25 @@
+{
+  "name": "Herald of the Sun",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{W}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{3}{W}: Put a +1/+1 counter on another target creature with flying."
+    }
+  ]
+}

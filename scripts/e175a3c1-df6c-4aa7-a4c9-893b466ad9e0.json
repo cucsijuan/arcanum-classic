@@ -1,0 +1,22 @@
+{
+  "name": "Chorus of Woe",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

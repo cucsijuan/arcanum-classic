@@ -1,0 +1,32 @@
+{
+  "name": "Enslaved Dwarf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}, Sacrifice this creature: Target black creature gets +1/+0 and gains first strike until end of turn."
+    }
+  ]
+}

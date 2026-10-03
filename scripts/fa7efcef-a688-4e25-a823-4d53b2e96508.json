@@ -1,0 +1,15 @@
+{
+  "name": "Contemplation",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you cast a spell, you gain 1 life."
+    }
+  ]
+}

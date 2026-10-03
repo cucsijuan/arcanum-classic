@@ -1,0 +1,25 @@
+{
+  "name": "Stronghold Machinist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{U}, {T}, discard",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "{U}{U}, {T}, Discard a card: Counter target noncreature spell."
+    }
+  ]
+}

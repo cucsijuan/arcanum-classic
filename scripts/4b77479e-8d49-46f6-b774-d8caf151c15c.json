@@ -1,0 +1,30 @@
+{
+  "name": "Renegade's Getaway",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Servo",
+          "types": "Creature — Servo",
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ]
+  }
+}

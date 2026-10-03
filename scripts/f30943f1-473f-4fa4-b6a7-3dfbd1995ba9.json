@@ -1,0 +1,19 @@
+{
+  "name": "Urborg Emissary",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, return target permanent to its owner's hand."
+    }
+  ]
+}

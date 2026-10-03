@@ -1,0 +1,39 @@
+{
+  "name": "Light of Hope",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "You gain 4 life.",
+        "effects": [
+          {
+            "gainLife": 4
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

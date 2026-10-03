@@ -1,0 +1,24 @@
+{
+  "name": "Bramble Wurm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "When this creature enters, you gain 5 life."
+    },
+    {
+      "cost": "{2}{G}, exileFromGraveyard",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "{2}{G}, Exile this card from your graveyard: You gain 5 life."
+    }
+  ]
+}

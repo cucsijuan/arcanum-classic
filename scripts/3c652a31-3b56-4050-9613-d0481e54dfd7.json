@@ -1,0 +1,29 @@
+{
+  "name": "Stampede Driver",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}, discard",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{1}{G}, {T}, Discard a card: Creatures you control get +1/+1 and gain trample until end of turn."
+    }
+  ]
+}

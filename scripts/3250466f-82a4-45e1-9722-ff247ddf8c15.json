@@ -1,0 +1,16 @@
+{
+  "name": "Vanguard Seraph",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "nth": 1,
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever you gain life for the first time each turn, surveil 1."
+    }
+  ]
+}

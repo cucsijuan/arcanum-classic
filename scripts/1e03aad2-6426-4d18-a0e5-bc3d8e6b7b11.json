@@ -1,0 +1,25 @@
+{
+  "name": "Preposterous Proportions",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          10,
+          10
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Vigilance"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Pull from Tomorrow",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": "X"
+      },
+      {
+        "discard": 1,
+        "who": "you"
+      }
+    ]
+  }
+}

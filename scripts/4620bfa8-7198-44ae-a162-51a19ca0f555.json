@@ -1,0 +1,14 @@
+{
+  "name": "Ray of Revelation",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "enchantment"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

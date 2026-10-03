@@ -1,0 +1,22 @@
+{
+  "name": "Filigree Angel",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "times": 3
+          }
+        }
+      ],
+      "text": "When this creature enters, you gain 3 life for each artifact you control."
+    }
+  ]
+}

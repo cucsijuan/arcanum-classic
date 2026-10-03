@@ -1,0 +1,31 @@
+{
+  "name": "Rites of Reaping",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "filter": {
+          "other": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          -3,
+          -3
+        ],
+        "what": "target2"
+      }
+    ]
+  }
+}

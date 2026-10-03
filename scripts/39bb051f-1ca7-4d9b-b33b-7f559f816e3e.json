@@ -1,0 +1,24 @@
+{
+  "name": "Serra Redeemer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "maxPower": 2,
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever another creature you control with power 2 or less enters, put two +1/+1 counters on that creature."
+    }
+  ]
+}

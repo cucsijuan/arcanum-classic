@@ -1,0 +1,28 @@
+{
+  "name": "Makindi Shieldmate",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Ally"
+      },
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on this creature?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another Ally you control enters, you may put a +1/+1 counter on this creature."
+    }
+  ]
+}

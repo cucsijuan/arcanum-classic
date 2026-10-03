@@ -1,0 +1,14 @@
+{
+  "name": "Wild Guess",
+  "generated": true,
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ]
+  }
+}

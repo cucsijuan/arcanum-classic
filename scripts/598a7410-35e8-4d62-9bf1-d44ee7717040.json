@@ -1,0 +1,19 @@
+{
+  "name": "Blazing Hellhound",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: This creature deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Grave Exchange",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "player"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "target2"
+      }
+    ]
+  }
+}

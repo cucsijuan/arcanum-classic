@@ -1,0 +1,29 @@
+{
+  "name": "Pledge of Unity",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "gainLife": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          },
+          "times": 1
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Celestial Purge",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "colors": [
+            "B",
+            "R"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

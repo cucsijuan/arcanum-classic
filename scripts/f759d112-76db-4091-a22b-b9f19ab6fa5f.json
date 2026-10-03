@@ -1,0 +1,15 @@
+{
+  "name": "Griselbrand",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "life:7",
+      "effects": [
+        {
+          "draw": 7
+        }
+      ],
+      "text": "Pay 7 life: Draw seven cards."
+    }
+  ]
+}

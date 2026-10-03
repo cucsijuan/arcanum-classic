@@ -1,0 +1,24 @@
+{
+  "name": "Thraben Standard Bearer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, discard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{W}, {T}, Discard a card: Create a 1/1 white Human Soldier creature token."
+    }
+  ]
+}

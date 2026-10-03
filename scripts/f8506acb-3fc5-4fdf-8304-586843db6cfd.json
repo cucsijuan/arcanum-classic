@@ -1,0 +1,22 @@
+{
+  "name": "Renegade Map",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "hand"
+        }
+      ],
+      "text": "{T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

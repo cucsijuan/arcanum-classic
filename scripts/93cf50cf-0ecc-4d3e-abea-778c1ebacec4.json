@@ -1,0 +1,42 @@
+{
+  "name": "Massacre Wurm",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures your opponents control get -2/-2 until end of turn."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, that player loses 2 life."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Chainer's Edict",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "target"
+      }
+    ]
+  }
+}

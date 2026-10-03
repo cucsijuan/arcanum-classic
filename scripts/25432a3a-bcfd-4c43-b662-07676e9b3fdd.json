@@ -1,0 +1,31 @@
+{
+  "name": "Eel-Hounds",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target creature you control gets +2/+2 and gains trample until end of turn."
+    }
+  ]
+}

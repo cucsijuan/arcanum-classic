@@ -1,0 +1,32 @@
+{
+  "name": "Ajani's Anguish",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "target"
+        }
+      ],
+      "text": "When this enchantment enters, it deals X damage to any target."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Creatures you control have trample."
+    }
+  ]
+}

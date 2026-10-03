@@ -1,0 +1,17 @@
+{
+  "name": "Savage Gorger",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "opponentLostLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

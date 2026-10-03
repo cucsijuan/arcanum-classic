@@ -1,0 +1,35 @@
+{
+  "name": "Snake Pit",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "colors": [
+          "U",
+          "B"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Create a 1/1 green Snake creature token?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Snake",
+                "types": "Creature — Snake",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "G"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an opponent casts a blue or black spell, you may create a 1/1 green Snake creature token."
+    }
+  ]
+}

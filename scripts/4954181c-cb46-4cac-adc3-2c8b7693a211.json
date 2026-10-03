@@ -1,0 +1,21 @@
+{
+  "name": "Abyssal Gatekeeper",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player sacrifices a creature of their choice."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Eastern Paladin",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{B}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{B}{B}, {T}: Destroy target green creature."
+    }
+  ]
+}

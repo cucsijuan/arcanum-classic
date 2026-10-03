@@ -1,0 +1,22 @@
+{
+  "name": "Guiding Bolt",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "minPower": 4
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 2
+      }
+    ]
+  }
+}

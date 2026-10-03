@@ -1,0 +1,28 @@
+{
+  "name": "Deny Entry",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "discard": 1,
+        "who": "you"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Icatian Crier",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, discard",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Citizen",
+            "types": "Creature — Citizen",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{W}, {T}, Discard a card: Create two 1/1 white Citizen creature tokens."
+    }
+  ]
+}

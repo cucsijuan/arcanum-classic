@@ -1,0 +1,37 @@
+{
+  "name": "Midnight Entourage",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Aetherborn",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Aetherborn you control get +1/+1."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Aetherborn"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever this creature or another Aetherborn you control dies, you draw a card and you lose 1 life."
+    }
+  ]
+}

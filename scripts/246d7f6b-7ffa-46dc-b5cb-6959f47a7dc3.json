@@ -1,0 +1,25 @@
+{
+  "name": "Havoc Demon",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "pump": [
+            -5,
+            -5
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When this creature dies, all creatures get -5/-5 until end of turn."
+    }
+  ]
+}

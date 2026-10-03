@@ -1,0 +1,19 @@
+{
+  "name": "Barrage of Expendables",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, Sacrifice a creature: This enchantment deals 1 damage to any target."
+    }
+  ]
+}

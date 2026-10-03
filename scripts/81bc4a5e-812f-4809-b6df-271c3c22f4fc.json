@@ -1,0 +1,24 @@
+{
+  "name": "D'Avenant Archer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to target attacking or blocking creature."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Basri's Solidarity",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

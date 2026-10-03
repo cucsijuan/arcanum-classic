@@ -1,0 +1,17 @@
+{
+  "name": "Bloodtithe Collector",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "opponentLostLife",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "When this creature enters, if an opponent lost life this turn, each opponent discards a card."
+    }
+  ]
+}

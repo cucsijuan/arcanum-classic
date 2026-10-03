@@ -1,0 +1,22 @@
+{
+  "name": "Many Partings",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "hand"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ]
+  }
+}

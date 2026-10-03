@@ -1,0 +1,26 @@
+{
+  "name": "Gallantry",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          4,
+          4
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

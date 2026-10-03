@@ -1,0 +1,41 @@
+{
+  "name": "Take Down",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Take Down deals 4 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Take Down deals 1 damage to each creature with flying.",
+        "effects": [
+          {
+            "damage": 1,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "keyword": "Flying"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

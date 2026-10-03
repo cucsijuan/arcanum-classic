@@ -1,0 +1,28 @@
+{
+  "name": "Undercity's Embrace",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "target"
+      },
+      {
+        "if": "ferocious",
+        "then": [
+          {
+            "gainLife": 4
+          }
+        ]
+      }
+    ]
+  }
+}

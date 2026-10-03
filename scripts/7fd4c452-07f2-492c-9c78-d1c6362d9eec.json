@@ -1,0 +1,36 @@
+{
+  "name": "Yavimaya Elder",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 2,
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may search your library for up to two basic land cards, reveal them, put them into your hand, then shuffle."
+    },
+    {
+      "cost": "{2}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Draw a card."
+    }
+  ]
+}

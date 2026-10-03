@@ -1,0 +1,22 @@
+{
+  "name": "Reckless Abandon",
+  "generated": true,
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

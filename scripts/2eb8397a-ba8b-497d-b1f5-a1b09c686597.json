@@ -1,0 +1,26 @@
+{
+  "name": "Syndicate Trafficker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:artifact",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice an artifact: Put a +1/+1 counter on this creature. It gains indestructible until end of turn."
+    }
+  ]
+}

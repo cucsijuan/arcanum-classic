@@ -1,0 +1,21 @@
+{
+  "name": "Nova Cleric",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{W}, {T}, sacrifice",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "enchantment"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{2}{W}, {T}, Sacrifice this creature: Destroy all enchantments."
+    }
+  ]
+}

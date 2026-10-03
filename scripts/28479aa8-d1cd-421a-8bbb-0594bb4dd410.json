@@ -1,0 +1,12 @@
+{
+  "name": "Flame Rift",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "damage": 4,
+        "to": "everyone"
+      }
+    ]
+  }
+}

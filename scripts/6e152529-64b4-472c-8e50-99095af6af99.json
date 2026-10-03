@@ -1,0 +1,36 @@
+{
+  "name": "Bumbleflower's Sharepot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this artifact enters, create a Food token."
+    },
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this artifact: Destroy target nonland permanent. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

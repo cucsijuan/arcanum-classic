@@ -1,0 +1,28 @@
+{
+  "name": "The Crystal's Chosen",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 4,
+        "token": {
+          "name": "Hero",
+          "types": "Creature — Hero",
+          "power": 1,
+          "toughness": 1
+        }
+      },
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ]
+  }
+}

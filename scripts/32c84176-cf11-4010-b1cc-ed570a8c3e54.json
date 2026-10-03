@@ -1,0 +1,42 @@
+{
+  "name": "Pharika's Libation",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target opponent sacrifices a creature of their choice.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target opponent sacrifices an enchantment of their choice.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

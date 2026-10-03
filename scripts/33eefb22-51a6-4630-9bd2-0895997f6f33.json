@@ -1,0 +1,17 @@
+{
+  "name": "Creeping Corrosion",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

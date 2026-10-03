@@ -1,0 +1,37 @@
+{
+  "name": "Azula Always Lies",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gets -1/-1 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": "target"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 2,
+    "upTo": true
+  }
+}

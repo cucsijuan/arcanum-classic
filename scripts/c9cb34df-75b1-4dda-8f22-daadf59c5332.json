@@ -1,0 +1,26 @@
+{
+  "name": "Dowsing Shaman",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}{G}, {T}: Return target enchantment card from your graveyard to your hand."
+    }
+  ]
+}

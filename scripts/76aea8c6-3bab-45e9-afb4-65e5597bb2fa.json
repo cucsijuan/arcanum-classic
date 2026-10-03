@@ -1,0 +1,34 @@
+{
+  "name": "Surge of Thoughtweft",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Kithkin"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

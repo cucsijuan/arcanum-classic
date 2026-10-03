@@ -1,0 +1,26 @@
+{
+  "name": "Reliquary Monk",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature dies, destroy target artifact or enchantment."
+    }
+  ]
+}

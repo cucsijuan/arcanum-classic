@@ -1,0 +1,38 @@
+{
+  "name": "Go Forth",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle.",
+        "effects": [
+          {
+            "search": {
+              "supertype": "basic",
+              "types": [
+                "land"
+              ]
+            },
+            "count": 1,
+            "to": "hand"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +2/+2 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

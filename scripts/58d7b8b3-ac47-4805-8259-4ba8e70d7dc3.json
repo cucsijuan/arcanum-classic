@@ -1,0 +1,23 @@
+{
+  "name": "Primal Might",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          "X",
+          "X"
+        ],
+        "what": "target"
+      },
+      {
+        "fight": "self",
+        "with": "target2"
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Blood Rites",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}, sacrifice:creature",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}, Sacrifice a creature: This enchantment deals 2 damage to any target."
+    }
+  ]
+}

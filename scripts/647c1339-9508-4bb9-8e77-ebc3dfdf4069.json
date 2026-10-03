@@ -1,0 +1,42 @@
+{
+  "name": "Predator, Flagship",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}: Target creature gains flying until end of turn."
+    },
+    {
+      "cost": "{5}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{5}, {T}: Destroy target creature with flying."
+    }
+  ]
+}

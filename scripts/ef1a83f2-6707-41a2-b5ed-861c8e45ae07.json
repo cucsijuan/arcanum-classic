@@ -1,0 +1,21 @@
+{
+  "name": "Languish",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -4,
+          -4
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

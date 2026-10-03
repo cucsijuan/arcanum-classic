@@ -1,0 +1,11 @@
+{
+  "name": "Mind Spring",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": "X"
+      }
+    ]
+  }
+}

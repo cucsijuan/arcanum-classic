@@ -1,0 +1,23 @@
+{
+  "name": "Kronch Wrangler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 4
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature you control with power 4 or greater enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

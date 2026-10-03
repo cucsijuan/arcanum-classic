@@ -1,0 +1,26 @@
+{
+  "name": "Salvage Scout",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{W}, Sacrifice this creature: Return target artifact card from your graveyard to your hand."
+    }
+  ]
+}

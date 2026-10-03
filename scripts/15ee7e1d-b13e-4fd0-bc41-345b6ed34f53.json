@@ -1,0 +1,20 @@
+{
+  "name": "Honden of Cleansing Fire",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "gainLife": {
+            "count": {
+              "subtype": "Shrine"
+            },
+            "times": 2
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, you gain 2 life for each Shrine you control."
+    }
+  ]
+}

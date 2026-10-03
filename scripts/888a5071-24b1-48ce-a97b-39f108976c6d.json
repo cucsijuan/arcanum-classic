@@ -1,0 +1,14 @@
+{
+  "name": "Earth Rift",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

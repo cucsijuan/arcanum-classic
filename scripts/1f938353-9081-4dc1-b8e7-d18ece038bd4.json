@@ -1,0 +1,42 @@
+{
+  "name": "Valorous Stance",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gains indestructible until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Indestructible"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with toughness 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minToughness": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

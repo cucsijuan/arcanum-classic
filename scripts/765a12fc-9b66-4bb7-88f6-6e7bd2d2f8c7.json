@@ -1,0 +1,16 @@
+{
+  "name": "Gobbling Ooze",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, sacrifice:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{G}, Sacrifice another creature: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

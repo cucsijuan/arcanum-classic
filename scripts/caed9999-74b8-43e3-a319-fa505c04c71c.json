@@ -1,0 +1,30 @@
+{
+  "name": "Magic Pot",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature dies, create a Treasure token."
+    },
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{2}, {T}: Exile target card from a graveyard."
+    }
+  ]
+}

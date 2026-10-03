@@ -1,0 +1,21 @@
+{
+  "name": "Merciless Executioner",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player sacrifices a creature of their choice."
+    }
+  ]
+}

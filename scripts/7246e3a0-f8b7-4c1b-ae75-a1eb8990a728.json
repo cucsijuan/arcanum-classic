@@ -1,0 +1,23 @@
+{
+  "name": "Ashen Firebeast",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "without": "Flying"
+            }
+          }
+        }
+      ],
+      "text": "{1}{R}: This creature deals 1 damage to each creature without flying."
+    }
+  ]
+}

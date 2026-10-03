@@ -1,0 +1,28 @@
+{
+  "name": "Grave Robbers",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{B}, {T}: Exile target artifact card from a graveyard. You gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Skull of Orm",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{5}, {T}: Return target enchantment card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Bloodfire Colossus",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{R}, sacrifice",
+      "effects": [
+        {
+          "damage": 6,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "damage": 6,
+          "to": "everyone"
+        }
+      ],
+      "text": "{R}, Sacrifice this creature: It deals 6 damage to each creature and each player."
+    }
+  ]
+}

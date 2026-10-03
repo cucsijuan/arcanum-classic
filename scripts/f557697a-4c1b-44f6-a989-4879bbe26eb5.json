@@ -1,0 +1,23 @@
+{
+  "name": "Elvish Skysweeper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}{G}, sacrifice:creature",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{4}{G}, Sacrifice a creature: Destroy target creature with flying."
+    }
+  ]
+}

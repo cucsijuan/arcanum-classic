@@ -1,0 +1,26 @@
+{
+  "name": "Kor Aeronaut",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, target creature gains flying until end of turn."
+    }
+  ]
+}

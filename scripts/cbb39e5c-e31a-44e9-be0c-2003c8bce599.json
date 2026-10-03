@@ -1,0 +1,22 @@
+{
+  "name": "Lucky Offering",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "artifact",
+        "filter": {
+          "maxManaValue": 3
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ]
+  }
+}

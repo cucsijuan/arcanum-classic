@@ -1,0 +1,25 @@
+{
+  "name": "Thorn Mammoth",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "fight": "self",
+          "with": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control enters, this creature fights up to one target creature you don't control."
+    }
+  ]
+}

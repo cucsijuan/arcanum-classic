@@ -1,0 +1,44 @@
+{
+  "name": "Selesnya Guildmage",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}{G}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{G}: Create a 1/1 green Saproling creature token."
+    },
+    {
+      "cost": "{3}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{3}{W}: Creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

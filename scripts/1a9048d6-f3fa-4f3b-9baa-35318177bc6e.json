@@ -1,0 +1,33 @@
+{
+  "name": "Loran's Escape",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ]
+      },
+      {
+        "scry": 1
+      }
+    ]
+  }
+}

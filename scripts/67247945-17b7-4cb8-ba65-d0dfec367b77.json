@@ -1,0 +1,25 @@
+{
+  "name": "Thraben Heretic",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{T}: Exile target creature card from a graveyard."
+    }
+  ]
+}

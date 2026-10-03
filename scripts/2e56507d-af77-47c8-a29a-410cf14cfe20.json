@@ -1,0 +1,28 @@
+{
+  "name": "Wild Hypothesis",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Fractal",
+          "types": "Creature — Fractal",
+          "power": 0,
+          "toughness": 0,
+          "colors": [
+            "G",
+            "U"
+          ]
+        }
+      },
+      {
+        "counters": "X",
+        "what": "self"
+      },
+      {
+        "surveil": 2
+      }
+    ]
+  }
+}

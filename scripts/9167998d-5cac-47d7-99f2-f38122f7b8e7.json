@@ -1,0 +1,17 @@
+{
+  "name": "Barter in Blood",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 2,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "everyone"
+      }
+    ]
+  }
+}

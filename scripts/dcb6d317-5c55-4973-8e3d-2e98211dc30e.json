@@ -1,0 +1,20 @@
+{
+  "name": "Gift of Orzhova",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Flying",
+          "Lifelink"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has flying and lifelink."
+    }
+  ]
+}

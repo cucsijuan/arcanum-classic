@@ -1,0 +1,19 @@
+{
+  "name": "Draconic Lore",
+  "generated": true,
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "control": {
+        "subtype": "Dragon"
+      }
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ]
+  }
+}

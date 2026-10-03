@@ -1,0 +1,15 @@
+{
+  "name": "Dream Twist",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": 3,
+        "who": "target"
+      }
+    ]
+  }
+}

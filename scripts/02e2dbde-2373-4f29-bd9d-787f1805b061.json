@@ -1,0 +1,15 @@
+{
+  "name": "Scorching Missile",
+  "generated": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ]
+  }
+}

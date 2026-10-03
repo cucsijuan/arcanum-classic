@@ -1,0 +1,25 @@
+{
+  "name": "Gatekeeper of Malakir",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, target player sacrifices a creature of their choice."
+    }
+  ]
+}

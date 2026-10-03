@@ -1,0 +1,30 @@
+{
+  "name": "Malamet Brawler",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, target attacking creature gains trample until end of turn."
+    }
+  ]
+}

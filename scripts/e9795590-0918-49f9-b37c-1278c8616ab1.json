@@ -1,0 +1,47 @@
+{
+  "name": "Treva's Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target attacking creature.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "attacking": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Draw a card, then discard a card.",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "discard": 1,
+            "who": "you"
+          }
+        ]
+      }
+    ]
+  }
+}

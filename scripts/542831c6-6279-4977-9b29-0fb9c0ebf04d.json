@@ -1,0 +1,28 @@
+{
+  "name": "Mischievous Mystic",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Faerie",
+            "types": "Creature — Faerie",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a 1/1 blue Faerie creature token with flying."
+    }
+  ]
+}

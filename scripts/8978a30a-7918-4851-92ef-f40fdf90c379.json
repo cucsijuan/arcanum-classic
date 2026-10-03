@@ -1,0 +1,26 @@
+{
+  "name": "Malamet War Scribe",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            2,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures you control get +2/+1 until end of turn."
+    }
+  ]
+}

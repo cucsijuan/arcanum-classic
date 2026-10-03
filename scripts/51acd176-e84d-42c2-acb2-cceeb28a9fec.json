@@ -1,0 +1,29 @@
+{
+  "name": "Blink of an Eye",
+  "generated": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

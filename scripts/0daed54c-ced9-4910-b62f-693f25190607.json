@@ -1,0 +1,26 @@
+{
+  "name": "Primal Forcemage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever another creature you control enters, that creature gets +3/+3 until end of turn."
+    }
+  ]
+}

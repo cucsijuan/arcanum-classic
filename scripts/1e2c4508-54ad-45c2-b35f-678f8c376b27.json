@@ -1,0 +1,25 @@
+{
+  "name": "Stronghold Biologist",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}{U}, {T}, discard",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "{U}{U}, {T}, Discard a card: Counter target creature spell."
+    }
+  ]
+}

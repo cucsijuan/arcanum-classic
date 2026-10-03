@@ -1,0 +1,29 @@
+{
+  "name": "Rosa, Resolute White Mage",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. It gains lifelink until end of turn."
+    }
+  ]
+}

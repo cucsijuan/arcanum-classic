@@ -1,0 +1,26 @@
+{
+  "name": "Shauku's Minion",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{R}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{B}{R}, {T}: This creature deals 2 damage to target white creature."
+    }
+  ]
+}

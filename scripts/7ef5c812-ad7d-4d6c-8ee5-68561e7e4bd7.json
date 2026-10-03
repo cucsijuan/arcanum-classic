@@ -1,0 +1,35 @@
+{
+  "name": "Saved by the Shell",
+  "generated": true,
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "subtype": "Turtle"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample",
+          "Hexproof",
+          "Indestructible"
+        ]
+      }
+    ]
+  }
+}
