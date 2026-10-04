@@ -1,0 +1,40 @@
+{
+  "name": "Mirkwood",
+  "abilities": [
+    {
+      "cost": "{2}{B}{G}, {T}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "anyOf": [
+              {
+                "subtype": "Bear"
+              },
+              {
+                "subtype": "Spider"
+              },
+              {
+                "subtype": "Wolf"
+              }
+            ]
+          },
+          "text": "target Bear or Spider or Wolf you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "{2}{B}{G}, {T}, Sacrifice this land: Put two +1/+1 counters on target Bear, Spider, Wolf you control. Activate only as a sorcery."
+    }
+  ]
+}

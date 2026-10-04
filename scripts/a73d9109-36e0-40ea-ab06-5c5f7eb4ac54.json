@@ -1,0 +1,58 @@
+{
+  "name": "Bilbo, Luckwearer // Burglar's Plot",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Bilbo can't be blocked."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "Whenever Bilbo deals combat damage to a player, draw a card, then discard a card."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent"
+        },
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "another target nonland permanent that shares a card type"
+        }
+      ],
+      "targetRule": "shareCardType",
+      "effects": [
+        {
+          "exchangeControl": "target",
+          "with": "target2"
+        }
+      ],
+      "text": "Exchange control of two target nonland permanents that share a card type."
+    }
+  }
+}

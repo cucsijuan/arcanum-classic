@@ -1,0 +1,36 @@
+{
+  "name": "Dwarven Shortsword",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dwarf",
+            "types": "Creature — Dwarf",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        },
+        {
+          "attach": "created"
+        }
+      ],
+      "text": "When this Equipment enters, create a 2/2 red Dwarf creature token, then attach this Equipment to it."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +1/+2."
+    }
+  ]
+}

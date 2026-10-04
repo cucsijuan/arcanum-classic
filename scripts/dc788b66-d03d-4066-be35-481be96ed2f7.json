@@ -1,0 +1,39 @@
+{
+  "name": "Boughside Wanderers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "take": 1,
+          "reveal": true
+        }
+      ],
+      "text": "When this creature enters, look at the top four cards of your library. You may reveal a permanent card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

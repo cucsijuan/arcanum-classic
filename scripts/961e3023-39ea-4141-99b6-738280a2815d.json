@@ -1,0 +1,42 @@
+{
+  "name": "Pinecone Strike",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Pinecone Strike deals 3 damage to target creature. If that creature would die this turn, exile it instead.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "exileIfDies": "target"
+          },
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact token.",
+        "targets": [
+          {
+            "kind": "artifact",
+            "filter": {
+              "token": true
+            },
+            "text": "target artifact token"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

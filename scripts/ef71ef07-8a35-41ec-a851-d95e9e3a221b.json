@@ -1,0 +1,23 @@
+{
+  "name": "Bilbo's Gambit",
+  "gift": "Treasure",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "noSpellsThisTurn": true
+          }
+        ]
+      }
+    ],
+    "text": "Return target spell to its owner's hand. If the gift was promised, players can't cast spells this turn."
+  }
+}

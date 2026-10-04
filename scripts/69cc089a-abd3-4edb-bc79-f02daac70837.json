@@ -1,0 +1,19 @@
+{
+  "name": "Ori, Keeper of Songs",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ],
+        "while": "enduringStory"
+      },
+      "text": "As long as you have an enduring story, Ori gets +1/+0 and has vigilance."
+    }
+  ]
+}

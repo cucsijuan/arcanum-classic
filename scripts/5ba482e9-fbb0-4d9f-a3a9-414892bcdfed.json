@@ -1,0 +1,41 @@
+{
+  "name": "Dancing from Dark to Dawn",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you cast a creature spell, put X +1/+1 counters on target creature you control, where X is that spell's mana value."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bear",
+            "types": "Creature — Bear",
+            "colors": [
+              "G"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 2/2 green Bear creature token."
+    }
+  ]
+}

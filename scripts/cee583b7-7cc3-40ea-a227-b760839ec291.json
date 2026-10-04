@@ -1,0 +1,37 @@
+{
+  "name": "Dwalin, Weaponmaster",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "hone",
+          "what": {
+            "each": {
+              "subtype": "Equipment",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Dwalin enters or attacks, put a hone counter on each Equipment you control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "hone",
+          "what": {
+            "each": {
+              "subtype": "Equipment",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Dwalin enters or attacks, put a hone counter on each Equipment you control."
+    }
+  ]
+}

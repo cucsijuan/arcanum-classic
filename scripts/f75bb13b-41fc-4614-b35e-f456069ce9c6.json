@@ -1,0 +1,35 @@
+{
+  "name": "Dwarven Mattock",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Dwarf"
+          },
+          "text": "target Dwarf you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target Dwarf you control."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "grantsWard": "{1}"
+      },
+      "text": "Equipped creature gets +2/+2 and has ward {1}."
+    }
+  ]
+}

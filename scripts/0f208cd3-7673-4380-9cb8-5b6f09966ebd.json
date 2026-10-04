@@ -1,0 +1,34 @@
+{
+  "name": "Lake-town Toymaker",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "drawn": 2
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if you've drawn two or more cards this turn, another target creature you control gets +3/+0 and gains first strike until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Velvetwing Butterflies // Gaze in Wonder",
+  "adventure": {
+    "spell": {
+      "targetRule": "allDifferent",
+      "targets": [
+        "creature",
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        }
+      ],
+      "text": "Tap one or two target creatures."
+    }
+  }
+}

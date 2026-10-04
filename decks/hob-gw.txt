@@ -1,0 +1,38 @@
+1 Attercop (HOB) 116
+1 Bejeweled Warg (HOB) 117
+1 Belladonna Took (HOB) 4
+1 Beorn the Fierce (HOB) 119
+1 Beorn, Reluctant Host // Till and Tend (HOB) 118
+1 Bofur, Reliable Guardian // Concerted Care (HOB) 6
+1 Boughside Wanderers (HOB) 121
+1 Cantankerous Keepers (HOB) 122
+1 Dwarven Provisioner (HOB) 9
+1 Dáin, Lord of the Iron Hills (HOB) 8
+1 Eagle of the Great Shelf (HOB) 11
+1 Esgaroth Garrison (HOB) 13
+1 Fíli the Pathfinder (HOB) 14
+1 Galion, Elvenking's Butler (HOB) 125
+1 Gigantic Big Bear (HOB) 126
+1 Guardian of the Halls (HOB) 127
+1 Iron Hills Blacksmith (HOB) 16
+1 Kíli the Resourceful (HOB) 17
+1 Lake-town Lookout (HOB) 18
+1 Lake-town Toymaker (HOB) 19
+1 Little Bear (HOB) 128
+1 Long-Bodied Grey Dog (HOB) 1
+1 An Unexpected Party // At the Door (HOB) 29
+1 Beorn's Hospitality (HOB) 120
+1 Bilbo's Gambit (HOB) 5
+1 Celebrate the Mountain-king (HOB) 7
+1 Dancing from Dark to Dawn (HOB) 123
+1 Down in the Valley (HOB) 124
+1 Dwarven Shortsword (HOB) 10
+1 Giant's Boulder (HOB) 173
+1 Gleaming Splendor (HOB) 15
+1 Key to the Side-Door (HOB) 175
+1 Magnificent End (HOB) 20
+1 Moment of Glory (HOB) 21
+1 Part in Friendship (HOB) 134
+1 Quarrel (HOB) 135
+12 Forest (HOB) 193
+12 Plains (HOB) 189

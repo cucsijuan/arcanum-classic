@@ -1,0 +1,26 @@
+{
+  "name": "Head of the Hunt",
+  "replaces": [
+    "OpponentsCreaturesExiledInsteadOfDying"
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureExiledInstead",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "colors": [
+              "G"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "If a creature an opponent controls would die, exile it instead. When you do, create a 2/2 green Wolf creature token."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Burn, Burn, Tree and Fern",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": 6,
+          "to": "target"
+        }
+      ],
+      "text": "I — This Saga deals 6 damage to target creature an opponent controls."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        "artifact:opponent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "II — Destroy target artifact an opponent controls."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3,
+        4
+      ],
+      "effects": [
+        {
+          "addMana": "{R}"
+        }
+      ],
+      "text": "III, IV — Add {R}."
+    }
+  ]
+}

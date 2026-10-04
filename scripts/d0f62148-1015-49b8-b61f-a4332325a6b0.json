@@ -1,0 +1,33 @@
+{
+  "name": "Elven Raft-Steerer",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "text": "Landfall — Whenever a land you control enters, choose one —",
+      "modes": [
+        {
+          "text": "Tap target creature an opponent controls.",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ]
+        },
+        {
+          "text": "Untap target creature you control.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "untap": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

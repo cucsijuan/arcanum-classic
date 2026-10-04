@@ -1,0 +1,26 @@
+{
+  "name": "Gandalf, Spark Starter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        "any",
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 3
+        }
+      ],
+      "text": "When Gandalf enters, he deals 3 damage divided as you choose among one, two, or three targets."
+    }
+  ]
+}

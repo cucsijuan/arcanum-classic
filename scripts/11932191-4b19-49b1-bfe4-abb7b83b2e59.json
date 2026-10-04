@@ -1,0 +1,43 @@
+{
+  "name": "Silvan Reveler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        },
+        {
+          "reanimate": {
+            "discarded": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "tapped": true
+        }
+      ],
+      "text": "When this creature enters, draw a card, then discard a card. If you discard a land card this way, put it from your graveyard onto the battlefield tapped."
+    },
+    {
+      "trigger": "landfall",
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "mayPay": "Pay {1}{G}{U} to return this card to your hand?",
+          "mana": "{1}{G}{U}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may pay {1}{G}{U}. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Gollum, Riddle Master",
+  "chooseOnEnter": "oddOrEven",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "chosenParity": true
+      },
+      "modesOnce": true,
+      "text": "Whenever an opponent casts a spell with mana value of the chosen quality, choose one that hasn't been chosen —",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on Gollum.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Each opponent loses 2 life and you gain 2 life.",
+          "effects": [
+            {
+              "loseLife": 2,
+              "who": "opponents"
+            },
+            {
+              "gainLife": 2
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

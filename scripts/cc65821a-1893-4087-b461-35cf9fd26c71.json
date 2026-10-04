@@ -1,0 +1,45 @@
+{
+  "name": "Orcrist, Goblin-cleaver",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has trample."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "chooseType": true
+        },
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "chosenType": true
+            }
+          },
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, choose a creature type. Create a Treasure token for each creature you control of that type."
+    }
+  ]
+}

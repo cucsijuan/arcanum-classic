@@ -1,0 +1,39 @@
+{
+  "name": "Bejeweled Warg",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "text": "Whenever this creature deals combat damage to a player, choose one —",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on target Wolf you control.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "you",
+              "filter": {
+                "subtype": "Wolf"
+              },
+              "text": "target Wolf you control"
+            }
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Getaway Barrel",
+  "abilities": [
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "revealTopRandom": 13,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, reveal the top thirteen cards of your library. Put a random creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

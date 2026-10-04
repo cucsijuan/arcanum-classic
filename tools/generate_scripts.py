@@ -28,6 +28,7 @@ ENGINE_KEYWORDS = {
     # keyword actions and ability words: they label rules text the script spells out
     "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
     "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance", "crew", "protection", "vivid",
+    "storied", "amass", "recruit", "gift", "behold",
 }
 ABILITY_WORD = re.compile(r"^(Raid|Landfall|Morbid|Threshold|Ferocious|Formidable|Alliance) — ")
 # Lines the engine derives from card data on its own.
@@ -38,7 +39,8 @@ DERIVED_LINE = re.compile(
     r"|\{T\}: Add one mana of any color"
     r"|Equip (\{[0-9WUBRGC]+\})+"
     r"|Enchant (creature|land|artifact|enchantment|permanent)( you control)?"
-    r"|This (land|creature|artifact|permanent) enters tapped)$")
+    r"|This (land|creature|artifact|permanent) enters tapped"
+    r"|[A-Za-z ]*[Cc]ycling (\{[0-9WUBRGC]+\})+)$")
 
 NUMBERS = {"a": 1, "an": 1, "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7, "eight": 8, "nine": 9, "ten": 10}
 SINGLE_FACE = {"normal"}

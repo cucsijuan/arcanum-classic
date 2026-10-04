@@ -1,0 +1,38 @@
+{
+  "name": "Settle the Wreckage",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "attacking": true
+          },
+          "controlledBy": "target"
+        }
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "count": {
+          "exiled": {}
+        },
+        "to": "battlefield",
+        "tapped": true,
+        "who": "target",
+        "optional": true
+      }
+    ],
+    "text": "Exile all attacking creatures target player controls. That player may search their library for that many basic land cards, put those cards onto the battlefield tapped, then shuffle."
+  }
+}

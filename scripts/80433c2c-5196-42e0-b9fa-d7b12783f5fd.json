@@ -1,0 +1,35 @@
+{
+  "name": "Giant's Boulder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When this artifact enters, scry 2."
+    },
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{1}, {T}: Add one mana of any color."
+    },
+    {
+      "cost": "{7}, {T}, sacrifice",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{7}, {T}, Sacrifice this artifact: Destroy target permanent."
+    }
+  ]
+}

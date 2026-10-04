@@ -1,0 +1,80 @@
+{
+  "name": "Roads Go Ever, Ever On",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "searchExileWithThis": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic",
+            "subtype": "Plains"
+          },
+          "count": 2
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "I — Search your library for up to two basic Plains cards, exile them, then shuffle. You gain 2 life."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3
+      ],
+      "effects": [
+        {
+          "returnExiledWithThis": true,
+          "count": 1
+        }
+      ],
+      "text": "II, III — Put a card exiled with this Saga into its owner's hand."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        4
+      ],
+      "effects": [
+        {
+          "emblem": "Roads Go Ever, Ever On",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "youAttack",
+              "targets": [
+                "creature:you"
+              ],
+              "effects": [
+                {
+                  "pump": [
+                    {
+                      "count": {
+                        "subtype": "Plains"
+                      }
+                    },
+                    {
+                      "count": {
+                        "subtype": "Plains"
+                      }
+                    }
+                  ],
+                  "what": "target"
+                }
+              ],
+              "text": "Whenever you attack this turn, target creature you control gets +1/+1 until end of turn for each Plains you control."
+            }
+          ]
+        }
+      ],
+      "text": "IV — Whenever you attack this turn, target creature you control gets +1/+1 until end of turn for each Plains you control."
+    }
+  ]
+}

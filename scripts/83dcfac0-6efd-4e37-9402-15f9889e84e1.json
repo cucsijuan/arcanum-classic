@@ -1,0 +1,61 @@
+{
+  "name": "The Great Goblin",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "placedByYou": true,
+      "filter": {
+        "controller": "you",
+        "anyOf": [
+          {
+            "subtype": "Goblin"
+          },
+          {
+            "subtype": "Orc"
+          },
+          {
+            "subtype": "Army"
+          }
+        ]
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you put one or more counters on a Goblin, Orc, or Army you control, The Great Goblin deals 2 damage to target opponent."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "anyOf": [
+          {
+            "subtype": "Goblin"
+          },
+          {
+            "subtype": "Orc"
+          },
+          {
+            "subtype": "Army"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "Whenever another Goblin, Orc, or Army you control dies, exile the top card of your library. You may play it until the end of your next turn."
+    }
+  ]
+}

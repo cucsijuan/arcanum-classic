@@ -1,0 +1,31 @@
+{
+  "name": "Confusticate and Bebother",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Counter target spell unless its controller pays {4}.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{4}"
+          }
+        ]
+      },
+      {
+        "text": "Draw two cards, then discard a card.",
+        "effects": [
+          {
+            "draw": 2
+          },
+          {
+            "discard": 1
+          }
+        ]
+      }
+    ]
+  }
+}

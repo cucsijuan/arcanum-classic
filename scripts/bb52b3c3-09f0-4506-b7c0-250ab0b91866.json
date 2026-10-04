@@ -1,0 +1,23 @@
+{
+  "name": "Troop of Ponies",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "count": 2,
+          "to": "battlefield",
+          "split": true,
+          "reveal": true
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this creature: Search your library for up to two basic land cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle."
+    }
+  ]
+}

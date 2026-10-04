@@ -1,0 +1,37 @@
+{
+  "name": "Glamdring, Foe-hammer // Gleam of Death",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": {
+          "power": "attached"
+        }
+      },
+      "text": "Instant and sorcery spells you cast cost {X} less to cast, where X is equipped creature's power."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 6
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "text": "Mill six cards, then put all instant and sorcery cards from among them into your hand."
+    }
+  }
+}

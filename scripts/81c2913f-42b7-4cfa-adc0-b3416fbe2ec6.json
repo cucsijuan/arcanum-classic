@@ -1,0 +1,44 @@
+{
+  "name": "Desert Were-Worm",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "subtype": "Mountain"
+            },
+            "times": 2
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +2/+0 for each Mountain you control."
+    },
+    {
+      "trigger": "youAttack",
+      "when": {
+        "attackingPower": 12
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "attacking": true
+            }
+          }
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "Whenever you attack with creatures with total power 12 or greater for the first time each turn, untap all attacking creatures. After this phase, there is an additional combat phase."
+    }
+  ]
+}

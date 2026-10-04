@@ -1,0 +1,36 @@
+{
+  "name": "Wizard's Staff",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Prowess"
+        ],
+        "extraTriggers": true
+      },
+      "text": "Equipped creature has prowess. If a triggered ability of equipped creature triggers, that ability triggers an additional time."
+    },
+    {
+      "cost": "{1}",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Wizard"
+          },
+          "text": "target Wizard you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip Wizard {1}"
+    }
+  ]
+}

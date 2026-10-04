@@ -1,0 +1,44 @@
+{
+  "name": "Last Light of Durin's Day",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Mountain"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "quest",
+          "what": "self"
+        },
+        {
+          "if": {
+            "counters": 6,
+            "kind": "quest"
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "if": "youSacrificed",
+              "then": [
+                {
+                  "searchHandOrLibrary": {
+                    "subtype": "Dragon"
+                  },
+                  "to": "battlefield"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Mountain you control enters, put a quest counter on this enchantment. If it has six or more quest counters on it, sacrifice it. If you do, search your hand and/or library for a Dragon card and put it onto the battlefield. If you search your library this way, shuffle."
+    }
+  ]
+}

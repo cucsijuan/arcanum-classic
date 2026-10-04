@@ -1,0 +1,42 @@
+{
+  "name": "Reverent Howl",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Target player draws two cards and loses 2 life.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 2,
+            "who": "target"
+          },
+          {
+            "loseLife": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +2/+2 and gains lifelink until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target",
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

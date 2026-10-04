@@ -1,0 +1,37 @@
+{
+  "name": "Goblin-town",
+  "abilities": [
+    {
+      "cost": "{2}{B}{R}, {T}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              }
+            ]
+          },
+          "text": "target Goblin or Orc you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "{2}{B}{R}, {T}, Sacrifice this land: Put two +1/+1 counters on target Goblin, Orc you control. Activate only as a sorcery."
+    }
+  ]
+}

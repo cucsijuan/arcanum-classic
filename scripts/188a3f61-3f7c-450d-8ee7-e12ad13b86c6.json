@@ -1,0 +1,49 @@
+{
+  "name": "Gnashing of Teeth",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Target creature gets -5/-5 until end of turn. If that creature would die this turn, exile it instead.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "exileIfDies": "target"
+          },
+          {
+            "pump": [
+              -5,
+              -5
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures target player controls get -1/-1 until end of turn.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

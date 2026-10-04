@@ -1,0 +1,41 @@
+{
+  "name": "Azog, Moria's Ruin",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "amass": {
+            "power": "target"
+          },
+          "type": "Goblin",
+          "who": "targetController"
+        },
+        {
+          "if": {
+            "targetControlledByYou": "target"
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When Azog enters, destroy up to one other target creature. Its controller amasses Goblins X, where X is that creature's power. If you controlled that creature, draw a card."
+    }
+  ]
+}

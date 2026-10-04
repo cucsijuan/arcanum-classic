@@ -1,0 +1,14 @@
+{
+  "name": "Lake-town Lookout",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "When this creature dies, recruit."
+    }
+  ]
+}

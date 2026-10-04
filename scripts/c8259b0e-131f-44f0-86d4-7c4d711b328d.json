@@ -1,0 +1,25 @@
+{
+  "name": "Old Thrush",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 2
+        },
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "top",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "When this creature enters, you gain 2 life. You may search your library for a basic land card, reveal it, then shuffle and put that card on top."
+    }
+  ]
+}

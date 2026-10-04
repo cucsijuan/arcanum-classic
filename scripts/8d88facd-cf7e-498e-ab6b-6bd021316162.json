@@ -1,0 +1,45 @@
+{
+  "name": "Gollum the Abandoned",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "Gollum can't block."
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "opponent",
+          "optional": true,
+          "text": "up to one target card from an opponent's graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "When Gollum enters, exile up to one target card from an opponent's graveyard. Each opponent loses 2 life."
+    },
+    {
+      "cost": "{2}, sacrifice:artifact|creature, fromGraveyard",
+      "sorcery": true,
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}, Sacrifice an artifact or creature: Return this card from your graveyard to your hand. Activate only as a sorcery."
+    }
+  ]
+}

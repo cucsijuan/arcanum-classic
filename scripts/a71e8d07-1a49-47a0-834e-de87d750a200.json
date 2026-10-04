@@ -1,0 +1,30 @@
+{
+  "name": "Iron Hills",
+  "abilities": [
+    {
+      "cost": "{2}{R}{W}, {T}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "subtype": "Dwarf"
+          },
+          "text": "target Dwarf you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "{2}{R}{W}, {T}, Sacrifice this land: Put two +1/+1 counters on target Dwarf you control. Activate only as a sorcery."
+    }
+  ]
+}

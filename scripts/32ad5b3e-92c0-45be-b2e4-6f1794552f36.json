@@ -1,0 +1,62 @@
+{
+  "name": "The Mountain-king's Return",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "I — Recruit."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target creature card with mana value 3 or less in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "II — Return target creature card with mana value 3 or less from your graveyard to the battlefield."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "III — Put a +1/+1 counter on up to one target creature."
+    }
+  ]
+}

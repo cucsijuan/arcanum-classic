@@ -1,0 +1,56 @@
+{
+  "name": "Stone-Giant of High Pass",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Stone Boulder",
+            "types": "Artifact Creature — Wall",
+            "colors": [],
+            "power": 3,
+            "toughness": 1,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a 3/1 colorless Wall artifact creature token with defender named Stone Boulder."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Stone Boulder",
+            "types": "Artifact Creature — Wall",
+            "colors": [],
+            "power": 3,
+            "toughness": 1,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a 3/1 colorless Wall artifact creature token with defender named Stone Boulder."
+    },
+    {
+      "cost": "{2}{R}, sacrifice:artifact",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{2}{R}, Sacrifice an artifact: This creature deals 4 damage to any target."
+    }
+  ]
+}

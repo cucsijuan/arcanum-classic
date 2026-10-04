@@ -1,0 +1,32 @@
+{
+  "name": "Glóin the Mighty // Easy Pickings",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "addMana": "{R}{R}"
+        }
+      ],
+      "text": "At the beginning of your first main phase, add {R}{R}."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "Easy Pickings deals 1 damage to each creature your opponents control."
+    }
+  }
+}

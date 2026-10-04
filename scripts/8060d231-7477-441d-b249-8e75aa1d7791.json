@@ -1,0 +1,15 @@
+{
+  "name": "Ravening Warg",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "when": "ferocious",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Ferocious — Whenever this creature attacks while you control a creature with power 4 or greater, you gain 2 life."
+    }
+  ]
+}

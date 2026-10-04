@@ -1,0 +1,41 @@
+{
+  "name": "The Arkenstone // Seek the Heart",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creatures you control get +1/+1."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, draw a card."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ],
+            "supertype": "legendary"
+          },
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle."
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Thranduil, Sindarin Liege // Silvan Rally",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf",
+            "types": "Creature — Elf",
+            "colors": [
+              "G"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 green Elf creature token."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2
+        }
+      ],
+      "text": "Mill four cards, then put up to two land cards from among them into your hand."
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Bilbo, Thief in the Night",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "inHand": false
+        },
+        "amount": 1
+      },
+      "text": "Spells you cast from anywhere other than your hand cost {1} less to cast."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "castFromGraveyard": {
+            "types": [
+              "artifact",
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Bilbo attacks, you may cast an artifact, instant, or sorcery spell from your graveyard. If an instant or sorcery spell cast this way would be put into your graveyard, exile it instead."
+    }
+  ]
+}

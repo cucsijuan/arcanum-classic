@@ -1,0 +1,38 @@
+{
+  "name": "Little Bear",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "subtype": "Bear"
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, untap another target creature you control. If that creature is a Bear, put a +1/+1 counter on it."
+    }
+  ]
+}

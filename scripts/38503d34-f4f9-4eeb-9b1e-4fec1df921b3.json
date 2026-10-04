@@ -1,0 +1,38 @@
+{
+  "name": "An Unexpected Party // At the Door",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +2/+2."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Dwarf",
+            "types": "Creature — Dwarf",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Create X 2/2 red Dwarf creature tokens."
+    }
+  }
+}

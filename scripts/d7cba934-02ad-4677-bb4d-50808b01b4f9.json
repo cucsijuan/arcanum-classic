@@ -1,0 +1,15 @@
+{
+  "name": "Thranduil's Decree",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "exilePermanentPlayable": true
+      }
+    ],
+    "text": "Counter target spell. If a permanent spell is countered this way, exile it instead of putting it into its owner's graveyard. You may cast that card without paying its mana cost for as long as it remains exiled."
+  }
+}

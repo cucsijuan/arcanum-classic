@@ -1,0 +1,13 @@
+{
+  "name": "The Lord of the Eagles",
+  "costReduction": {
+    "amount": 1,
+    "byTotalPower": true,
+    "powerFilter": {
+      "types": [
+        "creature"
+      ],
+      "keyword": "Flying"
+    }
+  }
+}

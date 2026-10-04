@@ -1,0 +1,19 @@
+{
+  "name": "Fateful Discovery",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an artifact you control enters, draw a card."
+    }
+  ]
+}

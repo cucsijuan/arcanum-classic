@@ -1,0 +1,17 @@
+{
+  "name": "Mirkwood Pathmaker",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  }
+}

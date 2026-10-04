@@ -1,0 +1,18 @@
+{
+  "name": "The Chief Warg",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": "ferocious",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Ferocious — Whenever you attack while you control a creature with power 4 or greater, you draw a card and lose 1 life."
+    }
+  ]
+}

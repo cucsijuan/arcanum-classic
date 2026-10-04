@@ -1,0 +1,17 @@
+{
+  "name": "Bombur, Gentle Dreamer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Doesn't untap"
+        ],
+        "while": {
+          "not": "enduringStory"
+        }
+      },
+      "text": "Bombur doesn't untap during your untap step unless you have an enduring story."
+    }
+  ]
+}

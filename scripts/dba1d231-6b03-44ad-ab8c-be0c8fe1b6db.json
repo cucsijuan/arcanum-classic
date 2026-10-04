@@ -1,0 +1,38 @@
+{
+  "name": "Lake-town Mariners // Gone Fishing",
+  "adventure": {
+    "spell": {
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "target creature or land you control"
+        },
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "another target creature or land you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "eachTarget"
+        }
+      ],
+      "text": "Exile two target creatures and/or lands you control, then return them to the battlefield under their owner's control."
+    }
+  }
+}

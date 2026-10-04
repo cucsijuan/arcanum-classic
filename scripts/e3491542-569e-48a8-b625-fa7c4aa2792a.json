@@ -1,0 +1,85 @@
+{
+  "name": "Down in the Valley",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "I — Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "become": "self",
+          "permanent": true,
+          "abilities": [
+            {
+              "trigger": "landfall",
+              "effects": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Elf",
+                    "types": "Creature — Elf",
+                    "colors": [
+                      "G"
+                    ],
+                    "power": 1,
+                    "toughness": 1
+                  }
+                }
+              ],
+              "text": "Landfall — Whenever a land you control enters, create a 1/1 green Elf creature token."
+            }
+          ]
+        }
+      ],
+      "text": "II — This Saga gains \"Landfall — Whenever a land you control enters, create a 1/1 green Elf creature token.\""
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3,
+        4
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Elf",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "III, IV — Elves you control get +1/+0 and gain vigilance until end of turn."
+    }
+  ]
+}

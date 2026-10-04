@@ -1,0 +1,17 @@
+{
+  "name": "Inside Information",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "exileTopPlayable": "X",
+        "of": "target",
+        "chooseOne": false,
+        "payLife": true
+      }
+    ],
+    "text": "Exile the top X cards of target opponent's library. You may play those cards this turn. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost."
+  }
+}

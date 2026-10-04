@@ -1,0 +1,83 @@
+{
+  "name": "The Eagles Are Coming!",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "ownedByYou": true
+        },
+        "text": "target creature you own"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      },
+      {
+        "atNextUpkeep": {
+          "effects": [
+            {
+              "tokens": "triggerAmount",
+              "token": {
+                "name": "Bird Soldier",
+                "types": "Creature — Bird Soldier",
+                "colors": [
+                  "W"
+                ],
+                "power": 4,
+                "toughness": 4,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ],
+          "text": "Create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way."
+        },
+        "amount": "returned"
+      }
+    ],
+    "whenKicked": {
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "ownedByYou": true
+          },
+          "anyNumber": true,
+          "text": "any number of target creatures you own"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "eachTarget"
+        },
+        {
+          "atNextUpkeep": {
+            "effects": [
+              {
+                "tokens": "triggerAmount",
+                "token": {
+                  "name": "Bird Soldier",
+                  "types": "Creature — Bird Soldier",
+                  "colors": [
+                    "W"
+                  ],
+                  "power": 4,
+                  "toughness": 4,
+                  "keywords": [
+                    "Flying"
+                  ]
+                }
+              }
+            ],
+            "text": "Create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way."
+          },
+          "amount": "returned"
+        }
+      ]
+    },
+    "text": "Return target creature you own (any number if kicked) to your hand. At the beginning of the next upkeep, create a 4/4 white Bird Soldier creature token with flying for each creature returned to your hand this way."
+  }
+}

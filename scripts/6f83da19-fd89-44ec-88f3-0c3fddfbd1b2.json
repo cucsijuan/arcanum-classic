@@ -1,0 +1,16 @@
+{
+  "name": "Long-Bodied Grey Dog",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "When this creature enters, create a tapped Treasure token."
+    }
+  ]
+}

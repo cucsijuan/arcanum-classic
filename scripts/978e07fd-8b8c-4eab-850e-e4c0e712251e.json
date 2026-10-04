@@ -1,0 +1,20 @@
+{
+  "name": "Bothersome Noisemaker",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, amass Goblins 1."
+    }
+  ]
+}

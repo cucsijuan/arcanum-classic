@@ -1,0 +1,34 @@
+{
+  "name": "Bofur, Reliable Guardian // Concerted Care",
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Target artifact or creature you control gains hexproof and indestructible until end of turn."
+    }
+  }
+}

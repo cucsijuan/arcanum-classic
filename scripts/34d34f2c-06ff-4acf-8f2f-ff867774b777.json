@@ -1,0 +1,35 @@
+{
+  "name": "Most Decrepit Old Bird // Speak Secrets",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          1
+        ],
+        "while": "threshold"
+      },
+      "text": "Threshold — This creature gets +1/+1 as long as there are seven or more cards in your graveyard."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "count": 1
+        }
+      ],
+      "text": "Mill four cards, then put an instant or sorcery card from among them into your hand."
+    }
+  }
+}

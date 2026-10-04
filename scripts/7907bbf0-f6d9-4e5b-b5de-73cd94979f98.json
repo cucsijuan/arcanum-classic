@@ -1,0 +1,42 @@
+{
+  "name": "Stone by Sunlight",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            },
+            "text": "target creature with power 4 or greater"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Until end of turn, target creature becomes an artifact in addition to its other types and gains indestructible.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "addTypes": [
+              "artifact"
+            ],
+            "keywords": [
+              "Indestructible"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Fíli the Pathfinder",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "while": "enduringStory"
+      },
+      "text": "As long as you have an enduring story, creatures you control get +1/+1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dwarf",
+        "token": false
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dwarf",
+            "types": "Creature — Dwarf",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever Fíli or another nontoken Dwarf you control enters, create a 2/2 red Dwarf creature token."
+    }
+  ]
+}

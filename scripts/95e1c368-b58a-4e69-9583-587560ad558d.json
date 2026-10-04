@@ -1,0 +1,39 @@
+{
+  "name": "Eagle's Rescue",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has flying."
+    },
+    {
+      "cost": "{2}{W/U}{W/U}, fromGraveyard",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "maxPower": 1
+          },
+          "text": "target creature you control with power 1 or less"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "self",
+          "attachTo": "target"
+        }
+      ],
+      "text": "{2}{W/U}{W/U}: Return this card from your graveyard to the battlefield attached to target creature you control with power 1 or less. Activate only as a sorcery."
+    }
+  ]
+}

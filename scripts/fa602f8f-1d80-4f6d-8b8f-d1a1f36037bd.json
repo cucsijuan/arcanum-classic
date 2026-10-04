@@ -1,0 +1,32 @@
+{
+  "name": "Bolg's Company",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Haste"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Goblin",
+            "other": true
+          }
+        }
+      },
+      "text": "This creature has haste as long as you control another Goblin."
+    },
+    {
+      "cost": "{T}, sacrifice:Goblin",
+      "effects": [
+        {
+          "addMana": "{B}{R}"
+        }
+      ],
+      "text": "{T}, Sacrifice another Goblin: Add {B}{R}."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Cantankerous Keepers",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Elf"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "takeMilled": {
+            "subtype": "Elf"
+          }
+        }
+      ],
+      "text": "When this creature enters, mill four cards, then put all Elf cards from among them into your hand."
+    }
+  ]
+}

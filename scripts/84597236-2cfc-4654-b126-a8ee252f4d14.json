@@ -1,0 +1,21 @@
+{
+  "name": "Esgaroth Garrison",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "When this creature enters, recruit."
+    }
+  ]
+}

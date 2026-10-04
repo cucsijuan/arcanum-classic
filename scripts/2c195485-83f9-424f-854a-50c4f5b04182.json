@@ -1,0 +1,40 @@
+{
+  "name": "Thranduil's Company",
+  "replaces": [
+    "AdditionalLandPlay"
+  ],
+  "additionalLandPlayIf": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "subtype": "Elf",
+      "other": true
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put two +1/+1 counters on target creature you control. It gains vigilance until end of turn."
+    }
+  ]
+}

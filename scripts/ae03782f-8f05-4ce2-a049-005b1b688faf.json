@@ -1,0 +1,44 @@
+{
+  "name": "Dáin's Company",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Lifelink"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dwarf",
+            "other": true
+          }
+        }
+      },
+      "text": "This creature has lifelink as long as you control another Dwarf."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Dwarf"
+              },
+              {
+                "subtype": "Equipment"
+              }
+            ]
+          },
+          "take": 1,
+          "reveal": true
+        }
+      ],
+      "text": "When this creature enters, look at the top four cards of your library. You may reveal a Dwarf or Equipment card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

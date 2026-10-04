@@ -1,0 +1,24 @@
+{
+  "name": "Uneasy Partings",
+  "costReduction": {
+    "amount": 1,
+    "ifTargets": {
+      "types": [
+        "creature"
+      ],
+      "attacking": true,
+      "token": false
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      }
+    ],
+    "text": "Target creature's owner puts it on their choice of the top or bottom of their library."
+  }
+}

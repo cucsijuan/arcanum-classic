@@ -1,0 +1,59 @@
+{
+  "name": "Bolg of the North",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Sacrifice another creature?",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "other": true
+              }
+            }
+          ]
+        },
+        {
+          "whenYouDo": {
+            "if": "youSacrificed",
+            "amount": "sacrificedPower",
+            "targets": [
+              {
+                "kind": "creature",
+                "filter": {
+                  "other": true
+                },
+                "text": "another target creature"
+              }
+            ],
+            "effects": [
+              {
+                "damage": "triggerAmount",
+                "to": "target"
+              },
+              {
+                "if": {
+                  "atLeast": "excessDamage",
+                  "value": 1
+                },
+                "then": [
+                  {
+                    "amass": "excessDamage",
+                    "type": "Goblin"
+                  }
+                ]
+              }
+            ],
+            "text": "Bolg deals damage equal to that creature's power to another target creature. If excess damage was dealt this way, amass Goblins X, where X is that excess damage."
+          }
+        }
+      ],
+      "text": "When Bolg enters, you may sacrifice another creature."
+    }
+  ]
+}

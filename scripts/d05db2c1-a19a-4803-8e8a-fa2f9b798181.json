@@ -1,0 +1,7 @@
+{
+  "name": "Bard, King of Dale",
+  "replaces": [
+    "DrawTwoExceptFirstInDrawStep",
+    "DoubleTokens"
+  ]
+}

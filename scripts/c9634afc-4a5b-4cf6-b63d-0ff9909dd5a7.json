@@ -1,0 +1,26 @@
+{
+  "name": "Desolation of Smaug",
+  "spell": {
+    "effects": [
+      {
+        "damage": 3,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "notSubtype": "Dragon",
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "addManaCombination": 4,
+        "onlyFor": {
+          "subtype": "Dragon"
+        }
+      }
+    ],
+    "text": "Desolation of Smaug deals 3 damage to each non-Dragon creature. Add four mana in any combination of colors. Spend this mana only to cast Dragon spells."
+  }
+}

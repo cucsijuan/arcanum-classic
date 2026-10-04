@@ -1,0 +1,45 @@
+{
+  "name": "Gandalf, Goblins' Bane // Flameshape",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        },
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Gandalf gets +1/+1 until end of turn and deals 1 damage to each opponent."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "exileTopPlayable": 2,
+          "chooseOne": false,
+          "forever": true,
+          "faceDown": true,
+          "while": {
+            "control": {
+              "subtype": "Wizard"
+            }
+          }
+        }
+      ],
+      "text": "Look at the top two cards of your library and exile them face down. For as long as they remain exiled, you may play them if you control a Wizard."
+    }
+  }
+}

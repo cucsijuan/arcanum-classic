@@ -1,0 +1,55 @@
+{
+  "name": "Belladonna Took",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "if": {
+            "resolvedThisTurn": 1,
+            "exactly": true
+          },
+          "then": [
+            {
+              "gainLife": 1
+            }
+          ]
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 2,
+            "exactly": true
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 3,
+            "exactly": true
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a token you control enters, you gain 1 life if this is the first time this ability has resolved this turn. If it's the second time, draw a card. If it's the third time, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

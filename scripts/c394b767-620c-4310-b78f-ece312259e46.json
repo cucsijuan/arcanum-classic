@@ -1,0 +1,15 @@
+{
+  "name": "Misty Mountains Raider",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Whenever you attack, amass Goblins 2."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Óin the Brave",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ],
+        "while": "enduringStory"
+      },
+      "text": "As long as you have an enduring story, Óin gets +1/+0 and has haste."
+    },
+    {
+      "cost": "{1}, {T}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Discard a card: Draw a card."
+    }
+  ]
+}

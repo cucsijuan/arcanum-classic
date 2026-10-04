@@ -1,0 +1,29 @@
+{
+  "name": "Stir Up Trouble",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        }
+      }
+    },
+    {
+      "mana": "{4}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature."
+  }
+}

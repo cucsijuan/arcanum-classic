@@ -1,0 +1,34 @@
+{
+  "name": "Thranduil, the Elvenking",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "graveyardAbilities": {
+          "subtype": "Elf"
+        }
+      },
+      "text": "Thranduil has all activated abilities of all Elf cards in your graveyard."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "subtype": "Elf",
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "Whenever another legendary Elf you control enters, draw two cards, then discard a card."
+    }
+  ]
+}

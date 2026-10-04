@@ -1,0 +1,36 @@
+{
+  "name": "Sting, Bilbo's Sword",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent",
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "text": "up to one target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            },
+            "controlledBy": "target"
+          },
+          "kind": "hone",
+          "what": "self"
+        },
+        {
+          "attach": "target2"
+        }
+      ],
+      "text": "When Sting enters, put a hone counter on Sting for each creature target opponent controls. Attach Sting to up to one target creature you control."
+    }
+  ]
+}

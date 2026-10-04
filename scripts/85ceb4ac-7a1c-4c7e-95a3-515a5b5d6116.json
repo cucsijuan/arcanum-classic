@@ -1,0 +1,15 @@
+{
+  "name": "Goblin-town Flunkies",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Goblin"
+        }
+      ],
+      "text": "When this creature enters, amass Goblins 1."
+    }
+  ]
+}

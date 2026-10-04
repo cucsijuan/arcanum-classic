@@ -1,0 +1,55 @@
+{
+  "name": "The Sackville-Bagginses",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Sacrifice another creature or artifact?",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "creature",
+                  "artifact"
+                ],
+                "other": true
+              }
+            },
+            {
+              "if": "youSacrificed",
+              "then": [
+                {
+                  "draw": 1
+                },
+                {
+                  "tokens": 1,
+                  "token": "Treasure"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When The Sackville-Bagginses enter, you may sacrifice another creature or artifact. If you do, draw a card and create a Treasure token."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "token": true,
+        "controller": "any"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you sacrifice a token, target opponent loses 1 life."
+    }
+  ]
+}

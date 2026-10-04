@@ -1,0 +1,21 @@
+{
+  "name": "Magnificent End",
+  "costReduction": {
+    "amount": 3,
+    "ifTargets": {
+      "tapped": true
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ],
+    "text": "Magnificent End deals 5 damage to target creature."
+  }
+}

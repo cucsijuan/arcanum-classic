@@ -1,0 +1,42 @@
+{
+  "name": "Bifur, Melodic Rider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Bifur enters or attacks, put a +1/+1 counter on target creature."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Bifur enters or attacks, put a +1/+1 counter on target creature."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "subtype": "Dwarf"
+        },
+        "extraTriggers": true,
+        "while": "enduringStory"
+      },
+      "text": "As long as you have an enduring story, if a triggered ability of a Dwarf you control triggers, that ability triggers an additional time."
+    }
+  ]
+}

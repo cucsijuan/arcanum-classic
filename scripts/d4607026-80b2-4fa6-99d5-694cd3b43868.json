@@ -1,0 +1,26 @@
+{
+  "name": "Great Gilded Boat",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "Whenever you attack, recruit."
+    },
+    {
+      "cost": "crew:2",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 2"
+    }
+  ]
+}

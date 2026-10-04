@@ -1,0 +1,58 @@
+{
+  "name": "Down, Down to Goblin-town",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "I — Target opponent reveals their hand. You choose a nonland card from it. That player discards that card."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Goblin"
+        }
+      ],
+      "text": "II — Amass Goblins 1."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3,
+        4
+      ],
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "III, IV — Target opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

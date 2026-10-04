@@ -1,0 +1,60 @@
+{
+  "name": "Old Fat Spider Can't See Me",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof"
+          ],
+          "whileSource": true
+        }
+      ],
+      "text": "I — Target creature you control gains hexproof for as long as this Saga remains on the battlefield."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "preventDamageBy": "target"
+        }
+      ],
+      "text": "II — Prevent all damage that would be dealt by up to one target creature for as long as this Saga remains on the battlefield."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3,
+        4
+      ],
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "III, IV — Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Riddles in the Dark",
+  "spell": {
+    "effects": [
+      {
+        "piles": 4
+      }
+    ],
+    "text": "Look at the top four cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of the piles. Put that pile into your hand and the other into your graveyard."
+  }
+}

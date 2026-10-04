@@ -1,0 +1,41 @@
+{
+  "name": "Rhovanion Rampager",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Sacrifice another creature?",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "other": true
+              }
+            },
+            {
+              "counters": "sacrificedPower",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature. If you do, put a number of +1/+1 counters on this creature equal to the sacrificed creature's power."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "amass": {
+            "power": "self"
+          },
+          "type": "Goblin"
+        }
+      ],
+      "text": "When this creature dies, amass Goblins X, where X is this creature's power."
+    }
+  ]
+}

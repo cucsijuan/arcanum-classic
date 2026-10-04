@@ -1,0 +1,44 @@
+{
+  "name": "The Black Arrow",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "subtype": "Dragon"
+            }
+          },
+          "then": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When The Black Arrow enters, it deals 1 damage to any target. If a Dragon is dealt damage this way, destroy it."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has reach."
+    }
+  ]
+}

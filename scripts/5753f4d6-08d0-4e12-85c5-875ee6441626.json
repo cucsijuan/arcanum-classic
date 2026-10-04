@@ -1,0 +1,23 @@
+{
+  "name": "Tidings of War",
+  "spell": {
+    "effects": [
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "amass": 3,
+            "type": "Goblin"
+          }
+        ],
+        "else": [
+          {
+            "amass": 1,
+            "type": "Goblin"
+          }
+        ]
+      }
+    ],
+    "text": "Amass Goblins 1. If this spell was cast from a graveyard, amass Goblins 3 instead."
+  }
+}

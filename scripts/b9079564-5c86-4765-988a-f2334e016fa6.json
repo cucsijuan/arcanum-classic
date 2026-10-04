@@ -1,0 +1,32 @@
+{
+  "name": "Master's Councillors",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyardsWith": 7,
+            "times": 2
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +2/+0 for each graveyard with seven or more cards in it."
+    },
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, target player mills three cards."
+    }
+  ]
+}

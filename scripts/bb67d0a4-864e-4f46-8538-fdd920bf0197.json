@@ -1,0 +1,32 @@
+{
+  "name": "Ragged Short Spear",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw two cards?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this Equipment enters, you may discard a card. If you do, draw two cards."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +2/+0."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Sound the Trumpets",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "maxManaValue": 2
+          }
+        },
+        "then": [
+          {
+            "recruit": true
+          }
+        ]
+      }
+    ],
+    "text": "Counter target spell. If that spell's mana value was 2 or less, recruit."
+  }
+}

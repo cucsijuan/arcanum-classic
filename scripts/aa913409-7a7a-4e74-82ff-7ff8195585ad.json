@@ -1,0 +1,34 @@
+{
+  "name": "Roll-Roll-Roll-Roll",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "up to one target creature or land you control"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "target"
+        }
+      ],
+      "text": "I, II, III, IV — Exile up to one target creature or land you control. If you do, return it to the battlefield under its owner's control at the beginning of the next end step."
+    }
+  ]
+}

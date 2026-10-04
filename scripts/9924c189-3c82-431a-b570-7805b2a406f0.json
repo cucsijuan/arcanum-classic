@@ -1,0 +1,87 @@
+{
+  "name": "Dáin Ironfoot",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Axe",
+            "types": "Artifact — Equipment",
+            "colors": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "equipped",
+                  "pump": [
+                    1,
+                    0
+                  ]
+                },
+                "text": "Equipped creature gets +1/+0."
+              },
+              {
+                "cost": "{2}",
+                "sorcery": true,
+                "equip": true,
+                "targets": [
+                  "creature:you"
+                ],
+                "effects": [
+                  {
+                    "attach": "target"
+                  }
+                ],
+                "text": "Equip {2}"
+              }
+            ],
+            "text": "Equipped creature gets +1/+0.\nEquip {2}"
+          }
+        },
+        {
+          "whenYouDo": {
+            "if": "createdThisWay",
+            "about": "created",
+            "targets": [
+              "creature:you"
+            ],
+            "effects": [
+              {
+                "attach": "triggered",
+                "to": "target"
+              }
+            ],
+            "text": "Attach the Axe to target creature you control."
+          }
+        }
+      ],
+      "text": "When Dáin enters, create a colorless Equipment artifact token named Axe with \"Equipped creature gets +1/+0\" and equip {2}. When you do, attach it to target creature you control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "equipped": true,
+              "controller": "any"
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "Whenever Dáin attacks, each equipped attacking creature gains double strike until end of turn."
+    }
+  ]
+}

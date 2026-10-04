@@ -1,0 +1,44 @@
+{
+  "name": "Chief Warg's Company",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Wolf",
+              "other": true
+            },
+            "count": 2
+          }
+        }
+      },
+      "text": "This creature can't attack unless you control two or more other Wolves."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "colors": [
+              "G"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 2/2 green Wolf creature token."
+    }
+  ]
+}

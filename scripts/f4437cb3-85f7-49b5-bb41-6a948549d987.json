@@ -1,0 +1,73 @@
+{
+  "name": "Along the Crooked Way",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this enchantment enters, return target creature card from your graveyard to your hand."
+    },
+    {
+      "trigger": "leavesGraveyard",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Whenever a creature card leaves your graveyard, amass Goblins 1."
+    },
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "anyOf": [
+                {
+                  "subtype": "Goblin"
+                },
+                {
+                  "subtype": "Orc"
+                }
+              ]
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{1}{B}: Goblins and Orcs you control gain menace until end of turn."
+    }
+  ]
+}

@@ -33,12 +33,14 @@ def set_printings(path, code):
             if f'"set":"{code}"' not in line.replace(" ", ""):
                 continue
             c = json.loads(line)
-            if c.get("set") != code or c.get("lang", "en") != "en":
-                continue
-            digits = "".join(ch for ch in c["collector_number"] if ch.isdigit())
-            rank = (not c.get("booster", False), int(digits) if digits else 10**9)
-            if c["name"] not in found or rank < found[c["name"]][0]:
-                found[c["name"]] = (rank, c["collector_number"])
+            # A printings source has one printing per line; Arcanum's own card file lists each card's printings.
+            for p in c.get("printings", [c]):
+                if p.get("set") != code or p.get("lang", "en") != "en":
+                    continue
+                digits = "".join(ch for ch in p["collector_number"] if ch.isdigit())
+                rank = (not p.get("booster", False), int(digits) if digits else 10**9)
+                if c["name"] not in found or rank < found[c["name"]][0]:
+                    found[c["name"]] = (rank, p["collector_number"])
     return {name: number for name, (_, number) in found.items()}
 
 

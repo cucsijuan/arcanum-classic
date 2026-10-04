@@ -1,0 +1,42 @@
+{
+  "name": "Bard's Company",
+  "flashIf": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "subtype": "Human"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other creatures you control get +1/+1."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, recruit."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, recruit."
+    }
+  ]
+}

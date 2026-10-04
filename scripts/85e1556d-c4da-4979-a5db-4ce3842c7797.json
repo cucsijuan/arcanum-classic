@@ -1,0 +1,28 @@
+{
+  "name": "Gathering of Darkness",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "optional": true,
+        "text": "up to one target creature card in your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "amass": 3,
+        "type": "Goblin"
+      }
+    ],
+    "text": "Return up to one target creature card from your graveyard to your hand. Amass Goblins 3."
+  }
+}

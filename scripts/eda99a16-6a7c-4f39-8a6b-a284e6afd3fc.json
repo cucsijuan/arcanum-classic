@@ -1,0 +1,31 @@
+{
+  "name": "Goblin Plate Mail",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Goblin"
+        },
+        {
+          "attach": "amassed"
+        }
+      ],
+      "text": "When this Equipment enters, amass Goblins 1, then attach this Equipment to the amassed Army."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 and has menace."
+    }
+  ]
+}

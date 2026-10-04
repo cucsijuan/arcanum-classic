@@ -1,0 +1,19 @@
+{
+  "name": "Desolation Prowler",
+  "abilities": [
+    {
+      "cost": "life:2",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Pay 2 life: This creature gets +2/+2 until end of turn. Activate only once each turn."
+    }
+  ]
+}

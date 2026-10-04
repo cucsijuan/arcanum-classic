@@ -1,0 +1,30 @@
+{
+  "name": "The Notary Hobbits",
+  "tapForMana": "{C}",
+  "manaAmountFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ],
+      "subtype": "Halfling"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "sourceIs": {
+          "token": false
+        }
+      },
+      "effects": [
+        {
+          "copy": "self",
+          "count": 2,
+          "notLegendary": true
+        }
+      ],
+      "text": "When The Notary Hobbits enter, if they're not a token, create two tokens that are copies of them, except the tokens aren't legendary."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+1 Bard the Bowman (HOB) 145
+1 Bard's Company (HOB) 146
+1 Bard, King of Dale (HOB) 144
+1 Belladonna Took (HOB) 4
+1 Bilbo Baggins, Burglar // Take a Glance (HOB) 34
+1 Bilbo, Luckwearer // Burglar's Plot (HOB) 32
+1 Bilbo, Thief in the Night (HOB) 33
+1 Bofur, Reliable Guardian // Concerted Care (HOB) 6
+1 Dwarven Provisioner (HOB) 9
+1 Dáin, Lord of the Iron Hills (HOB) 8
+1 Eagle of the Great Shelf (HOB) 11
+1 Elrond, Moon-Reader (HOB) 36
+1 Elven Raft-Steerer (HOB) 37
+1 Elvenking's Harper (HOB) 38
+1 Esgaroth Garrison (HOB) 13
+1 Fíli the Pathfinder (HOB) 14
+1 Gandalf, Wandering Wizard (HOB) 41
+1 Iron Hills Blacksmith (HOB) 16
+1 Kíli the Resourceful (HOB) 17
+1 Lake-town Lookout (HOB) 18
+1 Lake-town Mariners // Gone Fishing (HOB) 44
+1 Lake-town Toymaker (HOB) 19
+1 An Unexpected Party // At the Door (HOB) 29
+1 Bilbo's Gambit (HOB) 5
+1 Celebrate the Mountain-king (HOB) 7
+1 Confusticate and Bebother (HOB) 35
+1 Dwarven Shortsword (HOB) 10
+1 Eagle's Rescue (HOB) 155
+1 Enchanted River's Grasp (HOB) 39
+1 Fateful Discovery (HOB) 40
+1 Giant's Boulder (HOB) 173
+1 Glamdring, Foe-hammer // Gleam of Death (HOB) 174
+1 Gleaming Splendor (HOB) 15
+1 Great Gilded Boat (HOB) 42
+1 Key to the Side-Door (HOB) 175
+1 Magnificent End (HOB) 20
+12 Plains (HOB) 189
+12 Island (HOB) 190

@@ -1,0 +1,46 @@
+{
+  "name": "My Precious // Allure of Power",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Hexproof",
+          "Can't be blocked"
+        ]
+      },
+      "text": "Equipped creature has hexproof and can't be blocked."
+    },
+    {
+      "cost": "{2}, life:2",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip—{2}, Pay 2 life."
+    }
+  ],
+  "adventure": {
+    "additionalCost": {
+      "sacrifice": {
+        "types": [
+          "creature"
+        ]
+      }
+    },
+    "spell": {
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "Draw two cards."
+    }
+  }
+}

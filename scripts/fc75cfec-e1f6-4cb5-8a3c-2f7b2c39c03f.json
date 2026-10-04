@@ -1,0 +1,17 @@
+{
+  "name": "Smaug, the Great Calamity // Spew Flame",
+  "adventure": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "Spew Flame deals 5 damage to target creature."
+    }
+  }
+}

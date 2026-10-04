@@ -1,0 +1,26 @@
+{
+  "name": "The Master of Lake-town",
+  "abilities": [
+    {
+      "trigger": "playerLosesLife",
+      "effects": [
+        {
+          "mill": "triggerAmount",
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a player loses life, that player mills that many cards."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": {
+            "graveyardsWith": 7
+          }
+        }
+      ],
+      "text": "When The Master of Lake-town dies, draw a card for each graveyard with seven or more cards in it."
+    }
+  ]
+}

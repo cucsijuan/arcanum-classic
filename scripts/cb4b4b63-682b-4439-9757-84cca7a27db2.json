@@ -1,0 +1,32 @@
+{
+  "name": "Eagle of the Great Shelf",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "other": true
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "other": true
+              }
+            }
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +1/+1 until end of turn for each other creature you control."
+    }
+  ]
+}

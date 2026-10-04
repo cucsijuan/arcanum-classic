@@ -1,0 +1,31 @@
+{
+  "name": "Galion, Elvenking's Butler",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "powerFrom": {
+            "power": "self"
+          },
+          "toughnessFrom": {
+            "toughness": "self"
+          }
+        }
+      ],
+      "text": "Whenever Galion attacks, choose up to one other target creature you control. Its base power and toughness become equal to Galion's power and toughness until end of turn."
+    }
+  ]
+}

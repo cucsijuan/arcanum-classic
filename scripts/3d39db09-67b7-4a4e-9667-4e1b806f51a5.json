@@ -1,0 +1,32 @@
+{
+  "name": "Moment of Glory",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "exceptTargets": true
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Put a +1/+1 counter on target creature you control. If this spell was cast from a graveyard, also put a +1/+1 counter on each other creature you control."
+  }
+}

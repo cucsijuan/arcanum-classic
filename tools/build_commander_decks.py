@@ -33,9 +33,17 @@ def scripted_ids():
 
 
 def supported(card, scripts):
-    if card.get("layout") != "normal":
+    layout = card.get("layout")
+    if layout == "adventure":
+        # An adventurer card needs a script with its Adventure.
+        if card["oracle_id"] not in scripts:
+            return False
+        with open(os.path.join(ROOT, "scripts", card["oracle_id"] + ".json"), encoding="utf-8") as f:
+            if '"adventure"' not in f.read():
+                return False
+    elif layout not in ("normal", "saga"):
         return False
-    if any(k.lower() not in ENGINE_KEYWORDS for k in card.get("keywords", [])):
+    if any(k.lower() not in ENGINE_KEYWORDS and not k.lower().endswith("cycling") for k in card.get("keywords", [])):
         return False
     for stat in ("power", "toughness"):
         if stat in card and not re.fullmatch(r"-?\d+", card[stat]) and card["oracle_id"] not in scripts:

@@ -1,0 +1,30 @@
+{
+  "name": "Kíli the Resourceful",
+  "freeFirstEquipIf": "enduringStory",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "other": true,
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dwarf"
+          },
+          {
+            "subtype": "Equipment"
+          }
+        ]
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever another Dwarf or Equipment you control enters, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

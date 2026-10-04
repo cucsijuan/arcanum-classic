@@ -1,0 +1,24 @@
+{
+  "name": "Bilbo Baggins, Burglar // Take a Glance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When Bilbo Baggins enters, draw a card."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "Scry 2."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gandalf, Wandering Wizard",
+  "abilities": [
+    {
+      "cost": "{6}",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        },
+        {
+          "draw": 3
+        }
+      ],
+      "text": "{6}: Gandalf's owner shuffles him into their library and draws three cards."
+    }
+  ]
+}

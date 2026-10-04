@@ -1,0 +1,18 @@
+{
+  "name": "Radagast of Rhosgobel",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ]
+        },
+        "amount": 2,
+        "firstOfTurn": true,
+        "grantsFlash": true
+      },
+      "text": "The first creature spell you cast each turn costs {2} less to cast and can be cast as though it had flash."
+    }
+  ]
+}

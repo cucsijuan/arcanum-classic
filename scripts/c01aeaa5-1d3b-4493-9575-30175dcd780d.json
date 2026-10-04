@@ -1,0 +1,31 @@
+{
+  "name": "Gleaming Splendor",
+  "abilities": [
+    {
+      "trigger": "opponentDraws",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever an opponent draws their second card each turn, you create a Treasure token."
+    },
+    {
+      "cost": "{2}{W}",
+      "targets": [
+        "player",
+        "player"
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "eachTarget"
+        }
+      ],
+      "text": "{2}{W}: Two target players each draw a card."
+    }
+  ]
+}

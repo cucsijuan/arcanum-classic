@@ -1,0 +1,31 @@
+{
+  "name": "Elven Passage",
+  "abilities": [
+    {
+      "cost": "{T}, life:1, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true
+        },
+        {
+          "behold": {
+            "subtype": "Elf"
+          },
+          "effects": [
+            {
+              "untap": "found"
+            }
+          ]
+        }
+      ],
+      "text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. You may behold an Elf. If you do, untap that land."
+    }
+  ]
+}

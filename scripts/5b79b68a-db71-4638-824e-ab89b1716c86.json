@@ -1,0 +1,5 @@
+{
+  "name": "Dáin, Lord of the Iron Hills",
+  "attackTax": "{1}",
+  "attackTaxIf": "enduringStory"
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Iron Hills Blacksmith",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Axe",
+            "types": "Artifact — Equipment",
+            "colors": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "equipped",
+                  "pump": [
+                    1,
+                    0
+                  ]
+                },
+                "text": "Equipped creature gets +1/+0."
+              },
+              {
+                "cost": "{2}",
+                "sorcery": true,
+                "equip": true,
+                "targets": [
+                  "creature:you"
+                ],
+                "effects": [
+                  {
+                    "attach": "target"
+                  }
+                ],
+                "text": "Equip {2}"
+              }
+            ],
+            "text": "Equipped creature gets +1/+0.\nEquip {2}"
+          }
+        }
+      ],
+      "text": "When this creature enters, create a colorless Equipment artifact token named Axe with \"Equipped creature gets +1/+0\" and equip {2}."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Tom, Bert, and William",
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": "sacrificedPower"
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: Draw cards equal to the sacrificed creature's power, then discard a card."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "reanimate": "self",
+          "setTypes": [
+            "artifact"
+          ]
+        }
+      ],
+      "text": "When Tom, Bert, and William die, if they were a creature, return them to the battlefield. They're an artifact."
+    }
+  ]
+}

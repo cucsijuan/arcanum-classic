@@ -1,0 +1,17 @@
+{
+  "name": "Wood Elves",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Forest"
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "When this creature enters, search your library for a Forest card, put that card onto the battlefield, then shuffle."
+    }
+  ]
+}

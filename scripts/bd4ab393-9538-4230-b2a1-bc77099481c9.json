@@ -1,0 +1,31 @@
+{
+  "name": "Iron Hills Stalwart",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "text": "target Equipment you control"
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "text": "up to one target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target",
+          "to": "target2"
+        }
+      ],
+      "text": "When this creature enters, attach target Equipment you control to up to one target creature you control."
+    }
+  ]
+}

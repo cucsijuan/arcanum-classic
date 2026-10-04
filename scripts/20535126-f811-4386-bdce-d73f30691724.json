@@ -1,0 +1,38 @@
+{
+  "name": "Smaug, Wicked Worm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "controller": "opponent"
+            }
+          },
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "When Smaug enters, create X tapped Treasure tokens, where X is the number of artifacts your opponents control."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "paidWithTreasure": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever you cast a spell, if mana from a Treasure was spent to cast it, you draw a card and lose 1 life."
+    }
+  ]
+}

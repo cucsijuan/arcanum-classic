@@ -1,0 +1,38 @@
+{
+  "name": "Celebrate the Mountain-king",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true,
+          "anyNumber": true,
+          "text": "up to one target nonland permanent each opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "eachTarget"
+        }
+      ],
+      "text": "When this enchantment enters, for each opponent, exile up to one target nonland permanent that player controls until this enchantment leaves the battlefield."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "When this enchantment enters, recruit."
+    }
+  ]
+}

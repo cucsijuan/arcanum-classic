@@ -1,0 +1,22 @@
+{
+  "name": "Great Fierce Bee",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "other": true
+      },
+      "batched": true,
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever one or more other creatures die, scry 1."
+    }
+  ]
+}

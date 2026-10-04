@@ -1,0 +1,21 @@
+{
+  "name": "Plunder the Trollshaws",
+  "spell": {
+    "effects": [
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "draw": 2
+          }
+        ],
+        "else": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Draw a card. If this spell was cast from a graveyard, draw two cards instead."
+  }
+}

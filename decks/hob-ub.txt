@@ -1,0 +1,38 @@
+1 Azog, Moria's Ruin (HOB) 61
+1 Bilbo Baggins, Burglar // Take a Glance (HOB) 34
+1 Bilbo, Luckwearer // Burglar's Plot (HOB) 32
+1 Bilbo, Thief in the Night (HOB) 33
+1 Desolation Prowler (HOB) 64
+1 Dreaded Bat-Cloud (HOB) 66
+1 Elrond, Moon-Reader (HOB) 36
+1 Elven Raft-Steerer (HOB) 37
+1 Elvenking's Harper (HOB) 38
+1 Front Porch Sentries (HOB) 67
+1 Gandalf, Wandering Wizard (HOB) 41
+1 Gollum the Abandoned (HOB) 72
+1 Gollum, Riddle Master (HOB) 70
+1 Gollum, Silent Slinker // Meager Meal (HOB) 71
+1 Great Fierce Bee (HOB) 73
+1 Great Ugly-Looking Goblin // Clap! Snap! (HOB) 74
+1 Head of the Hunt (HOB) 75
+1 Lake-town Mariners // Gone Fishing (HOB) 44
+1 Lakeshore Apothecary (HOB) 43
+1 Long Lake Nuisance (HOB) 45
+1 Long-Bodied Grey Dog (HOB) 1
+1 Master's Councillors (HOB) 47
+1 Along the Crooked Way (HOB) 60
+1 Bilbo's Deadly Slice (HOB) 62
+1 Confusticate and Bebother (HOB) 35
+1 Crude Bent Blade (HOB) 63
+1 Down, Down to Goblin-town (HOB) 65
+1 Enchanted River's Grasp (HOB) 39
+1 Fateful Discovery (HOB) 40
+1 Gathering of Darkness (HOB) 68
+1 Giant's Boulder (HOB) 173
+1 Glamdring, Foe-hammer // Gleam of Death (HOB) 174
+1 Gnashing of Teeth (HOB) 69
+1 Great Gilded Boat (HOB) 42
+1 Inside Information (HOB) 76
+1 Key to the Side-Door (HOB) 175
+12 Island (HOB) 190
+12 Swamp (HOB) 191

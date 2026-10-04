@@ -1,0 +1,26 @@
+{
+  "name": "Gollum, Silent Slinker // Meager Meal",
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        },
+        "player"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "gainLife": 2,
+          "who": "target2"
+        }
+      ],
+      "text": "Put a +1/+1 counter on up to one target creature. Target player gains 2 life."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Smaug the Magnificent",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "subtype": "Treasure"
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "Whenever Smaug attacks, he deals damage equal to the number of Treasures you control to any target."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a Treasure token."
+    }
+  ]
+}

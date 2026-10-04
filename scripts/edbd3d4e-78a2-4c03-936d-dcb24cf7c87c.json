@@ -1,0 +1,15 @@
+{
+  "name": "Fearsome Goblin Pair",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "amass": 4,
+          "type": "Goblin"
+        }
+      ],
+      "text": "When this creature dies, amass Goblins 4."
+    }
+  ]
+}

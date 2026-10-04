@@ -1,0 +1,37 @@
+{
+  "name": "Key to the Side-Door",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Target creature can't be blocked this turn."
+    },
+    {
+      "cost": "{1}, {T}, discard",
+      "discardFilter": {
+        "supertype": "legendary",
+        "sharesNameWithYourLegendary": true
+      },
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{1}, {T}, Discard a legendary card with the same name as a legendary permanent you control: Draw two cards."
+    }
+  ]
+}

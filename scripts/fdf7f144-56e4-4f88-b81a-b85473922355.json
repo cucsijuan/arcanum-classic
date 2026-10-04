@@ -1,0 +1,17 @@
+{
+  "name": "Snowslope Hunter",
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact|creature",
+      "oncePerTurn": true,
+      "activateIf": "yourTurn",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "Sacrifice another creature or artifact: Exile the top card of your library. You may play it until the end of your next turn. Activate only during your turn and only once each turn."
+    }
+  ]
+}

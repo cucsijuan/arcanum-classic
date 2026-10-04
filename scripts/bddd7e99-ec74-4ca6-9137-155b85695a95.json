@@ -1,0 +1,14 @@
+{
+  "name": "Patient Instructor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "recruit": true
+        }
+      ],
+      "text": "When this creature enters, recruit."
+    }
+  ]
+}

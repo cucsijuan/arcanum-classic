@@ -1,0 +1,56 @@
+{
+  "name": "Elrond, Moon-Reader",
+  "abilities": [
+    {
+      "trigger": "activateAbility",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you activate an ability of a creature, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "cost": "{5}{U}{U}",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "optional": true,
+          "text": "up to two other target nonland permanents you control"
+        },
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "optional": true,
+          "text": "up to two other target nonland permanents you control"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "eachTarget"
+        }
+      ],
+      "text": "{5}{U}{U}: Exile up to two other target nonland permanents you control. Return those cards to the battlefield under their owner's control at the beginning of the next end step."
+    }
+  ]
+}

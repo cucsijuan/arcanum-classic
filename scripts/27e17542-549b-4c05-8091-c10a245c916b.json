@@ -1,0 +1,28 @@
+{
+  "name": "Great Ugly-Looking Goblin // Clap! Snap!",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounters": true
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Each creature you control with a +1/+1 counter on it has menace."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Amass Goblins 2."
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Beorn, Reluctant Host // Till and Tend",
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "additionalLand": true
+        }
+      ],
+      "text": "You may play an additional land this turn."
+    }
+  }
+}

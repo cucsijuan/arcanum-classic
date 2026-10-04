@@ -1,0 +1,15 @@
+{
+  "name": "Gundabad Opportunist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "When this creature enters, exile the top card of your library. Until the end of your next turn, you may play that card."
+    }
+  ]
+}

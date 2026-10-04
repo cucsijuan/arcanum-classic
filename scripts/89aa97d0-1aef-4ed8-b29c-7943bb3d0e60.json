@@ -1,0 +1,19 @@
+{
+  "name": "Nighthowl Pursuer",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "when": "ferocious",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Ferocious — Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

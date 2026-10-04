@@ -1,0 +1,51 @@
+{
+  "name": "Thorin, Mountain-king",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you",
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "anyNumber": true,
+          "optional": true,
+          "text": "any number of target Equipment you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "eachTarget2",
+          "to": "target"
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "targetAttachedTo": "target2",
+              "to": "target"
+            },
+            "about": "target",
+            "targets": [
+              {
+                "kind": "creature",
+                "optional": true,
+                "text": "up to one target creature"
+              }
+            ],
+            "effects": [
+              {
+                "bite": "triggered",
+                "to": "target"
+              }
+            ],
+            "text": "That creature deals damage equal to its power to up to one target creature."
+          }
+        }
+      ],
+      "text": "When Thorin enters, attach any number of target Equipment you control to target creature you control. When one or more Equipment become attached to that creature this way, that creature deals damage equal to its power to up to one target creature."
+    }
+  ]
+}

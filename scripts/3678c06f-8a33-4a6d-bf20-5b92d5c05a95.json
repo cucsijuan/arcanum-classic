@@ -1,0 +1,32 @@
+{
+  "name": "The Lonely Mountain",
+  "entersTappedUnless": {
+    "control": {
+      "subtype": "Equipment"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{4}{R}, {T}",
+      "sorcery": true,
+      "costReductionPer": {
+        "subtype": "Equipment"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dwarf",
+            "types": "Creature — Dwarf",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{4}{R}, {T}: Create a 2/2 red Dwarf creature token. This ability costs {1} less to activate for each Equipment you control. Activate only as a sorcery."
+    }
+  ]
+}

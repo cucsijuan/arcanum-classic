@@ -1,0 +1,19 @@
+{
+  "name": "Thorin Oakenshield",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "grantsWard": "{1}",
+        "while": "enduringStory"
+      },
+      "text": "As long as you have an enduring story, artifacts and creatures you control have ward {1}."
+    }
+  ]
+}

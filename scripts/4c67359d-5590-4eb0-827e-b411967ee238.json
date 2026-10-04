@@ -1,0 +1,27 @@
+{
+  "name": "Uncover the Moon-Letters",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Draw cards equal to the mana spent on that spell, then discard two?",
+          "effects": [
+            {
+              "draw": "manaSpent"
+            },
+            {
+              "discard": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, you may draw X cards, where X is the amount of mana spent to cast that spell. If you do, discard two cards."
+    }
+  ]
+}

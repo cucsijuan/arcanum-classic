@@ -1,0 +1,41 @@
+{
+  "name": "Balin, Loremaster",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dwarf"
+      },
+      "effects": [
+        {
+          "may": "Discard your hand and draw that many cards?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": {
+                "discarded": {}
+              }
+            },
+            {
+              "if": "enduringStory",
+              "then": [
+                {
+                  "damage": {
+                    "discarded": {}
+                  },
+                  "to": "opponents"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Balin or another Dwarf you control enters, you may discard your hand. Draw X cards, where X is the number of cards discarded this way. If you have an enduring story, Balin deals X damage to each opponent."
+    }
+  ]
+}
