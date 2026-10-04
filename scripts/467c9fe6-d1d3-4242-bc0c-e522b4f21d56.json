@@ -1,0 +1,34 @@
+{
+  "name": "Landroval, Horizon Witness",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "attackers": 2
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true,
+            "without": "Flying"
+          },
+          "text": "target attacking creature without flying"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever two or more creatures you control attack a player, target attacking creature without flying gains flying until end of turn."
+    }
+  ]
+}

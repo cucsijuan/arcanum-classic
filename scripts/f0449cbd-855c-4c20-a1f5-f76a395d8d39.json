@@ -1,0 +1,17 @@
+{
+  "name": "Reprieve",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Return target spell to its owner's hand. Draw a card."
+  }
+}

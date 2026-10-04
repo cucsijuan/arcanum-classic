@@ -1,0 +1,32 @@
+{
+  "name": "Cavern-Hoard Dragon",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": {
+      "greatestAmongOpponents": {
+        "types": [
+          "artifact"
+        ]
+      }
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "controlledBy": "triggeredPlayer"
+          },
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you create a Treasure token for each artifact that player controls."
+    }
+  ]
+}

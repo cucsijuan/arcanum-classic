@@ -1,0 +1,42 @@
+{
+  "name": "Necklace of Girion",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "G"
+        ]
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you cast a green spell, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Forest"
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever a Forest you control enters, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

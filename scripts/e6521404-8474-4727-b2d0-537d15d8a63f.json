@@ -1,0 +1,76 @@
+{
+  "name": "Andúril, Flame of the West",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +3/+1."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true,
+        "notSupertype": "legendary"
+      },
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever equipped creature attacks, create two tapped 1/1 white Spirit creature tokens with flying."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true,
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          },
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever equipped legendary creature attacks, create two 1/1 white Spirit creature tokens with flying that are tapped and attacking."
+    }
+  ]
+}

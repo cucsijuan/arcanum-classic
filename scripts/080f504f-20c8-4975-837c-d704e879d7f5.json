@@ -1,0 +1,35 @@
+{
+  "name": "Great Goblin, Foul-Hearted",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "amass": 3,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Whenever Great Goblin enters or attacks, amass Goblins 3."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "amass": 3,
+          "type": "Goblin"
+        }
+      ],
+      "text": "Whenever Great Goblin enters or attacks, amass Goblins 3."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Army",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Armies you control have trample."
+    }
+  ]
+}

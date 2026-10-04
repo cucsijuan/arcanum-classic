@@ -1,0 +1,29 @@
+{
+  "name": "Pelargir Survivor",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{5}{U}, {T}",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{5}{U}, {T}: Target player mills three cards."
+    }
+  ]
+}

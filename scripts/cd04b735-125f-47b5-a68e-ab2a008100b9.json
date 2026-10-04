@@ -1,0 +1,22 @@
+{
+  "name": "Colossal Whale",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "controlledByTriggeredPlayer": true,
+          "text": "target creature defending player controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, you may exile target creature defending player controls until this creature leaves the battlefield."
+    }
+  ]
+}

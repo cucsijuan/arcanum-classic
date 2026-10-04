@@ -1,0 +1,23 @@
+{
+  "name": "The Shire",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}, tapcreatures:1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "{1}{G}, {T}, Tap an untapped creature you control: Create a Food token."
+    }
+  ]
+}

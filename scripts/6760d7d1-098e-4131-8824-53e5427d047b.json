@@ -1,0 +1,49 @@
+{
+  "name": "Gandalf, Shadow's Foe",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "you",
+          "optional": true,
+          "text": "up to three target lands you control"
+        },
+        {
+          "kind": "land",
+          "controller": "you",
+          "optional": true,
+          "text": "up to three target lands you control"
+        },
+        {
+          "kind": "land",
+          "controller": "you",
+          "optional": true,
+          "text": "up to three target lands you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "eachTarget",
+          "tapped": true
+        }
+      ],
+      "text": "When Gandalf enters, exile up to three target lands you control, then return them to the battlefield tapped under their owner's control."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, draw a card and put a +1/+1 counter on Gandalf."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Raise the Palisade",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "bounceAll": {
+          "types": [
+            "creature"
+          ],
+          "controller": "any",
+          "notChosenType": true
+        }
+      }
+    ],
+    "text": "Choose a creature type. Return all creatures that aren't of the chosen type to their owners' hands."
+  }
+}

@@ -29,6 +29,7 @@ ENGINE_KEYWORDS = {
     "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
     "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance", "crew", "protection", "vivid",
     "storied", "amass", "recruit", "gift", "behold",
+    "ascend", "cascade", "shadow", "landwalk", "islandwalk", "swampwalk", "forestwalk", "mountainwalk", "plainswalk",
 }
 ABILITY_WORD = re.compile(r"^(Raid|Landfall|Morbid|Threshold|Ferocious|Formidable|Alliance) — ")
 # Lines the engine derives from card data on its own.

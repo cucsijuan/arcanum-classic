@@ -1,0 +1,30 @@
+{
+  "name": "Stern Scolding",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "anyOf": [
+            {
+              "maxPower": 2
+            },
+            {
+              "maxToughness": 2
+            }
+          ]
+        },
+        "text": "target creature spell with power or toughness 2 or less"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target creature spell with power or toughness 2 or less."
+  }
+}

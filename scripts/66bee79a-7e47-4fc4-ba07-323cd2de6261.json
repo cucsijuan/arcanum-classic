@@ -1,0 +1,18 @@
+{
+  "name": "Fog on the Barrow-Downs",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setSubtypes": [
+          "Spirit"
+        ],
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ]
+      },
+      "text": "Enchanted creature is a Spirit and can't attack or block."
+    }
+  ]
+}

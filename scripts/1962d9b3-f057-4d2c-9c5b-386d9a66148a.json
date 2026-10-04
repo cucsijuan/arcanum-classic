@@ -1,0 +1,43 @@
+{
+  "name": "Goblin Cratermaker",
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "text": "{1}, Sacrifice this creature: Choose one —",
+      "modes": [
+        {
+          "text": "This creature deals 2 damage to target creature.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "damage": 2,
+              "to": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target colorless nonland permanent.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "colorless": true,
+                "not": [
+                  "land"
+                ]
+              },
+              "text": "target colorless nonland permanent"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

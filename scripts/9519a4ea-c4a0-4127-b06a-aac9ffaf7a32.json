@@ -1,0 +1,50 @@
+{
+  "name": "Arwen, Mortal Queen",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "indestructible",
+  "abilities": [
+    {
+      "cost": "{1}, removeCounters:1:indestructible",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "lifelink"
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "lifelink"
+        }
+      ],
+      "text": "{1}, Remove an indestructible counter from Arwen: Another target creature gains indestructible until end of turn. Put a +1/+1 counter and a lifelink counter on that creature and a +1/+1 counter and a lifelink counter on Arwen."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Dúnedain Blade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    },
+    {
+      "cost": "{1}",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Human"
+          },
+          "text": "target Human you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip Human {1}"
+    }
+  ]
+}

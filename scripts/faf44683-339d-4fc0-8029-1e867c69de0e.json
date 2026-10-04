@@ -1,0 +1,53 @@
+{
+  "name": "Galadriel, Light of Valinor",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      },
+      "modesOncePerTurn": true,
+      "text": "Alliance — Whenever another creature you control enters, choose one that hasn't been chosen this turn —",
+      "modes": [
+        {
+          "text": "Add {G}{G}{G}.",
+          "effects": [
+            {
+              "addMana": "{G}{G}{G}"
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on each creature you control.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "text": "Scry 2, then draw a card.",
+          "effects": [
+            {
+              "scry": 2
+            },
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

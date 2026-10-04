@@ -1,0 +1,51 @@
+{
+  "name": "Flame of Anor",
+  "spell": {
+    "extraModeIf": {
+      "control": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Wizard"
+      }
+    },
+    "text": "Choose one. If you control a Wizard as you cast this spell, you may choose two instead.",
+    "modes": [
+      {
+        "text": "Target player draws two cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Flame of Anor deals 5 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

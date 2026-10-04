@@ -1,0 +1,56 @@
+{
+  "name": "Sauron, the Dark Lord",
+  "wardCost": {
+    "sacrifice": {
+      "types": [
+        "artifact",
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, amass Orcs 1."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Army"
+      },
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "Whenever an Army you control deals combat damage to a player, the Ring tempts you."
+    },
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "may": "Discard your hand and draw four cards?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": 4
+            }
+          ]
+        }
+      ],
+      "text": "Whenever the Ring tempts you, you may discard your hand. If you do, draw four cards."
+    }
+  ]
+}

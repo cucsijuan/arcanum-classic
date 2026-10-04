@@ -1,0 +1,33 @@
+{
+  "name": "Mithril Coat",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "When Mithril Coat enters, attach it to target legendary creature you control."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Equipped creature has indestructible."
+    }
+  ]
+}

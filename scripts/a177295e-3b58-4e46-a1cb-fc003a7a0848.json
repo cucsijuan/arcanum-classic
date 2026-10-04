@@ -1,0 +1,17 @@
+{
+  "name": "The Gaffer",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "gainedLife": 3
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained 3 or more life this turn, draw a card."
+    }
+  ]
+}

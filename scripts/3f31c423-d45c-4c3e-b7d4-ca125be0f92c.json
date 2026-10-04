@@ -1,0 +1,81 @@
+{
+  "name": "Aragorn, the Uniter",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "W"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever you cast a white spell, create a 1/1 white Human Soldier creature token."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "U"
+        ]
+      },
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "Whenever you cast a blue spell, scry 2."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "R"
+        ]
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a red spell, Aragorn deals 3 damage to target opponent."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "G"
+        ]
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you cast a green spell, target creature gets +4/+4 until end of turn."
+    }
+  ]
+}

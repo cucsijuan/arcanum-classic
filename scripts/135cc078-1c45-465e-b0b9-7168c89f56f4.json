@@ -1,0 +1,19 @@
+{
+  "name": "Lotho, Corrupt Shirriff",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever a player casts their second spell each turn, you lose 1 life and create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Improvised Club",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "artifact",
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ],
+    "text": "Improvised Club deals 4 damage to any target."
+  }
+}

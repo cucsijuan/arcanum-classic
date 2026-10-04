@@ -1,0 +1,38 @@
+{
+  "name": "Orcish Siegemaster",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Orc"
+            },
+            {
+              "subtype": "Goblin"
+            }
+          ]
+        },
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Other Orcs and Goblins you control have trample."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            "greatestPower",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the greatest power among creatures you control."
+    }
+  ]
+}

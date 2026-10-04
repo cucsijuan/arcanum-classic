@@ -1,0 +1,20 @@
+{
+  "name": "Minas Morgul, Dark Fortress",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{3}{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "shadow"
+        }
+      ],
+      "text": "{3}{B}, {T}: Put a shadow counter on target creature. For as long as that creature has a shadow counter on it, it's a Wraith in addition to its other types."
+    }
+  ]
+}

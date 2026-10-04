@@ -1,0 +1,47 @@
+{
+  "name": "Glamdring",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "First strike"
+        ],
+        "pump": [
+          {
+            "graveyard": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            }
+          },
+          0
+        ]
+      },
+      "text": "Equipped creature has first strike and gets +1/+0 for each instant and sorcery card in your graveyard."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "castFromHandFree": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "maxManaValue": "triggerAmount"
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, you may cast an instant or sorcery spell from your hand with mana value less than or equal to that damage without paying its mana cost."
+    }
+  ]
+}

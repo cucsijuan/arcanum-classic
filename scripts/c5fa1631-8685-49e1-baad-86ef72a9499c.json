@@ -1,0 +1,33 @@
+{
+  "name": "Goblin Fireleaper",
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +1/+0 until end of turn."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "When this creature dies, it deals damage equal to its power to target creature an opponent controls."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Aragorn and Arwen, Wed",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        },
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever Aragorn and Arwen enters or attacks, put a +1/+1 counter on each other creature you control. You gain 1 life for each other creature you control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        },
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever Aragorn and Arwen enters or attacks, put a +1/+1 counter on each other creature you control. You gain 1 life for each other creature you control."
+    }
+  ]
+}

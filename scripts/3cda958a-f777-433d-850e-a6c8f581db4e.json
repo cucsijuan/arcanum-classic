@@ -1,0 +1,32 @@
+{
+  "name": "Flowering of the White Tree",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "supertype": "legendary"
+        },
+        "pump": [
+          2,
+          1
+        ],
+        "grantsWard": "{1}"
+      },
+      "text": "Legendary creatures you control get +2/+1 and have ward {1}."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "notSupertype": "legendary"
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Nonlegendary creatures you control get +1/+1."
+    }
+  ]
+}

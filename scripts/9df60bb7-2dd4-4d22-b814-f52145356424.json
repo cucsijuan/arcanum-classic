@@ -1,0 +1,30 @@
+{
+  "name": "Gríma, Saruman's Footman",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Gríma can't be blocked."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "revealUntil": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "from": "triggeredPlayer",
+          "castFree": true
+        }
+      ],
+      "text": "Whenever Gríma deals combat damage to a player, that player exiles cards from the top of their library until they exile an instant or sorcery card. You may cast that card without paying its mana cost. Then that player puts the exiled cards that weren't cast this way on the bottom of their library in a random order."
+    }
+  ]
+}

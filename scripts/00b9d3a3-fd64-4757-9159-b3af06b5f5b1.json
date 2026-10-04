@@ -1,0 +1,55 @@
+{
+  "name": "Sauron, the Lidless Eye",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "untilEndOfTurn": true
+        },
+        {
+          "untap": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When Sauron enters, gain control of target creature an opponent controls until end of turn. Untap it. It gains haste until end of turn."
+    },
+    {
+      "cost": "{1}{B}{R}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "{1}{B}{R}: Creatures you control get +2/+0 until end of turn. Each opponent loses 2 life."
+    }
+  ]
+}

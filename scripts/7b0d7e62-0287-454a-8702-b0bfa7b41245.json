@@ -1,0 +1,25 @@
+{
+  "name": "Minas Tirith",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "activateIf": {
+        "attackedWith": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{W}, {T}: Draw a card. Activate only if you attacked with two or more creatures this turn."
+    }
+  ]
+}

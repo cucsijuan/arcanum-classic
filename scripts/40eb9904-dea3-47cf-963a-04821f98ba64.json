@@ -1,0 +1,31 @@
+{
+  "name": "The Black Gate",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 3,
+  "abilities": [
+    {
+      "cost": "{1}{B}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "if": "opponentHasMostLife",
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Can't be blocked"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}{B}, {T}: Choose a player with the most life or tied for most life. Target creature can't be blocked by creatures that player controls this turn."
+    }
+  ]
+}

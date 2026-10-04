@@ -1,0 +1,33 @@
+{
+  "name": "Chief of the Wilds",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Wolf",
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Wolf you control enters, put two +1/+1 counters on Chief of the Wilds."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "other": true,
+        "filter": {
+          "subtype": "Wolf"
+        },
+        "extraTriggers": true
+      },
+      "text": "If a triggered ability of another Wolf or battle you control triggers, that ability triggers an additional time."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ori, Plate Stacker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ],
+              "controller": "opponent"
+            }
+          }
+        },
+        {
+          "gainLife": "destroyedThisWay"
+        }
+      ],
+      "text": "When Ori enters, destroy all artifacts and enchantments your opponents control. You gain 1 life for each permanent destroyed this way."
+    }
+  ]
+}

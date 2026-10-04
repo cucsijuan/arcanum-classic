@@ -1,0 +1,42 @@
+{
+  "name": "The One Ring",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "playerProtection": true
+        }
+      ],
+      "text": "When The One Ring enters, if you cast it, you gain protection from everything until your next turn."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": {
+            "counters": "burden"
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 1 life for each burden counter on The One Ring."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "burden",
+          "what": "self"
+        },
+        {
+          "draw": {
+            "counters": "burden"
+          }
+        }
+      ],
+      "text": "{T}: Put a burden counter on The One Ring, then draw a card for each burden counter on The One Ring."
+    }
+  ]
+}

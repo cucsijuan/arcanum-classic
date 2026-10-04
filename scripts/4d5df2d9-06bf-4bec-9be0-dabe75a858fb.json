@@ -1,0 +1,15 @@
+{
+  "name": "Elven Chorus",
+  "replaces": [
+    "CastCreaturesFromLibraryTop"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "grantsMana": "any"
+      },
+      "text": "Creatures you control have \"{T}: Add one mana of any color.\""
+    }
+  ]
+}

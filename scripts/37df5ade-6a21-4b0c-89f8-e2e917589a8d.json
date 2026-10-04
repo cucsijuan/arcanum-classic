@@ -1,0 +1,50 @@
+{
+  "name": "Dawn of a New Age",
+  "entersWithCounters": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "entersWithCounterKind": "hope",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "if": {
+            "counters": 1,
+            "kind": "hope"
+          },
+          "then": [
+            {
+              "removeCounters": 1,
+              "kind": "hope"
+            },
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "if": {
+            "not": {
+              "counters": 1,
+              "kind": "hope"
+            }
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "gainLife": 4
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, remove a hope counter from this enchantment. If you do, draw a card. Then if this enchantment has no hope counters on it, sacrifice it and you gain 4 life."
+    }
+  ]
+}

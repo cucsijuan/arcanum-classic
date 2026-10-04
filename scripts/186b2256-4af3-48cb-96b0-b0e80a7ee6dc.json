@@ -1,0 +1,31 @@
+{
+  "name": "Oliphaunt",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target creature you control gets +2/+0 and gains trample until end of turn."
+    }
+  ]
+}

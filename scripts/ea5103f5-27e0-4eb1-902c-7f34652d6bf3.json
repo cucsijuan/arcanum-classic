@@ -1,0 +1,40 @@
+{
+  "name": "Orcish Bowmasters",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        },
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "When this creature enters, this creature deals 1 damage to any target. Then amass Orcs 1."
+    },
+    {
+      "trigger": "opponentDraws",
+      "exceptFirstInDrawStep": true,
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        },
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever an opponent draws a card except the first one they draw in each of their draw steps, this creature deals 1 damage to any target. Then amass Orcs 1."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bilbo, Unexpected Adventurer",
+  "cantBeBlockedBy": {
+    "minPower": 3
+  },
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "up to one target nonland permanent card with mana value 3 or less from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "ownerControl": true
+        }
+      ],
+      "text": "Whenever Bilbo deals combat damage to a player or battle, put up to one target nonland permanent card with mana value 3 or less from a graveyard onto the battlefield under its owner's control."
+    }
+  ]
+}

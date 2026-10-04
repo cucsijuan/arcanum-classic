@@ -1,0 +1,21 @@
+{
+  "name": "Bag End Banquet",
+  "tapForMana": "{C}",
+  "manaAmountFrom": {
+    "count": {
+      "subtype": "Food"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": "Food"
+        }
+      ],
+      "text": "When this artifact enters, create three Food tokens."
+    }
+  ]
+}

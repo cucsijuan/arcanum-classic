@@ -1,0 +1,32 @@
+{
+  "name": "Thranduil the Strategist",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "grantsMana": "{G}{U}"
+      },
+      "text": "Other Elves you control have \"{T}: Add {G} or {U}.\""
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf",
+            "types": "Creature — Elf",
+            "colors": [
+              "G"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 green Elf creature token."
+    }
+  ]
+}

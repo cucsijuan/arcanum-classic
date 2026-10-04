@@ -1,0 +1,19 @@
+{
+  "name": "Dragon's Desire",
+  "spell": {
+    "effects": [
+      {
+        "addMana": "{R}",
+        "times": {
+          "count": {
+            "types": [
+              "artifact"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Add {R} for each artifact your opponents control."
+  }
+}

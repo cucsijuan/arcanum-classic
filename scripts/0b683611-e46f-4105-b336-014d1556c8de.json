@@ -1,0 +1,32 @@
+{
+  "name": "Haunt of the Dead Marshes",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this creature enters, scry 1."
+    },
+    {
+      "cost": "{2}{B}, fromGraveyard",
+      "activateIf": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary"
+        }
+      },
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{2}{B}: Return this card from your graveyard to the battlefield tapped. Activate only if you control a legendary creature."
+    }
+  ]
+}

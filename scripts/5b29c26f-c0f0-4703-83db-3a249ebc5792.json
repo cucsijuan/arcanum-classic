@@ -1,0 +1,53 @@
+{
+  "name": "Mirkwood Elk",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf"
+          },
+          "text": "target Elf card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "gainLife": {
+            "power": "target"
+          }
+        },
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, return target Elf card from your graveyard to your hand. You gain life equal to that card's power."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf"
+          },
+          "text": "target Elf card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "gainLife": {
+            "power": "target"
+          }
+        },
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, return target Elf card from your graveyard to your hand. You gain life equal to that card's power."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Smaug the Impenetrable",
+  "abilities": [
+    {
+      "trigger": "dealtNoncombatDamage",
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever Smaug is dealt noncombat damage, create that many Treasure tokens."
+    }
+  ]
+}

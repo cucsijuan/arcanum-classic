@@ -1,0 +1,23 @@
+{
+  "name": "Relic of Sauron",
+  "extraMana": [
+    {
+      "types": "{U}{B}{R}",
+      "amount": 2
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{3}, {T}: Draw two cards, then discard a card."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Lórien Revealed",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ],
+    "text": "Draw three cards."
+  }
+}

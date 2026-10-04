@@ -1,0 +1,22 @@
+{
+  "name": "Nimrodel Watcher",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever you scry, this creature gets +1/+0 until end of turn and can't be blocked this turn. This ability triggers only once each turn."
+    }
+  ]
+}

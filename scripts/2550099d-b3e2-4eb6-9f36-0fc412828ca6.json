@@ -1,0 +1,30 @@
+{
+  "name": "Rivendell",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{1}{U}, {T}",
+      "activateIf": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary"
+        }
+      },
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{1}{U}, {T}: Scry 2. Activate only if you control a legendary creature."
+    }
+  ]
+}

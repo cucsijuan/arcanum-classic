@@ -1,0 +1,60 @@
+{
+  "name": "Inferno Titan",
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    },
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        "any",
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 3
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, it deals 3 damage divided as you choose among one, two, or three targets."
+    },
+    {
+      "trigger": "attacks",
+      "targetRule": "allDifferent",
+      "targets": [
+        "any",
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 3
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, it deals 3 damage divided as you choose among one, two, or three targets."
+    }
+  ]
+}

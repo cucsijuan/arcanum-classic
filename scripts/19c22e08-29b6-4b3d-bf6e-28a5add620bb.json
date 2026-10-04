@@ -1,0 +1,24 @@
+{
+  "name": "Bitter Downfall",
+  "costReduction": {
+    "amount": 3,
+    "ifTargets": {
+      "damagedThisTurn": true
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "loseLife": 2,
+        "who": "targetController"
+      }
+    ],
+    "text": "Destroy target creature. Its controller loses 2 life."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Battle-Scarred Goblin",
+  "abilities": [
+    {
+      "trigger": "becomesBlocked",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "blockingSource": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature becomes blocked, it deals 1 damage to each creature blocking it."
+    }
+  ]
+}

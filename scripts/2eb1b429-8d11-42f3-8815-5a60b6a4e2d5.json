@@ -1,0 +1,44 @@
+{
+  "name": "Witch-king of Angmar",
+  "abilities": [
+    {
+      "trigger": "combatDamageToYou",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "dealtCombatDamageToYou": true
+          }
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "Whenever one or more creatures deal combat damage to you, each opponent sacrifices a creature of their choice that dealt combat damage to you this turn. The Ring tempts you."
+    },
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "Discard a card: Witch-king of Angmar gains indestructible until end of turn. Tap him."
+    }
+  ]
+}

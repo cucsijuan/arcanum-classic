@@ -1,0 +1,58 @@
+{
+  "name": "Saruman of Many Colors",
+  "wardCost": {
+    "discard": 1,
+    "discardFilter": {
+      "types": [
+        "enchantment",
+        "instant",
+        "sorcery"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "mill": 2,
+          "who": "opponents"
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": {
+                "milled": {}
+              },
+              "value": 1
+            },
+            "amount": "triggerAmount",
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "opponent",
+                "filter": {
+                  "types": [
+                    "enchantment",
+                    "instant",
+                    "sorcery"
+                  ],
+                  "maxManaValueTriggerAmount": true
+                },
+                "text": "target enchantment, instant, or sorcery card with equal or lesser mana value from an opponent's graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "castCopy": "target"
+              }
+            ],
+            "text": "Exile target enchantment, instant, or sorcery card with equal or lesser mana value than that spell from an opponent's graveyard. Copy the exiled card. You may cast the copy without paying its mana cost."
+          }
+        }
+      ],
+      "text": "Whenever you cast your second spell each turn, each opponent mills two cards."
+    }
+  ]
+}

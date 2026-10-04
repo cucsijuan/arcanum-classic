@@ -1,0 +1,28 @@
+{
+  "name": "Eagles of the North",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "When this creature enters, creatures you control get +1/+0 and gain first strike until end of turn."
+    }
+  ]
+}

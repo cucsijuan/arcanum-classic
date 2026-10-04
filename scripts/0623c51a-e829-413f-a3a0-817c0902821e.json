@@ -1,0 +1,20 @@
+{
+  "name": "Call Forth the Tempest",
+  "cascade": 2,
+  "spell": {
+    "effects": [
+      {
+        "damage": "otherSpellsManaValue",
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Call Forth the Tempest deals damage to each creature your opponents control equal to the total mana value of other spells you've cast this turn."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Long-Lost Lances",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +2/+0."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "equipped": true
+        },
+        "keywords": [
+          "First strike",
+          "Vigilance"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, creatures you control that are equipped have first strike and vigilance."
+    }
+  ]
+}

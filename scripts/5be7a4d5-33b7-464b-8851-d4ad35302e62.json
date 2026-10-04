@@ -1,0 +1,29 @@
+{
+  "name": "Dragon-Cursed Halls",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayer",
+              "effects": [
+                {
+                  "tokens": 1,
+                  "token": "Treasure"
+                }
+              ],
+              "text": "Whenever this creature deals combat damage to a player, create a Treasure token."
+            }
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Until end of turn, target creature gains \"Whenever this creature deals combat damage to a player, create a Treasure token.\""
+    }
+  ]
+}

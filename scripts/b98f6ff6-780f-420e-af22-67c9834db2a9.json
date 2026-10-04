@@ -1,0 +1,21 @@
+{
+  "name": "Bilbo's Burglaring",
+  "spell": {
+    "targetRule": "differentControllers",
+    "targets": [
+      {
+        "kind": "artifact",
+        "controller": "opponent",
+        "optional": true,
+        "anyNumber": true,
+        "text": "up to one target artifact each opponent controls"
+      }
+    ],
+    "effects": [
+      {
+        "gainControl": "eachTarget"
+      }
+    ],
+    "text": "For each opponent, gain control of up to one target artifact that player controls."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Dáin of the Ancient Halls",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Dwarf"
+            }
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever Dáin attacks, he deals damage equal to the number of Dwarves you control to each opponent."
+    }
+  ]
+}

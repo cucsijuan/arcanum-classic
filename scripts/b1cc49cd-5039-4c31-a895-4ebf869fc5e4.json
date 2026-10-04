@@ -1,0 +1,23 @@
+{
+  "name": "Minas Tirith Garrison",
+  "powerFrom": "handSize",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tapAnyNumber": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Human"
+          }
+        },
+        {
+          "draw": "tapped"
+        }
+      ],
+      "text": "Whenever this creature attacks, you may tap any number of untapped Humans you control. Draw a card for each Human tapped this way."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Thorin, King of Durin's Folk",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dwarf"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever Thorin or another Dwarf you control enters, create a Treasure token."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Dwarf",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "token": true
+            }
+          },
+          0
+        ]
+      },
+      "text": "Other Dwarves you control get +1/+0 for each artifact token you control."
+    }
+  ]
+}

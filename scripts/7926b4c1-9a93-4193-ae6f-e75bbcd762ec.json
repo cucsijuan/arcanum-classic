@@ -1,0 +1,44 @@
+{
+  "name": "Thorin, Company's Leader",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dwarf"
+      },
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever a Dwarf you control deals combat damage to a player or battle, create two Treasure tokens."
+    },
+    {
+      "cost": "{10}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "{10}: Creatures you control gain double strike until end of turn."
+    }
+  ]
+}

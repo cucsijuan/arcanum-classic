@@ -1,0 +1,49 @@
+{
+  "name": "Mount Doom",
+  "abilities": [
+    {
+      "cost": "{T}, life:1",
+      "effects": [
+        {
+          "addMana": "{B}"
+        }
+      ],
+      "text": "{T}, Pay 1 life: Add {B}."
+    },
+    {
+      "cost": "{T}, life:1",
+      "effects": [
+        {
+          "addMana": "{R}"
+        }
+      ],
+      "text": "{T}, Pay 1 life: Add {R}."
+    },
+    {
+      "cost": "{1}{B}{R}, {T}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "{1}{B}{R}, {T}: Mount Doom deals 1 damage to each opponent."
+    },
+    {
+      "cost": "{5}{B}{R}, {T}, sacrifice, sacrifice:legendary artifact",
+      "sorcery": true,
+      "effects": [
+        {
+          "destroyAllBut": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "keep": 2
+        }
+      ],
+      "text": "{5}{B}{R}, {T}, Sacrifice Mount Doom and a legendary artifact: Choose up to two creatures, then destroy the rest. Activate only as a sorcery."
+    }
+  ]
+}

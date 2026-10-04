@@ -1,0 +1,32 @@
+{
+  "name": "Galadriel's Dismissal",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "phaseOut": "target"
+      }
+    ],
+    "whenKicked": {
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "phaseOut": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            },
+            "controlledBy": "target"
+          }
+        }
+      ]
+    },
+    "text": "Target creature phases out. If this spell was kicked, each creature target player controls phases out instead."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Witch-king, Bringer of Ruin",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "triggeredPlayer",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "leastPower": true
+          }
+        }
+      ],
+      "text": "Whenever Witch-king attacks, defending player sacrifices a creature with the least power among creatures they control."
+    }
+  ]
+}

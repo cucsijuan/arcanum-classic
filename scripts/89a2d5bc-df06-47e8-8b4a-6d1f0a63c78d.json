@@ -1,0 +1,37 @@
+{
+  "name": "Tom Bombadil",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ],
+        "while": {
+          "atLeast": {
+            "countersAmong": {
+              "subtype": "Saga"
+            },
+            "kind": "lore"
+          },
+          "value": 4
+        }
+      },
+      "text": "As long as there are four or more lore counters among Sagas you control, Tom Bombadil has hexproof and indestructible."
+    },
+    {
+      "trigger": "finalChapterResolved",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "revealUntil": {
+            "subtype": "Saga"
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "Whenever the final chapter ability of a Saga you control resolves, reveal cards from the top of your library until you reveal a Saga card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. This ability triggers only once each turn."
+    }
+  ]
+}

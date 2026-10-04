@@ -1,0 +1,36 @@
+{
+  "name": "Celeborn the Wise",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "subtype": "Elf",
+          "attacking": true
+        }
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever you attack with one or more Elves, scry 1."
+    },
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "pump": [
+            "triggerAmount",
+            "triggerAmount"
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you scry, Celeborn gets +1/+1 until end of turn for each card looked at while scrying this way."
+    }
+  ]
+}

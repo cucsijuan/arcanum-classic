@@ -1,0 +1,28 @@
+{
+  "name": "Smite the Deathless",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "loseKeywords": [
+          "Indestructible"
+        ]
+      },
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ],
+    "text": "Smite the Deathless deals 3 damage to target creature. That creature loses indestructible until end of turn. If that creature would die this turn, exile it instead."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Fire of Orthanc",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "land"
+          ]
+        },
+        "text": "target artifact or land"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "without": "Flying"
+          }
+        },
+        "keywords": [
+          "Can't block"
+        ]
+      }
+    ],
+    "text": "Destroy target artifact or land. Creatures without flying can't block this turn."
+  }
+}

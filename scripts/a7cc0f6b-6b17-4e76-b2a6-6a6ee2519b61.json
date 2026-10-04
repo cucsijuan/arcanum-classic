@@ -1,0 +1,59 @@
+{
+  "name": "Bilbo's Ring",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Hexproof",
+          "Can't be blocked"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, equipped creature has hexproof and can't be blocked."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "when": {
+        "attackersExactly": 1
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever equipped creature attacks alone, you draw a card and you lose 1 life."
+    },
+    {
+      "cost": "{1}",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Halfling"
+          },
+          "text": "target Halfling you control"
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip Halfling {1}"
+    }
+  ]
+}
