@@ -1,0 +1,28 @@
+{
+  "name": "Forge Anew",
+  "replaces": [
+    "EquipAtInstantSpeedOnYourTurn"
+  ],
+  "freeFirstEquipIf": "yourTurn",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this enchantment enters, return target Equipment card from your graveyard to the battlefield.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "text": "target Equipment card from your graveyard"
+        }
+      ]
+    }
+  ]
+}

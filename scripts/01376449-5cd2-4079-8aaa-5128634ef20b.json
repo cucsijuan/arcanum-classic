@@ -1,0 +1,22 @@
+{
+  "name": "Long List of the Ents",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "noteCreatureType": true
+        }
+      ],
+      "text": "I, II, III, IV, V, VI — Note a creature type that hasn't been noted for this Saga. When you next cast a creature spell of that type this turn, that creature enters with an additional +1/+1 counter on it.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    }
+  ]
+}

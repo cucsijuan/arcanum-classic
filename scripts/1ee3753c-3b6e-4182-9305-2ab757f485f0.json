@@ -1,6 +1,5 @@
 {
   "name": "Éowyn, Lady of Rohan",
-  "equipDiscount": 1,
   "abilities": [
     {
       "trigger": "beginCombat",
@@ -67,6 +66,13 @@
       "targets": [
         "creature"
       ]
+    },
+    {
+      "abilityCost": {
+        "amount": 1,
+        "equipOnly": true
+      },
+      "text": "Equip abilities you activate cost {1} less to activate."
     }
   ]
 }

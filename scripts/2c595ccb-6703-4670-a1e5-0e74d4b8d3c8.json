@@ -1,0 +1,36 @@
+{
+  "name": "Elvish Mariner",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, scry 1."
+    },
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "tap": "eachTarget"
+        }
+      ],
+      "text": "Whenever you scry, tap up to X target nonland permanents, where X is the number of cards looked at while scrying this way.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "upTo": "triggerAmount",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to X target nonland permanents"
+        }
+      ]
+    }
+  ]
+}

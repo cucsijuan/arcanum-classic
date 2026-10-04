@@ -1,0 +1,54 @@
+{
+  "name": "Goldberry, River-Daughter",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent you control"
+        }
+      ],
+      "effects": [
+        {
+          "moveCounterOfEachMissingKind": {
+            "from": "target",
+            "to": "self"
+          }
+        }
+      ],
+      "text": "{T}: Move a counter of each kind not on Goldberry from another target permanent you control onto Goldberry."
+    },
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent you control"
+        }
+      ],
+      "effects": [
+        {
+          "moveCounters": {
+            "from": "self",
+            "to": "target"
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "{U}, {T}: Move one or more counters from Goldberry onto another target permanent you control. If you do, draw a card."
+    }
+  ]
+}

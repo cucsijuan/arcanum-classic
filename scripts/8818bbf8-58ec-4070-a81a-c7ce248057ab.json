@@ -1,0 +1,24 @@
+{
+  "name": "Hew the Entwood",
+  "spell": {
+    "effects": [
+      {
+        "sacrificeAnyNumber": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      {
+        "revealTopPutAny": "sacrificedThisWay",
+        "filter": {
+          "types": [
+            "artifact",
+            "land"
+          ]
+        }
+      }
+    ],
+    "text": "Sacrifice any number of lands. Reveal the top X cards of your library, where X is the number of lands sacrificed this way. Choose any number of artifact and/or land cards revealed this way. Put all nonland cards chosen this way onto the battlefield, then put all land cards chosen this way onto the battlefield tapped, then put the rest on the bottom of your library in a random order."
+  }
+}

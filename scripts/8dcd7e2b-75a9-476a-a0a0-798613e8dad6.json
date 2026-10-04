@@ -1,0 +1,48 @@
+{
+  "name": "Sauron, the Necromancer",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "copy": "target",
+          "setPower": 3,
+          "setToughness": 3,
+          "setColors": [
+            "B"
+          ],
+          "setSubtypes": [
+            "Wraith"
+          ],
+          "addKeywords": [
+            "Menace"
+          ],
+          "tapped": true,
+          "attacking": true,
+          "atNextEndStep": [
+            {
+              "exile": "triggered"
+            }
+          ],
+          "atNextEndStepUnless": "ringBearer"
+        }
+      ],
+      "text": "Whenever Sauron attacks, exile target creature card from your graveyard. Create a tapped and attacking token that's a copy of that card, except it's a 3/3 black Wraith with menace. At the beginning of the next end step, exile that token unless Sauron is your Ring-bearer.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ]
+    }
+  ]
+}

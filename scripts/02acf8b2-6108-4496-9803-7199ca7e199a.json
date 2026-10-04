@@ -1,0 +1,25 @@
+{
+  "name": "Ent-Draught Basin",
+  "abilities": [
+    {
+      "cost": "{X}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "powerIsX": true
+          },
+          "text": "target creature with power X"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{X}, {T}: Put a +1/+1 counter on target creature with power X. Activate only as a sorcery."
+    }
+  ]
+}

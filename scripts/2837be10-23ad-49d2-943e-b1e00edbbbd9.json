@@ -1,0 +1,24 @@
+{
+  "name": "Sam, Loyal Attendant",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a Food token."
+    },
+    {
+      "abilityCost": {
+        "sources": {
+          "subtype": "Food"
+        },
+        "amount": 1
+      },
+      "text": "Activated abilities of Foods you control cost {1} less to activate."
+    }
+  ]
+}

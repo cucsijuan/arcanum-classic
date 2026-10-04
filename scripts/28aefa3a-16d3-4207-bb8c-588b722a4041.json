@@ -1,0 +1,43 @@
+{
+  "name": "Elrond, Master of Healing",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "eachTarget"
+        }
+      ],
+      "text": "Whenever you scry, put a +1/+1 counter on each of up to X target creatures, where X is the number of cards looked at while scrying this way.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "upTo": "triggerAmount",
+          "text": "up to X target creatures"
+        }
+      ]
+    },
+    {
+      "trigger": "permanentBecomesTarget",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control with a +1/+1 counter on it becomes the target of a spell or ability an opponent controls, you may draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "hasCounters": true
+      }
+    }
+  ]
+}

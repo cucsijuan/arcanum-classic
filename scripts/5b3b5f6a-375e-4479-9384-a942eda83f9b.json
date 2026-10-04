@@ -1,0 +1,27 @@
+{
+  "name": "Gandalf the White",
+  "replaces": [
+    "ExtraTriggersFromLegendariesAndArtifactsMoving"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "supertype": "legendary"
+            },
+            {
+              "types": [
+                "artifact"
+              ]
+            }
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "You may cast legendary spells and artifact spells as though they had flash."
+    }
+  ]
+}

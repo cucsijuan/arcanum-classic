@@ -1,0 +1,51 @@
+{
+  "name": "Shelob, Child of Ungoliant",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Spider",
+        "keywords": [
+          "Deathtouch"
+        ],
+        "grantsWard": "{2}"
+      },
+      "text": "Other Spiders you control have deathtouch and ward {2}."
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "copy": "triggered",
+          "setTypes": [
+            "artifact"
+          ],
+          "setSubtypes": [
+            "Food"
+          ],
+          "abilities": [
+            {
+              "cost": "{2}, {T}, sacrifice",
+              "effects": [
+                {
+                  "gainLife": 3
+                }
+              ],
+              "text": "{2}, {T}, Sacrifice this token: You gain 3 life."
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature dealt damage this turn by a Spider you controlled dies, create a token that's a copy of that creature, except it's a Food artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life,\" and it loses all other card types.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "other": true,
+        "damagedThisTurnByYourSpider": true
+      }
+    }
+  ]
+}
