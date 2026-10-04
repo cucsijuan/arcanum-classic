@@ -28,7 +28,8 @@
           "to": "target"
         }
       ],
-      "text": "Whenever you put one or more counters on a Goblin, Orc, or Army you control, The Great Goblin deals 2 damage to target opponent."
+      "text": "Whenever you put one or more counters on a Goblin, Orc, or Army you control, The Great Goblin deals 2 damage to target opponent.",
+      "batched": true
     },
     {
       "trigger": "creatureDies",

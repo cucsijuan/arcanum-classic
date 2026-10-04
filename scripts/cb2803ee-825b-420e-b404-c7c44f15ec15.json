@@ -12,17 +12,11 @@
           "to": "target"
         },
         {
-          "if": {
-            "target": "target",
-            "is": {
+          "destroy": {
+            "damagedThisWay": {
               "subtype": "Dragon"
             }
-          },
-          "then": [
-            {
-              "destroy": "target"
-            }
-          ]
+          }
         }
       ],
       "text": "When The Black Arrow enters, it deals 1 damage to any target. If a Dragon is dealt damage this way, destroy it."

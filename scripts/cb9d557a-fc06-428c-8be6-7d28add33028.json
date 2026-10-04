@@ -15,10 +15,20 @@
       ],
       "effects": [
         {
-          "exileUntilLeaves": "target"
+          "exile": "target",
+          "linked": true
         }
       ],
-      "text": "When this creature enters, you may exile another target creature. When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control."
+      "text": "When this creature enters, you may exile another target creature."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnLinkedExiled": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, return the exiled card to the battlefield under its owner's control."
     }
   ]
 }

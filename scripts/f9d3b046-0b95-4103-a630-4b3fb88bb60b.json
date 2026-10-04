@@ -1,13 +1,13 @@
 {
   "name": "Delighted Halfling",
   "tapForMana": "{C}",
-  "manaRider": "LegendaryUncounterable",
   "extraMana": [
     {
       "types": "any",
       "onlyFor": {
         "supertype": "legendary"
-      }
+      },
+      "rider": "LegendaryUncounterable"
     }
   ]
 }

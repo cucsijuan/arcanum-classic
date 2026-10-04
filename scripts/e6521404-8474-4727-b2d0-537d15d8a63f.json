@@ -18,59 +18,55 @@
           "creature"
         ],
         "controller": "any",
-        "attachedToSource": true,
-        "notSupertype": "legendary"
+        "attachedToSource": true
       },
       "effects": [
         {
-          "tokens": 2,
-          "token": {
-            "name": "Spirit",
-            "types": "Creature — Spirit",
-            "colors": [
-              "W"
-            ],
-            "power": 1,
-            "toughness": 1,
-            "keywords": [
-              "Flying"
-            ]
+          "if": {
+            "triggered": {
+              "supertype": "legendary"
+            }
           },
-          "tapped": true
+          "then": [
+            {
+              "tokens": 2,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1,
+                "keywords": [
+                  "Flying"
+                ]
+              },
+              "tapped": true,
+              "attacking": true
+            }
+          ],
+          "else": [
+            {
+              "tokens": 2,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1,
+                "keywords": [
+                  "Flying"
+                ]
+              },
+              "tapped": true
+            }
+          ]
         }
       ],
-      "text": "Whenever equipped creature attacks, create two tapped 1/1 white Spirit creature tokens with flying."
-    },
-    {
-      "trigger": "creatureAttacks",
-      "filter": {
-        "types": [
-          "creature"
-        ],
-        "controller": "any",
-        "attachedToSource": true,
-        "supertype": "legendary"
-      },
-      "effects": [
-        {
-          "tokens": 2,
-          "token": {
-            "name": "Spirit",
-            "types": "Creature — Spirit",
-            "colors": [
-              "W"
-            ],
-            "power": 1,
-            "toughness": 1,
-            "keywords": [
-              "Flying"
-            ]
-          },
-          "tapped": true,
-          "attacking": true
-        }
-      ],
-      "text": "Whenever equipped legendary creature attacks, create two 1/1 white Spirit creature tokens with flying that are tapped and attacking."
+      "text": "Whenever equipped creature attacks, create two tapped 1/1 white Spirit creature tokens with flying. If that creature is legendary, instead create two of those tokens that are tapped and attacking."
     }
   ]
 }

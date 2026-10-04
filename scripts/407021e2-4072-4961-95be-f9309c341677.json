@@ -18,22 +18,12 @@
         "destroy": "target"
       },
       {
-        "pump": [
-          0,
-          0
-        ],
-        "what": {
-          "each": {
-            "types": [
-              "creature"
-            ],
-            "controller": "any",
-            "without": "Flying"
-          }
-        },
-        "keywords": [
-          "Can't block"
-        ]
+        "cantBlockThisTurn": {
+          "types": [
+            "creature"
+          ],
+          "without": "Flying"
+        }
       }
     ],
     "text": "Destroy target artifact or land. Creatures without flying can't block this turn."

@@ -4,14 +4,21 @@
  "released": "2026-08-14",
  "booster": {
   "name": "Play Booster",
-  "description": "14 cards: 7 commons, 3 uncommons, a rare or mythic rare, a land (basic or common dual) and two wildcards of any rarity.",
+  "description": "14 cards: 7 commons (a scene card 7.8% of the time), 3 uncommons (scene 5.5%, Dragon hoard 10.9%), a wildcard of any rarity, a rare or mythic rare, a traditional foil of any rarity, and a land (default basic, Middle-earth journey basic or common dual).",
   "sheets": {
    "common": {
     "rarity": "common",
     "numbers": [
-     "1-181"
+     "1-188"
     ],
-    "basic": false
+    "basic": false,
+    "exclude": [
+     "Elvenking's Halls",
+     "Goblin-town",
+     "Iron Hills",
+     "Lake-town",
+     "Mirkwood"
+    ]
    },
    "uncommon": {
     "rarity": "uncommon",
@@ -31,17 +38,99 @@
      "1-188"
     ]
    },
-   "basic": {
-    "basic": true,
+   "sceneC": {
     "numbers": [
-     "189-198"
+     "200",
+     "209"
+    ]
+   },
+   "sceneU": {
+    "numbers": [
+     "199",
+     "202",
+     "203",
+     "206"
+    ]
+   },
+   "sceneR": {
+    "numbers": [
+     "201",
+     "204",
+     "205",
+     "207",
+     "208",
+     "210-213"
+    ]
+   },
+   "dhU": {
+    "numbers": [
+     "215",
+     "216",
+     "218",
+     "223",
+     "227",
+     "233"
+    ]
+   },
+   "dhR": {
+    "numbers": [
+     "214",
+     "221",
+     "222",
+     "224",
+     "225",
+     "226",
+     "228",
+     "232",
+     "235",
+     "237",
+     "238"
+    ]
+   },
+   "dhM": {
+    "numbers": [
+     "217",
+     "219",
+     "220",
+     "229",
+     "230",
+     "231",
+     "234",
+     "236"
+    ]
+   },
+   "bcR": {
+    "numbers": [
+     "240",
+     "245",
+     "246",
+     "248"
+    ]
+   },
+   "bcM": {
+    "numbers": [
+     "239",
+     "241",
+     "242",
+     "243",
+     "244",
+     "247"
+    ]
+   },
+   "basic": {
+    "numbers": [
+     "189-193"
+    ]
+   },
+   "journey": {
+    "numbers": [
+     "194-198"
     ]
    },
    "dual": {
     "names": [
      "Elvenking's Halls",
      "Goblin-town",
-     "Hobbit Hole",
      "Iron Hills",
      "Lake-town",
      "Mirkwood"
@@ -54,34 +143,73 @@
   "slots": [
    {
     "count": 7,
-    "sheet": "common"
+    "sheets": {
+     "common": 922000,
+     "sceneC": 78000
+    }
    },
    {
     "count": 3,
-    "sheet": "uncommon"
-   },
-   {
-    "count": 1,
     "sheets": {
-     "rare": 857,
-     "mythic": 143
+     "uncommon": 836000,
+     "sceneU": 55000,
+     "dhU": 109000
     }
    },
    {
     "count": 1,
-    "sheets": {
-     "basic": 50,
-     "dual": 50
-    }
-   },
-   {
-    "count": 2,
     "wildcard": true,
     "sheets": {
-     "common": 185,
-     "uncommon": 607,
-     "rare": 179,
-     "mythic": 29
+     "common": 741700,
+     "uncommon": 39000,
+     "rare": 173000,
+     "mythic": 23000,
+     "sceneC": 4381,
+     "sceneU": 498,
+     "sceneR": 5178,
+     "dhU": 797,
+     "dhR": 6373,
+     "dhM": 2191,
+     "bcR": 2290,
+     "bcM": 1593
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "rare": 829000,
+     "mythic": 111000,
+     "sceneR": 18000,
+     "dhR": 23000,
+     "dhM": 6764,
+     "bcR": 7162,
+     "bcM": 5073
+    }
+   },
+   {
+    "count": 1,
+    "wildcard": true,
+    "sheets": {
+     "common": 598000,
+     "uncommon": 293000,
+     "rare": 71000,
+     "mythic": 10000,
+     "sceneC": 4900,
+     "sceneU": 5200,
+     "sceneR": 2900,
+     "dhU": 7800,
+     "dhR": 3600,
+     "dhM": 1300,
+     "bcR": 1300,
+     "bcM": 1000
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "basic": 334000,
+     "journey": 166000,
+     "dual": 500000
     }
    }
   ]

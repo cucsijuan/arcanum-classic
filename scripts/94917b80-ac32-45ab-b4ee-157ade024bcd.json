@@ -24,8 +24,8 @@
         {
           "whenYouDo": {
             "if": {
-              "targetAttachedTo": "target2",
-              "to": "target"
+              "atLeast": "attached",
+              "value": 1
             },
             "about": "target",
             "targets": [

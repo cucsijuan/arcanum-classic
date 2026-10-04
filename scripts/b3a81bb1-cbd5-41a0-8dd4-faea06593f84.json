@@ -3,7 +3,8 @@
   "extraMana": [
     {
       "types": "{U}{B}{R}",
-      "amount": 2
+      "amount": 2,
+      "combination": true
     }
   ],
   "abilities": [

@@ -1,24 +1,12 @@
 {
   "name": "Mount Doom",
+  "extraMana": [
+    {
+      "types": "{B}{R}",
+      "lifeCost": 1
+    }
+  ],
   "abilities": [
-    {
-      "cost": "{T}, life:1",
-      "effects": [
-        {
-          "addMana": "{B}"
-        }
-      ],
-      "text": "{T}, Pay 1 life: Add {B}."
-    },
-    {
-      "cost": "{T}, life:1",
-      "effects": [
-        {
-          "addMana": "{R}"
-        }
-      ],
-      "text": "{T}, Pay 1 life: Add {R}."
-    },
     {
       "cost": "{1}{B}{R}, {T}",
       "effects": [
