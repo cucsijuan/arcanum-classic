@@ -1,0 +1,36 @@
+{
+  "name": "Morgul-Knife Wound",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -3,
+          0
+        ],
+        "grants": [
+          {
+            "trigger": "upkeep",
+            "effects": [
+              {
+                "unless": "you",
+                "options": [
+                  {
+                    "life": 2
+                  }
+                ],
+                "otherwise": [
+                  {
+                    "exile": "self"
+                  }
+                ]
+              }
+            ],
+            "text": "At the beginning of your upkeep, exile this creature unless you pay 2 life."
+          }
+        ]
+      },
+      "text": "Enchanted creature gets -3/-0 and has \"At the beginning of your upkeep, exile this creature unless you pay 2 life.\""
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Aragorn, Company Leader",
+  "abilities": [
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "counterChoice": [
+            "first strike",
+            "vigilance",
+            "deathtouch",
+            "lifelink"
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever the Ring tempts you, if you chose a creature other than Aragorn as your Ring-bearer, put your choice of a counter from among first strike, vigilance, deathtouch, and lifelink on Aragorn.",
+      "if": {
+        "triggered": {
+          "other": true
+        }
+      }
+    },
+    {
+      "trigger": "countersPlaced",
+      "effects": [
+        {
+          "countersOfTriggeredKinds": "target"
+        }
+      ],
+      "text": "Whenever you put one or more counters on Aragorn, put one of each of those kinds of counters on up to one other target creature.",
+      "onSelf": true,
+      "placedByYou": true,
+      "counterKind": "any",
+      "batched": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ]
+    }
+  ]
+}

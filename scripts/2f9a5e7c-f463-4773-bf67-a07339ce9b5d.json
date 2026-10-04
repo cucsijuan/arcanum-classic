@@ -1,0 +1,49 @@
+{
+  "name": "Orcish Medicine",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "chooseEffect": [
+          {
+            "text": "Lifelink",
+            "effects": [
+              {
+                "pump": [
+                  0,
+                  0
+                ],
+                "what": "target",
+                "keywords": [
+                  "Lifelink"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Indestructible",
+            "effects": [
+              {
+                "pump": [
+                  0,
+                  0
+                ],
+                "what": "target",
+                "keywords": [
+                  "Indestructible"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "amass": 1,
+        "type": "Orc"
+      }
+    ],
+    "text": "Target creature gains your choice of lifelink or indestructible until end of turn. Amass Orcs 1."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "The Bath Song",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "I, II — Draw two cards, then discard a card.",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "eachTarget"
+        },
+        {
+          "addMana": "{U}{U}"
+        }
+      ],
+      "text": "III — Shuffle any number of target cards from your graveyard into your library. Add {U}{U}.",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "anyNumber": true,
+          "text": "any number of target cards from your graveyard"
+        }
+      ]
+    }
+  ]
+}

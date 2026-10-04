@@ -1,0 +1,60 @@
+{
+  "name": "Gimli, Mournful Avenger",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Indestructible"
+        ],
+        "while": {
+          "yourCreaturesDied": 2
+        }
+      },
+      "text": "Gimli has indestructible as long as two or more creatures died under your control this turn."
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 3,
+            "exactly": true
+          },
+          "then": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "controller": "opponent",
+                    "optional": true,
+                    "text": "up to one target creature you don't control"
+                  }
+                ],
+                "effects": [
+                  {
+                    "fight": "self",
+                    "with": "target"
+                  }
+                ],
+                "text": "When this ability resolves for the third time this turn, Gimli fights up to one target creature you don't control."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control dies, put a +1/+1 counter on Gimli. When this ability resolves for the third time this turn, Gimli fights up to one target creature you don't control.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      }
+    }
+  ]
+}

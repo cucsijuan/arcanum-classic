@@ -1,0 +1,30 @@
+{
+  "name": "Elrond, Lord of Rivendell",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 2,
+            "exactly": true
+          },
+          "then": [
+            {
+              "ringTempts": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Elrond or another creature you control enters, scry 1. If this is the second time this ability has resolved this turn, the Ring tempts you.",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

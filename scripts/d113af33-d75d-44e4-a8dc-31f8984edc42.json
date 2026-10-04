@@ -1,0 +1,34 @@
+{
+  "name": "The Balrog, Durin's Bane",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "permanentsSacrificedThisTurn"
+  },
+  "cantBeBlockedBy": {
+    "notSupertype": "legendary"
+  },
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When The Balrog dies, destroy target artifact or creature an opponent controls.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature an opponent controls"
+        }
+      ]
+    }
+  ]
+}

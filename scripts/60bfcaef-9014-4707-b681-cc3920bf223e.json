@@ -1,0 +1,27 @@
+{
+  "name": "Foray of Orcs",
+  "spell": {
+    "effects": [
+      {
+        "amass": 2,
+        "type": "Orc"
+      },
+      {
+        "whenYouDo": {
+          "about": "amassed",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "damage": "triggeredPower",
+              "to": "target"
+            }
+          ],
+          "text": "When you do, Foray of Orcs deals X damage to target creature an opponent controls, where X is the amassed Army's power."
+        }
+      }
+    ],
+    "text": "Amass Orcs 2. When you do, Foray of Orcs deals X damage to target creature an opponent controls, where X is the amassed Army's power."
+  }
+}

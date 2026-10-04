@@ -1,0 +1,22 @@
+{
+  "name": "The Balrog, Flame of Udûn",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "toLibrary": "self",
+          "bottom": true
+        }
+      ],
+      "text": "When a legendary creature an opponent controls dies, put The Balrog on the bottom of its owner's library.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "supertype": "legendary"
+      }
+    }
+  ]
+}

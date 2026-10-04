@@ -1,0 +1,30 @@
+{
+  "name": "Treason of Isengard",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "up to one target instant or sorcery card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "top": true
+      },
+      {
+        "amass": 2,
+        "type": "Orc"
+      }
+    ],
+    "text": "Put up to one target instant or sorcery card from your graveyard on top of your library. Amass Orcs 2."
+  }
+}

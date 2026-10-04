@@ -1,0 +1,43 @@
+{
+  "name": "Gandalf, White Rider",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever you cast a spell, creatures you control get +1/+0 until end of turn. Scry 1."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Put Gandalf into its owner's library fifth from the top?",
+          "effects": [
+            {
+              "toLibrary": "self",
+              "position": 5
+            }
+          ]
+        }
+      ],
+      "text": "When Gandalf dies, you may put it into its owner's library fifth from the top."
+    }
+  ]
+}

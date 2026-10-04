@@ -1,0 +1,24 @@
+{
+  "name": "Lost to Legend",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "historic": true,
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland historic permanent"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "position": 4
+      }
+    ],
+    "text": "Put target nonland historic permanent into its owner's library fourth from the top."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Frodo Baggins",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "Whenever Frodo Baggins or another legendary creature you control enters, the Ring tempts you.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      }
+    },
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Must be blocked"
+        ],
+        "while": "ringBearer"
+      },
+      "text": "As long as Frodo Baggins is your Ring-bearer, it must be blocked if able."
+    }
+  ]
+}

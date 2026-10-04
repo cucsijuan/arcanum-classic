@@ -1,0 +1,15 @@
+{
+  "name": "Isolation at Orthanc",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "position": 2
+      }
+    ],
+    "text": "Put target creature into its owner's library second from the top."
+  }
+}

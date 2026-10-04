@@ -1,0 +1,33 @@
+{
+  "name": "Lobelia Sackville-Baggins",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "power": "target"
+          },
+          "token": "Treasure"
+        },
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When Lobelia enters, exile target creature card from an opponent's graveyard that was put there from the battlefield this turn, then create X Treasure tokens, where X is the exiled card's power.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "fromBattlefieldThisTurn": true
+          },
+          "text": "target creature card from an opponent's graveyard that was put there from the battlefield this turn"
+        }
+      ]
+    }
+  ]
+}

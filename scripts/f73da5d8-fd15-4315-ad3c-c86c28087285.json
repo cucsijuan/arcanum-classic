@@ -1,0 +1,32 @@
+{
+  "name": "Nasty End",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "sacrificed": {
+            "supertype": "legendary"
+          }
+        },
+        "then": [
+          {
+            "draw": 3
+          }
+        ],
+        "else": [
+          {
+            "draw": 2
+          }
+        ]
+      }
+    ],
+    "text": "Draw two cards. If the sacrificed creature was legendary, draw three cards instead."
+  }
+}

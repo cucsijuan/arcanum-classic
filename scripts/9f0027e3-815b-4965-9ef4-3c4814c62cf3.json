@@ -1,0 +1,27 @@
+{
+  "name": "Moria Marauder",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "exileTopPlayable": 1
+        }
+      ],
+      "text": "Whenever a Goblin or Orc you control deals combat damage to a player, exile the top card of your library. You may play that card this turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "anyOf": [
+          {
+            "subtype": "Goblin"
+          },
+          {
+            "subtype": "Orc"
+          }
+        ]
+      }
+    }
+  ]
+}

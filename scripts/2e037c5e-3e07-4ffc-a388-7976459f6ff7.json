@@ -1,0 +1,19 @@
+{
+  "name": "Voracious Fell Beast",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents"
+        },
+        {
+          "tokens": "sacrificedThisWay",
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, each opponent sacrifices a creature of their choice. Create a Food token for each creature sacrificed this way."
+    }
+  ]
+}

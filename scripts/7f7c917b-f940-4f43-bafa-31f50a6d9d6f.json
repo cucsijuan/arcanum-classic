@@ -1,0 +1,31 @@
+{
+  "name": "Gandalf, Friend of the Shire",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "sorcery"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "You may cast sorcery spells as though they had flash."
+    },
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever the Ring tempts you, if you chose a creature other than Gandalf as your Ring-bearer, draw a card.",
+      "if": {
+        "triggered": {
+          "other": true
+        }
+      }
+    }
+  ]
+}

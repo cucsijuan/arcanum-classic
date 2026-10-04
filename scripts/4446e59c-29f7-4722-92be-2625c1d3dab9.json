@@ -1,0 +1,39 @@
+{
+  "name": "Eagle of Deliverance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "indestructible"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "maxPower": 2
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, put an indestructible counter on another target creature you control. Draw a card if that creature's power is 2 or less.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ]
+    }
+  ]
+}

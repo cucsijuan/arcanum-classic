@@ -1,0 +1,37 @@
+{
+  "name": "Elanor Gardner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When Elanor enters, create a Food token."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true,
+          "optional": true
+        }
+      ],
+      "text": "At the beginning of your end step, if you sacrificed a Food this turn, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+      "if": {
+        "sacrificedThisTurn": {
+          "subtype": "Food"
+        }
+      }
+    }
+  ]
+}

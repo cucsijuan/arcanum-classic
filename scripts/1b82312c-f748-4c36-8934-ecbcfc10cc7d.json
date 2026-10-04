@@ -1,0 +1,39 @@
+{
+  "name": "Denethor, Ruling Steward",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, if a creature died under your control this turn, create a 1/1 white Human Soldier creature token.",
+      "if": {
+        "yourCreaturesDied": 1
+      }
+    },
+    {
+      "cost": "{2}, sacrifice:creature",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "{2}, Sacrifice another creature: Each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

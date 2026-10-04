@@ -1,0 +1,24 @@
+{
+  "name": "Éomer of the Riddermark",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever Éomer attacks, if you control a creature with the greatest power among creatures on the battlefield, create a 1/1 white Human Soldier creature token.",
+      "if": "greatestPower"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Frodo, Adventurous Hobbit",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "ringTempts": true
+        },
+        {
+          "if": {
+            "all": [
+              "ringBearer",
+              {
+                "atLeast": "ringLevel",
+                "value": 2
+              }
+            ]
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Frodo attacks, if you gained 3 or more life this turn, the Ring tempts you. Then if Frodo is your Ring-bearer and the Ring has tempted you two or more times this game, draw a card.",
+      "if": {
+        "gainedLife": 3
+      }
+    }
+  ]
+}

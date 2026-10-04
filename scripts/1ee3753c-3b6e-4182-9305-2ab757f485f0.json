@@ -1,0 +1,72 @@
+{
+  "name": "Éowyn, Lady of Rohan",
+  "equipDiscount": 1,
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "equipped": true
+            }
+          },
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "First strike",
+                "Vigilance"
+              ]
+            }
+          ],
+          "else": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "First strike",
+                  "effects": [
+                    {
+                      "pump": [
+                        0,
+                        0
+                      ],
+                      "what": "target",
+                      "keywords": [
+                        "First strike"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "Vigilance",
+                  "effects": [
+                    {
+                      "pump": [
+                        0,
+                        0
+                      ],
+                      "what": "target",
+                      "keywords": [
+                        "Vigilance"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature gains your choice of first strike or vigilance until end of turn. If that creature is equipped, it gains first strike and vigilance until end of turn instead.",
+      "targets": [
+        "creature"
+      ]
+    }
+  ]
+}

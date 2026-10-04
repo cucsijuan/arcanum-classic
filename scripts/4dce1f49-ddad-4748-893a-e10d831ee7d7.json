@@ -1,0 +1,41 @@
+{
+  "name": "Merry, Esquire of Rohan",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "filter": {
+          "equipped": true
+        },
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Merry has first strike as long as it's equipped."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you attack with Merry and another legendary creature, draw a card.",
+      "when": {
+        "all": [
+          "attacking",
+          {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "other": true,
+              "attacking": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

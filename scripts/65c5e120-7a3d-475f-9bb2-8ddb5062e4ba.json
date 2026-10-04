@@ -1,0 +1,19 @@
+{
+  "name": "Surrounded by Orcs",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "amass": 3,
+        "type": "Orc"
+      },
+      {
+        "mill": "amassedPower",
+        "who": "target"
+      }
+    ],
+    "text": "Amass Orcs 3, then target player mills X cards, where X is the amassed Army's power."
+  }
+}

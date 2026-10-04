@@ -1,0 +1,45 @@
+{
+  "name": "Ringwraiths",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "supertype": "legendary"
+            }
+          },
+          "then": [
+            {
+              "loseLife": 3,
+              "who": "targetController"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature an opponent controls gets -3/-3 until end of turn. If that creature is legendary, its controller loses 3 life.",
+      "targets": [
+        "creature:opponent"
+      ]
+    },
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When the Ring tempts you, return this card from your graveyard to your hand.",
+      "fromGraveyard": true
+    }
+  ]
+}

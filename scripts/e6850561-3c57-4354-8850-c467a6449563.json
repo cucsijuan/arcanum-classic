@@ -1,0 +1,30 @@
+{
+  "name": "Friendly Rivalry",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "supertype": "legendary"
+        },
+        "text": "up to one other target legendary creature you control"
+      },
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target3"
+      },
+      {
+        "bite": "target2",
+        "to": "target3"
+      }
+    ],
+    "text": "Target creature you control and up to one other target legendary creature you control each deal damage equal to their power to target creature you don't control."
+  }
+}

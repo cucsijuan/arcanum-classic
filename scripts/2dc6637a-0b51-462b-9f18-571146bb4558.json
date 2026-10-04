@@ -1,0 +1,28 @@
+{
+  "name": "Shortcut to Mushrooms",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this enchantment enters, the Ring tempts you."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, if a permanent you controlled left the battlefield this turn, put a +1/+1 counter on target creature you control.",
+      "targets": [
+        "creature:you"
+      ],
+      "if": "yourPermanentLeft"
+    }
+  ]
+}

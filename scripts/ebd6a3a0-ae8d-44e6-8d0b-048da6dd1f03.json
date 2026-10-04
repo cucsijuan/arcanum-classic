@@ -1,0 +1,43 @@
+{
+  "name": "Uglúk of the White Hand",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "anyOf": [
+                {
+                  "subtype": "Goblin"
+                },
+                {
+                  "subtype": "Orc"
+                }
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ],
+          "else": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control dies, put a +1/+1 counter on Uglúk. If that creature was a Goblin or Orc, put two +1/+1 counters on Uglúk instead.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      }
+    }
+  ]
+}

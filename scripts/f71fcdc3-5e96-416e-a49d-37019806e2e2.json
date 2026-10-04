@@ -1,0 +1,35 @@
+{
+  "name": "Lembas",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, scry 1, then draw a card."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, its owner shuffles it into their library."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Riders of the Mark",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Human"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "bounce": "self"
+        },
+        {
+          "if": {
+            "atLeast": "returned",
+            "value": 1
+          },
+          "then": [
+            {
+              "tokens": {
+                "toughness": "self"
+              },
+              "token": {
+                "name": "Human Soldier",
+                "types": "Creature — Human Soldier",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, if this creature attacked this turn, return it to its owner's hand. If you do, create a number of 1/1 white Human Soldier creature tokens equal to its toughness.",
+      "if": "attackedThisTurn"
+    }
+  ]
+}

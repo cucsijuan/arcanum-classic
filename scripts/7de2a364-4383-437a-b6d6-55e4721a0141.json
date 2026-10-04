@@ -1,0 +1,17 @@
+{
+  "name": "Dúnedain Rangers",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, if you don't control a Ring-bearer, the Ring tempts you.",
+      "if": {
+        "not": "hasRingBearer"
+      }
+    }
+  ]
+}

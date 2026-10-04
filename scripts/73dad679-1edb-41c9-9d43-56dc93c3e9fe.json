@@ -1,0 +1,23 @@
+{
+  "name": "Stone of Erech",
+  "replaces": [
+    "OpponentsCreaturesExiledInsteadOfDying"
+  ],
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "exileGraveyard": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice Stone of Erech: Exile target player's graveyard. Draw a card."
+    }
+  ]
+}

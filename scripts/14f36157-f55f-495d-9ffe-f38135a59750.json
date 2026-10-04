@@ -1,0 +1,34 @@
+{
+  "name": "Shire Shirriff",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a token?",
+          "cost": {
+            "sacrifice": {
+              "token": true
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creature:opponent"
+                ],
+                "effects": [
+                  {
+                    "exileUntilLeaves": "target"
+                  }
+                ],
+                "text": "When you do, exile target creature an opponent controls until this creature leaves the battlefield."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may sacrifice a token. When you do, exile target creature an opponent controls until this creature leaves the battlefield."
+    }
+  ]
+}
