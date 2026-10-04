@@ -1,38 +1,38 @@
-1 Diregraf Ghoul
-1 Dragonmaster Outcast
-1 Fanatical Firebrand
-1 Frenzied Goblin
-1 Ghitu Lavarunner
-1 Infestation Sage
-1 Kellan, Planar Trailblazer
-1 Pulse Tracker
-1 Stromkirk Noble
-1 Vampire Neonate
-1 Axgard Cavalry
-1 Burglar Rat
-1 Courageous Goblin
-1 Dragonlord's Servant
-1 Firebrand Archer
-1 Gatekeeper of Malakir
-1 Heartfire Immolator
-1 Hungry Ghoul
-1 Kalastria Highborn
-1 Kargan Dragonrider
-1 Knight of Malice
-1 Nullpriest of Oblivion
-1 Adventuring Gear
-1 Boltwave
-1 Burst Lightning
-1 Crash Through
-1 Deathmark
-1 Duress
-1 Eaten Alive
-1 Kindled Fury
-1 Soul-Guide Lantern
-1 Stab
-1 Undying Malice
-1 Vampiric Rites
-1 Abrade
-1 Bulk Up
-12 Swamp
-12 Mountain
+1 Diregraf Ghoul (FDN) 171
+1 Dragonmaster Outcast (FDN) 622
+1 Fanatical Firebrand (FDN) 195
+1 Frenzied Goblin (FDN) 199
+1 Ghitu Lavarunner (FDN) 623
+1 Infestation Sage (FDN) 64
+1 Kellan, Planar Trailblazer (FDN) 91
+1 Pulse Tracker (FDN) 612
+1 Stromkirk Noble (FDN) 632
+1 Vampire Neonate (FDN) 531
+1 Axgard Cavalry (FDN) 189
+1 Burglar Rat (FDN) 170
+1 Courageous Goblin (FDN) 82
+1 Dragonlord's Servant (FDN) 536
+1 Firebrand Archer (FDN) 196
+1 Gatekeeper of Malakir (FDN) 713
+1 Heartfire Immolator (FDN) 201
+1 Hungry Ghoul (FDN) 62
+1 Kalastria Highborn (FDN) 607
+1 Kargan Dragonrider (FDN) 541
+1 Knight of Malice (FDN) 608
+1 Nullpriest of Oblivion (FDN) 611
+1 Adventuring Gear (FDN) 249
+1 Boltwave (FDN) 79
+1 Burst Lightning (FDN) 192
+1 Crash Through (FDN) 620
+1 Deathmark (FDN) 601
+1 Duress (FDN) 606
+1 Eaten Alive (FDN) 172
+1 Kindled Fury (FDN) 542
+1 Soul-Guide Lantern (FDN) 680
+1 Stab (FDN) 71
+1 Undying Malice (FDN) 528
+1 Vampiric Rites (FDN) 615
+1 Abrade (FDN) 188
+1 Bulk Up (FDN) 80
+12 Swamp (FDN) 276
+12 Mountain (FDN) 278

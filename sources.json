@@ -27,6 +27,10 @@
       "double_faced_token"
     ]
   },
+  "printings": {
+    "index": "https://api.scryfall.com/bulk-data/default-cards",
+    "downloadField": "jsonl_download_uri"
+  },
   "images": {
     "urlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&exact={name}",
     "minIntervalMs": 120,

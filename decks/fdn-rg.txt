@@ -1,38 +1,38 @@
-1 Dragonmaster Outcast
-1 Fanatical Firebrand
-1 Frenzied Goblin
-1 Ghitu Lavarunner
-1 Kellan, Planar Trailblazer
-1 Llanowar Elves
-1 Mild-Mannered Librarian
-1 Mold Adder
-1 Stromkirk Noble
-1 Wildwood Scourge
-1 Axgard Cavalry
-1 Bear Cub
-1 Courageous Goblin
-1 Dragonlord's Servant
-1 Druid of the Cowl
-1 Dwynen's Elite
-1 Firebrand Archer
-1 Fynn, the Fangbearer
-1 Gnarlid Colony
-1 Heartfire Immolator
-1 Kargan Dragonrider
-1 Nessian Hornbeetle
-1 Adventuring Gear
-1 Boltwave
-1 Burst Lightning
-1 Bushwhack
-1 Crash Through
-1 Giant Growth
-1 Kindled Fury
-1 Primal Might
-1 Snakeskin Veil
-1 Soul-Guide Lantern
-1 Abrade
-1 Bite Down
-1 Bulk Up
-1 Dragon Fodder
-12 Mountain
-12 Forest
+1 Dragonmaster Outcast (FDN) 622
+1 Fanatical Firebrand (FDN) 195
+1 Frenzied Goblin (FDN) 199
+1 Ghitu Lavarunner (FDN) 623
+1 Kellan, Planar Trailblazer (FDN) 91
+1 Llanowar Elves (FDN) 227
+1 Mild-Mannered Librarian (FDN) 228
+1 Mold Adder (FDN) 640
+1 Stromkirk Noble (FDN) 632
+1 Wildwood Scourge (FDN) 236
+1 Axgard Cavalry (FDN) 189
+1 Bear Cub (FDN) 552
+1 Courageous Goblin (FDN) 82
+1 Dragonlord's Servant (FDN) 536
+1 Druid of the Cowl (FDN) 554
+1 Dwynen's Elite (FDN) 218
+1 Firebrand Archer (FDN) 196
+1 Fynn, the Fangbearer (FDN) 637
+1 Gnarlid Colony (FDN) 224
+1 Heartfire Immolator (FDN) 201
+1 Kargan Dragonrider (FDN) 541
+1 Nessian Hornbeetle (FDN) 229
+1 Adventuring Gear (FDN) 249
+1 Boltwave (FDN) 79
+1 Burst Lightning (FDN) 192
+1 Bushwhack (FDN) 215
+1 Crash Through (FDN) 620
+1 Giant Growth (FDN) 223
+1 Kindled Fury (FDN) 542
+1 Primal Might (FDN) 643
+1 Snakeskin Veil (FDN) 233
+1 Soul-Guide Lantern (FDN) 680
+1 Abrade (FDN) 188
+1 Bite Down (FDN) 212
+1 Bulk Up (FDN) 80
+1 Dragon Fodder (FDN) 535
+12 Mountain (FDN) 278
+12 Forest (FDN) 280

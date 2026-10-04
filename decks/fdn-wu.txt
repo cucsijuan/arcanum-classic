@@ -1,38 +1,38 @@
-1 Aegis Turtle
-1 Healer's Hawk
-1 Hinterland Sanctifier
-1 Leonin Vanguard
-1 Savannah Lions
-1 Spectral Sailor
-1 Ajani's Pridemate
-1 Ballyrush Banneret
-1 Bishop's Soldier
-1 Brineborn Cutthroat
-1 Burrog Befuddler
-1 Cathar Commando
-1 Charming Prince
-1 Crystal Barricade
-1 Dawnwing Marshal
-1 Drake Hatcher
-1 Elementalist Adept
-1 Felidar Cub
-1 Fog Bank
-1 Giada, Font of Hope
-1 Harbinger of the Tides
-1 Hare Apparent
-1 Adventuring Gear
-1 An Offer You Can't Refuse
-1 Authority of the Consuls
-1 Dive Down
-1 Divine Resilience
-1 Elspeth's Smite
-1 Fleeting Distraction
-1 Fleeting Flight
-1 Joust Through
-1 Moment of Triumph
-1 Opt
-1 Soul-Guide Lantern
-1 Unsummon
-1 Witness Protection
-12 Plains
-12 Island
+1 Aegis Turtle (FDN) 150
+1 Healer's Hawk (FDN) 142
+1 Hinterland Sanctifier (FDN) 730
+1 Leonin Vanguard (FDN) 499
+1 Savannah Lions (FDN) 146
+1 Spectral Sailor (FDN) 164
+1 Ajani's Pridemate (FDN) 135
+1 Ballyrush Banneret (FDN) 567
+1 Bishop's Soldier (FDN) 491
+1 Brineborn Cutthroat (FDN) 152
+1 Burrog Befuddler (FDN) 504
+1 Cathar Commando (FDN) 139
+1 Charming Prince (FDN) 568
+1 Crystal Barricade (FDN) 7
+1 Dawnwing Marshal (FDN) 570
+1 Drake Hatcher (FDN) 35
+1 Elementalist Adept (FDN) 36
+1 Felidar Cub (FDN) 573
+1 Fog Bank (FDN) 591
+1 Giada, Font of Hope (FDN) 141
+1 Harbinger of the Tides (FDN) 593
+1 Hare Apparent (FDN) 15
+1 Adventuring Gear (FDN) 249
+1 An Offer You Can't Refuse (FDN) 160
+1 Authority of the Consuls (FDN) 137
+1 Dive Down (FDN) 588
+1 Divine Resilience (FDN) 10
+1 Elspeth's Smite (FDN) 493
+1 Fleeting Distraction (FDN) 155
+1 Fleeting Flight (FDN) 13
+1 Joust Through (FDN) 19
+1 Moment of Triumph (FDN) 500
+1 Opt (FDN) 512
+1 Soul-Guide Lantern (FDN) 680
+1 Unsummon (FDN) 599
+1 Witness Protection (FDN) 168
+12 Plains (FDN) 272
+12 Island (FDN) 274

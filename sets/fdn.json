@@ -1,6 +1,120 @@
 {
  "code": "fdn",
  "name": "Foundations",
+ "released": "2024-11-15",
+ "booster": {
+  "name": "Play Booster",
+  "description": "14 cards: 6 commons, a common or (1.5%) a special guest, 3 uncommons, a rare or mythic rare, a land and two wildcards of any rarity.",
+  "sheets": {
+   "common": {
+    "rarity": "common",
+    "booster": true,
+    "basic": false,
+    "exclude": [
+     "Bloodfell Caves",
+     "Blossoming Sands",
+     "Dismal Backwater",
+     "Jungle Hollow",
+     "Rugged Highlands",
+     "Scoured Barrens",
+     "Swiftwater Cliffs",
+     "Thornwood Falls",
+     "Tranquil Cove",
+     "Wind-Scarred Crag"
+    ]
+   },
+   "uncommon": {
+    "rarity": "uncommon",
+    "booster": true
+   },
+   "rare": {
+    "rarity": "rare",
+    "booster": true
+   },
+   "mythic": {
+    "rarity": "mythic",
+    "booster": true
+   },
+   "basic": {
+    "basic": true,
+    "booster": true
+   },
+   "dual": {
+    "names": [
+     "Bloodfell Caves",
+     "Blossoming Sands",
+     "Dismal Backwater",
+     "Jungle Hollow",
+     "Rugged Highlands",
+     "Scoured Barrens",
+     "Swiftwater Cliffs",
+     "Thornwood Falls",
+     "Tranquil Cove",
+     "Wind-Scarred Crag"
+    ]
+   },
+   "guest": {
+    "set": "spg",
+    "numbers": [
+     "74",
+     "75",
+     "76",
+     "77",
+     "78",
+     "79",
+     "80",
+     "81",
+     "82",
+     "83"
+    ]
+   }
+  },
+  "slots": [
+   {
+    "count": 6,
+    "sheet": "common"
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "common": 985,
+     "guest": 15
+    }
+   },
+   {
+    "count": 3,
+    "sheet": "uncommon"
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "rare": 857,
+     "mythic": 143
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "basic": 50,
+     "dual": 50
+    }
+   },
+   {
+    "count": 2,
+    "wildcard": true,
+    "sheets": {
+     "common": 185,
+     "uncommon": 607,
+     "rare": 179,
+     "mythic": 29
+    }
+   }
+  ]
+ },
+ "limited": {
+  "boostersPerPlayer": 3,
+  "sealedBoosters": 6
+ },
  "cards": [
   "Abrade",
   "Abyssal Harvester",

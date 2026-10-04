@@ -1,38 +1,38 @@
-1 Dryad Militant
-1 Healer's Hawk
-1 Hinterland Sanctifier
-1 Leonin Vanguard
-1 Llanowar Elves
-1 Mild-Mannered Librarian
-1 Mold Adder
-1 Savannah Lions
-1 Wildwood Scourge
-1 Ajani's Pridemate
-1 Ballyrush Banneret
-1 Bear Cub
-1 Bishop's Soldier
-1 Cathar Commando
-1 Charming Prince
-1 Crystal Barricade
-1 Dawnwing Marshal
-1 Druid of the Cowl
-1 Dwynen's Elite
-1 Felidar Cub
-1 Fynn, the Fangbearer
-1 Giada, Font of Hope
-1 Adventuring Gear
-1 Authority of the Consuls
-1 Bushwhack
-1 Divine Resilience
-1 Elspeth's Smite
-1 Fleeting Flight
-1 Giant Growth
-1 Joust Through
-1 Moment of Triumph
-1 Primal Might
-1 Snakeskin Veil
-1 Soul-Guide Lantern
-1 Adamant Will
-1 Anthem of Champions
-12 Forest
-12 Plains
+1 Dryad Militant (FDN) 656
+1 Healer's Hawk (FDN) 142
+1 Hinterland Sanctifier (FDN) 730
+1 Leonin Vanguard (FDN) 499
+1 Llanowar Elves (FDN) 227
+1 Mild-Mannered Librarian (FDN) 228
+1 Mold Adder (FDN) 640
+1 Savannah Lions (FDN) 146
+1 Wildwood Scourge (FDN) 236
+1 Ajani's Pridemate (FDN) 135
+1 Ballyrush Banneret (FDN) 567
+1 Bear Cub (FDN) 552
+1 Bishop's Soldier (FDN) 491
+1 Cathar Commando (FDN) 139
+1 Charming Prince (FDN) 568
+1 Crystal Barricade (FDN) 7
+1 Dawnwing Marshal (FDN) 570
+1 Druid of the Cowl (FDN) 554
+1 Dwynen's Elite (FDN) 218
+1 Felidar Cub (FDN) 573
+1 Fynn, the Fangbearer (FDN) 637
+1 Giada, Font of Hope (FDN) 141
+1 Adventuring Gear (FDN) 249
+1 Authority of the Consuls (FDN) 137
+1 Bushwhack (FDN) 215
+1 Divine Resilience (FDN) 10
+1 Elspeth's Smite (FDN) 493
+1 Fleeting Flight (FDN) 13
+1 Giant Growth (FDN) 223
+1 Joust Through (FDN) 19
+1 Moment of Triumph (FDN) 500
+1 Primal Might (FDN) 643
+1 Snakeskin Veil (FDN) 233
+1 Soul-Guide Lantern (FDN) 680
+1 Adamant Will (FDN) 488
+1 Anthem of Champions (FDN) 116
+12 Forest (FDN) 280
+12 Plains (FDN) 272

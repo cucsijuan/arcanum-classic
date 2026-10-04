@@ -1,38 +1,38 @@
-1 Aegis Turtle
-1 Diregraf Ghoul
-1 Infestation Sage
-1 Pulse Tracker
-1 Spectral Sailor
-1 Vampire Neonate
-1 Brineborn Cutthroat
-1 Burglar Rat
-1 Burrog Befuddler
-1 Drake Hatcher
-1 Elementalist Adept
-1 Fog Bank
-1 Gatekeeper of Malakir
-1 Harbinger of the Tides
-1 Hungry Ghoul
-1 Kalastria Highborn
-1 Kitesail Corsair
-1 Knight of Malice
-1 Mischievous Mystic
-1 Mystic Archaeologist
-1 Nullpriest of Oblivion
-1 Reassembling Skeleton
-1 Adventuring Gear
-1 An Offer You Can't Refuse
-1 Deathmark
-1 Dive Down
-1 Duress
-1 Eaten Alive
-1 Fleeting Distraction
-1 Opt
-1 Soul-Guide Lantern
-1 Stab
-1 Undying Malice
-1 Unsummon
-1 Vampiric Rites
-1 Witness Protection
-12 Island
-12 Swamp
+1 Aegis Turtle (FDN) 150
+1 Diregraf Ghoul (FDN) 171
+1 Infestation Sage (FDN) 64
+1 Pulse Tracker (FDN) 612
+1 Spectral Sailor (FDN) 164
+1 Vampire Neonate (FDN) 531
+1 Brineborn Cutthroat (FDN) 152
+1 Burglar Rat (FDN) 170
+1 Burrog Befuddler (FDN) 504
+1 Drake Hatcher (FDN) 35
+1 Elementalist Adept (FDN) 36
+1 Fog Bank (FDN) 591
+1 Gatekeeper of Malakir (FDN) 713
+1 Harbinger of the Tides (FDN) 593
+1 Hungry Ghoul (FDN) 62
+1 Kalastria Highborn (FDN) 607
+1 Kitesail Corsair (FDN) 510
+1 Knight of Malice (FDN) 608
+1 Mischievous Mystic (FDN) 47
+1 Mystic Archaeologist (FDN) 511
+1 Nullpriest of Oblivion (FDN) 611
+1 Reassembling Skeleton (FDN) 182
+1 Adventuring Gear (FDN) 249
+1 An Offer You Can't Refuse (FDN) 160
+1 Deathmark (FDN) 601
+1 Dive Down (FDN) 588
+1 Duress (FDN) 606
+1 Eaten Alive (FDN) 172
+1 Fleeting Distraction (FDN) 155
+1 Opt (FDN) 512
+1 Soul-Guide Lantern (FDN) 680
+1 Stab (FDN) 71
+1 Undying Malice (FDN) 528
+1 Unsummon (FDN) 599
+1 Vampiric Rites (FDN) 615
+1 Witness Protection (FDN) 168
+12 Island (FDN) 274
+12 Swamp (FDN) 276

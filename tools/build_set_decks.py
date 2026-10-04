@@ -3,11 +3,12 @@
 """
 Builds two-color sample decks from a card set, using only cards the engine supports.
 
-Usage: tools/build_set_decks.py <card-file.jsonl[.gz]> <sets/code.json>
+Usage: tools/build_set_decks.py <card-file.jsonl[.gz]> <sets/code.json> [<printings-file.jsonl[.gz]>]
 
 For each color pair: 36 nonland cards of those colors (or colorless) from the set, favoring creatures and a
 reasonable curve, 22 creatures and 14 other spells when possible, one copy each (two when the pool is short), plus 12 + 12 basic lands.
-Writes decks/<code>-<pair>.txt.
+Writes decks/<code>-<pair>.txt. With the printings file every line names the card's printing in the set
+("1 Name (CODE) 123"), so the decks show that set's art; basic lands come from the set too.
 """
 import gzip
 import json
@@ -23,6 +24,24 @@ PAIRS = {"WU": ("Plains", "Island"), "UB": ("Island", "Swamp"), "BR": ("Swamp", 
          "RG": ("Mountain", "Forest"), "GW": ("Forest", "Plains")}
 
 
+def set_printings(path, code):
+    """name -> collector number of the card's printing in the set (the booster one, lowest number first)."""
+    opener = gzip.open if path.endswith(".gz") else open
+    found = {}
+    with opener(path, "rt", encoding="utf-8") as f:
+        for line in f:
+            if f'"set":"{code}"' not in line.replace(" ", ""):
+                continue
+            c = json.loads(line)
+            if c.get("set") != code or c.get("lang", "en") != "en":
+                continue
+            digits = "".join(ch for ch in c["collector_number"] if ch.isdigit())
+            rank = (not c.get("booster", False), int(digits) if digits else 10**9)
+            if c["name"] not in found or rank < found[c["name"]][0]:
+                found[c["name"]] = (rank, c["collector_number"])
+    return {name: number for name, (_, number) in found.items()}
+
+
 def main():
     if len(sys.argv) < 3:
         print(__doc__)
@@ -30,6 +49,14 @@ def main():
     with open(sys.argv[2], encoding="utf-8") as f:
         set_info = json.load(f)
     wanted = set(set_info["cards"])
+    numbers = set_printings(sys.argv[3], set_info["code"]) if len(sys.argv) > 3 else {}
+
+    def deck_line(count, name):
+        if name in numbers:
+            return f"{count} {name} ({set_info['code'].upper()}) {numbers[name]}"
+        if numbers:
+            raise SystemExit(f"{name} has no printing in {set_info['code']}")
+        return f"{count} {name}"
     scripts = scripted_ids()
     opener = gzip.open if sys.argv[1].endswith(".gz") else open
     pool = []
@@ -53,9 +80,9 @@ def main():
             if total >= 36:
                 break
             n = min(copies, 36 - total)
-            lines.append(f"{n} {c['name']}")
+            lines.append(deck_line(n, c["name"]))
             total += n
-        lines += [f"{12 + (36 - total) // 2} {a}", f"{12 + (36 - total + 1) // 2} {b}"]
+        lines += [deck_line(12 + (36 - total) // 2, a), deck_line(12 + (36 - total + 1) // 2, b)]
         path = os.path.join(ROOT, "decks", f"{set_info['code']}-{pair.lower()}.txt")
         with open(path, "w", encoding="utf-8") as out:
             out.write("\n".join(lines) + "\n")
