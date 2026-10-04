@@ -1,0 +1,361 @@
+# classic: 360-card singleton cube of supported cards, built by tools/build_cube.py
+1 Carrion Feeder
+1 Champion of the Perished
+1 Corrupted Conviction
+1 Phyrexian Reclamation
+1 Stitcher's Supplier
+1 Village Rites
+1 Viscera Seer
+1 Burglar Rat
+1 Dusk Legion Zealot
+1 Exsanguinate
+1 Fake Your Own Death
+1 Feed the Swarm
+1 Fell
+1 Infernal Grasp
+1 Reassembling Skeleton
+1 Tinybones, Bauble Burglar
+1 Vengeful Bloodwitch
+1 Virus Beetle
+1 Wishclaw Talisman
+1 Zul Ashur, Lich Lord
+1 Zulaport Cutthroat
+1 Bastion of Remembrance
+1 Death Baron
+1 Fleshbag Marauder
+1 Grim Tutor
+1 Marauding Blight-Priest
+1 Midnight Reaper
+1 Murder
+1 Phyrexian Arena
+1 Read the Bones
+1 Vampire Nighthawk
+1 Warren Soultrader
+1 Withering Torment
+1 Yahenni, Undying Partisan
+1 Ancient Craving
+1 Graveshifter
+1 Greed
+1 Languish
+1 Pitiless Plunderer
+1 Ravenous Chupacabra
+1 Sanctum Seeker
+1 Vengeful Dead
+1 Vile Entomber
+1 Zombify
+1 Blasphemous Edict
+1 Bloodthirsty Conqueror
+1 Dictate of Erebos
+1 Doom Whisperer
+1 Exquisite Blood
+1 High-Society Hunter
+1 Yargle, Glutton of Urborg
+1 Liliana, Dreadhorde General
+1 Massacre Wurm
+1 Butcher of Malakir
+1 Rune-Scarred Demon
+1 Rise of the Dark Realms
+1 Abrupt Decay
+1 Skull Prophet
+1 Moldervine Reclamation
+1 Alesha, Who Laughs at Fate
+1 Bedevil
+1 Black Waltz No. 3
+1 Baleful Strix
+1 Diregraf Captain
+1 Consuming Aberration
+1 Despark
+1 Anguished Unmaking
+1 Mortify
+1 Avacyn's Pilgrim
+1 Birds of Paradise
+1 Elvish Mystic
+1 Essence Warden
+1 Fyndhorn Elves
+1 Llanowar Elves
+1 Snakeskin Veil
+1 Tamiyo's Safekeeping
+1 Tyvar's Stand
+1 Bloom Tender
+1 Gaea's Gift
+1 Origin of Metalbending
+1 Paradise Druid
+1 Poison Dart Frog
+1 Prosperous Innkeeper
+1 Rampant Growth
+1 Return to Nature
+1 Sakura-Tribe Elder
+1 Scavenging Ooze
+1 Shared Roots
+1 Sylvan Caryatid
+1 Sylvan Scrying
+1 Wall of Blossoms
+1 Colossal Majesty
+1 Elemental Bond
+1 Elvish Archdruid
+1 Enchantress's Presence
+1 Farhaven Elf
+1 Garruk's Uprising
+1 Imperious Perfect
+1 Inspiring Call
+1 Loot, Exuberant Explorer
+1 Mossborn Hydra
+1 Reclamation Sage
+1 Springbloom Druid
+1 Arasta of the Endless Web
+1 Beast Whisperer
+1 Circuitous Route
+1 Dwynen, Gilt-Leaf Daen
+1 Elvish Regrower
+1 Explosive Vegetation
+1 Harmonize
+1 Toski, Bearer of Secrets
+1 Vastwood Surge
+1 Vizier of the Menagerie
+1 Acidic Slime
+1 Doubling Season
+1 Elder Gargaroth
+1 Garruk's Packleader
+1 Overrun
+1 Sporemound
+1 Zendikar's Roil
+1 Primeval Bounty
+1 Rampaging Baloths
+1 Surrak and Goreclaw
+1 Preposterous Proportions
+1 Ghalta, Primal Hunger
+1 Savage Ventmaw
+1 Atarka, World Render
+1 Omnath, Locus of Rage
+1 Tatyova, Benthic Druid
+1 Prime Speaker Zegana
+1 Koma, World-Eater
+1 Sythis, Harvest's Hand
+1 Aura Shards
+1 Satyr Enchanter
+1 Dragonmaster Outcast
+1 Faithless Looting
+1 Goblin Motivator
+1 Lightning Bolt
+1 Shivan Devastator
+1 Spear Spewer
+1 Strike It Rich
+1 Abrade
+1 Bulk Up
+1 Dragonlord's Servant
+1 Electrostatic Field
+1 Erebor Flamesmith
+1 Firebrand Archer
+1 Goblin Bombardment
+1 Goblin Instigator
+1 Impact Tremors
+1 Kessig Flamebreather
+1 Sabotender
+1 Thrill of Possibility
+1 Tormenting Voice
+1 Young Pyromancer
+1 Carnelian Orb of Dragonkind
+1 Electroduplicate
+1 Firespitter Whelp
+1 Goblin Chieftain
+1 Guttersnipe
+1 Laughing Mad
+1 Patron of the Arts
+1 Rising of the Day
+1 Seize the Spoils
+1 Taurean Mauler
+1 Tunneling Geopede
+1 Witty Roastmaster
+1 Beetleback Chief
+1 Blood Mist
+1 Bolt Bend
+1 Crucible of Fire
+1 Erkenbrand, Lord of Westfold
+1 Involuntary Employment
+1 Krenko, Mob Boss
+1 Ogre Battledriver
+1 Spitfire Lagac
+1 Volley Veteran
+1 Goblin Rally
+1 Gratuitous Violence
+1 Hoarding Dragon
+1 Incinerating Blast
+1 Rapacious Dragon
+1 Slash, Reptile Rampager
+1 Twinflame Tyrant
+1 Embercleave
+1 Etali, Primal Storm
+1 Lathliss, Dragon Queen
+1 Brass's Bounty
+1 Drakuseth, Maw of Flames
+1 Balmor, Battlemage Captain
+1 Third Path Iconoclast
+1 Thousand-Year Storm
+1 Boros Charm
+1 Warleader's Call
+1 Aurelia, the Warleader
+1 An Offer You Can't Refuse
+1 Consider
+1 Hedron Crab
+1 Opt
+1 Preordain
+1 Ruin Crab
+1 Serum Visions
+1 Slither Blade
+1 Spectral Sailor
+1 Augury Owl
+1 Chart a Course
+1 Counterspell
+1 Faerie Vandal
+1 Finale of Revelation
+1 Fog Bank
+1 Invisible Stalker
+1 Merfolk Looter
+1 Mischievous Mystic
+1 Negate
+1 Nightveil Sprite
+1 Plumecreed Escort
+1 Pull from Tomorrow
+1 Run Away Together
+1 Cancel
+1 Cloudkin Seer
+1 Corsair Captain
+1 Dictate of Kruphix
+1 Hover Barrier
+1 Imprisoned in the Moon
+1 Kiora, the Rising Tide
+1 Man-o'-War
+1 Mirran Spy
+1 Mocking Sprite
+1 Psychic Corrosion
+1 Refute
+1 Aetherize
+1 Archaeomancer
+1 Efficient Construction
+1 High Fae Trickster
+1 Homunculus Horde
+1 Murmuring Mystic
+1 Mystic Retrieval
+1 Rite of Replication
+1 Talrand, Sky Summoner
+1 Vedalken Archmage
+1 Arcane Epiphany
+1 Archmage of Runes
+1 Faerie Formation
+1 Mnemonic Wall
+1 Shipwreck Dowser
+1 Sokka's Haiku
+1 Temporal Manipulation
+1 Arcanis the Omnipotent
+1 Extravagant Replication
+1 Grappling Kraken
+1 Tidespout Tyrant
+1 Omniscience
+1 Dovin's Veto
+1 Empyrean Eagle
+1 Supreme Verdict
+1 Authority of the Consuls
+1 Healer's Hawk
+1 Hinterland Sanctifier
+1 Loran's Escape
+1 Secure the Wastes
+1 Selfless Savior
+1 Soul Warden
+1 Cathar Commando
+1 Charming Prince
+1 Crystal Barricade
+1 Disenchant
+1 Duty Beyond Death
+1 Giada, Font of Hope
+1 Grand Crescendo
+1 Helpful Hunter
+1 Seal of Cleansing
+1 Selfless Spirit
+1 Spirited Companion
+1 Take Up the Shield
+1 Valorous Stance
+1 Wall of Omens
+1 Angel of Vitality
+1 Banishing Light
+1 Bastion Protector
+1 Celestial Armor
+1 Dazzling Angel
+1 Inspiring Overseer
+1 Knight Exemplar
+1 Make a Stand
+1 Mentor of the Meek
+1 Mesa Enchantress
+1 Stroke of Midnight
+1 Tempered Steel
+1 Angel of Finality
+1 Angelic Destiny
+1 Day of Judgment
+1 Emeria Angel
+1 Exemplar of Light
+1 Felidar Retreat
+1 Goldnight Commander
+1 Jazal Goldmane
+1 Lossarnach Captain
+1 Raise the Past
+1 Archangel of Thune
+1 Cathars' Crusade
+1 Fumigate
+1 Lyra Dawnbringer
+1 Regal Caracal
+1 Sigil of the Empty Throne
+1 Wingmate Roc
+1 Planar Cleansing
+1 True Conviction
+1 Elesh Norn, Grand Cenobite
+1 Zetalpa, Primal Dawn
+1 Reya Dawnbringer
+1 Badlands
+1 Bayou
+1 Hedge Maze
+1 Ornithopter
+1 Plateau
+1 Raucous Theater
+1 Savannah
+1 Scrubland
+1 Shadowy Backstreet
+1 Taiga
+1 Temple of Abandon
+1 Temple of Deceit
+1 Temple of Enlightenment
+1 Temple of Epiphany
+1 Temple of Malady
+1 Temple of Malice
+1 Temple of Mystery
+1 Temple of Plenty
+1 Temple of Silence
+1 Temple of Triumph
+1 Tropical Island
+1 Tundra
+1 Undercity Sewers
+1 Underground Mortuary
+1 Underground Sea
+1 Volcanic Island
+1 Basilisk Collar
+1 Expedition Map
+1 Wayfarer's Bauble
+1 Charcoal Diamond
+1 Crashing Drawbridge
+1 Fire Diamond
+1 Lightning Greaves
+1 Marble Diamond
+1 Mind Stone
+1 Ornithopter of Paradise
+1 Sky Diamond
+1 Swiftfoot Boots
+1 Burnished Hart
+1 Darksteel Plate
+1 Fireshrieker
+1 Heraldic Banner
+1 Loxodon Warhammer
+1 Scrawling Crawler
+1 Hedron Archive
+1 Solemn Simulacrum
+1 Banner of Kinship
+1 Gilded Lotus
+1 Steel Hellkite
+1 Meteor Golem
