@@ -14,12 +14,16 @@
     ],
     "effects": [
       {
-        "counters": 1,
-        "what": "target"
-      },
-      {
-        "counters": 1,
-        "what": "target2"
+        "simultaneously": [
+          {
+            "counters": 1,
+            "what": "target"
+          },
+          {
+            "counters": 1,
+            "what": "target2"
+          }
+        ]
       }
     ]
   }

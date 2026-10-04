@@ -17,12 +17,16 @@
     ],
     "effects": [
       {
-        "bite": "target",
-        "to": "target3"
-      },
-      {
-        "bite": "target2",
-        "to": "target3"
+        "simultaneously": [
+          {
+            "bite": "target",
+            "to": "target3"
+          },
+          {
+            "bite": "target2",
+            "to": "target3"
+          }
+        ]
       }
     ],
     "text": "Target creature you control and up to one other target legendary creature you control each deal damage equal to their power to target creature you don't control."

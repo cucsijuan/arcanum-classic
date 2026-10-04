@@ -18,16 +18,20 @@
     ],
     "effects": [
       {
-        "counters": 1,
-        "what": "target"
-      },
-      {
-        "counters": 1,
-        "what": "target2"
-      },
-      {
-        "counters": 1,
-        "what": "target3"
+        "simultaneously": [
+          {
+            "counters": 1,
+            "what": "target"
+          },
+          {
+            "counters": 1,
+            "what": "target2"
+          },
+          {
+            "counters": 1,
+            "what": "target3"
+          }
+        ]
       }
     ]
   }

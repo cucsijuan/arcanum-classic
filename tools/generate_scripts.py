@@ -551,7 +551,7 @@ def effect(sentence, b):
             if m.group(3):
                 spec["filter"] = {"other": True}
             out.append({"counters": num(m.group(1)), "what": b.add_target(spec)})
-        return out
+        return [{"simultaneously": out}]  # one event: "one or more counters" triggers see it once
     m = re.fullmatch(r"Create (\w+) (\d+)/(\d+) ((?:white|blue|black|red|green|colorless)(?: and (?:white|blue|black|red|green))?) ([A-Z][a-z]+(?: [A-Z][a-z]+)*) (?:artifact )?creature tokens?(?: with (.+))?", s)
     if m:
         token = {"name": m.group(5), "types": "Creature — " + m.group(5), "power": int(m.group(2)), "toughness": int(m.group(3))}
