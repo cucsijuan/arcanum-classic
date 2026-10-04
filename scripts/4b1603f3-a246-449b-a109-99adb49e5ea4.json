@@ -1,0 +1,41 @@
+{
+  "name": "Eastfarthing Farmer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        },
+        {
+          "whenYouDo": {
+            "if": "createdThisWay",
+            "targets": [
+              "creature:you"
+            ],
+            "effects": [
+              {
+                "pump": [
+                  {
+                    "count": {
+                      "subtype": "Food"
+                    }
+                  },
+                  {
+                    "count": {
+                      "subtype": "Food"
+                    }
+                  }
+                ],
+                "what": "target"
+              }
+            ],
+            "text": "When you do, target creature you control gets +1/+1 until end of turn for each Food you control."
+          }
+        }
+      ],
+      "text": "When this creature enters, create a Food token. When you do, target creature you control gets +1/+1 until end of turn for each Food you control."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Meneldor, Swift Savior",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "blink": "target"
+        }
+      ],
+      "text": "Whenever Meneldor deals combat damage to a player, exile up to one target creature you own, then return it to the battlefield under your control.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "ownedByYou": true
+          },
+          "text": "up to one target creature you own"
+        }
+      ]
+    }
+  ]
+}

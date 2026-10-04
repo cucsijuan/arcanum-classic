@@ -1,0 +1,27 @@
+{
+  "name": "Gimli's Axe",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +3/+0."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "filter": {
+          "supertype": "legendary"
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "As long as equipped creature is legendary, it has menace."
+    }
+  ]
+}

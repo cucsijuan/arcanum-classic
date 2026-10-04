@@ -1,0 +1,38 @@
+{
+  "name": "Assault on Osgiliath",
+  "spell": {
+    "effects": [
+      {
+        "amass": "X",
+        "type": "Orc"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              }
+            ]
+          }
+        },
+        "keywords": [
+          "Double strike",
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Amass Orcs X, then Goblins and Orcs you control gain double strike and haste until end of turn."
+  }
+}

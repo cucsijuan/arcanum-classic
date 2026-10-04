@@ -1,0 +1,23 @@
+{
+  "name": "Soothing of Sméagol",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "token": false
+        },
+        "text": "target nontoken creature"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Return target nontoken creature to its owner's hand. The Ring tempts you."
+  }
+}

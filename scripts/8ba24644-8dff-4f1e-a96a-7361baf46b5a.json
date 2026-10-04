@@ -1,0 +1,16 @@
+{
+  "name": "Saruman the White",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever you cast your second spell each turn, amass Orcs 2.",
+      "nth": 2
+    }
+  ]
+}

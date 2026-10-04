@@ -1,0 +1,24 @@
+{
+  "name": "Barad-dûr",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{X}{X}{B}, {T}",
+      "activateIf": "morbid",
+      "effects": [
+        {
+          "amass": "X",
+          "type": "Orc"
+        }
+      ],
+      "text": "{X}{X}{B}, {T}: Amass Orcs X. Activate only if a creature died this turn."
+    }
+  ]
+}

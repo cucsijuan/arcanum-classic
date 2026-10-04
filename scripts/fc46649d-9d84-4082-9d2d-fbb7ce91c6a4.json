@@ -1,0 +1,26 @@
+{
+  "name": "Quarrel's End",
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Human Soldier",
+          "types": "Creature — Human Soldier",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ],
+    "text": "Draw two cards and create a 1/1 white Human Soldier creature token."
+  }
+}

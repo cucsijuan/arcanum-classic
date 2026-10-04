@@ -1,0 +1,20 @@
+{
+  "name": "Banish from Edoras",
+  "costReduction": {
+    "amount": 2,
+    "ifTargets": {
+      "tapped": true
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target creature."
+  }
+}

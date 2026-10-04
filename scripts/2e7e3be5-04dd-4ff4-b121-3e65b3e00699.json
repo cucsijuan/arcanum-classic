@@ -1,0 +1,33 @@
+{
+  "name": "Bilbo, Retired Burglar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When Bilbo enters or leaves the battlefield, the Ring tempts you."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When Bilbo enters or leaves the battlefield, the Ring tempts you."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever Bilbo deals combat damage to a player, create a Treasure token."
+    }
+  ]
+}

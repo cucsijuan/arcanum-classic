@@ -1,0 +1,14 @@
+{
+  "name": "Inherited Envelope",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this artifact enters, the Ring tempts you."
+    }
+  ]
+}

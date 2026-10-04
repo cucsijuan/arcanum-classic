@@ -1,0 +1,48 @@
+{
+  "name": "Horn of Gondor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When Horn of Gondor enters, create a 1/1 white Human Soldier creature token."
+    },
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Human"
+            }
+          },
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{3}, {T}: Create X 1/1 white Human Soldier creature tokens, where X is the number of Humans you control."
+    }
+  ]
+}

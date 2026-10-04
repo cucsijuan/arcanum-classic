@@ -1,0 +1,41 @@
+{
+  "name": "Strider, Ranger of the North",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "minPower": 4
+            }
+          },
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "First strike"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, target creature gets +1/+1 until end of turn. Then if that creature has power 4 or greater, it gains first strike until end of turn.",
+      "targets": [
+        "creature"
+      ]
+    }
+  ]
+}

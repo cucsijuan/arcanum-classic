@@ -1,0 +1,22 @@
+{
+  "name": "Gwaihir the Windlord",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "drawn": 2
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Bird",
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Other Birds you control have vigilance."
+    }
+  ]
+}

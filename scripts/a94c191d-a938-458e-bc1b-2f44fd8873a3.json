@@ -1,0 +1,28 @@
+{
+  "name": "The Battle of Bywater",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "minPower": 3
+          }
+        }
+      },
+      {
+        "tokens": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "token": "Food"
+      }
+    ],
+    "text": "Destroy all creatures with power 3 or greater. Then create a Food token for each creature you control."
+  }
+}

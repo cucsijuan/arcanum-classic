@@ -1,0 +1,25 @@
+{
+  "name": "The Black Breath",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Creatures your opponents control get -1/-1 until end of turn. The Ring tempts you."
+  }
+}

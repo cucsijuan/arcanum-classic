@@ -1,0 +1,22 @@
+{
+  "name": "Deceive the Messenger",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "amass": 1,
+        "type": "Orc"
+      }
+    ],
+    "text": "Target creature gets -3/-0 until end of turn. Amass Orcs 1."
+  }
+}

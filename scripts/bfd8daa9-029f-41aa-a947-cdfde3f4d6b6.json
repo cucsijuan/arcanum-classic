@@ -1,0 +1,14 @@
+{
+  "name": "Took Reaper",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature dies, the Ring tempts you."
+    }
+  ]
+}

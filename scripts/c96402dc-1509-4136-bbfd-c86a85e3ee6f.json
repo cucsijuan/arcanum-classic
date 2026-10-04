@@ -1,0 +1,16 @@
+{
+  "name": "Swarming of Moria",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": "Treasure"
+      },
+      {
+        "amass": 2,
+        "type": "Orc"
+      }
+    ],
+    "text": "Create a Treasure token. Amass Orcs 2."
+  }
+}

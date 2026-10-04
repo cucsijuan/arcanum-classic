@@ -1,0 +1,35 @@
+{
+  "name": "Warg Rider",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Goblin"
+            },
+            {
+              "subtype": "Orc"
+            }
+          ]
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Other Orcs and Goblins you control have menace."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, amass Orcs 2."
+    }
+  ]
+}

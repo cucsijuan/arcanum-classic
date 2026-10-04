@@ -1,0 +1,27 @@
+{
+  "name": "Arwen Undómiel",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you scry, put a +1/+1 counter on target creature.",
+      "targets": [
+        "creature"
+      ]
+    },
+    {
+      "cost": "{4}{G}{U}",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{4}{G}{U}: Scry 2."
+    }
+  ]
+}

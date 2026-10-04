@@ -1,0 +1,27 @@
+{
+  "name": "Snarling Warg",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "while": {
+          "control": {
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              }
+            ]
+          }
+        }
+      },
+      "text": "As long as you control a Goblin or Orc, this creature gets +1/+0."
+    }
+  ]
+}

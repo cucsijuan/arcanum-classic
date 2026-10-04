@@ -1,0 +1,15 @@
+{
+  "name": "Easterling Vanguard",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "When this creature dies, amass Orcs 1."
+    }
+  ]
+}

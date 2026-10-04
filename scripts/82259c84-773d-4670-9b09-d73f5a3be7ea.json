@@ -1,0 +1,26 @@
+{
+  "name": "Mushroom Watchdogs",
+  "abilities": [
+    {
+      "cost": "sacrifice:Food",
+      "sorcery": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Sacrifice a Food: Put a +1/+1 counter on this creature. It gains vigilance until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

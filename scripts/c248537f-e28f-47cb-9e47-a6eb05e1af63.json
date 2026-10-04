@@ -1,0 +1,69 @@
+{
+  "name": "Fall of Gil-galad",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "I — Scry 2.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "II — Put two +1/+1 counters on target creature you control.",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "dies",
+              "effects": [
+                {
+                  "draw": 2
+                }
+              ],
+              "text": "When this creature dies, draw two cards."
+            }
+          ]
+        },
+        {
+          "fight": "target",
+          "with": "target2"
+        }
+      ],
+      "text": "III — Until end of turn, target creature you control gains \"When this creature dies, draw two cards.\" Then that creature fights up to one other target creature.",
+      "chapters": [
+        3
+      ],
+      "targetRule": "allDifferent",
+      "targets": [
+        "creature:you",
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one other target creature"
+        }
+      ]
+    }
+  ]
+}

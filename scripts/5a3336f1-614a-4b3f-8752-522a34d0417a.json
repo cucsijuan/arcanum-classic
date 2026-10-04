@@ -1,0 +1,26 @@
+{
+  "name": "Sam's Desperate Rescue",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Return target creature card from your graveyard to your hand. The Ring tempts you."
+  }
+}

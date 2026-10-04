@@ -1,0 +1,39 @@
+{
+  "name": "Mirkwood Channeler",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "subtype": "Forest"
+              }
+            },
+            {
+              "count": {
+                "subtype": "Forest"
+              }
+            }
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target Elf you control gains trample and gets +X/+X until end of turn, where X is the number of Forests you control.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf"
+          },
+          "text": "target Elf you control"
+        }
+      ]
+    }
+  ]
+}

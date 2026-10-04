@@ -1,0 +1,14 @@
+{
+  "name": "Uruk-hai Berserker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature enters, the Ring tempts you."
+    }
+  ]
+}

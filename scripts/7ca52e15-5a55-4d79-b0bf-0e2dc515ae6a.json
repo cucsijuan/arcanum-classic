@@ -1,0 +1,32 @@
+{
+  "name": "Warbeast of Gorgoroth",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control with power 4 or greater dies, amass Orcs 2."
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control with power 4 or greater dies, amass Orcs 2.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "minPower": 4
+      }
+    }
+  ]
+}

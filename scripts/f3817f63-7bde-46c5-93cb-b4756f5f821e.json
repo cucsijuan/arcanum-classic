@@ -1,0 +1,27 @@
+{
+  "name": "Gothmog, Morgul Lieutenant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "When Gothmog enters, amass Orcs 1."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Creature tokens you control have deathtouch."
+    }
+  ]
+}

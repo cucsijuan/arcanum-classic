@@ -1,0 +1,51 @@
+{
+  "name": "Ioreth of the Healing House",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{T}: Untap another target permanent."
+    },
+    {
+      "cost": "{T}",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "supertype": "legendary"
+          },
+          "text": "two other target legendary creatures"
+        },
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "supertype": "legendary"
+          },
+          "text": "two other target legendary creatures"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "eachTarget"
+        }
+      ],
+      "text": "{T}: Untap two other target legendary creatures."
+    }
+  ]
+}

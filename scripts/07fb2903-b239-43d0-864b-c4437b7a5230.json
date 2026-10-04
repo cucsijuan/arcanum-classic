@@ -1,0 +1,31 @@
+{
+  "name": "Mirkwood Spider",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, target legendary creature you control gains deathtouch until end of turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature you control"
+        }
+      ]
+    }
+  ]
+}

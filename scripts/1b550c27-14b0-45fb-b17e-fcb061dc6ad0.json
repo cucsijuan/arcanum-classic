@@ -1,0 +1,38 @@
+{
+  "name": "Gimli's Fury",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "supertype": "legendary"
+          }
+        },
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets +3/+2 until end of turn. If it's legendary, it also gains trample until end of turn."
+  }
+}

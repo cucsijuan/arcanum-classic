@@ -1,0 +1,25 @@
+{
+  "name": "Brandywine Farmer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters or leaves the battlefield, create a Food token."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters or leaves the battlefield, create a Food token."
+    }
+  ]
+}

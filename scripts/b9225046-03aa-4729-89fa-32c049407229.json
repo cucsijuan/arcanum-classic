@@ -1,0 +1,24 @@
+{
+  "name": "Shadow Summoning",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Flying"
+          ]
+        },
+        "tapped": true
+      }
+    ],
+    "text": "Create two tapped 1/1 white Spirit creature tokens with flying."
+  }
+}

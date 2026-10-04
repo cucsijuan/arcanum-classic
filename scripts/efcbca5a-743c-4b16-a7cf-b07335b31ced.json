@@ -1,0 +1,40 @@
+{
+  "name": "Shower of Arrows",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          ]
+        },
+        "text": "target artifact, enchantment, or creature with flying"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "scry": 1
+      }
+    ],
+    "text": "Destroy target artifact, enchantment, or creature with flying. Scry 1."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Gollum's Bite",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -2,
+          -2
+        ],
+        "what": "target"
+      }
+    ],
+    "text": "Target creature gets -2/-2 until end of turn."
+  },
+  "abilities": [
+    {
+      "cost": "{3}{B}, exileFromGraveyard",
+      "sorcery": true,
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "{3}{B}, Exile this card from your graveyard: The Ring tempts you. Activate only as a sorcery."
+    }
+  ]
+}

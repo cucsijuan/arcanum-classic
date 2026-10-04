@@ -1,0 +1,24 @@
+{
+  "name": "Bombadil's Song",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Target creature you control gets +1/+1 and gains hexproof until end of turn. The Ring tempts you."
+  }
+}

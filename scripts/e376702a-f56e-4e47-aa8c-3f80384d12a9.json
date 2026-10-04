@@ -1,0 +1,54 @@
+{
+  "name": "War of the Last Alliance",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ],
+            "supertype": "legendary"
+          },
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "I, II — Search your library for a legendary creature card, reveal it, put it into your hand, then shuffle.",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "III — Creatures you control gain double strike until end of turn. The Ring tempts you.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

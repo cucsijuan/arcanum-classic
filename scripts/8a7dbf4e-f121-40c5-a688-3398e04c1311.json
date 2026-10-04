@@ -1,0 +1,14 @@
+{
+  "name": "Enraged Huorn",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature enters, the Ring tempts you."
+    }
+  ]
+}

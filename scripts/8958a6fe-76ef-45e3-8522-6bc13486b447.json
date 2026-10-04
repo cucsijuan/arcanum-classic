@@ -1,0 +1,16 @@
+{
+  "name": "Chance-Met Elves",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you scry, put a +1/+1 counter on this creature. This ability triggers only once each turn.",
+      "oncePerTurn": true
+    }
+  ]
+}

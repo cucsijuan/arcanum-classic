@@ -1,0 +1,32 @@
+{
+  "name": "Bag End Porter",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "supertype": "legendary"
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "supertype": "legendary"
+              }
+            }
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +X/+X until end of turn, where X is the number of legendary creatures you control."
+    }
+  ]
+}

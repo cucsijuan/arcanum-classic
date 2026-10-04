@@ -1,0 +1,28 @@
+{
+  "name": "Lash of the Balrog",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    },
+    {
+      "mana": "{4}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature."
+  }
+}

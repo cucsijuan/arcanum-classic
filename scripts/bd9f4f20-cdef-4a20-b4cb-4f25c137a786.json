@@ -1,0 +1,19 @@
+{
+  "name": "Dreadful as the Storm",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "power": 5,
+        "toughness": 5
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Target creature has base power and toughness 5/5 until end of turn. The Ring tempts you."
+  }
+}

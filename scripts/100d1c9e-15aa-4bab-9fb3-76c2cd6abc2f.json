@@ -1,0 +1,30 @@
+{
+  "name": "Horses of the Bruinen",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      },
+      {
+        "scry": 1
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Return up to two target creatures to their owners' hands. Scry 1. The Ring tempts you."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Claim the Precious",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Destroy target creature. The Ring tempts you."
+  }
+}

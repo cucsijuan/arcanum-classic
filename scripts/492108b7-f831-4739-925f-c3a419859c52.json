@@ -1,0 +1,18 @@
+{
+  "name": "Mordor Muster",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "loseLife": 1
+      },
+      {
+        "amass": 1,
+        "type": "Orc"
+      }
+    ],
+    "text": "You draw a card and you lose 1 life. Amass Orcs 1."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Oath of the Grey Host",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        },
+        {
+          "tokens": 1,
+          "token": "Food",
+          "for": "target"
+        }
+      ],
+      "text": "I — You and target opponent each create a Food token.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "opponent"
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "opponents"
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "II — Each opponent loses 3 life. Create a Treasure token.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "III — Create three tapped 1/1 white Spirit creature tokens with flying.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

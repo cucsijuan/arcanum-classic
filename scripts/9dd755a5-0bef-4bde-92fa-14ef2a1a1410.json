@@ -1,0 +1,15 @@
+{
+  "name": "Dunland Crebain",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "When this creature enters, amass Orcs 2."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Quickbeam, Upstart Ent",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "eachTarget",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever Quickbeam or another Treefolk you control enters, up to two target creatures each get +2/+2 and gain trample until end of turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Treefolk"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        }
+      ],
+      "targetRule": "allDifferent"
+    }
+  ]
+}

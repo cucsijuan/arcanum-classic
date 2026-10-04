@@ -1,0 +1,40 @@
+{
+  "name": "Cast into the Fire",
+  "spell": {
+    "targetRule": "allDifferent",
+    "modes": [
+      {
+        "text": "Cast into the Fire deals 1 damage to each of up to two target creatures.",
+        "targets": [
+          {
+            "kind": "creature",
+            "optional": true,
+            "text": "up to two target creatures"
+          },
+          {
+            "kind": "creature",
+            "optional": true,
+            "text": "up to two target creatures"
+          }
+        ],
+        "effects": [
+          {
+            "damage": 1,
+            "to": "eachTarget"
+          }
+        ]
+      },
+      {
+        "text": "Exile target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Rush the Room",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              }
+            ]
+          }
+        },
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Haste"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets +1/+0 and gains first strike until end of turn. If it's a Goblin or Orc, it also gains haste until end of turn."
+  }
+}

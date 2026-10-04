@@ -1,0 +1,23 @@
+{
+  "name": "Mirror of Galadriel",
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "costReductionPer": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{5}, {T}: Scry 1, then draw a card. This ability costs {1} less to activate for each legendary creature you control."
+    }
+  ]
+}

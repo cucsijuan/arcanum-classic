@@ -1,0 +1,89 @@
+{
+  "name": "Galadriel, Gift-Giver",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "text": "Whenever Galadriel enters or attacks, choose one —",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on another target creature.",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "other": true
+              },
+              "text": "another target creature"
+            }
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a Food token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Food"
+            }
+          ]
+        },
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "text": "Whenever Galadriel enters or attacks, choose one —",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on another target creature.",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "other": true
+              },
+              "text": "another target creature"
+            }
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a Food token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Food"
+            }
+          ]
+        },
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

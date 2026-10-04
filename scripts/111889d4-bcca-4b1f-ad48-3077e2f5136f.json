@@ -1,0 +1,30 @@
+{
+  "name": "Fiery Inscription",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this enchantment enters, the Ring tempts you."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this enchantment deals 2 damage to each opponent.",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ]
+}

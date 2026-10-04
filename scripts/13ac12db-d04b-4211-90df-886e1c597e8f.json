@@ -1,0 +1,26 @@
+{
+  "name": "Arwen's Gift",
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      },
+      "count": 2
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "scry": 2
+      },
+      {
+        "draw": 2
+      }
+    ],
+    "text": "Scry 2, then draw two cards."
+  }
+}

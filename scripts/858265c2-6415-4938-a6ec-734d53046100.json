@@ -1,0 +1,40 @@
+{
+  "name": "Glorious Gale",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature spell"
+      }
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "supertype": "legendary"
+          }
+        },
+        "then": [
+          {
+            "counter": "target"
+          },
+          {
+            "ringTempts": true
+          }
+        ],
+        "else": [
+          {
+            "counter": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Counter target creature spell. If it was a legendary spell, the Ring tempts you."
+  }
+}

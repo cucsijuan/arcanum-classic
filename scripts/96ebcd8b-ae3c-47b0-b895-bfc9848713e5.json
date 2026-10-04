@@ -1,0 +1,21 @@
+{
+  "name": "Gimli, Counter of Kills",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, Gimli deals 1 damage to that creature's controller.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      }
+    }
+  ]
+}

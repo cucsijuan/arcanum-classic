@@ -1,0 +1,23 @@
+{
+  "name": "The Torment of Gollum",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      },
+      {
+        "amass": 2,
+        "type": "Orc"
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card. Amass Orcs 2."
+  }
+}

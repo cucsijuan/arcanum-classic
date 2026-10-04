@@ -1,0 +1,22 @@
+{
+  "name": "Butterbur, Bree Innkeeper",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "At the beginning of your end step, if you don't control a Food, create a Food token.",
+      "if": {
+        "not": {
+          "control": {
+            "subtype": "Food"
+          }
+        }
+      }
+    }
+  ]
+}

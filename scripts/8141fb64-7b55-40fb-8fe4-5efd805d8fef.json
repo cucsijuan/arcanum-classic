@@ -1,0 +1,39 @@
+{
+  "name": "Now for Wrath, Now for Ruin!",
+  "spell": {
+    "effects": [
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Put a +1/+1 counter on each creature you control. They gain vigilance until end of turn. The Ring tempts you."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Rally at the Hornburg",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Human Soldier",
+          "types": "Creature — Human Soldier",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "subtype": "Human"
+          }
+        },
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Create two 1/1 white Human Soldier creature tokens. Humans you control gain haste until end of turn."
+  }
+}

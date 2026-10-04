@@ -1,0 +1,23 @@
+{
+  "name": "Slip On the Ring",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "ownedByYou": true
+        },
+        "text": "target creature you own"
+      }
+    ],
+    "effects": [
+      {
+        "blink": "target"
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Exile target creature you own, then return it to the battlefield under your control. The Ring tempts you."
+  }
+}

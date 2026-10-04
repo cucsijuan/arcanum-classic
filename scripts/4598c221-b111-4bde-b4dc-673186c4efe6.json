@@ -1,0 +1,57 @@
+{
+  "name": "Book of Mazarbul",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "amass": 1,
+          "type": "Orc"
+        }
+      ],
+      "text": "I — Amass Orcs 1.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "amass": 2,
+          "type": "Orc"
+        }
+      ],
+      "text": "II — Amass Orcs 2.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "III — Creatures you control get +1/+0 and gain menace until end of turn.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

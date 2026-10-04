@@ -1,0 +1,25 @@
+{
+  "name": "Stalwarts of Osgiliath",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature enters, the Ring tempts you."
+    },
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, put a +1/+1 counter on this creature.",
+      "nth": 2
+    }
+  ]
+}

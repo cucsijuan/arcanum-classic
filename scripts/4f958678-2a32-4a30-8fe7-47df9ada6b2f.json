@@ -1,0 +1,14 @@
+{
+  "name": "Birthday Escape",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Draw a card. The Ring tempts you."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Galadhrim Bow",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "attach": "target"
+        },
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control. Untap that creature.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ],
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Equipped creature gets +1/+2 and has reach."
+    }
+  ]
+}

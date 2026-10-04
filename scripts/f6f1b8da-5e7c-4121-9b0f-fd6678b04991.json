@@ -1,0 +1,20 @@
+{
+  "name": "Stew the Coneys",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2"
+      },
+      {
+        "tokens": 1,
+        "token": "Food"
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature you don't control. Create a Food token."
+  }
+}
