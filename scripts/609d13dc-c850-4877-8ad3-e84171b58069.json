@@ -11,7 +11,7 @@
                 "types": [
                   "creature"
                 ],
-                "controller": "you"
+                "controller": "any"
               }
             },
             {
@@ -19,7 +19,7 @@
                 "types": [
                   "creature"
                 ],
-                "controller": "you"
+                "controller": "any"
               }
             }
           ],

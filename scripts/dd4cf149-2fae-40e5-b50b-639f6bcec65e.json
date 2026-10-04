@@ -13,13 +13,12 @@
         {
           "copySpell": "triggered",
           "count": {
-            "spellsCast": {
+            "spellsCastBefore": {
               "types": [
                 "instant",
                 "sorcery"
               ]
-            },
-            "offset": -1
+            }
           }
         }
       ],

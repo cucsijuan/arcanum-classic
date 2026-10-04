@@ -5,6 +5,7 @@
       {
         "lookAtTop": 0,
         "countIsX": true,
+        "revealAll": true,
         "maxManaValueX": true,
         "filter": {
           "types": [

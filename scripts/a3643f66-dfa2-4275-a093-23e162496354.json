@@ -10,11 +10,8 @@
           "options": [
             {
               "sacrifice": {
-                "types": [
-                  "creature",
-                  "artifact",
-                  "enchantment",
-                  "planeswalker"
+                "not": [
+                  "land"
                 ]
               }
             },

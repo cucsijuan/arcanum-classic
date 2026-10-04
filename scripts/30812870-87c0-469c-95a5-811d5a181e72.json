@@ -1,6 +1,7 @@
 {
   "name": "Biogenic Upgrade",
   "spell": {
+    "targetRule": "allDifferent",
     "targets": [
       "creature",
       {
@@ -17,13 +18,16 @@
         "distributeCounters": 3
       },
       {
-        "doubleCounters": "target"
+        "doubleCounters": "target",
+        "kind": "+1/+1"
       },
       {
-        "doubleCounters": "target2"
+        "doubleCounters": "target2",
+        "kind": "+1/+1"
       },
       {
-        "doubleCounters": "target3"
+        "doubleCounters": "target3",
+        "kind": "+1/+1"
       }
     ]
   }

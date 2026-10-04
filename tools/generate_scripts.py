@@ -849,7 +849,7 @@ def trigger_ability(line):
                 trig = (trigger, None, m.group(1))
                 extra["nth"] = nth
                 if cond:
-                    extra["if"] = cond
+                    extra["when"] = cond  # part of the event ("during each of your turns"), not an intervening if
                 break
     if trig is None:
         trig = filtered_trigger(line)

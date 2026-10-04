@@ -1,9 +1,6 @@
 {
   "name": "Faebloom Trick",
   "spell": {
-    "targets": [
-      "creature:opponent"
-    ],
     "effects": [
       {
         "tokens": 2,
@@ -21,7 +18,18 @@
         }
       },
       {
-        "tap": "target"
+        "whenYouDo": {
+          "if": "createdThisWay",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "tap": "target"
+            }
+          ],
+          "text": "When you do, tap target creature an opponent controls."
+        }
       }
     ]
   }

@@ -18,7 +18,6 @@
         "setTypes": [
           "land"
         ],
-        "setSubtypes": [],
         "setColors": [],
         "grantsMana": "{C}",
         "pump": [

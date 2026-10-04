@@ -15,7 +15,7 @@
     {
       "trigger": "gainLife",
       "nth": 1,
-      "if": "yourTurn",
+      "when": "yourTurn",
       "effects": [
         {
           "tokens": 1,

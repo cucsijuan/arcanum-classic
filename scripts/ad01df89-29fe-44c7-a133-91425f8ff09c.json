@@ -25,8 +25,7 @@
               },
               {
                 "tokens": 1,
-                "token": "Treasure",
-                "for": "granter"
+                "token": "Treasure"
               }
             ],
             "text": "When this creature dies, return it to the battlefield tapped under its owner's control and you create a Treasure token."

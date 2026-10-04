@@ -23,7 +23,7 @@
       "trigger": "countersPlaced",
       "onSelf": true,
       "counterKind": "page",
-      "if": {
+      "when": {
         "counters": 4,
         "kind": "page"
       },

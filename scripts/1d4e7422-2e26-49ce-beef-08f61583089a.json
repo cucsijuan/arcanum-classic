@@ -3,7 +3,7 @@
   "abilities": [
     {
       "trigger": "youAttack",
-      "if": {
+      "when": {
         "attackers": 3
       },
       "targets": [

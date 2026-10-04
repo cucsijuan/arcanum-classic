@@ -23,7 +23,16 @@
         },
         {
           "if": {
-            "resolvedThisTurn": 2
+            "all": [
+              {
+                "resolvedThisTurn": 2
+              },
+              {
+                "not": {
+                  "resolvedThisTurn": 3
+                }
+              }
+            ]
           },
           "then": [
             {

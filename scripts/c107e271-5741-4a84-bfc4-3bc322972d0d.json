@@ -3,7 +3,7 @@
   "abilities": [
     {
       "trigger": "attacks",
-      "if": "ferocious",
+      "when": "ferocious",
       "effects": [
         {
           "pump": [

@@ -1,5 +1,6 @@
 {
   "name": "Flamewake Phoenix",
+  "attacksEachCombat": true,
   "abilities": [
     {
       "trigger": "beginCombat",

@@ -7,6 +7,9 @@
         {
           "tokens": {
             "count": {
+              "types": [
+                "creature"
+              ],
               "name": "Hare Apparent",
               "other": true
             }
