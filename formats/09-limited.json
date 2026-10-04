@@ -1,0 +1,8 @@
+{
+  "id": "limited",
+  "name": "Limited",
+  "minDeckSize": 40,
+  "maxCopies": 99,
+  "limited": true,
+  "description": "Draft and sealed: a deck of at least 40 cards from your pool, plus any number of basic lands."
+}
