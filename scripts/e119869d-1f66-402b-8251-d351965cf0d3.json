@@ -1,0 +1,19 @@
+{
+  "name": "Paradise Druid",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "untapped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "This creature has hexproof as long as it's untapped."
+    }
+  ]
+}

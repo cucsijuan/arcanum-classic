@@ -1,0 +1,10 @@
+{
+  "name": "Temporal Manipulation",
+  "spell": {
+    "effects": [
+      {
+        "extraTurn": true
+      }
+    ]
+  }
+}

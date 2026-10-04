@@ -1,0 +1,15 @@
+{
+  "name": "Grim Tutor",
+  "spell": {
+    "effects": [
+      {
+        "search": {},
+        "to": "hand"
+      },
+      {
+        "loseLife": 3,
+        "who": "you"
+      }
+    ]
+  }
+}

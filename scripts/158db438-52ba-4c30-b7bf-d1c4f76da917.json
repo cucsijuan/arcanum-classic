@@ -1,0 +1,32 @@
+{
+  "name": "Sphinx's Tutelage",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target",
+          "repeatIfShareColor": true
+        }
+      ],
+      "text": "Whenever you draw a card, target opponent mills two cards. If two nonland cards that share a color were milled this way, repeat this process."
+    },
+    {
+      "cost": "{5}{U}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{5}{U}: Draw a card, then discard a card."
+    }
+  ]
+}

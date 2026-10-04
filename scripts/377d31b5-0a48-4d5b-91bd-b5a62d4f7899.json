@@ -1,0 +1,26 @@
+{
+  "name": "Condemn",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "attacking": true
+        },
+        "text": "target attacking creature"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "bottom": true
+      },
+      {
+        "gainLife": {
+          "toughness": "target"
+        },
+        "who": "targetController"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Akroma's Memorial",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "First strike",
+          "Vigilance",
+          "Trample",
+          "Haste",
+          "Protection from black",
+          "Protection from red"
+        ]
+      },
+      "text": "Creatures you control have flying, first strike, vigilance, trample, haste, and protection from black and from red."
+    }
+  ]
+}

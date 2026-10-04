@@ -1,0 +1,40 @@
+{
+  "name": "Embercleave",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "creature"
+      ],
+      "attacking": true
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "When Embercleave enters, attach it to target creature you control."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Double strike",
+          "Trample"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has double strike and trample."
+    }
+  ]
+}

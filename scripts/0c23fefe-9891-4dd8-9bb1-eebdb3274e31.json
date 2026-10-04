@@ -1,0 +1,9 @@
+{
+  "name": "Bloom Tender",
+  "extraMana": [
+    {
+      "colorsAmongYourPermanents": true,
+      "oneOfEach": true
+    }
+  ]
+}
