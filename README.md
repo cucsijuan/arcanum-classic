@@ -1,8 +1,17 @@
 # arcanum-classic
 
 Content module for [Arcanum](https://github.com/cucsijuan/arcanum): where to download card data and images,
-card ability scripts, formats and sample decks. Arcanum downloads and installs this module at runtime; no card
+card ability scripts, formats and sample decks. Arcanum downloads the card data and images at runtime; no card
 data or images are stored in this repository.
+
+## Installing
+
+Download `arcanum-classic-vX.Y.Z.zip` from the [latest release](https://github.com/cucsijuan/arcanum-classic/releases/latest),
+then in Arcanum open **Extras → Install module from zip…** and choose it. The first start after installing
+downloads the card data, which takes a few minutes.
+
+To publish a release, set `version` in `manifest.json`, commit, and push a tag `v<version>`: the release workflow
+builds the zip.
 
 | File | Purpose |
 |------|---------|
