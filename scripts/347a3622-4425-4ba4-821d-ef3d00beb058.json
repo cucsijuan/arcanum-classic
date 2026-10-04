@@ -1,0 +1,34 @@
+{
+  "name": "Press the Enemy",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellOrPermanent",
+        "controller": "opponent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target spell or nonland permanent an opponent controls"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "castFromHandFree": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "maxManaValue": {
+          "manaValue": "target"
+        }
+      }
+    ],
+    "text": "Return target spell or nonland permanent an opponent controls to its owner's hand. You may cast an instant or sorcery spell with equal or lesser mana value from your hand without paying its mana cost."
+  }
+}

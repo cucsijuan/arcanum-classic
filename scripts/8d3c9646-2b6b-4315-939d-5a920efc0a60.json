@@ -1,0 +1,39 @@
+{
+  "name": "Galadriel of Lothlórien",
+  "abilities": [
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "scry": 3
+        }
+      ],
+      "text": "Whenever the Ring tempts you, if you chose a creature other than Galadriel as your Ring-bearer, scry 3.",
+      "if": {
+        "triggered": {
+          "other": true
+        }
+      }
+    },
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "revealTop": {
+            "types": [
+              "land"
+            ]
+          },
+          "optional": true,
+          "effects": [
+            {
+              "reanimate": "found",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you scry, you may reveal the top card of your library. If a land card is revealed this way, put it onto the battlefield tapped."
+    }
+  ]
+}

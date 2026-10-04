@@ -1,0 +1,41 @@
+{
+  "name": "Nimble Hobbit",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a Food or pay {2}{W}?",
+          "options": [
+            {
+              "cost": {
+                "sacrifice": {
+                  "subtype": "Food"
+                }
+              }
+            },
+            {
+              "mana": "{2}{W}"
+            }
+          ],
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creature:opponent"
+                ],
+                "effects": [
+                  {
+                    "tap": "target"
+                  }
+                ],
+                "text": "When you do, tap target creature an opponent controls."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice a Food or pay {2}{W}. When you do, tap target creature an opponent controls."
+    }
+  ]
+}

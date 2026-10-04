@@ -1,0 +1,86 @@
+{
+  "name": "Tale of Tinúviel",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ],
+          "whileYouControl": true
+        }
+      ],
+      "text": "I — Target creature you control gains indestructible for as long as you control this Saga.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "II — Return target creature card from your graveyard to the battlefield.",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "eachTarget",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "III — Up to two target creatures you control each gain lifelink until end of turn.",
+      "chapters": [
+        3
+      ],
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "text": "up to two target creatures you control"
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "text": "up to two target creatures you control"
+        }
+      ]
+    }
+  ]
+}

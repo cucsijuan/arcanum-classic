@@ -1,0 +1,46 @@
+{
+  "name": "Saradoc, Master of Buckland",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Halfling",
+            "types": "Creature — Halfling",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever Saradoc or another nontoken creature you control with power 2 or less enters, create a 1/1 white Halfling creature token.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "maxPower": 2
+      }
+    },
+    {
+      "cost": "tapCreatures:2:Halfling",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Tap two other untapped Halflings you control: Saradoc gets +2/+0 and gains lifelink until end of turn."
+    }
+  ]
+}

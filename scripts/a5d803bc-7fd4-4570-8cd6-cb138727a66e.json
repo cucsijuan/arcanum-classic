@@ -1,0 +1,23 @@
+{
+  "name": "Bewitching Leechcraft",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "attached"
+        }
+      ],
+      "text": "When this Aura enters, tap enchanted creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Untaps by removing counter"
+        ]
+      },
+      "text": "Enchanted creature has \"If this creature would untap during your untap step, remove a +1/+1 counter from it instead. If you do, untap it.\" (Otherwise, it doesn't untap.)"
+    }
+  ]
+}

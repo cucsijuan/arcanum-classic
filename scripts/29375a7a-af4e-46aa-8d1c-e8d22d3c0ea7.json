@@ -1,0 +1,31 @@
+{
+  "name": "Glóin, Dwarf Emissary",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever you cast a historic spell, create a Treasure token. This ability triggers only once each turn.",
+      "filter": {
+        "historic": true
+      },
+      "oncePerTurn": true
+    },
+    {
+      "cost": "{T}, sacrifice:Treasure",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "goad": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice a Treasure: Goad target creature."
+    }
+  ]
+}

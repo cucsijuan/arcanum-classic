@@ -1,0 +1,57 @@
+{
+  "name": "Bill Ferny, Bree Swindler",
+  "abilities": [
+    {
+      "trigger": "becomesBlocked",
+      "text": "Whenever Bill Ferny becomes blocked, choose one —",
+      "modes": [
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        },
+        {
+          "text": "Target opponent gains control of target Horse you control. If they do, remove Bill Ferny from combat and create three Treasure tokens.",
+          "targets": [
+            "opponent",
+            {
+              "kind": "permanent",
+              "controller": "you",
+              "filter": {
+                "subtype": "Horse"
+              },
+              "text": "target Horse you control"
+            }
+          ],
+          "effects": [
+            {
+              "gainControl": "target2",
+              "to": "target"
+            },
+            {
+              "if": {
+                "target": "target2",
+                "is": {
+                  "controller": "opponent"
+                }
+              },
+              "then": [
+                {
+                  "removeFromCombat": "self"
+                },
+                {
+                  "tokens": 3,
+                  "token": "Treasure"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

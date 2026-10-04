@@ -1,0 +1,28 @@
+{
+  "name": "East-Mark Cavalier",
+  "abilities": [
+    {
+      "trigger": "dealsDamageTo",
+      "effects": [
+        {
+          "destroy": "triggered"
+        }
+      ],
+      "text": "Whenever this creature deals damage to a Goblin or Orc, destroy that creature.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "anyOf": [
+          {
+            "subtype": "Goblin"
+          },
+          {
+            "subtype": "Orc"
+          }
+        ]
+      }
+    }
+  ]
+}

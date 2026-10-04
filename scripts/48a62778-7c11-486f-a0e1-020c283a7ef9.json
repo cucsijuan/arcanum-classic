@@ -1,0 +1,32 @@
+{
+  "name": "Nazgûl",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature enters, the Ring tempts you."
+    },
+    {
+      "trigger": "ringTempts",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "subtype": "Wraith"
+            }
+          }
+        }
+      ],
+      "text": "Whenever the Ring tempts you, put a +1/+1 counter on each Wraith you control."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "The Grey Havens",
+  "extraMana": [
+    {
+      "types": "any",
+      "colorsAmongGraveyardLegends": true
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When The Grey Havens enters, scry 1."
+    }
+  ]
+}

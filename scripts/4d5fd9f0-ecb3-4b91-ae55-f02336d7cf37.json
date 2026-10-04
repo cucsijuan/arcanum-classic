@@ -1,0 +1,28 @@
+{
+  "name": "Rangers of Ithilien",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileYouControl": true
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "When this creature enters, gain control of up to one target creature with lesser power for as long as you control this creature. Then the Ring tempts you.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "lesserPower": true
+          },
+          "text": "up to one target creature with lesser power"
+        }
+      ]
+    }
+  ]
+}

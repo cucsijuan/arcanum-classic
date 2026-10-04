@@ -1,0 +1,25 @@
+{
+  "name": "Borne Upon a Wind",
+  "spell": {
+    "effects": [
+      {
+        "emblem": "Borne Upon a Wind",
+        "untilEndOfTurn": true,
+        "abilities": [
+          {
+            "spellCost": {
+              "spells": {},
+              "amount": 0,
+              "grantsFlash": true
+            },
+            "text": "You may cast spells this turn as though they had flash."
+          }
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "You may cast spells this turn as though they had flash. Draw a card."
+  }
+}

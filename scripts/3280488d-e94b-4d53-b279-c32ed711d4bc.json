@@ -1,0 +1,46 @@
+{
+  "name": "Council's Deliberation",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Draw a card."
+  },
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "may": "Exile Council's Deliberation from your graveyard to draw a card?",
+          "effects": [
+            {
+              "exile": "self"
+            },
+            {
+              "if": {
+                "atLeast": {
+                  "exiled": {}
+                },
+                "value": 1
+              },
+              "then": [
+                {
+                  "draw": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you scry, if you control an Island, you may exile this card from your graveyard. If you do, draw a card.",
+      "fromGraveyard": true,
+      "if": {
+        "control": {
+          "subtype": "Island"
+        }
+      }
+    }
+  ]
+}

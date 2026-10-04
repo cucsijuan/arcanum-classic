@@ -1,0 +1,7 @@
+{
+  "name": "Phial of Galadriel",
+  "replaces": [
+    "DrawTwoWithEmptyHand",
+    "DoubleLifeGainAtFiveOrLess"
+  ]
+}

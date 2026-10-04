@@ -1,0 +1,69 @@
+{
+  "name": "The Watcher in the Water",
+  "entersTapped": true,
+  "entersWithCounters": 9,
+  "entersWithCounterKind": "stun",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Tentacle",
+            "types": "Creature — Tentacle",
+            "colors": [
+              "U"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever you draw a card during an opponent's turn, create a 1/1 blue Tentacle creature token.",
+      "when": {
+        "not": "yourTurn"
+      }
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "untap": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target2",
+          "kind": "stun"
+        }
+      ],
+      "text": "Whenever a Tentacle you control dies, untap up to one target Kraken and put a stun counter on up to one target nonland permanent.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Tentacle"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "subtype": "Kraken"
+          },
+          "text": "up to one target Kraken"
+        },
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target nonland permanent"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "The Ring Goes South",
+  "spell": {
+    "effects": [
+      {
+        "ringTempts": true
+      },
+      {
+        "revealUntil": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": {
+          "count": {
+            "types": [
+              "creature"
+            ],
+            "supertype": "legendary"
+          }
+        },
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "The Ring tempts you. Then reveal cards from the top of your library until you reveal X land cards, where X is the number of legendary creatures you control. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order."
+  }
+}

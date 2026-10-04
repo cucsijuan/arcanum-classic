@@ -1,0 +1,88 @@
+{
+  "name": "There and Back Again",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ],
+          "whileYouControl": true
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "I — Up to one target creature can't block for as long as you control this Saga. The Ring tempts you.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Mountain"
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "II — Search your library for a Mountain card, put it onto the battlefield, then shuffle.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Smaug",
+            "types": "Legendary Creature — Dragon",
+            "colors": [
+              "R"
+            ],
+            "power": 6,
+            "toughness": 6,
+            "keywords": [
+              "Flying",
+              "Haste"
+            ],
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "tokens": 14,
+                    "token": "Treasure"
+                  }
+                ],
+                "text": "When Smaug dies, create fourteen Treasure tokens."
+              }
+            ],
+            "text": "Flying, haste\nWhen Smaug dies, create fourteen Treasure tokens."
+          }
+        }
+      ],
+      "text": "III — Create Smaug, a legendary 6/6 red Dragon creature token with flying, haste, and \"When Smaug dies, create fourteen Treasure tokens.\"",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

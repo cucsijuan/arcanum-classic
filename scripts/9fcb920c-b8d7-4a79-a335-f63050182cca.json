@@ -1,0 +1,31 @@
+{
+  "name": "Call of the Ring",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, the Ring tempts you."
+    },
+    {
+      "trigger": "ringBearerChosen",
+      "effects": [
+        {
+          "mayPay": "Pay 2 life to draw a card?",
+          "cost": {
+            "life": 2
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you choose a creature as your Ring-bearer, you may pay 2 life. If you do, draw a card."
+    }
+  ]
+}

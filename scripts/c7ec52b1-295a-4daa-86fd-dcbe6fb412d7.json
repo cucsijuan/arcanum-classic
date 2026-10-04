@@ -1,0 +1,37 @@
+{
+  "name": "Pippin's Bravery",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "mayPay": "Sacrifice a Food?",
+        "cost": {
+          "sacrifice": {
+            "subtype": "Food"
+          }
+        },
+        "effects": [
+          {
+            "pump": [
+              4,
+              4
+            ],
+            "what": "target"
+          }
+        ],
+        "else": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ],
+    "text": "You may sacrifice a Food. If you do, target creature gets +4/+4 until end of turn. Otherwise, that creature gets +2/+2 until end of turn."
+  }
+}

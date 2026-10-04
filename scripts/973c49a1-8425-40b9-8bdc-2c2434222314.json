@@ -1,0 +1,51 @@
+{
+  "name": "Sting, the Glinting Dagger",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has haste."
+    },
+    {
+      "trigger": "eachBeginCombat",
+      "effects": [
+        {
+          "untap": "attached"
+        }
+      ],
+      "text": "At the beginning of each combat, untap equipped creature."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "First strike"
+        ],
+        "while": {
+          "equippedInCombatWith": {
+            "types": [
+              "creature"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              }
+            ]
+          }
+        }
+      },
+      "text": "Equipped creature has first strike as long as it's blocking or blocked by a Goblin or Orc."
+    }
+  ]
+}

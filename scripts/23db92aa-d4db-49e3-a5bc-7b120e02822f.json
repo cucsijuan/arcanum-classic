@@ -1,0 +1,35 @@
+{
+  "name": "Shagrat, Loot Bearer",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "attach": "target",
+          "to": "self"
+        },
+        {
+          "amass": {
+            "count": {
+              "subtype": "Equipment",
+              "attachedToSource": true,
+              "controller": "any"
+            }
+          },
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever Shagrat attacks, attach up to one target Equipment to it. Then amass Orcs X, where X is the number of Equipment attached to Shagrat.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "text": "up to one target Equipment"
+        }
+      ]
+    }
+  ]
+}

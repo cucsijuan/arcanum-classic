@@ -1,0 +1,20 @@
+{
+  "name": "You Cannot Pass!",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "blockedOrBlockedByLegendary": true
+        },
+        "text": "target creature that blocked or was blocked by a legendary creature this turn"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature that blocked or was blocked by a legendary creature this turn."
+  }
+}

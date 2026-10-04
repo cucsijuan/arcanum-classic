@@ -1,0 +1,14 @@
+{
+  "name": "Trailblazer's Boots",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Nonbasic landwalk"
+        ]
+      },
+      "text": "Equipped creature has nonbasic landwalk."
+    }
+  ]
+}

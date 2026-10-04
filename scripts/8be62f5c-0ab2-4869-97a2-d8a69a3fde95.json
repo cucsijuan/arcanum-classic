@@ -1,0 +1,81 @@
+{
+  "name": "Frodo, Sauron's Bane",
+  "abilities": [
+    {
+      "cost": "{W/B}{W/B}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Citizen"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "setSubtypes": [
+                "Halfling",
+                "Scout"
+              ],
+              "power": 2,
+              "toughness": 3,
+              "keywords": [
+                "Lifelink"
+              ],
+              "permanent": true
+            }
+          ]
+        }
+      ],
+      "text": "{W/B}{W/B}: If Frodo is a Citizen, it becomes a Halfling Scout with base power and toughness 2/3 and lifelink."
+    },
+    {
+      "cost": "{B}{B}{B}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Scout"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "setSubtypes": [
+                "Halfling",
+                "Rogue"
+              ],
+              "abilities": [
+                {
+                  "trigger": "combatDamageToPlayer",
+                  "effects": [
+                    {
+                      "if": {
+                        "atLeast": "ringLevel",
+                        "value": 4
+                      },
+                      "then": [
+                        {
+                          "loseGame": true,
+                          "who": "triggeredPlayer"
+                        }
+                      ],
+                      "else": [
+                        {
+                          "ringTempts": true
+                        }
+                      ]
+                    }
+                  ],
+                  "text": "Whenever this creature deals combat damage to a player, that player loses the game if the Ring has tempted you four or more times this game. Otherwise, the Ring tempts you."
+                }
+              ],
+              "permanent": true
+            }
+          ]
+        }
+      ],
+      "text": "{B}{B}{B}: If Frodo is a Scout, it becomes a Halfling Rogue with \"Whenever this creature deals combat damage to a player, that player loses the game if the Ring has tempted you four or more times this game. Otherwise, the Ring tempts you.\""
+    }
+  ]
+}

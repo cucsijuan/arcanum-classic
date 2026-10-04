@@ -1,0 +1,15 @@
+{
+  "name": "Sauron's Ransom",
+  "spell": {
+    "effects": [
+      {
+        "piles": 4,
+        "opponentSeparates": true
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Choose an opponent. They look at the top four cards of your library and separate them into a face-down pile and a face-up pile. Put one pile into your hand and the other into your graveyard. The Ring tempts you."
+  }
+}

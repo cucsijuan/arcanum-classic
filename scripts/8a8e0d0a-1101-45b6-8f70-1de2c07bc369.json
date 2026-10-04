@@ -1,0 +1,43 @@
+{
+  "name": "Mordor Trebuchet",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ballistic Boulder",
+            "types": "Artifact Creature — Construct",
+            "colors": [],
+            "power": 2,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          },
+          "tapped": true,
+          "attacking": true,
+          "sacrificeAtEndOfCombat": true
+        }
+      ],
+      "text": "Whenever you attack with one or more Goblins and/or Orcs, create a 2/1 colorless Construct artifact creature token with flying named Ballistic Boulder that's tapped and attacking. Sacrifice that token at end of combat.",
+      "when": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "anyOf": [
+            {
+              "subtype": "Goblin"
+            },
+            {
+              "subtype": "Orc"
+            }
+          ],
+          "attacking": true
+        }
+      }
+    }
+  ]
+}

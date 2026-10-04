@@ -1,0 +1,62 @@
+{
+  "name": "Frodo, Determined Hero",
+  "replaces": [
+    "PreventDamageToSelfDuringYourTurn"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Attach that Equipment to Frodo?",
+          "effects": [
+            {
+              "attach": "target",
+              "to": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Frodo enters or attacks, you may attach target Equipment you control with mana value 2 or 3 to Frodo.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment",
+            "minManaValue": 2,
+            "maxManaValue": 3
+          },
+          "text": "target Equipment you control with mana value 2 or 3"
+        }
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Attach that Equipment to Frodo?",
+          "effects": [
+            {
+              "attach": "target",
+              "to": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Frodo enters or attacks, you may attach target Equipment you control with mana value 2 or 3 to Frodo.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment",
+            "minManaValue": 2,
+            "maxManaValue": 3
+          },
+          "text": "target Equipment you control with mana value 2 or 3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "The Mouth of Sauron",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        },
+        {
+          "amass": {
+            "graveyard": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            },
+            "of": "target"
+          },
+          "type": "Orc"
+        }
+      ],
+      "text": "When The Mouth of Sauron enters, target player mills three cards. Then amass Orcs X, where X is the number of instant and sorcery cards in that player's graveyard.",
+      "targets": [
+        "player"
+      ]
+    }
+  ]
+}

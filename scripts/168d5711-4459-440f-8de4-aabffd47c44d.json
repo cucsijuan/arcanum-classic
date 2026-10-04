@@ -1,0 +1,35 @@
+{
+  "name": "Rosie Cotton of South Lane",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When Rosie Cotton enters, create a Food token."
+    },
+    {
+      "trigger": "tokenCreated",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you create a token, put a +1/+1 counter on target creature you control other than Rosie Cotton.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "target creature you control other than Rosie Cotton"
+        }
+      ]
+    }
+  ]
+}

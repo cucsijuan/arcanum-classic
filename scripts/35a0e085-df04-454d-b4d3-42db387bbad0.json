@@ -1,0 +1,31 @@
+{
+  "name": "Fear, Fire, Foes!",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damageCantBePrevented": true
+      },
+      {
+        "damage": "X",
+        "to": "target"
+      },
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "targetController",
+          "exceptTargets": true
+        }
+      }
+    ],
+    "text": "Damage can't be prevented this turn. Fear, Fire, Foes! deals X damage to target creature and 1 damage to each other creature with the same controller."
+  }
+}

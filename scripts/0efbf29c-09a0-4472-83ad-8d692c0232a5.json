@@ -1,0 +1,41 @@
+{
+  "name": "Lost Isle Calling",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "verse"
+        }
+      ],
+      "text": "Whenever you scry, put a verse counter on this enchantment."
+    },
+    {
+      "cost": "{4}{U}{U}, exile",
+      "sorcery": true,
+      "effects": [
+        {
+          "draw": {
+            "counters": "verse"
+          }
+        },
+        {
+          "if": {
+            "atLeast": {
+              "counters": "verse"
+            },
+            "value": 7
+          },
+          "then": [
+            {
+              "extraTurn": true
+            }
+          ]
+        }
+      ],
+      "text": "{4}{U}{U}, Exile this enchantment: Draw a card for each verse counter on this enchantment. If it had seven or more verse counters on it, take an extra turn after this one. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Elven Farsight",
+  "spell": {
+    "effects": [
+      {
+        "scry": 3
+      },
+      {
+        "revealTop": {
+          "types": [
+            "creature"
+          ]
+        },
+        "optional": true,
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Scry 3, then you may reveal the top card of your library. If a creature card is revealed this way, draw a card."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Scroll of Isildur",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileYouControl": true
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "I — Gain control of up to one target artifact for as long as you control this Saga. The Ring tempts you.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "artifact",
+          "optional": true,
+          "text": "up to one target artifact"
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "counters": 1,
+          "what": "eachTarget",
+          "kind": "stun"
+        }
+      ],
+      "text": "II — Tap up to two target creatures. Put a stun counter on each of them.",
+      "chapters": [
+        2
+      ],
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "tapped": true
+            },
+            "controlledBy": "target"
+          }
+        }
+      ],
+      "text": "III — Draw a card for each tapped creature target opponent controls.",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

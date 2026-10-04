@@ -1,0 +1,48 @@
+{
+  "name": "King of the Oathbreakers",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfSpell",
+      "effects": [
+        {
+          "phaseOut": "triggered"
+        }
+      ],
+      "text": "Whenever King of the Oathbreakers or another Spirit you control becomes the target of a spell, it phases out.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Spirit"
+      }
+    },
+    {
+      "trigger": "phasesIn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever King of the Oathbreakers or another Spirit you control phases in, create a tapped 1/1 white Spirit creature token with flying.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Spirit"
+      }
+    }
+  ]
+}

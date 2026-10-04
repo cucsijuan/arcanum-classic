@@ -1,0 +1,18 @@
+{
+  "name": "Ringsight",
+  "spell": {
+    "effects": [
+      {
+        "ringTempts": true
+      },
+      {
+        "search": {
+          "sharesColorWithYourLegendary": true
+        },
+        "to": "hand",
+        "reveal": true
+      }
+    ],
+    "text": "The Ring tempts you. Search your library for a card that shares a color with a legendary creature you control, reveal it, put it into your hand, then shuffle."
+  }
+}

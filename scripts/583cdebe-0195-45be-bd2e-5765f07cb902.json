@@ -1,0 +1,23 @@
+{
+  "name": "Mines of Moria",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{3}{R}, {T}, exileGraveyardCards:3",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{3}{R}, {T}, Exile three cards from your graveyard: Create two Treasure tokens."
+    }
+  ]
+}

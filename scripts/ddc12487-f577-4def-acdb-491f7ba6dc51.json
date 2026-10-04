@@ -1,0 +1,39 @@
+{
+  "name": "Legolas, Counter of Kills",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "may": "Untap Legolas?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "untap": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you scry, if Legolas is tapped, you may untap it. Do this only once each turn.",
+      "if": {
+        "not": "untapped"
+      }
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, put a +1/+1 counter on Legolas.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      }
+    }
+  ]
+}

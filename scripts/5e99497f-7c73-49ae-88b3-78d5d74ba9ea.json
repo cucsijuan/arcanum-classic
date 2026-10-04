@@ -1,0 +1,39 @@
+{
+  "name": "Legolas, Master Archer",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a spell that targets Legolas, put a +1/+1 counter on Legolas.",
+      "targetsSource": true
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "bite": "self",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a spell that targets a creature you don't control, Legolas deals damage equal to its power to up to one target creature.",
+      "spellTargets": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Samwise Gamgee",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever another nontoken creature you control enters, create a Food token.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false
+      }
+    },
+    {
+      "cost": "sacrifice:Food*3",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "historic": true
+          },
+          "text": "target historic card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Sacrifice three Foods: Return target historic card from your graveyard to your hand."
+    }
+  ]
+}

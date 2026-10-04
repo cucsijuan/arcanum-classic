@@ -1,0 +1,23 @@
+{
+  "name": "Wizard's Rockets",
+  "abilities": [
+    {
+      "cost": "{X}, {T}, sacrifice",
+      "effects": [
+        {
+          "addManaCombination": "X"
+        }
+      ],
+      "text": "{X}, {T}, Sacrifice this artifact: Add X mana in any combination of colors."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, draw a card."
+    }
+  ]
+}

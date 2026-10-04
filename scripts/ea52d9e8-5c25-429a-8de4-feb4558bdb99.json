@@ -1,0 +1,24 @@
+{
+  "name": "Grond, the Gatebreaker",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "addTypes": [
+          "creature"
+        ],
+        "while": {
+          "all": [
+            "yourTurn",
+            {
+              "control": {
+                "subtype": "Army"
+              }
+            }
+          ]
+        }
+      },
+      "text": "As long as it's your turn and you control an Army, Grond is an artifact creature."
+    }
+  ]
+}

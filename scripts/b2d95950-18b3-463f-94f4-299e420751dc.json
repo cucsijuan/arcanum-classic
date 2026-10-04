@@ -1,0 +1,34 @@
+{
+  "name": "Éomer, Marshal of Rohan",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "Whenever one or more other attacking legendary creatures you control die, untap all creatures you control. After this phase, there is an additional combat phase. This ability triggers only once each turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "supertype": "legendary",
+        "attacking": true
+      },
+      "batched": true,
+      "oncePerTurn": true
+    }
+  ]
+}

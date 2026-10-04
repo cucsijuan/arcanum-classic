@@ -1,0 +1,45 @@
+{
+  "name": "Fangorn, Tree Shepherd",
+  "replaces": [
+    "KeepGreenMana"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Treefolk",
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Treefolk you control have vigilance."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "addMana": "{G}",
+          "times": {
+            "attacking": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Treefolk"
+            },
+            "times": 2
+          }
+        }
+      ],
+      "text": "Whenever one or more Treefolk you control attack, add twice that much {G}.",
+      "when": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "subtype": "Treefolk",
+          "attacking": true
+        }
+      }
+    }
+  ]
+}

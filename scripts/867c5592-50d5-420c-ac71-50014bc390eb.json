@@ -1,0 +1,24 @@
+{
+  "name": "Barrow-Blade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    },
+    {
+      "trigger": "equippedBlocksOrBlocked",
+      "effects": [
+        {
+          "loseAllAbilities": "triggered"
+        }
+      ],
+      "text": "Whenever equipped creature blocks or becomes blocked by a creature, that creature loses all abilities until end of turn."
+    }
+  ]
+}

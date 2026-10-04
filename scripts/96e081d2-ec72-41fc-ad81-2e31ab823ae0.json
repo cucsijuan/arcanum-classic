@@ -1,0 +1,24 @@
+{
+  "name": "Breaking of the Fellowship",
+  "spell": {
+    "targetRule": "sameController",
+    "targets": [
+      "creature:opponent",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "text": "another target creature that player controls"
+      }
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2"
+      },
+      {
+        "ringTempts": true
+      }
+    ],
+    "text": "Target creature an opponent controls deals damage equal to its power to another target creature that player controls. The Ring tempts you."
+  }
+}

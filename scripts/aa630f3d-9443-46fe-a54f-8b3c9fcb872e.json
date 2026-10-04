@@ -1,0 +1,32 @@
+{
+  "name": "Shadowfax, Lord of Horses",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Horse",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Horses you control have haste."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "creature"
+            ],
+            "lesserPower": true
+          },
+          "one": true,
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever Shadowfax attacks, you may put a creature card with lesser power from your hand onto the battlefield tapped and attacking."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Shire Scarecrow",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{1}: Add one mana of any color. Activate only once each turn."
+    }
+  ]
+}

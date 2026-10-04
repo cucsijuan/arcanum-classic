@@ -1,0 +1,46 @@
+{
+  "name": "Boromir, Warden of the Tower",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "counter": "triggered"
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, if no mana was spent to cast it, counter that spell.",
+      "if": {
+        "not": {
+          "atLeast": "manaSpent",
+          "value": 1
+        }
+      }
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "Sacrifice Boromir: Creatures you control gain indestructible until end of turn. The Ring tempts you."
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Gandalf the Grey",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "modesOnce": true,
+      "text": "Whenever you cast an instant or sorcery spell, choose one that hasn't been chosen —",
+      "modes": [
+        {
+          "text": "You may tap or untap target permanent.",
+          "targets": [
+            "permanent"
+          ],
+          "effects": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Tap it",
+                  "effects": [
+                    {
+                      "tap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Untap it",
+                  "effects": [
+                    {
+                      "untap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Neither",
+                  "effects": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gandalf deals 3 damage to each opponent.",
+          "effects": [
+            {
+              "damage": 3,
+              "to": "opponents"
+            }
+          ]
+        },
+        {
+          "text": "Copy target instant or sorcery spell you control. You may choose new targets for the copy.",
+          "targets": [
+            {
+              "kind": "spell",
+              "controller": "you",
+              "filter": {
+                "types": [
+                  "instant",
+                  "sorcery"
+                ]
+              },
+              "text": "target instant or sorcery spell you control"
+            }
+          ],
+          "effects": [
+            {
+              "copySpell": "target"
+            }
+          ]
+        },
+        {
+          "text": "Put Gandalf on top of its owner's library.",
+          "effects": [
+            {
+              "toLibrary": "self",
+              "top": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

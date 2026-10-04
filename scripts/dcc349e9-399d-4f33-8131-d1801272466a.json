@@ -1,0 +1,36 @@
+{
+  "name": "Éowyn, Fearless Knight",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "protectionFromColorsOf": "target",
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "supertype": "legendary"
+            }
+          }
+        }
+      ],
+      "text": "When Éowyn enters, exile target creature an opponent controls with greater power. Legendary creatures you control gain protection from each of that creature's colors until end of turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "greaterPower": true
+          },
+          "text": "target creature an opponent controls with greater power"
+        }
+      ]
+    }
+  ]
+}

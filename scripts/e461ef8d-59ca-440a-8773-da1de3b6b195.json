@@ -1,0 +1,34 @@
+{
+  "name": "Bill the Pony",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Food"
+        }
+      ],
+      "text": "When Bill the Pony enters, create two Food tokens."
+    },
+    {
+      "cost": "sacrifice:Food",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Assigns damage by toughness"
+          ]
+        }
+      ],
+      "text": "Sacrifice a Food: Until end of turn, target creature you control assigns combat damage equal to its toughness rather than its power."
+    }
+  ]
+}

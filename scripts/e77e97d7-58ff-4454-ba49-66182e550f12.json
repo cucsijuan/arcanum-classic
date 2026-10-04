@@ -1,0 +1,57 @@
+{
+  "name": "Gorbag of Minas Morgul",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Sacrifice it?",
+          "effects": [
+            {
+              "sacrificeIt": "triggered"
+            },
+            {
+              "whenYouDo": {
+                "if": "youSacrificed",
+                "text": "When you do, choose one —",
+                "modes": [
+                  {
+                    "text": "Draw a card.",
+                    "effects": [
+                      {
+                        "draw": 1
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Create a Treasure token.",
+                    "effects": [
+                      {
+                        "tokens": 1,
+                        "token": "Treasure"
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Goblin or Orc you control deals combat damage to a player, you may sacrifice it. When you do, choose one —",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "anyOf": [
+          {
+            "subtype": "Goblin"
+          },
+          {
+            "subtype": "Orc"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Pippin, Guard of the Citadel",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "protectionFromChosenType": "target"
+        }
+      ],
+      "text": "{T}: Another target creature you control gains protection from the card type of your choice until end of turn."
+    }
+  ]
+}

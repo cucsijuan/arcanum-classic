@@ -1,0 +1,45 @@
+{
+  "name": "Entish Restoration",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      {
+        "if": "ferocious",
+        "then": [
+          {
+            "search": {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic"
+            },
+            "count": 3,
+            "to": "battlefield",
+            "tapped": true
+          }
+        ],
+        "else": [
+          {
+            "search": {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic"
+            },
+            "count": 2,
+            "to": "battlefield",
+            "tapped": true
+          }
+        ]
+      }
+    ],
+    "text": "Sacrifice a land. Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. If you control a creature with power 4 or greater, instead search your library for up to three basic land cards, put them onto the battlefield tapped, then shuffle."
+  }
+}

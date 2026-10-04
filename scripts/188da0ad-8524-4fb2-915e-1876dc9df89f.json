@@ -1,0 +1,17 @@
+{
+  "name": "Peregrin Took",
+  "replaces": [
+    "ExtraFoodWithTokens"
+  ],
+  "abilities": [
+    {
+      "cost": "sacrifice:Food*3",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Sacrifice three Foods: Draw a card."
+    }
+  ]
+}

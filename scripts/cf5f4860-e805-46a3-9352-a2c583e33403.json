@@ -1,0 +1,16 @@
+{
+  "name": "Storm of Saruman",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "copySpell": "triggered",
+          "notLegendary": true
+        }
+      ],
+      "text": "Whenever you cast your second spell each turn, copy it, except the copy isn't legendary. You may choose new targets for the copy.",
+      "nth": 2
+    }
+  ]
+}

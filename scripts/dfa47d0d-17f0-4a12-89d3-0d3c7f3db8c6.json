@@ -1,0 +1,31 @@
+{
+  "name": "Radagast the Brown",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "lookAtTop": {
+            "manaValue": "triggered"
+          },
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "noSharedCreatureType": true
+          },
+          "take": 1,
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "Whenever Radagast or another nontoken creature you control enters, look at the top X cards of your library, where X is that creature's mana value. You may reveal a creature card that doesn't share a creature type with a creature you control from among those cards and put it into your hand. Put the rest on the bottom of your library in a random order.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false
+      }
+    }
+  ]
+}

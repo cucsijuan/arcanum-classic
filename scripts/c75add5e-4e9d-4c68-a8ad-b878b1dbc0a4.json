@@ -1,0 +1,61 @@
+{
+  "name": "One Ring to Rule Them All",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "ringTempts": true
+        },
+        {
+          "mill": "ringBearerPower",
+          "who": "everyone"
+        }
+      ],
+      "text": "I — The Ring tempts you, then each player mills cards equal to your Ring-bearer's power.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "notSupertype": "legendary"
+            }
+          }
+        }
+      ],
+      "text": "II — Destroy all nonlegendary creatures.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "loseLife": {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "of": "affected"
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "III — Each opponent loses 1 life for each creature card in that player's graveyard.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

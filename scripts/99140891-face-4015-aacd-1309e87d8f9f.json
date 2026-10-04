@@ -1,0 +1,26 @@
+{
+  "name": "Display of Power",
+  "cantBeCopied": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "optional": true,
+        "anyNumber": true,
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "any number of target instant and/or sorcery spells"
+      }
+    ],
+    "effects": [
+      {
+        "copySpell": "eachTarget"
+      }
+    ],
+    "text": "Copy any number of target instant and/or sorcery spells. You may choose new targets for the copies."
+  }
+}

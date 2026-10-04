@@ -1,0 +1,17 @@
+{
+  "name": "Great Hall of the Citadel",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addManaCombination": 2,
+          "onlyFor": {
+            "supertype": "legendary"
+          }
+        }
+      ],
+      "text": "{1}, {T}: Add two mana in any combination of colors. Spend this mana only to cast legendary spells."
+    }
+  ]
+}

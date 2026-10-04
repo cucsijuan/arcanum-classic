@@ -1,0 +1,21 @@
+{
+  "name": "Meriadoc Brandybuck",
+  "abilities": [
+    {
+      "trigger": "youAttackPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever one or more Halflings you control attack a player, create a Food token.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Halfling"
+      }
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Doors of Durin",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "scry": 2
+        },
+        {
+          "revealTop": {
+            "types": [
+              "creature"
+            ]
+          },
+          "optional": true,
+          "effects": [
+            {
+              "reanimate": "found",
+              "tapped": true,
+              "attacking": true
+            },
+            {
+              "if": {
+                "control": {
+                  "subtype": "Dwarf"
+                }
+              },
+              "then": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "found",
+                  "keywords": [
+                    "Trample"
+                  ],
+                  "untilYourNextTurn": true
+                }
+              ]
+            },
+            {
+              "if": {
+                "control": {
+                  "subtype": "Elf"
+                }
+              },
+              "then": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "found",
+                  "keywords": [
+                    "Hexproof"
+                  ],
+                  "untilYourNextTurn": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, scry 2, then you may reveal the top card of your library. If a creature card is revealed this way, put it onto the battlefield tapped and attacking. Until your next turn, it gains trample if you control a Dwarf and hexproof if you control an Elf."
+    }
+  ]
+}
