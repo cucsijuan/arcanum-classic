@@ -1,0 +1,23 @@
+{
+  "name": "Myriad Landscape",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true,
+          "shareLandType": true
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this land: Search your library for up to two basic land cards that share a land type, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

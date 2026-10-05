@@ -1,0 +1,24 @@
+{
+  "name": "Selfless Squire",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "preventDamage": "toYou"
+        }
+      ],
+      "text": "When this creature enters, prevent all damage that would be dealt to you this turn."
+    },
+    {
+      "trigger": "damageToYouPrevented",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever damage that would be dealt to you is prevented, put that many +1/+1 counters on this creature."
+    }
+  ]
+}

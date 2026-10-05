@@ -1,0 +1,28 @@
+{
+  "name": "Banquet Guests",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Food"
+    }
+  },
+  "entersWithXCountersTimes": 2,
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:Food",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{2}, Sacrifice a Food: This creature gains indestructible until end of turn."
+    }
+  ]
+}

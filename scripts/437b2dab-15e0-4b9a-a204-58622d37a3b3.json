@@ -1,0 +1,13 @@
+{
+  "name": "Fact or Fiction",
+  "spell": {
+    "effects": [
+      {
+        "piles": 5,
+        "opponentSeparates": true,
+        "revealed": true
+      }
+    ],
+    "text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Mouth of Ronom",
+  "abilities": [
+    {
+      "cost": "{4}{S}, {T}, sacrifice",
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{S}, {T}, Sacrifice this land: It deals 4 damage to target creature.",
+      "targets": [
+        "creature"
+      ]
+    }
+  ]
+}

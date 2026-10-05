@@ -1,0 +1,94 @@
+{
+  "name": "Inscription of Abundance",
+  "spell": {
+    "modes": [
+      {
+        "text": "Put two +1/+1 counters on target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player gains X life, where X is the greatest power among creatures they control.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "gainLife": {
+              "greatestPowerOf": "target"
+            },
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature you control fights target creature you don't control.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      }
+    ],
+    "chooseCount": 1,
+    "text": "Choose one.",
+    "whenKicked": {
+      "modes": [
+        {
+          "text": "Put two +1/+1 counters on target creature.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "counters": 2,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target player gains X life, where X is the greatest power among creatures they control.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "gainLife": {
+                "greatestPowerOf": "target"
+              },
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target creature you control fights target creature you don't control.",
+          "targets": [
+            "creature:you",
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "fight": "target",
+              "with": "target2"
+            }
+          ]
+        }
+      ],
+      "chooseCount": 3,
+      "upTo": true,
+      "text": "Choose any number."
+    }
+  }
+}

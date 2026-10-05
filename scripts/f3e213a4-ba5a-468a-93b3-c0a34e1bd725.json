@@ -1,0 +1,32 @@
+{
+  "name": "Pact of Negation",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "atNextUpkeep": {
+          "effects": [
+            {
+              "mayPay": "Pay {3}{U}{U}? (If you don't, you lose the game.)",
+              "mana": "{3}{U}{U}",
+              "effects": [],
+              "else": [
+                {
+                  "loseGame": true
+                }
+              ]
+            }
+          ],
+          "text": "At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game."
+        },
+        "yours": true
+      }
+    ],
+    "text": "Counter target spell. At the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game."
+  }
+}

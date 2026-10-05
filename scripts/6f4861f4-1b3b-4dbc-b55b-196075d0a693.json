@@ -1,0 +1,46 @@
+{
+  "name": "Ishkanah, Grafwidow",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "colors": [
+              "G"
+            ],
+            "power": 1,
+            "toughness": 2,
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "Delirium — When Ishkanah enters, if there are four or more card types among cards in your graveyard, create three 1/2 green Spider creature tokens with reach.",
+      "if": {
+        "cardTypesInGraveyard": 4
+      }
+    },
+    {
+      "cost": "{6}{B}",
+      "effects": [
+        {
+          "loseLife": {
+            "count": {
+              "subtype": "Spider"
+            }
+          },
+          "who": "target"
+        }
+      ],
+      "text": "{6}{B}: Target opponent loses 1 life for each Spider you control.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

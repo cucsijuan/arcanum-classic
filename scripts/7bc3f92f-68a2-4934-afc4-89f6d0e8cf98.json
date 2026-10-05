@@ -1,0 +1,38 @@
+{
+  "name": "Dusk // Dawn",
+  "split": [
+    {
+      "spell": {
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "minPower": 3
+              }
+            }
+          }
+        ],
+        "text": "Destroy all creatures with power 3 or greater."
+      }
+    },
+    {
+      "spell": {
+        "effects": [
+          {
+            "returnFromGraveyardAll": {
+              "types": [
+                "creature"
+              ],
+              "maxPower": 2
+            }
+          }
+        ],
+        "text": "Return all creature cards with power 2 or less from your graveyard to your hand."
+      }
+    }
+  ]
+}

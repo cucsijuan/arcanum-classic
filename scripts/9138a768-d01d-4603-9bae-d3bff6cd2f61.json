@@ -1,0 +1,36 @@
+{
+  "name": "Taunt from the Rampart",
+  "spell": {
+    "effects": [
+      {
+        "goad": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        },
+        "keywords": [
+          "Can't block"
+        ],
+        "untilYourNextTurn": true
+      }
+    ],
+    "text": "Goad all creatures your opponents control. Until your next turn, those creatures can't block."
+  }
+}

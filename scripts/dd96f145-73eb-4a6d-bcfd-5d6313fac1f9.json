@@ -1,0 +1,25 @@
+{
+  "name": "Revenge of Ravens",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life and you gain 1 life.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attackingYou": true
+      }
+    }
+  ]
+}

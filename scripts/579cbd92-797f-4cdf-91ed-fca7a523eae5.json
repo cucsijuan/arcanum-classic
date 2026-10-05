@@ -1,0 +1,19 @@
+{
+  "name": "Deep Analysis",
+  "flashback": "{1}{U}",
+  "flashbackExtra": {
+    "life": 3
+  },
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      }
+    ],
+    "text": "Target player draws two cards."
+  }
+}

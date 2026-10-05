@@ -1,0 +1,15 @@
+{
+  "name": "Treasure Nabber",
+  "abilities": [
+    {
+      "trigger": "opponentTapsArtifactForMana",
+      "effects": [
+        {
+          "gainControl": "triggered",
+          "untilEndOfYourNextTurn": true
+        }
+      ],
+      "text": "Whenever an opponent taps an artifact for mana, gain control of that artifact until the end of your next turn."
+    }
+  ]
+}

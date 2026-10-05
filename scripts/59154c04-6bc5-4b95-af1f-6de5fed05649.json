@@ -1,0 +1,47 @@
+{
+  "name": "Legolas's Quick Reflexes",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach",
+          "Hexproof"
+        ]
+      },
+      {
+        "become": "target",
+        "abilities": [
+          {
+            "trigger": "becomesTapped",
+            "effects": [
+              {
+                "bite": "self",
+                "to": "target"
+              }
+            ],
+            "text": "Whenever this creature becomes tapped, it deals damage equal to its power to up to one target creature.",
+            "targets": [
+              {
+                "kind": "creature",
+                "optional": true,
+                "text": "up to one target creature"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Untap target creature. Until end of turn, it gains reach, hexproof, and \"Whenever this creature becomes tapped, it deals damage equal to its power to up to one target creature.\""
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Assemble the Entmoot",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Reach"
+        ]
+      },
+      "text": "Creatures you control have reach."
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Treefolk",
+            "types": "Creature — Treefolk",
+            "colors": [
+              "G"
+            ],
+            "power": 0,
+            "toughness": 0
+          },
+          "size": "lifeGained",
+          "tapped": true
+        },
+        {
+          "counters": 1,
+          "what": "created",
+          "kind": "reach"
+        }
+      ],
+      "text": "Sacrifice this enchantment: Create three tapped X/X green Treefolk creature tokens, where X is the amount of life you gained this turn. Put a reach counter on each of them."
+    }
+  ]
+}

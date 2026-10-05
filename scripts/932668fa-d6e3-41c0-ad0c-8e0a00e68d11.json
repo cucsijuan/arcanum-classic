@@ -1,0 +1,44 @@
+{
+  "name": "Decree of Pain",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        },
+        "noRegeneration": true
+      },
+      {
+        "draw": "destroyedThisWay"
+      }
+    ],
+    "text": "Destroy all creatures. They can't be regenerated. Draw a card for each creature destroyed this way."
+  },
+  "abilities": [
+    {
+      "trigger": "cycled",
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When you cycle this card, all creatures get -2/-2 until end of turn."
+    }
+  ]
+}

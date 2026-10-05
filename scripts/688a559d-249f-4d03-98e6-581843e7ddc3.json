@@ -1,0 +1,28 @@
+{
+  "name": "Riders of Rohan",
+  "dash": "{4}{R}{W}",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Human Knight",
+            "types": "Creature — Human Knight",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Trample",
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 2/2 red Human Knight creature tokens with trample and haste."
+    }
+  ]
+}

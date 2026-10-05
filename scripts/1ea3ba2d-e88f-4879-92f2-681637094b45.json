@@ -1,0 +1,50 @@
+{
+  "name": "Nazgûl Battle-Mace",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Menace",
+          "Deathtouch"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "sacrifice": 1,
+                "filter": {},
+                "who": "triggeredPlayer"
+              }
+            ],
+            "text": "Annihilator 1 (Whenever this creature attacks, defending player sacrifices a permanent of their choice.)"
+          },
+          {
+            "trigger": "opponentSacrifices",
+            "effects": [
+              {
+                "unless": "triggeredPlayer",
+                "options": [
+                  {
+                    "life": 3
+                  }
+                ],
+                "otherwise": [
+                  {
+                    "reanimate": "triggered"
+                  }
+                ]
+              }
+            ],
+            "text": "Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life.",
+            "filter": {
+              "token": false
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature has menace, deathtouch, annihilator 1, and \"Whenever an opponent sacrifices a nontoken permanent, put that card onto the battlefield under your control unless that player pays 3 life.\""
+    }
+  ]
+}

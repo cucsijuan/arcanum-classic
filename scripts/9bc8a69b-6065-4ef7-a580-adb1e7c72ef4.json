@@ -1,0 +1,37 @@
+{
+  "name": "Timber Protector",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Treefolk",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Treefolk creatures you control get +1/+1."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "other": true,
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Treefolk"
+            },
+            {
+              "subtype": "Forest"
+            }
+          ]
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Other Treefolk and Forests you control have indestructible."
+    }
+  ]
+}

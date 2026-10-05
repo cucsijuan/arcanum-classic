@@ -1,0 +1,26 @@
+{
+  "name": "Sorcerous Squall",
+  "delve": true,
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "mill": 9,
+        "who": "target"
+      },
+      {
+        "castFromGraveyard": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "of": "target",
+        "free": true
+      }
+    ],
+    "text": "Target opponent mills nine cards, then you may cast an instant or sorcery spell from that player's graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."
+  }
+}

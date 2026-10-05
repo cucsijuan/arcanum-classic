@@ -1,0 +1,40 @@
+{
+  "name": "Shadowspear",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample",
+          "Lifelink"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has trample and lifelink."
+    },
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "controller": "opponent"
+            }
+          },
+          "loseKeywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}: Permanents your opponents control lose hexproof and indestructible until end of turn."
+    }
+  ]
+}

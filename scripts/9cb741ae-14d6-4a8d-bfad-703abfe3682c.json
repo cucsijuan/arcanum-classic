@@ -1,0 +1,21 @@
+{
+  "name": "Frontier Warmonger",
+  "abilities": [
+    {
+      "trigger": "creaturesAttackOpponent",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "attackersOfTriggered",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "Whenever one or more creatures attack one of your opponents or a planeswalker they control, those creatures gain menace until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Sunset Revelry",
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "opponentHasMore": "life"
+        },
+        "then": [
+          {
+            "gainLife": 4
+          }
+        ]
+      },
+      {
+        "if": {
+          "opponentHasMore": "creatures"
+        },
+        "then": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Human",
+              "types": "Creature — Human",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      },
+      {
+        "if": {
+          "opponentHasMore": "cards"
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "If an opponent has more life than you, you gain 4 life. If an opponent controls more creatures than you, create two 1/1 white Human creature tokens. If an opponent has more cards in hand than you, draw a card."
+  }
+}

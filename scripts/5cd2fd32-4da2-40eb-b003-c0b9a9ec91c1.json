@@ -1,0 +1,19 @@
+{
+  "name": "Cloudstone Curio",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "mayBounceSharingType": true
+        }
+      ],
+      "text": "Whenever a nonartifact permanent you control enters, you may return another permanent you control that shares a permanent type with it to its owner's hand.",
+      "filter": {
+        "not": [
+          "artifact"
+        ]
+      }
+    }
+  ]
+}

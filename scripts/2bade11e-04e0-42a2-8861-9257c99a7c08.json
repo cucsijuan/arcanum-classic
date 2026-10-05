@@ -1,0 +1,37 @@
+{
+  "name": "Saruman, the White Hand",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "amass": "triggerAmount",
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, amass Orcs X, where X is that spell's mana value.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Goblin"
+            },
+            {
+              "subtype": "Orc"
+            }
+          ]
+        },
+        "grantsWard": "{2}"
+      },
+      "text": "Goblins and Orcs you control have ward {2}."
+    }
+  ]
+}

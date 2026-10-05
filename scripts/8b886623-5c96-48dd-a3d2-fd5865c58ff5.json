@@ -1,0 +1,29 @@
+{
+  "name": "Plea for Power",
+  "spell": {
+    "effects": [
+      {
+        "vote": [
+          "time",
+          "knowledge"
+        ]
+      },
+      {
+        "if": {
+          "moreVotes": 0
+        },
+        "then": [
+          {
+            "extraTurn": true
+          }
+        ],
+        "else": [
+          {
+            "draw": 3
+          }
+        ]
+      }
+    ],
+    "text": "Will of the council — Starting with you, each player votes for time or knowledge. If time gets more votes, take an extra turn after this one. If knowledge gets more votes or the vote is tied, draw three cards."
+  }
+}

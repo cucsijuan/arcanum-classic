@@ -1,0 +1,70 @@
+{
+  "name": "Of Herbs and Stewed Rabbit",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "I — Put a +1/+1 counter on up to one target creature. Create a Food token.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "II — Draw a card. Create a Food token.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "subtype": "Food"
+            }
+          },
+          "token": {
+            "name": "Halfling",
+            "types": "Creature — Halfling",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "III — Create a 1/1 white Halfling creature token for each Food you control.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

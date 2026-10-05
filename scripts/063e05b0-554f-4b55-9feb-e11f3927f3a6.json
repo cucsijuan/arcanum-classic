@@ -1,0 +1,69 @@
+{
+  "name": "Círdan the Shipwright",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "vote": "player",
+          "secret": true
+        },
+        {
+          "draw": "votesReceived",
+          "who": "everyone"
+        },
+        {
+          "eachPlayer": [
+            {
+              "putFromHand": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              },
+              "one": true
+            }
+          ],
+          "onlyIf": "noVotes"
+        }
+      ],
+      "text": "Secret council — Whenever Círdan enters or attacks, each player secretly votes for a player, then those votes are revealed. Each player draws a card for each vote they received. Each player who received no votes may put a permanent card from their hand onto the battlefield."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "vote": "player",
+          "secret": true
+        },
+        {
+          "draw": "votesReceived",
+          "who": "everyone"
+        },
+        {
+          "eachPlayer": [
+            {
+              "putFromHand": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              },
+              "one": true
+            }
+          ],
+          "onlyIf": "noVotes"
+        }
+      ],
+      "text": "Secret council — Whenever Círdan enters or attacks, each player secretly votes for a player, then those votes are revealed. Each player draws a card for each vote they received. Each player who received no votes may put a permanent card from their hand onto the battlefield."
+    }
+  ]
+}

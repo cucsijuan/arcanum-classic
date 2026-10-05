@@ -1,0 +1,22 @@
+{
+  "name": "Extract from Darkness",
+  "spell": {
+    "effects": [
+      {
+        "mill": 2,
+        "who": "everyone"
+      },
+      {
+        "returnFromGraveyard": {
+          "types": [
+            "creature"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "anyGraveyard": true
+      }
+    ],
+    "text": "Each player mills two cards. Then you put a creature card from a graveyard onto the battlefield under your control."
+  }
+}

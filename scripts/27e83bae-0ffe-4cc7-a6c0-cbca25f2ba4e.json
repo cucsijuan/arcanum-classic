@@ -1,0 +1,48 @@
+{
+  "name": "Gilraen, Dúnedain Protector",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "may": "Return that card to the battlefield now?",
+          "effects": [
+            {
+              "reanimate": "target",
+              "ownerControl": true
+            }
+          ],
+          "else": [
+            {
+              "atNextEndStepAbout": "target",
+              "effects": [
+                {
+                  "reanimate": "triggered",
+                  "ownerControl": true,
+                  "counterKinds": [
+                    "vigilance",
+                    "lifelink"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Exile another target creature you control. You may return that card to the battlefield under its owner's control. If you don't, at the beginning of the next end step, return that card to the battlefield under its owner's control with a vigilance counter and a lifelink counter on it.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Galadriel, Elven-Queen",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "vote": [
+            "dominion",
+            "guidance"
+          ]
+        },
+        {
+          "if": {
+            "moreVotes": 0
+          },
+          "then": [
+            {
+              "ringTempts": true
+            },
+            {
+              "counters": 1,
+              "what": "yourRingBearer"
+            }
+          ],
+          "else": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Will of the council — At the beginning of combat on your turn, if another Elf entered the battlefield under your control this turn, starting with you, each player votes for dominion or guidance. If dominion gets more votes, the Ring tempts you, then you put a +1/+1 counter on your Ring-bearer. If guidance gets more votes or the vote is tied, draw a card.",
+      "if": {
+        "enteredThisTurn": {
+          "subtype": "Elf",
+          "other": true
+        }
+      }
+    }
+  ]
+}

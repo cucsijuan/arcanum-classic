@@ -1,0 +1,58 @@
+{
+  "name": "Shelob, Dread Weaver",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "exile": "triggered",
+          "linked": true
+        }
+      ],
+      "text": "Whenever a nontoken creature an opponent controls dies, exile it.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "token": false
+      }
+    },
+    {
+      "cost": "{2}{B}, returnExiled:creature",
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{B}, Put a creature card exiled with Shelob into its owner's graveyard: Put two +1/+1 counters on Shelob. Draw a card."
+    },
+    {
+      "cost": "{X}{1}{B}",
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{X}{1}{B}: Put target creature card with mana value X exiled with Shelob onto the battlefield tapped under your control.",
+      "targets": [
+        {
+          "kind": "exiledCard",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "exiledWithSource": true,
+            "manaValueIsX": true
+          },
+          "text": "target creature card with mana value X exiled with Shelob"
+        }
+      ]
+    }
+  ]
+}

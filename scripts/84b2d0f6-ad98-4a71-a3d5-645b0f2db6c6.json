@@ -1,0 +1,15 @@
+{
+  "name": "Rally the Galadhrim",
+  "conspire": true,
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "copy": "target"
+      }
+    ],
+    "text": "Create a token that's a copy of target creature you control."
+  }
+}

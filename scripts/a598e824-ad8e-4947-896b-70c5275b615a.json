@@ -1,0 +1,32 @@
+{
+  "name": "Moria Scavenger",
+  "abilities": [
+    {
+      "cost": "{T}, discard",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "atLeast": {
+              "discarded": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "amass": 1,
+              "type": "Orc"
+            }
+          ]
+        }
+      ],
+      "text": "{T}, Discard a card: Draw a card. If the discarded card was a creature card, amass Orcs 1."
+    }
+  ]
+}

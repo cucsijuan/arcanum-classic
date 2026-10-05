@@ -1,0 +1,36 @@
+{
+  "name": "The Ozolith",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "effects": [
+        {
+          "takeCountersOfTriggered": true
+        }
+      ],
+      "text": "Whenever a creature you control leaves the battlefield, if it had counters on it, put those counters on The Ozolith.",
+      "if": "triggeredHadCounters"
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "may": "Move all counters from The Ozolith onto target creature?",
+          "effects": [
+            {
+              "moveAllCounters": {
+                "from": "self",
+                "to": "target"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if The Ozolith has counters on it, you may move all counters from The Ozolith onto target creature.",
+      "targets": [
+        "creature"
+      ],
+      "if": "hasAnyCounters"
+    }
+  ]
+}

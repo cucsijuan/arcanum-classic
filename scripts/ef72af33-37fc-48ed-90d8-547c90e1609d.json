@@ -1,0 +1,21 @@
+{
+  "name": "Trap the Trespassers",
+  "spell": {
+    "effects": [
+      {
+        "vote": "creature",
+        "secret": true,
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "controller": "opponent"
+        }
+      },
+      {
+        "stunVoted": true
+      }
+    ],
+    "text": "Secret council — Each player secretly votes for a creature you don't control, then those votes are revealed. For each creature with one or more votes, put that many stun counters on it, then tap it."
+  }
+}

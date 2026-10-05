@@ -1,0 +1,28 @@
+{
+  "name": "Visions of Glory",
+  "flashback": "{8}{W}{W}",
+  "flashbackReduction": "greatestCommanderManaValue",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "token": {
+          "name": "Human",
+          "types": "Creature — Human",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ],
+    "text": "Create a 1/1 white Human creature token for each creature you control."
+  }
+}

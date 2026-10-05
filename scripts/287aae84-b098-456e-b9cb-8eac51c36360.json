@@ -1,0 +1,15 @@
+{
+  "name": "Lidless Gaze",
+  "spell": {
+    "effects": [
+      {
+        "exileTopPlayable": 1,
+        "of": "everyone",
+        "chooseOne": false,
+        "untilNextTurn": true,
+        "anyMana": true
+      }
+    ],
+    "text": "Exile the top card of each player's library. Until the end of your next turn, you may play those cards, and mana of any type can be spent to cast those spells."
+  }
+}

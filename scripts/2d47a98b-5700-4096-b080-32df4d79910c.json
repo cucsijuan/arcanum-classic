@@ -1,0 +1,39 @@
+{
+  "name": "Travel Through Caradhras",
+  "spell": {
+    "exileAfter": true,
+    "effects": [
+      {
+        "vote": [
+          "Redhorn Pass",
+          "Mines of Moria"
+        ]
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "count": {
+          "votes": 0
+        },
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "repeat": {
+          "votes": 1
+        },
+        "effects": [
+          {
+            "returnFromGraveyard": {},
+            "count": 1
+          }
+        ]
+      }
+    ],
+    "text": "Council's dilemma — Starting with you, each player votes for Redhorn Pass or Mines of Moria. For each Redhorn Pass vote, search your library for a basic land card and put it onto the battlefield tapped. If you search your library this way, shuffle. For each Mines of Moria vote, return a card from your graveyard to your hand. Exile Travel Through Caradhras."
+  }
+}

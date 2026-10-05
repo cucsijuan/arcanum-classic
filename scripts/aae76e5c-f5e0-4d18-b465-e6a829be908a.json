@@ -1,0 +1,33 @@
+{
+  "name": "Shiny Impetus",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature gets +2/+2 and is goaded."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, you create a Treasure token.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      }
+    }
+  ]
+}

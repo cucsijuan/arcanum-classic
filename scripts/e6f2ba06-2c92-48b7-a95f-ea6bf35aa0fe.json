@@ -1,0 +1,20 @@
+{
+  "name": "Olórin's Searing Light",
+  "spell": {
+    "effects": [
+      {
+        "opponentsExileGreatestPower": true,
+        "damageIf": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Each opponent exiles a creature with the greatest power among creatures that player controls. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Olórin's Searing Light deals damage to each opponent equal to the power of the creature they exiled."
+  }
+}

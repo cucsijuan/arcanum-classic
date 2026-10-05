@@ -1,0 +1,10 @@
+{
+  "name": "Everflowing Chalice",
+  "multikicker": "{2}",
+  "entersWithCounters": "timesKicked",
+  "entersWithCounterKind": "charge",
+  "tapForMana": "{C}",
+  "manaAmountFrom": {
+    "counters": "charge"
+  }
+}

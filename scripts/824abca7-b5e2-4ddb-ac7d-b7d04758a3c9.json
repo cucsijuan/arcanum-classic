@@ -1,0 +1,43 @@
+{
+  "name": "Gimli's Reckless Might",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creatures you control have haste."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "fight": "target",
+          "with": "target2"
+        }
+      ],
+      "text": "Formidable — Whenever you attack, if creatures you control have total power 8 or greater, target attacking creature you control fights up to one target creature you don't control.",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature you control"
+        },
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true,
+          "text": "up to one target creature you don't control"
+        }
+      ],
+      "if": {
+        "totalPower": 8
+      }
+    }
+  ]
+}

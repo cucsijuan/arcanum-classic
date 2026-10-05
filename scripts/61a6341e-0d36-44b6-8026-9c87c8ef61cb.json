@@ -1,0 +1,13 @@
+{
+  "name": "Second Harvest",
+  "spell": {
+    "effects": [
+      {
+        "copyEachYouControl": {
+          "token": true
+        }
+      }
+    ],
+    "text": "For each token you control, create a token that's a copy of that permanent."
+  }
+}

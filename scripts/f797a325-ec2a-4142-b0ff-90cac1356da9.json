@@ -1,0 +1,28 @@
+{
+  "name": "Flamerush Rider",
+  "dash": "{2}{R}{R}",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "copy": "target",
+          "tapped": true,
+          "attacking": true,
+          "exileAtEndOfCombat": true
+        }
+      ],
+      "text": "Whenever this creature attacks, create a token that's a copy of another target attacking creature and that's tapped and attacking. Exile the token at end of combat.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true,
+            "other": true
+          },
+          "text": "another target attacking creature"
+        }
+      ]
+    }
+  ]
+}

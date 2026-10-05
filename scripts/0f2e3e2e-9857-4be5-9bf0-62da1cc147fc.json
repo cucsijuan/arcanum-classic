@@ -1,0 +1,40 @@
+{
+  "name": "Lobelia, Defender of Bag End",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileTopFaceDown": "opponents"
+        }
+      ],
+      "text": "When Lobelia enters, look at the top card of each opponent's library and exile those cards face down."
+    },
+    {
+      "cost": "{T}, sacrifice:artifact",
+      "modes": [
+        {
+          "text": "Until end of turn, you may play a card exiled with Lobelia without paying its mana cost.",
+          "effects": [
+            {
+              "playOneExiledFree": true
+            }
+          ]
+        },
+        {
+          "text": "Each opponent loses 2 life and you gain 2 life.",
+          "effects": [
+            {
+              "loseLife": 2,
+              "who": "opponents"
+            },
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "{T}, Sacrifice an artifact: Choose one —"
+    }
+  ]
+}

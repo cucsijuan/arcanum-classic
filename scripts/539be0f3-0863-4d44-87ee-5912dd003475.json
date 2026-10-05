@@ -1,0 +1,9 @@
+{
+  "name": "Dearly Departed",
+  "graveyardEnterBonus": {
+    "types": [
+      "creature"
+    ],
+    "subtype": "Human"
+  }
+}

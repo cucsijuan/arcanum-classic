@@ -1,0 +1,24 @@
+{
+  "name": "Gandalf of the Secret Fire",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "suspendWhenResolves": 3
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell from your hand during an opponent's turn, exile that card with three time counters on it instead of putting it into your graveyard as it resolves. Then if the exiled card doesn't have suspend, it gains suspend.",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "castFromHand": true
+      },
+      "when": {
+        "not": "yourTurn"
+      }
+    }
+  ]
+}

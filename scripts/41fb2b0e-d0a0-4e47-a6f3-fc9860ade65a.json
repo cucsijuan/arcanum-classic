@@ -1,0 +1,39 @@
+{
+  "name": "Marshal's Anthem",
+  "multikicker": "{1}{W}",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creatures you control get +1/+1."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "reanimate": "eachTarget"
+        }
+      ],
+      "text": "When this enchantment enters, return up to X target creature cards from your graveyard to the battlefield, where X is the number of times this enchantment was kicked.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "optional": true,
+          "upTo": "timesKicked",
+          "text": "up to X target creature cards from your graveyard"
+        }
+      ]
+    }
+  ]
+}

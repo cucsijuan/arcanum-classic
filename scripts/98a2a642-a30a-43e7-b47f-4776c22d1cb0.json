@@ -1,0 +1,49 @@
+{
+  "name": "Éowyn, Shieldmaiden",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Human Knight",
+            "types": "Creature — Human Knight",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Trample",
+              "Haste"
+            ]
+          }
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Human"
+            },
+            "count": 6
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if another Human entered the battlefield under your control this turn, create two 2/2 red Human Knight creature tokens with trample and haste. Then if you control six or more Humans, draw a card.",
+      "if": {
+        "enteredThisTurn": {
+          "subtype": "Human",
+          "other": true
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Fell Beast's Shriek",
+  "splice": "{2}{U}{R}",
+  "spell": {
+    "effects": [
+      {
+        "choose": {
+          "types": [
+            "creature"
+          ],
+          "controller": "you"
+        },
+        "chooser": "opponents"
+      },
+      {
+        "tap": "chosen"
+      },
+      {
+        "goad": "chosen"
+      }
+    ],
+    "text": "Each opponent chooses a creature they control. Tap and goad the chosen creatures."
+  }
+}

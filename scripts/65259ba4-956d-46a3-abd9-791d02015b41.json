@@ -1,0 +1,23 @@
+{
+  "name": "Mists of Lórien",
+  "replicate": "{U}",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "bounceSameManaValue": "target"
+      }
+    ],
+    "text": "Return target nonland permanent and each other nonland permanent with the same mana value as that permanent to their owners' hands."
+  }
+}

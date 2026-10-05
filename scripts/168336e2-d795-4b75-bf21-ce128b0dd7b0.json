@@ -1,0 +1,22 @@
+{
+  "name": "Harsh Mentor",
+  "abilities": [
+    {
+      "trigger": "opponentActivatesAbility",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent activates an ability of an artifact, creature, or land on the battlefield, if it isn't a mana ability, this creature deals 2 damage to that player.",
+      "filter": {
+        "types": [
+          "artifact",
+          "creature",
+          "land"
+        ]
+      }
+    }
+  ]
+}

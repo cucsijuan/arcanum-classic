@@ -1,0 +1,28 @@
+{
+  "name": "Seeds of Renewal",
+  "undaunted": true,
+  "spell": {
+    "exileAfter": true,
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "text": "up to two target cards from your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "text": "up to two target cards from your graveyard"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      }
+    ],
+    "text": "Return up to two target cards from your graveyard to your hand. Exile Seeds of Renewal."
+  }
+}

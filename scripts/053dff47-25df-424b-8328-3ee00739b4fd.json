@@ -1,0 +1,27 @@
+{
+  "name": "Grey Host Reinforcements",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileGraveyard": "target"
+        },
+        {
+          "counters": {
+            "exiled": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "what": "self"
+        }
+      ],
+      "text": "When this creature enters, exile target player's graveyard. Put a number of +1/+1 counters on this creature equal to the number of creature cards exiled this way.",
+      "targets": [
+        "player"
+      ]
+    }
+  ]
+}

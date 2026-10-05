@@ -1,0 +1,50 @@
+{
+  "name": "Lothlórien Blade",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "bite": "attached",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever equipped creature attacks, it deals damage equal to its power to target creature defending player controls.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controlledByDefendingPlayer": true,
+          "text": "target creature defending player controls"
+        }
+      ]
+    },
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip Elf {2}",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf"
+          },
+          "text": "target Elf you control"
+        }
+      ]
+    }
+  ]
+}

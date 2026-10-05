@@ -1,0 +1,25 @@
+{
+  "name": "Crypt Incursion",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "exileGraveyard": "target",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "gainLife": {
+          "exiled": {},
+          "times": 3
+        }
+      }
+    ],
+    "text": "Exile all creature cards from target player's graveyard. You gain 3 life for each card exiled this way."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Well of Lost Dreams",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "mayPayX": "Pay {X} to draw X cards (X up to the life gained)?",
+          "max": "triggerAmount",
+          "effects": [
+            {
+              "draw": "X"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, you may pay {X}, where X is less than or equal to the amount of life you gained. If you do, draw X cards."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Lord of the Nazgûl",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Wraith",
+        "protectionFromRingBearers": true
+      },
+      "text": "Wraiths you control have protection from Ring-bearers."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wraith",
+            "types": "Creature — Wraith",
+            "colors": [
+              "B"
+            ],
+            "power": 3,
+            "toughness": 3,
+            "keywords": [
+              "Menace"
+            ]
+          }
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Wraith"
+            },
+            "count": 9
+          },
+          "then": [
+            {
+              "become": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "subtype": "Wraith"
+                }
+              },
+              "power": 9,
+              "toughness": 9
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, create a 3/3 black Wraith creature token with menace. Then if you control nine or more Wraiths, Wraiths you control have base power and toughness 9/9 until end of turn.",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Bilbo, Birthday Celebrant",
+  "replaces": [
+    "ExtraLifeGain"
+  ],
+  "abilities": [
+    {
+      "cost": "{2}{W}{B}{G}, {T}, exile",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ]
+          },
+          "count": 99,
+          "to": "battlefield"
+        }
+      ],
+      "text": "{2}{W}{B}{G}, {T}, Exile Bilbo: Search your library for any number of creature cards, put them onto the battlefield, then shuffle. Activate only if you have 111 or more life.",
+      "activateIf": {
+        "life": 111
+      }
+    }
+  ]
+}

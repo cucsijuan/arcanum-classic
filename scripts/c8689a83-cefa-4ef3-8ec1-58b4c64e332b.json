@@ -1,0 +1,73 @@
+{
+  "name": "In the Darkness Bind Them",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wraith",
+            "types": "Creature — Wraith",
+            "colors": [
+              "B"
+            ],
+            "power": 3,
+            "toughness": 3,
+            "keywords": [
+              "Menace"
+            ]
+          }
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "I, II, III — Create a 3/3 black Wraith creature token with menace. The Ring tempts you.",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "gainControl": "eachTarget",
+          "untilEndOfTurn": true
+        },
+        {
+          "untap": "eachTarget"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "eachTarget",
+          "keywords": [
+            "Haste"
+          ]
+        },
+        {
+          "ringTempts": true
+        }
+      ],
+      "text": "IV — For each opponent, gain control of up to one target creature that player controls until end of turn. Untap those creatures. They gain haste until end of turn. The Ring tempts you.",
+      "chapters": [
+        4
+      ],
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true,
+          "upTo": "opponentCount",
+          "text": "up to one target creature each opponent controls"
+        }
+      ]
+    }
+  ]
+}

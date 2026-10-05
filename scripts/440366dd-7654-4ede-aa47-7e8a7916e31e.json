@@ -1,0 +1,69 @@
+{
+  "name": "Song of Eärendil",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "scry": 2
+        },
+        {
+          "draw": 2
+        }
+      ],
+      "text": "I — Scry 2, then draw two cards.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "U"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "II — Create a Treasure token and a 2/2 blue Bird creature token with flying.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "without": "Flying"
+            }
+          },
+          "kind": "flying"
+        }
+      ],
+      "text": "III — Put a flying counter on each creature you control without flying.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

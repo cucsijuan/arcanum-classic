@@ -1,0 +1,13 @@
+{
+  "name": "Feasting Hobbit",
+  "devour": 3,
+  "devourFilter": {
+    "subtype": "Food"
+  },
+  "cantBeBlockedBy": {
+    "types": [
+      "creature"
+    ],
+    "lesserPower": true
+  }
+}

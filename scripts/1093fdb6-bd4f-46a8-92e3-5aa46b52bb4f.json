@@ -1,0 +1,22 @@
+{
+  "name": "Weathered Wayfarer",
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "reveal": true
+        }
+      ],
+      "text": "{W}, {T}: Search your library for a land card, reveal it, put it into your hand, then shuffle. Activate only if an opponent controls more lands than you.",
+      "activateIf": {
+        "opponentHasMore": "lands"
+      }
+    }
+  ]
+}

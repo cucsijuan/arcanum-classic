@@ -1,0 +1,49 @@
+{
+  "name": "Frontline Medic",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Battalion — Whenever this creature and at least two other creatures attack, creatures you control gain indestructible until end of turn.",
+      "when": {
+        "attackers": 3
+      }
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "counter": "target",
+          "unlessPays": "{3}"
+        }
+      ],
+      "text": "Sacrifice this creature: Counter target spell with {X} in its mana cost unless its controller pays {3}.",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "hasX": true
+          },
+          "text": "target spell with {X} in its mana cost"
+        }
+      ]
+    }
+  ]
+}

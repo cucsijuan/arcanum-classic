@@ -1,0 +1,17 @@
+{
+  "name": "Devastation Tide",
+  "miracle": "{1}{U}",
+  "spell": {
+    "effects": [
+      {
+        "bounceAll": {
+          "not": [
+            "land"
+          ],
+          "controller": "any"
+        }
+      }
+    ],
+    "text": "Return all nonland permanents to their owners' hands."
+  }
+}

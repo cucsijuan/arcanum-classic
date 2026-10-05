@@ -1,0 +1,35 @@
+{
+  "name": "The Great Henge",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "greatestPower"
+  },
+  "extraMana": [
+    {
+      "types": "{G}",
+      "amount": 2,
+      "gainLife": 2
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "triggered"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a nontoken creature you control enters, put a +1/+1 counter on it and draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false
+      }
+    }
+  ]
+}

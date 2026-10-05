@@ -1,0 +1,32 @@
+{
+  "name": "Galadhrim Brigade",
+  "squad": "{1}{G}",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "copy": "self",
+          "count": "squadPaid"
+        }
+      ],
+      "text": "Squad — When this creature enters, create a token that's a copy of it for each time its squad cost was paid.",
+      "if": {
+        "atLeast": "squadPaid",
+        "value": 1
+      }
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    }
+  ]
+}

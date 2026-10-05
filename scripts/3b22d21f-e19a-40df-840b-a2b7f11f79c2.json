@@ -1,0 +1,34 @@
+{
+  "name": "Galadhrim Ambush",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "attacking": {
+            "controller": "any"
+          }
+        },
+        "token": {
+          "name": "Elf Warrior",
+          "types": "Creature — Elf Warrior",
+          "colors": [
+            "G"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      },
+      {
+        "preventDamage": true,
+        "combatOnly": true,
+        "sources": {
+          "types": [
+            "creature"
+          ],
+          "notSubtype": "Elf"
+        }
+      }
+    ],
+    "text": "Create X 1/1 green Elf Warrior creature tokens, where X is the number of attacking creatures. Prevent all combat damage that would be dealt this turn by non-Elf creatures."
+  }
+}

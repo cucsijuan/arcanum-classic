@@ -1,0 +1,41 @@
+{
+  "name": "Mystic Confluence",
+  "spell": {
+    "chooseCount": 3,
+    "modesRepeat": true,
+    "text": "Choose three. You may choose the same mode more than once.",
+    "modes": [
+      {
+        "text": "Counter target spell unless its controller pays {3}.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{3}"
+          }
+        ]
+      },
+      {
+        "text": "Return target creature to its owner's hand.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Draw a card.",
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

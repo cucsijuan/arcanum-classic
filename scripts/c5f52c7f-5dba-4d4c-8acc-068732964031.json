@@ -1,0 +1,39 @@
+{
+  "name": "Monstrosity of the Lake",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {5} to tap all creatures your opponents control and stun them?",
+          "mana": "{5}",
+          "effects": [
+            {
+              "tap": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "opponent"
+                }
+              }
+            },
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "opponent"
+                }
+              },
+              "kind": "stun"
+            }
+          ]
+        }
+      ],
+      "text": "When Monstrosity of the Lake enters, you may pay {5}. If you do, tap all creatures your opponents control, then put a stun counter on each of those creatures."
+    }
+  ]
+}

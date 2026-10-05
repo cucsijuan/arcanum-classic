@@ -1,0 +1,56 @@
+{
+  "name": "Sword of Hearth and Home",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Protection from green",
+          "Protection from white"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has protection from green and from white."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "withExiled": true
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, exile up to one target creature you own, then search your library for a basic land card. Put both cards onto the battlefield under your control, then shuffle.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "any",
+          "optional": true,
+          "filter": {
+            "ownedByYou": true
+          },
+          "text": "up to one target creature you own"
+        }
+      ]
+    }
+  ]
+}

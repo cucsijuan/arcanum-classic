@@ -1,0 +1,41 @@
+{
+  "name": "Arboreal Alliance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Treefolk",
+            "types": "Creature — Treefolk",
+            "colors": [
+              "G"
+            ],
+            "power": 0,
+            "toughness": 0
+          },
+          "size": "X"
+        }
+      ],
+      "text": "When this enchantment enters, create an X/X green Treefolk creature token."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "populate": true
+        }
+      ],
+      "text": "Whenever you attack with one or more Elves, populate. (Create a token that's a copy of a creature token you control.)",
+      "when": {
+        "atLeast": {
+          "attacking": {
+            "subtype": "Elf"
+          }
+        },
+        "value": 1
+      }
+    }
+  ]
+}

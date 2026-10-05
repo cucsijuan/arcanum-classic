@@ -1,0 +1,55 @@
+{
+  "name": "Unbreakable Formation",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      {
+        "if": "castDuringMainPhase",
+        "then": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Creatures you control gain indestructible until end of turn. Addendum — If you cast this spell during your main phase, put a +1/+1 counter on each of those creatures and they gain vigilance until end of turn."
+  }
+}

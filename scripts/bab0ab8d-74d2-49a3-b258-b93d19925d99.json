@@ -1,0 +1,30 @@
+{
+  "name": "Goblin Dark-Dwellers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "castFromGraveyard": {},
+          "card": "target",
+          "free": true
+        }
+      ],
+      "text": "When this creature enters, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target instant or sorcery card with mana value 3 or less from your graveyard"
+        }
+      ]
+    }
+  ]
+}

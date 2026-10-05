@@ -1,0 +1,39 @@
+{
+  "name": "Increasing Devotion",
+  "spell": {
+    "effects": [
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "tokens": 10,
+            "token": {
+              "name": "Human",
+              "types": "Creature — Human",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ],
+        "else": [
+          {
+            "tokens": 5,
+            "token": {
+              "name": "Human",
+              "types": "Creature — Human",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Create five 1/1 white Human creature tokens. If this spell was cast from a graveyard, create ten of those tokens instead."
+  }
+}

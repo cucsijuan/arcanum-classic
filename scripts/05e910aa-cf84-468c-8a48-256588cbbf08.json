@@ -1,0 +1,22 @@
+{
+  "name": "Rampaging War Mammoth",
+  "abilities": [
+    {
+      "trigger": "cycled",
+      "effects": [
+        {
+          "destroy": "eachTarget"
+        }
+      ],
+      "text": "When you cycle this card, destroy up to X target artifacts.",
+      "targets": [
+        {
+          "kind": "artifact",
+          "optional": true,
+          "upTo": "triggerAmount",
+          "text": "up to X target artifacts"
+        }
+      ]
+    }
+  ]
+}

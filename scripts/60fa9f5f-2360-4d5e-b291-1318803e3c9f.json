@@ -1,0 +1,34 @@
+{
+  "name": "Mordor on the March",
+  "storm": true,
+  "spell": {
+    "effects": [
+      {
+        "exileFromGraveyardChosen": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "copy": "exiled",
+        "atNextEndStep": [
+          {
+            "exile": "triggered"
+          }
+        ]
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "created",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Exile a creature card from your graveyard. Create a token that's a copy of it. It gains haste until end of turn. Exile it at the beginning of the next end step."
+  }
+}

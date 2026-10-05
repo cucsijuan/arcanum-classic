@@ -1,0 +1,24 @@
+{
+  "name": "Rohirrim Chargers",
+  "exert": true,
+  "abilities": [
+    {
+      "trigger": "exerted",
+      "effects": [
+        {
+          "revealUntil": {
+            "subtype": "Equipment"
+          },
+          "to": "battlefield",
+          "attachTo": "triggered"
+        }
+      ],
+      "text": "Whenever you exert a creature, reveal cards from the top of your library until you reveal an Equipment card. Put that card onto the battlefield attached to that creature, then put the rest on the bottom of your library in a random order.",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

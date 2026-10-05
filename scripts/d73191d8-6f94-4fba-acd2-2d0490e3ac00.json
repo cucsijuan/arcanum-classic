@@ -1,0 +1,49 @@
+{
+  "name": "The Balrog of Moria",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Exile The Balrog of Moria?",
+          "effects": [
+            {
+              "exile": "self"
+            },
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "controller": "opponent",
+                    "optional": true,
+                    "upTo": "opponentCount",
+                    "text": "up to one target creature each opponent controls"
+                  }
+                ],
+                "targetRule": "differentControllers",
+                "effects": [
+                  {
+                    "exile": "eachTarget"
+                  }
+                ],
+                "text": "For each opponent, exile up to one target creature that player controls."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When The Balrog of Moria dies, you may exile it. When you do, for each opponent, exile up to one target creature that player controls."
+    },
+    {
+      "trigger": "cycled",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When you cycle this card, create two Treasure tokens."
+    }
+  ]
+}

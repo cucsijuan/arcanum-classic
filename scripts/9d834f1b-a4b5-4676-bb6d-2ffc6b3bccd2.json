@@ -1,0 +1,27 @@
+{
+  "name": "Knollspine Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Discard your hand and draw cards equal to the damage dealt to that opponent this turn?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": {
+                "damageTakenThisTurn": "target"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard your hand and draw cards equal to the damage dealt to target opponent this turn.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

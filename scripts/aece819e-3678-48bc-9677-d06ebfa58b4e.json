@@ -1,0 +1,7 @@
+{
+  "name": "Verge Rangers",
+  "replaces": [
+    "LookAtLibraryTop",
+    "PlayLandsFromLibraryTopWhileBehind"
+  ]
+}

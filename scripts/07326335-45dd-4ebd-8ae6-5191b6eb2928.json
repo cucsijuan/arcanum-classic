@@ -1,0 +1,51 @@
+{
+  "name": "Aragorn, Hornburg Hero",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "attacking": true
+        },
+        "keywords": [
+          "First strike"
+        ],
+        "grants": [
+          {
+            "trigger": "combatDamageToPlayer",
+            "effects": [
+              {
+                "counters": 1,
+                "what": "self"
+              },
+              {
+                "becomeRenowned": "self"
+              }
+            ],
+            "text": "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)",
+            "if": {
+              "not": "renowned"
+            }
+          }
+        ]
+      },
+      "text": "Attacking creatures you control have first strike and renown 1."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "doubleCounters": "triggered",
+          "kind": "+1/+1"
+        }
+      ],
+      "text": "Whenever a renowned creature you control deals combat damage to a player, double the number of +1/+1 counters on it.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "renowned": true
+      }
+    }
+  ]
+}

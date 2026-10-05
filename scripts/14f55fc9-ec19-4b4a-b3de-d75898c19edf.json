@@ -1,0 +1,34 @@
+{
+  "name": "Prize Pig",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self",
+          "kind": "ribbon"
+        },
+        {
+          "if": {
+            "counters": 3,
+            "kind": "ribbon"
+          },
+          "then": [
+            {
+              "removeCounters": {
+                "counters": "ribbon"
+              },
+              "what": "self",
+              "kind": "ribbon"
+            },
+            {
+              "untap": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, put that many ribbon counters on this creature. Then if there are three or more ribbon counters on this creature, remove those counters and untap it."
+    }
+  ]
+}

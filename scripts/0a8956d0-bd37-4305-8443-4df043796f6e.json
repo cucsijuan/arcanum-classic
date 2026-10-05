@@ -1,0 +1,50 @@
+{
+  "name": "Sail into the West",
+  "spell": {
+    "effects": [
+      {
+        "vote": [
+          "return",
+          "embark"
+        ]
+      },
+      {
+        "if": {
+          "moreVotes": 0
+        },
+        "then": [
+          {
+            "eachPlayer": [
+              {
+                "returnFromGraveyard": {},
+                "count": 2,
+                "upTo": true
+              }
+            ]
+          },
+          {
+            "exileThisSpell": true
+          }
+        ],
+        "else": [
+          {
+            "eachPlayer": [
+              {
+                "may": "Discard your hand and draw seven cards?",
+                "effects": [
+                  {
+                    "discardHand": "you"
+                  },
+                  {
+                    "draw": 7
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Will of the council — Starting with you, each player votes for return or embark. If return gets more votes, each player returns up to two cards from their graveyard to their hand, then you exile Sail into the West. If embark gets more votes or the vote is tied, each player may discard their hand and draw seven cards."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Rings of Brighthearth",
+  "abilities": [
+    {
+      "trigger": "youActivateNonManaAbility",
+      "effects": [
+        {
+          "mayPay": "Pay {2} to copy that ability?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "copyTriggeredAbility": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you activate an ability, if it isn't a mana ability, you may pay {2}. If you do, copy that ability. You may choose new targets for the copy."
+    }
+  ]
+}

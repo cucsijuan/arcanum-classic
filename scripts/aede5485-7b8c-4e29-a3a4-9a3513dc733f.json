@@ -1,0 +1,28 @@
+{
+  "name": "Summons of Saruman",
+  "flashback": "{3}{U}{R}",
+  "flashbackExilesX": true,
+  "spell": {
+    "effects": [
+      {
+        "amass": "X",
+        "type": "Orc"
+      },
+      {
+        "mill": "X"
+      },
+      {
+        "castFromGraveyard": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "fromMilled": true,
+        "free": true,
+        "maxManaValue": "X"
+      }
+    ],
+    "text": "Amass Orcs X. Mill X cards. You may cast an instant or sorcery spell with mana value X or less from among them without paying its mana cost."
+  }
+}

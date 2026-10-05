@@ -1,0 +1,41 @@
+{
+  "name": "Sylvan Offering",
+  "spell": {
+    "effects": [
+      {
+        "chooseOpponent": true
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Treefolk",
+          "types": "Creature — Treefolk",
+          "colors": [
+            "G"
+          ],
+          "power": 0,
+          "toughness": 0
+        },
+        "size": "X",
+        "for": "youAndChosenPlayer"
+      },
+      {
+        "chooseOpponent": true
+      },
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Elf Warrior",
+          "types": "Creature — Elf Warrior",
+          "colors": [
+            "G"
+          ],
+          "power": 1,
+          "toughness": 1
+        },
+        "for": "youAndChosenPlayer"
+      }
+    ],
+    "text": "Choose an opponent. You and that player each create an X/X green Treefolk creature token. Choose an opponent. You and that player each create X 1/1 green Elf Warrior creature tokens."
+  }
+}

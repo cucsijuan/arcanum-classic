@@ -1,0 +1,14 @@
+{
+  "name": "Isengard Unleashed",
+  "spell": {
+    "effects": [
+      {
+        "damageCantBePrevented": true
+      },
+      {
+        "tripleDamage": true
+      }
+    ],
+    "text": "Damage can't be prevented this turn. If a source you control would deal damage this turn to an opponent or a permanent an opponent controls, it deals triple that damage instead."
+  }
+}

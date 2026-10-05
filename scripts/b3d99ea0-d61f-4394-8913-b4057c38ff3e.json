@@ -1,0 +1,27 @@
+{
+  "name": "Stonehewer Giant",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Equipment"
+          },
+          "to": "battlefield"
+        },
+        {
+          "attach": "found",
+          "to": {
+            "choose": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{1}{W}, {T}: Search your library for an Equipment card, put it onto the battlefield, attach it to a creature you control, then shuffle."
+    }
+  ]
+}

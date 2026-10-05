@@ -1,0 +1,20 @@
+{
+  "name": "Realm Seekers",
+  "entersWithCounters": "cardsInAllHands",
+  "abilities": [
+    {
+      "cost": "{2}{G}, removeCounters:1",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "reveal": true
+        }
+      ],
+      "text": "{2}{G}, Remove a +1/+1 counter from this creature: Search your library for a land card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

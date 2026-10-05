@@ -1,0 +1,27 @@
+{
+  "name": "Farmer Cotton",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Halfling",
+            "types": "Creature — Halfling",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        },
+        {
+          "tokens": "X",
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create X 1/1 white Halfling creature tokens and X Food tokens."
+    }
+  ]
+}

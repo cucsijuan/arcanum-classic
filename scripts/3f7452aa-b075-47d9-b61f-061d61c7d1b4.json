@@ -1,0 +1,34 @@
+{
+  "name": "Courageous Resolve",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "text": "up to one target creature you control"
+      }
+    ],
+    "effects": [
+      {
+        "protectionFromOpponents": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "if": {
+          "not": {
+            "life": 6
+          }
+        },
+        "then": [
+          {
+            "cantLoseThisTurn": true
+          }
+        ]
+      }
+    ],
+    "text": "Up to one target creature you control gains protection from each of your opponents until end of turn. Draw a card. Fateful hour — If you have 5 or less life, you can't lose life this turn, you can't lose the game this turn, and your opponents can't win the game this turn."
+  }
+}

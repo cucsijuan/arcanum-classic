@@ -1,0 +1,20 @@
+{
+  "name": "Anger",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Haste"
+        ],
+        "fromGraveyard": true,
+        "while": {
+          "control": {
+            "subtype": "Mountain"
+          }
+        }
+      },
+      "text": "As long as this card is in your graveyard and you control a Mountain, creatures you control have haste."
+    }
+  ]
+}

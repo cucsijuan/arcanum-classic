@@ -1,0 +1,53 @@
+{
+  "name": "Rammas Echor, Ancient Shield",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wall",
+            "types": "Creature — Wall",
+            "colors": [
+              "W"
+            ],
+            "power": 0,
+            "toughness": 3,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast your second spell each turn, draw a card, then create a 0/3 white Wall creature token with defender.",
+      "nth": 2
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Defender"
+            }
+          },
+          "keywords": [
+            "Exalted"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, creatures you control with defender gain exalted until end of turn."
+    }
+  ]
+}

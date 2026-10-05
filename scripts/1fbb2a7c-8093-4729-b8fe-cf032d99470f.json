@@ -1,0 +1,14 @@
+{
+  "name": "Fell the Mighty",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroyPowerAbove": "target"
+      }
+    ],
+    "text": "Destroy all creatures with power greater than target creature's power."
+  }
+}

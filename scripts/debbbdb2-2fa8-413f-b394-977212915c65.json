@@ -1,0 +1,60 @@
+{
+  "name": "Mirkwood Trapper",
+  "abilities": [
+    {
+      "trigger": "playerAttacks",
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever a player attacks you, target attacking creature gets -2/-0 until end of turn.",
+      "when": {
+        "atLeast": "triggerAmount",
+        "value": 1
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ]
+    },
+    {
+      "trigger": "playerAttacks",
+      "effects": [
+        {
+          "choose": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "attacking": true
+          },
+          "chooser": "triggeredPlayer"
+        },
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "chosen"
+        }
+      ],
+      "text": "Whenever a player attacks, if they aren't attacking you, that player chooses an attacking creature. It gets +2/+0 until end of turn.",
+      "if": {
+        "not": {
+          "atLeast": "triggerAmount",
+          "value": 1
+        }
+      }
+    }
+  ]
+}
