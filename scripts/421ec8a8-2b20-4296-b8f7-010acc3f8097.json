@@ -24,6 +24,7 @@
               "types": [
                 "creature"
               ],
+              "controller": "you",
               "other": true
             }
           },

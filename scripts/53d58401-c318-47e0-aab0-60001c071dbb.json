@@ -39,6 +39,7 @@
               "types": [
                 "creature"
               ],
+              "controller": "you",
               "keyword": "Defender"
             }
           },

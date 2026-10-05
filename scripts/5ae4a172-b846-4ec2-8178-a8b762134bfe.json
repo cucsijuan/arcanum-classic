@@ -25,7 +25,8 @@
                 "each": {
                   "types": [
                     "creature"
-                  ]
+                  ],
+                  "controller": "you"
                 }
               }
             }

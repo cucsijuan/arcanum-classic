@@ -44,6 +44,7 @@
                   "types": [
                     "creature"
                   ],
+                  "controller": "you",
                   "subtype": "Wraith"
                 }
               },

@@ -11,7 +11,8 @@
           "each": {
             "types": [
               "creature"
-            ]
+            ],
+            "controller": "you"
           }
         },
         "keywords": [

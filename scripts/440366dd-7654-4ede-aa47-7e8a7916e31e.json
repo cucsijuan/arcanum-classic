@@ -54,6 +54,7 @@
               "types": [
                 "creature"
               ],
+              "controller": "you",
               "without": "Flying"
             }
           },
