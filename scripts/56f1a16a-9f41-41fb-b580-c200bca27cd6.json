@@ -1,0 +1,14 @@
+{
+  "name": "Fortified Village",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Forest"
+      },
+      {
+        "subtype": "Plains"
+      }
+    ]
+  }
+}

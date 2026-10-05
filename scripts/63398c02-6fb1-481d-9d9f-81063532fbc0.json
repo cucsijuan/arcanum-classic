@@ -1,0 +1,15 @@
+{
+  "name": "Dragonskull Summit",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Swamp"
+        },
+        {
+          "subtype": "Mountain"
+        }
+      ]
+    }
+  }
+}

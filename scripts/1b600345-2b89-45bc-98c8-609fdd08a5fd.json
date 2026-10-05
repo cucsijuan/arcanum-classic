@@ -1,0 +1,33 @@
+{
+  "name": "Merry, Warden of Isengard",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever one or more artifacts you control enter, create a 1/1 white Soldier creature token with lifelink. This ability triggers only once each turn.",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "batched": true,
+      "oncePerTurn": true
+    }
+  ]
+}

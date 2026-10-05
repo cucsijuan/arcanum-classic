@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Progress",
+  "extraMana": [
+    {
+      "types": "{W}{U}",
+      "damage": 1
+    }
+  ]
+}

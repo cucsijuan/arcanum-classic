@@ -1,0 +1,9 @@
+{
+  "name": "Pristine Talisman",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "gainLife": 1
+    }
+  ]
+}

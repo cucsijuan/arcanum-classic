@@ -1,0 +1,17 @@
+{
+  "name": "Bojuka Bog",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "exileGraveyard": "target"
+        }
+      ],
+      "text": "When this land enters, exile target player's graveyard."
+    }
+  ]
+}

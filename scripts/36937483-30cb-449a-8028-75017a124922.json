@@ -1,0 +1,11 @@
+{
+  "name": "Boseiju, Who Shelters All",
+  "entersTapped": true,
+  "extraMana": [
+    {
+      "types": "{C}",
+      "lifeCost": 2,
+      "rider": "InstantOrSorceryUncounterable"
+    }
+  ]
+}

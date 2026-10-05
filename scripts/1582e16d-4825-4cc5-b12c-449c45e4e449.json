@@ -1,0 +1,22 @@
+{
+  "name": "Humble Defector",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "gainControl": "self",
+          "to": "target"
+        }
+      ],
+      "text": "{T}: Draw two cards. Target opponent gains control of this creature. Activate only during your turn.",
+      "targets": [
+        "opponent"
+      ],
+      "activateIf": "yourTurn"
+    }
+  ]
+}

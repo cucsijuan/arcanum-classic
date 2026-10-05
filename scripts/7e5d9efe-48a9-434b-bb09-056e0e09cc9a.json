@@ -1,0 +1,15 @@
+{
+  "name": "Isolated Chapel",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Plains"
+        },
+        {
+          "subtype": "Swamp"
+        }
+      ]
+    }
+  }
+}

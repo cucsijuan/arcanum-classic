@@ -1,0 +1,49 @@
+{
+  "name": "Rapacious Guest",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever one or more creatures you control deal combat damage to a player, create a Food token.",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "batched": true
+    },
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice a Food, put a +1/+1 counter on this creature.",
+      "filter": {
+        "subtype": "Food"
+      }
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "loseLife": {
+            "power": "self"
+          },
+          "who": "target"
+        }
+      ],
+      "text": "When this creature leaves the battlefield, target opponent loses life equal to its power.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

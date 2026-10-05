@@ -1,0 +1,13 @@
+{
+  "name": "Forbidden Alchemy",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 4,
+        "take": 1,
+        "rest": "graveyard"
+      }
+    ],
+    "text": "Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard."
+  }
+}

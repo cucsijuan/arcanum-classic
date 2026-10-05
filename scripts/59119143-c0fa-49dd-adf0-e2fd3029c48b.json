@@ -1,0 +1,23 @@
+{
+  "name": "Karakas",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{T}: Return target legendary creature to its owner's hand."
+    }
+  ]
+}

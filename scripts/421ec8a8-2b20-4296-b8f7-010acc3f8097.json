@@ -1,0 +1,39 @@
+{
+  "name": "Pippin, Warden of Isengard",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "{1}, {T}: Create a Food token."
+    },
+    {
+      "cost": "{T}, sacrifice:Food*4",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}, Sacrifice four Foods: Other creatures you control get +3/+3 and gain haste until end of turn. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

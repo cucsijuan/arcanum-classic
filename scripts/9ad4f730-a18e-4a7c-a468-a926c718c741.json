@@ -1,0 +1,15 @@
+{
+  "name": "Whispersilk Cloak",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Can't be blocked",
+          "Shroud"
+        ]
+      },
+      "text": "Equipped creature can't be blocked and has shroud."
+    }
+  ]
+}

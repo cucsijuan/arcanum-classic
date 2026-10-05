@@ -1,0 +1,8 @@
+{
+  "name": "Arcane Signet",
+  "extraMana": [
+    {
+      "commanderIdentity": true
+    }
+  ]
+}

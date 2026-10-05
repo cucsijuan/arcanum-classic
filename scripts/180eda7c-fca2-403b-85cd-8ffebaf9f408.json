@@ -1,0 +1,26 @@
+{
+  "name": "Palace Jailer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this creature enters, you become the monarch."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileUntilOpponentMonarch": "target"
+        }
+      ],
+      "text": "When this creature enters, exile target creature an opponent controls until an opponent becomes the monarch.",
+      "targets": [
+        "creature:opponent"
+      ]
+    }
+  ]
+}

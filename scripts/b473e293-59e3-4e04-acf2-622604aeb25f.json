@@ -1,0 +1,9 @@
+{
+  "name": "Path of Ancestry",
+  "extraMana": [
+    {
+      "commanderIdentity": true,
+      "rider": "ScryIfSharesTypeWithCommander"
+    }
+  ]
+}

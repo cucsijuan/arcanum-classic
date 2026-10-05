@@ -1,0 +1,19 @@
+{
+  "name": "Cabal Coffers",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "addMana": "{B}",
+          "times": {
+            "count": {
+              "subtype": "Swamp"
+            }
+          }
+        }
+      ],
+      "text": "{2}, {T}: Add {B} for each Swamp you control."
+    }
+  ]
+}

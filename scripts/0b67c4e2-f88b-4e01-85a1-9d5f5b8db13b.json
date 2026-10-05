@@ -1,0 +1,19 @@
+{
+  "name": "Commander's Sphere",
+  "extraMana": [
+    {
+      "commanderIdentity": true
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

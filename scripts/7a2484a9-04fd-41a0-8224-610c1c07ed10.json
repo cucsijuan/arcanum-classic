@@ -1,0 +1,28 @@
+{
+  "name": "Blasphemous Act",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "creature"
+      ],
+      "controller": "any"
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "damage": 13,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Blasphemous Act deals 13 damage to each creature."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Sylvan Tutor",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "creature"
+          ]
+        },
+        "to": "top",
+        "reveal": true
+      }
+    ],
+    "text": "Search your library for a creature card, reveal it, then shuffle and put that card on top."
+  }
+}

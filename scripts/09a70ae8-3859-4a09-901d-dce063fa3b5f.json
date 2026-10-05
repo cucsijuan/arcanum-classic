@@ -1,0 +1,23 @@
+{
+  "name": "Wasteland",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        {
+          "kind": "land",
+          "filter": {
+            "notSupertype": "basic"
+          },
+          "text": "target nonbasic land"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Destroy target nonbasic land."
+    }
+  ]
+}

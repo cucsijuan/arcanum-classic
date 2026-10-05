@@ -1,0 +1,14 @@
+{
+  "name": "Shineshadow Snarl",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Plains"
+      },
+      {
+        "subtype": "Swamp"
+      }
+    ]
+  }
+}

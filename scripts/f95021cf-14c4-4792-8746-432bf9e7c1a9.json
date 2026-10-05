@@ -1,0 +1,59 @@
+{
+  "name": "Crown of Gondor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each creature you control."
+    },
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When a legendary creature you control enters, if there is no monarch, you become the monarch.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      },
+      "if": "noMonarch"
+    },
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip {4}. This ability costs {3} less to activate if you're the monarch.",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "costReductionIf": "monarch",
+      "costReductionAmount": 3
+    }
+  ]
+}

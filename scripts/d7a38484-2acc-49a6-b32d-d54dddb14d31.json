@@ -1,0 +1,41 @@
+{
+  "name": "Dawn of Hope",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "mayPay": "Pay {2} to draw a card?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, you may pay {2}. If you do, draw a card."
+    },
+    {
+      "cost": "{3}{W}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "{3}{W}: Create a 1/1 white Soldier creature token with lifelink."
+    }
+  ]
+}

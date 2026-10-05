@@ -1,0 +1,9 @@
+{
+  "name": "Battlefield Forge",
+  "extraMana": [
+    {
+      "types": "{R}{W}",
+      "damage": 1
+    }
+  ]
+}

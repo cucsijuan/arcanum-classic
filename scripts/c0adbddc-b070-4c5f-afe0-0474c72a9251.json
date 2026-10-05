@@ -1,0 +1,25 @@
+{
+  "name": "Gemstone Caverns",
+  "startsOnBattlefield": true,
+  "startsIfNotStartingPlayer": true,
+  "startsWithCounter": "luck",
+  "startsExilingFromHand": 1,
+  "extraMana": [
+    {
+      "types": "{C}",
+      "while": {
+        "not": {
+          "counters": 1,
+          "kind": "luck"
+        }
+      }
+    },
+    {
+      "types": "any",
+      "while": {
+        "counters": 1,
+        "kind": "luck"
+      }
+    }
+  ]
+}

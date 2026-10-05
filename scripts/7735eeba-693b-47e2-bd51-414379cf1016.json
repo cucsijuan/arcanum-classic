@@ -1,0 +1,27 @@
+{
+  "name": "Beast Within",
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Beast",
+          "types": "Creature — Beast",
+          "colors": [
+            "G"
+          ],
+          "power": 3,
+          "toughness": 3
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token."
+  }
+}

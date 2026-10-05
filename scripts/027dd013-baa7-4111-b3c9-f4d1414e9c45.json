@@ -1,0 +1,15 @@
+{
+  "name": "Glacial Fortress",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Plains"
+        },
+        {
+          "subtype": "Island"
+        }
+      ]
+    }
+  }
+}

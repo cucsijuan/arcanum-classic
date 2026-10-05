@@ -1,0 +1,25 @@
+{
+  "name": "Kor Haven",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "preventDamage": true,
+          "combatOnly": true,
+          "dealtBy": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Prevent all combat damage that would be dealt by target attacking creature this turn."
+    }
+  ]
+}

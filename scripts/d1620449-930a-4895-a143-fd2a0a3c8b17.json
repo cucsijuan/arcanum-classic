@@ -1,0 +1,6 @@
+{
+  "name": "Rejuvenating Springs",
+  "entersTappedUnless": {
+    "opponents": 2
+  }
+}

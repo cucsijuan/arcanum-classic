@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Conviction",
+  "extraMana": [
+    {
+      "types": "{R}{W}",
+      "damage": 1
+    }
+  ]
+}

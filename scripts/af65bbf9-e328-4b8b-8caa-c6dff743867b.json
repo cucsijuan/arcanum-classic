@@ -1,0 +1,34 @@
+{
+  "name": "Too Greedily, Too Deep",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature card from a graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "bite": "target",
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "exceptTargets": true
+        }
+      }
+    ],
+    "text": "Put target creature card from a graveyard onto the battlefield under your control. That creature deals damage equal to its power to each other creature."
+  }
+}

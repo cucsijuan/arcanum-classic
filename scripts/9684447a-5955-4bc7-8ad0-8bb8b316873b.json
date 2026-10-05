@@ -1,0 +1,14 @@
+{
+  "name": "Throne of the High City",
+  "abilities": [
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this land: You become the monarch."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Zealous Conscripts",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainControl": "target",
+          "untilEndOfTurn": true
+        },
+        {
+          "untap": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, gain control of target permanent until end of turn. Untap that permanent. It gains haste until end of turn.",
+      "targets": [
+        "permanent"
+      ]
+    }
+  ]
+}

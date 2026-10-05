@@ -1,0 +1,44 @@
+{
+  "name": "Wake the Dragon",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Dragon",
+          "types": "Creature — Dragon",
+          "colors": [
+            "B",
+            "R"
+          ],
+          "power": 6,
+          "toughness": 6,
+          "keywords": [
+            "Flying",
+            "Menace"
+          ],
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayer",
+              "effects": [
+                {
+                  "gainControl": "target"
+                }
+              ],
+              "text": "Whenever this token deals combat damage to a player, gain control of target artifact that player controls.",
+              "targets": [
+                {
+                  "kind": "artifact",
+                  "controlledByTriggeredPlayer": true,
+                  "text": "target artifact that player controls"
+                }
+              ]
+            }
+          ],
+          "text": "Flying, menace\nWhenever this token deals combat damage to a player, gain control of target artifact that player controls."
+        }
+      }
+    ],
+    "text": "Create a 6/6 black and red Dragon creature token with flying, menace, and \"Whenever this token deals combat damage to a player, gain control of target artifact that player controls.\""
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Haldir, Lórien Lieutenant",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "pump": [
+            {
+              "counters": "+1/+1"
+            },
+            {
+              "counters": "+1/+1"
+            }
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Elf",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "{5}{G}: Until end of turn, other Elves you control gain vigilance and get +1/+1 for each +1/+1 counter on Haldir."
+    }
+  ]
+}

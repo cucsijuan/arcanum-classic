@@ -1,0 +1,34 @@
+{
+  "name": "Field of Ruin",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "opponent",
+          "filter": {
+            "notSupertype": "basic"
+          },
+          "text": "target nonbasic land an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "who": "everyone"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Fealty to the Realm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this Aura enters, you become the monarch."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "givesControlToMonarch": true
+      },
+      "text": "The monarch controls enchanted creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Attacks each combat"
+        ],
+        "cantAttackYou": true
+      },
+      "text": "Enchanted creature attacks each combat if able and can't attack you."
+    }
+  ]
+}

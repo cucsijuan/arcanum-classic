@@ -1,0 +1,13 @@
+{
+  "name": "Murmuring Bosk",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "subtype": "Treefolk"
+  },
+  "extraMana": [
+    {
+      "types": "{W}{B}",
+      "damage": 1
+    }
+  ]
+}

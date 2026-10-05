@@ -1,0 +1,24 @@
+{
+  "name": "Savvy Hunter",
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever this creature attacks or blocks, create a Food token."
+    },
+    {
+      "cost": "sacrifice:Food*2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Sacrifice two Foods: Draw a card."
+    }
+  ]
+}

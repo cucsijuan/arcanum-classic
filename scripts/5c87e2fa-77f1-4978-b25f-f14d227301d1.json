@@ -1,0 +1,14 @@
+{
+  "name": "Foreboding Ruins",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Swamp"
+      },
+      {
+        "subtype": "Mountain"
+      }
+    ]
+  }
+}

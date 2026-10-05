@@ -1,0 +1,45 @@
+{
+  "name": "Forth Eorlingas!",
+  "spell": {
+    "effects": [
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Human Knight",
+          "types": "Creature — Human Knight",
+          "colors": [
+            "R"
+          ],
+          "power": 2,
+          "toughness": 2,
+          "keywords": [
+            "Trample",
+            "Haste"
+          ]
+        }
+      },
+      {
+        "emblem": "Forth Eorlingas!",
+        "untilEndOfTurn": true,
+        "abilities": [
+          {
+            "trigger": "creatureCombatDamageToPlayer",
+            "effects": [
+              {
+                "becomeMonarch": "you"
+              }
+            ],
+            "text": "Whenever one or more creatures you control deal combat damage to one or more players this turn, you become the monarch.",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "batched": true
+          }
+        ]
+      }
+    ],
+    "text": "Create X 2/2 red Human Knight creature tokens with trample and haste. Whenever one or more creatures you control deal combat damage to one or more players this turn, you become the monarch."
+  }
+}

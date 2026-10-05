@@ -1,0 +1,19 @@
+{
+  "name": "Urborg, Tomb of Yawgmoth",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "addSubtypes": [
+          "Swamp"
+        ]
+      },
+      "text": "Each land is a Swamp in addition to its other land types."
+    }
+  ]
+}

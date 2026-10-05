@@ -1,0 +1,17 @@
+{
+  "name": "Chromatic Lantern",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "grantsMana": "any"
+      },
+      "text": "Lands you control have \"{T}: Add one mana of any color.\""
+    }
+  ]
+}

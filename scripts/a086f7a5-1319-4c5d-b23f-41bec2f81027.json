@@ -1,0 +1,30 @@
+{
+  "name": "Archivist of Gondor",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When your commander deals combat damage to a player, if there is no monarch, you become the monarch.",
+      "filter": {
+        "commander": true,
+        "ownedByYou": true,
+        "controller": "any"
+      },
+      "if": "noMonarch"
+    },
+    {
+      "trigger": "monarchEndStep",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of the monarch's end step, that player draws a card."
+    }
+  ]
+}

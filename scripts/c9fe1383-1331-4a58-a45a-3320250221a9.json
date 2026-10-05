@@ -1,0 +1,15 @@
+{
+  "name": "Woodland Cemetery",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Swamp"
+        },
+        {
+          "subtype": "Forest"
+        }
+      ]
+    }
+  }
+}

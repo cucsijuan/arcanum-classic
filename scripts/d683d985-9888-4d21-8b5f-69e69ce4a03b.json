@@ -1,0 +1,26 @@
+{
+  "name": "Path to Exile",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "to": "battlefield",
+        "tapped": true,
+        "who": "targetController",
+        "optional": true
+      }
+    ],
+    "text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle."
+  }
+}

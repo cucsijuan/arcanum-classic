@@ -1,0 +1,15 @@
+{
+  "name": "Hinterland Harbor",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Forest"
+        },
+        {
+          "subtype": "Island"
+        }
+      ]
+    }
+  }
+}

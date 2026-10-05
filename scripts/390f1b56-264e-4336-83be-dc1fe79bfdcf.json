@@ -1,0 +1,12 @@
+{
+  "name": "Smoldering Marsh",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "supertype": "basic"
+    },
+    "count": 2
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Urborg",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "It loses first strike",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "target",
+                  "loseKeywords": [
+                    "First strike"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "It loses swampwalk",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "target",
+                  "loseKeywords": [
+                    "Swampwalk"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Target creature loses first strike or swampwalk until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Gilded Goose",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create a Food token."
+    },
+    {
+      "cost": "{1}{G}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "{1}{G}, {T}: Create a Food token."
+    },
+    {
+      "cost": "{T}, sacrifice:Food",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Sacrifice a Food: Add one mana of any color."
+    }
+  ]
+}

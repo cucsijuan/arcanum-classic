@@ -1,0 +1,78 @@
+{
+  "name": "Oath of Eorl",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "I — Create two 1/1 white Human Soldier creature tokens.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Human Knight",
+            "types": "Creature — Human Knight",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Trample",
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "II — Create two 2/2 red Human Knight creature tokens with trample and haste.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "indestructible"
+        },
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "III — Put an indestructible counter on up to one target Human. You become the monarch.",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "subtype": "Human"
+          },
+          "text": "up to one target Human"
+        }
+      ]
+    }
+  ]
+}

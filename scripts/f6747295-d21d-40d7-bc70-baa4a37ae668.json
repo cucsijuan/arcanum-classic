@@ -1,0 +1,32 @@
+{
+  "name": "Gimli of the Glittering Caves",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another legendary creature you control enters, put a +1/+1 counter on Gimli.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary",
+        "other": true
+      }
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever Gimli deals combat damage to a player, create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Horizon Canopy",
+  "extraMana": [
+    {
+      "types": "{G}{W}",
+      "lifeCost": 1
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this land: Draw a card."
+    }
+  ]
+}

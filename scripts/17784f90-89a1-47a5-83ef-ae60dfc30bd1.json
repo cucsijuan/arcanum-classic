@@ -1,0 +1,23 @@
+{
+  "name": "Minamo, School at Water's Edge",
+  "abilities": [
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary permanent"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{U}, {T}: Untap target legendary permanent."
+    }
+  ]
+}

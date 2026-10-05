@@ -1,0 +1,14 @@
+{
+  "name": "Port Town",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Plains"
+      },
+      {
+        "subtype": "Island"
+      }
+    ]
+  }
+}

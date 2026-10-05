@@ -1,0 +1,19 @@
+{
+  "name": "Growth Spiral",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "putFromHand": {
+          "types": [
+            "land"
+          ]
+        },
+        "one": true
+      }
+    ],
+    "text": "Draw a card. You may put a land card from your hand onto the battlefield."
+  }
+}

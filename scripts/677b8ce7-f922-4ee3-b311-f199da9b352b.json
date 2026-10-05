@@ -1,0 +1,11 @@
+{
+  "name": "Pillar of the Paruns",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "multicolored": true
+      }
+    }
+  ]
+}

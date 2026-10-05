@@ -1,0 +1,40 @@
+{
+  "name": "Great Oak Guardian",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            },
+            "controlledBy": "target"
+          }
+        },
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            },
+            "controlledBy": "target"
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures target player controls get +2/+2 until end of turn. Untap them.",
+      "targets": [
+        "player"
+      ]
+    }
+  ]
+}

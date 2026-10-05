@@ -1,0 +1,15 @@
+{
+  "name": "Sunpetal Grove",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Forest"
+        },
+        {
+          "subtype": "Plains"
+        }
+      ]
+    }
+  }
+}

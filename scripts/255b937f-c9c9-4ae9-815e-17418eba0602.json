@@ -1,0 +1,30 @@
+{
+  "name": "Shinka, the Bloodsoaked Keep",
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{R}, {T}: Target legendary creature gains first strike until end of turn."
+    }
+  ]
+}

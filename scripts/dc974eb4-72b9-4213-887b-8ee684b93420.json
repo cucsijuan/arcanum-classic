@@ -1,0 +1,39 @@
+{
+  "name": "Flooded Grove",
+  "abilities": [
+    {
+      "cost": "{G/U}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {G}{G}",
+              "effects": [
+                {
+                  "addMana": "{G}{G}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}{U}",
+              "effects": [
+                {
+                  "addMana": "{G}{U}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}{U}",
+              "effects": [
+                {
+                  "addMana": "{U}{U}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{G/U}, {T}: Add {G}{G}, {G}{U}, or {U}{U}."
+    }
+  ]
+}

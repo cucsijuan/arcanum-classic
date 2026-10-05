@@ -1,0 +1,34 @@
+{
+  "name": "Vanquisher's Banner",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +1/+1."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast a creature spell of the chosen type, draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "chosenType": true
+      }
+    }
+  ]
+}

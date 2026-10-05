@@ -1,0 +1,15 @@
+{
+  "name": "Orchard Strider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create two Food tokens."
+    }
+  ]
+}

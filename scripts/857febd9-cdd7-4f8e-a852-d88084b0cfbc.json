@@ -1,0 +1,9 @@
+{
+  "name": "Underground River",
+  "extraMana": [
+    {
+      "types": "{U}{B}",
+      "damage": 1
+    }
+  ]
+}

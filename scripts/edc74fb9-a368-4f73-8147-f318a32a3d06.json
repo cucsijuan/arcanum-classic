@@ -1,0 +1,50 @@
+{
+  "name": "Corsairs of Umbar",
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{2}{U}: Target Goblin, Orc, or Pirate can't be blocked this turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Goblin"
+              },
+              {
+                "subtype": "Orc"
+              },
+              {
+                "subtype": "Pirate"
+              }
+            ]
+          },
+          "text": "target Goblin, Orc, or Pirate"
+        }
+      ]
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "amass": 3,
+          "type": "Orc"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, amass Orcs 3."
+    }
+  ]
+}

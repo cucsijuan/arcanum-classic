@@ -1,0 +1,14 @@
+{
+  "name": "Necroblossom Snarl",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Swamp"
+      },
+      {
+        "subtype": "Forest"
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Kenrith, the Returned King",
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            }
+          },
+          "keywords": [
+            "Trample",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}: All creatures gain trample and haste until end of turn."
+    },
+    {
+      "cost": "{1}{G}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{1}{G}: Put a +1/+1 counter on target creature.",
+      "targets": [
+        "creature"
+      ]
+    },
+    {
+      "cost": "{2}{W}",
+      "effects": [
+        {
+          "gainLife": 5,
+          "who": "target"
+        }
+      ],
+      "text": "{2}{W}: Target player gains 5 life.",
+      "targets": [
+        "player"
+      ]
+    },
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{3}{U}: Target player draws a card.",
+      "targets": [
+        "player"
+      ]
+    },
+    {
+      "cost": "{4}{B}",
+      "effects": [
+        {
+          "reanimate": "target",
+          "ownerControl": true
+        }
+      ],
+      "text": "{4}{B}: Put target creature card from a graveyard onto the battlefield under its owner's control.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from a graveyard"
+        }
+      ]
+    }
+  ]
+}

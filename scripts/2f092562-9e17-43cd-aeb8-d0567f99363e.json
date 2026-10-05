@@ -1,0 +1,21 @@
+{
+  "name": "Go for the Throat",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "not": [
+            "artifact"
+          ]
+        },
+        "text": "target nonartifact creature"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Doran, the Siege Tower",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "keywords": [
+          "Assigns damage by toughness"
+        ]
+      },
+      "text": "Each creature assigns combat damage equal to its toughness rather than its power."
+    }
+  ]
+}

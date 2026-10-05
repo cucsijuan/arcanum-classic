@@ -1,0 +1,28 @@
+{
+  "name": "Earthquake",
+  "spell": {
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "damage": "X",
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "without": "Flying"
+              }
+            }
+          },
+          {
+            "damage": "X",
+            "to": "everyone"
+          }
+        ]
+      }
+    ],
+    "text": "Earthquake deals X damage to each creature without flying and each player."
+  }
+}

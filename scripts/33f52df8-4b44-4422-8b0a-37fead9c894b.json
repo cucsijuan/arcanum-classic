@@ -1,0 +1,14 @@
+{
+  "name": "Vineglimmer Snarl",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Forest"
+      },
+      {
+        "subtype": "Island"
+      }
+    ]
+  }
+}

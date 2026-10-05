@@ -1,0 +1,50 @@
+{
+  "name": "Aragorn, King of Gondor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When Aragorn enters, you become the monarch."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ]
+        },
+        {
+          "if": "monarch",
+          "then": [
+            {
+              "cantBlockThisTurn": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Aragorn attacks, up to one target creature can't block this turn. If you're the monarch, creatures can't block this turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Swords to Plowshares",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "gainLife": {
+          "power": "target"
+        },
+        "who": "targetController"
+      }
+    ],
+    "text": "Exile target creature. Its controller gains life equal to its power."
+  }
+}

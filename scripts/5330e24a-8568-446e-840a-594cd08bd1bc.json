@@ -1,0 +1,12 @@
+{
+  "name": "Prairie Stream",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "supertype": "basic"
+    },
+    "count": 2
+  }
+}

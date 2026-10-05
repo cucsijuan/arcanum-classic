@@ -1,0 +1,17 @@
+{
+  "name": "Learn from the Past",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "shuffleGraveyard": "target"
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Target player shuffles their graveyard into their library. Draw a card."
+  }
+}

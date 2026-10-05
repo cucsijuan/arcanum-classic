@@ -1,0 +1,15 @@
+{
+  "name": "Sulfur Falls",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Island"
+        },
+        {
+          "subtype": "Mountain"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Siege-Gang Commander",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "colors": [
+              "R"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create three 1/1 red Goblin creature tokens."
+    },
+    {
+      "cost": "{1}{R}, sacrifice:Goblin",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}, Sacrifice a Goblin: This creature deals 2 damage to any target.",
+      "targets": [
+        "any"
+      ]
+    }
+  ]
+}

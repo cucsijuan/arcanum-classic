@@ -1,0 +1,33 @@
+{
+  "name": "Tireless Provisioner",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Create a Food token",
+              "effects": [
+                {
+                  "tokens": 1,
+                  "token": "Food"
+                }
+              ]
+            },
+            {
+              "text": "Create a Treasure token",
+              "effects": [
+                {
+                  "tokens": 1,
+                  "token": "Treasure"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a Food token or a Treasure token."
+    }
+  ]
+}

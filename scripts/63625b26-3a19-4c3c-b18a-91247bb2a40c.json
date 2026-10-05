@@ -1,0 +1,17 @@
+{
+  "name": "Lignify",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setSubtypes": [
+          "Treefolk"
+        ],
+        "setPower": 0,
+        "setToughness": 4,
+        "losesAbilities": true
+      },
+      "text": "Enchanted creature is a Treefolk with base power and toughness 0/4 and loses all abilities."
+    }
+  ]
+}

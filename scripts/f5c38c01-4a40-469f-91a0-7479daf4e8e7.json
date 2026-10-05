@@ -1,0 +1,9 @@
+{
+  "name": "Sulfurous Springs",
+  "extraMana": [
+    {
+      "types": "{B}{R}",
+      "damage": 1
+    }
+  ]
+}

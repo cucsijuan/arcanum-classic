@@ -1,0 +1,41 @@
+{
+  "name": "Treebeard, Gracious Host",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Food"
+        }
+      ],
+      "text": "When Treebeard enters, create two Food tokens."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you gain life, put that many +1/+1 counters on target Halfling or Treefolk.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Halfling"
+              },
+              {
+                "subtype": "Treefolk"
+              }
+            ]
+          },
+          "text": "target Halfling or Treefolk"
+        }
+      ]
+    }
+  ]
+}

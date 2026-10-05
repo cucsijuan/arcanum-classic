@@ -1,0 +1,30 @@
+{
+  "name": "Éomer, King of Rohan",
+  "entersWithCounters": {
+    "count": {
+      "subtype": "Human",
+      "other": true
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "target"
+        },
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target2"
+        }
+      ],
+      "text": "When Éomer enters, target player becomes the monarch. Éomer deals damage equal to its power to any target.",
+      "targets": [
+        "player",
+        "any"
+      ]
+    }
+  ]
+}

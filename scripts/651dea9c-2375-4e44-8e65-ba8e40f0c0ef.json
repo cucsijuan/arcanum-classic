@@ -1,0 +1,14 @@
+{
+  "name": "Furycalm Snarl",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Mountain"
+      },
+      {
+        "subtype": "Plains"
+      }
+    ]
+  }
+}

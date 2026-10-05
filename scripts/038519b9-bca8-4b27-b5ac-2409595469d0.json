@@ -1,0 +1,18 @@
+{
+  "name": "Diabolic Intent",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "search": {}
+      }
+    ],
+    "text": "Search your library for a card, put that card into your hand, then shuffle."
+  }
+}

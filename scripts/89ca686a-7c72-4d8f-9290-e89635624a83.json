@@ -1,0 +1,16 @@
+{
+  "name": "Cavern of Souls",
+  "chooseOnEnter": "creatureType",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "creature"
+        ],
+        "chosenType": true
+      },
+      "rider": "Uncounterable"
+    }
+  ]
+}

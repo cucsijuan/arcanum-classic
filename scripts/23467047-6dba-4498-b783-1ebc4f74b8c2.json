@@ -1,0 +1,10 @@
+{
+  "name": "Ancient Tomb",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "amount": 2,
+      "damage": 2
+    }
+  ]
+}

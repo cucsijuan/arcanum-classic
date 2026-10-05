@@ -1,0 +1,37 @@
+{
+  "name": "Legolas Greenleaf",
+  "cantBeBlockedBy": {
+    "types": [
+      "creature"
+    ],
+    "maxPower": 2
+  },
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another legendary creature you control enters, put a +1/+1 counter on Legolas.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary",
+        "other": true
+      }
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever Legolas deals combat damage to a player, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Swan Song",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "enchantment",
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "target enchantment, instant, or sorcery spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Bird",
+          "types": "Creature — Bird",
+          "colors": [
+            "U"
+          ],
+          "power": 2,
+          "toughness": 2,
+          "keywords": [
+            "Flying"
+          ]
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying."
+  }
+}

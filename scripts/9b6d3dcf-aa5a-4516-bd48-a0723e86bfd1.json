@@ -1,0 +1,37 @@
+{
+  "name": "Door of Destinies",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "charge"
+        }
+      ],
+      "text": "Whenever you cast a spell of the chosen type, put a charge counter on this artifact.",
+      "filter": {
+        "chosenType": true
+      }
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          {
+            "counters": "charge"
+          },
+          {
+            "counters": "charge"
+          }
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +1/+1 for each charge counter on this artifact."
+    }
+  ]
+}

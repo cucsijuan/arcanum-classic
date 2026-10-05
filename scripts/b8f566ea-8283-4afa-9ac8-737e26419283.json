@@ -1,0 +1,14 @@
+{
+  "name": "Explore",
+  "spell": {
+    "effects": [
+      {
+        "additionalLand": true
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "You may play an additional land this turn. Draw a card."
+  }
+}

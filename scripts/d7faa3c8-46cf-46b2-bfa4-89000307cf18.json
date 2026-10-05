@@ -1,0 +1,15 @@
+{
+  "name": "Clifftop Retreat",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Mountain"
+        },
+        {
+          "subtype": "Plains"
+        }
+      ]
+    }
+  }
+}

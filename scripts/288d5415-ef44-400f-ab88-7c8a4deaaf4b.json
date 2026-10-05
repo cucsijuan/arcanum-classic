@@ -1,0 +1,31 @@
+{
+  "name": "Call for Unity",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "unity"
+        }
+      ],
+      "text": "Revolt — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put a unity counter on this enchantment.",
+      "if": "yourPermanentLeft"
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          {
+            "counters": "unity"
+          },
+          {
+            "counters": "unity"
+          }
+        ]
+      },
+      "text": "Creatures you control get +1/+1 for each unity counter on this enchantment."
+    }
+  ]
+}

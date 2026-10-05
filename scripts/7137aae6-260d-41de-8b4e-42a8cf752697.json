@@ -1,0 +1,14 @@
+{
+  "name": "Frostboil Snarl",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Island"
+      },
+      {
+        "subtype": "Mountain"
+      }
+    ]
+  }
+}

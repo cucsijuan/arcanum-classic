@@ -1,0 +1,31 @@
+{
+  "name": "Farseek",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "anyOf": [
+            {
+              "subtype": "Plains"
+            },
+            {
+              "subtype": "Island"
+            },
+            {
+              "subtype": "Swamp"
+            },
+            {
+              "subtype": "Mountain"
+            }
+          ]
+        },
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle."
+  }
+}

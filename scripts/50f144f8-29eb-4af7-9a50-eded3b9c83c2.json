@@ -1,0 +1,68 @@
+{
+  "name": "Radagast, Wizard of Wilds",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Beast"
+            },
+            {
+              "subtype": "Bird"
+            }
+          ]
+        },
+        "grantsWard": "{1}"
+      },
+      "text": "Beasts and Birds you control have ward {1}."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "minManaValue": 5
+      },
+      "modes": [
+        {
+          "text": "Create a 3/3 green Beast creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Beast",
+                "types": "Creature — Beast",
+                "colors": [
+                  "G"
+                ],
+                "power": 3,
+                "toughness": 3
+              }
+            }
+          ]
+        },
+        {
+          "text": "Create a 2/2 blue Bird creature token with flying.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Bird",
+                "types": "Creature — Bird",
+                "colors": [
+                  "U"
+                ],
+                "power": 2,
+                "toughness": 2,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a spell with mana value 5 or greater, choose one —"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Ghost Quarter",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "who": "targetController",
+          "optional": true
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

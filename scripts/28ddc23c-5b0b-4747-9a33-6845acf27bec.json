@@ -1,0 +1,19 @@
+{
+  "name": "Elvish Harbinger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Elf"
+          },
+          "to": "top",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "When this creature enters, you may search your library for an Elf card, reveal it, then shuffle and put that card on top."
+    }
+  ]
+}

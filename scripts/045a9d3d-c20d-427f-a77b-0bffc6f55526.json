@@ -1,0 +1,26 @@
+{
+  "name": "Soul's Attendant",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "may": "Gain 1 life?",
+          "effects": [
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature enters, you may gain 1 life.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      }
+    }
+  ]
+}

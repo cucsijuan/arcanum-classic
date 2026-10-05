@@ -1,0 +1,21 @@
+{
+  "name": "Heroic Intervention",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {}
+        },
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ]
+      }
+    ],
+    "text": "Permanents you control gain hexproof and indestructible until end of turn."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Oboro, Palace in the Clouds",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{1}: Return Oboro to its owner's hand."
+    }
+  ]
+}

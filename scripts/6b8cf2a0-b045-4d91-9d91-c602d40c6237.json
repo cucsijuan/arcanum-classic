@@ -1,0 +1,17 @@
+{
+  "name": "Basalt Monolith",
+  "doesntUntap": true,
+  "tapForMana": "{C}",
+  "manaAmount": 3,
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "{3}: Untap this artifact."
+    }
+  ]
+}

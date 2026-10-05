@@ -1,0 +1,33 @@
+{
+  "name": "Beregond of the Guard",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever Beregond or another Human you control enters, creatures you control get +1/+1 and gain vigilance until end of turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Human"
+      }
+    }
+  ]
+}

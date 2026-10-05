@@ -1,0 +1,38 @@
+{
+  "name": "Court of Ire",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this enchantment enters, you become the monarch."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "if": "monarch",
+          "then": [
+            {
+              "damage": 7,
+              "to": "target"
+            }
+          ],
+          "else": [
+            {
+              "damage": 2,
+              "to": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, this enchantment deals 2 damage to any target. If you're the monarch, it deals 7 damage instead.",
+      "targets": [
+        "any"
+      ]
+    }
+  ]
+}

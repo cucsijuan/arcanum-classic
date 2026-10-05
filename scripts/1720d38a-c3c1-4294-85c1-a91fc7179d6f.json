@@ -1,0 +1,11 @@
+{
+  "name": "Boon of the Wish-Giver",
+  "spell": {
+    "effects": [
+      {
+        "draw": 4
+      }
+    ],
+    "text": "Draw four cards."
+  }
+}

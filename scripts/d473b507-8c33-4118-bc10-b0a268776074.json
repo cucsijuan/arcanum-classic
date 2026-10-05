@@ -1,0 +1,14 @@
+{
+  "name": "Choked Estuary",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Island"
+      },
+      {
+        "subtype": "Swamp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Hammerheim",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "loseKeywords": [
+            "Islandwalk",
+            "Swampwalk",
+            "Forestwalk",
+            "Mountainwalk",
+            "Plainswalk",
+            "Nonbasic landwalk"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature loses all landwalk abilities until end of turn."
+    }
+  ]
+}

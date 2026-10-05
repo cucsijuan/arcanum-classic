@@ -1,0 +1,36 @@
+{
+  "name": "Sword of the Animist",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true,
+          "optional": true
+        }
+      ],
+      "text": "Whenever equipped creature attacks, you may search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "filter": {
+        "attachedToSource": true,
+        "controller": "any"
+      }
+    }
+  ]
+}

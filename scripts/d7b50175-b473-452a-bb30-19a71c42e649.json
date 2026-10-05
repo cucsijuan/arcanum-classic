@@ -1,0 +1,20 @@
+{
+  "name": "Village Bell-Ringer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, untap all creatures you control."
+    }
+  ]
+}

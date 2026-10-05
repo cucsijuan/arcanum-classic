@@ -1,0 +1,82 @@
+{
+  "name": "Gwaihir, Greatest of the Eagles",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever Gwaihir attacks, target attacking creature gains flying until end of turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ]
+    },
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "W"
+            ],
+            "power": 3,
+            "toughness": 3,
+            "keywords": [
+              "Flying"
+            ],
+            "abilities": [
+              {
+                "trigger": "attacks",
+                "effects": [
+                  {
+                    "pump": [
+                      0,
+                      0
+                    ],
+                    "what": "target",
+                    "keywords": [
+                      "Flying"
+                    ]
+                  }
+                ],
+                "text": "Whenever this token attacks, target attacking creature gains flying until end of turn.",
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "filter": {
+                      "attacking": true
+                    },
+                    "text": "target attacking creature"
+                  }
+                ]
+              }
+            ],
+            "text": "Flying\nWhenever this token attacks, target attacking creature gains flying until end of turn."
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained 3 or more life this turn, create a 3/3 white Bird creature token with flying and \"Whenever this token attacks, target attacking creature gains flying until end of turn.\"",
+      "if": {
+        "gainedLife": 3
+      }
+    }
+  ]
+}

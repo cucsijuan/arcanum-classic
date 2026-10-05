@@ -1,0 +1,19 @@
+{
+  "name": "Yavimaya, Cradle of Growth",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "addSubtypes": [
+          "Forest"
+        ]
+      },
+      "text": "Each land is a Forest in addition to its other land types."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Brushland",
+  "extraMana": [
+    {
+      "types": "{G}{W}",
+      "damage": 1
+    }
+  ]
+}
