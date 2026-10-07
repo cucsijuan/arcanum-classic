@@ -1,0 +1,66 @@
+# Mechanics the engine implements beyond the keywords the card importer handles by itself (those come from the engine):
+# a card using only these and supported keywords needs a script but no new engine work. One per line, as the card data
+# names them. Keep this up to date when a mechanic is added (see docs/set-planning.md).
+Amass
+Cascade
+Conspire
+Crew
+Cycling
+Dash
+Delve
+Dethrone
+Devour
+Equip
+Exalted
+Exert
+Food
+Hideaway
+Investigate
+Kicker
+Landcycling
+Basic landcycling
+Typecycling
+Miracle
+Mill
+Monarch
+Multikicker
+Persist
+Prowess
+Regenerate
+Renown
+Replicate
+Scry
+Skulk
+Splice
+Split second
+Squad
+Storm
+Surveil
+Suspend
+Treasure
+Undaunted
+Undying
+Ward
+Partner
+Partner with
+Friends forever
+Choose a background
+Doctor's companion
+Council's dilemma
+Will of the council
+Secret council
+The Ring tempts you
+Adventure
+Gift
+Behold
+Hone
+Recruit
+Phasing
+Landwalk
+Shadow
+Ascend
+Goad
+Flashback
+Enchant
+Aftermath
+Fuse
