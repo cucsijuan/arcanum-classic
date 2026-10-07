@@ -34,6 +34,8 @@
   "images": {
     "urlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&exact={name}",
     "minIntervalMs": 120,
-    "byIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large"
+    "byIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large",
+    "backUrlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&face=back&exact={name}",
+    "backByIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large&face=back"
   }
 }
