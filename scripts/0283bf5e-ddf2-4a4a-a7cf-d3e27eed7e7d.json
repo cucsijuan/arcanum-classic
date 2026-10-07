@@ -1,0 +1,29 @@
+{
+  "name": "Goblin Trashmaster",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Goblin",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Goblins you control get +1/+1."
+    },
+    {
+      "cost": "sacrificeAny:Goblin",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice a Goblin: Destroy target artifact."
+    }
+  ]
+}

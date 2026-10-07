@@ -1,0 +1,41 @@
+{
+  "name": "Dragon Egg",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dragon",
+            "types": "Creature — Dragon",
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Flying"
+            ],
+            "colors": [
+              "R"
+            ],
+            "abilities": [
+              {
+                "cost": "{R}",
+                "effects": [
+                  {
+                    "pump": [
+                      1,
+                      0
+                    ],
+                    "what": "self"
+                  }
+                ],
+                "text": "{R}: This token gets +1/+0 until end of turn."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 2/2 red Dragon creature token with flying and \"{R}: This token gets +1/+0 until end of turn.\""
+    }
+  ]
+}

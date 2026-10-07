@@ -1,0 +1,80 @@
+{
+  "name": "Ajani's Last Stand",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "planeswalker"
+            ]
+          }
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Sacrifice Ajani's Last Stand to create a 4/4 Avatar?",
+          "effects": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "if": "youSacrificed",
+              "then": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Avatar",
+                    "types": "Creature — Avatar",
+                    "power": 4,
+                    "toughness": 4,
+                    "keywords": [
+                      "Flying"
+                    ],
+                    "colors": [
+                      "W"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature or planeswalker you control dies, you may sacrifice this enchantment. If you do, create a 4/4 white Avatar creature token with flying."
+    },
+    {
+      "trigger": "discardedByOpponent",
+      "if": {
+        "control": {
+          "subtype": "Plains"
+        }
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Avatar",
+            "types": "Creature — Avatar",
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ],
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When a spell or ability an opponent controls causes you to discard this card, if you control a Plains, create a 4/4 white Avatar creature token with flying."
+    }
+  ]
+}

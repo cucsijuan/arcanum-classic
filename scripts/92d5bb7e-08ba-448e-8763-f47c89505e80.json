@@ -1,0 +1,24 @@
+{
+  "name": "Ghirapur Guide",
+  "abilities": [
+    {
+      "cost": "{2}{G}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "cantBeBlockedBy": {
+            "maxPower": 2
+          }
+        }
+      ],
+      "text": "{2}{G}: Target creature you control can't be blocked by creatures with power 2 or less this turn."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hieromancer's Cage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this enchantment enters, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."
+    }
+  ]
+}

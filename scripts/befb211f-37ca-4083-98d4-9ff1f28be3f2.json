@@ -1,0 +1,41 @@
+{
+  "name": "Goreclaw, Terror of Qal Sisma",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "minPower": 4
+        },
+        "amount": 2
+      },
+      "text": "Creature spells you cast with power 4 or greater cost {2} less to cast."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "minPower": 4
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever Goreclaw attacks, each creature you control with power 4 or greater gets +1/+1 and gains trample until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Lena, Selfless Champion",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "token": false
+            }
+          },
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When Lena enters, create a 1/1 white Soldier creature token for each nontoken creature you control."
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "lesserPower": true
+            }
+          },
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Sacrifice Lena: Creatures you control with power less than Lena's power gain indestructible until end of turn."
+    }
+  ]
+}

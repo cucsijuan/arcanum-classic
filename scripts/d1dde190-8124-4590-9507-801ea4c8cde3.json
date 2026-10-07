@@ -1,0 +1,25 @@
+{
+  "name": "Hungering Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked by more than one"
+        ]
+      },
+      "text": "This creature can't be blocked by more than one creature."
+    },
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature is dealt damage, put that many +1/+1 counters on it."
+    }
+  ]
+}

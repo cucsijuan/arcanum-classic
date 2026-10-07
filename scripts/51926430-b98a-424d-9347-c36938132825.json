@@ -1,0 +1,15 @@
+{
+  "name": "Bone Dragon",
+  "abilities": [
+    {
+      "cost": "{3}{B}{B}, exileGraveyardCards:7, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{3}{B}{B}, Exile seven other cards from your graveyard: Return this card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

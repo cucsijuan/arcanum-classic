@@ -1,0 +1,23 @@
+{
+  "name": "Court Cleric",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          1
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "planeswalker"
+            ],
+            "subtype": "Ajani"
+          }
+        }
+      },
+      "text": "This creature gets +1/+1 as long as you control an Ajani planeswalker."
+    }
+  ]
+}

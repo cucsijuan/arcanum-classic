@@ -1,0 +1,48 @@
+{
+  "name": "Fraying Omnipotence",
+  "spell": {
+    "effects": [
+      {
+        "eachPlayer": [
+          {
+            "loseLife": {
+              "halfUp": "life"
+            }
+          }
+        ],
+        "who": "everyone"
+      },
+      {
+        "eachPlayer": [
+          {
+            "discard": {
+              "halfUp": "handSize"
+            }
+          }
+        ],
+        "who": "everyone"
+      },
+      {
+        "eachPlayer": [
+          {
+            "sacrifice": {
+              "halfUp": {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            },
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "who": "everyone"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Gargoyle Sentinel",
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ],
+          "loseKeywords": [
+            "Defender"
+          ]
+        }
+      ],
+      "text": "{3}: Until end of turn, this creature loses defender and gains flying."
+    }
+  ]
+}

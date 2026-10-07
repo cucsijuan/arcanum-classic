@@ -1,0 +1,38 @@
+{
+  "name": "Ghostform",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true
+      },
+      {
+        "kind": "creature",
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target2",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      }
+    ]
+  }
+}

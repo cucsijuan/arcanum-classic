@@ -1,0 +1,29 @@
+{
+  "name": "Banefire",
+  "uncounterableIfXAtLeast": 5,
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "if": {
+          "xAtLeast": 5
+        },
+        "then": [
+          {
+            "damage": "X",
+            "to": "target",
+            "cantBePrevented": true
+          }
+        ],
+        "else": [
+          {
+            "damage": "X",
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gearsmith Prodigy",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      "text": "This creature gets +1/+0 as long as you control an artifact."
+    }
+  ]
+}

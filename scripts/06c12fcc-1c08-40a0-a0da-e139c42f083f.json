@@ -1,0 +1,27 @@
+{
+  "name": "Druid of Horns",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "targetsSource": true,
+      "filter": {
+        "subtype": "Aura"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an Aura spell that targets this creature, create a 3/3 green Beast creature token."
+    }
+  ]
+}

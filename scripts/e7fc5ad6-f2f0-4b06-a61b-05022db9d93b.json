@@ -1,0 +1,37 @@
+{
+  "name": "Arcades, the Strategist",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "keyword": "Defender"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with defender enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "keyword": "Defender"
+        },
+        "keywords": [
+          "Assigns damage by toughness",
+          "Can attack as though it didn't have defender"
+        ]
+      },
+      "text": "Each creature you control with defender assigns combat damage equal to its toughness rather than its power and can attack as though it didn't have defender."
+    }
+  ]
+}

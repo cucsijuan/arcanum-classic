@@ -1,0 +1,30 @@
+{
+  "name": "Elvish Clancaller",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    },
+    {
+      "cost": "{4}{G}{G}, {T}",
+      "effects": [
+        {
+          "search": {
+            "name": "Elvish Clancaller"
+          },
+          "count": 1,
+          "to": "battlefield"
+        }
+      ],
+      "text": "{4}{G}{G}, {T}: Search your library for a card named Elvish Clancaller, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

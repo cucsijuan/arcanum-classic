@@ -1,0 +1,32 @@
+{
+  "name": "Dragon's Hoard",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "gold"
+        }
+      ],
+      "text": "Whenever a Dragon you control enters, put a gold counter on this artifact."
+    },
+    {
+      "cost": "{T}, removeCounters:1:gold",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Remove a gold counter from this artifact: Draw a card."
+    }
+  ]
+}

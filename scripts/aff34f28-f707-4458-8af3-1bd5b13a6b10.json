@@ -1,0 +1,37 @@
+{
+  "name": "Cleansing Nova",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Destroy all creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all artifacts and enchantments.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Brawl-Bash Ogre",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature to give this creature +2/+2?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "pump": [
+                2,
+                2
+              ],
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature. If you do, this creature gets +2/+2 until end of turn."
+    }
+  ]
+}

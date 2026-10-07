@@ -1,0 +1,10 @@
+{
+  "name": "Doublecast",
+  "spell": {
+    "effects": [
+      {
+        "copyNextInstantOrSorcery": true
+      }
+    ]
+  }
+}

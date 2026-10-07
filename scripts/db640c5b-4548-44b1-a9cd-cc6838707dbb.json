@@ -1,0 +1,20 @@
+{
+  "name": "Declare Dominance",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "All creatures able to block it do so"
+        ]
+      }
+    ]
+  }
+}

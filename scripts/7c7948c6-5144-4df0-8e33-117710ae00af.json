@@ -1,0 +1,23 @@
+{
+  "name": "Lightning Mare",
+  "cantBeBlockedBy": {
+    "colors": [
+      "U"
+    ]
+  },
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

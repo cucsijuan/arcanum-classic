@@ -1,0 +1,35 @@
+{
+  "name": "Chromium, the Mutable",
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "loseAllAbilities": "self"
+        },
+        {
+          "become": "self",
+          "setSubtypes": [
+            "Human"
+          ],
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Hexproof"
+          ]
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Discard a card: Until end of turn, Chromium becomes a Human with base power and toughness 1/1, loses all abilities, and gains hexproof. It can't be blocked this turn."
+    }
+  ]
+}

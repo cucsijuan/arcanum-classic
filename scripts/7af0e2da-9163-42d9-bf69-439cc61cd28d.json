@@ -1,0 +1,43 @@
+{
+  "name": "Isareth the Awakener",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPayX": "Pay {X} to return a creature card with mana value X from your graveyard?",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ],
+                      "manaValueIsTriggerAmount": true
+                    },
+                    "text": "target creature card with mana value X in your graveyard"
+                  }
+                ],
+                "amount": "X",
+                "effects": [
+                  {
+                    "reanimate": "target",
+                    "counters": 1,
+                    "counterKind": "corpse",
+                    "exileIfLeaves": true
+                  }
+                ],
+                "text": "Return target creature card with mana value X from your graveyard to the battlefield with a corpse counter on it. If that creature would leave the battlefield, exile it instead of putting it anywhere else."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Isareth attacks, you may pay {X}. When you do, return target creature card with mana value X from your graveyard to the battlefield with a corpse counter on it. If that creature would leave the battlefield, exile it instead of putting it anywhere else."
+    }
+  ]
+}

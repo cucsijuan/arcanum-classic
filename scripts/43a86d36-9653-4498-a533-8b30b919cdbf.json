@@ -1,0 +1,27 @@
+{
+  "name": "Gift of Paradise",
+  "aura": "land",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this Aura enters, you gain 3 life."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "grantsMana": "any",
+        "grantsManaAmount": 2,
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted land has \"{T}: Add two mana of any one color.\""
+    }
+  ]
+}

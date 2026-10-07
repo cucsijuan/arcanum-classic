@@ -1,0 +1,15 @@
+{
+  "name": "Luminous Bonds",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ]
+      },
+      "text": "Enchanted creature can't attack or block."
+    }
+  ]
+}

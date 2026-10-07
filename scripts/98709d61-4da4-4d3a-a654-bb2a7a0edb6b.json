@@ -1,0 +1,31 @@
+{
+  "name": "Amulet of Safekeeping",
+  "abilities": [
+    {
+      "trigger": "youBecomeTargetOfOpponent",
+      "effects": [
+        {
+          "counterTriggeringUnlessPays": "{1}"
+        }
+      ],
+      "text": "Whenever you become the target of a spell or ability an opponent controls, counter that spell or ability unless its controller pays {1}."
+    },
+    {
+      "static": {
+        "affects": "creatures",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "token": true,
+          "controller": "any"
+        },
+        "pump": [
+          -1,
+          0
+        ]
+      },
+      "text": "Creature tokens get -1/-0."
+    }
+  ]
+}
