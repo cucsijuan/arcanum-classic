@@ -1,0 +1,14 @@
+{
+  "name": "Illusionary Servant",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfAny",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "When this creature becomes the target of a spell or ability, sacrifice it."
+    }
+  ]
+}

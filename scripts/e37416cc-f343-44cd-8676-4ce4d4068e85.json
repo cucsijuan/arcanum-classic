@@ -1,0 +1,25 @@
+{
+  "name": "Ice Cage",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ],
+        "cantActivate": true
+      },
+      "text": "Enchanted creature can't attack or block, and its activated abilities can't be activated."
+    },
+    {
+      "trigger": "attachedBecomesTarget",
+      "effects": [
+        {
+          "destroy": "self"
+        }
+      ],
+      "text": "When enchanted creature becomes the target of a spell or ability, destroy this Aura."
+    }
+  ]
+}

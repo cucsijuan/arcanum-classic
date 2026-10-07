@@ -1,0 +1,15 @@
+{
+  "name": "Coat of Arms",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "pump": [
+          "otherCreaturesSharingType",
+          "otherCreaturesSharingType"
+        ]
+      },
+      "text": "Each creature gets +1/+1 for each other creature on the battlefield that shares at least one creature type with it."
+    }
+  ]
+}

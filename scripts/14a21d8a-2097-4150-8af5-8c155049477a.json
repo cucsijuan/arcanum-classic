@@ -1,0 +1,24 @@
+{
+  "name": "Kraken's Eye",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "colors": [
+          "U"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Gain 1 life?",
+          "effects": [
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a player casts a blue spell, you may gain 1 life."
+    }
+  ]
+}

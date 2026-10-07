@@ -1,0 +1,15 @@
+{
+  "name": "Manabarbs",
+  "abilities": [
+    {
+      "trigger": "playerTapsLandForMana",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a player taps a land for mana, this enchantment deals 1 damage to that player."
+    }
+  ]
+}

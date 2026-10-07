@@ -1,0 +1,63 @@
+{
+  "name": "Garruk Wildspeaker",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targetRule": "allDifferent",
+      "targets": [
+        "land",
+        "land"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        },
+        {
+          "untap": "target2"
+        }
+      ],
+      "text": "+1: Untap two target lands."
+    },
+    {
+      "cost": "-1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "−1: Create a 3/3 green Beast creature token."
+    },
+    {
+      "cost": "-4",
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "−4: Creatures you control get +3/+3 and gain trample until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Jackal Familiar",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack alone",
+          "Can't block alone"
+        ]
+      },
+      "text": "This creature can't attack or block alone."
+    }
+  ]
+}

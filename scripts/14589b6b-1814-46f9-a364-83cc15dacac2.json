@@ -1,0 +1,12 @@
+{
+  "name": "Diabolic Tutor",
+  "spell": {
+    "effects": [
+      {
+        "search": {},
+        "to": "hand"
+      }
+    ],
+    "text": "Search your library for a card, put that card into your hand, then shuffle."
+  }
+}

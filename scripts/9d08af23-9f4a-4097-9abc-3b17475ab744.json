@@ -1,0 +1,28 @@
+{
+  "name": "Act of Treason",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "gainControl": "target",
+        "untilEndOfTurn": true
+      },
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn."
+  }
+}

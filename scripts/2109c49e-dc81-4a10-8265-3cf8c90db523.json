@@ -1,0 +1,48 @@
+{
+  "name": "Vampire Nocturnus",
+  "playWithTopCardRevealed": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          1
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "while": {
+          "topOfLibrary": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      },
+      "text": "As long as the top card of your library is black, this creature gets +2/+1 and has flying."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Vampire",
+        "pump": [
+          2,
+          1
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "while": {
+          "topOfLibrary": {
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      },
+      "text": "As long as the top card of your library is black, other Vampire creatures you control get +2/+1 and have flying."
+    }
+  ]
+}

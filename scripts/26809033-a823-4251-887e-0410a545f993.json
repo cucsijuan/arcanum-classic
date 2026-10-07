@@ -1,0 +1,16 @@
+{
+  "name": "Mind Shatter",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": "X",
+        "who": "target",
+        "random": true
+      }
+    ],
+    "text": "Target player discards X cards at random."
+  }
+}

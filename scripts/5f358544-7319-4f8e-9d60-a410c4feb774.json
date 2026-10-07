@@ -1,0 +1,17 @@
+{
+  "name": "Alluring Siren",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "attacksYouThisTurn": "target"
+        }
+      ],
+      "text": "{T}: Target creature an opponent controls attacks you this turn if able."
+    }
+  ]
+}

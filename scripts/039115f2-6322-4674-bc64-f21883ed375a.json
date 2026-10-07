@@ -1,0 +1,26 @@
+{
+  "name": "Polymorph",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      },
+      {
+        "revealUntil": {
+          "types": [
+            "creature"
+          ]
+        },
+        "from": "targetController",
+        "to": "battlefield",
+        "revealerPuts": true,
+        "rest": "shuffle"
+      }
+    ],
+    "text": "Destroy target creature. It can't be regenerated. Its controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield, then shuffles all other cards revealed this way into their library."
+  }
+}

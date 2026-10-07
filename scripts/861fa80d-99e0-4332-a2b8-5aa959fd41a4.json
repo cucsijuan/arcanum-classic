@@ -1,0 +1,19 @@
+{
+  "name": "Consume Spirit",
+  "xManaType": "{B}",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      },
+      {
+        "gainLife": "X"
+      }
+    ],
+    "text": "Spend only black mana on X. Consume Spirit deals X damage to any target and you gain X life."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Burning Inquiry",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3,
+        "who": "everyone"
+      },
+      {
+        "discard": 3,
+        "who": "everyone",
+        "random": true
+      }
+    ],
+    "text": "Each player draws three cards, then discards three cards at random."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Awakener Druid",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "land",
+          "filter": {
+            "subtype": "Forest"
+          },
+          "text": "target Forest"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "power": 4,
+          "toughness": 5,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Treefolk"
+          ],
+          "setColors": [
+            "G"
+          ],
+          "whileSource": true
+        }
+      ],
+      "text": "When this creature enters, target Forest becomes a 4/5 green Treefolk creature for as long as this creature remains on the battlefield. It's still a land."
+    }
+  ]
+}

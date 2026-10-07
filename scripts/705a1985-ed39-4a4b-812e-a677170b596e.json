@@ -1,0 +1,33 @@
+{
+  "name": "Dragon Whelp",
+  "abilities": [
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        },
+        {
+          "if": {
+            "activatedThisTurn": 4
+          },
+          "then": [
+            {
+              "atNextEndStepAbout": "self",
+              "effects": [
+                {
+                  "sacrificeIt": "triggered"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn. If this ability has been activated four or more times this turn, sacrifice this creature at the beginning of the next end step."
+    }
+  ]
+}

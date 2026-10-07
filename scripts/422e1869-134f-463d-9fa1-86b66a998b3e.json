@@ -1,0 +1,17 @@
+{
+  "name": "Fabricate",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "reveal": true,
+        "to": "hand"
+      }
+    ],
+    "text": "Search your library for an artifact card, reveal it, put it into your hand, then shuffle."
+  }
+}

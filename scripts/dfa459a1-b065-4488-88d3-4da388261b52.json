@@ -1,0 +1,13 @@
+{
+  "name": "Safe Passage",
+  "spell": {
+    "effects": [
+      {
+        "preventDamage": true,
+        "toYou": true,
+        "toYourCreatures": true
+      }
+    ],
+    "text": "Prevent all damage that would be dealt to you and creatures you control this turn."
+  }
+}

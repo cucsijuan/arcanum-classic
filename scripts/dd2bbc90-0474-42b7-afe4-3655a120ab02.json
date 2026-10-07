@@ -1,0 +1,37 @@
+{
+  "name": "Xathrid Demon",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "other": true
+          }
+        },
+        {
+          "if": "youSacrificed",
+          "then": [
+            {
+              "loseLife": "sacrificedPower",
+              "who": "opponents"
+            }
+          ],
+          "else": [
+            {
+              "tap": "self"
+            },
+            {
+              "loseLife": 7
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, sacrifice a creature other than this creature, then each opponent loses life equal to the sacrificed creature's power. If you can't sacrifice a creature, tap this creature and you lose 7 life."
+    }
+  ]
+}

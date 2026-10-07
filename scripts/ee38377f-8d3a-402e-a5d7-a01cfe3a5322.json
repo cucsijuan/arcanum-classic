@@ -1,0 +1,24 @@
+{
+  "name": "Demon's Horn",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "colors": [
+          "B"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Gain 1 life?",
+          "effects": [
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a player casts a black spell, you may gain 1 life."
+    }
+  ]
+}

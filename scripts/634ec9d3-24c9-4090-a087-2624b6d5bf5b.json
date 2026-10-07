@@ -1,0 +1,17 @@
+{
+  "name": "Yawning Fissure",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "who": "opponents"
+      }
+    ],
+    "text": "Each opponent sacrifices a land of their choice."
+  }
+}

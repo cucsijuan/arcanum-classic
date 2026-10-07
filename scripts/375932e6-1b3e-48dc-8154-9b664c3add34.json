@@ -1,0 +1,19 @@
+{
+  "name": "Nightmare",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Swamp"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Swamp"
+    }
+  }
+}

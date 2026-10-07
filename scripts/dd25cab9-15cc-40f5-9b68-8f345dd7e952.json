@@ -1,0 +1,41 @@
+{
+  "name": "Master of the Wild Hunt",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 2/2 green Wolf creature token."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tapAllToDamage": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Wolf"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "{T}: Tap all untapped Wolf creatures you control. Each Wolf tapped this way deals damage equal to its power to target creature. That creature deals damage equal to its power divided as its controller chooses among any number of those Wolves."
+    }
+  ]
+}

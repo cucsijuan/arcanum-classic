@@ -1,0 +1,42 @@
+{
+  "name": "Liliana Vess",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "+1: Target player discards a card."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "search": {},
+          "to": "top"
+        }
+      ],
+      "text": "−2: Search your library for a card, then shuffle and put that card on top."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "reanimateAll": {
+            "types": [
+              "creature"
+            ]
+          },
+          "from": "everyone"
+        }
+      ],
+      "text": "−8: Put all creature cards from all graveyards onto the battlefield under your control."
+    }
+  ]
+}

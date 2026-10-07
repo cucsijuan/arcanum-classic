@@ -1,0 +1,14 @@
+{
+  "name": "Mirror of Fate",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "rebuildLibraryFromExile": 7
+        }
+      ],
+      "text": "{T}, Sacrifice this artifact: Choose up to seven face-up exiled cards you own. Exile all the cards from your library, then put the chosen cards on top of your library."
+    }
+  ]
+}

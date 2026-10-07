@@ -1,0 +1,32 @@
+{
+  "name": "Armored Ascension",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Plains"
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Plains"
+            }
+          }
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 for each Plains you control and has flying."
+    }
+  ]
+}

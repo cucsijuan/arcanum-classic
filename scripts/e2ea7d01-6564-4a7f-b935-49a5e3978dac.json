@@ -1,0 +1,15 @@
+{
+  "name": "Traumatize",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": "halfLibrary",
+        "who": "target"
+      }
+    ],
+    "text": "Target player mills half their library, rounded down."
+  }
+}

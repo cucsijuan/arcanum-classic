@@ -1,0 +1,14 @@
+{
+  "name": "Cudgel Troll",
+  "abilities": [
+    {
+      "cost": "{G}",
+      "effects": [
+        {
+          "regenerate": "self"
+        }
+      ],
+      "text": "{G}: Regenerate this creature."
+    }
+  ]
+}

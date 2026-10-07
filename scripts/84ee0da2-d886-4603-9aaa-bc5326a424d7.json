@@ -1,0 +1,26 @@
+{
+  "name": "Tendrils of Corruption",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": {
+          "count": {
+            "subtype": "Swamp"
+          }
+        },
+        "to": "target"
+      },
+      {
+        "gainLife": {
+          "count": {
+            "subtype": "Swamp"
+          }
+        }
+      }
+    ],
+    "text": "Tendrils of Corruption deals X damage to target creature and you gain X life, where X is the number of Swamps you control."
+  }
+}

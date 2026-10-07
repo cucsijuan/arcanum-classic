@@ -1,0 +1,14 @@
+{
+  "name": "Black Knight",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Protection from white"
+        ]
+      },
+      "text": "Protection from white"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ponder",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 3,
+        "take": 0,
+        "rest": "top",
+        "restAnyOrder": true
+      },
+      {
+        "may": "Shuffle your library?",
+        "effects": [
+          {
+            "shuffle": "you"
+          }
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Look at the top three cards of your library, then put them back in any order. You may shuffle. Draw a card."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Fireball",
+  "extraTargetCost": 1,
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      "any",
+      {
+        "kind": "any",
+        "anyNumber": true
+      }
+    ],
+    "effects": [
+      {
+        "divideEvenly": "X"
+      }
+    ],
+    "text": "This spell costs {1} more to cast for each target beyond the first. Fireball deals X damage divided evenly, rounded down, among any number of targets."
+  }
+}

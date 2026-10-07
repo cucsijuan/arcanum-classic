@@ -1,0 +1,20 @@
+{
+  "name": "Entangling Vines",
+  "aura": {
+    "kind": "creature",
+    "filter": {
+      "tapped": true
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Doesn't untap"
+        ]
+      },
+      "text": "Enchanted creature doesn't untap during its controller's untap step."
+    }
+  ]
+}

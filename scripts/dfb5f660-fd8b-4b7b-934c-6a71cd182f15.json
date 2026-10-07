@@ -1,0 +1,67 @@
+{
+  "name": "Ajani Goldmane",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "+1: You gain 2 life."
+    },
+    {
+      "cost": "-1",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "−1: Put a +1/+1 counter on each creature you control. Those creatures gain vigilance until end of turn."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Avatar",
+            "types": "Creature — Avatar",
+            "colors": [
+              "W"
+            ],
+            "powerFrom": "life",
+            "toughnessFrom": "life",
+            "text": "This token's power and toughness are each equal to your life total."
+          }
+        }
+      ],
+      "text": "−6: Create a white Avatar creature token. It has \"This token's power and toughness are each equal to your life total.\""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Ignite Disorder",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "W",
+            "U"
+          ]
+        },
+        "text": "target white and/or blue creature"
+      },
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "W",
+            "U"
+          ]
+        },
+        "optional": true,
+        "text": "target white and/or blue creature"
+      },
+      {
+        "kind": "creature",
+        "filter": {
+          "colors": [
+            "W",
+            "U"
+          ]
+        },
+        "optional": true,
+        "text": "target white and/or blue creature"
+      }
+    ],
+    "effects": [
+      {
+        "divideDamage": 3
+      }
+    ],
+    "text": "Ignite Disorder deals 3 damage divided as you choose among one, two, or three target white and/or blue creatures."
+  }
+}

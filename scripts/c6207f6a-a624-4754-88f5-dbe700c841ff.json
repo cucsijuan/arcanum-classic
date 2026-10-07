@@ -1,0 +1,19 @@
+{
+  "name": "Sign in Blood",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      },
+      {
+        "loseLife": 2,
+        "who": "target"
+      }
+    ],
+    "text": "Target player draws two cards and loses 2 life."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Merfolk Sovereign",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Merfolk",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Merfolk creatures you control get +1/+1."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "subtype": "Merfolk"
+          },
+          "text": "target Merfolk creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{T}: Target Merfolk creature can't be blocked this turn."
+    }
+  ]
+}

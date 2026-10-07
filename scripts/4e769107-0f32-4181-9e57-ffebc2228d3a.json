@@ -1,0 +1,27 @@
+{
+  "name": "Rise from the Grave",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target",
+        "addSubtypes": [
+          "Zombie"
+        ],
+        "addColors": [
+          "B"
+        ]
+      }
+    ],
+    "text": "Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types."
+  }
+}

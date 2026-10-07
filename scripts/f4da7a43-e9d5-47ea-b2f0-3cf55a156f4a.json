@@ -1,0 +1,59 @@
+{
+  "name": "Chandra Nalaar",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        "playerOrPlaneswalker"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "+1: Chandra Nalaar deals 1 damage to target player or planeswalker."
+    },
+    {
+      "cost": "-X",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "target"
+        }
+      ],
+      "text": "−X: Chandra Nalaar deals X damage to target creature."
+    },
+    {
+      "cost": "-8",
+      "targets": [
+        "playerOrPlaneswalker"
+      ],
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "damage": 10,
+              "to": "target"
+            },
+            {
+              "damage": 10,
+              "to": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                "controlledBy": "target"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "−8: Chandra Nalaar deals 10 damage to target player or planeswalker and each creature that player or that planeswalker's controller controls."
+    }
+  ]
+}

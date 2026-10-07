@@ -1,0 +1,7 @@
+{
+  "name": "Pithing Needle",
+  "chooseOnEnter": "cardName",
+  "replaces": [
+    "StopsChosenNameAbilities"
+  ]
+}

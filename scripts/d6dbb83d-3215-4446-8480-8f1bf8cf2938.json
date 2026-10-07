@@ -1,0 +1,15 @@
+{
+  "name": "Great Sable Stag",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Protection from blue",
+          "Protection from black"
+        ]
+      },
+      "text": "Protection from blue and from black"
+    }
+  ]
+}

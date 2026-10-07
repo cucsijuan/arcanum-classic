@@ -1,0 +1,14 @@
+{
+  "name": "Regenerate",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "regenerate": "target"
+      }
+    ],
+    "text": "Regenerate target creature. (The next time that creature would be destroyed this turn, instead tap it, remove it from combat, and heal all damage on it.)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Jace Beleren",
+  "abilities": [
+    {
+      "cost": "+2",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "+2: Each player draws a card."
+    },
+    {
+      "cost": "-1",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "−1: Target player draws a card."
+    },
+    {
+      "cost": "-10",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 20,
+          "who": "target"
+        }
+      ],
+      "text": "−10: Target player mills twenty cards."
+    }
+  ]
+}

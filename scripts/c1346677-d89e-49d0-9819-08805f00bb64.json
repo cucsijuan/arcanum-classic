@@ -1,0 +1,36 @@
+{
+  "name": "Panic Attack",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to three target creatures"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to three target creatures"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to three target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "eachTarget",
+        "keywords": [
+          "Can't block"
+        ]
+      }
+    ],
+    "text": "Up to three target creatures can't block this turn."
+  }
+}

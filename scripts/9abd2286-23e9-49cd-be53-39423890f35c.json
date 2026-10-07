@@ -1,0 +1,46 @@
+{
+  "name": "Capricious Efreet",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        },
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true
+        },
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "destroyRandom": "eachTarget"
+        }
+      ],
+      "text": "At the beginning of your upkeep, choose target nonland permanent you control and up to two target nonland permanents you don't control. Destroy one of them at random."
+    }
+  ]
+}

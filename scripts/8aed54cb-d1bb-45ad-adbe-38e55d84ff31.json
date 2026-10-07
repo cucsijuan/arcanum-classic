@@ -1,0 +1,11 @@
+{
+  "name": "Silence",
+  "spell": {
+    "effects": [
+      {
+        "opponentsCantCastSpells": true
+      }
+    ],
+    "text": "Your opponents can't cast spells this turn."
+  }
+}

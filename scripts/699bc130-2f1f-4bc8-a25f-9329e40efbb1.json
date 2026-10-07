@@ -1,0 +1,37 @@
+{
+  "name": "Bogardan Hellkite",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        },
+        {
+          "kind": "any",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 5
+        }
+      ],
+      "text": "When this creature enters, it deals 5 damage divided as you choose among any number of targets."
+    }
+  ]
+}

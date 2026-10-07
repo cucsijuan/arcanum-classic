@@ -1,0 +1,11 @@
+{
+  "name": "Dread Warlock",
+  "cantBeBlockedBy": {
+    "types": [
+      "creature"
+    ],
+    "notColors": [
+      "B"
+    ]
+  }
+}

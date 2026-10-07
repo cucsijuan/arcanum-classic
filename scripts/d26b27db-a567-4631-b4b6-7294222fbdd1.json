@@ -1,0 +1,16 @@
+{
+  "name": "Howling Mine",
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "if": "untapped",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each player's draw step, if this artifact is untapped, that player draws an additional card."
+    }
+  ]
+}

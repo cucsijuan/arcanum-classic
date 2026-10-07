@@ -1,0 +1,23 @@
+{
+  "name": "Twincast",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "target instant or sorcery spell"
+      }
+    ],
+    "effects": [
+      {
+        "copySpell": "target"
+      }
+    ],
+    "text": "Copy target instant or sorcery spell. You may choose new targets for the copy."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Seismic Strike",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": {
+          "count": {
+            "subtype": "Mountain"
+          }
+        },
+        "to": "target"
+      }
+    ],
+    "text": "Seismic Strike deals damage to target creature equal to the number of Mountains you control."
+  }
+}

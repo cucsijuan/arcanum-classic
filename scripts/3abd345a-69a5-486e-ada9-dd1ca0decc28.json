@@ -1,0 +1,26 @@
+{
+  "name": "Haunting Echoes",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "exileGraveyardAndNamesakes": "target",
+        "filter": {
+          "anyOf": [
+            {
+              "not": [
+                "land"
+              ]
+            },
+            {
+              "notSupertype": "basic"
+            }
+          ]
+        }
+      }
+    ],
+    "text": "Exile all cards from target player's graveyard other than basic land cards. For each card exiled this way, search that player's library for all cards with the same name as that card and exile them. Then that player shuffles."
+  }
+}

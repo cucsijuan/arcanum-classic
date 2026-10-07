@@ -1,0 +1,24 @@
+{
+  "name": "Dragon's Claw",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "colors": [
+          "R"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Gain 1 life?",
+          "effects": [
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a player casts a red spell, you may gain 1 life."
+    }
+  ]
+}

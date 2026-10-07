@@ -1,0 +1,14 @@
+{
+  "name": "White Knight",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Protection from black"
+        ]
+      },
+      "text": "Protection from black (This creature can't be blocked, targeted, dealt damage, or enchanted by anything black.)"
+    }
+  ]
+}

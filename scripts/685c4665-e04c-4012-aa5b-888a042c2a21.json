@@ -1,0 +1,13 @@
+{
+  "name": "Convincing Mirage",
+  "chooseOnEnter": "basicLandType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setChosenLandType": true
+      },
+      "text": "Enchanted land is the chosen type."
+    }
+  ]
+}

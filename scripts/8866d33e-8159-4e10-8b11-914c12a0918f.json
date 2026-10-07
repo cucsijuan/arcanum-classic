@@ -1,0 +1,16 @@
+{
+  "name": "Rhox Pikemaster",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Soldier",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Other Soldier creatures you control have first strike."
+    }
+  ]
+}

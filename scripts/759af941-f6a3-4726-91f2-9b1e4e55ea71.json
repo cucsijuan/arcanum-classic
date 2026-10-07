@@ -1,0 +1,16 @@
+{
+  "name": "Hypnotic Specter",
+  "abilities": [
+    {
+      "trigger": "dealsDamageToOpponent",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "triggeredPlayer",
+          "random": true
+        }
+      ],
+      "text": "Whenever this creature deals damage to an opponent, that player discards a card at random."
+    }
+  ]
+}

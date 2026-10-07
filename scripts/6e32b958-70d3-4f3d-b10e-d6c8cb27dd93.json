@@ -1,0 +1,24 @@
+{
+  "name": "Protean Hydra",
+  "entersWithCounters": "X",
+  "replaces": [
+    "PreventDamageRemoveCounters"
+  ],
+  "abilities": [
+    {
+      "trigger": "counterRemoved",
+      "effects": [
+        {
+          "atNextEndStepAbout": "self",
+          "effects": [
+            {
+              "counters": 2,
+              "what": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a +1/+1 counter is removed from this creature, put two +1/+1 counters on it at the beginning of the next end step."
+    }
+  ]
+}

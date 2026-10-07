@@ -1,0 +1,15 @@
+{
+  "name": "Underworld Dreams",
+  "abilities": [
+    {
+      "trigger": "opponentDraws",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent draws a card, this enchantment deals 1 damage to that player."
+    }
+  ]
+}

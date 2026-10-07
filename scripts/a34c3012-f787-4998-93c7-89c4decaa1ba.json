@@ -1,0 +1,16 @@
+{
+  "name": "Djinn of Wishes",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "wish",
+  "abilities": [
+    {
+      "cost": "{2}{U}{U}, removeCounters:1:wish",
+      "effects": [
+        {
+          "playTopFree": true
+        }
+      ],
+      "text": "{2}{U}{U}, Remove a wish counter from this creature: Reveal the top card of your library. You may play that card without paying its mana cost. If you don't, exile it."
+    }
+  ]
+}

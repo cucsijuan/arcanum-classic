@@ -1,0 +1,14 @@
+{
+  "name": "Drudge Skeletons",
+  "abilities": [
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "regenerate": "self"
+        }
+      ],
+      "text": "{B}: Regenerate this creature."
+    }
+  ]
+}

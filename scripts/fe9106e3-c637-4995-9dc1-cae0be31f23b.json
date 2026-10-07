@@ -1,0 +1,6 @@
+{
+  "name": "Guardian Seraph",
+  "replaces": [
+    "PreventOneDamageFromOpponentsSources"
+  ]
+}

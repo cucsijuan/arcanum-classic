@@ -1,0 +1,33 @@
+{
+  "name": "Undead Slayer",
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Skeleton"
+              },
+              {
+                "subtype": "Vampire"
+              },
+              {
+                "subtype": "Zombie"
+              }
+            ]
+          },
+          "text": "target Skeleton, Vampire, or Zombie"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{W}, {T}: Exile target Skeleton, Vampire, or Zombie."
+    }
+  ]
+}

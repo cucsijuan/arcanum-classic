@@ -1,0 +1,32 @@
+{
+  "name": "Sleep",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "tap": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          },
+          "controlledBy": "target"
+        }
+      },
+      {
+        "skipNextUntap": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          },
+          "controlledBy": "target"
+        },
+        "player": "target"
+      }
+    ],
+    "text": "Tap all creatures target player controls. Those creatures don't untap during that player's next untap step."
+  }
+}

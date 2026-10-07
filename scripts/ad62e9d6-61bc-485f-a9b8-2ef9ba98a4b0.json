@@ -1,0 +1,32 @@
+{
+  "name": "Lightwielder Paladin",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controlledByTriggeredPlayer": true,
+          "filter": {
+            "colors": [
+              "B",
+              "R"
+            ]
+          },
+          "text": "target black or red permanent that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exile target black or red permanent that player controls?",
+          "effects": [
+            {
+              "exile": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you may exile target black or red permanent that player controls."
+    }
+  ]
+}

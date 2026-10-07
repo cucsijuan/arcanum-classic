@@ -1,0 +1,25 @@
+{
+  "name": "Serpent of the Endless Sea",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Island"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Island"
+    }
+  },
+  "cantAttackUnlessDefenderControls": {
+    "types": [
+      "land"
+    ],
+    "subtype": "Island"
+  }
+}

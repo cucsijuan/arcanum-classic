@@ -1,0 +1,15 @@
+{
+  "name": "Excommunicate",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "top": true
+      }
+    ],
+    "text": "Put target creature on top of its owner's library."
+  }
+}

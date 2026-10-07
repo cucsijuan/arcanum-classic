@@ -1,0 +1,14 @@
+{
+  "name": "Prized Unicorn",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "All creatures able to block it do so"
+        ]
+      },
+      "text": "All creatures able to block this creature do so."
+    }
+  ]
+}

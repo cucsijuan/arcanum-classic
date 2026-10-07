@@ -1,0 +1,15 @@
+{
+  "name": "Inferno Elemental",
+  "abilities": [
+    {
+      "trigger": "blocksOrBlockedBy",
+      "effects": [
+        {
+          "damage": 3,
+          "to": "triggered"
+        }
+      ],
+      "text": "Whenever this creature blocks or becomes blocked by a creature, this creature deals 3 damage to that creature."
+    }
+  ]
+}

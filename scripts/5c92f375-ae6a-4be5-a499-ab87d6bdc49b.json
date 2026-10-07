@@ -1,0 +1,14 @@
+{
+  "name": "Palace Guard",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can block any number of creatures"
+        ]
+      },
+      "text": "This creature can block any number of creatures."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Fog",
+  "spell": {
+    "effects": [
+      {
+        "preventDamage": true,
+        "combatOnly": true
+      }
+    ],
+    "text": "Prevent all combat damage that would be dealt this turn."
+  }
+}

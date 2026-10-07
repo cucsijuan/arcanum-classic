@@ -1,0 +1,12 @@
+{
+  "name": "Mind Control",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "givesControl": true
+      },
+      "text": "You control enchanted creature."
+    }
+  ]
+}

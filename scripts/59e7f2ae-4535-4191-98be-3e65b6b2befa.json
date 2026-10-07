@@ -1,0 +1,22 @@
+{
+  "name": "Doom Blade",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "notColors": [
+            "B"
+          ]
+        },
+        "text": "target nonblack creature"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target nonblack creature."
+  }
+}

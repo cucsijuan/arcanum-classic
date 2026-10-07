@@ -1,0 +1,27 @@
+{
+  "name": "Howl of the Night Pack",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "count": {
+            "types": [
+              "land"
+            ],
+            "subtype": "Forest"
+          }
+        },
+        "token": {
+          "name": "Wolf",
+          "types": "Creature — Wolf",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "G"
+          ]
+        }
+      }
+    ],
+    "text": "Create a 2/2 green Wolf creature token for each Forest you control."
+  }
+}

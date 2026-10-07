@@ -1,0 +1,17 @@
+{
+  "name": "Sage Owl",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "take": 0,
+          "rest": "top",
+          "restAnyOrder": true
+        }
+      ],
+      "text": "When this creature enters, look at the top four cards of your library, then put them back in any order."
+    }
+  ]
+}

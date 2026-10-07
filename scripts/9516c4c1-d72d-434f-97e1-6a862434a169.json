@@ -1,0 +1,15 @@
+{
+  "name": "Rootbound Crag",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Mountain"
+        },
+        {
+          "subtype": "Forest"
+        }
+      ]
+    }
+  }
+}

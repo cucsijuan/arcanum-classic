@@ -1,0 +1,15 @@
+{
+  "name": "Megrim",
+  "abilities": [
+    {
+      "trigger": "opponentDiscards",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent discards a card, this enchantment deals 2 damage to that player."
+    }
+  ]
+}

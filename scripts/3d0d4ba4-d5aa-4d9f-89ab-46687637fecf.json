@@ -1,0 +1,24 @@
+{
+  "name": "Angel's Feather",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "colors": [
+          "W"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Gain 1 life?",
+          "effects": [
+            {
+              "gainLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a player casts a white spell, you may gain 1 life."
+    }
+  ]
+}

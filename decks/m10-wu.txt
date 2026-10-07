@@ -1,0 +1,38 @@
+1 Air Elemental (M10) 42
+1 Alluring Siren (M10) 43
+1 Baneslayer Angel (M10) 4
+1 Blinding Mage (M10) 5
+1 Captain of the Watch (M10) 6
+1 Clone (M10) 45
+1 Coral Merfolk (M10) 47
+1 Darksteel Colossus (M10) 208
+1 Djinn of Wishes (M10) 50
+1 Elite Vanguard (M10) 9
+1 Griffin Sentinel (M10) 12
+1 Guardian Seraph (M10) 13
+1 Horned Turtle (M10) 55
+1 Illusionary Servant (M10) 57
+1 Lightwielder Paladin (M10) 19
+1 Merfolk Looter (M10) 61
+1 Merfolk Sovereign (M10) 62
+1 Mesa Enchantress (M10) 20
+1 Palace Guard (M10) 23
+1 Phantom Warrior (M10) 66
+1 Razorfoot Griffin (M10) 25
+1 Rhox Pikemaster (M10) 26
+1 Ajani Goldmane (M10) 1
+1 Angel's Feather (M10) 206
+1 Angel's Mercy (M10) 2
+1 Armored Ascension (M10) 3
+1 Cancel (M10) 44
+1 Celestial Purge (M10) 7
+1 Convincing Mirage (M10) 46
+1 Disorient (M10) 48
+1 Divination (M10) 49
+1 Divine Verdict (M10) 8
+1 Essence Scatter (M10) 51
+1 Excommunicate (M10) 10
+1 Fabricate (M10) 52
+1 Flashfreeze (M10) 53
+12 Plains (M10) 230
+12 Island (M10) 234

@@ -1,0 +1,38 @@
+{
+  "name": "Magma Phoenix",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "damage": 3,
+              "to": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            },
+            {
+              "damage": 3,
+              "to": "everyone"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, it deals 3 damage to each creature and each player."
+    },
+    {
+      "cost": "{3}{R}{R}, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{3}{R}{R}: Return this card from your graveyard to your hand."
+    }
+  ]
+}

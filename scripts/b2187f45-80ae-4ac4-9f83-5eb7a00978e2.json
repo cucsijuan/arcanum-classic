@@ -1,6 +1,6 @@
 {
   "name": "Sorcerous Spyglass",
-  "chooseOnEnter": "cardName",
+  "chooseOnEnter": "lookAtOpponentsHandThenCardName",
   "replaces": [
     "StopsChosenNameAbilities"
   ]

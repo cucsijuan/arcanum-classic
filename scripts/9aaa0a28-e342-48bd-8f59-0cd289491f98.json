@@ -1,0 +1,14 @@
+{
+  "name": "Indestructibility",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Enchanted permanent has indestructible."
+    }
+  ]
+}
