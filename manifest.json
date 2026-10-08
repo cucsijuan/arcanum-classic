@@ -2,7 +2,7 @@
   "id": "arcanum-classic",
   "name": "Classic",
   "version": "0.4.0",
-  "apiVersion": 4,
+  "apiVersion": 5,
   "license": "AGPL-3.0-or-later",
   "description": "Card data sources, card ability scripts, formats and sample decks for Arcanum."
 }
