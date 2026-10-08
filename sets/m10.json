@@ -2,6 +2,10 @@
  "code": "m10",
  "name": "Magic 2010",
  "released": "2009-07-17",
+ "pack": {
+  "image": "https://tcgplayer-cdn.tcgplayer.com/product/32530_in_1000x1000.jpg",
+  "seals": [0.05, 0.05]
+ },
  "booster": {
   "name": "Booster",
   "description": "15 cards: 10 commons, 3 uncommons, a rare (87.5%) or mythic rare (12.5%), and a basic land.",

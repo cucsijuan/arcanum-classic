@@ -2,6 +2,10 @@
  "code": "ltr",
  "name": "The Lord of the Rings: Tales of Middle-earth",
  "released": "2023-06-23",
+ "pack": {
+  "image": "https://tcgplayer-cdn.tcgplayer.com/product/484905_in_1000x1000.jpg",
+  "seals": [0.05, 0.05]
+ },
  "booster": {
   "name": "Draft Booster",
   "description": "15 cards: 10 commons (a traditional foil of any rarity replaces a common in a third of the boosters), 3 uncommons, a rare (87.6%) or mythic rare (12.4%), and a land: a basic land or, in a third of the boosters, a full-art Middle-earth map land.",

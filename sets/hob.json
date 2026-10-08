@@ -2,6 +2,10 @@
  "code": "hob",
  "name": "The Hobbit",
  "released": "2026-08-14",
+ "pack": {
+  "image": "https://tcgplayer-cdn.tcgplayer.com/product/692959_in_1000x1000.jpg",
+  "seals": [0.09, 0.08]
+ },
  "booster": {
   "name": "Play Booster",
   "description": "14 cards: 7 commons (a scene card 7.8% of the time), 3 uncommons (scene 5.5%, Dragon hoard 10.9%), a wildcard of any rarity, a rare or mythic rare, a traditional foil of any rarity, and a land (default basic, Middle-earth journey basic or common dual).",

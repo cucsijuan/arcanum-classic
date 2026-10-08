@@ -2,6 +2,10 @@
  "code": "fdn",
  "name": "Foundations",
  "released": "2024-11-15",
+ "pack": {
+  "image": "https://tcgplayer-cdn.tcgplayer.com/product/562116_in_1000x1000.jpg",
+  "seals": [0.06, 0.06]
+ },
  "booster": {
   "name": "Play Booster",
   "description": "14 cards: 6 commons, a common or (1.5%) a special guest, 3 uncommons, a rare or mythic rare, a land and two wildcards of any rarity.",
