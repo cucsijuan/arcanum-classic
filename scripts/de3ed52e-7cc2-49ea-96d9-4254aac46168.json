@@ -1,0 +1,25 @@
+{
+  "name": "Angel's Tomb",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "may": "Have this artifact become a 3/3 white Angel artifact creature with flying until end of turn?",
+          "effects": [
+            {
+              "become": "self",
+              "power": 3,
+              "toughness": 3,
+              "addTypes": ["creature"],
+              "addSubtypes": ["Angel"],
+              "setColors": ["W"],
+              "keywords": ["Flying"]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control enters, you may have this artifact become a 3/3 white Angel artifact creature with flying until end of turn."
+    }
+  ]
+}

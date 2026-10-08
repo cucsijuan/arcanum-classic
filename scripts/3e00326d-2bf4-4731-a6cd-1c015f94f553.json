@@ -1,0 +1,11 @@
+{
+  "name": "Anchor to the Aether",
+  "spell": {
+    "targets": ["creature"],
+    "effects": [
+      { "toLibrary": "target", "top": true },
+      { "scry": 1 }
+    ],
+    "text": "Put target creature on top of its owner's library. Scry 1."
+  }
+}

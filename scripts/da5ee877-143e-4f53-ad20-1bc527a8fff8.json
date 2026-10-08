@@ -1,0 +1,23 @@
+{
+  "name": "Molten Vortex",
+  "abilities": [
+    {
+      "cost": "{R}, discard",
+      "discardFilter": {
+        "types": [
+          "land"
+        ]
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "{R}, Discard a land card: This enchantment deals 2 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Aegis Angel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        { "kind": "permanent", "filter": { "other": true }, "text": "another target permanent" }
+      ],
+      "effects": [
+        { "pump": [0, 0], "what": "target", "keywords": ["Indestructible"], "whileYouControl": true }
+      ],
+      "text": "When this creature enters, another target permanent gains indestructible for as long as you control this creature. (Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.)"
+    }
+  ]
+}

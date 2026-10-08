@@ -1,0 +1,10 @@
+{
+  "name": "Artificer's Epiphany",
+  "spell": {
+    "effects": [
+      { "draw": 2 },
+      { "if": { "not": { "control": { "types": ["artifact"] } } }, "then": [ { "discard": 1 } ] }
+    ],
+    "text": "Draw two cards. If you control no artifacts, discard a card."
+  }
+}

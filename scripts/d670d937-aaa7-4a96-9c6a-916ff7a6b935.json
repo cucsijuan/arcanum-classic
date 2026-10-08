@@ -1,0 +1,14 @@
+{
+  "name": "Ramroller",
+  "attacksEachCombat": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [2, 0],
+        "while": { "control": { "types": ["artifact"], "other": true } }
+      },
+      "text": "This creature gets +2/+0 as long as you control another artifact."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Managorger Hydra",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a player casts a spell, put a +1/+1 counter on this creature."
+    }
+  ]
+}

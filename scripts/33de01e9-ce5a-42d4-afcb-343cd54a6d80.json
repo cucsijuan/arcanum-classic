@@ -1,0 +1,6 @@
+{
+  "name": "Caves of Koilos",
+  "extraMana": [
+    { "types": "{W}{B}", "damage": 1 }
+  ]
+}

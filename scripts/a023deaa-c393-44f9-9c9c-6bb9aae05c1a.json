@@ -1,0 +1,19 @@
+{
+  "name": "Prickleboar",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, this creature gets +2/+0 and has first strike. (It deals combat damage before creatures without first strike.)"
+    }
+  ]
+}

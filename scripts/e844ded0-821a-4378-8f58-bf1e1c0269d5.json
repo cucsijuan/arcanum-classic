@@ -1,0 +1,14 @@
+{
+  "name": "Suppression Bonds",
+  "aura": { "kind": "permanent", "filter": { "not": ["land"] } },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": ["Can't attack", "Can't block"],
+        "cantActivate": true
+      },
+      "text": "Enchanted permanent can't attack or block, and its activated abilities can't be activated."
+    }
+  ]
+}

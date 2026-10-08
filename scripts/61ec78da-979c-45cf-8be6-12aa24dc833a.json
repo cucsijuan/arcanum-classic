@@ -1,0 +1,19 @@
+{
+  "name": "Seismic Elemental",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "cantBlockThisTurn": {
+            "types": [
+              "creature"
+            ],
+            "without": "Flying"
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures without flying can't block this turn."
+    }
+  ]
+}

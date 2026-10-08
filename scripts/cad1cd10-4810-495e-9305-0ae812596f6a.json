@@ -1,0 +1,31 @@
+{
+  "name": "Goblin Glory Chaser",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": {
+        "not": "renowned"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "becomeRenowned": "self"
+        }
+      ],
+      "text": "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)"
+    },
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Menace"
+        ],
+        "while": "renowned"
+      },
+      "text": "As long as this creature is renowned, it has menace. (It can't be blocked except by two or more creatures.)"
+    }
+  ]
+}

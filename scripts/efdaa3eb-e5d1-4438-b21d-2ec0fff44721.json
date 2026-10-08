@@ -1,0 +1,10 @@
+{
+  "name": "Celestial Flare",
+  "spell": {
+    "targets": ["player"],
+    "effects": [
+      { "sacrifice": 1, "filter": { "types": ["creature"], "inCombat": true }, "who": "target" }
+    ],
+    "text": "Target player sacrifices an attacking or blocking creature of their choice."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Faerie Miscreant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": { "control": { "types": ["creature"], "name": "Faerie Miscreant", "other": true } },
+      "effects": [ { "draw": 1 } ],
+      "text": "When this creature enters, if you control another creature named Faerie Miscreant, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Patron of the Valiant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        { "counters": 1, "what": { "each": { "types": ["creature"], "controller": "you", "hasCounterKind": "+1/+1" } } }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on each creature you control with a +1/+1 counter on it."
+    }
+  ]
+}

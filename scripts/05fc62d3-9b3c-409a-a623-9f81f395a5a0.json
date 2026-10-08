@@ -1,0 +1,17 @@
+{
+  "name": "Revenant",
+  "powerFrom": {
+    "graveyard": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "graveyard": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}

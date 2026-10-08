@@ -1,0 +1,32 @@
+{
+  "name": "Acolyte of the Inferno",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": {
+        "not": "renowned"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "becomeRenowned": "self"
+        }
+      ],
+      "text": "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)"
+    },
+    {
+      "trigger": "blocksOrBlockedBy",
+      "when": "attacking",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "triggered"
+        }
+      ],
+      "text": "Whenever this creature becomes blocked by a creature, it deals 2 damage to that creature."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Tower Geist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 2,
+          "take": 1,
+          "required": true,
+          "rest": "graveyard"
+        }
+      ],
+      "text": "When this creature enters, look at the top two cards of your library. Put one of them into your hand and the other into your graveyard."
+    }
+  ]
+}

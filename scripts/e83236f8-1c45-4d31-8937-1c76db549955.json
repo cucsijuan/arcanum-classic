@@ -1,0 +1,49 @@
+{
+  "name": "Nissa's Pilgrimage",
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "then": [
+          {
+            "search": {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic",
+              "subtype": "Forest"
+            },
+            "count": 3,
+            "split": true,
+            "tapped": true,
+            "reveal": true
+          }
+        ],
+        "else": [
+          {
+            "search": {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic",
+              "subtype": "Forest"
+            },
+            "count": 2,
+            "split": true,
+            "tapped": true,
+            "reveal": true
+          }
+        ]
+      }
+    ],
+    "text": "Search your library for up to two basic Forest cards, reveal those cards, and put one onto the battlefield tapped and the rest into your hand. Then shuffle.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, search your library for up to three basic Forest cards instead of two."
+  }
+}

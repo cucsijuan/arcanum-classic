@@ -1,0 +1,13 @@
+{
+  "name": "Vine Snare",
+  "spell": {
+    "effects": [
+      {
+        "preventDamage": true,
+        "combatOnly": true,
+        "sources": { "types": ["creature"], "maxPower": 4, "controller": "any" }
+      }
+    ],
+    "text": "Prevent all combat damage that would be dealt this turn by creatures with power 4 or less."
+  }
+}

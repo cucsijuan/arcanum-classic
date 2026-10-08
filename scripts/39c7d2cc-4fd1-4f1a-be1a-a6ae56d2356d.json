@@ -1,0 +1,13 @@
+{
+  "name": "Shaman of the Pack",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": ["opponent"],
+      "effects": [
+        { "loseLife": { "count": { "subtype": "Elf" } }, "who": "target" }
+      ],
+      "text": "When this creature enters, target opponent loses life equal to the number of Elves you control."
+    }
+  ]
+}

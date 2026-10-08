@@ -1,0 +1,13 @@
+{
+  "name": "Murder Investigation",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": { "types": ["creature"], "controller": "any", "attachedToSource": true },
+      "effects": [
+        { "tokens": "triggeredPower", "token": { "name": "Soldier", "types": "Creature — Soldier", "power": 1, "toughness": 1, "colors": ["W"] } }
+      ],
+      "text": "When enchanted creature dies, create X 1/1 white Soldier creature tokens, where X is its power."
+    }
+  ]
+}

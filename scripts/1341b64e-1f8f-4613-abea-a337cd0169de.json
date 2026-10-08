@@ -1,0 +1,52 @@
+{
+  "name": "Erebos's Titan",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      },
+      "text": "As long as your opponents control no creatures, this creature has indestructible."
+    },
+    {
+      "trigger": "leavesGraveyard",
+      "fromGraveyard": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "mayPay": "Discard a card to return Erebos's Titan from your graveyard to your hand?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature card leaves an opponent's graveyard, you may discard a card. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

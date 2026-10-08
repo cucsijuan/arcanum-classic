@@ -1,0 +1,6 @@
+{
+  "name": "Yavimaya Coast",
+  "extraMana": [
+    { "types": "{G}{U}", "damage": 1 }
+  ]
+}

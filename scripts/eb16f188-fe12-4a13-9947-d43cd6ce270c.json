@@ -1,0 +1,31 @@
+{
+  "name": "Chandra's Fury",
+  "spell": {
+    "targets": [
+      "playerOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "damage": 4,
+            "to": "target"
+          },
+          {
+            "damage": 1,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Chandra's Fury deals 4 damage to target player or planeswalker and 1 damage to each creature that player or that planeswalker's controller controls."
+  }
+}

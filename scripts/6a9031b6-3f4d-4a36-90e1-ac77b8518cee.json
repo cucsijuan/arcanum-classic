@@ -1,0 +1,19 @@
+{
+  "name": "Magmatic Insight",
+  "additionalCost": {
+    "discard": 1,
+    "discardFilter": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ],
+    "text": "As an additional cost to cast this spell, discard a land card.\nDraw two cards."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Thunderclap Wyvern",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": { "keyword": "Flying" },
+        "pump": [1, 1]
+      },
+      "text": "Other creatures you control with flying get +1/+1."
+    }
+  ]
+}

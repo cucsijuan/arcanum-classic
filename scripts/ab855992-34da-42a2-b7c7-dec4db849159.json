@@ -1,0 +1,37 @@
+{
+  "name": "Aerial Volley",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        },
+        "text": "target creature with flying"
+      },
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        },
+        "optional": true,
+        "text": "target creature with flying"
+      },
+      {
+        "kind": "creature",
+        "filter": {
+          "keyword": "Flying"
+        },
+        "optional": true,
+        "text": "target creature with flying"
+      }
+    ],
+    "effects": [
+      {
+        "divideDamage": 3
+      }
+    ],
+    "text": "Aerial Volley deals 3 damage divided as you choose among one, two, or three target creatures with flying."
+  }
+}

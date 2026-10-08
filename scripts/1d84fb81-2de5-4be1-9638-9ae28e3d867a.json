@@ -1,0 +1,23 @@
+{
+  "name": "Mage-Ring Responder",
+  "doesntUntap": true,
+  "abilities": [
+    {
+      "cost": "{7}",
+      "effects": [
+        { "untap": "self" }
+      ],
+      "text": "{7}: Untap this creature."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        { "kind": "creature", "controlledByDefendingPlayer": true, "text": "target creature defending player controls" }
+      ],
+      "effects": [
+        { "damage": 7, "to": "target" }
+      ],
+      "text": "Whenever this creature attacks, it deals 7 damage to target creature defending player controls."
+    }
+  ]
+}

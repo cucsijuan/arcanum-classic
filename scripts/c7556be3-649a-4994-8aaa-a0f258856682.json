@@ -1,0 +1,12 @@
+{
+  "name": "Bonded Construct",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": ["Can't attack alone"]
+      },
+      "text": "This creature can't attack alone."
+    }
+  ]
+}

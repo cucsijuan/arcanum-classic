@@ -1,0 +1,9 @@
+{
+  "name": "Vryn Wingmare",
+  "abilities": [
+    {
+      "spellCostIncrease": { "spells": { "not": ["creature"] }, "amount": 1 },
+      "text": "Noncreature spells cost {1} more to cast."
+    }
+  ]
+}

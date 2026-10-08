@@ -1,0 +1,41 @@
+{
+  "name": "Necromantic Summons",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature card from a graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "if": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "then": [
+          {
+            "reanimate": "target",
+            "counters": 2
+          }
+        ],
+        "else": [
+          {
+            "reanimate": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Put target creature card from a graveyard onto the battlefield under your control. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, that creature enters with two additional +1/+1 counters on it."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Woodland Bellower",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": { "types": ["creature"], "colors": ["G"], "notSupertype": "legendary", "maxManaValue": 3 },
+          "count": 1,
+          "to": "battlefield",
+          "optional": true
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a nonlegendary green creature card with mana value 3 or less, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Hixus, Prison Warden",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": { "types": ["creature"], "controller": "any", "attackingYou": true },
+      "if": { "sourceIs": { "putIntoZoneThisTurn": true } },
+      "effects": [ { "exileUntilLeaves": "triggered" } ],
+      "text": "Whenever a creature deals combat damage to you, if Hixus entered this turn, exile that creature until Hixus leaves the battlefield. (That creature returns under its owner's control.)"
+    }
+  ]
+}

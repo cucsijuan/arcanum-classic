@@ -1,0 +1,11 @@
+{
+  "name": "Calculated Dismissal",
+  "spell": {
+    "targets": ["spell"],
+    "effects": [
+      { "counter": "target", "unlessPays": "{3}" },
+      { "if": { "graveyard": 2, "filter": { "types": ["instant", "sorcery"] } }, "then": [ { "scry": 2 } ] }
+    ],
+    "text": "Counter target spell unless its controller pays {3}. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, scry 2."
+  }
+}

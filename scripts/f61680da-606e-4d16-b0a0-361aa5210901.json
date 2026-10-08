@@ -1,0 +1,31 @@
+{
+  "name": "Chandra's Ignition",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "bite": "target",
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "exceptTargets": true
+            }
+          },
+          {
+            "bite": "target",
+            "to": "opponents"
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to each other creature and each opponent."
+  }
+}

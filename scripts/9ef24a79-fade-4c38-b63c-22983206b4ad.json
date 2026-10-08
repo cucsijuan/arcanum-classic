@@ -1,0 +1,30 @@
+{
+  "name": "Herald of the Pantheon",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Enchantment spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, you gain 1 life."
+    }
+  ]
+}

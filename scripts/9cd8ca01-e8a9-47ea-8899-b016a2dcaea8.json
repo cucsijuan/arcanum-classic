@@ -1,0 +1,40 @@
+{
+  "name": "Infectious Bloodlust",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          1
+        ],
+        "keywords": [
+          "Haste",
+          "Attacks each combat if able"
+        ]
+      },
+      "text": "Enchanted creature gets +2/+1, has haste, and attacks each combat if able."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "search": {
+            "name": "Infectious Bloodlust"
+          },
+          "to": "hand",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "When enchanted creature dies, you may search your library for a card named Infectious Bloodlust, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

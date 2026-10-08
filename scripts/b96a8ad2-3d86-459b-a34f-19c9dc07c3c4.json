@@ -1,0 +1,117 @@
+{
+  "name": "Liliana, Heretical Healer // Liliana, Defiant Necromancer",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false
+      },
+      "effects": [
+        // A second such trigger that resolves after she already came back transformed finds a new object (rule 400.7):
+        // it does nothing, so no second exile and no second Zombie.
+        {
+          "if": {
+            "not": "transformed"
+          },
+          "then": [
+            {
+              "blink": "self",
+              "transformed": true
+            },
+            {
+              // "If you do": only once she was exiled and returned transformed.
+              "if": "transformed",
+              "then": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Zombie",
+                    "types": "Creature — Zombie",
+                    "power": 2,
+                    "toughness": 2,
+                    "colors": [
+                      "B"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, exile Liliana, Heretical Healer, then return her to the battlefield transformed under her owner's control. If you do, create a 2/2 black Zombie creature token."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "+2",
+        "effects": [
+          {
+            "discard": 1,
+            "who": "everyone"
+          }
+        ],
+        "text": "+2: Each player discards a card."
+      },
+      {
+        "cost": "-X",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ],
+              "notSupertype": "legendary",
+              "manaValueIsX": true
+            },
+            "text": "target nonlegendary creature card with mana value X from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target"
+          }
+        ],
+        "text": "−X: Return target nonlegendary creature card with mana value X from your graveyard to the battlefield."
+      },
+      {
+        "cost": "-8",
+        "effects": [
+          {
+            "emblem": "Liliana, Defiant Necromancer",
+            "abilities": [
+              {
+                "trigger": "creatureDies",
+                "filter": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any"
+                },
+                "effects": [
+                  {
+                    "atNextEndStepAbout": "triggered",
+                    "effects": [
+                      {
+                        "reanimate": "triggered"
+                      }
+                    ]
+                  }
+                ],
+                "text": "Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step."
+              }
+            ]
+          }
+        ],
+        "text": "−8: You get an emblem with \"Whenever a creature dies, return it to the battlefield under your control at the beginning of the next end step.\""
+      }
+    ]
+  }
+}

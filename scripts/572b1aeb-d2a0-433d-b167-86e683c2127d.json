@@ -1,0 +1,14 @@
+{
+  "name": "Sentinel of the Eternal Watch",
+  "abilities": [
+    {
+      "trigger": "eachBeginCombat",
+      "when": { "not": "yourTurn" },
+      "targets": [
+        { "kind": "creature", "controlledByTriggeredPlayer": true, "text": "target creature that player controls" }
+      ],
+      "effects": [ { "tap": "target" } ],
+      "text": "At the beginning of combat on each opponent's turn, tap target creature that player controls."
+    }
+  ]
+}

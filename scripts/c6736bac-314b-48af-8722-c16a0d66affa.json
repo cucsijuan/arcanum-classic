@@ -1,0 +1,19 @@
+{
+  "name": "Bounding Krasis",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": ["creature"],
+      "effects": [
+        {
+          "chooseEffect": [
+            { "text": "Tap it", "effects": [{ "tap": "target" }] },
+            { "text": "Untap it", "effects": [{ "untap": "target" }] },
+            { "text": "Neither", "effects": [] }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may tap or untap target creature."
+    }
+  ]
+}

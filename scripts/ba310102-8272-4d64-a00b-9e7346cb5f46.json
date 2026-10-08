@@ -1,0 +1,20 @@
+{
+  "name": "Sylvan Messenger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "revealAll": true,
+          "filter": { "subtype": "Elf" },
+          "take": -1,
+          "required": true,
+          "to": "hand",
+          "restAnyOrder": true
+        }
+      ],
+      "text": "When this creature enters, reveal the top four cards of your library. Put all Elf cards revealed this way into your hand and the rest on the bottom of your library in any order."
+    }
+  ]
+}

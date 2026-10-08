@@ -1,0 +1,32 @@
+{
+  "name": "Throwing Knife",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [2, 0]
+      },
+      "text": "Equipped creature gets +2/+0."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": { "types": ["creature"], "controller": "any", "attachedToSource": true },
+      "targets": ["any"],
+      "effects": [
+        {
+          "may": "Sacrifice this Equipment to have it deal 2 damage to the target?",
+          "effects": [
+            { "sacrificeIt": "self" },
+            {
+              "if": "youSacrificed",
+              "then": [
+                { "damage": 2, "to": "target" }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature attacks, you may sacrifice this Equipment. If you do, this Equipment deals 2 damage to any target."
+    }
+  ]
+}

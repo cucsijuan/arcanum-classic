@@ -1,0 +1,32 @@
+{
+  "name": "Jace's Sanctum",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Instant and sorcery spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, scry 1."
+    }
+  ]
+}

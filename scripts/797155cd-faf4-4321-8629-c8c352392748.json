@@ -1,0 +1,15 @@
+{
+  "name": "Reclaim",
+  "spell": {
+    "targets": [
+      "graveyardCard:you"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "top": true
+      }
+    ],
+    "text": "Put target card from your graveyard on top of your library."
+  }
+}

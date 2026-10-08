@@ -1,0 +1,21 @@
+{
+  "name": "Graveblade Marauder",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "loseLife": {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, that player loses life equal to the number of creature cards in your graveyard."
+    }
+  ]
+}

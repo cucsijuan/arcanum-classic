@@ -1,0 +1,27 @@
+{
+  "name": "Despoiler of Souls",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "cost": "{B}{B}, exileGraveyardCards:2:creature, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self"
+        }
+      ],
+      "text": "{B}{B}, Exile two other creature cards from your graveyard: Return this card from your graveyard to the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Totem-Guide Hartebeest",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for an Aura card, reveal it, put it into your hand, then shuffle?",
+          "effects": [
+            { "search": { "subtype": "Aura" }, "count": 1, "reveal": true, "to": "hand" }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for an Aura card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

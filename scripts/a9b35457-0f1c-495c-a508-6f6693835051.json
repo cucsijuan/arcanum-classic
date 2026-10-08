@@ -1,0 +1,26 @@
+{
+  "name": "Thornbow Archer",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "loseLife": 1
+            }
+          ],
+          "who": "opponents",
+          "onlyIf": {
+            "not": {
+              "control": {
+                "subtype": "Elf"
+              }
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent who doesn't control an Elf loses 1 life."
+    }
+  ]
+}

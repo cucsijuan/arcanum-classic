@@ -1,0 +1,15 @@
+{
+  "name": "Timberpack Wolf",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          { "count": { "types": ["creature"], "name": "Timberpack Wolf", "controller": "you", "other": true } },
+          { "count": { "types": ["creature"], "name": "Timberpack Wolf", "controller": "you", "other": true } }
+        ]
+      },
+      "text": "This creature gets +1/+1 for each other creature you control named Timberpack Wolf."
+    }
+  ]
+}

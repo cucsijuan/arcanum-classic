@@ -1,0 +1,29 @@
+{
+  "name": "Hangarback Walker",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": { "counters": "+1/+1" },
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": ["Flying"]
+          }
+        }
+      ],
+      "text": "When this creature dies, create a 1/1 colorless Thopter artifact creature token with flying for each +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        { "counters": 1, "what": "self" }
+      ],
+      "text": "{1}, {T}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

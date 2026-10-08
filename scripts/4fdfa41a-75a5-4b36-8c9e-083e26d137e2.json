@@ -1,0 +1,14 @@
+{
+  "name": "Chief of the Foundry",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": { "types": ["artifact"] },
+        "pump": [1, 1]
+      },
+      "text": "Other artifact creatures you control get +1/+1."
+    }
+  ]
+}

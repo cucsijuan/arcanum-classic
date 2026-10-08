@@ -1,0 +1,22 @@
+{
+  "name": "Grasp of the Hieromancer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [1, 1],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "targets": [
+              { "kind": "creature", "controller": "opponent", "controlledByDefendingPlayer": true, "text": "target creature defending player controls" }
+            ],
+            "effects": [ { "tap": "target" } ],
+            "text": "Whenever this creature attacks, tap target creature defending player controls."
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has \"Whenever this creature attacks, tap target creature defending player controls.\""
+    }
+  ]
+}

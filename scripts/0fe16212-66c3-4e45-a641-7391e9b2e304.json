@@ -1,0 +1,6 @@
+{
+  "name": "Shivan Reef",
+  "extraMana": [
+    { "types": "{U}{R}", "damage": 1 }
+  ]
+}

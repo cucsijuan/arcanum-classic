@@ -1,0 +1,41 @@
+{
+  "name": "Shadows of the Past",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever a creature dies, scry 1. (Look at the top card of your library. You may put that card on the bottom.)"
+    },
+    {
+      "cost": "{4}{B}",
+      "activateIf": {
+        "graveyard": 4,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{4}{B}: Each opponent loses 2 life and you gain 2 life. Activate only if there are four or more creature cards in your graveyard."
+    }
+  ]
+}

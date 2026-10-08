@@ -1,0 +1,33 @@
+{
+  "name": "Cruel Revival",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "notSubtype": "Zombie"
+        },
+        "text": "target non-Zombie creature"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "subtype": "Zombie"
+        },
+        "optional": true,
+        "text": "up to one target Zombie card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      },
+      {
+        "bounce": "target2"
+      }
+    ],
+    "text": "Destroy target non-Zombie creature. It can't be regenerated. Return up to one target Zombie card from your graveyard to your hand."
+  }
+}

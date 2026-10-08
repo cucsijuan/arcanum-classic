@@ -1,0 +1,150 @@
+{
+  "name": "Nissa, Vastwood Seer // Nissa, Sage Animist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic",
+            "subtype": "Forest"
+          },
+          "to": "hand",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "When Nissa enters, you may search your library for a basic Forest card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "trigger": "landfall",
+      "if": {
+        "control": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 7
+      },
+      "effects": [
+        {
+          // A second such trigger finds Nissa already turned over (a new object): it does nothing (rule 400.7).
+          "if": {
+            "sourceIs": {
+              "transformed": false
+            }
+          },
+          "then": [
+            {
+              "blink": "self",
+              "transformed": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a land you control enters, if you control seven or more lands, exile Nissa, then return her to the battlefield transformed under her owner's control."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "+1",
+        "effects": [
+          {
+            "revealTop": {
+              "types": [
+                "land"
+              ]
+            },
+            "effects": [
+              {
+                "reanimate": "found"
+              }
+            ],
+            "else": [
+              {
+                "bounce": "found"
+              }
+            ]
+          }
+        ],
+        "text": "+1: Reveal the top card of your library. If it's a land card, put it onto the battlefield. Otherwise, put it into your hand."
+      },
+      {
+        "cost": "-2",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Ashaya, the Awoken World",
+              "types": "Legendary Creature — Elemental",
+              "power": 4,
+              "toughness": 4,
+              "colors": [
+                "G"
+              ]
+            }
+          }
+        ],
+        "text": "−2: Create Ashaya, the Awoken World, a legendary 4/4 green Elemental creature token."
+      },
+      {
+        "cost": "-7",
+        "targetRule": "allDifferent",
+        "targets": [
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          },
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          },
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          },
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          },
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          },
+          {
+            "kind": "land",
+            "optional": true,
+            "text": "target land"
+          }
+        ],
+        "effects": [
+          {
+            "untap": "eachTarget"
+          },
+          {
+            "become": "eachTarget",
+            "power": 6,
+            "toughness": 6,
+            "addTypes": [
+              "creature"
+            ],
+            "addSubtypes": [
+              "Elemental"
+            ],
+            "permanent": true
+          }
+        ],
+        "text": "−7: Untap up to six target lands. They become 6/6 Elemental creatures. They're still lands."
+      }
+    ]
+  }
+}

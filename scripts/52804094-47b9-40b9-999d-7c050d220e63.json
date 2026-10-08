@@ -1,0 +1,15 @@
+{
+  "name": "Helm of the Gods",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          { "count": { "types": ["enchantment"] } },
+          { "count": { "types": ["enchantment"] } }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each enchantment you control."
+    }
+  ]
+}

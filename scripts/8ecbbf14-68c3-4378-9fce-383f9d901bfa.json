@@ -1,0 +1,17 @@
+{
+  "name": "Kytheon's Tactics",
+  "spell": {
+    "effects": [
+      {
+        "if": { "graveyard": 2, "filter": { "types": ["instant", "sorcery"] } },
+        "then": [
+          { "pump": [2, 1], "what": { "each": { "types": ["creature"], "controller": "you" } }, "keywords": ["Vigilance"] }
+        ],
+        "else": [
+          { "pump": [2, 1], "what": { "each": { "types": ["creature"], "controller": "you" } } }
+        ]
+      }
+    ],
+    "text": "Creatures you control get +2/+1 until end of turn. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, those creatures also gain vigilance until end of turn."
+  }
+}

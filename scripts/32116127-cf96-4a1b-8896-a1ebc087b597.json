@@ -1,0 +1,6 @@
+{
+  "name": "Llanowar Wastes",
+  "extraMana": [
+    { "types": "{B}{G}", "damage": 1 }
+  ]
+}

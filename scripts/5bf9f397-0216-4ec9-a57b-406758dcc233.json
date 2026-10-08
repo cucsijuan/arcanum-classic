@@ -1,0 +1,27 @@
+{
+  "name": "Undead Servant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "graveyard": {
+              "name": "Undead Servant"
+            }
+          },
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 black Zombie creature token for each card named Undead Servant in your graveyard."
+    }
+  ]
+}

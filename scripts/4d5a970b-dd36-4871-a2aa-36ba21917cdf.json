@@ -1,0 +1,14 @@
+{
+  "name": "Into the Void",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      { "kind": "creature", "optional": true, "text": "up to two target creatures" },
+      { "kind": "creature", "optional": true, "text": "up to two target creatures" }
+    ],
+    "effects": [
+      { "bounce": "eachTarget" }
+    ],
+    "text": "Return up to two target creatures to their owners' hands."
+  }
+}

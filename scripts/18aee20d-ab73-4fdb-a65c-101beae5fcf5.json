@@ -1,0 +1,22 @@
+{
+  "name": "Tormented Thoughts",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": "sacrificedPower",
+        "who": "target"
+      }
+    ],
+    "text": "Target player discards a number of cards equal to the sacrificed creature's power."
+  }
+}

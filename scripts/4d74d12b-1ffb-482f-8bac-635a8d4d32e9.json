@@ -1,0 +1,25 @@
+{
+  "name": "Goblin Piledriver",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "attacking": {
+                "subtype": "Goblin",
+                "other": true,
+                "controller": "any"
+              },
+              "times": 2
+            },
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +2/+0 until end of turn for each other attacking Goblin."
+    }
+  ]
+}

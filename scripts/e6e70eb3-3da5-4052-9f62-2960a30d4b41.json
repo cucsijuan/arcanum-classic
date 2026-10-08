@@ -1,0 +1,10 @@
+{
+  "name": "Dreadwaters",
+  "spell": {
+    "targets": ["player"],
+    "effects": [
+      { "mill": { "count": { "types": ["land"], "controller": "you" } }, "who": "target" }
+    ],
+    "text": "Target player mills X cards, where X is the number of lands you control."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Subterranean Scout",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 2
+          },
+          "text": "target creature with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

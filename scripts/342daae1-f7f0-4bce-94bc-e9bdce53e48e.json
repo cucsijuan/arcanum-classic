@@ -1,0 +1,41 @@
+{
+  "name": "Dark Dabbling",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "regenerate": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "if": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "then": [
+          {
+            "regenerate": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "exceptTargets": true
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Regenerate target creature. Draw a card. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, also regenerate each other creature you control."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Cleric of the Forward Order",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        { "gainLife": { "count": { "types": ["creature"], "controller": "you", "name": "Cleric of the Forward Order" }, "times": 2 } }
+      ],
+      "text": "When this creature enters, you gain 2 life for each creature you control named Cleric of the Forward Order."
+    }
+  ]
+}

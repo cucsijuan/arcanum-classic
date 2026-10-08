@@ -1,0 +1,10 @@
+{
+  "name": "Clash of Wills",
+  "spell": {
+    "targets": ["spell"],
+    "effects": [
+      { "playerMayPay": "X", "who": "targetController", "ifNot": [ { "counter": "target" } ] }
+    ],
+    "text": "Counter target spell unless its controller pays {X}."
+  }
+}

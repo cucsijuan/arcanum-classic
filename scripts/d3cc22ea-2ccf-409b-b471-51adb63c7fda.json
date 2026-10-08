@@ -1,0 +1,44 @@
+{
+  "name": "Gnarlroot Trapper",
+  "extraMana": [
+    {
+      "types": "{G}",
+      "lifeCost": 1,
+      "onlyFor": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Elf"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf",
+            "attacking": true
+          },
+          "text": "target attacking Elf you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{T}: Target attacking Elf you control gains deathtouch until end of turn."
+    }
+  ]
+}

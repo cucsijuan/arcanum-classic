@@ -1,0 +1,20 @@
+{
+  "name": "Alchemist's Vial",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        { "draw": 1 }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "targets": ["creature"],
+      "effects": [
+        { "pump": [0, 0], "what": "target", "keywords": ["Can't attack", "Can't block"] }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Target creature can't attack or block this turn."
+    }
+  ]
+}

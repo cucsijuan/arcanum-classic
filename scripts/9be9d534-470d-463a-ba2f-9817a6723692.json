@@ -1,0 +1,24 @@
+{
+  "name": "Avaricious Dragon",
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "when": "yourTurn",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your draw step, draw an additional card."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "discardHand": "you"
+        }
+      ],
+      "text": "At the beginning of your end step, discard your hand."
+    }
+  ]
+}

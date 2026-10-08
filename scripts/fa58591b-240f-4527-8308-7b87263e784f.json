@@ -1,0 +1,38 @@
+{
+  "name": "Enthralling Victor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "maxPower": 2
+          },
+          "text": "target creature an opponent controls with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "untilEndOfTurn": true
+        },
+        {
+          "untap": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, gain control of target creature an opponent controls with power 2 or less until end of turn. Untap that creature. It gains haste until end of turn."
+    }
+  ]
+}

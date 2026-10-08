@@ -1,0 +1,29 @@
+{
+  "name": "Consecrated by Blood",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "cost": "sacrifice:creature*2",
+            "effects": [
+              {
+                "regenerate": "self"
+              }
+            ],
+            "text": "Sacrifice two other creatures: Regenerate this creature."
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2 and has flying and \"Sacrifice two other creatures: Regenerate this creature.\""
+    }
+  ]
+}
