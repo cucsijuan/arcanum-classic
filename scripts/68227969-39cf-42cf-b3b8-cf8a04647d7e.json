@@ -1,0 +1,17 @@
+{
+  "name": "Switcheroo",
+  "spell": {
+    "targets": [
+      "creature",
+      "creature"
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "exchangeControl": "target",
+        "with": "target2"
+      }
+    ],
+    "text": "Exchange control of two target creatures."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Metamorphic Alteration",
+  "chooseOnEnter": "creature",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "copyOfChosen": true
+      },
+      "text": "Enchanted creature is a copy of the chosen creature."
+    }
+  ]
+}

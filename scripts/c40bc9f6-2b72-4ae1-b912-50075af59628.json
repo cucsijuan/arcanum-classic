@@ -1,0 +1,17 @@
+{
+  "name": "Remorseful Cleric",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "exileGraveyard": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Exile target player's graveyard."
+    }
+  ]
+}

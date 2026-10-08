@@ -1,0 +1,24 @@
+{
+  "name": "Totally Lost",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ],
+          "controller": "any"
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "top": true
+      }
+    ],
+    "text": "Put target nonland permanent on top of its owner's library."
+  }
+}

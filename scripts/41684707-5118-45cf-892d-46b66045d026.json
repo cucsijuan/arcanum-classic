@@ -1,0 +1,21 @@
+{
+  "name": "Skymarch Bloodletter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this creature enters, target opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

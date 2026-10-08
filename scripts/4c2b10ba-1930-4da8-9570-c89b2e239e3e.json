@@ -1,0 +1,17 @@
+{
+  "name": "Palladia-Mors, the Ruiner",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "not": "dealtDamage"
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Palladia-Mors has hexproof as long as it hasn't dealt damage yet."
+    }
+  ]
+}

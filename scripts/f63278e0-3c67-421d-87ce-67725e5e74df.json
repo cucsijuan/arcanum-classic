@@ -1,0 +1,40 @@
+{
+  "name": "Spit Flame",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ],
+    "text": "Spit Flame deals 4 damage to target creature."
+  },
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "fromGraveyard": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {R} to return this card to your hand?",
+          "mana": "{R}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Dragon you control enters, you may pay {R}. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

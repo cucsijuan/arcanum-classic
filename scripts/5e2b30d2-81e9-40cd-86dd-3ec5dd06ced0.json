@@ -1,0 +1,41 @@
+{
+  "name": "Vivien's Invocation",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 7,
+        "take": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "to": "battlefield"
+      },
+      {
+        "whenYouDo": {
+          "if": {
+            "atLeast": "foundThisWay",
+            "value": 1
+          },
+          "about": "found",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "opponent",
+              "text": "target creature an opponent controls"
+            }
+          ],
+          "effects": [
+            {
+              "bite": "triggered",
+              "to": "target"
+            }
+          ],
+          "text": "When a creature is put onto the battlefield this way, it deals damage equal to its power to target creature an opponent controls."
+        }
+      }
+    ],
+    "text": "Look at the top seven cards of your library. You may put a creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order. When a creature is put onto the battlefield this way, it deals damage equal to its power to target creature an opponent controls."
+  }
+}

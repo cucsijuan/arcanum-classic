@@ -1,0 +1,86 @@
+{
+  "name": "Nicol Bolas, the Ravager // Nicol Bolas, the Arisen",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "When Nicol Bolas enters, each opponent discards a card."
+    },
+    {
+      "cost": "{4}{U}{B}{R}",
+      "sorcery": true,
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{4}{U}{B}{R}: Exile Nicol Bolas, then return him to the battlefield transformed under his owner's control. Activate only as a sorcery."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "+2",
+        "effects": [
+          {
+            "draw": 2
+          }
+        ],
+        "text": "+2: Draw two cards."
+      },
+      {
+        "cost": "-3",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "damage": 10,
+            "to": "target"
+          }
+        ],
+        "text": "−3: Nicol Bolas deals 10 damage to target creature or planeswalker."
+      },
+      {
+        "cost": "-4",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "filter": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ]
+            },
+            "text": "target creature or planeswalker card from a graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target"
+          }
+        ],
+        "text": "−4: Put target creature or planeswalker card from a graveyard onto the battlefield under your control."
+      },
+      {
+        "cost": "-12",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "exileLibraryAllBut": 1,
+            "who": "target"
+          }
+        ],
+        "text": "−12: Exile all but the bottom card of target player's library."
+      }
+    ]
+  }
+}

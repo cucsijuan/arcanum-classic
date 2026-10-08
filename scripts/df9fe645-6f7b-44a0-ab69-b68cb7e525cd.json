@@ -1,0 +1,27 @@
+{
+  "name": "Patient Rebuilding",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        },
+        {
+          "draw": {
+            "milled": {
+              "types": [
+                "land"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, target opponent mills three cards, then you draw a card for each land card put into their graveyard this way."
+    }
+  ]
+}

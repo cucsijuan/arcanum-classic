@@ -1,0 +1,38 @@
+1 Air Elemental (M19) 308
+1 Arisen Gorgon (M19) 292
+1 Aven Wind Mage (M19) 45
+1 Aviation Pioneer (M19) 46
+1 Bogstomper (M19) 87
+1 Bone Dragon (M19) 88
+1 Child of Night (M19) 89
+1 Death Baron (M19) 90
+1 Demon of Catastrophes (M19) 91
+1 Departed Deckhand (M19) 49
+1 Diregraf Ghoul (M19) 92
+1 Djinn of Wishes (M19) 52
+1 Doomed Dissenter (M19) 93
+1 Epicure of Blood (M19) 95
+1 Exclusion Mage (M19) 55
+1 Fell Specter (M19) 96
+1 Frilled Sea Serpent (M19) 56
+1 Gearsmith Guardian (M19) 237
+1 Gearsmith Prodigy (M19) 57
+1 Grasping Scoundrel (M19) 312
+1 Gravedigger (M19) 98
+1 Gravewaker (M19) 293
+1 Abnormal Endurance (M19) 85
+1 Aether Tunnel (M19) 43
+1 Anticipate (M19) 44
+1 Befuddle (M19) 309
+1 Blood Divination (M19) 86
+1 Bone to Ash (M19) 47
+1 Cancel (M19) 48
+1 Chaos Wand (M19) 228
+1 Desecrated Tomb (M19) 230
+1 Disperse (M19) 50
+1 Divination (M19) 51
+1 Duress (M19) 94
+1 Dwindle (M19) 53
+1 Essence Scatter (M19) 54
+12 Island (M19) 265
+12 Swamp (M19) 269

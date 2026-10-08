@@ -1,0 +1,22 @@
+{
+  "name": "Star-Crowned Stag",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "controlledByDefendingPlayer": true,
+          "text": "target creature defending player controls"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, tap target creature defending player controls."
+    }
+  ]
+}

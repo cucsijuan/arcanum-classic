@@ -1,0 +1,26 @@
+{
+  "name": "Windreader Sphinx",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "keyword": "Flying"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature with flying attacks, you may draw a card."
+    }
+  ]
+}

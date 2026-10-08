@@ -1,0 +1,33 @@
+{
+  "name": "Vaevictis Asmadi, the Dire",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "perPlayer": true,
+          "text": "target permanent that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "sacrificeIt": "eachTarget"
+        },
+        {
+          "revealTopPut": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker"
+            ]
+          },
+          "who": "sacrificers"
+        }
+      ],
+      "text": "Whenever Vaevictis Asmadi attacks, for each player, choose target permanent that player controls. Those players sacrifice those permanents. Each player who sacrificed a permanent this way reveals the top card of their library, then puts it onto the battlefield if it's a permanent card."
+    }
+  ]
+}

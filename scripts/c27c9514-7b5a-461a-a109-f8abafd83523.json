@@ -1,0 +1,53 @@
+{
+  "name": "Sarkhan's Unsealing",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "minPower": 4,
+        "maxPower": 6
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a creature spell with power 4, 5, or 6, this enchantment deals 4 damage to any target."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "minPower": 7
+      },
+      "effects": [
+        {
+          "damage": 4,
+          "to": "opponents"
+        },
+        {
+          "damage": 4,
+          "to": {
+            "each": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a creature spell with power 7 or greater, this enchantment deals 4 damage to each opponent and each creature and planeswalker they control."
+    }
+  ]
+}

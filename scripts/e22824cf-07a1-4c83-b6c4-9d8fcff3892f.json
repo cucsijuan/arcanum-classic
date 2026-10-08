@@ -1,0 +1,78 @@
+{
+  "name": "Tezzeret, Artifice Master",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "+1: Create a 1/1 colorless Thopter artifact creature token with flying."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "count": 3
+          },
+          "then": [
+            {
+              "draw": 2
+            }
+          ],
+          "else": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "0: Draw a card. If you control three or more artifacts, draw two cards instead."
+    },
+    {
+      "cost": "-9",
+      "effects": [
+        {
+          "emblem": "Tezzeret, Artifice Master",
+          "abilities": [
+            {
+              "trigger": "endStep",
+              "effects": [
+                {
+                  "search": {
+                    "types": [
+                      "artifact",
+                      "creature",
+                      "enchantment",
+                      "land",
+                      "planeswalker"
+                    ]
+                  },
+                  "to": "battlefield"
+                }
+              ],
+              "text": "At the beginning of your end step, search your library for a permanent card, put it onto the battlefield, then shuffle."
+            }
+          ]
+        }
+      ],
+      "text": "−9: You get an emblem with \"At the beginning of your end step, search your library for a permanent card, put it onto the battlefield, then shuffle.\""
+    }
+  ]
+}

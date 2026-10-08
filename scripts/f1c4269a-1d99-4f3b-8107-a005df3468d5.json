@@ -1,0 +1,50 @@
+{
+  "name": "Sigiled Sword of Valeron",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ],
+        "addSubtypes": [
+          "Knight"
+        ]
+      },
+      "text": "Equipped creature gets +2/+0, has vigilance, and is a Knight in addition to its other types."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "attacking": true,
+          "token": {
+            "name": "Knight",
+            "types": "Creature — Knight",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever equipped creature attacks, create a 2/2 white Knight creature token with vigilance that's attacking."
+    }
+  ]
+}

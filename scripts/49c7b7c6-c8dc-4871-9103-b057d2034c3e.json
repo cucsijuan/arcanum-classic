@@ -1,0 +1,21 @@
+{
+  "name": "Vampire Sovereign",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "target"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, target opponent loses 3 life and you gain 3 life."
+    }
+  ]
+}

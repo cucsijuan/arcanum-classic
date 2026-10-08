@@ -1,0 +1,31 @@
+{
+  "name": "Plague Mare",
+  "cantBeBlockedBy": {
+    "colors": [
+      "W"
+    ],
+    "controller": "any"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures your opponents control get -1/-1 until end of turn."
+    }
+  ]
+}

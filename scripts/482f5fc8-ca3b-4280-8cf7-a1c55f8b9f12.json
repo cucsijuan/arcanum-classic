@@ -1,0 +1,24 @@
+{
+  "name": "Sarkhan's Whelp",
+  "abilities": [
+    {
+      "trigger": "activateAbility",
+      "filter": {
+        "types": [
+          "planeswalker"
+        ],
+        "subtype": "Sarkhan"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you activate an ability of a Sarkhan planeswalker, this creature deals 1 damage to any target."
+    }
+  ]
+}

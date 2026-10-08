@@ -1,0 +1,26 @@
+{
+  "name": "Novice Knight",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "sourceIs": {
+            "anyOf": [
+              {
+                "enchanted": true
+              },
+              {
+                "equipped": true
+              }
+            ]
+          }
+        },
+        "keywords": [
+          "Can attack as though it didn't have defender"
+        ]
+      },
+      "text": "As long as this creature is enchanted or equipped, it can attack as though it didn't have defender."
+    }
+  ]
+}

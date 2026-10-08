@@ -1,0 +1,22 @@
+{
+  "name": "Thud",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "sacrificedPower",
+        "to": "target"
+      }
+    ],
+    "text": "Thud deals damage equal to the sacrificed creature's power to any target."
+  }
+}

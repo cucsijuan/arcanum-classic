@@ -1,0 +1,6 @@
+{
+  "name": "Reliquary Tower",
+  "replaces": [
+    "NoMaximumHandSize"
+  ]
+}

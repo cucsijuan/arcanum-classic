@@ -1,0 +1,29 @@
+{
+  "name": "Phylactery Lich",
+  "entersCounterOn": {
+    "filter": {
+      "types": [
+        "artifact"
+      ]
+    },
+    "kind": "phylactery"
+  },
+  "abilities": [
+    {
+      "trigger": "state",
+      "when": {
+        "not": {
+          "control": {
+            "hasCounterKind": "phylactery"
+          }
+        }
+      },
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "When you control no permanents with phylactery counters on them, sacrifice this creature."
+    }
+  ]
+}

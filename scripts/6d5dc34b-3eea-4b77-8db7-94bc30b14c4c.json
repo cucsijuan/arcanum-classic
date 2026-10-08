@@ -1,0 +1,20 @@
+{
+  "name": "Rabid Bite",
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "text": "target creature you don't control"
+      }
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2"
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature you don't control."
+  }
+}

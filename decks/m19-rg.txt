@@ -1,0 +1,38 @@
+1 Aggressive Mammoth (M19) 302
+1 Boggart Brute (M19) 131
+1 Bristling Boar (M19) 170
+1 Catalyst Elemental (M19) 132
+1 Centaur Courser (M19) 171
+1 Colossal Dreadmaw (M19) 172
+1 Daggerback Basilisk (M19) 174
+1 Dark-Dweller Oracle (M19) 134
+1 Demanding Dragon (M19) 135
+1 Dismissive Pyromancer (M19) 136
+1 Draconic Disciple (M19) 215
+1 Dragon Egg (M19) 138
+1 Druid of Horns (M19) 176
+1 Druid of the Cowl (M19) 177
+1 Dryad Greenseeker (M19) 178
+1 Elvish Clancaller (M19) 179
+1 Elvish Rejuvenator (M19) 180
+1 Fire Elemental (M19) 141
+1 Gearsmith Guardian (M19) 237
+1 Ghastbark Twins (M19) 181
+1 Ghirapur Guide (M19) 182
+1 Giant Spider (M19) 183
+1 Act of Treason (M19) 127
+1 Alpine Moon (M19) 128
+1 Apex of Power (M19) 129
+1 Banefire (M19) 130
+1 Blanchwood Armor (M19) 169
+1 Chaos Wand (M19) 228
+1 Colossal Majesty (M19) 173
+1 Crash Through (M19) 133
+1 Declare Dominance (M19) 175
+1 Desecrated Tomb (M19) 230
+1 Doublecast (M19) 137
+1 Electrify (M19) 139
+1 Fiery Finish (M19) 140
+1 Gift of Paradise (M19) 184
+12 Mountain (M19) 273
+12 Forest (M19) 277

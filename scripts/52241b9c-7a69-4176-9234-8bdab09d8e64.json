@@ -1,0 +1,37 @@
+{
+  "name": "Sai, Master Thopterist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast an artifact spell, create a 1/1 colorless Thopter artifact creature token with flying."
+    },
+    {
+      "cost": "{1}{U}, sacrifice:artifact*2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{U}, Sacrifice two artifacts: Draw a card."
+    }
+  ]
+}

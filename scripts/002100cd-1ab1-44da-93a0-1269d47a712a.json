@@ -1,0 +1,27 @@
+{
+  "name": "Waterknot",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "attached"
+        }
+      ],
+      "text": "When this Aura enters, tap enchanted creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Doesn't untap"
+        ]
+      },
+      "text": "Enchanted creature doesn't untap during its controller's untap step."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Skalla Wolf",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 5,
+          "take": 1,
+          "reveal": true,
+          "filter": {
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, look at the top five cards of your library. You may reveal a green card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Skilled Animator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "text": "target artifact you control"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "addTypes": [
+            "creature"
+          ],
+          "power": 5,
+          "toughness": 5,
+          "continuous": true,
+          "whileSource": true
+        }
+      ],
+      "text": "When this creature enters, target artifact you control becomes an artifact creature with base power and toughness 5/5 for as long as this creature remains on the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Valiant Knight",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Knight",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Knights you control get +1/+1."
+    },
+    {
+      "cost": "{3}{W}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Knight",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "{3}{W}{W}: Knights you control gain double strike until end of turn."
+    }
+  ]
+}

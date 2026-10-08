@@ -1,0 +1,31 @@
+{
+  "name": "Sparktongue Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {2}{R}?",
+          "mana": "{2}{R}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "any"
+                ],
+                "effects": [
+                  {
+                    "damage": 3,
+                    "to": "target"
+                  }
+                ],
+                "text": "When you do, this creature deals 3 damage to any target."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may pay {2}{R}. When you do, it deals 3 damage to any target."
+    }
+  ]
+}

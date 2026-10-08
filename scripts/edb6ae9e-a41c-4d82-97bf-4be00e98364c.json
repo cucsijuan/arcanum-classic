@@ -1,0 +1,22 @@
+{
+  "name": "Militia Bugler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "take": 1,
+          "reveal": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxPower": 2
+          }
+        }
+      ],
+      "text": "When this creature enters, look at the top four cards of your library. You may reveal a creature card with power 2 or less from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

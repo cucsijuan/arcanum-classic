@@ -1,0 +1,29 @@
+{
+  "name": "Shield Mare",
+  "cantBeBlockedBy": {
+    "colors": [
+      "R"
+    ],
+    "controller": "any"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters or becomes the target of a spell or ability an opponent controls, you gain 3 life."
+    },
+    {
+      "trigger": "becomesTarget",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters or becomes the target of a spell or ability an opponent controls, you gain 3 life."
+    }
+  ]
+}

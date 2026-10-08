@@ -1,0 +1,9 @@
+{
+  "name": "Mirror Image",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ],
+    "controller": "you"
+  }
+}

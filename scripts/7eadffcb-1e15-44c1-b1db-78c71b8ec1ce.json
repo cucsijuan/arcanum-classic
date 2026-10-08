@@ -1,0 +1,22 @@
+{
+  "name": "Rupture Spire",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {1}?",
+          "mana": "{1}",
+          "effects": [],
+          "else": [
+            {
+              "sacrificeIt": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this land enters, sacrifice it unless you pay {1}."
+    }
+  ]
+}

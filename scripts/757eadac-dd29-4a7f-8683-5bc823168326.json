@@ -1,0 +1,17 @@
+{
+  "name": "One with the Machine",
+  "spell": {
+    "effects": [
+      {
+        "draw": {
+          "greatestManaValue": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Draw cards equal to the greatest mana value among artifacts you control."
+  }
+}

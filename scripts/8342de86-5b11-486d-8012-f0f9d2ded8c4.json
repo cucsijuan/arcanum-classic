@@ -1,0 +1,41 @@
+{
+  "name": "Surge Mare",
+  "cantBeBlockedBy": {
+    "colors": [
+      "G"
+    ],
+    "controller": "any"
+  },
+  "abilities": [
+    {
+      "trigger": "dealsDamageToOpponent",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals damage to an opponent, you may draw a card. If you do, discard a card."
+    },
+    {
+      "cost": "{1}{U}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            -2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{U}: This creature gets +2/-2 until end of turn."
+    }
+  ]
+}

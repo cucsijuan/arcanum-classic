@@ -1,0 +1,36 @@
+{
+  "name": "Thorn Lieutenant",
+  "abilities": [
+    {
+      "trigger": "becomesTarget",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elf Warrior",
+            "types": "Creature — Elf Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature becomes the target of a spell or ability an opponent controls, create a 1/1 green Elf Warrior creature token."
+    },
+    {
+      "cost": "{5}{G}",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{5}{G}: This creature gets +4/+4 until end of turn."
+    }
+  ]
+}

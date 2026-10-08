@@ -1,0 +1,22 @@
+{
+  "name": "Tezzeret's Strider",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "control": {
+            "types": [
+              "planeswalker"
+            ],
+            "subtype": "Tezzeret"
+          }
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "As long as you control a Tezzeret planeswalker, this creature has menace."
+    }
+  ]
+}

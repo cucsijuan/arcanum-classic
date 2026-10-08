@@ -1,0 +1,21 @@
+{
+  "name": "Psychic Symbiont",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, target opponent discards a card and you draw a card."
+    }
+  ]
+}

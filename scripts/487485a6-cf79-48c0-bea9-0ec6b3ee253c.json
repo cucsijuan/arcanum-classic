@@ -1,0 +1,25 @@
+{
+  "name": "Magistrate's Scepter",
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "charge"
+        }
+      ],
+      "text": "{4}, {T}: Put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}, removeCounters:3:charge",
+      "effects": [
+        {
+          "extraTurn": true
+        }
+      ],
+      "text": "{T}, Remove three charge counters from this artifact: Take an extra turn after this one."
+    }
+  ]
+}

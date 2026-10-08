@@ -1,0 +1,21 @@
+{
+  "name": "Nightmare's Thirst",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "gainLife": 1
+      },
+      {
+        "pump": [
+          "-lifeGained",
+          "-lifeGained"
+        ],
+        "what": "target"
+      }
+    ],
+    "text": "You gain 1 life. Target creature gets -X/-X until end of turn, where X is the amount of life you gained this turn."
+  }
+}

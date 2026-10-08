@@ -1,0 +1,25 @@
+{
+  "name": "Runic Armasaur",
+  "abilities": [
+    {
+      "trigger": "opponentActivatesAbility",
+      "filter": {
+        "types": [
+          "creature",
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an opponent activates an ability of a creature or land that isn't a mana ability, you may draw a card."
+    }
+  ]
+}

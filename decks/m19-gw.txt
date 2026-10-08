@@ -1,0 +1,38 @@
+1 Aethershield Artificer (M19) 2
+1 Aggressive Mammoth (M19) 302
+1 Ajani's Pridemate (M19) 5
+1 Angel of the Dawn (M19) 7
+1 Bristling Boar (M19) 170
+1 Cavalry Drillmaster (M19) 8
+1 Centaur Courser (M19) 171
+1 Colossal Dreadmaw (M19) 172
+1 Court Cleric (M19) 283
+1 Daggerback Basilisk (M19) 174
+1 Daybreak Chaplain (M19) 10
+1 Druid of Horns (M19) 176
+1 Druid of the Cowl (M19) 177
+1 Dryad Greenseeker (M19) 178
+1 Dwarven Priest (M19) 11
+1 Elvish Clancaller (M19) 179
+1 Elvish Rejuvenator (M19) 180
+1 Gallant Cavalry (M19) 12
+1 Gearsmith Guardian (M19) 237
+1 Ghastbark Twins (M19) 181
+1 Ghirapur Guide (M19) 182
+1 Giant Spider (M19) 183
+1 Aegis of the Heavens (M19) 1
+1 Ajani's Influence (M19) 282
+1 Ajani's Last Stand (M19) 4
+1 Ajani's Welcome (M19) 6
+1 Ajani, Adversary of Tyrants (M19) 3
+1 Blanchwood Armor (M19) 169
+1 Chaos Wand (M19) 228
+1 Cleansing Nova (M19) 9
+1 Colossal Majesty (M19) 173
+1 Declare Dominance (M19) 175
+1 Desecrated Tomb (M19) 230
+1 Gift of Paradise (M19) 184
+1 Hieromancer's Cage (M19) 14
+1 Inspired Charge (M19) 15
+12 Forest (M19) 277
+12 Plains (M19) 261

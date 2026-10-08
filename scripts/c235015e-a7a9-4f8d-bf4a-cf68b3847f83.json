@@ -1,0 +1,25 @@
+{
+  "name": "Scapeshift",
+  "spell": {
+    "effects": [
+      {
+        "sacrificeAnyNumber": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": "sacrificedThisWay",
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Vivien's Jaguar",
+  "abilities": [
+    {
+      "cost": "{2}{G}, fromGraveyard",
+      "activateIf": {
+        "control": {
+          "types": [
+            "planeswalker"
+          ],
+          "subtype": "Vivien"
+        }
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{G}: Return this card from your graveyard to your hand. Activate only if you control a Vivien planeswalker."
+    }
+  ]
+}

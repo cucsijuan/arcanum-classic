@@ -1,0 +1,40 @@
+{
+  "name": "Suncleanser",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Remove all counters from target creature. It can't have counters put on it for as long as this creature remains on the battlefield.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "removeAllCounters": "target"
+            },
+            {
+              "cantHaveCounters": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target opponent loses all counters. That player can't get counters for as long as this creature remains on the battlefield.",
+          "targets": [
+            "opponent"
+          ],
+          "effects": [
+            {
+              "removeAllCounters": "target"
+            },
+            {
+              "cantHaveCounters": "target"
+            }
+          ]
+        }
+      ],
+      "chooseCount": 1,
+      "text": "When this creature enters, choose one — Remove all counters from target creature. It can't have counters put on it for as long as this creature remains on the battlefield; or target opponent loses all counters. That player can't get counters for as long as this creature remains on the battlefield."
+    }
+  ]
+}

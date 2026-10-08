@@ -1,0 +1,24 @@
+{
+  "name": "Siegebreaker Giant",
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "{3}{R}: Target creature can't block this turn."
+    }
+  ]
+}

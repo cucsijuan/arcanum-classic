@@ -1,0 +1,21 @@
+{
+  "name": "Scholar of Stars",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, if you control an artifact, draw a card."
+    }
+  ]
+}

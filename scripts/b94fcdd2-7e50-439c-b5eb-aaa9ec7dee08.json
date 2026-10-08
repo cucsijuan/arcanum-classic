@@ -1,0 +1,23 @@
+{
+  "name": "Tectonic Rift",
+  "spell": {
+    "targets": [
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "cantBlockThisTurn": {
+          "types": [
+            "creature"
+          ],
+          "controller": "any",
+          "without": "Flying"
+        }
+      }
+    ],
+    "text": "Destroy target land. Creatures without flying can't block this turn."
+  }
+}

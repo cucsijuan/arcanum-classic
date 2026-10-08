@@ -1,0 +1,38 @@
+1 Arisen Gorgon (M19) 292
+1 Boggart Brute (M19) 131
+1 Bogstomper (M19) 87
+1 Bone Dragon (M19) 88
+1 Brawl-Bash Ogre (M19) 213
+1 Catalyst Elemental (M19) 132
+1 Child of Night (M19) 89
+1 Dark-Dweller Oracle (M19) 134
+1 Death Baron (M19) 90
+1 Demanding Dragon (M19) 135
+1 Demon of Catastrophes (M19) 91
+1 Diregraf Ghoul (M19) 92
+1 Dismissive Pyromancer (M19) 136
+1 Doomed Dissenter (M19) 93
+1 Dragon Egg (M19) 138
+1 Epicure of Blood (M19) 95
+1 Fell Specter (M19) 96
+1 Fire Elemental (M19) 141
+1 Gearsmith Guardian (M19) 237
+1 Goblin Instigator (M19) 142
+1 Goblin Motivator (M19) 143
+1 Goblin Trashmaster (M19) 144
+1 Abnormal Endurance (M19) 85
+1 Act of Treason (M19) 127
+1 Alpine Moon (M19) 128
+1 Apex of Power (M19) 129
+1 Banefire (M19) 130
+1 Blood Divination (M19) 86
+1 Chaos Wand (M19) 228
+1 Crash Through (M19) 133
+1 Desecrated Tomb (M19) 230
+1 Doublecast (M19) 137
+1 Duress (M19) 94
+1 Electrify (M19) 139
+1 Fiery Finish (M19) 140
+1 Fraying Omnipotence (M19) 97
+12 Swamp (M19) 269
+12 Mountain (M19) 273

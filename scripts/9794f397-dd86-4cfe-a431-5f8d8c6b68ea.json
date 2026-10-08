@@ -1,0 +1,27 @@
+{
+  "name": "Radiating Lightning",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "damage": 1,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "target"
+        }
+      }
+    ],
+    "text": "Radiating Lightning deals 3 damage to target player and 1 damage to each creature that player controls."
+  }
+}

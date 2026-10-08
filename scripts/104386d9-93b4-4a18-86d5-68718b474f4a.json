@@ -1,0 +1,48 @@
+{
+  "name": "Skyrider Patrol",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mayPay": "Pay {G}{U}?",
+          "mana": "{G}{U}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "controller": "you",
+                    "filter": {
+                      "other": true
+                    },
+                    "text": "another target creature you control"
+                  }
+                ],
+                "effects": [
+                  {
+                    "counters": 1,
+                    "what": "target"
+                  },
+                  {
+                    "pump": [
+                      0,
+                      0
+                    ],
+                    "what": "target",
+                    "keywords": [
+                      "Flying"
+                    ]
+                  }
+                ],
+                "text": "When you do, put a +1/+1 counter on another target creature you control, and that creature gains flying until end of turn."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may pay {G}{U}. When you do, put a +1/+1 counter on another target creature you control, and that creature gains flying until end of turn."
+    }
+  ]
+}

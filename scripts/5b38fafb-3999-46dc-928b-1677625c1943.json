@@ -1,0 +1,14 @@
+{
+  "name": "Recollect",
+  "spell": {
+    "targets": [
+      "graveyardCard:you"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ],
+    "text": "Return target card from your graveyard to your hand."
+  }
+}

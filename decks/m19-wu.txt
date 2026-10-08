@@ -1,0 +1,38 @@
+1 Aerial Engineer (M19) 211
+1 Aethershield Artificer (M19) 2
+1 Air Elemental (M19) 308
+1 Ajani's Pridemate (M19) 5
+1 Angel of the Dawn (M19) 7
+1 Aven Wind Mage (M19) 45
+1 Aviation Pioneer (M19) 46
+1 Cavalry Drillmaster (M19) 8
+1 Court Cleric (M19) 283
+1 Daybreak Chaplain (M19) 10
+1 Departed Deckhand (M19) 49
+1 Djinn of Wishes (M19) 52
+1 Dwarven Priest (M19) 11
+1 Exclusion Mage (M19) 55
+1 Frilled Sea Serpent (M19) 56
+1 Gallant Cavalry (M19) 12
+1 Gearsmith Guardian (M19) 237
+1 Gearsmith Prodigy (M19) 57
+1 Herald of Faith (M19) 13
+1 Horizon Scholar (M19) 59
+1 Knight of the Tusk (M19) 18
+1 Lena, Selfless Champion (M19) 21
+1 Aegis of the Heavens (M19) 1
+1 Aether Tunnel (M19) 43
+1 Ajani's Influence (M19) 282
+1 Ajani's Last Stand (M19) 4
+1 Ajani's Welcome (M19) 6
+1 Ajani, Adversary of Tyrants (M19) 3
+1 Anticipate (M19) 44
+1 Befuddle (M19) 309
+1 Bone to Ash (M19) 47
+1 Cancel (M19) 48
+1 Chaos Wand (M19) 228
+1 Cleansing Nova (M19) 9
+1 Desecrated Tomb (M19) 230
+1 Disperse (M19) 50
+12 Plains (M19) 261
+12 Island (M19) 265

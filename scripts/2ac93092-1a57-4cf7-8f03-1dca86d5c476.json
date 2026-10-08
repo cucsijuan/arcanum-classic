@@ -1,0 +1,46 @@
+{
+  "name": "Resplendent Angel",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "gainedLife": 5
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying",
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained 5 or more life this turn, create a 4/4 white Angel creature token with flying and vigilance."
+    },
+    {
+      "cost": "{3}{W}{W}{W}",
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{3}{W}{W}{W}: Until end of turn, this creature gets +2/+2 and gains lifelink."
+    }
+  ]
+}
