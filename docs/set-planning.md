@@ -9,7 +9,8 @@ engine doesn't have; and for each candidate set, how many cards of *other* sets 
 ```sh
 # 1. Which cards run with the current module (writes support.tsv and keywords.txt).
 CARDS=$(ls -t ~/.local/share/godot/app_userdata/Arcanum/card_data/arcanum-classic/cards.*.jsonl.gz | head -1)
-dotnet run --project ../g-mtg/tools/SupportDump -c Release -- . "$CARDS" /tmp/plan   # from this repository
+# ENGINE is the engine repository's checkout, whatever its folder is called on this machine (e.g. ../arcanum).
+dotnet run --project "$ENGINE/tools/SupportDump" -c Release -- . "$CARDS" /tmp/plan   # from this repository
 
 # 2. Rankings.
 python3 tools/set_planner.py "$CARDS" /tmp/plan --mechanics          # missing mechanics, by cards each one alone unblocks
@@ -17,6 +18,9 @@ python3 tools/set_planner.py "$CARDS" /tmp/plan --types expansion,core # candida
 python3 tools/set_planner.py "$CARDS" /tmp/plan --sort unblocks         # candidate sets, most cards unblocked elsewhere
 python3 tools/set_planner.py "$CARDS" /tmp/plan --detail <set code>     # one set: what blocks it
 ```
+
+On Windows the card data lives under `%APPDATA%/Godot/app_userdata/Arcanum/card_data/arcanum-classic/`, and Python
+needs `python -X utf8 tools/set_planner.py …` to read the card names (it otherwise uses the system code page).
 
 Columns: *unblocks* = cards in other sets whose every missing mechanic the candidate brings; *per mechanic* = that divided
 by how many new mechanics the candidate needs (the cost); *run* / *script only* / *blocked* = the candidate's own cards.
