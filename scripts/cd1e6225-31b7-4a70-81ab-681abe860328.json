@@ -9,7 +9,7 @@
           "tokens": 2,
           "token": {
             "name": "Gnome",
-            "types": "Creature — Gnome",
+            "types": "Artifact Creature — Gnome",
             "power": 1,
             "toughness": 1
           }

@@ -9,7 +9,7 @@
           "tokens": 1,
           "token": {
             "name": "Pest",
-            "types": "Creature — Pest",
+            "types": "Artifact Creature — Pest",
             "power": 0,
             "toughness": 1
           }

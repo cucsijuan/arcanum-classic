@@ -20,7 +20,7 @@
         "tokens": 1,
         "token": {
           "name": "Servo",
-          "types": "Creature — Servo",
+          "types": "Artifact Creature — Servo",
           "power": 1,
           "toughness": 1
         }

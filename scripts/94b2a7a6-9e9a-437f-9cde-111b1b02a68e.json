@@ -12,7 +12,7 @@
               "tokens": 1,
               "token": {
                 "name": "Robot Hero",
-                "types": "Creature — Robot Hero",
+                "types": "Artifact Creature — Robot Hero",
                 "power": 1,
                 "toughness": 1,
                 "keywords": [

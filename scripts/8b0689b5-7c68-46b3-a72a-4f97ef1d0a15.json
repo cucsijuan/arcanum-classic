@@ -9,7 +9,7 @@
           "tokens": 1,
           "token": {
             "name": "Thopter",
-            "types": "Creature — Thopter",
+            "types": "Artifact Creature — Thopter",
             "power": 1,
             "toughness": 1,
             "keywords": [

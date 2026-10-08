@@ -1,0 +1,24 @@
+{
+  "name": "Scab-Clan Berserker",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": { "not": "renowned" },
+      "effects": [
+        { "counters": 1, "what": "self" },
+        { "becomeRenowned": "self" }
+      ],
+      "text": "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)"
+    },
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": { "not": ["creature"] },
+      // Checked again on resolution as the Berserker last existed on the battlefield if it left (rules 603.4, 608.2h).
+      "if": "renowned",
+      "effects": [
+        { "damage": 2, "to": "triggeredPlayer" }
+      ],
+      "text": "Whenever an opponent casts a noncreature spell, if this creature is renowned, this creature deals 2 damage to that player."
+    }
+  ]
+}

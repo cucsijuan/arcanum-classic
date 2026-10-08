@@ -7,7 +7,7 @@
         "tokens": 2,
         "token": {
           "name": "Myr",
-          "types": "Creature — Myr",
+          "types": "Artifact Creature — Myr",
           "power": 1,
           "toughness": 1
         }

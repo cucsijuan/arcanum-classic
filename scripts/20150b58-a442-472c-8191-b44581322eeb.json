@@ -7,7 +7,7 @@
         "tokens": 4,
         "token": {
           "name": "Soldier",
-          "types": "Creature — Soldier",
+          "types": "Artifact Creature — Soldier",
           "power": 1,
           "toughness": 1
         }

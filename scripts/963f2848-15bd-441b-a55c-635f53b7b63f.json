@@ -9,7 +9,7 @@
           "tokens": 1,
           "token": {
             "name": "Gargoyle",
-            "types": "Creature — Gargoyle",
+            "types": "Artifact Creature — Gargoyle",
             "power": 3,
             "toughness": 4,
             "keywords": [

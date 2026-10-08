@@ -10,7 +10,7 @@
             "tokens": 1,
             "token": {
               "name": "Robot",
-              "types": "Creature — Robot",
+              "types": "Artifact Creature — Robot",
               "power": 1,
               "toughness": 1
             }

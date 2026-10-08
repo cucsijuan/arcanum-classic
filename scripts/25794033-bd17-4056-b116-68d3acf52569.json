@@ -9,7 +9,7 @@
           "tokens": 1,
           "token": {
             "name": "Phyrexian Myr",
-            "types": "Creature — Phyrexian Myr",
+            "types": "Artifact Creature — Phyrexian Myr",
             "power": 1,
             "toughness": 1
           }
