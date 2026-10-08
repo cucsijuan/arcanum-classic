@@ -37,5 +37,12 @@
     "byIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large",
     "backUrlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&face=back&exact={name}",
     "backByIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large&face=back"
-  }
+  },
+  "cardBacks": [
+    {
+      "id": "magic",
+      "name": "Magic (classic)",
+      "url": "https://backs.scryfall.io/large/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg"
+    }
+  ]
 }
