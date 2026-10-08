@@ -1,0 +1,14 @@
+{
+  "name": "Bristling Boar",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked by more than one"
+        ]
+      },
+      "text": "This creature can't be blocked by more than one creature."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Arisen Gorgon",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Deathtouch"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "planeswalker"
+            ],
+            "subtype": "Liliana"
+          }
+        }
+      },
+      "text": "This creature has deathtouch as long as you control a Liliana planeswalker."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Dwindle",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -6,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets -6/-0."
+    },
+    {
+      "trigger": "attachedBlocks",
+      "effects": [
+        {
+          "destroy": "triggered"
+        }
+      ],
+      "text": "When enchanted creature blocks, destroy it."
+    }
+  ]
+}

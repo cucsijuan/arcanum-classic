@@ -1,0 +1,15 @@
+{
+  "name": "Inferno Hellion",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "attackedOrBlockedThisTurn",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "At the beginning of each end step, if this creature attacked or blocked this turn, its owner shuffles it into their library."
+    }
+  ]
+}

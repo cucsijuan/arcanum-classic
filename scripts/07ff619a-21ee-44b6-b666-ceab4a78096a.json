@@ -1,0 +1,33 @@
+{
+  "name": "Desecrated Tomb",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bat",
+            "types": "Creature — Bat",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ],
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever one or more creature cards leave your graveyard, create a 1/1 black Bat creature token with flying."
+    }
+  ]
+}

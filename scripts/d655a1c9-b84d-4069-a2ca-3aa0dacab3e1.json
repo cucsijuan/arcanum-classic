@@ -1,0 +1,28 @@
+{
+  "name": "Fell Specter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When this creature enters, target opponent discards a card."
+    },
+    {
+      "trigger": "opponentDiscards",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent discards a card, that player loses 2 life."
+    }
+  ]
+}

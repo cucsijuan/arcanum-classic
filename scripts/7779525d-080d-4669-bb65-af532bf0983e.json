@@ -1,0 +1,14 @@
+{
+  "name": "Catalyst Elemental",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "addMana": "{R}{R}"
+        }
+      ],
+      "text": "Sacrifice this creature: Add {R}{R}."
+    }
+  ]
+}

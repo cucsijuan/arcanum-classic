@@ -1,0 +1,21 @@
+{
+  "name": "Isolate",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "minManaValue": 1,
+          "maxManaValue": 1,
+          "controller": "any"
+        },
+        "text": "target permanent with mana value 1"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Demanding Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "unless": "target",
+          "options": [
+            {
+              "sacrifice": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          ],
+          "otherwise": [
+            {
+              "damage": 5,
+              "to": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, it deals 5 damage to target opponent unless that player sacrifices a creature of their choice."
+    }
+  ]
+}

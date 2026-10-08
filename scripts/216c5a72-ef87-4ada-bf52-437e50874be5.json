@@ -1,0 +1,24 @@
+{
+  "name": "Graveyard Marshal",
+  "abilities": [
+    {
+      "cost": "{2}{B}, exileGraveyardCards:1:creature",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "{2}{B}, Exile a creature card from your graveyard: Create a tapped 2/2 black Zombie creature token."
+    }
+  ]
+}

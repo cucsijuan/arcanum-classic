@@ -1,0 +1,25 @@
+{
+  "name": "Gearsmith Guardian",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "colors": [
+              "U"
+            ]
+          }
+        }
+      },
+      "text": "This creature gets +2/+0 as long as you control a blue creature."
+    }
+  ]
+}

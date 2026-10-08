@@ -1,0 +1,21 @@
+{
+  "name": "Frilled Sea Serpent",
+  "abilities": [
+    {
+      "cost": "{5}{U}{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{5}{U}{U}: This creature can't be blocked this turn."
+    }
+  ]
+}

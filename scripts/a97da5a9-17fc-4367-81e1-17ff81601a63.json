@@ -1,0 +1,14 @@
+{
+  "name": "Anticipate",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 3,
+        "take": 1,
+        "to": "hand",
+        "required": true,
+        "restAnyOrder": true
+      }
+    ]
+  }
+}

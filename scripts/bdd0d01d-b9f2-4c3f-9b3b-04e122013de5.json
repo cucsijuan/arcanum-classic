@@ -1,0 +1,14 @@
+{
+  "name": "Ghastbark Twins",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can block an additional creature each combat"
+        ]
+      },
+      "text": "This creature can block an additional creature each combat."
+    }
+  ]
+}

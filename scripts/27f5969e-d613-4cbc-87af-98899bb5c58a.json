@@ -1,0 +1,25 @@
+{
+  "name": "Aerial Engineer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      "text": "As long as you control an artifact, this creature gets +2/+0 and has flying."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Infernal Reckoning",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "colorless": true
+        },
+        "text": "target colorless creature"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "gainLife": {
+          "power": "target"
+        }
+      }
+    ]
+  }
+}

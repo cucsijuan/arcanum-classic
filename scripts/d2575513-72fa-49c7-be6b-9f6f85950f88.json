@@ -1,0 +1,33 @@
+{
+  "name": "Aethershield Artificer",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "text": "target artifact creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target artifact creature you control gets +2/+2 and gains indestructible until end of turn."
+    }
+  ]
+}

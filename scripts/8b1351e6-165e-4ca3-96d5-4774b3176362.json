@@ -1,0 +1,28 @@
+{
+  "name": "Leonin Warleader",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Lifelink"
+            ],
+            "colors": [
+              "W"
+            ]
+          },
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever this creature attacks, create two 1/1 white Cat creature tokens with lifelink that are tapped and attacking."
+    }
+  ]
+}

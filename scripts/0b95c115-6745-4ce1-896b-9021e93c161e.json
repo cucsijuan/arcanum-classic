@@ -1,0 +1,24 @@
+{
+  "name": "Chaos Wand",
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "revealUntil": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "from": "target",
+          "castFree": true
+        }
+      ],
+      "text": "{4}, {T}: Target opponent exiles cards from the top of their library until they exile an instant or sorcery card. You may cast that card without paying its mana cost. Then put the exiled cards that weren't cast this way on the bottom of that library in a random order."
+    }
+  ]
+}

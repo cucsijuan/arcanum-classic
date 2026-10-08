@@ -1,0 +1,89 @@
+{
+  "name": "Ajani, Adversary of Tyrants",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "counters": 1,
+              "what": "target"
+            },
+            {
+              "counters": 1,
+              "what": "target2"
+            }
+          ]
+        }
+      ],
+      "text": "+1: Put a +1/+1 counter on each of up to two target creatures."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValue": 2
+          },
+          "text": "target creature card with mana value 2 or less in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "−2: Return target creature card with mana value 2 or less from your graveyard to the battlefield."
+    },
+    {
+      "cost": "-7",
+      "effects": [
+        {
+          "emblem": "Ajani, Adversary of Tyrants emblem",
+          "abilities": [
+            {
+              "trigger": "endStep",
+              "effects": [
+                {
+                  "tokens": 3,
+                  "token": {
+                    "name": "Cat",
+                    "types": "Creature — Cat",
+                    "power": 1,
+                    "toughness": 1,
+                    "keywords": [
+                      "Lifelink"
+                    ],
+                    "colors": [
+                      "W"
+                    ]
+                  }
+                }
+              ],
+              "text": "At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink."
+            }
+          ]
+        }
+      ],
+      "text": "−7: You get an emblem with \"At the beginning of your end step, create three 1/1 white Cat creature tokens with lifelink.\""
+    }
+  ]
+}

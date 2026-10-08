@@ -1,0 +1,22 @@
+{
+  "name": "Dryad Greenseeker",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "lookAtTop": 1,
+          "take": 1,
+          "reveal": true,
+          "rest": "top",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Look at the top card of your library. If it's a land card, you may reveal it and put it into your hand."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ajani's Influence",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 2,
+        "what": "target"
+      },
+      {
+        "lookAtTop": 5,
+        "filter": {
+          "colors": [
+            "W"
+          ]
+        },
+        "take": 1,
+        "to": "hand",
+        "reveal": true
+      }
+    ]
+  }
+}

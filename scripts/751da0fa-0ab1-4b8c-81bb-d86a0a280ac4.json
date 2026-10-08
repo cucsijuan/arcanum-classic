@@ -1,0 +1,25 @@
+{
+  "name": "Liliana's Spoils",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discard": 1,
+        "who": "target"
+      },
+      {
+        "lookAtTop": 5,
+        "filter": {
+          "colors": [
+            "B"
+          ]
+        },
+        "take": 1,
+        "to": "hand",
+        "reveal": true
+      }
+    ]
+  }
+}

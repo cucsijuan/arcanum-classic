@@ -1,0 +1,16 @@
+{
+  "name": "Grasping Scoundrel",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "while": "attacking"
+      },
+      "text": "This creature gets +1/+0 as long as it's attacking."
+    }
+  ]
+}
