@@ -1,0 +1,7 @@
+{
+  "name": "Tainted Remedy",
+  // Lifelink too; with other life gain effects, the player who would gain life orders them (rule 616.1).
+  "replaces": [
+    "OpponentsLifeGainBecomesLoss"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Touch of Moonglove",
+  "spell": {
+    "targets": ["creature:you"],
+    "effects": [
+      { "pump": [1, 0], "what": "target", "keywords": ["Deathtouch"] },
+      {
+        // A delayed ability for the rest of the turn about that creature (as the object it is now, rule 400.7). Damage it
+        // dealt earlier this turn counts too.
+        "emblem": "Touch of Moonglove",
+        "untilEndOfTurn": true,
+        "about": "target",
+        "abilities": [
+          {
+            "trigger": "creatureDies",
+            "filter": { "types": ["creature"], "controller": "any", "damagedThisTurnByThat": true },
+            "effects": [{ "loseLife": 2, "who": "triggeredPlayer" }],
+            "text": "Whenever a creature dealt damage by that creature this turn dies, its controller loses 2 life."
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control gets +1/+0 and gains deathtouch until end of turn. Whenever a creature dealt damage by that creature dies this turn, its controller loses 2 life."
+  }
+}

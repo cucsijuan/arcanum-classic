@@ -1,0 +1,19 @@
+{
+  "name": "Hallowed Moonlight",
+  "spell": {
+    "effects": [
+      {
+        // Creature tokens too: a token that would be created is exiled instead and ceases to exist.
+        "exileUncastEntering": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Until end of turn, if a creature would enter and it wasn't cast, exile it instead. Draw a card."
+  }
+}

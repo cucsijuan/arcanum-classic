@@ -1,0 +1,30 @@
+{
+  "name": "Thopter Spy Network",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": { "control": { "types": ["artifact"] } },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": ["Flying"]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control an artifact, create a 1/1 colorless Thopter artifact creature token with flying."
+    },
+    {
+      // Combat damage is dealt only by creatures, so "artifact" here is an artifact creature. Once per player dealt damage.
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": { "types": ["artifact"] },
+      "batchedPerPlayer": true,
+      "effects": [{ "draw": 1 }],
+      "text": "Whenever one or more artifact creatures you control deal combat damage to a player, draw a card."
+    }
+  ]
+}

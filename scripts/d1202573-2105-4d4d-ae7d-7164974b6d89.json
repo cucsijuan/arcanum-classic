@@ -1,0 +1,21 @@
+{
+  "name": "Valeron Wardens",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": { "not": "renowned" },
+      "effects": [
+        { "counters": 2, "what": "self" },
+        { "becomeRenowned": "self" }
+      ],
+      "text": "Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.)"
+    },
+    {
+      // Any creature you control, this one included.
+      "trigger": "creatureBecomesRenowned",
+      "filter": { "types": ["creature"] },
+      "effects": [{ "draw": 1 }],
+      "text": "Whenever a creature you control becomes renowned, draw a card."
+    }
+  ]
+}

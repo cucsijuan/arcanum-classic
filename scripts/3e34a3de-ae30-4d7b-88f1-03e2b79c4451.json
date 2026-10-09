@@ -1,0 +1,16 @@
+{
+  "name": "Call of the Full Moon",
+  "abilities": [
+    {
+      "static": { "affects": "enchanted", "pump": [3, 2], "keywords": ["Trample"] },
+      "text": "Enchanted creature gets +3/+2 and has trample. (It can deal excess combat damage to the player or planeswalker it's attacking.)"
+    },
+    {
+      // Intervening "if" (rule 603.4): checked as the upkeep begins and again on resolution.
+      "trigger": "eachUpkeep",
+      "if": { "spellsCastLastTurn": 2 },
+      "effects": [{ "sacrificeIt": "self" }],
+      "text": "At the beginning of each upkeep, if a player cast two or more spells last turn, sacrifice this Aura."
+    }
+  ]
+}

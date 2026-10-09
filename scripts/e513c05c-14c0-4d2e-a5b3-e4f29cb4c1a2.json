@@ -1,0 +1,36 @@
+{
+  "name": "Enshrouding Mist",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        // A prevention shield on that creature (the object it is now) for the rest of the turn.
+        "preventDamage": true,
+        "to": "target"
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "renowned": true
+          }
+        },
+        "then": [
+          {
+            "untap": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets +1/+1 until end of turn. Prevent all damage that would be dealt to it this turn. If it's renowned, untap it."
+  }
+}

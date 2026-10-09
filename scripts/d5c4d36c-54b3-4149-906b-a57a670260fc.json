@@ -1,0 +1,7 @@
+{
+  "name": "Alhammarret's Archive",
+  "replaces": [
+    "DoubleLifeGain",
+    "DrawTwoExceptFirstInDrawStep"
+  ]
+}

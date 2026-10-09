@@ -1,0 +1,26 @@
+{
+  "name": "Relic Seeker",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": { "not": "renowned" },
+      "effects": [
+        { "counters": 1, "what": "self" },
+        { "becomeRenowned": "self" }
+      ],
+      "text": "Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)"
+    },
+    {
+      "trigger": "becomesRenowned",
+      "effects": [
+        {
+          "may": "Search your library for an Equipment card, reveal it, put it into your hand, then shuffle?",
+          "effects": [
+            { "search": { "types": ["artifact"], "subtype": "Equipment" }, "count": 1, "to": "hand" }
+          ]
+        }
+      ],
+      "text": "When this creature becomes renowned, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

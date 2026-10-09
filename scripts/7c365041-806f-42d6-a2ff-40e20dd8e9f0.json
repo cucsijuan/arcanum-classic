@@ -1,0 +1,12 @@
+{
+  "name": "Willbreaker",
+  "abilities": [
+    {
+      // Spells and abilities you control, as they are put on the stack or when one of their targets is changed to the creature.
+      "trigger": "becomesTargetOfYours",
+      "filter": { "types": ["creature"], "controller": "opponent" },
+      "effects": [{ "gainControl": "triggered", "whileYouControl": true }],
+      "text": "Whenever a creature an opponent controls becomes the target of a spell or ability you control, gain control of that creature for as long as you control this creature."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Chandra, Fire of Kaladesh // Chandra, Roaring Flame",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": { "colors": ["R"] },
+      "effects": [{ "untap": "self" }],
+      "text": "Whenever you cast a red spell, untap Chandra."
+    },
+    {
+      "cost": "{T}",
+      "targets": ["playerOrPlaneswalker"],
+      "effects": [
+        { "damage": 1, "to": "target" },
+        {
+          // All the damage this object dealt this turn (combat damage too), this 1 included; as she last existed if she left.
+          // "Exile her" never reaches a new object she became (rule 400.7).
+          "if": { "dealtDamageThisTurn": 3 },
+          "then": [{ "blink": "self", "transformed": true }]
+        }
+      ],
+      "text": "{T}: Chandra deals 1 damage to target player or planeswalker. If Chandra has dealt 3 or more damage this turn, exile her, then return her to the battlefield transformed under her owner's control."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "+1",
+        "targets": ["playerOrPlaneswalker"],
+        "effects": [{ "damage": 2, "to": "target" }],
+        "text": "+1: Chandra deals 2 damage to target player or planeswalker."
+      },
+      {
+        "cost": "-2",
+        "targets": ["creature"],
+        "effects": [{ "damage": 2, "to": "target" }],
+        "text": "−2: Chandra deals 2 damage to target creature."
+      },
+      {
+        "cost": "-7",
+        "effects": [
+          { "damage": 6, "to": "opponents" },
+          {
+            // One emblem for each player actually dealt damage (none for a player whose damage was all prevented), owned by them.
+            "emblem": "Chandra, Roaring Flame",
+            "for": "playersDamagedThisWay",
+            "abilities": [
+              {
+                "trigger": "upkeep",
+                "effects": [{ "damage": 3, "to": "you" }],
+                "text": "At the beginning of your upkeep, this emblem deals 3 damage to you."
+              }
+            ]
+          }
+        ],
+        "text": "−7: Chandra deals 6 damage to each opponent. Each player dealt damage this way gets an emblem with \"At the beginning of your upkeep, this emblem deals 3 damage to you.\""
+      }
+    ]
+  }
+}
