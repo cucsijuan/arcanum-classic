@@ -12,7 +12,7 @@
       "text": "When Bill the Pony enters, create two Food tokens."
     },
     {
-      "cost": "sacrifice:Food",
+      "cost": "sacrificeAny:Food",
       "targets": [
         "creature:you"
       ],

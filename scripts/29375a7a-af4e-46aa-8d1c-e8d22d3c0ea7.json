@@ -16,7 +16,7 @@
       "oncePerTurn": true
     },
     {
-      "cost": "{T}, sacrifice:Treasure",
+      "cost": "{T}, sacrificeAny:Treasure",
       "targets": [
         "creature"
       ],

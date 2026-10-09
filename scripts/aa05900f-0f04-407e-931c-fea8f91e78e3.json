@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{3}, sacrifice:creature",
+      "cost": "{3}, sacrificeAny:creature",
       "effects": [
         {
           "draw": 1

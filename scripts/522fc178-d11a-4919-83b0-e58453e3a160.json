@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{1}{B}{B}, sacrifice:creature",
+      "cost": "{1}{B}{B}, sacrificeAny:creature",
       "targets": [
         {
           "kind": "graveyardCard",

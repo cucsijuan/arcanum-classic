@@ -2,7 +2,7 @@
   "name": "Mushroom Watchdogs",
   "abilities": [
     {
-      "cost": "sacrifice:Food",
+      "cost": "sacrificeAny:Food",
       "sorcery": true,
       "effects": [
         {

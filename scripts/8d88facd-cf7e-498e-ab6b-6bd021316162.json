@@ -32,7 +32,7 @@
       "text": "When Gollum enters, exile up to one target card from an opponent's graveyard. Each opponent loses 2 life."
     },
     {
-      "cost": "{2}, sacrifice:artifact|creature, fromGraveyard",
+      "cost": "{2}, sacrificeAny:artifact|creature, fromGraveyard",
       "sorcery": true,
       "effects": [
         {

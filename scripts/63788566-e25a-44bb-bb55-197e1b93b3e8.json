@@ -30,7 +30,7 @@
       "text": "{1}, {T}, Pay 1 life: Create a 0/1 white Goat creature token."
     },
     {
-      "cost": "{1}, {T}, sacrifice:creature",
+      "cost": "{1}, {T}, sacrificeAny:creature",
       "targets": [
         {
           "kind": "graveyardCard",
@@ -50,7 +50,7 @@
       "text": "{1}, {T}, Sacrifice a creature: Return target artifact card from your graveyard to your hand."
     },
     {
-      "cost": "{1}, {T}, sacrifice:artifact",
+      "cost": "{1}, {T}, sacrificeAny:artifact",
       "effects": [
         {
           "draw": 1

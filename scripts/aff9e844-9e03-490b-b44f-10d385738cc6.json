@@ -19,7 +19,7 @@
       "text": "{T}, Sacrifice this creature: Target creature gets -4/-4 until end of turn."
     },
     {
-      "cost": "sacrifice:creature",
+      "cost": "sacrificeAny:creature",
       "targets": [
         "creature"
       ],

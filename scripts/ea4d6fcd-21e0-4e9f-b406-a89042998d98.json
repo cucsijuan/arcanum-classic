@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{4}{R}, {T}, sacrifice:creature",
+      "cost": "{4}{R}, {T}, sacrificeAny:creature",
       "targets": [
         "any"
       ],

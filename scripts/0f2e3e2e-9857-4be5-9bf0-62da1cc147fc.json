@@ -11,7 +11,7 @@
       "text": "When Lobelia enters, look at the top card of each opponent's library and exile those cards face down."
     },
     {
-      "cost": "{T}, sacrifice:artifact",
+      "cost": "{T}, sacrificeAny:artifact",
       "modes": [
         {
           "text": "Until end of turn, you may play a card exiled with Lobelia without paying its mana cost.",

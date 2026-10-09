@@ -11,7 +11,7 @@
       "text": "When Gollum leaves the battlefield, the Ring tempts you."
     },
     {
-      "cost": "{B}, sacrifice:creature, fromGraveyard",
+      "cost": "{B}, sacrificeAny:creature, fromGraveyard",
       "sorcery": true,
       "effects": [
         {

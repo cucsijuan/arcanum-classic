@@ -16,7 +16,7 @@
       "text": "This creature can't block."
     },
     {
-      "cost": "sacrifice:creature",
+      "cost": "sacrificeAny:creature",
       "effects": [
         {
           "counters": 1,

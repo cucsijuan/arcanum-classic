@@ -40,7 +40,7 @@
       "text": "Whenever this creature enters or attacks, create a 3/1 colorless Wall artifact creature token with defender named Stone Boulder."
     },
     {
-      "cost": "{2}{R}, sacrifice:artifact",
+      "cost": "{2}{R}, sacrificeAny:artifact",
       "targets": [
         "any"
       ],

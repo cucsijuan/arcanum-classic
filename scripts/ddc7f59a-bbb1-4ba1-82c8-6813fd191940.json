@@ -20,7 +20,7 @@
       "text": "When this creature enters, create three 1/1 red Goblin creature tokens."
     },
     {
-      "cost": "{1}{R}, sacrifice:Goblin",
+      "cost": "{1}{R}, sacrificeAny:Goblin",
       "effects": [
         {
           "damage": 2,

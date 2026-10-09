@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{R}, sacrifice:creature",
+      "cost": "{R}, sacrificeAny:creature",
       "targets": [
         "playerOrPlaneswalker"
       ],

@@ -9,7 +9,7 @@
   "entersWithXCountersTimes": 2,
   "abilities": [
     {
-      "cost": "{2}, sacrifice:Food",
+      "cost": "{2}, sacrificeAny:Food",
       "effects": [
         {
           "pump": [

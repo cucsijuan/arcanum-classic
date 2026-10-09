@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{R}, sacrifice:artifact",
+      "cost": "{R}, sacrificeAny:artifact",
       "effects": [
         {
           "pump": [

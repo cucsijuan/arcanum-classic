@@ -22,7 +22,7 @@
       "text": "{1}{G}, {T}: Create a Food token."
     },
     {
-      "cost": "{T}, sacrifice:Food",
+      "cost": "{T}, sacrificeAny:Food",
       "effects": [
         {
           "addManaAnyColor": 1

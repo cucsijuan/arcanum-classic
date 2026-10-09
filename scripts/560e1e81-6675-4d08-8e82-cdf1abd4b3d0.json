@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{G}, {T}, sacrifice:creature",
+      "cost": "{G}, {T}, sacrificeAny:creature",
       "targets": [
         "enchantment"
       ],

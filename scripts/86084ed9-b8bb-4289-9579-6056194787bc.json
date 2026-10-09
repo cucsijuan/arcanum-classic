@@ -21,7 +21,7 @@
       "text": "When Pia and Kiran Nalaar enters, create two 1/1 colorless Thopter artifact creature tokens with flying."
     },
     {
-      "cost": "{2}{R}, sacrifice:artifact",
+      "cost": "{2}{R}, sacrificeAny:artifact",
       "targets": [
         "any"
       ],

@@ -3,7 +3,7 @@
   "generated": true,
   "abilities": [
     {
-      "cost": "{T}, sacrifice:creature",
+      "cost": "{T}, sacrificeAny:creature",
       "targets": [
         "creature"
       ],
@@ -19,7 +19,7 @@
       "text": "{T}, Sacrifice a creature: Target creature gets +2/+2 until end of turn."
     },
     {
-      "cost": "{1}{U}{U}, sacrifice:creature",
+      "cost": "{1}{U}{U}, sacrificeAny:creature",
       "targets": [
         {
           "kind": "spell",
