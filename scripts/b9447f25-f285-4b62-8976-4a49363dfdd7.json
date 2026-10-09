@@ -1,0 +1,42 @@
+{
+  "name": "Sigil of Valor",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "when": {
+        "attackersExactly": 1
+      },
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "notTriggered": true
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "notTriggered": true
+              }
+            }
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever equipped creature attacks alone, it gets +1/+1 until end of turn for each other creature you control."
+    }
+  ]
+}

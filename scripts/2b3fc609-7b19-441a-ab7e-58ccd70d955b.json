@@ -1,0 +1,17 @@
+{
+  "name": "Displacement Wave",
+  "spell": {
+    "effects": [
+      {
+        "bounceAll": {
+          "not": [
+            "land"
+          ],
+          "controller": "any",
+          "maxManaValueX": true
+        }
+      }
+    ],
+    "text": "Return all nonland permanents with mana value X or less to their owners' hands."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Whirler Rogue",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ],
+            "colors": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create two 1/1 colorless Thopter artifact creature tokens with flying."
+    },
+    {
+      "cost": "tapPermanents:2:artifact",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Tap two untapped artifacts you control: Target creature can't be blocked this turn."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Gilt-Leaf Winnower",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "notSubtype": "Elf",
+            "powerNotEqualToughness": true
+          },
+          "text": "target non-Elf creature whose power and toughness aren't equal"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy the target creature?",
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy target non-Elf creature whose power and toughness aren't equal."
+    }
+  ]
+}

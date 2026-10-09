@@ -1,0 +1,9 @@
+{
+  "name": "Orchard Spirit",
+  "cantBeBlockedBy": {
+    "without": [
+      "Flying",
+      "Reach"
+    ]
+  }
+}

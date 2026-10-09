@@ -1,0 +1,21 @@
+{
+  "name": "Mizzium Meddler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "spellOrAbility",
+          "text": "target spell or ability"
+        }
+      ],
+      "effects": [
+        {
+          "changeTarget": "target",
+          "to": "self"
+        }
+      ],
+      "text": "When this creature enters, you may change a target of target spell or ability to this creature."
+    }
+  ]
+}

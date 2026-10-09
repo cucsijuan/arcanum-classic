@@ -1,0 +1,14 @@
+{
+  "name": "Scrapskin Drake",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can block only creatures with flying"
+        ]
+      },
+      "text": "This creature can block only creatures with flying."
+    }
+  ]
+}

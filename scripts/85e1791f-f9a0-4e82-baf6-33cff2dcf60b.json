@@ -1,0 +1,21 @@
+{
+  "name": "Kothophed, Soul Hoarder",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "controller": "any",
+        "notOwnedByYou": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever a permanent owned by another player is put into a graveyard from the battlefield, you draw a card and you lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Archangel of Tithes",
+  "attackTax": "{1}",
+  "attackTaxIf": "untapped",
+  "blockTax": "{1}",
+  "blockTaxIf": "attacking"
+}

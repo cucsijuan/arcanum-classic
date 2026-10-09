@@ -1,0 +1,32 @@
+{
+  "name": "Stratus Walk",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature has flying."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Can block only creatures with flying"
+        ]
+      },
+      "text": "Enchanted creature can block only creatures with flying."
+    }
+  ]
+}

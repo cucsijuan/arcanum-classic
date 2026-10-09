@@ -1,0 +1,8 @@
+{
+  "name": "Gaea's Revenge",
+  "cantBeTargetedBy": {
+    "notColors": [
+      "G"
+    ]
+  }
+}

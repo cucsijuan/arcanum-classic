@@ -1,0 +1,46 @@
+{
+  "name": "Psychic Rebuttal",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ],
+          "targetsYou": true
+        },
+        "text": "target instant or sorcery spell that targets you"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "if": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "then": [
+          {
+            "may": "Copy the spell countered this way?",
+            "effects": [
+              {
+                "copySpell": "target",
+                "counteredThisWay": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Counter target instant or sorcery spell that targets you.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may copy the spell countered this way. You may choose new targets for the copy."
+  }
+}

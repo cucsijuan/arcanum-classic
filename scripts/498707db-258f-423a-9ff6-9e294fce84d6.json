@@ -1,0 +1,11 @@
+{
+  "name": "Skaab Goliath",
+  "additionalCost": {
+    "exileGraveyard": 2,
+    "exileGraveyardFilter": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}

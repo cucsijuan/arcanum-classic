@@ -1,0 +1,24 @@
+{
+  "name": "Exquisite Firecraft",
+  "uncounterableIf": {
+    "graveyard": 2,
+    "filter": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ],
+    "text": "Exquisite Firecraft deals 4 damage to any target.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, this spell can't be countered."
+  }
+}
