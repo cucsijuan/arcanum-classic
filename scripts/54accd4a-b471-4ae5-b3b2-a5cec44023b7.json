@@ -15,7 +15,7 @@
           "creature"
         ]
       },
-      "batched": true
+      "batchedPerPlayer": true
     },
     {
       "trigger": "youSacrifice",
