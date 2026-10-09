@@ -1,0 +1,38 @@
+1 Aegis Angel (ORI) 273
+1 Akroan Jailer (ORI) 1
+1 Ampryn Tactician (ORI) 2
+1 Anointer of Champions (ORI) 3
+1 Archangel of Tithes (ORI) 4
+1 Auramancer (ORI) 5
+1 Aven Battle Priest (ORI) 6
+1 Blessed Spirits (ORI) 7
+1 Bonded Construct (ORI) 223
+1 Caustic Caterpillar (ORI) 170
+1 Charging Griffin (ORI) 9
+1 Chief of the Foundry (ORI) 225
+1 Citadel Castellan (ORI) 213
+1 Cleric of the Forward Order (ORI) 10
+1 Conclave Naturalists (ORI) 171
+1 Consul's Lieutenant (ORI) 11
+1 Dwynen's Elite (ORI) 173
+1 Dwynen, Gilt-Leaf Daen (ORI) 172
+1 Eagle of the Watch (ORI) 275
+1 Elvish Visionary (ORI) 175
+1 Enlightened Ascetic (ORI) 12
+1 Gaea's Revenge (ORI) 177
+1 Aerial Volley (ORI) 168
+1 Alchemist's Vial (ORI) 220
+1 Alhammarret's Archive (ORI) 221
+1 Angel's Tomb (ORI) 222
+1 Animist's Awakening (ORI) 169
+1 Brawler's Plate (ORI) 224
+1 Celestial Flare (ORI) 8
+1 Divine Verdict (ORI) 274
+1 Elemental Bond (ORI) 174
+1 Enshrouding Mist (ORI) 13
+1 Evolutionary Leap (ORI) 176
+1 Gather the Pack (ORI) 178
+1 Gideon's Phalanx (ORI) 14
+1 Grasp of the Hieromancer (ORI) 15
+12 Forest (ORI) 266
+12 Plains (ORI) 250

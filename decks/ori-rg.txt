@@ -1,0 +1,38 @@
+1 Abbot of Keral Keep (ORI) 127
+1 Acolyte of the Inferno (ORI) 128
+1 Akroan Sergeant (ORI) 130
+1 Avaricious Dragon (ORI) 131
+1 Bellows Lizard (ORI) 132
+1 Boggart Brute (ORI) 133
+1 Bonded Construct (ORI) 223
+1 Caustic Caterpillar (ORI) 170
+1 Chandra, Fire of Kaladesh (ORI) 135
+1 Chief of the Foundry (ORI) 225
+1 Cobblebrute (ORI) 138
+1 Conclave Naturalists (ORI) 171
+1 Dwynen's Elite (ORI) 173
+1 Dwynen, Gilt-Leaf Daen (ORI) 172
+1 Elvish Visionary (ORI) 175
+1 Embermaw Hellion (ORI) 141
+1 Enthralling Victor (ORI) 142
+1 Fiery Hellhound (ORI) 284
+1 Firefiend Elemental (ORI) 146
+1 Gaea's Revenge (ORI) 177
+1 Ghirapur Gearcrafter (ORI) 149
+1 Goblin Glory Chaser (ORI) 150
+1 Act of Treason (ORI) 129
+1 Aerial Volley (ORI) 168
+1 Alchemist's Vial (ORI) 220
+1 Alhammarret's Archive (ORI) 221
+1 Angel's Tomb (ORI) 222
+1 Animist's Awakening (ORI) 169
+1 Brawler's Plate (ORI) 224
+1 Call of the Full Moon (ORI) 134
+1 Chandra's Fury (ORI) 136
+1 Chandra's Ignition (ORI) 137
+1 Demolish (ORI) 139
+1 Dragon Fodder (ORI) 140
+1 Elemental Bond (ORI) 174
+1 Evolutionary Leap (ORI) 176
+12 Mountain (ORI) 262
+12 Forest (ORI) 266

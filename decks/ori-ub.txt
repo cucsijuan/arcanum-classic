@@ -1,0 +1,38 @@
+1 Alhammarret, High Arbiter (ORI) 43
+1 Aspiring Aeronaut (ORI) 46
+1 Blightcaster (ORI) 85
+1 Bonded Construct (ORI) 223
+1 Catacomb Slug (ORI) 86
+1 Chief of the Foundry (ORI) 225
+1 Deadbridge Shaman (ORI) 91
+1 Deep-Sea Terror (ORI) 52
+1 Despoiler of Souls (ORI) 93
+1 Disciple of the Ring (ORI) 53
+1 Erebos's Titan (ORI) 94
+1 Eyeblight Assassin (ORI) 95
+1 Faerie Miscreant (ORI) 57
+1 Fetid Imp (ORI) 97
+1 Fleshbag Marauder (ORI) 98
+1 Gilt-Leaf Winnower (ORI) 99
+1 Gnarlroot Trapper (ORI) 100
+1 Gold-Forged Sentinel (ORI) 226
+1 Graveblade Marauder (ORI) 101
+1 Guardian Automaton (ORI) 227
+1 Guardians of Meletis (ORI) 228
+1 Hangarback Walker (ORI) 229
+1 Alchemist's Vial (ORI) 220
+1 Alhammarret's Archive (ORI) 221
+1 Anchor to the Aether (ORI) 44
+1 Angel's Tomb (ORI) 222
+1 Artificer's Epiphany (ORI) 45
+1 Bone to Ash (ORI) 47
+1 Brawler's Plate (ORI) 224
+1 Calculated Dismissal (ORI) 48
+1 Clash of Wills (ORI) 49
+1 Claustrophobia (ORI) 50
+1 Consecrated by Blood (ORI) 87
+1 Cruel Revival (ORI) 88
+1 Dark Dabbling (ORI) 89
+1 Dark Petition (ORI) 90
+12 Island (ORI) 254
+12 Swamp (ORI) 258

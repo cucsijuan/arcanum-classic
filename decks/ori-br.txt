@@ -1,0 +1,38 @@
+1 Abbot of Keral Keep (ORI) 127
+1 Acolyte of the Inferno (ORI) 128
+1 Akroan Sergeant (ORI) 130
+1 Avaricious Dragon (ORI) 131
+1 Bellows Lizard (ORI) 132
+1 Blazing Hellhound (ORI) 210
+1 Blightcaster (ORI) 85
+1 Boggart Brute (ORI) 133
+1 Bonded Construct (ORI) 223
+1 Catacomb Slug (ORI) 86
+1 Chandra, Fire of Kaladesh (ORI) 135
+1 Chief of the Foundry (ORI) 225
+1 Cobblebrute (ORI) 138
+1 Deadbridge Shaman (ORI) 91
+1 Despoiler of Souls (ORI) 93
+1 Embermaw Hellion (ORI) 141
+1 Enthralling Victor (ORI) 142
+1 Erebos's Titan (ORI) 94
+1 Eyeblight Assassin (ORI) 95
+1 Fetid Imp (ORI) 97
+1 Fiery Hellhound (ORI) 284
+1 Firefiend Elemental (ORI) 146
+1 Act of Treason (ORI) 129
+1 Alchemist's Vial (ORI) 220
+1 Alhammarret's Archive (ORI) 221
+1 Angel's Tomb (ORI) 222
+1 Brawler's Plate (ORI) 224
+1 Call of the Full Moon (ORI) 134
+1 Chandra's Fury (ORI) 136
+1 Chandra's Ignition (ORI) 137
+1 Consecrated by Blood (ORI) 87
+1 Cruel Revival (ORI) 88
+1 Dark Dabbling (ORI) 89
+1 Dark Petition (ORI) 90
+1 Demolish (ORI) 139
+1 Demonic Pact (ORI) 92
+12 Swamp (ORI) 258
+12 Mountain (ORI) 262

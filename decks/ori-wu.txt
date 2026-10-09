@@ -1,0 +1,38 @@
+1 Aegis Angel (ORI) 273
+1 Akroan Jailer (ORI) 1
+1 Alhammarret, High Arbiter (ORI) 43
+1 Ampryn Tactician (ORI) 2
+1 Anointer of Champions (ORI) 3
+1 Archangel of Tithes (ORI) 4
+1 Aspiring Aeronaut (ORI) 46
+1 Auramancer (ORI) 5
+1 Aven Battle Priest (ORI) 6
+1 Blessed Spirits (ORI) 7
+1 Bonded Construct (ORI) 223
+1 Charging Griffin (ORI) 9
+1 Chief of the Foundry (ORI) 225
+1 Cleric of the Forward Order (ORI) 10
+1 Consul's Lieutenant (ORI) 11
+1 Deep-Sea Terror (ORI) 52
+1 Disciple of the Ring (ORI) 53
+1 Eagle of the Watch (ORI) 275
+1 Enlightened Ascetic (ORI) 12
+1 Faerie Miscreant (ORI) 57
+1 Gold-Forged Sentinel (ORI) 226
+1 Guardian Automaton (ORI) 227
+1 Alchemist's Vial (ORI) 220
+1 Alhammarret's Archive (ORI) 221
+1 Anchor to the Aether (ORI) 44
+1 Angel's Tomb (ORI) 222
+1 Artificer's Epiphany (ORI) 45
+1 Bone to Ash (ORI) 47
+1 Brawler's Plate (ORI) 224
+1 Calculated Dismissal (ORI) 48
+1 Celestial Flare (ORI) 8
+1 Clash of Wills (ORI) 49
+1 Claustrophobia (ORI) 50
+1 Day's Undoing (ORI) 51
+1 Disperse (ORI) 54
+1 Displacement Wave (ORI) 55
+12 Plains (ORI) 250
+12 Island (ORI) 254
