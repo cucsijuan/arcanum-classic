@@ -1,0 +1,5 @@
+{
+  "name": "Alhammarret, High Arbiter",
+  "chooseOnEnter": "opponentsRevealHandsThenNonlandName",
+  "opponentsCantCastChosenName": true
+}

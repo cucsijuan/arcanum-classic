@@ -1,0 +1,26 @@
+{
+  "name": "Nightsnare",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "optional": true,
+        "else": [
+          {
+            "discard": 2,
+            "who": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Target opponent reveals their hand. You may choose a nonland card from it. If you do, that player discards that card. If you don't, that player discards two cards."
+  }
+}

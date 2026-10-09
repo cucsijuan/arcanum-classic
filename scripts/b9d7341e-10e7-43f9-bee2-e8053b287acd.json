@@ -1,0 +1,25 @@
+{
+  "name": "The Great Aurora",
+  "spell": {
+    "effects": [
+      {
+        "shuffleIntoLibraries": "everyone",
+        "hand": true,
+        "permanents": true,
+        "drawThatMany": true
+      },
+      {
+        "eachPutsFromHand": {
+          "types": [
+            "land"
+          ]
+        },
+        "who": "everyone"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Each player shuffles all cards from their hand and all permanents they own into their library, then draws that many cards. Each player may put any number of land cards from their hand onto the battlefield. Exile The Great Aurora."
+  }
+}

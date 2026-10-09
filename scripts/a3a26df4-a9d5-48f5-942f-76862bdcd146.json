@@ -1,0 +1,33 @@
+{
+  "name": "Talent of the Telepath",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "revealTopCastFree": 7,
+        "of": "target",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "casts": 1,
+        "moreCastsIf": {
+          "graveyard": 2,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "moreCasts": 2,
+        "rest": "graveyard"
+      }
+    ],
+    "text": "Target opponent reveals the top seven cards of their library. You may cast an instant or sorcery spell from among them without paying its mana cost. Then that player puts the rest into their graveyard. Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, you may cast up to two instant and/or sorcery spells from among the revealed cards instead of one."
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Starfield of Nyx",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return the enchantment card to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may return target enchantment card from your graveyard to the battlefield."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "enchantment"
+          ],
+          "notSubtype": "Aura"
+        },
+        "while": {
+          "control": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "count": 5
+        },
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": {
+          "manaValue": "affected"
+        },
+        "setToughness": {
+          "manaValue": "affected"
+        }
+      },
+      "text": "As long as you control five or more enchantments, each other non-Aura enchantment you control is a creature in addition to its other types and has base power and base toughness each equal to its mana value."
+    }
+  ]
+}

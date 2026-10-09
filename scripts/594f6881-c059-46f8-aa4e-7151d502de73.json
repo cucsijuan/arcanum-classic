@@ -1,0 +1,98 @@
+{
+  "name": "Jace, Vryn's Prodigy // Jace, Telepath Unbound",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        },
+        {
+          "if": {
+            "graveyard": 5
+          },
+          "then": [
+            {
+              "blink": "self",
+              "transformed": true
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Draw a card, then discard a card. If there are five or more cards in your graveyard, exile Jace, then return him to the battlefield transformed under his owner's control."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "+1",
+        "targets": [
+          {
+            "kind": "creature",
+            "optional": true
+          }
+        ],
+        "effects": [
+          {
+            "pump": [
+              -2,
+              0
+            ],
+            "what": "target",
+            "untilYourNextTurn": true
+          }
+        ],
+        "text": "+1: Up to one target creature gets -2/-0 until your next turn."
+      },
+      {
+        "cost": "-3",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "castFromGraveyardThisTurn": "target",
+            "exileInstead": true
+          }
+        ],
+        "text": "−3: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead."
+      },
+      {
+        "cost": "-9",
+        "effects": [
+          {
+            "emblem": "Jace, Telepath Unbound",
+            "abilities": [
+              {
+                "trigger": "castSpell",
+                "targets": [
+                  "opponent"
+                ],
+                "effects": [
+                  {
+                    "mill": 5,
+                    "who": "target"
+                  }
+                ],
+                "text": "Whenever you cast a spell, target opponent mills five cards."
+              }
+            ]
+          }
+        ],
+        "text": "−9: You get an emblem with \"Whenever you cast a spell, target opponent mills five cards.\""
+      }
+    ]
+  }
+}

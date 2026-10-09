@@ -1,0 +1,25 @@
+{
+  "name": "Day's Undoing",
+  "spell": {
+    "effects": [
+      {
+        "shuffleIntoLibraries": "everyone",
+        "hand": true,
+        "graveyard": true
+      },
+      {
+        "draw": 7,
+        "who": "everyone"
+      },
+      {
+        "if": "yourTurn",
+        "then": [
+          {
+            "endTurn": true
+          }
+        ]
+      }
+    ],
+    "text": "Each player shuffles their hand and graveyard into their library, then draws seven cards. If it's your turn, end the turn."
+  }
+}

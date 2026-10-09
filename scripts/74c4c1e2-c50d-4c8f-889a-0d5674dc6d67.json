@@ -1,0 +1,23 @@
+{
+  "name": "Turn to Frog",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "power": 1,
+        "toughness": 1,
+        "setColors": [
+          "U"
+        ],
+        "setSubtypes": [
+          "Frog"
+        ],
+        "loseAbilities": true
+      }
+    ],
+    "text": "Until end of turn, target creature loses all abilities and becomes a blue Frog with base power and toughness 1/1."
+  }
+}

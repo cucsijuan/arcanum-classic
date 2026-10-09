@@ -1,0 +1,30 @@
+{
+  "name": "Nissa's Revelation",
+  "spell": {
+    "effects": [
+      {
+        "scry": 5
+      },
+      {
+        "revealTop": {
+          "types": [
+            "creature"
+          ]
+        },
+        "effects": [
+          {
+            "draw": {
+              "power": "found"
+            }
+          },
+          {
+            "gainLife": {
+              "toughness": "found"
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Scry 5, then reveal the top card of your library. If it's a creature card, you draw cards equal to its power and you gain life equal to its toughness."
+  }
+}

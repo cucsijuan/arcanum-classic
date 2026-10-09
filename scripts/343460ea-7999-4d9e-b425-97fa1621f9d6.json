@@ -1,0 +1,32 @@
+{
+  "name": "Flameshadow Conjuring",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {R} to create a token copy of that creature?",
+          "mana": "{R}",
+          "effects": [
+            {
+              "copy": "triggered",
+              "gainsHaste": true,
+              "atNextEndStep": [
+                {
+                  "exile": "triggered"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a nontoken creature you control enters, you may pay {R}. If you do, create a token that's a copy of that creature. That token gains haste. Exile it at the beginning of the next end step."
+    }
+  ]
+}

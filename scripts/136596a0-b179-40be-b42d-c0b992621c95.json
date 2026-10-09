@@ -1,0 +1,22 @@
+{
+  "name": "Mage-Ring Network",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "removeCounters": "storage"
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "storage"
+        }
+      ],
+      "text": "{1}, {T}: Put a storage counter on this land."
+    }
+  ]
+}

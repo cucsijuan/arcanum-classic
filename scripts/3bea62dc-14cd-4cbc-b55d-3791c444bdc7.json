@@ -1,0 +1,19 @@
+{
+  "name": "Infinite Obliteration",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "nameAndExile": "target",
+        "nameFilter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "text": "Choose a creature card name. Search target opponent's graveyard, hand, and library for any number of cards with that name and exile them. Then that player shuffles."
+  }
+}
