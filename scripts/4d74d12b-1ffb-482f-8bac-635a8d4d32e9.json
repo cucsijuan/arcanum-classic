@@ -2,6 +2,15 @@
   "name": "Goblin Piledriver",
   "abilities": [
     {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Protection from blue"
+        ]
+      },
+      "text": "Protection from blue (This creature can't be blocked, targeted, dealt damage, or enchanted by anything blue.)"
+    },
+    {
       "trigger": "attacks",
       "effects": [
         {

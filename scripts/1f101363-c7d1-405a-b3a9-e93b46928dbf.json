@@ -16,7 +16,7 @@
         {
           "may": "Search your library for an Equipment card, reveal it, put it into your hand, then shuffle?",
           "effects": [
-            { "search": { "types": ["artifact"], "subtype": "Equipment" }, "count": 1, "to": "hand" }
+            { "search": { "types": ["artifact"], "subtype": "Equipment" }, "count": 1, "to": "hand", "reveal": true }
           ]
         }
       ],
