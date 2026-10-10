@@ -22,6 +22,7 @@ builds the zip.
 | `decks/` | Sample decks |
 | `sets/` | Card sets: their cards, how their boosters are made (sheets and slots) and limited settings |
 | `cubes/` | Cube lists for cube drafts (deck-list format) |
+| `career/` | Career mode: the store, prices, starting decks, daily matches, featured sets, preconstructed decks sold and the store's regulars |
 
 ## Generating scripts
 
