@@ -36,6 +36,9 @@
 
   // Each week three of these are drawn for the player. Kinds: winDaily, winMatch, winAnte, winCheap (value: the deck's
   // highest worth in cents), winMono, openBoosters, playPractice.
+  // The regulars' daily offers at the store, and how fast rivals improve their decks.
+  "offers": { "bargainRate": 0.6, "tradeSpread": 0.1, "rivalUpgrades": 2, "rivalWeeks": 12 },
+
   "challengesPerWeek": 3,
   "challenges": [
     { "id": "daily3", "text": "Win 3 daily matches", "kind": "winDaily", "count": 3, "boosters": 1 },
@@ -63,13 +66,13 @@
 
   // The store's regulars: the daily matches' opponents.
   "opponents": [
-    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg"], "tier": 1 },
+    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg"], "tier": 1, "rival": true },
     { "id": "theo", "name": "Theo Marsh", "style": "Big creatures, bigger smiles.", "decks": ["hob-gw", "m10-gw", "fdn-gw"], "tier": 0 },
     { "id": "ines", "name": "Ines Calder", "style": "Counts every card and answers every threat.", "decks": ["fdn-ub", "m19-ub", "ori-ub"], "tier": 1 },
     { "id": "kofi", "name": "Kofi Mensah", "style": "Flyers, tricks and a grin when the trick works.", "decks": ["fdn-wu", "m19-wu", "hob-wu"], "tier": 0 },
     { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["hob-br", "m10-br", "ori-br"], "tier": 0 },
     { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["m10-rg", "m10-wu", "m19-gw"], "tier": 0 },
     { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-gw", "ori-wu"], "tier": 2 },
-    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg"], "tier": 3 }
+    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg"], "tier": 3, "rival": true }
   ]
 }
