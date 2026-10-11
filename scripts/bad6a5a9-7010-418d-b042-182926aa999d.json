@@ -1,0 +1,31 @@
+{
+  "name": "Norn's Choirmaster",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "commander": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever a commander you control enters, proliferate."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "commander": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever a commander you control attacks, proliferate."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Goddric, Cloaked Reveler",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "enteredThisTurn": {
+            "not": [
+              "land"
+            ]
+          },
+          "count": 2
+        },
+        "setSubtypes": [
+          "Dragon"
+        ],
+        "setPower": 4,
+        "setToughness": 4,
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "cost": "{R}",
+            "effects": [
+              {
+                "pump": [
+                  1,
+                  0
+                ],
+                "what": {
+                  "each": {
+                    "types": [
+                      "creature"
+                    ],
+                    "subtype": "Dragon",
+                    "controller": "you"
+                  }
+                }
+              }
+            ],
+            "text": "{R}: Dragons you control get +1/+0 until end of turn."
+          }
+        ]
+      },
+      "text": "Celebration — As long as two or more nonland permanents entered the battlefield under your control this turn, Goddric is a Dragon with base power and toughness 4/4, flying, and \"{R}: Dragons you control get +1/+0 until end of turn.\""
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Dragonstorm Globe",
+  "othersEnterWithCounters": 1,
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ],
+    "subtype": "Dragon"
+  }
+}

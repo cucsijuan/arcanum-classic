@@ -1,0 +1,20 @@
+{
+  "name": "Metallic Mimic",
+  "chooseOnEnter": "creatureType",
+  "othersEnterWithCounters": 1,
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ],
+    "chosenType": true
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "addChosenType": true
+      },
+      "text": "This creature is the chosen type in addition to its other types."
+    }
+  ]
+}

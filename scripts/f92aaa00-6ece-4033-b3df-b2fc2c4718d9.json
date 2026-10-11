@@ -1,0 +1,35 @@
+{
+  "name": "Leyline Tyrant",
+  "replaces": [
+    "KeepRedMana"
+  ],
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "mayPayX": "Pay any amount of {R}?",
+          "manaType": "{R}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "any"
+                ],
+                "amount": "X",
+                "effects": [
+                  {
+                    "damage": "triggerAmount",
+                    "to": "target"
+                  }
+                ],
+                "text": "It deals that much damage to any target."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may pay any amount of {R}. When you do, it deals that much damage to any target."
+    }
+  ]
+}

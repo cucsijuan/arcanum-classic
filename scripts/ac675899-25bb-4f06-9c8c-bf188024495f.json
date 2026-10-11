@@ -1,0 +1,48 @@
+{
+  "name": "Firemane Commando",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "attackers": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you attack with two or more creatures, draw a card."
+    },
+    {
+      "trigger": "playerAttacks",
+      "when": {
+        "all": [
+          {
+            "not": "triggeredPlayerIsYou"
+          },
+          {
+            "atLeast": "triggeredPlayerAttackers",
+            "value": 2
+          }
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "atLeast": "triggerAmount",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "draw": 1,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another player attacks with two or more creatures, they draw a card if none of those creatures attacked you."
+    }
+  ]
+}

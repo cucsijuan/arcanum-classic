@@ -1,0 +1,18 @@
+{
+  "name": "Monstrous Onslaught",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "anyNumber": true,
+        "text": "any number of target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "divideDamage": "greatestPower"
+      }
+    ],
+    "text": "Monstrous Onslaught deals X damage divided as you choose among any number of target creatures, where X is the greatest power among creatures you control as you cast this spell."
+  }
+}

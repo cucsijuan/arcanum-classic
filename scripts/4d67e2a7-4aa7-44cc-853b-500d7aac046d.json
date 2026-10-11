@@ -1,0 +1,10 @@
+{
+  "name": "Cursed Mirror",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ]
+  },
+  "entersAsCopyUntilEndOfTurn": true,
+  "entersAsCopyWithHaste": true
+}

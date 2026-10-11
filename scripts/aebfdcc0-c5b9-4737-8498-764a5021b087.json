@@ -1,0 +1,37 @@
+{
+  "name": "Graaz, Unstoppable Juggernaut",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Juggernaut",
+        "keywords": [
+          "Attacks each combat if able"
+        ]
+      },
+      "text": "Juggernauts you control attack each combat if able."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Juggernaut",
+        "cantBeBlockedBy": {
+          "subtype": "Wall"
+        }
+      },
+      "text": "Juggernauts you control can't be blocked by Walls."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "setPower": 5,
+        "setToughness": 3,
+        "addSubtypes": [
+          "Juggernaut"
+        ]
+      },
+      "text": "Other creatures you control have base power and toughness 5/3 and are Juggernauts in addition to their other creature types."
+    }
+  ]
+}

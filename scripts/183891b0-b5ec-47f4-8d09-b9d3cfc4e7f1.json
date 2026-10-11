@@ -1,0 +1,34 @@
+{
+  "name": "God-Eternal Bontu",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrificeAnyNumber": {
+            "other": true
+          }
+        },
+        {
+          "draw": "sacrificedThisWay"
+        }
+      ],
+      "text": "When God-Eternal Bontu enters, sacrifice any number of other permanents, then draw that many cards."
+    },
+    {
+      "trigger": "diesOrExiled",
+      "effects": [
+        {
+          "may": "Put her into her owner's library third from the top?",
+          "effects": [
+            {
+              "toLibrary": "self",
+              "position": 3
+            }
+          ]
+        }
+      ],
+      "text": "When God-Eternal Bontu dies or is put into exile from the battlefield, you may put her into her owner's library third from the top."
+    }
+  ]
+}
