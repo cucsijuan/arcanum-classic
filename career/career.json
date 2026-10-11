@@ -64,6 +64,47 @@
     { "deck": "m10-br" }, { "deck": "m10-gw" }, { "deck": "m10-rg" }, { "deck": "m10-ub" }, { "deck": "m10-wu" }
   ],
 
+  // The store's calendar (UTC days). "when": a weekday, or "lastSunday" (the last Sunday of the month). Prizes: the first
+  // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
+  // anyone). Draft events take the week's featured set unless "set" names one; the drafted cards are the player's.
+  "events": [
+    {
+      "id": "draft-night", "name": "Draft night", "when": "Wednesday", "kind": "draft", "set": "featured",
+      "players": 8, "rounds": 3, "bestOf": 1, "entry": 1500, "entryBoosters": 3,
+      "prizes": [
+        { "wins": 3, "boosters": 6, "reputation": 10 },
+        { "wins": 2, "boosters": 3, "reputation": 6 },
+        { "wins": 1, "boosters": 1, "reputation": 3 },
+        { "wins": 0, "reputation": 1 }
+      ]
+    },
+    {
+      "id": "saturday", "name": "Saturday tournament", "when": "Saturday", "kind": "constructed",
+      "players": 8, "rounds": 3, "bestOf": 1, "entry": 2000,
+      "prizes": [
+        { "place": 1, "cash": 10000, "boosters": 4, "tokens": 1, "reputation": 15 },
+        { "place": 2, "cash": 5000, "boosters": 2, "reputation": 10 },
+        { "place": 4, "cash": 2000, "boosters": 1, "reputation": 6 },
+        { "reputation": 2 }
+      ]
+    },
+    {
+      "id": "championship", "name": "Monthly championship", "when": "lastSunday", "kind": "constructed",
+      "players": 16, "rounds": 4, "bestOf": 3, "entry": 5000, "entryTokens": 1, "minTier": 1,
+      "prizes": [
+        { "place": 1, "cash": 50000, "boosters": 10, "reputation": 40 },
+        { "place": 2, "cash": 25000, "boosters": 6, "reputation": 25 },
+        { "place": 4, "cash": 10000, "boosters": 3, "reputation": 15 },
+        { "place": 8, "cash": 4000, "boosters": 1, "reputation": 8 },
+        { "reputation": 4 }
+      ]
+    }
+  ],
+
+  // Visitors fill an event's seats after the regulars.
+  "visitors": ["Alex Moreno", "Priya Nair", "Tomasz Wolski", "Grace Lin", "Diego Herrera", "Hana Sato", "Owen Clarke",
+               "Fatima Diallo", "Lukas Becker", "Maya Cohen", "Rafael Souza", "Nora Lindqvist"],
+
   // The store's regulars: the daily matches' opponents.
   "opponents": [
     { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg"], "tier": 1, "rival": true },
