@@ -425,7 +425,7 @@
  "boosters": {
   "set": {
    "name": "Set Booster",
-   "description": "12 cards: a basic land (traditional foil in a fifth of the boosters), 3 commons, 3 uncommons, a common or uncommon showcase or scene card, 2 wildcards of any rarity, a rare or mythic rare, and a traditional foil of any rarity; a quarter of the boosters add a card from The List.",
+   "description": "12 cards: a basic land (traditional foil in a fifth of the boosters), 3 commons, 3 uncommons, a common or uncommon showcase or scene card, 2 wildcards of any rarity, a rare or mythic rare, and a traditional foil of any rarity. (A quarter of the real boosters also hold a card from The List; those cards aren't in the game yet.)",
    "sheets": {
     "basic": {
      "set": "ltr",
@@ -1674,311 +1674,6 @@
      ],
      "foil": true
     },
-    "the_list": {
-     "set": "plst",
-     "numbers": [
-      "USG-172",
-      "DST-37",
-      "M19-4",
-      "ELD-2",
-      "M19-128",
-      "MIR-292",
-      "THS-186",
-      "POR-40",
-      "PLS-96",
-      "ROE-215",
-      "C13-29",
-      "C21-12",
-      "STX-37",
-      "AFC-198",
-      "WTH-6",
-      "DDF-69",
-      "USG-233",
-      "NPH-79",
-      "LRW-3",
-      "WWK-96",
-      "DOM-4",
-      "POR-41",
-      "C15-175",
-      "WTH-61",
-      "ELD-77",
-      "M13-7",
-      "LRW-197",
-      "2XM-77",
-      "WTH-8",
-      "ULG-2",
-      "2XM-235",
-      "NEO-175",
-      "M10-86",
-      "GTC-147",
-      "CNS-14",
-      "USG-176",
-      "ONS-191",
-      "CHK-202a",
-      "M10-128",
-      "SNC-139",
-      "DOM-81",
-      "USG-6",
-      "PLS-97",
-      "ONS-132",
-      "USG-244",
-      "FUT-161",
-      "TSB-91",
-      "INV-49",
-      "MH1-158",
-      "10E-317",
-      "CSP-29",
-      "USG-123",
-      "DKA-33",
-      "WAR-158",
-      "CMR-16",
-      "CMD-12",
-      "M12-204",
-      "KHM-128",
-      "VIS-55",
-      "CSP-4",
-      "DDE-18",
-      "PLS-40",
-      "PLC-68",
-      "LRW-203",
-      "INV-13",
-      "PCY-32",
-      "AFC-233",
-      "MRD-88",
-      "VOW-197",
-      "LRW-256",
-      "PLS-4",
-      "ONS-307",
-      "2X2-9",
-      "WTH-66",
-      "PLS-103",
-      "KTK-219",
-      "DTK-219",
-      "LGN-66",
-      "PLS-138",
-      "JUD-84",
-      "ODY-185",
-      "MIR-169",
-      "ODY-21",
-      "JOU-94",
-      "VIS-104",
-      "EXO-109",
-      "TMP-225",
-      "INV-186",
-      "M20-208",
-      "M15-94",
-      "USG-294",
-      "MMQ-78",
-      "TMP-61",
-      "RIX-100",
-      "TSP-107",
-      "POR-54",
-      "C13-243",
-      "NEM-129",
-      "DOM-18",
-      "CLB-17",
-      "C21-169",
-      "C17-211",
-      "GTC-91",
-      "10E-352",
-      "DOM-214",
-      "ELD-13",
-      "USG-255",
-      "ORI-177",
-      "BBD-35",
-      "M15-175",
-      "MH1-11",
-      "DST-123",
-      "NPH-61",
-      "RIX-130",
-      "SHM-162",
-      "INV-144",
-      "EMN-183",
-      "MBS-80",
-      "SNC-107",
-      "C21-218",
-      "ODY-24",
-      "MRD-282",
-      "AKH-94",
-      "BNG-74",
-      "THS-17",
-      "DOM-217",
-      "10E-20",
-      "MMQ-320",
-      "IMA-134",
-      "AER-154",
-      "MM2-48",
-      "EMA-92",
-      "A25-94",
-      "PLS-62",
-      "TMP-138",
-      "BOK-108",
-      "RNA-226a",
-      "WAR-247",
-      "STH-89",
-      "SOI-68",
-      "XLN-17",
-      "CMR-281",
-      "STH-137",
-      "TSR-72",
-      "C20-9",
-      "MH2-227",
-      "MBS-9",
-      "ELD-303",
-      "IKO-250",
-      "M11-20",
-      "ALA-17",
-      "ISD-61",
-      "5DN-135",
-      "MOR-128",
-      "APC-137",
-      "C17-64",
-      "ELD-20",
-      "5DN-52",
-      "PLS-82",
-      "5DN-75",
-      "MRD-42",
-      "M11-64",
-      "AER-38",
-      "MBS-83",
-      "DOM-243",
-      "MMQ-205",
-      "UDS-38",
-      "OGW-156",
-      "ALA-51",
-      "M15-157",
-      "MH1-57",
-      "MH2-302",
-      "USG-302",
-      "DOM-223",
-      "MRD-125",
-      "FUT-146",
-      "BFZ-178",
-      "BBD-241",
-      "NEO-114",
-      "EVE-39",
-      "PLS-85",
-      "SOM-187",
-      "LRW-33",
-      "EXO-42",
-      "INV-156",
-      "CHK-280",
-      "SHM-232",
-      "ULG-37",
-      "FRF-78",
-      "10E-220",
-      "DDE-11",
-      "PLS-11",
-      "EXO-93",
-      "KHM-186",
-      "C14-261",
-      "USG-305",
-      "MBS-50",
-      "C13-86",
-      "CSP-67",
-      "INV-116",
-      "MBS-52",
-      "ORI-157",
-      "DTK-112",
-      "ULG-18",
-      "INV-308",
-      "PLS-70",
-      "INV-24",
-      "THS-172",
-      "INV-309",
-      "APC-115",
-      "DOM-227",
-      "C14-209",
-      "DDE-7",
-      "C14-210",
-      "MBS-16",
-      "M11-191",
-      "INV-66",
-      "SOM-195",
-      "DST-29",
-      "P02-85",
-      "DIS-164",
-      "WAR-28",
-      "UDS-43",
-      "NPH-72",
-      "AKH-216a",
-      "AVR-151",
-      "M14-150",
-      "DST-31",
-      "USG-272",
-      "MMA-159",
-      "M14-216",
-      "ZEN-61",
-      "ISD-71",
-      "C21-101",
-      "INV-34",
-      "NPH-93",
-      "MIR-238",
-      "KHM-228",
-      "MH2-234",
-      "TMP-200",
-      "BBD-84",
-      "NEM-41",
-      "MH1-25",
-      "MRD-49",
-      "10E-229",
-      "STH-140",
-      "DBL-121",
-      "GPT-76",
-      "ONS-229",
-      "NPH-95",
-      "10E-178",
-      "USG-309",
-      "M15-231",
-      "M15-163",
-      "FUT-138",
-      "JUD-72",
-      "PLS-35",
-      "PCY-50",
-      "USG-100",
-      "IMA-34",
-      "2XM-296",
-      "M11-216",
-      "2XM-300",
-      "WTH-53",
-      "ONS-291",
-      "MIR-43",
-      "DOM-42",
-      "ORI-179",
-      "DOM-173",
-      "KHM-275",
-      "ARB-133",
-      "WTH-159",
-      "USG-329",
-      "ULG-134",
-      "ODY-108",
-      "WAR-224",
-      "SOM-212",
-      "MRD-267",
-      "CON-72",
-      "MMQ-314",
-      "CNS-109",
-      "C13-63",
-      "MMQ-168",
-      "MOR-137",
-      "KLD-172",
-      "ULG-95",
-      "C13-98",
-      "FUT-155",
-      "M21-43",
-      "UDS-99",
-      "ARB-16",
-      "POR-155",
-      "ULG-138",
-      "APC-36",
-      "USG-169",
-      "ONS-244",
-      "ROE-172",
-      "INV-135",
-      "BBD-249",
-      "DOM-249"
-     ]
-    },
     "foil_basic": {
      "set": "ltr",
      "numbers": [
@@ -2008,7 +1703,7 @@
    },
    "variants": [
     {
-     "weight": 600000000,
+     "weight": 800000000,
      "slots": [
       {
        "count": 1,
@@ -2096,95 +1791,6 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "basic": 10000000
-       }
-      },
-      {
-       "count": 3,
-       "wildcard": true,
-       "sheets": {
-        "common": 10000000
-       }
-      },
-      {
-       "count": 3,
-       "wildcard": true,
-       "sheets": {
-        "uncommon_0_ltr": 9875000,
-        "uncommon_1_ltr": 125000
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "common_uncommon_showcase_0_ltr": 4571429,
-        "common_uncommon_showcase_1_ltr": 5428571
-       }
-      },
-      {
-       "count": 2,
-       "wildcard": true,
-       "sheets": {
-        "wildcard_0_ltr": 6733333,
-        "wildcard_1_ltr": 266667,
-        "wildcard_2_ltr": 1542620,
-        "wildcard_3_ltr": 79114,
-        "wildcard_4_ltr": 774994,
-        "wildcard_5_ltr": 185505,
-        "wildcard_6_ltc": 63291,
-        "wildcard_7_ltr": 109791,
-        "wildcard_8_ltr": 124100,
-        "wildcard_9_ltr": 64583,
-        "wildcard_10_ltr": 21718,
-        "wildcard_11_ltr": 21875,
-        "wildcard_12_ltr": 12410
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "rare_mythic_0_ltr": 8571429,
-        "rare_mythic_1_ltr": 1428571
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "foil_with_showcase_0_ltr": 1333333,
-        "foil_with_showcase_1_ltr": 4488889,
-        "foil_with_showcase_2_ltr": 2203743,
-        "foil_with_showcase_3_ltr": 177778,
-        "foil_with_showcase_4_ltr": 94937,
-        "foil_with_showcase_5_ltr": 929992,
-        "foil_with_showcase_6_ltr": 265007,
-        "foil_with_showcase_7_ltc": 75949,
-        "foil_with_showcase_8_ltr": 131749,
-        "foil_with_showcase_9_ltr": 148920,
-        "foil_with_showcase_10_ltr": 77499,
-        "foil_with_showcase_11_ltr": 26061,
-        "foil_with_showcase_12_ltr": 31250,
-        "foil_with_showcase_13_ltr": 14892
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "the_list": 10000000
-       }
-      }
-     ]
-    },
-    {
-     "weight": 150000000,
-     "slots": [
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
         "foil_basic": 10000000
        }
       },
@@ -2256,95 +1862,6 @@
         "foil_with_showcase_11_ltr": 26061,
         "foil_with_showcase_12_ltr": 31250,
         "foil_with_showcase_13_ltr": 14892
-       }
-      }
-     ]
-    },
-    {
-     "weight": 50000000,
-     "slots": [
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "foil_basic": 10000000
-       }
-      },
-      {
-       "count": 3,
-       "wildcard": true,
-       "sheets": {
-        "common": 10000000
-       }
-      },
-      {
-       "count": 3,
-       "wildcard": true,
-       "sheets": {
-        "uncommon_0_ltr": 9875000,
-        "uncommon_1_ltr": 125000
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "common_uncommon_showcase_0_ltr": 4571429,
-        "common_uncommon_showcase_1_ltr": 5428571
-       }
-      },
-      {
-       "count": 2,
-       "wildcard": true,
-       "sheets": {
-        "wildcard_0_ltr": 6733333,
-        "wildcard_1_ltr": 266667,
-        "wildcard_2_ltr": 1542620,
-        "wildcard_3_ltr": 79114,
-        "wildcard_4_ltr": 774994,
-        "wildcard_5_ltr": 185505,
-        "wildcard_6_ltc": 63291,
-        "wildcard_7_ltr": 109791,
-        "wildcard_8_ltr": 124100,
-        "wildcard_9_ltr": 64583,
-        "wildcard_10_ltr": 21718,
-        "wildcard_11_ltr": 21875,
-        "wildcard_12_ltr": 12410
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "rare_mythic_0_ltr": 8571429,
-        "rare_mythic_1_ltr": 1428571
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "foil_with_showcase_0_ltr": 1333333,
-        "foil_with_showcase_1_ltr": 4488889,
-        "foil_with_showcase_2_ltr": 2203743,
-        "foil_with_showcase_3_ltr": 177778,
-        "foil_with_showcase_4_ltr": 94937,
-        "foil_with_showcase_5_ltr": 929992,
-        "foil_with_showcase_6_ltr": 265007,
-        "foil_with_showcase_7_ltc": 75949,
-        "foil_with_showcase_8_ltr": 131749,
-        "foil_with_showcase_9_ltr": 148920,
-        "foil_with_showcase_10_ltr": 77499,
-        "foil_with_showcase_11_ltr": 26061,
-        "foil_with_showcase_12_ltr": 31250,
-        "foil_with_showcase_13_ltr": 14892
-       }
-      },
-      {
-       "count": 1,
-       "wildcard": true,
-       "sheets": {
-        "the_list": 10000000
        }
       }
      ]
@@ -2353,7 +1870,7 @@
   },
   "collector": {
    "name": "Collector Booster",
-   "description": "15 cards, all special: 4 traditional foil commons (in about 0.7% of the boosters a Sol Ring replaces one), 2 traditional foil uncommons, a traditional foil full-art basic land, a traditional foil rare or mythic rare, an extended-art rare or mythic rare from the set and one from its commander decks, a showcase uncommon, a showcase rare or mythic rare, a borderless scene card, a traditional foil showcase or scene uncommon or common, and a traditional foil showcase rare or mythic rare (in 0.8% of the boosters a surge foil relic of the commander decks instead). The Sol Rings are the commander decks' printing (the special arts aren't in the card data), the serialized One Ring the set's serialized printing.",
+   "description": "15 cards, all special: 4 traditional foil commons (in about 0.7% of the boosters a Sol Ring replaces one), 2 traditional foil uncommons, a traditional foil full-art basic land, a traditional foil rare or mythic rare, an extended-art rare or mythic rare from the set and one from its commander decks, a showcase uncommon, a showcase rare or mythic rare, a borderless scene card, a traditional foil showcase or scene uncommon or common, and a traditional foil showcase rare or mythic rare (in 0.8% of the boosters a surge foil relic of the commander decks instead).",
    "sheets": {
     "foil_common": {
      "set": "ltr",
@@ -3189,43 +2706,46 @@
     "nonfoil_sol_ring_0_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
+      "410"
      ]
     },
     "nonfoil_sol_ring_1_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
+      "409"
      ]
     },
     "nonfoil_sol_ring_2_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
+      "408"
      ]
     },
     "serialized_sol_ring_0_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
-     ]
+      "410z"
+     ],
+     "foil": true
     },
     "serialized_sol_ring_1_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
-     ]
+      "409z"
+     ],
+     "foil": true
     },
     "serialized_sol_ring_2_ltc": {
      "set": "ltc",
      "numbers": [
-      "284"
-     ]
+      "408z"
+     ],
+     "foil": true
     },
     "the_one_ring": {
      "set": "ltr",
      "numbers": [
-      "748z"
+      "0"
      ],
      "foil": true
     }
