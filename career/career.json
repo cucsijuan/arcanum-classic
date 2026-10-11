@@ -26,7 +26,24 @@
   "practice": { "paidPerDay": 3, "win": 50, "loss": 20 },
 
   // Ante matches: each player antes a card at random from their deck; the winner keeps both.
-  "ante": { "perDay": 3 },
+  "ante": {
+    "perDay": 3,
+    // A regular plays only for a stake worth at least this share of the card they put up.
+    "minRatio": 0.8,
+    // What a regular says turning a stake down.
+    "declines": [
+      "Hey dude, that's not worth it.",
+      "Come on, you can do better than that.",
+      "For that? No way.",
+      "I'm not risking my card for that one.",
+      "Nice try. Put something real on the table.",
+      "Ha! Keep it, I'll pass.",
+      "That's a bulk card and you know it.",
+      "Not even close, buddy.",
+      "I've got three of those in my trade binder. Pass.",
+      "Make it worth my while and we'll talk."
+    ]
+  },
 
   // Reputation opens tougher regulars (each regular has a "tier").
   "tiers": [
