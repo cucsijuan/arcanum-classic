@@ -1,0 +1,24 @@
+{
+  "name": "Undead Augur",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Zombie",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever this creature or another Zombie you control dies, you draw a card and lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Thoughtcast",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ],
+    "text": "Draw two cards."
+  }
+}

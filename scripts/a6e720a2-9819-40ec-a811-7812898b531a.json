@@ -1,0 +1,25 @@
+{
+  "name": "Necrotic Hex",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 6,
+        "who": "everyone"
+      },
+      {
+        "tokens": 6,
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "colors": [
+            "B"
+          ],
+          "power": 2,
+          "toughness": 2
+        },
+        "tapped": true
+      }
+    ],
+    "text": "Each player sacrifices six creatures of their choice. You create six tapped 2/2 black Zombie creature tokens."
+  }
+}

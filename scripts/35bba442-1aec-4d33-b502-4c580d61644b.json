@@ -1,0 +1,19 @@
+{
+  "name": "Fateful Absence",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Clue",
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target creature or planeswalker. Its controller investigates."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Ghoulcaller Gisa",
+  "abilities": [
+    {
+      "cost": "{B}, {T}, sacrifice:creature",
+      "effects": [
+        {
+          "tokens": "sacrificedPower",
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{B}, {T}, Sacrifice another creature: Create X 2/2 black Zombie creature tokens, where X is the sacrificed creature's power."
+    }
+  ]
+}

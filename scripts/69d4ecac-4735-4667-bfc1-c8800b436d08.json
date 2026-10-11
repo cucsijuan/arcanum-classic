@@ -1,0 +1,32 @@
+{
+  "name": "Endless Ranks of the Dead",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": {
+            "halfDown": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Zombie"
+              }
+            }
+          },
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create X 2/2 black Zombie creature tokens, where X is half the number of Zombies you control, rounded down."
+    }
+  ]
+}

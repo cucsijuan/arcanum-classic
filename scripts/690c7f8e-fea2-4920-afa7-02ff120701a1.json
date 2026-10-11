@@ -1,0 +1,30 @@
+{
+  "name": "Spinerock Knoll",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "hideaway": 4
+        }
+      ],
+      "text": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)"
+    },
+    {
+      "cost": "{R}, {T}",
+      "effects": [
+        {
+          "if": {
+            "opponentDealtDamage": 7
+          },
+          "then": [
+            {
+              "playHiddenFree": true
+            }
+          ]
+        }
+      ],
+      "text": "{R}, {T}: You may play the exiled card without paying its mana cost if an opponent was dealt 7 or more damage this turn."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Undead Butler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "When this creature enters, mill three cards."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Exile this card?",
+          "effects": [
+            {
+              "exile": "self"
+            },
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ]
+                    },
+                    "text": "target creature card from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "bounce": "target"
+                  }
+                ],
+                "text": "Return target creature card from your graveyard to your hand."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may exile it. When you do, return target creature card from your graveyard to your hand."
+    }
+  ]
+}

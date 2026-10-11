@@ -1,0 +1,29 @@
+{
+  "name": "Fall from Favor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "attached"
+        },
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this Aura enters, tap enchanted creature and you become the monarch."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Doesn't untap"
+        ],
+        "while": {
+          "not": "attachedControllerIsMonarch"
+        }
+      },
+      "text": "Enchanted creature doesn't untap during its controller's untap step unless that player is the monarch."
+    }
+  ]
+}

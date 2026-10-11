@@ -1,0 +1,34 @@
+{
+  "name": "Razorlash Transmogrant",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "cost": "{4}{B}{B}, fromGraveyard",
+      "costReductionIf": {
+        "opponentControls": {
+          "types": [
+            "land"
+          ],
+          "notSupertype": "basic"
+        },
+        "count": 4
+      },
+      "costReductionAmount": 4,
+      "effects": [
+        {
+          "reanimate": "self",
+          "counters": 1
+        }
+      ],
+      "text": "{4}{B}{B}: Return this card from your graveyard to the battlefield with a +1/+1 counter on it. This ability costs {4} less to activate if an opponent controls four or more nonbasic lands."
+    }
+  ]
+}

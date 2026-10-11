@@ -1,0 +1,17 @@
+{
+  "name": "Temple of the False God",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "amount": 2,
+      "while": {
+        "control": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 5
+      }
+    }
+  ]
+}

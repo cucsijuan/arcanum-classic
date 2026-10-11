@@ -1,0 +1,25 @@
+{
+  "name": "Castle Locthwain",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Swamp"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{1}{B}{B}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": "handSize"
+        }
+      ],
+      "text": "{1}{B}{B}, {T}: Draw a card, then you lose life equal to the number of cards in your hand."
+    }
+  ]
+}

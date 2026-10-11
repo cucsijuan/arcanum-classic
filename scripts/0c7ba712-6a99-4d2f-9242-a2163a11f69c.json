@@ -1,0 +1,35 @@
+{
+  "name": "Padeem, Consul of Innovation",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Artifacts you control have hexproof."
+    },
+    {
+      "trigger": "upkeep",
+      "if": {
+        "greatestManaValue": {
+          "types": [
+            "artifact"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control the artifact with the greatest mana value or tied for the greatest mana value, draw a card."
+    }
+  ]
+}

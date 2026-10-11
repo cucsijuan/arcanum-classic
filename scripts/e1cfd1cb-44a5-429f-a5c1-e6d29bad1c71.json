@@ -1,0 +1,46 @@
+{
+  "name": "Kalitas, Traitor of Ghet",
+  "replaces": [
+    "OpponentsNontokenCreaturesExiledInsteadOfDying"
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureExiledInstead",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "If a nontoken creature an opponent controls would die, instead exile that card and create a 2/2 black Zombie creature token."
+    },
+    {
+      "cost": "{2}{B}, sacrifice:creature",
+      "sacrificeFilter": {
+        "anyOf": [
+          {
+            "subtype": "Vampire"
+          },
+          {
+            "subtype": "Zombie"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "{2}{B}, Sacrifice another Vampire or Zombie: Put two +1/+1 counters on Kalitas."
+    }
+  ]
+}

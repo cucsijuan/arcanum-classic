@@ -1,0 +1,29 @@
+{
+  "name": "Scrapshooter",
+  "gift": "card",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "giftPromised",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact or enchantment an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, if the gift was promised, destroy target artifact or enchantment an opponent controls."
+    }
+  ]
+}

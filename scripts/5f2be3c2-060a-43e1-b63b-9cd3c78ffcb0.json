@@ -1,0 +1,16 @@
+{
+  "name": "Ilysian Caryatid",
+  "extraMana": [
+    {
+      "types": "any",
+      "while": {
+        "not": "ferocious"
+      }
+    },
+    {
+      "types": "any",
+      "amount": 2,
+      "while": "ferocious"
+    }
+  ]
+}

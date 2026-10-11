@@ -1,0 +1,48 @@
+{
+  "name": "Tome of Legends",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "page",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "commander": true,
+        "ownedByYou": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "page"
+        }
+      ],
+      "text": "Whenever your commander enters, put a page counter on this artifact."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "commander": true,
+        "ownedByYou": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "page"
+        }
+      ],
+      "text": "Whenever your commander attacks, put a page counter on this artifact."
+    },
+    {
+      "cost": "{1}, {T}, removeCounters:1:page",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Remove a page counter from this artifact: Draw a card."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Diregraf Colossus",
+  "entersWithCounters": {
+    "graveyard": {
+      "types": [
+        "creature"
+      ],
+      "subtype": "Zombie"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "subtype": "Zombie"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever you cast a Zombie spell, create a tapped 2/2 black Zombie creature token."
+    }
+  ]
+}

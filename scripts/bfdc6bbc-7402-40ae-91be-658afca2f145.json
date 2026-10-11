@@ -1,0 +1,12 @@
+{
+  "name": "Spire Golem",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Island"
+    }
+  }
+}

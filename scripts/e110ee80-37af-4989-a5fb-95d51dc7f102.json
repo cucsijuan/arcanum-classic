@@ -1,0 +1,17 @@
+{
+  "name": "Shimmer Myr",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "You may cast artifact spells as though they had flash."
+    }
+  ]
+}

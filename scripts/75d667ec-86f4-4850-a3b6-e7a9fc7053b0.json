@@ -1,0 +1,21 @@
+{
+  "name": "Army of the Damned",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 13,
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "colors": [
+            "B"
+          ],
+          "power": 2,
+          "toughness": 2
+        },
+        "tapped": true
+      }
+    ],
+    "text": "Create thirteen tapped 2/2 black Zombie creature tokens."
+  }
+}

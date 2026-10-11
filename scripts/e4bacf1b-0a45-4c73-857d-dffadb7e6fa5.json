@@ -1,0 +1,30 @@
+{
+  "name": "Speaker of the Heavens",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "activateIf": {
+        "lifeAboveStarting": 7
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "colors": [
+              "W"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Create a 4/4 white Angel creature token with flying. Activate only if you have at least 7 life more than your starting life total and only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Skysovereign, Consul Flagship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "opponent",
+          "text": "target creature or planeswalker an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever Skysovereign enters, it deals 3 damage to target creature or planeswalker an opponent controls."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "opponent",
+          "text": "target creature or planeswalker an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever Skysovereign attacks, it deals 3 damage to target creature or planeswalker an opponent controls."
+    }
+  ]
+}

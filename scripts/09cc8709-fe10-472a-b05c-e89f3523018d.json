@@ -1,0 +1,67 @@
+{
+  "name": "Austere Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Destroy all artifacts.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all enchantments.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all creatures with mana value 3 or less.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "maxManaValue": 3
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all creatures with mana value 4 or greater.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "minManaValue": 4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

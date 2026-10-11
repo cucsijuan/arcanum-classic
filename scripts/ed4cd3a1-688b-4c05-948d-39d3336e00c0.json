@@ -1,0 +1,39 @@
+{
+  "name": "Oversold Cemetery",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "graveyard": 4,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you have four or more creature cards in your graveyard, you may return target creature card from your graveyard to your hand."
+    }
+  ]
+}

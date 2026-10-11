@@ -1,0 +1,24 @@
+{
+  "name": "Syphon Flesh",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "who": "opponents"
+      },
+      {
+        "tokens": "sacrificedThisWay",
+        "token": {
+          "name": "Zombie",
+          "types": "Creature — Zombie",
+          "colors": [
+            "B"
+          ],
+          "power": 2,
+          "toughness": 2
+        }
+      }
+    ],
+    "text": "Each other player sacrifices a creature of their choice. You create a 2/2 black Zombie creature token for each creature sacrificed this way."
+  }
+}

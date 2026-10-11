@@ -1,0 +1,41 @@
+{
+  "name": "Lord of the Accursed",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Zombie",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Zombies you control get +1/+1."
+    },
+    {
+      "cost": "{1}{B}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Zombie",
+              "controller": "any"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{1}{B}, {T}: All Zombies gain menace until end of turn."
+    }
+  ]
+}

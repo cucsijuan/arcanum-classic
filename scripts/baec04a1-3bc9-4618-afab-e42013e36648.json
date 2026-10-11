@@ -1,0 +1,15 @@
+{
+  "name": "Metropolis Reformer",
+  "givesHexproof": true,
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "gainLife": "triggerAmount"
+        }
+      ],
+      "text": "Whenever this creature is dealt damage, you gain that much life."
+    }
+  ]
+}

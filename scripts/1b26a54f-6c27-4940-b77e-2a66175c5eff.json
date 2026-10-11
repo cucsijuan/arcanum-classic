@@ -1,0 +1,28 @@
+{
+  "name": "Grasp of Fate",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true,
+          "perPlayer": true,
+          "text": "up to one target nonland permanent that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "eachTarget"
+        }
+      ],
+      "text": "When this enchantment enters, for each opponent, exile up to one target nonland permanent that player controls until this enchantment leaves the battlefield."
+    }
+  ]
+}

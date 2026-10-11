@@ -1,0 +1,29 @@
+{
+  "name": "Wight of Precinct Six",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "of": "opponents"
+          },
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "of": "opponents"
+          }
+        ]
+      },
+      "text": "This creature gets +1/+1 for each creature card in your opponents' graveyards."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Bonders' Enclave",
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "activateIf": "ferocious",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, {T}: Draw a card. Activate only if you control a creature with power 4 or greater."
+    }
+  ]
+}

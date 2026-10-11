@@ -1,0 +1,36 @@
+{
+  "name": "Angelic Field Marshal",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "control": {
+            "commander": true,
+            "ownedByYou": true
+          }
+        }
+      },
+      "text": "Lieutenant — As long as you control your commander, this creature gets +2/+2."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Vigilance"
+        ],
+        "while": {
+          "control": {
+            "commander": true,
+            "ownedByYou": true
+          }
+        }
+      },
+      "text": "Lieutenant — As long as you control your commander, creatures you control have vigilance."
+    }
+  ]
+}

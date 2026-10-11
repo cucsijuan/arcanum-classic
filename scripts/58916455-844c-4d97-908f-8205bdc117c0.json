@@ -1,0 +1,37 @@
+{
+  "name": "Exorcise",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4
+            }
+          ]
+        },
+        "text": "target artifact, enchantment, or creature with power 4 or greater"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target artifact, enchantment, or creature with power 4 or greater."
+  }
+}

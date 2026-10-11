@@ -1,0 +1,31 @@
+{
+  "name": "Graveborn Muse",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Zombie"
+            }
+          }
+        },
+        {
+          "loseLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Zombie"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, you draw X cards and you lose X life, where X is the number of Zombies you control."
+    }
+  ]
+}

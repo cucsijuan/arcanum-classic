@@ -1,0 +1,14 @@
+{
+  "name": "Hulking Raptor",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "addMana": "{G}{G}"
+        }
+      ],
+      "text": "At the beginning of your first main phase, add {G}{G}."
+    }
+  ]
+}

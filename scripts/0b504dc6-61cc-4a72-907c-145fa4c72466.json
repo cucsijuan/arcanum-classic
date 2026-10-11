@@ -1,0 +1,30 @@
+{
+  "name": "Seraph Sanctuary",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this land enters, you gain 1 life."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Angel",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever an Angel you control enters, you gain 1 life."
+    }
+  ]
+}

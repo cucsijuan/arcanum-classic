@@ -1,0 +1,34 @@
+{
+  "name": "Liliana's Mastery",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Zombie",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Zombies you control get +1/+1."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create two 2/2 black Zombie creature tokens."
+    }
+  ]
+}

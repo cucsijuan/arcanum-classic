@@ -1,0 +1,25 @@
+{
+  "name": "Whiptongue Hydra",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          }
+        },
+        {
+          "counters": "destroyedThisWay",
+          "what": "self"
+        }
+      ],
+      "text": "When this creature enters, destroy all creatures with flying. Put a +1/+1 counter on this creature for each creature destroyed this way."
+    }
+  ]
+}

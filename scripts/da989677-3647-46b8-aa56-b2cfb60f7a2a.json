@@ -1,0 +1,27 @@
+{
+  "name": "Pugnacious Hammerskull",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "when": {
+        "not": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dinosaur",
+            "other": true
+          }
+        }
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "stun"
+        }
+      ],
+      "text": "Whenever this creature attacks while you don't control another Dinosaur, put a stun counter on it."
+    }
+  ]
+}

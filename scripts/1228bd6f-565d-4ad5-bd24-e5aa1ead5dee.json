@@ -1,0 +1,33 @@
+{
+  "name": "Herald of War",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, put a +1/+1 counter on it."
+    },
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Angel"
+            },
+            {
+              "subtype": "Human"
+            }
+          ]
+        },
+        "amount": {
+          "counters": "+1/+1"
+        }
+      },
+      "text": "Angel spells and Human spells you cast cost {1} less to cast for each +1/+1 counter on this creature."
+    }
+  ]
+}

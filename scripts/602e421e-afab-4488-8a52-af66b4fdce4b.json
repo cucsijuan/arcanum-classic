@@ -1,0 +1,32 @@
+{
+  "name": "Noxious Ghoul",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Zombie",
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "notSubtype": "Zombie"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature or another Zombie enters, all non-Zombie creatures get -1/-1 until end of turn."
+    }
+  ]
+}

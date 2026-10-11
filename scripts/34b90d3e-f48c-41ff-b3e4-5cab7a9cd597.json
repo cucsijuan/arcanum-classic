@@ -1,0 +1,22 @@
+{
+  "name": "Secret Rendezvous",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "draw": 3
+          },
+          {
+            "draw": 3,
+            "who": "target"
+          }
+        ]
+      }
+    ],
+    "text": "You and target opponent each draw three cards."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Hazoret's Monument",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "colors": [
+            "R"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Red creature spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a creature spell, you may discard a card. If you do, draw a card."
+    }
+  ]
+}

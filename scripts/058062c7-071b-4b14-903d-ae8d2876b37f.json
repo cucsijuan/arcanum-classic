@@ -1,0 +1,25 @@
+{
+  "name": "Minion of the Mighty",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "attackingPower": 6
+      },
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dragon"
+          },
+          "one": true,
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Pack tactics — Whenever this creature attacks, if you attacked with creatures with total power 6 or greater this combat, you may put a Dragon creature card from your hand onto the battlefield tapped and attacking."
+    }
+  ]
+}

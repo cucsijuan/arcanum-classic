@@ -1,0 +1,20 @@
+{
+  "name": "Mana Geyser",
+  "spell": {
+    "effects": [
+      {
+        "addMana": "{R}",
+        "times": {
+          "count": {
+            "types": [
+              "land"
+            ],
+            "tapped": true,
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Add {R} for each tapped land your opponents control."
+  }
+}

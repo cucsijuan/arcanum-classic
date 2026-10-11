@@ -1,0 +1,20 @@
+{
+  "name": "Gray Merchant of Asphodel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": {
+            "devotion": "B"
+          },
+          "who": "opponents"
+        },
+        {
+          "gainLife": "lifeLostThisWay"
+        }
+      ],
+      "text": "When this creature enters, each opponent loses X life, where X is your devotion to black. You gain life equal to the life lost this way."
+    }
+  ]
+}

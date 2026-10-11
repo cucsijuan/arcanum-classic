@@ -1,0 +1,27 @@
+{
+  "name": "Angel of the Ruins",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "upTo": 2,
+          "text": "up to two target artifacts and/or enchantments"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "eachTarget"
+        }
+      ],
+      "text": "When this creature enters, exile up to two target artifacts and/or enchantments."
+    }
+  ]
+}

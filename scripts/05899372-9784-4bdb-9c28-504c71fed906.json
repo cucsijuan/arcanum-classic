@@ -1,0 +1,30 @@
+{
+  "name": "Witch's Clinic",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "commander": true
+          },
+          "text": "target commander"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Target commander gains lifelink until end of turn."
+    }
+  ]
+}

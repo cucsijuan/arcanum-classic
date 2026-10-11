@@ -1,0 +1,75 @@
+{
+  "name": "Emeria Shepherd",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "text": "target nonland permanent card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "subtype": "Plains"
+            }
+          },
+          "then": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Return it to the battlefield",
+                  "effects": [
+                    {
+                      "reanimate": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Return it to your hand",
+                  "effects": [
+                    {
+                      "bounce": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Don't return it",
+                  "effects": []
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "may": "Return it to your hand?",
+              "effects": [
+                {
+                  "bounce": "target"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may return target nonland permanent card from your graveyard to your hand. If that land is a Plains, you may return that nonland permanent card to the battlefield instead."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Broodstar",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "powerFrom": {
+    "count": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "artifact"
+      ]
+    }
+  }
+}

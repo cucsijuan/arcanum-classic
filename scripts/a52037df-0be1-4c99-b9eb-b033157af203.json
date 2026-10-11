@@ -1,0 +1,28 @@
+{
+  "name": "Magmaquake",
+  "spell": {
+    "effects": [
+      {
+        "damage": "X",
+        "to": {
+          "each": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ],
+                "without": "Flying"
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Magmaquake deals X damage to each creature without flying and each planeswalker."
+  }
+}

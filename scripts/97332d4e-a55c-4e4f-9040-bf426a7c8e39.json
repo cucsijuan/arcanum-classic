@@ -1,0 +1,28 @@
+{
+  "name": "Liliana's Reaver",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, that player discards a card and you create a tapped 2/2 black Zombie creature token."
+    }
+  ]
+}

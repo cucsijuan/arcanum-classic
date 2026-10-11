@@ -1,0 +1,25 @@
+{
+  "name": "Undead Warchief",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Zombie"
+        },
+        "amount": 1
+      },
+      "text": "Zombie spells you cast cost {1} less to cast."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Zombie",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Zombie creatures you control get +2/+1."
+    }
+  ]
+}

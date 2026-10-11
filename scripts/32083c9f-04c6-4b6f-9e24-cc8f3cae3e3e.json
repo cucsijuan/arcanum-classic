@@ -1,0 +1,19 @@
+{
+  "name": "Dungrove Elder",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Forest"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Forest"
+    }
+  }
+}

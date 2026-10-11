@@ -1,0 +1,17 @@
+{
+  "name": "Psychosis Crawler",
+  "powerFrom": "handSize",
+  "toughnessFrom": "handSize",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you draw a card, each opponent loses 1 life."
+    }
+  ]
+}

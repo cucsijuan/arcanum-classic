@@ -1,0 +1,15 @@
+{
+  "name": "All Is Dust",
+  "spell": {
+    "effects": [
+      {
+        "sacrificeIt": {
+          "each": {
+            "colorless": false
+          }
+        }
+      }
+    ],
+    "text": "Each player sacrifices all permanents they control that are one or more colors."
+  }
+}

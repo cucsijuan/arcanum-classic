@@ -1,0 +1,19 @@
+{
+  "name": "Gravecrawler",
+  "graveyardCastIf": {
+    "control": {
+      "subtype": "Zombie"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    }
+  ]
+}

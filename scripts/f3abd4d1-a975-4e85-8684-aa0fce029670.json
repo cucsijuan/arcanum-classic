@@ -1,0 +1,41 @@
+{
+  "name": "Grave Titan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever this creature enters, create two 2/2 black Zombie creature tokens."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, create two 2/2 black Zombie creature tokens."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Consuming Corruption",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "damage": {
+          "count": {
+            "types": [
+              "land"
+            ],
+            "subtype": "Swamp"
+          }
+        },
+        "to": "target"
+      },
+      {
+        "gainLife": {
+          "count": {
+            "types": [
+              "land"
+            ],
+            "subtype": "Swamp"
+          }
+        }
+      }
+    ],
+    "text": "Consuming Corruption deals X damage to target creature or planeswalker and you gain X life, where X is the number of Swamps you control."
+  }
+}

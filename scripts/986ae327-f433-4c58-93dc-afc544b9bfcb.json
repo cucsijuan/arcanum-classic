@@ -1,0 +1,23 @@
+{
+  "name": "Steel Overseer",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "allTypes": [
+                "artifact",
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{T}: Put a +1/+1 counter on each artifact creature you control."
+    }
+  ]
+}

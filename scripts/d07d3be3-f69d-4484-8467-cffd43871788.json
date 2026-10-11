@@ -1,0 +1,27 @@
+{
+  "name": "Myr Retriever",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "other": true
+          },
+          "text": "another target artifact card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature dies, return another target artifact card from your graveyard to your hand."
+    }
+  ]
+}

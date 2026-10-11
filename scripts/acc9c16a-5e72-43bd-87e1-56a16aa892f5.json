@@ -1,0 +1,48 @@
+{
+  "name": "Haven of the Spirit Dragon",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Dragon"
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ],
+                "subtype": "Ugin"
+              }
+            ]
+          },
+          "text": "target Dragon creature card or Ugin planeswalker card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this land: Return target Dragon creature card or Ugin planeswalker card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Nevinyrral's Disk",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{1}, {T}: Destroy all artifacts, creatures, and enchantments."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Mire Triton",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 2
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters, mill two cards and you gain 2 life."
+    }
+  ]
+}

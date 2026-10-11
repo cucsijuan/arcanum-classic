@@ -1,0 +1,14 @@
+{
+  "name": "Ambition's Cost",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "loseLife": 3
+      }
+    ],
+    "text": "You draw three cards and lose 3 life."
+  }
+}

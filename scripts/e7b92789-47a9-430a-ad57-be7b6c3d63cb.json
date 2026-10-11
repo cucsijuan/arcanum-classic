@@ -1,0 +1,14 @@
+{
+  "name": "Starnheim Aspirant",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Angel"
+        },
+        "amount": 2
+      },
+      "text": "Angel spells you cast cost {2} less to cast."
+    }
+  ]
+}

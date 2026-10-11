@@ -1,0 +1,12 @@
+{
+  "name": "Seraph of the Sword",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "preventDamage": "combat"
+      },
+      "text": "Prevent all combat damage that would be dealt to this creature."
+    }
+  ]
+}

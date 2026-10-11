@@ -1,0 +1,21 @@
+{
+  "name": "Sunblast Angel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "tapped": true
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, destroy all tapped creatures."
+    }
+  ]
+}

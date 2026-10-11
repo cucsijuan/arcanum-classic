@@ -1,0 +1,20 @@
+{
+  "name": "Tamiyo's Logbook",
+  "abilities": [
+    {
+      "cost": "{5}{U}, {T}",
+      "costReductionPer": {
+        "types": [
+          "artifact"
+        ],
+        "other": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{5}{U}, {T}: Draw a card. This ability costs {1} less to activate for each other artifact you control."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Josu Vess, Lich Knight",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "tokens": 8,
+          "token": {
+            "name": "Zombie Knight",
+            "types": "Creature — Zombie Knight",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Menace"
+            ]
+          }
+        }
+      ],
+      "text": "When Josu Vess enters, if he was kicked, create eight 2/2 black Zombie Knight creature tokens with menace."
+    }
+  ]
+}

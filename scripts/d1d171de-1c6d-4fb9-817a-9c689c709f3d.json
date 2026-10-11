@@ -1,0 +1,28 @@
+{
+  "name": "Shamanic Revelation",
+  "spell": {
+    "effects": [
+      {
+        "draw": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "gainLife": {
+          "count": {
+            "types": [
+              "creature"
+            ],
+            "minPower": 4
+          },
+          "times": 4
+        }
+      }
+    ],
+    "text": "Draw a card for each creature you control. Ferocious — You gain 4 life for each creature you control with power 4 or greater."
+  }
+}

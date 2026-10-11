@@ -1,0 +1,20 @@
+{
+  "name": "Research Thief",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an artifact creature you control deals combat damage to a player, draw a card."
+    }
+  ]
+}

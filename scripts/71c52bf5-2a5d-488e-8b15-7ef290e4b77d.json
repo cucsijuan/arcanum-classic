@@ -1,0 +1,14 @@
+{
+  "name": "War Room",
+  "abilities": [
+    {
+      "cost": "{3}, {T}, life:commanderColors",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, {T}, Pay life equal to the number of colors in your commanders' color identity: Draw a card."
+    }
+  ]
+}

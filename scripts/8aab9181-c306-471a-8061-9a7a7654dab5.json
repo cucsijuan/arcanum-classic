@@ -1,0 +1,24 @@
+{
+  "name": "Thopter Fabricator",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a 1/1 colorless Thopter artifact creature token with flying."
+    }
+  ]
+}

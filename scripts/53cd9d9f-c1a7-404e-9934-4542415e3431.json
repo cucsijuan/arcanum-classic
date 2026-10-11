@@ -1,0 +1,22 @@
+{
+  "name": "Thraben Watcher",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "token": false
+        },
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Other nontoken creatures you control get +1/+1 and have vigilance."
+    }
+  ]
+}

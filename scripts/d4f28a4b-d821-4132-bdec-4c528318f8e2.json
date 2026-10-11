@@ -1,0 +1,31 @@
+{
+  "name": "Hellkite Charger",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Pay {5}{R}{R} for an additional combat phase?",
+          "mana": "{5}{R}{R}",
+          "effects": [
+            {
+              "untap": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "attacking": true,
+                  "controller": "any"
+                }
+              }
+            },
+            {
+              "additionalCombat": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may pay {5}{R}{R}. If you do, untap all attacking creatures and after this phase, there is an additional combat phase."
+    }
+  ]
+}

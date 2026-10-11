@@ -1,0 +1,57 @@
+{
+  "name": "Court of Grace",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this enchantment enters, you become the monarch."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "if": "monarch",
+          "then": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Angel",
+                "types": "Creature — Angel",
+                "colors": [
+                  "W"
+                ],
+                "power": 4,
+                "toughness": 4,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ],
+          "else": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 1/1 white Spirit creature token with flying. If you're the monarch, create a 4/4 white Angel creature token with flying instead."
+    }
+  ]
+}

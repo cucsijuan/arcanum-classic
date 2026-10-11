@@ -1,0 +1,17 @@
+{
+  "name": "Challenger Troll",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "minPower": 4
+        },
+        "keywords": [
+          "Can't be blocked by more than one creature"
+        ]
+      },
+      "text": "Each creature you control with power 4 or greater can't be blocked by more than one creature."
+    }
+  ]
+}

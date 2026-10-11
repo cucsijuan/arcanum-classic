@@ -1,0 +1,32 @@
+{
+  "name": "Merchant of Truth",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "token": false
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, investigate."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Clue",
+        "keywords": [
+          "Exalted"
+        ]
+      },
+      "text": "Clues you control have exalted."
+    }
+  ]
+}

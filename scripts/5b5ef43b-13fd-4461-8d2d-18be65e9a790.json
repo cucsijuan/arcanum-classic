@@ -1,0 +1,23 @@
+{
+  "name": "Ichor Wellspring",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Soulless One",
+  "powerFrom": {
+    "sum": [
+      {
+        "count": {
+          "subtype": "Zombie",
+          "controller": "any"
+        }
+      },
+      {
+        "graveyard": {
+          "subtype": "Zombie"
+        },
+        "of": "everyone"
+      }
+    ]
+  },
+  "toughnessFrom": {
+    "sum": [
+      {
+        "count": {
+          "subtype": "Zombie",
+          "controller": "any"
+        }
+      },
+      {
+        "graveyard": {
+          "subtype": "Zombie"
+        },
+        "of": "everyone"
+      }
+    ]
+  }
+}

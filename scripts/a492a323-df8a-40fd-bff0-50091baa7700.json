@@ -1,0 +1,32 @@
+{
+  "name": "Kenrith's Transformation",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "setTypes": [
+          "creature"
+        ],
+        "setSubtypes": [
+          "Elk"
+        ],
+        "setColors": [
+          "G"
+        ],
+        "setPower": 3,
+        "setToughness": 3
+      },
+      "text": "Enchanted creature loses all abilities and is a green Elk creature with base power and toughness 3/3."
+    }
+  ]
+}

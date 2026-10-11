@@ -1,0 +1,41 @@
+{
+  "name": "Cryptbreaker",
+  "abilities": [
+    {
+      "cost": "{1}{B}, {T}, discard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{1}{B}, {T}, Discard a card: Create a 2/2 black Zombie creature token."
+    },
+    {
+      "cost": "tapPermanents:3:creature",
+      "tapFilter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Zombie"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Tap three untapped Zombies you control: You draw a card and lose 1 life."
+    }
+  ]
+}

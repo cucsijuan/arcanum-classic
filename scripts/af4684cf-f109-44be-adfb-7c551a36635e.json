@@ -1,0 +1,49 @@
+{
+  "name": "Bishop of Wings",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Angel",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 4
+        }
+      ],
+      "text": "Whenever an Angel you control enters, you gain 4 life."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Angel",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever an Angel you control dies, create a 1/1 white Spirit creature token with flying."
+    }
+  ]
+}

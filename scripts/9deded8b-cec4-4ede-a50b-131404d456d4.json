@@ -1,0 +1,22 @@
+{
+  "name": "Thought Monitor",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this creature enters, draw two cards."
+    }
+  ]
+}

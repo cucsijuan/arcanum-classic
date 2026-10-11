@@ -1,0 +1,43 @@
+{
+  "name": "Witch's Cottage",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Swamp",
+      "other": true
+    },
+    "count": 3
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "when": "untapped",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Put it on top of your library?",
+          "effects": [
+            {
+              "toLibrary": "target",
+              "top": true
+            }
+          ]
+        }
+      ],
+      "text": "When this land enters untapped, you may put target creature card from your graveyard on top of your library."
+    }
+  ]
+}

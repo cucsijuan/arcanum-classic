@@ -1,0 +1,14 @@
+{
+  "name": "Dragonspeaker Shaman",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Dragon"
+        },
+        "amount": 2
+      },
+      "text": "Dragon spells you cast cost {2} less to cast."
+    }
+  ]
+}

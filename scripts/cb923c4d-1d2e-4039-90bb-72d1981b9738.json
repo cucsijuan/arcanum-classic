@@ -1,0 +1,22 @@
+{
+  "name": "Endless Atlas",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "activateIf": {
+        "sameName": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 3
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}: Draw a card. Activate only if you control three or more lands with the same name."
+    }
+  ]
+}

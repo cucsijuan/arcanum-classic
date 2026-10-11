@@ -1,0 +1,31 @@
+{
+  "name": "Marchesa's Decree",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When this enchantment enters, you become the monarch."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attackingYou": true
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature attacks you or a planeswalker you control, that creature's controller loses 1 life."
+    }
+  ]
+}

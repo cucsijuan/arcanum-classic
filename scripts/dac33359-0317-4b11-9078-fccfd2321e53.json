@@ -1,0 +1,11 @@
+{
+  "name": "Memory Guardian",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  }
+}

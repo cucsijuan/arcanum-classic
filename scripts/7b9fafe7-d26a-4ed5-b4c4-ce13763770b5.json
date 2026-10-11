@@ -1,0 +1,21 @@
+{
+  "name": "Geier Reach Sanitarium",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Each player draws a card, then discards a card."
+    }
+  ]
+}

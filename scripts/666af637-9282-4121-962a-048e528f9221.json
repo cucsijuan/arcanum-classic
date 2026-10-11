@@ -1,0 +1,6 @@
+{
+  "name": "Steel Leaf Champion",
+  "cantBeBlockedBy": {
+    "maxPower": 2
+  }
+}

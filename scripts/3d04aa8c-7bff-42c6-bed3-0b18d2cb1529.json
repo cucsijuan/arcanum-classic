@@ -1,0 +1,40 @@
+{
+  "name": "Nogi, Draco-Zealot",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Dragon"
+        },
+        "amount": 1
+      },
+      "text": "Dragon spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "attacks",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "subtype": "Dragon"
+        },
+        "count": 3
+      },
+      "effects": [
+        {
+          "become": "self",
+          "power": 5,
+          "toughness": 5,
+          "setSubtypes": [
+            "Dragon"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever Nogi attacks, if you control three or more Dragons, until end of turn, Nogi becomes a Dragon with base power and toughness 5/5 and gains flying."
+    }
+  ]
+}

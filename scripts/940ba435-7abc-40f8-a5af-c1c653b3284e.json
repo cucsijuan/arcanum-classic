@@ -1,0 +1,37 @@
+{
+  "name": "Bontu's Monument",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "colors": [
+            "B"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Black creature spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you cast a creature spell, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

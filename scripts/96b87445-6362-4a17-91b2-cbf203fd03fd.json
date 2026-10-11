@@ -1,0 +1,16 @@
+{
+  "name": "Etherium Sculptor",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Artifact spells you cast cost {1} less to cast."
+    }
+  ]
+}

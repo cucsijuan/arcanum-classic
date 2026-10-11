@@ -1,0 +1,37 @@
+{
+  "name": "Mutilate",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Swamp"
+            },
+            "times": -1
+          },
+          {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Swamp"
+            },
+            "times": -1
+          }
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "All creatures get -1/-1 until end of turn for each Swamp you control."
+  }
+}

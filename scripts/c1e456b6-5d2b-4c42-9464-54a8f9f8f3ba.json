@@ -1,0 +1,10 @@
+{
+  "name": "Whisperer of the Wilds",
+  "extraMana": [
+    {
+      "types": "{G}",
+      "amount": 2,
+      "while": "ferocious"
+    }
+  ]
+}

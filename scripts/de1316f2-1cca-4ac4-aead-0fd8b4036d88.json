@@ -1,0 +1,31 @@
+{
+  "name": "Shimmer Dragon",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Hexproof"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "count": 4
+        }
+      },
+      "text": "As long as you control four or more artifacts, this creature has hexproof."
+    },
+    {
+      "cost": "tapPermanents:2:artifact",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Tap two untapped artifacts you control: Draw a card."
+    }
+  ]
+}

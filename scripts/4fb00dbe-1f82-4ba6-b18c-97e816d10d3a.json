@@ -1,0 +1,19 @@
+{
+  "name": "Patchwork Banner",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +1/+1."
+    }
+  ]
+}

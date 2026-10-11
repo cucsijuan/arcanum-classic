@@ -1,0 +1,18 @@
+{
+  "name": "Unexpected Windfall",
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "tokens": 2,
+        "token": "Treasure"
+      }
+    ],
+    "text": "Draw two cards and create two Treasure tokens."
+  }
+}

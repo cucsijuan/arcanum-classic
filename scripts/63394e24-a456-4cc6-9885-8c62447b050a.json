@@ -1,0 +1,40 @@
+{
+  "name": "Tyrant's Familiar",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "control": {
+            "commander": true,
+            "ownedByYou": true
+          }
+        },
+        "grants": [
+          {
+            "trigger": "attacks",
+            "targets": [
+              {
+                "kind": "creature",
+                "controlledByDefendingPlayer": true,
+                "text": "target creature defending player controls"
+              }
+            ],
+            "effects": [
+              {
+                "damage": 7,
+                "to": "target"
+              }
+            ],
+            "text": "Whenever this creature attacks, it deals 7 damage to target creature defending player controls."
+          }
+        ]
+      },
+      "text": "Lieutenant — As long as you control your commander, this creature gets +2/+2 and has \"Whenever this creature attacks, it deals 7 damage to target creature defending player controls.\""
+    }
+  ]
+}

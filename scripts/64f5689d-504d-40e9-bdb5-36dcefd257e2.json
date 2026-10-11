@@ -1,0 +1,41 @@
+{
+  "name": "Linvala, the Preserver",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "opponentHasMore": "life"
+      },
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "When Linvala enters, if an opponent has more life than you, you gain 5 life."
+    },
+    {
+      "trigger": "enters",
+      "if": {
+        "opponentHasMore": "creatures"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "colors": [
+              "W"
+            ],
+            "power": 3,
+            "toughness": 3,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When Linvala enters, if an opponent controls more creatures than you, create a 3/3 white Angel creature token with flying."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Atsushi, the Blazing Sky",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "text": "When Atsushi dies, choose one —",
+      "modes": [
+        {
+          "text": "Exile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+          "effects": [
+            {
+              "exileTopPlayable": 2,
+              "chooseOne": false,
+              "untilNextTurn": true
+            }
+          ]
+        },
+        {
+          "text": "Create three Treasure tokens.",
+          "effects": [
+            {
+              "tokens": 3,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

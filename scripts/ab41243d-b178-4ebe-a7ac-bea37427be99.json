@@ -1,0 +1,22 @@
+{
+  "name": "Wojek Investigator",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "repeat": {
+            "opponentsWithMore": "cards"
+          },
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Clue"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, investigate once for each opponent who has more cards in hand than you."
+    }
+  ]
+}

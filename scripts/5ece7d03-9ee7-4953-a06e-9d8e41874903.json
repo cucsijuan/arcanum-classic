@@ -1,0 +1,14 @@
+{
+  "name": "Scavenger Grounds",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrificeAny:Desert",
+      "effects": [
+        {
+          "exileGraveyard": "everyone"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice a Desert: Exile all graveyards."
+    }
+  ]
+}
