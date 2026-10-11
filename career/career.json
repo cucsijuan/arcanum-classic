@@ -2,6 +2,9 @@
   // The career mode's store: prices in cents.
   "storeName": "Corner Cards & Games",
   "boosterPrice": 450,
+  // The sets' other boosters by kind; a kind without a price isn't sold (the third set's set booster waits for its
+  // "The List" cards).
+  "boosterPrices": { "collector": 2500 },
   "preconPrice": 2000,
   "sellRate": 0.5,
   "values": { "common": 10, "uncommon": 25, "rare": 150, "mythic": 500, "special": 100, "bonus": 300 },
