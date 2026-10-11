@@ -124,7 +124,9 @@
     { "deck": "hob-br" }, { "deck": "hob-gw" }, { "deck": "hob-rg" }, { "deck": "hob-ub" }, { "deck": "hob-wu" },
     { "deck": "m10-br" }, { "deck": "m10-gw" }, { "deck": "m10-rg" }, { "deck": "m10-ub" }, { "deck": "m10-wu" },
     { "deck": "ltc-elven-council", "price": 4500 }, { "deck": "ltc-food-and-fellowship", "price": 4500 },
-    { "deck": "ltc-hosts-of-mordor", "price": 4500 }, { "deck": "ltc-riders-of-rohan", "price": 4500 }
+    { "deck": "ltc-hosts-of-mordor", "price": 4500 }, { "deck": "ltc-riders-of-rohan", "price": 4500 },
+    { "deck": "fdc-calling-all-angels", "price": 2200 }, { "deck": "fdc-keen-engineering", "price": 2200 }, { "deck": "fdc-wretched-ranks", "price": 2200 },
+    { "deck": "fdc-reign-of-dragons", "price": 2200 }, { "deck": "fdc-tramplesaurus-rex", "price": 2200 }
   ],
 
   // The store's calendar (UTC days). "when": a weekday, or "lastSunday" (the last Sunday of the month). Kinds: draft,
@@ -147,6 +149,7 @@
       "id": "commander-night", "name": "Commander night", "when": "Friday", "kind": "commander",
       "players": 4, "rounds": 2, "entry": 500,
       "decks": ["ltc-elven-council", "ltc-food-and-fellowship", "ltc-hosts-of-mordor", "ltc-riders-of-rohan",
+                "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
                 "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
       "prizes": [
         { "wins": 2, "boosters": 3, "reputation": 8 },

@@ -1,0 +1,27 @@
+{
+  "name": "Misleading Signpost",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "when": {
+        "step": "DeclareAttackers"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "any",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "reselectAttack": "target"
+        }
+      ],
+      "text": "When this artifact enters during the declare attackers step, you may reselect which player or permanent target attacking creature is attacking."
+    }
+  ]
+}

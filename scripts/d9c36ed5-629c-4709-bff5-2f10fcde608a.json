@@ -1,0 +1,32 @@
+{
+  "name": "Orb of Dragonkind",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addManaCombination": 2,
+          "onlyFor": {
+            "subtype": "Dragon"
+          },
+          "abilitiesToo": true
+        }
+      ],
+      "text": "{1}, {T}: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells or activate abilities of Dragons."
+    },
+    {
+      "cost": "{R}, {T}, sacrifice",
+      "effects": [
+        {
+          "lookAtTop": 7,
+          "filter": {
+            "subtype": "Dragon"
+          },
+          "take": 1,
+          "reveal": true
+        }
+      ],
+      "text": "{R}, {T}, Sacrifice this artifact: Look at the top seven cards of your library. You may reveal a Dragon card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

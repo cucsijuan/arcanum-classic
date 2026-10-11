@@ -1,0 +1,33 @@
+{
+  "name": "Forsaken Monument",
+  "replaces": [
+    "ExtraColorlessWhenTappedForColorless"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "colorless": true
+        },
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Colorless creatures you control get +2/+2."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colorless": true
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever you cast a colorless spell, you gain 2 life."
+    }
+  ]
+}

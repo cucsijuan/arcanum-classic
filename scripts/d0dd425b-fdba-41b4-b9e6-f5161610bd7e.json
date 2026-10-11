@@ -1,0 +1,19 @@
+{
+  "name": "Ezuri's Predation",
+  "spell": {
+    "effects": [
+      {
+        "tokensFightOpponentsCreatures": {
+          "name": "Phyrexian Beast",
+          "types": "Creature — Phyrexian Beast",
+          "colors": [
+            "G"
+          ],
+          "power": 4,
+          "toughness": 4
+        }
+      }
+    ],
+    "text": "For each creature your opponents control, create a 4/4 green Phyrexian Beast creature token. Each of those tokens fights a different one of those creatures."
+  }
+}

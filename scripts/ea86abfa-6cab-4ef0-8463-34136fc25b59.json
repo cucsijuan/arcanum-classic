@@ -1,0 +1,39 @@
+{
+  "name": "Duplicant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "token": false
+          },
+          "text": "target nontoken creature"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exile target nontoken creature?",
+          "effects": [
+            {
+              "exile": "target",
+              "linked": true
+            }
+          ]
+        }
+      ],
+      "text": "Imprint — When this creature enters, you may exile target nontoken creature."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": "creatureCardExiledWithThis",
+        "setPower": "lastExiledCreaturePower",
+        "setToughness": "lastExiledCreatureToughness",
+        "creatureTypesOfLastExiled": true
+      },
+      "text": "As long as a card exiled with this creature is a creature card, this creature has the power, toughness, and creature types of the last creature card exiled with it. It's still a Shapeshifter."
+    }
+  ]
+}

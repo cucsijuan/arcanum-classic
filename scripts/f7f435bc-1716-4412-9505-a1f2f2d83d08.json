@@ -1,0 +1,43 @@
+{
+  "name": "Dragonhawk, Fate's Tempest",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileTopPlayable": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4
+            }
+          },
+          "chooseOne": false,
+          "untilYourNextEndStep": true,
+          "damagePerStillExiled": 2
+        }
+      ],
+      "text": "Whenever Dragonhawk enters, exile the top X cards of your library, where X is the number of creatures you control with power 4 or greater. You may play those cards until your next end step. At the beginning of your next end step, Dragonhawk deals 2 damage to each opponent for each of those cards that are still exiled."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "exileTopPlayable": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4
+            }
+          },
+          "chooseOne": false,
+          "untilYourNextEndStep": true,
+          "damagePerStillExiled": 2
+        }
+      ],
+      "text": "Whenever Dragonhawk attacks, exile the top X cards of your library, where X is the number of creatures you control with power 4 or greater. You may play those cards until your next end step. At the beginning of your next end step, Dragonhawk deals 2 damage to each opponent for each of those cards that are still exiled."
+    }
+  ]
+}

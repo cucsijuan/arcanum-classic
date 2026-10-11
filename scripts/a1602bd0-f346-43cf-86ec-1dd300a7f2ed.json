@@ -1,0 +1,13 @@
+{
+  "name": "Thundermane Dragon",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "castFromLibraryTop": {
+    "types": [
+      "creature"
+    ],
+    "minPower": 4
+  },
+  "castFromLibraryTopHaste": true
+}

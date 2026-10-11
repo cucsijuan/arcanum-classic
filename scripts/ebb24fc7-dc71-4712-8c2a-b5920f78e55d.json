@@ -1,0 +1,43 @@
+{
+  "name": "Outpost Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Khans",
+    "Dragons"
+  ],
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "chosenOption": "Khans"
+      },
+      "effects": [
+        {
+          "exileTopPlayable": 1
+        }
+      ],
+      "text": "Khans — At the beginning of your upkeep, exile the top card of your library. Until end of turn, you may play that card."
+    },
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "when": {
+        "chosenOption": "Dragons"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Dragons — Whenever a creature you control leaves the battlefield, this enchantment deals 1 damage to any target."
+    }
+  ]
+}

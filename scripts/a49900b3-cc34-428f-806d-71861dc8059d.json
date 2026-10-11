@@ -1,0 +1,16 @@
+{
+  "name": "Hit the Mother Lode",
+  "spell": {
+    "effects": [
+      {
+        "discover": 10
+      },
+      {
+        "tokens": "discoverShortfall",
+        "token": "Treasure",
+        "tapped": true
+      }
+    ],
+    "text": "Discover 10. If the discovered card's mana value is less than 10, create a number of tapped Treasure tokens equal to the difference."
+  }
+}

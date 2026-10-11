@@ -1,0 +1,74 @@
+{
+  "name": "The Elder Dragon War",
+  "readAhead": true,
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "damage": 2,
+              "to": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            },
+            {
+              "damage": 2,
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "I — This Saga deals 2 damage to each creature and each opponent."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "discardAnyNumber": true
+        },
+        {
+          "draw": {
+            "discarded": {}
+          }
+        }
+      ],
+      "text": "II — Discard any number of cards, then draw that many cards."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dragon",
+            "types": "Creature — Dragon",
+            "colors": [
+              "R"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "III — Create a 4/4 red Dragon creature token with flying."
+    }
+  ]
+}
