@@ -4,11 +4,14 @@
  "released": "2009-07-17",
  "pack": {
   "image": "https://tcgplayer-cdn.tcgplayer.com/product/32530_in_1000x1000.jpg",
-  "seals": [0.05, 0.05]
+  "seals": [
+   0.05,
+   0.05
+  ]
  },
  "booster": {
   "name": "Booster",
-  "description": "15 cards: 10 commons, 3 uncommons, a rare (87.5%) or mythic rare (12.5%), and a basic land.",
+  "description": "15 cards: 10 commons (a traditional foil of any rarity replaces a common in 22.5% of the boosters), 3 uncommons, a rare (87.5%) or mythic rare (12.5%), and a basic land.",
   "sheets": {
    "common": {
     "rarity": "common",
@@ -33,12 +36,56 @@
    "basic": {
     "booster": true,
     "basic": true
+   },
+   "foilCommon": {
+    "rarity": "common",
+    "booster": true,
+    "basic": false,
+    "foil": true
+   },
+   "foilUncommon": {
+    "rarity": "uncommon",
+    "booster": true,
+    "foil": true
+   },
+   "foilRare": {
+    "rarity": "rare",
+    "booster": true,
+    "foil": true
+   },
+   "foilMythic": {
+    "rarity": "mythic",
+    "booster": true,
+    "foil": true
+   },
+   "foilBasic": {
+    "basic": true,
+    "booster": true,
+    "foil": true
    }
   },
   "slots": [
    {
-    "count": 10,
+    "count": 9,
     "sheet": "common"
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "common": 775000,
+     "foilCommon": 112725,
+     "foilUncommon": 56250,
+     "foilRare": 29475,
+     "foilMythic": 4275,
+     "foilBasic": 22275
+    },
+    "repeatSheets": [
+     "foilCommon",
+     "foilUncommon",
+     "foilRare",
+     "foilMythic",
+     "foilBasic"
+    ]
    },
    {
     "count": 3,

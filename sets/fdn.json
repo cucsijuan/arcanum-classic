@@ -4,11 +4,14 @@
  "released": "2024-11-15",
  "pack": {
   "image": "https://tcgplayer-cdn.tcgplayer.com/product/562116_in_1000x1000.jpg",
-  "seals": [0.06, 0.06]
+  "seals": [
+   0.06,
+   0.06
+  ]
  },
  "booster": {
   "name": "Play Booster",
-  "description": "14 cards: 6 commons, a common or (1.5%) a special guest, 3 uncommons, a rare or mythic rare, a land and two wildcards of any rarity.",
+  "description": "14 cards: 6 commons, a common or (1.5%) a special guest, 3 uncommons, a rare or mythic rare, a land (traditional foil in 20% of the boosters), a wildcard of any rarity and a traditional foil of any rarity.",
   "sheets": {
    "common": {
     "rarity": "common",
@@ -71,6 +74,59 @@
      "82",
      "83"
     ]
+   },
+   "foil_common": {
+    "rarity": "common",
+    "booster": true,
+    "basic": false,
+    "exclude": [
+     "Bloodfell Caves",
+     "Blossoming Sands",
+     "Dismal Backwater",
+     "Jungle Hollow",
+     "Rugged Highlands",
+     "Scoured Barrens",
+     "Swiftwater Cliffs",
+     "Thornwood Falls",
+     "Tranquil Cove",
+     "Wind-Scarred Crag"
+    ],
+    "foil": true
+   },
+   "foil_uncommon": {
+    "rarity": "uncommon",
+    "booster": true,
+    "foil": true
+   },
+   "foil_rare": {
+    "rarity": "rare",
+    "booster": true,
+    "foil": true
+   },
+   "foil_mythic": {
+    "rarity": "mythic",
+    "booster": true,
+    "foil": true
+   },
+   "foil_dual": {
+    "names": [
+     "Bloodfell Caves",
+     "Blossoming Sands",
+     "Dismal Backwater",
+     "Jungle Hollow",
+     "Rugged Highlands",
+     "Scoured Barrens",
+     "Swiftwater Cliffs",
+     "Thornwood Falls",
+     "Tranquil Cove",
+     "Wind-Scarred Crag"
+    ],
+    "foil": true
+   },
+   "foil_basic": {
+    "basic": true,
+    "booster": true,
+    "foil": true
    }
   },
   "slots": [
@@ -99,18 +155,31 @@
    {
     "count": 1,
     "sheets": {
-     "basic": 50,
-     "dual": 50
+     "basic": 40,
+     "dual": 40,
+     "foil_basic": 10,
+     "foil_dual": 10
     }
    },
    {
-    "count": 2,
+    "count": 1,
     "wildcard": true,
     "sheets": {
      "common": 185,
      "uncommon": 607,
      "rare": 179,
      "mythic": 29
+    }
+   },
+   {
+    "count": 1,
+    "wildcard": true,
+    "sheets": {
+     "foil_common": 534,
+     "foil_dual": 67,
+     "foil_uncommon": 315,
+     "foil_rare": 72,
+     "foil_mythic": 12
     }
    }
   ]
