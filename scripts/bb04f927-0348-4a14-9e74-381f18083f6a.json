@@ -1,0 +1,22 @@
+{
+  "name": "Thunderbreak Regent",
+  "abilities": [
+    {
+      "trigger": "permanentBecomesTarget",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 3,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a Dragon you control becomes the target of a spell or ability an opponent controls, this creature deals 3 damage to that player."
+    }
+  ]
+}

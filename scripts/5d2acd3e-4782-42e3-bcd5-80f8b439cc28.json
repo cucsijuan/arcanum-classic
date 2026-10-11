@@ -1,0 +1,51 @@
+{
+  "name": "Rhonas the Indomitable",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4,
+              "other": true
+            }
+          }
+        }
+      },
+      "text": "Rhonas can't attack or block unless you control another creature with power 4 or greater."
+    },
+    {
+      "cost": "{2}{G}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "{2}{G}: Another target creature gets +2/+0 and gains trample until end of turn."
+    }
+  ]
+}

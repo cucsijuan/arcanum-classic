@@ -1,0 +1,41 @@
+{
+  "name": "Consumed by Greed",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      "opponent",
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "onlyIfGiftPromised": true,
+        "text": "target creature card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "who": "target",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "greatestPower": true
+        }
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "bounce": "target2"
+          }
+        ]
+      }
+    ],
+    "text": "Target opponent sacrifices a creature with the greatest power among creatures they control. If the gift was promised, return target creature card from your graveyard to your hand."
+  }
+}

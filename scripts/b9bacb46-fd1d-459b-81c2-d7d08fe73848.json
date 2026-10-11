@@ -1,0 +1,56 @@
+{
+  "name": "Dragon Tempest",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "keyword": "Flying"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "triggered",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control with flying enters, it gains haste until end of turn."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Dragon"
+            }
+          },
+          "to": "target",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever a Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control."
+    }
+  ]
+}

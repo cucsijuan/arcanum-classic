@@ -1,0 +1,28 @@
+{
+  "name": "Thirst for Knowledge",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "mayPay": "Discard an artifact card instead of two cards?",
+        "cost": {
+          "discard": 1,
+          "discardFilter": {
+            "types": [
+              "artifact"
+            ]
+          }
+        },
+        "effects": [],
+        "else": [
+          {
+            "discard": 2
+          }
+        ]
+      }
+    ],
+    "text": "Draw three cards. Then discard two cards unless you discard an artifact card."
+  }
+}

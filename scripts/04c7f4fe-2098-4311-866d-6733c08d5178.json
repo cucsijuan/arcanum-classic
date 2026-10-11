@@ -1,0 +1,50 @@
+{
+  "name": "Nettlecyst",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Phyrexian Germ",
+            "types": "Creature — Phyrexian Germ",
+            "colors": [
+              "B"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "attach": "created"
+        }
+      ],
+      "text": "Living weapon (When this Equipment enters, create a 0/0 black Phyrexian Germ creature token, then attach this to it.)"
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each artifact and/or enchantment you control."
+    }
+  ]
+}

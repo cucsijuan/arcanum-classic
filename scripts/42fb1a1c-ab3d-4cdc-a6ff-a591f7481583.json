@@ -1,0 +1,25 @@
+{
+  "name": "Warstorm Surge",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": "triggeredPower",
+          "to": "target",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control enters, it deals damage equal to its power to any target."
+    }
+  ]
+}

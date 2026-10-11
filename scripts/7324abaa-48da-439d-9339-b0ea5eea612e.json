@@ -1,0 +1,21 @@
+{
+  "name": "Unnatural Growth",
+  "abilities": [
+    {
+      "trigger": "eachBeginCombat",
+      "effects": [
+        {
+          "doublePowerAndToughness": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of each combat, double the power and toughness of each creature you control until end of turn."
+    }
+  ]
+}

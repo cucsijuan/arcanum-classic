@@ -1,0 +1,20 @@
+{
+  "name": "Angelic Sleuth",
+  "abilities": [
+    {
+      "trigger": "permanentLeaves",
+      "filter": {
+        "controller": "you",
+        "other": true
+      },
+      "if": "triggeredHadCounters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Whenever another permanent you control leaves the battlefield, if it had counters on it, investigate."
+    }
+  ]
+}

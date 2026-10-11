@@ -1,0 +1,32 @@
+{
+  "name": "Kappa Cannoneer",
+  "improvise": true,
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another artifact you control enters, put a +1/+1 counter on this creature. It can't be blocked this turn."
+    }
+  ]
+}

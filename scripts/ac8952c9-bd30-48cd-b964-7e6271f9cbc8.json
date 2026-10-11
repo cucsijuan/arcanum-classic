@@ -1,0 +1,30 @@
+{
+  "name": "Sephara, Sky's Blade",
+  "alternativeCost": {
+    "cost": "{W}",
+    "extra": {
+      "tap": {
+        "types": [
+          "creature"
+        ],
+        "keyword": "Flying"
+      },
+      "tapCount": 4
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "keyword": "Flying"
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Other creatures you control with flying have indestructible."
+    }
+  ]
+}

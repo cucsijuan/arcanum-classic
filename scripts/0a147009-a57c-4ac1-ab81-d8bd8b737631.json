@@ -1,0 +1,46 @@
+{
+  "name": "Scourge of Valkas",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Dragon"
+            }
+          },
+          "to": "target",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever this creature or another Dragon you control enters, it deals X damage to any target, where X is the number of Dragons you control."
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}
