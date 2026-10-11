@@ -30,6 +30,44 @@
     "perDay": 3,
     // A regular plays only for a stake worth at least this share of the card they put up.
     "minRatio": 0.8,
+    // How many of their cards a regular offers to choose from.
+    "offers": 4,
+    // The chat with a regular: how they open it (showing their cards), ask for the player's stake, take it, say goodbye
+    // before the game, and turn a stake down. One line at random each time.
+    "greetings": [
+      "Hey! Wanna play for keeps? Here's what I've got:",
+      "Yo! Up for an ante game? Take your pick:",
+      "Looking for a real game? I'll put one of these up:",
+      "Oh hey, perfect timing. Feeling lucky? These are on the table:",
+      "Ante match? I'm in. Here's what I'm willing to lose... not that I will.",
+      "Sup! I brought some goodies. Pick one and let's play for it:",
+      "You again! Ready to lose a card? Kidding. Here's my offer:",
+      "Let's make this interesting. Any of these catch your eye?"
+    ],
+    "askStake": [
+      "Good pick. What are you putting up?",
+      "Nice choice. And what do I get if I win?",
+      "Alright, show me what you've got.",
+      "Ooh, bold. What's on your side of the table?",
+      "Fair enough. Your turn: what's your stake?",
+      "Sure thing. Now, what are you risking?"
+    ],
+    "accepts": [
+      "Deal!",
+      "You're on!",
+      "Now we're talking. Deal.",
+      "Fair enough, I'll take that bet.",
+      "Sounds good to me!",
+      "Alright, it's a deal. Prepare to lose it!"
+    ],
+    "farewells": [
+      "See you at the LGS, mate!",
+      "Meet you at the store. Bring your A game!",
+      "See you at the LGS! Shuffle well.",
+      "Cool, I'm heading to the store now. See you there!",
+      "Grab a table at the LGS, I'll be right there.",
+      "See you at the store. No take-backs!"
+    ],
     // What a regular says turning a stake down.
     "declines": [
       "Hey dude, that's not worth it.",
@@ -41,7 +79,11 @@
       "That's a bulk card and you know it.",
       "Not even close, buddy.",
       "I've got three of those in my trade binder. Pass.",
-      "Make it worth my while and we'll talk."
+      "Make it worth my while and we'll talk.",
+      "Lol, no. Try again.",
+      "You're joking, right? That's not even close.",
+      "I'd be robbing myself. Got anything better?",
+      "Hmm, nope. That's way under what I'm putting up."
     ]
   },
 
