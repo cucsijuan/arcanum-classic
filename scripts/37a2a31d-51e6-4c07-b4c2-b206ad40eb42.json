@@ -1,0 +1,30 @@
+{
+  "name": "The Reaver Cleaver",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "grants": [
+          {
+            "trigger": "combatDamageToPlayerOrPlaneswalker",
+            "effects": [
+              {
+                "tokens": "triggerAmount",
+                "token": "Treasure"
+              }
+            ],
+            "text": "Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has trample and \"Whenever this creature deals combat damage to a player or planeswalker, create that many Treasure tokens.\""
+    }
+  ]
+}
