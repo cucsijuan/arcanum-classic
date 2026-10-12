@@ -38,6 +38,11 @@
     "backUrlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&face=back&exact={name}",
     "backByIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large&face=back"
   },
+  "commanderInsights": {
+    "pageTemplate": "https://json.edhrec.com/pages/commanders/{slug}.json",
+    "averageDeckTemplate": "https://json.edhrec.com/pages/average-decks/{slug}.json",
+    "cacheDays": 7
+  },
   "cardBacks": [
     {
       "id": "magic",

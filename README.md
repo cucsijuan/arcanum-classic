@@ -16,7 +16,7 @@ builds the zip.
 | File | Purpose |
 |------|---------|
 | `manifest.json` | Module id, version, license and engine API version |
-| `sources.json` | Card data and image sources fetched at runtime |
+| `sources.json` | Card data, image and commander statistics sources fetched at runtime |
 | `scripts/` | Card ability scripts |
 | `formats/` | Deck construction rules |
 | `decks/` | Sample decks |
