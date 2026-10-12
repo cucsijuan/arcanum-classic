@@ -205,6 +205,10 @@
     { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["hob-br", "m10-br", "ori-br"], "tier": 0 },
     { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["m10-rg", "m10-wu", "m19-gw"], "tier": 0 },
     { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-gw", "ori-wu"], "tier": 2 },
-    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg"], "tier": 3, "rival": true }
+    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg"], "tier": 3, "rival": true },
+    { "id": "arjun", "name": "Arjun Mehta", "style": "Never attacks before turn five, then never stops.", "decks": ["hob-ub", "m19-ub", "m10-ub"], "tier": 0 },
+    { "id": "camila", "name": "Camila Rojas", "style": "Burns first, asks questions later.", "decks": ["m10-rg", "fdn-br", "hob-rg"], "tier": 0 },
+    { "id": "felix", "name": "Felix Brandt", "style": "Swears by small white flyers, and lots of them.", "decks": ["ori-wu", "m19-wu", "fdn-wu"], "tier": 0 },
+    { "id": "bea", "name": "Bea Fontaine", "style": "Trades for the shiniest rares and plays them all.", "decks": ["ori-gw", "m19-br", "fdn-rg"], "tier": 1 }
   ]
 }
