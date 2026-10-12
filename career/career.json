@@ -27,6 +27,41 @@
   "practice": { "paidPerDay": 3, "win": 50, "loss": 20 },
 
   // Ante matches: each player antes a card at random from their deck; the winner keeps both.
+  // The website's forum: the regulars' posts looking for a game (a title and a post at random) and how they answer a
+  // practice post.
+  "forum": {
+    "name": "TCG Forum",
+    "anteTitles": [
+      "Anyone up for an ante game?", "Playing for keeps tonight", "LF ante opponent, bring your best", "Ante match? I've got trades to make",
+      "Feeling lucky? Ante game today", "Put a card on the table and let's play", "Ante tonight, winner takes both", "Who wants to risk a rare?"
+    ],
+    "anteBodies": [
+      "Got a few cards I'm willing to put on the line today. Pick one, put up something of yours, and let's see who walks home with both.",
+      "My binder is getting crowded, so I'm playing for keeps. Message me and I'll show you what's up for grabs.",
+      "Tuned my deck all week and I want a real test. Ante game, one card each. Don't be shy.",
+      "Lost an ante yesterday and I want my luck back. Anyone? I'll put up something nice.",
+      "Looking for a game with something on the line. Fair stakes, good vibes, no sore losers please.",
+      "I'll be at the store all afternoon. If you want to play for a card, send me a message first so we can agree on the stakes."
+    ],
+    "practiceTitles": [
+      "Practice partner wanted", "Testing a new build, need a game", "Casual games this afternoon?", "Anyone want to jam a few games?",
+      "Need a sparring partner before the weekend", "Just for fun: who's around?"
+    ],
+    "practiceBodies": [
+      "Trying out some changes to my deck and need someone to play against. Nothing on the line, just games.",
+      "Got some time to kill at the store. Casual games, any deck welcome.",
+      "Prepping for the weekend event and want to see how my deck holds up. Bring whatever you're playing!",
+      "New cards from my last boosters went into the deck. Need a few games to see if they're any good.",
+      "Looking for relaxed games and maybe some deck advice. Beginners welcome."
+    ],
+    "practiceGreetings": [
+      "Hey, thanks for answering! I'm at the store, come over whenever.",
+      "Perfect, I was about to give up. See you at the table!",
+      "Oh nice! Grab a seat, I'll shuffle up.",
+      "Sweet, let's play. Fair warning: I just added some new tricks."
+    ]
+  },
+
   "ante": {
     "perDay": 10,
     // A regular plays only for a stake worth at least this share of the card they put up.
