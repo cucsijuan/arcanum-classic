@@ -1,0 +1,27 @@
+# Blue-Black — one of the set's two Starter Kit decks, built to play against each other (official decklist).
+Deck
+1 Sephiroth, Planet's Heir (FIN) 553 *F*
+1 Sahagin (FIN) 71
+3 Il Mheg Pixie (FIN) 57
+2 Retrieve the Esper (FIN) 68
+2 Dreams of Laguna (FIN) 50
+1 Relm's Sketching (FIN) 67
+1 Ultimecia, Temporal Threat (FIN) 556
+4 Undercity Dire Rat (FIN) 123
+3 Shinra Reinforcements (FIN) 118
+3 Sephiroth's Intervention (FIN) 116
+3 Shambling Cie'th (FIN) 117
+3 Al Bhed Salvagers (FIN) 88
+2 Overkill (FIN) 109
+2 Evil Reawakened (FIN) 98
+1 Seymour Flux (FIN) 558
+1 Deadly Embrace (FIN) 557
+1 Xande, Dark Mage (FIN) 561
+1 Magitek Scythe (FIN) 562
+4 Treno, Dark City (FIN) 290
+3 Island (FIN) 297
+3 Island (FIN) 298
+3 Island (FIN) 299
+4 Swamp (FIN) 300
+4 Swamp (FIN) 301
+4 Swamp (FIN) 302

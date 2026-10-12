@@ -128,6 +128,8 @@
     { "deck": "hob-br" }, { "deck": "hob-gw" }, { "deck": "hob-rg" }, { "deck": "hob-ub" }, { "deck": "hob-wu" },
     { "deck": "m10-br" }, { "deck": "m10-gw" }, { "deck": "m10-rg" }, { "deck": "m10-ub" }, { "deck": "m10-wu" },
     { "deck": "fin-br" }, { "deck": "fin-gw" }, { "deck": "fin-rg" }, { "deck": "fin-ub" }, { "deck": "fin-wu" },
+    // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
+    { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
     { "deck": "ltc-elven-council", "price": 4500 }, { "deck": "ltc-food-and-fellowship", "price": 4500 },
     { "deck": "ltc-hosts-of-mordor", "price": 4500 }, { "deck": "ltc-riders-of-rohan", "price": 4500 },
     // Intro-level Commander decks, the cheapest in the store: a first base of Commander cards for commander night.
@@ -200,17 +202,17 @@
 
   // The store's regulars: the daily matches' opponents.
   "opponents": [
-    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg"], "tier": 1, "rival": true },
-    { "id": "theo", "name": "Theo Marsh", "style": "Big creatures, bigger smiles.", "decks": ["hob-gw", "m10-gw", "fdn-gw"], "tier": 0 },
-    { "id": "ines", "name": "Ines Calder", "style": "Counts every card and answers every threat.", "decks": ["fdn-ub", "m19-ub", "ori-ub"], "tier": 1 },
-    { "id": "kofi", "name": "Kofi Mensah", "style": "Flyers, tricks and a grin when the trick works.", "decks": ["fdn-wu", "m19-wu", "hob-wu"], "tier": 0 },
-    { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["hob-br", "m10-br", "ori-br"], "tier": 0 },
-    { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["m10-rg", "m10-wu", "m19-gw"], "tier": 0 },
-    { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-gw", "ori-wu"], "tier": 2 },
-    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg"], "tier": 3, "rival": true },
-    { "id": "arjun", "name": "Arjun Mehta", "style": "Never attacks before turn five, then never stops.", "decks": ["hob-ub", "m19-ub", "m10-ub"], "tier": 0 },
-    { "id": "camila", "name": "Camila Rojas", "style": "Burns first, asks questions later.", "decks": ["m10-rg", "fdn-br", "hob-rg"], "tier": 0 },
-    { "id": "felix", "name": "Felix Brandt", "style": "Swears by small white flyers, and lots of them.", "decks": ["ori-wu", "m19-wu", "fdn-wu"], "tier": 0 },
-    { "id": "bea", "name": "Bea Fontaine", "style": "Trades for the shiniest rares and plays them all.", "decks": ["ori-gw", "m19-br", "fdn-rg"], "tier": 1 }
+    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg", "fin-br"], "tier": 1, "rival": true },
+    { "id": "theo", "name": "Theo Marsh", "style": "Big creatures, bigger smiles.", "decks": ["hob-gw", "m10-gw", "fdn-gw", "fin-gw"], "tier": 0 },
+    { "id": "ines", "name": "Ines Calder", "style": "Counts every card and answers every threat.", "decks": ["fdn-ub", "m19-ub", "ori-ub", "fin-ub"], "tier": 1 },
+    { "id": "kofi", "name": "Kofi Mensah", "style": "Flyers, tricks and a grin when the trick works.", "decks": ["fdn-wu", "m19-wu", "hob-wu", "fin-wu"], "tier": 0 },
+    { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["hob-br", "m10-br", "ori-br", "fin-rg"], "tier": 0 },
+    { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["m10-rg", "m10-wu", "m19-gw", "fin-starter-red-white", "fin-starter-blue-black"], "tier": 0 },
+    { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-gw", "ori-wu", "fin-wu"], "tier": 2 },
+    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg", "fin-rg"], "tier": 3, "rival": true },
+    { "id": "arjun", "name": "Arjun Mehta", "style": "Never attacks before turn five, then never stops.", "decks": ["hob-ub", "m19-ub", "m10-ub", "fin-ub"], "tier": 0 },
+    { "id": "camila", "name": "Camila Rojas", "style": "Burns first, asks questions later.", "decks": ["m10-rg", "fdn-br", "hob-rg", "fin-br"], "tier": 0 },
+    { "id": "felix", "name": "Felix Brandt", "style": "Swears by small white flyers, and lots of them.", "decks": ["ori-wu", "m19-wu", "fdn-wu", "fin-wu"], "tier": 0 },
+    { "id": "bea", "name": "Bea Fontaine", "style": "Trades for the shiniest rares and plays them all.", "decks": ["ori-gw", "m19-br", "fdn-rg", "fin-gw"], "tier": 1 }
   ]
 }
