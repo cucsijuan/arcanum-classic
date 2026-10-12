@@ -27,6 +27,38 @@
   "practice": { "paidPerDay": 3, "win": 50, "loss": 20 },
 
   // Ante matches: each player antes a card at random from their deck; the winner keeps both.
+  // Single cards (from "since" on; prices are fractions of a card's price of the day). The store's case: a steady markup
+  // by rarity; special arts (a card's other art in a set) cost at least "storeSpecialMin" times its usual price. The
+  // forum's listings stray either way from the price ("spread": [least, most] by rarity); sellers take offers down to
+  // a hidden floor. The player's posts sell over the following days, more likely the fairer the price, never above
+  // the price plus the most of its spread. Nothing is ever sold below what the store pays for the card.
+  "market": {
+    "since": "2026-10-13",
+    "singlesPerDay": 20,
+    "markup": { "common": 0.4, "uncommon": 0.35, "rare": 0.3, "mythic": 0.2, "special": 0.3, "bonus": 0.3 },
+    "rarityWeights": { "common": 45, "uncommon": 30, "rare": 18, "mythic": 7 },
+    "foilChance": 0.15, "specialPlayChance": 0.02, "specialCollectorChance": 0.04, "forumSpecialFactor": 1.5,
+    "specialPrice": 2, "storeSpecialMin": 3, "forumSpecialMin": 2.5,
+    "listingsMin": 10, "listingsMax": 15,
+    "spread": { "common": [0.3, 0.5], "uncommon": [0.2, 0.4], "rare": [0.15, 0.3], "mythic": [0.1, 0.2], "special": [0.15, 0.3], "bonus": [0.15, 0.3] },
+    "floorMin": 0.85, "floorMax": 0.95, "offerAttempts": 2,
+    "postDays": 7, "postsMax": 10, "sellChanceFair": 0.5, "sellChanceCap": 0.1, "offerChance": 0.25, "offerMin": 0.7, "offerMax": 0.9,
+    // {card} and {price} are filled in.
+    "listingTitles": ["WTS: {card}", "Selling {card}", "{card} for sale", "FS: {card}, {price}", "Trimming my binder: {card}", "{card}, good price"],
+    "listingBodies": [
+      "Pulled a spare {card} and it's not going in any of my decks. {price}, or make me an offer.",
+      "Selling my {card} for {price}. Mint, sleeved since the pack. Message me if you want it.",
+      "Need cash for the weekend draft, so {card} has to go. Asking {price}, I'm open to offers.",
+      "Got a playset already, this {card} is extra. {price} and it's yours.",
+      "{card} up for grabs. {price} firm-ish. Lowballers will be ignored... mostly.",
+      "Clearing out my trade binder. {card} at {price}, can meet at the store any day."
+    ],
+    "accepts": ["Deal! It's yours.", "Sounds fair, sold!", "Ok, you got me. Done!", "Works for me. Enjoy the card!"],
+    "counters": ["Hmm, a bit low. Meet me at {price}?", "Can't go that low, but {price} works.", "Close! Make it {price} and we're done."],
+    "declines": ["Nah, that's way too low.", "Sorry, not for that price.", "Ha, nice try. No.", "I'd rather keep it at that price."],
+    "buyerOffers": ["Would you take {price} for it?", "Interested! Can you do {price}?", "I can give you {price} today, deal?"]
+  },
+
   // The website's forum: the regulars' posts looking for a game (a title and a post at random) and how they answer a
   // practice post.
   "forum": {
