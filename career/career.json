@@ -144,7 +144,7 @@
       "id": "daily-draft", "name": "Daily draft", "when": "daily", "kind": "draft", "set": "featured",
       "players": 8, "rounds": 3, "bestOf": 1, "entry": 100,
       "prizes": [
-        { "wins": 2, "boosters": 1, "cash": 450, "reputation": 2 }
+        { "wins": 2, "boosters": 1, "reputation": 2 }
       ]
     },
     {
