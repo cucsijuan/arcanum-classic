@@ -25,6 +25,11 @@ front face's name.
 ## 3. Scripts
 
 - `tools/generate_scripts.py "$CARDS"` writes scripts for cards with fixed phrasings (`"generated": true`).
+- `tools/set_triage.py "$CARDS" /tmp/plan <code> --out triage.md` reports the cards that still need scripts: those blocked by something
+  besides the script, grouped by reason, then script-only cards, fewest new lines first. Each rules line is marked `=` (a script has
+  it), `≈` (same wording, other numbers or mana), `+` (a keyword) or `·` (new), with the reference script. `--write` also copies scripts
+  for cards with the same rules text and composes scripts from existing abilities; without it nothing is written to `scripts/`. After
+  `--write`, repeat step 2. Hand-written scripts start from the report's reference scripts.
 - Every other card gets a hand-written `scripts/<oracle id>.json`. Write exactly what the card does: every choice and restriction.
 - A mechanic the engine lacks goes into the engine first (see `engine-map.md`), with a test, then the script uses it.
 - New keywords go into `tools/engine-mechanics.txt` so the planner knows them.
