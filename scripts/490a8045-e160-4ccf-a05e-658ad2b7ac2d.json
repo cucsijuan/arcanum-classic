@@ -1,0 +1,47 @@
+{
+  "name": "Jodah, the Unifier",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "supertype": "legendary"
+        },
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary"
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary"
+            }
+          }
+        ]
+      },
+      "text": "Legendary creatures you control get +X/+X, where X is the number of legendary creatures you control."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "exileUntilLesserCastFree": {
+            "supertype": "legendary"
+          }
+        }
+      ],
+      "text": "Whenever you cast a legendary spell from your hand, exile cards from the top of your library until you exile a legendary nonland card with lesser mana value. You may cast that card without paying its mana cost. Put the rest on the bottom of your library in a random order.",
+      "filter": {
+        "supertype": "legendary",
+        "castFromHand": true
+      }
+    }
+  ]
+}

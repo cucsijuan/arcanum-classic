@@ -1,0 +1,85 @@
+{
+  "name": "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Discard your hand, then draw cards equal to your devotion to red?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": {
+                "devotion": "R"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When Clive enters, you may discard your hand, then draw cards equal to your devotion to red."
+    },
+    {
+      "cost": "{4}{R}{R}, {T}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{4}{R}{R}, {T}: Exile Clive, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "fight": "self",
+            "with": "target"
+          }
+        ],
+        "text": "I — Lunge — Ifrit fights up to one other target creature.",
+        "chapters": [
+          1
+        ],
+        "targets": [
+          {
+            "kind": "creature",
+            "optional": true,
+            "filter": {
+              "other": true
+            }
+          }
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "addMana": "{R}{R}{R}{R}"
+          },
+          {
+            "if": {
+              "counters": 3,
+              "kind": "lore"
+            },
+            "then": [
+              {
+                "blink": "self"
+              }
+            ]
+          }
+        ],
+        "text": "II, III — Brimstone — Add {R}{R}{R}{R}. If Ifrit has three or more lore counters on it, exile it, then return it to the battlefield (front face up).",
+        "chapters": [
+          2,
+          3
+        ]
+      }
+    ]
+  }
+}

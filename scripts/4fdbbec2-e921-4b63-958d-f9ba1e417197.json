@@ -1,0 +1,59 @@
+{
+  "name": "Purphoros, God of the Forge",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "removeTypes": [
+          "creature"
+        ],
+        "while": {
+          "not": {
+            "atLeast": {
+              "devotion": "R"
+            },
+            "value": 5
+          }
+        }
+      },
+      "text": "As long as your devotion to red is less than five, Purphoros isn't a creature."
+    },
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another creature you control enters, Purphoros deals 2 damage to each opponent.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      }
+    },
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{2}{R}: Creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

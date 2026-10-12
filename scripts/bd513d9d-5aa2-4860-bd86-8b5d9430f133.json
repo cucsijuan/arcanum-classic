@@ -1,0 +1,17 @@
+{
+  "name": "Jidoor, Aristocratic Capital // Overture",
+  "adventure": {
+    "spell": {
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "mill": "halfLibrary",
+          "who": "target"
+        }
+      ],
+      "text": "Target opponent mills half their library, rounded down."
+    }
+  }
+}

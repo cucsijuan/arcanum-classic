@@ -1,0 +1,13 @@
+{
+  "name": "A Realm Reborn",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "other": true,
+        "grantsMana": "any"
+      },
+      "text": "Other permanents you control have \"{T}: Add one mana of any color.\""
+    }
+  ]
+}

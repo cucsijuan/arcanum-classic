@@ -1,0 +1,45 @@
+{
+  "name": "Bruse Tarl, Boorish Herder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Double strike",
+            "Lifelink"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Bruse Tarl enters or attacks, target creature you control gains double strike and lifelink until end of turn.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Double strike",
+            "Lifelink"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Bruse Tarl enters or attacks, target creature you control gains double strike and lifelink until end of turn.",
+      "targets": [
+        "creature:you"
+      ]
+    }
+  ]
+}

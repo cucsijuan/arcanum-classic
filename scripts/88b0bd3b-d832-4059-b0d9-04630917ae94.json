@@ -1,0 +1,43 @@
+{
+  "name": "Ice Magic",
+  "spell": {
+    "modes": [
+      {
+        "text": "Blizzard — {0} — Return target creature to its owner's hand.",
+        "cost": "{0}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Blizzara — {2} — Target creature's owner puts it on their choice of the top or bottom of their library.",
+        "cost": "{2}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "toLibrary": "target"
+          }
+        ]
+      },
+      {
+        "text": "Blizzaga — {5}{U} — Target creature's owner shuffles it into their library.",
+        "cost": "{5}{U}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "shuffleIntoLibrary": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

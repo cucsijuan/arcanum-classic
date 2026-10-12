@@ -1,0 +1,24 @@
+{
+  "name": "Prompto Argentum",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Selfie Shot — Whenever you cast a noncreature spell, if at least four mana was spent to cast it, create a Treasure token.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 4
+      }
+    }
+  ]
+}

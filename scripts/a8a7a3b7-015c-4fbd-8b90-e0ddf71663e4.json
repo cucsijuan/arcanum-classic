@@ -1,0 +1,72 @@
+{
+  "name": "Serah Farron // Crystallized Serah",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary"
+        },
+        "amount": 2,
+        "firstOfTurn": true
+      },
+      "text": "The first legendary creature spell you cast each turn costs {2} less to cast."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "may": "Transform Serah Farron?",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if you control two or more other legendary creatures, you may transform Serah Farron.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary",
+          "other": true
+        },
+        "count": 2
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "spellCost": {
+          "spells": {
+            "types": [
+              "creature"
+            ],
+            "supertype": "legendary"
+          },
+          "amount": 2,
+          "firstOfTurn": true
+        },
+        "text": "The first legendary creature spell you cast each turn costs {2} less to cast."
+      },
+      {
+        "static": {
+          "affects": "creatures:you",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "pump": [
+            2,
+            2
+          ]
+        },
+        "text": "Legendary creatures you control get +2/+2."
+      }
+    ]
+  }
+}

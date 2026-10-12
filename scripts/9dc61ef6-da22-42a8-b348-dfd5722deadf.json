@@ -1,0 +1,37 @@
+{
+  "name": "Town Greeter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1
+        },
+        {
+          "if": {
+            "atLeast": {
+              "found": {
+                "subtype": "Town"
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, mill four cards. You may put a land card from among them into your hand. If you put a Town card into your hand this way, you gain 2 life."
+    }
+  ]
+}

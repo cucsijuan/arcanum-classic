@@ -1,0 +1,92 @@
+{
+  "name": "Terra, Magical Adept // Esper Terra",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 5
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "count": 1
+        }
+      ],
+      "text": "When Terra enters, mill five cards. Put up to one enchantment card milled this way into your hand."
+    },
+    {
+      "cost": "{4}{R}{G}, {T}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "Trance — {4}{R}{G}, {T}: Exile Terra, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "copy": "target",
+            "gainsHaste": true,
+            "sacrificeAtYourNextEndStep": true
+          },
+          {
+            "if": {
+              "target": "target",
+              "is": {
+                "subtype": "Saga"
+              }
+            },
+            "then": [
+              {
+                "countersUpTo": 3,
+                "kind": "lore",
+                "what": "created"
+              }
+            ]
+          }
+        ],
+        "text": "I, II, III — Create a token that's a copy of target nonlegendary enchantment you control. It gains haste. If it's a Saga, put up to three lore counters on it. Sacrifice it at the beginning of your next end step.",
+        "chapters": [
+          1,
+          2,
+          3
+        ],
+        "targets": [
+          {
+            "kind": "enchantment",
+            "controller": "you",
+            "filter": {
+              "notSupertype": "legendary"
+            }
+          }
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "addMana": "{W}{W}{U}{U}{B}{B}{R}{R}{G}{G}"
+          },
+          {
+            "blink": "self"
+          }
+        ],
+        "text": "IV — Add {W}{W}, {U}{U}, {B}{B}, {R}{R}, and {G}{G}. Exile Esper Terra, then return it to the battlefield (front face up).",
+        "chapters": [
+          4
+        ]
+      }
+    ]
+  }
+}

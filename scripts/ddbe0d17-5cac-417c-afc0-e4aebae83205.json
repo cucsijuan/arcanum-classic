@@ -1,0 +1,74 @@
+{
+  "name": "Restoration Magic",
+  "spell": {
+    "modes": [
+      {
+        "text": "Cure — {0} — Target permanent gains hexproof and indestructible until end of turn.",
+        "cost": "{0}",
+        "targets": [
+          "permanent"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Hexproof",
+              "Indestructible"
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Cura — {1} — Target permanent gains hexproof and indestructible until end of turn. You gain 3 life.",
+        "cost": "{1}",
+        "targets": [
+          "permanent"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Hexproof",
+              "Indestructible"
+            ],
+            "what": "target"
+          },
+          {
+            "gainLife": 3
+          }
+        ]
+      },
+      {
+        "text": "Curaga — {3}{W} — Permanents you control gain hexproof and indestructible until end of turn. You gain 6 life.",
+        "cost": "{3}{W}",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Hexproof",
+              "Indestructible"
+            ],
+            "what": {
+              "each": {
+                "controller": "you"
+              }
+            }
+          },
+          {
+            "gainLife": 6
+          }
+        ]
+      }
+    ]
+  }
+}

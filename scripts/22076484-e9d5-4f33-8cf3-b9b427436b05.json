@@ -1,0 +1,19 @@
+{
+  "name": "Paladin's Arms",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ],
+        "grantsWard": "{1}",
+        "addSubtypes": [
+          "Knight"
+        ]
+      },
+      "text": "Equipped creature gets +2/+1, has ward {1}, and is a Knight in addition to its other types."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "The Masamune",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "filter": {
+          "attacking": true
+        },
+        "keywords": [
+          "First strike",
+          "Must be blocked"
+        ]
+      },
+      "text": "As long as equipped creature is attacking, it has first strike and must be blocked if able."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "grantsDyingTriggerBonus": true
+      },
+      "text": "Equipped creature has \"If a creature dying causes a triggered ability of this creature or an emblem you own to trigger, that ability triggers an additional time.\""
+    }
+  ]
+}

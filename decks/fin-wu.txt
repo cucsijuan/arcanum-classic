@@ -1,0 +1,38 @@
+1 Absolute Virtue (FIN) 212
+1 Adelbert Steiner (FIN) 3
+1 Aerith Gainsborough (FIN) 4
+1 Ambrosia Whiteheart (FIN) 6
+1 Ashe, Princess of Dalmasca (FIN) 7
+1 Beatrix, Loyal General (FIN) 426
+1 Cid, Timeless Artificer (FIN) 216
+1 Cloud, Midgar Mercenary (FIN) 10
+1 Cloudbound Moogle (FIN) 11
+1 Coeurl (FIN) 12
+1 Delivery Moogle (FIN) 15
+1 Dragoon's Wyvern (FIN) 49
+1 Dwarven Castle Guard (FIN) 18
+1 Gaelicat (FIN) 22
+1 Gogo, Master of Mimicry (FIN) 54
+1 Hope Estheim (FIN) 226
+1 Ice Flan (FIN) 55
+1 Il Mheg Pixie (FIN) 57
+1 Magitek Infantry (FIN) 25
+1 Matoya, Archon Elder (FIN) 62
+1 Minwu, White Mage (FIN) 26
+1 Qiqirn Merchant (FIN) 65
+1 Aettir and Priwen (FIN) 253
+1 Auron's Inspiration (FIN) 8
+1 Cargo Ship (FIN) 47
+1 Combat Tutorial (FIN) 48
+1 Dreams of Laguna (FIN) 50
+1 Eject (FIN) 52
+1 Ether (FIN) 53
+1 Fate of the Sun-Cryst (FIN) 19
+1 From Father to Son (FIN) 20
+1 Instant Ramen (FIN) 259
+1 Louisoix's Sacrifice (FIN) 59
+1 Magic Damper (FIN) 61
+1 Magitek Armor (FIN) 24
+1 Memories Returning (FIN) 63
+12 Plains (FIN) 294
+12 Island (FIN) 297

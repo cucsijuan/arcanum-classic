@@ -1,0 +1,29 @@
+{
+  "name": "Adelbert Steiner",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "subtype": "Equipment"
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "subtype": "Equipment"
+            }
+          }
+        ]
+      },
+      "text": "Adelbert Steiner gets +1/+1 for each Equipment you control."
+    }
+  ]
+}

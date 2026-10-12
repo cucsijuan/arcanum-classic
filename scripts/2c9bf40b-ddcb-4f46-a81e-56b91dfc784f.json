@@ -1,0 +1,51 @@
+{
+  "name": "Poison the Waters",
+  "spell": {
+    "modes": [
+      {
+        "text": "All creatures get -1/-1 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target player reveals their hand. You choose an artifact or creature card from it. That player discards that card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discardChosen": "target",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

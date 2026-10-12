@@ -1,0 +1,36 @@
+{
+  "name": "Clive's Hideaway",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "hideaway": 4
+        }
+      ],
+      "text": "Hideaway 4 (When this land enters, look at the top four cards of your library, exile one face down, then put the rest on the bottom in a random order.)"
+    },
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary"
+            },
+            "count": 4
+          },
+          "then": [
+            {
+              "playHiddenFree": true
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: You may play the exiled card without paying its mana cost if you control four or more legendary creatures."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "name": "Esper Origins // Summon: Esper Maduin",
+  "spell": {
+    "effects": [
+      {
+        "surveil": 2
+      },
+      {
+        "gainLife": 2
+      },
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "thisSpellOntoBattlefieldTransformed": "finality"
+          }
+        ]
+      }
+    ],
+    "text": "Surveil 2. You gain 2 life. If this spell was cast from a graveyard, exile it, then put it onto the battlefield transformed under its owner's control with a finality counter on it."
+  },
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "revealTop": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                },
+                {
+                  "types": [
+                    "planeswalker"
+                  ]
+                },
+                {
+                  "types": [
+                    "battle"
+                  ]
+                }
+              ]
+            },
+            "effects": [
+              {
+                "bounce": "found"
+              }
+            ]
+          }
+        ],
+        "text": "I — Reveal the top card of your library. If it's a permanent card, put it into your hand.",
+        "chapters": [
+          1
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "addMana": "{G}{G}"
+          }
+        ],
+        "text": "II — Add {G}{G}.",
+        "chapters": [
+          2
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "keywords": [
+              "Trample"
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "other": true
+              }
+            }
+          }
+        ],
+        "text": "III — Other creatures you control get +2/+2 and gain trample until end of turn.",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  }
+}

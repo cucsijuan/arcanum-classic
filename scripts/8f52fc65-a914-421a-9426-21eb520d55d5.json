@@ -1,0 +1,68 @@
+{
+  "name": "Zenos yae Galvus // Shinryu, Transcendent Rival",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "choose": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        },
+        {
+          "rememberChosen": true
+        },
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "other": true
+            },
+            "exceptChosen": true
+          }
+        }
+      ],
+      "text": "My First Friend — When Zenos yae Galvus enters, choose a creature an opponent controls. Until end of turn, creatures other than Zenos yae Galvus and the chosen creature get -2/-2."
+    },
+    {
+      "trigger": "chosenCreatureLeaves",
+      "effects": [
+        {
+          "transform": "self"
+        }
+      ],
+      "text": "When the chosen creature leaves the battlefield, transform Zenos yae Galvus."
+    }
+  ],
+  "back": {
+    "asTransformsInto": [
+      {
+        "chooseOpponent": true
+      },
+      {
+        "rememberChosen": true
+      }
+    ],
+    "abilities": [
+      {
+        "trigger": "chosenPlayerLoses",
+        "effects": [
+          {
+            "winGame": true
+          }
+        ],
+        "text": "Burning Chains — When the chosen player loses the game, you win the game."
+      }
+    ]
+  }
+}

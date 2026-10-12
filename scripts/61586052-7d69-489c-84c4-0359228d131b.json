@@ -1,0 +1,20 @@
+{
+  "name": "Gogo, Master of Mimicry",
+  "abilities": [
+    {
+      "cost": "{X}{X}, {T}",
+      "effects": [
+        {
+          "copyAbility": "target",
+          "count": "X"
+        }
+      ],
+      "text": "{X}{X}, {T}: Copy target activated or triggered ability you control X times. You may choose new targets for the copies. This ability can't be copied and X can't be 0.",
+      "targets": [
+        "ability:you"
+      ],
+      "minX": 1,
+      "cantBeCopied": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Deadly Embrace",
+  "spell": {
+    "targets": [
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "draw": "creaturesDiedThisTurn"
+      }
+    ],
+    "text": "Destroy target creature an opponent controls. Then draw a card for each creature that died this turn."
+  }
+}

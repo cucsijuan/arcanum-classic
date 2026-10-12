@@ -1,0 +1,33 @@
+{
+  "name": "Tidus, Blitzball Star",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever an artifact you control enters, put a +1/+1 counter on Tidus.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      }
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Whenever Tidus attacks, tap target creature an opponent controls.",
+      "targets": [
+        "creature:opponent"
+      ]
+    }
+  ]
+}

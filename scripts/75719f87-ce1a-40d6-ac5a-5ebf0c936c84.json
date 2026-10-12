@@ -1,0 +1,15 @@
+{
+  "name": "Blitzball",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "GOOOOAAAALLL! — {T}, Sacrifice this artifact: Draw two cards. Activate only if an opponent was dealt combat damage by a legendary creature this turn.",
+      "activateIf": "opponentDealtCombatDamageByLegendary"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Venser, Shaper Savant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When Venser enters, return target spell or permanent to its owner's hand.",
+      "targets": [
+        "spellOrPermanent"
+      ]
+    }
+  ]
+}

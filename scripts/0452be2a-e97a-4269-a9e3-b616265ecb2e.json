@@ -1,0 +1,38 @@
+{
+  "name": "Vivi Ornitier",
+  "abilities": [
+    {
+      "cost": "{0}",
+      "effects": [
+        {
+          "addManaCombination": {
+            "power": "self"
+          },
+          "types": "{U}{R}"
+        }
+      ],
+      "text": "{0}: Add X mana in any combination of {U} and/or {R}, where X is Vivi Ornitier's power. Activate only during your turn and only once each turn.",
+      "activateIf": "yourTurn",
+      "oncePerTurn": true
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Vivi Ornitier and it deals 1 damage to each opponent.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

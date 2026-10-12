@@ -1,0 +1,34 @@
+{
+  "name": "Nature's Claim",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 4,
+        "who": "targetController"
+      }
+    ],
+    "text": "Destroy target artifact or enchantment. Its controller gains 4 life."
+  }
+}

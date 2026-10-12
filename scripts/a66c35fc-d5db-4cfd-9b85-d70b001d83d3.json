@@ -1,0 +1,28 @@
+{
+  "name": "Dragoon's Lance",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "addSubtypes": [
+          "Knight"
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 and is a Knight in addition to its other types."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Flying"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, equipped creature has flying."
+    }
+  ]
+}

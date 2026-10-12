@@ -1,0 +1,36 @@
+{
+  "name": "Cloud, Planet's Champion",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Double strike",
+          "Indestructible"
+        ],
+        "while": {
+          "all": [
+            "yourTurn",
+            {
+              "sourceIs": {
+                "equipped": true
+              }
+            }
+          ]
+        }
+      },
+      "text": "During your turn, as long as Cloud is equipped, it has double strike and indestructible."
+    },
+    {
+      "abilityCost": {
+        "sources": {
+          "subtype": "Equipment"
+        },
+        "amount": 2,
+        "equipOnly": true,
+        "targetingSelf": true
+      },
+      "text": "Equip abilities you activate that target Cloud cost {2} less to activate."
+    }
+  ]
+}

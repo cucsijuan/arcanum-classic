@@ -1,0 +1,45 @@
+{
+  "name": "Sidequest: Card Collection // Magicked Card",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "discard": 2
+        }
+      ],
+      "text": "When this enchantment enters, draw three cards, then discard two cards."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "transform": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if eight or more cards are in your graveyard, transform this enchantment.",
+      "if": {
+        "graveyard": 8
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "crew:1",
+        "effects": [
+          {
+            "become": "self",
+            "addTypes": [
+              "creature"
+            ]
+          }
+        ],
+        "text": "Crew 1"
+      }
+    ]
+  }
+}

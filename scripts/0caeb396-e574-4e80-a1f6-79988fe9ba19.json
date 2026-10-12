@@ -1,0 +1,35 @@
+{
+  "name": "Rufus Shinra",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Darkstar",
+            "types": "Legendary Creature — Dog",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W",
+              "B"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever Rufus Shinra attacks, if you don't control a creature named Darkstar, create Darkstar, a legendary 2/2 white and black Dog creature token.",
+      "if": {
+        "not": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "name": "Darkstar"
+          }
+        }
+      }
+    }
+  ]
+}

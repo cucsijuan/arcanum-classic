@@ -1,0 +1,38 @@
+1 Ahriman (FIN) 87
+1 Al Bhed Salvagers (FIN) 88
+1 Dark Confidant (FIN) 94
+1 Demon Wall (FIN) 97
+1 Dragoon's Wyvern (FIN) 49
+1 Gaius van Baelsar (FIN) 102
+1 Gogo, Master of Mimicry (FIN) 54
+1 Golbez, Crystal Collector (FIN) 225
+1 Hecteyes (FIN) 103
+1 Ice Flan (FIN) 55
+1 Il Mheg Pixie (FIN) 57
+1 Locke Cole (FIN) 234
+1 Matoya, Archon Elder (FIN) 62
+1 Namazu Trader (FIN) 107
+1 Qiqirn Merchant (FIN) 65
+1 Qutrub Forayer (FIN) 112
+1 Reno and Rude (FIN) 113
+1 Rook Turret (FIN) 69
+1 Sahagin (FIN) 71
+1 Scorpion Sentinel (FIN) 72
+1 Sephiroth, Planet's Heir (FIN) 505
+1 Seymour Flux (FIN) 452
+1 Aettir and Priwen (FIN) 253
+1 Cargo Ship (FIN) 47
+1 Circle of Power (FIN) 92
+1 Combat Tutorial (FIN) 48
+1 Cornered by Black Mages (FIN) 93
+1 Deadly Embrace (FIN) 557
+1 Dreams of Laguna (FIN) 50
+1 Eject (FIN) 52
+1 Ether (FIN) 53
+1 Evil Reawakened (FIN) 98
+1 Fight On! (FIN) 100
+1 Instant Ramen (FIN) 259
+1 Louisoix's Sacrifice (FIN) 59
+1 Magic Damper (FIN) 61
+12 Island (FIN) 297
+12 Swamp (FIN) 300

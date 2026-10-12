@@ -1,0 +1,36 @@
+{
+  "name": "Stiltzkin, Moogle Merchant",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "gainControl": "target2",
+          "to": "target"
+        },
+        {
+          "if": {
+            "atLeast": "controlGainedThisWay",
+            "value": 1
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Target opponent gains control of another target permanent you control. If they do, you draw a card.",
+      "targets": [
+        "opponent",
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ]
+    }
+  ]
+}

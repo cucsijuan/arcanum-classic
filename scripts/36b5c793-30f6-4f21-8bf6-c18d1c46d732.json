@@ -1,0 +1,29 @@
+{
+  "name": "Xande, Dark Mage",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyard": {
+              "not": [
+                "creature",
+                "land"
+              ]
+            }
+          },
+          {
+            "graveyard": {
+              "not": [
+                "creature",
+                "land"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Xande gets +1/+1 for each noncreature, nonland card in your graveyard."
+    }
+  ]
+}

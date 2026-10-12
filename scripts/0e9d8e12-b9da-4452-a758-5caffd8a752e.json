@@ -1,0 +1,34 @@
+{
+  "name": "Magitek Armor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Hero",
+            "types": "Creature — Hero",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this Vehicle enters, create a 1/1 colorless Hero creature token."
+    },
+    {
+      "cost": "crew:1",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 1"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Gaius van Baelsar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [],
+      "text": "When Gaius van Baelsar enters, choose one —",
+      "modes": [
+        {
+          "text": "Each player sacrifices a creature token of their choice.",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "who": "everyone",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "token": true
+              }
+            }
+          ]
+        },
+        {
+          "text": "Each player sacrifices a nontoken creature of their choice.",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "who": "everyone",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "token": false
+              }
+            }
+          ]
+        },
+        {
+          "text": "Each player sacrifices an enchantment of their choice.",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "who": "everyone",
+              "filter": {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Phoenix Down",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}, exile",
+      "effects": [],
+      "text": "{1}{W}, {T}, Exile this artifact: Choose one —",
+      "modes": [
+        {
+          "text": "Return target creature card with mana value 4 or less from your graveyard to the battlefield tapped.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "controller": "you",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "maxManaValue": 4
+              }
+            }
+          ],
+          "effects": [
+            {
+              "reanimate": "target",
+              "tapped": true
+            }
+          ]
+        },
+        {
+          "text": "Exile target Skeleton, Spirit, or Zombie.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "anyOf": [
+                  {
+                    "subtype": "Skeleton"
+                  },
+                  {
+                    "subtype": "Spirit"
+                  },
+                  {
+                    "subtype": "Zombie"
+                  }
+                ]
+              }
+            }
+          ],
+          "effects": [
+            {
+              "exile": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

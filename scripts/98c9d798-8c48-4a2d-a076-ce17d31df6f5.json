@@ -1,0 +1,98 @@
+{
+  "name": "Exdeath, Void Warlock // Neo Exdeath, Dimension's End",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When Exdeath enters, you gain 3 life."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "transform": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if there are six or more permanent cards in your graveyard, transform Exdeath.",
+      "if": {
+        "graveyard": 6,
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "land"
+              ]
+            },
+            {
+              "types": [
+                "planeswalker"
+              ]
+            },
+            {
+              "types": [
+                "battle"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "back": {
+    "powerFrom": {
+      "graveyard": {
+        "anyOf": [
+          {
+            "types": [
+              "artifact"
+            ]
+          },
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "enchantment"
+            ]
+          },
+          {
+            "types": [
+              "land"
+            ]
+          },
+          {
+            "types": [
+              "planeswalker"
+            ]
+          },
+          {
+            "types": [
+              "battle"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

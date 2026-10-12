@@ -1,0 +1,49 @@
+{
+  "name": "Omega, Heartless Evolution",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "counters": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "notSupertype": "basic"
+            }
+          },
+          "kind": "stun",
+          "what": "eachTarget"
+        },
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "notSupertype": "basic"
+            }
+          }
+        }
+      ],
+      "text": "Wave Cannon — When Omega enters, for each opponent, tap up to one target nonland permanent that opponent controls. Put X stun counters on each of those permanents and you gain X life, where X is the number of nonbasic lands you control.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "perPlayer": true,
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

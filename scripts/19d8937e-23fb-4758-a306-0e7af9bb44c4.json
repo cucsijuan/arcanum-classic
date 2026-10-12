@@ -1,0 +1,13 @@
+{
+  "name": "Aettir and Priwen",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "setPower": "life",
+        "setToughness": "life"
+      },
+      "text": "Equipped creature has base power and toughness X/X, where X is your life total."
+    }
+  ]
+}

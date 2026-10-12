@@ -1,0 +1,58 @@
+{
+  "name": "Summon: Bahamut",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "I, II — Destroy up to one target nonland permanent.",
+      "chapters": [
+        1,
+        2
+      ],
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "III — Draw two cards.",
+      "chapters": [
+        3
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "damage": {
+            "manaValueSum": {
+              "other": true
+            }
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "IV — Mega Flare — This creature deals damage equal to the total mana value of other permanents you control to each opponent.",
+      "chapters": [
+        4
+      ]
+    }
+  ]
+}

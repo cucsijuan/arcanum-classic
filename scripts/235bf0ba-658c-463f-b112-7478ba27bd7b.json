@@ -1,0 +1,31 @@
+{
+  "name": "Captain Lannery Storm",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever Captain Lannery Storm attacks, create a Treasure token."
+    },
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice a Treasure, Captain Lannery Storm gets +1/+0 until end of turn.",
+      "filter": {
+        "subtype": "Treasure"
+      }
+    }
+  ]
+}

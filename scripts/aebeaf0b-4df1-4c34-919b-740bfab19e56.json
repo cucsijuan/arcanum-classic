@@ -1,0 +1,106 @@
+{
+  "name": "Sidequest: Raise a Chocobo // Black Chocobo",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "landfall",
+                "effects": [
+                  {
+                    "pump": [
+                      1,
+                      0
+                    ],
+                    "what": "self"
+                  }
+                ],
+                "text": "Whenever a land you control enters, this token gets +1/+0 until end of turn."
+              }
+            ],
+            "text": "Whenever a land you control enters, this token gets +1/+0 until end of turn."
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\""
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "transform": "self"
+        }
+      ],
+      "text": "At the beginning of your first main phase, if you control four or more Birds, transform this enchantment.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "subtype": "Bird",
+          "controller": "you"
+        },
+        "count": 4
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "transforms",
+        "effects": [
+          {
+            "search": {
+              "types": [
+                "land"
+              ]
+            },
+            "to": "battlefield",
+            "tapped": true
+          }
+        ],
+        "text": "When this permanent transforms into Black Chocobo, search your library for a land card, put it onto the battlefield tapped, then shuffle.",
+        "onSelf": true,
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "subtype": "Bird"
+        }
+      },
+      {
+        "trigger": "landfall",
+        "effects": [
+          {
+            "pump": [
+              1,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Bird",
+                "controller": "you"
+              }
+            }
+          }
+        ],
+        "text": "Landfall — Whenever a land you control enters, Birds you control get +1/+0 until end of turn."
+      }
+    ]
+  }
+}

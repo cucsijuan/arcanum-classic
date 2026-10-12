@@ -1,0 +1,35 @@
+{
+  "name": "Black Mage's Rod",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "addSubtypes": [
+          "Wizard"
+        ],
+        "grants": [
+          {
+            "trigger": "castSpell",
+            "effects": [
+              {
+                "damage": 1,
+                "to": "opponents"
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent.",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+0, has \"Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent,\" and is a Wizard in addition to its other types."
+    }
+  ]
+}

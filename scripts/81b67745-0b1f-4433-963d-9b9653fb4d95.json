@@ -1,0 +1,36 @@
+{
+  "name": "Ride the Shoopuf",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target creature you control.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "cost": "{5}{G}{G}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 7,
+          "toughness": 7,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Beast"
+          ],
+          "permanent": true
+        }
+      ],
+      "text": "{5}{G}{G}: This enchantment becomes a 7/7 Beast creature in addition to its other types."
+    }
+  ]
+}

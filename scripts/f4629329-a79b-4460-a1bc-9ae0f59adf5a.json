@@ -1,0 +1,77 @@
+{
+  "name": "Joshua, Phoenix's Dominant // Phoenix, Warden of Fire",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discardUpTo": 2
+        },
+        {
+          "draw": {
+            "discarded": {}
+          }
+        }
+      ],
+      "text": "When Joshua enters, discard up to two cards, then draw that many cards."
+    },
+    {
+      "cost": "{3}{R}{W}, {T}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{3}{R}{W}, {T}: Exile Joshua, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "damage": 2,
+            "to": "opponents"
+          }
+        ],
+        "text": "I, II — Rising Flames — Phoenix deals 2 damage to each opponent.",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "reanimate": "eachTarget"
+          },
+          {
+            "blink": "self"
+          }
+        ],
+        "text": "III — Flames of Rebirth — Return any number of target creature cards with total mana value 6 or less from your graveyard to the battlefield. Exile Phoenix, then return it to the battlefield (front face up).",
+        "chapters": [
+          3
+        ],
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "anyNumber": true,
+            "optional": true,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "targetsTotalManaValueAtMost": 6
+      }
+    ]
+  }
+}

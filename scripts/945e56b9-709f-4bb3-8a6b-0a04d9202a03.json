@@ -1,0 +1,40 @@
+{
+  "name": "Sorceress's Schemes",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardOrExiledCard",
+        "controller": "you",
+        "filter": {
+          "anyOf": [
+            {
+              "zone": "graveyard",
+              "types": [
+                "instant"
+              ]
+            },
+            {
+              "zone": "graveyard",
+              "types": [
+                "sorcery"
+              ]
+            },
+            {
+              "zone": "exile",
+              "hasFlashback": true
+            }
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "addMana": "{R}"
+      }
+    ],
+    "text": "Return target instant or sorcery card from your graveyard or exiled card with flashback you own to your hand. Add {R}."
+  }
+}

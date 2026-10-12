@@ -1,0 +1,39 @@
+{
+  "name": "Ice Flan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target artifact or creature an opponent controls. Put a stun counter on it.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

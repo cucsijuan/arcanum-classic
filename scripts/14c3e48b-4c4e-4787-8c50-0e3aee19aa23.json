@@ -1,0 +1,48 @@
+{
+  "name": "Aerith Rescue Mission",
+  "spell": {
+    "modes": [
+      {
+        "text": "Take the Elevator — Create three 1/1 colorless Hero creature tokens.",
+        "effects": [
+          {
+            "tokens": 3,
+            "token": {
+              "name": "Hero",
+              "types": "Creature — Hero",
+              "power": 1,
+              "toughness": 1,
+              "colors": [],
+              "keywords": []
+            }
+          }
+        ]
+      },
+      {
+        "text": "Take 59 Flights of Stairs — Tap up to three target creatures. Put a stun counter on one of them.",
+        "targets": [
+          {
+            "kind": "creature",
+            "upTo": 3
+          }
+        ],
+        "effects": [
+          {
+            "tap": "eachTarget"
+          },
+          {
+            "choose": {
+              "controller": "any"
+            },
+            "among": "eachTarget"
+          },
+          {
+            "counters": 1,
+            "kind": "stun",
+            "what": "chosen"
+          }
+        ]
+      }
+    ]
+  }
+}

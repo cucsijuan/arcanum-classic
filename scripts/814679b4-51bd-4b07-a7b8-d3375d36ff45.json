@@ -1,0 +1,89 @@
+{
+  "name": "Vincent's Limit Break",
+  "spell": {
+    "modes": [
+      {
+        "text": "Galian Beast — {0} — 3/2.",
+        "cost": "{0}",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "power": 3,
+            "toughness": 2,
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "reanimate": "self",
+                    "tapped": true,
+                    "ownerControl": true
+                  }
+                ],
+                "text": "When this creature dies, return it to the battlefield tapped under its owner's control."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Death Gigas — {1} — 5/2.",
+        "cost": "{1}",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "power": 5,
+            "toughness": 2,
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "reanimate": "self",
+                    "tapped": true,
+                    "ownerControl": true
+                  }
+                ],
+                "text": "When this creature dies, return it to the battlefield tapped under its owner's control."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Hellmasker — {3} — 7/2.",
+        "cost": "{3}",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "power": 7,
+            "toughness": 2,
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "reanimate": "self",
+                    "tapped": true,
+                    "ownerControl": true
+                  }
+                ],
+                "text": "When this creature dies, return it to the battlefield tapped under its owner's control."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Until end of turn, target creature you control gains \"When this creature dies, return it to the battlefield tapped under its owner's control\" and has the chosen base power and toughness."
+  }
+}

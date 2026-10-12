@@ -1,0 +1,88 @@
+{
+  "name": "Gran Pulse Ochu",
+  "abilities": [
+    {
+      "cost": "{8}",
+      "effects": [
+        {
+          "pump": [
+            {
+              "graveyard": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "artifact"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "enchantment"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "planeswalker"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "battle"
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "graveyard": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "artifact"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "enchantment"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "planeswalker"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "battle"
+                    ]
+                  }
+                ]
+              }
+            }
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{8}: Until end of turn, this creature gets +1/+1 for each permanent card in your graveyard."
+    }
+  ]
+}

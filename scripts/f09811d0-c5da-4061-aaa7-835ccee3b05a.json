@@ -1,0 +1,15 @@
+{
+  "name": "Undercity Dire Rat",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Rat Tail — When this creature dies, create a Treasure token."
+    }
+  ]
+}

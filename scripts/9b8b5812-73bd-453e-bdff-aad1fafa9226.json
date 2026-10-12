@@ -1,0 +1,22 @@
+{
+  "name": "Samurai's Katana",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Trample",
+          "Haste"
+        ],
+        "addSubtypes": [
+          "Samurai"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2, has trample and haste, and is a Samurai in addition to its other types."
+    }
+  ]
+}

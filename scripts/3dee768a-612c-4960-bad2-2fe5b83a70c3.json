@@ -1,0 +1,52 @@
+{
+  "name": "Yuna, Hope of Spira",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "self": true
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            }
+          ]
+        },
+        "keywords": [
+          "Trample",
+          "Lifelink"
+        ],
+        "grantsWard": "{2}",
+        "while": "yourTurn"
+      },
+      "text": "During your turn, Yuna and enchantment creatures you control have trample, lifelink, and ward {2}."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "reanimate": "target",
+          "counters": 1,
+          "counterKind": "finality"
+        }
+      ],
+      "text": "At the beginning of your end step, return up to one target enchantment card from your graveyard to the battlefield with a finality counter on it.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

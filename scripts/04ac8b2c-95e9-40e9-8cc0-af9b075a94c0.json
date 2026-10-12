@@ -1,0 +1,22 @@
+{
+  "name": "Fang, Fearless l'Cie",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, you draw a card and you lose 1 life. This ability triggers only once each turn.",
+      "filter": {
+        "controller": "you"
+      },
+      "batched": true,
+      "oncePerTurn": true
+    }
+  ]
+}

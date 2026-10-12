@@ -1,0 +1,39 @@
+{
+  "name": "Summon: G.F. Ifrit",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "I, II — You may discard a card. If you do, draw a card.",
+      "chapters": [
+        1,
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "addMana": "{R}"
+        }
+      ],
+      "text": "III, IV — Add {R}.",
+      "chapters": [
+        3,
+        4
+      ]
+    }
+  ]
+}

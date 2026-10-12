@@ -1,0 +1,24 @@
+{
+  "name": "Coeurl",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Tap target nonenchantment creature.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "not": [
+              "enchantment"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

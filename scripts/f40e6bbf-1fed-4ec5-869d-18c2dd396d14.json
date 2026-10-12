@@ -1,0 +1,49 @@
+{
+  "name": "Vincent Valentine // Galian Beast",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "counters": "triggeredPower",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, put a number of +1/+1 counters on Vincent Valentine equal to that creature's power.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      }
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Transform Vincent Valentine?",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Vincent Valentine attacks, you may transform it."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "dies",
+        "effects": [
+          {
+            "reanimate": "self",
+            "tapped": true
+          }
+        ],
+        "text": "When Galian Beast dies, return it to the battlefield tapped (front face up)."
+      }
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Zidane, Tantalus Thief",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainControl": "target",
+          "untilEndOfTurn": true
+        },
+        {
+          "untap": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Lifelink",
+            "Haste"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When Zidane enters, gain control of target creature an opponent controls until end of turn. Untap it. It gains lifelink and haste until end of turn.",
+      "targets": [
+        "creature:opponent"
+      ]
+    },
+    {
+      "trigger": "opponentGainsControlFromYou",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever an opponent gains control of a permanent from you, you create a Treasure token."
+    }
+  ]
+}

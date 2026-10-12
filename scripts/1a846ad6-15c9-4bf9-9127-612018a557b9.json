@@ -1,0 +1,31 @@
+{
+  "name": "Judge Magister Gabranth",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature or artifact you control dies, put a +1/+1 counter on Judge Magister Gabranth.",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "artifact"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      }
+    }
+  ]
+}

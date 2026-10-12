@@ -1,0 +1,53 @@
+{
+  "name": "Tellah, Great Sage",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Hero",
+            "types": "Creature — Hero",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": []
+          }
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 4
+          },
+          "then": [
+            {
+              "draw": 2
+            }
+          ]
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 8
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "damage": "manaSpent",
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create a 1/1 colorless Hero creature token. If four or more mana was spent to cast that spell, draw two cards. If eight or more mana was spent to cast that spell, sacrifice Tellah and it deals that much damage to each opponent.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

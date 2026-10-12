@@ -1,0 +1,29 @@
+{
+  "name": "Thief's Knife",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "addSubtypes": [
+          "Rogue"
+        ],
+        "grants": [
+          {
+            "trigger": "combatDamageToPlayer",
+            "effects": [
+              {
+                "draw": 1
+              }
+            ],
+            "text": "Whenever this creature deals combat damage to a player, draw a card."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1, has \"Whenever this creature deals combat damage to a player, draw a card,\" and is a Rogue in addition to its other types."
+    }
+  ]
+}

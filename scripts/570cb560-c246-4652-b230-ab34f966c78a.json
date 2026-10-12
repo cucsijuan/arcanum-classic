@@ -1,0 +1,41 @@
+{
+  "name": "Balthier and Fran",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Vehicle",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Reach",
+          "Vigilance"
+        ]
+      },
+      "text": "Vehicles you control get +1/+1 and have reach and vigilance."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "mayPay": "Pay {1}{R}{G} for an additional combat phase?",
+          "mana": "{1}{R}{G}",
+          "effects": [
+            {
+              "additionalCombat": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Vehicle crewed by Balthier and Fran this turn attacks, if it's the first combat phase of the turn, you may pay {1}{R}{G}. If you do, after this phase, there is an additional combat phase.",
+      "filter": {
+        "subtype": "Vehicle",
+        "controller": "you"
+      },
+      "when": "crewedBySource",
+      "if": "firstCombatPhase"
+    }
+  ]
+}

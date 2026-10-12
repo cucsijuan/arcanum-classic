@@ -1,0 +1,14 @@
+{
+  "name": "Lightning, Army of One",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "doubleDamageUntilYourNextTurn": "triggeredPlayer"
+        }
+      ],
+      "text": "Stagger — Whenever Lightning deals combat damage to a player, until your next turn, if a source would deal damage to that player or a permanent that player controls, it deals double that damage instead."
+    }
+  ]
+}

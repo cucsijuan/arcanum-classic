@@ -1,0 +1,29 @@
+{
+  "name": "Carpet of Flowers",
+  "abilities": [
+    {
+      "trigger": "mainPhase",
+      "effects": [
+        {
+          "addManaOneColor": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Island"
+            },
+            "controlledBy": "target"
+          },
+          "optional": true
+        }
+      ],
+      "text": "At the beginning of each of your main phases, if you haven't added mana with this ability this turn, you may add X mana of any one color, where X is the number of Islands target opponent controls.",
+      "targets": [
+        "opponent"
+      ],
+      "if": {
+        "not": "addedManaWithThisThisTurn"
+      }
+    }
+  ]
+}

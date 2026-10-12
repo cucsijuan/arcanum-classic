@@ -1,0 +1,61 @@
+{
+  "name": "The Emperor of Palamecia // The Lord Master of Hell",
+  "tapForMana": "{U}{R}",
+  "manaOnlyFor": {
+    "not": [
+      "creature"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "if": {
+            "counters": 3
+          },
+          "then": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, if at least four mana was spent to cast it, put a +1/+1 counter on The Emperor of Palamecia. Then if it has three or more +1/+1 counters on it, transform it.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 4
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "attacks",
+        "effects": [
+          {
+            "damage": {
+              "graveyard": {
+                "not": [
+                  "creature",
+                  "land"
+                ]
+              }
+            },
+            "to": "opponents"
+          }
+        ],
+        "text": "Starfall — Whenever The Lord Master of Hell attacks, it deals X damage to each opponent, where X is the number of noncreature, nonland cards in your graveyard."
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Balamb Garden, SeeD Academy // Balamb Garden, Airborne",
+  "abilities": [
+    {
+      "cost": "{5}{G}{U}, {T}",
+      "effects": [
+        {
+          "transform": "self"
+        }
+      ],
+      "text": "{5}{G}{U}, {T}: Transform this land. This ability costs {1} less to activate for each other Town you control.",
+      "costReductionPer": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Town",
+        "other": true
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "attacks",
+        "effects": [
+          {
+            "draw": 1
+          }
+        ],
+        "text": "Whenever Balamb Garden attacks, draw a card."
+      },
+      {
+        "cost": "crew:1",
+        "effects": [
+          {
+            "become": "self",
+            "addTypes": [
+              "creature"
+            ]
+          }
+        ],
+        "text": "Crew 1"
+      }
+    ]
+  }
+}

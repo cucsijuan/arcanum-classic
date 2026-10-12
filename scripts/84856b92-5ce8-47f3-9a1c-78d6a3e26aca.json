@@ -1,0 +1,77 @@
+{
+  "name": "Eden, Seat of the Sanctum",
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "mill": 2
+        },
+        {
+          "may": "Sacrifice this land to return another permanent card from your graveyard to your hand?",
+          "effects": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "whenYouDo": {
+                "if": {
+                  "atLeast": "sacrificedThisWay",
+                  "value": 1
+                },
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "anyOf": [
+                        {
+                          "types": [
+                            "artifact"
+                          ]
+                        },
+                        {
+                          "types": [
+                            "creature"
+                          ]
+                        },
+                        {
+                          "types": [
+                            "enchantment"
+                          ]
+                        },
+                        {
+                          "types": [
+                            "land"
+                          ]
+                        },
+                        {
+                          "types": [
+                            "planeswalker"
+                          ]
+                        },
+                        {
+                          "types": [
+                            "battle"
+                          ]
+                        }
+                      ],
+                      "other": true
+                    }
+                  }
+                ],
+                "effects": [
+                  {
+                    "bounce": "target"
+                  }
+                ],
+                "text": "When you do, return another target permanent card from your graveyard to your hand."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "{5}, {T}: Mill two cards. Then you may sacrifice this land. When you do, return another target permanent card from your graveyard to your hand."
+    }
+  ]
+}

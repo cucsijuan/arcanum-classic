@@ -1,0 +1,39 @@
+{
+  "name": "Summon: Anima",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "I, II, III — Pain — You draw a card and you lose 1 life.",
+      "chapters": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents"
+        },
+        {
+          "loseLife": 3,
+          "who": "opponents"
+        }
+      ],
+      "text": "IV — Oblivion — Each opponent sacrifices a creature of their choice and loses 3 life.",
+      "chapters": [
+        4
+      ]
+    }
+  ]
+}

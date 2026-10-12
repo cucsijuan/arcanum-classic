@@ -1,0 +1,19 @@
+{
+  "name": "Tonberry",
+  "entersTapped": true,
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "stun",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "First strike",
+          "Deathtouch"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "Chef's Knife — During your turn, this creature has first strike and deathtouch."
+    }
+  ]
+}

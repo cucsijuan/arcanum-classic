@@ -1,0 +1,14 @@
+{
+  "name": "Tifa Lockhart",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "doublePower": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, double Tifa Lockhart's power until end of turn."
+    }
+  ]
+}

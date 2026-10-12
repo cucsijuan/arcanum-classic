@@ -1,0 +1,55 @@
+{
+  "name": "Summon: Fenrir",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "I — Crescent Fang — Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "nextCreatureSpell": {
+            "counters": 1
+          }
+        }
+      ],
+      "text": "II — Heavenward Howl — When you next cast a creature spell this turn, that creature enters with an additional +1/+1 counter on it.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "if": "greatestPower",
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "III — Ecliptic Growl — Draw a card if you control the creature with the greatest power or tied for the greatest power.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

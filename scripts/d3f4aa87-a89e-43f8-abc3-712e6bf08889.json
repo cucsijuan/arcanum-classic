@@ -1,0 +1,27 @@
+{
+  "name": "Shambling Cie'th",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "mayPay": "Pay {B} to return this card from your graveyard to your hand?",
+          "mana": "{B}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, you may pay {B}. If you do, return this card from your graveyard to your hand.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "fromGraveyard": true
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Ragnarok, Divine Deliverance",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "reanimate": "target2"
+        }
+      ],
+      "text": "When Ragnarok dies, destroy target permanent and return target nonlegendary permanent card from your graveyard to the battlefield.",
+      "targets": [
+        "permanent",
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              },
+              {
+                "types": [
+                  "land"
+                ]
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              },
+              {
+                "types": [
+                  "battle"
+                ]
+              }
+            ],
+            "notSupertype": "legendary"
+          }
+        }
+      ]
+    }
+  ]
+}

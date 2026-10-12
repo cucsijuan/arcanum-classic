@@ -1,0 +1,20 @@
+{
+  "name": "Travel the Overworld",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Town"
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 4
+      }
+    ],
+    "text": "Draw four cards."
+  }
+}

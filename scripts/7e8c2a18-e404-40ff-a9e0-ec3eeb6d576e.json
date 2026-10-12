@@ -1,0 +1,14 @@
+{
+  "name": "Command Beacon",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "commanderToHand": true
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Put your commander into your hand from the command zone."
+    }
+  ]
+}

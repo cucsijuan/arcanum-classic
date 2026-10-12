@@ -1,0 +1,47 @@
+{
+  "name": "Choco, Seeker of Paradise",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "lookHandLandsGraveyard": {
+            "attacking": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Bird",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever one or more Birds you control attack, look at that many cards from the top of your library. You may put one of them into your hand. Then put any number of land cards from among them onto the battlefield tapped and the rest into your graveyard.",
+      "when": {
+        "atLeast": {
+          "attacking": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Bird",
+            "controller": "you"
+          }
+        },
+        "value": 1
+      }
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, Choco gets +1/+0 until end of turn."
+    }
+  ]
+}

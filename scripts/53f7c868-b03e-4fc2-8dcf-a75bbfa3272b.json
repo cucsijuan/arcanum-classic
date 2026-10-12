@@ -1,0 +1,11 @@
+{
+  "name": "Dark Ritual",
+  "spell": {
+    "effects": [
+      {
+        "addMana": "{B}{B}{B}"
+      }
+    ],
+    "text": "Add {B}{B}{B}."
+  }
+}

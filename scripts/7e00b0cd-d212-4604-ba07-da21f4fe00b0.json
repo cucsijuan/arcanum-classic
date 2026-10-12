@@ -1,0 +1,27 @@
+{
+  "name": "Sram, Senior Edificer",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast an Aura, Equipment, or Vehicle spell, draw a card.",
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Aura"
+          },
+          {
+            "subtype": "Equipment"
+          },
+          {
+            "subtype": "Vehicle"
+          }
+        ]
+      }
+    }
+  ]
+}

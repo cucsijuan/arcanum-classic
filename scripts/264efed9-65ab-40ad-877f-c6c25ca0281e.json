@@ -1,0 +1,23 @@
+{
+  "name": "Edgar, King of Figaro",
+  "replaces": [
+    "FirstCoinFlipEachTurnWins"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When Edgar enters, draw a card for each artifact you control."
+    }
+  ]
+}

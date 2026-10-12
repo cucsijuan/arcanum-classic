@@ -1,0 +1,34 @@
+{
+  "name": "Ambrosia Whiteheart",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "choose": {
+            "other": true,
+            "controller": "you"
+          },
+          "optional": true
+        },
+        {
+          "bounce": "chosen"
+        }
+      ],
+      "text": "When Ambrosia Whiteheart enters, you may return another permanent you control to its owner's hand."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, Ambrosia Whiteheart gets +1/+0 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Self-Destruct",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "any"
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "damage": {
+              "power": "target"
+            },
+            "from": "target",
+            "to": "target2"
+          },
+          {
+            "damage": {
+              "power": "target"
+            },
+            "from": "target",
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control deals X damage to any other target and X damage to itself, where X is its power."
+  }
+}

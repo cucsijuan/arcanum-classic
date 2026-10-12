@@ -1,0 +1,35 @@
+{
+  "name": "Chocobo Kick",
+  "kickerCost": {
+    "returnToHand": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "bite": "target",
+            "to": "target2",
+            "times": 2
+          }
+        ],
+        "else": [
+          {
+            "bite": "target",
+            "to": "target2"
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature an opponent controls. If this spell was kicked, the creature you control deals twice that much damage instead."
+  }
+}

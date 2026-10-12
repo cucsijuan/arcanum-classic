@@ -1,0 +1,32 @@
+{
+  "name": "Qiqirn Merchant",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{1}, {T}: Draw a card, then discard a card."
+    },
+    {
+      "cost": "{7}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": 3
+        }
+      ],
+      "text": "{7}, {T}, Sacrifice this creature: Draw three cards. This ability costs {1} less to activate for each Town you control.",
+      "costReductionPer": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Town"
+      }
+    }
+  ]
+}

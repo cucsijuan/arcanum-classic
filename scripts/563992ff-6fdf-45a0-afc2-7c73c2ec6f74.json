@@ -1,0 +1,36 @@
+{
+  "name": "Magitek Infantry",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ],
+            "other": true
+          }
+        }
+      },
+      "text": "This creature gets +1/+0 as long as you control another artifact."
+    },
+    {
+      "cost": "{2}{W}",
+      "effects": [
+        {
+          "search": {
+            "name": "Magitek Infantry"
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{2}{W}: Search your library for a card named Magitek Infantry, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

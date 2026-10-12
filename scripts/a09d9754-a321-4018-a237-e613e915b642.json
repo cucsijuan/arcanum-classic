@@ -1,0 +1,38 @@
+{
+  "name": "The Prima Vista",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, if at least four mana was spent to cast it, The Prima Vista becomes an artifact creature until end of turn.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 4
+      }
+    },
+    {
+      "cost": "crew:2",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 2"
+    }
+  ]
+}

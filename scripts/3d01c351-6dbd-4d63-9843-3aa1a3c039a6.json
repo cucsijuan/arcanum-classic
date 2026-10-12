@@ -1,0 +1,49 @@
+{
+  "name": "Namazu Trader",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature enters, you lose 1 life and create a Treasure token."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature or artifact to surveil 2?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                }
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "surveil": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature or artifact. If you do, surveil 2."
+    }
+  ]
+}

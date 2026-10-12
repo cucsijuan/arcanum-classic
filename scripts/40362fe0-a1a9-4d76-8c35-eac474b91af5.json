@@ -1,0 +1,63 @@
+{
+  "name": "Mizzix's Mastery",
+  "overload": "{5}{R}{R}{R}",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "instant"
+              ]
+            },
+            {
+              "types": [
+                "sorcery"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "castCopy": "target"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Exile target card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery."
+  },
+  "overloaded": {
+    "effects": [
+      {
+        "exileGraveyard": "you",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "instant"
+              ]
+            },
+            {
+              "types": [
+                "sorcery"
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "castCopy": "exiled"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Exile each card that's an instant or sorcery from your graveyard. For each card exiled this way, copy it, and you may cast the copy without paying its mana cost. Exile Mizzix's Mastery."
+  }
+}

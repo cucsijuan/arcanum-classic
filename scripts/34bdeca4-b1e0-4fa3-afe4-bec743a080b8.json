@@ -1,0 +1,23 @@
+{
+  "name": "Gaelicat",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "count": 2
+        }
+      },
+      "text": "As long as you control two or more artifacts, this creature gets +2/+0."
+    }
+  ]
+}

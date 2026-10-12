@@ -1,0 +1,20 @@
+{
+  "name": "Bolas's Citadel",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {},
+  "libraryTopSpellsForLife": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrificeAny:artifact|creature|enchantment|planeswalker|battle*10",
+      "effects": [
+        {
+          "loseLife": 10,
+          "who": "opponents"
+        }
+      ],
+      "text": "{T}, Sacrifice ten nonland permanents: Each opponent loses 10 life."
+    }
+  ]
+}

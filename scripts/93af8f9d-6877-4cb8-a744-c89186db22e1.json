@@ -1,0 +1,48 @@
+{
+  "name": "Vayne's Treachery",
+  "kickerCost": {
+    "sacrifice": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "types": [
+            "artifact"
+          ]
+        }
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "pump": [
+              -6,
+              -6
+            ],
+            "what": "target"
+          }
+        ],
+        "else": [
+          {
+            "pump": [
+              -2,
+              -2
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets -2/-2 until end of turn. If this spell was kicked, that creature gets -6/-6 until end of turn instead."
+  }
+}

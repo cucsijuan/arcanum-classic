@@ -1,0 +1,64 @@
+{
+  "name": "Battle Menu",
+  "spell": {
+    "modes": [
+      {
+        "text": "Attack — Create a 2/2 white Knight creature token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Knight",
+              "types": "Creature — Knight",
+              "power": 2,
+              "toughness": 2,
+              "colors": [
+                "W"
+              ],
+              "keywords": []
+            }
+          }
+        ]
+      },
+      {
+        "text": "Ability — Target creature gets +0/+4 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              4
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Magic — Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Item — You gain 4 life.",
+        "effects": [
+          {
+            "gainLife": 4
+          }
+        ]
+      }
+    ]
+  }
+}

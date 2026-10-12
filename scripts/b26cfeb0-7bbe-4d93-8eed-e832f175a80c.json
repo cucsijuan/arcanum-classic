@@ -1,0 +1,5 @@
+{
+  "name": "Crossroads Village",
+  "chooseOnEnter": "color",
+  "manaFromChosenColor": true
+}

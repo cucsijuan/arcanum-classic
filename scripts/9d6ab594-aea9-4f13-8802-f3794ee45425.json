@@ -1,0 +1,33 @@
+{
+  "name": "Torgal, A Fine Hound",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "entersWithAdditionalCounters": "triggered",
+          "count": {
+            "count": {
+              "anyOf": [
+                {
+                  "subtype": "Dog"
+                },
+                {
+                  "subtype": "Wolf"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast your first Human creature spell each turn, that creature enters with an additional +1/+1 counter on it for each Dog and/or Wolf you control.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Human"
+      },
+      "nth": 1
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Louisoix's Sacrifice",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary"
+        }
+      }
+    },
+    {
+      "mana": "{2}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellOrAbility",
+        "filter": {
+          "not": [
+            "creature"
+          ]
+        },
+        "text": "target activated ability, triggered ability, or noncreature spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target activated ability, triggered ability, or noncreature spell."
+  }
+}

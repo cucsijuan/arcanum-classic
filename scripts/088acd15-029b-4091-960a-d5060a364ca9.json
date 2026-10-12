@@ -1,0 +1,40 @@
+{
+  "name": "Blazing Bomb",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, if at least four mana was spent to cast it, put a +1/+1 counter on this creature.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 4
+      }
+    },
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "Blow Up — {T}, Sacrifice this creature: It deals damage equal to its power to target creature. Activate only as a sorcery.",
+      "targets": [
+        "creature"
+      ],
+      "sorcery": true
+    }
+  ]
+}

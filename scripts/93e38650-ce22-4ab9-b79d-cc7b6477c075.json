@@ -1,0 +1,29 @@
+{
+  "name": "The Gold Saucer",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "flipCoin": true,
+          "won": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Flip a coin. If you win the flip, create a Treasure token."
+    },
+    {
+      "cost": "{3}, {T}, sacrifice:artifact*2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice two artifacts: Draw a card."
+    }
+  ]
+}

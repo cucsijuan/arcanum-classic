@@ -1,0 +1,22 @@
+{
+  "name": "The Lunar Whale",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {},
+  "playFromLibraryTopIf": "attackedThisTurn",
+  "abilities": [
+    {
+      "cost": "crew:1",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 1"
+    }
+  ]
+}

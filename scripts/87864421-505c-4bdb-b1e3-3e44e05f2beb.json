@@ -1,0 +1,35 @@
+{
+  "name": "From Father to Son",
+  "spell": {
+    "effects": [
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "search": {
+              "types": [
+                "artifact"
+              ],
+              "subtype": "Vehicle"
+            },
+            "to": "battlefield",
+            "reveal": true
+          }
+        ],
+        "else": [
+          {
+            "search": {
+              "types": [
+                "artifact"
+              ],
+              "subtype": "Vehicle"
+            },
+            "to": "hand",
+            "reveal": true
+          }
+        ]
+      }
+    ],
+    "text": "Search your library for a Vehicle card, reveal it, and put it into your hand. If this spell was cast from a graveyard, put that card onto the battlefield instead. Then shuffle."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Primeval Titan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true,
+          "optional": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true,
+          "optional": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

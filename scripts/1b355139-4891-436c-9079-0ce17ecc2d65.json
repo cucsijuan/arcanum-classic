@@ -1,0 +1,15 @@
+{
+  "name": "Vial Smasher the Fierce",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "damageRandomOpponent": "triggerAmount"
+        }
+      ],
+      "text": "Whenever you cast your first spell each turn, choose an opponent at random. Vial Smasher deals damage equal to that spell's mana value to that player or a planeswalker that player controls.",
+      "nth": 1
+    }
+  ]
+}

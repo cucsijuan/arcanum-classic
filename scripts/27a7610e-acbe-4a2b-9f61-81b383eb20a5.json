@@ -1,0 +1,32 @@
+{
+  "name": "The Regalia",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "revealUntil": {
+            "types": [
+              "land"
+            ]
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "Whenever The Regalia attacks, reveal cards from the top of your library until you reveal a land card. Put that card onto the battlefield tapped and the rest on the bottom of your library in a random order."
+    },
+    {
+      "cost": "crew:1",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 1"
+    }
+  ]
+}

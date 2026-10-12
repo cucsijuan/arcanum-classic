@@ -1,0 +1,46 @@
+{
+  "name": "Thunder Magic",
+  "spell": {
+    "modes": [
+      {
+        "text": "Thunder — {0} — Thunder Magic deals 2 damage to target creature.",
+        "cost": "{0}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Thundara — {3} — Thunder Magic deals 4 damage to target creature.",
+        "cost": "{3}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Thundaga — {5}{R} — Thunder Magic deals 8 damage to target creature.",
+        "cost": "{5}{R}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 8,
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

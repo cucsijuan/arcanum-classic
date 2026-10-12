@@ -1,0 +1,34 @@
+{
+  "name": "Ishgard, the Holy See // Faith & Grief",
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "upTo": 2,
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "eachTarget"
+        }
+      ],
+      "text": "Return up to two target artifact and/or enchantment cards from your graveyard to your hand."
+    }
+  }
+}

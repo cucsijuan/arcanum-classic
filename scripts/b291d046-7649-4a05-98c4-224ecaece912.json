@@ -1,0 +1,63 @@
+{
+  "name": "Crystal Fragments // Summon: Alexander",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    },
+    {
+      "cost": "{5}{W}{W}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{5}{W}{W}: Exile this Equipment, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "preventDamage": true,
+            "toYourCreatures": true
+          }
+        ],
+        "text": "I, II — Prevent all damage that would be dealt to creatures you control this turn.",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "tap": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ],
+        "text": "III — Tap all creatures your opponents control.",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  }
+}

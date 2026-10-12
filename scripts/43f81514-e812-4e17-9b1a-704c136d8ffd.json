@@ -1,0 +1,36 @@
+{
+  "name": "Al Bhed Salvagers",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature or another creature or artifact you control dies, target opponent loses 1 life and you gain 1 life.",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "artifact"
+            ]
+          }
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

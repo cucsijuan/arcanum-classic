@@ -1,0 +1,16 @@
+{
+  "name": "Syncopate",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "X",
+        "exileIfCountered": true
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {X}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard."
+  }
+}

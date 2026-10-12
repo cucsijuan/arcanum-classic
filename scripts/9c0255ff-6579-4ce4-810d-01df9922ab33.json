@@ -1,0 +1,62 @@
+{
+  "name": "Sidequest: Play Blitzball // World Champion, Celestial Weapon",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gets +2/+0 until end of turn.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "trigger": "endOfCombat",
+      "effects": [
+        {
+          "transform": "self"
+        },
+        {
+          "attach": "self",
+          "to": {
+            "choose": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the end of combat on your turn, if a player was dealt 6 or more combat damage this turn, transform this enchantment, then attach it to a creature you control.",
+      "when": "yourTurn",
+      "if": {
+        "playerDealtCombatDamage": 6
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "static": {
+          "affects": "equipped",
+          "pump": [
+            2,
+            0
+          ],
+          "keywords": [
+            "Double strike"
+          ]
+        },
+        "text": "Double Overdrive — Equipped creature gets +2/+0 and has double strike."
+      }
+    ]
+  }
+}

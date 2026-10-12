@@ -1,0 +1,53 @@
+{
+  "name": "Cryptic Command",
+  "spell": {
+    "chooseCount": 2,
+    "modes": [
+      {
+        "text": "Counter target spell.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target permanent to its owner's hand.",
+        "targets": [
+          "permanent"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Tap all creatures your opponents control.",
+        "effects": [
+          {
+            "tap": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Draw a card.",
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

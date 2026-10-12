@@ -1,0 +1,28 @@
+{
+  "name": "Buster Sword",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +3/+2."
+    },
+    {
+      "trigger": "equippedCombatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "castFromHandFree": {},
+          "maxManaValue": "triggerAmount"
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, draw a card, then you may cast a spell from your hand with mana value less than or equal to that damage without paying its mana cost."
+    }
+  ]
+}

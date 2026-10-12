@@ -1,0 +1,44 @@
+{
+  "name": "Fatal Push",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": {
+          "all": [
+            "yourPermanentLeft",
+            {
+              "target": "target",
+              "is": {
+                "maxManaValue": 4
+              }
+            }
+          ]
+        },
+        "then": [
+          {
+            "destroy": "target"
+          }
+        ],
+        "else": [
+          {
+            "if": {
+              "target": "target",
+              "is": {
+                "maxManaValue": 2
+              }
+            },
+            "then": [
+              {
+                "destroy": "target"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target creature if it has mana value 2 or less. Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn."
+  }
+}

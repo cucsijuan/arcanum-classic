@@ -1,0 +1,39 @@
+{
+  "name": "Giott, King of the Dwarves",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Giott or another Dwarf you control enters and whenever an Equipment you control enters, you may discard a card. If you do, draw a card.",
+      "filter": {
+        "controller": "you",
+        "anyOf": [
+          {
+            "self": true
+          },
+          {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dwarf"
+          },
+          {
+            "subtype": "Equipment"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Commune with Beavers",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 3,
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "land"
+              ]
+            }
+          ]
+        },
+        "take": 1,
+        "reveal": true,
+        "restAnyOrder": true
+      }
+    ],
+    "text": "Look at the top three cards of your library. You may reveal an artifact, creature, or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order."
+  }
+}

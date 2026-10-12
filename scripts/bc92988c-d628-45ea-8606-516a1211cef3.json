@@ -1,0 +1,39 @@
+{
+  "name": "Prishe's Wanderings",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "anyOf": [
+            {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic"
+            },
+            {
+              "subtype": "Town"
+            }
+          ]
+        },
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "whenYouDo": {
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ],
+          "text": "When you search your library this way, put a +1/+1 counter on target creature you control."
+        }
+      }
+    ],
+    "text": "Search your library for a basic land card or Town card, put it onto the battlefield tapped, then shuffle. When you search your library this way, put a +1/+1 counter on target creature you control."
+  }
+}

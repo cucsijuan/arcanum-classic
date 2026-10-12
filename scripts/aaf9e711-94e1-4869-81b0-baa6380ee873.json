@@ -1,0 +1,56 @@
+{
+  "name": "Summon: Primal Garuda",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "I — Aerial Blast — This creature deals 4 damage to target tapped creature an opponent controls.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "tapped": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "keywords": [
+            "Flying"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "II, III — Slipstream — Another target creature you control gets +1/+0 and gains flying until end of turn.",
+      "chapters": [
+        2,
+        3
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ]
+    }
+  ]
+}

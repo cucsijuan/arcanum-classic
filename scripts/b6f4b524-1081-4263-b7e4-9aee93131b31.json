@@ -1,0 +1,50 @@
+{
+  "name": "Ultros, Obnoxious Octopus",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, if at least four mana was spent to cast it, tap target creature an opponent controls and put a stun counter on it.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 4
+      }
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 8,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, if at least eight mana was spent to cast it, put eight +1/+1 counters on Ultros.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "if": {
+        "atLeast": "manaSpent",
+        "value": 8
+      }
+    }
+  ]
+}

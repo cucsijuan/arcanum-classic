@@ -1,0 +1,133 @@
+{
+  "name": "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Sephiroth enters or attacks, you may sacrifice another creature. If you do, draw a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Sephiroth enters or attacks, you may sacrifice another creature. If you do, draw a card."
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 4,
+            "exactly": true
+          },
+          "then": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature dies, target opponent loses 1 life and you gain 1 life. If this is the fourth time this ability has resolved this turn, transform Sephiroth.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "targets": [
+        "opponent"
+      ]
+    }
+  ],
+  "back": {
+    "asTransformsInto": [
+      {
+        "emblem": "Sephiroth, One-Winged Angel",
+        "abilities": [
+          {
+            "trigger": "creatureDies",
+            "effects": [
+              {
+                "loseLife": 1,
+                "who": "target"
+              },
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Whenever a creature dies, target opponent loses 1 life and you gain 1 life.",
+            "filter": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            },
+            "targets": [
+              "opponent"
+            ]
+          }
+        ]
+      }
+    ],
+    "abilities": [
+      {
+        "trigger": "attacks",
+        "effects": [
+          {
+            "sacrificeAnyNumber": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          {
+            "draw": "sacrificedThisWay"
+          }
+        ],
+        "text": "Whenever Sephiroth attacks, you may sacrifice any number of other creatures. If you do, draw that many cards."
+      }
+    ]
+  }
+}

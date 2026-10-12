@@ -1,0 +1,36 @@
+{
+  "name": "PuPu UFO",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "one": true
+        }
+      ],
+      "text": "{T}: You may put a land card from your hand onto the battlefield."
+    },
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "become": "self",
+          "powerFrom": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Town"
+            }
+          }
+        }
+      ],
+      "text": "{3}: Until end of turn, this creature's base power becomes equal to the number of Towns you control."
+    }
+  ]
+}

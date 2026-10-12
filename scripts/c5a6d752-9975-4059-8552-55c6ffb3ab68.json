@@ -1,0 +1,29 @@
+{
+  "name": "Rook Turret",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "may": "Draw a card, then discard a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another artifact you control enters, you may draw a card. If you do, discard a card.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "other": true,
+        "controller": "you"
+      }
+    }
+  ]
+}

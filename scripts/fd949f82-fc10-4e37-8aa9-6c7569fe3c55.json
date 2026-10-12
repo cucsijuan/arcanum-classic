@@ -1,0 +1,64 @@
+{
+  "name": "Akroma's Will",
+  "spell": {
+    "extraModeIf": {
+      "control": {
+        "commander": true
+      }
+    },
+    "modes": [
+      {
+        "text": "Creatures you control gain flying, vigilance, and double strike until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Flying",
+              "Vigilance",
+              "Double strike"
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control gain lifelink, indestructible, and protection from each color until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Lifelink",
+              "Indestructible",
+              "Protection from white",
+              "Protection from blue",
+              "Protection from black",
+              "Protection from red",
+              "Protection from green"
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

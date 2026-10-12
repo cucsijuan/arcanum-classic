@@ -1,0 +1,23 @@
+{
+  "name": "Matoya, Archon Elder",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you scry or surveil, draw a card. (Draw after you scry or surveil.)"
+    },
+    {
+      "trigger": "youSurveil",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you scry or surveil, draw a card. (Draw after you scry or surveil.)"
+    }
+  ]
+}

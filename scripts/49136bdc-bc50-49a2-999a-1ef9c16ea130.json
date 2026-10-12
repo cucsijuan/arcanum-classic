@@ -1,0 +1,34 @@
+{
+  "name": "Smuggler's Copter",
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "may": "Draw a card, then discard a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this Vehicle attacks or blocks, you may draw a card. If you do, discard a card."
+    },
+    {
+      "cost": "crew:1",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 1"
+    }
+  ]
+}

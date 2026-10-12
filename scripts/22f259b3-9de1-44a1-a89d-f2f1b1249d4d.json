@@ -1,0 +1,37 @@
+{
+  "name": "Opera Love Song",
+  "spell": {
+    "modes": [
+      {
+        "text": "Exile the top two cards of your library. You may play those cards until your next end step.",
+        "effects": [
+          {
+            "exileTopPlayable": 2,
+            "chooseOne": false,
+            "untilYourNextEndStep": true
+          }
+        ]
+      },
+      {
+        "text": "One or two target creatures each get +2/+0 until end of turn.",
+        "targets": [
+          "creature",
+          {
+            "kind": "creature",
+            "optional": true
+          }
+        ],
+        "targetRule": "allDifferent",
+        "effects": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": "eachTarget"
+          }
+        ]
+      }
+    ]
+  }
+}

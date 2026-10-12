@@ -1,0 +1,22 @@
+{
+  "name": "Valkyrie Aerial Unit",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this creature enters, surveil 2."
+    }
+  ]
+}

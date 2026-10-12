@@ -1,0 +1,41 @@
+{
+  "name": "Galuf's Final Act",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "become": "target",
+        "abilities": [
+          {
+            "trigger": "dies",
+            "effects": [
+              {
+                "counters": {
+                  "power": "self"
+                },
+                "what": "target"
+              }
+            ],
+            "text": "When this creature dies, put a number of +1/+1 counters equal to its power on up to one target creature.",
+            "targets": [
+              {
+                "kind": "creature",
+                "optional": true
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Until end of turn, target creature gets +1/+0 and gains \"When this creature dies, put a number of +1/+1 counters equal to its power on up to one target creature.\""
+  }
+}

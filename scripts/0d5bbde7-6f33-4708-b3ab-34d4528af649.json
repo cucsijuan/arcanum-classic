@@ -1,0 +1,43 @@
+{
+  "name": "Magitek Scythe",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Attach this Equipment to that creature?",
+          "effects": [
+            {
+              "attach": "target"
+            },
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "keywords": [
+                "First strike",
+                "Must be blocked"
+              ],
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "A Test of Your Reflexes! — When this Equipment enters, you may attach it to target creature you control. If you do, that creature gains first strike until end of turn and must be blocked this turn if able.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    }
+  ]
+}

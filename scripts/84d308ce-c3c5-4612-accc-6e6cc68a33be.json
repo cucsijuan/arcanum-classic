@@ -1,0 +1,41 @@
+{
+  "name": "Stuck in Summoner's Sanctum",
+  "aura": {
+    "kind": "permanent",
+    "filter": {
+      "anyOf": [
+        {
+          "types": [
+            "artifact"
+          ]
+        },
+        {
+          "types": [
+            "creature"
+          ]
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "attached"
+        }
+      ],
+      "text": "When this Aura enters, tap enchanted permanent."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Doesn't untap"
+        ],
+        "cantActivate": true
+      },
+      "text": "Enchanted permanent doesn't untap during its controller's untap step and its activated abilities can't be activated."
+    }
+  ]
+}

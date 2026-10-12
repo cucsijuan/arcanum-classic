@@ -1,0 +1,80 @@
+{
+  "name": "Najeela, the Blade-Blossom",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "may": "Have its controller create a 1/1 white Warrior creature token that's tapped and attacking?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Warrior",
+                "types": "Creature — Warrior",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": []
+              },
+              "for": "triggered",
+              "tapped": true,
+              "attackingChosenDefender": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Warrior attacks, you may have its controller create a 1/1 white Warrior creature token that's tapped and attacking.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Warrior",
+        "controller": "any"
+      }
+    },
+    {
+      "cost": "{W}{U}{B}{R}{G}",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "controller": "any"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Trample",
+            "Lifelink",
+            "Haste"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "controller": "any"
+            }
+          }
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "{W}{U}{B}{R}{G}: Untap all attacking creatures. They gain trample, lifelink, and haste until end of turn. After this phase, there is an additional combat phase. Activate only during combat.",
+      "activateIf": "duringCombat"
+    }
+  ]
+}

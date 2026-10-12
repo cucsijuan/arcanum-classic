@@ -1,0 +1,72 @@
+{
+  "name": "Sidequest: Hunt the Mark // Yiazmat, Ultimate Mark",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this enchantment enters, destroy up to one target creature.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "artifact"
+              ],
+              "subtype": "Treasure"
+            },
+            "count": 3
+          },
+          "then": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, if a creature died under an opponent's control this turn, create a Treasure token. Then if you control three or more Treasures, transform this enchantment.",
+      "if": {
+        "opponentsCreaturesDied": 1
+      }
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "{1}{B}, sacrifice:artifact|creature",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Indestructible"
+            ],
+            "what": "self"
+          },
+          {
+            "tap": "self"
+          }
+        ],
+        "text": "{1}{B}, Sacrifice another creature or artifact: Yiazmat gains indestructible until end of turn. Tap it."
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Scorpion Sentinel",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          3,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 7
+        }
+      },
+      "text": "As long as you control seven or more lands, this creature gets +3/+0."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Summon: Leviathan",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "bounceAll": {
+            "types": [
+              "creature"
+            ],
+            "notSubtypes": [
+              "Kraken",
+              "Leviathan",
+              "Merfolk",
+              "Octopus",
+              "Serpent"
+            ]
+          }
+        }
+      ],
+      "text": "I — Return each creature that isn't a Kraken, Leviathan, Merfolk, Octopus, or Serpent to its owner's hand.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "emblem": "Leviathan",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureAttacks",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "anyOf": [
+                  {
+                    "subtype": "Kraken"
+                  },
+                  {
+                    "subtype": "Leviathan"
+                  },
+                  {
+                    "subtype": "Merfolk"
+                  },
+                  {
+                    "subtype": "Octopus"
+                  },
+                  {
+                    "subtype": "Serpent"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "II, III — Until end of turn, whenever a Kraken, Leviathan, Merfolk, Octopus, or Serpent attacks, draw a card.",
+      "chapters": [
+        2,
+        3
+      ]
+    }
+  ]
+}

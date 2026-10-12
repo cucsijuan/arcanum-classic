@@ -1,0 +1,23 @@
+{
+  "name": "Beatrix, Loyal General",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "attachAnyNumber": {
+            "types": [
+              "artifact"
+            ],
+            "subtype": "Equipment"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may attach any number of Equipment you control to target creature you control.",
+      "targets": [
+        "creature:you"
+      ]
+    }
+  ]
+}

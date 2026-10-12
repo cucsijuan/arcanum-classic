@@ -1,0 +1,32 @@
+{
+  "name": "Machinist's Arsenal",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "times": 2
+          },
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "times": 2
+          }
+        ],
+        "addSubtypes": [
+          "Artificer"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 for each artifact you control and is an Artificer in addition to its other types."
+    }
+  ]
+}

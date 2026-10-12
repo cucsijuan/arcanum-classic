@@ -1,0 +1,32 @@
+{
+  "name": "Raubahn, Bull of Ala Mhigo",
+  "wardLifeFromPower": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "attach": "target",
+          "to": "target2"
+        }
+      ],
+      "text": "Whenever Raubahn attacks, attach up to one target Equipment you control to target attacking creature.",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "subtype": "Equipment"
+          }
+        },
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          }
+        }
+      ]
+    }
+  ]
+}

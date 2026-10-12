@@ -1,0 +1,20 @@
+{
+  "name": "Swallowed by Leviathan",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "surveil": 2
+      },
+      {
+        "counter": "target",
+        "unlessPays": {
+          "graveyard": {}
+        }
+      }
+    ],
+    "text": "Choose target spell. Surveil 2, then counter the chosen spell unless its controller pays {1} for each card in your graveyard."
+  }
+}

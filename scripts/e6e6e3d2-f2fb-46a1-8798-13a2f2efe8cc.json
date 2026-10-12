@@ -1,0 +1,75 @@
+{
+  "name": "The Wandering Minstrel",
+  "replaces": [
+    "YourLandsEnterUntapped"
+  ],
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W",
+              "U",
+              "B",
+              "R",
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "The Minstrel's Ballad — At the beginning of combat on your turn, if you control five or more Towns, create a 2/2 Elemental creature token that's all colors.",
+      "if": {
+        "control": {
+          "types": [
+            "land"
+          ],
+          "subtype": "Town"
+        },
+        "count": 5
+      }
+    },
+    {
+      "cost": "{3}{W}{U}{B}{R}{G}",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "land"
+                ],
+                "subtype": "Town"
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "land"
+                ],
+                "subtype": "Town"
+              }
+            }
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "{3}{W}{U}{B}{R}{G}: Other creatures you control get +X/+X until end of turn, where X is the number of Towns you control."
+    }
+  ]
+}

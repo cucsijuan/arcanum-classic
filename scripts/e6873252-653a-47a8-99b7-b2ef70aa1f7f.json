@@ -1,0 +1,23 @@
+{
+  "name": "Ancient Adamantoise",
+  "replaces": [
+    "DamageNotRemovedInCleanup",
+    "RedirectYourDamageToSelf"
+  ],
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "exile": "self"
+        },
+        {
+          "tokens": 10,
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "When this creature dies, exile it and create ten tapped Treasure tokens."
+    }
+  ]
+}

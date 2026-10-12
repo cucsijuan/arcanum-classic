@@ -1,0 +1,117 @@
+{
+  "name": "Dion, Bahamut's Dominant // Bahamut, Warden of Light",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Flying"
+        ],
+        "filter": {
+          "anyOf": [
+            {
+              "self": true
+            },
+            {
+              "subtype": "Knight"
+            }
+          ]
+        },
+        "while": "yourTurn"
+      },
+      "text": "Dragonfire Dive — During your turn, Dion and other Knights you control have flying."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Knight",
+            "types": "Creature — Knight",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When Dion enters, create a 2/2 white Knight creature token."
+    },
+    {
+      "cost": "{4}{W}{W}, {T}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "other": true
+              }
+            }
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Flying"
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "other": true
+              }
+            }
+          }
+        ],
+        "text": "I, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn.",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "destroy": "target"
+          },
+          {
+            "blink": "self"
+          }
+        ],
+        "text": "III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).",
+        "chapters": [
+          3
+        ],
+        "targets": [
+          "permanent"
+        ]
+      }
+    ]
+  }
+}

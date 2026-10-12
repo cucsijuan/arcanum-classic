@@ -1,0 +1,47 @@
+{
+  "name": "Tifa's Limit Break",
+  "spell": {
+    "modes": [
+      {
+        "text": "Somersault — {0} — Target creature gets +2/+2 until end of turn.",
+        "cost": "{0}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Meteor Strikes — {2} — Double target creature's power and toughness until end of turn.",
+        "cost": "{2}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "doublePowerAndToughness": "target"
+          }
+        ]
+      },
+      {
+        "text": "Final Heaven — {6}{G} — Triple target creature's power and toughness until end of turn.",
+        "cost": "{6}{G}",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "triplePowerAndToughness": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

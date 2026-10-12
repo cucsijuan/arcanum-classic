@@ -1,0 +1,28 @@
+{
+  "name": "Stolen Uniform",
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "artifact",
+        "filter": {
+          "subtype": "Equipment"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "gainControl": "target2",
+        "untilEndOfTurn": true
+      },
+      {
+        "attach": "target2",
+        "to": "target"
+      },
+      {
+        "unattachWhenControlLost": "target2"
+      }
+    ],
+    "text": "Choose target creature you control and target Equipment. Gain control of that Equipment until end of turn. Attach it to the chosen creature. When you lose control of that Equipment this turn, if it's attached to a creature you control, unattach it."
+  }
+}

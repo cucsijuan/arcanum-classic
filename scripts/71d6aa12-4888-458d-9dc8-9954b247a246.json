@@ -1,0 +1,14 @@
+{
+  "name": "Resentful Revelation",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 3,
+        "take": 1,
+        "required": true,
+        "rest": "graveyard"
+      }
+    ],
+    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard."
+  }
+}

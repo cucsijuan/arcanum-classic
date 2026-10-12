@@ -1,0 +1,55 @@
+{
+  "name": "Inalla, Archmage Ritualist",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "mayPay": "Pay {1} to create a token copy of that Wizard?",
+          "mana": "{1}",
+          "effects": [
+            {
+              "copy": "triggered",
+              "gainsHaste": true,
+              "atNextEndStep": [
+                {
+                  "exile": "triggered"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Eminence — Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Wizard",
+        "token": false,
+        "other": true,
+        "controller": "you"
+      },
+      "fromCommandZone": true
+    },
+    {
+      "cost": "tapPermanents:5:creature",
+      "effects": [
+        {
+          "loseLife": 7,
+          "who": "target"
+        }
+      ],
+      "text": "Tap five untapped Wizards you control: Target player loses 7 life.",
+      "targets": [
+        "player"
+      ],
+      "tapFilter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Wizard"
+      }
+    }
+  ]
+}

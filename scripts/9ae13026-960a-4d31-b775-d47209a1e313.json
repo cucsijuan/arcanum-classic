@@ -1,0 +1,58 @@
+{
+  "name": "Ardyn, the Usurper",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Demon",
+        "keywords": [
+          "Menace",
+          "Lifelink",
+          "Haste"
+        ]
+      },
+      "text": "Demons you control have menace, lifelink, and haste."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "exiled": {}
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "copy": "exiled",
+              "setPower": 5,
+              "setToughness": 5,
+              "setColors": [
+                "B"
+              ],
+              "setSubtypes": [
+                "Demon"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Starscourge — At the beginning of combat on your turn, exile up to one target creature card from a graveyard. If you exiled a card this way, create a token that's a copy of that card, except it's a 5/5 black Demon.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Reach the Horizon",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "anyOf": [
+            {
+              "types": [
+                "land"
+              ],
+              "supertype": "basic"
+            },
+            {
+              "subtype": "Town"
+            }
+          ]
+        },
+        "count": 2,
+        "to": "battlefield",
+        "tapped": true,
+        "differentNames": true
+      }
+    ],
+    "text": "Search your library for up to two basic land cards and/or Town cards with different names, put them onto the battlefield tapped, then shuffle."
+  }
+}

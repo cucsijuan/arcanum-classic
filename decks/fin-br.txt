@@ -1,0 +1,38 @@
+1 Ahriman (FIN) 87
+1 Al Bhed Salvagers (FIN) 88
+1 Barret Wallace (FIN) 129
+1 Black Waltz No. 3 (FIN) 214
+1 Dark Confidant (FIN) 94
+1 Demon Wall (FIN) 97
+1 Firion, Wild Rose Warrior (FIN) 137
+1 Gaius van Baelsar (FIN) 102
+1 Gilgamesh, Master-at-Arms (FIN) 139
+1 Hecteyes (FIN) 103
+1 Hill Gigas (FIN) 141
+1 Item Shopkeep (FIN) 142
+1 Lightning, Security Sergeant (FIN) 462
+1 Mysidian Elder (FIN) 145
+1 Namazu Trader (FIN) 107
+1 Queen Brahne (FIN) 149
+1 Qutrub Forayer (FIN) 112
+1 Raubahn, Bull of Ala Mhigo (FIN) 151
+1 Reno and Rude (FIN) 113
+1 Sabotender (FIN) 153
+1 Sandworm (FIN) 155
+1 Seymour Flux (FIN) 452
+1 Aettir and Priwen (FIN) 253
+1 Call the Mountain Chocobo (FIN) 131
+1 Choco-Comet (FIN) 132
+1 Circle of Power (FIN) 92
+1 Coral Sword (FIN) 134
+1 Cornered by Black Mages (FIN) 93
+1 Deadly Embrace (FIN) 557
+1 Evil Reawakened (FIN) 98
+1 Fight On! (FIN) 100
+1 Haste Magic (FIN) 140
+1 Instant Ramen (FIN) 259
+1 Judgment Bolt (FIN) 559
+1 Laughing Mad (FIN) 143
+1 Light of Judgment (FIN) 144
+12 Swamp (FIN) 300
+12 Mountain (FIN) 303

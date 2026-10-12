@@ -1,0 +1,52 @@
+{
+  "name": "Gix, Yawgmoth Praetor",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "mayPay": "Pay 1 life to draw a card?",
+              "cost": {
+                "life": 1
+              },
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ]
+            }
+          ],
+          "who": "triggered"
+        }
+      ],
+      "text": "Whenever a creature deals combat damage to one of your opponents, its controller may pay 1 life. If they do, they draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "when": {
+        "not": "triggeredPlayerIsYou"
+      }
+    },
+    {
+      "cost": "{4}{B}{B}{B}, discard:X",
+      "effects": [
+        {
+          "exileTopPlayable": "X",
+          "of": "target",
+          "free": true,
+          "forever": true,
+          "chooseOne": false
+        }
+      ],
+      "text": "{4}{B}{B}{B}, Discard X cards: Exile the top X cards of target opponent's library. You may play lands and cast spells from among cards exiled this way without paying their mana costs.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

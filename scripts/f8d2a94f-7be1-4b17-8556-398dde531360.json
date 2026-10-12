@@ -1,0 +1,29 @@
+{
+  "name": "The Water Crystal",
+  "replaces": [
+    "OpponentsMillFourMore"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "U"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Blue spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{4}{U}{U}, {T}",
+      "effects": [
+        {
+          "mill": "handSize",
+          "who": "opponents"
+        }
+      ],
+      "text": "{4}{U}{U}, {T}: Each opponent mills cards equal to the number of cards in your hand."
+    }
+  ]
+}

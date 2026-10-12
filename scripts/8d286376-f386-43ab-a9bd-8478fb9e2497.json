@@ -1,0 +1,17 @@
+{
+  "name": "Light Up the Stage",
+  "alternativeCost": {
+    "cost": "{R}",
+    "if": "opponentLostLife"
+  },
+  "spell": {
+    "effects": [
+      {
+        "exileTopPlayable": 2,
+        "chooseOne": false,
+        "untilNextTurn": true
+      }
+    ],
+    "text": "Exile the top two cards of your library. Until the end of your next turn, you may play those cards."
+  }
+}

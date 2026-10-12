@@ -1,0 +1,36 @@
+{
+  "name": "Ninja's Blades",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "addSubtypes": [
+          "Ninja"
+        ],
+        "grants": [
+          {
+            "trigger": "combatDamageToPlayer",
+            "effects": [
+              {
+                "draw": 1
+              },
+              {
+                "discard": 1
+              },
+              {
+                "loseLife": "discardedManaValue",
+                "who": "triggeredPlayer"
+              }
+            ],
+            "text": "Whenever this creature deals combat damage to a player, draw a card, then discard a card. That player loses life equal to the discarded card's mana value."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1, is a Ninja in addition to its other types, and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card. That player loses life equal to the discarded card's mana value.\""
+    }
+  ]
+}

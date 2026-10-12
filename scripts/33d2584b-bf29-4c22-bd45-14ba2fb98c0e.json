@@ -1,0 +1,34 @@
+{
+  "name": "Cloud, Midgar Mercenary",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "artifact"
+            ],
+            "subtype": "Equipment"
+          },
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "When Cloud enters, search your library for an Equipment card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "extraTriggers": true,
+        "extraTriggersAttached": true,
+        "while": {
+          "sourceIs": {
+            "equipped": true
+          }
+        }
+      },
+      "text": "As long as Cloud is equipped, if a triggered ability of Cloud or an Equipment attached to it triggers, that ability triggers an additional time."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Airship Crash",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target artifact, enchantment, or creature with flying."
+  }
+}

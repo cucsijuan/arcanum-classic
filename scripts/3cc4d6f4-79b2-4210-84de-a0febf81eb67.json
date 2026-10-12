@@ -1,0 +1,33 @@
+{
+  "name": "Slash of Light",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": {
+          "sum": [
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "artifact"
+                ],
+                "subtype": "Equipment"
+              }
+            }
+          ]
+        },
+        "to": "target"
+      }
+    ],
+    "text": "Slash of Light deals damage equal to the number of creatures you control plus the number of Equipment you control to target creature."
+  }
+}

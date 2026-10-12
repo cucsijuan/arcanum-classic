@@ -1,0 +1,21 @@
+{
+  "name": "Elixir",
+  "abilities": [
+    {
+      "cost": "{5}, {T}, exile",
+      "effects": [
+        {
+          "shuffleFromGraveyard": {
+            "not": [
+              "land"
+            ]
+          }
+        },
+        {
+          "gainLife": "returned"
+        }
+      ],
+      "text": "{5}, {T}, Exile this artifact: Shuffle all nonland cards from your graveyard into your library. You gain life equal to the number of cards shuffled into your library this way."
+    }
+  ]
+}

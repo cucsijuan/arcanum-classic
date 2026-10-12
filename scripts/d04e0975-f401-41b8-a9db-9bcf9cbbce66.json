@@ -1,0 +1,12 @@
+{
+  "name": "Starting Town",
+  "entersTappedUnless": {
+    "yourTurnNumberAtMost": 3
+  },
+  "extraMana": [
+    {
+      "types": "any",
+      "lifeCost": 1
+    }
+  ]
+}

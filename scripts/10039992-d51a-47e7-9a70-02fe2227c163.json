@@ -1,0 +1,42 @@
+{
+  "name": "Mysidian Elder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wizard",
+            "types": "Creature — Wizard",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "castSpell",
+                "effects": [
+                  {
+                    "damage": 1,
+                    "to": "opponents"
+                  }
+                ],
+                "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.",
+                "filter": {
+                  "not": [
+                    "creature"
+                  ]
+                }
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 0/1 black Wizard creature token with \"Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.\""
+    }
+  ]
+}

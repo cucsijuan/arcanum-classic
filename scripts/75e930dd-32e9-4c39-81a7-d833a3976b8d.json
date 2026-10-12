@@ -1,0 +1,44 @@
+{
+  "name": "Garland, Knight of Cornelia // Chaos, the Endless",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, surveil 1.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    },
+    {
+      "cost": "{3}{B}{B}{R}{R}, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{3}{B}{B}{R}{R}: Return this card from your graveyard to the battlefield transformed. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "dies",
+        "effects": [
+          {
+            "toLibrary": "self",
+            "bottom": true
+          }
+        ],
+        "text": "When Chaos dies, put it on the bottom of its owner's library."
+      }
+    ]
+  }
+}

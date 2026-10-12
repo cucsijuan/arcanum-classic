@@ -1,0 +1,30 @@
+{
+  "name": "Fate of the Sun-Cryst",
+  "costReduction": {
+    "amount": 2,
+    "ifTargets": {
+      "types": [
+        "creature"
+      ],
+      "tapped": true
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target nonland permanent."
+  }
+}

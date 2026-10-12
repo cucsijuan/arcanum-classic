@@ -1,0 +1,17 @@
+{
+  "name": "Shinra Reinforcements",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, mill three cards and you gain 3 life."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ultimecia, Temporal Threat",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "When Ultimecia enters, tap all creatures your opponents control."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      }
+    }
+  ]
+}

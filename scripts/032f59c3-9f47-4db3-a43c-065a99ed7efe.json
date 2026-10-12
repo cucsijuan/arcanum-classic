@@ -1,0 +1,61 @@
+{
+  "name": "Summon: Primal Odin",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "I — Gungnir — Destroy target creature an opponent controls.",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "creature:opponent"
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "become": "self",
+          "permanent": true,
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayer",
+              "effects": [
+                {
+                  "loseGame": true,
+                  "who": "triggeredPlayer"
+                }
+              ],
+              "text": "Whenever this creature deals combat damage to a player, that player loses the game."
+            }
+          ]
+        }
+      ],
+      "text": "II — Zantetsuken — This creature gains \"Whenever this creature deals combat damage to a player, that player loses the game.\"",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "loseLife": 2,
+          "who": "everyone"
+        }
+      ],
+      "text": "III — Hall of Sorrow — Draw two cards. Each player loses 2 life.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

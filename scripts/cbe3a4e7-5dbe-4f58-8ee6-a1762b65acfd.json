@@ -1,0 +1,21 @@
+{
+  "name": "K'rrik, Son of Yawgmoth",
+  "payLifeForBlackMana": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a black spell, put a +1/+1 counter on K'rrik.",
+      "filter": {
+        "colors": [
+          "B"
+        ]
+      }
+    }
+  ]
+}

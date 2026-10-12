@@ -1,0 +1,31 @@
+{
+  "name": "Zanarkand, Ancient Metropolis // Lasting Fayth",
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Hero",
+            "types": "Creature — Hero",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": []
+          }
+        },
+        {
+          "counters": {
+            "count": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "what": "created"
+        }
+      ],
+      "text": "Create a 1/1 colorless Hero creature token. Put a +1/+1 counter on it for each land you control."
+    }
+  }
+}

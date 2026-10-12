@@ -1,0 +1,24 @@
+{
+  "name": "Phantom Train",
+  "abilities": [
+    {
+      "cost": "sacrifice:artifact|creature",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Spirit"
+          ]
+        }
+      ],
+      "text": "Sacrifice another artifact or creature: Put a +1/+1 counter on this Vehicle. It becomes a Spirit artifact creature in addition to its other types until end of turn."
+    }
+  ]
+}

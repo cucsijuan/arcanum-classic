@@ -1,0 +1,73 @@
+{
+  "name": "Vaan, Street Thief",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "exileTop": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "castExiledNow": "exiled",
+          "else": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more Scouts, Pirates, and/or Rogues you control deal combat damage to a player, exile the top card of that player's library. You may cast it. If you don't, create a Treasure token.",
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Scout"
+          },
+          {
+            "subtype": "Pirate"
+          },
+          {
+            "subtype": "Rogue"
+          }
+        ],
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "batchedPerPlayer": true
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "anyOf": [
+                {
+                  "subtype": "Scout"
+                },
+                {
+                  "subtype": "Pirate"
+                },
+                {
+                  "subtype": "Rogue"
+                }
+              ],
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a spell you don't own, put a +1/+1 counter on each Scout, Pirate, and Rogue you control.",
+      "filter": {
+        "notOwnedByYou": true
+      }
+    }
+  ]
+}

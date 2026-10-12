@@ -1,0 +1,26 @@
+{
+  "name": "Light of Judgment",
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "artifact",
+        "optional": true,
+        "attachedToTarget": "target",
+        "filter": {
+          "subtype": "Equipment"
+        }
+      }
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "destroy": "target2"
+      }
+    ],
+    "text": "Light of Judgment deals 6 damage to target creature. Destroy up to one Equipment attached to that creature."
+  }
+}

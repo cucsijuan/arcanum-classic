@@ -1,0 +1,74 @@
+{
+  "name": "Summon: Titan",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "mill": 5
+        }
+      ],
+      "text": "I — Mill five cards.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "reanimateAll": {
+            "types": [
+              "land"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "II — Return all land cards from your graveyard to the battlefield tapped.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            }
+          ],
+          "keywords": [
+            "Trample"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "III — Until end of turn, another target creature you control gains trample and gets +X/+X, where X is the number of lands you control.",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ]
+    }
+  ]
+}

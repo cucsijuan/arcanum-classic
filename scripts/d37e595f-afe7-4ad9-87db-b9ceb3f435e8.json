@@ -1,0 +1,26 @@
+{
+  "name": "Ring of the Lucii",
+  "tapForMana": "{C}",
+  "manaAmount": 2,
+  "abilities": [
+    {
+      "cost": "{2}, {T}, life:1",
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{2}, {T}, Pay 1 life: Tap target nonland permanent.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

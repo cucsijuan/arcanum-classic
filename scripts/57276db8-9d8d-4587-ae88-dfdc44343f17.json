@@ -1,0 +1,42 @@
+{
+  "name": "The Fire Crystal",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "R"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Red spells you cast cost {1} less to cast."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creatures you control have haste."
+    },
+    {
+      "cost": "{4}{R}{R}, {T}",
+      "effects": [
+        {
+          "copy": "target",
+          "atNextEndStep": [
+            {
+              "sacrificeIt": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "{4}{R}{R}, {T}: Create a token that's a copy of target creature you control. Sacrifice it at the beginning of the next end step.",
+      "targets": [
+        "creature:you"
+      ]
+    }
+  ]
+}

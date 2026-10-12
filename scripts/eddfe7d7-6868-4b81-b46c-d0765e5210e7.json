@@ -1,0 +1,37 @@
+{
+  "name": "Gysahl Greens",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Bird",
+          "types": "Creature — Bird",
+          "power": 2,
+          "toughness": 2,
+          "colors": [
+            "G"
+          ],
+          "keywords": [],
+          "abilities": [
+            {
+              "trigger": "landfall",
+              "effects": [
+                {
+                  "pump": [
+                    1,
+                    0
+                  ],
+                  "what": "self"
+                }
+              ],
+              "text": "Whenever a land you control enters, this token gets +1/+0 until end of turn."
+            }
+          ],
+          "text": "Whenever a land you control enters, this token gets +1/+0 until end of turn."
+        }
+      }
+    ],
+    "text": "Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\""
+  }
+}

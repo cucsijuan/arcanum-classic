@@ -1,0 +1,30 @@
+{
+  "name": "Item Shopkeep",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Menace"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack, target attacking equipped creature gains menace until end of turn.",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true,
+            "equipped": true
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Clash of the Eikons",
+  "spell": {
+    "chooseCount": 3,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Target creature you control fights target creature an opponent controls.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Remove a lore counter from target Saga you control.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "subtype": "Saga"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "removeCounters": 1,
+            "kind": "lore",
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a lore counter on target Saga you control.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "subtype": "Saga"
+            }
+          }
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "kind": "lore",
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

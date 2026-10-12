@@ -1,0 +1,24 @@
+{
+  "name": "Cargo Ship",
+  "tapForMana": "{C}",
+  "manaOnlyFor": {
+    "types": [
+      "artifact"
+    ]
+  },
+  "manaOnlyForAbilitiesToo": true,
+  "abilities": [
+    {
+      "cost": "crew:1",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 1"
+    }
+  ]
+}

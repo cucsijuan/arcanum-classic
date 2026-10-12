@@ -1,0 +1,43 @@
+{
+  "name": "Qutrub Forayer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [],
+      "text": "When this creature enters, choose one —",
+      "modes": [
+        {
+          "text": "Destroy target creature that was dealt damage this turn.",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "damagedThisTurn": true
+              }
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Exile up to two target cards from a single graveyard.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "upTo": 2
+            }
+          ],
+          "effects": [
+            {
+              "exile": "eachTarget"
+            }
+          ],
+          "targetRule": "sameGraveyard"
+        }
+      ]
+    }
+  ]
+}

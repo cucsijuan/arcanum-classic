@@ -1,0 +1,75 @@
+{
+  "name": "Rydia's Return",
+  "spell": {
+    "modes": [
+      {
+        "text": "Creatures you control get +3/+3 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Return up to two target permanent cards from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "upTo": 2,
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                },
+                {
+                  "types": [
+                    "planeswalker"
+                  ]
+                },
+                {
+                  "types": [
+                    "battle"
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "eachTarget"
+          }
+        ]
+      }
+    ]
+  }
+}

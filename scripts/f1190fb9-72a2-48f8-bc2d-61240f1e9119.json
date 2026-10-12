@@ -1,0 +1,66 @@
+{
+  "name": "Zodiark, Umbral God",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "sacrifice": {
+                "halfDown": {
+                  "count": {
+                    "types": [
+                      "creature"
+                    ],
+                    "notSubtype": "God"
+                  }
+                }
+              },
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "notSubtype": "God"
+              }
+            }
+          ],
+          "who": "everyone"
+        }
+      ],
+      "text": "When Zodiark enters, each player sacrifices half the non-God creatures they control of their choice, rounded down."
+    },
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a player sacrifices another creature, put a +1/+1 counter on Zodiark.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      }
+    },
+    {
+      "trigger": "opponentSacrifices",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a player sacrifices another creature, put a +1/+1 counter on Zodiark.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      }
+    }
+  ]
+}

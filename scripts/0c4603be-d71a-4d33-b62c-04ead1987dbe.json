@@ -1,0 +1,32 @@
+{
+  "name": "G'raha Tia",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "The Allagan Eye — Whenever one or more other creatures and/or artifacts you control die, draw a card. This ability triggers only once each turn.",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "artifact"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "batched": true,
+      "oncePerTurn": true
+    }
+  ]
+}

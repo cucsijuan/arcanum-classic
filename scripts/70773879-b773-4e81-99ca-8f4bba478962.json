@@ -1,0 +1,58 @@
+{
+  "name": "Ultimecia, Time Sorceress // Ultimecia, Omnipotent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "Whenever Ultimecia enters or attacks, surveil 2."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "Whenever Ultimecia enters or attacks, surveil 2."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "mayPay": "Pay {4}{U}{U}{B}{B} and exile eight cards from your graveyard to transform Ultimecia?",
+          "mana": "{4}{U}{U}{B}{B}",
+          "cost": {
+            "exileGraveyard": 8
+          },
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may pay {4}{U}{U}{B}{B} and exile eight cards from your graveyard. If you do, transform Ultimecia."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "transforms",
+        "effects": [
+          {
+            "extraTurn": true
+          }
+        ],
+        "text": "Time Compression — When this creature transforms into Ultimecia, Omnipotent, take an extra turn after this one.",
+        "onSelf": true,
+        "filter": {
+          "name": "Ultimecia, Omnipotent"
+        }
+      }
+    ]
+  }
+}

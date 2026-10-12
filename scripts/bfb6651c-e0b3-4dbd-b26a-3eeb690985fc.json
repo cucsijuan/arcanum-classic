@@ -1,0 +1,30 @@
+{
+  "name": "Excalibur II",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a charge counter on Excalibur II."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "counters": "charge"
+          },
+          {
+            "counters": "charge"
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each charge counter on Excalibur II."
+    }
+  ]
+}

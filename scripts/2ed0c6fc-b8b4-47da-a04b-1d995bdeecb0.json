@@ -1,0 +1,61 @@
+{
+  "name": "Strixhaven Stadium",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "addsCounter": "point"
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "combatDamageToYou",
+      "effects": [
+        {
+          "removeCounters": 1,
+          "kind": "point",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature deals combat damage to you, remove a point counter from this artifact."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "point",
+          "what": "self"
+        },
+        {
+          "if": {
+            "counters": 10,
+            "kind": "point"
+          },
+          "then": [
+            {
+              "removeCounters": {
+                "counters": "point"
+              },
+              "kind": "point",
+              "what": "self"
+            },
+            {
+              "loseGame": true,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to an opponent, put a point counter on this artifact. Then if it has ten or more point counters on it, remove them all and that player loses the game.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": {
+        "not": "triggeredPlayerIsYou"
+      }
+    }
+  ]
+}

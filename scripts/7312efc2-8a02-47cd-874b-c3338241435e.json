@@ -1,0 +1,26 @@
+{
+  "name": "Seymour Flux",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mayPay": "Pay 1 life to draw a card and put a +1/+1 counter on Seymour Flux?",
+          "cost": {
+            "life": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may pay 1 life. If you do, draw a card and put a +1/+1 counter on Seymour Flux."
+    }
+  ]
+}

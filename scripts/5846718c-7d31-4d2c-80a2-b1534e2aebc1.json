@@ -1,0 +1,46 @@
+{
+  "name": "Summon: Shiva",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "I, II — Heavenly Strike — Tap target creature an opponent controls. Put a stun counter on it.",
+      "chapters": [
+        1,
+        2
+      ],
+      "targets": [
+        "creature:opponent"
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "tapped": true,
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "III — Diamond Dust — Draw a card for each tapped creature your opponents control.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Freya Crescent",
+  "extraMana": [
+    {
+      "types": "{R}",
+      "onlyFor": {
+        "subtype": "Equipment"
+      },
+      "equipOnly": true
+    }
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Flying"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "Jump — During your turn, Freya Crescent has flying."
+    }
+  ]
+}

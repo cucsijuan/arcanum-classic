@@ -1,0 +1,80 @@
+{
+  "name": "Squall, SeeD Mercenary",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Double strike"
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Rough Divide — Whenever a creature you control attacks alone, it gains double strike until end of turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": {
+        "attackersExactly": 1
+      }
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "Whenever Squall deals combat damage to a player, return target permanent card with mana value 3 or less from your graveyard to the battlefield.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              },
+              {
+                "types": [
+                  "land"
+                ]
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              },
+              {
+                "types": [
+                  "battle"
+                ]
+              }
+            ],
+            "maxManaValue": 3
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Cid, Timeless Artificer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "subtype": "Hero"
+            }
+          ]
+        },
+        "pump": [
+          {
+            "sum": [
+              {
+                "count": {
+                  "subtype": "Artificer"
+                }
+              },
+              {
+                "graveyard": {
+                  "subtype": "Artificer"
+                }
+              }
+            ]
+          },
+          {
+            "sum": [
+              {
+                "count": {
+                  "subtype": "Artificer"
+                }
+              },
+              {
+                "graveyard": {
+                  "subtype": "Artificer"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "Artifact creatures and Heroes you control get +1/+1 for each Artificer you control and each Artificer card in your graveyard."
+    }
+  ]
+}

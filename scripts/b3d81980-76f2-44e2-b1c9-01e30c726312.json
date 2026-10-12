@@ -1,0 +1,50 @@
+{
+  "name": "Loran of the Third Path",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When Loran enters, destroy up to one target artifact or enchantment.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{T}: You and target opponent each draw a card.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Firion, Wild Rose Warrior",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "equipped": true
+        },
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Equipped creatures you control have haste."
+    },
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "copy": "triggered",
+          "sacrificeAtNextUpkeep": true,
+          "abilities": [
+            {
+              "abilityCost": {
+                "sources": {
+                  "self": true
+                },
+                "amount": 2,
+                "equipOnly": true
+              },
+              "text": "This Equipment's equip abilities cost {2} less to activate."
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a nontoken Equipment you control enters, create a token that's a copy of it, except it has \"This Equipment's equip abilities cost {2} less to activate.\" Sacrifice that token at the beginning of the next upkeep.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "subtype": "Equipment",
+        "token": false,
+        "controller": "you"
+      }
+    }
+  ]
+}

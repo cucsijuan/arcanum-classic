@@ -1,0 +1,43 @@
+{
+  "name": "The Wind Crystal",
+  "replaces": [
+    "DoubleLifeGain"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "W"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "White spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{4}{W}{W}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Flying",
+            "Lifelink"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{4}{W}{W}, {T}: Creatures you control gain flying and lifelink until end of turn."
+    }
+  ]
+}

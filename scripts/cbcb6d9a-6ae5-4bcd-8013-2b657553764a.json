@@ -1,0 +1,28 @@
+{
+  "name": "Mangara, the Diplomat",
+  "abilities": [
+    {
+      "trigger": "playerAttacks",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, draw a card.",
+      "if": {
+        "atLeast": "triggerAmount",
+        "value": 2
+      }
+    },
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent casts their second spell each turn, draw a card.",
+      "nth": 2
+    }
+  ]
+}

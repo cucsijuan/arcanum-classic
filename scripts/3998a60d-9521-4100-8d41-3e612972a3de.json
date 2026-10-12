@@ -1,0 +1,64 @@
+{
+  "name": "Kuja, Genome Sorcerer // Trance Kuja, Fate Defied",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wizard",
+            "types": "Creature — Wizard",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "castSpell",
+                "effects": [
+                  {
+                    "damage": 1,
+                    "to": "opponents"
+                  }
+                ],
+                "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.",
+                "filter": {
+                  "not": [
+                    "creature"
+                  ]
+                }
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+          },
+          "tapped": true
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Wizard"
+            },
+            "count": 4
+          },
+          "then": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, create a tapped 0/1 black Wizard creature token with \"Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.\" Then if you control four or more Wizards, transform Kuja."
+    }
+  ],
+  "back": {
+    "replaces": [
+      "DoubleWizardDamage"
+    ]
+  }
+}

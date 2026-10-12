@@ -1,0 +1,33 @@
+{
+  "name": "Dark Knight's Greatsword",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          0
+        ],
+        "addSubtypes": [
+          "Knight"
+        ]
+      },
+      "text": "Equipped creature gets +3/+0 and is a Knight in addition to its other types."
+    },
+    {
+      "cost": "life:3",
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Chaosbringer — Equip—Pay 3 life. Activate only once each turn.",
+      "targets": [
+        "creature:you"
+      ],
+      "equip": true,
+      "sorcery": true,
+      "oncePerTurn": true
+    }
+  ]
+}

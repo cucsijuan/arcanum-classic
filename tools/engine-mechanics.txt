@@ -65,3 +65,13 @@ Enchant
 Aftermath
 Fuse
 Transform
+Job select
+Tiered
+Meld
+Overload
+Ninjutsu
+Commander ninjutsu
+Boast
+Spectacle
+Revolt
+Eminence

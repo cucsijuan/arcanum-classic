@@ -1,0 +1,18 @@
+{
+  "name": "Quina, Qu Gourmet",
+  "replaces": [
+    "ExtraFrogWithTokens"
+  ],
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:Frog",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}, Sacrifice a Frog: Put a +1/+1 counter on Quina."
+    }
+  ]
+}

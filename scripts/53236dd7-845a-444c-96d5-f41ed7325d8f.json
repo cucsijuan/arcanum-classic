@@ -1,0 +1,25 @@
+{
+  "name": "Rhystic Study",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "playerMayPay": 1,
+          "who": "triggeredPlayer",
+          "ifNot": [
+            {
+              "may": "Draw a card?",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, you may draw a card unless that player pays {1}."
+    }
+  ]
+}

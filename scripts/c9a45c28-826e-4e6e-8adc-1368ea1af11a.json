@@ -1,0 +1,30 @@
+{
+  "name": "Ultima",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              }
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "endTurn": true
+      }
+    ],
+    "text": "Destroy all artifacts and creatures. End the turn."
+  }
+}

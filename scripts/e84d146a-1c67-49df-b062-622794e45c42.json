@@ -1,0 +1,37 @@
+{
+  "name": "Zack Fair",
+  "entersWithCounters": 1,
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Indestructible"
+          ],
+          "what": "target"
+        },
+        {
+          "putSourceCountersOn": "target"
+        },
+        {
+          "attachFormerlyAttached": "target",
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "subtype": "Equipment"
+          }
+        }
+      ],
+      "text": "{1}, Sacrifice Zack Fair: Target creature you control gains indestructible until end of turn. Put Zack Fair's counters on that creature and attach an Equipment that was attached to Zack Fair to that creature.",
+      "targets": [
+        "creature:you"
+      ]
+    }
+  ]
+}

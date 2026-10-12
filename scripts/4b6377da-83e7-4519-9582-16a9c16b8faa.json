@@ -1,0 +1,21 @@
+{
+  "name": "Danitha Capashen, Paragon",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Aura"
+            },
+            {
+              "subtype": "Equipment"
+            }
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Aura and Equipment spells you cast cost {1} less to cast."
+    }
+  ]
+}

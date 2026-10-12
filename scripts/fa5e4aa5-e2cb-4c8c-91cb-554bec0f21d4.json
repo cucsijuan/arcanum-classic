@@ -1,0 +1,23 @@
+{
+  "name": "Gigantoad",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 7
+        }
+      },
+      "text": "As long as you control seven or more lands, this creature gets +2/+2."
+    }
+  ]
+}

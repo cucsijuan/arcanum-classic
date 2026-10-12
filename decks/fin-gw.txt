@@ -1,0 +1,38 @@
+1 Adelbert Steiner (FIN) 3
+1 Aerith Gainsborough (FIN) 4
+1 Ambrosia Whiteheart (FIN) 6
+1 Ancient Adamantoise (FIN) 172
+1 Ashe, Princess of Dalmasca (FIN) 7
+1 Balamb T-Rexaur (FIN) 173
+1 Bartz and Boko (FIN) 175
+1 Beatrix, Loyal General (FIN) 426
+1 Cactuar (FIN) 177
+1 Cloud, Midgar Mercenary (FIN) 10
+1 Cloudbound Moogle (FIN) 11
+1 Coeurl (FIN) 12
+1 Coliseum Behemoth (FIN) 181
+1 Delivery Moogle (FIN) 15
+1 Dwarven Castle Guard (FIN) 18
+1 Gaelicat (FIN) 22
+1 Garnet, Princess of Alexandria (FIN) 222
+1 Gigantoad (FIN) 187
+1 Goobbue Gardener (FIN) 188
+1 Gran Pulse Ochu (FIN) 189
+1 Loporrit Scout (FIN) 192
+1 Magitek Infantry (FIN) 25
+1 A Realm Reborn (FIN) 196
+1 Aettir and Priwen (FIN) 253
+1 Airship Crash (FIN) 171
+1 Auron's Inspiration (FIN) 8
+1 Blitzball Shot (FIN) 176
+1 Chocobo Kick (FIN) 178
+1 Chocobo Racetrack (FIN) 179
+1 Clash of the Eikons (FIN) 180
+1 Commune with Beavers (FIN) 182
+1 Fate of the Sun-Cryst (FIN) 19
+1 From Father to Son (FIN) 20
+1 Galuf's Final Act (FIN) 186
+1 Gysahl Greens (FIN) 190
+1 Instant Ramen (FIN) 259
+12 Forest (FIN) 306
+12 Plains (FIN) 294

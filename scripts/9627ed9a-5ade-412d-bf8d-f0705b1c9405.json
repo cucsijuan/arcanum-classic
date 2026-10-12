@@ -1,0 +1,46 @@
+{
+  "name": "Moogles' Valor",
+  "spell": {
+    "effects": [
+      {
+        "tokens": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        "token": {
+          "name": "Moogle",
+          "types": "Creature — Moogle",
+          "power": 1,
+          "toughness": 2,
+          "colors": [
+            "W"
+          ],
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "For each creature you control, create a 1/2 white Moogle creature token with lifelink. Then creatures you control gain indestructible until end of turn."
+  }
+}

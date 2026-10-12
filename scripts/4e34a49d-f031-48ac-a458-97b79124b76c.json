@@ -1,0 +1,34 @@
+{
+  "name": "Midgar, City of Mako // Reactor Raid",
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "mayPay": "Sacrifice an artifact or creature to draw two cards?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                }
+              ]
+            }
+          },
+          "effects": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "You may sacrifice an artifact or creature. If you do, draw two cards."
+    }
+  }
+}

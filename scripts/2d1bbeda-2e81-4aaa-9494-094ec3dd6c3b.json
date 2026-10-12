@@ -1,0 +1,33 @@
+{
+  "name": "Suplex",
+  "spell": {
+    "modes": [
+      {
+        "text": "Suplex deals 3 damage to target creature. If that creature would die this turn, exile it instead.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "exileIfDies": "target"
+          },
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

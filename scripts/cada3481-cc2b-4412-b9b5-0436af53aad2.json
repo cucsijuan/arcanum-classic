@@ -1,0 +1,31 @@
+{
+  "name": "Ranger-Captain of Eos",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValue": 1
+          },
+          "to": "hand",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a creature card with mana value 1 or less, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "opponentsCantCastNoncreatureSpells": true
+        }
+      ],
+      "text": "Sacrifice this creature: Your opponents can't cast noncreature spells this turn."
+    }
+  ]
+}

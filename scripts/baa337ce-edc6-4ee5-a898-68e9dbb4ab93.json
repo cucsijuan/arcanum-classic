@@ -1,0 +1,29 @@
+{
+  "name": "Ultima, Origin of Oblivion",
+  "replaces": [
+    "ExtraColorlessWhenLandTappedForColorless"
+  ],
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "blight",
+          "what": "target"
+        },
+        {
+          "become": "target",
+          "whileCounter": "blight",
+          "loseAbilities": true,
+          "loseLandTypes": true,
+          "grantsMana": "{C}"
+        }
+      ],
+      "text": "Whenever Ultima attacks, put a blight counter on target land. For as long as that land has a blight counter on it, it loses all land types and abilities and has \"{T}: Add {C}.\"",
+      "targets": [
+        "land"
+      ]
+    }
+  ]
+}

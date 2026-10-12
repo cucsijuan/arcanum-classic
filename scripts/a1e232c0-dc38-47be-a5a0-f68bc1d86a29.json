@@ -1,0 +1,37 @@
+{
+  "name": "Yawgmoth, Thran Physician",
+  "protectionFromSubtypes": [
+    "Human"
+  ],
+  "abilities": [
+    {
+      "cost": "life:1, sacrifice:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Pay 1 life, Sacrifice another creature: Put a -1/-1 counter on up to one target creature and draw a card.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "cost": "{B}{B}, discard",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "{B}{B}, Discard a card: Proliferate."
+    }
+  ]
+}

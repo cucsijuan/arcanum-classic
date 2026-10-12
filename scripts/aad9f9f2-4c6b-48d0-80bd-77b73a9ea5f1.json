@@ -1,0 +1,30 @@
+{
+  "name": "Judgment Bolt",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "damage": 5,
+            "to": "target"
+          },
+          {
+            "damage": {
+              "count": {
+                "types": [
+                  "artifact"
+                ],
+                "subtype": "Equipment"
+              }
+            },
+            "to": "targetController"
+          }
+        ]
+      }
+    ],
+    "text": "Judgment Bolt deals 5 damage to target creature and X damage to that creature's controller, where X is the number of Equipment you control."
+  }
+}

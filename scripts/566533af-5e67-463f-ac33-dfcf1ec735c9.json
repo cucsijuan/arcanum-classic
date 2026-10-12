@@ -1,0 +1,10 @@
+{
+  "name": "Ether",
+  "extraMana": [
+    {
+      "types": "{U}",
+      "exileSelf": true,
+      "copyNextInstantOrSorcery": true
+    }
+  ]
+}

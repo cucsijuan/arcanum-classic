@@ -1,0 +1,19 @@
+{
+  "name": "Traxos, Scourge of Kroog",
+  "entersTapped": true,
+  "doesntUntap": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever you cast a historic spell, untap Traxos.",
+      "filter": {
+        "historic": true
+      }
+    }
+  ]
+}

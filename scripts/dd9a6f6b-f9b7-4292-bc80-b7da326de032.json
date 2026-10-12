@@ -1,0 +1,35 @@
+{
+  "name": "Aerith Gainsborough",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on Aerith Gainsborough."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "counters": {
+            "counters": "+1/+1"
+          },
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough."
+    }
+  ]
+}

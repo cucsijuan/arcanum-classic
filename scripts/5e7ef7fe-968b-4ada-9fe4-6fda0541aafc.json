@@ -1,0 +1,37 @@
+{
+  "name": "The Earth Crystal",
+  "replaces": [
+    "DoubleCreaturePlusOneCounters"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "G"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Green spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{4}{G}{G}, {T}",
+      "effects": [
+        {
+          "distributeCounters": 2
+        }
+      ],
+      "text": "{4}{G}{G}, {T}: Distribute two +1/+1 counters among one or two target creatures you control.",
+      "targets": [
+        "creature:you",
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "targetRule": "allDifferent"
+    }
+  ]
+}

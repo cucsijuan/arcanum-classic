@@ -1,0 +1,34 @@
+{
+  "name": "Red Mage's Rapier",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "addSubtypes": [
+          "Wizard"
+        ],
+        "grants": [
+          {
+            "trigger": "castSpell",
+            "effects": [
+              {
+                "pump": [
+                  2,
+                  0
+                ],
+                "what": "self"
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature has \"Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn\" and is a Wizard in addition to its other types."
+    }
+  ]
+}

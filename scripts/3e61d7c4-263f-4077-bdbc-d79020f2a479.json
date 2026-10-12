@@ -1,0 +1,21 @@
+{
+  "name": "Cactuar",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if this creature didn't enter the battlefield this turn, return it to its owner's hand.",
+      "if": {
+        "not": {
+          "enteredThisTurn": {
+            "self": true
+          }
+        }
+      }
+    }
+  ]
+}

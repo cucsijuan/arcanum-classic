@@ -1,0 +1,14 @@
+{
+  "name": "Capital City",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{1}, {T}: Add one mana of any color."
+    }
+  ]
+}

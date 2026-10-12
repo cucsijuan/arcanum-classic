@@ -1,0 +1,32 @@
+{
+  "name": "Summon: Choco/Mog",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "I, II, III, IV — Stampede! — Other creatures you control get +1/+0 until end of turn.",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

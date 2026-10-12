@@ -1,0 +1,27 @@
+{
+  "name": "Genji Glove",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Equipped creature has double strike."
+    },
+    {
+      "trigger": "equippedAttacks",
+      "effects": [
+        {
+          "untap": "triggered"
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "Whenever equipped creature attacks, if it's the first combat phase of the turn, untap it. After this phase, there is an additional combat phase.",
+      "if": "firstCombatPhase"
+    }
+  ]
+}

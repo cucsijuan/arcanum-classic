@@ -1,0 +1,32 @@
+{
+  "name": "Adeline, Resplendent Cathar",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human",
+            "types": "Creature — Human",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          },
+          "attackingEachOpponent": true
+        }
+      ],
+      "text": "Whenever you attack, for each opponent, create a 1/1 white Human creature token that's tapped and attacking that player or a planeswalker they control."
+    }
+  ]
+}

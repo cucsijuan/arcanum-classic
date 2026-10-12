@@ -1,0 +1,25 @@
+{
+  "name": "White Auracite",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Urza, Lord High Artificer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Construct",
+            "types": "Artifact Creature — Construct",
+            "power": 0,
+            "toughness": 0,
+            "colors": [],
+            "keywords": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "self",
+                  "pump": [
+                    {
+                      "count": {
+                        "types": [
+                          "artifact"
+                        ]
+                      }
+                    },
+                    {
+                      "count": {
+                        "types": [
+                          "artifact"
+                        ]
+                      }
+                    }
+                  ]
+                },
+                "text": "This token gets +1/+1 for each artifact you control."
+              }
+            ],
+            "text": "This token gets +1/+1 for each artifact you control."
+          }
+        }
+      ],
+      "text": "When Urza enters, create a 0/0 colorless Construct artifact creature token with \"This token gets +1/+1 for each artifact you control.\""
+    },
+    {
+      "cost": "tapPermanents:1:artifact",
+      "effects": [
+        {
+          "addMana": "{U}"
+        }
+      ],
+      "text": "Tap an untapped artifact you control: Add {U}."
+    },
+    {
+      "cost": "{5}",
+      "effects": [
+        {
+          "shuffle": "you"
+        },
+        {
+          "exileTopPlayable": 1,
+          "free": true
+        }
+      ],
+      "text": "{5}: Shuffle your library, then exile the top card. Until end of turn, you may play that card without paying its mana cost."
+    }
+  ]
+}

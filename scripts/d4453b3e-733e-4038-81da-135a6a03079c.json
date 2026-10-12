@@ -1,0 +1,35 @@
+{
+  "name": "Summoner's Grimoire",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "addSubtypes": [
+          "Shaman"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "putFromHand": {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                "one": true,
+                "tappedAttackingIf": {
+                  "types": [
+                    "enchantment"
+                  ]
+                }
+              }
+            ],
+            "text": "Whenever this creature attacks, you may put a creature card from your hand onto the battlefield. If that card is an enchantment card, it enters tapped and attacking."
+          }
+        ]
+      },
+      "text": "Equipped creature is a Shaman in addition to its other types and has \"Whenever this creature attacks, you may put a creature card from your hand onto the battlefield. If that card is an enchantment card, it enters tapped and attacking.\""
+    }
+  ]
+}

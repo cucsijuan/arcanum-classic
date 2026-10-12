@@ -1,0 +1,63 @@
+{
+  "name": "Syr Konrad, the Grim",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad deals 1 damage to each opponent.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      }
+    },
+    {
+      "trigger": "cardPutIntoGraveyard",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad deals 1 damage to each opponent.",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      }
+    },
+    {
+      "trigger": "leavesGraveyard",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another creature dies, or a creature card is put into a graveyard from anywhere other than the battlefield, or a creature card leaves your graveyard, Syr Konrad deals 1 damage to each opponent.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      }
+    },
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "mill": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "{1}{B}: Each player mills a card."
+    }
+  ]
+}

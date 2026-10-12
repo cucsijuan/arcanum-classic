@@ -1,0 +1,54 @@
+{
+  "name": "Jecht, Reluctant Guardian // Braska's Final Aeon",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Exile Jecht, then return it transformed?",
+          "effects": [
+            {
+              "blink": "self",
+              "transformed": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Jecht deals combat damage to a player, you may exile it, then return it to the battlefield transformed under its owner's control."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "discard": 1,
+            "who": "opponents"
+          },
+          {
+            "draw": 1
+          }
+        ],
+        "text": "I, II — Jecht Beam — Each opponent discards a card and you draw a card.",
+        "chapters": [
+          1,
+          2
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "sacrifice": 2,
+            "who": "opponents"
+          }
+        ],
+        "text": "III — Ultimate Jecht Shot — Each opponent sacrifices two creatures of their choice.",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "Whenever Emet-Selch enters or attacks, draw a card, then discard a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "Whenever Emet-Selch enters or attacks, draw a card, then discard a card."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "may": "Transform Emet-Selch?",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.",
+      "if": {
+        "graveyard": 14
+      }
+    }
+  ],
+  "back": {
+    "playFromGraveyardOnYourTurn": true,
+    "replaces": [
+      "ExileInsteadOfYourGraveyard"
+    ]
+  }
+}

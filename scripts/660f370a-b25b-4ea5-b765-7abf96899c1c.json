@@ -1,0 +1,41 @@
+{
+  "name": "The Darkness Crystal",
+  "replaces": [
+    "OpponentsNontokenCreaturesExiledGainTwoLife"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "B"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Black spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{4}{B}{B}, {T}",
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true,
+          "counters": 2
+        }
+      ],
+      "text": "{4}{B}{B}, {T}: Put target creature card exiled with The Darkness Crystal onto the battlefield tapped under your control with two additional +1/+1 counters on it.",
+      "targets": [
+        {
+          "kind": "exiledCard",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "exiledWithSource": true
+          }
+        }
+      ]
+    }
+  ]
+}

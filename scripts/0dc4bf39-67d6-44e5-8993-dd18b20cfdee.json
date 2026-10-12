@@ -1,0 +1,27 @@
+{
+  "name": "Ultima Weapon",
+  "abilities": [
+    {
+      "trigger": "equippedAttacks",
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Whenever equipped creature attacks, destroy target creature an opponent controls.",
+      "targets": [
+        "creature:opponent"
+      ]
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          7,
+          7
+        ]
+      },
+      "text": "Equipped creature gets +7/+7."
+    }
+  ]
+}

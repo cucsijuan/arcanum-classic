@@ -1,0 +1,15 @@
+{
+  "name": "Hope Estheim",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "mill": "lifeGained",
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of your end step, each opponent mills X cards, where X is the amount of life you gained this turn."
+    }
+  ]
+}

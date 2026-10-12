@@ -1,0 +1,37 @@
+{
+  "name": "Coral Sword",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "attach": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "First strike"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control. That creature gains first strike until end of turn.",
+      "targets": [
+        "creature:you"
+      ]
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +1/+0."
+    }
+  ]
+}

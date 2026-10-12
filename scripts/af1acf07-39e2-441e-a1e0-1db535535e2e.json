@@ -1,0 +1,29 @@
+{
+  "name": "White Mage's Staff",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "addSubtypes": [
+          "Cleric"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Whenever this creature attacks, you gain 1 life."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1, has \"Whenever this creature attacks, you gain 1 life,\" and is a Cleric in addition to its other types."
+    }
+  ]
+}

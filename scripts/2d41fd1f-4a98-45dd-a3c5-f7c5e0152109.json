@@ -1,0 +1,63 @@
+{
+  "name": "Circle of Power",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "loseLife": 2
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Wizard",
+          "types": "Creature — Wizard",
+          "power": 0,
+          "toughness": 1,
+          "colors": [
+            "B"
+          ],
+          "keywords": [],
+          "abilities": [
+            {
+              "trigger": "castSpell",
+              "effects": [
+                {
+                  "damage": 1,
+                  "to": "opponents"
+                }
+              ],
+              "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.",
+              "filter": {
+                "not": [
+                  "creature"
+                ]
+              }
+            }
+          ],
+          "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+        }
+      },
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Lifelink"
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Wizard",
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "You draw two cards and you lose 2 life. Create a 0/1 black Wizard creature token with \"Whenever you cast a noncreature spell, this token deals 1 damage to each opponent.\" Wizards you control get +1/+0 and gain lifelink until end of turn."
+  }
+}

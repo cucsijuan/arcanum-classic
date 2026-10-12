@@ -1,0 +1,34 @@
+{
+  "name": "Shantotto, Tactician Magician",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "pump": [
+            "manaSpent",
+            0
+          ],
+          "what": "self"
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 4
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Shantotto gets +X/+0 until end of turn, where X is the amount of mana spent to cast that spell. If X is 4 or more, draw a card.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

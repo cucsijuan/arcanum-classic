@@ -1,0 +1,35 @@
+{
+  "name": "Relm's Sketching",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "land"
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "copy": "target"
+      }
+    ],
+    "text": "Create a token that's a copy of target artifact, creature, or land."
+  }
+}

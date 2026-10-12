@@ -1,0 +1,15 @@
+{
+  "name": "Ishai, Ojutai Dragonspeaker",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever an opponent casts a spell, put a +1/+1 counter on Ishai."
+    }
+  ]
+}

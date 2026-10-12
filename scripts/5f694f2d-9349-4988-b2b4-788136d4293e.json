@@ -1,0 +1,15 @@
+{
+  "name": "Kraum, Ludevic's Opus",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent casts their second spell each turn, draw a card.",
+      "nth": 2
+    }
+  ]
+}

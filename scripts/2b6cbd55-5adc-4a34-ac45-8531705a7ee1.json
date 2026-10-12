@@ -1,0 +1,18 @@
+{
+  "name": "Teferi, Mage of Zhalfir",
+  "opponentsCastAtSorcerySpeed": true,
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "Creature cards you own that aren't on the battlefield have flash."
+    }
+  ]
+}

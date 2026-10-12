@@ -1,0 +1,42 @@
+{
+  "name": "Astrologian's Planisphere",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "addSubtypes": [
+          "Wizard"
+        ],
+        "grants": [
+          {
+            "trigger": "castSpell",
+            "effects": [
+              {
+                "counters": 1,
+                "what": "self"
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell and whenever you draw your third card each turn, put a +1/+1 counter on this creature.",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "trigger": "draw",
+            "effects": [
+              {
+                "counters": 1,
+                "what": "self"
+              }
+            ],
+            "text": "Whenever you cast a noncreature spell and whenever you draw your third card each turn, put a +1/+1 counter on this creature.",
+            "nth": 3
+          }
+        ]
+      },
+      "text": "Equipped creature is a Wizard in addition to its other types and has \"Whenever you cast a noncreature spell and whenever you draw your third card each turn, put a +1/+1 counter on this creature.\""
+    }
+  ]
+}

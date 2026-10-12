@@ -1,0 +1,14 @@
+{
+  "name": "Ahriman",
+  "abilities": [
+    {
+      "cost": "{3}, sacrifice:artifact|creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}, Sacrifice another creature or artifact: Draw a card."
+    }
+  ]
+}

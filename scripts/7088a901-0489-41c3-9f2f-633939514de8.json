@@ -1,0 +1,67 @@
+{
+  "name": "Seifer Almasy",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Double strike"
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control attacks alone, it gains double strike until end of turn.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": {
+        "attackersExactly": 1
+      }
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "castFromGraveyard": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "card": "target",
+          "free": true
+        }
+      ],
+      "text": "Fire Cross — Whenever Seifer Almasy deals combat damage to a player, you may cast target instant or sorcery card with mana value 3 or less from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "instant"
+                ]
+              },
+              {
+                "types": [
+                  "sorcery"
+                ]
+              }
+            ],
+            "maxManaValue": 3
+          }
+        }
+      ]
+    }
+  ]
+}

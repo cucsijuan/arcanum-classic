@@ -1,0 +1,10 @@
+{
+  "name": "Snow Villiers",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}

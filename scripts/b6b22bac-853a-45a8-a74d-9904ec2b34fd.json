@@ -1,0 +1,42 @@
+{
+  "name": "Summon: G.F. Cerberus",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "I — Surveil 1.",
+      "chapters": [
+        1
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true
+        }
+      ],
+      "text": "II — Double — When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy.",
+      "chapters": [
+        2
+      ]
+    },
+    {
+      "trigger": "chapter",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true,
+          "copies": 2
+        }
+      ],
+      "text": "III — Triple — When you next cast an instant or sorcery spell this turn, copy it twice. You may choose new targets for the copies.",
+      "chapters": [
+        3
+      ]
+    }
+  ]
+}

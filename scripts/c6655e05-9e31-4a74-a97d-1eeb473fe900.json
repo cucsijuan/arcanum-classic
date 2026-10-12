@@ -1,0 +1,86 @@
+{
+  "name": "Jill, Shiva's Dominant // Shiva, Warden of Ice",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When Jill enters, return up to one other target nonland permanent to its owner's hand.",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          }
+        }
+      ]
+    },
+    {
+      "cost": "{3}{U}{U}, {T}",
+      "effects": [
+        {
+          "blink": "self",
+          "transformed": true
+        }
+      ],
+      "text": "{3}{U}{U}, {T}: Exile Jill, then return it to the battlefield transformed under its owner's control. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Can't be blocked"
+            ],
+            "what": "target"
+          }
+        ],
+        "text": "I, II — Mesmerize — Target creature can't be blocked this turn.",
+        "chapters": [
+          1,
+          2
+        ],
+        "targets": [
+          "creature"
+        ]
+      },
+      {
+        "trigger": "chapter",
+        "effects": [
+          {
+            "tap": {
+              "each": {
+                "types": [
+                  "land"
+                ],
+                "controller": "opponent"
+              }
+            }
+          },
+          {
+            "blink": "self"
+          }
+        ],
+        "text": "III — Cold Snap — Tap all lands your opponents control. Exile Shiva, then return it to the battlefield (front face up).",
+        "chapters": [
+          3
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Varragoth, Bloodsky Sire",
+  "abilities": [
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "search": {},
+          "to": "top",
+          "who": "target"
+        }
+      ],
+      "text": "Boast — {1}{B}: Target player searches their library for a card, then shuffles and puts that card on top. (Activate only if this creature attacked this turn and only once each turn.)",
+      "targets": [
+        "player"
+      ],
+      "activateIf": "attackedThisTurn",
+      "oncePerTurn": true
+    }
+  ]
+}

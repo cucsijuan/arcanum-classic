@@ -1,0 +1,25 @@
+{
+  "name": "Haste Magic",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          1
+        ],
+        "keywords": [
+          "Haste"
+        ],
+        "what": "target"
+      },
+      {
+        "exileTopPlayable": 1,
+        "untilYourNextEndStep": true
+      }
+    ],
+    "text": "Target creature gets +3/+1 and gains haste until end of turn. Exile the top card of your library. You may play it until your next end step."
+  }
+}

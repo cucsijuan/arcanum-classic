@@ -1,0 +1,22 @@
+{
+  "name": "Barret Wallace",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "equipped": true
+            }
+          },
+          "to": "defendingPlayer"
+        }
+      ],
+      "text": "Whenever Barret Wallace attacks, it deals damage equal to the number of equipped creatures you control to defending player."
+    }
+  ]
+}

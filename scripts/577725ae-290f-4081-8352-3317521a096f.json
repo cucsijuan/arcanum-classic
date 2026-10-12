@@ -1,0 +1,86 @@
+{
+  "name": "Vanille, Cheerful l'Cie",
+  "meldsWith": "Fang, Fearless l'Cie",
+  "meldInto": "Ragnarok, Divine Deliverance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 2
+        },
+        {
+          "returnFromGraveyard": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              },
+              {
+                "types": [
+                  "land"
+                ]
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              },
+              {
+                "types": [
+                  "battle"
+                ]
+              }
+            ]
+          },
+          "count": 1
+        }
+      ],
+      "text": "When Vanille enters, mill two cards, then return a permanent card from your graveyard to your hand."
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {3}{B}{G} to meld Vanille and Fang into Ragnarok?",
+          "mana": "{3}{B}{G}",
+          "effects": [
+            {
+              "meld": true
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, if you both own and control Vanille and a creature named Fang, Fearless l'Cie, you may pay {3}{B}{G}. If you do, exile them, then meld them into Ragnarok, Divine Deliverance.",
+      "if": {
+        "all": [
+          {
+            "sourceIs": {
+              "ownedByYou": true
+            }
+          },
+          {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "name": "Fang, Fearless l'Cie",
+              "ownedByYou": true
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Weapons Vendor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, draw a card."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mayPay": "Pay {1} to attach an Equipment?",
+          "mana": "{1}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "artifact",
+                    "controller": "you",
+                    "filter": {
+                      "subtype": "Equipment"
+                    }
+                  },
+                  "creature:you"
+                ],
+                "effects": [
+                  {
+                    "attach": "target",
+                    "to": "target2"
+                  }
+                ],
+                "text": "Attach target Equipment you control to target creature you control."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if you control an Equipment, you may pay {1}. When you do, attach target Equipment you control to target creature you control.",
+      "if": {
+        "control": {
+          "types": [
+            "artifact"
+          ],
+          "subtype": "Equipment"
+        }
+      }
+    }
+  ]
+}

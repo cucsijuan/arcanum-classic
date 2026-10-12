@@ -1,0 +1,37 @@
+{
+  "name": "Sage's Nouliths",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "addSubtypes": [
+          "Cleric"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "untap": "target"
+              }
+            ],
+            "text": "Whenever this creature attacks, untap target attacking creature.",
+            "targets": [
+              {
+                "kind": "creature",
+                "filter": {
+                  "attacking": true
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+0, has \"Whenever this creature attacks, untap target attacking creature,\" and is a Cleric in addition to its other types."
+    }
+  ]
+}

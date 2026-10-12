@@ -1,0 +1,21 @@
+{
+  "name": "Ragavan, Nimble Pilferer",
+  "dash": "{1}{R}",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        },
+        {
+          "exileTopPlayable": 1,
+          "of": "triggeredPlayer",
+          "castOnly": true
+        }
+      ],
+      "text": "Whenever Ragavan deals combat damage to a player, create a Treasure token and exile the top card of that player's library. Until end of turn, you may cast that card."
+    }
+  ]
+}

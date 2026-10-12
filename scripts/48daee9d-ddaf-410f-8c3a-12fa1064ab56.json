@@ -1,0 +1,18 @@
+{
+  "name": "Ancient Copper Dragon",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "rollDie": 20
+        },
+        {
+          "tokens": "rolled",
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, roll a d20. You create a number of Treasure tokens equal to the result."
+    }
+  ]
+}

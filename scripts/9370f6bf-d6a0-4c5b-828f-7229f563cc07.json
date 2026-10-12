@@ -1,0 +1,50 @@
+{
+  "name": "Jenova, Ancient Calamity",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "counters": {
+            "power": "self"
+          },
+          "what": "target"
+        },
+        {
+          "become": "target",
+          "addSubtypes": [
+            "Mutant"
+          ],
+          "permanent": true
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a number of +1/+1 counters equal to Jenova's power on up to one other target creature. That creature becomes a Mutant in addition to its other types.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          }
+        }
+      ]
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "draw": "triggeredPower"
+        }
+      ],
+      "text": "Whenever a Mutant you control dies during your turn, you draw cards equal to its power.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Mutant",
+        "controller": "you"
+      },
+      "when": "yourTurn"
+    }
+  ]
+}
