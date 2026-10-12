@@ -1,0 +1,49 @@
+{
+  "name": "Celes, Rune Knight",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discardAnyNumber": true
+        },
+        {
+          "draw": {
+            "sum": [
+              {
+                "discarded": {}
+              },
+              1
+            ]
+          }
+        }
+      ],
+      "text": "When Celes enters, discard any number of cards, then draw that many cards plus one."
+    },
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever one or more other creatures you control enter, if one or more of them entered from a graveyard or was cast from a graveyard, put a +1/+1 counter on each creature you control.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "fromGraveyard": true
+      },
+      "batched": true
+    }
+  ]
+}

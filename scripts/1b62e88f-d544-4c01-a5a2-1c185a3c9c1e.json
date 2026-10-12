@@ -1,0 +1,29 @@
+{
+  "name": "Banon, the Returners' Leader",
+  "graveyardCastOncePerTurn": {
+    "filter": {
+      "types": [
+        "creature"
+      ]
+    },
+    "notFromBattlefieldThisTurn": true
+  },
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "mayPay": "Pay {1} and discard a card to draw a card?",
+          "mana": "{1}",
+          "cost": "discard",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, you may pay {1} and discard a card. If you do, draw a card."
+    }
+  ]
+}

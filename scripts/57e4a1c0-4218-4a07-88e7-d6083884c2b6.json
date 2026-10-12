@@ -1,0 +1,53 @@
+{
+  "name": "Champions from Beyond",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Hero",
+            "types": "Creature — Hero",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create X 1/1 colorless Hero creature tokens."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "scry": 2
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Light Party — Whenever you attack with four or more creatures, scry 2, then draw a card.",
+      "when": {
+        "attackers": 4
+      }
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": "attackers"
+        }
+      ],
+      "text": "Full Party — Whenever you attack with eight or more creatures, those creatures get +4/+4 until end of turn.",
+      "when": {
+        "attackers": 8
+      }
+    }
+  ]
+}

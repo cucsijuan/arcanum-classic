@@ -1,0 +1,31 @@
+{
+  "name": "Combustible Gearhulk",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "opponentChooses": "Let them draw three cards? (If not, they mill three and this deals damage to you equal to the cards' total mana value.)",
+          "yes": [
+            {
+              "draw": 3
+            }
+          ],
+          "no": [
+            {
+              "mill": 3
+            },
+            {
+              "damage": "milledManaValue",
+              "to": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target opponent may have you draw three cards. If the player doesn't, you mill three cards, then this creature deals damage to that player equal to the total mana value of those cards.",
+      "targets": [
+        "opponent"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Chasm Skulker",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw a card, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": {
+            "counters": "+1/+1"
+          },
+          "token": {
+            "name": "Squid",
+            "types": "Creature — Squid",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Islandwalk"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create X 1/1 blue Squid creature tokens with islandwalk, where X is the number of +1/+1 counters on this creature."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Clever Concealment",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "you",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "anyNumber": true
+      }
+    ],
+    "effects": [
+      {
+        "phaseOut": "eachTarget"
+      }
+    ]
+  }
+}

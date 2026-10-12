@@ -1,0 +1,26 @@
+{
+  "name": "Coin of Fate",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this artifact enters, surveil 1."
+    },
+    {
+      "cost": "{3}{W}, {T}, exileGraveyardCards:2:creature, sacrifice",
+      "effects": [
+        {
+          "opponentSplitsExiled": true
+        },
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "{3}{W}, {T}, Exile two creature cards from your graveyard, Sacrifice this artifact: An opponent chooses one of the exiled cards. You put that card on the bottom of your library and return the other to the battlefield tapped. You become the monarch."
+    }
+  ]
+}

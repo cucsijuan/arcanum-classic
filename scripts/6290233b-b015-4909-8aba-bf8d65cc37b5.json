@@ -1,0 +1,44 @@
+{
+  "name": "Blue Mage's Cane",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          2
+        ],
+        "addSubtypes": [
+          "Wizard"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "castCopy": "target",
+                "cost": "{3}"
+              }
+            ],
+            "text": "Whenever this creature attacks, exile up to one target instant or sorcery card from defending player's graveyard. If you do, copy it. You may cast the copy by paying {3} rather than paying its mana cost.",
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "any",
+                "controlledByDefendingPlayer": true,
+                "optional": true,
+                "filter": {
+                  "types": [
+                    "instant",
+                    "sorcery"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "Equipped creature gets +0/+2, is a Wizard in addition to its other types, and has \"Whenever this creature attacks, exile up to one target instant or sorcery card from defending player's graveyard. If you do, copy it. You may cast the copy by paying {3} rather than paying its mana cost.\""
+    }
+  ]
+}

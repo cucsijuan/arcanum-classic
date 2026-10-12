@@ -1,0 +1,39 @@
+{
+  "name": "Crux of Fate",
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy all Dragon creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Dragon",
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all non-Dragon creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "notSubtype": "Dragon",
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

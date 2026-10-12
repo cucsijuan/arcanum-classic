@@ -1,0 +1,87 @@
+{
+  "name": "Ardbert, Warrior of Darkness",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a white spell, put a +1/+1 counter on each legendary creature you control. They gain vigilance until end of turn.",
+      "filter": {
+        "colors": [
+          "W"
+        ]
+      }
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "supertype": "legendary",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a black spell, put a +1/+1 counter on each legendary creature you control. They gain menace until end of turn.",
+      "filter": {
+        "colors": [
+          "B"
+        ]
+      }
+    }
+  ]
+}

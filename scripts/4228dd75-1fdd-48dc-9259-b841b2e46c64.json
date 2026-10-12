@@ -1,0 +1,22 @@
+{
+  "name": "Bugenhagen, Wise Elder",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control a creature with power 7 or greater, draw a card.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "minPower": 7
+        }
+      }
+    }
+  ]
+}

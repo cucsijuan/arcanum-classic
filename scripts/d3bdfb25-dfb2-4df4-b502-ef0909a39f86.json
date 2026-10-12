@@ -1,0 +1,56 @@
+{
+  "name": "Cid, Freeflier Pilot",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Equipment"
+            },
+            {
+              "subtype": "Vehicle"
+            }
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Equipment and Vehicle spells you cast cost {1} less to cast."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Flying"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "Jump — During your turn, Cid has flying."
+    },
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}, {T}: Return target Equipment or Vehicle card from your graveyard to your hand.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Equipment"
+              },
+              {
+                "subtype": "Vehicle"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

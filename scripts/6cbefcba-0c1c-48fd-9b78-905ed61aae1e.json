@@ -1,0 +1,29 @@
+{
+  "name": "Chocobo Knights",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "hasCounters": true
+            }
+          },
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "Whenever you attack, creatures you control with counters on them gain double strike until end of turn."
+    }
+  ]
+}

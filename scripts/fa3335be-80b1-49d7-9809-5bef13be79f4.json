@@ -1,0 +1,45 @@
+{
+  "name": "Armory Automaton",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "attach": "eachTarget",
+          "to": "self"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may attach any number of target Equipment to it. (Control of the Equipment doesn't change.)",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "any",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "anyNumber": true
+        }
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "attach": "eachTarget",
+          "to": "self"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may attach any number of target Equipment to it. (Control of the Equipment doesn't change.)",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "any",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "anyNumber": true
+        }
+      ]
+    }
+  ]
+}

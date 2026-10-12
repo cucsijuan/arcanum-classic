@@ -1,0 +1,31 @@
+{
+  "name": "Coveted Jewel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 3
+        }
+      ],
+      "text": "When this artifact enters, draw three cards."
+    },
+    {
+      "trigger": "attackedUnblockedByOpponent",
+      "effects": [
+        {
+          "draw": 3,
+          "who": "triggeredPlayer"
+        },
+        {
+          "gainControl": "self",
+          "to": "triggeredPlayer"
+        },
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever one or more creatures an opponent controls attack you and aren't blocked, that player draws three cards and gains control of this artifact. Untap it."
+    }
+  ]
+}

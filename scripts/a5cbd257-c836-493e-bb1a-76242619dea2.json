@@ -1,0 +1,17 @@
+{
+  "name": "Big Score",
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "tokens": 2,
+        "token": "Treasure"
+      }
+    ]
+  }
+}

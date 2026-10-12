@@ -1,0 +1,26 @@
+{
+  "name": "Bane of Progress",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ],
+              "controller": "any"
+            }
+          }
+        },
+        {
+          "counters": "destroyedThisWay",
+          "what": "self"
+        }
+      ],
+      "text": "When this creature enters, destroy all artifacts and enchantments. Put a +1/+1 counter on this creature for each permanent destroyed this way."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Bred for the Hunt",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control with a +1/+1 counter on it deals combat damage to a player, you may draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "hasCounterKind": "+1/+1"
+      }
+    }
+  ]
+}

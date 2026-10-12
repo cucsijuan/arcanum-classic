@@ -1,0 +1,41 @@
+{
+  "name": "Cait Sith, Fortune Teller",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "exileTop": 1,
+          "playableThisTurn": true
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": "exiledThisWay",
+              "value": 1
+            },
+            "targets": [
+              "creature:you"
+            ],
+            "effects": [
+              {
+                "pump": [
+                  {
+                    "manaValue": "exiledThisWay"
+                  },
+                  0
+                ],
+                "what": "target"
+              }
+            ],
+            "text": "Target creature you control gets +X/+0 until end of turn, where X is that card's mana value."
+          }
+        }
+      ],
+      "text": "Lucky Slots — At the beginning of combat on your turn, scry 1, then exile the top card of your library. You may play that card this turn. When you exile a card this way, target creature you control gets +X/+0 until end of turn, where X is that card's mana value."
+    }
+  ]
+}

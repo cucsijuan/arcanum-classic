@@ -1,0 +1,57 @@
+{
+  "name": "Collective Effort",
+  "escalateCost": "tapCreatures:1",
+  "spell": {
+    "chooseCount": 3,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on each creature target player controls.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

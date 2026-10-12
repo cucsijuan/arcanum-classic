@@ -1,0 +1,16 @@
+{
+  "name": "Decimate",
+  "spell": {
+    "targets": [
+      "artifact",
+      "creature",
+      "enchantment",
+      "land"
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      }
+    ]
+  }
+}

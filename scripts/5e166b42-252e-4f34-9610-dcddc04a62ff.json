@@ -1,0 +1,34 @@
+{
+  "name": "Auron, Venerated Guardian",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "creature",
+                "controlledByDefendingPlayer": true,
+                "filter": {
+                  "lesserPower": true
+                }
+              }
+            ],
+            "effects": [
+              {
+                "exileUntilLeaves": "target"
+              }
+            ],
+            "text": "Exile target creature defending player controls with power less than Auron's power until Auron leaves the battlefield."
+          }
+        }
+      ],
+      "text": "Shooting Star — Whenever Auron attacks, put a +1/+1 counter on it. When you do, exile target creature defending player controls with power less than Auron's power until Auron leaves the battlefield."
+    }
+  ]
+}

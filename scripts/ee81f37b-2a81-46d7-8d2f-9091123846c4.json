@@ -1,0 +1,21 @@
+{
+  "name": "Crackling Doom",
+  "spell": {
+    "effects": [
+      {
+        "damage": 2,
+        "to": "opponents"
+      },
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "greatestPower": true
+        },
+        "who": "opponents"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Barret, Avalanche Leader",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rebel",
+            "types": "Creature — Rebel",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "R"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Avalanche! — Whenever an Equipment you control enters, create a 2/2 red Rebel creature token.",
+      "filter": {
+        "subtype": "Equipment",
+        "controller": "you"
+      }
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "attach": "target",
+          "to": "target2"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, attach up to one target Equipment you control to target Rebel you control.",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "optional": true
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Rebel"
+          }
+        }
+      ]
+    }
+  ]
+}

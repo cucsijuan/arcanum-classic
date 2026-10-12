@@ -1,0 +1,41 @@
+{
+  "name": "Conformer Shuriken",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "tap": "target"
+              },
+              {
+                "counters": {
+                  "diff": [
+                    {
+                      "power": "target"
+                    },
+                    {
+                      "power": "self"
+                    }
+                  ]
+                },
+                "what": "self"
+              }
+            ],
+            "text": "Whenever this creature attacks, tap target creature defending player controls. If that creature has greater power than this creature, put a number of +1/+1 counters on this creature equal to the difference.",
+            "targets": [
+              {
+                "kind": "creature",
+                "controlledByDefendingPlayer": true
+              }
+            ]
+          }
+        ]
+      },
+      "text": "Equipped creature has \"Whenever this creature attacks, tap target creature defending player controls. If that creature has greater power than this creature, put a number of +1/+1 counters on this creature equal to the difference.\""
+    }
+  ]
+}

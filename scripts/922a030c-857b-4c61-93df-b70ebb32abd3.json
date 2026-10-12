@@ -1,0 +1,25 @@
+{
+  "name": "Bronze Guardian",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "artifact"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "other": true,
+        "grantsWard": "{2}"
+      },
+      "text": "Other artifacts you control have ward {2}."
+    }
+  ]
+}

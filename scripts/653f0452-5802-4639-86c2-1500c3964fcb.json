@@ -1,0 +1,56 @@
+{
+  "name": "Cloud, Ex-SOLDIER",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "attach": "target",
+          "to": "self"
+        }
+      ],
+      "text": "When Cloud enters, attach up to one target Equipment you control to it.",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          },
+          "optional": true
+        }
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "equipped": true,
+              "attacking": true
+            }
+          }
+        },
+        {
+          "if": {
+            "atLeast": {
+              "power": "self"
+            },
+            "value": 7
+          },
+          "then": [
+            {
+              "tokens": 2,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Cloud attacks, draw a card for each equipped attacking creature you control. Then if Cloud has power 7 or greater, create two Treasure tokens."
+    }
+  ]
+}

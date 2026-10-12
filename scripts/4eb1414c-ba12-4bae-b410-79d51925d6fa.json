@@ -1,0 +1,29 @@
+{
+  "name": "Avalanche of Sector 7",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "artifact"
+      ],
+      "controller": "opponent"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "opponentActivatesAbility",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent activates an ability of an artifact they control, Avalanche of Sector 7 deals 1 damage to that player.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "opponent"
+      }
+    }
+  ]
+}

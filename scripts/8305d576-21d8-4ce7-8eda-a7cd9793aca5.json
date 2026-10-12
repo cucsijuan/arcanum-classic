@@ -1,0 +1,20 @@
+{
+  "name": "Archmage Emeritus",
+  "abilities": [
+    {
+      "trigger": "castOrCopy",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, draw a card.",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ]
+}

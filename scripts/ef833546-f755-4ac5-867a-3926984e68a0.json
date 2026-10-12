@@ -1,0 +1,43 @@
+{
+  "name": "Archaeomancer's Map",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic",
+            "subtype": "Plains"
+          },
+          "count": 2,
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "When this artifact enters, search your library for up to two basic Plains cards, reveal them, put them into your hand, then shuffle."
+    },
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever a land an opponent controls enters, if that player controls more lands than you, you may put a land card from your hand onto the battlefield.",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "controller": "opponent"
+      },
+      "if": "triggeredControllerHasMoreLands"
+    }
+  ]
+}

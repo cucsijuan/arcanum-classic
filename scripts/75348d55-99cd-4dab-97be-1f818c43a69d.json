@@ -1,0 +1,32 @@
+{
+  "name": "Edgar, Master Machinist",
+  "graveyardCastOncePerTurn": {
+    "filter": {
+      "types": [
+        "artifact"
+      ]
+    },
+    "entersTapped": true
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "greatestManaValue": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            },
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Tools — Whenever Edgar attacks, it gets +X/+0 until end of turn, where X is the greatest mana value among artifacts you control."
+    }
+  ]
+}

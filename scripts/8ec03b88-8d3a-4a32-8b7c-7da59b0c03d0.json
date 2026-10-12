@@ -1,0 +1,18 @@
+{
+  "name": "Colossus Hammer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          10,
+          10
+        ],
+        "loseKeywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature gets +10/+10 and loses flying."
+    }
+  ]
+}

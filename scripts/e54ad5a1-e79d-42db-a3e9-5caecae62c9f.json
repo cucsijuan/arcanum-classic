@@ -1,0 +1,30 @@
+{
+  "name": "Duskshell Crawler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on target creature.",
+      "targets": [
+        "creature"
+      ]
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounterKind": "+1/+1"
+        },
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Each creature you control with a +1/+1 counter on it has trample."
+    }
+  ]
+}

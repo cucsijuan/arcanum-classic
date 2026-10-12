@@ -1,0 +1,44 @@
+{
+  "name": "Emet-Selch of the Third Seat",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "fromGraveyard": true
+        },
+        "amount": 2
+      },
+      "text": "Spells you cast from your graveyard cost {2} less to cast."
+    },
+    {
+      "trigger": "opponentLosesLife",
+      "effects": [
+        {
+          "may": "Cast target instant or sorcery card from your graveyard?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "castFromGraveyard": {},
+              "card": "target",
+              "exileInstead": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more opponents lose life, you may cast target instant or sorcery card from your graveyard. If that spell would be put into your graveyard, exile it instead. Do this only once each turn.",
+      "batched": true,
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

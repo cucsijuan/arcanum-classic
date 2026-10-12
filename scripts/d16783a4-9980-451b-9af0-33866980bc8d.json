@@ -1,0 +1,15 @@
+{
+  "name": "Alphinaud Leveilleur",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Eukrasia — Whenever you cast your second spell each turn, draw a card.",
+      "nth": 2
+    }
+  ]
+}

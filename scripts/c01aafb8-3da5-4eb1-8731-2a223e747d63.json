@@ -1,0 +1,27 @@
+{
+  "name": "Champion's Helm",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +2/+2."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "filter": {
+          "supertype": "legendary"
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "As long as equipped creature is legendary, it has hexproof."
+    }
+  ]
+}

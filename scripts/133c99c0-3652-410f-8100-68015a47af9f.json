@@ -1,0 +1,28 @@
+{
+  "name": "Dispatch",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "count": 3
+        },
+        "then": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

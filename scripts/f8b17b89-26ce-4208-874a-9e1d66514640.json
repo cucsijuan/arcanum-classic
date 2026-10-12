@@ -1,0 +1,13 @@
+{
+  "name": "Dig Through Time",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 7,
+        "take": 2,
+        "required": true,
+        "restAnyOrder": true
+      }
+    ]
+  }
+}

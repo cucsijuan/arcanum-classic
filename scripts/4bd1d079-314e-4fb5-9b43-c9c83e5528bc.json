@@ -1,0 +1,13 @@
+{
+  "name": "Alisaie Leveilleur",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {},
+        "amount": 2,
+        "nth": 2
+      },
+      "text": "Dualcast — The second spell you cast each turn costs {2} less to cast."
+    }
+  ]
+}

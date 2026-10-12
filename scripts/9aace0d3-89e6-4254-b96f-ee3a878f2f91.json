@@ -1,0 +1,16 @@
+{
+  "name": "Conqueror's Flail",
+  "opponentsCantCastDuringYourTurnWhileAttached": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          "colorsAmongYourPermanents",
+          "colorsAmongYourPermanents"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each color among permanents you control."
+    }
+  ]
+}

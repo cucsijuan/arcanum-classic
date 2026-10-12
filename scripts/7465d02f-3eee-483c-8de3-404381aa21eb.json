@@ -1,0 +1,40 @@
+{
+  "name": "Dancer's Chakrams",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Lifelink"
+        ],
+        "addSubtypes": [
+          "Performer"
+        ],
+        "grants": [
+          {
+            "static": {
+              "affects": "creatures:you",
+              "filter": {
+                "commander": true
+              },
+              "other": true,
+              "pump": [
+                2,
+                2
+              ],
+              "keywords": [
+                "Lifelink"
+              ]
+            },
+            "text": "Other commanders you control get +2/+2 and have lifelink."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +2/+2, has lifelink and \"Other commanders you control get +2/+2 and have lifelink,\" and is a Performer in addition to its other types."
+    }
+  ]
+}

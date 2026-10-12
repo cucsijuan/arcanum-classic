@@ -1,0 +1,59 @@
+{
+  "name": "Cloud's Limit Break",
+  "spell": {
+    "modes": [
+      {
+        "text": "Cross-Slash — {0} — Destroy target tapped creature.",
+        "cost": "{0}",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "tapped": true
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Blade Beam — {1} — Destroy any number of target tapped creatures with different controllers.",
+        "cost": "{1}",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "tapped": true
+            },
+            "anyNumber": true
+          }
+        ],
+        "targetRule": "differentControllers",
+        "effects": [
+          {
+            "destroy": "eachTarget"
+          }
+        ]
+      },
+      {
+        "text": "Omnislash — {3}{W} — Destroy all tapped creatures.",
+        "cost": "{3}{W}",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "tapped": true
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

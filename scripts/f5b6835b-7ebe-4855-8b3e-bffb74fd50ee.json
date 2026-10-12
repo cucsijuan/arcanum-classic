@@ -1,0 +1,37 @@
+{
+  "name": "Elena, Turk Recruit",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When Elena enters, return target non-Assassin historic card from your graveyard to your hand.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "historic": true,
+            "notSubtype": "Assassin"
+          }
+        }
+      ]
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a historic spell, put a +1/+1 counter on Elena.",
+      "filter": {
+        "historic": true
+      }
+    }
+  ]
+}
