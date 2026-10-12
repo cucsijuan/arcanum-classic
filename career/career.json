@@ -27,7 +27,7 @@
 
   // Ante matches: each player antes a card at random from their deck; the winner keeps both.
   "ante": {
-    "perDay": 3,
+    "perDay": 10,
     // A regular plays only for a stake worth at least this share of the card they put up.
     "minRatio": 0.8,
     // How many of their cards a regular offers to choose from.
@@ -95,23 +95,26 @@
     { "name": "Store champion", "reputation": 250 }
   ],
 
-  // Each week three of these are drawn for the player. Kinds: winDaily, winMatch, winAnte, winCheap (value: the deck's
-  // highest worth in cents), winMono, openBoosters, playPractice.
   // The regulars' daily offers at the store, and how fast rivals improve their decks.
   "offers": { "bargainRate": 0.6, "tradeSpread": 0.1, "rivalUpgrades": 2, "rivalWeeks": 12 },
 
+  // Each week three of these are drawn for the player. Kinds: winDaily, winMatch, winAnte, winCheap (value: the deck's
+  // highest worth in cents), winMono, openBoosters, playPractice, playEvent ("event": the event's id, played through).
+  // Sized for a week of play: 14 daily matches, 7 daily drafts (3 matches each), 70 ante matches and 21 paid practice matches.
   "challengesPerWeek": 3,
   "challenges": [
-    { "id": "daily3", "text": "Win 3 daily matches", "kind": "winDaily", "count": 3, "boosters": 1 },
-    { "id": "win5", "text": "Win 5 matches", "kind": "winMatch", "count": 5, "cash": 500 },
-    { "id": "win10", "text": "Win 10 matches", "kind": "winMatch", "count": 10, "boosters": 2 },
-    { "id": "ante1", "text": "Win an ante match", "kind": "winAnte", "count": 1, "cash": 300 },
-    { "id": "ante3", "text": "Win 3 ante matches", "kind": "winAnte", "count": 3, "boosters": 1 },
+    { "id": "daily8", "text": "Win 8 daily matches", "kind": "winDaily", "count": 8, "boosters": 1 },
+    { "id": "win15", "text": "Win 15 matches", "kind": "winMatch", "count": 15, "cash": 500 },
+    { "id": "win30", "text": "Win 30 matches", "kind": "winMatch", "count": 30, "boosters": 2 },
+    { "id": "ante10", "text": "Win 10 ante matches", "kind": "winAnte", "count": 10, "cash": 400 },
+    { "id": "ante25", "text": "Win 25 ante matches", "kind": "winAnte", "count": 25, "boosters": 2 },
+    { "id": "draft4", "text": "Play 4 daily drafts", "kind": "playEvent", "event": "daily-draft", "count": 4, "boosters": 1 },
     { "id": "budget", "text": "Win with a deck worth $15 or less", "kind": "winCheap", "value": 1500, "boosters": 1 },
     { "id": "mono", "text": "Win with a deck of a single color", "kind": "winMono", "boosters": 1 },
-    { "id": "open5", "text": "Open 5 boosters", "kind": "openBoosters", "count": 5, "cash": 300 },
-    { "id": "practice5", "text": "Play 5 practice matches", "kind": "playPractice", "count": 5, "cash": 200 }
+    { "id": "open10", "text": "Open 10 boosters", "kind": "openBoosters", "count": 10, "cash": 300 },
+    { "id": "practice10", "text": "Play 10 practice matches", "kind": "playPractice", "count": 10, "cash": 250 }
   ],
+
 
   // Boosters on the shelf; the featured set changes every Monday (UTC) in this order.
   "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10"],
@@ -136,6 +139,14 @@
   // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
   // anyone). Draft events take the week's featured set unless "set" names one; the drafted cards are the player's.
   "events": [
+    {
+      // Every day: a cheap draft against the computer; the store provides the boosters and the drafted cards are the player's.
+      "id": "daily-draft", "name": "Daily draft", "when": "daily", "kind": "draft", "set": "featured",
+      "players": 8, "rounds": 3, "bestOf": 1, "entry": 100,
+      "prizes": [
+        { "wins": 2, "boosters": 1, "cash": 450, "reputation": 2 }
+      ]
+    },
     {
       "id": "draft-night", "name": "Draft night", "when": "Wednesday", "kind": "draft", "set": "featured",
       "players": 8, "rounds": 3, "bestOf": 1, "entry": 1500, "entryBoosters": 3,
