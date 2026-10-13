@@ -46,12 +46,18 @@ to be derived from published numbers. Check the packs: every sheet non-empty, th
 - Two-color sample decks: `tools/build_set_decks.py "$CARDS" sets/<code>.json [printings file]` writes `decks/<code>-<pair>.txt`.
 - Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line.
 
-## 6. Career
+## 6. Draft ratings
+
+For a set that can be drafted, run `tools/draft_ratings.py <code> [format]` (format default PremierDraft). It downloads the set's public
+game and draft datasets into `~/.cache/arcanum/17lands` and writes `ratings/<code>.json`, which ships with the module. A set without
+public datasets fails the download and gets no file; the computer drafters then use the engine's own ratings. Commit the file with the set.
+
+## 7. Career
 
 Add the set to `career/career.json`: `sets` and `featured` (booster shelf), the sample decks to `starter` and `precons`, and commander
 precons to `precons` with a price and to the commander night's `decks`.
 
-## 7. Soak
+## 8. Soak
 
 ```sh
 ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARCANUM_SMOKE_GAMES=500 \
@@ -60,6 +66,6 @@ ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARC
 
 `ARCANUM_MODULE_PATH` must be absolute. Fix every error it reports; its list of cards never cast shows what the decks never reach.
 
-## 8. Release
+## 9. Release
 
 Bump the module version (and the engine API version when the module needs new engine features), then follow the release workflow.

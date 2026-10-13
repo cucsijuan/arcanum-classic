@@ -1,0 +1,1596 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "ltr",
+ "format": "PremierDraft",
+ "games": 980485,
+ "mean": 0.5569,
+ "sd": 0.0429,
+ "cards": {
+  "Andúril, Flame of the West": {
+   "gih": 0.7043,
+   "games": 10744,
+   "ata": 1.06,
+   "picks": 3616
+  },
+  "Aragorn, Company Leader": {
+   "gih": 0.5552,
+   "games": 9768,
+   "ata": 2.52,
+   "picks": 5416
+  },
+  "Aragorn, the Uniter": {
+   "gih": 0.5611,
+   "games": 4167,
+   "ata": 2.69,
+   "picks": 2733
+  },
+  "Arwen Undómiel": {
+   "gih": 0.5578,
+   "games": 15118,
+   "ata": 6.68,
+   "picks": 12814
+  },
+  "Arwen's Gift": {
+   "gih": 0.5602,
+   "games": 79946,
+   "ata": 8.3,
+   "picks": 53258
+  },
+  "Arwen, Mortal Queen": {
+   "gih": 0.6666,
+   "games": 6833,
+   "ata": 1.82,
+   "picks": 3175
+  },
+  "Bag End Porter": {
+   "gih": 0.5511,
+   "games": 32504,
+   "ata": 10.3,
+   "picks": 39133
+  },
+  "Banish from Edoras": {
+   "gih": 0.5446,
+   "games": 55953,
+   "ata": 7.73,
+   "picks": 38907
+  },
+  "Barad-dûr": {
+   "gih": 0.5655,
+   "games": 13190,
+   "ata": 3.37,
+   "picks": 5681
+  },
+  "Barrow-Blade": {
+   "gih": 0.5276,
+   "games": 6059,
+   "ata": 9.99,
+   "picks": 13345
+  },
+  "Battle-Scarred Goblin": {
+   "gih": 0.5663,
+   "games": 87523,
+   "ata": 7.79,
+   "picks": 53274
+  },
+  "Bewitching Leechcraft": {
+   "gih": 0.5274,
+   "games": 24050,
+   "ata": 10.54,
+   "picks": 39506
+  },
+  "Bilbo, Retired Burglar": {
+   "gih": 0.603,
+   "games": 52221,
+   "ata": 3.92,
+   "picks": 25125
+  },
+  "Bill Ferny, Bree Swindler": {
+   "gih": 0.5257,
+   "games": 16550,
+   "ata": 9.16,
+   "picks": 17001
+  },
+  "Bill the Pony": {
+   "gih": 0.573,
+   "games": 36051,
+   "ata": 4.38,
+   "picks": 18937
+  },
+  "Birthday Escape": {
+   "gih": 0.5872,
+   "games": 139906,
+   "ata": 5.26,
+   "picks": 69726
+  },
+  "Bitter Downfall": {
+   "gih": 0.6025,
+   "games": 56083,
+   "ata": 2.37,
+   "picks": 22741
+  },
+  "Bombadil's Song": {
+   "gih": 0.5192,
+   "games": 24301,
+   "ata": 11.15,
+   "picks": 37056
+  },
+  "Book of Mazarbul": {
+   "gih": 0.5972,
+   "games": 47825,
+   "ata": 3.62,
+   "picks": 21369
+  },
+  "Borne Upon a Wind": {
+   "gih": 0.4998,
+   "games": 2399,
+   "ata": 8.33,
+   "picks": 5752
+  },
+  "Boromir, Warden of the Tower": {
+   "gih": 0.5927,
+   "games": 13598,
+   "ata": 2.1,
+   "picks": 6073
+  },
+  "Brandywine Farmer": {
+   "gih": 0.4737,
+   "games": 8824,
+   "ata": 12.23,
+   "picks": 34759
+  },
+  "Breaking of the Fellowship": {
+   "gih": 0.574,
+   "games": 75503,
+   "ata": 8.01,
+   "picks": 50064
+  },
+  "Butterbur, Bree Innkeeper": {
+   "gih": 0.5245,
+   "games": 15166,
+   "ata": 7.23,
+   "picks": 12970
+  },
+  "Call of the Ring": {
+   "gih": 0.6079,
+   "games": 18790,
+   "ata": 1.45,
+   "picks": 7346
+  },
+  "Captain of Umbar": {
+   "gih": 0.5107,
+   "games": 19071,
+   "ata": 11.23,
+   "picks": 43427
+  },
+  "Cast into the Fire": {
+   "gih": 0.5456,
+   "games": 25141,
+   "ata": 10.79,
+   "picks": 48289
+  },
+  "Celeborn the Wise": {
+   "gih": 0.5291,
+   "games": 12241,
+   "ata": 7.01,
+   "picks": 10372
+  },
+  "Chance-Met Elves": {
+   "gih": 0.5056,
+   "games": 20441,
+   "ata": 10.31,
+   "picks": 29952
+  },
+  "Cirith Ungol Patrol": {
+   "gih": 0.562,
+   "games": 77101,
+   "ata": 8.47,
+   "picks": 52754
+  },
+  "Claim the Precious": {
+   "gih": 0.61,
+   "games": 140606,
+   "ata": 2.53,
+   "picks": 62447
+  },
+  "Council's Deliberation": {
+   "gih": 0.5396,
+   "games": 24233,
+   "ata": 7.06,
+   "picks": 17540
+  },
+  "Dawn of a New Age": {
+   "gih": 0.5559,
+   "games": 980485,
+   "ata": 2.2,
+   "picks": 2738
+  },
+  "Deceive the Messenger": {
+   "gih": 0.5867,
+   "games": 112401,
+   "ata": 8.09,
+   "picks": 66566
+  },
+  "Delighted Halfling": {
+   "gih": 0.5971,
+   "games": 10717,
+   "ata": 2.55,
+   "picks": 5363
+  },
+  "Denethor, Ruling Steward": {
+   "gih": 0.589,
+   "games": 36924,
+   "ata": 3.92,
+   "picks": 19799
+  },
+  "Display of Power": {
+   "gih": 0.477,
+   "games": 1826,
+   "ata": 8.58,
+   "picks": 5877
+  },
+  "Doors of Durin": {
+   "gih": 0.5603,
+   "games": 7093,
+   "ata": 4.4,
+   "picks": 5294
+  },
+  "Dreadful as the Storm": {
+   "gih": 0.5757,
+   "games": 60765,
+   "ata": 10.15,
+   "picks": 59442
+  },
+  "Dunland Crebain": {
+   "gih": 0.6085,
+   "games": 156225,
+   "ata": 3.42,
+   "picks": 69771
+  },
+  "Dúnedain Blade": {
+   "gih": 0.5292,
+   "games": 21743,
+   "ata": 11.17,
+   "picks": 41170
+  },
+  "Dúnedain Rangers": {
+   "gih": 0.5498,
+   "games": 20417,
+   "ata": 6.5,
+   "picks": 13698
+  },
+  "Eagles of the North": {
+   "gih": 0.5505,
+   "games": 82391,
+   "ata": 7.43,
+   "picks": 48085
+  },
+  "East-Mark Cavalier": {
+   "gih": 0.5501,
+   "games": 57649,
+   "ata": 8.86,
+   "picks": 44079
+  },
+  "Easterling Vanguard": {
+   "gih": 0.5847,
+   "games": 130767,
+   "ata": 5.38,
+   "picks": 59936
+  },
+  "Eastfarthing Farmer": {
+   "gih": 0.5625,
+   "games": 44469,
+   "ata": 8.95,
+   "picks": 41224
+  },
+  "Elrond, Lord of Rivendell": {
+   "gih": 0.5553,
+   "games": 31423,
+   "ata": 4.43,
+   "picks": 15107
+  },
+  "Elrond, Master of Healing": {
+   "gih": 0.5445,
+   "games": 6995,
+   "ata": 3.69,
+   "picks": 4805
+  },
+  "Elven Chorus": {
+   "gih": 0.5159,
+   "games": 7257,
+   "ata": 3.49,
+   "picks": 4306
+  },
+  "Elven Farsight": {
+   "gih": 0.5094,
+   "games": 15325,
+   "ata": 11.46,
+   "picks": 32735
+  },
+  "Enraged Huorn": {
+   "gih": 0.557,
+   "games": 51685,
+   "ata": 9.17,
+   "picks": 43072
+  },
+  "Ent's Fury": {
+   "gih": 0.5538,
+   "games": 59656,
+   "ata": 7.83,
+   "picks": 41052
+  },
+  "Ent-Draught Basin": {
+   "gih": 0.4738,
+   "games": 1429,
+   "ata": 11.4,
+   "picks": 13480
+  },
+  "Entish Restoration": {
+   "gih": 0.466,
+   "games": 8317,
+   "ata": 8.84,
+   "picks": 12558
+  },
+  "Erebor Flamesmith": {
+   "gih": 0.5602,
+   "games": 88881,
+   "ata": 7.62,
+   "picks": 55555
+  },
+  "Erkenbrand, Lord of Westfold": {
+   "gih": 0.5607,
+   "games": 33026,
+   "ata": 4.71,
+   "picks": 18377
+  },
+  "Errand-Rider of Gondor": {
+   "gih": 0.5696,
+   "games": 96492,
+   "ata": 5.21,
+   "picks": 53271
+  },
+  "Escape from Orthanc": {
+   "gih": 0.5503,
+   "games": 21358,
+   "ata": 11.34,
+   "picks": 46719
+  },
+  "Esquire of the King": {
+   "gih": 0.5404,
+   "games": 39614,
+   "ata": 10.18,
+   "picks": 43074
+  },
+  "Fall of Cair Andros": {
+   "gih": 0.5303,
+   "games": 7088,
+   "ata": 4.4,
+   "picks": 5051
+  },
+  "Fall of Gil-galad": {
+   "gih": 0.5654,
+   "games": 9424,
+   "ata": 3.11,
+   "picks": 4754
+  },
+  "Fangorn, Tree Shepherd": {
+   "gih": 0.4834,
+   "games": 2466,
+   "ata": 6.55,
+   "picks": 3948
+  },
+  "Faramir, Field Commander": {
+   "gih": 0.5406,
+   "games": 32136,
+   "ata": 3.26,
+   "picks": 15037
+  },
+  "Faramir, Prince of Ithilien": {
+   "gih": 0.653,
+   "games": 19476,
+   "ata": 1.79,
+   "picks": 7867
+  },
+  "Fear, Fire, Foes!": {
+   "gih": 0.6313,
+   "games": 66904,
+   "ata": 2.31,
+   "picks": 26514
+  },
+  "Fiery Inscription": {
+   "gih": 0.5795,
+   "games": 47575,
+   "ata": 4.35,
+   "picks": 22486
+  },
+  "Fire of Orthanc": {
+   "gih": 0.5029,
+   "games": 3603,
+   "ata": 12.38,
+   "picks": 43502
+  },
+  "Flame of Anor": {
+   "gih": 0.6005,
+   "games": 17339,
+   "ata": 3.2,
+   "picks": 7989
+  },
+  "Flowering of the White Tree": {
+   "gih": 0.5894,
+   "games": 13765,
+   "ata": 1.85,
+   "picks": 6176
+  },
+  "Fog on the Barrow-Downs": {
+   "gih": 0.5227,
+   "games": 36588,
+   "ata": 8.31,
+   "picks": 31785
+  },
+  "Foray of Orcs": {
+   "gih": 0.5997,
+   "games": 59450,
+   "ata": 2.9,
+   "picks": 25215
+  },
+  "Forest": {
+   "gih": 0.5322,
+   "games": 228160
+  },
+  "Forge Anew": {
+   "gih": 0.3821,
+   "games": 123,
+   "ata": 9.22,
+   "picks": 5607
+  },
+  "Friendly Rivalry": {
+   "gih": 0.5368,
+   "games": 10771,
+   "ata": 9.01,
+   "picks": 15569
+  },
+  "Frodo Baggins": {
+   "gih": 0.6003,
+   "games": 27871,
+   "ata": 4.54,
+   "picks": 17180
+  },
+  "Frodo, Sauron's Bane": {
+   "gih": 0.5907,
+   "games": 11626,
+   "ata": 2.64,
+   "picks": 5636
+  },
+  "Galadhrim Bow": {
+   "gih": 0.5279,
+   "games": 8519,
+   "ata": 12.29,
+   "picks": 36318
+  },
+  "Galadhrim Guide": {
+   "gih": 0.5111,
+   "games": 14067,
+   "ata": 11.45,
+   "picks": 31979
+  },
+  "Galadriel of Lothlórien": {
+   "gih": 0.5425,
+   "games": 7875,
+   "ata": 3.82,
+   "picks": 4975
+  },
+  "Gandalf the Grey": {
+   "gih": 0.5497,
+   "games": 14466,
+   "ata": 2.48,
+   "picks": 6697
+  },
+  "Gandalf the White": {
+   "gih": 0.5363,
+   "games": 5029,
+   "ata": 1.73,
+   "picks": 2591
+  },
+  "Gandalf's Sanction": {
+   "gih": 0.5927,
+   "games": 55987,
+   "ata": 4.63,
+   "picks": 27303
+  },
+  "Gandalf, Friend of the Shire": {
+   "gih": 0.5699,
+   "games": 50051,
+   "ata": 3.01,
+   "picks": 20775
+  },
+  "Generous Ent": {
+   "gih": 0.5517,
+   "games": 70937,
+   "ata": 7.43,
+   "picks": 44857
+  },
+  "Gift of Strands": {
+   "gih": 0.538,
+   "games": 7214,
+   "ata": 9.55,
+   "picks": 12497
+  },
+  "Gimli's Axe": {
+   "gih": 0.5223,
+   "games": 8089,
+   "ata": 11.98,
+   "picks": 43475
+  },
+  "Gimli's Fury": {
+   "gih": 0.5456,
+   "games": 17318,
+   "ata": 11.27,
+   "picks": 46482
+  },
+  "Gimli, Counter of Kills": {
+   "gih": 0.5514,
+   "games": 19299,
+   "ata": 6.45,
+   "picks": 13417
+  },
+  "Gimli, Mournful Avenger": {
+   "gih": 0.4977,
+   "games": 3303,
+   "ata": 6.83,
+   "picks": 4742
+  },
+  "Glamdring": {
+   "gih": 0.5325,
+   "games": 4214,
+   "ata": 2.55,
+   "picks": 2200
+  },
+  "Glorfindel, Dauntless Rescuer": {
+   "gih": 0.5008,
+   "games": 9728,
+   "ata": 7.98,
+   "picks": 10834
+  },
+  "Glorious Gale": {
+   "gih": 0.5874,
+   "games": 132129,
+   "ata": 6.08,
+   "picks": 65320
+  },
+  "Glóin, Dwarf Emissary": {
+   "gih": 0.5571,
+   "games": 11365,
+   "ata": 3.59,
+   "picks": 5779
+  },
+  "Goblin Fireleaper": {
+   "gih": 0.5585,
+   "games": 39782,
+   "ata": 5.42,
+   "picks": 19534
+  },
+  "Goldberry, River-Daughter": {
+   "gih": 0.5647,
+   "games": 9801,
+   "ata": 5.68,
+   "picks": 6453
+  },
+  "Gollum's Bite": {
+   "gih": 0.6116,
+   "games": 59470,
+   "ata": 2.79,
+   "picks": 24201
+  },
+  "Gollum, Patient Plotter": {
+   "gih": 0.6037,
+   "games": 58084,
+   "ata": 2.71,
+   "picks": 23254
+  },
+  "Gorbag of Minas Morgul": {
+   "gih": 0.5476,
+   "games": 27639,
+   "ata": 6.09,
+   "picks": 14970
+  },
+  "Gothmog, Morgul Lieutenant": {
+   "gih": 0.6066,
+   "games": 50356,
+   "ata": 2.67,
+   "picks": 20541
+  },
+  "Great Hall of the Citadel": {
+   "gih": 0.548,
+   "games": 67699,
+   "ata": 8.02,
+   "picks": 56176
+  },
+  "Grey Havens Navigator": {
+   "gih": 0.5495,
+   "games": 41128,
+   "ata": 9.9,
+   "picks": 44392
+  },
+  "Grishnákh, Brash Instigator": {
+   "gih": 0.6178,
+   "games": 56316,
+   "ata": 3.02,
+   "picks": 24031
+  },
+  "Grond, the Gatebreaker": {
+   "gih": 0.5443,
+   "games": 21381,
+   "ata": 6.5,
+   "picks": 15823
+  },
+  "Gríma Wormtongue": {
+   "gih": 0.5544,
+   "games": 32941,
+   "ata": 4.65,
+   "picks": 16230
+  },
+  "Gwaihir the Windlord": {
+   "gih": 0.513,
+   "games": 9895,
+   "ata": 8.88,
+   "picks": 14306
+  },
+  "Haradrim Spearmaster": {
+   "gih": 0.5661,
+   "games": 74117,
+   "ata": 8.14,
+   "picks": 49947
+  },
+  "Haunt of the Dead Marshes": {
+   "gih": 0.584,
+   "games": 107023,
+   "ata": 7.01,
+   "picks": 54878
+  },
+  "Hew the Entwood": {
+   "gih": 0.1698,
+   "games": 53,
+   "ata": 8.15,
+   "picks": 2774
+  },
+  "Hithlain Knots": {
+   "gih": 0.5695,
+   "games": 86075,
+   "ata": 8.26,
+   "picks": 55409
+  },
+  "Hobbit's Sting": {
+   "gih": 0.5518,
+   "games": 66218,
+   "ata": 7.21,
+   "picks": 42736
+  },
+  "Horn of Gondor": {
+   "gih": 0.6791,
+   "games": 21440,
+   "ata": 1.23,
+   "picks": 7499
+  },
+  "Horn of the Mark": {
+   "gih": 0.5062,
+   "games": 4690,
+   "ata": 4.05,
+   "picks": 3632
+  },
+  "Horses of the Bruinen": {
+   "gih": 0.6061,
+   "games": 55150,
+   "ata": 5.14,
+   "picks": 25149
+  },
+  "Improvised Club": {
+   "gih": 0.5825,
+   "games": 122293,
+   "ata": 6.21,
+   "picks": 62301
+  },
+  "Inherited Envelope": {
+   "gih": 0.5379,
+   "games": 40942,
+   "ata": 9.59,
+   "picks": 44532
+  },
+  "Ioreth of the Healing House": {
+   "gih": 0.5416,
+   "games": 23071,
+   "ata": 8.0,
+   "picks": 17673
+  },
+  "Isildur's Fateful Strike": {
+   "gih": 0.5352,
+   "games": 9993,
+   "ata": 3.02,
+   "picks": 5256
+  },
+  "Island": {
+   "gih": 0.5508,
+   "games": 432503
+  },
+  "Isolation at Orthanc": {
+   "gih": 0.5787,
+   "games": 108587,
+   "ata": 8.56,
+   "picks": 66932
+  },
+  "Ithilien Kingfisher": {
+   "gih": 0.543,
+   "games": 67967,
+   "ata": 7.74,
+   "picks": 45595
+  },
+  "King of the Oathbreakers": {
+   "gih": 0.562,
+   "games": 12722,
+   "ata": 2.19,
+   "picks": 6522
+  },
+  "Knights of Dol Amroth": {
+   "gih": 0.5113,
+   "games": 17775,
+   "ata": 11.18,
+   "picks": 39918
+  },
+  "Landroval, Horizon Witness": {
+   "gih": 0.5522,
+   "games": 24527,
+   "ata": 5.25,
+   "picks": 14101
+  },
+  "Lash of the Balrog": {
+   "gih": 0.5714,
+   "games": 114011,
+   "ata": 5.12,
+   "picks": 53739
+  },
+  "Last March of the Ents": {
+   "gih": 0.4582,
+   "games": 838,
+   "ata": 6.12,
+   "picks": 1868
+  },
+  "Legolas, Counter of Kills": {
+   "gih": 0.473,
+   "games": 6201,
+   "ata": 9.22,
+   "picks": 11511
+  },
+  "Legolas, Master Archer": {
+   "gih": 0.5371,
+   "games": 8375,
+   "ata": 2.88,
+   "picks": 4515
+  },
+  "Lembas": {
+   "gih": 0.5533,
+   "games": 36247,
+   "ata": 9.88,
+   "picks": 45740
+  },
+  "Lobelia Sackville-Baggins": {
+   "gih": 0.5547,
+   "games": 12433,
+   "ata": 2.71,
+   "picks": 5595
+  },
+  "Long List of the Ents": {
+   "gih": 0.4741,
+   "games": 2297,
+   "ata": 11.07,
+   "picks": 13641
+  },
+  "Lost Isle Calling": {
+   "gih": 0.3847,
+   "games": 798,
+   "ata": 8.51,
+   "picks": 5164
+  },
+  "Lost to Legend": {
+   "gih": 0.5511,
+   "games": 24538,
+   "ata": 7.72,
+   "picks": 18762
+  },
+  "Lothlórien Lookout": {
+   "gih": 0.5239,
+   "games": 30178,
+   "ata": 10.15,
+   "picks": 33696
+  },
+  "Lotho, Corrupt Shirriff": {
+   "gih": 0.532,
+   "games": 6774,
+   "ata": 5.75,
+   "picks": 5461
+  },
+  "Lórien Revealed": {
+   "gih": 0.576,
+   "games": 136407,
+   "ata": 6.14,
+   "picks": 67103
+  },
+  "Many Partings": {
+   "gih": 0.5523,
+   "games": 51540,
+   "ata": 9.16,
+   "picks": 44155
+  },
+  "March from the Black Gate": {
+   "gih": 0.5881,
+   "games": 45927,
+   "ata": 2.83,
+   "picks": 19428
+  },
+  "Mauhúr, Uruk-hai Captain": {
+   "gih": 0.5996,
+   "games": 37926,
+   "ata": 4.17,
+   "picks": 19755
+  },
+  "Meneldor, Swift Savior": {
+   "gih": 0.5499,
+   "games": 30320,
+   "ata": 4.85,
+   "picks": 15779
+  },
+  "Meriadoc Brandybuck": {
+   "gih": 0.5638,
+   "games": 23368,
+   "ata": 6.09,
+   "picks": 14237
+  },
+  "Merry, Esquire of Rohan": {
+   "gih": 0.5764,
+   "games": 7910,
+   "ata": 4.62,
+   "picks": 5489
+  },
+  "Minas Tirith": {
+   "gih": 0.5489,
+   "games": 10521,
+   "ata": 4.02,
+   "picks": 5354
+  },
+  "Mines of Moria": {
+   "gih": 0.5533,
+   "games": 8578,
+   "ata": 6.79,
+   "picks": 5690
+  },
+  "Mirkwood Bats": {
+   "gih": 0.5386,
+   "games": 52880,
+   "ata": 7.28,
+   "picks": 37719
+  },
+  "Mirkwood Spider": {
+   "gih": 0.5489,
+   "games": 38870,
+   "ata": 9.74,
+   "picks": 34300
+  },
+  "Mirror of Galadriel": {
+   "gih": 0.4857,
+   "games": 4779,
+   "ata": 10.32,
+   "picks": 13272
+  },
+  "Mirrormere Guardian": {
+   "gih": 0.5517,
+   "games": 42953,
+   "ata": 9.96,
+   "picks": 40997
+  },
+  "Mithril Coat": {
+   "gih": 0.4705,
+   "games": 5071,
+   "ata": 3.09,
+   "picks": 3190
+  },
+  "Mordor Muster": {
+   "gih": 0.5847,
+   "games": 136724,
+   "ata": 5.1,
+   "picks": 63283
+  },
+  "Mordor Trebuchet": {
+   "gih": 0.5326,
+   "games": 43918,
+   "ata": 8.23,
+   "picks": 37532
+  },
+  "Morgul-Knife Wound": {
+   "gih": 0.5605,
+   "games": 34985,
+   "ata": 9.47,
+   "picks": 39196
+  },
+  "Moria Marauder": {
+   "gih": 0.5732,
+   "games": 15211,
+   "ata": 2.74,
+   "picks": 6895
+  },
+  "Mount Doom": {
+   "gih": 0.5504,
+   "games": 2907,
+   "ata": 4.82,
+   "picks": 2275
+  },
+  "Mountain": {
+   "gih": 0.5686,
+   "games": 550050
+  },
+  "Mushroom Watchdogs": {
+   "gih": 0.5378,
+   "games": 35198,
+   "ata": 9.77,
+   "picks": 37600
+  },
+  "Nasty End": {
+   "gih": 0.5469,
+   "games": 79284,
+   "ata": 8.22,
+   "picks": 52157
+  },
+  "Nazgûl": {
+   "gih": 0.6265,
+   "games": 57686,
+   "ata": 2.11,
+   "picks": 22817
+  },
+  "Nimble Hobbit": {
+   "gih": 0.5222,
+   "games": 16554,
+   "ata": 11.42,
+   "picks": 40294
+  },
+  "Nimrodel Watcher": {
+   "gih": 0.5127,
+   "games": 24558,
+   "ata": 10.43,
+   "picks": 41126
+  },
+  "Now for Wrath, Now for Ruin!": {
+   "gih": 0.5193,
+   "games": 15282,
+   "ata": 11.32,
+   "picks": 37873
+  },
+  "Oath of the Grey Host": {
+   "gih": 0.5684,
+   "games": 36851,
+   "ata": 4.72,
+   "picks": 19026
+  },
+  "Old Man Willow": {
+   "gih": 0.5907,
+   "games": 32201,
+   "ata": 4.45,
+   "picks": 19060
+  },
+  "Oliphaunt": {
+   "gih": 0.5617,
+   "games": 103517,
+   "ata": 7.13,
+   "picks": 54114
+  },
+  "Olog-hai Crusher": {
+   "gih": 0.5422,
+   "games": 25591,
+   "ata": 10.42,
+   "picks": 45541
+  },
+  "One Ring to Rule Them All": {
+   "gih": 0.5449,
+   "games": 9885,
+   "ata": 2.7,
+   "picks": 5151
+  },
+  "Orcish Bowmasters": {
+   "gih": 0.7121,
+   "games": 21476,
+   "ata": 1.29,
+   "picks": 7732
+  },
+  "Orcish Medicine": {
+   "gih": 0.5589,
+   "games": 42801,
+   "ata": 9.29,
+   "picks": 43132
+  },
+  "Palantír of Orthanc": {
+   "gih": 0.6398,
+   "games": 10723,
+   "ata": 1.29,
+   "picks": 3757
+  },
+  "Pelargir Survivor": {
+   "gih": 0.5799,
+   "games": 132371,
+   "ata": 7.02,
+   "picks": 70820
+  },
+  "Peregrin Took": {
+   "gih": 0.5288,
+   "games": 19675,
+   "ata": 5.77,
+   "picks": 12787
+  },
+  "Phial of Galadriel": {
+   "gih": 0.5631,
+   "games": 14805,
+   "ata": 2.25,
+   "picks": 6025
+  },
+  "Pippin's Bravery": {
+   "gih": 0.5252,
+   "games": 9612,
+   "ata": 12.35,
+   "picks": 38600
+  },
+  "Pippin, Guard of the Citadel": {
+   "gih": 0.5954,
+   "games": 10328,
+   "ata": 3.4,
+   "picks": 6452
+  },
+  "Plains": {
+   "gih": 0.5503,
+   "games": 352769
+  },
+  "Press the Enemy": {
+   "gih": 0.524,
+   "games": 6271,
+   "ata": 6.24,
+   "picks": 5219
+  },
+  "Prince Imrahil the Fair": {
+   "gih": 0.5645,
+   "games": 21389,
+   "ata": 6.36,
+   "picks": 17242
+  },
+  "Protector of Gondor": {
+   "gih": 0.5722,
+   "games": 81408,
+   "ata": 7.3,
+   "picks": 52244
+  },
+  "Quarrel's End": {
+   "gih": 0.5838,
+   "games": 117597,
+   "ata": 7.42,
+   "picks": 67399
+  },
+  "Quickbeam, Upstart Ent": {
+   "gih": 0.5506,
+   "games": 24279,
+   "ata": 5.46,
+   "picks": 14605
+  },
+  "Radagast the Brown": {
+   "gih": 0.6103,
+   "games": 6407,
+   "ata": 1.91,
+   "picks": 3103
+  },
+  "Rally at the Hornburg": {
+   "gih": 0.609,
+   "games": 162371,
+   "ata": 4.75,
+   "picks": 78924
+  },
+  "Ranger's Firebrand": {
+   "gih": 0.6061,
+   "games": 58291,
+   "ata": 2.86,
+   "picks": 23907
+  },
+  "Rangers of Ithilien": {
+   "gih": 0.6468,
+   "games": 20825,
+   "ata": 1.83,
+   "picks": 7857
+  },
+  "Relentless Rohirrim": {
+   "gih": 0.5809,
+   "games": 112095,
+   "ata": 6.9,
+   "picks": 63609
+  },
+  "Reprieve": {
+   "gih": 0.5767,
+   "games": 34093,
+   "ata": 5.47,
+   "picks": 19351
+  },
+  "Revive the Shire": {
+   "gih": 0.5206,
+   "games": 14544,
+   "ata": 11.99,
+   "picks": 39145
+  },
+  "Ringsight": {
+   "gih": 0.5485,
+   "games": 8820,
+   "ata": 9.86,
+   "picks": 18445
+  },
+  "Rise of the Witch-king": {
+   "gih": 0.5586,
+   "games": 21290,
+   "ata": 6.53,
+   "picks": 17139
+  },
+  "Rising of the Day": {
+   "gih": 0.4534,
+   "games": 1383,
+   "ata": 11.2,
+   "picks": 13408
+  },
+  "Rivendell": {
+   "gih": 0.5548,
+   "games": 11970,
+   "ata": 4.88,
+   "picks": 5761
+  },
+  "Rohirrim Lancer": {
+   "gih": 0.572,
+   "games": 114021,
+   "ata": 6.64,
+   "picks": 60991
+  },
+  "Rosie Cotton of South Lane": {
+   "gih": 0.5749,
+   "games": 35640,
+   "ata": 3.32,
+   "picks": 16845
+  },
+  "Rush the Room": {
+   "gih": 0.5255,
+   "games": 5770,
+   "ata": 12.13,
+   "picks": 43966
+  },
+  "Sam's Desperate Rescue": {
+   "gih": 0.582,
+   "games": 113841,
+   "ata": 7.29,
+   "picks": 62135
+  },
+  "Samwise Gamgee": {
+   "gih": 0.5779,
+   "games": 9299,
+   "ata": 3.28,
+   "picks": 5227
+  },
+  "Samwise the Stouthearted": {
+   "gih": 0.5699,
+   "games": 40817,
+   "ata": 3.09,
+   "picks": 18794
+  },
+  "Saruman of Many Colors": {
+   "gih": 0.5111,
+   "games": 4126,
+   "ata": 2.6,
+   "picks": 2645
+  },
+  "Saruman the White": {
+   "gih": 0.5526,
+   "games": 34387,
+   "ata": 4.27,
+   "picks": 16662
+  },
+  "Saruman's Trickery": {
+   "gih": 0.6267,
+   "games": 63389,
+   "ata": 4.01,
+   "picks": 26746
+  },
+  "Sauron's Ransom": {
+   "gih": 0.5995,
+   "games": 13975,
+   "ata": 4.37,
+   "picks": 7773
+  },
+  "Sauron, the Dark Lord": {
+   "gih": 0.6164,
+   "games": 8825,
+   "ata": 1.43,
+   "picks": 3537
+  },
+  "Sauron, the Necromancer": {
+   "gih": 0.5745,
+   "games": 15012,
+   "ata": 1.51,
+   "picks": 6336
+  },
+  "Scroll of Isildur": {
+   "gih": 0.607,
+   "games": 18512,
+   "ata": 3.13,
+   "picks": 7710
+  },
+  "Second Breakfast": {
+   "gih": 0.5173,
+   "games": 9761,
+   "ata": 11.79,
+   "picks": 38823
+  },
+  "Shadow Summoning": {
+   "gih": 0.6036,
+   "games": 34887,
+   "ata": 5.15,
+   "picks": 22646
+  },
+  "Shadow of the Enemy": {
+   "gih": 0.5105,
+   "games": 1906,
+   "ata": 5.13,
+   "picks": 2148
+  },
+  "Shadowfax, Lord of Horses": {
+   "gih": 0.5711,
+   "games": 24143,
+   "ata": 5.88,
+   "picks": 17892
+  },
+  "Shagrat, Loot Bearer": {
+   "gih": 0.5439,
+   "games": 3385,
+   "ata": 6.62,
+   "picks": 4745
+  },
+  "Sharkey, Tyrant of the Shire": {
+   "gih": 0.401,
+   "games": 197,
+   "ata": 9.14,
+   "picks": 5894
+  },
+  "Shelob's Ambush": {
+   "gih": 0.5972,
+   "games": 97117,
+   "ata": 8.16,
+   "picks": 61507
+  },
+  "Shelob, Child of Ungoliant": {
+   "gih": 0.567,
+   "games": 12826,
+   "ata": 2.05,
+   "picks": 6281
+  },
+  "Shire Scarecrow": {
+   "gih": 0.4969,
+   "games": 12829,
+   "ata": 11.9,
+   "picks": 43504
+  },
+  "Shire Shirriff": {
+   "gih": 0.5614,
+   "games": 33447,
+   "ata": 4.37,
+   "picks": 17057
+  },
+  "Shire Terrace": {
+   "gih": 0.5309,
+   "games": 60461,
+   "ata": 8.77,
+   "picks": 43560
+  },
+  "Shortcut to Mushrooms": {
+   "gih": 0.4536,
+   "games": 6356,
+   "ata": 9.37,
+   "picks": 11339
+  },
+  "Shower of Arrows": {
+   "gih": 0.478,
+   "games": 3314,
+   "ata": 12.85,
+   "picks": 33256
+  },
+  "Slip On the Ring": {
+   "gih": 0.5305,
+   "games": 26564,
+   "ata": 10.56,
+   "picks": 40740
+  },
+  "Smite the Deathless": {
+   "gih": 0.5907,
+   "games": 140972,
+   "ata": 3.2,
+   "picks": 63499
+  },
+  "Sméagol, Helpful Guide": {
+   "gih": 0.5554,
+   "games": 10561,
+   "ata": 2.54,
+   "picks": 5726
+  },
+  "Snarling Warg": {
+   "gih": 0.5576,
+   "games": 33484,
+   "ata": 9.86,
+   "picks": 43562
+  },
+  "Soldier of the Grey Host": {
+   "gih": 0.5294,
+   "games": 13198,
+   "ata": 11.23,
+   "picks": 36631
+  },
+  "Soothing of Sméagol": {
+   "gih": 0.5856,
+   "games": 120166,
+   "ata": 7.06,
+   "picks": 61828
+  },
+  "Spiteful Banditry": {
+   "gih": 0.5952,
+   "games": 8494,
+   "ata": 1.68,
+   "picks": 3657
+  },
+  "Stalwarts of Osgiliath": {
+   "gih": 0.554,
+   "games": 38699,
+   "ata": 9.69,
+   "picks": 42236
+  },
+  "Stern Scolding": {
+   "gih": 0.5608,
+   "games": 45096,
+   "ata": 6.34,
+   "picks": 22939
+  },
+  "Stew the Coneys": {
+   "gih": 0.5506,
+   "games": 26126,
+   "ata": 5.25,
+   "picks": 14002
+  },
+  "Sting, the Glinting Dagger": {
+   "gih": 0.4969,
+   "games": 3671,
+   "ata": 4.43,
+   "picks": 3101
+  },
+  "Stone of Erech": {
+   "gih": 0.467,
+   "games": 424,
+   "ata": 11.89,
+   "picks": 14984
+  },
+  "Storm of Saruman": {
+   "gih": 0.4666,
+   "games": 2529,
+   "ata": 5.06,
+   "picks": 2414
+  },
+  "Strider, Ranger of the North": {
+   "gih": 0.5388,
+   "games": 12375,
+   "ata": 8.07,
+   "picks": 14541
+  },
+  "Surrounded by Orcs": {
+   "gih": 0.504,
+   "games": 28305,
+   "ata": 10.13,
+   "picks": 45070
+  },
+  "Swamp": {
+   "gih": 0.5677,
+   "games": 576013
+  },
+  "Swarming of Moria": {
+   "gih": 0.5617,
+   "games": 89327,
+   "ata": 7.3,
+   "picks": 53021
+  },
+  "Tale of Tinúviel": {
+   "gih": 0.5163,
+   "games": 11523,
+   "ata": 8.0,
+   "picks": 13231
+  },
+  "The Balrog, Durin's Bane": {
+   "gih": 0.5788,
+   "games": 13144,
+   "ata": 2.26,
+   "picks": 6436
+  },
+  "The Bath Song": {
+   "gih": 0.5953,
+   "games": 57727,
+   "ata": 4.26,
+   "picks": 25753
+  },
+  "The Battle of Bywater": {
+   "gih": 0.5639,
+   "games": 9426,
+   "ata": 3.29,
+   "picks": 5166
+  },
+  "The Black Breath": {
+   "gih": 0.571,
+   "games": 47495,
+   "ata": 9.92,
+   "picks": 52387
+  },
+  "The Grey Havens": {
+   "gih": 0.5066,
+   "games": 5537,
+   "ata": 10.5,
+   "picks": 12794
+  },
+  "The Mouth of Sauron": {
+   "gih": 0.598,
+   "games": 48503,
+   "ata": 4.01,
+   "picks": 24039
+  },
+  "The One Ring": {
+   "gih": 0.5617,
+   "games": 6343,
+   "ata": 1.38,
+   "picks": 2782
+  },
+  "The Ring Goes South": {
+   "gih": 0.3435,
+   "games": 457,
+   "ata": 8.81,
+   "picks": 4844
+  },
+  "The Shire": {
+   "gih": 0.5488,
+   "games": 7742,
+   "ata": 5.12,
+   "picks": 4860
+  },
+  "The Torment of Gollum": {
+   "gih": 0.605,
+   "games": 151912,
+   "ata": 5.37,
+   "picks": 73690
+  },
+  "The Watcher in the Water": {
+   "gih": 0.4171,
+   "games": 1333,
+   "ata": 5.3,
+   "picks": 2128
+  },
+  "There and Back Again": {
+   "gih": 0.5931,
+   "games": 16945,
+   "ata": 1.81,
+   "picks": 7190
+  },
+  "Théoden, King of Rohan": {
+   "gih": 0.5857,
+   "games": 28564,
+   "ata": 4.9,
+   "picks": 18313
+  },
+  "Tom Bombadil": {
+   "gih": 0.4434,
+   "games": 106,
+   "ata": 7.58,
+   "picks": 2721
+  },
+  "Took Reaper": {
+   "gih": 0.5377,
+   "games": 60076,
+   "ata": 8.77,
+   "picks": 44337
+  },
+  "Treason of Isengard": {
+   "gih": 0.5377,
+   "games": 69225,
+   "ata": 9.01,
+   "picks": 54616
+  },
+  "Troll of Khazad-dûm": {
+   "gih": 0.5805,
+   "games": 130500,
+   "ata": 5.55,
+   "picks": 58352
+  },
+  "Uglúk of the White Hand": {
+   "gih": 0.5446,
+   "games": 19372,
+   "ata": 6.45,
+   "picks": 13429
+  },
+  "Uruk-hai Berserker": {
+   "gih": 0.5878,
+   "games": 134242,
+   "ata": 5.18,
+   "picks": 62593
+  },
+  "Voracious Fell Beast": {
+   "gih": 0.6188,
+   "games": 56080,
+   "ata": 2.65,
+   "picks": 23813
+  },
+  "War of the Last Alliance": {
+   "gih": 0.5988,
+   "games": 9168,
+   "ata": 3.74,
+   "picks": 5462
+  },
+  "Warbeast of Gorgoroth": {
+   "gih": 0.5784,
+   "games": 65715,
+   "ata": 8.53,
+   "picks": 51212
+  },
+  "Westfold Rider": {
+   "gih": 0.5507,
+   "games": 70541,
+   "ata": 7.93,
+   "picks": 45454
+  },
+  "Willow-Wind": {
+   "gih": 0.5345,
+   "games": 30872,
+   "ata": 10.41,
+   "picks": 42745
+  },
+  "Witch-king of Angmar": {
+   "gih": 0.6731,
+   "games": 10032,
+   "ata": 1.18,
+   "picks": 3626
+  },
+  "Wizard's Rockets": {
+   "gih": 0.5365,
+   "games": 38092,
+   "ata": 10.4,
+   "picks": 55224
+  },
+  "Wose Pathfinder": {
+   "gih": 0.5578,
+   "games": 68745,
+   "ata": 6.46,
+   "picks": 42395
+  },
+  "You Cannot Pass!": {
+   "gih": 0.5187,
+   "games": 8167,
+   "ata": 9.77,
+   "picks": 14278
+  },
+  "Éomer of the Riddermark": {
+   "gih": 0.6321,
+   "games": 61097,
+   "ata": 2.64,
+   "picks": 25089
+  },
+  "Éomer, Marshal of Rohan": {
+   "gih": 0.5818,
+   "games": 13607,
+   "ata": 2.1,
+   "picks": 6083
+  },
+  "Éowyn, Fearless Knight": {
+   "gih": 0.6186,
+   "games": 14777,
+   "ata": 2.23,
+   "picks": 7242
+  },
+  "Éowyn, Lady of Rohan": {
+   "gih": 0.5648,
+   "games": 31781,
+   "ata": 3.9,
+   "picks": 15057
+  }
+ }
+}
