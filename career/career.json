@@ -5,7 +5,11 @@
   // The sets' other boosters by kind; a kind without a price isn't sold.
   "boosterPrices": { "set": 600, "collector": 2500 },
   "preconPrice": 2000,
-  "playmats": { "grid": 1500, "slate": 1500, "felt": 1500, "ocean": 1500, "crimson": 1500, "nebula": 1800 },
+  "playmats": {
+    "grid": 1500, "slate": 1500, "felt": 1500, "ocean": 1500, "crimson": 1500, "nebula": 1800,
+    "white-dragon": 2000, "blue-dragon": 2000, "black-dragon": 2000, "red-dragon": 2000, "green-dragon": 2000,
+    "dark-lord": 2000, "dwarves": 2000, "elves": 2000, "humans": 2000, "riders": 2000
+  },
   "sellRate": 0.5,
   "values": { "common": 10, "uncommon": 25, "rare": 150, "mythic": 500, "special": 100, "bonus": 300 },
 
