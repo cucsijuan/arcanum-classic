@@ -16,7 +16,7 @@ builds the zip.
 | File | Purpose |
 |------|---------|
 | `manifest.json` | Module id, version, license and engine API version |
-| `sources.json` | Card data, image and commander statistics sources fetched at runtime |
+| `sources.json` | Card data, image, commander statistics and deck search sources fetched at runtime |
 | `scripts/` | Card ability scripts |
 | `formats/` | Deck construction rules |
 | `decks/` | Sample decks |
@@ -47,5 +47,9 @@ printing); `tools/build_cube.py` builds a 360-card cube of supported cards.
 average pick) that the computer drafters and career drafts use. Sets without public datasets have no file.
 
 Card ratings: 17Lands public data (CC BY 4.0), [17lands.com/public_datasets](https://www.17lands.com/public_datasets)
+
+Commander suggestions: community statistics from EDHREC, [edhrec.com](https://edhrec.com), fetched by the game when asked
+
+Deck suggestions for other formats: public decks from Archidekt, [archidekt.com](https://archidekt.com), fetched by the game when asked
 
 Licensed under the GNU Affero General Public License v3.0 or later.
