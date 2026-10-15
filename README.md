@@ -16,11 +16,12 @@ builds the zip.
 | File | Purpose |
 |------|---------|
 | `manifest.json` | Module id, version, license and engine API version |
-| `sources.json` | Card data and image sources fetched at runtime |
+| `sources.json` | Card data, image, commander statistics and deck search sources fetched at runtime |
 | `scripts/` | Card ability scripts |
 | `formats/` | Deck construction rules |
 | `decks/` | Sample decks |
 | `sets/` | Card sets: their cards, how their boosters are made (sheets and slots) and limited settings |
+| `ratings/` | Draft statistics per set (from `tools/draft_ratings.py`) |
 | `cubes/` | Cube lists for cube drafts (deck-list format) |
 | `career/` | Career mode: the store, prices, starting decks, daily matches, featured sets, preconstructed decks sold and the store's regulars |
 
@@ -41,5 +42,14 @@ within a booster except in `wildcard` slots. `limited` sets the boosters per pla
 
 `tools/build_set_decks.py` builds sample decks for a set (with the printings file, every line names the set's
 printing); `tools/build_cube.py` builds a 360-card cube of supported cards.
+
+`tools/draft_ratings.py <set> [format]` writes `ratings/<set>.json`, the draft statistics (win rate with a card in hand,
+average pick) that the computer drafters and career drafts use. Sets without public datasets have no file.
+
+Card ratings: 17Lands public data (CC BY 4.0), [17lands.com/public_datasets](https://www.17lands.com/public_datasets)
+
+Commander suggestions: community statistics from EDHREC, [edhrec.com](https://edhrec.com), fetched by the game when asked
+
+Deck suggestions for other formats: public decks from Archidekt, [archidekt.com](https://archidekt.com), fetched by the game when asked
 
 Licensed under the GNU Affero General Public License v3.0 or later.

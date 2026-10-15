@@ -38,6 +38,19 @@
     "backUrlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&face=back&exact={name}",
     "backByIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large&face=back"
   },
+  "commanderInsights": {
+    "pageTemplate": "https://json.edhrec.com/pages/commanders/{slug}.json",
+    "averageDeckTemplate": "https://json.edhrec.com/pages/average-decks/{slug}.json",
+    "cacheDays": 7
+  },
+  "deckSearch": {
+    "searchTemplate": "https://archidekt.com/api/decks/v3/?deckFormat={format}&cardName={card}&size=90&sizeLogic=LTE&orderBy=-viewCount",
+    "popularTemplate": "https://archidekt.com/api/decks/v3/?deckFormat={format}&size=90&sizeLogic=LTE&orderBy=-viewCount",
+    "deckTemplate": "https://archidekt.com/api/decks/{id}/",
+    "formats": { "casual": "", "standard": "1", "pioneer": "15", "modern": "2", "legacy": "4", "vintage": "5", "pauper": "6" },
+    "cacheDays": 7,
+    "minIntervalMs": 300
+  },
   "cardBacks": [
     {
       "id": "magic",

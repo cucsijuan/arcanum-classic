@@ -1,0 +1,2182 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "fin",
+ "format": "PremierDraft",
+ "games": 769659,
+ "mean": 0.558,
+ "sd": 0.0393,
+ "cards": {
+  "A Realm Reborn": {
+   "gih": 0.4231,
+   "games": 78,
+   "ata": 9.98,
+   "picks": 5354
+  },
+  "Absolute Virtue": {
+   "gih": 0.5885,
+   "games": 4051,
+   "ata": 3.08,
+   "picks": 2472
+  },
+  "Adelbert Steiner": {
+   "gih": 0.5893,
+   "games": 29099,
+   "ata": 3.92,
+   "picks": 15261
+  },
+  "Adeline, Resplendent Cathar": {
+   "gih": 0.6176,
+   "games": 1629,
+   "ata": 1.94,
+   "picks": 779
+  },
+  "Adventurer's Airship": {
+   "gih": 0.5355,
+   "games": 14652,
+   "ata": 11.46,
+   "picks": 37722
+  },
+  "Adventurer's Inn": {
+   "gih": 0.5553,
+   "games": 13339,
+   "ata": 12.13,
+   "picks": 32262
+  },
+  "Aerith Gainsborough": {
+   "gih": 0.5589,
+   "games": 8043,
+   "ata": 2.52,
+   "picks": 4364
+  },
+  "Aerith Rescue Mission": {
+   "gih": 0.5431,
+   "games": 24483,
+   "ata": 9.85,
+   "picks": 34645
+  },
+  "Aettir and Priwen": {
+   "gih": 0.4299,
+   "games": 756,
+   "ata": 6.28,
+   "picks": 1575
+  },
+  "Ahriman": {
+   "gih": 0.5538,
+   "games": 51789,
+   "ata": 7.59,
+   "picks": 33049
+  },
+  "Airship Crash": {
+   "gih": 0.539,
+   "games": 21116,
+   "ata": 10.91,
+   "picks": 32351
+  },
+  "Akroma's Will": {
+   "gih": 0.6324,
+   "games": 2119,
+   "ata": 2.32,
+   "picks": 984
+  },
+  "Al Bhed Salvagers": {
+   "gih": 0.5618,
+   "games": 27029,
+   "ata": 5.03,
+   "picks": 15027
+  },
+  "Ambrosia Whiteheart": {
+   "gih": 0.5692,
+   "games": 28717,
+   "ata": 4.49,
+   "picks": 15109
+  },
+  "Ancient Adamantoise": {
+   "gih": 0.5894,
+   "games": 5124,
+   "ata": 2.81,
+   "picks": 2867
+  },
+  "Ancient Copper Dragon": {
+   "gih": 0.5225,
+   "games": 844,
+   "ata": 2.61,
+   "picks": 487
+  },
+  "Ardyn, the Usurper": {
+   "gih": 0.6494,
+   "games": 16727,
+   "ata": 1.81,
+   "picks": 7380
+  },
+  "Ashe, Princess of Dalmasca": {
+   "gih": 0.5512,
+   "games": 19623,
+   "ata": 5.91,
+   "picks": 12335
+  },
+  "Astrologian's Planisphere": {
+   "gih": 0.5727,
+   "games": 15667,
+   "ata": 2.21,
+   "picks": 7027
+  },
+  "Atraxa, Grand Unifier": {
+   "gih": 0.6689,
+   "games": 2048,
+   "ata": 2.02,
+   "picks": 988
+  },
+  "Auron's Inspiration": {
+   "gih": 0.5283,
+   "games": 6553,
+   "ata": 10.21,
+   "picks": 13258
+  },
+  "Azusa, Lost but Seeking": {
+   "gih": 0.4587,
+   "games": 218,
+   "ata": 7.69,
+   "picks": 397
+  },
+  "Balamb Garden, SeeD Academy": {
+   "gih": 0.5813,
+   "games": 13639,
+   "ata": 3.89,
+   "picks": 7746
+  },
+  "Balamb T-Rexaur": {
+   "gih": 0.5643,
+   "games": 68568,
+   "ata": 6.5,
+   "picks": 39122
+  },
+  "Balthier and Fran": {
+   "gih": 0.5338,
+   "games": 2413,
+   "ata": 7.89,
+   "picks": 4672
+  },
+  "Bard's Bow": {
+   "gih": 0.5587,
+   "games": 49105,
+   "ata": 8.74,
+   "picks": 37470
+  },
+  "Baron, Airship Kingdom": {
+   "gih": 0.562,
+   "games": 58872,
+   "ata": 8.55,
+   "picks": 37201
+  },
+  "Barret Wallace": {
+   "gih": 0.5251,
+   "games": 8531,
+   "ata": 9.11,
+   "picks": 10805
+  },
+  "Bartz and Boko": {
+   "gih": 0.5628,
+   "games": 6987,
+   "ata": 3.18,
+   "picks": 4726
+  },
+  "Battle Menu": {
+   "gih": 0.5875,
+   "games": 30671,
+   "ata": 3.99,
+   "picks": 15828
+  },
+  "Black Mage's Rod": {
+   "gih": 0.5585,
+   "games": 65739,
+   "ata": 6.03,
+   "picks": 40744
+  },
+  "Black Waltz No. 3": {
+   "gih": 0.5196,
+   "games": 13190,
+   "ata": 7.16,
+   "picks": 11460
+  },
+  "Blazing Bomb": {
+   "gih": 0.5762,
+   "games": 48162,
+   "ata": 9.01,
+   "picks": 42435
+  },
+  "Blitzball": {
+   "gih": 0.5123,
+   "games": 35443,
+   "ata": 9.46,
+   "picks": 36430
+  },
+  "Blitzball Shot": {
+   "gih": 0.5441,
+   "games": 17957,
+   "ata": 11.11,
+   "picks": 33695
+  },
+  "Bolas's Citadel": {
+   "gih": 0.5729,
+   "games": 754,
+   "ata": 5.86,
+   "picks": 637
+  },
+  "Brainstorm": {
+   "gih": 0.5365,
+   "games": 4863,
+   "ata": 7.81,
+   "picks": 4652
+  },
+  "Bruse Tarl, Boorish Herder": {
+   "gih": 0.6401,
+   "games": 1417,
+   "ata": 3.08,
+   "picks": 802
+  },
+  "Buster Sword": {
+   "gih": 0.6136,
+   "games": 7449,
+   "ata": 1.14,
+   "picks": 3193
+  },
+  "Cactuar": {
+   "gih": 0.5188,
+   "games": 4009,
+   "ata": 10.84,
+   "picks": 11547
+  },
+  "Call the Mountain Chocobo": {
+   "gih": 0.5773,
+   "games": 68110,
+   "ata": 6.88,
+   "picks": 45459
+  },
+  "Capital City": {
+   "gih": 0.562,
+   "games": 34587,
+   "ata": 7.66,
+   "picks": 17916
+  },
+  "Captain Lannery Storm": {
+   "gih": 0.5765,
+   "games": 10654,
+   "ata": 4.57,
+   "picks": 5551
+  },
+  "Cargo Ship": {
+   "gih": 0.5519,
+   "games": 13212,
+   "ata": 8.97,
+   "picks": 15192
+  },
+  "Carpet of Flowers": {
+   "gih": 0.2609,
+   "games": 23,
+   "ata": 10.13,
+   "picks": 575
+  },
+  "Cecil, Dark Knight": {
+   "gih": 0.5854,
+   "games": 12331,
+   "ata": 2.35,
+   "picks": 5960
+  },
+  "Choco, Seeker of Paradise": {
+   "gih": 0.5561,
+   "games": 5893,
+   "ata": 4.6,
+   "picks": 4950
+  },
+  "Choco-Comet": {
+   "gih": 0.6121,
+   "games": 40908,
+   "ata": 3.12,
+   "picks": 20553
+  },
+  "Chocobo Kick": {
+   "gih": 0.5795,
+   "games": 72011,
+   "ata": 5.36,
+   "picks": 40777
+  },
+  "Chocobo Racetrack": {
+   "gih": 0.5176,
+   "games": 13419,
+   "ata": 6.28,
+   "picks": 10003
+  },
+  "Chromatic Lantern": {
+   "gih": 0.4854,
+   "games": 513,
+   "ata": 5.62,
+   "picks": 467
+  },
+  "Cid, Timeless Artificer": {
+   "gih": 0.5607,
+   "games": 17339,
+   "ata": 7.48,
+   "picks": 15569
+  },
+  "Circle of Power": {
+   "gih": 0.5805,
+   "games": 30110,
+   "ata": 5.45,
+   "picks": 17742
+  },
+  "Clash of the Eikons": {
+   "gih": 0.541,
+   "games": 18093,
+   "ata": 7.1,
+   "picks": 13121
+  },
+  "Clive's Hideaway": {
+   "gih": 0.4838,
+   "games": 709,
+   "ata": 9.65,
+   "picks": 5349
+  },
+  "Clive, Ifrit's Dominant": {
+   "gih": 0.5576,
+   "games": 5253,
+   "ata": 1.77,
+   "picks": 2680
+  },
+  "Cloud of Darkness": {
+   "gih": 0.6043,
+   "games": 35476,
+   "ata": 4.52,
+   "picks": 20228
+  },
+  "Cloud, Midgar Mercenary": {
+   "gih": 0.5913,
+   "games": 4996,
+   "ata": 1.86,
+   "picks": 2646
+  },
+  "Cloudbound Moogle": {
+   "gih": 0.5265,
+   "games": 15098,
+   "ata": 10.71,
+   "picks": 29760
+  },
+  "Coeurl": {
+   "gih": 0.5433,
+   "games": 26081,
+   "ata": 10.04,
+   "picks": 33285
+  },
+  "Coliseum Behemoth": {
+   "gih": 0.5893,
+   "games": 30960,
+   "ata": 4.87,
+   "picks": 16539
+  },
+  "Combat Tutorial": {
+   "gih": 0.5914,
+   "games": 101539,
+   "ata": 6.12,
+   "picks": 57848
+  },
+  "Command Beacon": {
+   "gih": 0.2,
+   "games": 5,
+   "ata": 10.85,
+   "picks": 746
+  },
+  "Commune with Beavers": {
+   "gih": 0.543,
+   "games": 17017,
+   "ata": 11.14,
+   "picks": 33335
+  },
+  "Coral Sword": {
+   "gih": 0.5523,
+   "games": 10652,
+   "ata": 8.87,
+   "picks": 11911
+  },
+  "Cornered by Black Mages": {
+   "gih": 0.5811,
+   "games": 75719,
+   "ata": 5.06,
+   "picks": 45187
+  },
+  "Counterspell": {
+   "gih": 0.5909,
+   "games": 15284,
+   "ata": 4.98,
+   "picks": 7231
+  },
+  "Crossroads Village": {
+   "gih": 0.558,
+   "games": 99504,
+   "ata": 7.17,
+   "picks": 49437
+  },
+  "Cryptic Command": {
+   "gih": 0.6405,
+   "games": 2259,
+   "ata": 3.14,
+   "picks": 1017
+  },
+  "Crystal Fragments": {
+   "gih": 0.5252,
+   "games": 14068,
+   "ata": 7.5,
+   "picks": 11680
+  },
+  "Danitha Capashen, Paragon": {
+   "gih": 0.5622,
+   "games": 8820,
+   "ata": 3.65,
+   "picks": 4598
+  },
+  "Dark Confidant": {
+   "gih": 0.6013,
+   "games": 5639,
+   "ata": 2.44,
+   "picks": 3053
+  },
+  "Dark Knight's Greatsword": {
+   "gih": 0.5634,
+   "games": 22956,
+   "ata": 6.21,
+   "picks": 14467
+  },
+  "Dark Ritual": {
+   "gih": 0.5122,
+   "games": 449,
+   "ata": 5.74,
+   "picks": 424
+  },
+  "Deadly Dispute": {
+   "gih": 0.5698,
+   "games": 10467,
+   "ata": 5.95,
+   "picks": 5831
+  },
+  "Delivery Moogle": {
+   "gih": 0.6008,
+   "games": 34413,
+   "ata": 4.36,
+   "picks": 19563
+  },
+  "Demon Wall": {
+   "gih": 0.5511,
+   "games": 25783,
+   "ata": 5.75,
+   "picks": 14391
+  },
+  "Diabolic Intent": {
+   "gih": 0.4948,
+   "games": 291,
+   "ata": 7.28,
+   "picks": 425
+  },
+  "Diamond Weapon": {
+   "gih": 0.555,
+   "games": 19535,
+   "ata": 5.37,
+   "picks": 11718
+  },
+  "Dion, Bahamut's Dominant": {
+   "gih": 0.644,
+   "games": 15594,
+   "ata": 1.36,
+   "picks": 6876
+  },
+  "Dovin's Veto": {
+   "gih": 0.5032,
+   "games": 1091,
+   "ata": 11.03,
+   "picks": 4846
+  },
+  "Dragoon's Lance": {
+   "gih": 0.616,
+   "games": 37392,
+   "ata": 2.94,
+   "picks": 18958
+  },
+  "Dragoon's Wyvern": {
+   "gih": 0.5889,
+   "games": 115937,
+   "ata": 5.02,
+   "picks": 62301
+  },
+  "Dreams of Laguna": {
+   "gih": 0.5802,
+   "games": 95901,
+   "ata": 7.03,
+   "picks": 56224
+  },
+  "Dwarven Castle Guard": {
+   "gih": 0.5473,
+   "games": 39927,
+   "ata": 8.89,
+   "picks": 36086
+  },
+  "Eden, Seat of the Sanctum": {
+   "gih": 0.553,
+   "games": 15791,
+   "ata": 10.41,
+   "picks": 16429
+  },
+  "Edgar, King of Figaro": {
+   "gih": 0.541,
+   "games": 7140,
+   "ata": 5.24,
+   "picks": 5584
+  },
+  "Eject": {
+   "gih": 0.5943,
+   "games": 52050,
+   "ata": 4.45,
+   "picks": 24894
+  },
+  "Elixir": {
+   "gih": 0.4585,
+   "games": 1446,
+   "ata": 11.96,
+   "picks": 13056
+  },
+  "Emet-Selch, Unsundered": {
+   "gih": 0.5922,
+   "games": 6223,
+   "ata": 2.24,
+   "picks": 3161
+  },
+  "Esper Origins": {
+   "gih": 0.6368,
+   "games": 15262,
+   "ata": 2.07,
+   "picks": 7123
+  },
+  "Ether": {
+   "gih": 0.5048,
+   "games": 4693,
+   "ata": 11.0,
+   "picks": 15943
+  },
+  "Evil Reawakened": {
+   "gih": 0.5747,
+   "games": 29790,
+   "ata": 4.68,
+   "picks": 15932
+  },
+  "Excalibur II": {
+   "gih": 0.4657,
+   "games": 1252,
+   "ata": 7.84,
+   "picks": 3329
+  },
+  "Exdeath, Void Warlock": {
+   "gih": 0.5833,
+   "games": 25088,
+   "ata": 6.33,
+   "picks": 16136
+  },
+  "Fang, Fearless l'Cie": {
+   "gih": 0.5184,
+   "games": 17621,
+   "ata": 6.38,
+   "picks": 13709
+  },
+  "Farseek": {
+   "gih": 0.5389,
+   "games": 8082,
+   "ata": 6.45,
+   "picks": 4958
+  },
+  "Fatal Push": {
+   "gih": 0.594,
+   "games": 14955,
+   "ata": 3.03,
+   "picks": 6848
+  },
+  "Fate of the Sun-Cryst": {
+   "gih": 0.5452,
+   "games": 47042,
+   "ata": 6.75,
+   "picks": 30450
+  },
+  "Fight On!": {
+   "gih": 0.5494,
+   "games": 51592,
+   "ata": 8.87,
+   "picks": 41202
+  },
+  "Fire Magic": {
+   "gih": 0.5791,
+   "games": 25147,
+   "ata": 5.25,
+   "picks": 15384
+  },
+  "Firion, Wild Rose Warrior": {
+   "gih": 0.5699,
+   "games": 7793,
+   "ata": 3.08,
+   "picks": 4807
+  },
+  "Forest": {
+   "gih": 0.5578,
+   "games": 286864,
+   "ata": 13.94,
+   "picks": 26114
+  },
+  "Freya Crescent": {
+   "gih": 0.5566,
+   "games": 13129,
+   "ata": 8.14,
+   "picks": 12428
+  },
+  "From Father to Son": {
+   "gih": 0.4531,
+   "games": 128,
+   "ata": 10.1,
+   "picks": 5751
+  },
+  "Fynn, the Fangbearer": {
+   "gih": 0.5636,
+   "games": 9929,
+   "ata": 6.28,
+   "picks": 5361
+  },
+  "G'raha Tia": {
+   "gih": 0.5417,
+   "games": 21324,
+   "ata": 4.93,
+   "picks": 12519
+  },
+  "Gaelicat": {
+   "gih": 0.5681,
+   "games": 60468,
+   "ata": 7.05,
+   "picks": 40308
+  },
+  "Gaius van Baelsar": {
+   "gih": 0.5552,
+   "games": 23469,
+   "ata": 5.53,
+   "picks": 13416
+  },
+  "Galuf's Final Act": {
+   "gih": 0.4603,
+   "games": 2735,
+   "ata": 11.06,
+   "picks": 10956
+  },
+  "Garland, Knight of Cornelia": {
+   "gih": 0.5672,
+   "games": 18347,
+   "ata": 6.54,
+   "picks": 15050
+  },
+  "Garnet, Princess of Alexandria": {
+   "gih": 0.5606,
+   "games": 12120,
+   "ata": 8.01,
+   "picks": 12659
+  },
+  "Genji Glove": {
+   "gih": 0.4942,
+   "games": 2829,
+   "ata": 5.78,
+   "picks": 2959
+  },
+  "Gigantoad": {
+   "gih": 0.5329,
+   "games": 32813,
+   "ata": 9.71,
+   "picks": 32506
+  },
+  "Gilgamesh, Master-at-Arms": {
+   "gih": 0.579,
+   "games": 7840,
+   "ata": 3.26,
+   "picks": 5493
+  },
+  "Giott, King of the Dwarves": {
+   "gih": 0.572,
+   "games": 14302,
+   "ata": 8.07,
+   "picks": 14209
+  },
+  "Gix, Yawgmoth Praetor": {
+   "gih": 0.5852,
+   "games": 1789,
+   "ata": 2.07,
+   "picks": 864
+  },
+  "Gladiolus Amicitia": {
+   "gih": 0.5767,
+   "games": 22197,
+   "ata": 5.91,
+   "picks": 14931
+  },
+  "Godo, Bandit Warlord": {
+   "gih": 0.5584,
+   "games": 899,
+   "ata": 4.15,
+   "picks": 683
+  },
+  "Gogo, Master of Mimicry": {
+   "gih": 0.5203,
+   "games": 4286,
+   "ata": 3.67,
+   "picks": 2569
+  },
+  "Gohn, Town of Ruin": {
+   "gih": 0.5565,
+   "games": 53489,
+   "ata": 8.33,
+   "picks": 33970
+  },
+  "Golbez, Crystal Collector": {
+   "gih": 0.498,
+   "games": 4594,
+   "ata": 6.08,
+   "picks": 4830
+  },
+  "Gongaga, Reactor Town": {
+   "gih": 0.5418,
+   "games": 34702,
+   "ata": 9.36,
+   "picks": 30520
+  },
+  "Goobbue Gardener": {
+   "gih": 0.5583,
+   "games": 63722,
+   "ata": 6.63,
+   "picks": 37532
+  },
+  "Gran Pulse Ochu": {
+   "gih": 0.561,
+   "games": 49747,
+   "ata": 8.74,
+   "picks": 35384
+  },
+  "Guadosalam, Farplane Gateway": {
+   "gih": 0.5572,
+   "games": 51249,
+   "ata": 8.55,
+   "picks": 36305
+  },
+  "Gysahl Greens": {
+   "gih": 0.5485,
+   "games": 44220,
+   "ata": 8.13,
+   "picks": 33010
+  },
+  "Haste Magic": {
+   "gih": 0.5057,
+   "games": 6862,
+   "ata": 11.85,
+   "picks": 30669
+  },
+  "Hecteyes": {
+   "gih": 0.5663,
+   "games": 75779,
+   "ata": 6.94,
+   "picks": 45768
+  },
+  "Hill Gigas": {
+   "gih": 0.5134,
+   "games": 24663,
+   "ata": 10.41,
+   "picks": 32089
+  },
+  "Hope Estheim": {
+   "gih": 0.5128,
+   "games": 3397,
+   "ata": 7.43,
+   "picks": 4515
+  },
+  "Ice Flan": {
+   "gih": 0.5406,
+   "games": 44160,
+   "ata": 9.66,
+   "picks": 42055
+  },
+  "Ice Magic": {
+   "gih": 0.5844,
+   "games": 110624,
+   "ata": 5.65,
+   "picks": 58447
+  },
+  "Ignis Scientia": {
+   "gih": 0.5891,
+   "games": 30643,
+   "ata": 5.79,
+   "picks": 19659
+  },
+  "Il Mheg Pixie": {
+   "gih": 0.582,
+   "games": 46390,
+   "ata": 3.87,
+   "picks": 21746
+  },
+  "Inalla, Archmage Ritualist": {
+   "gih": 0.5238,
+   "games": 210,
+   "ata": 7.49,
+   "picks": 644
+  },
+  "Insomnia, Crown City": {
+   "gih": 0.5398,
+   "games": 34490,
+   "ata": 9.28,
+   "picks": 29954
+  },
+  "Instant Ramen": {
+   "gih": 0.5352,
+   "games": 13167,
+   "ata": 11.3,
+   "picks": 34115
+  },
+  "Iron Giant": {
+   "gih": 0.4564,
+   "games": 4457,
+   "ata": 12.4,
+   "picks": 28540
+  },
+  "Ishai, Ojutai Dragonspeaker": {
+   "gih": 0.478,
+   "games": 364,
+   "ata": 6.9,
+   "picks": 494
+  },
+  "Ishgard, the Holy See": {
+   "gih": 0.5284,
+   "games": 7314,
+   "ata": 6.02,
+   "picks": 4791
+  },
+  "Island": {
+   "gih": 0.5605,
+   "games": 400110,
+   "ata": 13.93,
+   "picks": 26728
+  },
+  "Isshin, Two Heavens as One": {
+   "gih": 0.5392,
+   "games": 102,
+   "ata": 7.82,
+   "picks": 512
+  },
+  "Item Shopkeep": {
+   "gih": 0.5409,
+   "games": 19510,
+   "ata": 11.09,
+   "picks": 34070
+  },
+  "Jecht, Reluctant Guardian": {
+   "gih": 0.5682,
+   "games": 12788,
+   "ata": 1.61,
+   "picks": 5962
+  },
+  "Jenova, Ancient Calamity": {
+   "gih": 0.6038,
+   "games": 14766,
+   "ata": 2.08,
+   "picks": 7066
+  },
+  "Jidoor, Aristocratic Capital": {
+   "gih": 0.5015,
+   "games": 4592,
+   "ata": 8.1,
+   "picks": 4924
+  },
+  "Jill, Shiva's Dominant": {
+   "gih": 0.6346,
+   "games": 18112,
+   "ata": 1.71,
+   "picks": 7719
+  },
+  "Jodah, the Unifier": {
+   "gih": 0.5683,
+   "games": 417,
+   "ata": 7.37,
+   "picks": 681
+  },
+  "Joshua, Phoenix's Dominant": {
+   "gih": 0.5842,
+   "games": 10910,
+   "ata": 2.4,
+   "picks": 5976
+  },
+  "Judge Magister Gabranth": {
+   "gih": 0.5679,
+   "games": 16174,
+   "ata": 7.37,
+   "picks": 13507
+  },
+  "Jumbo Cactuar": {
+   "gih": 0.5003,
+   "games": 3436,
+   "ata": 5.39,
+   "picks": 3405
+  },
+  "K'rrik, Son of Yawgmoth": {
+   "gih": 0.4402,
+   "games": 259,
+   "ata": 6.52,
+   "picks": 395
+  },
+  "Kain, Traitorous Dragoon": {
+   "gih": 0.5132,
+   "games": 2921,
+   "ata": 7.36,
+   "picks": 4229
+  },
+  "Kefka, Court Mage": {
+   "gih": 0.6326,
+   "games": 7433,
+   "ata": 2.07,
+   "picks": 3540
+  },
+  "Kenrith, the Returned King": {
+   "gih": 0.6002,
+   "games": 1656,
+   "ata": 1.77,
+   "picks": 761
+  },
+  "Kinnan, Bonder Prodigy": {
+   "gih": 0.5295,
+   "games": 780,
+   "ata": 6.35,
+   "picks": 691
+  },
+  "Kraum, Ludevic's Opus": {
+   "gih": 0.5784,
+   "games": 1665,
+   "ata": 3.45,
+   "picks": 879
+  },
+  "Kuja, Genome Sorcerer": {
+   "gih": 0.6329,
+   "games": 14559,
+   "ata": 1.97,
+   "picks": 6992
+  },
+  "Laboratory Maniac": {
+   "gih": 0.4913,
+   "games": 1038,
+   "ata": 10.96,
+   "picks": 5758
+  },
+  "Laughing Mad": {
+   "gih": 0.5412,
+   "games": 24768,
+   "ata": 10.78,
+   "picks": 36322
+  },
+  "Light Up the Stage": {
+   "gih": 0.5526,
+   "games": 5919,
+   "ata": 8.23,
+   "picks": 5275
+  },
+  "Light of Judgment": {
+   "gih": 0.5439,
+   "games": 46954,
+   "ata": 8.51,
+   "picks": 35196
+  },
+  "Lightning Bolt": {
+   "gih": 0.6035,
+   "games": 14202,
+   "ata": 2.72,
+   "picks": 6675
+  },
+  "Lightning, Army of One": {
+   "gih": 0.5651,
+   "games": 4291,
+   "ata": 1.98,
+   "picks": 2496
+  },
+  "Lindblum, Industrial Regency": {
+   "gih": 0.5405,
+   "games": 8306,
+   "ata": 5.58,
+   "picks": 4858
+  },
+  "Lion Heart": {
+   "gih": 0.5457,
+   "games": 23432,
+   "ata": 6.46,
+   "picks": 14125
+  },
+  "Locke Cole": {
+   "gih": 0.5789,
+   "games": 27796,
+   "ata": 6.0,
+   "picks": 17139
+  },
+  "Loporrit Scout": {
+   "gih": 0.4999,
+   "games": 7375,
+   "ata": 12.15,
+   "picks": 31648
+  },
+  "Loran of the Third Path": {
+   "gih": 0.5877,
+   "games": 1453,
+   "ata": 3.15,
+   "picks": 743
+  },
+  "Louisoix's Sacrifice": {
+   "gih": 0.4665,
+   "games": 1282,
+   "ata": 9.22,
+   "picks": 5315
+  },
+  "Lunatic Pandora": {
+   "gih": 0.5024,
+   "games": 9305,
+   "ata": 11.91,
+   "picks": 32154
+  },
+  "Machinist's Arsenal": {
+   "gih": 0.5923,
+   "games": 12803,
+   "ata": 2.12,
+   "picks": 6276
+  },
+  "Magic Damper": {
+   "gih": 0.5645,
+   "games": 29270,
+   "ata": 10.61,
+   "picks": 42589
+  },
+  "Magic Pot": {
+   "gih": 0.4918,
+   "games": 4610,
+   "ata": 12.47,
+   "picks": 32698
+  },
+  "Magitek Armor": {
+   "gih": 0.5749,
+   "games": 30074,
+   "ata": 5.75,
+   "picks": 18248
+  },
+  "Magitek Infantry": {
+   "gih": 0.5832,
+   "games": 55879,
+   "ata": 6.28,
+   "picks": 50217
+  },
+  "Malboro": {
+   "gih": 0.563,
+   "games": 67640,
+   "ata": 7.87,
+   "picks": 42304
+  },
+  "Mangara, the Diplomat": {
+   "gih": 0.5399,
+   "games": 1015,
+   "ata": 2.48,
+   "picks": 573
+  },
+  "Matoya, Archon Elder": {
+   "gih": 0.526,
+   "games": 5086,
+   "ata": 6.08,
+   "picks": 5330
+  },
+  "Memories Returning": {
+   "gih": 0.6051,
+   "games": 19489,
+   "ata": 2.74,
+   "picks": 8940
+  },
+  "Midgar, City of Mako": {
+   "gih": 0.5448,
+   "games": 10274,
+   "ata": 4.72,
+   "picks": 5338
+  },
+  "Minwu, White Mage": {
+   "gih": 0.5223,
+   "games": 5307,
+   "ata": 3.68,
+   "picks": 3744
+  },
+  "Mizzix's Mastery": {
+   "gih": 0.5172,
+   "games": 667,
+   "ata": 5.81,
+   "picks": 646
+  },
+  "Monk's Fist": {
+   "gih": 0.5474,
+   "games": 42922,
+   "ata": 10.03,
+   "picks": 43198
+  },
+  "Moogles' Valor": {
+   "gih": 0.5944,
+   "games": 11745,
+   "ata": 2.64,
+   "picks": 6303
+  },
+  "Mountain": {
+   "gih": 0.5613,
+   "games": 314551,
+   "ata": 13.94,
+   "picks": 26446
+  },
+  "Muldrotha, the Gravetide": {
+   "gih": 0.5927,
+   "games": 1770,
+   "ata": 3.14,
+   "picks": 889
+  },
+  "Mysidian Elder": {
+   "gih": 0.5275,
+   "games": 34043,
+   "ata": 9.04,
+   "picks": 33426
+  },
+  "Najeela, the Blade-Blossom": {
+   "gih": 0.5553,
+   "games": 814,
+   "ata": 4.38,
+   "picks": 596
+  },
+  "Namazu Trader": {
+   "gih": 0.5514,
+   "games": 39587,
+   "ata": 9.48,
+   "picks": 39060
+  },
+  "Nature's Claim": {
+   "gih": 0.5328,
+   "games": 1601,
+   "ata": 10.7,
+   "picks": 4317
+  },
+  "Nibelheim Aflame": {
+   "gih": 0.6449,
+   "games": 7410,
+   "ata": 1.82,
+   "picks": 3541
+  },
+  "Ninja's Blades": {
+   "gih": 0.5799,
+   "games": 11216,
+   "ata": 2.49,
+   "picks": 5500
+  },
+  "Noctis, Prince of Lucis": {
+   "gih": 0.4868,
+   "games": 2469,
+   "ata": 6.98,
+   "picks": 4429
+  },
+  "Nyxbloom Ancient": {
+   "gih": 0.4901,
+   "games": 202,
+   "ata": 7.01,
+   "picks": 439
+  },
+  "Omega, Heartless Evolution": {
+   "gih": 0.5836,
+   "games": 28131,
+   "ata": 6.75,
+   "picks": 19488
+  },
+  "Opera Love Song": {
+   "gih": 0.5347,
+   "games": 8354,
+   "ata": 9.66,
+   "picks": 12589
+  },
+  "Overkill": {
+   "gih": 0.5946,
+   "games": 38878,
+   "ata": 2.48,
+   "picks": 18037
+  },
+  "Paladin's Arms": {
+   "gih": 0.5639,
+   "games": 61996,
+   "ata": 6.98,
+   "picks": 37610
+  },
+  "Phantom Train": {
+   "gih": 0.5601,
+   "games": 15215,
+   "ata": 8.4,
+   "picks": 16005
+  },
+  "Phoenix Down": {
+   "gih": 0.5256,
+   "games": 9997,
+   "ata": 8.85,
+   "picks": 12581
+  },
+  "Plains": {
+   "gih": 0.5622,
+   "games": 296142,
+   "ata": 13.94,
+   "picks": 26638
+  },
+  "Poison the Waters": {
+   "gih": 0.5333,
+   "games": 9637,
+   "ata": 9.0,
+   "picks": 12563
+  },
+  "Primeval Titan": {
+   "gih": 0.6206,
+   "games": 1729,
+   "ata": 1.9,
+   "picks": 812
+  },
+  "Prishe's Wanderings": {
+   "gih": 0.5473,
+   "games": 49104,
+   "ata": 7.84,
+   "picks": 33686
+  },
+  "Prompto Argentum": {
+   "gih": 0.5725,
+   "games": 27110,
+   "ata": 6.36,
+   "picks": 15345
+  },
+  "PuPu UFO": {
+   "gih": 0.5595,
+   "games": 17062,
+   "ata": 8.43,
+   "picks": 14399
+  },
+  "Purphoros, God of the Forge": {
+   "gih": 0.4818,
+   "games": 577,
+   "ata": 2.97,
+   "picks": 462
+  },
+  "Qiqirn Merchant": {
+   "gih": 0.5321,
+   "games": 32642,
+   "ata": 10.5,
+   "picks": 43955
+  },
+  "Queen Brahne": {
+   "gih": 0.5302,
+   "games": 18687,
+   "ata": 5.93,
+   "picks": 11843
+  },
+  "Quina, Qu Gourmet": {
+   "gih": 0.5284,
+   "games": 15162,
+   "ata": 6.95,
+   "picks": 11870
+  },
+  "Quistis Trepe": {
+   "gih": 0.5648,
+   "games": 38602,
+   "ata": 4.64,
+   "picks": 19205
+  },
+  "Qutrub Forayer": {
+   "gih": 0.5218,
+   "games": 9422,
+   "ata": 11.34,
+   "picks": 31912
+  },
+  "Rabanastre, Royal City": {
+   "gih": 0.5417,
+   "games": 32360,
+   "ata": 9.69,
+   "picks": 29725
+  },
+  "Ragavan, Nimble Pilferer": {
+   "gih": 0.6025,
+   "games": 1751,
+   "ata": 1.86,
+   "picks": 840
+  },
+  "Random Encounter": {
+   "gih": 0.4852,
+   "games": 946,
+   "ata": 11.87,
+   "picks": 13454
+  },
+  "Ranger-Captain of Eos": {
+   "gih": 0.5976,
+   "games": 1143,
+   "ata": 3.87,
+   "picks": 783
+  },
+  "Raubahn, Bull of Ala Mhigo": {
+   "gih": 0.5422,
+   "games": 6658,
+   "ata": 4.1,
+   "picks": 4326
+  },
+  "Reach the Horizon": {
+   "gih": 0.5375,
+   "games": 16460,
+   "ata": 7.06,
+   "picks": 11850
+  },
+  "Red Mage's Rapier": {
+   "gih": 0.5182,
+   "games": 25925,
+   "ata": 9.96,
+   "picks": 31733
+  },
+  "Relentless X-ATM092": {
+   "gih": 0.5281,
+   "games": 10138,
+   "ata": 9.51,
+   "picks": 12259
+  },
+  "Relm's Sketching": {
+   "gih": 0.5568,
+   "games": 31438,
+   "ata": 5.32,
+   "picks": 17153
+  },
+  "Reno and Rude": {
+   "gih": 0.543,
+   "games": 21511,
+   "ata": 6.15,
+   "picks": 13365
+  },
+  "Resentful Revelation": {
+   "gih": 0.5839,
+   "games": 77766,
+   "ata": 7.42,
+   "picks": 50613
+  },
+  "Restoration Magic": {
+   "gih": 0.5761,
+   "games": 18956,
+   "ata": 6.84,
+   "picks": 13139
+  },
+  "Retrieve the Esper": {
+   "gih": 0.5613,
+   "games": 76522,
+   "ata": 7.33,
+   "picks": 47569
+  },
+  "Rhystic Study": {
+   "gih": 0.4848,
+   "games": 361,
+   "ata": 5.44,
+   "picks": 431
+  },
+  "Ride the Shoopuf": {
+   "gih": 0.5562,
+   "games": 16576,
+   "ata": 5.32,
+   "picks": 10209
+  },
+  "Ring of the Lucii": {
+   "gih": 0.5375,
+   "games": 10191,
+   "ata": 9.43,
+   "picks": 13635
+  },
+  "Rinoa Heartilly": {
+   "gih": 0.5815,
+   "games": 18211,
+   "ata": 6.73,
+   "picks": 14442
+  },
+  "Rook Turret": {
+   "gih": 0.5281,
+   "games": 26991,
+   "ata": 10.04,
+   "picks": 36496
+  },
+  "Rufus Shinra": {
+   "gih": 0.5751,
+   "games": 15684,
+   "ata": 7.54,
+   "picks": 13771
+  },
+  "Rydia's Return": {
+   "gih": 0.538,
+   "games": 13401,
+   "ata": 8.87,
+   "picks": 13235
+  },
+  "Rydia, Summoner of Mist": {
+   "gih": 0.5465,
+   "games": 10711,
+   "ata": 8.43,
+   "picks": 12900
+  },
+  "Sabotender": {
+   "gih": 0.5276,
+   "games": 18037,
+   "ata": 10.42,
+   "picks": 28240
+  },
+  "Sage's Nouliths": {
+   "gih": 0.5352,
+   "games": 35332,
+   "ata": 9.86,
+   "picks": 40986
+  },
+  "Sahagin": {
+   "gih": 0.582,
+   "games": 94623,
+   "ata": 6.6,
+   "picks": 59187
+  },
+  "Samurai's Katana": {
+   "gih": 0.6081,
+   "games": 36230,
+   "ata": 3.64,
+   "picks": 18773
+  },
+  "Sandworm": {
+   "gih": 0.5179,
+   "games": 10554,
+   "ata": 9.06,
+   "picks": 12967
+  },
+  "Sazh Katzroy": {
+   "gih": 0.6443,
+   "games": 14587,
+   "ata": 1.7,
+   "picks": 6699
+  },
+  "Sazh's Chocobo": {
+   "gih": 0.6027,
+   "games": 30779,
+   "ata": 3.1,
+   "picks": 15736
+  },
+  "Scorpion Sentinel": {
+   "gih": 0.5648,
+   "games": 76245,
+   "ata": 8.26,
+   "picks": 50442
+  },
+  "Seifer Almasy": {
+   "gih": 0.6033,
+   "games": 13216,
+   "ata": 1.84,
+   "picks": 6296
+  },
+  "Self-Destruct": {
+   "gih": 0.5139,
+   "games": 4760,
+   "ata": 10.34,
+   "picks": 11972
+  },
+  "Sephiroth's Intervention": {
+   "gih": 0.5889,
+   "games": 93353,
+   "ata": 3.22,
+   "picks": 47089
+  },
+  "Sephiroth, Fabled SOLDIER": {
+   "gih": 0.6241,
+   "games": 7031,
+   "ata": 1.31,
+   "picks": 3227
+  },
+  "Serah Farron": {
+   "gih": 0.5068,
+   "games": 3157,
+   "ata": 6.46,
+   "picks": 4061
+  },
+  "Shambling Cie'th": {
+   "gih": 0.5174,
+   "games": 15594,
+   "ata": 7.87,
+   "picks": 12944
+  },
+  "Shantotto, Tactician Magician": {
+   "gih": 0.596,
+   "games": 37033,
+   "ata": 4.69,
+   "picks": 21385
+  },
+  "Sharlayan, Nation of Scholars": {
+   "gih": 0.5464,
+   "games": 40904,
+   "ata": 9.19,
+   "picks": 31924
+  },
+  "Shinra Reinforcements": {
+   "gih": 0.5754,
+   "games": 53623,
+   "ata": 8.92,
+   "picks": 47585
+  },
+  "Sidequest: Card Collection": {
+   "gih": 0.5938,
+   "games": 37971,
+   "ata": 6.55,
+   "picks": 22786
+  },
+  "Sidequest: Catch a Fish": {
+   "gih": 0.5151,
+   "games": 5152,
+   "ata": 9.66,
+   "picks": 10903
+  },
+  "Sidequest: Hunt the Mark": {
+   "gih": 0.6002,
+   "games": 40827,
+   "ata": 2.93,
+   "picks": 19461
+  },
+  "Sidequest: Play Blitzball": {
+   "gih": 0.488,
+   "games": 4260,
+   "ata": 10.29,
+   "picks": 10510
+  },
+  "Sidequest: Raise a Chocobo": {
+   "gih": 0.5428,
+   "games": 16504,
+   "ata": 6.08,
+   "picks": 11485
+  },
+  "Sin, Spira's Punishment": {
+   "gih": 0.5926,
+   "games": 14813,
+   "ata": 2.49,
+   "picks": 7263
+  },
+  "Slash of Light": {
+   "gih": 0.5698,
+   "games": 60163,
+   "ata": 7.06,
+   "picks": 38938
+  },
+  "Sleep Magic": {
+   "gih": 0.5924,
+   "games": 43779,
+   "ata": 4.47,
+   "picks": 21005
+  },
+  "Smuggler's Copter": {
+   "gih": 0.6534,
+   "games": 2683,
+   "ata": 1.63,
+   "picks": 1106
+  },
+  "Snow Villiers": {
+   "gih": 0.5253,
+   "games": 11475,
+   "ata": 8.17,
+   "picks": 10989
+  },
+  "Sorceress's Schemes": {
+   "gih": 0.5856,
+   "games": 25731,
+   "ata": 8.06,
+   "picks": 20376
+  },
+  "Squall, SeeD Mercenary": {
+   "gih": 0.5902,
+   "games": 10213,
+   "ata": 2.42,
+   "picks": 5757
+  },
+  "Sram, Senior Edificer": {
+   "gih": 0.6149,
+   "games": 1641,
+   "ata": 2.53,
+   "picks": 815
+  },
+  "Starting Town": {
+   "gih": 0.554,
+   "games": 12468,
+   "ata": 3.76,
+   "picks": 5777
+  },
+  "Stiltzkin, Moogle Merchant": {
+   "gih": 0.5333,
+   "games": 6087,
+   "ata": 6.15,
+   "picks": 5158
+  },
+  "Stolen Uniform": {
+   "gih": 0.4259,
+   "games": 216,
+   "ata": 12.37,
+   "picks": 14572
+  },
+  "Strixhaven Stadium": {
+   "gih": 0.4748,
+   "games": 337,
+   "ata": 11.71,
+   "picks": 4677
+  },
+  "Stroke of Midnight": {
+   "gih": 0.4962,
+   "games": 3257,
+   "ata": 7.26,
+   "picks": 2711
+  },
+  "Stuck in Summoner's Sanctum": {
+   "gih": 0.5593,
+   "games": 79992,
+   "ata": 6.29,
+   "picks": 44767
+  },
+  "Summon: Anima": {
+   "gih": 0.5346,
+   "games": 19108,
+   "ata": 5.91,
+   "picks": 12426
+  },
+  "Summon: Bahamut": {
+   "gih": 0.5718,
+   "games": 6233,
+   "ata": 1.4,
+   "picks": 2937
+  },
+  "Summon: Brynhildr": {
+   "gih": 0.5304,
+   "games": 7987,
+   "ata": 3.79,
+   "picks": 4757
+  },
+  "Summon: Choco/Mog": {
+   "gih": 0.5393,
+   "games": 31585,
+   "ata": 8.59,
+   "picks": 32048
+  },
+  "Summon: Esper Ramuh": {
+   "gih": 0.5313,
+   "games": 17307,
+   "ata": 7.03,
+   "picks": 13517
+  },
+  "Summon: Fat Chocobo": {
+   "gih": 0.581,
+   "games": 71663,
+   "ata": 5.47,
+   "picks": 41636
+  },
+  "Summon: Fenrir": {
+   "gih": 0.6137,
+   "games": 38269,
+   "ata": 2.69,
+   "picks": 18510
+  },
+  "Summon: G.F. Cerberus": {
+   "gih": 0.531,
+   "games": 9530,
+   "ata": 3.01,
+   "picks": 5333
+  },
+  "Summon: G.F. Ifrit": {
+   "gih": 0.5139,
+   "games": 30194,
+   "ata": 9.27,
+   "picks": 32229
+  },
+  "Summon: Knights of Round": {
+   "gih": 0.5969,
+   "games": 6093,
+   "ata": 1.5,
+   "picks": 3007
+  },
+  "Summon: Leviathan": {
+   "gih": 0.595,
+   "games": 17142,
+   "ata": 2.08,
+   "picks": 7777
+  },
+  "Summon: Primal Garuda": {
+   "gih": 0.5688,
+   "games": 20413,
+   "ata": 4.8,
+   "picks": 11777
+  },
+  "Summon: Primal Odin": {
+   "gih": 0.6336,
+   "games": 15438,
+   "ata": 1.55,
+   "picks": 6937
+  },
+  "Summon: Shiva": {
+   "gih": 0.5712,
+   "games": 34939,
+   "ata": 4.44,
+   "picks": 17787
+  },
+  "Summon: Titan": {
+   "gih": 0.5993,
+   "games": 13132,
+   "ata": 1.89,
+   "picks": 6364
+  },
+  "Summoner's Grimoire": {
+   "gih": 0.5218,
+   "games": 3074,
+   "ata": 5.52,
+   "picks": 3190
+  },
+  "Suplex": {
+   "gih": 0.571,
+   "games": 74581,
+   "ata": 4.51,
+   "picks": 40289
+  },
+  "Swallowed by Leviathan": {
+   "gih": 0.5929,
+   "games": 48605,
+   "ata": 5.69,
+   "picks": 26250
+  },
+  "Swamp": {
+   "gih": 0.5584,
+   "games": 377067,
+   "ata": 13.93,
+   "picks": 26291
+  },
+  "Syncopate": {
+   "gih": 0.5786,
+   "games": 76752,
+   "ata": 8.37,
+   "picks": 51438
+  },
+  "Syr Konrad, the Grim": {
+   "gih": 0.5596,
+   "games": 11491,
+   "ata": 3.38,
+   "picks": 5610
+  },
+  "Teferi, Mage of Zhalfir": {
+   "gih": 0.5016,
+   "games": 640,
+   "ata": 5.48,
+   "picks": 582
+  },
+  "Tellah, Great Sage": {
+   "gih": 0.5499,
+   "games": 11656,
+   "ata": 3.2,
+   "picks": 6332
+  },
+  "Terra, Magical Adept": {
+   "gih": 0.546,
+   "games": 2731,
+   "ata": 3.21,
+   "picks": 2443
+  },
+  "The Crystal's Chosen": {
+   "gih": 0.572,
+   "games": 22955,
+   "ata": 6.13,
+   "picks": 16012
+  },
+  "The Darkness Crystal": {
+   "gih": 0.5428,
+   "games": 6057,
+   "ata": 4.73,
+   "picks": 4287
+  },
+  "The Earth Crystal": {
+   "gih": 0.4771,
+   "games": 4519,
+   "ata": 4.99,
+   "picks": 3779
+  },
+  "The Emperor of Palamecia": {
+   "gih": 0.5971,
+   "games": 34155,
+   "ata": 5.01,
+   "picks": 20079
+  },
+  "The Final Days": {
+   "gih": 0.5698,
+   "games": 24245,
+   "ata": 5.41,
+   "picks": 15167
+  },
+  "The Fire Crystal": {
+   "gih": 0.4132,
+   "games": 1019,
+   "ata": 7.99,
+   "picks": 3571
+  },
+  "The Gold Saucer": {
+   "gih": 0.5343,
+   "games": 8233,
+   "ata": 11.11,
+   "picks": 13160
+  },
+  "The Lunar Whale": {
+   "gih": 0.5952,
+   "games": 19013,
+   "ata": 2.08,
+   "picks": 8384
+  },
+  "The Masamune": {
+   "gih": 0.4324,
+   "games": 2234,
+   "ata": 5.95,
+   "picks": 3210
+  },
+  "The Prima Vista": {
+   "gih": 0.5191,
+   "games": 8521,
+   "ata": 10.06,
+   "picks": 14656
+  },
+  "The Regalia": {
+   "gih": 0.5786,
+   "games": 15779,
+   "ata": 1.59,
+   "picks": 6898
+  },
+  "The Wandering Minstrel": {
+   "gih": 0.5613,
+   "games": 8119,
+   "ata": 5.54,
+   "picks": 6450
+  },
+  "The Water Crystal": {
+   "gih": 0.4698,
+   "games": 1258,
+   "ata": 8.64,
+   "picks": 4773
+  },
+  "The Wind Crystal": {
+   "gih": 0.5159,
+   "games": 3960,
+   "ata": 5.42,
+   "picks": 3760
+  },
+  "Thief's Knife": {
+   "gih": 0.53,
+   "games": 22716,
+   "ata": 5.94,
+   "picks": 13959
+  },
+  "Thrasios, Triton Hero": {
+   "gih": 0.556,
+   "games": 1214,
+   "ata": 5.3,
+   "picks": 799
+  },
+  "Thunder Magic": {
+   "gih": 0.5862,
+   "games": 88863,
+   "ata": 3.77,
+   "picks": 48136
+  },
+  "Tidus, Blitzball Star": {
+   "gih": 0.5176,
+   "games": 13303,
+   "ata": 7.74,
+   "picks": 12382
+  },
+  "Tifa Lockhart": {
+   "gih": 0.5023,
+   "games": 3741,
+   "ata": 4.84,
+   "picks": 3120
+  },
+  "Tifa's Limit Break": {
+   "gih": 0.5355,
+   "games": 10111,
+   "ata": 8.92,
+   "picks": 11380
+  },
+  "Tonberry": {
+   "gih": 0.5602,
+   "games": 18336,
+   "ata": 6.68,
+   "picks": 12723
+  },
+  "Torgal, A Fine Hound": {
+   "gih": 0.5873,
+   "games": 35473,
+   "ata": 3.21,
+   "picks": 17546
+  },
+  "Town Greeter": {
+   "gih": 0.5913,
+   "games": 81709,
+   "ata": 6.51,
+   "picks": 50446
+  },
+  "Travel the Overworld": {
+   "gih": 0.5664,
+   "games": 27338,
+   "ata": 6.98,
+   "picks": 20265
+  },
+  "Traveling Chocobo": {
+   "gih": 0.5956,
+   "games": 5702,
+   "ata": 1.67,
+   "picks": 2833
+  },
+  "Traxos, Scourge of Kroog": {
+   "gih": 0.5434,
+   "games": 1579,
+   "ata": 3.38,
+   "picks": 815
+  },
+  "Treno, Dark City": {
+   "gih": 0.5584,
+   "games": 60582,
+   "ata": 7.98,
+   "picks": 37049
+  },
+  "Triple Triad": {
+   "gih": 0.515,
+   "games": 3060,
+   "ata": 8.25,
+   "picks": 5300
+  },
+  "Tymna the Weaver": {
+   "gih": 0.5761,
+   "games": 802,
+   "ata": 4.89,
+   "picks": 589
+  },
+  "Ultima": {
+   "gih": 0.5561,
+   "games": 7286,
+   "ata": 3.02,
+   "picks": 4878
+  },
+  "Ultima, Origin of Oblivion": {
+   "gih": 0.5357,
+   "games": 8060,
+   "ata": 2.56,
+   "picks": 4114
+  },
+  "Ultimecia, Time Sorceress": {
+   "gih": 0.5554,
+   "games": 23898,
+   "ata": 6.54,
+   "picks": 15708
+  },
+  "Ultros, Obnoxious Octopus": {
+   "gih": 0.5865,
+   "games": 44825,
+   "ata": 4.45,
+   "picks": 22796
+  },
+  "Undercity Dire Rat": {
+   "gih": 0.562,
+   "games": 65466,
+   "ata": 7.62,
+   "picks": 40252
+  },
+  "Unexpected Request": {
+   "gih": 0.5342,
+   "games": 4890,
+   "ata": 10.5,
+   "picks": 12251
+  },
+  "Urza, Lord High Artificer": {
+   "gih": 0.6454,
+   "games": 2403,
+   "ata": 2.03,
+   "picks": 1038
+  },
+  "Vaan, Street Thief": {
+   "gih": 0.4777,
+   "games": 4067,
+   "ata": 5.63,
+   "picks": 3864
+  },
+  "Valkyrie Aerial Unit": {
+   "gih": 0.5346,
+   "games": 16728,
+   "ata": 7.55,
+   "picks": 14075
+  },
+  "Vanille, Cheerful l'Cie": {
+   "gih": 0.5881,
+   "games": 37061,
+   "ata": 4.04,
+   "picks": 19413
+  },
+  "Varragoth, Bloodsky Sire": {
+   "gih": 0.5318,
+   "games": 1100,
+   "ata": 2.99,
+   "picks": 537
+  },
+  "Vayne's Treachery": {
+   "gih": 0.579,
+   "games": 91757,
+   "ata": 4.24,
+   "picks": 47858
+  },
+  "Vector, Imperial Capital": {
+   "gih": 0.5515,
+   "games": 43930,
+   "ata": 8.75,
+   "picks": 33251
+  },
+  "Venat, Heart of Hydaelyn": {
+   "gih": 0.5805,
+   "games": 11424,
+   "ata": 1.9,
+   "picks": 5752
+  },
+  "Venser, Shaper Savant": {
+   "gih": 0.5845,
+   "games": 2135,
+   "ata": 3.15,
+   "picks": 978
+  },
+  "Vial Smasher the Fierce": {
+   "gih": 0.5675,
+   "games": 1311,
+   "ata": 2.86,
+   "picks": 758
+  },
+  "Vincent Valentine": {
+   "gih": 0.5846,
+   "games": 12209,
+   "ata": 1.72,
+   "picks": 5825
+  },
+  "Vincent's Limit Break": {
+   "gih": 0.5256,
+   "games": 17414,
+   "ata": 10.63,
+   "picks": 33628
+  },
+  "Vivi Ornitier": {
+   "gih": 0.5966,
+   "games": 5811,
+   "ata": 1.78,
+   "picks": 2916
+  },
+  "Wall of Omens": {
+   "gih": 0.5783,
+   "games": 7756,
+   "ata": 6.48,
+   "picks": 5172
+  },
+  "Warrior's Sword": {
+   "gih": 0.5561,
+   "games": 54339,
+   "ata": 8.22,
+   "picks": 39095
+  },
+  "Weapons Vendor": {
+   "gih": 0.5608,
+   "games": 48183,
+   "ata": 7.77,
+   "picks": 38701
+  },
+  "White Auracite": {
+   "gih": 0.5956,
+   "games": 76890,
+   "ata": 3.85,
+   "picks": 43754
+  },
+  "White Mage's Staff": {
+   "gih": 0.581,
+   "games": 75573,
+   "ata": 5.51,
+   "picks": 43556
+  },
+  "Windurst, Federation Center": {
+   "gih": 0.545,
+   "games": 33663,
+   "ata": 9.5,
+   "picks": 28695
+  },
+  "Winota, Joiner of Forces": {
+   "gih": 0.6542,
+   "games": 1394,
+   "ata": 3.52,
+   "picks": 844
+  },
+  "World Map": {
+   "gih": 0.5229,
+   "games": 30928,
+   "ata": 10.27,
+   "picks": 37176
+  },
+  "Y'shtola Rhul": {
+   "gih": 0.5673,
+   "games": 5517,
+   "ata": 2.56,
+   "picks": 3044
+  },
+  "Yawgmoth, Thran Physician": {
+   "gih": 0.6288,
+   "games": 2217,
+   "ata": 2.03,
+   "picks": 983
+  },
+  "You're Not Alone": {
+   "gih": 0.5648,
+   "games": 35729,
+   "ata": 9.82,
+   "picks": 38934
+  },
+  "Yuna, Hope of Spira": {
+   "gih": 0.6169,
+   "games": 4346,
+   "ata": 1.98,
+   "picks": 2803
+  },
+  "Yuriko, the Tiger's Shadow": {
+   "gih": 0.5307,
+   "games": 946,
+   "ata": 4.94,
+   "picks": 686
+  },
+  "Zack Fair": {
+   "gih": 0.5803,
+   "games": 27942,
+   "ata": 4.63,
+   "picks": 14900
+  },
+  "Zanarkand, Ancient Metropolis": {
+   "gih": 0.5682,
+   "games": 11861,
+   "ata": 3.71,
+   "picks": 6140
+  },
+  "Zell Dincht": {
+   "gih": 0.557,
+   "games": 6056,
+   "ata": 4.55,
+   "picks": 4315
+  },
+  "Zenos yae Galvus": {
+   "gih": 0.5943,
+   "games": 13959,
+   "ata": 1.79,
+   "picks": 6615
+  },
+  "Zidane, Tantalus Thief": {
+   "gih": 0.5861,
+   "games": 16964,
+   "ata": 7.31,
+   "picks": 14785
+  },
+  "Zodiark, Umbral God": {
+   "gih": 0.5476,
+   "games": 5124,
+   "ata": 5.21,
+   "picks": 4493
+  }
+ }
+}

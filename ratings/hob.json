@@ -1,0 +1,1168 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "hob",
+ "format": "PremierDraft",
+ "games": 323114,
+ "mean": 0.5587,
+ "sd": 0.0379,
+ "cards": {
+  "Along the Crooked Way": {
+   "gih": 0.5173,
+   "games": 3766,
+   "ata": 4.1,
+   "picks": 2697
+  },
+  "An Unexpected Party": {
+   "gih": 0.6593,
+   "games": 10770,
+   "ata": 1.73,
+   "picks": 4537
+  },
+  "Attercop": {
+   "gih": 0.561,
+   "games": 30096,
+   "ata": 7.64,
+   "picks": 21588
+  },
+  "Azog, Moria's Ruin": {
+   "gih": 0.5379,
+   "games": 4940,
+   "ata": 3.1,
+   "picks": 2833
+  },
+  "Balin, Loremaster": {
+   "gih": 0.5134,
+   "games": 2803,
+   "ata": 5.15,
+   "picks": 2487
+  },
+  "Bard the Bowman": {
+   "gih": 0.5881,
+   "games": 24682,
+   "ata": 4.93,
+   "picks": 12913
+  },
+  "Bard's Company": {
+   "gih": 0.6409,
+   "games": 11705,
+   "ata": 2.57,
+   "picks": 4882
+  },
+  "Bard, King of Dale": {
+   "gih": 0.5279,
+   "games": 2506,
+   "ata": 3.1,
+   "picks": 1505
+  },
+  "Bejeweled Warg": {
+   "gih": 0.603,
+   "games": 6572,
+   "ata": 2.07,
+   "picks": 3419
+  },
+  "Belladonna Took": {
+   "gih": 0.5255,
+   "games": 4046,
+   "ata": 4.17,
+   "picks": 2650
+  },
+  "Beorn the Fierce": {
+   "gih": 0.6441,
+   "games": 3703,
+   "ata": 1.49,
+   "picks": 1813
+  },
+  "Beorn's Hospitality": {
+   "gih": 0.5508,
+   "games": 10145,
+   "ata": 5.33,
+   "picks": 6697
+  },
+  "Beorn, Reluctant Host": {
+   "gih": 0.508,
+   "games": 9780,
+   "ata": 10.2,
+   "picks": 16419
+  },
+  "Bifur, Melodic Rider": {
+   "gih": 0.5495,
+   "games": 12309,
+   "ata": 5.83,
+   "picks": 8705
+  },
+  "Bilbo Baggins, Burglar": {
+   "gih": 0.5746,
+   "games": 51284,
+   "ata": 6.49,
+   "picks": 32476
+  },
+  "Bilbo's Deadly Slice": {
+   "gih": 0.5772,
+   "games": 47704,
+   "ata": 3.4,
+   "picks": 26276
+  },
+  "Bilbo's Gambit": {
+   "gih": 0.4852,
+   "games": 915,
+   "ata": 7.95,
+   "picks": 2522
+  },
+  "Bilbo, Luckwearer": {
+   "gih": 0.603,
+   "games": 29559,
+   "ata": 3.9,
+   "picks": 14066
+  },
+  "Bilbo, Thief in the Night": {
+   "gih": 0.5858,
+   "games": 3914,
+   "ata": 2.77,
+   "picks": 1876
+  },
+  "Bofur, Reliable Guardian": {
+   "gih": 0.5684,
+   "games": 17850,
+   "ata": 5.61,
+   "picks": 10015
+  },
+  "Bolg of the North": {
+   "gih": 0.5499,
+   "games": 13685,
+   "ata": 5.27,
+   "picks": 9256
+  },
+  "Bolg's Company": {
+   "gih": 0.5226,
+   "games": 3783,
+   "ata": 5.36,
+   "picks": 2832
+  },
+  "Bombur, Gentle Dreamer": {
+   "gih": 0.5498,
+   "games": 13699,
+   "ata": 6.89,
+   "picks": 9623
+  },
+  "Bothersome Noisemaker": {
+   "gih": 0.6102,
+   "games": 27882,
+   "ata": 3.12,
+   "picks": 14395
+  },
+  "Boughside Wanderers": {
+   "gih": 0.5409,
+   "games": 13514,
+   "ata": 10.29,
+   "picks": 20016
+  },
+  "Burn, Burn, Tree and Fern": {
+   "gih": 0.6005,
+   "games": 25422,
+   "ata": 3.0,
+   "picks": 13070
+  },
+  "Cantankerous Keepers": {
+   "gih": 0.5257,
+   "games": 2144,
+   "ata": 6.14,
+   "picks": 2585
+  },
+  "Celebrate the Mountain-king": {
+   "gih": 0.6216,
+   "games": 30687,
+   "ata": 2.93,
+   "picks": 14540
+  },
+  "Chief Warg's Company": {
+   "gih": 0.6239,
+   "games": 8000,
+   "ata": 1.84,
+   "picks": 3917
+  },
+  "Confusticate and Bebother": {
+   "gih": 0.5388,
+   "games": 21149,
+   "ata": 9.8,
+   "picks": 24433
+  },
+  "Crude Bent Blade": {
+   "gih": 0.6041,
+   "games": 60413,
+   "ata": 3.55,
+   "picks": 34241
+  },
+  "Dancing from Dark to Dawn": {
+   "gih": 0.592,
+   "games": 3206,
+   "ata": 1.63,
+   "picks": 1633
+  },
+  "Desert Were-Worm": {
+   "gih": 0.4618,
+   "games": 1804,
+   "ata": 5.69,
+   "picks": 2188
+  },
+  "Desolation Prowler": {
+   "gih": 0.612,
+   "games": 30018,
+   "ata": 2.82,
+   "picks": 15047
+  },
+  "Desolation of Smaug": {
+   "gih": 0.5275,
+   "games": 2895,
+   "ata": 4.98,
+   "picks": 2676
+  },
+  "Dori, Bearer of Friends": {
+   "gih": 0.5781,
+   "games": 44509,
+   "ata": 6.65,
+   "picks": 26996
+  },
+  "Down in the Valley": {
+   "gih": 0.5701,
+   "games": 4334,
+   "ata": 3.76,
+   "picks": 2759
+  },
+  "Down, Down to Goblin-town": {
+   "gih": 0.5933,
+   "games": 27443,
+   "ata": 3.5,
+   "picks": 14327
+  },
+  "Dreaded Bat-Cloud": {
+   "gih": 0.5622,
+   "games": 17043,
+   "ata": 4.88,
+   "picks": 9813
+  },
+  "Duskwatch Hunter": {
+   "gih": 0.5569,
+   "games": 33195,
+   "ata": 7.34,
+   "picks": 24379
+  },
+  "Dwalin, Weaponmaster": {
+   "gih": 0.5933,
+   "games": 8259,
+   "ata": 2.5,
+   "picks": 3974
+  },
+  "Dwarven Mattock": {
+   "gih": 0.5589,
+   "games": 13141,
+   "ata": 6.93,
+   "picks": 9249
+  },
+  "Dwarven Mauler": {
+   "gih": 0.5728,
+   "games": 18479,
+   "ata": 5.69,
+   "picks": 11319
+  },
+  "Dwarven Provisioner": {
+   "gih": 0.5561,
+   "games": 34547,
+   "ata": 8.79,
+   "picks": 26897
+  },
+  "Dwarven Shortsword": {
+   "gih": 0.5429,
+   "games": 23573,
+   "ata": 8.78,
+   "picks": 21959
+  },
+  "Dáin Ironfoot": {
+   "gih": 0.6136,
+   "games": 8599,
+   "ata": 1.99,
+   "picks": 4093
+  },
+  "Dáin's Company": {
+   "gih": 0.6272,
+   "games": 6183,
+   "ata": 3.19,
+   "picks": 3641
+  },
+  "Dáin, Lord of the Iron Hills": {
+   "gih": 0.5444,
+   "games": 15253,
+   "ata": 5.71,
+   "picks": 9109
+  },
+  "Eagle of the Great Shelf": {
+   "gih": 0.53,
+   "games": 7559,
+   "ata": 8.42,
+   "picks": 8196
+  },
+  "Eagle's Rescue": {
+   "gih": 0.566,
+   "games": 14793,
+   "ata": 7.19,
+   "picks": 10683
+  },
+  "Elrond, Moon-Reader": {
+   "gih": 0.5151,
+   "games": 1817,
+   "ata": 3.51,
+   "picks": 1291
+  },
+  "Elven Passage": {
+   "gih": 0.5503,
+   "games": 5572,
+   "ata": 6.01,
+   "picks": 3164
+  },
+  "Elven Raft-Steerer": {
+   "gih": 0.5005,
+   "games": 3814,
+   "ata": 9.77,
+   "picks": 7672
+  },
+  "Elvenking's Halls": {
+   "gih": 0.5397,
+   "games": 15531,
+   "ata": 10.25,
+   "picks": 17503
+  },
+  "Elvenking's Harper": {
+   "gih": 0.5433,
+   "games": 12387,
+   "ata": 11.16,
+   "picks": 24550
+  },
+  "Enchanted River's Grasp": {
+   "gih": 0.5561,
+   "games": 41489,
+   "ata": 6.74,
+   "picks": 25931
+  },
+  "Esgaroth Garrison": {
+   "gih": 0.5655,
+   "games": 14974,
+   "ata": 10.69,
+   "picks": 24785
+  },
+  "Fateful Discovery": {
+   "gih": 0.3478,
+   "games": 23,
+   "ata": 8.34,
+   "picks": 1467
+  },
+  "Fearsome Goblin Pair": {
+   "gih": 0.5366,
+   "games": 13383,
+   "ata": 4.78,
+   "picks": 8369
+  },
+  "Forest": {
+   "gih": 0.5566,
+   "games": 98029,
+   "ata": 13.9,
+   "picks": 16280
+  },
+  "Front Porch Sentries": {
+   "gih": 0.5572,
+   "games": 29032,
+   "ata": 8.36,
+   "picks": 26126
+  },
+  "Fíli the Pathfinder": {
+   "gih": 0.6626,
+   "games": 9687,
+   "ata": 1.94,
+   "picks": 4322
+  },
+  "Galion, Elvenking's Butler": {
+   "gih": 0.5415,
+   "games": 8194,
+   "ata": 7.79,
+   "picks": 7739
+  },
+  "Gandalf, Goblins' Bane": {
+   "gih": 0.5734,
+   "games": 3275,
+   "ata": 2.07,
+   "picks": 1694
+  },
+  "Gandalf, Spark Starter": {
+   "gih": 0.5946,
+   "games": 23184,
+   "ata": 4.92,
+   "picks": 13536
+  },
+  "Gandalf, Wandering Wizard": {
+   "gih": 0.5112,
+   "games": 6098,
+   "ata": 11.57,
+   "picks": 22554
+  },
+  "Gathering of Darkness": {
+   "gih": 0.5515,
+   "games": 16769,
+   "ata": 5.12,
+   "picks": 10145
+  },
+  "Getaway Barrel": {
+   "gih": 0.3934,
+   "games": 122,
+   "ata": 9.43,
+   "picks": 3046
+  },
+  "Giant's Boulder": {
+   "gih": 0.5075,
+   "games": 8928,
+   "ata": 10.68,
+   "picks": 20007
+  },
+  "Gigantic Big Bear": {
+   "gih": 0.5148,
+   "games": 3322,
+   "ata": 3.43,
+   "picks": 2232
+  },
+  "Glamdring, Foe-hammer": {
+   "gih": 0.3668,
+   "games": 319,
+   "ata": 8.33,
+   "picks": 2659
+  },
+  "Gleaming Splendor": {
+   "gih": 0.3905,
+   "games": 420,
+   "ata": 5.95,
+   "picks": 913
+  },
+  "Glóin the Mighty": {
+   "gih": 0.5796,
+   "games": 19149,
+   "ata": 4.8,
+   "picks": 10472
+  },
+  "Gnashing of Teeth": {
+   "gih": 0.5628,
+   "games": 19973,
+   "ata": 3.22,
+   "picks": 10488
+  },
+  "Goblin Plate Mail": {
+   "gih": 0.5729,
+   "games": 59344,
+   "ata": 4.86,
+   "picks": 32670
+  },
+  "Goblin-town": {
+   "gih": 0.5572,
+   "games": 29259,
+   "ata": 8.72,
+   "picks": 19265
+  },
+  "Goblin-town Flunkies": {
+   "gih": 0.5432,
+   "games": 21031,
+   "ata": 8.92,
+   "picks": 22203
+  },
+  "Gollum the Abandoned": {
+   "gih": 0.5707,
+   "games": 20830,
+   "ata": 5.46,
+   "picks": 12146
+  },
+  "Gollum, Riddle Master": {
+   "gih": 0.641,
+   "games": 4529,
+   "ata": 1.55,
+   "picks": 2093
+  },
+  "Gollum, Silent Slinker": {
+   "gih": 0.5922,
+   "games": 52853,
+   "ata": 5.81,
+   "picks": 32504
+  },
+  "Great Fierce Bee": {
+   "gih": 0.5346,
+   "games": 9960,
+   "ata": 10.24,
+   "picks": 19928
+  },
+  "Great Gilded Boat": {
+   "gih": 0.6158,
+   "games": 11603,
+   "ata": 2.52,
+   "picks": 4989
+  },
+  "Great Ugly-Looking Goblin": {
+   "gih": 0.576,
+   "games": 21083,
+   "ata": 4.36,
+   "picks": 11145
+  },
+  "Guardian of the Halls": {
+   "gih": 0.5305,
+   "games": 16103,
+   "ata": 9.71,
+   "picks": 18882
+  },
+  "Gundabad Opportunist": {
+   "gih": 0.5633,
+   "games": 37178,
+   "ata": 8.26,
+   "picks": 28703
+  },
+  "Head of the Hunt": {
+   "gih": 0.6171,
+   "games": 8563,
+   "ata": 1.61,
+   "picks": 4052
+  },
+  "Hobbit Hole": {
+   "gih": 0.565,
+   "games": 60133,
+   "ata": 7.75,
+   "picks": 31330
+  },
+  "Inside Information": {
+   "gih": 0.4945,
+   "games": 1905,
+   "ata": 3.28,
+   "picks": 1267
+  },
+  "Iron Hills": {
+   "gih": 0.5496,
+   "games": 23466,
+   "ata": 9.41,
+   "picks": 18891
+  },
+  "Iron Hills Blacksmith": {
+   "gih": 0.5803,
+   "games": 22521,
+   "ata": 4.05,
+   "picks": 11572
+  },
+  "Iron Hills Stalwart": {
+   "gih": 0.5176,
+   "games": 9649,
+   "ata": 10.59,
+   "picks": 19674
+  },
+  "Island": {
+   "gih": 0.5519,
+   "games": 112333,
+   "ata": 13.92,
+   "picks": 16848
+  },
+  "Key to the Side-Door": {
+   "gih": 0.4908,
+   "games": 1514,
+   "ata": 10.69,
+   "picks": 8050
+  },
+  "Kíli the Resourceful": {
+   "gih": 0.6337,
+   "games": 7998,
+   "ata": 2.41,
+   "picks": 4095
+  },
+  "Lake-town": {
+   "gih": 0.5671,
+   "games": 31676,
+   "ata": 9.73,
+   "picks": 21851
+  },
+  "Lake-town Lookout": {
+   "gih": 0.5253,
+   "games": 9529,
+   "ata": 10.88,
+   "picks": 20379
+  },
+  "Lake-town Mariners": {
+   "gih": 0.5187,
+   "games": 5194,
+   "ata": 9.67,
+   "picks": 9299
+  },
+  "Lake-town Toymaker": {
+   "gih": 0.5405,
+   "games": 9427,
+   "ata": 8.68,
+   "picks": 10306
+  },
+  "Lakeshore Apothecary": {
+   "gih": 0.5704,
+   "games": 52839,
+   "ata": 6.55,
+   "picks": 34866
+  },
+  "Large Bear": {
+   "gih": 0.5673,
+   "games": 18958,
+   "ata": 3.61,
+   "picks": 9966
+  },
+  "Last Light of Durin's Day": {
+   "gih": 0.2812,
+   "games": 160,
+   "ata": 9.17,
+   "picks": 2853
+  },
+  "Little Bear": {
+   "gih": 0.5034,
+   "games": 7529,
+   "ata": 10.71,
+   "picks": 18055
+  },
+  "Long Lake Nuisance": {
+   "gih": 0.5771,
+   "games": 49140,
+   "ata": 7.64,
+   "picks": 34462
+  },
+  "Long-Bodied Grey Dog": {
+   "gih": 0.5405,
+   "games": 9844,
+   "ata": 10.52,
+   "picks": 22203
+  },
+  "Magnificent End": {
+   "gih": 0.5675,
+   "games": 46144,
+   "ata": 6.11,
+   "picks": 26751
+  },
+  "Master's Councillors": {
+   "gih": 0.581,
+   "games": 28347,
+   "ata": 5.3,
+   "picks": 15137
+  },
+  "Mirkwood": {
+   "gih": 0.558,
+   "games": 23661,
+   "ata": 9.01,
+   "picks": 17692
+  },
+  "Mirkwood Meditator": {
+   "gih": 0.4942,
+   "games": 1736,
+   "ata": 12.45,
+   "picks": 21198
+  },
+  "Mirkwood Nurturer": {
+   "gih": 0.5577,
+   "games": 34167,
+   "ata": 7.89,
+   "picks": 27151
+  },
+  "Mirkwood Pathmaker": {
+   "gih": 0.5956,
+   "games": 19147,
+   "ata": 3.81,
+   "picks": 10817
+  },
+  "Misty Mountains Raider": {
+   "gih": 0.5853,
+   "games": 23696,
+   "ata": 3.65,
+   "picks": 12574
+  },
+  "Moment of Glory": {
+   "gih": 0.5195,
+   "games": 7419,
+   "ata": 11.3,
+   "picks": 21044
+  },
+  "Most Decrepit Old Bird": {
+   "gih": 0.5557,
+   "games": 4022,
+   "ata": 6.16,
+   "picks": 3392
+  },
+  "Mountain": {
+   "gih": 0.5711,
+   "games": 156122,
+   "ata": 13.89,
+   "picks": 16056
+  },
+  "My Precious": {
+   "gih": 0.5121,
+   "games": 4321,
+   "ata": 2.44,
+   "picks": 2457
+  },
+  "Nasty Little Rabbit": {
+   "gih": 0.5966,
+   "games": 17848,
+   "ata": 4.39,
+   "picks": 10966
+  },
+  "Nighthowl Pursuer": {
+   "gih": 0.5955,
+   "games": 23491,
+   "ata": 4.36,
+   "picks": 13264
+  },
+  "Nori, Teller of Tales": {
+   "gih": 0.5445,
+   "games": 29199,
+   "ata": 8.29,
+   "picks": 23464
+  },
+  "Old Fat Spider": {
+   "gih": 0.5292,
+   "games": 10017,
+   "ata": 6.94,
+   "picks": 8051
+  },
+  "Old Fat Spider Can't See Me": {
+   "gih": 0.527,
+   "games": 10933,
+   "ata": 7.65,
+   "picks": 9651
+  },
+  "Old Thrush": {
+   "gih": 0.5462,
+   "games": 11898,
+   "ata": 10.41,
+   "picks": 20986
+  },
+  "Orcrist, Goblin-cleaver": {
+   "gih": 0.5,
+   "games": 1744,
+   "ata": 2.02,
+   "picks": 1030
+  },
+  "Ordinary Bear": {
+   "gih": 0.5475,
+   "games": 14617,
+   "ata": 10.17,
+   "picks": 21341
+  },
+  "Ori, Keeper of Songs": {
+   "gih": 0.5532,
+   "games": 22499,
+   "ata": 9.61,
+   "picks": 23203
+  },
+  "Part in Friendship": {
+   "gih": 0.5121,
+   "games": 3308,
+   "ata": 4.95,
+   "picks": 2694
+  },
+  "Patient Instructor": {
+   "gih": 0.5834,
+   "games": 55365,
+   "ata": 7.05,
+   "picks": 36061
+  },
+  "Pinecone Strike": {
+   "gih": 0.5937,
+   "games": 55706,
+   "ata": 3.75,
+   "picks": 31663
+  },
+  "Plains": {
+   "gih": 0.5646,
+   "games": 133410,
+   "ata": 13.91,
+   "picks": 16477
+  },
+  "Plunder the Trollshaws": {
+   "gih": 0.5853,
+   "games": 50977,
+   "ata": 7.09,
+   "picks": 33417
+  },
+  "Quarrel": {
+   "gih": 0.5697,
+   "games": 34443,
+   "ata": 6.02,
+   "picks": 22505
+  },
+  "Radagast of Rhosgobel": {
+   "gih": 0.5265,
+   "games": 3571,
+   "ata": 3.06,
+   "picks": 2232
+  },
+  "Rage into the Valley": {
+   "gih": 0.5606,
+   "games": 43147,
+   "ata": 6.67,
+   "picks": 29344
+  },
+  "Ragged Short Spear": {
+   "gih": 0.5597,
+   "games": 26261,
+   "ata": 8.82,
+   "picks": 23724
+  },
+  "Ravenhill Flock": {
+   "gih": 0.5202,
+   "games": 8684,
+   "ata": 7.66,
+   "picks": 7751
+  },
+  "Ravening Warg": {
+   "gih": 0.5767,
+   "games": 46145,
+   "ata": 5.86,
+   "picks": 27662
+  },
+  "Reverent Howl": {
+   "gih": 0.5376,
+   "games": 18244,
+   "ata": 9.25,
+   "picks": 21479
+  },
+  "Rhovanion Rampager": {
+   "gih": 0.6184,
+   "games": 8696,
+   "ata": 1.79,
+   "picks": 4163
+  },
+  "Riddles in the Dark": {
+   "gih": 0.513,
+   "games": 2419,
+   "ata": 6.64,
+   "picks": 2868
+  },
+  "Roads Go Ever, Ever On": {
+   "gih": 0.5671,
+   "games": 5944,
+   "ata": 4.08,
+   "picks": 3357
+  },
+  "Roll-Roll-Roll-Roll": {
+   "gih": 0.4496,
+   "games": 1339,
+   "ata": 7.66,
+   "picks": 3000
+  },
+  "Settle the Wreckage": {
+   "gih": 0.5893,
+   "games": 7646,
+   "ata": 2.51,
+   "picks": 3558
+  },
+  "Silvan Reveler": {
+   "gih": 0.5374,
+   "games": 9594,
+   "ata": 6.81,
+   "picks": 8630
+  },
+  "Smaug the Magnificent": {
+   "gih": 0.6354,
+   "games": 4125,
+   "ata": 1.37,
+   "picks": 1884
+  },
+  "Smaug's Fury": {
+   "gih": 0.5235,
+   "games": 6974,
+   "ata": 10.98,
+   "picks": 19855
+  },
+  "Smaug, Wicked Worm": {
+   "gih": 0.5575,
+   "games": 5435,
+   "ata": 2.27,
+   "picks": 2985
+  },
+  "Smaug, the Great Calamity": {
+   "gih": 0.5667,
+   "games": 33601,
+   "ata": 7.06,
+   "picks": 23239
+  },
+  "Snowslope Hunter": {
+   "gih": 0.5315,
+   "games": 14082,
+   "ata": 6.81,
+   "picks": 10487
+  },
+  "Sound the Trumpets": {
+   "gih": 0.561,
+   "games": 9128,
+   "ata": 9.09,
+   "picks": 10708
+  },
+  "Sting, Bilbo's Sword": {
+   "gih": 0.4902,
+   "games": 2658,
+   "ata": 4.34,
+   "picks": 1940
+  },
+  "Stir Up Trouble": {
+   "gih": 0.5698,
+   "games": 48095,
+   "ata": 5.29,
+   "picks": 28126
+  },
+  "Stone by Sunlight": {
+   "gih": 0.6027,
+   "games": 28322,
+   "ata": 3.5,
+   "picks": 13635
+  },
+  "Stone-Giant of High Pass": {
+   "gih": 0.5862,
+   "games": 7252,
+   "ata": 2.53,
+   "picks": 3772
+  },
+  "Stony-Voiced Goblins": {
+   "gih": 0.5575,
+   "games": 40456,
+   "ata": 7.11,
+   "picks": 28187
+  },
+  "Supper for Spiders": {
+   "gih": 0.4214,
+   "games": 299,
+   "ata": 8.87,
+   "picks": 2862
+  },
+  "Swamp": {
+   "gih": 0.5703,
+   "games": 173691,
+   "ata": 13.88,
+   "picks": 16267
+  },
+  "The Arkenstone": {
+   "gih": 0.6025,
+   "games": 5032,
+   "ata": 1.15,
+   "picks": 2040
+  },
+  "The Black Arrow": {
+   "gih": 0.5183,
+   "games": 4507,
+   "ata": 8.85,
+   "picks": 7238
+  },
+  "The Chief Warg": {
+   "gih": 0.5336,
+   "games": 12154,
+   "ata": 5.0,
+   "picks": 8310
+  },
+  "The Eagles Are Coming!": {
+   "gih": 0.5989,
+   "games": 9517,
+   "ata": 2.14,
+   "picks": 4226
+  },
+  "The Great Goblin": {
+   "gih": 0.5654,
+   "games": 6348,
+   "ata": 2.24,
+   "picks": 3315
+  },
+  "The Lonely Mountain": {
+   "gih": 0.5837,
+   "games": 7702,
+   "ata": 3.42,
+   "picks": 3935
+  },
+  "The Lord of the Eagles": {
+   "gih": 0.5309,
+   "games": 3125,
+   "ata": 5.16,
+   "picks": 2677
+  },
+  "The Master of Lake-town": {
+   "gih": 0.5466,
+   "games": 5355,
+   "ata": 3.59,
+   "picks": 3148
+  },
+  "The Misty Mountains Cold": {
+   "gih": 0.5766,
+   "games": 6138,
+   "ata": 2.89,
+   "picks": 3220
+  },
+  "The Mountain-king's Return": {
+   "gih": 0.6113,
+   "games": 29924,
+   "ata": 3.62,
+   "picks": 14466
+  },
+  "The Notary Hobbits": {
+   "gih": 0.54,
+   "games": 1174,
+   "ata": 7.27,
+   "picks": 2693
+  },
+  "The Queen of Dale": {
+   "gih": 0.5951,
+   "games": 3858,
+   "ata": 2.17,
+   "picks": 1744
+  },
+  "The Sackville-Bagginses": {
+   "gih": 0.5931,
+   "games": 7837,
+   "ata": 2.93,
+   "picks": 4036
+  },
+  "Thorin Oakenshield": {
+   "gih": 0.5681,
+   "games": 14847,
+   "ata": 5.72,
+   "picks": 9702
+  },
+  "Thorin's Last Stand": {
+   "gih": 0.492,
+   "games": 4079,
+   "ata": 11.62,
+   "picks": 19669
+  },
+  "Thorin, Mountain-king": {
+   "gih": 0.634,
+   "games": 4117,
+   "ata": 1.74,
+   "picks": 1985
+  },
+  "Thranduil's Company": {
+   "gih": 0.6213,
+   "games": 7550,
+   "ata": 2.65,
+   "picks": 3770
+  },
+  "Thranduil's Decree": {
+   "gih": 0.51,
+   "games": 4094,
+   "ata": 10.02,
+   "picks": 9402
+  },
+  "Thranduil, Sindarin Liege": {
+   "gih": 0.5835,
+   "games": 19439,
+   "ata": 3.83,
+   "picks": 10119
+  },
+  "Thranduil, the Elvenking": {
+   "gih": 0.4565,
+   "games": 1023,
+   "ata": 6.95,
+   "picks": 2534
+  },
+  "Through the Forest Gate": {
+   "gih": 0.482,
+   "games": 334,
+   "ata": 9.29,
+   "picks": 2958
+  },
+  "Thrór's Map": {
+   "gih": 0.5516,
+   "games": 16796,
+   "ata": 6.24,
+   "picks": 10386
+  },
+  "Tidings of War": {
+   "gih": 0.5633,
+   "games": 31344,
+   "ata": 8.16,
+   "picks": 25119
+  },
+  "Tom, Bert, and William": {
+   "gih": 0.58,
+   "games": 6704,
+   "ata": 2.41,
+   "picks": 3737
+  },
+  "Troll Negotiations": {
+   "gih": 0.5516,
+   "games": 14809,
+   "ata": 5.18,
+   "picks": 9240
+  },
+  "Troop of Ponies": {
+   "gih": 0.5421,
+   "games": 9610,
+   "ata": 7.59,
+   "picks": 8838
+  },
+  "Uncover the Moon-Letters": {
+   "gih": 0.4833,
+   "games": 300,
+   "ata": 9.33,
+   "picks": 3196
+  },
+  "Uneasy Partings": {
+   "gih": 0.5625,
+   "games": 38308,
+   "ata": 8.93,
+   "picks": 31006
+  },
+  "Velvetwing Butterflies": {
+   "gih": 0.5368,
+   "games": 13058,
+   "ata": 10.19,
+   "picks": 20691
+  },
+  "Vow to Erebor": {
+   "gih": 0.5232,
+   "games": 6672,
+   "ata": 11.46,
+   "picks": 20100
+  },
+  "Warg Tactics": {
+   "gih": 0.5419,
+   "games": 13727,
+   "ata": 10.23,
+   "picks": 18879
+  },
+  "Wargling": {
+   "gih": 0.5495,
+   "games": 21122,
+   "ata": 9.37,
+   "picks": 21854
+  },
+  "Well-Worn Spatula": {
+   "gih": 0.5344,
+   "games": 9994,
+   "ata": 10.8,
+   "picks": 21449
+  },
+  "Wilderland Scrounger": {
+   "gih": 0.5225,
+   "games": 8813,
+   "ata": 6.57,
+   "picks": 7003
+  },
+  "Wizard's Staff": {
+   "gih": 0.3892,
+   "games": 465,
+   "ata": 8.18,
+   "picks": 2620
+  },
+  "Wood Elves": {
+   "gih": 0.5404,
+   "games": 17064,
+   "ata": 8.69,
+   "picks": 17672
+  },
+  "Woodland Weavemaster": {
+   "gih": 0.5373,
+   "games": 7392,
+   "ata": 7.78,
+   "picks": 8017
+  },
+  "Óin the Brave": {
+   "gih": 0.5567,
+   "games": 31738,
+   "ata": 8.43,
+   "picks": 25226
+  }
+ }
+}
