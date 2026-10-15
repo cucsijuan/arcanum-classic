@@ -1,0 +1,17 @@
+{
+  "name": "Rejoin the Fight",
+  "spell": {
+    "effects": [
+      {
+        "mill": 3
+      },
+      {
+        "opponentsChooseFromYourGraveyard": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ]
+  }
+}

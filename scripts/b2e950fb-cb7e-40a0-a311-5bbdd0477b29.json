@@ -1,0 +1,67 @@
+{
+  "name": "Sun Titan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return that card to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return that card to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may return target permanent card with mana value 3 or less from your graveyard to the battlefield."
+    }
+  ]
+}

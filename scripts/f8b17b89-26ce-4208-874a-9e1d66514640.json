@@ -1,5 +1,6 @@
 {
   "name": "Dig Through Time",
+  "delve": true,
   "spell": {
     "effects": [
       {

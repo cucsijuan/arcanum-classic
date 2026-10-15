@@ -1,0 +1,96 @@
+{
+  "name": "Fishing Gear",
+  "abilities": [
+    {
+      "trigger": "equippedCombatDamageToPlayer",
+      "effects": [
+        {
+          "exileTop": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "exiled": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "artifact"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "enchantment"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "planeswalker"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "battle"
+                    ]
+                  }
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "may": "Put the exiled card onto the battlefield under your control?",
+              "effects": [
+                {
+                  "reanimate": "exiled"
+                }
+              ],
+              "else": [
+                {
+                  "tokens": 1,
+                  "token": {
+                    "name": "Fish",
+                    "types": "Creature — Fish",
+                    "power": 1,
+                    "toughness": 1,
+                    "colors": [
+                      "U"
+                    ],
+                    "keywords": []
+                  }
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Fish",
+                "types": "Creature — Fish",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "U"
+                ],
+                "keywords": []
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, exile the top card of that player's library. If it's a permanent card, you may put it onto the battlefield under your control. If you don't, create a 1/1 blue Fish creature token."
+    }
+  ]
+}

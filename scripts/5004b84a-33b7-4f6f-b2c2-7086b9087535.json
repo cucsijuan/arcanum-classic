@@ -1,0 +1,39 @@
+{
+  "name": "Graven Cairns",
+  "abilities": [
+    {
+      "cost": "{B/R}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {B}{B}",
+              "effects": [
+                {
+                  "addMana": "{B}{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {B}{R}",
+              "effects": [
+                {
+                  "addMana": "{B}{R}"
+                }
+              ]
+            },
+            {
+              "text": "Add {R}{R}",
+              "effects": [
+                {
+                  "addMana": "{R}{R}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{B/R}, {T}: Add {B}{B}, {B}{R}, or {R}{R}."
+    }
+  ]
+}

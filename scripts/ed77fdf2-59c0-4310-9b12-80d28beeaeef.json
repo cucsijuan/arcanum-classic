@@ -1,0 +1,61 @@
+{
+  "name": "Chocobo Camp",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "creature"
+      ],
+      "supertype": "legendary"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{G}"
+        },
+        {
+          "nextCreatureSpell": {
+            "type": "Bird"
+          }
+        }
+      ],
+      "text": "{T}: Add {G}. When you next cast a Bird creature spell this turn, it enters with an additional +1/+1 counter on it."
+    },
+    {
+      "cost": "{2}{G}{G}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "landfall",
+                "effects": [
+                  {
+                    "pump": [
+                      1,
+                      0
+                    ],
+                    "what": "self"
+                  }
+                ],
+                "text": "Whenever a land you control enters, this token gets +1/+0 until end of turn."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "{2}{G}{G}, {T}: Create a 2/2 green Bird creature token with \"Whenever a land you control enters, this token gets +1/+0 until end of turn.\""
+    }
+  ]
+}

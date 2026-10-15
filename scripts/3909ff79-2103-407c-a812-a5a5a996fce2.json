@@ -1,0 +1,57 @@
+{
+  "name": "Fandaniel, Telophoroi Ascian",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, surveil 1."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "mayPay": "Sacrifice a nontoken creature? (If you don't, you lose 2 life for each instant and sorcery card in Fandaniel's controller's graveyard.)",
+              "cost": {
+                "sacrifice": {
+                  "types": [
+                    "creature"
+                  ],
+                  "token": false
+                }
+              },
+              "effects": [],
+              "else": [
+                {
+                  "loseLife": {
+                    "graveyard": {
+                      "types": [
+                        "instant",
+                        "sorcery"
+                      ]
+                    },
+                    "of": "sourceController",
+                    "times": 2
+                  }
+                }
+              ]
+            }
+          ],
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of your end step, each opponent may sacrifice a nontoken creature of their choice. Each opponent who doesn't loses 2 life for each instant and sorcery card in your graveyard."
+    }
+  ]
+}

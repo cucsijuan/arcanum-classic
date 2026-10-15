@@ -1,0 +1,22 @@
+{
+  "name": "Scholar of New Horizons",
+  "entersWithCounters": 1,
+  "abilities": [
+    {
+      "cost": "{T}, removeCounterFrom:permanent",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Plains"
+          },
+          "to": "hand",
+          "reveal": true,
+          "mayBattlefieldIf": {
+            "opponentHasMore": "lands"
+          }
+        }
+      ],
+      "text": "{T}, Remove a counter from a permanent you control: Search your library for a Plains card and reveal it. If an opponent controls more lands than you, you may put that card onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand. Then shuffle."
+    }
+  ]
+}

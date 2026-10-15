@@ -1,0 +1,38 @@
+{
+  "name": "Chaos Shrine's Black Crystal",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "exile": "triggered",
+          "linked": true
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, exile it."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "putExiledWithThis": {
+            "types": [
+              "creature"
+            ]
+          },
+          "counterKinds": [
+            "finality"
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may put a creature card exiled with Chaos Shrine's Black Crystal onto the battlefield under your control with a finality counter on it."
+    }
+  ]
+}

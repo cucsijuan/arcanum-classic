@@ -1,0 +1,21 @@
+{
+  "name": "Endless Detour",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellPermanentOrGraveyardCard",
+        "controller": "any",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      }
+    ]
+  }
+}

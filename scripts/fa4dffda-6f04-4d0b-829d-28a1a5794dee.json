@@ -1,0 +1,14 @@
+{
+  "name": "Millikin",
+  "abilities": [
+    {
+      "cost": "{T}, mill:1",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}, Mill a card: Add {C}."
+    }
+  ]
+}

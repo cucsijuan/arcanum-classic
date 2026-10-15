@@ -1,6 +1,7 @@
 {
   "name": "Cyan, Vengeful Samurai",
   "costReduction": {
+    "amount": 1,
     "perGraveyardCard": {
       "types": [
         "creature"

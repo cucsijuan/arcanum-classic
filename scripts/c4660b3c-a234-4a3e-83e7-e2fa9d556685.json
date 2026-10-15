@@ -1,0 +1,16 @@
+{
+  "name": "Lethal Scheme",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "connive": "convokers"
+      }
+    ]
+  }
+}

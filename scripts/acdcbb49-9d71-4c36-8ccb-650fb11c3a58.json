@@ -1,0 +1,45 @@
+{
+  "name": "Yuffie, Materia Hunter",
+  "ninjutsu": "{1}{R}",
+  "abilities": [
+    {
+      "cost": "{1}{R}, ninjutsu",
+      "effects": [
+        {
+          "ninjutsuEnter": true
+        }
+      ],
+      "text": "Ninjutsu {1}{R}"
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "any",
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileYouControl": true
+        },
+        {
+          "attach": {
+            "choose": {
+              "subtype": "Equipment",
+              "controller": "you"
+            }
+          },
+          "to": "self"
+        }
+      ],
+      "text": "When Yuffie enters, gain control of target noncreature artifact for as long as you control Yuffie. Then you may attach an Equipment you control to Yuffie."
+    }
+  ]
+}

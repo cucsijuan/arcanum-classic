@@ -1,0 +1,42 @@
+{
+  "name": "Estinien Varlineau",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, put a +1/+1 counter on Estinien Varlineau. It gains flying until end of turn."
+    },
+    {
+      "trigger": "postcombatMain",
+      "effects": [
+        {
+          "draw": "opponentsCombatDamagedBySelfOrDragon"
+        },
+        {
+          "loseLife": "opponentsCombatDamagedBySelfOrDragon"
+        }
+      ],
+      "text": "At the beginning of your second main phase, you draw X cards and lose X life, where X is the number of your opponents who were dealt combat damage by Estinien Varlineau or a Dragon this turn."
+    }
+  ]
+}

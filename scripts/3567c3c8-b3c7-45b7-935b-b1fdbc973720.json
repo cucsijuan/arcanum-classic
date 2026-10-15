@@ -1,0 +1,33 @@
+{
+  "name": "Vandalblast",
+  "spell": {
+    "targets": [
+      {
+        "kind": "artifact",
+        "controller": "opponent"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target artifact you don't control."
+  },
+  "overload": "{4}{R}",
+  "overloaded": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "artifact"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Destroy each artifact you don't control."
+  }
+}

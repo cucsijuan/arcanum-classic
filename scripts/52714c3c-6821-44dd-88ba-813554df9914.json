@@ -1,0 +1,14 @@
+{
+  "name": "Path of Discovery",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "explore": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control enters, it explores."
+    }
+  ]
+}

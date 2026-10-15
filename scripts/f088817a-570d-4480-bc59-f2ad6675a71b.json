@@ -1,0 +1,33 @@
+{
+  "name": "Tromell, Seymour's Butler",
+  "othersEnterWithCounters": 1,
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ],
+    "token": false
+  },
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "repeat": {
+            "enteredThisTurn": {
+              "types": [
+                "creature"
+              ],
+              "token": false
+            }
+          },
+          "effects": [
+            {
+              "proliferate": true
+            }
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Proliferate X times, where X is the number of nontoken creatures you control that entered this turn."
+    }
+  ]
+}

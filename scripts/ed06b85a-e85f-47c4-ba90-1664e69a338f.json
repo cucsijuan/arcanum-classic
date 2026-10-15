@@ -1,0 +1,30 @@
+{
+  "name": "Brilliant Wings",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Flying",
+          "Hexproof"
+        ]
+      },
+      "text": "Enchanted creature has flying and hexproof."
+    },
+    {
+      "trigger": "creatureEnters",
+      "effects": [
+        {
+          "mayPay": "Pay {1} to attach Brilliant Wings to that creature?",
+          "mana": "{1}",
+          "effects": [
+            {
+              "attach": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control enters, you may pay {1}. If you do, attach this Aura to that creature."
+    }
+  ]
+}

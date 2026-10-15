@@ -1,0 +1,27 @@
+{
+  "name": "Snort",
+  "spell": {
+    "effects": [
+      {
+        "eachPlayer": [
+          {
+            "may": "Discard your hand and draw five cards?",
+            "effects": [
+              {
+                "discardHand": "you"
+              },
+              {
+                "draw": 5
+              }
+            ]
+          }
+        ],
+        "who": "everyone"
+      },
+      {
+        "damage": 5,
+        "to": "opponentsWhoDiscardedHand"
+      }
+    ]
+  }
+}

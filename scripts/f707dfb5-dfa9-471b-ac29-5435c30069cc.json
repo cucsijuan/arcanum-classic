@@ -1,0 +1,28 @@
+{
+  "name": "Hero's Heirloom",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "filter": {
+          "supertype": "legendary"
+        },
+        "keywords": [
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "As long as equipped creature is legendary, it has trample and haste."
+    }
+  ]
+}

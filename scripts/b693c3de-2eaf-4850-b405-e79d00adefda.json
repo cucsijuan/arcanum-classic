@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Hierarchy",
+  "extraMana": [
+    {
+      "types": "{W}{B}",
+      "damage": 1
+    }
+  ]
+}

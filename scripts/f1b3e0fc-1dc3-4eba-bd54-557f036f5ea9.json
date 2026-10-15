@@ -1,0 +1,14 @@
+{
+  "name": "Grateful Apparition",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayerOrPlaneswalker",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player or planeswalker, proliferate."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Lulu, Stern Guardian",
+  "abilities": [
+    {
+      "trigger": "playerAttacks",
+      "when": {
+        "atLeast": "triggerAmount",
+        "value": 1
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "attackingYouDirectly": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "Whenever an opponent attacks you, choose target creature attacking you. Put a stun counter on that creature."
+    },
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "{3}{U}: Proliferate."
+    }
+  ]
+}

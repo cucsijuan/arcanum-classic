@@ -1,0 +1,44 @@
+{
+  "name": "Papalymo Totolymo",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Papalymo Totolymo deals 1 damage to each opponent and you gain 1 life."
+    },
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "greatestPower": true
+              }
+            }
+          ],
+          "who": "opponents",
+          "onlyIf": "youLostLifeThisTurn"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice Papalymo Totolymo: Each opponent who lost life this turn sacrifices a creature with the greatest power among creatures they control."
+    }
+  ]
+}

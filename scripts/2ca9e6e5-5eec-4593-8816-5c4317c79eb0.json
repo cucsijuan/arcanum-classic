@@ -1,0 +1,28 @@
+{
+  "name": "Summoning Materia",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "castFromLibraryTop": {
+    "types": [
+      "creature"
+    ]
+  },
+  "castFromLibraryTopIf": "attachedToCreature",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Vigilance"
+        ],
+        "grantsMana": "{G}"
+      },
+      "text": "Equipped creature gets +2/+2 and has vigilance and \"{T}: Add {G}.\""
+    }
+  ]
+}

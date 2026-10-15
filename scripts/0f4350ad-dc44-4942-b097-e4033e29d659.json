@@ -1,0 +1,59 @@
+{
+  "name": "Umaro, Raging Yeti",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "randomMode": true,
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Other creatures you control get +3/+0 and gain trample until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                3,
+                0
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you",
+                  "other": true
+                }
+              },
+              "keywords": [
+                "Trample"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Discard your hand, then draw four cards.",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": 4
+            }
+          ]
+        },
+        {
+          "text": "Umaro deals 5 damage to any target.",
+          "targets": [
+            "any"
+          ],
+          "effects": [
+            {
+              "damage": 5,
+              "to": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, choose one at random —"
+    }
+  ]
+}

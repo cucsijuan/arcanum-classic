@@ -1,0 +1,50 @@
+{
+  "name": "Rikku, Resourceful Guardian",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "placedByYou": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "triggered",
+          "cantBeBlockedBy": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      ],
+      "text": "Whenever you put one or more counters on a creature, until end of turn, that creature can't be blocked by creatures your opponents control."
+    },
+    {
+      "cost": "{1}, {T}",
+      "sorcery": true,
+      "targets": [
+        "creature:opponent",
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "moveCounters": {
+            "from": "target",
+            "to": "target2",
+            "count": 1
+          }
+        }
+      ],
+      "text": "Steal — {1}, {T}: Move a counter from target creature an opponent controls onto target creature you control. Activate only as a sorcery."
+    }
+  ]
+}

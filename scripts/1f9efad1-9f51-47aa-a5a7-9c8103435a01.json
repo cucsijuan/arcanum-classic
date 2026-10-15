@@ -1,0 +1,21 @@
+{
+  "name": "Hypnotic Sprite // Mesmeric Glare",
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "maxManaValue": 3
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "Counter target spell with mana value 3 or less."
+    }
+  }
+}

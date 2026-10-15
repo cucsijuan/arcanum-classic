@@ -1,0 +1,46 @@
+{
+  "name": "Heidegger, Shinra Executive",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "subtype": "Soldier"
+              }
+            },
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of Soldiers you control."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": {
+            "opponentsWithMore": "creatures"
+          },
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, create a number of 1/1 white Soldier creature tokens equal to the number of opponents who control more creatures than you."
+    }
+  ]
+}

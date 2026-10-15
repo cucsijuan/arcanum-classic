@@ -1,0 +1,39 @@
+{
+  "name": "Sunken Ruins",
+  "abilities": [
+    {
+      "cost": "{U/B}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {U}{U}",
+              "effects": [
+                {
+                  "addMana": "{U}{U}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}{B}",
+              "effects": [
+                {
+                  "addMana": "{U}{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {B}{B}",
+              "effects": [
+                {
+                  "addMana": "{B}{B}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}."
+    }
+  ]
+}

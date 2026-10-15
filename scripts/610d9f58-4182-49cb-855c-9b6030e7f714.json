@@ -1,0 +1,39 @@
+{
+  "name": "Fated Clash",
+  "flashIf": {
+    "all": [
+      {
+        "attackers": 1
+      },
+      "creatureBlocking"
+    ]
+  },
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "eachTarget",
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Sepulchral Primordial",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "opponent",
+          "perPlayer": true,
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "eachTarget"
+        }
+      ],
+      "text": "When this creature enters, for each opponent, you may put up to one target creature card from that player's graveyard onto the battlefield under your control."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Hero's Blade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +3/+2."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "may": "Attach Hero's Blade to that creature?",
+          "effects": [
+            {
+              "attach": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a legendary creature you control enters, you may attach this Equipment to it."
+    }
+  ]
+}

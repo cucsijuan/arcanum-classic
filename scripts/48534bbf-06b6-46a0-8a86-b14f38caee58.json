@@ -1,0 +1,28 @@
+{
+  "name": "Sin, Unending Cataclysm",
+  "entersRemovingCountersFrom": {
+    "types": [
+      "artifact",
+      "creature",
+      "enchantment"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        },
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "When Sin dies, put its counters on target creature you control, then shuffle this card into its owner's library."
+    }
+  ]
+}

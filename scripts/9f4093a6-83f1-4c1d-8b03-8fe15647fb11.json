@@ -1,0 +1,63 @@
+{
+  "name": "The Falcon, Airship Restored",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Sacrifice The Falcon to return a creature card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "whenYouDo": {
+                "if": "youSacrificed",
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ]
+                    }
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target"
+                  }
+                ],
+                "text": "Return target creature card from your graveyard to the battlefield."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever The Falcon deals combat damage to a player, you may sacrifice it. When you do, return target creature card from your graveyard to the battlefield."
+    },
+    {
+      "cost": "{4}{B}, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{4}{B}: Return this card from your graveyard to the battlefield tapped."
+    },
+    {
+      "cost": "crew:2",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 2"
+    }
+  ]
+}

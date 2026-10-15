@@ -1,0 +1,41 @@
+{
+  "name": "Tifa, Martial Artist",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "minPower": 7
+      },
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "if": {
+            "all": [
+              "firstCombatPhase",
+              "yourTurn"
+            ]
+          },
+          "then": [
+            {
+              "additionalCombat": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more creatures you control with power 7 or greater deal combat damage to a player, untap all creatures you control. If it's the first combat phase of your turn, there is an additional combat phase after this phase."
+    }
+  ]
+}

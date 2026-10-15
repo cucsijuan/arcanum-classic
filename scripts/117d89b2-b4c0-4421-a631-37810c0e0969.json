@@ -1,0 +1,42 @@
+{
+  "name": "Fight Rigging",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "hideaway": 5
+        }
+      ],
+      "text": "Hideaway 5 (When this enchantment enters, look at the top five cards of your library, exile one face down, then put the rest on the bottom in a random order.)"
+    },
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "minPower": 7
+            }
+          },
+          "then": [
+            {
+              "playHiddenFree": true
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on target creature you control. Then if you control a creature with power 7 or greater, you may play the exiled card without paying its mana cost."
+    }
+  ]
+}

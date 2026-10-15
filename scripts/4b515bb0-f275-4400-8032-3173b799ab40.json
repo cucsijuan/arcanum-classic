@@ -1,0 +1,29 @@
+{
+  "name": "Walking Ballista",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{4}: Put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "removeCounters:1",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Remove a +1/+1 counter from this creature: It deals 1 damage to any target."
+    }
+  ]
+}

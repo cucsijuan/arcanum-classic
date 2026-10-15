@@ -1,0 +1,42 @@
+{
+  "name": "Maester Seymour",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": {
+            "power": "self"
+          },
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a number of +1/+1 counters equal to Maester Seymour's power on another target creature you control."
+    },
+    {
+      "cost": "{3}{G}{G}",
+      "effects": [
+        {
+          "monstrosity": {
+            "countersAmong": {
+              "types": [
+                "creature"
+              ]
+            },
+            "kind": "any"
+          }
+        }
+      ],
+      "text": "{3}{G}{G}: Monstrosity X, where X is the number of counters among creatures you control."
+    }
+  ]
+}

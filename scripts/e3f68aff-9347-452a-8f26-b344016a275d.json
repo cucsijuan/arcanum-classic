@@ -1,0 +1,32 @@
+{
+  "name": "Warrior's Resolve",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Training"
+        ]
+      },
+      "text": "Creatures you control have training."
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "hasCounterKind": "+1/+1",
+          "attackedThisTurn": true
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if you control a creature with a +1/+1 counter on it that attacked this turn, draw a card."
+    }
+  ]
+}

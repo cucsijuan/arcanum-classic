@@ -1,0 +1,32 @@
+{
+  "name": "The Warring Triad",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "removeTypes": [
+          "creature"
+        ],
+        "while": {
+          "not": {
+            "graveyard": 8
+          }
+        }
+      },
+      "text": "As long as there are fewer than eight cards in your graveyard, The Warring Triad isn't a creature."
+    },
+    {
+      "cost": "{T}, mill:1",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "addManaAnyColor": 1,
+          "who": "target"
+        }
+      ],
+      "text": "{T}, Mill a card: Target player adds one mana of any color."
+    }
+  ]
+}

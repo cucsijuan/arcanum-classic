@@ -1,0 +1,62 @@
+{
+  "name": "Summon: Magus Sisters",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "randomMode": true,
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Combine Powers! — Put three +1/+1 counters on target creature.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "counters": 3,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Defense! — Put a shield counter on target creature. You gain 3 life.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "shield",
+              "what": "target"
+            },
+            {
+              "gainLife": 3
+            }
+          ]
+        },
+        {
+          "text": "Fight! — This creature fights up to one target creature an opponent controls.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "opponent",
+              "optional": true
+            }
+          ],
+          "effects": [
+            {
+              "fight": "self",
+              "with": "target"
+            }
+          ]
+        }
+      ],
+      "text": "I, II, III — Choose one at random —"
+    }
+  ]
+}

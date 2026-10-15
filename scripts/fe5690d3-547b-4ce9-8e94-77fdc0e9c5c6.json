@@ -1,0 +1,28 @@
+{
+  "name": "Kefka, Dancing Mad",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Indestructible"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, Kefka has indestructible."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "exileRandomFromOpponentsGraveyards": true
+        },
+        {
+          "castExiledFreeAnyNumber": true,
+          "ownersLoseLife": true
+        }
+      ],
+      "text": "At the beginning of your end step, exile a card at random from each opponent's graveyard. You may cast any number of spells from among cards exiled this way without paying their mana costs. Then each player who owns a spell you cast this way loses life equal to its mana value."
+    }
+  ]
+}

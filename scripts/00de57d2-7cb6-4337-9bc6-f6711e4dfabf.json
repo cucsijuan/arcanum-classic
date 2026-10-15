@@ -1,0 +1,14 @@
+{
+  "name": "Game Trail",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "anyOf": [
+      {
+        "subtype": "Mountain"
+      },
+      {
+        "subtype": "Forest"
+      }
+    ]
+  }
+}

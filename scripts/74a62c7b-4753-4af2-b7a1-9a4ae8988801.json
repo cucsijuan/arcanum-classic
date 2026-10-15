@@ -1,0 +1,56 @@
+{
+  "name": "Puresteel Paladin",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "subtype": "Equipment",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an Equipment you control enters, you may draw a card."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "subtype": "Equipment"
+        },
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "count": 3
+        },
+        "grants": [
+          {
+            "cost": "{0}",
+            "equip": true,
+            "sorcery": true,
+            "targets": [
+              "creature:you"
+            ],
+            "effects": [
+              {
+                "attach": "target"
+              }
+            ],
+            "text": "Equip {0}"
+          }
+        ]
+      },
+      "text": "Metalcraft — Equipment you control have equip {0} as long as you control three or more artifacts."
+    }
+  ]
+}

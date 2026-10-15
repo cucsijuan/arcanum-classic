@@ -1,0 +1,32 @@
+{
+  "name": "Snuff Out",
+  "alternativeCost": {
+    "cost": "{0}",
+    "extra": {
+      "life": 4
+    },
+    "if": {
+      "control": {
+        "subtype": "Swamp"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "notColors": [
+            "B"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      }
+    ]
+  }
+}

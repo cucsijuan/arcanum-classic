@@ -1,0 +1,44 @@
+{
+  "name": "Unfinished Business",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Aura"
+            },
+            {
+              "subtype": "Equipment"
+            }
+          ]
+        },
+        "upTo": 2
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "reanimate": "target2",
+        "attachTo": "enteredThisWay"
+      },
+      {
+        "reanimate": "target3",
+        "attachTo": "enteredThisWay"
+      }
+    ]
+  }
+}

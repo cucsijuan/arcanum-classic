@@ -1,0 +1,23 @@
+{
+  "name": "Furious Rise",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "minPower": 4
+        }
+      },
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilAnotherExiled": true
+        }
+      ],
+      "text": "At the beginning of your end step, if you control a creature with power 4 or greater, exile the top card of your library. You may play that card until you exile another card with this enchantment."
+    }
+  ]
+}

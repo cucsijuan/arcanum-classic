@@ -1,0 +1,43 @@
+{
+  "name": "Generous Patron",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "any",
+          "filter": {
+            "other": true
+          },
+          "upTo": 2
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "eachTarget"
+        }
+      ],
+      "text": "When this creature enters, support 2. (Put a +1/+1 counter on each of up to two other target creatures.)"
+    },
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "placedByYou": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "batched": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you put one or more counters on a creature you don't control, draw a card."
+    }
+  ]
+}

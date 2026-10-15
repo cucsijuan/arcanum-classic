@@ -1,0 +1,31 @@
+{
+  "name": "Stitch Together",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "if": "threshold",
+        "then": [
+          {
+            "reanimate": "target"
+          }
+        ],
+        "else": [
+          {
+            "bounce": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

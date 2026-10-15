@@ -1,0 +1,59 @@
+{
+  "name": "Summoner's Sending",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exile that card?",
+          "effects": [
+            {
+              "exile": "target"
+            },
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            },
+            {
+              "if": {
+                "atLeast": {
+                  "manaValue": "exiled"
+                },
+                "value": 4
+              },
+              "then": [
+                {
+                  "counters": 1,
+                  "what": "created"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may exile target creature card from a graveyard. If you do, create a 1/1 white Spirit creature token with flying. Put a +1/+1 counter on it if the exiled card's mana value is 4 or greater."
+    }
+  ]
+}

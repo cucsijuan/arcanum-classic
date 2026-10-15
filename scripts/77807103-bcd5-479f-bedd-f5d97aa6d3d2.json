@@ -1,0 +1,54 @@
+{
+  "name": "Forge of Heroes",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "filter": {
+            "commander": true,
+            "enteredThisTurn": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "kind": "loyalty",
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Choose target commander that entered this turn. Put a +1/+1 counter on it if it's a creature and a loyalty counter on it if it's a planeswalker."
+    }
+  ]
+}

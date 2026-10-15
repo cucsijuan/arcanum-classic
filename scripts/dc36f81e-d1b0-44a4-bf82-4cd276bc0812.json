@@ -1,0 +1,53 @@
+{
+  "name": "Thancred Waters",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "supertype": "legendary",
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ],
+          "whileYouControl": true
+        }
+      ],
+      "text": "Royal Guard — When Thancred Waters enters, another target legendary permanent you control gains indestructible for as long as you control Thancred Waters."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Thancred Waters gains indestructible until end of turn."
+    }
+  ]
+}

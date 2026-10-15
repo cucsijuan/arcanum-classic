@@ -1,0 +1,62 @@
+{
+  "name": "Farewell",
+  "spell": {
+    "chooseCount": 4,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Exile all artifacts.",
+        "effects": [
+          {
+            "exile": {
+              "each": {
+                "types": [
+                  "artifact"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Exile all creatures.",
+        "effects": [
+          {
+            "exile": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Exile all enchantments.",
+        "effects": [
+          {
+            "exile": {
+              "each": {
+                "types": [
+                  "enchantment"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Exile all graveyards.",
+        "effects": [
+          {
+            "exileGraveyard": "everyone"
+          }
+        ]
+      }
+    ]
+  }
+}

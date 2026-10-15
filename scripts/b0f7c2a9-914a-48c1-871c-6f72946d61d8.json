@@ -1,0 +1,33 @@
+{
+  "name": "Reaper's Scythe",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": "playersWhoLostLifeThisTurn",
+          "kind": "soul",
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, put a soul counter on this Equipment for each player who lost life this turn."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "counters": "soul"
+          },
+          {
+            "counters": "soul"
+          }
+        ],
+        "addSubtypes": [
+          "Assassin"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each soul counter on this Equipment and is an Assassin in addition to its other types."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Into the Story",
+  "costReduction": {
+    "amount": 3,
+    "if": {
+      "opponentGraveyard": 7
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 4
+      }
+    ]
+  }
+}

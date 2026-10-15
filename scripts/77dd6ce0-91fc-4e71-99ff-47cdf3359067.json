@@ -1,0 +1,131 @@
+{
+  "name": "Yuna's Decision",
+  "spell": {
+    "modes": [
+      {
+        "text": "Continue the Pilgrimage — Sacrifice a creature. If you do, draw a card, then you may put a creature card and/or a land card from your hand onto the battlefield.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "if": "youSacrificed",
+            "then": [
+              {
+                "draw": 1
+              },
+              {
+                "putFromHand": {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                "one": true
+              },
+              {
+                "putFromHand": {
+                  "types": [
+                    "land"
+                  ]
+                },
+                "one": true
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Find Another Way — Return one or two target permanent cards from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                },
+                {
+                  "types": [
+                    "planeswalker"
+                  ]
+                },
+                {
+                  "types": [
+                    "battle"
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                },
+                {
+                  "types": [
+                    "planeswalker"
+                  ]
+                },
+                {
+                  "types": [
+                    "battle"
+                  ]
+                }
+              ]
+            },
+            "upTo": 1
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "eachTarget"
+          }
+        ]
+      }
+    ]
+  }
+}

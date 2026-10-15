@@ -1,6 +1,13 @@
 {
   "name": "Collective Effort",
-  "escalateCost": "tapCreatures:1",
+  "escalateExtra": {
+    "tap": {
+      "types": [
+        "creature"
+      ]
+    },
+    "tapCount": 1
+  },
   "spell": {
     "chooseCount": 3,
     "upTo": true,

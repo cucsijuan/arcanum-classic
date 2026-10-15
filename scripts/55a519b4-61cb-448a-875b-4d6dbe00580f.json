@@ -1,0 +1,16 @@
+{
+  "name": "Spire of Industry",
+  "extraMana": [
+    {
+      "types": "any",
+      "lifeCost": 1,
+      "while": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        }
+      }
+    }
+  ]
+}

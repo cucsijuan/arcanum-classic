@@ -1,0 +1,30 @@
+{
+  "name": "Ultimate Magic: Holy",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      {
+        "if": "castFromExile",
+        "then": [
+          {
+            "preventDamage": true,
+            "toYou": true
+          }
+        ]
+      }
+    ]
+  }
+}

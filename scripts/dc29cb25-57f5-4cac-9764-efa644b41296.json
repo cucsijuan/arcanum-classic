@@ -1,0 +1,21 @@
+{
+  "name": "Legions to Ashes",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "effects": [
+      {
+        "exileWithSameNameTokens": "target"
+      }
+    ]
+  }
+}

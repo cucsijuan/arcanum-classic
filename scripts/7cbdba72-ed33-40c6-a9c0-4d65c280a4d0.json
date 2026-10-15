@@ -1,0 +1,23 @@
+{
+  "name": "Lifestream's Blessing",
+  "spell": {
+    "effects": [
+      {
+        "draw": "greatestPowerAsCast"
+      },
+      {
+        "if": "castFromExile",
+        "then": [
+          {
+            "gainLife": {
+              "sum": [
+                "greatestPowerAsCast",
+                "greatestPowerAsCast"
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

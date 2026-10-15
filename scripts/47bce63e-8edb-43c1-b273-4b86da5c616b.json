@@ -1,0 +1,35 @@
+{
+  "name": "Lyse Hext",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "not": [
+            "creature"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Noncreature spells you cast cost {1} less to cast."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Double strike"
+        ],
+        "while": {
+          "atLeast": {
+            "spellsCast": {
+              "not": [
+                "creature"
+              ]
+            }
+          },
+          "value": 2
+        }
+      },
+      "text": "As long as you've cast two or more noncreature spells this turn, Lyse Hext has double strike."
+    }
+  ]
+}

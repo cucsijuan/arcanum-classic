@@ -1,0 +1,44 @@
+{
+  "name": "Red XIII, Proud Warrior",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "modified": true
+        },
+        "keywords": [
+          "Vigilance",
+          "Trample"
+        ]
+      },
+      "text": "Other modified creatures you control have vigilance and trample."
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Aura"
+              },
+              {
+                "subtype": "Equipment"
+              }
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Cosmo Memory — When Red XIII enters, return target Aura or Equipment card from your graveyard to your hand."
+    }
+  ]
+}

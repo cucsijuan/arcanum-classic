@@ -1,0 +1,25 @@
+{
+  "name": "Professional Face-Breaker",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever one or more creatures you control deal combat damage to a player, create a Treasure token."
+    },
+    {
+      "cost": "sacrificeAny:Treasure",
+      "effects": [
+        {
+          "exileTopPlayable": 1
+        }
+      ],
+      "text": "Sacrifice a Treasure: Exile the top card of your library. You may play that card this turn."
+    }
+  ]
+}

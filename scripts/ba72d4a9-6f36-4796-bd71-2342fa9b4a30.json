@@ -1,0 +1,42 @@
+{
+  "name": "Yuna, Grand Summoner",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        },
+        {
+          "nextCreatureSpell": {
+            "counters": 2
+          }
+        }
+      ],
+      "text": "Grand Summon — {T}: Add one mana of any color. When you next cast a creature spell this turn, that creature enters with two additional +1/+1 counters on it."
+    },
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "controller": "you",
+        "other": true
+      },
+      "if": "triggeredHadCounters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Put that many +1/+1 counters on the target creature?",
+          "effects": [
+            {
+              "counters": "triggeredCounterCount",
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another permanent you control is put into a graveyard from the battlefield, if it had one or more counters on it, you may put that number of +1/+1 counters on target creature."
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Mog, Moogle Warrior",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "mayPay": "Discard a card to draw a card?",
+              "cost": {
+                "discard": 1
+              },
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ]
+            }
+          ],
+          "who": "everyone"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "discarded": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Moogle",
+                "types": "Creature — Moogle",
+                "power": 1,
+                "toughness": 2,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Lifelink"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "if": {
+            "atLeast": {
+              "discarded": {
+                "not": [
+                  "creature"
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "subtype": "Moogle",
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Dance — At the beginning of your end step, each player may discard a card. Each player who discarded a card this way draws a card. If a creature card was discarded this way, you create a 1/2 white Moogle creature token with lifelink. Then if a noncreature card was discarded this way, put a +1/+1 counter on each Moogle you control."
+    }
+  ]
+}

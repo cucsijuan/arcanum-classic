@@ -1,0 +1,48 @@
+{
+  "name": "Hraesvelgr of the First Brood",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Shiva's Aid — When Hraesvelgr enters, target creature gets +1/+0 until end of turn and can't be blocked this turn."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Shiva's Aid — Whenever you cast a noncreature spell, target creature gets +1/+0 until end of turn and can't be blocked this turn."
+    }
+  ]
+}

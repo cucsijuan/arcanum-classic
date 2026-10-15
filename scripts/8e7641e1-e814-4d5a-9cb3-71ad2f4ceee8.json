@@ -1,0 +1,39 @@
+{
+  "name": "Rugged Prairie",
+  "abilities": [
+    {
+      "cost": "{R/W}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {R}{R}",
+              "effects": [
+                {
+                  "addMana": "{R}{R}"
+                }
+              ]
+            },
+            {
+              "text": "Add {R}{W}",
+              "effects": [
+                {
+                  "addMana": "{R}{W}"
+                }
+              ]
+            },
+            {
+              "text": "Add {W}{W}",
+              "effects": [
+                {
+                  "addMana": "{W}{W}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{R/W}, {T}: Add {R}{R}, {R}{W}, or {W}{W}."
+    }
+  ]
+}

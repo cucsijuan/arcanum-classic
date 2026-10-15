@@ -1,0 +1,17 @@
+{
+  "name": "Final Judgment",
+  "spell": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ]
+  }
+}

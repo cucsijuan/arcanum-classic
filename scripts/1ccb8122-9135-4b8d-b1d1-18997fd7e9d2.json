@@ -1,0 +1,44 @@
+{
+  "name": "Summon: Ixion",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "I — Aerospark — Exile target creature an opponent controls until this Saga leaves the battlefield."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "upTo": 2
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "eachTarget"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "II, III — Put a +1/+1 counter on each of up to two target creatures you control. You gain 2 life."
+    }
+  ]
+}

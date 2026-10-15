@@ -1,0 +1,39 @@
+{
+  "name": "Mega Flare",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "perPlayer": true,
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Dragon",
+              "types": "Creature — Dragon",
+              "power": 6,
+              "toughness": 6,
+              "colors": [
+                "R"
+              ],
+              "keywords": [
+                "Flying"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "damage": "greatestPower",
+        "to": "eachTarget"
+      }
+    ]
+  }
+}

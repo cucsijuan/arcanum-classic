@@ -1,0 +1,28 @@
+{
+  "name": "Tireless Tracker",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, investigate."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "subtype": "Clue"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice a Clue, put a +1/+1 counter on this creature."
+    }
+  ]
+}

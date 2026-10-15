@@ -1,0 +1,53 @@
+{
+  "name": "Tidus, Yuna's Guardian",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you",
+        "creature:you"
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "may": "Move a counter from the first creature onto the second?",
+          "effects": [
+            {
+              "moveCounters": {
+                "from": "target",
+                "to": "target2",
+                "count": 1
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may move a counter from target creature you control onto a second target creature you control."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "hasCounters": true
+      },
+      "effects": [
+        {
+          "may": "Draw a card and proliferate?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "proliferate": true
+            }
+          ]
+        }
+      ],
+      "text": "Cheer — Whenever one or more creatures you control with counters on them deal combat damage to a player, you may draw a card and proliferate. Do this only once each turn."
+    }
+  ]
+}

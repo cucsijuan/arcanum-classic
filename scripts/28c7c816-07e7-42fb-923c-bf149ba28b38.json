@@ -1,0 +1,27 @@
+{
+  "name": "Luminous Broodmoth",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "without": [
+          "Flying"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "reanimate": "triggered",
+          "ownerControl": true,
+          "counterKinds": [
+            "flying"
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control without flying dies, return it to the battlefield under its owner's control with a flying counter on it."
+    }
+  ]
+}

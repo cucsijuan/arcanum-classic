@@ -1,0 +1,23 @@
+{
+  "name": "Explorer's Scope",
+  "abilities": [
+    {
+      "trigger": "equippedAttacks",
+      "effects": [
+        {
+          "lookAtTop": 1,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "take": 1,
+          "to": "battlefield",
+          "tapped": true,
+          "rest": "top"
+        }
+      ],
+      "text": "Whenever equipped creature attacks, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped."
+    }
+  ]
+}

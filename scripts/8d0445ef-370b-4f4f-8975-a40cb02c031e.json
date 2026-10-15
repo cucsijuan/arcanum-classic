@@ -1,0 +1,26 @@
+{
+  "name": "Ruin Grinder",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "may": "Discard your hand and draw seven cards?",
+              "effects": [
+                {
+                  "discardHand": "you"
+                },
+                {
+                  "draw": 7
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, each player may discard their hand and draw seven cards."
+    }
+  ]
+}

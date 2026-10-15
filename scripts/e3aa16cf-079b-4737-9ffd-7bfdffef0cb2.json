@@ -1,0 +1,7 @@
+{
+  "name": "Gyre Sage",
+  "tapForMana": "{G}",
+  "manaAmountFrom": {
+    "counters": "+1/+1"
+  }
+}

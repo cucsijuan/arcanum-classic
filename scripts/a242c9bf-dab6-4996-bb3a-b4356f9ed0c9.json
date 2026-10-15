@@ -1,0 +1,42 @@
+{
+  "name": "Key to the City",
+  "abilities": [
+    {
+      "cost": "{T}, discard",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{T}, Discard a card: Up to one target creature can't be blocked this turn."
+    },
+    {
+      "trigger": "becomesUntapped",
+      "effects": [
+        {
+          "mayPay": "Pay {2} to draw a card?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this artifact becomes untapped, you may pay {2}. If you do, draw a card."
+    }
+  ]
+}

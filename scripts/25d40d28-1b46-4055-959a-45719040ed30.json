@@ -1,0 +1,59 @@
+{
+  "name": "Terra, Herald of Hope",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mill": 2
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Trance — At the beginning of combat on your turn, mill two cards. Terra gains flying until end of turn."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "mayPay": "Pay {2}?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ],
+                      "maxPower": 3
+                    }
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target",
+                    "tapped": true
+                  }
+                ],
+                "text": "Return target creature card with power 3 or less from your graveyard to the battlefield tapped."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Terra deals combat damage to a player, you may pay {2}. When you do, return target creature card with power 3 or less from your graveyard to the battlefield tapped."
+    }
+  ]
+}

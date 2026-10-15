@@ -1,0 +1,39 @@
+{
+  "name": "Fire-Lit Thicket",
+  "abilities": [
+    {
+      "cost": "{R/G}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {R}{R}",
+              "effects": [
+                {
+                  "addMana": "{R}{R}"
+                }
+              ]
+            },
+            {
+              "text": "Add {R}{G}",
+              "effects": [
+                {
+                  "addMana": "{R}{G}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}{G}",
+              "effects": [
+                {
+                  "addMana": "{G}{G}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{R/G}, {T}: Add {R}{R}, {R}{G}, or {G}{G}."
+    }
+  ]
+}

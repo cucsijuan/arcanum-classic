@@ -1,0 +1,62 @@
+{
+  "name": "The Destined Thief",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "The Destined Thief can't be blocked."
+    },
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{U}, {T}: Another target creature you control can't be blocked this turn."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "effects": [
+        {
+          "if": "fullParty",
+          "then": [
+            {
+              "draw": 3
+            }
+          ],
+          "else": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more creatures you control deal combat damage to one or more players, draw a card, then discard a card. If you have a full party, instead draw three cards."
+    }
+  ]
+}

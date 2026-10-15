@@ -15,7 +15,9 @@
         {
           "mayPay": "Pay {1} and discard a card to draw a card?",
           "mana": "{1}",
-          "cost": "discard",
+          "cost": {
+            "discard": 1
+          },
           "effects": [
             {
               "draw": 1

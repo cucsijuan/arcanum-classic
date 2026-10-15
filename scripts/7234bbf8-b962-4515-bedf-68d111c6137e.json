@@ -1,0 +1,8 @@
+{
+  "name": "Sabin, Master Monk",
+  "blitz": "{2}{R}{R}",
+  "blitzExtra": {
+    "discard": 1
+  },
+  "blitzFromGraveyard": true
+}

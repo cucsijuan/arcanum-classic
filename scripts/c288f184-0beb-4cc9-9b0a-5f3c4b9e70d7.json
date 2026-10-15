@@ -1,0 +1,33 @@
+{
+  "name": "Eye of Nidhogg",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setColors": [
+          "B"
+        ],
+        "setSubtypes": [
+          "Dragon"
+        ],
+        "setPower": 4,
+        "setToughness": 2,
+        "keywords": [
+          "Flying",
+          "Deathtouch"
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature is a black Dragon with base power and toughness 4/2, has flying and deathtouch, and is goaded."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When Eye of Nidhogg is put into a graveyard from the battlefield, return it to its owner's hand."
+    }
+  ]
+}

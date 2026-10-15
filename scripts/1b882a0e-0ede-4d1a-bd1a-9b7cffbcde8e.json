@@ -1,0 +1,13 @@
+{
+  "name": "Three Visits",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "subtype": "Forest"
+        },
+        "to": "battlefield"
+      }
+    ]
+  }
+}

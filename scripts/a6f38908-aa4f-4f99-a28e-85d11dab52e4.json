@@ -1,0 +1,17 @@
+{
+  "name": "Ruinous Ultimatum",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "not": [
+              "land"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ]
+  }
+}

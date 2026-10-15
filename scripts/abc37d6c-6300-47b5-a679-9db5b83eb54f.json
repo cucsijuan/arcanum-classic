@@ -1,0 +1,16 @@
+{
+  "name": "Syphon Mind",
+  "spell": {
+    "effects": [
+      {
+        "discard": 1,
+        "who": "opponents"
+      },
+      {
+        "draw": {
+          "discarded": {}
+        }
+      }
+    ]
+  }
+}

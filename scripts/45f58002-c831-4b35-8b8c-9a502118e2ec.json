@@ -1,0 +1,76 @@
+{
+  "name": "Campsite Cuisine",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever this enchantment enters, create a Food token."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever a legendary creature you control enters, create a Food token."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "sacrificeAnyNumber": {
+            "subtype": "Food"
+          }
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": "sacrificedThisWay",
+              "value": 1
+            },
+            "amount": "sacrificedThisWay",
+            "targets": [
+              {
+                "kind": "creature",
+                "controller": "you",
+                "filter": {
+                  "attacking": true
+                },
+                "upTo": "triggerAmount"
+              }
+            ],
+            "effects": [
+              {
+                "pump": [
+                  3,
+                  3
+                ],
+                "what": "eachTarget",
+                "keywords": [
+                  "Trample",
+                  "Indestructible"
+                ]
+              }
+            ],
+            "text": "Up to X target attacking creatures each get +3/+3 and gain trample and indestructible until end of turn."
+          }
+        }
+      ],
+      "text": "Whenever you attack, you may sacrifice X Foods. When you do, up to X target attacking creatures each get +3/+3 and gain trample and indestructible until end of turn."
+    }
+  ]
+}

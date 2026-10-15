@@ -1,0 +1,36 @@
+{
+  "name": "Shelinda, Yevon Acolyte",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true
+      },
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "lesserPower": true
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "triggered"
+            }
+          ],
+          "else": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control enters, put a +1/+1 counter on that creature if its power is less than Shelinda's power. Otherwise, put a +1/+1 counter on Shelinda."
+    }
+  ]
+}

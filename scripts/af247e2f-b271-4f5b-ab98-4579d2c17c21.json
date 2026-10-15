@@ -15,7 +15,9 @@
         }
       ],
       "text": "At the beginning of each opponent's end step, that player chooses up to two creatures they control, then sacrifices the rest.",
-      "when": "opponentsTurn"
+      "when": {
+        "not": "yourTurn"
+      }
     }
   ]
 }

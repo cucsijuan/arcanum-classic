@@ -1,0 +1,43 @@
+{
+  "name": "Ultimate Magic: Meteor",
+  "spell": {
+    "effects": [
+      {
+        "damage": 7,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "if": "castFromExile",
+        "then": [
+          {
+            "choose": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                }
+              ]
+            },
+            "perOpponent": true
+          },
+          {
+            "destroy": "chosen"
+          }
+        ]
+      }
+    ]
+  }
+}

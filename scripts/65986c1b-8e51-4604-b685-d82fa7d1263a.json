@@ -1,0 +1,31 @@
+{
+  "name": "Skullclamp",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          -1
+        ]
+      },
+      "text": "Equipped creature gets +1/-1."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "Whenever equipped creature dies, draw two cards."
+    }
+  ]
+}

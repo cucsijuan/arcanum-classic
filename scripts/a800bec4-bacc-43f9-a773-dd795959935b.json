@@ -1,0 +1,42 @@
+{
+  "name": "Locke, Treasure Hunter",
+  "cantBeBlockedBy": {
+    "greaterPower": true
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 1,
+          "who": "everyone"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "milled": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        },
+        {
+          "castFromGraveyardThisTurn": {
+            "milled": {}
+          },
+          "oneOnly": true
+        }
+      ],
+      "text": "Mug — Whenever Locke attacks, each player mills a card. If a land card was milled this way, create a Treasure token. Until end of turn, you may cast a spell from among those cards."
+    }
+  ]
+}

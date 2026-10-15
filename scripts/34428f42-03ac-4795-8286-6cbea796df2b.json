@@ -1,0 +1,31 @@
+{
+  "name": "Incubation Druid",
+  "extraMana": [
+    {
+      "yourLands": true,
+      "while": {
+        "not": {
+          "counters": 1
+        }
+      }
+    },
+    {
+      "yourLands": true,
+      "amount": 3,
+      "while": {
+        "counters": 1
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{3}{G}{G}",
+      "effects": [
+        {
+          "adapt": 3
+        }
+      ],
+      "text": "{3}{G}{G}: Adapt 3."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Squall, Gunblade Duelist",
+  "chooseOnEnter": "number",
+  "abilities": [
+    {
+      "trigger": "creaturesAttackOpponent",
+      "if": "attackersMatchChosenNumber",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever one or more creatures attack one of your opponents, if any of those creatures have power or toughness equal to the chosen number, Squall deals damage equal to its power to defending player."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Lord Jyscal Guado",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "youPutCounterOnCreatureThisTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "At the beginning of each end step, if you put a counter on a creature this turn, investigate."
+    }
+  ]
+}

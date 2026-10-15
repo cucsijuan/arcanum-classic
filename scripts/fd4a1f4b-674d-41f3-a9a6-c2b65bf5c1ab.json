@@ -1,0 +1,81 @@
+{
+  "name": "Vivi's Persistence",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Wizard",
+          "types": "Creature — Wizard",
+          "power": 0,
+          "toughness": 1,
+          "colors": [
+            "B"
+          ],
+          "keywords": [],
+          "abilities": [
+            {
+              "trigger": "castSpell",
+              "filter": {
+                "not": [
+                  "creature"
+                ]
+              },
+              "effects": [
+                {
+                  "damage": 1,
+                  "to": "opponents"
+                }
+              ],
+              "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "fromGraveyard": true,
+      "filter": {
+        "commander": true,
+        "ownedByYou": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {2} to return Vivi's Persistence to your hand?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever your commander enters, you may pay {2}. If you do, return this card from your graveyard to your hand."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "fromGraveyard": true,
+      "filter": {
+        "commander": true,
+        "ownedByYou": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {2} to return Vivi's Persistence to your hand?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever your commander attacks, you may pay {2}. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

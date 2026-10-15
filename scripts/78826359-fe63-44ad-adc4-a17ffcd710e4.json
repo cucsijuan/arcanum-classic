@@ -1,0 +1,13 @@
+{
+  "name": "Nature's Lore",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "subtype": "Forest"
+        },
+        "to": "battlefield"
+      }
+    ]
+  }
+}

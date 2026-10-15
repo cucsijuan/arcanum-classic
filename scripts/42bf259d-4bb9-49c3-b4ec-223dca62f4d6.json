@@ -1,0 +1,39 @@
+{
+  "name": "Fetid Heath",
+  "abilities": [
+    {
+      "cost": "{W/B}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {W}{W}",
+              "effects": [
+                {
+                  "addMana": "{W}{W}"
+                }
+              ]
+            },
+            {
+              "text": "Add {W}{B}",
+              "effects": [
+                {
+                  "addMana": "{W}{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {B}{B}",
+              "effects": [
+                {
+                  "addMana": "{B}{B}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{W/B}, {T}: Add {W}{W}, {W}{B}, or {B}{B}."
+    }
+  ]
+}

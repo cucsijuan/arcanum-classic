@@ -1,0 +1,47 @@
+{
+  "name": "Hermes, Overseer of Elpis",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying",
+              "Vigilance"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create a 1/1 blue Bird creature token with flying and vigilance."
+    },
+    {
+      "trigger": "youAttack",
+      "when": {
+        "control": {
+          "subtype": "Bird",
+          "attacking": true
+        }
+      },
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "Whenever you attack with one or more Birds, scry 2."
+    }
+  ]
+}

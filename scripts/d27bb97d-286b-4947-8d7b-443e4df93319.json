@@ -1,0 +1,27 @@
+{
+  "name": "Nesting Grounds",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "sorcery": true,
+      "targets": [
+        "permanent:you",
+        {
+          "kind": "permanent",
+          "controller": "any"
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "moveCounters": {
+            "from": "target",
+            "to": "target2",
+            "count": 1
+          }
+        }
+      ],
+      "text": "{1}, {T}: Move a counter from target permanent you control onto a second target permanent. Activate only as a sorcery."
+    }
+  ]
+}

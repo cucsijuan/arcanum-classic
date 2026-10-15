@@ -27,7 +27,8 @@
             "types": [
               "land"
             ]
-          }
+          },
+          "one": true
         }
       ],
       "text": "Whenever a land an opponent controls enters, if that player controls more lands than you, you may put a land card from your hand onto the battlefield.",

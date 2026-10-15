@@ -1,0 +1,52 @@
+{
+  "name": "Summon: Valefor",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "choose": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "greatestManaValueAmongTheirs": true
+          },
+          "chooser": "opponents"
+        },
+        {
+          "bounce": "chosen"
+        }
+      ],
+      "text": "I — Sonic Wings — Each opponent chooses a creature with the greatest mana value among creatures they control. Return those creatures to their owners' hands."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3,
+        4
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "II, III, IV — Tap up to one target creature and put a stun counter on it."
+    }
+  ]
+}

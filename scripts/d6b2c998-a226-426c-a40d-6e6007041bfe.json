@@ -1,0 +1,22 @@
+{
+  "name": "Mask of Memory",
+  "abilities": [
+    {
+      "trigger": "equippedCombatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Draw two cards, then discard a card?",
+          "effects": [
+            {
+              "draw": 2
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, you may draw two cards. If you do, discard a card."
+    }
+  ]
+}

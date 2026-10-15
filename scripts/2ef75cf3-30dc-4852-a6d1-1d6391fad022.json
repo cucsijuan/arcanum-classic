@@ -1,0 +1,29 @@
+{
+  "name": "Forgotten Ancient",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on Forgotten Ancient?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a player casts a spell, you may put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "distributeCountersFromSelf": "+1/+1"
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may move any number of +1/+1 counters from this creature onto other creatures."
+    }
+  ]
+}

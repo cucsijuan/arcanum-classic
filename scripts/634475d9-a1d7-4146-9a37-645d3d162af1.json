@@ -19,8 +19,7 @@
           "effects": [
             {
               "castFromGraveyard": {},
-              "card": "target",
-              "exileInstead": true
+              "card": "target"
             }
           ]
         }

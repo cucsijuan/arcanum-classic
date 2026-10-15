@@ -1,0 +1,43 @@
+{
+  "name": "Espers to Magicite",
+  "spell": {
+    "effects": [
+      {
+        "exileGraveyard": "opponents"
+      },
+      {
+        "whenYouDo": {
+          "if": {
+            "atLeast": {
+              "exiled": {}
+            },
+            "value": 1
+          },
+          "carryExiled": true,
+          "targets": [
+            {
+              "kind": "exiledCard",
+              "controller": "any",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "amongFound": true
+              },
+              "optional": true
+            }
+          ],
+          "effects": [
+            {
+              "copy": "target",
+              "setTypes": [
+                "artifact"
+              ]
+            }
+          ],
+          "text": "Choose up to one target creature card exiled this way. Create a token that's a copy of that card, except it's an artifact and it loses all other card types."
+        }
+      }
+    ]
+  }
+}

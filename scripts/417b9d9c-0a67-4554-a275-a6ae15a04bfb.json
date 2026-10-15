@@ -1,0 +1,45 @@
+{
+  "name": "Seifer, Balamb Rival",
+  "abilities": [
+    {
+      "trigger": "youAttackPlayer",
+      "targets": [
+        {
+          "kind": "creature",
+          "controlledByTriggeredPlayer": true
+        }
+      ],
+      "effects": [
+        {
+          "goad": "target"
+        }
+      ],
+      "text": "Whenever you attack a player, goad target creature that player controls."
+    },
+    {
+      "trigger": "creatureBecomesBlocked",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "when": {
+        "blockedAttackingYourOpponent": 2
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "triggered",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever a creature attacking one of your opponents becomes blocked by two or more creatures, that attacking creature gains deathtouch until end of turn."
+    }
+  ]
+}

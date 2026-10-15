@@ -1,0 +1,51 @@
+{
+  "name": "Transpose",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "discard": 1
+      },
+      {
+        "loseLife": 1
+      },
+      {
+        "if": "castFromHand",
+        "then": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Wizard",
+              "types": "Creature — Wizard",
+              "power": 0,
+              "toughness": 1,
+              "colors": [
+                "B"
+              ],
+              "keywords": [],
+              "abilities": [
+                {
+                  "trigger": "castSpell",
+                  "filter": {
+                    "not": [
+                      "creature"
+                    ]
+                  },
+                  "effects": [
+                    {
+                      "damage": 1,
+                      "to": "opponents"
+                    }
+                  ],
+                  "text": "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

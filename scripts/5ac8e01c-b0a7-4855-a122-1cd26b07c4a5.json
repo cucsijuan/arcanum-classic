@@ -1,0 +1,14 @@
+{
+  "name": "Overflowing Basin",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{G}{U}"
+        }
+      ],
+      "text": "{1}, {T}: Add {G}{U}."
+    }
+  ]
+}

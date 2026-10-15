@@ -1,0 +1,42 @@
+{
+  "name": "Interceptor, Shadow's Hound",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Assassin",
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Assassins you control have menace."
+    },
+    {
+      "trigger": "youAttack",
+      "fromGraveyard": true,
+      "when": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary",
+          "attacking": true
+        }
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {2}{B} to return Interceptor to the battlefield tapped and attacking?",
+          "mana": "{2}{B}",
+          "effects": [
+            {
+              "reanimate": "self",
+              "tapped": true,
+              "attacking": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack with one or more legendary creatures, you may pay {2}{B}. If you do, return this card from your graveyard to the battlefield tapped and attacking."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Fathom Mage",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "onSelf": true,
+      "perCounter": true,
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a +1/+1 counter is put on this creature, you may draw a card."
+    }
+  ]
+}

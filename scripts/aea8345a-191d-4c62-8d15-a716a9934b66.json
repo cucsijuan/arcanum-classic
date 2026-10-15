@@ -41,7 +41,7 @@
           "creature"
         ],
         "other": true,
-        "fromGraveyard": true
+        "enteredOrCastFromGraveyard": true
       },
       "batched": true
     }

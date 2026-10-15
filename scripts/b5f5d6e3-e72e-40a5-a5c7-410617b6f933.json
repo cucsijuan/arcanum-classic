@@ -1,0 +1,24 @@
+{
+  "name": "Rampant Rejuvenator",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "count": {
+            "power": "self"
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "When this creature dies, search your library for up to X basic land cards, where X is this creature's power, put them onto the battlefield, then shuffle."
+    }
+  ]
+}

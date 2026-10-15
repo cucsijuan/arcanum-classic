@@ -1,0 +1,39 @@
+{
+  "name": "Hellkite Tyrant",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "gainControl": {
+            "each": {
+              "types": [
+                "artifact"
+              ],
+              "controller": "any"
+            },
+            "controlledBy": "triggeredPlayer"
+          }
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, gain control of all artifacts that player controls."
+    },
+    {
+      "trigger": "upkeep",
+      "if": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "count": 20
+      },
+      "effects": [
+        {
+          "winGame": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control twenty or more artifacts, you win the game."
+    }
+  ]
+}

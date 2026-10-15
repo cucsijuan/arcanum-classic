@@ -1,0 +1,39 @@
+{
+  "name": "G'raha Tia, Scion Reborn",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "mayPay": "Pay X life (the spell's mana value) to create a 1/1 Hero token with X +1/+1 counters?",
+          "lifeFrom": "triggerAmount",
+          "payZero": true,
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Hero",
+                "types": "Creature — Hero",
+                "power": 1,
+                "toughness": 1,
+                "colors": [],
+                "keywords": []
+              }
+            },
+            {
+              "counters": "triggerAmount",
+              "what": "created"
+            }
+          ]
+        }
+      ],
+      "text": "Throw Wide the Gates — Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn."
+    }
+  ]
+}

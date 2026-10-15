@@ -1,0 +1,14 @@
+{
+  "name": "Inexorable Tide",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever you cast a spell, proliferate."
+    }
+  ]
+}

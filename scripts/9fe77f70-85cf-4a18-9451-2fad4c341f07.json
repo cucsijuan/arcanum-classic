@@ -1,0 +1,82 @@
+{
+  "name": "Summon: Kujata",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "upTo": 2
+        }
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "eachTarget"
+        }
+      ],
+      "text": "I — Lightning — This creature deals 3 damage to each of up to two target creatures."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        {
+          "kind": "creature",
+          "upTo": 3
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "eachTarget",
+          "keywords": [
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "II — Ice — Up to three target creatures can't block this turn."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "discard": 1
+        },
+        {
+          "draw": 2
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": {
+                "discarded": {}
+              },
+              "value": 1
+            },
+            "amount": "discardedManaValue",
+            "effects": [
+              {
+                "damage": "triggerAmount",
+                "to": "opponents"
+              }
+            ],
+            "text": "This creature deals damage equal to that card's mana value to each opponent."
+          }
+        }
+      ],
+      "text": "III — Fire — Discard a card, then draw two cards. When you discard a card this way, this creature deals damage equal to that card's mana value to each opponent."
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "name": "Sublime Epiphany",
+  "spell": {
+    "chooseCount": 5,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Counter target spell.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Counter target activated or triggered ability.",
+        "targets": [
+          {
+            "kind": "ability",
+            "controller": "any"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target nonland permanent to its owner's hand.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "any",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a token that's a copy of target creature you control.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player draws a card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 1,
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

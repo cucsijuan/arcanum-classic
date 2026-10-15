@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Dominance",
+  "extraMana": [
+    {
+      "types": "{U}{B}",
+      "damage": 1
+    }
+  ]
+}

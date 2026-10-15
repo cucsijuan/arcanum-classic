@@ -1,0 +1,39 @@
+{
+  "name": "Resourceful Defense",
+  "abilities": [
+    {
+      "trigger": "permanentLeaves",
+      "filter": {
+        "controller": "you"
+      },
+      "if": "triggeredHadCounters",
+      "targets": [
+        "permanent:you"
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "Whenever a permanent you control leaves the battlefield, if it had counters on it, put those counters on target permanent you control."
+    },
+    {
+      "cost": "{4}{W}",
+      "targets": [
+        "permanent:you",
+        "permanent:you"
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "moveCounters": {
+            "from": "target",
+            "to": "target2"
+          }
+        }
+      ],
+      "text": "{4}{W}: Move any number of counters from target permanent you control onto a second target permanent you control."
+    }
+  ]
+}

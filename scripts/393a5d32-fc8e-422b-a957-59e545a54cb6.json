@@ -1,0 +1,68 @@
+{
+  "name": "The Destined Warrior",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Cleric"
+            },
+            {
+              "subtype": "Rogue"
+            },
+            {
+              "subtype": "Warrior"
+            },
+            {
+              "subtype": "Wizard"
+            }
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Cleric, Rogue, Warrior, and Wizard spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "if": "fullParty",
+          "then": [
+            {
+              "pump": [
+                3,
+                0
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ],
+          "else": [
+            {
+              "pump": [
+                1,
+                0
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, creatures you control get +1/+0 until end of turn. If you have a full party, creatures you control get +3/+0 until end of turn instead."
+    }
+  ]
+}

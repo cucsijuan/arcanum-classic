@@ -1,0 +1,26 @@
+{
+  "name": "Vanquish the Horde",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "creature"
+      ],
+      "controller": "any"
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ]
+  }
+}

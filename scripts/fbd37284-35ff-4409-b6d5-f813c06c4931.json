@@ -1,0 +1,44 @@
+{
+  "name": "Wakka, Devoted Guardian",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controlledByTriggeredPlayer": true,
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever Wakka deals combat damage to a player, destroy up to one target artifact that player controls and put a +1/+1 counter on Wakka."
+    },
+    {
+      "trigger": "endStep",
+      "if": "counterPutOnSelfThisTurn",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Blitzball Captain — At the beginning of your end step, if a counter was put on Wakka this turn, put a +1/+1 counter on each other creature you control."
+    }
+  ]
+}

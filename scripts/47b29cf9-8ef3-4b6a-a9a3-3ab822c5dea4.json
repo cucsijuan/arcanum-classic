@@ -1,0 +1,60 @@
+{
+  "name": "Rinoa, Angel Wing",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "keyword": "Flying"
+            }
+          },
+          "keywords": [
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, creatures you control with flying get +1/+1 and gain vigilance until end of turn."
+    },
+    {
+      "trigger": "creatureDies",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "attacking": true
+      },
+      "effects": [
+        {
+          "may": "Return one of them to the battlefield tapped with a flying counter?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "chooseOneOf": "batch"
+            },
+            {
+              "reanimate": "found",
+              "tapped": true,
+              "ownerControl": true,
+              "counterKinds": [
+                "flying"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more attacking creatures you control die, you may return one of them to the battlefield tapped under its owner's control with a flying counter on it. Do this only once each turn."
+    }
+  ]
+}

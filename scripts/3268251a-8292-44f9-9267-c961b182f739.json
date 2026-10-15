@@ -1,0 +1,36 @@
+{
+  "name": "Y'shtola, Night's Blessed",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "playerLostLife": 4
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of each end step, if a player lost 4 or more life this turn, you draw a card."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ],
+        "minManaValue": 3
+      },
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell with mana value 3 or greater, Y'shtola deals 2 damage to each opponent and you gain 2 life."
+    }
+  ]
+}

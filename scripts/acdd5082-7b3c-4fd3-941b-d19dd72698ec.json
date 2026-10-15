@@ -1,0 +1,61 @@
+{
+  "name": "Setzer, Wandering Gambler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "The Blackjack",
+            "types": "Legendary Artifact — Vehicle",
+            "power": 3,
+            "toughness": 3,
+            "colors": [],
+            "keywords": [
+              "Flying"
+            ],
+            "abilities": [
+              {
+                "cost": "crew:2",
+                "effects": [
+                  {
+                    "become": "self",
+                    "addTypes": [
+                      "creature"
+                    ]
+                  }
+                ],
+                "text": "Crew 2"
+              }
+            ]
+          }
+        }
+      ],
+      "text": "When Setzer enters, create The Blackjack, a legendary 3/3 colorless Vehicle artifact token with flying and crew 2."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "subtype": "Vehicle"
+      },
+      "effects": [
+        {
+          "flipCoin": true
+        }
+      ],
+      "text": "Whenever a Vehicle you control deals combat damage to a player, flip a coin."
+    },
+    {
+      "trigger": "youWinCoinFlip",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "Whenever you win a coin flip, create two tapped Treasure tokens."
+    }
+  ]
+}

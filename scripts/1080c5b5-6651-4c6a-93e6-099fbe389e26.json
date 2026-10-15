@@ -1,0 +1,31 @@
+{
+  "name": "Murderous Rider // Swift End",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "toLibrary": "self",
+          "bottom": true
+        }
+      ],
+      "text": "When this creature dies, put it on the bottom of its owner's library."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        "creatureOrPlaneswalker"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "Destroy target creature or planeswalker. You lose 2 life."
+    }
+  }
+}

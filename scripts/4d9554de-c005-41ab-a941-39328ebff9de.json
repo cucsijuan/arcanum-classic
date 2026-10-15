@@ -1,0 +1,20 @@
+{
+  "name": "Relic of Legends",
+  "abilities": [
+    {
+      "cost": "tapPermanents:1:creature",
+      "tapFilter": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Tap an untapped legendary creature you control: Add one mana of any color."
+    }
+  ]
+}

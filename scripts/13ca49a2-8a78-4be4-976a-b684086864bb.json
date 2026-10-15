@@ -1,0 +1,31 @@
+{
+  "name": "Shadow, Mysterious Assassin",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another nonland permanent to draw two cards?",
+          "cost": {
+            "sacrifice": {
+              "not": [
+                "land"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 2
+            },
+            {
+              "loseLife": "sacrificedManaValue",
+              "who": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Throw — Whenever Shadow deals combat damage to a player, you may sacrifice another nonland permanent. If you do, draw two cards and each opponent loses life equal to the mana value of the sacrificed permanent."
+    }
+  ]
+}

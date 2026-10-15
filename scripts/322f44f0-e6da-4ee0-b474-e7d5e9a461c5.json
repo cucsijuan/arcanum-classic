@@ -1,0 +1,23 @@
+{
+  "name": "Morbid Opportunist",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "batched": true,
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more other creatures die, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

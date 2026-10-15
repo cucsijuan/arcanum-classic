@@ -1,0 +1,37 @@
+{
+  "name": "Krile Baldesion",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "manaValueIsTriggerAmount": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return that creature card to your hand?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Trace Aether — Whenever you cast a noncreature spell, you may return target creature card with mana value equal to that spell's mana value from your graveyard to your hand. Do this only once each turn."
+    }
+  ]
+}

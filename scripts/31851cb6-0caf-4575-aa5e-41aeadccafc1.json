@@ -8,13 +8,14 @@
           "scry": 1
         },
         {
-          "exileTop": 1,
-          "playableThisTurn": true
+          "exileTopPlayable": 1
         },
         {
           "whenYouDo": {
             "if": {
-              "atLeast": "exiledThisWay",
+              "atLeast": {
+                "exiled": {}
+              },
               "value": 1
             },
             "targets": [
@@ -23,15 +24,16 @@
             "effects": [
               {
                 "pump": [
-                  {
-                    "manaValue": "exiledThisWay"
-                  },
+                  "triggerAmount",
                   0
                 ],
                 "what": "target"
               }
             ],
-            "text": "Target creature you control gets +X/+0 until end of turn, where X is that card's mana value."
+            "text": "Target creature you control gets +X/+0 until end of turn, where X is that card's mana value.",
+            "amount": {
+              "manaValue": "exiled"
+            }
           }
         }
       ],

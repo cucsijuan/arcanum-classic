@@ -1,0 +1,14 @@
+{
+  "name": "O'aka, Traveling Merchant",
+  "abilities": [
+    {
+      "cost": "{T}, removeCounterFrom:nonland",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Remove a counter from a nonland permanent you control: Draw a card."
+    }
+  ]
+}

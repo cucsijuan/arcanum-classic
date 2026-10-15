@@ -1,0 +1,36 @@
+{
+  "name": "Observed Stasis",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "removeFromCombat": "attached"
+        },
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "tapped": true
+            },
+            "controlledBy": "attachedController"
+          }
+        }
+      ],
+      "text": "When this Aura enters, remove enchanted creature from combat. Then draw a card for each tapped creature its controller controls."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ]
+      },
+      "text": "Enchanted creature loses all abilities and can't attack or block."
+    }
+  ]
+}

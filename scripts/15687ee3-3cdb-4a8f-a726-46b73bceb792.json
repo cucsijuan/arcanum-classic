@@ -1,0 +1,14 @@
+{
+  "name": "Shadowblood Ridge",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{B}{R}"
+        }
+      ],
+      "text": "{1}, {T}: Add {B}{R}."
+    }
+  ]
+}

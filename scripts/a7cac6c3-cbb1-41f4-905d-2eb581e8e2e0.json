@@ -1,0 +1,25 @@
+{
+  "name": "Siegfried, Famed Swordsman",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "counters": {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "times": 2
+          },
+          "what": "self"
+        }
+      ],
+      "text": "When Siegfried enters, mill three cards. Then put X +1/+1 counters on Siegfried, where X is twice the number of creature cards in your graveyard."
+    }
+  ]
+}

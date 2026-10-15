@@ -1,0 +1,36 @@
+{
+  "name": "Wrecking Ball Arm",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "setPower": 7,
+        "setToughness": 7,
+        "cantBeBlockedBy": {
+          "maxPower": 2
+        }
+      },
+      "text": "Equipped creature has base power and toughness 7/7 and can't be blocked by creatures with power 2 or less."
+    },
+    {
+      "cost": "{3}",
+      "equip": true,
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "supertype": "legendary"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip legendary creature {3}"
+    }
+  ]
+}

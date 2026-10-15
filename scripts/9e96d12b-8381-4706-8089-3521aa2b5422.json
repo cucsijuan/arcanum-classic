@@ -1,0 +1,28 @@
+{
+  "name": "Gau, Feral Youth",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Rage — Whenever Gau attacks, put a +1/+1 counter on it."
+    },
+    {
+      "trigger": "eachEndStep",
+      "if": "cardLeftYourGraveyardThisTurn",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "At the beginning of each end step, if a card left your graveyard this turn, Gau deals damage equal to its power to each opponent."
+    }
+  ]
+}
