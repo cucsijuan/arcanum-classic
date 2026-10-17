@@ -1,0 +1,97 @@
+# Scions & Spellcraft Collector's Edition — the set's preconstructed Commander deck (official decklist).
+# Collector's Edition: every card is foil, the same list as the regular deck.
+Commander
+1 Y'shtola, Night's Blessed (FIC) 226 *S*
+
+Deck
+1 Alisaie Leveilleur (FIC) 9 *S*
+1 Alphinaud Leveilleur (FIC) 33 *S*
+1 Arcane Sanctum (FIC) 373 *S*
+1 Arcane Signet (FIC) 335 *S*
+1 Archaeomancer's Map (FIC) 230 *S*
+1 Archmage Emeritus (FIC) 261 *S*
+1 Ardbert, Warrior of Darkness (FIC) 77 *S*
+1 Ash Barrens (FIC) 374 *S*
+1 Astrologian's Planisphere (FIN) 581 *S*
+1 Authority of the Consuls (FIC) 232 *S*
+1 Baleful Strix (FIC) 318 *S*
+1 Bastion of Remembrance (FIC) 274 *S*
+1 Blue Mage's Cane (FIC) 35 *S*
+1 Champions from Beyond (FIC) 11 *S*
+1 Choked Estuary (FIC) 379 *S*
+1 Circle of Power (FIN) 583 *S*
+1 Cleansing Nova (FIC) 235 *S*
+1 Command Tower (FIC) 382 *S*
+1 Contaminated Aquifer (FIC) 383 *S*
+1 Coveted Jewel (FIC) 341 *S*
+1 Crux of Fate (FIC) 275 *S*
+1 Cut a Deal (FIC) 238 *S*
+1 Dancer's Chakrams (FIC) 17 *S*
+1 Darkwater Catacombs (FIC) 384 *S*
+1 Demolition Field (FIC) 385 *S*
+1 Desolate Mire (FIC) 386 *S*
+1 Dig Through Time (FIC) 263 *S*
+1 Drowned Catacomb (FIC) 388 *S*
+1 Emet-Selch of the Third Seat (FIC) 81 *S*
+1 Estinien Varlineau (FIC) 82 *S*
+1 Evolving Wilds (FIC) 389 *S*
+1 Exotic Orchard (FIC) 390 *S*
+1 Exsanguinate (FIC) 276 *S*
+1 Eye of Nidhogg (FIC) 44 *S*
+1 Fandaniel, Telophoroi Ascian (FIC) 46 *S*
+1 Fetid Heath (FIC) 391 *S*
+1 Final Judgment (FIC) 243 *S*
+1 G'raha Tia, Scion Reborn (FIC) 222 *S*
+1 Glacial Fortress (FIC) 400 *S*
+1 Hermes, Overseer of Elpis (FIC) 36 *S*
+1 Hildibrand Manderville // Gentleman's Rise (FIC) 83 *S*
+1 Hraesvelgr of the First Brood (FIC) 37 *S*
+1 Hypnotic Sprite // Mesmeric Glare (FIC) 264 *S*
+1 Idyllic Beachfront (FIC) 404 *S*
+1 Into the Story (FIC) 266 *S*
+3 Island (FIN) 573 *S*
+1 Isolated Chapel (FIC) 405 *S*
+1 Krile Baldesion (FIC) 86 *S*
+1 Lethal Scheme (FIC) 277 *S*
+1 Lingering Souls (FIC) 245 *S*
+1 Lyse Hext (FIC) 88 *S*
+1 Murderous Rider // Swift End (FIC) 279 *S*
+1 Observed Stasis (FIC) 40 *S*
+1 Papalymo Totolymo (FIC) 90 *S*
+1 Path of Ancestry (FIC) 411 *S*
+4 Plains (FIN) 572 *S*
+1 Port Town (FIC) 412 *S*
+1 Prairie Stream (FIC) 413 *S*
+1 Propaganda (FIC) 268 *S*
+1 Reaper's Scythe (FIC) 48 *S*
+1 Relic of Legends (FIC) 354 *S*
+1 Rite of Replication (FIC) 270 *S*
+1 Sage's Nouliths (FIN) 582 *S*
+1 Scavenger Grounds (FIC) 419 *S*
+1 Shineshadow Snarl (FIC) 422 *S*
+1 Skycloud Expanse (FIC) 423 *S*
+1 Snuff Out (FIC) 285 *S*
+1 Sol Ring (FIC) 359 *S*
+1 Sublime Epiphany (FIC) 271 *S*
+1 Summon: Good King Mog XII (FIC) 26 *S*
+1 Sunken Hollow (FIC) 429 *S*
+1 Sunken Ruins (FIC) 430 *S*
+1 Sunlit Marsh (FIC) 431 *S*
+4 Swamp (FIN) 574 *S*
+1 Swords to Plowshares (FIC) 256 *S*
+1 Syphon Mind (FIC) 288 *S*
+1 Talisman of Dominance (FIC) 364 *S*
+1 Talisman of Hierarchy (FIC) 365 *S*
+1 Talisman of Progress (FIC) 367 *S*
+1 Tataru Taru (FIC) 30 *S*
+1 Temple of the False God (FIC) 438 *S*
+1 Thancred Waters (FIC) 31 *S*
+1 Thought Vessel (FIC) 368 *S*
+1 Tome of Legends (FIC) 369 *S*
+1 Torrential Gearhulk (FIC) 272 *S*
+1 Transpose (FIC) 52 *S*
+1 Underground River (FIC) 439 *S*
+1 Urianger Augurelt (FIC) 96 *S*
+1 Vindicate (FIC) 330 *S*
+1 Void Rend (FIC) 331 *S*
+1 White Auracite (FIN) 579 *S*

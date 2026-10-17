@@ -204,6 +204,11 @@
     { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
     { "deck": "ltc-elven-council", "price": 4500 }, { "deck": "ltc-food-and-fellowship", "price": 4500 },
     { "deck": "ltc-hosts-of-mordor", "price": 4500 }, { "deck": "ltc-riders-of-rohan", "price": 4500 },
+    { "deck": "fic-counter-blitz", "price": 4500 }, { "deck": "fic-limit-break", "price": 4500 },
+    { "deck": "fic-revival-trance", "price": 4500 }, { "deck": "fic-scions-spellcraft", "price": 4500 },
+    // Collector's Editions: the same lists with every card a surge foil, sold separately (priced by the real ones' ratio to the regular decks).
+    { "deck": "fic-counter-blitz-collectors-edition", "price": 9500 }, { "deck": "fic-limit-break-collectors-edition", "price": 9500 },
+    { "deck": "fic-revival-trance-collectors-edition", "price": 9500 }, { "deck": "fic-scions-spellcraft-collectors-edition", "price": 9500 },
     // Intro-level Commander decks, the cheapest in the store: a first base of Commander cards for commander night.
     { "deck": "fdc-calling-all-angels", "price": 1500 }, { "deck": "fdc-keen-engineering", "price": 1500 }, { "deck": "fdc-wretched-ranks", "price": 1500 },
     { "deck": "fdc-reign-of-dragons", "price": 1500 }, { "deck": "fdc-tramplesaurus-rex", "price": 1500 }
@@ -214,6 +219,8 @@
   // computer players bringing the "decks" listed; prizes by games won). Prizes: the first
   // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
   // anyone). Draft events take the week's featured set unless "set" names one; the drafted cards are the player's.
+  // Constructed events take a "format": a format id from formats/ ("standard", "modern"…), the decks must be legal in it;
+  // empty or absent: any cards (casual). Commander events always use the Commander format.
   "events": [
     {
       // Every day: a cheap draft against the computer; the store provides the boosters and the drafted cards are the player's.
@@ -237,6 +244,7 @@
       "id": "commander-night", "name": "Commander night", "when": "Friday", "kind": "commander",
       "players": 4, "rounds": 2, "entry": 500,
       "decks": ["ltc-elven-council", "ltc-food-and-fellowship", "ltc-hosts-of-mordor", "ltc-riders-of-rohan",
+                "fic-counter-blitz", "fic-limit-break", "fic-revival-trance", "fic-scions-spellcraft",
                 "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
                 "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
       "prizes": [
@@ -256,14 +264,15 @@
       ]
     },
     {
+      // A local event, no qualification: open to anyone and cheap, a way to earn the money for the regional qualifier.
       "id": "championship", "name": "Monthly championship", "when": "lastSunday", "kind": "constructed",
-      "players": 16, "rounds": 4, "bestOf": 3, "entry": 5000, "entryTokens": 1, "minTier": 1,
+      "players": 16, "rounds": 4, "bestOf": 3, "entry": 2500,
       "prizes": [
-        { "place": 1, "cash": 50000, "boosters": 10, "reputation": 40 },
-        { "place": 2, "cash": 25000, "boosters": 6, "reputation": 25 },
-        { "place": 4, "cash": 10000, "boosters": 3, "reputation": 15 },
-        { "place": 8, "cash": 4000, "boosters": 1, "reputation": 8 },
-        { "reputation": 4 }
+        { "place": 1, "cash": 15000, "boosters": 5, "reputation": 25 },
+        { "place": 2, "cash": 8000, "boosters": 3, "reputation": 15 },
+        { "place": 4, "cash": 4000, "boosters": 2, "reputation": 10 },
+        { "place": 8, "cash": 1500, "boosters": 1, "reputation": 5 },
+        { "reputation": 3 }
       ]
     }
   ],

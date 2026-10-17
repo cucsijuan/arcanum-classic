@@ -1,0 +1,98 @@
+# Revival Trance Collector's Edition — the set's preconstructed Commander deck (official decklist).
+# Collector's Edition: every card is foil, the same list as the regular deck.
+Commander
+1 Terra, Herald of Hope (FIC) 223 *S*
+
+Deck
+1 Angel of the Ruins (FIC) 229 *S*
+1 Anger (FIC) 289 *S*
+1 Arcane Signet (FIC) 332 *S*
+1 Archfiend of Depravity (FIC) 273 *S*
+1 Ash Barrens (FIC) 374 *S*
+1 Banon, the Returners' Leader (FIC) 78 *S*
+1 Battlefield Forge (FIC) 375 *S*
+1 Bedevil (FIC) 319 *S*
+1 Big Score (FIC) 290 *S*
+1 Celes, Rune Knight (FIC) 220 *S*
+1 Clifftop Retreat (FIC) 381 *S*
+1 Coin of Fate (FIC) 15 *S*
+1 Combustible Gearhulk (FIC) 292 *S*
+1 Command Tower (FIC) 484 *S*
+1 Commander's Sphere (FIC) 339 *S*
+1 Crackling Doom (FIC) 322 *S*
+1 Cyan, Vengeful Samurai (FIC) 16 *S*
+1 Demolition Field (FIC) 385 *S*
+1 Desolate Mire (FIC) 386 *S*
+1 Dragonskull Summit (FIC) 387 *S*
+1 Edgar, Master Machinist (FIC) 80 *S*
+1 Espers to Magicite (FIC) 43 *S*
+1 Evolving Wilds (FIC) 389 *S*
+1 Exotic Orchard (FIC) 390 *S*
+1 Fetid Heath (FIC) 391 *S*
+1 Flayer of the Hatebound (FIC) 293 *S*
+1 Foreboding Ruins (FIC) 394 *S*
+1 Furycalm Snarl (FIC) 397 *S*
+1 Gau, Feral Youth (FIC) 55 *S*
+1 General Leo Cristophe (FIC) 20 *S*
+1 Geothermal Bog (FIC) 399 *S*
+1 Gogo, Mysterious Mime (FIC) 56 *S*
+1 Graven Cairns (FIC) 401 *S*
+1 High Market (FIC) 402 *S*
+1 Interceptor, Shadow's Hound (FIC) 47 *S*
+1 Isolated Chapel (FIC) 405 *S*
+1 Kefka, Dancing Mad (FIC) 84 *S*
+1 Key to the City (FIC) 348 *S*
+1 Laughing Mad (FIN) 585 *S*
+1 Legions to Ashes (FIC) 326 *S*
+1 Locke, Treasure Hunter (FIC) 87 *S*
+1 Meteor Golem (FIC) 351 *S*
+1 Millikin (FIC) 352 *S*
+1 Mind Stone (FIC) 353 *S*
+1 Mog, Moogle Warrior (FIC) 89 *S*
+1 Morbid Opportunist (FIC) 278 *S*
+1 Mortify (FIC) 327 *S*
+3 Mountain (FIN) 575 *S*
+1 Night's Whisper (FIC) 280 *S*
+1 Nomad Outpost (FIC) 409 *S*
+1 Palace Jailer (FIC) 247 *S*
+1 Path of Ancestry (FIC) 411 *S*
+1 Phoenix Down (FIN) 578 *S*
+1 Pitiless Plunderer (FIC) 281 *S*
+4 Plains (FIN) 572 *S*
+1 Priest of Fell Rites (FIC) 328 *S*
+1 Reanimate (FIC) 282 *S*
+1 Rejoin the Fight (FIC) 49 *S*
+1 Rise of the Dark Realms (FIC) 283 *S*
+1 Rogue's Passage (FIC) 415 *S*
+1 Rugged Prairie (FIC) 417 *S*
+1 Ruin Grinder (FIC) 297 *S*
+1 Ruinous Ultimatum (FIC) 329 *S*
+1 Sabin, Master Monk (FIC) 57 *S*
+1 Sacred Peaks (FIC) 418 *S*
+1 Sepulchral Primordial (FIC) 284 *S*
+1 Setzer, Wandering Gambler (FIC) 93 *S*
+1 Shadow, Mysterious Assassin (FIC) 50 *S*
+1 Shadowblood Ridge (FIC) 421 *S*
+1 Shineshadow Snarl (FIC) 422 *S*
+1 Siegfried, Famed Swordsman (FIC) 51 *S*
+1 Smoldering Marsh (FIC) 425 *S*
+1 Snort (FIC) 58 *S*
+1 Sol Ring (FIC) 356 *S*
+1 Solemn Simulacrum (FIC) 360 *S*
+1 Stitch Together (FIC) 286 *S*
+1 Stitcher's Supplier (FIC) 287 *S*
+1 Strago and Relm (FIC) 59 *S*
+1 Sulfurous Springs (FIC) 427 *S*
+1 Summon: Esper Valigarmanda (FIC) 60 *S*
+1 Sun Titan (FIC) 254 *S*
+1 Sunlit Marsh (FIC) 431 *S*
+1 Sunscorched Divide (FIC) 433 *S*
+3 Swamp (FIN) 574 *S*
+1 Swiftfoot Boots (FIC) 361 *S*
+1 Talisman of Conviction (FIC) 363 *S*
+1 Talisman of Indulgence (FIC) 366 *S*
+1 The Falcon, Airship Restored (FIC) 45 *S*
+1 The Warring Triad (FIC) 99 *S*
+1 Tragic Arrogance (FIC) 258 *S*
+1 Umaro, Raging Yeti (FIC) 63 *S*
+1 Wayfarer's Bauble (FIC) 372 *S*

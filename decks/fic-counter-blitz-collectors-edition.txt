@@ -1,0 +1,99 @@
+# Counter Blitz Collector's Edition — the set's preconstructed Commander deck (official decklist).
+# Collector's Edition: every card is foil, the same list as the regular deck.
+Commander
+1 Tidus, Yuna's Guardian (FIC) 224 *S*
+
+Deck
+1 Altered Ego (FIC) 317 *S*
+1 An Offer You Can't Refuse (FIC) 267 *S*
+1 Arcane Signet (FIC) 334 *S*
+1 Ash Barrens (FIC) 374 *S*
+1 Auron, Venerated Guardian (FIC) 10 *S*
+1 Bane of Progress (FIC) 299 *S*
+1 Blitzball Stadium (FIC) 34 *S*
+1 Bred for the Hunt (FIC) 321 *S*
+1 Brushland (FIC) 377 *S*
+1 Canopy Vista (FIC) 378 *S*
+1 Chasm Skulker (FIC) 262 *S*
+1 Chocobo Knights (FIC) 12 *S*
+1 Collective Effort (FIC) 237 *S*
+1 Command Tower (FIC) 486 *S*
+1 Damning Verdict (FIC) 239 *S*
+1 Destroy Evil (FIC) 240 *S*
+1 Duskshell Crawler (FIC) 301 *S*
+1 Endless Detour (FIC) 324 *S*
+1 Everflowing Chalice (FIC) 343 *S*
+1 Evolving Wilds (FIC) 389 *S*
+1 Exotic Orchard (FIC) 390 *S*
+1 Farewell (FIC) 242 *S*
+1 Farseek (FIC) 302 *S*
+1 Fathom Mage (FIC) 325 *S*
+1 Fight Rigging (FIC) 303 *S*
+1 Flooded Grove (FIC) 393 *S*
+3 Forest (FIN) 576 *S*
+1 Forge of Heroes (FIC) 395 *S*
+1 Forgotten Ancient (FIC) 304 *S*
+1 Fortified Village (FIC) 396 *S*
+1 Gatta and Luzzu (FIC) 19 *S*
+1 Generous Patron (FIC) 305 *S*
+1 Glacial Fortress (FIC) 400 *S*
+1 Grateful Apparition (FIC) 244 *S*
+1 Gyre Sage (FIC) 306 *S*
+1 Hardened Scales (FIC) 307 *S*
+1 Hinterland Harbor (FIC) 403 *S*
+1 Idyllic Beachfront (FIC) 404 *S*
+1 Incubation Druid (FIC) 309 *S*
+1 Inexorable Tide (FIC) 265 *S*
+1 Inspiring Call (FIC) 310 *S*
+3 Island (FIN) 573 *S*
+1 Kimahri, Valiant Guardian (FIC) 85 *S*
+1 Lord Jyscal Guado (FIC) 23 *S*
+1 Lulu, Stern Guardian (FIC) 38 *S*
+1 Luminous Broodmoth (FIC) 246 *S*
+1 Maester Seymour (FIC) 68 *S*
+1 Nesting Grounds (FIC) 408 *S*
+1 O'aka, Traveling Merchant (FIC) 39 *S*
+1 Overflowing Basin (FIC) 410 *S*
+1 Path of Ancestry (FIC) 411 *S*
+1 Path of Discovery (FIC) 312 *S*
+1 Path to Exile (FIC) 248 *S*
+3 Plains (FIN) 572 *S*
+1 Port Town (FIC) 412 *S*
+1 Prairie Stream (FIC) 413 *S*
+1 Promise of Loyalty (FIC) 249 *S*
+1 Protection Magic (FIC) 24 *S*
+1 Pull from Tomorrow (FIC) 269 *S*
+1 Radiant Grove (FIC) 414 *S*
+1 Rampant Rejuvenator (FIC) 314 *S*
+1 Resourceful Defense (FIC) 251 *S*
+1 Rikku, Resourceful Guardian (FIC) 41 *S*
+1 Scholar of New Horizons (FIC) 252 *S*
+1 Seaside Citadel (FIC) 420 *S*
+1 Shelinda, Yevon Acolyte (FIC) 94 *S*
+1 Sin, Unending Cataclysm (FIC) 95 *S*
+1 Skycloud Expanse (FIC) 423 *S*
+1 Sol Ring (FIC) 358 *S*
+1 Sphere Grid (FIC) 70 *S*
+1 Summon: Ixion (FIC) 27 *S*
+1 Summon: Magus Sisters (FIC) 71 *S*
+1 Summon: Valefor (FIC) 42 *S*
+1 Summon: Yojimbo (FIC) 28 *S*
+1 Summoner's Sending (FIC) 29 *S*
+1 Sungrass Prairie (FIC) 428 *S*
+1 Sunpetal Grove (FIC) 432 *S*
+1 Sunscorch Regent (FIC) 255 *S*
+1 Tangled Islet (FIC) 434 *S*
+1 Temple of Enlightenment (FIC) 435 *S*
+1 Temple of Mystery (FIC) 436 *S*
+1 Temple of Plenty (FIC) 437 *S*
+1 Temple of the False God (FIC) 438 *S*
+1 Three Visits (FIC) 315 *S*
+1 Tireless Tracker (FIC) 316 *S*
+1 Together Forever (FIC) 257 *S*
+1 Tromell, Seymour's Butler (FIC) 73 *S*
+1 Vineglimmer Snarl (FIC) 440 *S*
+1 Wakka, Devoted Guardian (FIC) 97 *S*
+1 Walking Ballista (FIC) 371 *S*
+1 Yuna, Grand Summoner (FIC) 227 *S*
+1 Yuna's Decision (FIC) 74 *S*
+1 Yuna's Whistle (FIC) 75 *S*
