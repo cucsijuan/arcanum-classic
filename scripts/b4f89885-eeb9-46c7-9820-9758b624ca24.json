@@ -1,0 +1,24 @@
+{
+  "name": "Tethermage's Advantage",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach"
+        ]
+      },
+      {
+        "untap": "target"
+      }
+    ],
+    "text": "Target creature gets +2/+2 and gains reach until end of turn. Untap it."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Stinging Vitriol",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      },
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "text": "Stinging Vitriol deals 2 damage to target opponent. That player reveals their hand. You choose a nonland card from it. They discard that card."
+  }
+}

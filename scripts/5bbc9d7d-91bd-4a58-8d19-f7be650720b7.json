@@ -1,0 +1,23 @@
+{
+  "name": "Sureshot Sower",
+  "abilities": [
+    {
+      "cost": "{3}{G}, discardThis",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Flying"
+          },
+          "text": "target creature with flying"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{3}{G}, Discard this card: Destroy target creature with flying."
+    }
+  ]
+}

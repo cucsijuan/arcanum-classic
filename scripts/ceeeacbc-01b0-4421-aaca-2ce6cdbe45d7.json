@@ -1,0 +1,28 @@
+{
+  "name": "Tetsuko Umezawa, Fugitive",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "anyOf": [
+            {
+              "maxPower": 1
+            },
+            {
+              "maxToughness": 1
+            }
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Creatures you control with power or toughness 1 or less can't be blocked."
+    }
+  ]
+}

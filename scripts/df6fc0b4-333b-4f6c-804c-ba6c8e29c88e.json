@@ -1,0 +1,25 @@
+{
+  "name": "Rescue Girl, First Responder",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": "yourTurn",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{T}: Return another target permanent you control to its owner's hand. Activate only during your turn."
+    }
+  ]
+}

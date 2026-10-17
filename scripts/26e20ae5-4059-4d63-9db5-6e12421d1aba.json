@@ -1,0 +1,10 @@
+{
+  "name": "Stingerquill Annex",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

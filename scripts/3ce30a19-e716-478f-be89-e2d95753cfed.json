@@ -1,0 +1,35 @@
+{
+  "name": "Twisted Fates",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      },
+      "player"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "target2"
+        }
+      }
+    ],
+    "text": "Destroy target nonland permanent. Put a +1/+1 counter on each creature target player controls."
+  }
+}

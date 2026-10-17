@@ -1,0 +1,17 @@
+{
+  "name": "Thalia, the Survivor",
+  "abilities": [
+    {
+      "spellCostIncrease": {
+        "spells": {
+          "not": [
+            "creature"
+          ],
+          "controller": "opponent"
+        },
+        "amount": 1
+      },
+      "text": "Noncreature spells your opponents cast cost {1} more to cast."
+    }
+  ]
+}

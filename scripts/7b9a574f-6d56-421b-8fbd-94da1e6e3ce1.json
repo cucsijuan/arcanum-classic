@@ -1,0 +1,16 @@
+{
+  "name": "Traxos, Academy Guardian",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "atLeast": {
+        "spellsCast": {
+          "not": [
+            "creature"
+          ]
+        }
+      },
+      "value": 1
+    }
+  }
+}

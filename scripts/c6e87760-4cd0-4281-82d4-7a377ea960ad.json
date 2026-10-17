@@ -1,0 +1,35 @@
+{
+  "name": "Roiling Canopy",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "subtype": "Forest",
+        "controller": "you"
+      },
+      "if": {
+        "control": {
+          "subtype": "Forest",
+          "notTriggered": true
+        },
+        "count": 5
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            3,
+            3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever a Forest you control enters, if you control at least five other Forests, target creature you control gets +3/+3 until end of turn."
+    }
+  ]
+}

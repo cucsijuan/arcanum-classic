@@ -1,0 +1,28 @@
+{
+  "name": "Something Worth Saving",
+  "spell": {
+    "effects": [
+      {
+        "mill": 4,
+        "who": "you"
+      },
+      {
+        "takeMilled": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "count": 1
+      },
+      {
+        "gainLife": 1
+      }
+    ],
+    "text": "Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life."
+  }
+}

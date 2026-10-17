@@ -1,0 +1,20 @@
+{
+  "name": "Repurposed Enforcer",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "empowerJace": {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, empower Jace X, where X is the number of creatures you control."
+    }
+  ]
+}

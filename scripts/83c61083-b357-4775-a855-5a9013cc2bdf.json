@@ -1,0 +1,23 @@
+{
+  "name": "Verdant Kraken",
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Forest Tentacle",
+            "types": "Land Creature — Forest Tentacle",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each player's upkeep, you create a 3/3 green Forest Tentacle land creature token."
+    }
+  ]
+}

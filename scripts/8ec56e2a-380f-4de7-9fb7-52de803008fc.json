@@ -1,0 +1,10 @@
+{
+  "name": "Transformative Commons",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Tether Technician",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "any"
+                ],
+                "effects": [
+                  {
+                    "damage": 2,
+                    "to": "target"
+                  }
+                ],
+                "text": "This creature deals 2 damage to any target."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard a card. When you do, this creature deals 2 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Return to the Light Realms",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "planeswalker",
+            "battle"
+          ]
+        }
+      }
+    ],
+    "text": "Return all nonland permanent cards from your graveyard to the battlefield."
+  }
+}

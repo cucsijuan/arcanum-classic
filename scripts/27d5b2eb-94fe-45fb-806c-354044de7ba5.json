@@ -1,0 +1,21 @@
+{
+  "name": "Room of Refuge",
+  "chooseOnEnter": "color",
+  "manaFromChosenColor": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this land: Put two +1/+1 counters on target creature. Activate only as a sorcery."
+    }
+  ]
+}

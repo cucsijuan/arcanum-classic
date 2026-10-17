@@ -1,0 +1,43 @@
+{
+  "name": "Proft, Consulting Detective",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "mayPay": "Pay {2}?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            },
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you scry or surveil, you may pay {2}. If you do, put a +1/+1 counter on Proft and draw a card."
+    },
+    {
+      "trigger": "youSurveil",
+      "effects": [
+        {
+          "mayPay": "Pay {2}?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            },
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you scry or surveil, you may pay {2}. If you do, put a +1/+1 counter on Proft and draw a card."
+    }
+  ]
+}

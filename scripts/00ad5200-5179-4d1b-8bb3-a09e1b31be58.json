@@ -1,0 +1,10 @@
+{
+  "name": "Theorix Annex",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

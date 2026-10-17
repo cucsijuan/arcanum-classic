@@ -1,0 +1,18 @@
+{
+  "name": "Screeching Soulbreaker",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, it deals 1 damage to each opponent and you gain 1 life."
+    }
+  ]
+}

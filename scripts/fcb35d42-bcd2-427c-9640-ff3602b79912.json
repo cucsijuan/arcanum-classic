@@ -1,0 +1,10 @@
+{
+  "name": "Vigorbloom Annex",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}
