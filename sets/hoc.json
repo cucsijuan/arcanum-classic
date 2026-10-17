@@ -115,5 +115,31 @@
   "Willow-Wind",
   "Witch-king of Angmar",
   "Witch-king, Bringer of Ruin"
+ ],
+ "scenes": [
+  {
+   "name": "Crack the Plates",
+   "columns": 3,
+   "cards": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ]
+  },
+  {
+   "name": "Treasures of Smaug",
+   "columns": 3,
+   "cards": [
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12"
+   ]
+  }
  ]
 }

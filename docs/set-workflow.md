@@ -41,23 +41,38 @@ front face's name.
 (official collation percentages; printings by collector number, foil and showcase treatments as printed). Write down any ratio that had
 to be derived from published numbers. Check the packs: every sheet non-empty, the right pack size, no unsupported card.
 
-## 5. Decks
+## 5. Scenes
+
+A set whose cards' art joins into one picture (a scene) lists the scenes in its set file, as `"scenes"`: each with a
+`name`, `columns` (cards across; all in one row when left out) and `cards`, the collector numbers row by row from the top
+left. A place holds one number, or a list of numbers when the same art is printed under more than one (a surge foil under
+another number, for one). A place without a number is an error. The career desk then shows the scenes (`Scenes (N)`).
+
+Research the scenes from the printed set, as follows:
+
+- Group the cards by artist in a run of collector numbers. Find each scene's layout by matching the art along the card edges.
+- Check the composed picture by eye before writing the file. So far every scene is in collector-number reading order.
+- Take each name from the official product or announcement names, as printed.
+
+Sets with scenes so far: ltr, hob, hoc, ltc.
+
+## 6. Decks
 
 - Two-color sample decks: `tools/build_set_decks.py "$CARDS" sets/<code>.json [printings file]` writes `decks/<code>-<pair>.txt`.
 - Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line.
 
-## 6. Draft ratings
+## 7. Draft ratings
 
 For a set that can be drafted, run `tools/draft_ratings.py <code> [format]` (format default PremierDraft). It downloads the set's public
 game and draft datasets into `~/.cache/arcanum/17lands` and writes `ratings/<code>.json`, which ships with the module. A set without
 public datasets fails the download and gets no file; the computer drafters then use the engine's own ratings. Commit the file with the set.
 
-## 7. Career
+## 8. Career
 
 Add the set to `career/career.json`: `sets` and `featured` (booster shelf), the sample decks to `starter` and `precons`, and commander
 precons to `precons` with a price and to the commander night's `decks`.
 
-## 8. Soak
+## 9. Soak
 
 ```sh
 ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARCANUM_SMOKE_GAMES=500 \
@@ -66,6 +81,6 @@ ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARC
 
 `ARCANUM_MODULE_PATH` must be absolute. Fix every error it reports; its list of cards never cast shows what the decks never reach.
 
-## 9. Release
+## 10. Release
 
 Bump the module version (and the engine API version when the module needs new engine features), then follow the release workflow.
