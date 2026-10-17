@@ -1,0 +1,26 @@
+{
+  "name": "Solve for Disappointment",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "planeswalker",
+            "battle"
+          ]
+        }
+      },
+      {
+        "empowerJace": 1
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card. Empower Jace 1."
+  }
+}

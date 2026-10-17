@@ -1,0 +1,42 @@
+{
+  "name": "Plan for All Outcomes",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to one other target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target"
+        }
+      ],
+      "text": "When this enchantment enters, the owner of up to one other target nonland permanent puts it on their choice of the top or bottom of their library."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "nth": 1,
+      "effects": [
+        {
+          "empowerJace": 1
+        }
+      ],
+      "text": "Whenever you cast your first noncreature spell each turn, empower Jace 1."
+    }
+  ]
+}

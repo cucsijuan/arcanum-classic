@@ -1,0 +1,28 @@
+{
+  "name": "Rewrite Regrets",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ],
+          "maxManaValue": 6
+        },
+        "text": "target creature or planeswalker card with mana value 6 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "empowerJace": 2
+      }
+    ],
+    "text": "Return target creature or planeswalker card with mana value 6 or less from your graveyard to the battlefield. Empower Jace 2."
+  }
+}

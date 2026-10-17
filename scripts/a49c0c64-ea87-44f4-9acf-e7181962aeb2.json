@@ -1,0 +1,46 @@
+{
+  "name": "Pia, Determined Rebuilder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When Pia enters, create a 1/1 colorless Thopter artifact creature token with flying."
+    },
+    {
+      "cost": "{5}{R}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            },
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{5}{R}: Target creature gets +X/+0 until end of turn, where X is the number of artifacts you control."
+    }
+  ]
+}

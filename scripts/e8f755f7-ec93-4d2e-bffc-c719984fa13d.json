@@ -1,0 +1,31 @@
+{
+  "name": "Stingerquill Voxmancer // Vicious Verse",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "not": "prepared"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Vicious Verse deals 1 damage to target opponent."
+    }
+  }
+}

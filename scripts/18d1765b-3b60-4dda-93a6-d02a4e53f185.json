@@ -1,0 +1,43 @@
+{
+  "name": "Mind Meanderer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "planeswalker"
+            ],
+            "subtype": "Jace"
+          }
+        }
+      },
+      "text": "This creature has vigilance as long as you control a Jace planeswalker."
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "fight": "self",
+          "with": "target"
+        }
+      ],
+      "text": "When this creature enters, it fights up to one target creature an opponent controls."
+    }
+  ]
+}

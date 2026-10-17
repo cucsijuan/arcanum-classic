@@ -1,0 +1,40 @@
+{
+  "name": "Marwyn, the Preserver",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Lands you control have hexproof."
+    },
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{2}: Return target land card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Semester Foreseer // Peer Review",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters, surveil 1."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        },
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1."
+    }
+  }
+}

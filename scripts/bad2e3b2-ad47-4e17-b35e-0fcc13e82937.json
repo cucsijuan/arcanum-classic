@@ -1,0 +1,24 @@
+{
+  "name": "Konstrari Improviser // Soul Tether",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "Create a Heartwood token."
+    }
+  }
+}

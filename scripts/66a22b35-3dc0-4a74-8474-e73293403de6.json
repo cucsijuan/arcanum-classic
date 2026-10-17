@@ -1,0 +1,39 @@
+{
+  "name": "Solitary Cell",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target nonland permanent an opponent controls with mana value 3 or less"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this artifact enters, exile target nonland permanent an opponent controls with mana value 3 or less until this artifact leaves the battlefield."
+    },
+    {
+      "cost": "{1}, {T}, discard",
+      "discardFilter": {
+        "supertype": "legendary"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, {T}, Discard a legendary card: Draw a card."
+    }
+  ]
+}

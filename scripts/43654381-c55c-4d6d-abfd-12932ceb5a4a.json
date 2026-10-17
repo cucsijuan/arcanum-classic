@@ -1,0 +1,29 @@
+{
+  "name": "Silence the Echo",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ]
+        }
+      }
+    },
+    {
+      "mana": "{3}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature or planeswalker."
+  }
+}

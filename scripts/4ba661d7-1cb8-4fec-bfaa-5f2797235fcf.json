@@ -1,0 +1,37 @@
+{
+  "name": "Jiang Yanggu, Never Alone",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Mowu",
+            "types": "Legendary Creature — Dog",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When Jiang Yanggu enters, create Mowu, a legendary 3/3 green Dog creature token."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "token": true,
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, untap all tokens you control."
+    }
+  ]
+}

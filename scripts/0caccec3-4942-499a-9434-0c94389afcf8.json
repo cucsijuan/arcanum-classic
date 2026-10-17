@@ -1,0 +1,39 @@
+{
+  "name": "Surgical Precision",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Destroy target creature with toughness 4 or greater. You gain 1 life.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minToughness": 4
+            },
+            "text": "target creature with toughness 4 or greater"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          },
+          {
+            "gainLife": 1
+          }
+        ]
+      },
+      {
+        "text": "You draw a card and gain 2 life.",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ]
+  }
+}

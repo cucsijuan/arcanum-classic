@@ -1,0 +1,32 @@
+{
+  "name": "Sphinx of False Conclusions",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever this creature attacks, draw a card, then discard a card."
+    },
+    {
+      "trigger": "dies",
+      "if": {
+        "triggered": {
+          "token": false
+        }
+      },
+      "effects": [
+        {
+          "copy": "triggered"
+        }
+      ],
+      "text": "When this creature dies, if it isn't a token, create a token that's a copy of it."
+    }
+  ]
+}
