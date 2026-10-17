@@ -1,0 +1,68 @@
+{
+  "name": "Kiora of Salt and Sand",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "if": "activatedLoyaltyAbilityThisTurn",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever you attack, if you've activated a loyalty ability this turn, untap target attacking creature. It can't be blocked this turn."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-8",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": {
+                  "name": "Leviathan",
+                  "types": "Creature — Leviathan",
+                  "power": 8,
+                  "toughness": 8,
+                  "colors": [
+                    "U"
+                  ],
+                  "keywords": [
+                    "Hexproof"
+                  ]
+                }
+              }
+            ],
+            "text": "−8: Create an 8/8 blue Leviathan creature token with hexproof."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−8]: Create an 8/8 blue Leviathan creature token with hexproof.\""
+    }
+  ]
+}

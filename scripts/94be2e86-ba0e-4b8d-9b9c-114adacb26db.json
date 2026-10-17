@@ -1,0 +1,27 @@
+{
+  "name": "Way of the Mind Sculptor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Mind Sculptor enters, empower Jace 5."
+    },
+    {
+      "trigger": "youActivateLoyaltyAbility",
+      "if": {
+        "atLeast": "triggerAmount",
+        "value": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Master of Barbs",
+  "abilities": [
+    {
+      "trigger": "opponentDealtNoncombatDamage",
+      "batched": true,
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever one or more opponents are dealt noncombat damage, creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

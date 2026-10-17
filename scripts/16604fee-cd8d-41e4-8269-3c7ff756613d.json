@@ -1,0 +1,9 @@
+{
+  "name": "Tomik, Izzet Sparkmage",
+  "damageBonus": {
+    "sources": {},
+    "amount": 1,
+    "noncombat": true,
+    "toOpponents": true
+  }
+}

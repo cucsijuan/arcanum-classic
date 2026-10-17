@@ -1,0 +1,34 @@
+{
+  "name": "Gideon the Oathless",
+  "wardCost": {
+    "discard": 1
+  },
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls enters, Gideon deals 1 damage to that player."
+    },
+    {
+      "trigger": "opponentActivatesLoyaltyAbility",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent activates a loyalty ability, Gideon deals 1 damage to that player."
+    }
+  ]
+}

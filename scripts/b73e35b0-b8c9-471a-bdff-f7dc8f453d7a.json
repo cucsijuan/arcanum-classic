@@ -1,0 +1,32 @@
+{
+  "name": "Recursive Recruitment",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Cadet",
+          "types": "Creature — Wizard Soldier",
+          "power": 2,
+          "toughness": 2,
+          "colors": []
+        }
+      },
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "counters": {
+              "divide": {
+                "graveyard": {}
+              },
+              "by": 3
+            },
+            "what": "created"
+          }
+        ]
+      }
+    ],
+    "text": "Create two 2/2 colorless Wizard Soldier creature tokens named Cadet. If this spell was cast from a graveyard, put a +1/+1 counter on each of them for every three cards in your graveyard."
+  }
+}

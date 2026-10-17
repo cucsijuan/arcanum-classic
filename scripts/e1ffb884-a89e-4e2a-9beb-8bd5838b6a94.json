@@ -1,0 +1,35 @@
+{
+  "name": "Whiplash Wordsmith // Vicious Verse",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "Haste"
+        ],
+        "while": "opponentDealtNoncombatDamageThisTurn"
+      },
+      "text": "As long as an opponent was dealt noncombat damage this turn, this creature has flying and haste."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Vicious Verse deals 1 damage to target opponent."
+    }
+  }
+}

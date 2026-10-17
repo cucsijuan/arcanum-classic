@@ -1,0 +1,10 @@
+{
+  "name": "Tarmogoyf",
+  "powerFrom": "cardTypesInAllGraveyards",
+  "toughnessFrom": {
+    "sum": [
+      "cardTypesInAllGraveyards",
+      1
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Prophesied End",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "attacking": true
+          }
+        },
+        "then": [
+          {
+            "destroy": "target"
+          }
+        ],
+        "else": [
+          {
+            "destroy": "target"
+          },
+          {
+            "draw": 1,
+            "who": "targetController"
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target creature. If it wasn't attacking, its controller draws a card."
+  }
+}

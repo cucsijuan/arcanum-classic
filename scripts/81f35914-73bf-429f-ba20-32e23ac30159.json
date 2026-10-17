@@ -1,0 +1,47 @@
+{
+  "name": "Massacre Girl, Most Wanted",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "planeswalker"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever another creature or planeswalker you control dies, Massacre Girl deals 1 damage to target opponent and you gain 1 life."
+    },
+    {
+      "trigger": "opponentDealtNoncombatDamage",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever an opponent is dealt noncombat damage, put a +1/+1 counter on Massacre Girl."
+    }
+  ]
+}

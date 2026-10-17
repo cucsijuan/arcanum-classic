@@ -1,0 +1,14 @@
+{
+  "name": "Jace's Machinations",
+  "spell": {
+    "effects": [
+      {
+        "loyaltyAtInstantSpeed": "Jace"
+      },
+      {
+        "empowerJace": 8
+      }
+    ],
+    "text": "Until end of turn, you may activate loyalty abilities of Jace planeswalkers you control on any player's turn any time you could cast an instant. Empower Jace 8."
+  }
+}

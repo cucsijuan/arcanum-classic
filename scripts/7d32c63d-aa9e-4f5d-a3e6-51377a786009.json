@@ -1,0 +1,36 @@
+{
+  "name": "Way of the Cryomancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Cryomancer enters, empower Jace 5."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-3",
+            "effects": [
+              {
+                "copyNextInstantOrSorcery": true
+              }
+            ],
+            "text": "−3: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−3]: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\""
+    }
+  ]
+}

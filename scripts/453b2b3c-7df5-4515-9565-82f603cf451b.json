@@ -1,0 +1,21 @@
+{
+  "name": "Ruric Thar, Magecrusher",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ],
+        "while": {
+          "not": "dealtCombatDamage"
+        }
+      },
+      "text": "Ruric Thar has hexproof as long as they haven't dealt combat damage yet."
+    }
+  ]
+}

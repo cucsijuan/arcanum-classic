@@ -1,0 +1,28 @@
+{
+  "name": "Surveillance Phantasm",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can attack as though it didn't have defender"
+        ],
+        "while": "scriedOrSurveilledThisTurn"
+      },
+      "text": "As long as you've scried or surveilled this turn, this creature can attack as though it didn't have defender."
+    },
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{3}{U}: Surveil 1."
+    }
+  ]
+}

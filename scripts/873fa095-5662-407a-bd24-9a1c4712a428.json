@@ -1,0 +1,15 @@
+{
+  "name": "Ruric Thar, Biomagus",
+  "extraProwess": 1,
+  "abilities": [
+    {
+      "trigger": "becomesTarget",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever Ruric Thar becomes the target of a spell or ability an opponent controls, draw a card."
+    }
+  ]
+}

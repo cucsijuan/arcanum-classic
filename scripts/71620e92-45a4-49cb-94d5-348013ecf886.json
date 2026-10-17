@@ -1,0 +1,90 @@
+{
+  "name": "Ajani Unrelenting",
+  "abilities": [
+    {
+      "trigger": "youActivateLoyaltyAbility",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        }
+      ],
+      "text": "Whenever you activate a loyalty ability, create a 2/2 colorless Wizard Soldier creature token named Cadet."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "+1: Creatures you control get +1/+0 and gain haste until end of turn."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "discardHand": "you"
+        },
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "−2: Discard your hand, then draw a card for each creature you control."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "damage": 4,
+          "to": {
+            "each": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ],
+                  "token": false,
+                  "controller": "any"
+                },
+                {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "opponent"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "text": "−3: Ajani deals 4 damage to each creature except for tokens you control."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Inspired Tethermage",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "loyalty",
+      "placedByYou": true,
+      "batched": true,
+      "filter": {
+        "types": [
+          "planeswalker"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you put one or more loyalty counters on a planeswalker, put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{6}",
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "{6}: Empower Jace 2."
+    }
+  ]
+}

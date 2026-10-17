@@ -1,0 +1,25 @@
+{
+  "name": "Saheeli, Consul of Oversight",
+  "abilities": [
+    {
+      "trigger": "youScryOrSurveil",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you scry or surveil, create a 1/1 colorless Thopter artifact creature token with flying. This ability triggers only once each turn."
+    }
+  ]
+}

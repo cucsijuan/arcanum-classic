@@ -1,0 +1,41 @@
+{
+  "name": "Vindictive Triumph",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "maxManaValue": 3
+          }
+        },
+        "then": [
+          {
+            "exile": "target"
+          },
+          {
+            "reanimate": "exiled",
+            "tapped": true
+          },
+          {
+            "atNextEndStepAbout": "enteredThisWay",
+            "effects": [
+              {
+                "exile": "triggered"
+              }
+            ]
+          }
+        ],
+        "else": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Exile target creature or planeswalker. If that permanent's mana value was 3 or less, return it to the battlefield tapped under your control. Exile it at the beginning of the next end step."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Grim Repriser",
+  "abilities": [
+    {
+      "cost": "{B}{R}, fromGraveyard",
+      "activateIf": "opponentDealtNoncombatDamageThisTurn",
+      "effects": [
+        {
+          "reanimate": "self",
+          "counterKinds": [
+            "finality"
+          ]
+        }
+      ],
+      "text": "{B}{R}: Return this card from your graveyard to the battlefield with a finality counter on it. Activate only if an opponent has been dealt noncombat damage this turn."
+    }
+  ]
+}

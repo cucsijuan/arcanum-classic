@@ -1,0 +1,26 @@
+{
+  "name": "Way of the Paradox",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Paradox enters, empower Jace 5."
+    },
+    {
+      "trigger": "youActivateLoyaltyAbility",
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "additionalLand": true
+        }
+      ],
+      "text": "Whenever you activate a loyalty ability, you gain 1 life. You may play an additional land this turn."
+    }
+  ]
+}

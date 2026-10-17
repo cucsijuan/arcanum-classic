@@ -1,0 +1,47 @@
+{
+  "name": "Prudent Fateseer // Peer Review",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "youScryOrSurveil",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you scry or surveil, creatures you control get +1/+0 until end of turn. This ability triggers only once each turn."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        },
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1."
+    }
+  }
+}

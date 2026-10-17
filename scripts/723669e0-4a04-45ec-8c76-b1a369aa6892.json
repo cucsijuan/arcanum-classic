@@ -1,0 +1,48 @@
+{
+  "name": "Budding Insurgent",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "enchantment"
+              ],
+              "supertype": "legendary"
+            }
+          },
+          "then": [
+            {
+              "destroy": "target"
+            },
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Sacrifice this creature: Destroy target artifact or enchantment. If that permanent was a legendary enchantment, draw a card. Activate only as a sorcery."
+    }
+  ]
+}

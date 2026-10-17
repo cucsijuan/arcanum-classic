@@ -1,0 +1,47 @@
+{
+  "name": "Puppet Crafting",
+  "aura": {
+    "kind": "permanent",
+    "filter": {
+      "anyOf": [
+        {
+          "types": [
+            "artifact"
+          ]
+        },
+        {
+          "types": [
+            "enchantment"
+          ],
+          "notSubtype": "Aura"
+        }
+      ]
+    },
+    "text": "artifact or non-Aura enchantment"
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "addTypes": [
+          "creature"
+        ],
+        "addSubtypes": [
+          "Construct"
+        ],
+        "setPower": 5,
+        "setToughness": 5
+      },
+      "text": "Enchanted permanent is a Construct creature with base power and toughness 5/5 in addition to its other types."
+    },
+    {
+      "cost": "{4}{G}, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{4}{G}: Return this card from your graveyard to your hand."
+    }
+  ]
+}

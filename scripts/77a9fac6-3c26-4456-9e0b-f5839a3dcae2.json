@@ -1,0 +1,57 @@
+{
+  "name": "Teyo, Lightshield Expert",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof"
+          ]
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "kind": "loyalty",
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When Teyo enters, target permanent you control gains hexproof until end of turn. Put a +1/+1 counter on it if it's a creature. Put a loyalty counter on it if it's a planeswalker."
+    }
+  ]
+}
