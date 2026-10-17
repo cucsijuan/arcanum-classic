@@ -1,0 +1,12 @@
+{
+  "name": "Haunted Ridge",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "other": true
+    },
+    "count": 2
+  }
+}

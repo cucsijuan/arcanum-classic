@@ -1,0 +1,20 @@
+{
+  "name": "Predictive Preparations",
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "optional": true
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "counters": 1,
+        "what": "eachTarget"
+      }
+    ],
+    "text": "Put a +1/+1 counter on each of one or two target creatures."
+  }
+}

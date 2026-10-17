@@ -1,0 +1,40 @@
+{
+  "name": "Guiding Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "if": {
+            "counters": 1
+          },
+          "then": [
+            {
+              "may": "Remove a +1/+1 counter from this creature to put a +1/+1 counter on each other creature you control?",
+              "effects": [
+                {
+                  "removeCounters": 1,
+                  "what": "self"
+                },
+                {
+                  "counters": 1,
+                  "what": {
+                    "each": {
+                      "types": [
+                        "creature"
+                      ],
+                      "controller": "you",
+                      "other": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may remove a +1/+1 counter from this creature. If you do, put a +1/+1 counter on each other creature you control."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Overgrown Farmland",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "other": true
+    },
+    "count": 2
+  }
+}

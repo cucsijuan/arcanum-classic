@@ -1,0 +1,17 @@
+{
+  "name": "Loyal Tutor",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "reveal": true,
+        "to": "top"
+      }
+    ],
+    "text": "Search your library for a planeswalker card, reveal it, then shuffle and put that card on top."
+  }
+}

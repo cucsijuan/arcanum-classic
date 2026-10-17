@@ -1,0 +1,27 @@
+{
+  "name": "Essence Burn",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creatureOrPlaneswalker",
+        "filter": {
+          "colors": [
+            "B",
+            "G"
+          ]
+        },
+        "text": "target black or green creature or planeswalker"
+      }
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ],
+    "text": "Essence Burn deals 5 damage to target black or green creature or planeswalker. If that permanent would die this turn, exile it instead."
+  }
+}

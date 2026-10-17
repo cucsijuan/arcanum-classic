@@ -1,0 +1,10 @@
+{
+  "name": "Innovative Commons",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Craterclaw Colossus",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            },
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "When this creature enters, creatures you control gain trample and get +X/+0 until end of turn, where X is the number of artifacts you control."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Blessed Ghoul",
+  "abilities": [
+    {
+      "cost": "{2}{W/B}, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{W/B}: Return this card from your graveyard to your hand."
+    }
+  ]
+}

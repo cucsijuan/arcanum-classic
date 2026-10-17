@@ -1,0 +1,25 @@
+{
+  "name": "Generous Revival",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "maxManaValue": 3
+        },
+        "text": "target creature card with mana value 3 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target",
+        "counters": 1
+      }
+    ],
+    "text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield with an additional +1/+1 counter on it."
+  }
+}

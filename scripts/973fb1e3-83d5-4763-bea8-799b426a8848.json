@@ -1,0 +1,21 @@
+{
+  "name": "Extended Absence",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "damage": 1,
+        "to": "opponents"
+      },
+      {
+        "gainLife": 1
+      }
+    ],
+    "text": "Exile target creature or planeswalker. Extended Absence deals 1 damage to each opponent and you gain 1 life."
+  }
+}

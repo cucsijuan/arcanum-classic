@@ -1,0 +1,10 @@
+{
+  "name": "Konstrari Annex",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

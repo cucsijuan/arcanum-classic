@@ -1,0 +1,21 @@
+{
+  "name": "Hexhaven Battalion",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Cadet",
+          "types": "Creature — Wizard Soldier",
+          "power": 2,
+          "toughness": 2,
+          "colors": []
+        }
+      },
+      {
+        "empowerJace": 2
+      }
+    ],
+    "text": "Create three 2/2 colorless Wizard Soldier creature tokens named Cadet. Empower Jace 2."
+  }
+}

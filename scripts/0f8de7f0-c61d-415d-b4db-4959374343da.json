@@ -1,0 +1,39 @@
+{
+  "name": "Denzilore Fatehold",
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you scry or surveil, put a +1/+1 counter on each creature you control."
+    },
+    {
+      "trigger": "youSurveil",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you scry or surveil, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Multiply by Zero",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "power": 0,
+        "toughness": 0
+      }
+    ],
+    "text": "Target creature has base power and toughness 0/0 until end of turn."
+  }
+}

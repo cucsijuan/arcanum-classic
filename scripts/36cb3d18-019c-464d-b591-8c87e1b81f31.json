@@ -1,0 +1,40 @@
+{
+  "name": "Archive Arbiter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Destroy target noncreature, nonland permanent.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "not": [
+                  "creature",
+                  "land"
+                ]
+              },
+              "text": "target noncreature, nonland permanent"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "You gain 4 life.",
+          "effects": [
+            {
+              "gainLife": 4
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one — Destroy target noncreature, nonland permanent; or you gain 4 life."
+    }
+  ]
+}

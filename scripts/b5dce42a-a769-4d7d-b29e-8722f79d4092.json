@@ -1,0 +1,21 @@
+{
+  "name": "Kindred Judgment",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "notChosenType": true
+          }
+        }
+      }
+    ],
+    "text": "Choose a creature type. Destroy all creatures that aren't of the chosen type."
+  }
+}

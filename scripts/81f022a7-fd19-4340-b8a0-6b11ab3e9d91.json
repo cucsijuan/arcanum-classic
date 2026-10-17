@@ -1,0 +1,21 @@
+{
+  "name": "Living Library",
+  "abilities": [
+    {
+      "cost": "{6}, sacrifice",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "opponent",
+          "text": "target creature or planeswalker an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "shuffleIntoLibrary": "target"
+        }
+      ],
+      "text": "{6}, Sacrifice this creature: Choose target creature or planeswalker an opponent controls. Its owner shuffles it into their library."
+    }
+  ]
+}

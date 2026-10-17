@@ -1,0 +1,19 @@
+{
+  "name": "Darklight Phoenix",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "fromGraveyard": true,
+      "if": {
+        "atLeast": "creaturesDiedThisTurn",
+        "value": 2
+      },
+      "effects": [
+        {
+          "reanimate": "self"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield."
+    }
+  ]
+}

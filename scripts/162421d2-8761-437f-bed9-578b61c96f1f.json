@@ -1,0 +1,30 @@
+{
+  "name": "Flickering Hound",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "target"
+        }
+      ],
+      "text": "Whenever you cast a creature spell, exile up to one other target creature you control, then return that card to the battlefield under its owner's control."
+    }
+  ]
+}

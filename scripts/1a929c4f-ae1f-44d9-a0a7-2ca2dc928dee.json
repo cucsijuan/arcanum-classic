@@ -1,0 +1,25 @@
+{
+  "name": "Arni, Renowned Champion",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            "triggeredPower",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature you control enters, Arni gets +X/+0 until end of turn, where X is that creature's power."
+    }
+  ]
+}

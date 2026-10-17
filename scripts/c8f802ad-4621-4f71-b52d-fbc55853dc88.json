@@ -1,0 +1,31 @@
+{
+  "name": "Eye of Jace",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        },
+        {
+          "if": {
+            "graveyard": 7
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            },
+            {
+              "damage": 2,
+              "to": "opponents"
+            },
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1. Then if there are seven or more cards in your graveyard, sacrifice this artifact, it deals 2 damage to each opponent, and you gain 2 life."
+    }
+  ]
+}

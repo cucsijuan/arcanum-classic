@@ -1,0 +1,23 @@
+{
+  "name": "Apex Witchstalker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters or dies, you gain 2 life."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature enters or dies, you gain 2 life."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Primal Witchstalker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "filter": {
+                  "types": [
+                    "land"
+                  ]
+                },
+                "text": "target land card from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "reanimate": "target",
+                "tapped": true
+              }
+            ],
+            "text": "Return target land card from your graveyard to the battlefield tapped."
+          }
+        }
+      ],
+      "text": "When this creature enters, mill four cards. When you do, return target land card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

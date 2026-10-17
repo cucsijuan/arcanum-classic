@@ -1,0 +1,12 @@
+{
+  "name": "Deserted Beach",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "other": true
+    },
+    "count": 2
+  }
+}

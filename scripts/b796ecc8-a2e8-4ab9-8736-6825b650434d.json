@@ -1,0 +1,34 @@
+{
+  "name": "Entrust the Spark",
+  "spell": {
+    "effects": [
+      {
+        "may": "Sacrifice a planeswalker?",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          },
+          {
+            "if": "youSacrificed",
+            "then": [
+              {
+                "search": {
+                  "types": [
+                    "planeswalker"
+                  ]
+                },
+                "to": "battlefield"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "You may sacrifice a planeswalker. If you do, search your library for a planeswalker card, put it onto the battlefield, then shuffle."
+  }
+}

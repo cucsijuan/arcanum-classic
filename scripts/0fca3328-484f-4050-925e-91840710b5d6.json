@@ -1,0 +1,23 @@
+{
+  "name": "Lyra, Archangel of Dawn",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Angel",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on each Angel you control."
+    }
+  ]
+}

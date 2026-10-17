@@ -1,0 +1,14 @@
+{
+  "name": "Marwyn, the Clearcutter",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrificeAny:artifact|land",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice an artifact or land: Draw a card."
+    }
+  ]
+}

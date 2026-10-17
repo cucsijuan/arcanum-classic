@@ -1,0 +1,23 @@
+{
+  "name": "Ghalta the Unstoppable",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "greatestPower"
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control have trample."
+    }
+  ]
+}

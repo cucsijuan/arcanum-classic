@@ -1,0 +1,57 @@
+{
+  "name": "Hunter's Axe",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "chooseEffect": [
+                  {
+                    "text": "Trample",
+                    "effects": [
+                      {
+                        "pump": [
+                          0,
+                          0
+                        ],
+                        "what": "self",
+                        "keywords": [
+                          "Trample"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Deathtouch",
+                    "effects": [
+                      {
+                        "pump": [
+                          0,
+                          0
+                        ],
+                        "what": "self",
+                        "keywords": [
+                          "Deathtouch"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "text": "Whenever this creature attacks, it gains your choice of trample or deathtouch until end of turn."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +2/+0 and has \"Whenever this creature attacks, it gains your choice of trample or deathtouch until end of turn.\""
+    }
+  ]
+}

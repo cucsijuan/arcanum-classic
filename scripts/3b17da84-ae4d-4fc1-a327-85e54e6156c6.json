@@ -1,0 +1,32 @@
+{
+  "name": "Koth, the Geomancer",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        },
+        {
+          "if": {
+            "triggered": {
+              "subtype": "Mountain"
+            }
+          },
+          "then": [
+            {
+              "addMana": "{R}"
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, Koth deals 1 damage to each opponent. If that land is a Mountain, add {R}."
+    }
+  ]
+}

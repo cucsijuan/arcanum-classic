@@ -1,0 +1,32 @@
+{
+  "name": "Eardrum Rattler",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true,
+            "maxPower": 2
+          },
+          "text": "another target creature you control with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Another target creature you control with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

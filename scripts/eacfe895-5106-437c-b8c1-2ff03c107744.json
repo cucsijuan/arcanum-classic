@@ -1,0 +1,29 @@
+{
+  "name": "Medic's Kitesail",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Whenever this creature attacks, you gain 1 life."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 and has flying and \"Whenever this creature attacks, you gain 1 life.\""
+    }
+  ]
+}

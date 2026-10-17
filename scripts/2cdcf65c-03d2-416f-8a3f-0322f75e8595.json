@@ -1,0 +1,21 @@
+{
+  "name": "Heartstring Puller",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 colorless Wizard Soldier creature token named Cadet."
+    }
+  ]
+}

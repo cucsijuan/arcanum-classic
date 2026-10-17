@@ -1,0 +1,28 @@
+{
+  "name": "Pia, Aether Ascetic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to search for an enchantment card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "search": {
+                "types": [
+                  "enchantment"
+                ]
+              },
+              "reveal": true,
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When Pia enters, you may discard a card. If you do, search your library for an enchantment card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

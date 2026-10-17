@@ -1,0 +1,10 @@
+{
+  "name": "Fatehold Annex",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "planeswalker"
+      ]
+    }
+  }
+}

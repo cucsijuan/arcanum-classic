@@ -1,0 +1,23 @@
+{
+  "name": "Frostbite Pyromental",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, draw two cards."
+    },
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "At the beginning of the end step, sacrifice this creature."
+    }
+  ]
+}

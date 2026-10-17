@@ -1,0 +1,29 @@
+{
+  "name": "Awaken the Inferno",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creatureOrPlaneswalker",
+        "controller": "opponent",
+        "text": "target creature or planeswalker an opponent controls"
+      },
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "text": "up to one target creature you control"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ],
+    "text": "Awaken the Inferno deals 6 damage to target creature or planeswalker an opponent controls. Put a +1/+1 counter on up to one target creature you control."
+  }
+}

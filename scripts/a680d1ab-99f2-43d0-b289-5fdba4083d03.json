@@ -1,0 +1,35 @@
+{
+  "name": "Arni, Humble Scribe",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever another nontoken creature you control enters, untap Arni."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "{T}: Draw a card, then discard a card."
+    }
+  ]
+}

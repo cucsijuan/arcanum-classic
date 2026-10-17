@@ -1,0 +1,26 @@
+{
+  "name": "Overwrite the Multiverse",
+  "spell": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "empowerJace": {
+          "exiled": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Exile all creatures. Empower Jace X, where X is the number of creatures exiled this way."
+  }
+}

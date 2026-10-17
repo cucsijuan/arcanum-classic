@@ -1,0 +1,23 @@
+{
+  "name": "Cryotheory Adept",
+  "abilities": [
+    {
+      "cost": "{3}{U}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "stun"
+        }
+      ],
+      "text": "{3}{U}, Exile this card from your graveyard: Tap target creature and put a stun counter on it. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Hexhaven Invigorator",
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "may": "Search your library for up to that many land cards?",
+          "effects": [
+            {
+              "search": {
+                "types": [
+                  "land"
+                ]
+              },
+              "count": "triggerAmount",
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature is dealt damage, you may search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

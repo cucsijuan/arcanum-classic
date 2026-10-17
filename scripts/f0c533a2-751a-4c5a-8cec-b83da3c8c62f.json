@@ -1,0 +1,36 @@
+{
+  "name": "Afterthought Sentry",
+  "abilities": [
+    {
+      "cost": "{2}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{2}: This creature gains flying until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, exile up to one target card from a graveyard."
+    }
+  ]
+}
