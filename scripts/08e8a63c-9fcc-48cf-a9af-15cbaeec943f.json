@@ -1,0 +1,51 @@
+{
+  "name": "Avatar of Burgeoning Echoes",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, empower Jace 2."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-10",
+            "targets": [
+              "creature"
+            ],
+            "effects": [
+              {
+                "counters": {
+                  "count": {
+                    "types": [
+                      "land"
+                    ]
+                  }
+                },
+                "what": "target"
+              }
+            ],
+            "text": "−10: Put a +1/+1 counter on target creature for each land you control."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−10]: Put a +1/+1 counter on target creature for each land you control.\""
+    }
+  ]
+}

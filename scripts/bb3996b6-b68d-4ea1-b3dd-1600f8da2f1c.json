@@ -1,0 +1,53 @@
+{
+  "name": "Fateshaper Aspirant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Return target legendary card from your graveyard to your hand.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "controller": "you",
+              "filter": {
+                "supertype": "legendary"
+              },
+              "text": "target legendary card from your graveyard"
+            }
+          ],
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on target creature. It gains vigilance and indestructible until end of turn.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            },
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Vigilance",
+                "Indestructible"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one — Return target legendary card from your graveyard to your hand; or put a +1/+1 counter on target creature. It gains vigilance and indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Bloombrute",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you gain life, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "cost": "{4}{G}{W}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{4}{G}{W}: Target creature gains trample and lifelink until end of turn."
+    }
+  ]
+}

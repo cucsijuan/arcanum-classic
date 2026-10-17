@@ -1,0 +1,34 @@
+{
+  "name": "Vraska, the Cutting Glare",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 6
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "text": "target permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure",
+          "for": "targetController"
+        }
+      ],
+      "text": "When Vraska enters, if you control six or more lands, destroy target permanent an opponent controls. They create a Treasure token."
+    }
+  ]
+}

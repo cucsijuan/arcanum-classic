@@ -1,0 +1,24 @@
+{
+  "name": "Fatehold Chronologist // Peer Review",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        },
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1."
+    }
+  }
+}

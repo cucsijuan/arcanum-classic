@@ -1,0 +1,50 @@
+{
+  "name": "Icy Reception",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Counter target creature or legendary spell unless its controller pays {3}.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "supertype": "legendary"
+                }
+              ]
+            },
+            "text": "target creature or legendary spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{3}"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -5/-0 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -5,
+              0
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hexhaven Dueling Arena",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attackedThisTurn": true
+          },
+          "text": "target creature that attacked this turn"
+        }
+      ],
+      "effects": [
+        {
+          "becomePrepared": "target"
+        }
+      ],
+      "text": "{2}, {T}: Target creature that attacked this turn becomes prepared. Activate only as a sorcery."
+    },
+    {
+      "cost": "{4}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "becomePrepared": "target"
+        }
+      ],
+      "text": "{4}, {T}: Target creature becomes prepared."
+    }
+  ]
+}

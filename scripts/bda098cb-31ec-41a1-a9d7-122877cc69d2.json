@@ -1,0 +1,55 @@
+{
+  "name": "Ingris Stingerquill",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control attacks, that creature deals 1 damage to each opponent."
+    },
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cadet",
+            "types": "Creature — Wizard Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{4}: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Then creatures you control gain haste until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Edgar, Moonlit Sovereign",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "not": {
+          "atLeast": {
+            "spellsCast": {}
+          },
+          "value": 1
+        }
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if you didn't cast a spell this turn, put two +1/+1 counters on Edgar."
+    },
+    {
+      "cost": "{4}{G}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "hasCounterKind": "+1/+1"
+            }
+          }
+        }
+      ],
+      "text": "{4}{G}: Put a +1/+1 counter on each creature you control with a +1/+1 counter on it."
+    }
+  ]
+}

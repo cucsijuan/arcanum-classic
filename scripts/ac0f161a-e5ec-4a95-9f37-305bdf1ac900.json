@@ -1,0 +1,40 @@
+{
+  "name": "Hapatra, the Desert Frost",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "perPlayer": true,
+          "optional": true,
+          "text": "up to one target creature that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "counters": 1,
+          "what": "eachTarget",
+          "kind": "stun"
+        }
+      ],
+      "text": "When Hapatra enters, for each opponent, tap up to one target creature that player controls. Put a stun counter on each of those creatures."
+    },
+    {
+      "cost": "{2}{U}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{2}{U}: Untap target creature."
+    }
+  ]
+}

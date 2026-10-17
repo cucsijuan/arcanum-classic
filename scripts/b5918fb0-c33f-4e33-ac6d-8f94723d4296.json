@@ -1,0 +1,18 @@
+{
+  "name": "Vinelasher Adept",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, put three +1/+1 counters on target creature."
+    }
+  ]
+}

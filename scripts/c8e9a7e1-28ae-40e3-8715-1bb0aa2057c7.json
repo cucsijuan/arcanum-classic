@@ -1,0 +1,36 @@
+{
+  "name": "Bloodline Recollector // Ancestral Craving",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "atLeast": "creaturesDiedThisTurn",
+        "value": 3
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 3,
+          "who": "target"
+        },
+        {
+          "loseLife": 3,
+          "who": "target"
+        }
+      ],
+      "text": "Target player draws three cards and loses 3 life."
+    }
+  }
+}

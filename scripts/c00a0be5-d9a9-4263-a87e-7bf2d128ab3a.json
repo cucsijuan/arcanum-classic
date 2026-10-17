@@ -1,0 +1,25 @@
+{
+  "name": "Yoshimaru, Beloved Companion",
+  "creaturePlusOneCountersPlusOne": true,
+  "abilities": [
+    {
+      "cost": "{6}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{6}: Put a +1/+1 counter on target legendary creature."
+    }
+  ]
+}

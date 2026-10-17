@@ -1,0 +1,50 @@
+{
+  "name": "Edgar, Ancient Bloodlord",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "planeswalker"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever another creature or planeswalker you control dies, you gain 1 life."
+    },
+    {
+      "cost": "{2}, sacrifice:creature|planeswalker",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{2}, Sacrifice another creature or planeswalker: Put a +1/+1 counter on Edgar. He gains menace until end of turn."
+    }
+  ]
+}

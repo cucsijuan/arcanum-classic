@@ -1,0 +1,41 @@
+{
+  "name": "Gallia, the Merrymaker",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "hasCounterKind": "+1/+1"
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Each other creature you control with a +1/+1 counter on it has haste."
+    },
+    {
+      "cost": "{1}{R}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "enteredThisTurn": true
+          },
+          "text": "target creature that entered this turn"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{1}{R}, {T}: Put a +1/+1 counter on target creature that entered this turn."
+    }
+  ]
+}

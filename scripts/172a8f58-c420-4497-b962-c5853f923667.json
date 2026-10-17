@@ -1,0 +1,75 @@
+{
+  "name": "Aerid Konstrari",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "When Aerid Konstrari enters or dies, create a Heartwood token."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "When Aerid Konstrari enters or dies, create a Heartwood token."
+    },
+    {
+      "cost": "{6}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        },
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            },
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{6}: Create a Heartwood token. Then Aerid Konstrari gets +X/+0 until end of turn, where X is the number of artifacts you control."
+    }
+  ]
+}

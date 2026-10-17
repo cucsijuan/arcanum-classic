@@ -1,0 +1,83 @@
+{
+  "name": "Hungering Puppetbeast",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "When this creature enters, create a Heartwood token."
+    },
+    {
+      "cost": "{1}, sacrifice:artifact",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "chooseEffect": [
+            {
+              "text": "Trample",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Trample"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Hexproof",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Hexproof"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Haste",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Haste"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}, Sacrifice another artifact: Put a +1/+1 counter on this creature. It gains your choice of trample, hexproof, or haste until end of turn."
+    }
+  ]
+}

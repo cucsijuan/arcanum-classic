@@ -1,0 +1,30 @@
+{
+  "name": "Winter, Team Player",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}
