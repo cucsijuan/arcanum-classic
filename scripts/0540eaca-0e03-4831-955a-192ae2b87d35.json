@@ -1,0 +1,46 @@
+{
+  "name": "Lich's Relic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {2}?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "creatureOrPlaneswalker",
+                    "controller": "opponent",
+                    "perPlayer": true,
+                    "optional": true,
+                    "text": "up to one target creature or planeswalker that player controls"
+                  }
+                ],
+                "effects": [
+                  {
+                    "destroy": "eachTarget"
+                  }
+                ],
+                "text": "For each opponent, destroy up to one target creature or planeswalker that player controls."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this Equipment enters, you may pay {2}. When you do, for each opponent, destroy up to one target creature or planeswalker that player controls."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    }
+  ]
+}

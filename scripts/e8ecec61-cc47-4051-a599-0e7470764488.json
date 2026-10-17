@@ -1,0 +1,26 @@
+{
+  "name": "Violent Echoes",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "if": {
+          "atLeast": "excessDamage",
+          "value": 1
+        },
+        "then": [
+          {
+            "empowerJace": "excessDamage"
+          }
+        ]
+      }
+    ],
+    "text": "Violent Echoes deals 6 damage to target creature or planeswalker. If excess damage was dealt to that permanent this way, empower Jace X, where X is that excess damage."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Fatehold Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Draw a card. Empower Jace 2.",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "empowerJace": 2
+          }
+        ]
+      },
+      {
+        "text": "Return target spell or creature to its owner's hand.",
+        "targets": [
+          {
+            "kind": "spellOrPermanent",
+            "filter": {
+              "anyOf": [
+                {
+                  "zone": "Stack"
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              ]
+            },
+            "text": "target spell or creature"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control get +1/+2 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              1,
+              2
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

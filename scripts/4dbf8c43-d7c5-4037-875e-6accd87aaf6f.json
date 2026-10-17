@@ -1,0 +1,31 @@
+{
+  "name": "Identity Echo",
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "you",
+          "text": "target creature or planeswalker you control"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "revealUntil": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "{3}{R}: Exile target creature or planeswalker you control. Reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Activate only as a sorcery."
+    }
+  ]
+}

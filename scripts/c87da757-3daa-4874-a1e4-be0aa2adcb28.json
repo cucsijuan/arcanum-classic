@@ -1,0 +1,50 @@
+{
+  "name": "Yoshimaru, Scrappy Stray",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        },
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true,
+          "text": "up to one target creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "fight": "target",
+          "with": "target2"
+        }
+      ],
+      "text": "When Yoshimaru enters, another target creature you control fights up to one target creature an opponent controls."
+    },
+    {
+      "cost": "{6}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "notSupertype": "legendary"
+          },
+          "text": "target nonlegendary creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{6}: Put a +1/+1 counter on target nonlegendary creature."
+    }
+  ]
+}
