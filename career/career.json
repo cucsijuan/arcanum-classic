@@ -214,7 +214,11 @@
     { "deck": "fdc-reign-of-dragons", "price": 1500 }, { "deck": "fdc-tramplesaurus-rex", "price": 1500 }
   ],
 
-  // The store's calendar (UTC days). "when": a weekday, or "lastSunday" (the last Sunday of the month). Kinds: draft,
+  // The store's calendar (UTC days). "when": a weekday, a weekday of the month ("firstFriday", "thirdSaturday",
+  // "lastSunday"…) or a date; "months" limits it to those months, "days" makes it run several days from then. Big events:
+  // "playersMax" (attendance drawn between "players" and it), "rounds": 0 (Swiss rounds by attendance), "cutAfter" and
+  // "cutPoints" (a cut by record), "topCut" (a single-elimination playoff), "invitational" (only players a prize with
+  // "qualifies": its id invited; "minPlayers" on a prize: only with that attendance). Kinds: draft,
   // constructed (a career deck) and commander (a career Commander deck; pods of "players" play "rounds" games against
   // computer players bringing the "decks" listed; prizes by games won). Prizes: the first
   // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
@@ -273,6 +277,38 @@
         { "place": 4, "cash": 4000, "boosters": 2, "reputation": 10 },
         { "place": 8, "cash": 1500, "boosters": 1, "reputation": 5 },
         { "reputation": 3 }
+      ]
+    },
+    {
+      // The circuit's first step: the first weekend of every month, Friday to Sunday (the rounds can be played on any of
+      // the three days). Swiss rounds by attendance (16 to 64 players), best of three, then a top 8. The winner (and the
+      // finalist when 33 or more played) is invited to the next regional championship.
+      "id": "regional-qualifier", "name": "Regional qualifier", "when": "firstFriday", "days": 3, "kind": "constructed", "format": "standard",
+      "players": 16, "playersMax": 64, "rounds": 0, "bestOf": 3, "topCut": 8, "entry": 4000,
+      "prizes": [
+        { "place": 1, "cash": 25000, "boosters": 6, "reputation": 40, "qualifies": "regional-championship" },
+        { "place": 2, "minPlayers": 33, "cash": 12000, "boosters": 4, "reputation": 25, "qualifies": "regional-championship" },
+        { "place": 2, "cash": 12000, "boosters": 4, "reputation": 25 },
+        { "place": 4, "cash": 6000, "boosters": 3, "reputation": 15 },
+        { "place": 8, "cash": 3000, "boosters": 2, "reputation": 10 },
+        { "reputation": 4 }
+      ]
+    },
+    {
+      // Once a quarter, the third weekend of its last month (after that month's qualifier), Saturday and Sunday: by
+      // invitation. 14 Swiss rounds, best of three; after round 8 (day 1) only the players with 18 points (6-2) or better
+      // play on; then a top 8.
+      "id": "regional-championship", "name": "Regional championship", "when": "thirdSaturday", "months": [3, 6, 9, 12], "days": 2,
+      "kind": "constructed", "format": "standard", "invitational": true,
+      "players": 128, "playersMax": 256, "rounds": 14, "cutAfter": 8, "cutPoints": 18, "bestOf": 3, "topCut": 8, "entry": 7500,
+      "prizes": [
+        { "place": 1, "cash": 150000, "boosters": 24, "reputation": 150 },
+        { "place": 2, "cash": 80000, "boosters": 12, "reputation": 100 },
+        { "place": 4, "cash": 40000, "boosters": 8, "reputation": 70 },
+        { "place": 8, "cash": 20000, "boosters": 6, "reputation": 50 },
+        { "place": 16, "cash": 10000, "boosters": 4, "reputation": 35 },
+        { "place": 32, "cash": 5000, "boosters": 2, "reputation": 25 },
+        { "reputation": 10 }
       ]
     }
   ],
