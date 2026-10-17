@@ -1,0 +1,13 @@
+{
+  "name": "Inspiring Statuary",
+  "abilities": [
+    {
+      "spellsHaveImprovise": {
+        "not": [
+          "artifact"
+        ]
+      },
+      "text": "Nonartifact spells you cast have improvise."
+    }
+  ]
+}

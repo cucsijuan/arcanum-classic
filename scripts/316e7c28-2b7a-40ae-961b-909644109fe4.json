@@ -1,0 +1,28 @@
+{
+  "name": "Strago and Relm",
+  "abilities": [
+    {
+      "cost": "{2}{R}, {T}",
+      "sorcery": true,
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "revealUntil": {
+            "types": [
+              "instant",
+              "sorcery",
+              "creature"
+            ]
+          },
+          "from": "target",
+          "castFree": true,
+          "rest": "exile",
+          "creatureHasteAndSacrifice": true
+        }
+      ],
+      "text": "Sketch and Lore — {2}{R}, {T}: Target opponent exiles cards from the top of their library until they exile an instant, sorcery, or creature card. You may cast that card without paying its mana cost. If you cast a creature spell this way, it gains haste and \"At the beginning of the end step, sacrifice this creature.\" Activate only as a sorcery."
+    }
+  ]
+}

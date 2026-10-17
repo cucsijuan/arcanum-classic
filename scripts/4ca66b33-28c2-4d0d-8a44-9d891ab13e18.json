@@ -1,0 +1,22 @@
+{
+  "name": "Professor Hojo",
+  "abilities": [
+    {
+      "abilityCost": {
+        "firstTargetingYourCreatureOnYourTurn": true,
+        "amount": 2
+      },
+      "text": "The first activated ability you activate during your turn that targets a creature you control costs {2} less to activate."
+    },
+    {
+      "trigger": "creaturesTargetedByActivatedAbility",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more creatures you control become the target of an activated ability, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

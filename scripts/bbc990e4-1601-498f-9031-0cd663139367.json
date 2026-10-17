@@ -1,0 +1,48 @@
+{
+  "name": "Duelist's Flame",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "filter": {
+          "blocked": true
+        }
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          "X",
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      {
+        "become": "target",
+        "abilities": [
+          {
+            "trigger": "combatDamageToPlayer",
+            "effects": [
+              {
+                "lookAtTop": "triggerAmount",
+                "filter": {
+                  "not": [
+                    "land"
+                  ]
+                },
+                "take": 1,
+                "to": "exile",
+                "castFree": true
+              }
+            ],
+            "text": "Whenever this creature deals combat damage to a player, look at that many cards from the top of your library. Exile up to one nonland card from among them and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Promise of Loyalty",
+  "spell": {
+    "effects": [
+      {
+        "sacrificeAllBut": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "who": "everyone",
+        "exactly": true,
+        "putCounter": "vow",
+        "keptCantAttackYou": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Flash Photography",
+  "flashIfTargets": {
+    "controller": "you"
+  },
+  "spell": {
+    "targets": [
+      "permanent"
+    ],
+    "effects": [
+      {
+        "copy": "target"
+      }
+    ]
+  }
+}

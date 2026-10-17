@@ -1,0 +1,26 @@
+{
+  "name": "Judgment of Alexander",
+  "spell": {
+    "effects": [
+      {
+        "preventDamage": "toYou",
+        "fromOpponents": true,
+        "whenCreatureDamagePrevented": [
+          {
+            "eachDealsDamageEqualToPower": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "commander": true
+              }
+            },
+            "to": "triggered"
+          }
+        ],
+        "whenPreventedText": "Whenever damage from a creature is prevented this way, each commander creature you control deals damage equal to its power to that creature."
+      }
+    ]
+  }
+}

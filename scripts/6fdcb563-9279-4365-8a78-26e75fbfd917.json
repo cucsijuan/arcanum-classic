@@ -1,0 +1,46 @@
+{
+  "name": "Gogo, Mysterious Mime",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "may": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "other": true
+        }
+      ],
+      "effects": [
+        {
+          "becomeCopy": "self",
+          "target": "target",
+          "exceptName": "Gogo, Mysterious Mime"
+        },
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Haste",
+            "AttacksEachCombat"
+          ]
+        },
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste",
+            "AttacksEachCombat"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may have Gogo become a copy of another target creature you control until end of turn, except its name is Gogo, Mysterious Mime. If you do, Gogo and that creature each get +2/+0 and gain haste until end of turn and attack this turn if able."
+    }
+  ]
+}

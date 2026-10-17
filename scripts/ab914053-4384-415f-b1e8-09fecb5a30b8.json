@@ -1,0 +1,48 @@
+{
+  "name": "Garland, Royal Kidnapper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "becomeMonarch": "target"
+        }
+      ],
+      "text": "When Garland enters, target opponent becomes the monarch."
+    },
+    {
+      "trigger": "opponentBecomesMonarch",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "controlledByTriggeredPlayer": true
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileTriggeredPlayerIsMonarch": true
+        }
+      ],
+      "text": "Whenever an opponent becomes the monarch, gain control of target creature that player controls for as long as they're the monarch."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "notOwnedByYou": true
+        },
+        "pump": [
+          2,
+          2
+        ],
+        "cantBeSacrificed": true
+      },
+      "text": "Creatures you control but don't own get +2/+2 and can't be sacrificed."
+    }
+  ]
+}

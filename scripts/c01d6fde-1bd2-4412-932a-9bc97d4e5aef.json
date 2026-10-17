@@ -1,0 +1,19 @@
+{
+  "name": "Gatta and Luzzu",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "preventDamage": true,
+          "to": "target",
+          "putCounters": true
+        }
+      ],
+      "text": "When Gatta and Luzzu enters, choose target creature you control. If damage would be dealt to that creature this turn, prevent that damage and put that many +1/+1 counters on it."
+    }
+  ]
+}
