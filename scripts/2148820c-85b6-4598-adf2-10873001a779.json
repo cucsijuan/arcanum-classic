@@ -1,0 +1,85 @@
+{
+  "name": "Summon: Good King Mog XII",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Moogle",
+            "types": "Creature — Moogle",
+            "power": 1,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        }
+      ],
+      "text": "I — Create two 1/2 white Moogle creature tokens with lifelink."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3
+      ],
+      "effects": [
+        {
+          "emblem": "Good King Mog XII",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "castSpell",
+              "filter": {
+                "not": [
+                  "creature"
+                ]
+              },
+              "effects": [
+                {
+                  "choose": {
+                    "token": true,
+                    "notSubtype": "Saga",
+                    "controller": "you"
+                  }
+                },
+                {
+                  "copy": "chosen"
+                }
+              ],
+              "text": "Whenever you cast a noncreature spell this turn, create a token that's a copy of a non-Saga token you control."
+            }
+          ]
+        }
+      ],
+      "text": "II, III — Whenever you cast a noncreature spell this turn, create a token that's a copy of a non-Saga token you control."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        4
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": {
+            "each": {
+              "subtype": "Moogle",
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "IV — Put two +1/+1 counters on each other Moogle you control."
+    }
+  ]
+}

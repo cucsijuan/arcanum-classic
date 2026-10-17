@@ -1,0 +1,46 @@
+{
+  "name": "Hildibrand Manderville // Gentleman's Rise",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Creature tokens you control get +1/+1."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "adventureFromGraveyardUntilYourNextTurn": "self"
+        }
+      ],
+      "text": "When Hildibrand Manderville dies, you may cast it from your graveyard as an Adventure until the end of your next turn."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Create a 2/2 black Zombie creature token."
+    }
+  }
+}

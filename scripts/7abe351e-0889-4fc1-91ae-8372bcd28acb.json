@@ -1,0 +1,46 @@
+{
+  "name": "Noctis, Heir Apparent",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": "duringCombat",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          }
+        },
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "may": "Attach that Equipment to that creature?",
+          "effects": [
+            {
+              "attach": "target",
+              "to": "target2"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control enters during combat, you may attach target Equipment you control to target creature you control."
+    },
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "warpStrike": "self"
+        }
+      ],
+      "text": "Warp-Strike — {3}: Exile Noctis. Return it to the battlefield under its owner's control tapped and attacking at the beginning of that player's next declare attackers step. It can't be blocked that combat."
+    }
+  ]
+}

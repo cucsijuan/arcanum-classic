@@ -1,11 +1,12 @@
 # fic (commander decks of the heroes set): progress
 
-Status 2026-10-15: work in progress on branch `fic-wip` of this repository and branch `fic` of the engine repository (both pushed).
+Status 2026-10-17: all 339 cards are supported. Work continues on branch `fic-wip` of this repository and branch `fic` of the engine
+repository.
 
 ## Done
 
-- 339 cards in the set. 322 are fully supported by the support dump (SupportDump) after this work. 17 still need work (list below).
-  Two adventure cards, Hypnotic Sprite and Murderous Rider, are supported; a naive count by face name may list them.
+- 339 cards in the set. All 339 are fully supported by the support dump (SupportDump). The three adventure cards (Hypnotic Sprite and
+  Murderous Rider among them) appear under their front-face name, so a naive count by face name may list them.
 - About 170 new card scripts, plus fixes to the 52 earlier work-in-progress scripts. Several of those were silently wrong, because the
   script parser ignores keys it doesn't know. The fixed cards are Cait Sith, Cyan, Archfiend of Depravity, Collective Effort, Banon,
   Alisaie, Blue Mage's Cane, Celes, Dig Through Time, Archaeomancer's Map, Conqueror's Flail and Edgar.
@@ -13,34 +14,8 @@ Status 2026-10-15: work in progress on branch `fic-wip` of this repository and b
   - New keywords: Intimidate, Melee, Evolve, Training, Convoke, Unearth, Rebound, Blitz, Foretell.
   - New keyword actions: Support, Adapt, Monstrosity, Explore, Connive.
   - Shield counters, for damage prevention and destroy-by-effect only.
-  - Many new script vocabulary items (see the engine docs once documented).
-- Engine tests: 829 pass, 88 of them in `HeroesCommanderTests` for these features.
-
-## Still to do (cards)
-
-The 17 cards that are not yet supported:
-
-- Duelist's Flame
-- Flash Photography
-- Garland Royal Kidnapper
-- Gatta and Luzzu
-- Gogo Mysterious Mime
-- Hildibrand Manderville // Gentleman's Rise
-- Inspiring Statuary
-- Judgment of Alexander
-- Kimahri Valiant Guardian
-- Noctis Heir Apparent
-- Professor Hojo
-- Promise of Loyalty
-- Sephiroth Fallen Hero
-- Strago and Relm
-- Summon: Esper Valigarmanda
-- Summon: Good King Mog XII
-- Urianger Augurelt
-
-Each needs an engine feature: copy-become effects, monarch triggers, damage-prevention replacements, cast-as-adventure from the
-graveyard, granting improvise, vow counters with an attack restriction, warp-strike, "cast as though it had flash if it targets",
-delayed per-turn copy triggers, and linked exile play permissions.
+  - The new script vocabulary is documented in the engine docs (`card-scripts.md`, "Commander decks of the heroes set"; `engine-map.md`).
+- Engine tests: 861 pass. Data tests: 236 pass.
 
 ## Still to do (set)
 
@@ -51,7 +26,6 @@ delayed per-turn copy triggers, and linked exile play permissions.
   they are sold separately.
 - Career store: price like the other full commander precons, 45.00. Then commander night.
 - The FIN Collector Booster, which holds fic cards, after fic is complete.
-- Engine docs (`card-scripts.md`, `engine-map.md`) for the new vocabulary.
 - Module manifest and apiVersion bump, and the release, only when asked.
 
 ## Notes for whoever continues

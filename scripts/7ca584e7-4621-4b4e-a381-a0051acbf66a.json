@@ -1,0 +1,49 @@
+{
+  "name": "Urianger Augurelt",
+  "abilities": [
+    {
+      "trigger": "youPlayLand",
+      "filter": {
+        "fromExile": true
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever you play a land from exile or cast a spell from exile, you gain 2 life."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "fromExile": true
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever you play a land from exile or cast a spell from exile, you gain 2 life."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "exileTopFaceDown": "you",
+          "optional": true
+        }
+      ],
+      "text": "Draw Arcanum — {T}: Look at the top card of your library. You may exile it face down."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "playExiledWithThisThisTurn": true,
+          "costLess": 2
+        }
+      ],
+      "text": "Play Arcanum — {T}: Until end of turn, you may play cards exiled with Urianger Augurelt. Spells you cast this way cost {2} less to cast."
+    }
+  ]
+}

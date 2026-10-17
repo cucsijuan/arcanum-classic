@@ -1,0 +1,49 @@
+{
+  "name": "Summon: Esper Valigarmanda",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "exileOneFromEachGraveyard": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        }
+      ],
+      "text": "I — Exile an instant or sorcery card from each graveyard."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3,
+        4
+      ],
+      "effects": [
+        {
+          "addMana": "{R}",
+          "times": {
+            "counters": "lore"
+          }
+        },
+        {
+          "castExiledNow": "exiledWithThis",
+          "oneOf": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "anyMana": true
+        }
+      ],
+      "text": "II, III, IV — Add {R} for each lore counter on this Saga. You may cast an instant or sorcery card exiled with this Saga, and mana of any type can be spent to cast that spell."
+    }
+  ]
+}

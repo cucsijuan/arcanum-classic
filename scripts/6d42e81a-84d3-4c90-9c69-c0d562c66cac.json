@@ -1,0 +1,36 @@
+{
+  "name": "Kimahri, Valiant Guardian",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "tap": "target"
+        },
+        {
+          "may": "Have Kimahri become a copy of that creature?",
+          "effects": [
+            {
+              "becomeCopy": "self",
+              "target": "target",
+              "exceptName": "Kimahri, Valiant Guardian",
+              "lasting": true,
+              "keywords": [
+                "Vigilance"
+              ],
+              "keepThisAbility": true
+            }
+          ]
+        }
+      ],
+      "text": "Ronso Rage — At the beginning of combat on your turn, put a +1/+1 counter on Kimahri and tap target creature an opponent controls. Then you may have Kimahri become a copy of that creature, except its name is Kimahri, Valiant Guardian and it has vigilance and this ability."
+    }
+  ]
+}
