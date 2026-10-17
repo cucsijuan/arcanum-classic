@@ -31,7 +31,8 @@ by how many new mechanics the candidate needs (the cost); *run* / *script only* 
   importer (`CardFactory.SupportedKeywords`, dumped by SupportDump) nor listed in `tools/engine-mechanics.txt`.
 - Ability words (Landfall, Raid, Domain…) have no rules of their own, so they never block: a card with one needs a script.
 - "Script only" doesn't mean the script vocabulary already has every effect the card uses; it's the cheap part, not free.
-- Double-faced cards show up as the `Transform` keyword (and Daybound/Nightbound, Disturb, Meld…).
+- Double-faced cards show up as the `Transform` keyword (and Daybound/Nightbound, Disturb, Meld…). Two-faced and adventure
+  cards are matched by their front face's name in the dump; a meld back face isn't a card of its own, so it never counts.
 
 ## Keeping it right
 

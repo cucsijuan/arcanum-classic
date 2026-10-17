@@ -1,0 +1,15 @@
+{
+  "name": "Campus Crier",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, exileFromGraveyard",
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "{1}, Exile this card from your graveyard: Empower Jace 2."
+    }
+  ]
+}

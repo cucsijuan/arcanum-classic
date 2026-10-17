@@ -1,0 +1,16 @@
+{
+  "name": "Geist of Saint Thalia",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "not": [
+            "creature"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Noncreature spells you cast cost {1} less to cast."
+    }
+  ]
+}

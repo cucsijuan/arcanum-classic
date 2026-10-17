@@ -30,7 +30,10 @@ def load(cards_path, dump):
     global set_types
     for line in gzip.open(cards_path, "rt"):
         c = json.loads(line)
-        if support.get(c["name"]) == "Full":
+        # The dump keys a two-faced or adventure card by its front face; a meld back face isn't a card of its own.
+        status = support.get(c["name"], support.get(c["name"].split(" // ")[0]))
+        if status is None and c.get("layout") == "meld": continue
+        if status == "Full":
             missing = None  # runs already
         else:
             missing = frozenset(k for k in c.get("keywords", []) if k.lower() not in known and k.lower() not in ABILITY_WORDS)

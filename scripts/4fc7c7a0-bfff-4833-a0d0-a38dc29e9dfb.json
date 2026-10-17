@@ -1,0 +1,32 @@
+{
+  "name": "Skilled Battlecarver",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, this creature has first strike."
+    },
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

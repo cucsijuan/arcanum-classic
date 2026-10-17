@@ -1,0 +1,14 @@
+{
+  "name": "Protege's Awakening",
+  "generated": true,
+  "spell": {
+    "effects": [
+      {
+        "empowerJace": 6
+      },
+      {
+        "draw": 1
+      }
+    ]
+  }
+}

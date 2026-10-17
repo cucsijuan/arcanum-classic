@@ -1,0 +1,29 @@
+{
+  "name": "Hallway Heckler // Vicious Verse",
+  "generated": true,
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "cost": "{T}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Discard a card: Draw a card."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ]
+    }
+  }
+}

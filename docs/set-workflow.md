@@ -24,7 +24,8 @@ front face's name.
 
 ## 3. Scripts
 
-- `tools/generate_scripts.py "$CARDS"` writes scripts for cards with fixed phrasings (`"generated": true`).
+- `tools/generate_scripts.py "$CARDS"` writes scripts for cards with fixed phrasings (`"generated": true`), including preparation
+  cards, "This creature enters prepared" and "Empower Jace N". A script with comments is hand-written and is never overwritten.
 - `tools/set_triage.py "$CARDS" /tmp/plan <code> --out triage.md` reports the cards that still need scripts: those blocked by something
   besides the script, grouped by reason, then script-only cards, fewest new lines first. Each rules line is marked `=` (a script has
   it), `≈` (same wording, other numbers or mana), `+` (a keyword) or `·` (new), with the reference script. `--write` also copies scripts

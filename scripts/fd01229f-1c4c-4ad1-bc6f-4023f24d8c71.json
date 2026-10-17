@@ -1,0 +1,25 @@
+{
+  "name": "Cheerful Osteomancer // Raise Dead",
+  "generated": true,
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ]
+    }
+  }
+}

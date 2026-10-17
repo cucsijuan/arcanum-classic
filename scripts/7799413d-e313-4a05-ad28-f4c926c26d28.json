@@ -1,0 +1,33 @@
+{
+  "name": "Vraska's Final Mercy",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "You lose 2 life. Destroy target creature or planeswalker.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "loseLife": 2
+          },
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "You lose 2 life. Empower Jace 6.",
+        "effects": [
+          {
+            "loseLife": 2
+          },
+          {
+            "empowerJace": 6
+          }
+        ]
+      }
+    ]
+  }
+}

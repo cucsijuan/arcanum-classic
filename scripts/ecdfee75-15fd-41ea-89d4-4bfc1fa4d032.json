@@ -1,0 +1,15 @@
+{
+  "name": "Keeper of the Quiet Hour",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "When this creature enters, empower Jace 2."
+    }
+  ]
+}

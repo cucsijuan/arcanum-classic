@@ -1,0 +1,15 @@
+{
+  "name": "Goblin Glasswright // Craft with Pride",
+  "generated": true,
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ]
+    }
+  }
+}

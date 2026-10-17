@@ -26,7 +26,7 @@ ENGINE_KEYWORDS = {
     "kicker", "flashback", "ward", "changeling", "hexproof from", "loyalty",
     "equip", "enchant",  # derived from rules text by the engine's card factory
     # keyword actions and ability words: they label rules text the script spells out
-    "scry", "surveil", "fight", "mill", "treasure", "food", "investigate",
+    "scry", "surveil", "fight", "mill", "treasure", "food", "investigate", "empower jace", "prepared",
     "raid", "landfall", "morbid", "threshold", "ferocious", "affinity", "double", "formidable", "alliance", "crew", "protection", "vivid",
     "storied", "amass", "recruit", "gift", "behold",
     "ascend", "cascade", "shadow", "landwalk", "islandwalk", "swampwalk", "forestwalk", "mountainwalk", "plainswalk",
@@ -423,6 +423,9 @@ def effect(sentence, b):
         return [{m.group(1).lower(): int(m.group(2))}]
     if s == "Investigate":
         return [{"tokens": 1, "token": "Clue"}]
+    m = re.fullmatch(r"[Ee]mpower Jace (\d+)", s)
+    if m:
+        return [{"empowerJace": int(m.group(1))}]
     m = re.fullmatch(r"Create (\w+) (Treasure|Food|Clue) tokens?", s)
     if m:
         return [{"tokens": num(m.group(1)), "token": m.group(2)}]
@@ -787,6 +790,8 @@ def card_flag(line):
     """Card-wide rules written as a single line: returns script fields, or None."""
     if line == "This spell can't be countered":
         return {"uncounterable": True}
+    if line in ("This creature enters prepared", "CARDNAME enters prepared"):
+        return {"entersPrepared": True}
     if line in ("This creature attacks each combat if able", "CARDNAME attacks each combat if able"):
         return {"attacksEachCombat": True}
     if line in ("This creature doesn't untap during your untap step", "CARDNAME doesn't untap during your untap step"):
@@ -919,6 +924,18 @@ def modes_of(count, up_to, bullets, name):
 
 
 def generate(card):
+    if card.get("layout") == "prepare" and len(card.get("card_faces", [])) == 2:
+        # A preparation card: the creature face, with its prepare spell under "prepare".
+        def face(f):
+            text = f.get("oracle_text", "").lower()
+            return {**card, **f, "layout": "normal", "keywords": [k for k in card.get("keywords", []) if k.lower() in text]}
+        creature, spell = (face(f) for f in card["card_faces"])
+        script = generate(creature)
+        prepare = generate(spell)
+        if "spell" not in prepare:
+            raise Unsupported("prepare spell")
+        script["prepare"] = prepare
+        return script
     if card.get("layout") not in SINGLE_FACE:
         raise Unsupported("layout")
     for k in card.get("keywords", []):
@@ -1076,7 +1093,11 @@ def main():
             path = os.path.join(SCRIPTS, card["oracle_id"] + ".json")
             if os.path.exists(path):
                 with open(path, encoding="utf-8") as existing:
-                    if not json.load(existing).get("generated"):
+                    try:
+                        hand_written = not json.load(existing).get("generated")
+                    except json.JSONDecodeError:
+                        hand_written = True  # comments: only hand-written scripts have them
+                    if hand_written:
                         continue  # hand-written: never overwrite
             try:
                 script = generate(card)

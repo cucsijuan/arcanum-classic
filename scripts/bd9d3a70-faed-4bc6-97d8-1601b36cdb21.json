@@ -1,0 +1,24 @@
+{
+  "name": "Quill-Blade Laureate // Twofold Intent",
+  "generated": true,
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ]
+    }
+  }
+}

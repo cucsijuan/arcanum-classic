@@ -1,0 +1,14 @@
+{
+  "name": "Landscape Painter // Vibrant Idea",
+  "generated": true,
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "draw": 2
+        }
+      ]
+    }
+  }
+}
