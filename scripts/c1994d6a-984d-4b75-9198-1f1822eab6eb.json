@@ -1,0 +1,26 @@
+{
+  "name": "Wrath of the Bloodmane",
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "types": [
+          "creature"
+        ],
+        "supertype": "legendary"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ],
+    "text": "Wrath of the Bloodmane deals 4 damage to target creature or planeswalker."
+  }
+}

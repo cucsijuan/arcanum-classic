@@ -1,0 +1,58 @@
+{
+  "name": "Winter, Tormented Loner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Sacrifice a creature or planeswalker?",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "creature",
+                  "planeswalker"
+                ]
+              }
+            },
+            {
+              "whenYouDo": {
+                "effects": [
+                  {
+                    "sacrifice": 1,
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ]
+                    },
+                    "who": "opponents"
+                  }
+                ],
+                "text": "Each opponent sacrifices a creature of their choice."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When Winter enters, you may sacrifice a creature or planeswalker. When you do, each opponent sacrifices a creature of their choice."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyard": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ]
+            }
+          },
+          0
+        ]
+      },
+      "text": "Winter gets +1/+0 for each creature and planeswalker card in your graveyard."
+    }
+  ]
+}

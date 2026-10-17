@@ -1,0 +1,34 @@
+{
+  "name": "The Echoverse Fulcrum",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When The Echoverse Fulcrum enters, draw a card, then discard a card."
+    },
+    {
+      "cost": "{5}, {T}, exile",
+      "sorcery": true,
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{5}, {T}, Exile The Echoverse Fulcrum: Destroy all creatures. Activate only as a sorcery."
+    }
+  ]
+}

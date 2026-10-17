@@ -1,0 +1,47 @@
+{
+  "name": "Craftwork Crusher",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "modes": [
+        {
+          "text": "This creature deals 4 damage to target creature or planeswalker.",
+          "targets": [
+            "creatureOrPlaneswalker"
+          ],
+          "effects": [
+            {
+              "damage": 4,
+              "to": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a 2/2 colorless Wizard Soldier creature token named Cadet.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Cadet",
+                "types": "Creature — Wizard Soldier",
+                "power": 2,
+                "toughness": 2,
+                "colors": []
+              }
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose two — This creature deals 4 damage to target creature or planeswalker; create a 2/2 colorless Wizard Soldier creature token named Cadet; draw a card."
+    }
+  ]
+}

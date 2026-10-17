@@ -1,0 +1,55 @@
+{
+  "name": "Diviner of Victory // Unwind History",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "youScry",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you scry or surveil, this creature gets +1/+1 until end of turn."
+    },
+    {
+      "trigger": "youSurveil",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you scry or surveil, this creature gets +1/+1 until end of turn."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "maxManaValue": 3
+          },
+          "text": "target creature an opponent controls with mana value 3 or less"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Return target creature an opponent controls with mana value 3 or less to its owner's hand. Surveil 1."
+    }
+  }
+}

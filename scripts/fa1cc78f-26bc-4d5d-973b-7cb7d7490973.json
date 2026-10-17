@@ -1,0 +1,25 @@
+{
+  "name": "Twinned Vision",
+  "flashback": "{1}{U/R}{U/R}",
+  "flashbackExtra": {
+    "discard": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "if": "castFromHand",
+        "then": [
+          {
+            "draw": 1
+          }
+        ],
+        "else": [
+          {
+            "draw": 2
+          }
+        ]
+      }
+    ],
+    "text": "Draw a card. If this spell wasn't cast from your hand, draw two cards instead."
+  }
+}

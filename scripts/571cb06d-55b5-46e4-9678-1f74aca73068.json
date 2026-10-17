@@ -1,0 +1,53 @@
+{
+  "name": "Tenured Tethermage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Sacrifice a land to create two tapped Heartwood tokens?",
+          "effects": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            {
+              "if": "youSacrificed",
+              "then": [
+                {
+                  "tokens": 2,
+                  "tapped": true,
+                  "token": {
+                    "name": "Heartwood",
+                    "types": "Artifact — Heartwood",
+                    "colors": [
+                      "G",
+                      "R"
+                    ],
+                    "tapForMana": "{R}{G}",
+                    "text": "{T}: Add {R} or {G}."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may sacrifice a land. If you do, create two tapped Heartwood tokens."
+    },
+    {
+      "cost": "tapPermanents:2:artifact",
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "Tap two untapped artifacts you control: Put two +1/+1 counters on this creature."
+    }
+  ]
+}

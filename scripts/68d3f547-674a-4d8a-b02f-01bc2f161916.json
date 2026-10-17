@@ -1,0 +1,36 @@
+{
+  "name": "Way of the Pyromancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "When Way of the Pyromancer enters, empower Jace 2."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "+1",
+            "effects": [
+              {
+                "addMana": "{R}"
+              }
+            ],
+            "text": "+1: Add {R}."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[+1]: Add {R}.\""
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Traxos, Scourge Eternal",
+  "doesntUntap": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "artifact",
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever you cast an artifact or creature spell, untap Traxos."
+    }
+  ]
+}

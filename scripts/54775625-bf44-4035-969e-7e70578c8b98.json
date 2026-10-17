@@ -1,0 +1,66 @@
+{
+  "name": "Way of the Deathbringer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Deathbringer enters, empower Jace 5."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-2",
+            "effects": [
+              {
+                "may": "Sacrifice a creature?",
+                "effects": [
+                  {
+                    "sacrifice": 1,
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ]
+                    }
+                  },
+                  {
+                    "if": "youSacrificed",
+                    "then": [
+                      {
+                        "tokens": 1,
+                        "token": {
+                          "name": "Beast",
+                          "types": "Creature — Beast",
+                          "power": 4,
+                          "toughness": 4,
+                          "colors": [
+                            "G"
+                          ],
+                          "keywords": [
+                            "Trample"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "text": "−2: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−2]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample.\""
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Carnivorous Cultivator // Enroot",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, return target land card from your graveyard to your hand."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "to": "graveyard"
+        }
+      ],
+      "text": "Search your library for a land card, put it into your graveyard, then shuffle."
+    }
+  }
+}

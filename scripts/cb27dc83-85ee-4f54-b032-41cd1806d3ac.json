@@ -1,0 +1,46 @@
+{
+  "name": "Way of the Healer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Healer enters, empower Jace 5."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-2",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": {
+                  "name": "Cadet",
+                  "types": "Creature — Wizard Soldier",
+                  "power": 2,
+                  "toughness": 2,
+                  "colors": []
+                }
+              },
+              {
+                "surveil": 1
+              }
+            ],
+            "text": "−2: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−2]: Create a 2/2 colorless Wizard Soldier creature token named Cadet. Surveil 1.\""
+    }
+  ]
+}

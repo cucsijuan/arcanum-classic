@@ -1,0 +1,37 @@
+{
+  "name": "Woodwork Prodigy // Soul Tether",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "not": "prepared"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "Create a Heartwood token."
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Way of the Mentor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 5
+        }
+      ],
+      "text": "When Way of the Mentor enters, empower Jace 5."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "loyalty",
+          "what": {
+            "each": {
+              "types": [
+                "planeswalker"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you gain life, put a loyalty counter on each planeswalker you control."
+    }
+  ]
+}

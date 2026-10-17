@@ -1,0 +1,48 @@
+{
+  "name": "Way of the Wildspeaker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 7
+        }
+      ],
+      "text": "When Way of the Wildspeaker enters, empower Jace 7."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "-4",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": {
+                  "name": "Beast",
+                  "types": "Creature — Beast",
+                  "power": 4,
+                  "toughness": 4,
+                  "colors": [
+                    "G"
+                  ],
+                  "keywords": [
+                    "Trample"
+                  ]
+                }
+              }
+            ],
+            "text": "−4: Create a 4/4 green Beast creature token with trample."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[−4]: Create a 4/4 green Beast creature token with trample.\""
+    }
+  ]
+}

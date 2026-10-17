@@ -1,0 +1,55 @@
+{
+  "name": "Theorix Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Counter target noncreature spell unless its controller pays {2}.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            },
+            "text": "target noncreature spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{2}"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -2/-2 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -2,
+              -2
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Mill three cards, then draw a card.",
+        "effects": [
+          {
+            "mill": 3,
+            "who": "you"
+          },
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

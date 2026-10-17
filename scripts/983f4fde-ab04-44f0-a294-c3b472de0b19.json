@@ -1,0 +1,42 @@
+{
+  "name": "Yuriko, Hope from the Shadows",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Target creature gets -X/-0 until end of turn, where X is the number of cards in your graveyard.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "pump": [
+                {
+                  "diff": [
+                    0,
+                    {
+                      "graveyard": {}
+                    }
+                  ]
+                },
+                0
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Surveil 2.",
+          "effects": [
+            {
+              "surveil": 2
+            }
+          ]
+        }
+      ],
+      "text": "When Yuriko enters, choose one — Target creature gets -X/-0 until end of turn, where X is the number of cards in your graveyard; or surveil 2."
+    }
+  ]
+}
