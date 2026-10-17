@@ -1,0 +1,51 @@
+{
+  "name": "Gideon's Memorial",
+  "extraMana": [
+    {
+      "types": "any",
+      "amount": 1,
+      "onlyFor": {
+        "types": [
+          "planeswalker"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Creature tokens you control get +1/+0 and have vigilance."
+    },
+    {
+      "cost": "{1}{W}, discardThis",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          },
+          "text": "target attacking or blocking creature"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "{1}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature."
+    }
+  ]
+}

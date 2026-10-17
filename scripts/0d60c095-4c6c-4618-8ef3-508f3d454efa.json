@@ -1,0 +1,77 @@
+{
+  "name": "Ajani Resolute",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "loyalty",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a loyalty counter on Ajani."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "0: You gain 1 life."
+    },
+    {
+      "cost": "-4",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ajani's Pridemate",
+            "types": "Creature — Cat Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ],
+            "text": "Whenever you gain life, put a +1/+1 counter on this token.",
+            "abilities": [
+              {
+                "trigger": "gainLife",
+                "effects": [
+                  {
+                    "counters": 1,
+                    "what": "self"
+                  }
+                ],
+                "text": "Whenever you gain life, put a +1/+1 counter on this token."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "−4: Create a 2/2 white Cat Soldier creature token named Ajani's Pridemate with \"Whenever you gain life, put a +1/+1 counter on this token.\""
+    },
+    {
+      "cost": "-10",
+      "effects": [
+        {
+          "emblem": "Ajani Resolute emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "creatures:you",
+                "pump": [
+                  2,
+                  2
+                ]
+              },
+              "text": "Creatures you control get +2/+2."
+            }
+          ]
+        }
+      ],
+      "text": "−10: You get an emblem with \"Creatures you control get +2/+2.\""
+    }
+  ]
+}

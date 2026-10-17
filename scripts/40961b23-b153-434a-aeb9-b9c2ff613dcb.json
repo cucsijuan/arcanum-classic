@@ -1,0 +1,56 @@
+{
+  "name": "Konstrari Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Konstrari Charm deals 6 damage to target creature with flying.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "keyword": "Flying"
+            },
+            "text": "target creature with flying"
+          }
+        ],
+        "effects": [
+          {
+            "damage": 6,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put two +1/+1 counters on target creature. It gains trample until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Add {C}{C}{C}.",
+        "effects": [
+          {
+            "addMana": "{C}{C}{C}"
+          }
+        ]
+      }
+    ]
+  }
+}

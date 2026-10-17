@@ -1,0 +1,30 @@
+{
+  "name": "Void Extrapolator // Omit Variables",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          1
+        ],
+        "while": {
+          "graveyard": 7
+        }
+      },
+      "text": "Threshold — This creature gets +1/+1 as long as there are seven or more cards in your graveyard."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 3,
+          "who": "you"
+        }
+      ],
+      "text": "Mill three cards."
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Stingerquill Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Stingerquill Charm deals 3 damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gains first strike and deathtouch until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "First strike",
+              "Deathtouch"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Create a 2/2 colorless Wizard Soldier creature token named Cadet. It gains haste until end of turn.",
+        "effects": [
+          {
+            "tokens": 1,
+            "hasteUntilEndOfTurn": true,
+            "token": {
+              "name": "Cadet",
+              "types": "Creature — Wizard Soldier",
+              "power": 2,
+              "toughness": 2,
+              "colors": []
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

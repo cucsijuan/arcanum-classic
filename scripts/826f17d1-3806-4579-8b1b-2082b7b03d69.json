@@ -1,0 +1,55 @@
+{
+  "name": "Vigorbloom Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Target permanent you control gains hexproof and indestructible until end of turn.",
+        "targets": [
+          "permanent:you"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Hexproof",
+              "Indestructible"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "You draw a card and gain 3 life.",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "gainLife": 3
+          }
+        ]
+      },
+      {
+        "text": "Put a +1/+1 counter on target creature you control. Then it fights target creature an opponent controls.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": "target"
+          },
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

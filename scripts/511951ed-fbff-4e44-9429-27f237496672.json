@@ -1,0 +1,41 @@
+{
+  "name": "Paradox Shaper // Omit Variables",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "not": "prepared"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared."
+    },
+    {
+      "cost": "{2}",
+      "targets": [
+        "graveyardCard:you"
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{2}: Put target card from your graveyard on the bottom of your library."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 3,
+          "who": "you"
+        }
+      ],
+      "text": "Mill three cards."
+    }
+  }
+}
