@@ -574,7 +574,14 @@
  "boosters": {
   "collector": {
    "name": "Collector Booster",
-   "description": "15 cards, all special: 5 traditional foil commons, 4 traditional foil uncommons (in 10% of the boosters one of them is a surge foil hoard uncommon), a traditional foil journey land, 2 traditional foil rares or mythic rares, 2 booster fun cards and a traditional foil booster fun card.",
+   "description": "15 cards, all special: 5 traditional foil commons (a common dual land or scene card now and then), 4 traditional foil uncommons (scene or Dragon hoard cards now and then; in 10% of the boosters one of them is a surge foil Dragon hoard uncommon), a traditional foil Middle-earth journey land, 2 traditional foil rares or mythic rares, 2 Booster Fun cards (each: extended art 37.4%, scene 24.3%, Dragon hoard 17.6%, classic artist 11.9%, book cover 7.5%, Dwarvish language 1.5%) and a foil Booster Fun card (a surge foil a quarter of the time; book cover 12.4%, the gleaming gold headliner very rarely).",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/692962_in_1000x1000.jpg",
+    "seals": [
+     0.08,
+     0.06
+    ]
+   },
    "sheets": {
     "foil_common": {
      "set": "hob",
@@ -811,334 +818,6 @@
      ],
      "foil": true
     },
-    "boosterfun_0_hob": {
-     "set": "hob",
-     "numbers": [
-      "295",
-      "289a",
-      "222",
-      "301",
-      "210",
-      "305",
-      "214",
-      "285",
-      "211",
-      "306",
-      "208",
-      "225",
-      "226",
-      "311",
-      "302",
-      "212",
-      "238",
-      "286",
-      "303",
-      "307",
-      "204a",
-      "291",
-      "224",
-      "287",
-      "228",
-      "221a",
-      "235a",
-      "308",
-      "309",
-      "298",
-      "292",
-      "288",
-      "245",
-      "237",
-      "304",
-      "300",
-      "205",
-      "201",
-      "207",
-      "248",
-      "240",
-      "297",
-      "232",
-      "299",
-      "213",
-      "246",
-      "310",
-      "312",
-      "293",
-      "294"
-     ]
-    },
-    "boosterfun_0_hoc": {
-     "set": "hoc",
-     "numbers": [
-      "5",
-      "10",
-      "4",
-      "11",
-      "8",
-      "1",
-      "2",
-      "7",
-      "12",
-      "6",
-      "9",
-      "3"
-     ]
-    },
-    "boosterfun_1_hoc": {
-     "set": "hoc",
-     "numbers": [
-      "101",
-      "98",
-      "102",
-      "103",
-      "104",
-      "99",
-      "105",
-      "100",
-      "106"
-     ]
-    },
-    "boosterfun_1_hob": {
-     "set": "hob",
-     "numbers": [
-      "244",
-      "230",
-      "219",
-      "231",
-      "290",
-      "220",
-      "242a",
-      "239",
-      "241",
-      "296",
-      "236",
-      "229",
-      "234a",
-      "247a",
-      "217",
-      "243"
-     ]
-    },
-    "boosterfun_2_hoc": {
-     "set": "hoc",
-     "numbers": [
-      "39",
-      "40",
-      "28",
-      "29",
-      "95",
-      "30",
-      "24",
-      "41",
-      "22",
-      "23",
-      "13",
-      "25",
-      "93",
-      "26",
-      "31",
-      "14",
-      "16",
-      "32",
-      "42",
-      "33",
-      "27",
-      "34",
-      "48",
-      "49",
-      "43",
-      "50",
-      "96",
-      "19",
-      "45",
-      "18",
-      "46",
-      "17",
-      "51",
-      "35",
-      "36",
-      "37",
-      "47",
-      "15",
-      "44",
-      "94",
-      "52",
-      "38",
-      "97",
-      "20",
-      "21"
-     ]
-    },
-    "foil_boosterfun_0_hob": {
-     "set": "hob",
-     "numbers": [
-      "295",
-      "289a",
-      "222",
-      "301",
-      "210",
-      "305",
-      "214",
-      "285",
-      "211",
-      "306",
-      "208",
-      "225",
-      "226",
-      "311",
-      "302",
-      "212",
-      "238",
-      "286",
-      "303",
-      "307",
-      "204a",
-      "291",
-      "224",
-      "287",
-      "228",
-      "221a",
-      "235a",
-      "308",
-      "309",
-      "298",
-      "292",
-      "288",
-      "245",
-      "237",
-      "304",
-      "300",
-      "205",
-      "201",
-      "207",
-      "248",
-      "240",
-      "297",
-      "232",
-      "299",
-      "213",
-      "246",
-      "310",
-      "312",
-      "293",
-      "294"
-     ],
-     "foil": true
-    },
-    "foil_boosterfun_1_hob": {
-     "set": "hob",
-     "numbers": [
-      "258",
-      "244",
-      "250",
-      "230",
-      "219",
-      "231",
-      "261",
-      "262",
-      "290",
-      "274",
-      "220",
-      "242a",
-      "239",
-      "241",
-      "260",
-      "296",
-      "264",
-      "257a",
-      "271a",
-      "236",
-      "229",
-      "281",
-      "273",
-      "234a",
-      "247a",
-      "284",
-      "276",
-      "268",
-      "217",
-      "243",
-      "282"
-     ],
-     "foil": true
-    },
-    "foil_boosterfun_2_hoc": {
-     "set": "hoc",
-     "numbers": [
-      "79",
-      "80",
-      "68",
-      "69",
-      "95",
-      "70",
-      "64",
-      "81",
-      "62",
-      "63",
-      "53",
-      "65",
-      "93",
-      "66",
-      "71",
-      "54",
-      "56",
-      "72",
-      "82",
-      "73",
-      "67",
-      "74",
-      "88",
-      "89",
-      "83",
-      "90",
-      "96",
-      "59",
-      "85",
-      "58",
-      "86",
-      "57",
-      "91",
-      "75",
-      "76",
-      "77",
-      "87",
-      "55",
-      "84",
-      "94",
-      "92",
-      "78",
-      "97",
-      "60",
-      "61"
-     ],
-     "foil": true
-    },
-    "foil_boosterfun_2_hob": {
-     "set": "hob",
-     "numbers": [
-      "280",
-      "266",
-      "255",
-      "267",
-      "256",
-      "278a",
-      "275",
-      "277",
-      "272",
-      "265",
-      "270a",
-      "283a",
-      "253",
-      "279"
-     ],
-     "foil": true
-    },
-    "foil_boosterfun_3_hob": {
-     "set": "hob",
-     "numbers": [
-      "249"
-     ],
-     "foil": true
-    },
     "surge_hoard_uncommon": {
      "set": "hob",
      "numbers": [
@@ -1150,6 +829,418 @@
       "269a"
      ],
      "surge": true
+    },
+    "bf_scene_hob": {
+     "set": "hob",
+     "numbers": [
+      "201",
+      "204a",
+      "205",
+      "207",
+      "208",
+      "210",
+      "211",
+      "212",
+      "213"
+     ]
+    },
+    "bf_scene_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12"
+     ]
+    },
+    "bf_hoard_rare": {
+     "set": "hob",
+     "numbers": [
+      "214",
+      "221a",
+      "222",
+      "224",
+      "225",
+      "226",
+      "228",
+      "232",
+      "235a",
+      "237",
+      "238"
+     ]
+    },
+    "bf_hoard_mythic": {
+     "set": "hob",
+     "numbers": [
+      "217",
+      "219",
+      "220",
+      "229",
+      "230",
+      "231",
+      "234a",
+      "236"
+     ]
+    },
+    "bf_book_cover_rare": {
+     "set": "hob",
+     "numbers": [
+      "240",
+      "245",
+      "246",
+      "248"
+     ]
+    },
+    "bf_book_cover_mythic": {
+     "set": "hob",
+     "numbers": [
+      "239",
+      "241",
+      "242a",
+      "243",
+      "244",
+      "247a"
+     ]
+    },
+    "bf_classic_artist_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52"
+     ]
+    },
+    "bf_dwarvish_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+     ]
+    },
+    "bf_extended_rare": {
+     "set": "hob",
+     "numbers": [
+      "285",
+      "286",
+      "287",
+      "288",
+      "289a",
+      "291",
+      "292",
+      "293",
+      "294",
+      "295",
+      "297",
+      "298",
+      "299",
+      "300",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305",
+      "306",
+      "307",
+      "308",
+      "309",
+      "310",
+      "311",
+      "312"
+     ]
+    },
+    "bf_extended_mythic": {
+     "set": "hob",
+     "numbers": [
+      "290",
+      "296"
+     ]
+    },
+    "bf_extended_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106"
+     ]
+    },
+    "fbf_scene_hob": {
+     "set": "hob",
+     "numbers": [
+      "201",
+      "204a",
+      "205",
+      "207",
+      "208",
+      "210",
+      "211",
+      "212",
+      "213"
+     ],
+     "foil": true
+    },
+    "fbf_hoard_rare": {
+     "set": "hob",
+     "numbers": [
+      "214",
+      "221a",
+      "222",
+      "224",
+      "225",
+      "226",
+      "228",
+      "232",
+      "235a",
+      "237",
+      "238"
+     ],
+     "foil": true
+    },
+    "fbf_hoard_mythic": {
+     "set": "hob",
+     "numbers": [
+      "217",
+      "219",
+      "220",
+      "229",
+      "230",
+      "231",
+      "234a",
+      "236"
+     ],
+     "foil": true
+    },
+    "sbf_hoard_rare": {
+     "set": "hob",
+     "numbers": [
+      "250",
+      "257a",
+      "258",
+      "260",
+      "261",
+      "262",
+      "264",
+      "268",
+      "271a",
+      "273",
+      "274"
+     ],
+     "surge": true
+    },
+    "sbf_hoard_mythic": {
+     "set": "hob",
+     "numbers": [
+      "253",
+      "255",
+      "256",
+      "265",
+      "266",
+      "267",
+      "270a",
+      "272"
+     ],
+     "surge": true
+    },
+    "fbf_book_cover_rare": {
+     "set": "hob",
+     "numbers": [
+      "240",
+      "245",
+      "246",
+      "248"
+     ],
+     "foil": true
+    },
+    "fbf_book_cover_mythic": {
+     "set": "hob",
+     "numbers": [
+      "239",
+      "241",
+      "242a",
+      "243",
+      "244",
+      "247a"
+     ],
+     "foil": true
+    },
+    "sbf_book_cover_rare": {
+     "set": "hob",
+     "numbers": [
+      "276",
+      "281",
+      "282",
+      "284"
+     ],
+     "surge": true
+    },
+    "sbf_book_cover_mythic": {
+     "set": "hob",
+     "numbers": [
+      "275",
+      "277",
+      "278a",
+      "279",
+      "280",
+      "283a"
+     ],
+     "surge": true
+    },
+    "sbf_classic_artist_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "90",
+      "91",
+      "92"
+     ],
+     "surge": true
+    },
+    "fbf_dwarvish_hoc": {
+     "set": "hoc",
+     "numbers": [
+      "93",
+      "94",
+      "95",
+      "96",
+      "97"
+     ],
+     "foil": true
+    },
+    "fbf_extended_rare": {
+     "set": "hob",
+     "numbers": [
+      "285",
+      "286",
+      "287",
+      "288",
+      "289a",
+      "291",
+      "292",
+      "293",
+      "294",
+      "295",
+      "297",
+      "298",
+      "299",
+      "300",
+      "301",
+      "302",
+      "303",
+      "304",
+      "305",
+      "306",
+      "307",
+      "308",
+      "309",
+      "310",
+      "311",
+      "312"
+     ],
+     "foil": true
+    },
+    "fbf_extended_mythic": {
+     "set": "hob",
+     "numbers": [
+      "290",
+      "296"
+     ],
+     "foil": true
+    },
+    "fbf_gleaming_gold": {
+     "set": "hob",
+     "numbers": [
+      "249"
+     ],
+     "foil": true
     }
    },
    "variants": [
@@ -1189,22 +1280,37 @@
        "count": 2,
        "wildcard": true,
        "sheets": {
-        "boosterfun_0_hob": 5830904,
-        "boosterfun_0_hoc": 1399417,
-        "boosterfun_1_hoc": 524781,
-        "boosterfun_1_hob": 932945,
-        "boosterfun_2_hoc": 1311953
+        "bf_scene_hob": 1010000,
+        "bf_scene_hoc": 1420000,
+        "bf_hoard_rare": 1310000,
+        "bf_hoard_mythic": 450000,
+        "bf_book_cover_rare": 420000,
+        "bf_book_cover_mythic": 330000,
+        "bf_classic_artist_hoc": 1190000,
+        "bf_dwarvish_hoc": 150000,
+        "bf_extended_rare": 3090000,
+        "bf_extended_mythic": 120000,
+        "bf_extended_hoc": 530000
        }
       },
       {
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_boosterfun_0_hob": 6229491,
-        "foil_boosterfun_1_hob": 1931142,
-        "foil_boosterfun_2_hoc": 1401636,
-        "foil_boosterfun_2_hob": 436064,
-        "foil_boosterfun_3_hob": 1667
+        "fbf_scene_hob": 1100000,
+        "fbf_hoard_rare": 1430000,
+        "fbf_hoard_mythic": 490000,
+        "sbf_hoard_rare": 650000,
+        "sbf_hoard_mythic": 240000,
+        "fbf_book_cover_rare": 460000,
+        "fbf_book_cover_mythic": 360000,
+        "sbf_book_cover_rare": 240000,
+        "sbf_book_cover_mythic": 180000,
+        "sbf_classic_artist_hoc": 1190000,
+        "fbf_dwarvish_hoc": 160000,
+        "fbf_extended_rare": 3380000,
+        "fbf_extended_mythic": 130000,
+        "fbf_gleaming_gold": 1667
        }
       }
      ]
@@ -1252,22 +1358,37 @@
        "count": 2,
        "wildcard": true,
        "sheets": {
-        "boosterfun_0_hob": 5830904,
-        "boosterfun_0_hoc": 1399417,
-        "boosterfun_1_hoc": 524781,
-        "boosterfun_1_hob": 932945,
-        "boosterfun_2_hoc": 1311953
+        "bf_scene_hob": 1010000,
+        "bf_scene_hoc": 1420000,
+        "bf_hoard_rare": 1310000,
+        "bf_hoard_mythic": 450000,
+        "bf_book_cover_rare": 420000,
+        "bf_book_cover_mythic": 330000,
+        "bf_classic_artist_hoc": 1190000,
+        "bf_dwarvish_hoc": 150000,
+        "bf_extended_rare": 3090000,
+        "bf_extended_mythic": 120000,
+        "bf_extended_hoc": 530000
        }
       },
       {
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_boosterfun_0_hob": 6229491,
-        "foil_boosterfun_1_hob": 1931142,
-        "foil_boosterfun_2_hoc": 1401636,
-        "foil_boosterfun_2_hob": 436064,
-        "foil_boosterfun_3_hob": 1667
+        "fbf_scene_hob": 1100000,
+        "fbf_hoard_rare": 1430000,
+        "fbf_hoard_mythic": 490000,
+        "sbf_hoard_rare": 650000,
+        "sbf_hoard_mythic": 240000,
+        "fbf_book_cover_rare": 460000,
+        "fbf_book_cover_mythic": 360000,
+        "sbf_book_cover_rare": 240000,
+        "sbf_book_cover_mythic": 180000,
+        "sbf_classic_artist_hoc": 1190000,
+        "fbf_dwarvish_hoc": 160000,
+        "fbf_extended_rare": 3380000,
+        "fbf_extended_mythic": 130000,
+        "fbf_gleaming_gold": 1667
        }
       }
      ]

@@ -686,6 +686,13 @@
   "collector": {
    "name": "Collector Booster",
    "description": "15 cards, all special: 3 traditional foil commons, 3 traditional foil uncommons (Cid, Timeless Artificer variants among them), a traditional foil full-art basic land, a traditional foil rare or mythic rare, a Booster Fun common or uncommon, a foil Booster Fun common or uncommon (some surge foil), a foil Booster Fun rare or mythic rare (some surge foil), three Booster Fun rares or mythic rares from the set and its commander decks (in 24.6% of the boosters one of them is a foil Booster Fun rare or mythic rare from the commander decks instead, some surge foil) and a Through the Ages card (traditional foil in half the boosters). Odds follow the published collation sheet weights.",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/618892_in_1000x1000.jpg",
+    "seals": [
+     0.08,
+     0.07
+    ]
+   },
    "variants": [
     {
      "weight": 753571,

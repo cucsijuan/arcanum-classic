@@ -41,6 +41,13 @@ front face's name.
 (official collation percentages; printings by collector number, foil and showcase treatments as printed). Write down any ratio that had
 to be derived from published numbers. Check the packs: every sheet non-empty, the right pack size, no unsupported card.
 
+A booster kind (under `boosters`, e.g. `collector`) may give its own `"pack": {"image": ..., "seals": [top, bottom]}` like the set's
+pack, when its picture differs. Measure the seals on that picture: the crimped top and bottom ends, as fractions of the picture
+height. Without them the defaults are 0.07 and 0.06. A kind without its own pack uses the set's.
+
+A sheet that holds surge foil printings is marked `"surge": true`. Treatments with different official odds go in separate sheets,
+one per treatment, and the slot weights are those odds (the per-slot percentages as published).
+
 ## 5. Scenes
 
 A set whose cards' art joins into one picture (a scene) lists the scenes in its set file, as `"scenes"`: each with a

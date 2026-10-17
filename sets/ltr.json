@@ -426,6 +426,13 @@
   "set": {
    "name": "Set Booster",
    "description": "12 cards: a basic land (traditional foil in a fifth of the boosters), 3 commons, 3 uncommons, a common or uncommon showcase or scene card, 2 wildcards of any rarity, a rare or mythic rare, and a traditional foil of any rarity. (A quarter of the real boosters also hold a card from The List; those cards aren't in the game yet.)",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/484908_in_1000x1000.jpg",
+    "seals": [
+     0.09,
+     0.09
+    ]
+   },
    "sheets": {
     "basic": {
      "set": "ltr",
@@ -1871,6 +1878,13 @@
   "collector": {
    "name": "Collector Booster",
    "description": "15 cards, all special: 4 traditional foil commons (in about 0.7% of the boosters a Sol Ring replaces one), 2 traditional foil uncommons, a traditional foil full-art basic land, a traditional foil rare or mythic rare, an extended-art rare or mythic rare from the set and one from its commander decks, a showcase uncommon, a showcase rare or mythic rare, a borderless scene card, a traditional foil showcase or scene uncommon or common, and a traditional foil showcase rare or mythic rare (in 0.8% of the boosters a surge foil relic of the commander decks instead).",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/484911_in_1000x1000.jpg",
+    "seals": [
+     0.09,
+     0.09
+    ]
+   },
    "sheets": {
     "foil_common": {
      "set": "ltr",

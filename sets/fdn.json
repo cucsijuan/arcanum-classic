@@ -711,6 +711,13 @@
   "collector": {
    "name": "Collector Booster",
    "description": "15 cards, all special: 5 traditional foil commons, 4 traditional foil uncommons, a traditional foil full-art basic land, 2 traditional foil rares or mythic rares, 2 showcase rares or mythic rares, and a traditional foil booster fun card of any rarity.",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/562121_in_1000x1000.jpg",
+    "seals": [
+     0.07,
+     0.07
+    ]
+   },
    "sheets": {
     "foil_common": {
      "set": "fdn",
