@@ -2373,36 +2373,6 @@
       "339"
      ]
     },
-    "rare_mythic_showcase_0_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "319",
-      "322",
-      "342",
-      "344",
-      "327",
-      "310",
-      "330",
-      "345"
-     ]
-    },
-    "rare_mythic_showcase_1_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "316",
-      "340",
-      "302",
-      "318",
-      "304",
-      "321",
-      "323",
-      "313",
-      "325",
-      "341",
-      "343",
-      "326"
-     ]
-    },
     "rare_mythic_showcase_2_ltc": {
      "set": "ltc",
      "numbers": [
@@ -2497,27 +2467,6 @@
       "430"
      ]
     },
-    "borderless_scene_3_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "410",
-      "425",
-      "407",
-      "447",
-      "448",
-      "446",
-      "436",
-      "418",
-      "435",
-      "437",
-      "420",
-      "438",
-      "424",
-      "439",
-      "413",
-      "451"
-     ]
-    },
     "borderless_scene_4_ltr": {
      "set": "ltr",
      "numbers": [
@@ -2593,66 +2542,6 @@
      ],
      "foil": true
     },
-    "foil_rare_mythic_showcase_0_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "402",
-      "415",
-      "319",
-      "406",
-      "322",
-      "399",
-      "444",
-      "342",
-      "433",
-      "344",
-      "327",
-      "310",
-      "330",
-      "409",
-      "405",
-      "345",
-      "428",
-      "430"
-     ],
-     "foil": true
-    },
-    "foil_rare_mythic_showcase_1_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "316",
-      "410",
-      "340",
-      "425",
-      "302",
-      "407",
-      "318",
-      "447",
-      "304",
-      "448",
-      "321",
-      "446",
-      "323",
-      "436",
-      "418",
-      "313",
-      "435",
-      "325",
-      "437",
-      "341",
-      "420",
-      "343",
-      "326",
-      "438",
-      "329",
-      "424",
-      "439",
-      "413",
-      "451",
-      "331"
-     ],
-     "foil": true
-    },
     "foil_rare_mythic_showcase_1_ltc": {
      "set": "ltc",
      "numbers": [
@@ -2664,20 +2553,6 @@
       "91",
       "92",
       "86"
-     ],
-     "foil": true
-    },
-    "foil_rare_mythic_showcase_2_ltr": {
-     "set": "ltr",
-     "numbers": [
-      "317",
-      "434",
-      "305",
-      "442",
-      "328",
-      "412",
-      "311",
-      "423"
      ],
      "foil": true
     },
@@ -2762,6 +2637,194 @@
       "0"
      ],
      "foil": true
+    },
+    "rare_mythic_showcase_0_ltr_showcase": {
+     "set": "ltr",
+     "numbers": [
+      "319",
+      "322",
+      "327",
+      "310",
+      "330"
+     ]
+    },
+    "rare_mythic_showcase_0_ltr_lands": {
+     "set": "ltr",
+     "numbers": [
+      "342",
+      "344",
+      "345"
+     ]
+    },
+    "rare_mythic_showcase_1_ltr_showcase": {
+     "set": "ltr",
+     "numbers": [
+      "316",
+      "302",
+      "318",
+      "304",
+      "321",
+      "323",
+      "313",
+      "325",
+      "326"
+     ]
+    },
+    "rare_mythic_showcase_1_ltr_lands": {
+     "set": "ltr",
+     "numbers": [
+      "340",
+      "341",
+      "343"
+     ]
+    },
+    "borderless_scene_3_ltr_scene_r": {
+     "set": "ltr",
+     "numbers": [
+      "410",
+      "425",
+      "407",
+      "447",
+      "448",
+      "446",
+      "436",
+      "435",
+      "437",
+      "420",
+      "438"
+     ]
+    },
+    "borderless_scene_3_ltr_scene_m": {
+     "set": "ltr",
+     "numbers": [
+      "418",
+      "424",
+      "439",
+      "413",
+      "451"
+     ]
+    },
+    "foil_rare_mythic_showcase_0_ltr_scene_r": {
+     "set": "ltr",
+     "numbers": [
+      "402",
+      "415",
+      "406",
+      "399",
+      "444",
+      "433",
+      "409",
+      "405",
+      "428",
+      "430"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_0_ltr_showcase_r": {
+     "set": "ltr",
+     "numbers": [
+      "319",
+      "322",
+      "327",
+      "310",
+      "330"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_0_ltr_land_r": {
+     "set": "ltr",
+     "numbers": [
+      "342",
+      "344",
+      "345"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_showcase_r": {
+     "set": "ltr",
+     "numbers": [
+      "316",
+      "302",
+      "318",
+      "304",
+      "321",
+      "323",
+      "313",
+      "325",
+      "326"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_scene_r": {
+     "set": "ltr",
+     "numbers": [
+      "410",
+      "425",
+      "407",
+      "447",
+      "448",
+      "446",
+      "436",
+      "435",
+      "437",
+      "420",
+      "438"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_land_r": {
+     "set": "ltr",
+     "numbers": [
+      "340",
+      "341"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_scene_m": {
+     "set": "ltr",
+     "numbers": [
+      "418",
+      "424",
+      "439",
+      "413",
+      "451"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_land_m": {
+     "set": "ltr",
+     "numbers": [
+      "343"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_1_ltr_showcase_m": {
+     "set": "ltr",
+     "numbers": [
+      "329",
+      "331"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_2_ltr_showcase_m": {
+     "set": "ltr",
+     "numbers": [
+      "317",
+      "305",
+      "328",
+      "311"
+     ],
+     "foil": true
+    },
+    "foil_rare_mythic_showcase_2_ltr_scene_m": {
+     "set": "ltr",
+     "numbers": [
+      "434",
+      "442",
+      "412",
+      "423"
+     ],
+     "foil": true
     }
    },
    "variants": [
@@ -2827,10 +2890,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -2839,9 +2904,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -2858,10 +2924,18 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_rare_mythic_showcase_0_ltr": 4615385,
-        "foil_rare_mythic_showcase_1_ltr": 3846154,
-        "foil_rare_mythic_showcase_1_ltc": 1025641,
-        "foil_rare_mythic_showcase_2_ltr": 512821
+        "foil_rare_mythic_showcase_0_ltr_scene_r": 2561290,
+        "foil_rare_mythic_showcase_0_ltr_showcase_r": 1305263,
+        "foil_rare_mythic_showcase_0_ltr_land_r": 742500,
+        "foil_rare_mythic_showcase_1_ltr_showcase_r": 1174737,
+        "foil_rare_mythic_showcase_1_ltr_scene_r": 1408710,
+        "foil_rare_mythic_showcase_1_ltr_land_r": 247500,
+        "foil_rare_mythic_showcase_1_ltr_scene_m": 621428,
+        "foil_rare_mythic_showcase_1_ltr_land_m": 120000,
+        "foil_rare_mythic_showcase_1_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_1_ltc": 990000,
+        "foil_rare_mythic_showcase_2_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_2_ltr_scene_m": 248572
        }
       }
      ]
@@ -2928,10 +3002,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -2940,9 +3016,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3035,10 +3112,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3047,9 +3126,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3066,10 +3146,18 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_rare_mythic_showcase_0_ltr": 4615385,
-        "foil_rare_mythic_showcase_1_ltr": 3846154,
-        "foil_rare_mythic_showcase_1_ltc": 1025641,
-        "foil_rare_mythic_showcase_2_ltr": 512821
+        "foil_rare_mythic_showcase_0_ltr_scene_r": 2561290,
+        "foil_rare_mythic_showcase_0_ltr_showcase_r": 1305263,
+        "foil_rare_mythic_showcase_0_ltr_land_r": 742500,
+        "foil_rare_mythic_showcase_1_ltr_showcase_r": 1174737,
+        "foil_rare_mythic_showcase_1_ltr_scene_r": 1408710,
+        "foil_rare_mythic_showcase_1_ltr_land_r": 247500,
+        "foil_rare_mythic_showcase_1_ltr_scene_m": 621428,
+        "foil_rare_mythic_showcase_1_ltr_land_m": 120000,
+        "foil_rare_mythic_showcase_1_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_1_ltc": 990000,
+        "foil_rare_mythic_showcase_2_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_2_ltr_scene_m": 248572
        }
       }
      ]
@@ -3145,10 +3233,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3157,9 +3247,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3252,10 +3343,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3264,9 +3357,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3283,10 +3377,18 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_rare_mythic_showcase_0_ltr": 4615385,
-        "foil_rare_mythic_showcase_1_ltr": 3846154,
-        "foil_rare_mythic_showcase_1_ltc": 1025641,
-        "foil_rare_mythic_showcase_2_ltr": 512821
+        "foil_rare_mythic_showcase_0_ltr_scene_r": 2561290,
+        "foil_rare_mythic_showcase_0_ltr_showcase_r": 1305263,
+        "foil_rare_mythic_showcase_0_ltr_land_r": 742500,
+        "foil_rare_mythic_showcase_1_ltr_showcase_r": 1174737,
+        "foil_rare_mythic_showcase_1_ltr_scene_r": 1408710,
+        "foil_rare_mythic_showcase_1_ltr_land_r": 247500,
+        "foil_rare_mythic_showcase_1_ltr_scene_m": 621428,
+        "foil_rare_mythic_showcase_1_ltr_land_m": 120000,
+        "foil_rare_mythic_showcase_1_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_1_ltc": 990000,
+        "foil_rare_mythic_showcase_2_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_2_ltr_scene_m": 248572
        }
       }
      ]
@@ -3362,10 +3464,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3374,9 +3478,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3467,10 +3572,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3479,9 +3586,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
@@ -3498,10 +3606,18 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "foil_rare_mythic_showcase_0_ltr": 4615385,
-        "foil_rare_mythic_showcase_1_ltr": 3846154,
-        "foil_rare_mythic_showcase_1_ltc": 1025641,
-        "foil_rare_mythic_showcase_2_ltr": 512821
+        "foil_rare_mythic_showcase_0_ltr_scene_r": 2561290,
+        "foil_rare_mythic_showcase_0_ltr_showcase_r": 1305263,
+        "foil_rare_mythic_showcase_0_ltr_land_r": 742500,
+        "foil_rare_mythic_showcase_1_ltr_showcase_r": 1174737,
+        "foil_rare_mythic_showcase_1_ltr_scene_r": 1408710,
+        "foil_rare_mythic_showcase_1_ltr_land_r": 247500,
+        "foil_rare_mythic_showcase_1_ltr_scene_m": 621428,
+        "foil_rare_mythic_showcase_1_ltr_land_m": 120000,
+        "foil_rare_mythic_showcase_1_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_1_ltc": 990000,
+        "foil_rare_mythic_showcase_2_ltr_showcase_m": 250000,
+        "foil_rare_mythic_showcase_2_ltr_scene_m": 248572
        }
       }
      ]
@@ -3575,10 +3691,12 @@
        "count": 1,
        "wildcard": true,
        "sheets": {
-        "rare_mythic_showcase_0_ltr": 3478261,
-        "rare_mythic_showcase_1_ltr": 2608696,
-        "rare_mythic_showcase_2_ltc": 3260870,
-        "rare_mythic_showcase_2_ltr": 652174
+        "rare_mythic_showcase_0_ltr_showcase": 2272727,
+        "rare_mythic_showcase_0_ltr_lands": 1246667,
+        "rare_mythic_showcase_1_ltr_showcase": 2045455,
+        "rare_mythic_showcase_1_ltr_lands": 623333,
+        "rare_mythic_showcase_2_ltc": 3130000,
+        "rare_mythic_showcase_2_ltr": 681818
        }
       },
       {
@@ -3587,9 +3705,10 @@
        "sheets": {
         "borderless_scene_0_ltr": 3750000,
         "borderless_scene_1_ltr": 2920000,
-        "borderless_scene_2_ltr": 1752632,
-        "borderless_scene_3_ltr": 1402105,
-        "borderless_scene_4_ltr": 175263
+        "borderless_scene_2_ltr": 1761291,
+        "borderless_scene_3_ltr_scene_r": 968709,
+        "borderless_scene_3_ltr_scene_m": 428572,
+        "borderless_scene_4_ltr": 171428
        }
       },
       {
