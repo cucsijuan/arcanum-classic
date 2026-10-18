@@ -1,0 +1,11 @@
+{
+  "name": "Dwarven Warriors",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [{ "kind": "creature", "filter": { "maxPower": 2 }, "text": "target creature with power 2 or less" }],
+      "effects": [{ "pump": [0, 0], "what": "target", "keywords": ["Can't be blocked"] }],
+      "text": "{T}: Target creature with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

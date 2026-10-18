@@ -1,0 +1,6 @@
+{
+  "name": "Mox Amber",
+  "extraMana": [
+    { "colorsAmong": { "types": ["creature", "planeswalker"], "supertype": "legendary" } }
+  ]
+}

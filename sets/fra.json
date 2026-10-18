@@ -1647,5 +1647,1049 @@
     }
    }
   ]
+ },
+ "boosters": {
+  "collector": {
+   "name": "Collector Booster",
+   "description": "15 cards: 4 traditional foil commons (common dual lands among them), 2 traditional foil uncommons (braintwister 10.4%), three traditional foil uncommon echoed pair cards (two of them a pair; borderless 13.2%), a traditional foil tower basic land, a traditional foil rare (83.1%) or mythic rare (16.9%), a braintwister rare or mythic rare or a Booster Fun card of the commander decks (extended-art rare 47.8%, borderless mythic 3%), 2 Booster Fun rares or mythic rares (borderless echoed pair, shattered mirror, sculptor's stronghold, portal view land or extended art) and a foil Booster Fun card (Special Guests 6.1%, Japan showcase 9%, fracture foil Japan showcase 1%; facet foil shattered mirror and the serialized headliner very rarely). The published foil Booster Fun odds add up to 99.1%; the rest was split by print run (about 6,000 of each rare facet foil, half that of each mythic, 500 serialized). Each booster also holds an art card or a foil token, which aren't game cards.",
+   "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/692982_in_1000x1000.jpg",
+    "seals": [
+     0.08,
+     0.06
+    ]
+   },
+   "sheets": {
+    "foil_common": {
+     "rarity": "common",
+     "numbers": [
+      "2",
+      "3",
+      "4",
+      "6",
+      "10",
+      "12",
+      "15",
+      "16",
+      "21",
+      "22",
+      "23",
+      "27",
+      "29",
+      "30",
+      "31",
+      "33",
+      "37",
+      "39",
+      "41",
+      "42",
+      "45",
+      "46",
+      "48",
+      "51",
+      "54",
+      "56",
+      "60",
+      "61",
+      "65",
+      "66",
+      "67",
+      "69",
+      "70",
+      "73",
+      "74",
+      "75",
+      "76",
+      "81",
+      "85",
+      "86",
+      "89",
+      "92",
+      "94",
+      "96",
+      "97",
+      "98",
+      "99",
+      "101",
+      "104",
+      "109",
+      "114",
+      "115",
+      "117",
+      "119",
+      "120",
+      "123",
+      "125",
+      "130",
+      "133",
+      "134",
+      "139",
+      "153",
+      "156",
+      "157",
+      "164",
+      "166",
+      "171",
+      "172",
+      "173",
+      "174",
+      "188",
+      "175",
+      "177",
+      "178",
+      "182",
+      "183",
+      "184",
+      "190",
+      "192",
+      "193",
+      "194"
+     ],
+     "foil": true
+    },
+    "foil_uncommon": {
+     "rarity": "uncommon",
+     "numbers": [
+      "8",
+      "17",
+      "18",
+      "24",
+      "25",
+      "34",
+      "35",
+      "36",
+      "50",
+      "58",
+      "62",
+      "68",
+      "77",
+      "82",
+      "84",
+      "95",
+      "102",
+      "105",
+      "108",
+      "112",
+      "124",
+      "126",
+      "127",
+      "129",
+      "132",
+      "136",
+      "138",
+      "141",
+      "143",
+      "144",
+      "146",
+      "147",
+      "150",
+      "151",
+      "155",
+      "158",
+      "160",
+      "161",
+      "163",
+      "165",
+      "167",
+      "170",
+      "181"
+     ],
+     "foil": true
+    },
+    "foil_btU": {
+     "rarity": "uncommon",
+     "numbers": [
+      "361",
+      "362",
+      "366",
+      "369",
+      "372"
+     ],
+     "foil": true
+    },
+    "foil_echoU": {
+     "rarity": "uncommon",
+     "numbers": [
+      "211",
+      "243",
+      "196",
+      "227",
+      "257",
+      "270",
+      "213",
+      "258",
+      "228",
+      "245",
+      "197",
+      "260",
+      "215",
+      "271",
+      "246",
+      "261",
+      "247",
+      "273",
+      "199",
+      "248",
+      "232",
+      "262",
+      "233",
+      "274",
+      "249",
+      "263",
+      "250",
+      "264",
+      "218",
+      "235",
+      "219",
+      "265",
+      "203",
+      "275",
+      "221",
+      "252",
+      "204",
+      "236",
+      "206",
+      "253",
+      "222",
+      "280",
+      "240",
+      "256",
+      "225",
+      "241",
+      "209",
+      "269",
+      "210",
+      "226",
+      "214",
+      "205",
+      "234",
+      "202",
+      "237",
+      "266",
+      "207",
+      "208",
+      "223",
+      "224",
+      "238",
+      "239",
+      "254",
+      "255",
+      "267",
+      "268"
+     ],
+     "foil": true,
+     "pairs": [
+      [
+       "Arni, Humble Scribe",
+       "Arni, Renowned Champion"
+      ],
+      [
+       "Danitha, Sword of Hope",
+       "Danitha, Spear of Agony"
+      ],
+      [
+       "Edgar, Moonlit Sovereign",
+       "Edgar, Ancient Bloodlord"
+      ],
+      [
+       "Fblthp, Impossibly Lost",
+       "Fblthp, Knows the Way"
+      ],
+      [
+       "Gallia, Tragic Host",
+       "Gallia, the Merrymaker"
+      ],
+      [
+       "Ghalta the Immovable",
+       "Ghalta the Unstoppable"
+      ],
+      [
+       "Hapatra, the Desert Frost",
+       "Hapatra, the Desert Fang"
+      ],
+      [
+       "Jiang Yanggu, Alone",
+       "Jiang Yanggu, Never Alone"
+      ],
+      [
+       "Kiora of Fire and Ashes",
+       "Kiora of Salt and Sand"
+      ],
+      [
+       "Koth of the Homestead",
+       "Koth, the Geomancer"
+      ],
+      [
+       "Loot, the Anomaly",
+       "Loot, the Nexus"
+      ],
+      [
+       "Mabel, Bitter Recluse",
+       "Mabel, Valley Hero"
+      ],
+      [
+       "Marwyn, the Clearcutter",
+       "Marwyn, the Preserver"
+      ],
+      [
+       "Pia, Determined Rebuilder",
+       "Pia, Aether Ascetic"
+      ],
+      [
+       "Proft, Consulting Detective",
+       "Proft, Sinister Mastermind"
+      ],
+      [
+       "Ruric Thar, Biomagus",
+       "Ruric Thar, Magecrusher"
+      ],
+      [
+       "Saheeli, Consul of Oversight",
+       "Saheeli, Jewel of Avishkar"
+      ],
+      [
+       "Tetsuko Umezawa, Fugitive",
+       "Tetsuko Umezawa, Pursuer"
+      ],
+      [
+       "Teyo, Lightshield Expert",
+       "Teyo, Diamondblade Mage"
+      ],
+      [
+       "Tomik, Orzhov Lawmage",
+       "Tomik, Izzet Sparkmage"
+      ],
+      [
+       "Traxos, Academy Guardian",
+       "Traxos, Scourge Eternal"
+      ],
+      [
+       "Winter, Tormented Loner",
+       "Winter, Team Player"
+      ],
+      [
+       "Yargle, Goliath of Otaria",
+       "Yargle, Glutton of Urborg"
+      ],
+      [
+       "Yoshimaru, Beloved Companion",
+       "Yoshimaru, Scrappy Stray"
+      ],
+      [
+       "Yuriko, Blade of the Mighty",
+       "Yuriko, Hope from the Shadows"
+      ],
+      [
+       "Geist of Saint Thalia",
+       "Thalia, the Survivor"
+      ],
+      [
+       "Massacre Girl, Most Wanted",
+       "Rescue Girl, First Responder"
+      ],
+      [
+       "Tinybones, Pocket Nuisance",
+       "Titanbones, Towering Heart"
+      ],
+      [
+       "Way of the Healer",
+       "Way of the Mentor"
+      ],
+      [
+       "Way of the Cryomancer",
+       "Way of the Mind Sculptor"
+      ],
+      [
+       "Way of the Deathbringer",
+       "Way of the Necromancer"
+      ],
+      [
+       "Way of the Pyromancer",
+       "Way of the Warlord"
+      ],
+      [
+       "Way of the Paradox",
+       "Way of the Wildspeaker"
+      ]
+     ]
+    },
+    "foil_bechoU": {
+     "rarity": "uncommon",
+     "numbers": [
+      "295",
+      "306",
+      "296",
+      "299",
+      "298",
+      "313",
+      "307",
+      "312",
+      "310",
+      "315"
+     ],
+     "foil": true,
+     "pairs": [
+      [
+       "Teyo, Lightshield Expert",
+       "Teyo, Diamondblade Mage"
+      ],
+      [
+       "Thalia, the Survivor",
+       "Geist of Saint Thalia"
+      ],
+      [
+       "Fblthp, Impossibly Lost",
+       "Fblthp, Knows the Way"
+      ],
+      [
+       "Winter, Tormented Loner",
+       "Winter, Team Player"
+      ],
+      [
+       "Marwyn, the Clearcutter",
+       "Marwyn, the Preserver"
+      ]
+     ]
+    },
+    "foil_tower": {
+     "numbers": [
+      "382",
+      "383",
+      "384",
+      "385",
+      "386",
+      "387",
+      "388",
+      "389",
+      "390",
+      "391",
+      "392",
+      "393",
+      "394",
+      "395",
+      "396"
+     ],
+     "foil": true
+    },
+    "foil_rare": {
+     "rarity": "rare",
+     "numbers": [
+      "7",
+      "9",
+      "11",
+      "13",
+      "14",
+      "19",
+      "26",
+      "28",
+      "32",
+      "40",
+      "44",
+      "47",
+      "52",
+      "55",
+      "57",
+      "63",
+      "64",
+      "71",
+      "72",
+      "79",
+      "80",
+      "83",
+      "87",
+      "88",
+      "90",
+      "91",
+      "100",
+      "103",
+      "107",
+      "111",
+      "113",
+      "118",
+      "131",
+      "135",
+      "142",
+      "145",
+      "148",
+      "149",
+      "152",
+      "154",
+      "162",
+      "168",
+      "176",
+      "179",
+      "180",
+      "185",
+      "186",
+      "187",
+      "189",
+      "191",
+      "198",
+      "200",
+      "201",
+      "216",
+      "217",
+      "220",
+      "230",
+      "231",
+      "251",
+      "272",
+      "276",
+      "277",
+      "278",
+      "279"
+     ],
+     "foil": true
+    },
+    "foil_mythic": {
+     "rarity": "mythic",
+     "numbers": [
+      "1",
+      "5",
+      "20",
+      "38",
+      "43",
+      "49",
+      "53",
+      "59",
+      "78",
+      "93",
+      "106",
+      "110",
+      "116",
+      "121",
+      "122",
+      "128",
+      "137",
+      "140",
+      "159",
+      "169",
+      "195",
+      "212",
+      "229",
+      "242",
+      "244",
+      "259"
+     ],
+     "foil": true
+    },
+    "btR": {
+     "rarity": "rare",
+     "numbers": [
+      "359",
+      "360",
+      "364",
+      "365",
+      "367",
+      "368",
+      "370",
+      "371",
+      "373",
+      "375",
+      "376",
+      "377",
+      "379",
+      "380",
+      "381"
+     ]
+    },
+    "btM": {
+     "rarity": "mythic",
+     "numbers": [
+      "363",
+      "374",
+      "378"
+     ]
+    },
+    "frcM": {
+     "set": "frc",
+     "rarity": "mythic",
+     "numbers": [
+      "1",
+      "2"
+     ]
+    },
+    "frcEA": {
+     "set": "frc",
+     "rarity": "rare",
+     "numbers": [
+      "88",
+      "89",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103"
+     ]
+    },
+    "bechoR": {
+     "rarity": "rare",
+     "numbers": [
+      "292",
+      "304",
+      "293",
+      "305",
+      "294",
+      "301",
+      "300",
+      "317",
+      "302",
+      "311",
+      "316",
+      "320",
+      "318",
+      "319"
+     ],
+     "pairs": [
+      [
+       "Gideon's Memorial",
+       "Gideon the Oathless"
+      ],
+      [
+       "Liliana the Faultless",
+       "Liliana the Repentant"
+      ],
+      [
+       "Lyra, Archangel of Dawn",
+       "Lyra, Tolarian Archangel"
+      ],
+      [
+       "Jace, Reality Sculptor",
+       "Tam, the Possibility"
+      ],
+      [
+       "Samut, Tyrant of Naktamun",
+       "Samut, Hazoret's Champion"
+      ],
+      [
+       "Karn, Gilded Guardian",
+       "Karn, Argent Defender"
+      ],
+      [
+       "Vraska, Soul of Stone",
+       "Vraska, the Cutting Glare"
+      ]
+     ]
+    },
+    "bechoM": {
+     "rarity": "mythic",
+     "numbers": [
+      "291",
+      "308",
+      "297",
+      "309",
+      "303",
+      "314"
+     ],
+     "pairs": [
+      [
+       "Ajani Resolute",
+       "Ajani Unrelenting"
+      ],
+      [
+       "Chandra, Chill of Compliance",
+       "Chandra, Torch of Defiance"
+      ],
+      [
+       "Garruk, Veiled Butcher",
+       "Garruk, Curse Breaker"
+      ]
+     ]
+    },
+    "smR": {
+     "rarity": "rare",
+     "numbers": [
+      "322",
+      "326",
+      "328",
+      "332",
+      "333"
+     ]
+    },
+    "smM": {
+     "rarity": "mythic",
+     "numbers": [
+      "321",
+      "323",
+      "324",
+      "325",
+      "327",
+      "329",
+      "330",
+      "331"
+     ]
+    },
+    "shR": {
+     "rarity": "rare",
+     "numbers": [
+      "334",
+      "335",
+      "336",
+      "337",
+      "338",
+      "339",
+      "340",
+      "342",
+      "343",
+      "344",
+      "345",
+      "346",
+      "350",
+      "353",
+      "354",
+      "355",
+      "356",
+      "357"
+     ]
+    },
+    "shM": {
+     "rarity": "mythic",
+     "numbers": [
+      "341",
+      "347",
+      "348",
+      "349",
+      "351",
+      "352",
+      "358"
+     ]
+    },
+    "portal": {
+     "rarity": "rare",
+     "numbers": [
+      "397",
+      "398",
+      "399",
+      "400",
+      "401"
+     ]
+    },
+    "eaR": {
+     "rarity": "rare",
+     "numbers": [
+      "424",
+      "425",
+      "426",
+      "428",
+      "429",
+      "430",
+      "431"
+     ]
+    },
+    "eaM": {
+     "rarity": "mythic",
+     "numbers": [
+      "423",
+      "427"
+     ]
+    },
+    "foil_bechoR": {
+     "rarity": "rare",
+     "numbers": [
+      "292",
+      "304",
+      "293",
+      "305",
+      "294",
+      "301",
+      "300",
+      "317",
+      "302",
+      "311",
+      "316",
+      "320",
+      "318",
+      "319"
+     ],
+     "foil": true
+    },
+    "foil_bechoM": {
+     "rarity": "mythic",
+     "numbers": [
+      "291",
+      "308",
+      "297",
+      "309",
+      "303",
+      "314"
+     ],
+     "foil": true
+    },
+    "foil_shR": {
+     "rarity": "rare",
+     "numbers": [
+      "334",
+      "335",
+      "336",
+      "337",
+      "338",
+      "339",
+      "340",
+      "342",
+      "343",
+      "344",
+      "345",
+      "346",
+      "350",
+      "353",
+      "354",
+      "355",
+      "356",
+      "357"
+     ],
+     "foil": true
+    },
+    "foil_shM": {
+     "rarity": "mythic",
+     "numbers": [
+      "341",
+      "347",
+      "348",
+      "349",
+      "351",
+      "352",
+      "358"
+     ],
+     "foil": true
+    },
+    "foil_btR": {
+     "rarity": "rare",
+     "numbers": [
+      "359",
+      "360",
+      "364",
+      "365",
+      "367",
+      "368",
+      "370",
+      "371",
+      "373",
+      "375",
+      "376",
+      "377",
+      "379",
+      "380",
+      "381"
+     ],
+     "foil": true
+    },
+    "foil_btM": {
+     "rarity": "mythic",
+     "numbers": [
+      "363",
+      "374",
+      "378"
+     ],
+     "foil": true
+    },
+    "foil_portal": {
+     "rarity": "rare",
+     "numbers": [
+      "397",
+      "398",
+      "399",
+      "400",
+      "401"
+     ],
+     "foil": true
+    },
+    "foil_eaR": {
+     "rarity": "rare",
+     "numbers": [
+      "424",
+      "425",
+      "426",
+      "428",
+      "429",
+      "430",
+      "431"
+     ],
+     "foil": true
+    },
+    "foil_eaM": {
+     "rarity": "mythic",
+     "numbers": [
+      "423",
+      "427"
+     ],
+     "foil": true
+    },
+    "foil_spg": {
+     "set": "spg",
+     "numbers": [
+      "159",
+      "160",
+      "161",
+      "162",
+      "163",
+      "164",
+      "165",
+      "166",
+      "167",
+      "168"
+     ],
+     "foil": true
+    },
+    "foil_japan": {
+     "rarity": "mythic",
+     "numbers": [
+      "403",
+      "404",
+      "405",
+      "406",
+      "407",
+      "408",
+      "409",
+      "410",
+      "411",
+      "412"
+     ],
+     "foil": true
+    },
+    "foil_japanFracture": {
+     "rarity": "mythic",
+     "numbers": [
+      "413",
+      "414",
+      "415",
+      "416",
+      "417",
+      "418",
+      "419",
+      "420",
+      "421",
+      "422"
+     ],
+     "foil": true
+    },
+    "foil_facetR": {
+     "rarity": "rare",
+     "numbers": [
+      "450",
+      "454",
+      "456",
+      "460",
+      "461"
+     ],
+     "foil": true
+    },
+    "foil_facetM": {
+     "rarity": "mythic",
+     "numbers": [
+      "449",
+      "451",
+      "452",
+      "453",
+      "455",
+      "457",
+      "458",
+      "459"
+     ],
+     "foil": true
+    },
+    "foil_serialized": {
+     "rarity": "mythic",
+     "numbers": [
+      "402"
+     ],
+     "foil": true
+    }
+   },
+   "slots": [
+    {
+     "count": 4,
+     "sheets": {
+      "foil_common": 1
+     }
+    },
+    {
+     "count": 2,
+     "sheets": {
+      "foil_uncommon": 89600,
+      "foil_btU": 10400
+     }
+    },
+    {
+     "count": 1,
+     "pair": true,
+     "sheets": {
+      "foil_echoU": 86800,
+      "foil_bechoU": 13200
+     }
+    },
+    {
+     "count": 1,
+     "sheets": {
+      "foil_echoU": 86800,
+      "foil_bechoU": 13200
+     }
+    },
+    {
+     "count": 1,
+     "sheets": {
+      "foil_tower": 1
+     }
+    },
+    {
+     "count": 1,
+     "sheets": {
+      "foil_rare": 83100,
+      "foil_mythic": 16900
+     }
+    },
+    {
+     "count": 1,
+     "sheets": {
+      "btR": 44800,
+      "btM": 4500,
+      "frcM": 3000,
+      "frcEA": 47800
+     }
+    },
+    {
+     "count": 2,
+     "sheets": {
+      "bechoR": 23100,
+      "bechoM": 5000,
+      "smR": 8300,
+      "smM": 6600,
+      "shR": 29800,
+      "shM": 5800,
+      "portal": 8300,
+      "eaR": 11600,
+      "eaM": 1700
+     }
+    },
+    {
+     "count": 1,
+     "sheets": {
+      "foil_bechoR": 17100,
+      "foil_bechoM": 3700,
+      "foil_shR": 22000,
+      "foil_shM": 4300,
+      "foil_btR": 18300,
+      "foil_btM": 1800,
+      "foil_portal": 6100,
+      "foil_eaR": 8500,
+      "foil_eaM": 1200,
+      "foil_spg": 6100,
+      "foil_japan": 9000,
+      "foil_japanFracture": 1000,
+      "foil_facetR": 496,
+      "foil_facetM": 396,
+      "foil_serialized": 8
+     }
+    }
+   ]
+  }
  }
 }
