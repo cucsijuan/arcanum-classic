@@ -1,0 +1,18 @@
+{
+  "name": "Theorist's Sanctum",
+  "chooseOnEnter": "beholdOrTapped",
+  "enterReveal": {
+    "subtype": "Jace"
+  },
+  "abilities": [
+    {
+      "cost": "{2}{U}, {T}",
+      "effects": [
+        {
+          "empowerJace": 2
+        }
+      ],
+      "text": "{2}{U}, {T}: Empower Jace 2."
+    }
+  ]
+}

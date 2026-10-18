@@ -1,0 +1,44 @@
+{
+  "name": "Tomik, Orzhov Lawmage",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "keywords": [
+          "No more than one creature can attack this planeswalker each combat"
+        ]
+      },
+      "text": "Planeswalkers you control have \"No more than one creature can attack this planeswalker each combat.\""
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "hasCounterKind": "+1/+1"
+          },
+          "text": "target creature with a +1/+1 counter on it"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature with a +1/+1 counter on it gains flying until end of turn."
+    }
+  ]
+}

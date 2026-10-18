@@ -1,0 +1,29 @@
+{
+  "name": "Flourishing Grapple",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creatureOrPlaneswalker",
+        "controller": "opponent",
+        "filter": {
+          "colors": [
+            "R",
+            "W"
+          ]
+        },
+        "text": "target creature or planeswalker an opponent controls that's red or white"
+      },
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "loseAllAbilities": "target"
+      },
+      {
+        "bite": "target2",
+        "to": "target"
+      }
+    ],
+    "text": "Target creature or planeswalker an opponent controls that's red or white loses all abilities until end of turn. Target creature you control deals damage equal to its power to that permanent."
+  }
+}

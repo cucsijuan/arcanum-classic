@@ -1,0 +1,14 @@
+{
+  "name": "Pyre Rhymer // Molten Tide",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "mountainsAddExtraRedThisTurn": true
+        }
+      ],
+      "text": "Until end of turn, whenever you tap a Mountain for mana, add an additional {R}."
+    }
+  }
+}

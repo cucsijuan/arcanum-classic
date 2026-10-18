@@ -1,0 +1,34 @@
+{
+  "name": "Heartwood Crafter // Soul Tether",
+  "entersPrepared": true,
+  "extraMana": [
+    {
+      "types": "{C}",
+      "amount": 1,
+      "onlyFor": {
+        "inHand": false
+      },
+      "abilitiesToo": true
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Heartwood",
+            "types": "Artifact — Heartwood",
+            "colors": [
+              "G",
+              "R"
+            ],
+            "tapForMana": "{R}{G}",
+            "text": "{T}: Add {R} or {G}."
+          }
+        }
+      ],
+      "text": "Create a Heartwood token."
+    }
+  }
+}

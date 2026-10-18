@@ -1,0 +1,34 @@
+{
+  "name": "Sphinx's Approach",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "mayPay": "Exile this spell and four cards named Sphinx's Approach from your graveyard?",
+        "cost": {
+          "exileGraveyard": 4,
+          "exileGraveyardFilter": {
+            "name": "Sphinx's Approach"
+          }
+        },
+        "effects": [
+          {
+            "exileThisSpell": true
+          },
+          {
+            "search": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Sphinx"
+            },
+            "to": "battlefield"
+          }
+        ]
+      }
+    ],
+    "text": "Draw two cards. Then you may exile this spell and four cards named Sphinx's Approach from your graveyard. If you do, search your library for a Sphinx creature card, put it onto the battlefield, then shuffle."
+  }
+}

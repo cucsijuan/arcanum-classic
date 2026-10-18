@@ -1,0 +1,70 @@
+{
+  "name": "Seasoned Cryomancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 2,
+          "who": "you"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "discarded": {
+                "not": [
+                  "land"
+                ]
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "whenYouDo": {
+                "amount": {
+                  "discarded": {
+                    "not": [
+                      "land"
+                    ]
+                  }
+                },
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "upTo": "triggerAmount",
+                    "text": "up to that many target creatures"
+                  }
+                ],
+                "effects": [
+                  {
+                    "tap": "eachTarget"
+                  },
+                  {
+                    "counters": 1,
+                    "kind": "stun",
+                    "what": "eachTarget"
+                  }
+                ],
+                "text": "Tap up to that many target creatures and put a stun counter on each of them."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them."
+    },
+    {
+      "cost": "{3}{U}{U}, exileFromGraveyard",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{3}{U}{U}, Exile this card from your graveyard: Draw two cards."
+    }
+  ]
+}

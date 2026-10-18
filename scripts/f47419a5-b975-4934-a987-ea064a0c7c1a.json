@@ -1,0 +1,46 @@
+{
+  "name": "Warrior's Blades",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this Equipment enters, it deals 3 damage to any target and you gain 3 life."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    },
+    {
+      "cost": "{3}",
+      "sorcery": true,
+      "equip": true,
+      "costReductionPerTargetCounter": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip {3}. This ability costs {1} less to activate for each +1/+1 counter on the creature it targets."
+    }
+  ]
+}

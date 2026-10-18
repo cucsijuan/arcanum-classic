@@ -1,0 +1,29 @@
+{
+  "name": "Countersculpt",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "behold": {
+          "subtype": "Jace"
+        }
+      }
+    },
+    {
+      "mana": "{1}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      },
+      {
+        "empowerJace": 1
+      }
+    ],
+    "text": "Counter target spell. Empower Jace 1."
+  }
+}
