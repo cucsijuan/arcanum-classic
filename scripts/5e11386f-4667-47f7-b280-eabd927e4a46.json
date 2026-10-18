@@ -1,0 +1,30 @@
+{
+  "name": "Waterspout Warden",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "enteredThisTurn": {
+          "types": [
+            "creature"
+          ],
+          "controller": "you",
+          "other": true
+        }
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, if another creature entered the battlefield under your control this turn, this creature gains flying until end of turn."
+    }
+  ]
+}

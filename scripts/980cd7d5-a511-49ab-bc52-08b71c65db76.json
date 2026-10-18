@@ -1,0 +1,32 @@
+{
+  "name": "Kindlespark Duo",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to target opponent."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, untap this creature."
+    }
+  ]
+}

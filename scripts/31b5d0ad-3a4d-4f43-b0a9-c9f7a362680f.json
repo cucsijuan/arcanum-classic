@@ -1,0 +1,49 @@
+{
+  "name": "Season of Loss",
+  "spell": {
+    "pawprints": 5,
+    "modes": [
+      {
+        "pawprints": 1,
+        "text": "{P} — Each player sacrifices a creature of their choice.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "who": "everyone"
+          }
+        ]
+      },
+      {
+        "pawprints": 2,
+        "text": "{P}{P} — Draw a card for each creature that died under your control this turn.",
+        "effects": [
+          {
+            "draw": "yourCreaturesDiedThisTurn"
+          }
+        ]
+      },
+      {
+        "pawprints": 3,
+        "text": "{P}{P}{P} — Each opponent loses X life, where X is the number of creature cards in your graveyard.",
+        "effects": [
+          {
+            "loseLife": {
+              "graveyard": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "who": "opponents"
+          }
+        ]
+      }
+    ],
+    "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once."
+  }
+}

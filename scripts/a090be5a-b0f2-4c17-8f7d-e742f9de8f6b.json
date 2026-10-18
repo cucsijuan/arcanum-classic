@@ -1,0 +1,64 @@
+{
+  "name": "Fecund Greenshell",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 10
+        }
+      },
+      "text": "As long as you control ten or more lands, creatures you control get +2/+2."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "toughnessAbovePower": true
+      },
+      "effects": [
+        {
+          "if": {
+            "topOfLibrary": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "then": [
+            {
+              "lookAtTop": 1,
+              "filter": {
+                "types": [
+                  "land"
+                ]
+              },
+              "take": 1,
+              "to": "battlefield",
+              "tapped": true,
+              "rest": "top"
+            }
+          ],
+          "else": [
+            {
+              "topCardToHand": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another creature you control with toughness greater than its power enters, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. Otherwise, put it into your hand."
+    }
+  ]
+}

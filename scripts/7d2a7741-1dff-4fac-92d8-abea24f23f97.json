@@ -1,0 +1,37 @@
+{
+  "name": "Three Tree Scribe",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "notZone": "graveyard"
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control leaves the battlefield without dying, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "leavesWithoutDying",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control leaves the battlefield without dying, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

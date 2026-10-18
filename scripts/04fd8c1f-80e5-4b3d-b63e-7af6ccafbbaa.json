@@ -1,0 +1,35 @@
+{
+  "name": "Wildfire Howl",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      {
+        "kind": "any",
+        "onlyIfGiftPromised": true,
+        "text": "any target"
+      }
+    ],
+    "effects": [
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "damage": 1,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "damage": 2,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Wildfire Howl deals 2 damage to each creature. If the gift was promised, instead Wildfire Howl deals 1 damage to any target and 2 damage to each creature."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Stocking the Pantry",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "placedByYou": true,
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "supply",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you put one or more +1/+1 counters on a creature you control, put a supply counter on this enchantment."
+    },
+    {
+      "cost": "{2}, removeCounters:1:supply",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Remove a supply counter from this enchantment: Draw a card."
+    }
+  ]
+}

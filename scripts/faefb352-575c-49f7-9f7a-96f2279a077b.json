@@ -1,0 +1,24 @@
+{
+  "name": "Huskburster Swarm",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": {
+      "sum": [
+        {
+          "graveyard": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "ownedInExile": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

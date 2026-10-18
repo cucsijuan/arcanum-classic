@@ -1,0 +1,14 @@
+{
+  "name": "Jolly Gerbils",
+  "abilities": [
+    {
+      "trigger": "youGiveGift",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you give a gift, draw a card."
+    }
+  ]
+}

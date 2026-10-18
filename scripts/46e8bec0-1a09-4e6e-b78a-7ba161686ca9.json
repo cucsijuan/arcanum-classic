@@ -1,0 +1,23 @@
+{
+  "name": "Cindering Cutthroat",
+  "entersWithCounters": 1,
+  "entersWithCountersIf": "opponentLostLife",
+  "abilities": [
+    {
+      "cost": "{1}{B/R}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{1}{B/R}: This creature gains menace until end of turn."
+    }
+  ]
+}

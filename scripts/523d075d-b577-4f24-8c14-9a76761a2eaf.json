@@ -1,0 +1,28 @@
+{
+  "name": "Flowerfoot Swordmaster",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfYours",
+      "onSelf": true,
+      "nth": 1,
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Mouse",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, Mice you control get +1/+0 until end of turn."
+    }
+  ]
+}

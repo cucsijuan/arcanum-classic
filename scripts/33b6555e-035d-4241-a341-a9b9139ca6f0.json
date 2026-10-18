@@ -1,0 +1,35 @@
+{
+  "name": "Thornplate Intimidator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "unless": "target",
+          "options": [
+            {
+              "sacrifice": {
+                "not": [
+                  "land"
+                ]
+              }
+            },
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target opponent loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card."
+    }
+  ]
+}

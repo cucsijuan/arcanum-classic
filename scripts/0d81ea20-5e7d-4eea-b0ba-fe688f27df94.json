@@ -1,0 +1,34 @@
+{
+  "name": "Tangle Tumbler",
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{3}, {T}: Put a +1/+1 counter on target creature."
+    },
+    {
+      "cost": "tapPermanents:2",
+      "tapFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "artifact",
+            "creature"
+          ]
+        }
+      ],
+      "text": "Tap two untapped tokens you control: This Vehicle becomes an artifact creature until end of turn."
+    }
+  ]
+}

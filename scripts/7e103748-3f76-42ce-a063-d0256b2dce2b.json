@@ -1,0 +1,56 @@
+{
+  "name": "Rockface Village",
+  "extraMana": [
+    {
+      "types": "{R}",
+      "amount": 1,
+      "onlyFor": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Lizard"
+              },
+              {
+                "subtype": "Mouse"
+              },
+              {
+                "subtype": "Otter"
+              },
+              {
+                "subtype": "Raccoon"
+              }
+            ]
+          },
+          "text": "target Lizard, Mouse, Otter, or Raccoon you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}, {T}: Target Lizard, Mouse, Otter, or Raccoon you control gets +1/+0 and gains haste until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

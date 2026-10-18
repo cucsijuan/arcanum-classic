@@ -1,0 +1,59 @@
+{
+  "name": "Camellia, the Seedmiser",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Squirrel",
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Other Squirrels you control have menace."
+    },
+    {
+      "trigger": "youSacrifice",
+      "batched": true,
+      "filter": {
+        "subtype": "Food",
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Squirrel",
+            "types": "Creature — Squirrel",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever you sacrifice one or more Foods, create a 1/1 green Squirrel creature token."
+    },
+    {
+      "cost": "{2}, forage",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Squirrel",
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "{2}, Forage: Put a +1/+1 counter on each other Squirrel you control."
+    }
+  ]
+}

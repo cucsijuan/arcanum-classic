@@ -1,0 +1,32 @@
+{
+  "name": "Starfall Invocation",
+  "gift": "card",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "to": "battlefield",
+            "amongDestroyed": true
+          }
+        ]
+      }
+    ],
+    "text": "Destroy all creatures. If the gift was promised, return a creature card put into your graveyard this way to the battlefield under your control."
+  }
+}

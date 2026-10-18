@@ -1,0 +1,43 @@
+{
+  "name": "Parting Gust",
+  "gift": {
+    "name": "Fish",
+    "types": "Creature — Fish",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "giftTapped": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "any",
+        "filter": {
+          "token": false
+        },
+        "text": "target nontoken creature"
+      }
+    ],
+    "effects": [
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "exile": "target"
+          }
+        ],
+        "else": [
+          {
+            "flicker": "target",
+            "withCounter": "+1/+1"
+          }
+        ]
+      }
+    ],
+    "text": "Exile target nontoken creature. If the gift wasn't promised, return that card to the battlefield under its owner's control with a +1/+1 counter on it at the beginning of the next end step."
+  }
+}

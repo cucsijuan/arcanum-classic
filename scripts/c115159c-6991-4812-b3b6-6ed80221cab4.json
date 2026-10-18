@@ -1,0 +1,44 @@
+{
+  "name": "Muerra, Trash Tactician",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "addManaCombination": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Raccoon",
+              "controller": "you"
+            }
+          },
+          "types": "{R}{G}"
+        }
+      ],
+      "text": "At the beginning of your first main phase, add {R} or {G} for each Raccoon you control."
+    },
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever you expend 4, you gain 3 life."
+    },
+    {
+      "trigger": "youExpend",
+      "expend": 8,
+      "effects": [
+        {
+          "exileTopPlayable": 2,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "Whenever you expend 8, exile the top two cards of your library. Until the end of your next turn, you may play those cards."
+    }
+  ]
+}

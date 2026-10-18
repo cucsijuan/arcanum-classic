@@ -1,0 +1,36 @@
+{
+  "name": "Fountainport Bell",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card and put it on top?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "reveal": true,
+              "to": "top"
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice this artifact: Draw a card."
+    }
+  ]
+}

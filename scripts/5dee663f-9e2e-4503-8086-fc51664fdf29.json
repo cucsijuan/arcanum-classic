@@ -1,0 +1,14 @@
+{
+  "name": "Thieving Otter",
+  "abilities": [
+    {
+      "trigger": "dealsDamageToOpponent",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals damage to an opponent, draw a card."
+    }
+  ]
+}

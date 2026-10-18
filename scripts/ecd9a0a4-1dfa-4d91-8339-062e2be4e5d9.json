@@ -1,0 +1,29 @@
+{
+  "name": "Bakersbane Duo",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When this creature enters, create a Food token."
+    },
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you expend 4, this creature gets +1/+1 until end of turn."
+    }
+  ]
+}

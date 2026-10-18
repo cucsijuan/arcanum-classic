@@ -1,0 +1,19 @@
+{
+  "name": "Nightwhorl Hermit",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ],
+        "while": "threshold"
+      },
+      "text": "Threshold — As long as there are seven or more cards in your graveyard, this creature gets +1/+0 and can't be blocked."
+    }
+  ]
+}

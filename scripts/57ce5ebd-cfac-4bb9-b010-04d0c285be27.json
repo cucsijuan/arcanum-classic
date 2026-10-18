@@ -1,0 +1,44 @@
+{
+  "name": "Clement, the Worrywort",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "lesserManaValueThanTriggered": true
+          },
+          "text": "up to one target creature you control with lesser mana value"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever Clement or another creature you control enters, return up to one target creature you control with lesser mana value to its owner's hand."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Frog",
+        "grantsMana": "{G}{U}",
+        "grantsManaOnlyFor": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "text": "Frogs you control have \"{T}: Add {G} or {U}. Spend this mana only to cast a creature spell.\""
+    }
+  ]
+}

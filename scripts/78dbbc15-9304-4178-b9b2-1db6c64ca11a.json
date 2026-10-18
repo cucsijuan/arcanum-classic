@@ -1,0 +1,46 @@
+{
+  "name": "Wishing Well",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "coin",
+          "what": "self"
+        },
+        {
+          "whenYouDo": {
+            "amount": {
+              "counters": "coin"
+            },
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "filter": {
+                  "types": [
+                    "instant",
+                    "sorcery"
+                  ],
+                  "manaValueIsTriggerAmount": true
+                },
+                "text": "target instant or sorcery card with mana value equal to the number of coin counters on this artifact from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "castFromGraveyard": {},
+                "card": "target",
+                "free": true
+              }
+            ],
+            "text": "When you do, you may cast target instant or sorcery card with mana value equal to the number of coin counters on this artifact from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+          }
+        }
+      ],
+      "text": "{T}: Put a coin counter on this artifact. When you do, you may cast target instant or sorcery card with mana value equal to the number of coin counters on this artifact from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery."
+    }
+  ]
+}

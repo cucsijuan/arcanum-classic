@@ -1,0 +1,6 @@
+{
+  "name": "Rust-Shield Rampager",
+  "cantBeBlockedBy": {
+    "maxPower": 2
+  }
+}

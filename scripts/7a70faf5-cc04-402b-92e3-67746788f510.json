@@ -1,0 +1,21 @@
+{
+  "name": "Sunshower Druid",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on target creature and you gain 1 life."
+    }
+  ]
+}

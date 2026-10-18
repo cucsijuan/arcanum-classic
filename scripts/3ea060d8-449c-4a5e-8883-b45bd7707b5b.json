@@ -1,0 +1,85 @@
+{
+  "name": "Season of Gathering",
+  "spell": {
+    "pawprints": 5,
+    "modes": [
+      {
+        "pawprints": 1,
+        "text": "{P} — Put a +1/+1 counter on a creature you control. It gains vigilance and trample until end of turn.",
+        "effects": [
+          {
+            "choose": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          {
+            "counters": 1,
+            "what": "chosen"
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "chosen",
+            "keywords": [
+              "Vigilance",
+              "Trample"
+            ]
+          }
+        ]
+      },
+      {
+        "pawprints": 2,
+        "text": "{P}{P} — Choose artifact or enchantment. Destroy all permanents of the chosen type.",
+        "effects": [
+          {
+            "chooseEffect": [
+              {
+                "text": "Artifact",
+                "effects": [
+                  {
+                    "destroy": {
+                      "each": {
+                        "types": [
+                          "artifact"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "text": "Enchantment",
+                "effects": [
+                  {
+                    "destroy": {
+                      "each": {
+                        "types": [
+                          "enchantment"
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "pawprints": 3,
+        "text": "{P}{P}{P} — Draw cards equal to the greatest power among creatures you control.",
+        "effects": [
+          {
+            "draw": "greatestPower"
+          }
+        ]
+      }
+    ],
+    "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once."
+  }
+}

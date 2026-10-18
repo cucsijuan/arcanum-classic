@@ -1,0 +1,80 @@
+{
+  "name": "Scavenger's Talent",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever one or more creatures you control die, create a Food token. This ability triggers only once each turn."
+    },
+    {
+      "cost": "{1}{B}",
+      "levelUp": 2,
+      "text": "{1}{B}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "youSacrifice",
+      "filter": {
+        "controller": "any"
+      },
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you sacrifice a permanent, target player mills two cards."
+    },
+    {
+      "cost": "{2}{B}",
+      "levelUp": 3,
+      "text": "{2}{B}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "endStep",
+      "effects": [
+        {
+          "mayPay": "Sacrifice three other nonland permanents?",
+          "cost": {
+            "sacrifice": {
+              "not": [
+                "land"
+              ],
+              "other": true
+            },
+            "sacrificeCount": 3
+          },
+          "effects": [
+            {
+              "returnFromGraveyard": {
+                "types": [
+                  "creature"
+                ]
+              },
+              "to": "battlefield",
+              "withCounter": "finality"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may sacrifice three other nonland permanents. If you do, return a creature card from your graveyard to the battlefield with a finality counter on it."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Helga, Skittish Seer",
+  "tapForMana": "{W}{U}{B}{R}{G}",
+  "manaAmountFrom": {
+    "power": "self"
+  },
+  "manaOnlyFor": {
+    "types": [
+      "creature"
+    ],
+    "anyOf": [
+      {
+        "minManaValue": 4
+      },
+      {
+        "hasX": true
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "minManaValue": 4
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "gainLife": 1
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a creature spell with mana value 4 or greater, you draw a card, gain 1 life, and put a +1/+1 counter on Helga."
+    }
+  ]
+}

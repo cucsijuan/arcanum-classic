@@ -1,0 +1,34 @@
+{
+  "name": "Jackdaw Savior",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "keyword": "Flying"
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "lesserManaValueThanTriggered": true
+          },
+          "text": "another target creature card with lesser mana value from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control with flying dies, return another target creature card with lesser mana value from your graveyard to the battlefield."
+    }
+  ]
+}

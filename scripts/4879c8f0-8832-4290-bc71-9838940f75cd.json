@@ -1,0 +1,80 @@
+{
+  "name": "Valley Floodcaller",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "not": [
+            "creature"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "You may cast noncreature spells as though they had flash."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "anyOf": [
+                {
+                  "subtype": "Bird"
+                },
+                {
+                  "subtype": "Frog"
+                },
+                {
+                  "subtype": "Otter"
+                },
+                {
+                  "subtype": "Rat"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "anyOf": [
+                {
+                  "subtype": "Bird"
+                },
+                {
+                  "subtype": "Frog"
+                },
+                {
+                  "subtype": "Otter"
+                },
+                {
+                  "subtype": "Rat"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, Birds, Frogs, Otters, and Rats you control get +1/+1 until end of turn. Untap them."
+    }
+  ]
+}

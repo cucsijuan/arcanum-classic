@@ -1,0 +1,45 @@
+{
+  "name": "Mind Spiral",
+  "gift": {
+    "name": "Fish",
+    "types": "Creature — Fish",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "giftTapped": true,
+  "spell": {
+    "targets": [
+      "player",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "onlyIfGiftPromised": true,
+        "text": "target creature an opponent controls"
+      }
+    ],
+    "effects": [
+      {
+        "draw": 3,
+        "who": "target"
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "tap": "target2"
+          },
+          {
+            "counters": 1,
+            "kind": "stun",
+            "what": "target2"
+          }
+        ]
+      }
+    ],
+    "text": "Target player draws three cards. If the gift was promised, tap target creature an opponent controls and put a stun counter on it."
+  }
+}

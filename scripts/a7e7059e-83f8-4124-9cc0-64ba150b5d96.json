@@ -1,0 +1,52 @@
+{
+  "name": "Warren Warleader",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Create a 1/1 white Rabbit creature token that's tapped and attacking.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Rabbit",
+                "types": "Creature — Rabbit",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": []
+              },
+              "tapped": true,
+              "attackingChosenDefender": true
+            }
+          ]
+        },
+        {
+          "text": "Attacking creatures you control get +1/+1 until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                1,
+                1
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you",
+                  "attacking": true
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, choose one — • Create a 1/1 white Rabbit creature token that's tapped and attacking. • Attacking creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

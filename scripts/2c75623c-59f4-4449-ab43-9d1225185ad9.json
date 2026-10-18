@@ -1,0 +1,88 @@
+{
+  "name": "Rottenmouth Viper",
+  "additionalSacrificeAny": {
+    "not": [
+      "land"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "blight",
+          "what": "self"
+        },
+        {
+          "repeat": {
+            "counters": "blight"
+          },
+          "effects": [
+            {
+              "unless": "opponents",
+              "options": [
+                {
+                  "sacrifice": {
+                    "not": [
+                      "land"
+                    ]
+                  }
+                },
+                {
+                  "discard": 1
+                }
+              ],
+              "otherwise": [
+                {
+                  "loseLife": 4,
+                  "who": "triggeredPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent of their choice or discards a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "blight",
+          "what": "self"
+        },
+        {
+          "repeat": {
+            "counters": "blight"
+          },
+          "effects": [
+            {
+              "unless": "opponents",
+              "options": [
+                {
+                  "sacrifice": {
+                    "not": [
+                      "land"
+                    ]
+                  }
+                },
+                {
+                  "discard": 1
+                }
+              ],
+              "otherwise": [
+                {
+                  "loseLife": 4,
+                  "who": "triggeredPlayer"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, put a blight counter on it. Then for each blight counter on it, each opponent loses 4 life unless that player sacrifices a nonland permanent of their choice or discards a card."
+    }
+  ]
+}

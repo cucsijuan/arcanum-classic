@@ -1,0 +1,32 @@
+{
+  "name": "Glarb, Calamity's Augur",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {
+    "anyOf": [
+      {
+        "types": [
+          "land"
+        ]
+      },
+      {
+        "minManaValue": 4,
+        "not": [
+          "land"
+        ]
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "{T}: Surveil 2."
+    }
+  ]
+}

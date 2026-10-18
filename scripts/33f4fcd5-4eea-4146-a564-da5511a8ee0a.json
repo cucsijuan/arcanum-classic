@@ -1,0 +1,20 @@
+{
+  "name": "Thought Shucker",
+  "abilities": [
+    {
+      "cost": "{1}{U}",
+      "activateIf": "threshold",
+      "onlyOnce": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Threshold — {1}{U}: Put a +1/+1 counter on this creature and draw a card. Activate only if there are seven or more cards in your graveyard and only once."
+    }
+  ]
+}

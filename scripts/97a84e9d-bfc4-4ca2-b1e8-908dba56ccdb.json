@@ -1,0 +1,36 @@
+{
+  "name": "Lumra, Bellow of the Woods",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "reanimateAll": {
+            "types": [
+              "land"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "When Lumra enters, mill four cards. Then return all land cards from your graveyard to the battlefield tapped."
+    }
+  ]
+}

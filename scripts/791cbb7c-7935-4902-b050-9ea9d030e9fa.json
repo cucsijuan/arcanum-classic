@@ -1,0 +1,22 @@
+{
+  "name": "Osteomancer Adept",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "mayCastFromGraveyard": {
+            "types": [
+              "creature"
+            ]
+          },
+          "cost": {
+            "forage": true
+          },
+          "finality": true
+        }
+      ],
+      "text": "{T}: Until end of turn, you may cast creature spells from your graveyard by foraging in addition to paying their other costs. If you cast a spell this way, that creature enters with a finality counter on it."
+    }
+  ]
+}

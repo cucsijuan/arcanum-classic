@@ -1,0 +1,37 @@
+{
+  "name": "Azure Beastbinder",
+  "cantBeBlockedBy": {
+    "minPower": 2
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "planeswalker"
+            ]
+          },
+          "text": "up to one target artifact, creature, or planeswalker an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "loseAbilities": true,
+          "power": 2,
+          "toughness": 2,
+          "statsIfCreature": true,
+          "untilYourNextTurn": true
+        }
+      ],
+      "text": "Whenever this creature attacks, up to one target artifact, creature, or planeswalker an opponent controls loses all abilities until your next turn. If it's a creature, it also has base power and toughness 2/2 until your next turn."
+    }
+  ]
+}

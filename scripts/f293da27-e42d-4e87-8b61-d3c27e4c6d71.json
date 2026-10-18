@@ -1,0 +1,19 @@
+{
+  "name": "Burrowguard Mentor",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ],
+      "controller": "you"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ],
+      "controller": "you"
+    }
+  }
+}

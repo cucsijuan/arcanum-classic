@@ -1,0 +1,35 @@
+{
+  "name": "Take Out the Trash",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Raccoon"
+          }
+        },
+        "then": [
+          {
+            "mayPay": "Discard a card to draw a card?",
+            "cost": {
+              "discard": 1
+            },
+            "effects": [
+              {
+                "draw": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Take Out the Trash deals 3 damage to target creature or planeswalker. If you control a Raccoon, you may discard a card. If you do, draw a card."
+  }
+}

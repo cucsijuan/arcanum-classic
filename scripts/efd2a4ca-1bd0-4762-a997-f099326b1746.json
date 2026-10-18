@@ -1,0 +1,28 @@
+{
+  "name": "Polliwallop",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Frog",
+      "controller": "you"
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "text": "target creature you don't control"
+      }
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2",
+        "times": 2
+      }
+    ],
+    "text": "Target creature you control deals damage equal to twice its power to target creature you don't control."
+  }
+}

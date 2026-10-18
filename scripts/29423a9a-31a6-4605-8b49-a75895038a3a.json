@@ -1,0 +1,37 @@
+{
+  "name": "Wick's Patrol",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              "creature:opponent"
+            ],
+            "effects": [
+              {
+                "pump": [
+                  {
+                    "greatestManaValueInGraveyard": {},
+                    "times": -1
+                  },
+                  {
+                    "greatestManaValueInGraveyard": {},
+                    "times": -1
+                  }
+                ],
+                "what": "target"
+              }
+            ],
+            "text": "When you do, target creature an opponent controls gets -X/-X until end of turn, where X is the greatest mana value among cards in your graveyard."
+          }
+        }
+      ],
+      "text": "When this creature enters, mill three cards. When you do, target creature an opponent controls gets -X/-X until end of turn, where X is the greatest mana value among cards in your graveyard."
+    }
+  ]
+}

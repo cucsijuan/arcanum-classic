@@ -1,0 +1,37 @@
+{
+  "name": "Early Winter",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Exile target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target opponent exiles an enchantment they control.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "exileYouControl": 1,
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "who": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Choose one — • Exile target creature. • Target opponent exiles an enchantment they control."
+  }
+}

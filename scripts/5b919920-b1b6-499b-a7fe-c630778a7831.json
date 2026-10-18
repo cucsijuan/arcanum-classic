@@ -1,0 +1,46 @@
+{
+  "name": "Valley Rally",
+  "gift": "Food",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "onlyIfGiftPromised": true,
+        "text": "target creature you control"
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "First strike"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Creatures you control get +2/+0 until end of turn. If the gift was promised, target creature you control gains first strike until end of turn."
+  }
+}

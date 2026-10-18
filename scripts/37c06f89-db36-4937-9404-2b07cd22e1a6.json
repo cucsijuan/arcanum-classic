@@ -1,0 +1,45 @@
+{
+  "name": "Dawn's Truce",
+  "gift": "card",
+  "spell": {
+    "effects": [
+      {
+        "gainHexproof": "you"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ],
+        "what": {
+          "each": {
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Indestructible"
+            ],
+            "what": {
+              "each": {
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "text": "You and permanents you control gain hexproof until end of turn. If the gift was promised, permanents you control also gain indestructible until end of turn."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Carrot Cake",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rabbit",
+            "types": "Creature — Rabbit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this artifact enters and when you sacrifice it, create a 1/1 white Rabbit creature token and scry 1."
+    },
+    {
+      "trigger": "selfSacrificed",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rabbit",
+            "types": "Creature — Rabbit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this artifact enters and when you sacrifice it, create a 1/1 white Rabbit creature token and scry 1."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    }
+  ]
+}

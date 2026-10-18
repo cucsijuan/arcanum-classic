@@ -1,0 +1,41 @@
+{
+  "name": "Hazardroot Herbalist",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "token": true
+            }
+          },
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Deathtouch"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, target creature you control gets +1/+0 until end of turn. If that creature is a token, it also gains deathtouch until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Barkform Harvester",
+  "abilities": [
+    {
+      "cost": "{2}",
+      "targets": [
+        "graveyardCard:you"
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{2}: Put target card from your graveyard on the bottom of your library."
+    }
+  ]
+}

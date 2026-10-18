@@ -1,0 +1,27 @@
+{
+  "name": "Gev, Scaled Scorch",
+  "othersEnterWithCounters": "opponentsWhoLostLifeThisTurn",
+  "othersEnterWithCountersFilter": {
+    "types": [
+      "creature"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "subtype": "Lizard"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a Lizard spell, Gev deals 1 damage to target opponent."
+    }
+  ]
+}

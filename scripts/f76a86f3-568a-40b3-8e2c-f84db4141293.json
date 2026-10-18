@@ -1,0 +1,36 @@
+{
+  "name": "Driftgloom Coyote",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "maxPower": 2
+            }
+          },
+          "then": [
+            {
+              "exileUntilLeaves": "target"
+            },
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ],
+          "else": [
+            {
+              "exileUntilLeaves": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, exile target creature an opponent controls until this creature leaves the battlefield. If that creature had power 2 or less, put a +1/+1 counter on this creature."
+    }
+  ]
+}

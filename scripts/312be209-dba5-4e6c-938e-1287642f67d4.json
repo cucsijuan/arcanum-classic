@@ -1,0 +1,64 @@
+{
+  "name": "Hivespine Wolverine",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on target creature you control.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "This creature fights target creature token.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "any",
+              "filter": {
+                "token": true
+              },
+              "text": "target creature token"
+            }
+          ],
+          "effects": [
+            {
+              "fight": "self",
+              "with": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target artifact or enchantment.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "controller": "any",
+              "filter": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              },
+              "text": "target artifact or enchantment"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one — • Put a +1/+1 counter on target creature you control. • This creature fights target creature token. • Destroy target artifact or enchantment."
+    }
+  ]
+}

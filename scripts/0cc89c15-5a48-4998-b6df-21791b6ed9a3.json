@@ -1,0 +1,25 @@
+{
+  "name": "Roughshod Duo",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Whenever you expend 4, target creature you control gets +1/+1 and gains trample until end of turn."
+    }
+  ]
+}

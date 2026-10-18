@@ -1,0 +1,26 @@
+{
+  "name": "Lilysplash Mentor",
+  "abilities": [
+    {
+      "cost": "{1}{G}{U}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "target",
+          "counters": 1
+        }
+      ],
+      "text": "{1}{G}{U}: Exile another target creature you control, then return it to the battlefield under its owner's control with a +1/+1 counter on it. Activate only as a sorcery."
+    }
+  ]
+}

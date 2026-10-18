@@ -1,0 +1,23 @@
+{
+  "name": "Three Tree City",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "addManaOneColor": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "chosenType": true
+            }
+          }
+        }
+      ],
+      "text": "{2}, {T}: Choose a color. Add an amount of mana of that color equal to the number of creatures you control of the chosen type."
+    }
+  ]
+}

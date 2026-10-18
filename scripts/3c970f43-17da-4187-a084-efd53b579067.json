@@ -1,0 +1,78 @@
+{
+  "name": "Ral, Crackling Wit",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "loyalty",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, put a loyalty counter on Ral."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Otter",
+            "types": "Creature — Otter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U",
+              "R"
+            ],
+            "keywords": [
+              "Prowess"
+            ]
+          }
+        }
+      ],
+      "text": "+1: Create a 1/1 blue and red Otter creature token with prowess."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "discard": 2
+        }
+      ],
+      "text": "−3: Draw three cards, then discard two cards."
+    },
+    {
+      "cost": "-10",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "emblem": "Ral, Crackling Wit emblem",
+          "abilities": [
+            {
+              "spellsHaveStorm": {
+                "types": [
+                  "instant",
+                  "sorcery"
+                ]
+              },
+              "text": "Instant and sorcery spells you cast have storm."
+            }
+          ]
+        }
+      ],
+      "text": "−10: Draw three cards. You get an emblem with \"Instant and sorcery spells you cast have storm.\""
+    }
+  ]
+}

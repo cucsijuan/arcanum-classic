@@ -1,0 +1,42 @@
+{
+  "name": "Hoarder's Overflow",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "stash",
+          "what": "self"
+        }
+      ],
+      "text": "When this enchantment enters and whenever you expend 4, put a stash counter on it."
+    },
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "stash",
+          "what": "self"
+        }
+      ],
+      "text": "When this enchantment enters and whenever you expend 4, put a stash counter on it."
+    },
+    {
+      "cost": "{1}{R}, sacrifice",
+      "effects": [
+        {
+          "discardHand": "you"
+        },
+        {
+          "draw": {
+            "counters": "stash"
+          }
+        }
+      ],
+      "text": "{1}{R}, Sacrifice this enchantment: Discard your hand, then draw cards equal to the number of stash counters on this enchantment."
+    }
+  ]
+}

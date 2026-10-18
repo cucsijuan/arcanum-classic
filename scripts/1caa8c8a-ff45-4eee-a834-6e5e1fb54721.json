@@ -1,0 +1,47 @@
+{
+  "name": "Sugar Coat",
+  "aura": {
+    "kind": "permanent",
+    "controller": "any",
+    "filter": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "subtype": "Food"
+        }
+      ]
+    },
+    "text": "creature or Food"
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setTypes": [
+          "artifact"
+        ],
+        "setSubtypes": [
+          "Food"
+        ],
+        "setColors": [],
+        "losesAbilities": true,
+        "grants": [
+          {
+            "cost": "{2}, {T}, sacrifice",
+            "effects": [
+              {
+                "gainLife": 3
+              }
+            ],
+            "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+          }
+        ]
+      },
+      "text": "Enchanted permanent is a colorless Food artifact with \"{2}, {T}, Sacrifice this artifact: You gain 3 life\" and loses all other card types and abilities."
+    }
+  ]
+}

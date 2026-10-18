@@ -1,0 +1,28 @@
+{
+  "name": "Starscape Cleric",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you gain life, each opponent loses 1 life."
+    }
+  ]
+}

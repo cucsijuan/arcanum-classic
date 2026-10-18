@@ -1,0 +1,15 @@
+{
+  "name": "Tender Wildguide",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{T}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

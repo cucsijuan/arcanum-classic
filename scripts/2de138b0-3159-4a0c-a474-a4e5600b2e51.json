@@ -1,0 +1,27 @@
+{
+  "name": "Festival of Embers",
+  "replaces": [
+    "ExileInsteadOfYourGraveyard"
+  ],
+  "castFromGraveyard": {
+    "types": [
+      "instant",
+      "sorcery"
+    ]
+  },
+  "castFromGraveyardCost": {
+    "life": 1
+  },
+  "castFromGraveyardWhile": "yourTurn",
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "{1}{R}: Sacrifice this enchantment."
+    }
+  ]
+}

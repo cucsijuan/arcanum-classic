@@ -1,0 +1,37 @@
+{
+  "name": "War Squeak",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "When this Aura enters, target creature an opponent controls can't block this turn."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has haste."
+    }
+  ]
+}

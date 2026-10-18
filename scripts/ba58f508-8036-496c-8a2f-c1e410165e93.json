@@ -1,0 +1,28 @@
+{
+  "name": "Repel Calamity",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "any",
+        "filter": {
+          "anyOf": [
+            {
+              "minPower": 4
+            },
+            {
+              "minToughness": 4
+            }
+          ]
+        },
+        "text": "target creature with power or toughness 4 or greater"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature with power or toughness 4 or greater."
+  }
+}

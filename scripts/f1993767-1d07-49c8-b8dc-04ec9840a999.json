@@ -1,0 +1,29 @@
+{
+  "name": "Long River's Pull",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "onlyIfGiftNotPromised": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature spell"
+      },
+      {
+        "kind": "spell",
+        "onlyIfGiftPromised": true,
+        "text": "target spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target creature spell. If the gift was promised, instead counter target spell."
+  }
+}

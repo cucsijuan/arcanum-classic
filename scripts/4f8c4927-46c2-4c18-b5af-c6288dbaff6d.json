@@ -1,0 +1,18 @@
+{
+  "name": "Iridescent Vinelasher",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature deals 1 damage to target opponent."
+    }
+  ]
+}

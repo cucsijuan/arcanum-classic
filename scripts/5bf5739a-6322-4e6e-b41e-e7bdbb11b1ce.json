@@ -1,0 +1,22 @@
+{
+  "name": "Treetop Sentries",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Forage?",
+          "cost": {
+            "forage": true
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may forage. If you do, draw a card."
+    }
+  ]
+}

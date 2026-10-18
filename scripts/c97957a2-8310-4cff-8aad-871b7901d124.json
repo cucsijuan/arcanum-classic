@@ -1,0 +1,63 @@
+{
+  "name": "Caretaker's Talent",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "token": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more tokens you control enter, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "cost": "{W}",
+      "levelUp": 2,
+      "text": "{W}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "becomesLevel",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "token": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "When this Class becomes level 2, create a token that's a copy of target token you control."
+    },
+    {
+      "cost": "{3}{W}",
+      "levelUp": 3,
+      "text": "{3}{W}: Level 3"
+    },
+    {
+      "level": 3,
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Creature tokens you control get +2/+2."
+    }
+  ]
+}

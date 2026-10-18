@@ -1,0 +1,58 @@
+{
+  "name": "Vren, the Relentless",
+  "replaces": [
+    "OpponentsCreaturesExiledInsteadOfDying"
+  ],
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "tokens": "opponentsCreaturesExiledThisTurn",
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "self",
+                  "pump": [
+                    {
+                      "count": {
+                        "types": [
+                          "creature"
+                        ],
+                        "subtype": "Rat",
+                        "controller": "you",
+                        "other": true
+                      }
+                    },
+                    {
+                      "count": {
+                        "types": [
+                          "creature"
+                        ],
+                        "subtype": "Rat",
+                        "controller": "you",
+                        "other": true
+                      }
+                    }
+                  ]
+                },
+                "text": "This token gets +1/+1 for each other Rat you control."
+              }
+            ],
+            "text": "This token gets +1/+1 for each other Rat you control."
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, create X 1/1 black Rat creature tokens with \"This token gets +1/+1 for each other Rat you control,\" where X is the number of creatures that were exiled under your opponents' control this turn."
+    }
+  ]
+}

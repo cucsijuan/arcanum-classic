@@ -1,0 +1,23 @@
+{
+  "name": "Overprotect",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample",
+          "Hexproof",
+          "Indestructible"
+        ]
+      }
+    ],
+    "text": "Target creature you control gets +3/+3 and gains trample, hexproof, and indestructible until end of turn."
+  }
+}

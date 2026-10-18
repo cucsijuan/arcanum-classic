@@ -1,0 +1,56 @@
+{
+  "name": "Artist's Talent",
+  "cardRulesLevel": 3,
+  "damageBonus": {
+    "sources": {},
+    "amount": 2,
+    "noncombat": true,
+    "toOpponents": true
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, you may discard a card. If you do, draw a card."
+    },
+    {
+      "cost": "{2}{R}",
+      "levelUp": 2,
+      "text": "{2}{R}: Level 2"
+    },
+    {
+      "level": 2,
+      "spellCost": {
+        "spells": {
+          "not": [
+            "creature"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Noncreature spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{2}{R}",
+      "levelUp": 3,
+      "text": "{2}{R}: Level 3"
+    }
+  ]
+}

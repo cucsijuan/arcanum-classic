@@ -1,0 +1,30 @@
+{
+  "name": "Brambleguard Veteran",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "keywords": [
+            "Vigilance"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Raccoon",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you expend 4, Raccoons you control get +1/+1 and gain vigilance until end of turn."
+    }
+  ]
+}

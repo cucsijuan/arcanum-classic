@@ -1,0 +1,38 @@
+1 Alania's Pathmaker
+1 Bakersbane Duo
+1 Bark-Knuckle Boxer
+1 Barkform Harvester
+1 Brambleguard Captain
+1 Brambleguard Veteran
+1 Brazen Collector
+1 Byway Barterer
+1 Clifftop Lookout
+1 Dragonhawk, Fate's Tempest
+1 Druid of the Spade
+1 Fecund Greenshell
+1 Frilled Sparkshooter
+1 Galewind Moose
+1 Harnesser of Storms
+1 Hazardroot Herbalist
+1 Hearthborn Battler
+1 Hired Claw
+1 Hivespine Wolverine
+1 Honored Dreyleader
+1 Hugs, Grisly Guardian
+1 Junkblade Bruiser
+1 Agate Assault
+1 Blooming Blast
+1 Cache Grab
+1 Conduct Electricity
+1 Festival of Embers
+1 For the Common Good
+1 Heaped Harvest
+1 Heirloom Epic
+1 High Stride
+1 Hoarder's Overflow
+1 Longstalk Brawl
+1 Might of the Meek
+1 Overprotect
+1 Pawpatch Formation
+12 Mountain
+12 Forest

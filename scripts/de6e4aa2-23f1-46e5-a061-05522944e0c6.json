@@ -1,0 +1,46 @@
+{
+  "name": "For the Common Good",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "you",
+        "filter": {
+          "token": true
+        },
+        "text": "target token you control"
+      }
+    ],
+    "effects": [
+      {
+        "copy": "target",
+        "count": "X"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ],
+        "untilYourNextTurn": true,
+        "what": {
+          "each": {
+            "token": true,
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "gainLife": {
+          "count": {
+            "token": true,
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "Create X tokens that are copies of target token you control. Then tokens you control gain indestructible until your next turn. You gain 1 life for each token you control."
+  }
+}

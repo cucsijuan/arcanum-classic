@@ -1,0 +1,23 @@
+{
+  "name": "Byway Barterer",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "may": "Discard your hand and draw two cards?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you expend 4, you may discard your hand. If you do, draw two cards."
+    }
+  ]
+}

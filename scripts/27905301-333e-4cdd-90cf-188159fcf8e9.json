@@ -1,0 +1,38 @@
+{
+  "name": "Wear Down",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "any",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment"
+      },
+      {
+        "kind": "permanent",
+        "controller": "any",
+        "onlyIfGiftPromised": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "another target artifact or enchantment"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      }
+    ],
+    "text": "Destroy target artifact or enchantment. If the gift was promised, instead destroy two target artifacts and/or enchantments."
+  }
+}

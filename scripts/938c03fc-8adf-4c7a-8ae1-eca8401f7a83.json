@@ -1,0 +1,46 @@
+{
+  "name": "Peerless Recycling",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "target permanent card from your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "onlyIfGiftPromised": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "another target permanent card from your graveyard"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      }
+    ],
+    "text": "Return target permanent card from your graveyard to your hand. If the gift was promised, instead return two target permanent cards from your graveyard to your hand."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Calamitous Tide",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "upTo": 2,
+        "text": "up to two target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      },
+      {
+        "draw": 2
+      },
+      {
+        "discard": 1
+      }
+    ],
+    "text": "Return up to two target creatures to their owners' hands. Draw two cards, then discard a card."
+  }
+}

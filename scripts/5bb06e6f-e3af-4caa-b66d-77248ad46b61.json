@@ -1,0 +1,44 @@
+{
+  "name": "Lilypad Village",
+  "extraMana": [
+    {
+      "types": "{U}",
+      "amount": 1,
+      "onlyFor": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{U}, {T}",
+      "activateIf": {
+        "enteredThisTurn": {
+          "anyOf": [
+            {
+              "subtype": "Bird"
+            },
+            {
+              "subtype": "Frog"
+            },
+            {
+              "subtype": "Otter"
+            },
+            {
+              "subtype": "Rat"
+            }
+          ],
+          "controller": "you"
+        }
+      },
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "{U}, {T}: Surveil 2. Activate only if a Bird, Frog, Otter, or Rat entered the battlefield under your control this turn."
+    }
+  ]
+}

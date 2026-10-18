@@ -1,0 +1,42 @@
+{
+  "name": "Sword of Fire and Ice",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Protection from red",
+          "Protection from blue"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has protection from red and from blue."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, this Equipment deals 2 damage to any target and you draw a card."
+    }
+  ]
+}

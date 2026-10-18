@@ -1,0 +1,39 @@
+{
+  "name": "Bria, Riptide Rogue",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "keywords": [
+          "Prowess"
+        ]
+      },
+      "text": "Other creatures you control have prowess."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, target creature you control can't be blocked this turn."
+    }
+  ]
+}

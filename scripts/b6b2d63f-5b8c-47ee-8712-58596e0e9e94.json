@@ -1,0 +1,35 @@
+{
+  "name": "Dreamdew Entrancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 3,
+          "kind": "stun",
+          "what": "target"
+        },
+        {
+          "if": {
+            "targetControlledByYou": "target"
+          },
+          "then": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, tap up to one target creature and put three stun counters on it. If you control that creature, draw two cards."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Hired Claw",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "atLeast": {
+          "attacking": {
+            "subtype": "Lizard"
+          }
+        },
+        "value": 1
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you attack with one or more Lizards, this creature deals 1 damage to target opponent."
+    },
+    {
+      "cost": "{1}{R}",
+      "activateIf": "opponentLostLife",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{1}{R}: Put a +1/+1 counter on this creature. Activate only if an opponent lost life this turn and only once each turn."
+    }
+  ]
+}

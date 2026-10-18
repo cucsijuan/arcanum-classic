@@ -1,0 +1,45 @@
+{
+  "name": "Curious Forager",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Forage?",
+          "cost": {
+            "forage": true
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "artifact",
+                        "creature",
+                        "enchantment",
+                        "land",
+                        "planeswalker",
+                        "battle"
+                      ]
+                    }
+                  }
+                ],
+                "effects": [
+                  {
+                    "bounce": "target"
+                  }
+                ],
+                "text": "When you do, return target permanent card from your graveyard to your hand."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may forage. When you do, return target permanent card from your graveyard to your hand."
+    }
+  ]
+}

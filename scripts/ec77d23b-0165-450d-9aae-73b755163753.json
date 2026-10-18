@@ -1,0 +1,24 @@
+{
+  "name": "Rat Colony",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Rat",
+              "controller": "you",
+              "other": true
+            }
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +1/+0 for each other Rat you control."
+    }
+  ]
+}

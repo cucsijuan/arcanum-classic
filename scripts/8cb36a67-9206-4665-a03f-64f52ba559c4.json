@@ -1,0 +1,41 @@
+{
+  "name": "Into the Flood Maw",
+  "gift": {
+    "name": "Fish",
+    "types": "Creature — Fish",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "giftTapped": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "onlyIfGiftNotPromised": true,
+        "text": "target creature an opponent controls"
+      },
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "onlyIfGiftPromised": true,
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent an opponent controls"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ],
+    "text": "Return target creature an opponent controls to its owner's hand. If the gift was promised, instead return target nonland permanent an opponent controls to its owner's hand."
+  }
+}

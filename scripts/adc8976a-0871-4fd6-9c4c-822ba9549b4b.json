@@ -1,0 +1,40 @@
+{
+  "name": "Longstalk Brawl",
+  "gift": {
+    "name": "Fish",
+    "types": "Creature — Fish",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "giftTapped": true,
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "text": "target creature you don't control"
+      }
+    ],
+    "effects": [
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "counters": 1,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "fight": "target",
+        "with": "target2"
+      }
+    ],
+    "text": "Choose target creature you control and target creature you don't control. Put a +1/+1 counter on the creature you control if the gift was promised. Then those creatures fight each other."
+  }
+}

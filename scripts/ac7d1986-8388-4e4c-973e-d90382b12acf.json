@@ -1,0 +1,47 @@
+{
+  "name": "Sazacap's Brew",
+  "gift": {
+    "name": "Fish",
+    "types": "Creature — Fish",
+    "power": 1,
+    "toughness": 1,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "giftTapped": true,
+  "additionalCost": {
+    "discard": 1
+  },
+  "spell": {
+    "targets": [
+      "player",
+      {
+        "kind": "creature",
+        "controller": "you",
+        "onlyIfGiftPromised": true,
+        "text": "target creature you control"
+      }
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "pump": [
+              2,
+              0
+            ],
+            "what": "target2"
+          }
+        ]
+      }
+    ],
+    "text": "Target player draws two cards. If the gift was promised, target creature you control gets +2/+0 until end of turn."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Scales of Shale",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Lizard",
+      "controller": "you"
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Lifelink",
+          "Indestructible"
+        ]
+      }
+    ],
+    "text": "Target creature gets +2/+0 and gains lifelink and indestructible until end of turn."
+  }
+}

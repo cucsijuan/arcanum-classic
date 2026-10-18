@@ -1,0 +1,28 @@
+{
+  "name": "Corpseberry Cultivator",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mayPay": "Forage?",
+          "cost": {
+            "forage": true
+          },
+          "effects": []
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may forage."
+    },
+    {
+      "trigger": "youForage",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you forage, put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Seedglaive Mentor",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfYours",
+      "onSelf": true,
+      "nth": 1,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, put a +1/+1 counter on it."
+    }
+  ]
+}

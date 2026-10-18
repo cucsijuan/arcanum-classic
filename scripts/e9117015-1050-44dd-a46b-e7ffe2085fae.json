@@ -1,0 +1,15 @@
+{
+  "name": "Ledger Shredder",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "connive": "self"
+        }
+      ],
+      "text": "Whenever a player casts their second spell each turn, this creature connives."
+    }
+  ]
+}

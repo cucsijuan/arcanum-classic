@@ -1,0 +1,24 @@
+{
+  "name": "Flamecache Gecko",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "opponentLostLife",
+      "effects": [
+        {
+          "addMana": "{B}{R}"
+        }
+      ],
+      "text": "When this creature enters, if an opponent lost life this turn, add {B}{R}."
+    },
+    {
+      "cost": "{1}{R}, discard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{R}, Discard a card: Draw a card."
+    }
+  ]
+}

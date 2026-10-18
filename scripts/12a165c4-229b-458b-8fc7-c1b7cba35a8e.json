@@ -1,0 +1,47 @@
+{
+  "name": "Starseer Mentor",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "not": {
+          "all": [
+            {
+              "not": "gainedLife"
+            },
+            {
+              "not": "youLostLifeThisTurn"
+            }
+          ]
+        }
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "unless": "target",
+          "options": [
+            {
+              "sacrifice": {
+                "not": [
+                  "land"
+                ]
+              }
+            },
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, if you gained or lost life this turn, target opponent loses 3 life unless they sacrifice a nonland permanent of their choice or discard a card."
+    }
+  ]
+}

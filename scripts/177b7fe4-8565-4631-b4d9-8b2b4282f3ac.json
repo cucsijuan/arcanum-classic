@@ -1,0 +1,45 @@
+{
+  "name": "Oakhollow Village",
+  "extraMana": [
+    {
+      "types": "{G}",
+      "amount": 1,
+      "onlyFor": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "controller": "you",
+              "enteredThisTurn": true,
+              "anyOf": [
+                {
+                  "subtype": "Frog"
+                },
+                {
+                  "subtype": "Rabbit"
+                },
+                {
+                  "subtype": "Raccoon"
+                },
+                {
+                  "subtype": "Squirrel"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{G}, {T}: Put a +1/+1 counter on each Frog, Rabbit, Raccoon, or Squirrel you control that entered the battlefield this turn."
+    }
+  ]
+}

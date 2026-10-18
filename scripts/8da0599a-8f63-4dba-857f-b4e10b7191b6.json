@@ -1,0 +1,62 @@
+{
+  "name": "Valley Rotcaller",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true,
+              "anyOf": [
+                {
+                  "subtype": "Squirrel"
+                },
+                {
+                  "subtype": "Bat"
+                },
+                {
+                  "subtype": "Lizard"
+                },
+                {
+                  "subtype": "Rat"
+                }
+              ]
+            }
+          },
+          "who": "opponents"
+        },
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true,
+              "anyOf": [
+                {
+                  "subtype": "Squirrel"
+                },
+                {
+                  "subtype": "Bat"
+                },
+                {
+                  "subtype": "Lizard"
+                },
+                {
+                  "subtype": "Rat"
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent loses X life and you gain X life, where X is the number of other Squirrels, Bats, Lizards, and Rats you control."
+    }
+  ]
+}

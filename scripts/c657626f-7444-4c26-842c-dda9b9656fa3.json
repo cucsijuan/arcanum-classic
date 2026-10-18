@@ -1,0 +1,34 @@
+{
+  "name": "Mabel's Mettle",
+  "spell": {
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "optional": true,
+        "filter": {
+          "other": true
+        },
+        "text": "up to one other target creature"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target2"
+      }
+    ],
+    "text": "Target creature gets +2/+2 until end of turn. Up to one other target creature gets +1/+1 until end of turn."
+  }
+}

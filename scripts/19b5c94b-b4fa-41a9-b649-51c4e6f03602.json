@@ -1,0 +1,40 @@
+{
+  "name": "Might of the Meek",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Mouse"
+          }
+        },
+        "then": [
+          {
+            "pump": [
+              1,
+              0
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Target creature gains trample until end of turn. It also gets +1/+0 until end of turn if you control a Mouse. Draw a card."
+  }
+}

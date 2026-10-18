@@ -1,0 +1,23 @@
+{
+  "name": "Ruthless Negotiation",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "exileFromOwnHand": 1,
+        "who": "target"
+      },
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Target opponent exiles a card from their hand. If this spell was cast from a graveyard, draw a card."
+  }
+}

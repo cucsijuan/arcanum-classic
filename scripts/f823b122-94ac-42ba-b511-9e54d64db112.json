@@ -1,0 +1,25 @@
+{
+  "name": "Mindwhisker",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1."
+    },
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "pump": [
+          -1,
+          0
+        ],
+        "while": "threshold"
+      },
+      "text": "Threshold — As long as there are seven or more cards in your graveyard, creatures your opponents control get -1/-0."
+    }
+  ]
+}

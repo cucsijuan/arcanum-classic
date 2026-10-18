@@ -1,0 +1,23 @@
+{
+  "name": "Brambleguard Captain",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            {
+              "power": "self"
+            },
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is this creature's power."
+    }
+  ]
+}

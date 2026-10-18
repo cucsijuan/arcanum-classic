@@ -1,0 +1,31 @@
+{
+  "name": "Eddymurk Crab",
+  "costReduction": {
+    "amount": 1,
+    "perGraveyardCard": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  },
+  "entersTappedUnless": "yourTurn",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "upTo": 2,
+          "text": "up to two target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        }
+      ],
+      "text": "When this creature enters, tap up to two target creatures."
+    }
+  ]
+}

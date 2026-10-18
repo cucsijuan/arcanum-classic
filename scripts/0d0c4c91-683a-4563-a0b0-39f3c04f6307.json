@@ -1,0 +1,25 @@
+{
+  "name": "Splash Lasher",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap up to one target creature and put a stun counter on it."
+    }
+  ]
+}

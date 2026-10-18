@@ -1,0 +1,96 @@
+{
+  "name": "Blacksmith's Talent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Sword",
+            "types": "Artifact — Equipment",
+            "colors": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "equipped",
+                  "pump": [
+                    1,
+                    1
+                  ]
+                },
+                "text": "Equipped creature gets +1/+1."
+              },
+              {
+                "cost": "{2}",
+                "sorcery": true,
+                "equip": true,
+                "targets": [
+                  "creature:you"
+                ],
+                "effects": [
+                  {
+                    "attach": "target"
+                  }
+                ],
+                "text": "Equip {2}"
+              }
+            ],
+            "text": "Equipped creature gets +1/+1.\nEquip {2}"
+          }
+        }
+      ],
+      "text": "When this Class enters, create a colorless Equipment artifact token named Sword with \"Equipped creature gets +1/+1\" and equip {2}."
+    },
+    {
+      "cost": "{2}{R}",
+      "levelUp": 2,
+      "text": "{2}{R}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "filter": {
+            "subtype": "Equipment"
+          }
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "attach": "target",
+          "to": "target2"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, attach target Equipment you control to up to one target creature you control."
+    },
+    {
+      "cost": "{3}{R}",
+      "levelUp": 3,
+      "text": "{3}{R}: Level 3"
+    },
+    {
+      "level": 3,
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "equipped": true
+        },
+        "keywords": [
+          "Double strike",
+          "Haste"
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, equipped creatures you control have double strike and haste."
+    }
+  ]
+}

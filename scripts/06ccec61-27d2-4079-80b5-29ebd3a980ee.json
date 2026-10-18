@@ -1,0 +1,55 @@
+{
+  "name": "Cache Grab",
+  "spell": {
+    "effects": [
+      {
+        "mill": 4
+      },
+      {
+        "takeMilled": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "count": 1
+      },
+      {
+        "if": {
+          "not": {
+            "all": [
+              {
+                "not": {
+                  "control": {
+                    "subtype": "Squirrel"
+                  }
+                }
+              },
+              {
+                "not": {
+                  "atLeast": {
+                    "found": {
+                      "subtype": "Squirrel"
+                    }
+                  },
+                  "value": 1
+                }
+              }
+            ]
+          }
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "token": "Food"
+          }
+        ]
+      }
+    ],
+    "text": "Mill four cards. You may put a permanent card from among the cards milled this way into your hand. If you control a Squirrel or returned a Squirrel card to your hand this way, create a Food token."
+  }
+}

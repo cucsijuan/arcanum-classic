@@ -1,0 +1,105 @@
+{
+  "name": "Alania, Divergent Storm",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "if": {
+        "not": {
+          "all": [
+            {
+              "not": {
+                "all": [
+                  {
+                    "triggered": {
+                      "types": [
+                        "instant"
+                      ]
+                    }
+                  },
+                  {
+                    "not": {
+                      "atLeast": {
+                        "spellsCastBefore": {
+                          "types": [
+                            "instant"
+                          ]
+                        }
+                      },
+                      "value": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "not": {
+                "all": [
+                  {
+                    "triggered": {
+                      "types": [
+                        "sorcery"
+                      ]
+                    }
+                  },
+                  {
+                    "not": {
+                      "atLeast": {
+                        "spellsCastBefore": {
+                          "types": [
+                            "sorcery"
+                          ]
+                        }
+                      },
+                      "value": 1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "not": {
+                "all": [
+                  {
+                    "triggered": {
+                      "subtype": "Otter",
+                      "notName": "Alania, Divergent Storm"
+                    }
+                  },
+                  {
+                    "not": {
+                      "atLeast": {
+                        "spellsCastBefore": {
+                          "subtype": "Otter",
+                          "notName": "Alania, Divergent Storm"
+                        }
+                      },
+                      "value": 1
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "may": "Have target opponent draw a card to copy that spell?",
+          "effects": [
+            {
+              "draw": 1,
+              "who": "target"
+            },
+            {
+              "copySpell": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a spell, if it's the first instant spell, the first sorcery spell, or the first Otter spell other than Alania you've cast this turn, you may have target opponent draw a card. If you do, copy that spell. You may choose new targets for the copy."
+    }
+  ]
+}

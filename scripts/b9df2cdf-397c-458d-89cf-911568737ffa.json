@@ -1,0 +1,15 @@
+{
+  "name": "Mockingbird",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ],
+    "maxManaValueSpent": true
+  },
+  "entersAsCopyAddSubtypes": [
+    "Bird"
+  ],
+  "entersAsCopyAddKeywords": [
+    "Flying"
+  ]
+}

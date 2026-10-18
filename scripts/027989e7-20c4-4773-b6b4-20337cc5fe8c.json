@@ -1,0 +1,90 @@
+{
+  "name": "Eluge, the Shoreless Sea",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Island"
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "subtype": "Island"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "any"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "flood",
+          "what": "target"
+        },
+        {
+          "become": "target",
+          "addSubtypes": [
+            "Island"
+          ],
+          "whileCounter": "flood"
+        }
+      ],
+      "text": "Whenever Eluge enters or attacks, put a flood counter on target land. It's an Island in addition to its other types for as long as it has a flood counter on it."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "any"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "flood",
+          "what": "target"
+        },
+        {
+          "become": "target",
+          "addSubtypes": [
+            "Island"
+          ],
+          "whileCounter": "flood"
+        }
+      ],
+      "text": "Whenever Eluge enters or attacks, put a flood counter on target land. It's an Island in addition to its other types for as long as it has a flood counter on it."
+    },
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "firstOfTurn": true,
+        "color": "{U}",
+        "amount": {
+          "count": {
+            "types": [
+              "land"
+            ],
+            "hasCounterKind": "flood"
+          }
+        }
+      },
+      "text": "The first instant or sorcery spell you cast each turn costs {U} less to cast for each land you control with a flood counter on it."
+    }
+  ]
+}

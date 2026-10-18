@@ -1,0 +1,82 @@
+{
+  "name": "Season of the Burrow",
+  "spell": {
+    "pawprints": 5,
+    "modes": [
+      {
+        "pawprints": 1,
+        "text": "{P} — Create a 1/1 white Rabbit creature token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Rabbit",
+              "types": "Creature — Rabbit",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W"
+              ],
+              "keywords": []
+            }
+          }
+        ]
+      },
+      {
+        "pawprints": 2,
+        "text": "{P}{P} — Exile target nonland permanent. Its controller draws a card.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "any",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          },
+          {
+            "draw": 1,
+            "who": "targetController"
+          }
+        ]
+      },
+      {
+        "pawprints": 3,
+        "text": "{P}{P}{P} — Return target permanent card with mana value 3 or less from your graveyard to the battlefield with an indestructible counter on it.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment",
+                "land",
+                "planeswalker",
+                "battle"
+              ],
+              "maxManaValue": 3
+            },
+            "text": "target permanent card with mana value 3 or less from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target",
+            "counters": 1,
+            "counterKind": "indestructible"
+          }
+        ]
+      }
+    ],
+    "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once."
+  }
+}

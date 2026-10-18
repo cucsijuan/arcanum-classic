@@ -1,0 +1,23 @@
+{
+  "name": "Druid of the Spade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "while": {
+          "control": {
+            "token": true
+          }
+        }
+      },
+      "text": "As long as you control a token, this creature gets +2/+0 and has trample."
+    }
+  ]
+}

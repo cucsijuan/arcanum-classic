@@ -1,0 +1,29 @@
+{
+  "name": "Cruelclaw's Heist",
+  "gift": "card",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "exileInstead": true
+      },
+      {
+        "if": "giftPromised",
+        "then": [
+          {
+            "castExiledThisWay": true
+          }
+        ]
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose a nonland card from it. Exile that card. If the gift was promised, you may cast that card for as long as it remains exiled, and mana of any type can be spent to cast it."
+  }
+}

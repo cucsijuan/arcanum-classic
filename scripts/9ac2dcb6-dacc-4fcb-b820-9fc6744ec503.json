@@ -1,0 +1,42 @@
+{
+  "name": "Nettle Guard",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfYours",
+      "onSelf": true,
+      "nth": 1,
+      "effects": [
+        {
+          "pump": [
+            0,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, it gets +0/+2 until end of turn."
+    },
+    {
+      "cost": "{1}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

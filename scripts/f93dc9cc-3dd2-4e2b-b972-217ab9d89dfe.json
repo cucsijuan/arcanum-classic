@@ -1,0 +1,14 @@
+{
+  "name": "Brazen Collector",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "addManaUntilEndOfTurn": "{R}"
+        }
+      ],
+      "text": "Whenever this creature attacks, add {R}. Until end of turn, you don't lose this mana as steps and phases end."
+    }
+  ]
+}

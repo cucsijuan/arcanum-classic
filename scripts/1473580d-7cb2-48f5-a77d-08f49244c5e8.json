@@ -1,0 +1,39 @@
+{
+  "name": "Essence Channeler",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Flying",
+          "Vigilance"
+        ],
+        "while": "youLostLifeThisTurn"
+      },
+      "text": "As long as you've lost life this turn, this creature has flying and vigilance."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "When this creature dies, put its counters on target creature you control."
+    }
+  ]
+}

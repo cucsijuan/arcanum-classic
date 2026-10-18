@@ -1,0 +1,15 @@
+{
+  "name": "Maha, Its Feathers Night",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "setToughness": 1
+      },
+      "text": "Creatures your opponents control have base toughness 1."
+    }
+  ],
+  "wardCost": {
+    "discard": 1
+  }
+}

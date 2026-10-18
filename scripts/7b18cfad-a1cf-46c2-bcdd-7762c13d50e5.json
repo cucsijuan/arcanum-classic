@@ -1,0 +1,28 @@
+{
+  "name": "Thornvault Forager",
+  "abilities": [
+    {
+      "cost": "{T}, forage",
+      "effects": [
+        {
+          "addManaCombination": 2
+        }
+      ],
+      "text": "{T}, Forage: Add two mana in any combination of colors."
+    },
+    {
+      "cost": "{3}{G}, {T}",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Squirrel"
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{3}{G}, {T}: Search your library for a Squirrel card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

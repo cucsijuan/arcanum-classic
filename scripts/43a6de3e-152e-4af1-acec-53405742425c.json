@@ -1,0 +1,35 @@
+{
+  "name": "Otterball Antics",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Otter",
+          "types": "Creature — Otter",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "U",
+            "R"
+          ],
+          "keywords": [
+            "Prowess"
+          ]
+        }
+      },
+      {
+        "if": {
+          "not": "castFromHand"
+        },
+        "then": [
+          {
+            "counters": 1,
+            "what": "created"
+          }
+        ]
+      }
+    ],
+    "text": "Create a 1/1 blue and red Otter creature token with prowess. If this spell was cast from anywhere other than your hand, put a +1/+1 counter on that creature."
+  }
+}

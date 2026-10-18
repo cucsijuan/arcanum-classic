@@ -1,0 +1,46 @@
+{
+  "name": "Fountainport",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrificeAny:token",
+      "sacrificeFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice a token: Draw a card."
+    },
+    {
+      "cost": "{3}, {T}, life:1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fish",
+            "types": "Creature — Fish",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{3}, {T}, Pay 1 life: Create a 1/1 blue Fish creature token."
+    },
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{4}, {T}: Create a Treasure token."
+    }
+  ]
+}

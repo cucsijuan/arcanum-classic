@@ -1,0 +1,24 @@
+{
+  "name": "Finch Formation",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control gains flying until end of turn."
+    }
+  ]
+}

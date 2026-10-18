@@ -1,0 +1,33 @@
+{
+  "name": "Shoreline Looter",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "This creature can't be blocked."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "not": "threshold"
+          },
+          "then": [
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Threshold — Whenever this creature deals combat damage to a player, draw a card. Then discard a card unless there are seven or more cards in your graveyard."
+    }
+  ]
+}

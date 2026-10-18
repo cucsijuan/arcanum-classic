@@ -1,0 +1,36 @@
+{
+  "name": "Valley Mightcaller",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "anyOf": [
+          {
+            "subtype": "Frog"
+          },
+          {
+            "subtype": "Rabbit"
+          },
+          {
+            "subtype": "Raccoon"
+          },
+          {
+            "subtype": "Squirrel"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Frog, Rabbit, Raccoon, or Squirrel you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Mouse Trapper",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfYours",
+      "onSelf": true,
+      "nth": 1,
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, tap target creature an opponent controls."
+    }
+  ]
+}

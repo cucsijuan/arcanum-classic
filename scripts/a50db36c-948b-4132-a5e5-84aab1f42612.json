@@ -1,0 +1,25 @@
+{
+  "name": "Skyskipper Duo",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "target"
+        }
+      ],
+      "text": "When this creature enters, exile up to one other target creature you control. Return it to the battlefield under its owner's control at the beginning of the next end step."
+    }
+  ]
+}

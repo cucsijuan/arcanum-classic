@@ -1,0 +1,32 @@
+{
+  "name": "Harnesser of Storms",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "oncePerTurn": true,
+      "filter": {
+        "anyOf": [
+          {
+            "not": [
+              "creature"
+            ]
+          },
+          {
+            "subtype": "Otter"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "may": "Exile the top card of your library? You may play it this turn.",
+          "effects": [
+            {
+              "exileTopPlayable": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature or Otter spell, you may exile the top card of your library. Until end of turn, you may play that card. This ability triggers only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Sunspine Lynx",
+  "playersCantGainLife": true,
+  "damageCantBePrevented": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damageEachPlayerPer": {
+            "types": [
+              "land"
+            ],
+            "notSupertype": "basic"
+          }
+        }
+      ],
+      "text": "When this creature enters, it deals damage to each player equal to the number of nonbasic lands that player controls."
+    }
+  ]
+}

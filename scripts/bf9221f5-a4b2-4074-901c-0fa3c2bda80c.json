@@ -1,0 +1,47 @@
+{
+  "name": "Mistbreath Elder",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "then": [
+            {
+              "bounce": {
+                "choose": {
+                  "types": [
+                    "creature"
+                  ],
+                  "other": true
+                }
+              }
+            },
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ],
+          "else": [
+            {
+              "may": "Return this creature to its owner's hand?",
+              "effects": [
+                {
+                  "bounce": "self"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, return another creature you control to its owner's hand. If you do, put a +1/+1 counter on this creature. Otherwise, you may return this creature to its owner's hand."
+    }
+  ]
+}

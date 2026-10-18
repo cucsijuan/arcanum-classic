@@ -1,0 +1,52 @@
+{
+  "name": "Baylen, the Haymaker",
+  "abilities": [
+    {
+      "cost": "tapPermanents:2",
+      "tapFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Tap two untapped tokens you control: Add one mana of any color."
+    },
+    {
+      "cost": "tapPermanents:3",
+      "tapFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Tap three untapped tokens you control: Draw a card."
+    },
+    {
+      "cost": "tapPermanents:4",
+      "tapFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "counters": 3,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Tap four untapped tokens you control: Put three +1/+1 counters on Baylen. It gains trample until end of turn."
+    }
+  ]
+}

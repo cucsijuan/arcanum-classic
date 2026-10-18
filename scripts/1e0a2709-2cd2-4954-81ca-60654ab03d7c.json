@@ -1,0 +1,44 @@
+{
+  "name": "Downwind Ambusher",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Target creature an opponent controls gets -1/-1 until end of turn.",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "pump": [
+                -1,
+                -1
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target creature an opponent controls that was dealt damage this turn.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "opponent",
+              "filter": {
+                "damagedThisTurn": true
+              }
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one — • Target creature an opponent controls gets -1/-1 until end of turn. • Destroy target creature an opponent controls that was dealt damage this turn."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Season of the Bold",
+  "spell": {
+    "pawprints": 5,
+    "modes": [
+      {
+        "pawprints": 1,
+        "text": "{P} — Create a tapped Treasure token.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": "Treasure",
+            "tapped": true
+          }
+        ]
+      },
+      {
+        "pawprints": 2,
+        "text": "{P}{P} — Exile the top two cards of your library. Until the end of your next turn, you may play them.",
+        "effects": [
+          {
+            "exileTopPlayable": 2,
+            "untilNextTurn": true
+          }
+        ]
+      },
+      {
+        "pawprints": 3,
+        "text": "{P}{P}{P} — Until the end of your next turn, whenever you cast a spell, Season of the Bold deals 2 damage to up to one target creature.",
+        "effects": [
+          {
+            "emblem": "Season of the Bold",
+            "untilEndOfYourNextTurn": true,
+            "abilities": [
+              {
+                "trigger": "castSpell",
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "controller": "any",
+                    "optional": true,
+                    "text": "up to one target creature"
+                  }
+                ],
+                "effects": [
+                  {
+                    "damage": 2,
+                    "to": "target"
+                  }
+                ],
+                "text": "Whenever you cast a spell, Season of the Bold deals 2 damage to up to one target creature."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once."
+  }
+}

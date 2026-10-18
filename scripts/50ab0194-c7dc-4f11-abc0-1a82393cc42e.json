@@ -1,0 +1,29 @@
+{
+  "name": "Pawpatch Recruit",
+  "abilities": [
+    {
+      "trigger": "permanentBecomesTarget",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notTriggered": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever a creature you control becomes the target of a spell or ability an opponent controls, put a +1/+1 counter on target creature you control other than that creature."
+    }
+  ]
+}

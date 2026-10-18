@@ -1,0 +1,115 @@
+{
+  "name": "Zoraline, Cosmos Caller",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Bat",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a Bat you control attacks, you gain 1 life."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {W}{B} and 2 life?",
+          "mana": "{W}{B}",
+          "cost": {
+            "life": 2
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "artifact",
+                        "creature",
+                        "enchantment",
+                        "planeswalker",
+                        "battle"
+                      ],
+                      "not": [
+                        "land"
+                      ],
+                      "maxManaValue": 3
+                    },
+                    "text": "target nonland permanent card with mana value 3 or less from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target",
+                    "counters": 1,
+                    "counterKind": "finality"
+                  }
+                ],
+                "text": "When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Zoraline enters or attacks, you may pay {W}{B} and 2 life. When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Pay {W}{B} and 2 life?",
+          "mana": "{W}{B}",
+          "cost": {
+            "life": 2
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "artifact",
+                        "creature",
+                        "enchantment",
+                        "planeswalker",
+                        "battle"
+                      ],
+                      "not": [
+                        "land"
+                      ],
+                      "maxManaValue": 3
+                    },
+                    "text": "target nonland permanent card with mana value 3 or less from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target",
+                    "counters": 1,
+                    "counterKind": "finality"
+                  }
+                ],
+                "text": "When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Zoraline enters or attacks, you may pay {W}{B} and 2 life. When you do, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield with a finality counter on it."
+    }
+  ]
+}

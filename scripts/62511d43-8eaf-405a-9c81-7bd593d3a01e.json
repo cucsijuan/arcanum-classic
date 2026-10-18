@@ -1,0 +1,48 @@
+{
+  "name": "Ygra, Eater of All",
+  "wardCost": {
+    "sacrifice": {
+      "subtype": "Food"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "other": true,
+        "addTypes": [
+          "artifact"
+        ],
+        "addSubtypes": [
+          "Food"
+        ],
+        "grants": [
+          {
+            "cost": "{2}, {T}, sacrifice",
+            "effects": [
+              {
+                "gainLife": 3
+              }
+            ],
+            "text": "{2}, {T}, Sacrifice this permanent: You gain 3 life."
+          }
+        ]
+      },
+      "text": "Other creatures are Food artifacts in addition to their other types and have \"{2}, {T}, Sacrifice this permanent: You gain 3 life.\""
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "filter": {
+        "subtype": "Food",
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a Food is put into a graveyard from the battlefield, put two +1/+1 counters on Ygra."
+    }
+  ]
+}

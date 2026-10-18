@@ -15,9 +15,11 @@ ABILITY_WORDS = {w.lower() for w in """Adamant Addendum Alliance Battalion Blood
 Converge Corrupted Council's dilemma Coven Delirium Descend Domain Eerie Enrage Fateful hour Ferocious Formidable Grandeur
 Hellbent Heroic Imprint Inspired Join forces Kinship Landfall Lieutenant Magecraft Metalcraft Morbid Pack tactics Paradox
 Parley Radiance Raid Rally Revolt Spell mastery Strive Sweep Tempting offer Threshold Undergrowth Valiant Will of the council
-Secret council Survival Void Max speed Start your engines!""".replace("\n", " ").split(" ") if w} | {
+Secret council Survival Void""".replace("\n", " ").split(" ") if w} | {
     "council's dilemma", "fateful hour", "join forces", "pack tactics", "spell mastery", "tempting offer",
-    "will of the council", "secret council", "max speed", "start your engines!"}
+    "will of the council", "secret council"}
+# Card frames the engine runs (CardFactory); a card with any other layout is blocked by that layout, whatever its keywords.
+LAYOUTS = {"normal", "token", "saga", "meld", "class", "adventure", "prepare", "split", "transform"}
 
 set_types = {}
 
@@ -36,7 +38,8 @@ def load(cards_path, dump):
         if status == "Full":
             missing = None  # runs already
         else:
-            missing = frozenset(k for k in c.get("keywords", []) if k.lower() not in known and k.lower() not in ABILITY_WORDS)
+            missing = frozenset([k for k in c.get("keywords", []) if k.lower() not in known and k.lower() not in ABILITY_WORDS]
+                                + ([f"layout {c.get('layout')}"] if c.get("layout") not in LAYOUTS else []))
         for p in c.get("printings", []):
             if p.get("set_type") in SET_TYPES:
                 sets[p["set"]][c["name"]] = missing

@@ -1,0 +1,5 @@
+{
+  "name": "Frilled Sparkshooter",
+  "entersWithCounters": 1,
+  "entersWithCountersIf": "opponentLostLife"
+}

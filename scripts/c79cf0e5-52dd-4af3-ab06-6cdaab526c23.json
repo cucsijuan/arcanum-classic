@@ -1,0 +1,27 @@
+{
+  "name": "Bonebind Orator",
+  "abilities": [
+    {
+      "cost": "{3}{B}, exileFromGraveyard",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "other": true
+          },
+          "text": "another target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{3}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand."
+    }
+  ]
+}

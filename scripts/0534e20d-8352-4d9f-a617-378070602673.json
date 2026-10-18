@@ -1,0 +1,25 @@
+{
+  "name": "Pileated Provisioner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "without": "Flying"
+          },
+          "text": "target creature you control without flying"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on target creature you control without flying."
+    }
+  ]
+}

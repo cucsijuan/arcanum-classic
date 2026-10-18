@@ -1,0 +1,35 @@
+{
+  "name": "Agate Assault",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Agate Assault deals 4 damage to target creature. If that creature would die this turn, exile it instead.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "exileIfDies": "target"
+          },
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Choose one — • Agate Assault deals 4 damage to target creature. If that creature would die this turn, exile it instead. • Exile target artifact."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Whiskerquill Scribe",
+  "abilities": [
+    {
+      "trigger": "becomesTargetOfYours",
+      "onSelf": true,
+      "nth": 1,
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, you may discard a card. If you do, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Honored Dreyleader",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": {
+            "count": {
+              "anyOf": [
+                {
+                  "subtype": "Squirrel"
+                },
+                {
+                  "subtype": "Food"
+                }
+              ],
+              "other": true,
+              "controller": "you"
+            }
+          },
+          "what": "self"
+        }
+      ],
+      "text": "When this creature enters, put a +1/+1 counter on it for each other Squirrel and/or Food you control."
+    },
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Squirrel"
+          },
+          {
+            "subtype": "Food"
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another Squirrel or Food you control enters, put a +1/+1 counter on this creature."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "name": "Kastral, the Windcrested",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Bird",
+        "controller": "you"
+      },
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "You may put a Bird creature card from your hand or graveyard onto the battlefield with a finality counter on it.",
+          "effects": [
+            {
+              "putFromHand": {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Bird"
+              },
+              "one": true,
+              "orGraveyard": true,
+              "withCounter": "finality"
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on each Bird you control.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "subtype": "Bird",
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more Birds you control deal combat damage to a player, choose one — • You may put a Bird creature card from your hand or graveyard onto the battlefield with a finality counter on it. • Put a +1/+1 counter on each Bird you control. • Draw a card."
+    }
+  ]
+}

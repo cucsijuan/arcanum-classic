@@ -1,0 +1,52 @@
+{
+  "name": "Long River Lurker",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Frog",
+        "grantsWard": "{1}"
+      },
+      "text": "Other Frogs you control have ward {1}."
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        },
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "dealsCombatDamage",
+              "effects": [
+                {
+                  "may": "Exile it, then return it to the battlefield?",
+                  "effects": [
+                    {
+                      "blink": "self"
+                    }
+                  ]
+                }
+              ],
+              "text": "Whenever this creature deals combat damage this turn, you may exile it. If you do, return it to the battlefield under its owner's control."
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target creature you control can't be blocked this turn. Whenever that creature deals combat damage this turn, you may exile it. If you do, return it to the battlefield under its owner's control."
+    }
+  ]
+}

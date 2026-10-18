@@ -1,0 +1,45 @@
+{
+  "name": "Kitsa, Otterball Elite",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{T}: Draw a card, then discard a card."
+    },
+    {
+      "cost": "{2}, {T}",
+      "activateIf": {
+        "atLeast": {
+          "power": "self"
+        },
+        "value": 3
+      },
+      "targets": [
+        {
+          "kind": "spell",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery spell you control"
+        }
+      ],
+      "effects": [
+        {
+          "copySpell": "target"
+        }
+      ],
+      "text": "{2}, {T}: Copy target instant or sorcery spell you control. You may choose new targets for the copy. Activate only if Kitsa's power is 3 or greater."
+    }
+  ]
+}

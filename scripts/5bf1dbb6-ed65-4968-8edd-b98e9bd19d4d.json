@@ -1,0 +1,23 @@
+{
+  "name": "Seasoned Warrenguard",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "when": {
+        "control": {
+          "token": true
+        }
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks while you control a token, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

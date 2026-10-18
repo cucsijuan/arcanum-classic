@@ -1,0 +1,24 @@
+{
+  "name": "Feed the Cycle",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "forage": true
+      }
+    },
+    {
+      "mana": "{B}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "As an additional cost to cast this spell, forage or pay {B}. Destroy target creature or planeswalker."
+  }
+}

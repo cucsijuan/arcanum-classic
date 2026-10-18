@@ -1,0 +1,19 @@
+{
+  "name": "Hearthborn Battler",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "nth": 2,
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a player casts their second spell each turn, this creature deals 2 damage to target opponent."
+    }
+  ]
+}

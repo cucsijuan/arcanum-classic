@@ -23,7 +23,8 @@
       "hob-br", "hob-gw", "hob-rg", "hob-ub", "hob-wu",
       "m10-br", "m10-gw", "m10-rg", "m10-ub", "m10-wu",
       "fin-br", "fin-gw", "fin-rg", "fin-ub", "fin-wu",
-      "fra-br", "fra-gw", "fra-rg", "fra-ub", "fra-wu"
+      "fra-br", "fra-gw", "fra-rg", "fra-ub", "fra-wu",
+      "blb-br", "blb-gw", "blb-rg", "blb-ub", "blb-wu"
     ]
   },
 
@@ -191,8 +192,8 @@
 
 
   // Boosters on the shelf; the featured set changes every Monday (UTC) in this order.
-  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra"],
-  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra"],
+  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra", "blb"],
+  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb"],
 
   "precons": [
     { "deck": "fdn-br" }, { "deck": "fdn-gw" }, { "deck": "fdn-rg" }, { "deck": "fdn-ub" }, { "deck": "fdn-wu" },
@@ -202,6 +203,7 @@
     { "deck": "m10-br" }, { "deck": "m10-gw" }, { "deck": "m10-rg" }, { "deck": "m10-ub" }, { "deck": "m10-wu" },
     { "deck": "fin-br" }, { "deck": "fin-gw" }, { "deck": "fin-rg" }, { "deck": "fin-ub" }, { "deck": "fin-wu" },
     { "deck": "fra-br" }, { "deck": "fra-gw" }, { "deck": "fra-rg" }, { "deck": "fra-ub" }, { "deck": "fra-wu" },
+    { "deck": "blb-br" }, { "deck": "blb-gw" }, { "deck": "blb-rg" }, { "deck": "blb-ub" }, { "deck": "blb-wu" },
     // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
     { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
     { "deck": "ltc-elven-council", "price": 4500 }, { "deck": "ltc-food-and-fellowship", "price": 4500 },

@@ -1,0 +1,52 @@
+{
+  "name": "Lunar Convocation",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "gainedLife",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of your end step, if you gained life this turn, each opponent loses 1 life."
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "all": [
+          "gainedLife",
+          "youLostLifeThisTurn"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bat",
+            "types": "Creature — Bat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, if you gained and lost life this turn, create a 1/1 black Bat creature token with flying."
+    },
+    {
+      "cost": "{1}{B}, life:2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{B}, Pay 2 life: Draw a card."
+    }
+  ]
+}

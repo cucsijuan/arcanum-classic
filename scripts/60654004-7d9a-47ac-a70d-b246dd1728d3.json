@@ -1,0 +1,23 @@
+{
+  "name": "Valley Flamecaller",
+  "damageBonus": {
+    "sources": {
+      "controller": "you",
+      "anyOf": [
+        {
+          "subtype": "Lizard"
+        },
+        {
+          "subtype": "Mouse"
+        },
+        {
+          "subtype": "Otter"
+        },
+        {
+          "subtype": "Raccoon"
+        }
+      ]
+    },
+    "amount": 1
+  }
+}

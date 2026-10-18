@@ -1,0 +1,27 @@
+{
+  "name": "Dire Downdraft",
+  "costReduction": {
+    "amount": 1,
+    "ifTargets": {
+      "anyOf": [
+        {
+          "attacking": true
+        },
+        {
+          "tapped": true
+        }
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      }
+    ],
+    "text": "Target creature's owner puts it on their choice of the top or bottom of their library."
+  }
+}

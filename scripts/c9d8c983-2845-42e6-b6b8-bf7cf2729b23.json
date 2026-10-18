@@ -1,0 +1,24 @@
+{
+  "name": "Shore Up",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Hexproof"
+        ],
+        "what": "target"
+      },
+      {
+        "untap": "target"
+      }
+    ],
+    "text": "Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it."
+  }
+}

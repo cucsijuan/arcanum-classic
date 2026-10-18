@@ -1,0 +1,22 @@
+{
+  "name": "Bark-Knuckle Boxer",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "Whenever you expend 4, this creature gains indestructible until end of turn."
+    }
+  ]
+}

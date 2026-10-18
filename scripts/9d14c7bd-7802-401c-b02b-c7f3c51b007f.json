@@ -1,0 +1,16 @@
+{
+  "name": "Wandertale Mentor",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you expend 4, put a +1/+1 counter on this creature."
+    }
+  ]
+}

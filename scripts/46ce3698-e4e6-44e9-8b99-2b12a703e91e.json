@@ -1,0 +1,37 @@
+{
+  "name": "Keen-Eyed Curator",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          4,
+          4
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "while": {
+          "atLeast": "cardTypesExiledWithSource",
+          "value": 4
+        }
+      },
+      "text": "As long as there are four or more card types among cards exiled with this creature, it gets +4/+4 and has trample."
+    },
+    {
+      "cost": "{1}",
+      "targets": [
+        {
+          "kind": "graveyardCard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "{1}: Exile target card from a graveyard."
+    }
+  ]
+}

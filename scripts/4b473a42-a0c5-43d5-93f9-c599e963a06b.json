@@ -1,0 +1,50 @@
+{
+  "name": "Season of Weaving",
+  "spell": {
+    "pawprints": 5,
+    "modes": [
+      {
+        "pawprints": 1,
+        "text": "{P} — Draw a card.",
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      },
+      {
+        "pawprints": 2,
+        "text": "{P}{P} — Choose an artifact or creature you control. Create a token that's a copy of it.",
+        "effects": [
+          {
+            "choose": {
+              "types": [
+                "artifact",
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          {
+            "copy": "chosen"
+          }
+        ]
+      },
+      {
+        "pawprints": 3,
+        "text": "{P}{P}{P} — Return each nonland, nontoken permanent to its owner's hand.",
+        "effects": [
+          {
+            "bounceAll": {
+              "not": [
+                "land"
+              ],
+              "token": false
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Choose up to five {P} worth of modes. You may choose the same mode more than once."
+  }
+}

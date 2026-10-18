@@ -1,0 +1,26 @@
+{
+  "name": "Starlit Soothsayer",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "not": {
+          "all": [
+            {
+              "not": "gainedLife"
+            },
+            {
+              "not": "youLostLifeThisTurn"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if you gained or lost life this turn, surveil 1."
+    }
+  ]
+}

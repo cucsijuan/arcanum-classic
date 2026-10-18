@@ -1,0 +1,63 @@
+{
+  "name": "Valley Questcaller",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "anyOf": [
+          {
+            "subtype": "Rabbit"
+          },
+          {
+            "subtype": "Bat"
+          },
+          {
+            "subtype": "Bird"
+          },
+          {
+            "subtype": "Mouse"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever one or more other Rabbits, Bats, Birds, and/or Mice you control enter, scry 1."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Rabbit"
+            },
+            {
+              "subtype": "Bat"
+            },
+            {
+              "subtype": "Bird"
+            },
+            {
+              "subtype": "Mouse"
+            }
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Rabbits, Bats, Birds, and Mice you control get +1/+1."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Salvation Swan",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Bird",
+        "controller": "you"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "without": "Flying"
+          },
+          "text": "up to one target creature you control without flying"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "target",
+          "withCounter": "flying"
+        }
+      ],
+      "text": "Whenever this creature or another Bird you control enters, exile up to one target creature you control without flying. Return it to the battlefield under its owner's control with a flying counter on it at the beginning of the next end step."
+    }
+  ]
+}

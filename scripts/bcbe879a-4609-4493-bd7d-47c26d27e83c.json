@@ -1,0 +1,73 @@
+{
+  "name": "Bandit's Talent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1,
+              "discardFilter": {
+                "not": [
+                  "land"
+                ]
+              }
+            }
+          ],
+          "otherwise": [
+            {
+              "discard": 2,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "When this Class enters, each opponent discards two cards unless they discard a nonland card."
+    },
+    {
+      "cost": "{B}",
+      "levelUp": 2,
+      "text": "{B}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "eachUpkeep",
+      "when": {
+        "not": "yourTurn"
+      },
+      "if": {
+        "not": {
+          "atLeast": "triggeredPlayerHandSize",
+          "value": 2
+        }
+      },
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each opponent's upkeep, if that player has one or fewer cards in hand, they lose 2 life."
+    },
+    {
+      "cost": "{3}{B}",
+      "levelUp": 3,
+      "text": "{3}{B}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "eachDrawStep",
+      "when": "yourTurn",
+      "effects": [
+        {
+          "draw": {
+            "opponentsWithHandAtMost": 1
+          }
+        }
+      ],
+      "text": "At the beginning of your draw step, draw an additional card for each opponent who has one or fewer cards in hand."
+    }
+  ]
+}

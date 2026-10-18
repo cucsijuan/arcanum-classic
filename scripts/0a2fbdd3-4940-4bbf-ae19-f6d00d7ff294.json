@@ -1,0 +1,19 @@
+{
+  "name": "Junkblade Bruiser",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 4,
+      "effects": [
+        {
+          "pump": [
+            2,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you expend 4, this creature gets +2/+1 until end of turn."
+    }
+  ]
+}

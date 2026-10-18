@@ -1,0 +1,32 @@
+{
+  "name": "Bonecache Overseer",
+  "abilities": [
+    {
+      "cost": "{T}, life:1",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "activateIf": {
+        "not": {
+          "all": [
+            {
+              "not": {
+                "cardsLeftYourGraveyard": 3
+              }
+            },
+            {
+              "not": {
+                "sacrificedThisTurn": {
+                  "subtype": "Food"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "text": "{T}, Pay 1 life: Draw a card. Activate only if three or more cards left your graveyard this turn or if you've sacrificed a Food this turn."
+    }
+  ]
+}

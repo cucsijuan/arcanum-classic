@@ -1,0 +1,63 @@
+{
+  "name": "Mabel, Heir to Cragflame",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Mouse",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Mice you control get +1/+1."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cragflame",
+            "types": "Legendary Artifact — Equipment",
+            "colors": [],
+            "abilities": [
+              {
+                "static": {
+                  "affects": "equipped",
+                  "pump": [
+                    1,
+                    1
+                  ],
+                  "keywords": [
+                    "Vigilance",
+                    "Trample",
+                    "Haste"
+                  ]
+                },
+                "text": "Equipped creature gets +1/+1 and has vigilance, trample, and haste."
+              },
+              {
+                "cost": "{2}",
+                "sorcery": true,
+                "equip": true,
+                "targets": [
+                  "creature:you"
+                ],
+                "effects": [
+                  {
+                    "attach": "target"
+                  }
+                ],
+                "text": "Equip {2}"
+              }
+            ],
+            "text": "Equipped creature gets +1/+1 and has vigilance, trample, and haste.\nEquip {2}"
+          }
+        }
+      ],
+      "text": "When Mabel enters, create Cragflame, a legendary colorless Equipment artifact token with \"Equipped creature gets +1/+1 and has vigilance, trample, and haste\" and equip {2}."
+    }
+  ]
+}

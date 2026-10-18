@@ -1,0 +1,54 @@
+{
+  "name": "Manifold Mouse",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Mouse"
+          }
+        }
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Double strike",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "target",
+                  "keywords": [
+                    "Double strike"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Trample",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "target",
+                  "keywords": [
+                    "Trample"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target Mouse you control gains your choice of double strike or trample until end of turn."
+    }
+  ]
+}

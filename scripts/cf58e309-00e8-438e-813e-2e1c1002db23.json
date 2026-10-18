@@ -1,0 +1,40 @@
+{
+  "name": "Dour Port-Mage",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "notZone": "graveyard"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more other creatures you control leave the battlefield without dying, draw a card."
+    },
+    {
+      "cost": "{1}{U}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{U}, {T}: Return another target creature you control to its owner's hand."
+    }
+  ]
+}
