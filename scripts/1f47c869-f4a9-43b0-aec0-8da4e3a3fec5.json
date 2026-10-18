@@ -1,0 +1,11 @@
+{
+  "name": "Extrapolate the Impossible",
+  "spell": {
+    "effects": [
+      {
+        "revealTwoFromOutsideOpponentChooses": true
+      }
+    ],
+    "text": "You may reveal exactly two cards you own with different names from outside the game. An opponent chooses one of them. You put that card into your hand."
+  }
+}
