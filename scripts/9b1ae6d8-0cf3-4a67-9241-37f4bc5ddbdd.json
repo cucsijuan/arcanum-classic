@@ -1,0 +1,58 @@
+{
+  "name": "Venser, Fervent Forger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Copy target instant or sorcery spell an opponent controls twice. You may choose new targets for the copies.",
+          "targets": [
+            {
+              "kind": "spell",
+              "controller": "opponent",
+              "filter": {
+                "types": [
+                  "instant",
+                  "sorcery"
+                ]
+              },
+              "text": "target instant or sorcery spell an opponent controls"
+            }
+          ],
+          "effects": [
+            {
+              "copySpell": "target"
+            },
+            {
+              "copySpell": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create two tokens that are copies of target permanent an opponent controls. They gain haste. At the beginning of the next end step, sacrifice them.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "controller": "opponent",
+              "text": "target permanent an opponent controls"
+            }
+          ],
+          "effects": [
+            {
+              "copy": "target",
+              "count": 2,
+              "gainsHaste": true,
+              "atNextEndStep": [
+                {
+                  "sacrificeIt": "triggered"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When Venser enters, choose one — Copy target instant or sorcery spell an opponent controls twice; or create two tokens that are copies of target permanent an opponent controls. They gain haste. At the beginning of the next end step, sacrifice them."
+    }
+  ]
+}

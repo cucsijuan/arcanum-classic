@@ -1,0 +1,18 @@
+{
+  "name": "The Ur-Sphinx",
+  "abilities": [
+    {
+      "spellCost": { "spells": { "subtype": "Sphinx", "other": true }, "amount": 1, "fromCommandZone": true },
+      "text": "Eminence — As long as The Ur-Sphinx is in the command zone or on the battlefield, other Sphinx spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "youAttackWith",
+      "filter": { "types": ["creature"], "subtype": "Sphinx", "controller": "you" },
+      "effects": [
+        { "mill": "triggerAmount", "who": "everyone" },
+        { "castFromGraveyard": {}, "fromMilled": true, "perPlayer": true, "free": true, "noExile": true }
+      ],
+      "text": "Whenever one or more Sphinxes you control attack, each player mills that many cards. For each player, you may cast a card that player milled this way without paying its mana cost."
+    }
+  ]
+}

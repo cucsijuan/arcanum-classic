@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Shore",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Jace, Multiverse Architect",
+  "abilities": [
+    {
+      "trigger": "eachBeginCombat",
+      "if": { "not": "yourTurn" },
+      "effects": [
+        { "playerMayPay": 2, "who": "triggeredPlayer", "ifNot": [{ "cantAttackYourPlaneswalkers": "triggeredPlayer", "subtype": "Jace" }] }
+      ],
+      "text": "At the beginning of combat on each opponent's turn, they may pay {2}. If they don't, creatures they control can't attack Jaces you control this turn."
+    },
+    {
+      "cost": "+1",
+      "effects": [{ "draw": 2 }, { "handToBottom": 1 }],
+      "text": "+1: Draw two cards, then put a card from your hand on the bottom of your library."
+    },
+    {
+      "cost": "-3",
+      "targets": [{ "kind": "creatureOrPlaneswalker", "controller": "you", "filter": { "other": true } }],
+      "effects": [
+        { "exile": "target" },
+        { "revealUntil": { "types": ["creature", "planeswalker"] }, "to": "battlefield" }
+      ],
+      "text": "−3: Exile another target planeswalker or creature you control. Reveal cards from the top of your library until you reveal a creature or planeswalker card. Put that card onto the battlefield and the rest on the bottom of your library in a random order."
+    }
+  ]
+}

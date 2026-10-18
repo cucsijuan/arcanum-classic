@@ -1,0 +1,28 @@
+{
+  "name": "Teferi's Reproach",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "protectionAndLifeLock": "target"
+      },
+      {
+        "phaseOut": {
+          "each": {
+            "not": [
+              "land"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "target"
+        }
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Choose target opponent. Until that player's next turn, they gain protection from everything and their life total can't change. All nonland permanents they control phase out. Exile Teferi's Reproach."
+  }
+}

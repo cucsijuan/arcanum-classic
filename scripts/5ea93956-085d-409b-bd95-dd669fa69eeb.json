@@ -1,0 +1,74 @@
+{
+  "name": "Ginger, Queen of Sweets",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When Ginger enters, you become the monarch."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 6
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice Ginger: You gain 6 life."
+    },
+    {
+      "trigger": "eachUpkeep",
+      "if": "monarch",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Gingerbrute",
+            "types": "Artifact Creature — Food Golem",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "manaCost": "{1}",
+            "keywords": [
+              "Haste"
+            ],
+            "text": "Haste\n{1}: This token can't be blocked this turn except by creatures with haste.\n{2}, {T}, Sacrifice this token: You gain 3 life.",
+            "abilities": [
+              {
+                "cost": "{1}",
+                "effects": [
+                  {
+                    "pump": [
+                      0,
+                      0
+                    ],
+                    "what": "self",
+                    "cantBeBlockedBy": {
+                      "without": [
+                        "Haste"
+                      ]
+                    }
+                  }
+                ],
+                "text": "{1}: This token can't be blocked this turn except by creatures with haste."
+              },
+              {
+                "cost": "{2}, {T}, sacrifice",
+                "effects": [
+                  {
+                    "gainLife": 3
+                  }
+                ],
+                "text": "{2}, {T}, Sacrifice this token: You gain 3 life."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each upkeep, if you're the monarch, create a Gingerbrute token."
+    }
+  ]
+}

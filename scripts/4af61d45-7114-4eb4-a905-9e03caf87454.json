@@ -1,0 +1,26 @@
+{
+  "name": "Avacyn, Angel of Horror",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "atNextEndStepAbout": "triggered",
+          "effects": [
+            {
+              "reanimate": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Avacyn or another nontoken creature you control dies, return that card to the battlefield under your control at the beginning of the next end step."
+    }
+  ]
+}

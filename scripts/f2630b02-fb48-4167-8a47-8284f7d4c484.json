@@ -1,0 +1,36 @@
+{
+  "name": "Memnarch, the Warden",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Myr",
+            "types": "Artifact Creature — Myr",
+            "power": 1,
+            "toughness": 1,
+            "colors": []
+          }
+        }
+      ],
+      "text": "When Memnarch enters, create two 1/1 colorless Myr artifact creature tokens."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever Memnarch attacks, draw a card for each artifact you control."
+    }
+  ]
+}

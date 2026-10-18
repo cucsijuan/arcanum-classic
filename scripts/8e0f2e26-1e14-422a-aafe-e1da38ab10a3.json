@@ -1,0 +1,29 @@
+{
+  "name": "Tamiyo, Upriser Crowned",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomeMonarch": "you"
+        }
+      ],
+      "text": "When Tamiyo enters, you become the monarch."
+    },
+    {
+      "trigger": "combatDamageToYou",
+      "when": "monarch",
+      "effects": [
+        {
+          "tap": "batch"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "batch"
+        }
+      ],
+      "text": "Whenever one or more creatures deal combat damage to you while you're the monarch, tap those creatures and put a stun counter on each of them."
+    }
+  ]
+}

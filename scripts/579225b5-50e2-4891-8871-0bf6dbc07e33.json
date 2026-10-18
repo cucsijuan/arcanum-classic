@@ -1,0 +1,30 @@
+{
+  "name": "Omnath, Locus of the Void",
+  "unspentManaBecomesColorless": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          "unspentMana",
+          "unspentMana"
+        ]
+      },
+      "text": "Omnath gets +1/+1 for each unspent mana you have."
+    },
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "addMana": "{C}{C}"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, add {C}{C}."
+    }
+  ]
+}

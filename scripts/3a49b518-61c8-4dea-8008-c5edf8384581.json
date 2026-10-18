@@ -1,0 +1,47 @@
+{
+  "name": "Ob Nixilis, the Ascended",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "tapped": true,
+              "controller": "opponent"
+            }
+          }
+        },
+        {
+          "gainLife": "destroyedThisWay"
+        }
+      ],
+      "text": "When Ob Nixilis enters, destroy all tapped creatures your opponents control. You gain 1 life for each creature destroyed this way."
+    },
+    {
+      "trigger": "eachEndStep",
+      "if": "gainedLife",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained life this turn, create a 4/4 white Angel creature token with flying."
+    }
+  ]
+}
