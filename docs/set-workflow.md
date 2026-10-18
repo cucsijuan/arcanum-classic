@@ -49,6 +49,8 @@ height. Without them the defaults are 0.07 and 0.06. A kind without its own pack
 A sheet that holds surge foil printings is marked `"surge": true`. Treatments with different official odds go in separate sheets,
 one per treatment, and the slot weights are those odds (the per-slot percentages as published).
 
+A fracture foil printing needs no flag. The importer marks it from its `promo_types`, and it has its own collector number. Other special foils (such as facet or double rainbow) are shown as traditional foils.
+
 Echoed and other paired cards: a sheet lists its pairs as `"pairs": [["Card A", "Card B"], ...]` (two names per pair, both on that
 sheet). A slot with `"pair": true` gives both cards of one pair per pick, so its `"count"` is the number of pairs and the slot holds
 twice as many cards. A pick takes a pair whose two cards are on the sheet and not already in the pack. A pair slot's sheets need
