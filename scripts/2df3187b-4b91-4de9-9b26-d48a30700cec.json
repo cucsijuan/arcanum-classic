@@ -1,0 +1,28 @@
+{
+  "name": "Splinter Twin",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "grants": [
+          {
+            "cost": "{T}",
+            "effects": [
+              {
+                "copy": "self",
+                "haste": true,
+                "atNextEndStep": [
+                  {
+                    "exile": "triggered"
+                  }
+                ]
+              }
+            ],
+            "text": "{T}: Create a token that's a copy of this creature, except it has haste. Exile that token at the beginning of the next end step."
+          }
+        ]
+      },
+      "text": "Enchanted creature has \"{T}: Create a token that's a copy of this creature, except it has haste. Exile that token at the beginning of the next end step.\""
+    }
+  ]
+}

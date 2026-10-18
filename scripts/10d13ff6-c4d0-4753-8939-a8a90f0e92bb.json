@@ -1,0 +1,31 @@
+{
+  "name": "Eye of Ugin",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colorless": true,
+          "subtype": "Eldrazi"
+        },
+        "amount": 2
+      },
+      "text": "Colorless Eldrazi spells you cast cost {2} less to cast."
+    },
+    {
+      "cost": "{7}, {T}",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ],
+            "colorless": true
+          },
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{7}, {T}: Search your library for a colorless creature card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

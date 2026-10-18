@@ -1,0 +1,24 @@
+{
+  "name": "Necrodominance",
+  "skipYourDrawStep": true,
+  "yourMaximumHandSize": 5,
+  "replaces": [
+    "ExileInsteadOfYourGraveyard"
+  ],
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "payAnyLife": true,
+          "effects": [
+            {
+              "draw": "X"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may pay any amount of life. If you do, draw that many cards."
+    }
+  ]
+}

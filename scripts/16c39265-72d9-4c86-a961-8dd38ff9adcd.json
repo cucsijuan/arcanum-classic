@@ -1,0 +1,22 @@
+{
+  "name": "Consign to Memory",
+  "replicate": "{1}",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellOrAbility",
+        "triggeredOnly": true,
+        "filter": {
+          "colorless": true
+        },
+        "text": "target triggered ability or colorless spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target triggered ability or colorless spell."
+  }
+}

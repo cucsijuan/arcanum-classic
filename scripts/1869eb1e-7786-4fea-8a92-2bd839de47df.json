@@ -1,0 +1,10 @@
+{
+  "name": "Flesh Duplicate",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ],
+    "controller": "any"
+  },
+  "copyGetsVanishingIfNone": 3
+}

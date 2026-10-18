@@ -1,0 +1,1651 @@
+{
+ "code": "fra",
+ "name": "Reality Fracture",
+ "released": "2026-10-02",
+ "pack": {
+  "image": "https://tcgplayer-cdn.tcgplayer.com/product/692979_in_1000x1000.jpg",
+  "seals": [
+   0.08,
+   0.09
+  ]
+ },
+ "limited": {
+  "boostersPerPlayer": 3,
+  "sealedBoosters": 6
+ },
+ "cards": [
+  "Academic Ascent",
+  "Aerid Konstrari",
+  "Afterthought Sentry",
+  "Ajani Resolute",
+  "Ajani Unrelenting",
+  "Ajani's Anguish",
+  "Apex Witchstalker",
+  "Arcane Amphisbaena",
+  "Archive Arbiter",
+  "Arni, Humble Scribe",
+  "Arni, Renowned Champion",
+  "Artifist Acumen",
+  "Avatar of Burgeoning Echoes",
+  "Awaken the Inferno",
+  "Bestial Incursion",
+  "Blazing Crescendo",
+  "Blessed Ghoul",
+  "Bloodline Recollector // Ancestral Craving",
+  "Bloombrute",
+  "Blossom-Blessed Angel // Seed Suture",
+  "Break Under Pressure",
+  "Budding Insurgent",
+  "Campus Crier",
+  "Carnivorous Cultivator // Enroot",
+  "Cast Away Doubt",
+  "Chandra's Emberling",
+  "Chandra, Chill of Compliance",
+  "Chandra, Torch of Defiance",
+  "Charge the Sanctum",
+  "Clash of Elements",
+  "Codie, Ravenous Codex",
+  "Command the Stage",
+  "Compel Brutality",
+  "Countersculpt",
+  "Craftwork Crusher",
+  "Craterclaw Colossus",
+  "Cruel Calculations",
+  "Cryotheory Adept",
+  "Curse-Marred Demon",
+  "Danitha, Spear of Agony",
+  "Danitha, Sword of Hope",
+  "Dark Matter Manipulator",
+  "Darklight Phoenix",
+  "Dedicated Commons",
+  "Denzilore Fatehold",
+  "Deserted Beach",
+  "Desperate Futurescribe",
+  "Diviner of Victory // Unwind History",
+  "Divining Duelist",
+  "Draconic Visitor",
+  "Eardrum Rattler",
+  "Edgar, Ancient Bloodlord",
+  "Edgar, Moonlit Sovereign",
+  "Emergency Phytomedic // Seed Suture",
+  "Emrakul, the Exigent Doom",
+  "Enlightened Confidant",
+  "Entrust the Spark",
+  "Essence Burn",
+  "Extended Absence",
+  "Extrapolate the Impossible",
+  "Eye of Jace",
+  "Face Yourself",
+  "Fatehold Annex",
+  "Fatehold Charm",
+  "Fatehold Chronologist // Peer Review",
+  "Fateshaper Aspirant",
+  "Fblthp, Impossibly Lost",
+  "Fblthp, Knows the Way",
+  "Ferocity of the Hunt",
+  "Flickering Hound",
+  "Flourishing Grapple",
+  "Forest",
+  "Formidable Commons",
+  "Frostbite Pyromental",
+  "Fulminous Forte",
+  "Gallia, Tragic Host",
+  "Gallia, the Merrymaker",
+  "Gardenize",
+  "Garruk, Curse Breaker",
+  "Garruk, Veiled Butcher",
+  "Geist of Saint Thalia",
+  "Generous Revival",
+  "Germinate Recruits",
+  "Ghalta the Immovable",
+  "Ghalta the Unstoppable",
+  "Gideon the Oathless",
+  "Gideon's Memorial",
+  "Graft Surgeon",
+  "Greenhouse Propagator",
+  "Grim Repriser",
+  "Guiding Hydra",
+  "Hall of Echoes",
+  "Hallway Heckler // Vicious Verse",
+  "Hapatra, the Desert Fang",
+  "Hapatra, the Desert Frost",
+  "Haunted Ridge",
+  "Heartstring Puller",
+  "Heartwood Crafter // Soul Tether",
+  "Hexhaven Battalion",
+  "Hexhaven Dueling Arena",
+  "Hexhaven Invigorator",
+  "Hungering Puppetbeast",
+  "Hunter's Axe",
+  "Icy Reception",
+  "Identity Echo",
+  "Infinite Coursework",
+  "Ingris Stingerquill",
+  "Innovative Commons",
+  "Inspired Tethermage",
+  "Island",
+  "Jace's Machinations",
+  "Jace, Reality Sculptor",
+  "Jiang Yanggu, Alone",
+  "Jiang Yanggu, Never Alone",
+  "Karn, Argent Defender",
+  "Karn, Gilded Guardian",
+  "Keeper of the Quiet Hour",
+  "Kindred Judgment",
+  "Kiora of Fire and Ashes",
+  "Kiora of Salt and Sand",
+  "Konstrari Annex",
+  "Konstrari Charm",
+  "Konstrari Improviser // Soul Tether",
+  "Koth of the Homestead",
+  "Koth, the Geomancer",
+  "Kwia Vigorbloom",
+  "Last Gasp",
+  "Lich's Relic",
+  "Liliana the Faultless",
+  "Liliana the Repentant",
+  "Living Library",
+  "Loot, the Anomaly",
+  "Loot, the Nexus",
+  "Loyal Tutor",
+  "Lyra, Archangel of Dawn",
+  "Lyra, Tolarian Archangel",
+  "Mabel, Bitter Recluse",
+  "Mabel, Valley Hero",
+  "Marwyn, the Clearcutter",
+  "Marwyn, the Preserver",
+  "Massacre Girl, Most Wanted",
+  "Master of Barbs",
+  "Medic's Kitesail",
+  "Memory Trap",
+  "Meticulous Commons",
+  "Mind Meanderer",
+  "Mindseeker Oculus",
+  "Mountain",
+  "Multiply by Zero",
+  "Murmuring Volume",
+  "No Admittance",
+  "Null Summoner",
+  "Omnipresence",
+  "Overgrown Farmland",
+  "Overwrite the Multiverse",
+  "Paradox Shaper // Omit Variables",
+  "Perfected Theory",
+  "Pia, Aether Ascetic",
+  "Pia, Determined Rebuilder",
+  "Plains",
+  "Plan for All Outcomes",
+  "Pompous Battlemage // Improvised Act",
+  "Precise Redaction",
+  "Predictive Preparations",
+  "Primal Witchstalker",
+  "Proctor of Potential",
+  "Proft, Consulting Detective",
+  "Proft, Sinister Mastermind",
+  "Prophesied End",
+  "Protege's Awakening",
+  "Prudent Fateseer // Peer Review",
+  "Puppet Crafting",
+  "Pyre Rhymer // Molten Tide",
+  "Rampart Hunter",
+  "Rank Rat",
+  "Recursive Recruitment",
+  "Refute Destiny",
+  "Repurposed Enforcer",
+  "Rescue Girl, First Responder",
+  "Restore with Empathy",
+  "Return to the Light Realms",
+  "Rewrite Regrets",
+  "Rise of the Deathbringer",
+  "Rockfall Vale",
+  "Roiling Canopy",
+  "Room of Refuge",
+  "Ruric Thar, Biomagus",
+  "Ruric Thar, Magecrusher",
+  "Saheeli, Consul of Oversight",
+  "Saheeli, Jewel of Avishkar",
+  "Samut, Hazoret's Champion",
+  "Samut, Tyrant of Naktamun",
+  "Sanctum Lurker",
+  "Screeching Soulbreaker",
+  "Seasoned Cryomancer",
+  "Semester Foreseer // Peer Review",
+  "Shatterwing Pegasus",
+  "Shipwreck Marsh",
+  "Silence the Echo",
+  "Simulacrum Shaper",
+  "Skilled Battlecarver",
+  "Solarium Sentry",
+  "Solitary Cell",
+  "Solve for Disappointment",
+  "Something Worth Saving",
+  "Sphinx of False Conclusions",
+  "Sphinx's Approach",
+  "Stingcaster Mage",
+  "Stingerquill Annex",
+  "Stingerquill Charm",
+  "Stingerquill Voxmancer // Vicious Verse",
+  "Stinging Vitriol",
+  "Sureshot Sower",
+  "Surgical Precision",
+  "Surveillance Phantasm",
+  "Swamp",
+  "Tam's Resistance",
+  "Tam, the Possibility",
+  "Tarmogoyf",
+  "Tenured Tethermage",
+  "Terminal Criticism",
+  "Tether Technician",
+  "Tethermage's Advantage",
+  "Tetsuko Umezawa, Fugitive",
+  "Tetsuko Umezawa, Pursuer",
+  "Teyo, Diamondblade Mage",
+  "Teyo, Lightshield Expert",
+  "Thalia, the Survivor",
+  "The Echoverse Fulcrum",
+  "The Theorist, Jace Beleren",
+  "Theoretical Necromancer",
+  "Theorist's Proxy",
+  "Theorist's Sanctum",
+  "Theorix Annex",
+  "Theorix Charm",
+  "Theorix Metamage // Omit Variables",
+  "Tinybones, Pocket Nuisance",
+  "Titanbones, Towering Heart",
+  "Tomik, Izzet Sparkmage",
+  "Tomik, Orzhov Lawmage",
+  "Transformative Commons",
+  "Traxos, Academy Guardian",
+  "Traxos, Scourge Eternal",
+  "Twinned Vision",
+  "Twisted Fates",
+  "Uldaros Theorix",
+  "Undulating Witness",
+  "Unflinching Hortimancer",
+  "Unsummon",
+  "Variable Chaser // Arc of Fortune",
+  "Verdant Kraken",
+  "Vigorbloom Annex",
+  "Vigorbloom Charm",
+  "Vigorbloom Vanguard // Seed Suture",
+  "Vindictive Triumph",
+  "Vinelasher Adept",
+  "Violent Echoes",
+  "Void Extrapolator // Omit Variables",
+  "Vraska's Final Mercy",
+  "Vraska, Soul of Stone",
+  "Vraska, the Cutting Glare",
+  "Warrior's Blades",
+  "Way of the Cryomancer",
+  "Way of the Deathbringer",
+  "Way of the Healer",
+  "Way of the Mentor",
+  "Way of the Mind Sculptor",
+  "Way of the Necromancer",
+  "Way of the Paradox",
+  "Way of the Pyromancer",
+  "Way of the Warlord",
+  "Way of the Wildspeaker",
+  "Whiplash Wordsmith // Vicious Verse",
+  "Winter, Team Player",
+  "Winter, Tormented Loner",
+  "Woodwork Prodigy // Soul Tether",
+  "Wrath of the Bloodmane",
+  "Wrecking Gecko",
+  "Yargle, Glutton of Urborg",
+  "Yargle, Goliath of Otaria",
+  "Yoshimaru, Beloved Companion",
+  "Yoshimaru, Scrappy Stray",
+  "Your Fate Ends Here",
+  "Yuriko, Blade of the Mighty",
+  "Yuriko, Hope from the Shadows"
+ ],
+ "booster": {
+  "name": "Play Booster",
+  "description": "14 cards: 6 commons (a Special Guests card instead of one in 1 of 55 boosters), an uncommon (braintwister 3.8%), a common (23%) or uncommon (74%; braintwister 3%), three echoed pair cards (two of them a pair; uncommon 88.9%, rare 6.7%, mythic 1.4%, borderless 1.7% uncommon and the rest rare or mythic), a rare (74.4%) or mythic rare (14.8%; shattered mirror, sculptor's stronghold, braintwister or portal view treatments), a traditional foil of any rarity, and a land (default or tower basic, or common dual; foil in 20%). Where the published odds say only \"less than 1%\", the remaining share was split by card count and by the per-card rates of each rarity elsewhere in the same slot.",
+  "sheets": {
+   "common": {
+    "rarity": "common",
+    "numbers": [
+     "2",
+     "3",
+     "4",
+     "6",
+     "10",
+     "12",
+     "15",
+     "16",
+     "21",
+     "22",
+     "23",
+     "27",
+     "29",
+     "30",
+     "31",
+     "33",
+     "37",
+     "39",
+     "41",
+     "42",
+     "45",
+     "46",
+     "48",
+     "51",
+     "54",
+     "56",
+     "60",
+     "61",
+     "65",
+     "66",
+     "67",
+     "69",
+     "70",
+     "73",
+     "74",
+     "75",
+     "76",
+     "81",
+     "85",
+     "86",
+     "89",
+     "92",
+     "94",
+     "96",
+     "97",
+     "98",
+     "99",
+     "101",
+     "104",
+     "109",
+     "114",
+     "115",
+     "117",
+     "119",
+     "120",
+     "123",
+     "125",
+     "130",
+     "133",
+     "134",
+     "139",
+     "153",
+     "156",
+     "157",
+     "164",
+     "166",
+     "171",
+     "172",
+     "173",
+     "174",
+     "188"
+    ]
+   },
+   "uncommon": {
+    "rarity": "uncommon",
+    "numbers": [
+     "8",
+     "17",
+     "18",
+     "24",
+     "25",
+     "34",
+     "35",
+     "36",
+     "50",
+     "58",
+     "62",
+     "68",
+     "77",
+     "82",
+     "84",
+     "95",
+     "102",
+     "105",
+     "108",
+     "112",
+     "124",
+     "126",
+     "127",
+     "129",
+     "132",
+     "136",
+     "138",
+     "141",
+     "143",
+     "144",
+     "146",
+     "147",
+     "150",
+     "151",
+     "155",
+     "158",
+     "160",
+     "161",
+     "163",
+     "165",
+     "167",
+     "170",
+     "181"
+    ]
+   },
+   "rare": {
+    "rarity": "rare",
+    "numbers": [
+     "7",
+     "9",
+     "11",
+     "13",
+     "14",
+     "19",
+     "26",
+     "28",
+     "32",
+     "40",
+     "44",
+     "47",
+     "52",
+     "55",
+     "57",
+     "63",
+     "64",
+     "71",
+     "72",
+     "79",
+     "80",
+     "83",
+     "87",
+     "88",
+     "90",
+     "91",
+     "100",
+     "103",
+     "107",
+     "111",
+     "113",
+     "118",
+     "131",
+     "135",
+     "142",
+     "145",
+     "148",
+     "149",
+     "152",
+     "154",
+     "162",
+     "168",
+     "176",
+     "179",
+     "180",
+     "185",
+     "186",
+     "187",
+     "189",
+     "191"
+    ]
+   },
+   "mythic": {
+    "rarity": "mythic",
+    "numbers": [
+     "1",
+     "5",
+     "20",
+     "38",
+     "43",
+     "49",
+     "53",
+     "59",
+     "78",
+     "93",
+     "106",
+     "110",
+     "116",
+     "121",
+     "122",
+     "128",
+     "137",
+     "140",
+     "159",
+     "169"
+    ]
+   },
+   "spg": {
+    "set": "spg",
+    "numbers": [
+     "159",
+     "160",
+     "161",
+     "162",
+     "163",
+     "164",
+     "165",
+     "166",
+     "167",
+     "168"
+    ]
+   },
+   "btU": {
+    "rarity": "uncommon",
+    "numbers": [
+     "361",
+     "362",
+     "366",
+     "369",
+     "372"
+    ]
+   },
+   "btR": {
+    "rarity": "rare",
+    "numbers": [
+     "359",
+     "360",
+     "364",
+     "365",
+     "367",
+     "368",
+     "370",
+     "371",
+     "373",
+     "375",
+     "376",
+     "377",
+     "379",
+     "380",
+     "381"
+    ]
+   },
+   "btM": {
+    "rarity": "mythic",
+    "numbers": [
+     "363",
+     "374",
+     "378"
+    ]
+   },
+   "shR": {
+    "rarity": "rare",
+    "numbers": [
+     "334",
+     "335",
+     "336",
+     "337",
+     "338",
+     "339",
+     "340",
+     "342",
+     "343",
+     "344",
+     "345",
+     "346",
+     "350",
+     "353",
+     "354",
+     "355",
+     "356",
+     "357"
+    ]
+   },
+   "shM": {
+    "rarity": "mythic",
+    "numbers": [
+     "341",
+     "347",
+     "348",
+     "349",
+     "351",
+     "352",
+     "358"
+    ]
+   },
+   "smR": {
+    "rarity": "rare",
+    "numbers": [
+     "322",
+     "326",
+     "328",
+     "332",
+     "333"
+    ]
+   },
+   "smM": {
+    "rarity": "mythic",
+    "numbers": [
+     "321",
+     "323",
+     "324",
+     "325",
+     "327",
+     "329",
+     "330",
+     "331"
+    ]
+   },
+   "portal": {
+    "rarity": "rare",
+    "numbers": [
+     "397",
+     "398",
+     "399",
+     "400",
+     "401"
+    ]
+   },
+   "echoU": {
+    "rarity": "uncommon",
+    "numbers": [
+     "211",
+     "243",
+     "196",
+     "227",
+     "257",
+     "270",
+     "213",
+     "258",
+     "228",
+     "245",
+     "197",
+     "260",
+     "215",
+     "271",
+     "246",
+     "261",
+     "247",
+     "273",
+     "199",
+     "248",
+     "232",
+     "262",
+     "233",
+     "274",
+     "249",
+     "263",
+     "250",
+     "264",
+     "218",
+     "235",
+     "219",
+     "265",
+     "203",
+     "275",
+     "221",
+     "252",
+     "204",
+     "236",
+     "206",
+     "253",
+     "222",
+     "280",
+     "240",
+     "256",
+     "225",
+     "241",
+     "209",
+     "269",
+     "210",
+     "226",
+     "214",
+     "205",
+     "234",
+     "202",
+     "237",
+     "266",
+     "207",
+     "208",
+     "223",
+     "224",
+     "238",
+     "239",
+     "254",
+     "255",
+     "267",
+     "268"
+    ],
+    "pairs": [
+     [
+      "Arni, Humble Scribe",
+      "Arni, Renowned Champion"
+     ],
+     [
+      "Danitha, Sword of Hope",
+      "Danitha, Spear of Agony"
+     ],
+     [
+      "Edgar, Moonlit Sovereign",
+      "Edgar, Ancient Bloodlord"
+     ],
+     [
+      "Fblthp, Impossibly Lost",
+      "Fblthp, Knows the Way"
+     ],
+     [
+      "Gallia, Tragic Host",
+      "Gallia, the Merrymaker"
+     ],
+     [
+      "Ghalta the Immovable",
+      "Ghalta the Unstoppable"
+     ],
+     [
+      "Hapatra, the Desert Frost",
+      "Hapatra, the Desert Fang"
+     ],
+     [
+      "Jiang Yanggu, Alone",
+      "Jiang Yanggu, Never Alone"
+     ],
+     [
+      "Kiora of Fire and Ashes",
+      "Kiora of Salt and Sand"
+     ],
+     [
+      "Koth of the Homestead",
+      "Koth, the Geomancer"
+     ],
+     [
+      "Loot, the Anomaly",
+      "Loot, the Nexus"
+     ],
+     [
+      "Mabel, Bitter Recluse",
+      "Mabel, Valley Hero"
+     ],
+     [
+      "Marwyn, the Clearcutter",
+      "Marwyn, the Preserver"
+     ],
+     [
+      "Pia, Determined Rebuilder",
+      "Pia, Aether Ascetic"
+     ],
+     [
+      "Proft, Consulting Detective",
+      "Proft, Sinister Mastermind"
+     ],
+     [
+      "Ruric Thar, Biomagus",
+      "Ruric Thar, Magecrusher"
+     ],
+     [
+      "Saheeli, Consul of Oversight",
+      "Saheeli, Jewel of Avishkar"
+     ],
+     [
+      "Tetsuko Umezawa, Fugitive",
+      "Tetsuko Umezawa, Pursuer"
+     ],
+     [
+      "Teyo, Lightshield Expert",
+      "Teyo, Diamondblade Mage"
+     ],
+     [
+      "Tomik, Orzhov Lawmage",
+      "Tomik, Izzet Sparkmage"
+     ],
+     [
+      "Traxos, Academy Guardian",
+      "Traxos, Scourge Eternal"
+     ],
+     [
+      "Winter, Tormented Loner",
+      "Winter, Team Player"
+     ],
+     [
+      "Yargle, Goliath of Otaria",
+      "Yargle, Glutton of Urborg"
+     ],
+     [
+      "Yoshimaru, Beloved Companion",
+      "Yoshimaru, Scrappy Stray"
+     ],
+     [
+      "Yuriko, Blade of the Mighty",
+      "Yuriko, Hope from the Shadows"
+     ],
+     [
+      "Geist of Saint Thalia",
+      "Thalia, the Survivor"
+     ],
+     [
+      "Massacre Girl, Most Wanted",
+      "Rescue Girl, First Responder"
+     ],
+     [
+      "Tinybones, Pocket Nuisance",
+      "Titanbones, Towering Heart"
+     ],
+     [
+      "Way of the Healer",
+      "Way of the Mentor"
+     ],
+     [
+      "Way of the Cryomancer",
+      "Way of the Mind Sculptor"
+     ],
+     [
+      "Way of the Deathbringer",
+      "Way of the Necromancer"
+     ],
+     [
+      "Way of the Pyromancer",
+      "Way of the Warlord"
+     ],
+     [
+      "Way of the Paradox",
+      "Way of the Wildspeaker"
+     ]
+    ]
+   },
+   "echoR": {
+    "rarity": "rare",
+    "numbers": [
+     "230",
+     "198",
+     "272",
+     "279",
+     "200",
+     "231",
+     "201",
+     "217",
+     "220",
+     "251",
+     "277",
+     "278",
+     "216",
+     "276"
+    ],
+    "pairs": [
+     [
+      "Gideon the Oathless",
+      "Gideon's Memorial"
+     ],
+     [
+      "Karn, Gilded Guardian",
+      "Karn, Argent Defender"
+     ],
+     [
+      "Liliana the Faultless",
+      "Liliana the Repentant"
+     ],
+     [
+      "Lyra, Archangel of Dawn",
+      "Lyra, Tolarian Archangel"
+     ],
+     [
+      "Samut, Tyrant of Naktamun",
+      "Samut, Hazoret's Champion"
+     ],
+     [
+      "Vraska, Soul of Stone",
+      "Vraska, the Cutting Glare"
+     ],
+     [
+      "Jace, Reality Sculptor",
+      "Tam, the Possibility"
+     ]
+    ]
+   },
+   "echoM": {
+    "rarity": "mythic",
+    "numbers": [
+     "195",
+     "242",
+     "212",
+     "244",
+     "229",
+     "259"
+    ],
+    "pairs": [
+     [
+      "Ajani Resolute",
+      "Ajani Unrelenting"
+     ],
+     [
+      "Chandra, Chill of Compliance",
+      "Chandra, Torch of Defiance"
+     ],
+     [
+      "Garruk, Veiled Butcher",
+      "Garruk, Curse Breaker"
+     ]
+    ]
+   },
+   "bechoU": {
+    "rarity": "uncommon",
+    "numbers": [
+     "295",
+     "306",
+     "296",
+     "299",
+     "298",
+     "313",
+     "307",
+     "312",
+     "310",
+     "315"
+    ],
+    "pairs": [
+     [
+      "Teyo, Lightshield Expert",
+      "Teyo, Diamondblade Mage"
+     ],
+     [
+      "Thalia, the Survivor",
+      "Geist of Saint Thalia"
+     ],
+     [
+      "Fblthp, Impossibly Lost",
+      "Fblthp, Knows the Way"
+     ],
+     [
+      "Winter, Tormented Loner",
+      "Winter, Team Player"
+     ],
+     [
+      "Marwyn, the Clearcutter",
+      "Marwyn, the Preserver"
+     ]
+    ]
+   },
+   "bechoR": {
+    "rarity": "rare",
+    "numbers": [
+     "292",
+     "304",
+     "293",
+     "305",
+     "294",
+     "301",
+     "300",
+     "317",
+     "302",
+     "311",
+     "316",
+     "320",
+     "318",
+     "319"
+    ],
+    "pairs": [
+     [
+      "Gideon's Memorial",
+      "Gideon the Oathless"
+     ],
+     [
+      "Liliana the Faultless",
+      "Liliana the Repentant"
+     ],
+     [
+      "Lyra, Archangel of Dawn",
+      "Lyra, Tolarian Archangel"
+     ],
+     [
+      "Jace, Reality Sculptor",
+      "Tam, the Possibility"
+     ],
+     [
+      "Samut, Tyrant of Naktamun",
+      "Samut, Hazoret's Champion"
+     ],
+     [
+      "Karn, Gilded Guardian",
+      "Karn, Argent Defender"
+     ],
+     [
+      "Vraska, Soul of Stone",
+      "Vraska, the Cutting Glare"
+     ]
+    ]
+   },
+   "bechoM": {
+    "rarity": "mythic",
+    "numbers": [
+     "291",
+     "308",
+     "297",
+     "309",
+     "303",
+     "314"
+    ],
+    "pairs": [
+     [
+      "Ajani Resolute",
+      "Ajani Unrelenting"
+     ],
+     [
+      "Chandra, Chill of Compliance",
+      "Chandra, Torch of Defiance"
+     ],
+     [
+      "Garruk, Veiled Butcher",
+      "Garruk, Curse Breaker"
+     ]
+    ]
+   },
+   "basic": {
+    "numbers": [
+     "281",
+     "282",
+     "283",
+     "284",
+     "285",
+     "286",
+     "287",
+     "288",
+     "289",
+     "290"
+    ]
+   },
+   "tower": {
+    "numbers": [
+     "382",
+     "383",
+     "384",
+     "385",
+     "386",
+     "387",
+     "388",
+     "389",
+     "390",
+     "391",
+     "392",
+     "393",
+     "394",
+     "395",
+     "396"
+    ]
+   },
+   "dual": {
+    "rarity": "common",
+    "numbers": [
+     "175",
+     "177",
+     "178",
+     "182",
+     "183",
+     "184",
+     "190",
+     "192",
+     "193",
+     "194"
+    ]
+   },
+   "foil_common": {
+    "rarity": "common",
+    "numbers": [
+     "2",
+     "3",
+     "4",
+     "6",
+     "10",
+     "12",
+     "15",
+     "16",
+     "21",
+     "22",
+     "23",
+     "27",
+     "29",
+     "30",
+     "31",
+     "33",
+     "37",
+     "39",
+     "41",
+     "42",
+     "45",
+     "46",
+     "48",
+     "51",
+     "54",
+     "56",
+     "60",
+     "61",
+     "65",
+     "66",
+     "67",
+     "69",
+     "70",
+     "73",
+     "74",
+     "75",
+     "76",
+     "81",
+     "85",
+     "86",
+     "89",
+     "92",
+     "94",
+     "96",
+     "97",
+     "98",
+     "99",
+     "101",
+     "104",
+     "109",
+     "114",
+     "115",
+     "117",
+     "119",
+     "120",
+     "123",
+     "125",
+     "130",
+     "133",
+     "134",
+     "139",
+     "153",
+     "156",
+     "157",
+     "164",
+     "166",
+     "171",
+     "172",
+     "173",
+     "174",
+     "188"
+    ],
+    "foil": true
+   },
+   "foil_uncommon": {
+    "rarity": "uncommon",
+    "numbers": [
+     "8",
+     "17",
+     "18",
+     "24",
+     "25",
+     "34",
+     "35",
+     "36",
+     "50",
+     "58",
+     "62",
+     "68",
+     "77",
+     "82",
+     "84",
+     "95",
+     "102",
+     "105",
+     "108",
+     "112",
+     "124",
+     "126",
+     "127",
+     "129",
+     "132",
+     "136",
+     "138",
+     "141",
+     "143",
+     "144",
+     "146",
+     "147",
+     "150",
+     "151",
+     "155",
+     "158",
+     "160",
+     "161",
+     "163",
+     "165",
+     "167",
+     "170",
+     "181",
+     "196",
+     "197",
+     "199",
+     "202",
+     "203",
+     "204",
+     "205",
+     "206",
+     "207",
+     "208",
+     "209",
+     "210",
+     "211",
+     "213",
+     "214",
+     "215",
+     "218",
+     "219",
+     "221",
+     "222",
+     "223",
+     "224",
+     "225",
+     "226",
+     "227",
+     "228",
+     "232",
+     "233",
+     "234",
+     "235",
+     "236",
+     "237",
+     "238",
+     "239",
+     "240",
+     "241",
+     "243",
+     "245",
+     "246",
+     "247",
+     "248",
+     "249",
+     "250",
+     "252",
+     "253",
+     "254",
+     "255",
+     "256",
+     "257",
+     "258",
+     "260",
+     "261",
+     "262",
+     "263",
+     "264",
+     "265",
+     "266",
+     "267",
+     "268",
+     "269",
+     "270",
+     "271",
+     "273",
+     "274",
+     "275",
+     "280"
+    ],
+    "foil": true
+   },
+   "foil_rare": {
+    "rarity": "rare",
+    "numbers": [
+     "7",
+     "9",
+     "11",
+     "13",
+     "14",
+     "19",
+     "26",
+     "28",
+     "32",
+     "40",
+     "44",
+     "47",
+     "52",
+     "55",
+     "57",
+     "63",
+     "64",
+     "71",
+     "72",
+     "79",
+     "80",
+     "83",
+     "87",
+     "88",
+     "90",
+     "91",
+     "100",
+     "103",
+     "107",
+     "111",
+     "113",
+     "118",
+     "131",
+     "135",
+     "142",
+     "145",
+     "148",
+     "149",
+     "152",
+     "154",
+     "162",
+     "168",
+     "176",
+     "179",
+     "180",
+     "185",
+     "186",
+     "187",
+     "189",
+     "191",
+     "198",
+     "200",
+     "201",
+     "216",
+     "217",
+     "220",
+     "230",
+     "231",
+     "251",
+     "272",
+     "276",
+     "277",
+     "278",
+     "279"
+    ],
+    "foil": true
+   },
+   "foil_mythic": {
+    "rarity": "mythic",
+    "numbers": [
+     "1",
+     "5",
+     "20",
+     "38",
+     "43",
+     "49",
+     "53",
+     "59",
+     "78",
+     "93",
+     "106",
+     "110",
+     "116",
+     "121",
+     "122",
+     "128",
+     "137",
+     "140",
+     "159",
+     "169",
+     "195",
+     "212",
+     "229",
+     "242",
+     "244",
+     "259"
+    ],
+    "foil": true
+   },
+   "foil_bechoU": {
+    "rarity": "uncommon",
+    "numbers": [
+     "295",
+     "306",
+     "296",
+     "299",
+     "298",
+     "313",
+     "307",
+     "312",
+     "310",
+     "315"
+    ],
+    "foil": true
+   },
+   "foil_bechoR": {
+    "rarity": "rare",
+    "numbers": [
+     "292",
+     "304",
+     "293",
+     "305",
+     "294",
+     "301",
+     "300",
+     "317",
+     "302",
+     "311",
+     "316",
+     "320",
+     "318",
+     "319"
+    ],
+    "foil": true
+   },
+   "foil_bechoM": {
+    "rarity": "mythic",
+    "numbers": [
+     "291",
+     "308",
+     "297",
+     "309",
+     "303",
+     "314"
+    ],
+    "foil": true
+   },
+   "foil_btU": {
+    "rarity": "uncommon",
+    "numbers": [
+     "361",
+     "362",
+     "366",
+     "369",
+     "372"
+    ],
+    "foil": true
+   },
+   "foil_btR": {
+    "rarity": "rare",
+    "numbers": [
+     "359",
+     "360",
+     "364",
+     "365",
+     "367",
+     "368",
+     "370",
+     "371",
+     "373",
+     "375",
+     "376",
+     "377",
+     "379",
+     "380",
+     "381"
+    ],
+    "foil": true
+   },
+   "foil_btM": {
+    "rarity": "mythic",
+    "numbers": [
+     "363",
+     "374",
+     "378"
+    ],
+    "foil": true
+   },
+   "foil_shR": {
+    "rarity": "rare",
+    "numbers": [
+     "334",
+     "335",
+     "336",
+     "337",
+     "338",
+     "339",
+     "340",
+     "342",
+     "343",
+     "344",
+     "345",
+     "346",
+     "350",
+     "353",
+     "354",
+     "355",
+     "356",
+     "357"
+    ],
+    "foil": true
+   },
+   "foil_shM": {
+    "rarity": "mythic",
+    "numbers": [
+     "341",
+     "347",
+     "348",
+     "349",
+     "351",
+     "352",
+     "358"
+    ],
+    "foil": true
+   },
+   "foil_portal": {
+    "rarity": "rare",
+    "numbers": [
+     "397",
+     "398",
+     "399",
+     "400",
+     "401"
+    ],
+    "foil": true
+   },
+   "foil_basic": {
+    "numbers": [
+     "281",
+     "282",
+     "283",
+     "284",
+     "285",
+     "286",
+     "287",
+     "288",
+     "289",
+     "290"
+    ],
+    "foil": true
+   },
+   "foil_tower": {
+    "numbers": [
+     "382",
+     "383",
+     "384",
+     "385",
+     "386",
+     "387",
+     "388",
+     "389",
+     "390",
+     "391",
+     "392",
+     "393",
+     "394",
+     "395",
+     "396"
+    ],
+    "foil": true
+   },
+   "foil_dual": {
+    "rarity": "common",
+    "numbers": [
+     "175",
+     "177",
+     "178",
+     "182",
+     "183",
+     "184",
+     "190",
+     "192",
+     "193",
+     "194"
+    ],
+    "foil": true
+   }
+  },
+  "slots": [
+   {
+    "count": 5,
+    "sheets": {
+     "common": 1
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "common": 54,
+     "spg": 1
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "uncommon": 96200,
+     "btU": 3800
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "common": 23000,
+     "uncommon": 74000,
+     "btU": 3000
+    }
+   },
+   {
+    "count": 1,
+    "pair": true,
+    "sheets": {
+     "echoU": 88900,
+     "echoR": 6700,
+     "echoM": 1400,
+     "bechoU": 1700,
+     "bechoR": 910,
+     "bechoM": 390
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "echoU": 88900,
+     "echoR": 6700,
+     "echoM": 1400,
+     "bechoU": 1700,
+     "bechoR": 910,
+     "bechoM": 390
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "rare": 74400,
+     "mythic": 14800,
+     "smR": 1000,
+     "smM": 650,
+     "shR": 3800,
+     "shM": 1000,
+     "btR": 3100,
+     "btM": 250,
+     "portal": 1000
+    }
+   },
+   {
+    "count": 1,
+    "wildcard": true,
+    "sheets": {
+     "foil_common": 49500,
+     "foil_uncommon": 40500,
+     "foil_rare": 6000,
+     "foil_mythic": 1200,
+     "foil_bechoU": 930,
+     "foil_bechoR": 330,
+     "foil_bechoM": 70,
+     "foil_btU": 465,
+     "foil_btR": 350,
+     "foil_btM": 35,
+     "foil_shR": 420,
+     "foil_shM": 80,
+     "foil_portal": 120
+    }
+   },
+   {
+    "count": 1,
+    "sheets": {
+     "basic": 14600,
+     "foil_basic": 3600,
+     "tower": 21800,
+     "foil_tower": 5500,
+     "dual": 43600,
+     "foil_dual": 10900
+    }
+   }
+  ]
+ }
+}
