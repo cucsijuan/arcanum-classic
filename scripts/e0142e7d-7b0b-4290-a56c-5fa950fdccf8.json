@@ -1,0 +1,34 @@
+{
+  "name": "Loot, the Anomaly",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Assigns combat damage as though its negative power were positive"
+        ]
+      },
+      "text": "If Loot's power is negative, he assigns combat damage as though his power were positive."
+    },
+    {
+      "cost": "sacrifice:creature|planeswalker",
+      "activateIf": {
+        "graveyard": 7
+      },
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Threshold — Sacrifice another creature or planeswalker: Loot gets -2/-0 until end of turn. Activate only if there are seven or more cards in your graveyard."
+    }
+  ]
+}

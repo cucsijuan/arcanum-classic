@@ -1,0 +1,27 @@
+{
+  "name": "Null Summoner",
+  "castExiledWithThisIf": {
+    "graveyard": 7
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "exileInstead": true
+        }
+      ],
+      "text": "When this creature enters, if you cast it, target opponent reveals their hand. You choose a nonland card from it. Exile that card."
+    }
+  ]
+}

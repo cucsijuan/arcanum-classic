@@ -1,0 +1,25 @@
+{
+  "name": "Fblthp, Impossibly Lost",
+  "abilities": [
+    {
+      "trigger": "opponentsDealtCombatDamageDuringYourTurn",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "if": "libraryEmpty",
+          "then": [
+            {
+              "winGame": true
+            }
+          ]
+        },
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "When one or more of your opponents are dealt combat damage during your turn, draw two cards. If your library has no cards in it, you win the game. Fblthp's owner shuffles him into their library."
+    }
+  ]
+}

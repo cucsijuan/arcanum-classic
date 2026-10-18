@@ -1,0 +1,10 @@
+{
+  "name": "Omnipresence",
+  "castFromHandFreeUpTo": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}
