@@ -1,0 +1,22 @@
+{
+  "name": "Danitha, Spear of Agony",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "spellTargets": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "spellTargetsOpponent": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a spell that targets an opponent or a creature an opponent controls, put a +1/+1 counter on Danitha."
+    }
+  ]
+}

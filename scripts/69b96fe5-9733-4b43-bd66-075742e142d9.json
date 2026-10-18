@@ -1,0 +1,16 @@
+{
+  "name": "Cruel Calculations",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": {
+          "milledThisTurn": "target"
+        }
+      }
+    ],
+    "text": "Draw X cards, where X is the number of cards that were put into target player's graveyard from their library this turn."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Sanctum Lurker",
+  "yourPlaneswalkersSurviveZeroLoyalty": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 1
+        }
+      ],
+      "text": "When this creature enters, empower Jace 1."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "+2",
+            "effects": [
+              {
+                "damage": 1,
+                "to": "opponents"
+              },
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "+2: This planeswalker deals 1 damage to each opponent and you gain 1 life."
+          }
+        ]
+      },
+      "text": "Planeswalkers you control have \"[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life.\""
+    }
+  ]
+}

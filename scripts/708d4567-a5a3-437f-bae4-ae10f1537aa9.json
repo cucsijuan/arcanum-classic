@@ -1,0 +1,29 @@
+{
+  "name": "Tetsuko Umezawa, Pursuer",
+  "abilities": [
+    {
+      "trigger": "creatureBlocks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "anyOf": [
+          {
+            "maxPower": 1
+          },
+          {
+            "maxToughness": 1
+          }
+        ]
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls with power or toughness 1 or less blocks, Tetsuko Umezawa deals 1 damage to that creature's controller."
+    }
+  ]
+}

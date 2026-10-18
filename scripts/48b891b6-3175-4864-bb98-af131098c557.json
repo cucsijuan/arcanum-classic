@@ -1,0 +1,24 @@
+{
+  "name": "Fblthp, Knows the Way",
+  "powerFrom": "domain",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": "X",
+          "differentNames": true,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When Fblthp enters, search your library for up to X basic land cards with different names, reveal them, put them into your hand, then shuffle."
+    }
+  ]
+}

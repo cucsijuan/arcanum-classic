@@ -1,0 +1,25 @@
+{
+  "name": "Danitha, Sword of Hope",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "subtype": "Equipment"
+      },
+      "spellTargets": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "orSpellTargets": true,
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast an Equipment spell or a spell that targets a creature you control, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

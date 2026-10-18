@@ -1,0 +1,47 @@
+{
+  "name": "Vraska, Soul of Stone",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Artifact creatures you control have vigilance."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Sculpture Treasure",
+            "types": "Artifact Creature — Sculpture Treasure",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "tapForMana": "any",
+            "sacrificeForMana": true,
+            "text": "{T}, Sacrifice this token: Add one mana of any color."
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create a 1/1 colorless Sculpture Treasure artifact creature token with \"{T}, Sacrifice this token: Add one mana of any color.\""
+    }
+  ]
+}

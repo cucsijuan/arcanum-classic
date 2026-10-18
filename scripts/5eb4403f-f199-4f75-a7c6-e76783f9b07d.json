@@ -1,0 +1,59 @@
+{
+  "name": "Liliana the Repentant",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "planeswalker"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "mill": 2,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever another creature or planeswalker you control enters, mill two cards."
+    },
+    {
+      "cost": "{5}{B}",
+      "onlyOnce": true,
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          },
+          "text": "target creature or planeswalker card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Exhaust — {5}{B}: Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter on Liliana. Activate only as a sorcery."
+    }
+  ]
+}

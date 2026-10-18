@@ -1,0 +1,29 @@
+{
+  "name": "Yuriko, Blade of the Mighty",
+  "noSpellsOrAbilitiesDuringCombat": true,
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": "triggeredAttacksPlayerAlone",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "triggered",
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control attacks a player alone, it gains double strike until end of turn."
+    }
+  ]
+}

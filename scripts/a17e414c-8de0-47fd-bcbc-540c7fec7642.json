@@ -1,0 +1,33 @@
+{
+  "name": "Codie, Ravenous Codex",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "preparedSpell": true
+      },
+      "effects": [
+        {
+          "copySpell": "triggered"
+        }
+      ],
+      "text": "Whenever you cast a prepared spell, copy it. You may choose new targets for the copy."
+    },
+    {
+      "cost": "{W}{U}{B}{R}{G}, {T}",
+      "effects": [
+        {
+          "becomePrepared": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{W}{U}{B}{R}{G}, {T}: Each creature you control becomes prepared."
+    }
+  ]
+}

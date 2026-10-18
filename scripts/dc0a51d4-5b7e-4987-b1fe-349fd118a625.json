@@ -1,0 +1,20 @@
+{
+  "name": "Hall of Echoes",
+  "abilities": [
+    {
+      "cost": "{5}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "becomeCopy": "self"
+        },
+        {
+          "noLegendRuleThisTurn": true
+        }
+      ],
+      "text": "{5}: This land becomes a copy of target creature you control until end of turn. The \"legend rule\" doesn't apply to permanents you control this turn."
+    }
+  ]
+}

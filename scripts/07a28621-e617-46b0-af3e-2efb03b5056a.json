@@ -1,0 +1,24 @@
+{
+  "name": "Kwia Vigorbloom",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Lotus",
+            "types": "Artifact",
+            "colors": [],
+            "tapForMana": "any",
+            "manaAmount": 3,
+            "sacrificeForMana": true,
+            "text": "{T}, Sacrifice this token: Add three mana of any one color."
+          }
+        }
+      ],
+      "text": "Whenever you gain life, create a colorless artifact token named Lotus with \"{T}, Sacrifice this token: Add three mana of any one color.\" This ability triggers only once each turn."
+    }
+  ]
+}

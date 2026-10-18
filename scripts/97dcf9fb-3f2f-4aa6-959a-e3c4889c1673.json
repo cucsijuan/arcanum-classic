@@ -1,0 +1,26 @@
+{
+  "name": "Tinybones, Pocket Nuisance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "When Tinybones enters, each opponent discards a card."
+    },
+    {
+      "trigger": "playerDiscards",
+      "batchedPerPlayer": true,
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever a player discards one or more cards, Tinybones deals 1 damage to each opponent."
+    }
+  ]
+}

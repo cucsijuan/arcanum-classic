@@ -1,0 +1,27 @@
+{
+  "name": "Hapatra, the Desert Fang",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "perPlayer": true,
+          "optional": true,
+          "text": "up to one target creature that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "counters": {
+            "greatestManaValueInGraveyard": {}
+          },
+          "kind": "-1/-1",
+          "what": "eachTarget"
+        }
+      ],
+      "text": "When Hapatra enters, for each opponent, put X -1/-1 counters on up to one target creature that player controls, where X is the greatest mana value among cards in your graveyard."
+    }
+  ]
+}

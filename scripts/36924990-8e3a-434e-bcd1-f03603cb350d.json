@@ -1,0 +1,24 @@
+{
+  "name": "Mabel, Bitter Recluse",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature or planeswalker"
+        }
+      ],
+      "effects": [
+        {
+          "removeUpToCounters": 3,
+          "from": "target"
+        }
+      ],
+      "text": "When Mabel enters, remove up to three counters from another target creature or planeswalker."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Break Under Pressure",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "who": "target",
+        "filter": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ],
+          "greatestManaValueAmongTheirs": true
+        }
+      },
+      {
+        "gainLife": 2
+      }
+    ],
+    "text": "Target opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control. You gain 2 life."
+  }
+}

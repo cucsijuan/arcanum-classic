@@ -1,0 +1,23 @@
+{
+  "name": "Theorist's Proxy",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "empowerJace": 3
+        }
+      ],
+      "text": "When this creature enters, empower Jace 3."
+    },
+    {
+      "cost": "{U}, sacrifice",
+      "effects": [
+        {
+          "nextSpellUncounterable": true
+        }
+      ],
+      "text": "{U}, Sacrifice this creature: The next spell you cast this turn can't be countered."
+    }
+  ]
+}

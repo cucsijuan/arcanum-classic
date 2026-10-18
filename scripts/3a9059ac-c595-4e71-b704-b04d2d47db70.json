@@ -1,0 +1,46 @@
+{
+  "name": "Compel Brutality",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Target creature you control deals damage equal to its power to target creature or planeswalker an opponent controls.",
+        "targets": [
+          "creature:you",
+          {
+            "kind": "creatureOrPlaneswalker",
+            "controller": "opponent"
+          }
+        ],
+        "effects": [
+          {
+            "bite": "target",
+            "to": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Target planeswalker you control deals damage equal to its loyalty to target creature or planeswalker an opponent controls.",
+        "targets": [
+          {
+            "kind": "planeswalker",
+            "controller": "you"
+          },
+          {
+            "kind": "creatureOrPlaneswalker",
+            "controller": "opponent"
+          }
+        ],
+        "effects": [
+          {
+            "damage": {
+              "loyalty": "target"
+            },
+            "to": "target2",
+            "from": "target"
+          }
+        ]
+      }
+    ]
+  }
+}
