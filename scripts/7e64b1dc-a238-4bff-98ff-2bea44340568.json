@@ -1,9 +1,5 @@
 {
   "name": "Overlord of the Mistmoors",
-  "impending": {
-    "count": 4,
-    "cost": "{2}{W}{W}"
-  },
   "abilities": [
     {
       "trigger": "enters",

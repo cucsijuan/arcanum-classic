@@ -1,0 +1,29 @@
+{
+  "name": "Akroma, Angel of Fury",
+  "uncounterable": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Protection from white",
+          "Protection from blue"
+        ]
+      },
+      "text": "Protection from white and from blue"
+    },
+    {
+      "cost": "{R}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{R}: Akroma gets +1/+0 until end of turn."
+    }
+  ]
+}
