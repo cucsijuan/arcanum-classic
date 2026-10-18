@@ -1,0 +1,133 @@
+{
+  "name": "Uldaros Theorix",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target artifact card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "battle"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target battle card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target creature card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "enchantment"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target enchantment card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "instant"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target instant card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "kindred"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target kindred card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "planeswalker"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target planeswalker card from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "sorcery"
+            ],
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target sorcery card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "eachTarget"
+        },
+        {
+          "castCopiesOfExiledFree": 6
+        }
+      ],
+      "text": "When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Emrakul, the Exigent Doom",
+  "wardCost": {
+    "sacrifice": {},
+    "sacrificeCount": 3
+  },
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "land"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When you cast this spell, untap all lands you control."
+    },
+    {
+      "cost": "{3}, exileFromHand",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "grantManaUntilCastFromExile": "target",
+          "mana": "{C}{C}"
+        }
+      ],
+      "text": "{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled."
+    }
+  ]
+}

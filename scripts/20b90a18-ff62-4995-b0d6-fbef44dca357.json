@@ -1,0 +1,21 @@
+{
+  "name": "Karn, Gilded Guardian",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": {
+            "colorsAmong": {
+              "types": [
+                "artifact"
+              ],
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "When Karn enters, draw a card for each color among other artifacts you control."
+    }
+  ]
+}
