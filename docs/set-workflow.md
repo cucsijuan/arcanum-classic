@@ -49,6 +49,21 @@ height. Without them the defaults are 0.07 and 0.06. A kind without its own pack
 A sheet that holds surge foil printings is marked `"surge": true`. Treatments with different official odds go in separate sheets,
 one per treatment, and the slot weights are those odds (the per-slot percentages as published).
 
+Echoed and other paired cards: a sheet lists its pairs as `"pairs": [["Card A", "Card B"], ...]` (two names per pair, both on that
+sheet). A slot with `"pair": true` gives both cards of one pair per pick, so its `"count"` is the number of pairs and the slot holds
+twice as many cards. A pick takes a pair whose two cards are on the sheet and not already in the pack. A pair slot's sheets need
+`"pairs"`. See the echoed slot of `sets/fra.json`.
+
+Pack check for every booster kind (the main booster and each kind under `boosters`; 500 packs each). It fails on an empty sheet or a
+pack of the wrong size, and it prints the unsupported cards it sees:
+
+```sh
+ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_BOOSTER_SET=<code> \
+  dotnet test "$ENGINE/tests/Arcanum.Data.Tests" --filter ModuleBoostersOpenWhenProvided --logger "console;verbosity=detailed"
+```
+
+`ARCANUM_MODULE_PATH` must be absolute.
+
 ## 5. Scenes
 
 A set whose cards' art joins into one picture (a scene) lists the scenes in its set file, as `"scenes"`: each with a
