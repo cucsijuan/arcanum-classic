@@ -1,0 +1,75 @@
+{
+  "name": "Jace, Reality Sculptor",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "empowerJace": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "subtype": "Island"
+            }
+          }
+        }
+      ],
+      "text": "+1: Empower Jace X, where X is the number of Islands you control."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "emblem": "Jace, Reality Sculptor effect",
+          "untilYourNextTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureAttacks",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "attackingYou": true
+              },
+              "effects": [
+                {
+                  "pump": [
+                    -5,
+                    0
+                  ],
+                  "what": "triggered"
+                }
+              ],
+              "text": "Whenever a creature attacks you or a planeswalker you control, it gets -5/-0 until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "−3: Until your next turn, whenever a creature attacks you or a planeswalker you control, it gets -5/-0 until end of turn."
+    },
+    {
+      "cost": "0",
+      "activateIf": {
+        "atLeast": {
+          "countersAmong": {
+            "types": [
+              "planeswalker"
+            ],
+            "subtype": "Jace"
+          },
+          "kind": "loyalty"
+        },
+        "value": 25
+      },
+      "effects": [
+        {
+          "exileLibraryAllBut": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "0: Exile all but the bottom card of each opponent's library. Activate only if there are twenty-five or more loyalty counters among Jaces you control."
+    }
+  ]
+}

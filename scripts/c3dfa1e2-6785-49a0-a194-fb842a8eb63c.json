@@ -1,0 +1,83 @@
+{
+  "name": "Chandra, Chill of Compliance",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "surveil": 1
+        },
+        {
+          "surveilledToHand": {
+            "not": [
+              "creature",
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "+1: Surveil 1. If you put a noncreature, nonland card into your graveyard this way, put that card into your hand."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "types": "{U}",
+          "onlyFor": {
+            "not": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "+1: Add {U}. Spend this mana only to cast a noncreature spell."
+    },
+    {
+      "cost": "-X",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": "X",
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "−X: Tap target artifact or creature. Put X stun counters on it."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "emblem": "Chandra, Chill of Compliance emblem",
+          "abilities": [
+            {
+              "trigger": "castSpell",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever you cast a spell, draw a card."
+            }
+          ]
+        }
+      ],
+      "text": "−6: You get an emblem with \"Whenever you cast a spell, draw a card.\""
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Tam, the Possibility",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Planeswalker spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{W}{U}{B}{R}{G}, {T}",
+      "effects": [
+        {
+          "repeat": "planeswalkerTypes",
+          "effects": [
+            {
+              "proliferate": true
+            }
+          ]
+        }
+      ],
+      "text": "{W}{U}{B}{R}{G}, {T}: Proliferate X times, where X is the number of planeswalker types among planeswalkers you control."
+    }
+  ]
+}

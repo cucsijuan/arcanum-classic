@@ -1,0 +1,87 @@
+{
+  "name": "Garruk, Curse Breaker",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "minPower": 4
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with power 4 or greater enters, draw a card."
+    },
+    {
+      "cost": "+2",
+      "targets": [
+        {
+          "kind": "land",
+          "upTo": 2,
+          "text": "up to two target lands"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "eachTarget"
+        }
+      ],
+      "text": "+2: Untap up to two target lands."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "−3: Create a 4/4 green Beast creature token with trample."
+    },
+    {
+      "cost": "-4",
+      "effects": [
+        {
+          "emblem": "Garruk, Curse Breaker effect",
+          "untilYourNextTurn": true,
+          "abilities": [
+            {
+              "trigger": "creaturesAttackOpponent",
+              "playersOnly": true,
+              "effects": [
+                {
+                  "pump": [
+                    2,
+                    2
+                  ],
+                  "what": "attackersOfTriggered",
+                  "keywords": [
+                    "Trample"
+                  ]
+                }
+              ],
+              "text": "Whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "−4: Until your next turn, whenever one or more creatures attack one of your opponents, those creatures get +2/+2 and gain trample until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Chandra, Torch of Defiance",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "exileTopMayCast": true,
+          "ifNot": [
+            {
+              "damage": 2,
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "+1: Exile the top card of your library. You may cast that card. If you don't, Chandra deals 2 damage to each opponent."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "addMana": "{R}{R}"
+        }
+      ],
+      "text": "+1: Add {R}{R}."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "−3: Chandra deals 4 damage to target creature."
+    },
+    {
+      "cost": "-7",
+      "effects": [
+        {
+          "emblem": "Chandra, Torch of Defiance emblem",
+          "abilities": [
+            {
+              "trigger": "castSpell",
+              "targets": [
+                "any"
+              ],
+              "effects": [
+                {
+                  "damage": 5,
+                  "to": "target"
+                }
+              ],
+              "text": "Whenever you cast a spell, this emblem deals 5 damage to any target."
+            }
+          ]
+        }
+      ],
+      "text": "−7: You get an emblem with \"Whenever you cast a spell, this emblem deals 5 damage to any target.\""
+    }
+  ]
+}

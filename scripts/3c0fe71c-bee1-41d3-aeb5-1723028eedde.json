@@ -1,0 +1,44 @@
+{
+  "name": "Face Yourself",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "copy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "target"
+        },
+        "each": true,
+        "haste": true,
+        "abilities": [
+          {
+            "trigger": "eachEndStep",
+            "if": {
+              "not": {
+                "control": {
+                  "types": [
+                    "planeswalker"
+                  ]
+                }
+              }
+            },
+            "effects": [
+              {
+                "sacrificeIt": "self"
+              }
+            ],
+            "text": "At the beginning of the end step, if you don't control a planeswalker, sacrifice this creature."
+          }
+        ]
+      }
+    ],
+    "text": "For each creature target player controls, create a token that's a copy of that creature, except it has haste and \"At the beginning of the end step, if you don't control a planeswalker, sacrifice this creature.\""
+  }
+}

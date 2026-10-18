@@ -1,0 +1,55 @@
+{
+  "name": "Lyra, Tolarian Archangel",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "drawn": 3
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Angel",
+            "types": "Creature — Angel",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if you've drawn three or more cards this turn, create a 3/3 blue Angel creature token with flying."
+    },
+    {
+      "cost": "{3}{U}{U}",
+      "effects": [
+        {
+          "emblem": "Lyra, Tolarian Archangel effect",
+          "untilEndOfTurn": true,
+          "about": "self",
+          "abilities": [
+            {
+              "trigger": "creatureCombatDamageToPlayer",
+              "filter": {
+                "remembered": true,
+                "controller": "any"
+              },
+              "effects": [
+                {
+                  "draw": 2
+                }
+              ],
+              "text": "Whenever Lyra deals combat damage to a player, draw two cards."
+            }
+          ]
+        }
+      ],
+      "text": "{3}{U}{U}: Until end of turn, whenever Lyra deals combat damage to a player, draw two cards."
+    }
+  ]
+}
