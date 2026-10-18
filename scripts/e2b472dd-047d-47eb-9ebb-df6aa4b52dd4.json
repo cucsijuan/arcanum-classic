@@ -1,0 +1,32 @@
+{
+  "name": "Perilous Landscape",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic",
+            "anyOf": [
+              {
+                "subtype": "Island"
+              },
+              {
+                "subtype": "Mountain"
+              },
+              {
+                "subtype": "Plains"
+              }
+            ]
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a basic Island, Mountain, or Plains card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

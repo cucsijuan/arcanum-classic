@@ -1,0 +1,33 @@
+{
+  "name": "Flawless Maneuver",
+  "alternativeCost": {
+    "cost": "{0}",
+    "if": {
+      "control": {
+        "commander": true
+      }
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ],
+    "text": "If you control a commander, you may cast this spell without paying its mana cost. Creatures you control gain indestructible until end of turn."
+  }
+}

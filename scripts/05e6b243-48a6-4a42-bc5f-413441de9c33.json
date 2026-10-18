@@ -1,0 +1,64 @@
+{
+  "name": "Elspeth, Sun's Champion",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "+1: Create three 1/1 white Soldier creature tokens."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "minPower": 4
+            }
+          }
+        }
+      ],
+      "text": "−3: Destroy all creatures with power 4 or greater."
+    },
+    {
+      "cost": "-7",
+      "effects": [
+        {
+          "emblem": "Elspeth, Sun's Champion emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "creatures:you",
+                "pump": [
+                  2,
+                  2
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              },
+              "text": "Creatures you control get +2/+2 and have flying."
+            }
+          ]
+        }
+      ],
+      "text": "−7: You get an emblem with \"Creatures you control get +2/+2 and have flying.\""
+    }
+  ]
+}

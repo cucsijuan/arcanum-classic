@@ -84,7 +84,8 @@ Sets with scenes so far: ltr, hob, hoc, ltc.
 ## 6. Decks
 
 - Two-color sample decks: `tools/build_set_decks.py "$CARDS" sets/<code>.json [printings file]` writes `decks/<code>-<pair>.txt`.
-- Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line.
+- Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line. The exact list,
+  with collector numbers, foil flags and the basic land printings, can be taken from the deck files a public card database publishes (they list each card's set, number and finish).
 
 ## 7. Draft ratings
 

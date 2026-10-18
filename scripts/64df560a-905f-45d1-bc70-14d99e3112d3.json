@@ -1,0 +1,45 @@
+{
+  "name": "Windcrag Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Mardu",
+    "Jeskai"
+  ],
+  "extraTriggersFromAttacking": true,
+  "extraTriggersFromAttackingOption": "Mardu",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ],
+            "keywords": []
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Lifelink",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Jeskai — At the beginning of your upkeep, create a 1/1 red Goblin creature token. It gains lifelink and haste until end of turn.",
+      "when": {
+        "chosenOption": "Jeskai"
+      }
+    }
+  ]
+}

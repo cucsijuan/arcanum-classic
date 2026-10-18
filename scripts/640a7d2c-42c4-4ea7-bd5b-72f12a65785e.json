@@ -1,0 +1,38 @@
+{
+  "name": "Synthetic Destiny",
+  "spell": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "atTheNextEndStep": {
+          "effects": [
+            {
+              "revealUntil": {
+                "types": [
+                  "creature"
+                ]
+              },
+              "count": "triggerAmount",
+              "to": "battlefield",
+              "rest": "shuffle"
+            }
+          ],
+          "text": "At the beginning of the next end step, reveal cards from the top of your library until you reveal that many creature cards, put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library."
+        },
+        "amount": {
+          "exiled": {}
+        }
+      }
+    ],
+    "text": "Exile all creatures you control. At the beginning of the next end step, reveal cards from the top of your library until you reveal that many creature cards, put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library."
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Restless Spire",
+  "abilities": [
+    {
+      "cost": "{U}{R}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 1,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "U",
+            "R"
+          ],
+          "abilities": [
+            {
+              "static": {
+                "affects": "self",
+                "while": "yourTurn",
+                "pump": [
+                  0,
+                  0
+                ],
+                "keywords": [
+                  "First strike"
+                ]
+              },
+              "text": "During your turn, this creature has first strike."
+            }
+          ]
+        }
+      ],
+      "text": "{U}{R}: Until end of turn, this land becomes a 2/1 blue and red Elemental creature with \"During your turn, this creature has first strike.\" It's still a land."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Whenever this land attacks, scry 1."
+    }
+  ]
+}

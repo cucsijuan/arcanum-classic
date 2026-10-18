@@ -1,0 +1,71 @@
+{
+  "name": "Archon of Cruelty",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "target",
+          "filter": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          }
+        },
+        {
+          "discard": 1,
+          "who": "target"
+        },
+        {
+          "loseLife": 3,
+          "who": "target"
+        },
+        {
+          "draw": 1
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever this creature enters, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "target",
+          "filter": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          }
+        },
+        {
+          "discard": 1,
+          "who": "target"
+        },
+        {
+          "loseLife": 3,
+          "who": "target"
+        },
+        {
+          "draw": 1
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever this creature attacks, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life."
+    }
+  ]
+}

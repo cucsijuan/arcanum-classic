@@ -1,0 +1,39 @@
+{
+  "name": "Mystic Gate",
+  "abilities": [
+    {
+      "cost": "{W/U}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {W}{W}",
+              "effects": [
+                {
+                  "addMana": "{W}{W}"
+                }
+              ]
+            },
+            {
+              "text": "Add {W}{U}",
+              "effects": [
+                {
+                  "addMana": "{W}{U}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}{U}",
+              "effects": [
+                {
+                  "addMana": "{U}{U}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{W/U}, {T}: Add {W}{W}, {W}{U}, or {U}{U}."
+    }
+  ]
+}

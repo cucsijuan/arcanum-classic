@@ -1,0 +1,14 @@
+{
+  "name": "Dimir Signet",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{U}{B}"
+        }
+      ],
+      "text": "{1}, {T}: Add {U}{B}."
+    }
+  ]
+}

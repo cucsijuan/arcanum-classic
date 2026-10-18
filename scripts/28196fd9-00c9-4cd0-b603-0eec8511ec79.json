@@ -1,0 +1,32 @@
+{
+  "name": "Contaminated Landscape",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic",
+            "anyOf": [
+              {
+                "subtype": "Plains"
+              },
+              {
+                "subtype": "Island"
+              },
+              {
+                "subtype": "Swamp"
+              }
+            ]
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

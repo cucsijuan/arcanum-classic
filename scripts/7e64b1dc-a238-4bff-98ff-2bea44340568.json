@@ -1,0 +1,51 @@
+{
+  "name": "Overlord of the Mistmoors",
+  "impending": {
+    "count": 4,
+    "cost": "{2}{W}{W}"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "power": 2,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, create two 2/1 white Insect creature tokens with flying."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "power": 2,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, create two 2/1 white Insect creature tokens with flying."
+    }
+  ]
+}

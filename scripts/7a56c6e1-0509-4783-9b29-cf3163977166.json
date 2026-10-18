@@ -1,0 +1,5 @@
+{
+  "name": "Serra's Emissary",
+  "chooseOnEnter": "CardType",
+  "protectionFromChosenCardType": true
+}

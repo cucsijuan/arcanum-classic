@@ -1,0 +1,22 @@
+{
+  "name": "Sunfall",
+  "spell": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "incubate": {
+          "exiled": {}
+        }
+      }
+    ],
+    "text": "Exile all creatures. Incubate X, where X is the number of creatures exiled this way."
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Currency Converter",
+  "abilities": [
+    {
+      "trigger": "playerDiscards",
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "if": "triggeredInGraveyard",
+          "then": [
+            {
+              "may": "Exile the discarded card from your graveyard?",
+              "effects": [
+                {
+                  "exile": "triggered",
+                  "linked": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you discard a card, you may exile that card from your graveyard."
+    },
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{2}, {T}: Draw a card, then discard a card."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "putExiledWithThisIntoGraveyard": true,
+          "ifLand": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ],
+          "ifNonland": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Rogue",
+                "types": "Creature — Rogue",
+                "power": 2,
+                "toughness": 2,
+                "colors": [
+                  "B"
+                ],
+                "keywords": []
+              }
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Put a card exiled with this artifact into its owner's graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token."
+    }
+  ]
+}

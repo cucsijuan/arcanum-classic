@@ -1,0 +1,44 @@
+{
+  "name": "White Sun's Twilight",
+  "spell": {
+    "effects": [
+      {
+        "gainLife": "X"
+      },
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Phyrexian Mite",
+          "types": "Artifact Creature — Phyrexian Mite",
+          "power": 1,
+          "toughness": 1,
+          "colors": [],
+          "keywords": [
+            "Can't block"
+          ],
+          "toxic": 1,
+          "text": "Toxic 1 (Players dealt combat damage by this creature also get a poison counter.)\nThis token can't block."
+        }
+      },
+      {
+        "if": {
+          "atLeast": "X",
+          "value": 5
+        },
+        "then": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "exceptCreated": true
+          }
+        ]
+      }
+    ],
+    "text": "You gain X life. Create X 1/1 colorless Phyrexian Mite artifact creature tokens with toxic 1 and \"This token can't block.\" If X is 5 or more, destroy all other creatures."
+  }
+}

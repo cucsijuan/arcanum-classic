@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Creativity",
+  "extraMana": [
+    {
+      "types": "{U}{R}",
+      "damage": 1
+    }
+  ]
+}

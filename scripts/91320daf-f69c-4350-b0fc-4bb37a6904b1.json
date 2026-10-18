@@ -1,0 +1,39 @@
+{
+  "name": "Restless Anchorage",
+  "abilities": [
+    {
+      "cost": "{1}{W}{U}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 3,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Bird"
+          ],
+          "setColors": [
+            "W",
+            "U"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}{W}{U}: Until end of turn, this land becomes a 2/3 white and blue Bird creature with flying. It's still a land."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Map"
+        }
+      ],
+      "text": "Whenever this land attacks, create a Map token."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Dreadhorde Invasion",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "amass": 1,
+          "type": "Zombie"
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 1 life and amass Zombies 1."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Zombie",
+        "token": true,
+        "minPower": 6,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "triggered",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Whenever a Zombie token you control with power 6 or greater attacks, it gains lifelink until end of turn."
+    }
+  ]
+}

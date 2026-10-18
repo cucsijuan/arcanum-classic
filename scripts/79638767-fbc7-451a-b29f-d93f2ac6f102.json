@@ -1,0 +1,24 @@
+{
+  "name": "Kher Keep",
+  "abilities": [
+    {
+      "cost": "{1}{R}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kobolds of Kher Keep",
+            "types": "Creature — Kobold",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{1}{R}, {T}: Create a 0/1 red Kobold creature token named Kobolds of Kher Keep."
+    }
+  ]
+}

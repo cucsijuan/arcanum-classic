@@ -1,0 +1,54 @@
+{
+  "name": "Shark Typhoon",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "size": "triggerAmount",
+          "token": {
+            "name": "Shark",
+            "types": "Creature — Shark",
+            "power": 0,
+            "toughness": 0,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value."
+    },
+    {
+      "trigger": "cycled",
+      "effects": [
+        {
+          "tokens": 1,
+          "size": "triggerAmount",
+          "token": {
+            "name": "Shark",
+            "types": "Creature — Shark",
+            "power": 0,
+            "toughness": 0,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When you cycle this card, create an X/X blue Shark creature token with flying."
+    }
+  ]
+}

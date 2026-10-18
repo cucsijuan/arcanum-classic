@@ -1,0 +1,14 @@
+{
+  "name": "Azorius Signet",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{W}{U}"
+        }
+      ],
+      "text": "{1}, {T}: Add {W}{U}."
+    }
+  ]
+}

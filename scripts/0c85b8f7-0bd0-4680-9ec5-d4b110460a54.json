@@ -1,0 +1,39 @@
+{
+  "name": "Fabled Passage",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true
+        },
+        {
+          "if": {
+            "atLeast": {
+              "count": {
+                "types": [
+                  "land"
+                ],
+                "controller": "you"
+              }
+            },
+            "value": 4
+          },
+          "then": [
+            {
+              "untap": "found"
+            }
+          ]
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land."
+    }
+  ]
+}

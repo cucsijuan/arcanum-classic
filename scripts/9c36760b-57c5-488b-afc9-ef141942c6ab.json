@@ -1,0 +1,16 @@
+{
+  "name": "Archfiend of Despair",
+  "opponentsCantGainLife": true,
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "loseLife": "affectedLifeLostThisTurn",
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of each end step, each opponent loses life equal to the life that player lost this turn."
+    }
+  ]
+}

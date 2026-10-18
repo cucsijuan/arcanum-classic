@@ -1,0 +1,39 @@
+{
+  "name": "Martial Coup",
+  "spell": {
+    "effects": [
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Soldier",
+          "types": "Creature — Soldier",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ],
+          "keywords": []
+        }
+      },
+      {
+        "if": {
+          "atLeast": "X",
+          "value": 5
+        },
+        "then": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "exceptCreated": true
+          }
+        ]
+      }
+    ],
+    "text": "Create X 1/1 white Soldier creature tokens. If X is 5 or more, destroy all other creatures."
+  }
+}

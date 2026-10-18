@@ -1,0 +1,12 @@
+{
+  "name": "Radiant Summit",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "supertype": "basic"
+    },
+    "count": 2
+  }
+}

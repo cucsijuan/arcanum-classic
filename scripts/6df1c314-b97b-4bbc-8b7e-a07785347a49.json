@@ -1,0 +1,29 @@
+{
+  "name": "Occult Epiphany",
+  "spell": {
+    "effects": [
+      {
+        "draw": "X"
+      },
+      {
+        "discard": "X"
+      },
+      {
+        "tokens": "cardTypesAmongDiscarded",
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ],
+    "text": "Draw X cards, then discard X cards. Create a 1/1 white Spirit creature token with flying for each card type among cards discarded this way."
+  }
+}
