@@ -1,0 +1,50 @@
+{
+  "name": "Alchemist's Talent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "When this Class enters, create two tapped Treasure tokens."
+    },
+    {
+      "cost": "{1}{R}",
+      "levelUp": 2,
+      "text": "{1}{R}: Level 2"
+    },
+    {
+      "level": 2,
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Treasure",
+        "grantsMana": "any",
+        "grantsManaAmount": 2
+      },
+      "text": "Treasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\""
+    },
+    {
+      "cost": "{4}{R}",
+      "levelUp": 3,
+      "text": "{4}{R}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "castSpell",
+      "filter": {
+        "paidWithTreasure": true
+      },
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a spell, if mana from a Treasure was spent to cast it, this Class deals damage equal to that spell's mana value to each opponent."
+    }
+  ]
+}

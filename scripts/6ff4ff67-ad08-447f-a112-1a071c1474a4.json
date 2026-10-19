@@ -1,0 +1,38 @@
+{
+  "name": "Hanged Executioner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Spirit creature token with flying."
+    },
+    {
+      "cost": "{3}{W}, exile",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{3}{W}, Exile this creature: Exile target creature."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Stolen by the Fae",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "manaValueIsX": true
+        },
+        "text": "target creature with mana value X"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Faerie",
+          "types": "Creature — Faerie",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "U"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ],
+    "text": "Return target creature with mana value X to its owner's hand. You create X 1/1 blue Faerie creature tokens with flying."
+  }
+}

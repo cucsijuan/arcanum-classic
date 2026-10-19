@@ -1,0 +1,39 @@
+{
+  "name": "Junk Winder",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "token": true
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "token": true,
+        "controller": "you"
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls",
+          "controller": "opponent"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "skipNextUntap": "target"
+        }
+      ],
+      "text": "Whenever a token you control enters, tap target nonland permanent an opponent controls. It doesn't untap during its controller's next untap step."
+    }
+  ]
+}

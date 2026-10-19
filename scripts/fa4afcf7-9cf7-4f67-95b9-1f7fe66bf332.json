@@ -1,0 +1,10 @@
+{
+  "name": "Grumgully, the Generous",
+  "othersEnterWithCounters": 1,
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ],
+    "notSubtype": "Human"
+  }
+}

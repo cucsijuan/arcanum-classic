@@ -1,0 +1,57 @@
+{
+  "name": "Hazel's Brewmaster",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "optional": true,
+          "text": "up to one target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        },
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, exile up to one target card from a graveyard and create a Food token."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "optional": true,
+          "text": "up to one target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        },
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, exile up to one target card from a graveyard and create a Food token."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Food",
+        "exiledCreatureAbilities": true
+      },
+      "text": "Foods you control have all activated abilities of all creature cards exiled with this creature."
+    }
+  ]
+}

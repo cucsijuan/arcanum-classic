@@ -1,0 +1,43 @@
+{
+  "name": "Hoofprints of the Stag",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "may": "Put a hoofprint counter on Hoofprints of the Stag?",
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "hoofprint",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you draw a card, you may put a hoofprint counter on this enchantment."
+    },
+    {
+      "cost": "{2}{W}, removeCounters:4:hoofprint",
+      "activateIf": "yourTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 4,
+            "toughness": 4,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{W}, Remove four hoofprint counters from this enchantment: Create a 4/4 white Elemental creature token with flying. Activate only during your turn."
+    }
+  ]
+}

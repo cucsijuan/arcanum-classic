@@ -1,0 +1,80 @@
+{
+  "name": "Rootcast Apprenticeship",
+  "spell": {
+    "chooseCount": 3,
+    "modesRepeat": true,
+    "modes": [
+      {
+        "text": "Put two +1/+1 counters on target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a token that's a copy of target token you control.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "token": true
+            },
+            "text": "target token you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player creates a 1/1 green Squirrel creature token.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Squirrel",
+              "types": "Creature — Squirrel",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "G"
+              ],
+              "keywords": []
+            },
+            "for": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target opponent sacrifices a nontoken artifact of their choice.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "artifact"
+              ],
+              "token": false
+            },
+            "who": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Choose three. You may choose the same mode more than once. • Put two +1/+1 counters on target creature. • Create a token that's a copy of target token you control. • Target player creates a 1/1 green Squirrel creature token. • Target opponent sacrifices a nontoken artifact of their choice."
+  }
+}

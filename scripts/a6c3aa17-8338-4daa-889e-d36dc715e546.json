@@ -1,0 +1,65 @@
+{
+  "name": "Rolling Hamsphere",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Hamster",
+              "controller": "you"
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Hamster",
+              "controller": "you"
+            }
+          }
+        ]
+      },
+      "text": "This Vehicle gets +1/+1 for each Hamster you control."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Hamster",
+            "types": "Creature — Hamster",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ],
+            "keywords": []
+          }
+        },
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Hamster",
+              "controller": "you"
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this Vehicle attacks, create three 1/1 red Hamster creature tokens, then it deals X damage to any target, where X is the number of Hamsters you control."
+    }
+  ]
+}

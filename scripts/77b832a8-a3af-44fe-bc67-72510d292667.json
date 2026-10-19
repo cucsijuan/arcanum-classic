@@ -1,7 +1,7 @@
 {
   "name": "Gev, Scaled Scorch",
   "othersEnterWithCounters": "opponentsWhoLostLifeThisTurn",
-  "othersEnterWithCountersFilter": {
+  "othersEnterFilter": {
     "types": [
       "creature"
     ]

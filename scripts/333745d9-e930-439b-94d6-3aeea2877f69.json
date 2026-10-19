@@ -1,0 +1,21 @@
+{
+  "name": "Illusionist's Gambit",
+  "castOnlyIf": {
+    "all": [
+      {
+        "step": "DeclareBlockers"
+      },
+      {
+        "not": "yourTurn"
+      }
+    ]
+  },
+  "spell": {
+    "effects": [
+      {
+        "attackersAttackAgainNotYou": true
+      }
+    ],
+    "text": "Remove all attacking creatures from combat and untap them. After this phase, there is an additional combat phase. Each of those creatures attacks that combat if able. They can't attack you or planeswalkers you control that combat."
+  }
+}

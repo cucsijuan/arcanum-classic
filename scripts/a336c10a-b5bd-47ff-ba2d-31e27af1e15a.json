@@ -1,0 +1,36 @@
+{
+  "name": "Tendershoot Dryad",
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "At the beginning of each upkeep, create a 1/1 green Saproling creature token."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Saproling",
+        "while": "citysBlessing",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Saprolings you control get +2/+2 as long as you have the city's blessing."
+    }
+  ]
+}

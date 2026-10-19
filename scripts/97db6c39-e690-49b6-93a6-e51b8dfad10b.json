@@ -1,0 +1,15 @@
+{
+  "name": "Spore Frog",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "preventDamage": true,
+          "combatOnly": true
+        }
+      ],
+      "text": "Sacrifice this creature: Prevent all combat damage that would be dealt this turn."
+    }
+  ]
+}

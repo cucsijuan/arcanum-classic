@@ -1,0 +1,60 @@
+{
+  "name": "Chitterspitter",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a token?",
+          "cost": {
+            "sacrifice": {
+              "token": true
+            }
+          },
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "acorn",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may sacrifice a token. If you do, put an acorn counter on this artifact."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Squirrel",
+        "pump": [
+          {
+            "counters": "acorn"
+          },
+          {
+            "counters": "acorn"
+          }
+        ]
+      },
+      "text": "Squirrels you control get +1/+1 for each acorn counter on this artifact."
+    },
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Squirrel",
+            "types": "Creature — Squirrel",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{G}, {T}: Create a 1/1 green Squirrel creature token."
+    }
+  ]
+}

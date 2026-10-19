@@ -1,0 +1,53 @@
+{
+  "name": "Rose Room Treasurer",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "resolvedThisTurn": 3
+            }
+          },
+          "then": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ],
+          "else": [
+            {
+              "mayPayX": "Pay {X}? When you do, this creature deals X damage to any target.",
+              "effects": [
+                {
+                  "whenYouDo": {
+                    "amount": "X",
+                    "targets": [
+                      "any"
+                    ],
+                    "effects": [
+                      {
+                        "damage": "triggerAmount",
+                        "to": "target"
+                      }
+                    ],
+                    "text": "This creature deals X damage to any target."
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, create a Treasure token if this is the first or second time this ability has resolved this turn. Otherwise, you may pay {X}. When you do, this creature deals X damage to any target."
+    }
+  ]
+}

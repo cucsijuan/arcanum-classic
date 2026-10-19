@@ -1,0 +1,29 @@
+{
+  "name": "Golgari Rot Farm",
+  "entersTapped": true,
+  "extraMana": [
+    {
+      "types": "{B}{G}",
+      "oneOfEach": true
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "choose": {
+            "types": [
+              "land"
+            ],
+            "controller": "you"
+          }
+        },
+        {
+          "bounce": "chosen"
+        }
+      ],
+      "text": "When this land enters, return a land you control to its owner's hand."
+    }
+  ]
+}

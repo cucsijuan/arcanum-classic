@@ -1,0 +1,13 @@
+{
+  "name": "Tainted Wood",
+  "extraMana": [
+    {
+      "types": "{B}{G}",
+      "while": {
+        "control": {
+          "subtype": "Swamp"
+        }
+      }
+    }
+  ]
+}

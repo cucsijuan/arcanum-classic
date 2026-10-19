@@ -1,0 +1,20 @@
+{
+  "name": "Realm-Cloaked Giant // Cast Off",
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "notSubtype": "Giant"
+            }
+          }
+        }
+      ],
+      "text": "Destroy all non-Giant creatures."
+    }
+  }
+}

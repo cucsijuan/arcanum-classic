@@ -1,0 +1,33 @@
+{
+  "name": "Trailtracker Scout",
+  "abilities": [
+    {
+      "trigger": "youExpend",
+      "expend": 8,
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "optional": true,
+          "text": "up to one target permanent card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever you expend 8, return up to one target permanent card from your graveyard to your hand."
+    }
+  ]
+}

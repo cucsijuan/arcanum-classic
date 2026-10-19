@@ -1,0 +1,25 @@
+{
+  "name": "Zinnia, Valley's Voice",
+  "creatureSpellsGainOffspring": "{2}",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true,
+              "basePower": 1
+            }
+          },
+          0
+        ]
+      },
+      "text": "Zinnia gets +X/+0, where X is the number of other creatures you control with base power 1."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Narset, Parter of Veils",
+  "opponentsDrawAtMostOne": true,
+  "abilities": [
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "filter": {
+            "not": [
+              "creature",
+              "land"
+            ]
+          },
+          "take": 1,
+          "reveal": true
+        }
+      ],
+      "text": "−2: Look at the top four cards of your library. You may reveal a noncreature, nonland card from among them and put it into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

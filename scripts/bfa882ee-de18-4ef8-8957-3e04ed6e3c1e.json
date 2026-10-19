@@ -1,0 +1,27 @@
+{
+  "name": "Nested Shambler",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": {
+            "power": "self"
+          },
+          "token": {
+            "name": "Squirrel",
+            "types": "Creature — Squirrel",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          },
+          "tapped": true
+        }
+      ],
+      "text": "When this creature dies, create X tapped 1/1 green Squirrel creature tokens, where X is this creature's power."
+    }
+  ]
+}

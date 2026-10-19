@@ -1,0 +1,28 @@
+{
+  "name": "Time Wipe",
+  "spell": {
+    "effects": [
+      {
+        "choose": {
+          "types": [
+            "creature"
+          ],
+          "controller": "you"
+        }
+      },
+      {
+        "bounce": "chosen"
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Return a creature you control to its owner's hand, then destroy all creatures."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Octomancer",
+  "gift": {
+    "name": "Octopus",
+    "types": "Creature — Octopus",
+    "power": 8,
+    "toughness": 8,
+    "colors": [
+      "U"
+    ],
+    "keywords": []
+  },
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "token": true,
+            "enteredThisTurn": true
+          },
+          "text": "target creature token that entered the battlefield this turn"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "At the beginning of each end step, create a token that's a copy of target creature token that entered the battlefield this turn."
+    }
+  ]
+}

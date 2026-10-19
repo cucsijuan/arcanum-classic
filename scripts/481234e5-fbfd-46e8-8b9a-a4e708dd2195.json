@@ -1,0 +1,30 @@
+{
+  "name": "Shield Broker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "commander": false
+          },
+          "text": "target noncommander creature you don't control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "shield",
+          "what": "target"
+        },
+        {
+          "gainControl": "target",
+          "whileCounter": "shield"
+        }
+      ],
+      "text": "When this creature enters, put a shield counter on target noncommander creature you don't control. You gain control of that creature for as long as it has a shield counter on it."
+    }
+  ]
+}

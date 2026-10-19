@@ -1,0 +1,98 @@
+{
+  "name": "Liliana of the Dark Realms",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Swamp"
+          },
+          "reveal": true
+        }
+      ],
+      "text": "+1: Search your library for a Swamp card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "+X/+X",
+              "effects": [
+                {
+                  "pump": [
+                    {
+                      "count": {
+                        "subtype": "Swamp",
+                        "controller": "you"
+                      }
+                    },
+                    {
+                      "count": {
+                        "subtype": "Swamp",
+                        "controller": "you"
+                      }
+                    }
+                  ],
+                  "what": "target"
+                }
+              ]
+            },
+            {
+              "text": "-X/-X",
+              "effects": [
+                {
+                  "pump": [
+                    {
+                      "count": {
+                        "subtype": "Swamp",
+                        "controller": "you"
+                      },
+                      "times": -1
+                    },
+                    {
+                      "count": {
+                        "subtype": "Swamp",
+                        "controller": "you"
+                      },
+                      "times": -1
+                    }
+                  ],
+                  "what": "target"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "−3: Target creature gets +X/+X or -X/-X until end of turn, where X is the number of Swamps you control."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "emblem": "Liliana of the Dark Realms emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "permanents:you",
+                "filter": {
+                  "subtype": "Swamp"
+                },
+                "grantsMana": "{B}",
+                "grantsManaAmount": 4
+              },
+              "text": "Swamps you control have \"{T}: Add {B}{B}{B}{B}.\""
+            }
+          ]
+        }
+      ],
+      "text": "−6: You get an emblem with \"Swamps you control have '{T}: Add {B}{B}{B}{B}.'\""
+    }
+  ]
+}

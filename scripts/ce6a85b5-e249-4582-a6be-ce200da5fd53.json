@@ -1,0 +1,27 @@
+{
+  "name": "Kwain, Itinerant Meddler",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "may": "Draw a card?",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gainLife": 1,
+          "who": "playersWhoDrewThisWay"
+        }
+      ],
+      "text": "{T}: Each player may draw a card, then each player who drew a card this way gains 1 life."
+    }
+  ]
+}

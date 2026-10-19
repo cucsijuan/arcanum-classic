@@ -1,0 +1,19 @@
+{
+  "name": "Lotus Cobra",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, add one mana of any color."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Thriving Bluff",
+  "entersTapped": true,
+  "chooseOnEnter": "color",
+  "chooseColorOtherThan": "R",
+  "tapForMana": "{R}",
+  "manaAlsoChosenColor": true
+}

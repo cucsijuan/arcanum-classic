@@ -1,0 +1,50 @@
+{
+  "name": "Communal Brewing",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "player",
+          "controller": "opponent",
+          "anyNumber": true,
+          "text": "any number of target opponents"
+        }
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "eachTarget"
+        },
+        {
+          "counters": 1,
+          "kind": "ingredient",
+          "what": "self"
+        },
+        {
+          "counters": "drawnThisWay",
+          "kind": "ingredient",
+          "what": "self"
+        }
+      ],
+      "text": "When this enchantment enters, any number of target opponents each draw a card. Put an ingredient counter on this enchantment, then put an ingredient counter on it for each card drawn this way."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "entersWithAdditionalCounters": "triggered",
+          "count": {
+            "counters": "ingredient"
+          }
+        }
+      ],
+      "text": "Whenever you cast a creature spell, that creature enters with X additional +1/+1 counters on it, where X is the number of ingredient counters on this enchantment."
+    }
+  ]
+}

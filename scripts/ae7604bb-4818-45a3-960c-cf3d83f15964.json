@@ -1,0 +1,56 @@
+{
+  "name": "Teferi, Time Raveler",
+  "opponentsCastAtSorcerySpeed": true,
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "emblem": "Teferi, Time Raveler",
+          "untilYourNextTurn": true,
+          "abilities": [
+            {
+              "spellCost": {
+                "spells": {
+                  "types": [
+                    "sorcery"
+                  ]
+                },
+                "amount": 0,
+                "grantsFlash": true
+              },
+              "text": "You may cast sorcery spells as though they had flash."
+            }
+          ]
+        }
+      ],
+      "text": "+1: Until your next turn, you may cast sorcery spells as though they had flash."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment"
+            ]
+          },
+          "text": "up to one target artifact, creature, or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "−3: Return up to one target artifact, creature, or enchantment to its owner's hand. Draw a card."
+    }
+  ]
+}

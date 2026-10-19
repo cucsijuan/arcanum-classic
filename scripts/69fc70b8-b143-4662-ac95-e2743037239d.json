@@ -1,0 +1,8 @@
+{
+  "name": "Thriving Isle",
+  "entersTapped": true,
+  "chooseOnEnter": "color",
+  "chooseColorOtherThan": "U",
+  "tapForMana": "{U}",
+  "manaAlsoChosenColor": true
+}

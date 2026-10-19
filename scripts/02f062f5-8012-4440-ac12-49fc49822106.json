@@ -1,0 +1,26 @@
+{
+  "name": "Spine of Ish Sah",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this artifact enters, destroy target permanent."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, return it to its owner's hand."
+    }
+  ]
+}

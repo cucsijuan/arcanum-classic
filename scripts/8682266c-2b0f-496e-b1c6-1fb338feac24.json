@@ -1,0 +1,35 @@
+{
+  "name": "Perplexing Test",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Return all creature tokens to their owners' hands.",
+        "effects": [
+          {
+            "bounceAll": {
+              "types": [
+                "creature"
+              ],
+              "token": true
+            }
+          }
+        ]
+      },
+      {
+        "text": "Return all nontoken creatures to their owners' hands.",
+        "effects": [
+          {
+            "bounceAll": {
+              "types": [
+                "creature"
+              ],
+              "token": false
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Choose one — • Return all creature tokens to their owners' hands. • Return all nontoken creatures to their owners' hands."
+  }
+}

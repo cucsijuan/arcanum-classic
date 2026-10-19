@@ -1,0 +1,84 @@
+{
+  "name": "Swarmyard Massacre",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Squirrel",
+          "types": "Creature — Squirrel",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "G"
+          ],
+          "keywords": []
+        }
+      },
+      {
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "anyOf": [
+                {
+                  "subtype": "Insect"
+                },
+                {
+                  "subtype": "Rat"
+                },
+                {
+                  "subtype": "Spider"
+                },
+                {
+                  "subtype": "Squirrel"
+                }
+              ]
+            },
+            "times": -1
+          },
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "anyOf": [
+                {
+                  "subtype": "Insect"
+                },
+                {
+                  "subtype": "Rat"
+                },
+                {
+                  "subtype": "Spider"
+                },
+                {
+                  "subtype": "Squirrel"
+                }
+              ]
+            },
+            "times": -1
+          }
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "notSubtypes": [
+              "Insect",
+              "Rat",
+              "Spider",
+              "Squirrel"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Create two 1/1 green Squirrel creature tokens. Then each creature that isn't an Insect, Rat, Spider, or Squirrel gets -1/-1 until end of turn for each creature you control that's an Insect, Rat, Spider, or Squirrel."
+  }
+}

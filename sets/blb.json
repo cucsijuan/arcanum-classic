@@ -1194,5 +1194,886 @@
         }
       }
     ]
+  },
+  "boosters": {
+    "collector": {
+      "name": "Collector Booster",
+      "description": "15 cards: 5 traditional foil commons, 4 traditional foil uncommons, a traditional foil seasonal basic land (spring 40%, summer 30%, autumn 20%, winter 10%), a traditional foil rare (85.7%) or mythic rare (14.4%), a Commander card (extended-art rare 78.9%, the four face commanders 5.63%, the other four borderless commander mythics 5.63%, Imagine 7.05%, one of those four as a traditional foil 2.8%), 2 Booster Fun rares or mythic rares (showcase woodland, borderless field notes, Seasons, planeswalker, Three Tree City, Imagine, extended art) and a traditional foil Booster Fun card (Special Guests 3.07%, raised foil 3.66%). The raised foil share is split by card with a rare twice as likely as a mythic, which the published odds don't give. Each booster also holds a foil double-faced token, which isn't a game card.",
+      "sheets": {
+        "foil_common": {
+          "rarity": "common",
+          "numbers": [
+            "1",
+            "3",
+            "7",
+            "8",
+            "17",
+            "20",
+            "23",
+            "25",
+            "26",
+            "32",
+            "35",
+            "37",
+            "39",
+            "42",
+            "45",
+            "46",
+            "50",
+            "56",
+            "59",
+            "62",
+            "64",
+            "67",
+            "69",
+            "71",
+            "77",
+            "80",
+            "82",
+            "84",
+            "89",
+            "91",
+            "93",
+            "96",
+            "102",
+            "105",
+            "106",
+            "109",
+            "110",
+            "115",
+            "117",
+            "122",
+            "123",
+            "130",
+            "136",
+            "142",
+            "144",
+            "148",
+            "150",
+            "151",
+            "153",
+            "156",
+            "160",
+            "161",
+            "163",
+            "167",
+            "170",
+            "175",
+            "176",
+            "182",
+            "189",
+            "190",
+            "193",
+            "195",
+            "198",
+            "200",
+            "201",
+            "208",
+            "210",
+            "216",
+            "220",
+            "225",
+            "226",
+            "229",
+            "232",
+            "235",
+            "237",
+            "243",
+            "244",
+            "245",
+            "251",
+            "254",
+            "261"
+          ],
+          "foil": true
+        },
+        "foil_uncommon": {
+          "rarity": "uncommon",
+          "numbers": [
+            "4",
+            "5",
+            "10",
+            "11",
+            "13",
+            "14",
+            "15",
+            "16",
+            "19",
+            "21",
+            "22",
+            "24",
+            "27",
+            "30",
+            "31",
+            "33",
+            "43",
+            "44",
+            "48",
+            "51",
+            "52",
+            "55",
+            "57",
+            "58",
+            "60",
+            "63",
+            "65",
+            "70",
+            "72",
+            "73",
+            "74",
+            "76",
+            "83",
+            "85",
+            "87",
+            "92",
+            "94",
+            "95",
+            "97",
+            "98",
+            "101",
+            "104",
+            "108",
+            "113",
+            "114",
+            "116",
+            "118",
+            "121",
+            "125",
+            "126",
+            "127",
+            "128",
+            "131",
+            "135",
+            "137",
+            "138",
+            "141",
+            "145",
+            "146",
+            "147",
+            "149",
+            "157",
+            "159",
+            "162",
+            "164",
+            "165",
+            "166",
+            "168",
+            "169",
+            "173",
+            "174",
+            "177",
+            "178",
+            "179",
+            "185",
+            "186",
+            "188",
+            "194",
+            "199",
+            "203",
+            "206",
+            "213",
+            "222",
+            "228",
+            "231",
+            "233",
+            "234",
+            "236",
+            "238",
+            "240",
+            "246",
+            "247",
+            "248",
+            "249",
+            "250",
+            "255",
+            "256",
+            "257",
+            "258",
+            "259"
+          ],
+          "foil": true
+        },
+        "foil_rare": {
+          "rarity": "rare",
+          "numbers": [
+            "9",
+            "18",
+            "28",
+            "34",
+            "36",
+            "40",
+            "41",
+            "47",
+            "61",
+            "66",
+            "78",
+            "79",
+            "86",
+            "88",
+            "90",
+            "103",
+            "119",
+            "120",
+            "133",
+            "134",
+            "140",
+            "143",
+            "155",
+            "158",
+            "172",
+            "181",
+            "184",
+            "191",
+            "196",
+            "202",
+            "204",
+            "207",
+            "209",
+            "212",
+            "221",
+            "224",
+            "260",
+            "6",
+            "12",
+            "53",
+            "75",
+            "81",
+            "99",
+            "111",
+            "124",
+            "129",
+            "139",
+            "171",
+            "180",
+            "187",
+            "197",
+            "205",
+            "211",
+            "214",
+            "223",
+            "227",
+            "239",
+            "242",
+            "252",
+            "253"
+          ],
+          "foil": true
+        },
+        "foil_mythic": {
+          "rarity": "mythic",
+          "numbers": [
+            "2",
+            "29",
+            "38",
+            "49",
+            "54",
+            "68",
+            "100",
+            "107",
+            "112",
+            "132",
+            "152",
+            "154",
+            "183",
+            "192",
+            "215",
+            "217",
+            "218",
+            "219",
+            "230",
+            "241"
+          ],
+          "foil": true
+        },
+        "foil_spring": {
+          "numbers": [
+            "262",
+            "266",
+            "270",
+            "274",
+            "278"
+          ],
+          "foil": true
+        },
+        "foil_summer": {
+          "numbers": [
+            "263",
+            "267",
+            "271",
+            "275",
+            "279"
+          ],
+          "foil": true
+        },
+        "foil_autumn": {
+          "numbers": [
+            "264",
+            "268",
+            "272",
+            "276",
+            "280"
+          ],
+          "foil": true
+        },
+        "foil_winter": {
+          "numbers": [
+            "265",
+            "269",
+            "273",
+            "277",
+            "281"
+          ],
+          "foil": true
+        },
+        "cmdFace": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ]
+        },
+        "cmdImagineR": {
+          "set": "blc",
+          "rarity": "rare",
+          "numbers": [
+            "98"
+          ]
+        },
+        "cmdImagineM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "97",
+            "99",
+            "100"
+          ]
+        },
+        "cmdM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "41",
+            "42",
+            "43",
+            "44"
+          ]
+        },
+        "cmdEA": {
+          "set": "blc",
+          "rarity": "rare",
+          "numbers": [
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69",
+            "70",
+            "71",
+            "72"
+          ]
+        },
+        "foil_cmdM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "41",
+            "42",
+            "43",
+            "44"
+          ],
+          "foil": true
+        },
+        "season": {
+          "rarity": "mythic",
+          "numbers": [
+            "282",
+            "283",
+            "284",
+            "285",
+            "286"
+          ]
+        },
+        "foil_season": {
+          "rarity": "mythic",
+          "numbers": [
+            "282",
+            "283",
+            "284",
+            "285",
+            "286"
+          ],
+          "foil": true
+        },
+        "fnR": {
+          "rarity": "rare",
+          "numbers": [
+            "292"
+          ]
+        },
+        "foil_fnR": {
+          "rarity": "rare",
+          "numbers": [
+            "292"
+          ],
+          "foil": true
+        },
+        "fnM": {
+          "rarity": "mythic",
+          "numbers": [
+            "287",
+            "288",
+            "289",
+            "290",
+            "291",
+            "294"
+          ]
+        },
+        "foil_fnM": {
+          "rarity": "mythic",
+          "numbers": [
+            "287",
+            "288",
+            "289",
+            "290",
+            "291",
+            "294"
+          ],
+          "foil": true
+        },
+        "fnLumra": {
+          "rarity": "mythic",
+          "numbers": [
+            "293"
+          ]
+        },
+        "foil_fnLumra": {
+          "rarity": "mythic",
+          "numbers": [
+            "293"
+          ],
+          "foil": true
+        },
+        "wdR": {
+          "rarity": "rare",
+          "numbers": [
+            "295",
+            "296",
+            "297",
+            "298",
+            "299",
+            "301",
+            "302",
+            "303",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "320",
+            "321",
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330",
+            "335",
+            "336"
+          ]
+        },
+        "foil_wdR": {
+          "rarity": "rare",
+          "numbers": [
+            "295",
+            "296",
+            "297",
+            "298",
+            "299",
+            "301",
+            "302",
+            "303",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "311",
+            "312",
+            "313",
+            "314",
+            "315",
+            "316",
+            "317",
+            "318",
+            "320",
+            "321",
+            "322",
+            "323",
+            "324",
+            "325",
+            "326",
+            "327",
+            "328",
+            "329",
+            "330",
+            "335",
+            "336"
+          ],
+          "foil": true
+        },
+        "wdM": {
+          "rarity": "mythic",
+          "numbers": [
+            "300",
+            "304",
+            "319",
+            "331",
+            "332",
+            "333",
+            "334"
+          ]
+        },
+        "foil_wdM": {
+          "rarity": "mythic",
+          "numbers": [
+            "300",
+            "304",
+            "319",
+            "331",
+            "332",
+            "333",
+            "334"
+          ],
+          "foil": true
+        },
+        "pw": {
+          "rarity": "mythic",
+          "numbers": [
+            "341"
+          ]
+        },
+        "foil_pw": {
+          "rarity": "mythic",
+          "numbers": [
+            "341"
+          ],
+          "foil": true
+        },
+        "eaR": {
+          "rarity": "rare",
+          "numbers": [
+            "356",
+            "357",
+            "358",
+            "359",
+            "360",
+            "361",
+            "362",
+            "363",
+            "364",
+            "365",
+            "366",
+            "367",
+            "368"
+          ]
+        },
+        "foil_eaR": {
+          "rarity": "rare",
+          "numbers": [
+            "356",
+            "357",
+            "358",
+            "359",
+            "360",
+            "361",
+            "362",
+            "363",
+            "364",
+            "365",
+            "366",
+            "367",
+            "368"
+          ],
+          "foil": true
+        },
+        "imR": {
+          "set": "blc",
+          "rarity": "rare",
+          "numbers": [
+            "76",
+            "77",
+            "79",
+            "80",
+            "81",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "90",
+            "92"
+          ]
+        },
+        "foil_imR": {
+          "set": "blc",
+          "rarity": "rare",
+          "numbers": [
+            "76",
+            "77",
+            "79",
+            "80",
+            "81",
+            "83",
+            "84",
+            "85",
+            "86",
+            "87",
+            "90",
+            "92"
+          ],
+          "foil": true
+        },
+        "imM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "73",
+            "74",
+            "75",
+            "78",
+            "82",
+            "88",
+            "89",
+            "91"
+          ]
+        },
+        "foil_imM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "73",
+            "74",
+            "75",
+            "78",
+            "82",
+            "88",
+            "89",
+            "91"
+          ],
+          "foil": true
+        },
+        "ttc": {
+          "rarity": "rare",
+          "numbers": [
+            "337",
+            "338",
+            "339",
+            "340"
+          ]
+        },
+        "foil_ttc": {
+          "rarity": "rare",
+          "numbers": [
+            "337",
+            "338",
+            "339",
+            "340"
+          ],
+          "foil": true
+        },
+        "arita": {
+          "rarity": "mythic",
+          "numbers": [
+            "342"
+          ]
+        },
+        "foil_arita": {
+          "rarity": "mythic",
+          "numbers": [
+            "342"
+          ],
+          "foil": true
+        },
+        "foil_spg": {
+          "set": "spg",
+          "numbers": [
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63"
+          ],
+          "foil": true
+        },
+        "foil_raisedR": {
+          "rarity": "rare",
+          "numbers": [
+            "344",
+            "345",
+            "346",
+            "347",
+            "348",
+            "349",
+            "350",
+            "351",
+            "352",
+            "354",
+            "355"
+          ],
+          "foil": true
+        },
+        "foil_raisedM": {
+          "rarity": "mythic",
+          "numbers": [
+            "343",
+            "353"
+          ],
+          "foil": true
+        },
+        "foil_raisedCmdR": {
+          "set": "blc",
+          "rarity": "rare",
+          "numbers": [
+            "96"
+          ],
+          "foil": true
+        },
+        "foil_raisedCmdM": {
+          "set": "blc",
+          "rarity": "mythic",
+          "numbers": [
+            "93",
+            "94",
+            "95",
+            "101",
+            "102",
+            "103",
+            "104"
+          ],
+          "foil": true
+        }
+      },
+      "slots": [
+        {
+          "count": 5,
+          "sheets": {
+            "foil_common": 1
+          }
+        },
+        {
+          "count": 4,
+          "sheets": {
+            "foil_uncommon": 1
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_spring": 40,
+            "foil_summer": 30,
+            "foil_autumn": 20,
+            "foil_winter": 10
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_rare": 857,
+            "foil_mythic": 144
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "cmdFace": 563,
+            "cmdImagineR": 282,
+            "cmdImagineM": 423,
+            "cmdM": 563,
+            "cmdEA": 7890,
+            "foil_cmdM": 280
+          }
+        },
+        {
+          "count": 2,
+          "sheets": {
+            "season": 658,
+            "fnR": 263,
+            "fnM": 789,
+            "fnLumra": 60,
+            "wdR": 9210,
+            "wdM": 921,
+            "pw": 132,
+            "eaR": 3420,
+            "imR": 3150,
+            "imM": 1053,
+            "ttc": 263,
+            "arita": 60
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_season": 307,
+            "foil_fnR": 123,
+            "foil_fnM": 368,
+            "foil_fnLumra": 31,
+            "foil_wdR": 4295,
+            "foil_wdM": 430,
+            "foil_pw": 61,
+            "foil_eaR": 1595,
+            "foil_imR": 1473,
+            "foil_imM": 491,
+            "foil_ttc": 123,
+            "foil_arita": 31,
+            "foil_spg": 307,
+            "foil_raisedR": 244,
+            "foil_raisedM": 22,
+            "foil_raisedCmdR": 22,
+            "foil_raisedCmdM": 78
+          }
+        }
+      ]
+    }
   }
 }

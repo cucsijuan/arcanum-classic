@@ -1,0 +1,61 @@
+{
+  "name": "Karn, the Great Creator",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:opponents",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "cantActivate": true
+      },
+      "text": "Activated abilities of artifacts your opponents control can't be activated."
+    },
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "artifact",
+          "optional": true,
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "up to one target noncreature artifact"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "addTypes": [
+            "creature"
+          ],
+          "powerFrom": {
+            "manaValue": "target"
+          },
+          "toughnessFrom": {
+            "manaValue": "target"
+          },
+          "untilYourNextTurn": true
+        }
+      ],
+      "text": "+1: Until your next turn, up to one target noncreature artifact becomes an artifact creature with power and toughness each equal to its mana value."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "fromOutsideOrExileToHand": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      ],
+      "text": "−2: You may reveal an artifact card you own from outside the game or choose a face-up artifact card you own in exile. Put that card into your hand."
+    }
+  ]
+}

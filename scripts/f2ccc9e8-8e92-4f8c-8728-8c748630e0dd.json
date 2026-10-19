@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Impulse",
+  "extraMana": [
+    {
+      "types": "{R}{G}",
+      "damage": 1
+    }
+  ]
+}

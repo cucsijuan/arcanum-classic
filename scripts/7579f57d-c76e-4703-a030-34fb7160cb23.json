@@ -1,0 +1,26 @@
+{
+  "name": "Wolfwillow Haven",
+  "enchantedLandExtraGreen": true,
+  "abilities": [
+    {
+      "cost": "{4}{G}, sacrifice",
+      "activateIf": "yourTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{4}{G}, Sacrifice this Aura: Create a 2/2 green Wolf creature token. Activate only during your turn."
+    }
+  ]
+}

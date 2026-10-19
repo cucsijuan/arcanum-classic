@@ -1,0 +1,35 @@
+{
+  "name": "Deep Forest Hermit",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 4,
+          "token": {
+            "name": "Squirrel",
+            "types": "Creature — Squirrel",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create four 1/1 green Squirrel creature tokens."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Squirrel",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Squirrels you control get +1/+1."
+    }
+  ]
+}

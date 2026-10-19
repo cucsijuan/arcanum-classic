@@ -1,0 +1,24 @@
+{
+  "name": "Curiosity Crafter",
+  "replaces": [
+    "NoMaximumHandSize"
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature token you control deals combat damage to a player, draw a card."
+    }
+  ]
+}

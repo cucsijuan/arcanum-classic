@@ -1,0 +1,81 @@
+{
+  "name": "Gourmand's Talent",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "while": "yourTurn",
+        "addSubtypes": [
+          "Food"
+        ],
+        "grants": [
+          {
+            "cost": "{2}, {T}, sacrifice",
+            "effects": [
+              {
+                "gainLife": 3
+              }
+            ],
+            "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+          }
+        ]
+      },
+      "text": "During your turn, artifacts you control are Foods in addition to their other types and have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\""
+    },
+    {
+      "cost": "{2}{G}",
+      "levelUp": 2,
+      "text": "{2}{G}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "gainLife",
+      "nth": 1,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Raccoon",
+            "types": "Creature — Raccoon",
+            "power": 3,
+            "toughness": 3,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever you gain life for the first time each turn, create a 3/3 green Raccoon creature token."
+    },
+    {
+      "cost": "{3}{G}",
+      "levelUp": 3,
+      "text": "{3}{G}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "gainLife",
+      "nth": 1,
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you gain life for the first time each turn, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

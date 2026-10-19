@@ -1,0 +1,26 @@
+{
+  "name": "Jacked Rabbit",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": {
+            "power": "self"
+          },
+          "token": {
+            "name": "Rabbit",
+            "types": "Creature — Rabbit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, create a number of 1/1 white Rabbit creature tokens equal to this creature's power."
+    }
+  ]
+}

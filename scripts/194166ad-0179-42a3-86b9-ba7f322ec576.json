@@ -1,0 +1,32 @@
+{
+  "name": "Blade Splicer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Phyrexian Golem",
+            "types": "Artifact Creature — Phyrexian Golem",
+            "power": 3,
+            "toughness": 3,
+            "colors": [],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 3/3 colorless Phyrexian Golem artifact creature token."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Golem",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "Golems you control have first strike."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Pyreswipe Hawk",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "greatestManaValue": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            },
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +X/+0 until end of turn, where X is the greatest mana value among artifacts you control."
+    },
+    {
+      "trigger": "youExpend",
+      "expend": 6,
+      "targets": [
+        {
+          "kind": "artifact",
+          "optional": true,
+          "text": "up to one target artifact"
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileYouControl": true
+        }
+      ],
+      "text": "Whenever you expend 6, gain control of up to one target artifact for as long as you control this creature."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Kykar, Wind's Fury",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, create a 1/1 white Spirit creature token with flying."
+    },
+    {
+      "cost": "sacrificeAny:Spirit",
+      "effects": [
+        {
+          "addMana": "{R}"
+        }
+      ],
+      "text": "Sacrifice a Spirit: Add {R}."
+    }
+  ]
+}

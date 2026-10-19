@@ -1,0 +1,85 @@
+{
+  "name": "Garruk, Cursed Huntsman",
+  "abilities": [
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Wolf",
+            "types": "Creature — Wolf",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "counters": 1,
+                    "kind": "loyalty",
+                    "what": {
+                      "each": {
+                        "types": [
+                          "planeswalker"
+                        ],
+                        "subtype": "Garruk",
+                        "controller": "you"
+                      }
+                    }
+                  }
+                ],
+                "text": "When this token dies, put a loyalty counter on each Garruk you control."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "0: Create two 2/2 black and green Wolf creature tokens with \"When this token dies, put a loyalty counter on each Garruk you control.\""
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "−3: Destroy target creature. Draw a card."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "emblem": "Garruk, Cursed Huntsman emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "creatures:you",
+                "pump": [
+                  3,
+                  3
+                ],
+                "keywords": [
+                  "Trample"
+                ]
+              },
+              "text": "Creatures you control get +3/+3 and have trample."
+            }
+          ]
+        }
+      ],
+      "text": "−6: You get an emblem with \"Creatures you control get +3/+3 and have trample.\""
+    }
+  ]
+}

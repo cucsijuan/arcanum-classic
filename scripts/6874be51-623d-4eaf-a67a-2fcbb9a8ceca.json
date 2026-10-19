@@ -1,0 +1,29 @@
+{
+  "name": "Tempt with Bunnies",
+  "spell": {
+    "effects": [
+      {
+        "temptingOffer": "Draw a card and create a 1/1 white Rabbit creature token?",
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Rabbit",
+              "types": "Creature — Rabbit",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W"
+              ],
+              "keywords": []
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Tempting offer — Draw a card and create a 1/1 white Rabbit creature token. Then each opponent may draw a card and create a 1/1 white Rabbit creature token. For each opponent who does, you draw a card and you create a 1/1 white Rabbit creature token."
+  }
+}

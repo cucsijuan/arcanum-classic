@@ -206,11 +206,14 @@
     { "deck": "blb-br" }, { "deck": "blb-gw" }, { "deck": "blb-rg" }, { "deck": "blb-ub" }, { "deck": "blb-wu" },
     // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
     { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
+    { "deck": "blb-starter-hare-raising", "with": ["blb-starter-otter-limits"], "name": "Bloomburrow Starter Kit", "price": 2500 },
     { "deck": "ltc-elven-council", "price": 4500 }, { "deck": "ltc-food-and-fellowship", "price": 4500 },
     { "deck": "ltc-hosts-of-mordor", "price": 4500 }, { "deck": "ltc-riders-of-rohan", "price": 4500 },
     { "deck": "fic-counter-blitz", "price": 4500 }, { "deck": "fic-limit-break", "price": 4500 },
     { "deck": "fic-revival-trance", "price": 4500 }, { "deck": "fic-scions-spellcraft", "price": 4500 },
     { "deck": "frc-multiverse-reforged", "price": 4500 },
+    { "deck": "blc-animated-army", "price": 4500 }, { "deck": "blc-family-matters", "price": 4500 },
+    { "deck": "blc-peace-offering", "price": 4500 }, { "deck": "blc-squirreled-away", "price": 4500 },
     // Collector's Editions: the same lists with every card a surge foil, sold separately (priced by the real ones' ratio to the regular decks).
     { "deck": "fic-counter-blitz-collectors-edition", "price": 9500 }, { "deck": "fic-limit-break-collectors-edition", "price": 9500 },
     { "deck": "fic-revival-trance-collectors-edition", "price": 9500 }, { "deck": "fic-scions-spellcraft-collectors-edition", "price": 9500 },
@@ -258,6 +261,7 @@
       "decks": ["ltc-elven-council", "ltc-food-and-fellowship", "ltc-hosts-of-mordor", "ltc-riders-of-rohan",
                 "fic-counter-blitz", "fic-limit-break", "fic-revival-trance", "fic-scions-spellcraft",
                 "frc-multiverse-reforged",
+                "blc-animated-army", "blc-family-matters", "blc-peace-offering", "blc-squirreled-away",
                 "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
                 "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
       "prizes": [

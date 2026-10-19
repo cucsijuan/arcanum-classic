@@ -1,0 +1,33 @@
+{
+  "name": "Llanowar Loamspeaker",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "land",
+          "text": "target land you control",
+          "controller": "you"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "power": 3,
+          "toughness": 3,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{T}: Target land you control becomes a 3/3 Elemental creature with haste until end of turn. It's still a land. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Ghirapur Orrery",
+  "eachPlayerExtraLandPlays": 1,
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "if": {
+        "not": {
+          "atLeast": "triggeredPlayerHandSize",
+          "value": 1
+        }
+      },
+      "effects": [
+        {
+          "draw": 3,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each player's upkeep, if that player has no cards in hand, that player draws three cards."
+    }
+  ]
+}

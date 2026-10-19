@@ -1,0 +1,97 @@
+{
+  "name": "Fisher's Talent",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "lookAtTop": 1,
+          "take": 0,
+          "rest": "top"
+        },
+        {
+          "if": {
+            "topOfLibrary": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "then": [
+            {
+              "may": "Reveal the land on top of your library and create a 1/1 blue Fish?",
+              "effects": [
+                {
+                  "revealTop": {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  "effects": [
+                    {
+                      "tokens": 1,
+                      "token": {
+                        "name": "Fish",
+                        "types": "Creature — Fish",
+                        "power": 1,
+                        "toughness": 1,
+                        "colors": [
+                          "U"
+                        ],
+                        "keywords": []
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, look at the top card of your library. You may reveal it if it's a land card. Create a 1/1 blue Fish creature token if you revealed it this way. Then draw a card."
+    },
+    {
+      "cost": "{G}{U}",
+      "levelUp": 2,
+      "text": "{G}{U}: Level 2"
+    },
+    {
+      "level": 2,
+      "replacesTokenSubtype": "Fish",
+      "instead": {
+        "name": "Shark",
+        "types": "Creature — Shark",
+        "power": 3,
+        "toughness": 3,
+        "colors": [
+          "U"
+        ],
+        "keywords": []
+      },
+      "text": "If you would create a Fish token, create a 3/3 blue Shark creature token instead."
+    },
+    {
+      "cost": "{2}{G}{U}",
+      "levelUp": 3,
+      "text": "{2}{G}{U}: Level 3"
+    },
+    {
+      "level": 3,
+      "replacesTokenSubtype": "Shark",
+      "instead": {
+        "name": "Octopus",
+        "types": "Creature — Octopus",
+        "power": 8,
+        "toughness": 8,
+        "colors": [
+          "U"
+        ],
+        "keywords": []
+      },
+      "text": "If you would create a Shark token, create an 8/8 blue Octopus creature token instead."
+    }
+  ]
+}

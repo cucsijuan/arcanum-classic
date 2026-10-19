@@ -1,0 +1,43 @@
+{
+  "name": "Jolrael, Mwonvuli Recluse",
+  "abilities": [
+    {
+      "trigger": "draw",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever you draw your second card each turn, create a 2/2 green Cat creature token."
+    },
+    {
+      "cost": "{4}{G}{G}",
+      "effects": [
+        {
+          "become": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "powerFrom": "handSize",
+          "toughnessFrom": "handSize"
+        }
+      ],
+      "text": "{4}{G}{G}: Until end of turn, creatures you control have base power and toughness X/X, where X is the number of cards in your hand."
+    }
+  ]
+}

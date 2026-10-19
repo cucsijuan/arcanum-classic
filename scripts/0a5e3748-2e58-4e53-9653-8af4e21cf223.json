@@ -1,0 +1,47 @@
+{
+  "name": "Ogre Slumlord",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "may": "Create a 1/1 black Rat creature token?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Rat",
+                "types": "Creature — Rat",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "B"
+                ],
+                "keywords": []
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature dies, you may create a 1/1 black Rat creature token."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Rat",
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Rats you control have deathtouch."
+    }
+  ]
+}

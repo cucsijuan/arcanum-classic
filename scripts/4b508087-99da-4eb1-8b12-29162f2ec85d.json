@@ -1,0 +1,36 @@
+{
+  "name": "Swarmyard",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Insect"
+              },
+              {
+                "subtype": "Rat"
+              },
+              {
+                "subtype": "Spider"
+              },
+              {
+                "subtype": "Squirrel"
+              }
+            ]
+          },
+          "text": "target Insect, Rat, Spider, or Squirrel"
+        }
+      ],
+      "effects": [
+        {
+          "regenerate": "target"
+        }
+      ],
+      "text": "{T}: Regenerate target Insect, Rat, Spider, or Squirrel."
+    }
+  ]
+}

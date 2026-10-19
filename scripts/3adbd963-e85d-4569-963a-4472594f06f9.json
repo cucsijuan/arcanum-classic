@@ -1,0 +1,33 @@
+{
+  "name": "Woe Strider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goat",
+            "types": "Creature — Goat",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 0/1 white Goat creature token."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Sacrifice another creature: Scry 1."
+    }
+  ]
+}

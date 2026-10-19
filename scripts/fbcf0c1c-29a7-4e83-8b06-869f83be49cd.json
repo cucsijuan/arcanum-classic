@@ -1,0 +1,19 @@
+{
+  "name": "Calamity of Cinders",
+  "spell": {
+    "effects": [
+      {
+        "damage": 6,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "tapped": false
+          }
+        }
+      }
+    ],
+    "text": "This spell deals 6 damage to each untapped creature."
+  }
+}

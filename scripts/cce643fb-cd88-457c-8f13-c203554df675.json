@@ -1,0 +1,53 @@
+{
+  "name": "Twenty-Toed Toad",
+  "yourMaximumHandSize": 20,
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "attackers": 2
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you attack with two or more creatures, put a +1/+1 counter on this creature and draw a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "all": [
+                {
+                  "not": {
+                    "counters": 20,
+                    "kind": "any"
+                  }
+                },
+                {
+                  "not": {
+                    "atLeast": "handSize",
+                    "value": 20
+                  }
+                }
+              ]
+            }
+          },
+          "then": [
+            {
+              "winGame": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you win the game if there are twenty or more counters on it or you have twenty or more cards in hand."
+    }
+  ]
+}

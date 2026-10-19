@@ -1,0 +1,50 @@
+{
+  "name": "Hazel of the Rootbloom",
+  "abilities": [
+    {
+      "cost": "{T}, life:2, tapTokens:X",
+      "effects": [
+        {
+          "addManaCombination": "X",
+          "types": "{W}{U}{B}{R}{G}"
+        }
+      ],
+      "text": "{T}, Pay 2 life, Tap X untapped tokens you control: Add X mana in any combination of colors."
+    },
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "token": true
+          },
+          "text": "target token you control"
+        }
+      ],
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "subtype": "Squirrel"
+            }
+          },
+          "then": [
+            {
+              "copy": "target",
+              "count": 2
+            }
+          ],
+          "else": [
+            {
+              "copy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, create a token that's a copy of target token you control. If that token is a Squirrel, instead create two tokens that are copies of it."
+    }
+  ]
+}

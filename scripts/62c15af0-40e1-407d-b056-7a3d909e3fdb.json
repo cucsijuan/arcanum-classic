@@ -1,0 +1,14 @@
+{
+  "name": "Ferrous Lake",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{U}{R}"
+        }
+      ],
+      "text": "{1}, {T}: Add {U}{R}."
+    }
+  ]
+}

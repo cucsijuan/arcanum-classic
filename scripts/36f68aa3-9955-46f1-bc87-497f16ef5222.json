@@ -1,0 +1,42 @@
+{
+  "name": "Wizard Class",
+  "replaces": [
+    "NoMaximumHandSize"
+  ],
+  "abilities": [
+    {
+      "cost": "{2}{U}",
+      "levelUp": 2,
+      "text": "{2}{U}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "becomesLevel",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this Class becomes level 2, draw two cards."
+    },
+    {
+      "cost": "{4}{U}",
+      "levelUp": 3,
+      "text": "{4}{U}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "draw",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you draw a card, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

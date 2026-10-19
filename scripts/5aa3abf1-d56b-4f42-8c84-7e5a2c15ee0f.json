@@ -1,0 +1,81 @@
+{
+  "name": "Nissa, Who Shakes the World",
+  "yourForestsExtraGreen": true,
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          },
+          "optional": true,
+          "text": "up to one target noncreature land you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        },
+        {
+          "untap": "target"
+        },
+        {
+          "become": "target",
+          "power": 0,
+          "toughness": 0,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "keywords": [
+            "Vigilance",
+            "Haste"
+          ],
+          "permanent": true
+        }
+      ],
+      "text": "+1: Put three +1/+1 counters on up to one target noncreature land you control. Untap it. It becomes a 0/0 Elemental creature with vigilance and haste that's still a land."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "emblem": "Nissa, Who Shakes the World emblem",
+          "abilities": [
+            {
+              "static": {
+                "affects": "permanents:you",
+                "filter": {
+                  "types": [
+                    "land"
+                  ]
+                },
+                "keywords": [
+                  "Indestructible"
+                ]
+              },
+              "text": "Lands you control have indestructible."
+            }
+          ]
+        },
+        {
+          "search": {
+            "subtype": "Forest"
+          },
+          "count": 100,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "−8: You get an emblem with \"Lands you control have indestructible.\" Search your library for any number of Forest cards, put them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

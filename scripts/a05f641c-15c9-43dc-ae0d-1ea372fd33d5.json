@@ -1,0 +1,14 @@
+{
+  "name": "Copperline Gorge",
+  "entersTappedUnless": {
+    "not": {
+      "control": {
+        "types": [
+          "land"
+        ],
+        "other": true
+      },
+      "count": 3
+    }
+  }
+}

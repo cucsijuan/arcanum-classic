@@ -1,0 +1,33 @@
+{
+  "name": "Ravenous Squirrel",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "types": [
+          "artifact",
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice an artifact or creature, put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{1}{B}{G}, sacrificeAny:artifact|creature",
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{B}{G}, Sacrifice an artifact or creature: You gain 1 life and draw a card."
+    }
+  ]
+}

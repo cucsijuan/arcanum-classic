@@ -1,0 +1,20 @@
+{
+  "name": "Pollywog Prodigy",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ],
+        "lessManaValueThanSourcePower": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent casts a noncreature spell with mana value less than this creature's power, draw a card."
+    }
+  ]
+}

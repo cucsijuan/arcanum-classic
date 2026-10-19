@@ -1,0 +1,28 @@
+{
+  "name": "Bootleggers' Stash",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "grants": [
+          {
+            "cost": "{T}",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": "Treasure"
+              }
+            ],
+            "text": "{T}: Create a Treasure token."
+          }
+        ]
+      },
+      "text": "Lands you control have \"{T}: Create a Treasure token.\""
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+# Otter Limits — one of the set's two Starter Kit decks, built to play against each other (official decklist).
+Deck
+3 Bellowing Crier (BLB) 42
+1 Mockingbird (BLB) 61
+3 Pearl of Wisdom (BLB) 64
+3 Waterspout Warden (BLB) 80
+3 Alania's Pathmaker (BLB) 123
+2 Coruscation Mage (BLB) 131
+2 Quaketusk Boar (BLB) 146
+2 Rabid Gnaw (BLB) 147
+1 Alania, Divergent Storm (BLB) 204
+2 Stormcatch Mentor (BLB) 234
+6 Island (BLB) 371
+5 Island (BLB) 372
+6 Mountain (BLB) 375
+6 Mountain (BLB) 376
+1 Bria, Riptide Rogue (BLB) 379 *F*
+2 Charmed Sleep (BLB) 388
+1 Mind Spring (BLB) 389
+3 Thieving Otter (BLB) 390
+3 Flame Lash (BLB) 391
+1 Sword of Vengeance (BLB) 395
+4 Swiftwater Cliffs (BLB) 397

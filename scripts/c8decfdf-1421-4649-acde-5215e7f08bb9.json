@@ -1,0 +1,45 @@
+{
+  "name": "Martial Impetus",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature gets +1/+1 and is goaded."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "other": true,
+              "attackingYourOpponent": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, each other creature that's attacking one of your opponents gets +1/+1 until end of turn."
+    }
+  ]
+}

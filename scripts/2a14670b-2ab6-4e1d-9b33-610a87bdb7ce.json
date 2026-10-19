@@ -1,0 +1,16 @@
+{
+  "name": "Prosperous Bandit",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create that many tapped Treasure tokens."
+    }
+  ]
+}

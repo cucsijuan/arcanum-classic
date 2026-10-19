@@ -1,0 +1,40 @@
+{
+  "name": "The Odd Acorn Gang",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Squirrel",
+        "grants": [
+          {
+            "cost": "{T}",
+            "sorcery": true,
+            "targets": [
+              {
+                "kind": "creature",
+                "filter": {
+                  "subtype": "Squirrel"
+                },
+                "text": "target Squirrel"
+              }
+            ],
+            "effects": [
+              {
+                "pump": [
+                  2,
+                  2
+                ],
+                "what": "target",
+                "keywords": [
+                  "Trample"
+                ]
+              }
+            ],
+            "text": "{T}: Target Squirrel gets +2/+2 and gains trample until end of turn. Activate only as a sorcery."
+          }
+        ]
+      },
+      "text": "Squirrels you control have \"{T}: Target Squirrel gets +2/+2 and gains trample until end of turn. Activate only as a sorcery.\""
+    }
+  ]
+}

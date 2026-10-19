@@ -1,0 +1,68 @@
+{
+  "name": "Skyfisher Spider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "permanent",
+                    "filter": {
+                      "not": [
+                        "land"
+                      ]
+                    },
+                    "text": "target nonland permanent"
+                  }
+                ],
+                "effects": [
+                  {
+                    "destroy": "target"
+                  }
+                ],
+                "text": "Destroy target nonland permanent."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may sacrifice another creature. When you do, destroy target nonland permanent."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "may": "Gain 1 life for each creature card in your graveyard and exile this card?",
+          "effects": [
+            {
+              "gainLife": {
+                "graveyard": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            },
+            {
+              "exile": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may gain 1 life for each creature card in your graveyard. If you do, exile this card from your graveyard."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Faeburrow Elder",
+  "extraMana": [
+    {
+      "colorsAmongYourPermanents": true,
+      "oneOfEach": true
+    }
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          "colorsAmongYourPermanents",
+          "colorsAmongYourPermanents"
+        ]
+      },
+      "text": "This creature gets +1/+1 for each color among permanents you control."
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Karplusan Forest",
+  "extraMana": [
+    {
+      "types": "{R}{G}",
+      "damage": 1
+    }
+  ]
+}

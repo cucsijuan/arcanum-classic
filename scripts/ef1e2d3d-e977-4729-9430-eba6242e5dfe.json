@@ -1,0 +1,16 @@
+{
+  "name": "Rain of Riches",
+  "firstTreasureSpellHasCascade": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this enchantment enters, create two Treasure tokens."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Sword of the Squeak",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "basePowerOrToughness": 1
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "basePowerOrToughness": 1
+            }
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each creature you control with base power or toughness 1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "anyOf": [
+          {
+            "subtype": "Hamster"
+          },
+          {
+            "subtype": "Mouse"
+          },
+          {
+            "subtype": "Rat"
+          },
+          {
+            "subtype": "Squirrel"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "may": "Attach Sword of the Squeak to that creature?",
+          "effects": [
+            {
+              "attach": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Hamster, Mouse, Rat, or Squirrel you control enters, you may attach this Equipment to that creature."
+    }
+  ]
+}

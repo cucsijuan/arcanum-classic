@@ -1,0 +1,9 @@
+{
+  "name": "Adarkar Wastes",
+  "extraMana": [
+    {
+      "types": "{W}{U}",
+      "damage": 1
+    }
+  ]
+}

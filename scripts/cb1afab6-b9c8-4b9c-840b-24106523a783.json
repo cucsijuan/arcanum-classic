@@ -1,0 +1,30 @@
+{
+  "name": "Kodama of the East Tree",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "other": true,
+        "controller": "you",
+        "notPutByThis": true
+      },
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ],
+            "atMostManaValueOfTriggered": true
+          },
+          "one": true
+        }
+      ],
+      "text": "Whenever another permanent you control enters, if it wasn't put onto the battlefield with this ability, you may put a permanent card with equal or lesser mana value from your hand onto the battlefield."
+    }
+  ]
+}

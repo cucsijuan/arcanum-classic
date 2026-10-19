@@ -1,0 +1,53 @@
+{
+  "name": "Beledros Witherbloom",
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "When this token dies, you gain 1 life."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each upkeep, create a 1/1 black and green Pest creature token with \"When this token dies, you gain 1 life.\""
+    },
+    {
+      "cost": "life:10",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "land"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Pay 10 life: Untap all lands you control. Activate only once each turn."
+    }
+  ]
+}

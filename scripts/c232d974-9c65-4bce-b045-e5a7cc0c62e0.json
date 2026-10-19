@@ -1,0 +1,32 @@
+{
+  "name": "Idol of Oblivion",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": "createdTokenThisTurn",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}: Draw a card. Activate only if you created a token this turn."
+    },
+    {
+      "cost": "{8}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Eldrazi",
+            "types": "Creature — Eldrazi",
+            "power": 10,
+            "toughness": 10,
+            "colors": [],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{8}, {T}, Sacrifice this artifact: Create a 10/10 colorless Eldrazi creature token."
+    }
+  ]
+}

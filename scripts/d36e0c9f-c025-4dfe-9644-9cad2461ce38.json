@@ -1,0 +1,14 @@
+{
+  "name": "Gruul Signet",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{R}{G}"
+        }
+      ],
+      "text": "{1}, {T}: Add {R}{G}."
+    }
+  ]
+}

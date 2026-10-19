@@ -1,0 +1,49 @@
+{
+  "name": "Insatiable Frugivore",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        },
+        {
+          "mayPay": "Exile three cards from your graveyard? If you do, repeat this process.",
+          "cost": {
+            "exileGraveyard": 3
+          },
+          "effects": [
+            {
+              "repeatProcess": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, create a Food token, then you may exile three cards from your graveyard. If you do, repeat this process."
+    },
+    {
+      "cost": "{3}{B}, sacrificeAny:Food*X",
+      "effects": [
+        {
+          "pump": [
+            "X",
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace"
+          ]
+        }
+      ],
+      "text": "{3}{B}, Sacrifice X Foods: Creatures you control get +X/+0 and gain menace until end of turn."
+    }
+  ]
+}

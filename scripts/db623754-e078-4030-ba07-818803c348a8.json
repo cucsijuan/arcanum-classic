@@ -1,0 +1,39 @@
+{
+  "name": "Twilight Mire",
+  "abilities": [
+    {
+      "cost": "{B/G}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {B}{B}",
+              "effects": [
+                {
+                  "addMana": "{B}{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {B}{G}",
+              "effects": [
+                {
+                  "addMana": "{B}{G}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}{G}",
+              "effects": [
+                {
+                  "addMana": "{G}{G}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{B/G}, {T}: Add {B}{B}, {B}{G}, or {G}{G}."
+    }
+  ]
+}

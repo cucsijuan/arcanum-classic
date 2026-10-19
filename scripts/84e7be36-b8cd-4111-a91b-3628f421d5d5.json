@@ -1,0 +1,44 @@
+{
+  "name": "Murmuration",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Bird",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      "text": "Birds you control get +1/+1 and have vigilance."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": {
+            "spellsCast": {
+              "controller": "you"
+            }
+          },
+          "token": {
+            "name": "Storm Crow",
+            "types": "Creature — Bird",
+            "power": 1,
+            "toughness": 2,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, for each spell you've cast this turn, create a 1/2 blue Bird creature token with flying named Storm Crow."
+    }
+  ]
+}

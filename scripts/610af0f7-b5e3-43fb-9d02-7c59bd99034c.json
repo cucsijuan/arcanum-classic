@@ -1,0 +1,42 @@
+{
+  "name": "Tear Asunder",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "whenKicked": {
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Exile target nonland permanent."
+    },
+    "text": "Exile target artifact or enchantment. If this spell was kicked, exile target nonland permanent instead."
+  }
+}

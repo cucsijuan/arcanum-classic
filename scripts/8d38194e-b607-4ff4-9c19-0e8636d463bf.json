@@ -1,0 +1,39 @@
+{
+  "name": "Raging Ravine",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{2}{R}{G}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 3,
+          "toughness": 3,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "R",
+            "G"
+          ],
+          "abilities": [
+            {
+              "trigger": "attacks",
+              "effects": [
+                {
+                  "counters": 1,
+                  "what": "self"
+                }
+              ],
+              "text": "Whenever this creature attacks, put a +1/+1 counter on it."
+            }
+          ]
+        }
+      ],
+      "text": "{2}{R}{G}: Until end of turn, this land becomes a 3/3 red and green Elemental creature with \"Whenever this creature attacks, put a +1/+1 counter on it.\" It's still a land."
+    }
+  ]
+}

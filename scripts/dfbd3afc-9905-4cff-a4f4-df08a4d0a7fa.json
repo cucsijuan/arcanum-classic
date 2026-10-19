@@ -1,0 +1,31 @@
+{
+  "name": "Restoration Angel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notSubtype": "Angel"
+          },
+          "optional": true,
+          "text": "target non-Angel creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exile it, then return it to the battlefield under your control?",
+          "effects": [
+            {
+              "blink": "target",
+              "underYourControl": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may exile target non-Angel creature you control, then return that card to the battlefield under your control."
+    }
+  ]
+}

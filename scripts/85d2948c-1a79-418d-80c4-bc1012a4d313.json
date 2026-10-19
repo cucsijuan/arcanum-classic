@@ -1,0 +1,17 @@
+{
+  "name": "Berserkers' Onslaught",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "attacking": true
+        },
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Attacking creatures you control have double strike."
+    }
+  ]
+}

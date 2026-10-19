@@ -1,0 +1,28 @@
+{
+  "name": "Rapid Hybridization",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Frog Lizard",
+          "types": "Creature — Frog Lizard",
+          "colors": [
+            "G"
+          ],
+          "power": 3,
+          "toughness": 3
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target creature. It can't be regenerated. That creature's controller creates a 3/3 green Frog Lizard creature token."
+  }
+}

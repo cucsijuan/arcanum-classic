@@ -1,0 +1,39 @@
+{
+  "name": "Marrow-Gnawer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "subtype": "Rat",
+        "keywords": [
+          "Fear"
+        ]
+      },
+      "text": "All Rats have fear."
+    },
+    {
+      "cost": "{T}, sacrificeAny:Rat",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "subtype": "Rat",
+              "controller": "you"
+            }
+          },
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "{T}, Sacrifice a Rat: Create X 1/1 black Rat creature tokens, where X is the number of Rats you control."
+    }
+  ]
+}

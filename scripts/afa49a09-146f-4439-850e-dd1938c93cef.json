@@ -1,0 +1,89 @@
+{
+  "name": "Derevi, Empyrial Tactician",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "may": "Tap or untap target permanent?",
+          "effects": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Tap it",
+                  "effects": [
+                    {
+                      "tap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Untap it",
+                  "effects": [
+                    {
+                      "untap": "target"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When Derevi enters and whenever a creature you control deals combat damage to a player, you may tap or untap target permanent."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "may": "Tap or untap target permanent?",
+          "effects": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Tap it",
+                  "effects": [
+                    {
+                      "tap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Untap it",
+                  "effects": [
+                    {
+                      "untap": "target"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When Derevi enters and whenever a creature you control deals combat damage to a player, you may tap or untap target permanent."
+    },
+    {
+      "cost": "{1}{G}{W}{U}",
+      "fromCommandZone": true,
+      "effects": [
+        {
+          "reanimate": "self"
+        }
+      ],
+      "text": "{1}{G}{W}{U}: Put Derevi onto the battlefield from the command zone."
+    }
+  ]
+}

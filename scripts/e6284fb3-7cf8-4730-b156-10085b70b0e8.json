@@ -1,0 +1,21 @@
+{
+  "name": "Sphinx of Enlightenment",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        },
+        {
+          "draw": 3
+        }
+      ],
+      "text": "When this creature enters, target opponent draws a card and you draw three cards."
+    }
+  ]
+}

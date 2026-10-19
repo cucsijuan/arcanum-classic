@@ -1,0 +1,44 @@
+{
+  "name": "Fortune Teller's Talent",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {},
+  "playFromLibraryTopIf": {
+    "all": [
+      {
+        "classLevelAtLeast": 2
+      },
+      {
+        "atLeast": {
+          "spellsCast": {
+            "controller": "you"
+          }
+        },
+        "value": 1
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "cost": "{3}{U}",
+      "levelUp": 2,
+      "text": "{3}{U}: Level 2"
+    },
+    {
+      "cost": "{2}{U}",
+      "levelUp": 3,
+      "text": "{2}{U}: Level 3"
+    },
+    {
+      "level": 3,
+      "spellCost": {
+        "spells": {
+          "inHand": false
+        },
+        "amount": 2
+      },
+      "text": "Spells you cast from anywhere other than your hand cost {2} less to cast."
+    }
+  ]
+}

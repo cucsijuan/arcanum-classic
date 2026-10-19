@@ -1,0 +1,8 @@
+{
+  "name": "Thriving Grove",
+  "entersTapped": true,
+  "chooseOnEnter": "color",
+  "chooseColorOtherThan": "G",
+  "tapForMana": "{G}",
+  "manaAlsoChosenColor": true
+}

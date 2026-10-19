@@ -1,0 +1,8 @@
+{
+  "name": "Thriving Heath",
+  "entersTapped": true,
+  "chooseOnEnter": "color",
+  "chooseColorOtherThan": "W",
+  "tapForMana": "{W}",
+  "manaAlsoChosenColor": true
+}

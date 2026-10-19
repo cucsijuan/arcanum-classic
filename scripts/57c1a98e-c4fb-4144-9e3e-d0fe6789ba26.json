@@ -1,0 +1,48 @@
+{
+  "name": "Simic Ascendancy",
+  "abilities": [
+    {
+      "cost": "{1}{G}{U}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{1}{G}{U}: Put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "countersPlaced",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "kind": "growth",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever one or more +1/+1 counters are put on a creature you control, put that many growth counters on this enchantment."
+    },
+    {
+      "trigger": "upkeep",
+      "if": {
+        "counters": 20,
+        "kind": "growth"
+      },
+      "effects": [
+        {
+          "winGame": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this enchantment has twenty or more growth counters on it, you win the game."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Beastmaster Ascension",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Put a quest counter on Beastmaster Ascension?",
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "quest",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control attacks, you may put a quest counter on this enchantment."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "while": {
+          "counters": 7,
+          "kind": "quest"
+        },
+        "pump": [
+          5,
+          5
+        ]
+      },
+      "text": "As long as this enchantment has seven or more quest counters on it, creatures you control get +5/+5."
+    }
+  ]
+}

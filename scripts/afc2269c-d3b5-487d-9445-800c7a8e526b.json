@@ -1,0 +1,58 @@
+{
+  "name": "Domri, Anarch of Bolas",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Creatures you control get +1/+0."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {R}",
+              "effects": [
+                {
+                  "addMana": "{R}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}",
+              "effects": [
+                {
+                  "addMana": "{G}"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "creatureSpellsUncounterableThisTurn": true
+        }
+      ],
+      "text": "+1: Add {R} or {G}. Creature spells you cast this turn can't be countered."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        "creature:you",
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "fight": "target",
+          "with": "target2"
+        }
+      ],
+      "text": "−2: Target creature you control fights target creature you don't control."
+    }
+  ]
+}

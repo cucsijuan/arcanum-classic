@@ -1,0 +1,49 @@
+{
+  "name": "Intellectual Offering",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Choose an opponent. You and that player each draw three cards.",
+        "effects": [
+          {
+            "chooseOpponent": true
+          },
+          {
+            "draw": 3,
+            "who": "youAndChosenPlayer"
+          }
+        ]
+      },
+      {
+        "text": "Choose an opponent. Untap all nonland permanents you control and all nonland permanents that player controls.",
+        "effects": [
+          {
+            "chooseOpponent": true
+          },
+          {
+            "untap": {
+              "each": {
+                "not": [
+                  "land"
+                ],
+                "controller": "you"
+              }
+            }
+          },
+          {
+            "untap": {
+              "each": {
+                "not": [
+                  "land"
+                ]
+              },
+              "controlledBy": "chosenPlayer"
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Choose one — • Choose an opponent. You and that player each draw three cards. • Choose an opponent. Untap all nonland permanents you control and all nonland permanents that player controls."
+  }
+}

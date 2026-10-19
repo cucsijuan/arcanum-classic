@@ -1,0 +1,26 @@
+{
+  "name": "Oran-Rief, the Vastwood",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "colors": [
+                "G"
+              ],
+              "enteredThisTurn": true
+            }
+          }
+        }
+      ],
+      "text": "{T}: Put a +1/+1 counter on each green creature that entered this turn."
+    }
+  ]
+}

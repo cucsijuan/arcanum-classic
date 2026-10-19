@@ -1,0 +1,27 @@
+{
+  "name": "Maskwood Nexus",
+  "yourCreaturesAreEveryType": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "{3}, {T}: Create a 2/2 blue Shapeshifter creature token with changeling."
+    }
+  ]
+}

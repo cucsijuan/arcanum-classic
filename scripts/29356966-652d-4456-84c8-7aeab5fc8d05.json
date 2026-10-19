@@ -1,0 +1,56 @@
+{
+  "name": "Flubs, the Fool",
+  "replaces": [
+    "AdditionalLandPlay"
+  ],
+  "abilities": [
+    {
+      "trigger": "youPlayLand",
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "atLeast": "handSize",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you play a land or cast a spell, draw a card if you have no cards in hand. Otherwise, discard a card."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "atLeast": "handSize",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you play a land or cast a spell, draw a card if you have no cards in hand. Otherwise, discard a card."
+    }
+  ]
+}

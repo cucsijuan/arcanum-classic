@@ -1,0 +1,48 @@
+{
+  "name": "Bident of Thassa",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, you may draw a card."
+    },
+    {
+      "cost": "{1}{U}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          },
+          "keywords": [
+            "AttacksEachCombat"
+          ]
+        }
+      ],
+      "text": "{1}{U}, {T}: Creatures your opponents control attack this turn if able."
+    }
+  ]
+}

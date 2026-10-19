@@ -1,0 +1,39 @@
+{
+  "name": "Moonstone Eulogist",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Blood"
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, you create a Blood token."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you sacrifice an artifact, put a +1/+1 counter on this creature and you gain 1 life."
+    }
+  ]
+}

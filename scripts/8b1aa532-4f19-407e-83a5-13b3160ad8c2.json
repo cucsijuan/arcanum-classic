@@ -1,0 +1,40 @@
+{
+  "name": "Chittering Witch",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "opponentCount",
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When this creature enters, create a number of 1/1 black Rat creature tokens equal to the number of opponents you have."
+    },
+    {
+      "cost": "{1}{B}, sacrificeAny:creature",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{1}{B}, Sacrifice a creature: Target creature gets -2/-2 until end of turn."
+    }
+  ]
+}

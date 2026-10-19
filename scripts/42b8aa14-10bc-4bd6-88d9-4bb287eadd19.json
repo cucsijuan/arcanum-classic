@@ -1,0 +1,9 @@
+{
+  "name": "Talisman of Resilience",
+  "extraMana": [
+    {
+      "types": "{B}{G}",
+      "damage": 1
+    }
+  ]
+}

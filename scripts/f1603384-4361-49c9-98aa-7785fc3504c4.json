@@ -1,0 +1,39 @@
+{
+  "name": "Cascade Bluffs",
+  "abilities": [
+    {
+      "cost": "{U/R}, {T}",
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {U}{U}",
+              "effects": [
+                {
+                  "addMana": "{U}{U}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}{R}",
+              "effects": [
+                {
+                  "addMana": "{U}{R}"
+                }
+              ]
+            },
+            {
+              "text": "Add {R}{R}",
+              "effects": [
+                {
+                  "addMana": "{R}{R}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{U/R}, {T}: Add {U}{U}, {U}{R}, or {R}{R}."
+    }
+  ]
+}

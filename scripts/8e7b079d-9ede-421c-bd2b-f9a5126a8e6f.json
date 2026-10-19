@@ -1,0 +1,43 @@
+{
+  "name": "Esika's Chariot",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ],
+            "keywords": []
+          }
+        }
+      ],
+      "text": "When Esika's Chariot enters, create two 2/2 green Cat creature tokens."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "token": true
+          },
+          "text": "target token you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "Whenever Esika's Chariot attacks, create a token that's a copy of target token you control."
+    }
+  ]
+}

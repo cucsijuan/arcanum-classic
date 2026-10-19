@@ -1,0 +1,52 @@
+{
+  "name": "Bello, Bard of the Brambles",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "minManaValue": 4,
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ],
+              "notSubtype": "Equipment"
+            },
+            {
+              "types": [
+                "enchantment"
+              ],
+              "notSubtype": "Aura"
+            }
+          ]
+        },
+        "while": "yourTurn",
+        "addTypes": [
+          "creature"
+        ],
+        "addSubtypes": [
+          "Elemental"
+        ],
+        "setPower": 4,
+        "setToughness": 4,
+        "keywords": [
+          "Indestructible",
+          "Haste"
+        ],
+        "grants": [
+          {
+            "trigger": "combatDamageToPlayer",
+            "effects": [
+              {
+                "draw": 1
+              }
+            ],
+            "text": "Whenever this creature deals combat damage to a player, draw a card."
+          }
+        ]
+      },
+      "text": "During your turn, each non-Equipment artifact and non-Aura enchantment you control with mana value 4 or greater is a 4/4 Elemental creature in addition to its other types and has indestructible, haste, and \"Whenever this creature deals combat damage to a player, draw a card.\""
+    }
+  ]
+}

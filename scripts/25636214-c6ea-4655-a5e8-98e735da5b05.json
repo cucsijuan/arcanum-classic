@@ -1,0 +1,44 @@
+{
+  "name": "Ms. Bumbleflower",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "targets": [
+        "opponent",
+        "creature"
+      ],
+      "effects": [
+        {
+          "draw": 1,
+          "who": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target2"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target2",
+          "keywords": [
+            "Flying"
+          ]
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 2,
+            "exactly": true
+          },
+          "then": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a spell, target opponent draws a card. Put a +1/+1 counter on target creature. It gains flying until end of turn. If this is the second time this ability has resolved this turn, you draw two cards."
+    }
+  ]
+}

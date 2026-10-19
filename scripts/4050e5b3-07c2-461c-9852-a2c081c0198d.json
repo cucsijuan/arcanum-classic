@@ -1,0 +1,71 @@
+{
+  "name": "Binding the Old Gods",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "I — Destroy target nonland permanent an opponent controls."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "search": {
+            "subtype": "Forest"
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "II — Search your library for a Forest card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "III — Creatures you control gain deathtouch until end of turn."
+    }
+  ]
+}

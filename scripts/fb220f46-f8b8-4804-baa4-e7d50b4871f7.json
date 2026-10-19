@@ -1,0 +1,60 @@
+{
+  "name": "Aether Channeler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Create a 1/1 white Bird creature token with flying.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Bird",
+                "types": "Creature — Bird",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Return another target nonland permanent to its owner's hand.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "not": [
+                  "land"
+                ],
+                "other": true
+              },
+              "text": "another target nonland permanent"
+            }
+          ],
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one — • Create a 1/1 white Bird creature token with flying. • Return another target nonland permanent to its owner's hand. • Draw a card."
+    }
+  ]
+}

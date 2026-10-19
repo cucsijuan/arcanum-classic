@@ -1,0 +1,33 @@
+{
+  "name": "Evercoat Ursine",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "hideaway": 3
+        }
+      ],
+      "text": "Hideaway 3 (When this creature enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)"
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "hideaway": 3
+        }
+      ],
+      "text": "Hideaway 3 (When this creature enters, look at the top three cards of your library, exile one face down, then put the rest on the bottom in a random order.)"
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "if": "cardsExiledWithThis",
+      "effects": [
+        {
+          "playHiddenFree": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, if there are cards exiled with it, you may play one of them without paying its mana cost."
+    }
+  ]
+}

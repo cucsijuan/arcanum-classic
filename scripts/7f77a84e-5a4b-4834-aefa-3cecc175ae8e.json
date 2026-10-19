@@ -1,0 +1,56 @@
+{
+  "name": "Jace, the Mind Sculptor",
+  "abilities": [
+    {
+      "cost": "+2",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "lookAtTopMayBottom": "target"
+        }
+      ],
+      "text": "+2: Look at the top card of target player's library. You may put that card on the bottom of that player's library."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "handToTop": 2
+        }
+      ],
+      "text": "0: Draw three cards, then put two cards from your hand on top of your library in any order."
+    },
+    {
+      "cost": "-1",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "−1: Return target creature to its owner's hand."
+    },
+    {
+      "cost": "-12",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "exileLibrary": "target"
+        },
+        {
+          "shuffleHandIntoLibrary": "target"
+        }
+      ],
+      "text": "−12: Exile all cards from target player's library, then that player shuffles their hand into their library."
+    }
+  ]
+}

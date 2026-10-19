@@ -1,0 +1,24 @@
+{
+  "name": "Putrefy",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy target artifact or creature. It can't be regenerated."
+  }
+}

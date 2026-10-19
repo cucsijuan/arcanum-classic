@@ -1,0 +1,23 @@
+{
+  "name": "Kalonian Hydra",
+  "entersWithCounters": 4,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "doubleCounters": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "kind": "+1/+1"
+        }
+      ],
+      "text": "Whenever this creature attacks, double the number of +1/+1 counters on each creature you control."
+    }
+  ]
+}

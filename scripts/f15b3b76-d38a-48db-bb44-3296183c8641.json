@@ -1,0 +1,22 @@
+{
+  "name": "Chatterfang, Squirrel General",
+  "tokensPlusThatManySquirrels": true,
+  "abilities": [
+    {
+      "cost": "{B}, sacrificeAny:Squirrel*X",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "X",
+            "-X"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{B}, Sacrifice X Squirrels: Target creature gets +X/-X until end of turn."
+    }
+  ]
+}

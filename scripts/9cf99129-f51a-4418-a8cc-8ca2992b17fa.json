@@ -1,0 +1,90 @@
+{
+  "name": "Tamiyo, Field Researcher",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to two target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "become": "eachTarget",
+          "untilYourNextTurn": true,
+          "abilities": [
+            {
+              "trigger": "dealsCombatDamage",
+              "effects": [
+                {
+                  "draw": 1,
+                  "who": "granter"
+                }
+              ],
+              "text": "Whenever this creature deals combat damage, Tamiyo's controller draws a card."
+            }
+          ]
+        }
+      ],
+      "text": "+1: Choose up to two target creatures. Until your next turn, whenever either of those creatures deals combat damage, you draw a card."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to two target nonland permanents"
+        },
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to two target nonland permanents"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "skipNextUntap": "eachTarget"
+        }
+      ],
+      "text": "−2: Tap up to two target nonland permanents. They don't untap during their controller's next untap step."
+    },
+    {
+      "cost": "-7",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "emblem": "Tamiyo, Field Researcher emblem",
+          "replaces": [
+            "CastFromHandFree"
+          ],
+          "abilities": [],
+          "emblemText": "You may cast spells from your hand without paying their mana costs."
+        }
+      ],
+      "text": "−7: Draw three cards. You get an emblem with \"You may cast spells from your hand without paying their mana costs.\""
+    }
+  ]
+}

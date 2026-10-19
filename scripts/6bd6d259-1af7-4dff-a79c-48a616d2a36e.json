@@ -1,0 +1,14 @@
+{
+  "name": "Viridescent Bog",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{B}{G}"
+        }
+      ],
+      "text": "{1}, {T}: Add {B}{G}."
+    }
+  ]
+}

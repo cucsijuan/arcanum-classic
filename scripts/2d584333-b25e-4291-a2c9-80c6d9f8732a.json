@@ -1,0 +1,36 @@
+{
+  "name": "Squirrel Nest",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "grants": [
+          {
+            "cost": "{T}",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": {
+                  "name": "Squirrel",
+                  "types": "Creature — Squirrel",
+                  "power": 1,
+                  "toughness": 1,
+                  "colors": [
+                    "G"
+                  ],
+                  "keywords": []
+                }
+              }
+            ],
+            "text": "{T}: Create a 1/1 green Squirrel creature token."
+          }
+        ]
+      },
+      "text": "Enchanted land has \"{T}: Create a 1/1 green Squirrel creature token.\""
+    }
+  ]
+}

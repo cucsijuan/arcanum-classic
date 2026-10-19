@@ -1,0 +1,21 @@
+{
+  "name": "Plumb the Forbidden",
+  "additionalSacrificeAny": {
+    "types": [
+      "creature"
+    ]
+  },
+  "sacrificeAnyNoReduction": true,
+  "copyPerSacrificed": true,
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "loseLife": 1
+      }
+    ],
+    "text": "You draw a card and lose 1 life."
+  }
+}

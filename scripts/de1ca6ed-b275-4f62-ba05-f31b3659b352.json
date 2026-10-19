@@ -1,0 +1,25 @@
+{
+  "name": "Windgrace's Judgment",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "perPlayer": true,
+        "optional": true,
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent that player controls"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      }
+    ],
+    "text": "For any number of opponents, destroy target nonland permanent that player controls."
+  }
+}

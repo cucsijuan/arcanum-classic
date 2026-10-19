@@ -1,0 +1,42 @@
+{
+  "name": "Ink-Eyes, Servant of Oni",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "opponent",
+          "controlledByTriggeredPlayer": true,
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from that player's graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Put that creature card onto the battlefield under your control?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Ink-Eyes deals combat damage to a player, you may put target creature card from that player's graveyard onto the battlefield under your control."
+    },
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "regenerate": "self"
+        }
+      ],
+      "text": "{1}{B}: Regenerate Ink-Eyes."
+    }
+  ]
+}

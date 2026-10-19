@@ -1,0 +1,49 @@
+{
+  "name": "Haywire Mite",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "When this creature dies, you gain 2 life."
+    },
+    {
+      "cost": "{G}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ],
+                "not": [
+                  "creature"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ],
+                "not": [
+                  "creature"
+                ]
+              }
+            ]
+          },
+          "text": "target noncreature artifact or noncreature enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "{G}, Sacrifice this creature: Exile target noncreature artifact or noncreature enchantment."
+    }
+  ]
+}
