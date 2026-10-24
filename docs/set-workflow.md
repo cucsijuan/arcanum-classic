@@ -22,6 +22,10 @@ dotnet run --project "$ENGINE/tools/SupportDump" -c Release -- . "$CARDS" /tmp/p
 importer doesn't understand, a script effect the engine lacks). Filter both by the set's cards. Double-faced cards are listed by their
 front face's name.
 
+Run `tools/search_tags.py` (no arguments; it needs network access) once the set's cards are in the source. It asks the source's
+search (Scryfall) for each curated `is:` value and writes `search/tags.json.gz`, which ships with the module. Check the counts it
+prints, then commit the file with the set. A new set changes which cards the nicknames and tags find, so rerun it for each set.
+
 ## 3. Scripts
 
 - `tools/generate_scripts.py "$CARDS"` writes scripts for cards with fixed phrasings (`"generated": true`), including preparation
