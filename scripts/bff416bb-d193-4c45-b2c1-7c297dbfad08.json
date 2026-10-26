@@ -1,0 +1,8 @@
+{
+  "name": "Thriving Moor",
+  "entersTapped": true,
+  "chooseOnEnter": "color",
+  "chooseColorOtherThan": "B",
+  "tapForMana": "{B}",
+  "manaAlsoChosenColor": true
+}

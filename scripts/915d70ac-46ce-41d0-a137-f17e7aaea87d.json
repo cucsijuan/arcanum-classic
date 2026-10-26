@@ -1,0 +1,17 @@
+{
+  "name": "Wanderbrine Trapper",
+  "abilities": [
+    {
+      "cost": "{1}, {T}, tapCreatures:1",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}, {T}, Tap another untapped creature you control: Tap target creature an opponent controls."
+    }
+  ]
+}

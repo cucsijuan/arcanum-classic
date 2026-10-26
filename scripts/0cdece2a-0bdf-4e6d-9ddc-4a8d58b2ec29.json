@@ -1,0 +1,17 @@
+{
+  "name": "Tree of Perdition",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "exchangeLifeWithToughness": "target"
+        }
+      ],
+      "text": "{T}: Exchange target opponent's life total with this creature's toughness."
+    }
+  ]
+}

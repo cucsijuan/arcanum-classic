@@ -1,0 +1,146 @@
+{
+  "name": "Oko, Lorwyn Liege // Oko, Shadowmoor Scion",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {G} to transform Oko?",
+          "mana": "{G}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {G}. If you do, transform Oko, Lorwyn Liege."
+    },
+    {
+      "cost": "+2",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "permanent": true,
+          "everyCreatureType": true
+        }
+      ],
+      "text": "+2: Up to one target creature gains all creature types."
+    },
+    {
+      "cost": "+1",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            0
+          ],
+          "what": "target",
+          "untilYourNextTurn": true
+        }
+      ],
+      "text": "+1: Target creature gets -2/-0 until your next turn."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {U} to transform Oko?",
+            "mana": "{U}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {U}. If you do, transform Oko, Shadowmoor Scion."
+      },
+      {
+        "cost": "-1",
+        "effects": [
+          {
+            "mill": 3,
+            "who": "you"
+          },
+          {
+            "takeMilled": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment",
+                "land",
+                "planeswalker",
+                "battle"
+              ]
+            },
+            "count": 1
+          }
+        ],
+        "text": "−1: Mill three cards. You may put a permanent card from among them into your hand."
+      },
+      {
+        "cost": "-3",
+        "effects": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Elk",
+              "types": "Creature — Elk",
+              "power": 3,
+              "toughness": 3,
+              "colors": [
+                "G"
+              ]
+            }
+          }
+        ],
+        "text": "−3: Create two 3/3 green Elk creature tokens."
+      },
+      {
+        "cost": "-6",
+        "effects": [
+          {
+            "chooseType": true
+          },
+          {
+            "emblem": "Oko, Shadowmoor Scion emblem",
+            "abilities": [
+              {
+                "static": {
+                  "affects": "creatures:you",
+                  "filter": {
+                    "chosenType": true
+                  },
+                  "pump": [
+                    3,
+                    3
+                  ],
+                  "keywords": [
+                    "Vigilance",
+                    "Hexproof"
+                  ]
+                },
+                "text": "Creatures you control of the chosen type get +3/+3 and have vigilance and hexproof."
+              }
+            ]
+          }
+        ],
+        "text": "−6: Choose a creature type. You get an emblem with \"Creatures you control of the chosen type get +3/+3 and have vigilance and hexproof.\""
+      }
+    ]
+  }
+}

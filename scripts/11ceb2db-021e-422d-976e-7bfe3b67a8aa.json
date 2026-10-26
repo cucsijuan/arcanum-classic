@@ -1,0 +1,25 @@
+{
+  "name": "Foraging Wickermaw",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "When this creature enters, surveil 1."
+    },
+    {
+      "cost": "{1}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "addManaAnyColor": 1,
+          "sourceBecomesThatColor": true
+        }
+      ],
+      "text": "{1}: Add one mana of any color. This creature becomes that color until end of turn. Activate only once each turn."
+    }
+  ]
+}

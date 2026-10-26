@@ -1,0 +1,61 @@
+{
+  "name": "Eirdu, Carrier of Dawn // Isilu, Carrier of Twilight",
+  "spellsHaveConvoke": {
+    "types": [
+      "creature"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {B} to transform Eirdu?",
+          "mana": "{B}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {B}. If you do, transform Eirdu."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "static": {
+          "affects": "creatures:you",
+          "other": true,
+          "filter": {
+            "token": false
+          },
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Persist"
+          ]
+        },
+        "text": "Each other nontoken creature you control has persist."
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {W} to transform Isilu?",
+            "mana": "{W}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {W}. If you do, transform Isilu."
+      }
+    ]
+  }
+}

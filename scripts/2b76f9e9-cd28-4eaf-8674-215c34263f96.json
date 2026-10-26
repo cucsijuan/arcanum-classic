@@ -1,0 +1,44 @@
+{
+  "name": "Return of the Wildspeaker",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Draw cards equal to the greatest power among non-Human creatures you control.",
+        "effects": [
+          {
+            "draw": {
+              "greatestPowerAmong": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "notSubtype": "Human"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Non-Human creatures you control get +3/+3 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "notSubtype": "Human"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

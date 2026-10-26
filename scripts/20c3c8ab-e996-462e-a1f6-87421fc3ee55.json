@@ -1,0 +1,39 @@
+{
+  "name": "Warren Torchmaster",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mayPay": "Blight 1 to give a creature haste?",
+          "cost": {
+            "blight": 1
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creature"
+                ],
+                "effects": [
+                  {
+                    "pump": [
+                      0,
+                      0
+                    ],
+                    "what": "target",
+                    "keywords": [
+                      "Haste"
+                    ]
+                  }
+                ],
+                "text": "Target creature gains haste until end of turn."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may blight 1. When you do, target creature gains haste until end of turn."
+    }
+  ]
+}

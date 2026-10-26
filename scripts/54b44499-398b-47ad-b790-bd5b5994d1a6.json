@@ -1,0 +1,40 @@
+{
+  "name": "Village Pillagers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, it deals 1 damage to each creature your opponents control."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "hasCounters": true
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "Whenever a creature an opponent controls with a counter on it dies, you create a tapped Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Overgrown Tomb",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

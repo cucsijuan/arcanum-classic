@@ -1,0 +1,43 @@
+{
+  "name": "Puppeteer Clique",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from an opponent's graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        },
+        {
+          "become": "enteredThisWay",
+          "permanent": true,
+          "keywords": [
+            "Haste"
+          ]
+        },
+        {
+          "atNextEndStepOf": "you",
+          "about": "enteredThisWay",
+          "effects": [
+            {
+              "exile": "triggered"
+            }
+          ],
+          "text": "At the beginning of your next end step, exile it."
+        }
+      ],
+      "text": "When this creature enters, put target creature card from an opponent's graveyard onto the battlefield under your control. It gains haste. At the beginning of your next end step, exile it."
+    }
+  ]
+}

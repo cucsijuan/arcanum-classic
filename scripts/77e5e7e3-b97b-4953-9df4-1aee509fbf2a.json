@@ -1,0 +1,32 @@
+{
+  "name": "Giantfall",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Target creature you control deals damage equal to its power to target creature an opponent controls.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "bite": "target",
+            "to": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

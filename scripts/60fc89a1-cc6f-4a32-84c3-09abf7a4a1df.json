@@ -1,0 +1,117 @@
+{
+  "name": "Brigid, Clachan's Heart // Brigid, Doun's Mind",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Brigid, Clachan's Heart, create a 1/1 green and white Kithkin creature token."
+    },
+    {
+      "trigger": "transforms",
+      "onSelf": true,
+      "filter": {
+        "name": "Brigid, Clachan's Heart"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Brigid, Clachan's Heart, create a 1/1 green and white Kithkin creature token."
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {G} to transform Brigid?",
+          "mana": "{G}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {G}. If you do, transform Brigid."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "cost": "{T}",
+        "effects": [
+          {
+            "addMana": "{G}",
+            "times": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "other": true
+              }
+            }
+          }
+        ],
+        "text": "{T}: Add X {G} or X {W}, where X is the number of other creatures you control."
+      },
+      {
+        "cost": "{T}",
+        "effects": [
+          {
+            "addMana": "{W}",
+            "times": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you",
+                "other": true
+              }
+            }
+          }
+        ],
+        "text": "{T}: Add X {G} or X {W}, where X is the number of other creatures you control."
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {W} to transform Brigid?",
+            "mana": "{W}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {W}. If you do, transform Brigid."
+      }
+    ]
+  }
+}

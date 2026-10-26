@@ -1,0 +1,27 @@
+{
+  "name": "Disruptor of Currents",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to one other target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return up to one other target nonland permanent to its owner's hand."
+    }
+  ]
+}

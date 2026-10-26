@@ -1,0 +1,5 @@
+{
+  "name": "Collective Inferno",
+  "chooseOnEnter": "creatureType",
+  "doublesDamageOfChosenType": true
+}

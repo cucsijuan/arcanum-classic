@@ -1,0 +1,52 @@
+{
+  "name": "Boggart Mischief",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Blight 1 to create two 1/1 Goblin tokens?",
+          "cost": {
+            "blight": 1
+          },
+          "effects": [
+            {
+              "tokens": 2,
+              "token": {
+                "name": "Goblin",
+                "types": "Creature — Goblin",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "B",
+                  "R"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this enchantment enters, you may blight 1. If you do, create two 1/1 black and red Goblin creature tokens."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Goblin",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a Goblin creature you control dies, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

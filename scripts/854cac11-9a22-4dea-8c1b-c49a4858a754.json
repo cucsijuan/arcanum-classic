@@ -1,0 +1,8 @@
+{
+  "name": "Raiding Schemes",
+  "spellsHaveConspire": {
+    "not": [
+      "creature"
+    ]
+  }
+}

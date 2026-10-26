@@ -1,0 +1,16 @@
+{
+  "name": "Primal Beyond",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "subtype": "Elemental"
+  },
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "subtype": "Elemental"
+      },
+      "abilitiesToo": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Evershrike's Gift",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+0 and has flying."
+    },
+    {
+      "cost": "{1}{W}, blight:2, fromGraveyard",
+      "sorcery": true,
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{1}{W}, Blight 2: Return this card from your graveyard to your hand. Activate only as a sorcery."
+    }
+  ]
+}

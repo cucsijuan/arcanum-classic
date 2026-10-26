@@ -1,0 +1,53 @@
+{
+  "name": "Avenger of Zendikar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "land"
+              ],
+              "controller": "you"
+            }
+          },
+          "token": {
+            "name": "Plant",
+            "types": "Creature — Plant",
+            "power": 0,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 0/1 green Plant creature token for each land you control."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on each Plant creature you control?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "subtype": "Plant",
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may put a +1/+1 counter on each Plant creature you control."
+    }
+  ]
+}

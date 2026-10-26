@@ -1,0 +1,53 @@
+{
+  "name": "Catharsis",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{W}{W}"
+      },
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if {W}{W} was spent to cast it, create two 1/1 green and white Kithkin creature tokens."
+    },
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{R}{R}"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "When this creature enters, if {R}{R} was spent to cast it, creatures you control get +1/+1 and gain haste until end of turn."
+    }
+  ]
+}

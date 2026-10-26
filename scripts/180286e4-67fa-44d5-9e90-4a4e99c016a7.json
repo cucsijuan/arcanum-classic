@@ -1,0 +1,103 @@
+{
+  "name": "Grub, Storied Matriarch // Grub, Notorious Auntie",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "subtype": "Goblin"
+          },
+          "text": "up to one target Goblin card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Grub, Storied Matriarch, return up to one target Goblin card from your graveyard to your hand."
+    },
+    {
+      "trigger": "transforms",
+      "onSelf": true,
+      "filter": {
+        "name": "Grub, Storied Matriarch"
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "subtype": "Goblin"
+          },
+          "text": "up to one target Goblin card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Grub, Storied Matriarch, return up to one target Goblin card from your graveyard to your hand."
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {R} to transform Grub?",
+          "mana": "{R}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {R}. If you do, transform Grub."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "attacks",
+        "effects": [
+          {
+            "may": "Blight 1 to create an attacking copy of that creature?",
+            "effects": [
+              {
+                "blight": 1
+              },
+              {
+                "copy": "found",
+                "tapped": true,
+                "attacking": true,
+                "sacrificeAtEndStep": true
+              }
+            ]
+          }
+        ],
+        "text": "Whenever Grub attacks, you may blight 1. If you do, create a tapped and attacking token that's a copy of the blighted creature, except it has \"At the beginning of the end step, sacrifice this token.\""
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {B} to transform Grub?",
+            "mana": "{B}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {B}. If you do, transform Grub."
+      }
+    ]
+  }
+}

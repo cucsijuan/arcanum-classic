@@ -1,0 +1,22 @@
+{
+  "name": "Nameless Inversion",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          -3
+        ],
+        "what": "target"
+      },
+      {
+        "become": "target",
+        "setSubtypes": []
+      }
+    ],
+    "text": "Target creature gets +3/-3 and loses all creature types until end of turn."
+  }
+}

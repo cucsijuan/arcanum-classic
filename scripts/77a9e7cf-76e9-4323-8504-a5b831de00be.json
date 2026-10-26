@@ -1,0 +1,52 @@
+{
+  "name": "Ashling, the Limitless",
+  "spellsFromHandGainEvoke": {
+    "filter": {
+      "subtype": "Elemental"
+    },
+    "cost": "{4}"
+  },
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "subtype": "Elemental",
+        "token": false,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "copy": "triggered"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Haste"
+          ]
+        },
+        {
+          "atNextEndStepOf": "you",
+          "about": "created",
+          "effects": [
+            {
+              "mayPay": "Pay {W}{U}{B}{R}{G} to keep the token?",
+              "mana": "{W}{U}{B}{R}{G}",
+              "effects": [],
+              "else": [
+                {
+                  "sacrificeIt": "triggered"
+                }
+              ]
+            }
+          ],
+          "text": "At the beginning of your next end step, sacrifice it unless you pay {W}{U}{B}{R}{G}."
+        }
+      ],
+      "text": "Whenever you sacrifice a nontoken Elemental, create a token that's a copy of it. The token gains haste until end of turn. At the beginning of your next end step, sacrifice it unless you pay {W}{U}{B}{R}{G}."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Rimefire Torque",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "chosenType": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a permanent you control of the chosen type enters, put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}, removeCounters:3:charge",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true
+        }
+      ],
+      "text": "{T}, Remove three charge counters from this artifact: When you next cast an instant or sorcery spell this turn, copy it. You may choose new targets for the copy."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Merrow Skyswimmer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Merfolk",
+            "types": "Creature — Merfolk",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W",
+              "U"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white and blue Merfolk creature token."
+    }
+  ]
+}

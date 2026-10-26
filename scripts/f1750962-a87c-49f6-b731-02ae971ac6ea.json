@@ -1,0 +1,5 @@
+{
+  "name": "Hallowed Fountain",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

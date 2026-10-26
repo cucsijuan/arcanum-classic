@@ -1,0 +1,19 @@
+{
+  "name": "Harmonized Crescendo",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "draw": {
+          "count": {
+            "chosenType": true,
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "Choose a creature type. Draw a card for each permanent you control of that type."
+  }
+}

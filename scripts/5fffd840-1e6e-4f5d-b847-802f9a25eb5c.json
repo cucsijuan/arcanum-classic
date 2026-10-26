@@ -1,0 +1,42 @@
+{
+  "name": "Vinebred Brawler",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Must be blocked"
+        ]
+      },
+      "text": "This creature must be blocked if able."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf",
+            "other": true
+          },
+          "text": "another target Elf you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, another target Elf you control gets +2/+1 until end of turn."
+    }
+  ]
+}

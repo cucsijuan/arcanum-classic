@@ -1,0 +1,46 @@
+{
+  "name": "Glissa Sunslayer",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "You draw a card and lose 1 life.",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "loseLife": 1
+            }
+          ]
+        },
+        {
+          "text": "Destroy target enchantment.",
+          "targets": [
+            "enchantment"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Remove up to three counters from target permanent.",
+          "targets": [
+            "permanent"
+          ],
+          "effects": [
+            {
+              "removeUpToCounters": 3,
+              "from": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Glissa Sunslayer deals combat damage to a player, choose one —"
+    }
+  ]
+}

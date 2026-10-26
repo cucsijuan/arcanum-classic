@@ -1,0 +1,26 @@
+{
+  "name": "Aurora Awakener",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "revealUntil": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "count": "colorsAmongYourPermanents",
+          "to": "battlefield",
+          "anyNumber": true
+        }
+      ],
+      "text": "Vivid — When this creature enters, reveal cards from the top of your library until you reveal X permanent cards, where X is the number of colors among permanents you control. Put any number of those permanent cards onto the battlefield, then put the rest of the revealed cards on the bottom of your library in a random order."
+    }
+  ]
+}

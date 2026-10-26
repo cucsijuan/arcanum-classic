@@ -1,0 +1,23 @@
+{
+  "name": "Kindle the Inner Flame",
+  "flashback": "{1}{R}",
+  "flashbackExtra": {
+    "behold": {
+      "subtype": "Elemental"
+    },
+    "beholdCount": 3
+  },
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "copy": "target",
+        "haste": true,
+        "sacrificeAtEndStep": true
+      }
+    ],
+    "text": "Create a token that's a copy of target creature you control, except it has haste and \"At the beginning of the end step, sacrifice this token.\""
+  }
+}

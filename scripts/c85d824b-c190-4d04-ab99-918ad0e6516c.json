@@ -1,0 +1,21 @@
+{
+  "name": "Endurance",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "player",
+          "optional": true,
+          "text": "up to one target player"
+        }
+      ],
+      "effects": [
+        {
+          "graveyardToLibraryBottom": "target"
+        }
+      ],
+      "text": "When this creature enters, up to one target player puts all the cards from their graveyard on the bottom of their library in a random order."
+    }
+  ]
+}

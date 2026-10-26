@@ -1,0 +1,126 @@
+{
+  "name": "Trystan's Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Create a token that's a copy of target Elf you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "subtype": "Elf"
+            },
+            "text": "target Elf you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return one or two target permanent cards from your graveyard to your hand.",
+        "targetRule": "allDifferent",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment",
+                "land",
+                "planeswalker",
+                "battle"
+              ]
+            },
+            "text": "target permanent card from your graveyard"
+          },
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "optional": true,
+            "filter": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment",
+                "land",
+                "planeswalker",
+                "battle"
+              ]
+            },
+            "text": "a second target permanent card from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          },
+          {
+            "bounce": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature or enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "creature",
+                "enchantment"
+              ]
+            },
+            "text": "target creature or enchantment"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures target player controls get +3/+3 until end of turn. Untap them.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          },
+          {
+            "untap": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Impulsivity",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "castFromGraveyard": {},
+          "card": "target",
+          "free": true
+        }
+      ],
+      "text": "When this creature enters, you may cast target instant or sorcery card from a graveyard without paying its mana cost. If that spell would be put into a graveyard, exile it instead."
+    }
+  ]
+}

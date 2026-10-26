@@ -1,0 +1,21 @@
+{
+  "name": "Chaos Spewer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Pay {2}? If you don't, you blight 2.",
+          "mana": "{2}",
+          "effects": [],
+          "else": [
+            {
+              "blight": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may pay {2}. If you don't, blight 2."
+    }
+  ]
+}

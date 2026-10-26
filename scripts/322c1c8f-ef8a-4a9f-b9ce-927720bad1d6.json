@@ -1,0 +1,23 @@
+{
+  "name": "Gutsplitter Gang",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Blight 2? If you don't, you lose 3 life.",
+          "cost": {
+            "blight": 2
+          },
+          "effects": [],
+          "else": [
+            {
+              "loseLife": 3
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may blight 2. If you don't, you lose 3 life."
+    }
+  ]
+}

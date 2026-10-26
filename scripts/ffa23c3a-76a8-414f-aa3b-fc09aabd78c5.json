@@ -1,0 +1,22 @@
+{
+  "name": "Pummeler for Hire",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": {
+            "greatestPowerAmong": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Giant",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, you gain X life, where X is the greatest power among Giants you control."
+    }
+  ]
+}

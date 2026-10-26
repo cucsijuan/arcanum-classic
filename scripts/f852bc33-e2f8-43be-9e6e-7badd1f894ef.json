@@ -1,0 +1,33 @@
+{
+  "name": "Dose of Dawnglow",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "if": {
+          "not": "yourMainPhase"
+        },
+        "then": [
+          {
+            "blight": 2
+          }
+        ]
+      }
+    ],
+    "text": "Return target creature card from your graveyard to the battlefield. Then if it isn't your main phase, blight 2."
+  }
+}

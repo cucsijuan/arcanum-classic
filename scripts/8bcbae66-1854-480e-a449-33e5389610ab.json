@@ -1,0 +1,60 @@
+{
+  "name": "Sapling Nursery",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Forest"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Treefolk",
+            "types": "Creature — Treefolk",
+            "power": 3,
+            "toughness": 4,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 3/4 green Treefolk creature token with reach."
+    },
+    {
+      "cost": "{1}{G}, exile",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "anyOf": [
+                {
+                  "subtype": "Treefolk"
+                },
+                {
+                  "subtype": "Forest"
+                }
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}{G}, Exile this enchantment: Treefolk and Forests you control gain indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Thoughtweft Charge",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          3
+        ],
+        "what": "target"
+      },
+      {
+        "if": {
+          "enteredThisTurn": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets +3/+3 until end of turn. If a creature entered the battlefield under your control this turn, draw a card."
+  }
+}

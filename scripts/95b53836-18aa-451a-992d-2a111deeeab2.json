@@ -1,0 +1,7 @@
+{
+  "name": "Yarok, the Desecrated",
+  "replaces": [
+    "ExtraTriggersFromPermanentsEntering"
+  ],
+  "abilities": []
+}

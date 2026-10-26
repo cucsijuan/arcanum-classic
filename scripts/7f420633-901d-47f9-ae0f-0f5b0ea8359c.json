@@ -1,0 +1,26 @@
+{
+  "name": "Burning Curiosity",
+  "optionalAdditionalCost": {
+    "blight": 1
+  },
+  "spell": {
+    "effects": [
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "exileTopPlayable": 3,
+            "untilNextTurn": true
+          }
+        ],
+        "else": [
+          {
+            "exileTopPlayable": 2,
+            "untilNextTurn": true
+          }
+        ]
+      }
+    ],
+    "text": "Exile the top two cards of your library. If this spell's additional cost was paid, exile the top three cards instead. Until the end of your next turn, you may play those cards."
+  }
+}

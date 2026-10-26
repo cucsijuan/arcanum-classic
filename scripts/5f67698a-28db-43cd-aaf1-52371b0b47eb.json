@@ -1,0 +1,24 @@
+{
+  "name": "Temporal Cleansing",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target",
+        "position": 2,
+        "orBottom": true
+      }
+    ],
+    "text": "The owner of target nonland permanent puts it into their library second from the top or on the bottom."
+  }
+}

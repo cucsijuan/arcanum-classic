@@ -1,0 +1,36 @@
+{
+  "name": "Twilight Diviner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this creature enters, surveil 2."
+    },
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "enteredOrCastFromGraveyard": true
+      },
+      "effects": [
+        {
+          "chooseOneOf": "batch"
+        },
+        {
+          "copy": "found"
+        }
+      ],
+      "text": "Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn."
+    }
+  ]
+}

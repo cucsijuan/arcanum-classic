@@ -1,0 +1,23 @@
+{
+  "name": "Scuzzback Scrounger",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Blight 1 to create a Treasure token?",
+          "cost": {
+            "blight": 1
+          },
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may blight 1. If you do, create a Treasure token."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Leaf-Crowned Visionary",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Elf",
+          "other": true
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "subtype": "Elf"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {G} to draw a card?",
+          "mana": "{G}",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an Elf spell, you may pay {G}. If you do, draw a card."
+    }
+  ]
+}

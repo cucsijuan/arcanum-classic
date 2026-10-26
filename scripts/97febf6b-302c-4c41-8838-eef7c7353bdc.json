@@ -1,0 +1,31 @@
+{
+  "name": "Glen Elendra Guardian",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{1}{U}, removeCounterFrom:self",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "target noncreature spell"
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        },
+        {
+          "draw": 1,
+          "who": "targetController"
+        }
+      ],
+      "text": "{1}{U}, Remove a counter from this creature: Counter target noncreature spell. Its controller draws a card."
+    }
+  ]
+}

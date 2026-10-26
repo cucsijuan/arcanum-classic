@@ -1,0 +1,6 @@
+{
+  "name": "Everlasting Torment",
+  "playersCantGainLife": true,
+  "damageCantBePrevented": true,
+  "allDamageWither": true
+}

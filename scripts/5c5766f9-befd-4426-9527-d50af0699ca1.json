@@ -1,0 +1,40 @@
+{
+  "name": "Kithkeeper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "colorsAmongYourPermanents",
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "Vivid — When this creature enters, create X 1/1 green and white Kithkin creature tokens, where X is the number of colors among permanents you control."
+    },
+    {
+      "cost": "tapPermanents:3:creature",
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Tap three untapped creatures you control: This creature gets +3/+0 and gains flying until end of turn."
+    }
+  ]
+}

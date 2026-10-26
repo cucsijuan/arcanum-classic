@@ -1,0 +1,38 @@
+{
+  "name": "Eclipsed Realms",
+  "chooseOnEnter": "creatureType",
+  "typeChoices": [
+    "Elemental",
+    "Elf",
+    "Faerie",
+    "Giant",
+    "Goblin",
+    "Kithkin",
+    "Merfolk",
+    "Treefolk"
+  ],
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "onlyFor": {
+            "chosenType": true
+          },
+          "abilitiesToo": true
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Spend this mana only to cast a spell of the chosen type or activate an ability of a source of the chosen type."
+    }
+  ]
+}

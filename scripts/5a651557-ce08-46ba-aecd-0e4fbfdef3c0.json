@@ -1,0 +1,23 @@
+{
+  "name": "Bile-Vial Boggart",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "When this creature dies, put a -1/-1 counter on up to one target creature."
+    }
+  ]
+}

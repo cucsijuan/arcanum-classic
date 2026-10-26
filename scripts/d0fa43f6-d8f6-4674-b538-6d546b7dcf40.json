@@ -1,0 +1,51 @@
+{
+  "name": "Moon-Vigil Adherents",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              },
+              {
+                "graveyard": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              },
+              {
+                "graveyard": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "This creature gets +1/+1 for each creature you control and each creature card in your graveyard."
+    }
+  ]
+}

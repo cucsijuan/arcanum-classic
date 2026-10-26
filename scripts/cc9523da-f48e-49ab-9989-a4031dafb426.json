@@ -1,0 +1,28 @@
+{
+  "name": "Heirloom Auntie",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "surveil": 1
+        },
+        {
+          "removeCounters": 1,
+          "what": "self",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever another creature you control dies, surveil 1, then remove a -1/-1 counter from this creature."
+    }
+  ]
+}

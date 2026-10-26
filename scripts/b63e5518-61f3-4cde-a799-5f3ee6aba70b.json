@@ -1,0 +1,49 @@
+{
+  "name": "Mudbutton Cursetosser",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "behold": {
+          "subtype": "Goblin"
+        }
+      }
+    },
+    {
+      "mana": "{2}"
+    }
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "maxPower": 2
+          },
+          "text": "target creature an opponent controls with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature dies, destroy target creature an opponent controls with power 2 or less."
+    }
+  ]
+}

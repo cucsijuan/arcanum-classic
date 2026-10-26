@@ -1,0 +1,38 @@
+{
+  "name": "Ifnir Deadlands",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}, life:1",
+      "effects": [
+        {
+          "addMana": "{B}"
+        }
+      ],
+      "text": "{T}, Pay 1 life: Add {B}."
+    },
+    {
+      "cost": "{2}{B}{B}, {T}, sacrificeAny:Desert",
+      "sorcery": true,
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "{2}{B}{B}, {T}, Sacrifice a Desert: Put two -1/-1 counters on target creature an opponent controls. Activate only as a sorcery."
+    }
+  ]
+}

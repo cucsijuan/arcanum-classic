@@ -1,0 +1,33 @@
+{
+  "name": "Pitiless Fists",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true,
+          "text": "up to one target creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "fight": "attached",
+          "with": "target"
+        }
+      ],
+      "text": "When this Aura enters, enchanted creature fights up to one target creature an opponent controls."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Enchanted creature gets +2/+2."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Black Sun's Zenith",
+  "spell": {
+    "effects": [
+      {
+        "counters": "X",
+        "kind": "-1/-1",
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "shuffleIntoLibrary": "self"
+      }
+    ],
+    "text": "Put X -1/-1 counters on each creature. Shuffle Black Sun's Zenith into its owner's library."
+  }
+}

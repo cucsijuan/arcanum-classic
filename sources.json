@@ -53,8 +53,8 @@
   },
   "cardBacks": [
     {
-      "id": "magic",
-      "name": "Magic (classic)",
+      "id": "classic",
+      "name": "Classic",
       "url": "https://backs.scryfall.io/large/0/a/0aeebaf5-8c7d-4636-9e82-8c27447861f7.jpg"
     }
   ]

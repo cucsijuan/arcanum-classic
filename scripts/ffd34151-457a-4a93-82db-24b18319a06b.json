@@ -1,0 +1,58 @@
+{
+  "name": "Omnath, Locus of the Roil",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "subtype": "Elemental",
+              "controller": "you"
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "When Omnath enters, it deals damage to any target equal to the number of Elementals you control."
+    },
+    {
+      "trigger": "landfall",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elemental"
+          },
+          "text": "target Elemental you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "if": {
+            "control": {
+              "types": [
+                "land"
+              ]
+            },
+            "count": 8
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on target Elemental you control. If you control eight or more lands, draw a card."
+    }
+  ]
+}

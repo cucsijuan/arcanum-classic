@@ -1,0 +1,14 @@
+{
+  "name": "Manamorphose",
+  "spell": {
+    "effects": [
+      {
+        "addManaCombination": 2
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Add two mana in any combination of colors.\nDraw a card."
+  }
+}

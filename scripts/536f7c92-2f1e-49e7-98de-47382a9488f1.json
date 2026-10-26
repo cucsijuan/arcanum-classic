@@ -1,0 +1,26 @@
+{
+  "name": "Necroskitter",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "hasCounterKind": "-1/-1"
+      },
+      "effects": [
+        {
+          "may": "Return that card to the battlefield under your control?",
+          "effects": [
+            {
+              "reanimate": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature an opponent controls with a -1/-1 counter on it dies, you may return that card to the battlefield under your control."
+    }
+  ]
+}

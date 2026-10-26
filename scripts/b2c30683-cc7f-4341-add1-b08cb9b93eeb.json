@@ -1,0 +1,37 @@
+{
+  "name": "Morcant's Loyalist",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Elf",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Elves you control get +1/+1."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elf",
+            "other": true
+          },
+          "text": "another target Elf card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature dies, return another target Elf card from your graveyard to your hand."
+    }
+  ]
+}

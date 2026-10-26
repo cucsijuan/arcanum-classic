@@ -1,0 +1,48 @@
+{
+  "name": "Formidable Speaker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to search your library for a creature card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "search": {
+                "types": [
+                  "creature"
+                ]
+              },
+              "count": 1,
+              "reveal": true,
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard a card. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "{1}, {T}: Untap another target permanent."
+    }
+  ]
+}

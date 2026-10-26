@@ -1,0 +1,25 @@
+{
+  "name": "Abundant Growth",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this Aura enters, draw a card."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "grantsMana": "any",
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted land has \"{T}: Add one mana of any color.\""
+    }
+  ]
+}

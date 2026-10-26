@@ -82,3 +82,12 @@ Incubate
 Morph
 Offspring
 Forage
+Blight
+Wither
+Evoke
+Encore
+Clash
+Compleated
+Manifest
+Companion
+Champion

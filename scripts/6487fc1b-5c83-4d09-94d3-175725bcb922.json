@@ -1,0 +1,77 @@
+{
+  "name": "Brigid's Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Create a token that's a copy of target Kithkin you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "subtype": "Kithkin"
+            },
+            "text": "target Kithkin you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player creates a 1/1 green and white Kithkin creature token.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Kithkin",
+              "types": "Creature — Kithkin",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "G",
+                "W"
+              ]
+            },
+            "for": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature you control gets +3/+3 until end of turn.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature you control fights target creature an opponent controls.",
+        "targets": [
+          "creature:you",
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

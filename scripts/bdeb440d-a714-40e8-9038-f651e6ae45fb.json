@@ -1,0 +1,14 @@
+{
+  "name": "Springleaf Drum",
+  "abilities": [
+    {
+      "cost": "{T}, tapPermanents:1:creature",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Tap an untapped creature you control: Add one mana of any color."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Spry and Mighty",
+  "spell": {
+    "effects": [
+      {
+        "choose": {
+          "types": [
+            "creature"
+          ],
+          "controller": "you"
+        },
+        "count": 2
+      },
+      {
+        "draw": "chosenPowerDifference"
+      },
+      {
+        "pump": [
+          "chosenPowerDifference",
+          "chosenPowerDifference"
+        ],
+        "what": "chosen",
+        "keywords": [
+          "Trample"
+        ]
+      }
+    ],
+    "text": "Choose exactly two creatures you control. You draw X cards and the chosen creatures get +X/+X and gain trample until end of turn, where X is the difference between the chosen creatures' powers."
+  }
+}

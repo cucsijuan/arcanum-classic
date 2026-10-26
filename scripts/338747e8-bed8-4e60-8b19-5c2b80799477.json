@@ -1,0 +1,27 @@
+{
+  "name": "Soul Immolation",
+  "additionalCost": {
+    "blight": "X"
+  },
+  "maxX": "greatestToughness",
+  "spell": {
+    "effects": [
+      {
+        "damage": "X",
+        "to": "opponents"
+      },
+      {
+        "damage": "X",
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Soul Immolation deals X damage to each opponent and each creature they control."
+  }
+}

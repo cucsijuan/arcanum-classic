@@ -1,0 +1,18 @@
+{
+  "name": "Enraged Flamecaster",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "minManaValue": 4
+      },
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you cast a spell with mana value 4 or greater, this creature deals 2 damage to each opponent."
+    }
+  ]
+}

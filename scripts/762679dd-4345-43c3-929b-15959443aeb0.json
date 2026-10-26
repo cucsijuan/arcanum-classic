@@ -1,0 +1,47 @@
+{
+  "name": "Soulbright Seeker",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "behold": {
+          "subtype": "Elemental"
+        }
+      }
+    },
+    {
+      "mana": "{2}"
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{R}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        },
+        {
+          "if": {
+            "resolvedThisTurn": 3,
+            "exactly": true
+          },
+          "then": [
+            {
+              "addMana": "{R}{R}{R}{R}"
+            }
+          ]
+        }
+      ],
+      "text": "{R}: Target creature you control gains trample until end of turn. If this is the third time this ability has resolved this turn, add {R}{R}{R}{R}."
+    }
+  ]
+}

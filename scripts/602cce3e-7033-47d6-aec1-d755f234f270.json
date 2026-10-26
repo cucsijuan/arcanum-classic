@@ -1,0 +1,22 @@
+{
+  "name": "Adept Watershaper",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "tapped": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Other tapped creatures you control have indestructible."
+    }
+  ]
+}

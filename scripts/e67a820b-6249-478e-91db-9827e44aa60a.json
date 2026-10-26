@@ -1,0 +1,27 @@
+{
+  "name": "Glamer Gifter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "power": 4,
+          "toughness": 4,
+          "everyCreatureType": true
+        }
+      ],
+      "text": "When this creature enters, choose up to one other target creature. Until end of turn, that creature has base power and toughness 4/4 and gains all creature types."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Slithermuse",
+  "abilities": [
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "chooseOpponent": true
+        },
+        {
+          "draw": "chosenPlayerExtraCardsInHand"
+        }
+      ],
+      "text": "When this creature leaves the battlefield, choose an opponent. If that player has more cards in hand than you, draw cards equal to the difference."
+    }
+  ]
+}

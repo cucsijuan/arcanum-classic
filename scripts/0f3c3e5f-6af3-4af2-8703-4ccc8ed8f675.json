@@ -1,0 +1,14 @@
+{
+  "name": "Cathartic Reunion",
+  "additionalCost": {
+    "discard": 2
+  },
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      }
+    ],
+    "text": "Draw three cards."
+  }
+}

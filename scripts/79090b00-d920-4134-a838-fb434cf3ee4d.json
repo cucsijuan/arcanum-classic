@@ -1,0 +1,21 @@
+{
+  "name": "Swat Away",
+  "costReduction": {
+    "amount": 2,
+    "if": "creatureAttackingYou"
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "spellOrCreature",
+        "text": "target spell or creature"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      }
+    ],
+    "text": "The owner of target spell or creature puts it on their choice of the top or bottom of their library."
+  }
+}

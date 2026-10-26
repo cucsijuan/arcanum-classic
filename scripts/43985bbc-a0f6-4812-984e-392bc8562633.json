@@ -1,0 +1,5 @@
+{
+  "name": "Blood Crypt",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

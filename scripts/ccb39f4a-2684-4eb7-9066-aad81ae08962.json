@@ -1,0 +1,34 @@
+{
+  "name": "Massacre Girl, Known Killer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Wither"
+        ]
+      },
+      "text": "Creatures you control have wither."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent",
+        "maxToughness": 0
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature an opponent controls dies, if its toughness was less than 1, draw a card."
+    }
+  ]
+}

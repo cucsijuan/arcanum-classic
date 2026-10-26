@@ -1,0 +1,11 @@
+{
+  "name": "Omni-Changeling",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ]
+  },
+  "entersAsCopyAddKeywords": [
+    "Changeling"
+  ]
+}

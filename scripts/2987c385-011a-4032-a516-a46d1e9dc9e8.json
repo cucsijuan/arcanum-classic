@@ -1,0 +1,28 @@
+{
+  "name": "Crib Swap",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Shapeshifter",
+          "types": "Creature — Shapeshifter",
+          "power": 1,
+          "toughness": 1,
+          "colors": [],
+          "keywords": [
+            "Changeling"
+          ]
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Exile target creature. Its controller creates a 1/1 colorless Shapeshifter creature token with changeling."
+  }
+}

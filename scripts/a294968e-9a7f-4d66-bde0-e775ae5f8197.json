@@ -1,0 +1,45 @@
+{
+  "name": "Blighted Blackthorn",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Blight 2 to draw a card and lose 1 life?",
+          "cost": {
+            "blight": 2
+          },
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "loseLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may blight 2. If you do, you draw a card and lose 1 life."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Blight 2 to draw a card and lose 1 life?",
+          "cost": {
+            "blight": 2
+          },
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "loseLife": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may blight 2. If you do, you draw a card and lose 1 life."
+    }
+  ]
+}

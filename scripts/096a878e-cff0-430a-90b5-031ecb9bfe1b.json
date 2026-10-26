@@ -1,0 +1,38 @@
+{
+  "name": "Tam, Mindful First-Year",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof from each of its colors"
+        ]
+      },
+      "text": "Each other creature you control has hexproof from each of its colors."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "setColors": [
+            "W",
+            "U",
+            "B",
+            "R",
+            "G"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature you control becomes all colors until end of turn."
+    }
+  ]
+}

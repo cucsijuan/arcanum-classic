@@ -1,0 +1,26 @@
+{
+  "name": "Heat Shimmer",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "copy": "target",
+        "haste": true,
+        "abilities": [
+          {
+            "trigger": "eachEndStep",
+            "effects": [
+              {
+                "exile": "self"
+              }
+            ],
+            "text": "At the beginning of the end step, exile this token."
+          }
+        ]
+      }
+    ],
+    "text": "Create a token that's a copy of target creature, except it has haste and \"At the beginning of the end step, exile this token.\""
+  }
+}

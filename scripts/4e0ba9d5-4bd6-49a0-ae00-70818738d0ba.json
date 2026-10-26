@@ -1,0 +1,43 @@
+{
+  "name": "Gallant Fowlknight",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Kithkin",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "When this creature enters, creatures you control get +1/+0 until end of turn. Kithkin creatures you control also gain first strike until end of turn."
+    }
+  ]
+}

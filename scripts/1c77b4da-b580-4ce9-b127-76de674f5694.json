@@ -1,0 +1,24 @@
+{
+  "name": "Iron-Shield Elf",
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "Discard a card: This creature gains indestructible until end of turn. Tap it."
+    }
+  ]
+}

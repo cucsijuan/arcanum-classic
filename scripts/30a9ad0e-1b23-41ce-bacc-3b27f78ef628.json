@@ -1,0 +1,24 @@
+{
+  "name": "Boulder Dash",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      "any",
+      {
+        "kind": "any",
+        "text": "any other target"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      },
+      {
+        "damage": 1,
+        "to": "target2"
+      }
+    ],
+    "text": "Boulder Dash deals 2 damage to any target and 1 damage to any other target."
+  }
+}

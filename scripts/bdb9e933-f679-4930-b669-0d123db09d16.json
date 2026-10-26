@@ -1,0 +1,19 @@
+{
+  "name": "Bloodline Bidding",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "reanimateAll": {
+          "types": [
+            "creature"
+          ],
+          "chosenType": true
+        }
+      }
+    ],
+    "text": "Choose a creature type. Return all creature cards of the chosen type from your graveyard to the battlefield."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Bogslither's Embrace",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "blight": 1
+      }
+    },
+    {
+      "mana": "{3}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target creature."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Lamentation",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, destroy target creature an opponent controls. You gain 3 life."
+    }
+  ]
+}

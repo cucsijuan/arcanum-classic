@@ -1,0 +1,45 @@
+{
+  "name": "Rhys, the Evermore",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Persist"
+          ]
+        }
+      ],
+      "text": "When Rhys enters, another target creature you control gains persist until end of turn."
+    },
+    {
+      "cost": "{W}, {T}",
+      "sorcery": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "removeUpToCounters": 99,
+          "from": "target"
+        }
+      ],
+      "text": "{W}, {T}: Remove any number of counters from target creature you control. Activate only as a sorcery."
+    }
+  ]
+}

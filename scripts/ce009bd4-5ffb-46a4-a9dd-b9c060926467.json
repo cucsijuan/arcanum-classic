@@ -1,0 +1,17 @@
+{
+  "name": "Moonlit Lamenter",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{1}{W}, removeCounterFrom:self",
+      "sorcery": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{W}, Remove a counter from this creature: Draw a card. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Maralen, Fae Ascendant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "exileTopPlayable": 2,
+          "of": "target",
+          "chooseOne": false,
+          "free": true,
+          "castOnly": true,
+          "whileYouControlSource": true,
+          "onceEachTurnThisTurn": true,
+          "maxManaValue": {
+            "count": {
+              "anyOf": [
+                {
+                  "subtype": "Elf"
+                },
+                {
+                  "subtype": "Faerie"
+                }
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Maralen or another Elf or Faerie you control enters, exile the top two cards of target opponent's library."
+    },
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Elf"
+          },
+          {
+            "subtype": "Faerie"
+          }
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "exileTopPlayable": 2,
+          "of": "target",
+          "chooseOne": false,
+          "free": true,
+          "castOnly": true,
+          "whileYouControlSource": true,
+          "onceEachTurnThisTurn": true,
+          "maxManaValue": {
+            "count": {
+              "anyOf": [
+                {
+                  "subtype": "Elf"
+                },
+                {
+                  "subtype": "Faerie"
+                }
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Maralen or another Elf or Faerie you control enters, exile the top two cards of target opponent's library."
+    }
+  ]
+}

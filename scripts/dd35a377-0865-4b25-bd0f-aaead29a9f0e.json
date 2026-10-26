@@ -1,0 +1,55 @@
+{
+  "name": "Doran, Besieged by Time",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "toughnessAbovePower": true
+        },
+        "amount": 1
+      },
+      "text": "Each creature spell you cast with toughness greater than its power costs {1} less to cast."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            "triggeredPowerToughnessDifference",
+            "triggeredPowerToughnessDifference"
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control attacks or blocks, it gets +X/+X until end of turn, where X is the difference between its power and toughness."
+    },
+    {
+      "trigger": "creatureBlocks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "pump": [
+            "triggeredPowerToughnessDifference",
+            "triggeredPowerToughnessDifference"
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control attacks or blocks, it gets +X/+X until end of turn, where X is the difference between its power and toughness."
+    }
+  ]
+}

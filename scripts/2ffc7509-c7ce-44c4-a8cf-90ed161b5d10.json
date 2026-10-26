@@ -1,0 +1,34 @@
+{
+  "name": "Shatter the Sky",
+  "spell": {
+    "effects": [
+      {
+        "eachPlayer": [
+          {
+            "draw": 1
+          }
+        ],
+        "who": "everyone",
+        "onlyIf": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "minPower": 4
+          }
+        }
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Each player who controls a creature with power 4 or greater draws a card. Then destroy all creatures."
+  }
+}

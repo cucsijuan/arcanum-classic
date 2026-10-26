@@ -1,0 +1,50 @@
+{
+  "name": "Deceit",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{U}{U}"
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to one other target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, if {U}{U} was spent to cast it, return up to one other target nonland permanent to its owner's hand."
+    },
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{B}{B}"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, if {B}{B} was spent to cast it, target opponent reveals their hand. You choose a nonland card from it. That player discards that card."
+    }
+  ]
+}

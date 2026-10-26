@@ -1,0 +1,47 @@
+{
+  "name": "Mistbind Clique",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "champion": {
+            "subtype": "Faerie"
+          }
+        }
+      ],
+      "text": "Champion a Faerie (When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.)"
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnLinkedExiled": true
+        }
+      ],
+      "text": "Champion a Faerie (When this enters, sacrifice it unless you exile another Faerie you control. When this leaves the battlefield, that card returns to the battlefield.)"
+    },
+    {
+      "trigger": "championed",
+      "filter": {
+        "subtype": "Faerie"
+      },
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "tap": {
+            "each": {
+              "types": [
+                "land"
+              ]
+            },
+            "controlledBy": "target"
+          }
+        }
+      ],
+      "text": "When a Faerie is championed with this creature, tap all lands target player controls."
+    }
+  ]
+}

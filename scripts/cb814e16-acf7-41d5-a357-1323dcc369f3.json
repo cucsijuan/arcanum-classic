@@ -1,0 +1,14 @@
+{
+  "name": "Devoted Druid",
+  "abilities": [
+    {
+      "cost": "addCounters:1:-1/-1",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Put a -1/-1 counter on this creature: Untap this creature."
+    }
+  ]
+}

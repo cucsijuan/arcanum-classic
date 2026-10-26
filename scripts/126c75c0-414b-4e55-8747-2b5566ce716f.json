@@ -1,0 +1,19 @@
+{
+  "name": "Firdoch Core",
+  "abilities": [
+    {
+      "cost": "{4}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 4,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "{4}: This artifact becomes a 4/4 artifact creature until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Hapatra, Vizier of Poisons",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "may": "Put a -1/-1 counter on target creature?",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target",
+              "kind": "-1/-1"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Hapatra deals combat damage to a player, you may put a -1/-1 counter on target creature."
+    },
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "-1/-1",
+      "placedByYou": true,
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Snake",
+            "types": "Creature — Snake",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ],
+            "keywords": [
+              "Deathtouch"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you put one or more -1/-1 counters on a creature, create a 1/1 green Snake creature token with deathtouch."
+    }
+  ]
+}

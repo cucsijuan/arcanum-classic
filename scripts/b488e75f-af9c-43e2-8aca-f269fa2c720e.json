@@ -1,0 +1,30 @@
+{
+  "name": "Kindred Summons",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "revealUntil": {
+          "types": [
+            "creature"
+          ],
+          "chosenType": true
+        },
+        "count": {
+          "count": {
+            "types": [
+              "creature"
+            ],
+            "chosenType": true,
+            "controller": "you"
+          }
+        },
+        "to": "battlefield",
+        "rest": "shuffle"
+      }
+    ],
+    "text": "Choose a creature type. Reveal cards from the top of your library until you reveal X creature cards of the chosen type, where X is the number of creatures you control of that type. Put those cards onto the battlefield, then shuffle the rest of the revealed cards into your library."
+  }
+}

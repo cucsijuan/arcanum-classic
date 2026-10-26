@@ -1,0 +1,47 @@
+{
+  "name": "Riveteers Overlook",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        },
+        {
+          "whenYouDo": {
+            "if": "youSacrificed",
+            "effects": [
+              {
+                "search": {
+                  "types": [
+                    "land"
+                  ],
+                  "supertype": "basic",
+                  "anyOf": [
+                    {
+                      "subtype": "Swamp"
+                    },
+                    {
+                      "subtype": "Mountain"
+                    },
+                    {
+                      "subtype": "Forest"
+                    }
+                  ]
+                },
+                "count": 1,
+                "to": "battlefield",
+                "tapped": true
+              },
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle and you gain 1 life."
+          }
+        }
+      ],
+      "text": "When this land enters, sacrifice it. When you do, search your library for a basic Swamp, Mountain, or Forest card, put it onto the battlefield tapped, then shuffle and you gain 1 life."
+    }
+  ]
+}

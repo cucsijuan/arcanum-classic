@@ -1,0 +1,14 @@
+{
+  "name": "Twinflame Travelers",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "other": true,
+        "subtype": "Elemental",
+        "extraTriggers": true
+      },
+      "text": "If a triggered ability of another Elemental you control triggers, it triggers an additional time."
+    }
+  ]
+}

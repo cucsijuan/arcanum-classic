@@ -1,0 +1,29 @@
+{
+  "name": "Cinder Strike",
+  "optionalAdditionalCost": {
+    "blight": 1
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "damage": 4,
+            "to": "target"
+          }
+        ],
+        "else": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Cinder Strike deals 2 damage to target creature. It deals 4 damage to that creature instead if this spell's additional cost was paid."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Spinerock Tyrant",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "singleTarget": true
+      },
+      "effects": [
+        {
+          "may": "Copy that spell? (Both gain wither.)",
+          "effects": [
+            {
+              "copySpell": "triggered",
+              "spellsGain": [
+                "Wither"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell with a single target, you may copy it. If you do, those spells gain wither. You may choose new targets for the copy."
+    }
+  ]
+}

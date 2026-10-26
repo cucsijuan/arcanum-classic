@@ -1,0 +1,25 @@
+{
+  "name": "Boneclub Berserker",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Goblin",
+              "controller": "you",
+              "other": true
+            },
+            "times": 2
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +2/+0 for each other Goblin you control."
+    }
+  ]
+}

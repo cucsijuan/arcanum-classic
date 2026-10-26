@@ -1,0 +1,26 @@
+{
+  "name": "Carnifex Demon",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{B}, removeCounters:1:-1/-1",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "{B}, Remove a -1/-1 counter from this creature: Put a -1/-1 counter on each other creature."
+    }
+  ]
+}

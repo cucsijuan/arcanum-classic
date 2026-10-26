@@ -1,0 +1,26 @@
+{
+  "name": "Blowfly Infestation",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "hasCounterKind": "-1/-1"
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever a creature dies, if it had a -1/-1 counter on it, put a -1/-1 counter on target creature."
+    }
+  ]
+}

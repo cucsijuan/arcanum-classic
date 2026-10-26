@@ -1,0 +1,65 @@
+{
+  "name": "Vraska, Betrayal's Sting",
+  "abilities": [
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        },
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "0: You draw a card and lose 1 life. Proliferate."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "permanent": true,
+          "setTypes": [
+            "artifact"
+          ],
+          "addSubtypes": [
+            "Treasure"
+          ],
+          "loseAbilities": true,
+          "abilities": [
+            {
+              "cost": "{T}, sacrifice",
+              "effects": [
+                {
+                  "addManaAnyColor": 1
+                }
+              ],
+              "text": "{T}, Sacrifice this artifact: Add one mana of any color."
+            }
+          ]
+        }
+      ],
+      "text": "−2: Target creature becomes a Treasure artifact with \"{T}, Sacrifice this artifact: Add one mana of any color\" and loses all other card types and abilities."
+    },
+    {
+      "cost": "-9",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "poison": 0,
+          "upTo": 9,
+          "who": "target"
+        }
+      ],
+      "text": "−9: If target player has fewer than nine poison counters, they get a number of poison counters equal to the difference."
+    }
+  ]
+}

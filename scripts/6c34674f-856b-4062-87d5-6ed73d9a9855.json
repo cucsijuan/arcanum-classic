@@ -1,0 +1,7 @@
+{
+  "name": "Wildvine Pummeler",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "colorsAmongYourPermanents"
+  }
+}

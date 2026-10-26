@@ -1,0 +1,19 @@
+{
+  "name": "Ancient Ziggurat",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "onlyFor": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell."
+    }
+  ]
+}

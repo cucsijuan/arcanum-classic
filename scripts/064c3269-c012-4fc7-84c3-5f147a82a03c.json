@@ -1,0 +1,35 @@
+{
+  "name": "Stalactite Dagger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "When this Equipment enters, create a 1/1 colorless Shapeshifter creature token with changeling."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "everyCreatureType": true
+      },
+      "text": "Equipped creature gets +1/+1 and is all creature types."
+    }
+  ]
+}

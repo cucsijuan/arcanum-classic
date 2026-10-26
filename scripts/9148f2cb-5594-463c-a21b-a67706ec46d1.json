@@ -1,0 +1,34 @@
+{
+  "name": "Flitterwing Nuisance",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{2}{U}, removeCounterFrom:self",
+      "effects": [
+        {
+          "emblem": "Flitterwing Nuisance effect",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureCombatDamageToPlayerOrPlaneswalker",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever a creature you control deals combat damage to a player or planeswalker this turn, draw a card."
+            }
+          ]
+        }
+      ],
+      "text": "{2}{U}, Remove a counter from this creature: Whenever a creature you control deals combat damage to a player or planeswalker this turn, draw a card."
+    }
+  ]
+}

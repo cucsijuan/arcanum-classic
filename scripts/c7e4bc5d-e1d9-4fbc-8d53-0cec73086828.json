@@ -1,0 +1,23 @@
+{
+  "name": "Dream Seizer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Blight 1 to have each opponent discard a card?",
+          "cost": {
+            "blight": 1
+          },
+          "effects": [
+            {
+              "discard": 1,
+              "who": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may blight 1. If you do, each opponent discards a card."
+    }
+  ]
+}

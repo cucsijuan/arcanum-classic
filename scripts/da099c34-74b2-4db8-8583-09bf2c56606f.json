@@ -1,0 +1,33 @@
+{
+  "name": "Perfect Intimidation",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Target opponent exiles two cards from their hand.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "exileFromHand": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Remove all counters from target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "removeAllCounters": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Choose one or both —"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Sygg's Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Create a token that's a copy of target Merfolk you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "subtype": "Merfolk"
+            },
+            "text": "target Merfolk you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures target player controls gain lifelink until end of turn.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            },
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Target player draws a card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 1,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Tap target creature. Put a stun counter on it.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "tap": "target"
+          },
+          {
+            "counters": 1,
+            "what": "target",
+            "kind": "stun"
+          }
+        ]
+      }
+    ]
+  }
+}

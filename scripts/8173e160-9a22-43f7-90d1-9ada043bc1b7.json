@@ -1,0 +1,90 @@
+{
+  "name": "Grub's Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Create a token that's a copy of target Goblin you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "subtype": "Goblin"
+            },
+            "text": "target Goblin you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures target player controls get +1/+1 and gain haste until end of turn.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "pump": [
+              1,
+              1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            },
+            "keywords": [
+              "Haste"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact or creature.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature"
+              ]
+            },
+            "text": "target artifact or creature"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player mills five cards, then puts each Goblin card milled this way into their hand.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "mill": 5,
+            "who": "target"
+          },
+          {
+            "takeMilled": {
+              "subtype": "Goblin"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

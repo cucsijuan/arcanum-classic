@@ -1,0 +1,38 @@
+{
+  "name": "Morcant's Eyes",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1."
+    },
+    {
+      "cost": "{4}{G}{G}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": {
+            "graveyard": {
+              "subtype": "Elf"
+            }
+          },
+          "token": {
+            "name": "Elf",
+            "types": "Creature — Elf",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B",
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{4}{G}{G}, Sacrifice this enchantment: Create X 2/2 black and green Elf creature tokens, where X is the number of Elf cards in your graveyard. Activate only as a sorcery."
+    }
+  ]
+}

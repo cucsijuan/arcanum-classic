@@ -1,0 +1,36 @@
+{
+  "name": "Deepchannel Duelist",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Merfolk"
+          },
+          "text": "target Merfolk you control"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, untap target Merfolk you control."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Merfolk",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Merfolk you control get +1/+1."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Fury",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "anyNumber": true,
+          "text": "any number of target creatures and/or planeswalkers"
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 4
+        }
+      ],
+      "text": "When this creature enters, it deals 4 damage divided as you choose among any number of target creatures and/or planeswalkers."
+    }
+  ]
+}

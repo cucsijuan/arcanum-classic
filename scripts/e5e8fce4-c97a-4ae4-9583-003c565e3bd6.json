@@ -1,0 +1,45 @@
+{
+  "name": "Wistfulness",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{G}{G}"
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact or enchantment an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When this creature enters, if {G}{G} was spent to cast it, exile target artifact or enchantment an opponent controls."
+    },
+    {
+      "trigger": "enters",
+      "if": {
+        "spentToCast": "{U}{U}"
+      },
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "When this creature enters, if {U}{U} was spent to cast it, draw two cards, then discard a card."
+    }
+  ]
+}

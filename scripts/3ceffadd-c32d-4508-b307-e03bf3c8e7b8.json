@@ -1,0 +1,36 @@
+{
+  "name": "Mass of Mysteries",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elemental",
+            "other": true
+          },
+          "text": "another target Elemental you control"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "attacks",
+              "effects": [
+                {
+                  "myriad": true
+                }
+              ],
+              "text": "Myriad (Whenever this creature attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, another target Elemental you control gains myriad until end of turn."
+    }
+  ]
+}

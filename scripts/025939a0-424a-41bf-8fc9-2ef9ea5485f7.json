@@ -1,0 +1,19 @@
+{
+  "name": "Fire Covenant",
+  "payXLife": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "anyNumber": true,
+        "text": "any number of target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "divideDamage": "X"
+      }
+    ],
+    "text": "As an additional cost to cast this spell, pay X life. Fire Covenant deals X damage divided as you choose among any number of target creatures."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Darkness Descends",
+  "spell": {
+    "effects": [
+      {
+        "counters": 2,
+        "kind": "-1/-1",
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Put two -1/-1 counters on each creature."
+  }
+}

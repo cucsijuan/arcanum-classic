@@ -1,0 +1,23 @@
+{
+  "name": "Soul Snuffers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, put a -1/-1 counter on each creature."
+    }
+  ]
+}

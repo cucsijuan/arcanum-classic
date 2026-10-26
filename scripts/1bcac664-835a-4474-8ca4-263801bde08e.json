@@ -1,0 +1,29 @@
+{
+  "name": "Boggart Prankster",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Goblin",
+            "attacking": true
+          },
+          "text": "target attacking Goblin you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack, target attacking Goblin you control gets +1/+0 until end of turn."
+    }
+  ]
+}

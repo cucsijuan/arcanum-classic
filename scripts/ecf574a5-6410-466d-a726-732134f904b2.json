@@ -1,0 +1,28 @@
+{
+  "name": "Assert Perfection",
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "optional": true,
+        "text": "up to one target creature an opponent controls"
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "bite": "target",
+        "to": "target2"
+      }
+    ],
+    "text": "Target creature you control gets +1/+0 until end of turn. It deals damage equal to its power to up to one target creature an opponent controls."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Bristlebane Outrider",
+  "cantBeBlockedBy": {
+    "maxPower": 2
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": {
+          "enteredThisTurn": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "other": true
+          }
+        }
+      },
+      "text": "As long as another creature entered the battlefield under your control this turn, this creature gets +2/+0."
+    }
+  ]
+}

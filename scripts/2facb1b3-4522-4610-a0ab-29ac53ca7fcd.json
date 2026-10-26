@@ -1,0 +1,62 @@
+{
+  "name": "Greenwarden of Murasa",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target card from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may return target card from your graveyard to your hand."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exile this card to return target card from your graveyard to your hand?",
+          "effects": [
+            {
+              "exile": "self"
+            },
+            {
+              "if": {
+                "sourceIs": {
+                  "zone": "exile"
+                }
+              },
+              "then": [
+                {
+                  "bounce": "target"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When this creature dies, you may exile it. If you do, return target card from your graveyard to your hand."
+    }
+  ]
+}

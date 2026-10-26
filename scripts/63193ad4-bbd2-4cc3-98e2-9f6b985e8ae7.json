@@ -1,0 +1,45 @@
+{
+  "name": "Oft-Nabbed Goat",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "sorcery": true,
+      "onlyOpponents": true,
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "gainControl": "self"
+        },
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": "self"
+        }
+      ],
+      "text": "{1}: Draw a card. Gain control of this creature and put a -1/-1 counter on it. Only your opponents may activate this ability and only as a sorcery."
+    },
+    {
+      "trigger": "dies",
+      "if": {
+        "sourceHadCounters": "-1/-1"
+      },
+      "effects": [
+        {
+          "draw": {
+            "counters": "-1/-1"
+          },
+          "who": "sourceOwner"
+        },
+        {
+          "loseLife": {
+            "counters": "-1/-1"
+          },
+          "who": "playersOtherThanSourceOwner"
+        }
+      ],
+      "text": "When this creature dies, if it had one or more -1/-1 counters on it, its owner draws that many cards and each other player loses that much life."
+    }
+  ]
+}

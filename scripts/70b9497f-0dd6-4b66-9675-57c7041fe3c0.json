@@ -1,0 +1,16 @@
+{
+  "name": "Dream Harvest",
+  "spell": {
+    "effects": [
+      {
+        "exileTopPlayable": 0,
+        "of": "opponents",
+        "untilTotalManaValue": 5,
+        "chooseOne": false,
+        "free": true,
+        "castOnly": true
+      }
+    ],
+    "text": "Each opponent exiles cards from the top of their library until they have exiled cards with total mana value 5 or greater this way. Until end of turn, you may cast cards exiled this way without paying their mana costs."
+  }
+}

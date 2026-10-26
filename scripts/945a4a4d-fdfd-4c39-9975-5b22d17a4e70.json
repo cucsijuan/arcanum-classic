@@ -1,0 +1,15 @@
+{
+  "name": "Sting-Slinger",
+  "abilities": [
+    {
+      "cost": "{1}{R}, {T}, blight:1",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "{1}{R}, {T}, Blight 1: This creature deals 2 damage to each opponent."
+    }
+  ]
+}

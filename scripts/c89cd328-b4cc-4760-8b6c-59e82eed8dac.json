@@ -1,0 +1,52 @@
+{
+  "name": "Wickersmith's Tools",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "-1/-1",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "charge"
+        }
+      ],
+      "text": "Whenever one or more -1/-1 counters are put on a creature, put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}: Add one mana of any color."
+    },
+    {
+      "cost": "{5}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": {
+            "counters": "charge"
+          },
+          "tapped": true,
+          "token": {
+            "name": "Scarecrow",
+            "types": "Artifact Creature — Scarecrow",
+            "power": 2,
+            "toughness": 2,
+            "colors": []
+          }
+        }
+      ],
+      "text": "{5}, {T}, Sacrifice this artifact: Create X tapped 2/2 colorless Scarecrow artifact creature tokens, where X is the number of charge counters on this artifact."
+    }
+  ]
+}

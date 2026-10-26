@@ -1,0 +1,28 @@
+{
+  "name": "Blossombind",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tap": "attached"
+        }
+      ],
+      "text": "When this Aura enters, tap enchanted creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't become untapped",
+          "Can't have counters put on it"
+        ]
+      },
+      "text": "Enchanted creature can't become untapped and can't have counters put on it."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Glen Elendra's Answer",
+  "spell": {
+    "effects": [
+      {
+        "counterAllOfOpponents": true
+      },
+      {
+        "tokens": "spellsAndAbilitiesCounteredThisWay",
+        "token": {
+          "name": "Faerie",
+          "types": "Creature — Faerie",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "U",
+            "B"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ],
+    "text": "Counter all spells your opponents control and all abilities your opponents control. Create a 1/1 blue and black Faerie creature token with flying for each spell and ability countered this way."
+  }
+}

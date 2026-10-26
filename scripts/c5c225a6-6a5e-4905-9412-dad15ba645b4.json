@@ -1,0 +1,19 @@
+{
+  "name": "Skinrender",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "When this creature enters, put three -1/-1 counters on target creature."
+    }
+  ]
+}

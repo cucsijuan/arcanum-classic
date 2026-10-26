@@ -1,0 +1,30 @@
+{
+  "name": "Bitterbloom Bearer",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Faerie",
+            "types": "Creature — Faerie",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U",
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 1 life and create a 1/1 blue and black Faerie creature token with flying."
+    }
+  ]
+}

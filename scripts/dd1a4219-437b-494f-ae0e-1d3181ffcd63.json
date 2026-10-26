@@ -1,0 +1,24 @@
+{
+  "name": "Wild Unraveling",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "blight": 2
+      }
+    },
+    {
+      "mana": "{1}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target spell."
+  }
+}

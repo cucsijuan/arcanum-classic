@@ -1,0 +1,17 @@
+{
+  "name": "Ingot Chewer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "artifact"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy target artifact."
+    }
+  ]
+}

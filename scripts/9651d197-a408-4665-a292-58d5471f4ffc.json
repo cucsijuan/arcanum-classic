@@ -1,0 +1,72 @@
+{
+  "name": "Ashling's Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Create a token that's a copy of target Elemental you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "subtype": "Elemental"
+            },
+            "text": "target Elemental you control"
+          }
+        ],
+        "effects": [
+          {
+            "copy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player draws two cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Ashling's Command deals 2 damage to each creature target player controls.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target player creates two Treasure tokens.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "tokens": 2,
+            "token": "Treasure",
+            "for": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

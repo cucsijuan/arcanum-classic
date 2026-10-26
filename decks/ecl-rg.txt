@@ -1,0 +1,38 @@
+1 Aurora Awakener
+1 Bloom Tender
+1 Boldwyr Aggressor
+1 Boneclub Berserker
+1 Brambleback Brute
+1 Bristlebane Battler
+1 Bristlebane Outrider
+1 Champion of the Path
+1 Champions of the Perfect
+1 Chomping Changeling
+1 Crossroads Watcher
+1 Dawn's Light Archer
+1 Dundoolin Weaver
+1 Elder Auntie
+1 Enraged Flamecaster
+1 Explosive Prodigy
+1 Flame-Chain Mauler
+1 Flamebraider
+1 Flamekin Gildweaver
+1 Foraging Wickermaw
+1 Formidable Speaker
+1 Gangly Stompling
+1 Assert Perfection
+1 Blossoming Defense
+1 Boulder Dash
+1 Celestial Reunion
+1 Dawn-Blessed Pennant
+1 End-Blaze Epiphany
+1 Feed the Flames
+1 Firdoch Core
+1 Giantfall
+1 Gilt-Leaf's Embrace
+1 Goatnap
+1 Impolite Entrance
+1 Kindle the Inner Flame
+1 Lasting Tarfire
+12 Mountain
+12 Forest

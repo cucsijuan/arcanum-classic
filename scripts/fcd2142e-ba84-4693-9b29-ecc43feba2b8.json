@@ -1,0 +1,17 @@
+{
+  "name": "Sinister Gnarlbark",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "blight": 1
+        }
+      ],
+      "text": "At the beginning of your end step, draw a card and blight 1."
+    }
+  ]
+}

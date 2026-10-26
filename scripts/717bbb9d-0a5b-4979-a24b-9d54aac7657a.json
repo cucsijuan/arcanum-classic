@@ -1,0 +1,28 @@
+{
+  "name": "Shriekmaw",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "not": [
+              "artifact"
+            ],
+            "notColors": [
+              "B"
+            ]
+          },
+          "text": "target nonartifact, nonblack creature"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy target nonartifact, nonblack creature."
+    }
+  ]
+}

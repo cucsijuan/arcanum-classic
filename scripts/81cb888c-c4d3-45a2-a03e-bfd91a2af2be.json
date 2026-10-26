@@ -1,0 +1,30 @@
+{
+  "name": "Mirrorform",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "notSubtypes": [
+            "Aura"
+          ]
+        },
+        "text": "target non-Aura permanent"
+      }
+    ],
+    "effects": [
+      {
+        "becomeCopy": {
+          "each": {
+            "not": [
+              "land"
+            ],
+            "controller": "you"
+          }
+        },
+        "lasting": true
+      }
+    ],
+    "text": "Each nonland permanent you control becomes a copy of target non-Aura permanent."
+  }
+}

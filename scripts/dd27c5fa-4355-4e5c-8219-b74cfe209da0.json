@@ -1,0 +1,40 @@
+{
+  "name": "High Perfect Morcant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "blight": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever High Perfect Morcant or another Elf you control enters, each opponent blights 1."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Elf",
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "blight": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever High Perfect Morcant or another Elf you control enters, each opponent blights 1."
+    },
+    {
+      "cost": "tapCreatures:3:Elf",
+      "sorcery": true,
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Tap three untapped Elves you control: Proliferate. Activate only as a sorcery."
+    }
+  ]
+}

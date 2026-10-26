@@ -3,14 +3,14 @@
   "abilities": [
     {
       "trigger": "creatureCombatDamageToPlayer",
-      "batched": true,
       "effects": [
         {
           "tokens": 1,
           "token": "Treasure"
         }
       ],
-      "text": "Whenever one or more creatures you control deal combat damage to a player, create a Treasure token."
+      "text": "Whenever one or more creatures you control deal combat damage to a player, create a Treasure token.",
+      "batchedPerPlayer": true
     },
     {
       "cost": "sacrificeAny:Treasure",

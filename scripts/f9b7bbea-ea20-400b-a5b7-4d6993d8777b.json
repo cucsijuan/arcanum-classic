@@ -1,0 +1,32 @@
+{
+  "name": "Creakwood Safewright",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "all": [
+          {
+            "graveyard": 1,
+            "filter": {
+              "subtype": "Elf"
+            }
+          },
+          {
+            "counters": 1,
+            "kind": "-1/-1"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "removeCounters": 1,
+          "what": "self",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "At the beginning of your end step, if there is an Elf card in your graveyard and this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature."
+    }
+  ]
+}

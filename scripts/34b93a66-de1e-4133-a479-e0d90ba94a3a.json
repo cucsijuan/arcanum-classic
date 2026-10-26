@@ -1,0 +1,37 @@
+{
+  "name": "Mutable Explorer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "tapped": true,
+          "token": {
+            "name": "Mutavault",
+            "types": "Land",
+            "tapForMana": "{C}",
+            "abilities": [
+              {
+                "cost": "{1}",
+                "effects": [
+                  {
+                    "become": "self",
+                    "power": 2,
+                    "toughness": 2,
+                    "addTypes": [
+                      "creature"
+                    ],
+                    "everyCreatureType": true
+                  }
+                ],
+                "text": "{1}: This token becomes a 2/2 creature with all creature types until end of turn. It's still a land."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a tapped Mutavault token."
+    }
+  ]
+}

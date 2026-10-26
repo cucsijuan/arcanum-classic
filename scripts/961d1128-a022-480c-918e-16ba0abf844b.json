@@ -1,0 +1,115 @@
+{
+  "name": "Trystan, Callous Cultivator // Trystan, Penitent Culler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "if": {
+            "graveyard": 1,
+            "filter": {
+              "subtype": "Elf"
+            }
+          },
+          "then": [
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Trystan, Callous Cultivator, mill three cards. Then if there is an Elf card in your graveyard, you gain 2 life."
+    },
+    {
+      "trigger": "transforms",
+      "onSelf": true,
+      "filter": {
+        "name": "Trystan, Callous Cultivator"
+      },
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "if": {
+            "graveyard": 1,
+            "filter": {
+              "subtype": "Elf"
+            }
+          },
+          "then": [
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Trystan, Callous Cultivator, mill three cards. Then if there is an Elf card in your graveyard, you gain 2 life."
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {B} to transform Trystan?",
+          "mana": "{B}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {B}. If you do, transform Trystan."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "transforms",
+        "onSelf": true,
+        "filter": {
+          "name": "Trystan, Penitent Culler"
+        },
+        "effects": [
+          {
+            "mill": 3
+          },
+          {
+            "mayPay": "Exile an Elf card from your graveyard to have each opponent lose 2 life?",
+            "cost": {
+              "exileGraveyard": 1,
+              "exileGraveyardFilter": {
+                "subtype": "Elf"
+              }
+            },
+            "effects": [
+              {
+                "loseLife": 2,
+                "who": "opponents"
+              }
+            ]
+          }
+        ],
+        "text": "Whenever this creature transforms into Trystan, Penitent Culler, mill three cards, then you may exile an Elf card from your graveyard. If you do, each opponent loses 2 life."
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {G} to transform Trystan?",
+            "mana": "{G}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {G}. If you do, transform Trystan."
+      }
+    ]
+  }
+}

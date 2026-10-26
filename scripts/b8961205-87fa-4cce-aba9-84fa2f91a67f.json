@@ -3,14 +3,14 @@
   "abilities": [
     {
       "trigger": "creatureCombatDamageToPlayer",
-      "batched": true,
       "effects": [
         {
           "counters": 1,
           "what": "self"
         }
       ],
-      "text": "Whenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent."
+      "text": "Whenever one or more creatures you control deal combat damage to a player, put a +1/+1 counter on Vincent.",
+      "batchedPerPlayer": true
     },
     {
       "trigger": "combatDamageToPlayer",

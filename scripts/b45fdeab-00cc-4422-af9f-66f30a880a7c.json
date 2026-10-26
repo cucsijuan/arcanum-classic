@@ -1,0 +1,14 @@
+{
+  "name": "Evolution Sage",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, proliferate."
+    }
+  ]
+}

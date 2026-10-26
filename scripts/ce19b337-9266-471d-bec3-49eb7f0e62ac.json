@@ -1,0 +1,31 @@
+{
+  "name": "Selfless Safewright",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "chooseType": true
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "chosenType": true,
+              "controller": "you",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose a creature type. Other permanents you control of that type gain hexproof and indestructible until end of turn."
+    }
+  ]
+}

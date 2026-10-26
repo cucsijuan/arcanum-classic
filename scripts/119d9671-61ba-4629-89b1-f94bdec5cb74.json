@@ -1,0 +1,15 @@
+{
+  "name": "Chimil, the Inner Sun",
+  "yourSpellsCantBeCountered": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "discover": 5
+        }
+      ],
+      "text": "At the beginning of your end step, discover 5."
+    }
+  ]
+}

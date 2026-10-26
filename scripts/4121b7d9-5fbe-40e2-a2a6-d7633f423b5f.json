@@ -1,0 +1,26 @@
+{
+  "name": "Nightmare Sower",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "when": {
+        "not": "yourTurn"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever you cast a spell during an opponent's turn, put a -1/-1 counter on up to one target creature."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Titan of Industry",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "modes": [
+        {
+          "text": "Destroy target artifact or enchantment.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              },
+              "text": "target artifact or enchantment"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target player gains 5 life.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "gainLife": 5,
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Create a 4/4 green Rhino Warrior creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Rhino Warrior",
+                "types": "Creature — Rhino Warrior",
+                "power": 4,
+                "toughness": 4,
+                "colors": [
+                  "G"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Put a shield counter on a creature you control.",
+          "effects": [
+            {
+              "choose": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "counters": 1,
+              "what": "chosen",
+              "kind": "shield"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose two —"
+    }
+  ]
+}

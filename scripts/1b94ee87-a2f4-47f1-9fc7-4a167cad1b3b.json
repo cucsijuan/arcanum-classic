@@ -1,0 +1,14 @@
+{
+  "name": "Shinestriker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": "colorsAmongYourPermanents"
+        }
+      ],
+      "text": "Vivid — When this creature enters, draw cards equal to the number of colors among permanents you control."
+    }
+  ]
+}

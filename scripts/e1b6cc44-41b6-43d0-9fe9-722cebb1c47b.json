@@ -1,0 +1,54 @@
+{
+  "name": "Liliana, Death Wielder",
+  "abilities": [
+    {
+      "cost": "+2",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "+2: Put a -1/-1 counter on up to one target creature."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "hasCounterKind": "-1/-1"
+          },
+          "text": "target creature with a -1/-1 counter on it"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "−3: Destroy target creature with a -1/-1 counter on it."
+    },
+    {
+      "cost": "-10",
+      "effects": [
+        {
+          "reanimateAll": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "−10: Return all creature cards from your graveyard to the battlefield."
+    }
+  ]
+}

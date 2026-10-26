@@ -1,0 +1,34 @@
+{
+  "name": "Champion of the Weird",
+  "additionalCost": {
+    "behold": {
+      "subtype": "Goblin"
+    },
+    "beholdExile": true
+  },
+  "abilities": [
+    {
+      "cost": "life:1, blight:2",
+      "sorcery": true,
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "blight": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Pay 1 life, Blight 2: Target opponent blights 2. Activate only as a sorcery."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnExiledWithThis": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, return the exiled card to its owner's hand."
+    }
+  ]
+}

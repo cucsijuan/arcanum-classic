@@ -1,0 +1,28 @@
+{
+  "name": "Kirol, Attentive First-Year",
+  "abilities": [
+    {
+      "cost": "tapPermanents:2",
+      "tapFilter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "oncePerTurn": true,
+      "targets": [
+        {
+          "kind": "ability",
+          "controller": "you",
+          "triggeredOnly": true,
+          "text": "target triggered ability you control"
+        }
+      ],
+      "effects": [
+        {
+          "copyAbility": "target"
+        }
+      ],
+      "text": "Tap two untapped creatures you control: Copy target triggered ability you control. You may choose new targets for the copy. Activate only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Morningtide's Light",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "anyNumber": true,
+        "optional": true,
+        "text": "any number of target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "eachTarget"
+      },
+      {
+        "atNextEndStepAbout": "exiled",
+        "effects": [
+          {
+            "reanimate": "triggered",
+            "tapped": true,
+            "ownerControl": true
+          }
+        ]
+      },
+      {
+        "preventDamage": "toYou",
+        "untilYourNextTurn": true
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Exile any number of target creatures. At the beginning of the next end step, return those cards to the battlefield tapped under their owners' control. Until your next turn, prevent all damage that would be dealt to you. Exile Morningtide's Light."
+  }
+}

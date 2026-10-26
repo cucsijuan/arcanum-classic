@@ -1,0 +1,37 @@
+{
+  "name": "Barbed Bloodletter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Wither"
+          ]
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control. That creature gains wither until end of turn."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ]
+      },
+      "text": "Equipped creature gets +1/+2."
+    }
+  ]
+}

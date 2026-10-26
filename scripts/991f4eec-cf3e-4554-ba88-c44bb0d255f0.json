@@ -1,0 +1,29 @@
+{
+  "name": "Tributary Vaulter",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "subtype": "Merfolk",
+            "other": true
+          },
+          "text": "another target Merfolk you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, another target Merfolk you control gets +2/+0 until end of turn."
+    }
+  ]
+}

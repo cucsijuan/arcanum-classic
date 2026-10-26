@@ -1,0 +1,24 @@
+{
+  "name": "Belonging",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create three 1/1 colorless Shapeshifter creature tokens with changeling."
+    }
+  ]
+}

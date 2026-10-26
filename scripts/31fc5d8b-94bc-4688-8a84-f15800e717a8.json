@@ -1,0 +1,105 @@
+{
+  "name": "Ashling, Rekindled // Ashling, Rimebound",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Ashling, Rekindled, you may discard a card. If you do, draw a card."
+    },
+    {
+      "trigger": "transforms",
+      "onSelf": true,
+      "filter": {
+        "name": "Ashling, Rekindled"
+      },
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Ashling, Rekindled, you may discard a card. If you do, draw a card."
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {U} to transform Ashling?",
+          "mana": "{U}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {U}. If you do, transform Ashling."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "trigger": "transforms",
+        "onSelf": true,
+        "filter": {
+          "name": "Ashling, Rimebound"
+        },
+        "effects": [
+          {
+            "addManaOneColor": 2,
+            "onlyFor": {
+              "minManaValue": 4
+            }
+          }
+        ],
+        "text": "Whenever this creature transforms into Ashling, Rimebound and at the beginning of your first main phase, add two mana of any one color. Spend this mana only to cast spells with mana value 4 or greater."
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "addManaOneColor": 2,
+            "onlyFor": {
+              "minManaValue": 4
+            }
+          }
+        ],
+        "text": "Whenever this creature transforms into Ashling, Rimebound and at the beginning of your first main phase, add two mana of any one color. Spend this mana only to cast spells with mana value 4 or greater."
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {R} to transform Ashling?",
+            "mana": "{R}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {R}. If you do, transform Ashling."
+      }
+    ]
+  }
+}

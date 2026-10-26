@@ -1,0 +1,28 @@
+{
+  "name": "Channeler Initiate",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "When this creature enters, put three -1/-1 counters on target creature you control."
+    },
+    {
+      "cost": "{T}, removeCounters:1:-1/-1",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Remove a -1/-1 counter from this creature: Add one mana of any color."
+    }
+  ]
+}

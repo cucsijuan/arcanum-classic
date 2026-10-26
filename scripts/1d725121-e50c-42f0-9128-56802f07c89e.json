@@ -1,0 +1,56 @@
+{
+  "name": "Selvala, Heart of the Wilds",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "other": true
+      },
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "powerGreaterThanEachOther": true
+            }
+          },
+          "then": [
+            {
+              "eachPlayer": [
+                {
+                  "may": "Draw a card?",
+                  "effects": [
+                    {
+                      "draw": 1
+                    }
+                  ]
+                }
+              ],
+              "who": "triggeredController"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature enters, its controller may draw a card if its power is greater than each other creature's power."
+    },
+    {
+      "cost": "{G}, {T}",
+      "effects": [
+        {
+          "addManaCombination": {
+            "greatestPowerAmong": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{G}, {T}: Add X mana in any combination of colors, where X is the greatest power among creatures you control."
+    }
+  ]
+}

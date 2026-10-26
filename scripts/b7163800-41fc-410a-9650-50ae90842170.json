@@ -1,0 +1,19 @@
+{
+  "name": "Gristle Glutton",
+  "abilities": [
+    {
+      "cost": "{T}, blight:1",
+      "effects": [
+        {
+          "discard": 1
+        },
+        {
+          "draw": {
+            "discarded": {}
+          }
+        }
+      ],
+      "text": "{T}, Blight 1: Discard a card. If you do, draw a card."
+    }
+  ]
+}

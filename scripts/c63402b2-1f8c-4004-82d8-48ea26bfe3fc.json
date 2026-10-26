@@ -1,0 +1,18 @@
+{
+  "name": "Shimmerwilds Growth",
+  "chooseOnEnter": "color",
+  "landManaBonus": "enchantedChosenColor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setChosenColor": true,
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Enchanted land is the chosen color."
+    }
+  ]
+}

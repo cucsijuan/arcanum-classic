@@ -1,0 +1,27 @@
+{
+  "name": "Archfiend of Ifnir",
+  "abilities": [
+    {
+      "trigger": "playerDiscards",
+      "when": "triggeredPlayerIsYou",
+      "filter": {
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cycle or discard another card, put a -1/-1 counter on each creature your opponents control."
+    }
+  ]
+}

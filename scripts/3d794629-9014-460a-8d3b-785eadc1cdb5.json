@@ -1,0 +1,28 @@
+{
+  "name": "Wickerbough Elder",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{G}, removeCounters:1:-1/-1",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{G}, Remove a -1/-1 counter from this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

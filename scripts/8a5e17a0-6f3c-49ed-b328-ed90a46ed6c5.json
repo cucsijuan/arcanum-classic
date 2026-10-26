@@ -1,0 +1,27 @@
+{
+  "name": "Burdened Stoneback",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{1}{W}, removeCounterFrom:self",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}{W}, Remove a counter from this creature: Target creature gains indestructible until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

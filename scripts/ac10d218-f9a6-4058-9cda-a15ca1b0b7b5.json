@@ -1,0 +1,25 @@
+{
+  "name": "Assassin's Trophy",
+  "spell": {
+    "targets": [
+      "permanent:opponent"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "to": "battlefield",
+        "who": "targetController",
+        "optional": true
+      }
+    ],
+    "text": "Destroy target permanent an opponent controls. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle."
+  }
+}

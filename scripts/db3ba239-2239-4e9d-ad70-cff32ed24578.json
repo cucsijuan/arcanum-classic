@@ -1,0 +1,31 @@
+{
+  "name": "Bark of Doran",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +0/+1."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "filter": {
+          "toughnessAbovePower": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Assigns damage by toughness"
+        ]
+      },
+      "text": "As long as equipped creature's toughness is greater than its power, it assigns combat damage equal to its toughness rather than its power."
+    }
+  ]
+}

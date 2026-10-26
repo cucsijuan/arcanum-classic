@@ -1,0 +1,53 @@
+{
+  "name": "Tend the Sprigs",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield",
+        "tapped": true
+      },
+      {
+        "if": {
+          "control": {
+            "anyOf": [
+              {
+                "types": [
+                  "land"
+                ]
+              },
+              {
+                "subtype": "Treefolk"
+              }
+            ]
+          },
+          "count": 7
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Treefolk",
+              "types": "Creature — Treefolk",
+              "power": 3,
+              "toughness": 4,
+              "colors": [
+                "G"
+              ],
+              "keywords": [
+                "Reach"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control seven or more lands and/or Treefolk, create a 3/4 green Treefolk creature token with reach."
+  }
+}

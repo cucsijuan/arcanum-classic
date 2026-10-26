@@ -1,0 +1,22 @@
+{
+  "name": "Faerie Macabre",
+  "abilities": [
+    {
+      "cost": "discardThis",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "upTo": 2,
+          "text": "up to two target cards from graveyards"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "eachTarget"
+        }
+      ],
+      "text": "Discard this card: Exile up to two target cards from graveyards."
+    }
+  ]
+}

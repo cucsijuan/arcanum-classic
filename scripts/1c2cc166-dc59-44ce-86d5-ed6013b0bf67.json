@@ -1,0 +1,27 @@
+{
+  "name": "Dusk Urchins",
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever this creature attacks or blocks, put a -1/-1 counter on it."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "draw": {
+            "counters": "-1/-1"
+          }
+        }
+      ],
+      "text": "When this creature dies, draw a card for each -1/-1 counter on it."
+    }
+  ]
+}

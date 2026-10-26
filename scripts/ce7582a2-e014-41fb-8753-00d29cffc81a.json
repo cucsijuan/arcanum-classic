@@ -1,0 +1,32 @@
+{
+  "name": "Lys Alana Dignitary",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "behold": {
+          "subtype": "Elf"
+        }
+      }
+    },
+    {
+      "mana": "{2}"
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "graveyard": 1,
+        "filter": {
+          "subtype": "Elf"
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{G}{G}"
+        }
+      ],
+      "text": "{T}: Add {G}{G}. Activate only if there is an Elf card in your graveyard."
+    }
+  ]
+}

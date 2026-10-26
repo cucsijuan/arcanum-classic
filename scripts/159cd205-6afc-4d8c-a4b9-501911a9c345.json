@@ -1,0 +1,39 @@
+{
+  "name": "Incremental Blight",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      "creature",
+      {
+        "kind": "creature",
+        "text": "another target creature"
+      },
+      {
+        "kind": "creature",
+        "text": "a third target creature"
+      }
+    ],
+    "effects": [
+      {
+        "simultaneously": [
+          {
+            "counters": 1,
+            "what": "target",
+            "kind": "-1/-1"
+          },
+          {
+            "counters": 2,
+            "what": "target2",
+            "kind": "-1/-1"
+          },
+          {
+            "counters": 3,
+            "what": "target3",
+            "kind": "-1/-1"
+          }
+        ]
+      }
+    ],
+    "text": "Put a -1/-1 counter on target creature, two -1/-1 counters on another target creature, and three -1/-1 counters on a third target creature."
+  }
+}

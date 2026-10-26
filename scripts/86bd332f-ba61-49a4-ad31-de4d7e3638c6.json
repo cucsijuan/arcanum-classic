@@ -1,0 +1,32 @@
+{
+  "name": "Shadow Urchin",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "blight": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, blight 1."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "hasCounters": true
+      },
+      "effects": [
+        {
+          "exileTopPlayable": "triggeredCounterCount",
+          "chooseOne": false,
+          "untilYourNextEndStep": true
+        }
+      ],
+      "text": "Whenever a creature you control with one or more counters on it dies, exile that many cards from the top of your library. Until your next end step, you may play those cards."
+    }
+  ]
+}

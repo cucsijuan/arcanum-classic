@@ -1,0 +1,29 @@
+{
+  "name": "Kinscaer Sentry",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "creature"
+            ]
+          },
+          "one": true,
+          "tapped": true,
+          "attacking": true,
+          "maxManaValue": {
+            "attacking": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, you may put a creature card with mana value X or less from your hand onto the battlefield tapped and attacking, where X is the number of attacking creatures you control."
+    }
+  ]
+}

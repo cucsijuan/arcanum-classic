@@ -1,0 +1,33 @@
+{
+  "name": "Loch Mare",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{1}{U}, removeCounterFrom:self",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{U}, Remove a counter from this creature: Draw a card."
+    },
+    {
+      "cost": "{2}{U}, removeCounterFrom:self:2",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "stun"
+        }
+      ],
+      "text": "{2}{U}, Remove two counters from this creature: Tap target creature. Put a stun counter on it."
+    }
+  ]
+}

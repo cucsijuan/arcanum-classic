@@ -1,0 +1,24 @@
+{
+  "name": "Gnarlbark Elm",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{2}{B}, removeCounterFrom:self:2",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -2,
+            -2
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}{B}, Remove two counters from this creature: Target creature gets -2/-2 until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

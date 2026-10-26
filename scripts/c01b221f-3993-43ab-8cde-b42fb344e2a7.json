@@ -1,0 +1,32 @@
+{
+  "name": "Sunderflock",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": {
+      "greatestManaValue": {
+        "subtype": "Elemental",
+        "controller": "you"
+      }
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "bounce": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "notSubtype": "Elemental",
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, if you cast it, return all non-Elemental creatures to their owners' hands."
+    }
+  ]
+}

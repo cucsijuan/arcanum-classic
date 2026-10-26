@@ -1,0 +1,40 @@
+{
+  "name": "Deepway Navigator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Merfolk",
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, untap each other Merfolk you control."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Merfolk",
+        "pump": [
+          1,
+          0
+        ],
+        "while": {
+          "attackedWith": 3,
+          "filter": {
+            "subtype": "Merfolk"
+          }
+        }
+      },
+      "text": "As long as you attacked with three or more Merfolk this turn, Merfolk you control get +1/+0."
+    }
+  ]
+}

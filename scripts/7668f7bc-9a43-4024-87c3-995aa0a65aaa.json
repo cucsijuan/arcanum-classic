@@ -1,0 +1,22 @@
+{
+  "name": "Encumbered Reejerey",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "when": {
+        "counters": 1,
+        "kind": "-1/-1"
+      },
+      "effects": [
+        {
+          "removeCounters": 1,
+          "what": "self",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped while it has a -1/-1 counter on it, remove a -1/-1 counter from it."
+    }
+  ]
+}

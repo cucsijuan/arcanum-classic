@@ -1,0 +1,55 @@
+{
+  "name": "Lluwen, Imperfect Naturalist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "creature",
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "top"
+        }
+      ],
+      "text": "When Lluwen enters, mill four cards, then you may put a creature or land card from among the milled cards on top of your library."
+    },
+    {
+      "cost": "{2}{B/G}{B/G}{B/G}, {T}, discard",
+      "discardFilter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": {
+            "graveyard": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "token": {
+            "name": "Worm",
+            "types": "Creature — Worm",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{B/G}{B/G}{B/G}, {T}, Discard a land card: Create a 1/1 black and green Worm creature token for each land card in your graveyard."
+    }
+  ]
+}

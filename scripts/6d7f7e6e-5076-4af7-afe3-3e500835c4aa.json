@@ -1,0 +1,35 @@
+{
+  "name": "Gravelgill Scoundrel",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Tap another untapped creature you control so this creature can't be blocked this turn?",
+          "cost": {
+            "tap": {
+              "types": [
+                "creature"
+              ],
+              "other": true
+            },
+            "tapCount": 1
+          },
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "self",
+              "keywords": [
+                "Can't be blocked"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may tap another untapped creature you control. If you do, this creature can't be blocked this turn."
+    }
+  ]
+}

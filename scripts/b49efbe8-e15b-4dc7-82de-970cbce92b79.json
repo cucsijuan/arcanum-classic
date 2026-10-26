@@ -1,0 +1,18 @@
+{
+  "name": "Noggle the Mind",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "setColors": [],
+        "setSubtypes": [
+          "Noggle"
+        ],
+        "setPower": 1,
+        "setToughness": 1
+      },
+      "text": "Enchanted creature loses all abilities and is a colorless Noggle with base power and toughness 1/1."
+    }
+  ]
+}

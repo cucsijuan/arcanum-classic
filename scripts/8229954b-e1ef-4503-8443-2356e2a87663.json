@@ -1,0 +1,49 @@
+{
+  "name": "Meanders Guide",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Tap another untapped Merfolk you control?",
+          "cost": {
+            "tap": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Merfolk",
+              "other": true
+            },
+            "tapCount": 1
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ],
+                      "maxManaValue": 3
+                    },
+                    "text": "target creature card with mana value 3 or less from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target"
+                  }
+                ],
+                "text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may tap another untapped Merfolk you control. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield."
+    }
+  ]
+}

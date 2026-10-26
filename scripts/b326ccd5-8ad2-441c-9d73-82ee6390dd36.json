@@ -1,0 +1,36 @@
+{
+  "name": "Champion of the Path",
+  "additionalCost": {
+    "behold": {
+      "subtype": "Elemental"
+    },
+    "beholdExile": true
+  },
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Elemental",
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": "triggeredPower",
+          "to": "opponents",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever another Elemental you control enters, it deals damage equal to its power to each opponent."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnExiledWithThis": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, return the exiled card to its owner's hand."
+    }
+  ]
+}

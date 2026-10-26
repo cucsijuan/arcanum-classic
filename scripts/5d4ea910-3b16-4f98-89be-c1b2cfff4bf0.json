@@ -1,0 +1,75 @@
+{
+  "name": "Figure of Fable",
+  "abilities": [
+    {
+      "cost": "{G/W}",
+      "effects": [
+        {
+          "become": "self",
+          "permanent": true,
+          "setSubtypes": [
+            "Kithkin",
+            "Scout"
+          ],
+          "power": 2,
+          "toughness": 3
+        }
+      ],
+      "text": "{G/W}: This creature becomes a Kithkin Scout with base power and toughness 2/3."
+    },
+    {
+      "cost": "{1}{G/W}{G/W}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Scout"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "permanent": true,
+              "setSubtypes": [
+                "Kithkin",
+                "Soldier"
+              ],
+              "power": 4,
+              "toughness": 5
+            }
+          ]
+        }
+      ],
+      "text": "{1}{G/W}{G/W}: If this creature is a Scout, it becomes a Kithkin Soldier with base power and toughness 4/5."
+    },
+    {
+      "cost": "{3}{G/W}{G/W}{G/W}",
+      "effects": [
+        {
+          "if": {
+            "sourceIs": {
+              "subtype": "Soldier"
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "permanent": true,
+              "setSubtypes": [
+                "Kithkin",
+                "Avatar"
+              ],
+              "power": 7,
+              "toughness": 8
+            },
+            {
+              "protectionFromOpponents": "self",
+              "permanent": true
+            }
+          ]
+        }
+      ],
+      "text": "{3}{G/W}{G/W}{G/W}: If this creature is a Soldier, it becomes a Kithkin Avatar with base power and toughness 7/8 and protection from each of your opponents."
+    }
+  ]
+}

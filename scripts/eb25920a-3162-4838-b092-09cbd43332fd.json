@@ -1,0 +1,27 @@
+{
+  "name": "Brambleback Brute",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "{1}{R}, removeCounterFrom:self",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "{1}{R}, Remove a counter from this creature: Target creature can't block this turn. Activate only as a sorcery."
+    }
+  ]
+}

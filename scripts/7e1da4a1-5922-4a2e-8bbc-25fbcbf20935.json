@@ -1,0 +1,58 @@
+{
+  "name": "Wanderwine Farewell",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      },
+      {
+        "kind": "permanent",
+        "optional": true,
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "a second target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "if": {
+          "control": {
+            "subtype": "Merfolk"
+          }
+        },
+        "then": [
+          {
+            "tokens": "returned",
+            "token": {
+              "name": "Merfolk",
+              "types": "Creature — Merfolk",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "W",
+                "U"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Return one or two target nonland permanents to their owners' hands. Then if you control a Merfolk, create a 1/1 white and blue Merfolk creature token for each permanent returned to its owner's hand this way."
+  }
+}

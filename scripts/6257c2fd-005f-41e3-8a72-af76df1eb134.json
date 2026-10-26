@@ -1,0 +1,15 @@
+{
+  "name": "Terminate",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy target creature. It can't be regenerated."
+  }
+}

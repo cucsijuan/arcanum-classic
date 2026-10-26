@@ -1,0 +1,27 @@
+{
+  "name": "Grim Poppet",
+  "entersWithCounters": 3,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "cost": "removeCounters:1:-1/-1",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Remove a -1/-1 counter from this creature: Put a -1/-1 counter on another target creature."
+    }
+  ]
+}

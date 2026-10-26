@@ -1,0 +1,28 @@
+{
+  "name": "Flamekin Village",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "subtype": "Elemental"
+  },
+  "abilities": [
+    {
+      "cost": "{R}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}, {T}: Target creature gains haste until end of turn."
+    }
+  ]
+}

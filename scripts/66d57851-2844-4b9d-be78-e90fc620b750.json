@@ -1,0 +1,41 @@
+{
+  "name": "Scarblade's Malice",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Deathtouch",
+          "Lifelink"
+        ]
+      },
+      {
+        "whenDiesThisTurn": "target",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Elf",
+              "types": "Creature — Elf",
+              "power": 2,
+              "toughness": 2,
+              "colors": [
+                "B",
+                "G"
+              ]
+            }
+          }
+        ],
+        "text": "When that creature dies this turn, create a 2/2 black and green Elf creature token."
+      }
+    ],
+    "text": "Target creature you control gains deathtouch and lifelink until end of turn. When that creature dies this turn, create a 2/2 black and green Elf creature token."
+  }
+}

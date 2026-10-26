@@ -1,0 +1,20 @@
+{
+  "name": "Boldwyr Aggressor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Giant",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Other Giants you control have double strike."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Meek Attack",
+  "abilities": [
+    {
+      "cost": "{1}{R}",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "creature"
+            ],
+            "maxPowerPlusToughness": 5
+          },
+          "one": true
+        },
+        {
+          "become": "enteredThisWay",
+          "keywords": [
+            "Haste"
+          ],
+          "permanent": true
+        },
+        {
+          "atNextEndStepAbout": "enteredThisWay",
+          "effects": [
+            {
+              "sacrificeIt": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "{1}{R}: You may put a creature card with total power and toughness 5 or less from your hand onto the battlefield. That creature gains haste. At the beginning of the next end step, sacrifice that creature."
+    }
+  ]
+}

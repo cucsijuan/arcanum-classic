@@ -1,0 +1,11 @@
+{
+  "name": "Jegantha, the Wellspring",
+  "companion": "NoRepeatedManaSymbols",
+  "extraMana": [
+    {
+      "types": "{W}{U}{B}{R}{G}",
+      "oneOfEach": true,
+      "cantPayGeneric": true
+    }
+  ]
+}

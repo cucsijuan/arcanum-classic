@@ -1,0 +1,21 @@
+{
+  "name": "Kinsbaile Cavalier",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Knight"
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      "text": "Knight creatures you control have double strike."
+    }
+  ]
+}

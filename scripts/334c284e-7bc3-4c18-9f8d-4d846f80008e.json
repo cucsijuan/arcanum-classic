@@ -1,0 +1,37 @@
+{
+  "name": "Haunting Voyage",
+  "spell": {
+    "effects": [
+      {
+        "chooseType": true
+      },
+      {
+        "if": "foretold",
+        "then": [
+          {
+            "reanimateAll": {
+              "types": [
+                "creature"
+              ],
+              "chosenType": true
+            }
+          }
+        ],
+        "else": [
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "creature"
+              ],
+              "chosenType": true
+            },
+            "count": 2,
+            "upTo": true,
+            "to": "battlefield"
+          }
+        ]
+      }
+    ],
+    "text": "Choose a creature type. Return up to two creature cards of that type from your graveyard to the battlefield. If this spell was foretold, return all creature cards of that type from your graveyard to the battlefield instead."
+  }
+}

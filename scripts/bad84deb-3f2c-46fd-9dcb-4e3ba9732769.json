@@ -1,0 +1,44 @@
+{
+  "name": "Rime Chill",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "colorsAmongYourPermanents"
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target",
+        "kind": "stun"
+      },
+      {
+        "tap": "target2"
+      },
+      {
+        "counters": 1,
+        "what": "target2",
+        "kind": "stun"
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Tap up to two target creatures. Put a stun counter on each of them. Draw a card."
+  }
+}

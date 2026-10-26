@@ -1,0 +1,19 @@
+{
+  "name": "Feisty Spikeling",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, this creature has first strike."
+    }
+  ]
+}

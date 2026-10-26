@@ -1,0 +1,17 @@
+{
+  "name": "Idyllic Tutor",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "reveal": true,
+        "to": "hand"
+      }
+    ],
+    "text": "Search your library for an enchantment card, reveal it, put it into your hand, then shuffle."
+  }
+}

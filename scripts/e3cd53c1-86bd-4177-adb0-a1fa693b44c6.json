@@ -1,0 +1,40 @@
+{
+  "name": "Auntie Ool, Cursewretch",
+  "wardCost": {
+    "blight": 2
+  },
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "-1/-1",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "controller": "you"
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "loseLife": 1,
+              "who": "triggeredController"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more -1/-1 counters are put on a creature, draw a card if you control that creature. If you don't control it, its controller loses 1 life."
+    }
+  ]
+}

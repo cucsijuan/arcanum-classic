@@ -1,0 +1,46 @@
+{
+  "name": "Bre of Clan Stoutarm",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{1}{W}, {T}: Another target creature you control gains flying and lifelink until end of turn."
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "gainedLife": 1
+      },
+      "effects": [
+        {
+          "discover": "lifeGained",
+          "anyNonland": true,
+          "restStaysExiled": true
+        }
+      ],
+      "text": "At the beginning of your end step, if you gained life this turn, exile cards from the top of your library until you exile a nonland card. You may cast that card without paying its mana cost if the spell's mana value is less than or equal to the amount of life you gained this turn. Otherwise, put it into your hand."
+    }
+  ]
+}

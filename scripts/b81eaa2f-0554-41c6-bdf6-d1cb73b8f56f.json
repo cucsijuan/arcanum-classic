@@ -1,0 +1,13 @@
+{
+  "name": "Realmwalker",
+  "chooseOnEnter": "creatureType",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {
+    "types": [
+      "creature"
+    ],
+    "chosenType": true
+  }
+}

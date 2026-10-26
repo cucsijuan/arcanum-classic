@@ -1,0 +1,35 @@
+{
+  "name": "Chronicle of Victory",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "chosenType": true
+        },
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "First strike",
+          "Trample"
+        ]
+      },
+      "text": "Creatures you control of the chosen type get +2/+2 and have first strike and trample."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "chosenType": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast a spell of the chosen type, draw a card."
+    }
+  ]
+}

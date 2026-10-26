@@ -110,6 +110,7 @@ ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARC
 ```
 
 `ARCANUM_MODULE_PATH` must be absolute. Fix every error it reports; its list of cards never cast shows what the decks never reach.
+A game still running after 30 s is reported with its turn, its event count and its last 12 events, which shows where it stalls.
 
 ## 10. Release
 

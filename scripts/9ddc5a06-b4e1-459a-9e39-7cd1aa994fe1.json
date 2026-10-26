@@ -1,0 +1,29 @@
+{
+  "name": "Helix Pinnacle",
+  "abilities": [
+    {
+      "cost": "{X}",
+      "effects": [
+        {
+          "counters": "X",
+          "kind": "tower",
+          "what": "self"
+        }
+      ],
+      "text": "{X}: Put X tower counters on this enchantment."
+    },
+    {
+      "trigger": "upkeep",
+      "if": {
+        "counters": 100,
+        "kind": "tower"
+      },
+      "effects": [
+        {
+          "winGame": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, if there are 100 or more tower counters on this enchantment, you win the game."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Kinbinding",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          {
+            "enteredThisTurn": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "enteredThisTurn": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Creatures you control get +X/+X, where X is the number of creatures that entered the battlefield under your control this turn."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a 1/1 green and white Kithkin creature token."
+    }
+  ]
+}

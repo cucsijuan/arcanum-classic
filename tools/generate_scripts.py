@@ -555,15 +555,15 @@ def effect(sentence, b):
                 spec["filter"] = {"other": True}
             out.append({"counters": num(m.group(1)), "what": b.add_target(spec)})
         return [{"simultaneously": out}]  # one event: "one or more counters" triggers see it once
-    m = re.fullmatch(r"Create (\w+) (\d+)/(\d+) ((?:white|blue|black|red|green|colorless)(?: and (?:white|blue|black|red|green))?) ([A-Z][a-z]+(?: [A-Z][a-z]+)*) (?:artifact )?creature tokens?(?: with (.+))?", s)
+    m = re.fullmatch(r"Create (\w+) (\d+)/(\d+) ((?:white|blue|black|red|green|colorless)(?: and (?:white|blue|black|red|green))?) ([A-Z][a-z]+(?: [A-Z][a-z]+)*) (artifact )?creature tokens?(?: with (.+))?", s)
     if m:
-        token = {"name": m.group(5), "types": "Creature — " + m.group(5), "power": int(m.group(2)), "toughness": int(m.group(3))}
+        token = {"name": m.group(5), "types": ("Artifact Creature — " if m.group(6) else "Creature — ") + m.group(5), "power": int(m.group(2)), "toughness": int(m.group(3))}
         letters = {"white": "W", "blue": "U", "black": "B", "red": "R", "green": "G"}
         colors = [letters[w] for w in m.group(4).split(" and ") if w in letters]
         if colors:
             token["colors"] = colors
-        if m.group(6):
-            token["keywords"] = keywords_list(m.group(6))
+        if m.group(7):
+            token["keywords"] = keywords_list(m.group(7))
         return [{"tokens": num(m.group(1)), "token": token}]
     raise Unsupported(s)
 
@@ -710,10 +710,12 @@ def parse_cost(cost):
             parts.append("sacrifice")
         elif re.fullmatch(r"(\{[0-9WUBRGCX]+\})+", raw):
             parts.append(raw)
-        elif raw in ("Sacrifice another creature", "Sacrifice a creature"):
+        elif raw == "Sacrifice another creature":
             parts.append("sacrifice:creature")
+        elif raw == "Sacrifice a creature":
+            parts.append("sacrificeAny:creature")  # the source may be the one sacrificed
         elif raw == "Sacrifice an artifact":
-            parts.append("sacrifice:artifact")
+            parts.append("sacrificeAny:artifact")
         elif raw == "Discard a card":
             parts.append("discard")
         elif re.fullmatch(r"Pay (\d+) life", raw):

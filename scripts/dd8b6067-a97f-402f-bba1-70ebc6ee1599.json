@@ -1,0 +1,26 @@
+{
+  "name": "Midnight Banshee",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "notColors": [
+                "B"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, put a -1/-1 counter on each nonblack creature."
+    }
+  ]
+}

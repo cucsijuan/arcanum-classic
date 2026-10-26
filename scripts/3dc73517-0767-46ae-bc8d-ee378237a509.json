@@ -1,0 +1,35 @@
+{
+  "name": "Rooftop Percher",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "optional": true,
+          "text": "up to two target cards from graveyards"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "optional": true,
+          "text": "up to two target cards from graveyards"
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "exile": "target2"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, exile up to two target cards from graveyards. You gain 3 life."
+    }
+  ]
+}

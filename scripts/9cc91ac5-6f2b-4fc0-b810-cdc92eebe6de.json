@@ -1,0 +1,143 @@
+{
+  "name": "Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Sygg can't be blocked."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayerOrPlaneswalker",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever this creature deals combat damage to a player or planeswalker, draw a card."
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Sygg, Wanderwine Wisdom, target creature gains \"Whenever this creature deals combat damage to a player or planeswalker, draw a card\" until end of turn.",
+      "targets": [
+        "creature"
+      ]
+    },
+    {
+      "trigger": "transforms",
+      "onSelf": true,
+      "filter": {
+        "name": "Sygg, Wanderwine Wisdom"
+      },
+      "effects": [
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayerOrPlaneswalker",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever this creature deals combat damage to a player or planeswalker, draw a card."
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or transforms into Sygg, Wanderwine Wisdom, target creature gains \"Whenever this creature deals combat damage to a player or planeswalker, draw a card\" until end of turn.",
+      "targets": [
+        "creature"
+      ]
+    },
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mayPay": "Pay {W} to transform Sygg?",
+          "mana": "{W}",
+          "effects": [
+            {
+              "transform": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, you may pay {W}. If you do, transform Sygg."
+    }
+  ],
+  "back": {
+    "abilities": [
+      {
+        "static": {
+          "affects": "self",
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Can't be blocked"
+          ]
+        },
+        "text": "Sygg can't be blocked."
+      },
+      {
+        "trigger": "transforms",
+        "onSelf": true,
+        "filter": {
+          "name": "Sygg, Wanderbrine Shield"
+        },
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Protection from white",
+              "Protection from blue",
+              "Protection from black",
+              "Protection from red",
+              "Protection from green"
+            ],
+            "untilYourNextTurn": true
+          }
+        ],
+        "text": "Whenever this creature transforms into Sygg, Wanderbrine Shield, target creature you control gains protection from each color until your next turn.",
+        "targets": [
+          "creature:you"
+        ]
+      },
+      {
+        "trigger": "precombatMain",
+        "effects": [
+          {
+            "mayPay": "Pay {U} to transform Sygg?",
+            "mana": "{U}",
+            "effects": [
+              {
+                "transform": "self"
+              }
+            ]
+          }
+        ],
+        "text": "At the beginning of your first main phase, you may pay {U}. If you do, transform Sygg."
+      }
+    ]
+  }
+}

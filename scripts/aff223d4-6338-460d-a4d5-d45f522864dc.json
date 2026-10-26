@@ -1,0 +1,55 @@
+{
+  "name": "The Scorpion God",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "hasCounterKind": "-1/-1"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature with a -1/-1 counter on it dies, draw a card."
+    },
+    {
+      "cost": "{1}{B}{R}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "{1}{B}{R}: Put a -1/-1 counter on another target creature."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "atNextEndStepAbout": "self",
+          "effects": [
+            {
+              "bounce": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "When The Scorpion God dies, return it to its owner's hand at the beginning of the next end step."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Mornsong Aria",
+  "playersCantDraw": true,
+  "playersCantGainLife": true,
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "triggeredPlayer"
+        },
+        {
+          "search": {},
+          "count": 1,
+          "to": "hand",
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each player's draw step, that player loses 3 life, searches their library for a card, puts it into their hand, then shuffles."
+    }
+  ]
+}

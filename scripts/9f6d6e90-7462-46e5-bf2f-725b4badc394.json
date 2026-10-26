@@ -1,0 +1,79 @@
+{
+  "name": "Gathering Stone",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "chosenType": true
+        },
+        "amount": 1
+      },
+      "text": "Spells you cast of the chosen type cost {1} less to cast."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 1,
+          "take": 1,
+          "filter": {
+            "chosenType": true
+          },
+          "reveal": true,
+          "to": "hand",
+          "rest": "top"
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": "foundThisWay",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "lookAtTop": 1,
+              "take": 1,
+              "to": "graveyard",
+              "rest": "top"
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters and at the beginning of your upkeep, look at the top card of your library. If it's a card of the chosen type, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "lookAtTop": 1,
+          "take": 1,
+          "filter": {
+            "chosenType": true
+          },
+          "reveal": true,
+          "to": "hand",
+          "rest": "top"
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": "foundThisWay",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "lookAtTop": 1,
+              "take": 1,
+              "to": "graveyard",
+              "rest": "top"
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters and at the beginning of your upkeep, look at the top card of your library. If it's a card of the chosen type, you may reveal it and put it into your hand. If you don't put the card into your hand, you may put it into your graveyard."
+    }
+  ]
+}

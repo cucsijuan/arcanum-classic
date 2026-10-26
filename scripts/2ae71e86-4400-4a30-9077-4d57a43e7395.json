@@ -1,0 +1,98 @@
+{
+  "name": "Risen Reef",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "if": {
+            "topOfLibrary": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "then": [
+            {
+              "may": "Put the land card on top of your library onto the battlefield tapped? (Otherwise it goes into your hand.)",
+              "effects": [
+                {
+                  "lookAtTop": 1,
+                  "filter": {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  "take": 1,
+                  "to": "battlefield",
+                  "tapped": true,
+                  "rest": "top"
+                }
+              ],
+              "else": [
+                {
+                  "topCardToHand": "you"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "topCardToHand": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another Elemental you control enters, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Elemental",
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "if": {
+            "topOfLibrary": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "then": [
+            {
+              "may": "Put the land card on top of your library onto the battlefield tapped? (Otherwise it goes into your hand.)",
+              "effects": [
+                {
+                  "lookAtTop": 1,
+                  "filter": {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  "take": 1,
+                  "to": "battlefield",
+                  "tapped": true,
+                  "rest": "top"
+                }
+              ],
+              "else": [
+                {
+                  "topCardToHand": "you"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "topCardToHand": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another Elemental you control enters, look at the top card of your library. If it's a land card, you may put it onto the battlefield tapped. If you don't put the card onto the battlefield, put it into your hand."
+    }
+  ]
+}

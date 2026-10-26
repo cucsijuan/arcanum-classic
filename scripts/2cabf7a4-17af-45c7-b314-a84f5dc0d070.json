@@ -1,0 +1,42 @@
+{
+  "name": "Dawnhand Dissident",
+  "castExiledWithThis": {
+    "filter": {
+      "types": [
+        "creature"
+      ]
+    },
+    "yourTurn": true,
+    "extra": {
+      "removeCountersFromCreatures": 3
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{T}, blight:1",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "{T}, Blight 1: Surveil 1."
+    },
+    {
+      "cost": "{T}, blight:2",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "{T}, Blight 2: Exile target card from a graveyard."
+    }
+  ]
+}

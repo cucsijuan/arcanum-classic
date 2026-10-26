@@ -1,0 +1,29 @@
+{
+  "name": "Bristlebane Battler",
+  "entersWithCounters": 5,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "when": {
+        "counters": 1,
+        "kind": "-1/-1"
+      },
+      "effects": [
+        {
+          "removeCounters": 1,
+          "what": "self",
+          "kind": "-1/-1"
+        }
+      ],
+      "text": "Whenever another creature you control enters while this creature has a -1/-1 counter on it, remove a -1/-1 counter from this creature."
+    }
+  ]
+}

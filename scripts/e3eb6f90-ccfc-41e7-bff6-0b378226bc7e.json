@@ -1,0 +1,34 @@
+{
+  "name": "Abundant Countryside",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "creature"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{6}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "{6}, {T}: Create a 1/1 colorless Shapeshifter creature token with changeling."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Champion of the Clachan",
+  "additionalCost": {
+    "behold": {
+      "subtype": "Kithkin"
+    },
+    "beholdExile": true
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Kithkin",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Kithkin you control get +1/+1."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnExiledWithThis": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, return the exiled card to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,1758 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "ecl",
+ "format": "PremierDraft",
+ "games": 536566,
+ "mean": 0.5599,
+ "sd": 0.0371,
+ "cards": {
+  "Abigale, Eloquent First-Year": {
+   "gih": 0.5819,
+   "games": 10887,
+   "ata": 1.73,
+   "picks": 3937
+  },
+  "Adept Watershaper": {
+   "gih": 0.579,
+   "games": 9848,
+   "ata": 2.31,
+   "picks": 3643
+  },
+  "Ajani, Outland Chaperone": {
+   "gih": 0.6087,
+   "games": 5448,
+   "ata": 1.54,
+   "picks": 1802
+  },
+  "Appeal to Eirdu": {
+   "gih": 0.506,
+   "games": 5217,
+   "ata": 11.26,
+   "picks": 24923
+  },
+  "Aquitect's Defenses": {
+   "gih": 0.5397,
+   "games": 12612,
+   "ata": 10.45,
+   "picks": 27072
+  },
+  "Ashling's Command": {
+   "gih": 0.6666,
+   "games": 13544,
+   "ata": 2.51,
+   "picks": 4872
+  },
+  "Ashling, Rekindled": {
+   "gih": 0.6049,
+   "games": 10634,
+   "ata": 3.03,
+   "picks": 4413
+  },
+  "Assert Perfection": {
+   "gih": 0.5863,
+   "games": 63773,
+   "ata": 4.85,
+   "picks": 35660
+  },
+  "Auntie's Sentence": {
+   "gih": 0.5394,
+   "games": 26662,
+   "ata": 8.47,
+   "picks": 24763
+  },
+  "Aurora Awakener": {
+   "gih": 0.6076,
+   "games": 6694,
+   "ata": 1.71,
+   "picks": 2305
+  },
+  "Barbed Bloodletter": {
+   "gih": 0.5369,
+   "games": 9891,
+   "ata": 10.74,
+   "picks": 25448
+  },
+  "Bark of Doran": {
+   "gih": 0.5123,
+   "games": 2850,
+   "ata": 10.48,
+   "picks": 10205
+  },
+  "Bile-Vial Boggart": {
+   "gih": 0.5288,
+   "games": 20208,
+   "ata": 9.48,
+   "picks": 24153
+  },
+  "Bitterbloom Bearer": {
+   "gih": 0.5807,
+   "games": 4944,
+   "ata": 1.89,
+   "picks": 1867
+  },
+  "Bitterblossom": {
+   "gih": 0.5766,
+   "games": 496,
+   "ata": 1.81,
+   "picks": 183
+  },
+  "Blight Rot": {
+   "gih": 0.5593,
+   "games": 49977,
+   "ata": 4.71,
+   "picks": 27782
+  },
+  "Blighted Blackthorn": {
+   "gih": 0.5058,
+   "games": 14749,
+   "ata": 9.87,
+   "picks": 25540
+  },
+  "Blood Crypt": {
+   "gih": 0.5286,
+   "games": 5000,
+   "ata": 5.75,
+   "picks": 4153
+  },
+  "Bloodline Bidding": {
+   "gih": 0.5929,
+   "games": 9047,
+   "ata": 3.39,
+   "picks": 4425
+  },
+  "Bloom Tender": {
+   "gih": 0.5463,
+   "games": 4287,
+   "ata": 2.37,
+   "picks": 1936
+  },
+  "Blossombind": {
+   "gih": 0.5553,
+   "games": 56341,
+   "ata": 6.03,
+   "picks": 32298
+  },
+  "Blossoming Defense": {
+   "gih": 0.5652,
+   "games": 19953,
+   "ata": 6.08,
+   "picks": 11898
+  },
+  "Boggart Cursecrafter": {
+   "gih": 0.5722,
+   "games": 16030,
+   "ata": 5.28,
+   "picks": 10992
+  },
+  "Boggart Mischief": {
+   "gih": 0.5653,
+   "games": 15394,
+   "ata": 5.07,
+   "picks": 10471
+  },
+  "Boggart Prankster": {
+   "gih": 0.5294,
+   "games": 21242,
+   "ata": 9.81,
+   "picks": 25991
+  },
+  "Bogslither's Embrace": {
+   "gih": 0.5641,
+   "games": 52800,
+   "ata": 4.78,
+   "picks": 29525
+  },
+  "Boldwyr Aggressor": {
+   "gih": 0.5285,
+   "games": 5203,
+   "ata": 9.14,
+   "picks": 9571
+  },
+  "Boneclub Berserker": {
+   "gih": 0.5133,
+   "games": 12927,
+   "ata": 10.71,
+   "picks": 23903
+  },
+  "Boulder Dash": {
+   "gih": 0.561,
+   "games": 22821,
+   "ata": 4.86,
+   "picks": 12214
+  },
+  "Brambleback Brute": {
+   "gih": 0.5312,
+   "games": 16497,
+   "ata": 10.04,
+   "picks": 25896
+  },
+  "Bre of Clan Stoutarm": {
+   "gih": 0.5633,
+   "games": 7728,
+   "ata": 2.91,
+   "picks": 3930
+  },
+  "Brigid's Command": {
+   "gih": 0.6065,
+   "games": 7692,
+   "ata": 3.22,
+   "picks": 3803
+  },
+  "Brigid, Clachan's Heart": {
+   "gih": 0.6152,
+   "games": 9567,
+   "ata": 2.35,
+   "picks": 3628
+  },
+  "Bristlebane Battler": {
+   "gih": 0.6014,
+   "games": 10029,
+   "ata": 2.06,
+   "picks": 3657
+  },
+  "Bristlebane Outrider": {
+   "gih": 0.5663,
+   "games": 16973,
+   "ata": 5.55,
+   "picks": 11164
+  },
+  "Burdened Stoneback": {
+   "gih": 0.5343,
+   "games": 12627,
+   "ata": 5.95,
+   "picks": 9085
+  },
+  "Burning Curiosity": {
+   "gih": 0.5216,
+   "games": 20006,
+   "ata": 10.23,
+   "picks": 30280
+  },
+  "Catharsis": {
+   "gih": 0.531,
+   "games": 4034,
+   "ata": 2.15,
+   "picks": 1867
+  },
+  "Celestial Reunion": {
+   "gih": 0.538,
+   "games": 1963,
+   "ata": 4.75,
+   "picks": 1813
+  },
+  "Champion of the Clachan": {
+   "gih": 0.5636,
+   "games": 6865,
+   "ata": 3.2,
+   "picks": 3372
+  },
+  "Champion of the Path": {
+   "gih": 0.545,
+   "games": 8178,
+   "ata": 3.59,
+   "picks": 3896
+  },
+  "Champion of the Weird": {
+   "gih": 0.5982,
+   "games": 7472,
+   "ata": 3.32,
+   "picks": 3705
+  },
+  "Champions of the Perfect": {
+   "gih": 0.6126,
+   "games": 10178,
+   "ata": 2.14,
+   "picks": 3703
+  },
+  "Champions of the Shoal": {
+   "gih": 0.6277,
+   "games": 10489,
+   "ata": 2.81,
+   "picks": 4114
+  },
+  "Changeling Wayfinder": {
+   "gih": 0.5405,
+   "games": 50376,
+   "ata": 6.32,
+   "picks": 32352
+  },
+  "Chaos Spewer": {
+   "gih": 0.5113,
+   "games": 19231,
+   "ata": 9.52,
+   "picks": 24080
+  },
+  "Chitinous Graspling": {
+   "gih": 0.5173,
+   "games": 26442,
+   "ata": 8.61,
+   "picks": 26868
+  },
+  "Chomping Changeling": {
+   "gih": 0.5011,
+   "games": 9917,
+   "ata": 6.86,
+   "picks": 8397
+  },
+  "Chronicle of Victory": {
+   "gih": 0.6396,
+   "games": 7323,
+   "ata": 1.21,
+   "picks": 2170
+  },
+  "Cinder Strike": {
+   "gih": 0.5615,
+   "games": 62067,
+   "ata": 5.02,
+   "picks": 35222
+  },
+  "Clachan Festival": {
+   "gih": 0.5754,
+   "games": 17773,
+   "ata": 4.67,
+   "picks": 10611
+  },
+  "Collective Inferno": {
+   "gih": 0.4947,
+   "games": 3119,
+   "ata": 6.16,
+   "picks": 3259
+  },
+  "Creakwood Safewright": {
+   "gih": 0.578,
+   "games": 22239,
+   "ata": 4.36,
+   "picks": 12223
+  },
+  "Crib Swap": {
+   "gih": 0.504,
+   "games": 4940,
+   "ata": 8.31,
+   "picks": 6349
+  },
+  "Crossroads Watcher": {
+   "gih": 0.5598,
+   "games": 32827,
+   "ata": 8.19,
+   "picks": 28517
+  },
+  "Curious Colossus": {
+   "gih": 0.6305,
+   "games": 5968,
+   "ata": 1.81,
+   "picks": 2145
+  },
+  "Darkness Descends": {
+   "gih": 0.4852,
+   "games": 2966,
+   "ata": 9.54,
+   "picks": 8417
+  },
+  "Dawn's Light Archer": {
+   "gih": 0.5553,
+   "games": 35190,
+   "ata": 8.44,
+   "picks": 28747
+  },
+  "Dawn-Blessed Pennant": {
+   "gih": 0.546,
+   "games": 12367,
+   "ata": 7.15,
+   "picks": 10650
+  },
+  "Dawnhand Dissident": {
+   "gih": 0.5917,
+   "games": 11061,
+   "ata": 2.54,
+   "picks": 4483
+  },
+  "Dawnhand Eulogist": {
+   "gih": 0.5831,
+   "games": 46373,
+   "ata": 7.1,
+   "picks": 34074
+  },
+  "Deceit": {
+   "gih": 0.5932,
+   "games": 5924,
+   "ata": 1.77,
+   "picks": 2177
+  },
+  "Deepchannel Duelist": {
+   "gih": 0.63,
+   "games": 23799,
+   "ata": 4.19,
+   "picks": 12803
+  },
+  "Deepway Navigator": {
+   "gih": 0.57,
+   "games": 7944,
+   "ata": 3.95,
+   "picks": 4093
+  },
+  "Devoted Druid": {
+   "gih": 0.5141,
+   "games": 389,
+   "ata": 4.58,
+   "picks": 225
+  },
+  "Disruptor of Currents": {
+   "gih": 0.6185,
+   "games": 12549,
+   "ata": 2.54,
+   "picks": 4792
+  },
+  "Dolmen Gate": {
+   "gih": 0.4667,
+   "games": 165,
+   "ata": 4.09,
+   "picks": 121
+  },
+  "Door of Destinies": {
+   "gih": 0.536,
+   "games": 403,
+   "ata": 1.98,
+   "picks": 180
+  },
+  "Doran, Besieged by Time": {
+   "gih": 0.5813,
+   "games": 6384,
+   "ata": 3.73,
+   "picks": 3973
+  },
+  "Dose of Dawnglow": {
+   "gih": 0.5125,
+   "games": 7629,
+   "ata": 8.28,
+   "picks": 9375
+  },
+  "Dream Harvest": {
+   "gih": 0.5091,
+   "games": 4272,
+   "ata": 5.49,
+   "picks": 3649
+  },
+  "Dream Seizer": {
+   "gih": 0.5157,
+   "games": 13945,
+   "ata": 9.87,
+   "picks": 25601
+  },
+  "Dundoolin Weaver": {
+   "gih": 0.563,
+   "games": 24332,
+   "ata": 4.19,
+   "picks": 12741
+  },
+  "Eclipsed Boggart": {
+   "gih": 0.5874,
+   "games": 16821,
+   "ata": 5.59,
+   "picks": 11910
+  },
+  "Eclipsed Elf": {
+   "gih": 0.6306,
+   "games": 25815,
+   "ata": 3.79,
+   "picks": 13088
+  },
+  "Eclipsed Flamekin": {
+   "gih": 0.5965,
+   "games": 27812,
+   "ata": 4.56,
+   "picks": 14615
+  },
+  "Eclipsed Kithkin": {
+   "gih": 0.6255,
+   "games": 22390,
+   "ata": 4.08,
+   "picks": 12433
+  },
+  "Eclipsed Merrow": {
+   "gih": 0.6186,
+   "games": 24809,
+   "ata": 4.47,
+   "picks": 13931
+  },
+  "Eclipsed Realms": {
+   "gih": 0.5463,
+   "games": 13043,
+   "ata": 7.96,
+   "picks": 8770
+  },
+  "Eirdu, Carrier of Dawn": {
+   "gih": 0.6153,
+   "games": 5737,
+   "ata": 1.49,
+   "picks": 1924
+  },
+  "Elder Auntie": {
+   "gih": 0.5273,
+   "games": 22540,
+   "ata": 9.41,
+   "picks": 26604
+  },
+  "Emptiness": {
+   "gih": 0.5748,
+   "games": 5259,
+   "ata": 1.68,
+   "picks": 1988
+  },
+  "Encumbered Reejerey": {
+   "gih": 0.5687,
+   "games": 21772,
+   "ata": 4.24,
+   "picks": 11628
+  },
+  "End-Blaze Epiphany": {
+   "gih": 0.6059,
+   "games": 12600,
+   "ata": 2.79,
+   "picks": 5146
+  },
+  "Enraged Flamecaster": {
+   "gih": 0.535,
+   "games": 22303,
+   "ata": 9.56,
+   "picks": 25363
+  },
+  "Evershrike's Gift": {
+   "gih": 0.5412,
+   "games": 8756,
+   "ata": 8.19,
+   "picks": 9572
+  },
+  "Evolving Wilds": {
+   "gih": 0.5505,
+   "games": 69107,
+   "ata": 6.4,
+   "picks": 34478
+  },
+  "Explosive Prodigy": {
+   "gih": 0.5851,
+   "games": 28075,
+   "ata": 4.16,
+   "picks": 14272
+  },
+  "Faerie Macabre": {
+   "gih": 0.4839,
+   "games": 31,
+   "ata": 9.6,
+   "picks": 231
+  },
+  "Feed the Flames": {
+   "gih": 0.5512,
+   "games": 50656,
+   "ata": 6.38,
+   "picks": 30392
+  },
+  "Feisty Spikeling": {
+   "gih": 0.5166,
+   "games": 34224,
+   "ata": 7.96,
+   "picks": 27200
+  },
+  "Figure of Fable": {
+   "gih": 0.6408,
+   "games": 12879,
+   "ata": 1.61,
+   "picks": 4028
+  },
+  "Firdoch Core": {
+   "gih": 0.5154,
+   "games": 14753,
+   "ata": 9.7,
+   "picks": 23812
+  },
+  "Flame-Chain Mauler": {
+   "gih": 0.5395,
+   "games": 32019,
+   "ata": 9.23,
+   "picks": 30222
+  },
+  "Flamebraider": {
+   "gih": 0.5903,
+   "games": 26790,
+   "ata": 4.6,
+   "picks": 14330
+  },
+  "Flamekin Gildweaver": {
+   "gih": 0.5664,
+   "games": 47087,
+   "ata": 7.82,
+   "picks": 34680
+  },
+  "Flaring Cinder": {
+   "gih": 0.5561,
+   "games": 40926,
+   "ata": 8.36,
+   "picks": 32866
+  },
+  "Flitterwing Nuisance": {
+   "gih": 0.605,
+   "games": 11315,
+   "ata": 2.57,
+   "picks": 4447
+  },
+  "Flock Impostor": {
+   "gih": 0.5534,
+   "games": 19018,
+   "ata": 4.89,
+   "picks": 10646
+  },
+  "Foraging Wickermaw": {
+   "gih": 0.5397,
+   "games": 42950,
+   "ata": 8.28,
+   "picks": 36013
+  },
+  "Forest": {
+   "gih": 0.5561,
+   "games": 257132
+  },
+  "Formidable Speaker": {
+   "gih": 0.5784,
+   "games": 9622,
+   "ata": 2.12,
+   "picks": 3718
+  },
+  "Gallant Fowlknight": {
+   "gih": 0.5513,
+   "games": 24052,
+   "ata": 9.18,
+   "picks": 25659
+  },
+  "Gangly Stompling": {
+   "gih": 0.5439,
+   "games": 41994,
+   "ata": 7.73,
+   "picks": 30235
+  },
+  "Gathering Stone": {
+   "gih": 0.5888,
+   "games": 30587,
+   "ata": 4.2,
+   "picks": 15058
+  },
+  "Giantfall": {
+   "gih": 0.5433,
+   "games": 14774,
+   "ata": 6.32,
+   "picks": 10403
+  },
+  "Gilt-Leaf's Embrace": {
+   "gih": 0.5527,
+   "games": 24547,
+   "ata": 9.66,
+   "picks": 27506
+  },
+  "Glamer Gifter": {
+   "gih": 0.5689,
+   "games": 24751,
+   "ata": 4.83,
+   "picks": 13432
+  },
+  "Glamermite": {
+   "gih": 0.5392,
+   "games": 18485,
+   "ata": 9.49,
+   "picks": 27053
+  },
+  "Glen Elendra Guardian": {
+   "gih": 0.5662,
+   "games": 10834,
+   "ata": 2.6,
+   "picks": 4441
+  },
+  "Glen Elendra's Answer": {
+   "gih": 0.5895,
+   "games": 5096,
+   "ata": 4.61,
+   "picks": 3094
+  },
+  "Glister Bairn": {
+   "gih": 0.5284,
+   "games": 11235,
+   "ata": 6.98,
+   "picks": 9895
+  },
+  "Gloom Ripper": {
+   "gih": 0.6642,
+   "games": 11147,
+   "ata": 2.53,
+   "picks": 4119
+  },
+  "Gnarlbark Elm": {
+   "gih": 0.5445,
+   "games": 15819,
+   "ata": 5.07,
+   "picks": 9883
+  },
+  "Goatnap": {
+   "gih": 0.4912,
+   "games": 1075,
+   "ata": 11.07,
+   "picks": 9309
+  },
+  "Goblin Chieftain": {
+   "gih": 0.5637,
+   "games": 314,
+   "ata": 4.41,
+   "picks": 190
+  },
+  "Goblin Sharpshooter": {
+   "gih": 0.6086,
+   "games": 608,
+   "ata": 3.63,
+   "picks": 268
+  },
+  "Goldmeadow Nomad": {
+   "gih": 0.5343,
+   "games": 18455,
+   "ata": 9.55,
+   "picks": 24469
+  },
+  "Goliath Daydreamer": {
+   "gih": 0.5537,
+   "games": 9755,
+   "ata": 2.9,
+   "picks": 4291
+  },
+  "Gravelgill Scoundrel": {
+   "gih": 0.5659,
+   "games": 38064,
+   "ata": 8.47,
+   "picks": 32142
+  },
+  "Graveshifter": {
+   "gih": 0.5434,
+   "games": 21950,
+   "ata": 4.05,
+   "picks": 11668
+  },
+  "Great Forest Druid": {
+   "gih": 0.5458,
+   "games": 37398,
+   "ata": 6.49,
+   "picks": 27313
+  },
+  "Gristle Glutton": {
+   "gih": 0.5426,
+   "games": 38609,
+   "ata": 8.63,
+   "picks": 33408
+  },
+  "Grub's Command": {
+   "gih": 0.6252,
+   "games": 8632,
+   "ata": 3.55,
+   "picks": 4320
+  },
+  "Grub, Storied Matriarch": {
+   "gih": 0.5872,
+   "games": 6923,
+   "ata": 3.71,
+   "picks": 3762
+  },
+  "Gutsplitter Gang": {
+   "gih": 0.5195,
+   "games": 10176,
+   "ata": 7.39,
+   "picks": 9330
+  },
+  "Hallowed Fountain": {
+   "gih": 0.533,
+   "games": 6409,
+   "ata": 5.29,
+   "picks": 4267
+  },
+  "Harmonized Crescendo": {
+   "gih": 0.5351,
+   "games": 6304,
+   "ata": 4.84,
+   "picks": 4051
+  },
+  "Heat Shimmer": {
+   "gih": 0.5238,
+   "games": 84,
+   "ata": 8.02,
+   "picks": 198
+  },
+  "Heirloom Auntie": {
+   "gih": 0.4907,
+   "games": 15488,
+   "ata": 9.95,
+   "picks": 23098
+  },
+  "Helix Pinnacle": {
+   "gih": 0.0,
+   "games": 1,
+   "ata": 9.3,
+   "picks": 186
+  },
+  "Hexing Squelcher": {
+   "gih": 0.5072,
+   "games": 5181,
+   "ata": 4.03,
+   "picks": 2996
+  },
+  "High Perfect Morcant": {
+   "gih": 0.6201,
+   "games": 9847,
+   "ata": 2.48,
+   "picks": 3618
+  },
+  "Hovel Hurler": {
+   "gih": 0.5366,
+   "games": 16469,
+   "ata": 5.0,
+   "picks": 10038
+  },
+  "Idyllic Tutor": {
+   "gih": 0.4118,
+   "games": 17,
+   "ata": 8.03,
+   "picks": 177
+  },
+  "Illusion Spinners": {
+   "gih": 0.5192,
+   "games": 5921,
+   "ata": 8.55,
+   "picks": 9346
+  },
+  "Impolite Entrance": {
+   "gih": 0.4462,
+   "games": 1858,
+   "ata": 10.66,
+   "picks": 9433
+  },
+  "Iron-Shield Elf": {
+   "gih": 0.583,
+   "games": 22566,
+   "ata": 4.84,
+   "picks": 12852
+  },
+  "Island": {
+   "gih": 0.5519,
+   "games": 244880
+  },
+  "Keep Out": {
+   "gih": 0.5317,
+   "games": 27529,
+   "ata": 7.71,
+   "picks": 22314
+  },
+  "Kinbinding": {
+   "gih": 0.6472,
+   "games": 12276,
+   "ata": 1.86,
+   "picks": 4206
+  },
+  "Kindle the Inner Flame": {
+   "gih": 0.5524,
+   "games": 10295,
+   "ata": 8.57,
+   "picks": 11682
+  },
+  "Kinsbaile Aspirant": {
+   "gih": 0.588,
+   "games": 16609,
+   "ata": 5.33,
+   "picks": 11383
+  },
+  "Kinsbaile Cavalier": {
+   "gih": 0.5725,
+   "games": 255,
+   "ata": 5.08,
+   "picks": 200
+  },
+  "Kinscaer Sentry": {
+   "gih": 0.5903,
+   "games": 8923,
+   "ata": 2.4,
+   "picks": 3596
+  },
+  "Kirol, Attentive First-Year": {
+   "gih": 0.5338,
+   "games": 8884,
+   "ata": 3.35,
+   "picks": 4530
+  },
+  "Kithkeeper": {
+   "gih": 0.5403,
+   "games": 12581,
+   "ata": 7.1,
+   "picks": 11672
+  },
+  "Kulrath Mystic": {
+   "gih": 0.5434,
+   "games": 21824,
+   "ata": 10.0,
+   "picks": 29478
+  },
+  "Kulrath Zealot": {
+   "gih": 0.5668,
+   "games": 55224,
+   "ata": 6.98,
+   "picks": 35637
+  },
+  "Lasting Tarfire": {
+   "gih": 0.4745,
+   "games": 6790,
+   "ata": 9.27,
+   "picks": 10132
+  },
+  "Lavaleaper": {
+   "gih": 0.4725,
+   "games": 781,
+   "ata": 8.24,
+   "picks": 3317
+  },
+  "Leaf-Crowned Visionary": {
+   "gih": 0.5885,
+   "games": 520,
+   "ata": 2.69,
+   "picks": 204
+  },
+  "Liminal Hold": {
+   "gih": 0.5622,
+   "games": 53541,
+   "ata": 4.71,
+   "picks": 30310
+  },
+  "Lluwen, Imperfect Naturalist": {
+   "gih": 0.5951,
+   "games": 10455,
+   "ata": 2.53,
+   "picks": 4127
+  },
+  "Loch Mare": {
+   "gih": 0.6207,
+   "games": 7227,
+   "ata": 1.79,
+   "picks": 2402
+  },
+  "Lofty Dreams": {
+   "gih": 0.5555,
+   "games": 15848,
+   "ata": 6.78,
+   "picks": 11962
+  },
+  "Luminollusk": {
+   "gih": 0.5185,
+   "games": 8906,
+   "ata": 8.04,
+   "picks": 10168
+  },
+  "Lys Alana Dignitary": {
+   "gih": 0.5814,
+   "games": 21954,
+   "ata": 4.87,
+   "picks": 12682
+  },
+  "Lys Alana Informant": {
+   "gih": 0.5755,
+   "games": 54750,
+   "ata": 6.44,
+   "picks": 33615
+  },
+  "Manamorphose": {
+   "gih": 0.5,
+   "games": 224,
+   "ata": 7.13,
+   "picks": 212
+  },
+  "Maralen, Fae Ascendant": {
+   "gih": 0.6092,
+   "games": 9377,
+   "ata": 2.67,
+   "picks": 3939
+  },
+  "Meanders Guide": {
+   "gih": 0.5433,
+   "games": 14739,
+   "ata": 5.91,
+   "picks": 9934
+  },
+  "Meek Attack": {
+   "gih": 0.325,
+   "games": 40,
+   "ata": 8.37,
+   "picks": 2156
+  },
+  "Merrow Skyswimmer": {
+   "gih": 0.5714,
+   "games": 57137,
+   "ata": 5.93,
+   "picks": 36109
+  },
+  "Midnight Tilling": {
+   "gih": 0.5683,
+   "games": 33880,
+   "ata": 9.05,
+   "picks": 33406
+  },
+  "Mirrorform": {
+   "gih": 0.5616,
+   "games": 4578,
+   "ata": 3.51,
+   "picks": 2433
+  },
+  "Mirrormind Crown": {
+   "gih": 0.3904,
+   "games": 415,
+   "ata": 8.63,
+   "picks": 3564
+  },
+  "Mischievous Sneakling": {
+   "gih": 0.53,
+   "games": 49974,
+   "ata": 6.88,
+   "picks": 31749
+  },
+  "Mistbind Clique": {
+   "gih": 0.4837,
+   "games": 246,
+   "ata": 3.97,
+   "picks": 197
+  },
+  "Mistmeadow Council": {
+   "gih": 0.5684,
+   "games": 42517,
+   "ata": 6.83,
+   "picks": 32512
+  },
+  "Moon-Vigil Adherents": {
+   "gih": 0.5893,
+   "games": 25187,
+   "ata": 3.61,
+   "picks": 12297
+  },
+  "Moonglove Extractor": {
+   "gih": 0.5239,
+   "games": 20147,
+   "ata": 9.33,
+   "picks": 24634
+  },
+  "Moonlit Lamenter": {
+   "gih": 0.5575,
+   "games": 16634,
+   "ata": 4.82,
+   "picks": 10514
+  },
+  "Moonshadow": {
+   "gih": 0.5733,
+   "games": 4617,
+   "ata": 2.14,
+   "picks": 1863
+  },
+  "Morcant's Eyes": {
+   "gih": 0.6037,
+   "games": 24404,
+   "ata": 4.53,
+   "picks": 13721
+  },
+  "Morcant's Loyalist": {
+   "gih": 0.6154,
+   "games": 24704,
+   "ata": 3.54,
+   "picks": 12056
+  },
+  "Morningtide's Light": {
+   "gih": 0.5483,
+   "games": 2938,
+   "ata": 3.96,
+   "picks": 1980
+  },
+  "Mornsong Aria": {
+   "gih": 0.4735,
+   "games": 264,
+   "ata": 9.15,
+   "picks": 4156
+  },
+  "Mountain": {
+   "gih": 0.542,
+   "games": 209457
+  },
+  "Mudbutton Cursetosser": {
+   "gih": 0.5806,
+   "games": 14074,
+   "ata": 6.31,
+   "picks": 10605
+  },
+  "Mutable Explorer": {
+   "gih": 0.5505,
+   "games": 7718,
+   "ata": 2.8,
+   "picks": 3636
+  },
+  "Nameless Inversion": {
+   "gih": 0.5679,
+   "games": 23954,
+   "ata": 3.58,
+   "picks": 12122
+  },
+  "Nightmare Sower": {
+   "gih": 0.5113,
+   "games": 7272,
+   "ata": 7.14,
+   "picks": 8500
+  },
+  "Noggle Robber": {
+   "gih": 0.5809,
+   "games": 25739,
+   "ata": 4.77,
+   "picks": 14033
+  },
+  "Noggle the Mind": {
+   "gih": 0.5584,
+   "games": 18052,
+   "ata": 5.69,
+   "picks": 10514
+  },
+  "Oko, Lorwyn Liege": {
+   "gih": 0.5746,
+   "games": 5479,
+   "ata": 1.83,
+   "picks": 2097
+  },
+  "Omni-Changeling": {
+   "gih": 0.5598,
+   "games": 26627,
+   "ata": 4.23,
+   "picks": 13621
+  },
+  "Overgrown Tomb": {
+   "gih": 0.5499,
+   "games": 6336,
+   "ata": 4.91,
+   "picks": 4094
+  },
+  "Painter's Servant": {
+   "gih": 0.4608,
+   "games": 102,
+   "ata": 6.1,
+   "picks": 168
+  },
+  "Perfect Intimidation": {
+   "gih": 0.4817,
+   "games": 1937,
+   "ata": 10.2,
+   "picks": 8423
+  },
+  "Personify": {
+   "gih": 0.5499,
+   "games": 13097,
+   "ata": 6.74,
+   "picks": 10339
+  },
+  "Pestered Wellguard": {
+   "gih": 0.5509,
+   "games": 18184,
+   "ata": 4.99,
+   "picks": 10809
+  },
+  "Pitiless Fists": {
+   "gih": 0.587,
+   "games": 26216,
+   "ata": 4.25,
+   "picks": 13474
+  },
+  "Plains": {
+   "gih": 0.5533,
+   "games": 230306
+  },
+  "Prideful Feastling": {
+   "gih": 0.5354,
+   "games": 40567,
+   "ata": 6.81,
+   "picks": 26918
+  },
+  "Prismabasher": {
+   "gih": 0.5712,
+   "games": 21159,
+   "ata": 4.67,
+   "picks": 12247
+  },
+  "Prismatic Undercurrents": {
+   "gih": 0.4911,
+   "games": 4459,
+   "ata": 9.19,
+   "picks": 9375
+  },
+  "Protective Response": {
+   "gih": 0.5752,
+   "games": 22630,
+   "ata": 3.87,
+   "picks": 11511
+  },
+  "Puca's Eye": {
+   "gih": 0.5457,
+   "games": 6463,
+   "ata": 9.67,
+   "picks": 12470
+  },
+  "Pummeler for Hire": {
+   "gih": 0.5656,
+   "games": 18127,
+   "ata": 5.31,
+   "picks": 11469
+  },
+  "Pyrrhic Strike": {
+   "gih": 0.5881,
+   "games": 25560,
+   "ata": 3.7,
+   "picks": 12742
+  },
+  "Raiding Schemes": {
+   "gih": 0.393,
+   "games": 229,
+   "ata": 9.14,
+   "picks": 4450
+  },
+  "Reaping Willow": {
+   "gih": 0.5672,
+   "games": 19704,
+   "ata": 3.87,
+   "picks": 11155
+  },
+  "Reckless Ransacking": {
+   "gih": 0.5025,
+   "games": 5457,
+   "ata": 11.45,
+   "picks": 24571
+  },
+  "Regal Force": {
+   "gih": 0.5028,
+   "games": 354,
+   "ata": 4.32,
+   "picks": 237
+  },
+  "Reluctant Dounguard": {
+   "gih": 0.5225,
+   "games": 17319,
+   "ata": 9.13,
+   "picks": 22240
+  },
+  "Requiting Hex": {
+   "gih": 0.5329,
+   "games": 12423,
+   "ata": 6.34,
+   "picks": 9192
+  },
+  "Retched Wretch": {
+   "gih": 0.5361,
+   "games": 10872,
+   "ata": 7.56,
+   "picks": 9469
+  },
+  "Rhys, the Evermore": {
+   "gih": 0.5268,
+   "games": 7109,
+   "ata": 2.88,
+   "picks": 3444
+  },
+  "Rime Chill": {
+   "gih": 0.5282,
+   "games": 9088,
+   "ata": 8.29,
+   "picks": 11276
+  },
+  "Rimefire Torque": {
+   "gih": 0.4171,
+   "games": 386,
+   "ata": 9.05,
+   "picks": 3920
+  },
+  "Rimekin Recluse": {
+   "gih": 0.6049,
+   "games": 33291,
+   "ata": 3.48,
+   "picks": 15130
+  },
+  "Risen Reef": {
+   "gih": 0.6142,
+   "games": 534,
+   "ata": 3.99,
+   "picks": 272
+  },
+  "Riverguard's Reflexes": {
+   "gih": 0.5344,
+   "games": 11844,
+   "ata": 10.69,
+   "picks": 24574
+  },
+  "Rooftop Percher": {
+   "gih": 0.5575,
+   "games": 36685,
+   "ata": 8.78,
+   "picks": 33149
+  },
+  "Run Away Together": {
+   "gih": 0.5208,
+   "games": 13470,
+   "ata": 10.5,
+   "picks": 27345
+  },
+  "Safewright Cavalry": {
+   "gih": 0.5684,
+   "games": 46069,
+   "ata": 7.1,
+   "picks": 31556
+  },
+  "Sanar, Innovative First-Year": {
+   "gih": 0.6101,
+   "games": 13928,
+   "ata": 2.13,
+   "picks": 4944
+  },
+  "Sapling Nursery": {
+   "gih": 0.572,
+   "games": 8106,
+   "ata": 2.89,
+   "picks": 3741
+  },
+  "Scarblade Scout": {
+   "gih": 0.5813,
+   "games": 48404,
+   "ata": 6.67,
+   "picks": 33348
+  },
+  "Scarblade's Malice": {
+   "gih": 0.545,
+   "games": 19944,
+   "ata": 9.54,
+   "picks": 24512
+  },
+  "Scuzzback Scrounger": {
+   "gih": 0.5586,
+   "games": 9159,
+   "ata": 3.56,
+   "picks": 4238
+  },
+  "Sear": {
+   "gih": 0.5677,
+   "games": 26115,
+   "ata": 3.4,
+   "picks": 12328
+  },
+  "Selfless Safewright": {
+   "gih": 0.5706,
+   "games": 9166,
+   "ata": 2.45,
+   "picks": 3917
+  },
+  "Shadow Urchin": {
+   "gih": 0.5378,
+   "games": 8202,
+   "ata": 3.23,
+   "picks": 3936
+  },
+  "Shimmercreep": {
+   "gih": 0.547,
+   "games": 14223,
+   "ata": 6.85,
+   "picks": 11962
+  },
+  "Shimmerwilds Growth": {
+   "gih": 0.5097,
+   "games": 10872,
+   "ata": 7.13,
+   "picks": 10161
+  },
+  "Shinestriker": {
+   "gih": 0.5882,
+   "games": 27930,
+   "ata": 4.47,
+   "picks": 15038
+  },
+  "Shore Lurker": {
+   "gih": 0.5454,
+   "games": 22528,
+   "ata": 9.26,
+   "picks": 25378
+  },
+  "Silvergill Mentor": {
+   "gih": 0.6044,
+   "games": 23250,
+   "ata": 4.96,
+   "picks": 13767
+  },
+  "Silvergill Peddler": {
+   "gih": 0.5542,
+   "games": 31835,
+   "ata": 9.13,
+   "picks": 31121
+  },
+  "Sizzling Changeling": {
+   "gih": 0.5437,
+   "games": 22871,
+   "ata": 5.28,
+   "picks": 12510
+  },
+  "Slippery Bogle": {
+   "gih": 0.4118,
+   "games": 34,
+   "ata": 8.89,
+   "picks": 223
+  },
+  "Slumbering Walker": {
+   "gih": 0.6027,
+   "games": 10311,
+   "ata": 2.17,
+   "picks": 3966
+  },
+  "Soul Immolation": {
+   "gih": 0.6421,
+   "games": 7541,
+   "ata": 2.33,
+   "picks": 2662
+  },
+  "Soulbright Seeker": {
+   "gih": 0.556,
+   "games": 16924,
+   "ata": 7.01,
+   "picks": 12216
+  },
+  "Sourbread Auntie": {
+   "gih": 0.5575,
+   "games": 16022,
+   "ata": 6.27,
+   "picks": 11558
+  },
+  "Spell Snare": {
+   "gih": 0.4826,
+   "games": 2737,
+   "ata": 10.14,
+   "picks": 9312
+  },
+  "Spinerock Tyrant": {
+   "gih": 0.6348,
+   "games": 6531,
+   "ata": 1.82,
+   "picks": 2079
+  },
+  "Spiral into Solitude": {
+   "gih": 0.547,
+   "games": 47651,
+   "ata": 5.44,
+   "picks": 27937
+  },
+  "Springleaf Drum": {
+   "gih": 0.5051,
+   "games": 4752,
+   "ata": 9.41,
+   "picks": 9064
+  },
+  "Spry and Mighty": {
+   "gih": 0.5353,
+   "games": 7902,
+   "ata": 3.33,
+   "picks": 4170
+  },
+  "Squawkroaster": {
+   "gih": 0.5226,
+   "games": 10594,
+   "ata": 7.59,
+   "picks": 10032
+  },
+  "Stalactite Dagger": {
+   "gih": 0.5209,
+   "games": 12472,
+   "ata": 10.19,
+   "picks": 26680
+  },
+  "Steam Vents": {
+   "gih": 0.5377,
+   "games": 6658,
+   "ata": 5.42,
+   "picks": 4531
+  },
+  "Sting-Slinger": {
+   "gih": 0.5194,
+   "games": 12035,
+   "ata": 7.65,
+   "picks": 10593
+  },
+  "Stoic Grove-Guide": {
+   "gih": 0.5368,
+   "games": 31386,
+   "ata": 8.05,
+   "picks": 26621
+  },
+  "Stratosoarer": {
+   "gih": 0.551,
+   "games": 34510,
+   "ata": 8.63,
+   "picks": 29288
+  },
+  "Summit Sentinel": {
+   "gih": 0.5435,
+   "games": 31768,
+   "ata": 9.11,
+   "picks": 29037
+  },
+  "Sun-Dappled Celebrant": {
+   "gih": 0.5358,
+   "games": 23922,
+   "ata": 8.53,
+   "picks": 24524
+  },
+  "Sunderflock": {
+   "gih": 0.6453,
+   "games": 11366,
+   "ata": 2.59,
+   "picks": 4079
+  },
+  "Surly Farrier": {
+   "gih": 0.5441,
+   "games": 29752,
+   "ata": 8.64,
+   "picks": 27734
+  },
+  "Swamp": {
+   "gih": 0.5483,
+   "games": 226738
+  },
+  "Swat Away": {
+   "gih": 0.5503,
+   "games": 18830,
+   "ata": 6.4,
+   "picks": 12336
+  },
+  "Sygg's Command": {
+   "gih": 0.5893,
+   "games": 8536,
+   "ata": 3.55,
+   "picks": 4242
+  },
+  "Sygg, Wanderwine Wisdom": {
+   "gih": 0.6082,
+   "games": 11399,
+   "ata": 2.4,
+   "picks": 4107
+  },
+  "Tam, Mindful First-Year": {
+   "gih": 0.541,
+   "games": 10145,
+   "ata": 2.2,
+   "picks": 3981
+  },
+  "Tanufel Rimespeaker": {
+   "gih": 0.5668,
+   "games": 24868,
+   "ata": 4.73,
+   "picks": 13373
+  },
+  "Taster of Wares": {
+   "gih": 0.6074,
+   "games": 10358,
+   "ata": 3.02,
+   "picks": 4424
+  },
+  "Temple Garden": {
+   "gih": 0.5265,
+   "games": 5482,
+   "ata": 5.18,
+   "picks": 3809
+  },
+  "Temporal Cleansing": {
+   "gih": 0.5644,
+   "games": 48170,
+   "ata": 8.2,
+   "picks": 36201
+  },
+  "Tend the Sprigs": {
+   "gih": 0.5046,
+   "games": 10634,
+   "ata": 10.15,
+   "picks": 23011
+  },
+  "Thirst for Identity": {
+   "gih": 0.5355,
+   "games": 9942,
+   "ata": 7.95,
+   "picks": 10029
+  },
+  "Thoughtweft Charge": {
+   "gih": 0.5511,
+   "games": 13269,
+   "ata": 7.1,
+   "picks": 10220
+  },
+  "Thoughtweft Imbuer": {
+   "gih": 0.5884,
+   "games": 17924,
+   "ata": 4.81,
+   "picks": 11548
+  },
+  "Thoughtweft Lieutenant": {
+   "gih": 0.5896,
+   "games": 17493,
+   "ata": 4.61,
+   "picks": 11142
+  },
+  "Thousand-Year Elixir": {
+   "gih": 0.0,
+   "games": 3,
+   "ata": 8.49,
+   "picks": 146
+  },
+  "Timid Shieldbearer": {
+   "gih": 0.5537,
+   "games": 40325,
+   "ata": 7.7,
+   "picks": 29371
+  },
+  "Tributary Vaulter": {
+   "gih": 0.5606,
+   "games": 31987,
+   "ata": 8.69,
+   "picks": 28845
+  },
+  "Trystan's Command": {
+   "gih": 0.6457,
+   "games": 11913,
+   "ata": 2.31,
+   "picks": 4426
+  },
+  "Trystan, Callous Cultivator": {
+   "gih": 0.6134,
+   "games": 10281,
+   "ata": 2.81,
+   "picks": 4168
+  },
+  "Tweeze": {
+   "gih": 0.55,
+   "games": 51612,
+   "ata": 5.89,
+   "picks": 30437
+  },
+  "Twilight Diviner": {
+   "gih": 0.565,
+   "games": 7501,
+   "ata": 3.58,
+   "picks": 3925
+  },
+  "Twinflame Travelers": {
+   "gih": 0.5737,
+   "games": 23634,
+   "ata": 4.71,
+   "picks": 13037
+  },
+  "Unbury": {
+   "gih": 0.5565,
+   "games": 21283,
+   "ata": 4.95,
+   "picks": 11815
+  },
+  "Unexpected Assistance": {
+   "gih": 0.5635,
+   "games": 54449,
+   "ata": 7.24,
+   "picks": 35573
+  },
+  "Unforgiving Aim": {
+   "gih": 0.516,
+   "games": 10691,
+   "ata": 10.48,
+   "picks": 23225
+  },
+  "Unwelcome Sprite": {
+   "gih": 0.5668,
+   "games": 22459,
+   "ata": 5.6,
+   "picks": 13509
+  },
+  "Vibrance": {
+   "gih": 0.6195,
+   "games": 6404,
+   "ata": 1.73,
+   "picks": 2165
+  },
+  "Vinebred Brawler": {
+   "gih": 0.5635,
+   "games": 17795,
+   "ata": 5.91,
+   "picks": 11081
+  },
+  "Virulent Emissary": {
+   "gih": 0.5892,
+   "games": 24351,
+   "ata": 4.0,
+   "picks": 12287
+  },
+  "Voracious Tome-Skimmer": {
+   "gih": 0.5218,
+   "games": 7154,
+   "ata": 7.65,
+   "picks": 9942
+  },
+  "Wanderbrine Preacher": {
+   "gih": 0.5621,
+   "games": 42549,
+   "ata": 7.46,
+   "picks": 31274
+  },
+  "Wanderbrine Trapper": {
+   "gih": 0.5996,
+   "games": 25852,
+   "ata": 4.43,
+   "picks": 13728
+  },
+  "Wanderwine Distracter": {
+   "gih": 0.5193,
+   "games": 10718,
+   "ata": 10.94,
+   "picks": 25944
+  },
+  "Wanderwine Farewell": {
+   "gih": 0.5762,
+   "games": 18999,
+   "ata": 6.2,
+   "picks": 13233
+  },
+  "Wanderwine Prophets": {
+   "gih": 0.4863,
+   "games": 183,
+   "ata": 4.92,
+   "picks": 167
+  },
+  "Warren Torchmaster": {
+   "gih": 0.5181,
+   "games": 10845,
+   "ata": 8.19,
+   "picks": 10338
+  },
+  "Wary Farmer": {
+   "gih": 0.5552,
+   "games": 38333,
+   "ata": 7.39,
+   "picks": 29056
+  },
+  "Wild Unraveling": {
+   "gih": 0.538,
+   "games": 15161,
+   "ata": 10.3,
+   "picks": 28346
+  },
+  "Wildvine Pummeler": {
+   "gih": 0.524,
+   "games": 25167,
+   "ata": 8.48,
+   "picks": 25542
+  },
+  "Winnowing": {
+   "gih": 0.5365,
+   "games": 4462,
+   "ata": 5.04,
+   "picks": 3488
+  },
+  "Wistfulness": {
+   "gih": 0.6092,
+   "games": 6487,
+   "ata": 1.66,
+   "picks": 2160
+  }
+ }
+}

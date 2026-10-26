@@ -1,0 +1,38 @@
+{
+  "name": "Springleaf Parade",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Shapeshifter",
+            "types": "Creature — Shapeshifter",
+            "power": 1,
+            "toughness": 1,
+            "colors": [],
+            "keywords": [
+              "Changeling"
+            ]
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create X 1/1 colorless Shapeshifter creature tokens with changeling."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "grantsMana": "any",
+        "pump": [
+          0,
+          0
+        ]
+      },
+      "text": "Creature tokens you control have \"{T}: Add one mana of any color.\""
+    }
+  ]
+}

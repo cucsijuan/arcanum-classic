@@ -1,0 +1,47 @@
+{
+  "name": "Slumbering Walker",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "mayPay": "Remove a counter from this creature to return a creature card with power 2 or less?",
+          "cost": {
+            "removeCountersFromCreatures": 1,
+            "removeCountersFrom": {
+              "self": true
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature"
+                      ],
+                      "maxPower": 2
+                    },
+                    "text": "target creature card with power 2 or less from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "reanimate": "target"
+                  }
+                ],
+                "text": "Return target creature card with power 2 or less from your graveyard to the battlefield."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may remove a counter from this creature. When you do, return target creature card with power 2 or less from your graveyard to the battlefield."
+    }
+  ]
+}

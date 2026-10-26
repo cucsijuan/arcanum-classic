@@ -1,0 +1,19 @@
+{
+  "name": "Lavaleaper",
+  "landManaBonus": "basicSameType",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "All creatures have haste."
+    }
+  ]
+}

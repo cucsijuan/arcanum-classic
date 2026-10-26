@@ -1,0 +1,18 @@
+{
+  "name": "Shimmercreep",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": "colorsAmongYourPermanents",
+          "who": "opponents"
+        },
+        {
+          "gainLife": "colorsAmongYourPermanents"
+        }
+      ],
+      "text": "Vivid — When this creature enters, each opponent loses X life and you gain X life, where X is the number of colors among permanents you control."
+    }
+  ]
+}

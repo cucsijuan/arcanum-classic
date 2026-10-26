@@ -1,0 +1,46 @@
+{
+  "name": "Ferrafor, Young Yew",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "tokens": {
+            "countersAmong": {
+              "types": [
+                "creature"
+              ]
+            },
+            "controlledBy": "target",
+            "kind": "any"
+          },
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When Ferrafor enters, create a number of 1/1 green Saproling creature tokens equal to the number of counters among creatures target player controls."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "doubleCounters": "target"
+        }
+      ],
+      "text": "{T}: Double the number of each kind of counter on target creature."
+    }
+  ]
+}

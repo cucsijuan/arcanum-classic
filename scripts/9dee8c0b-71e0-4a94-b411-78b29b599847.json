@@ -1,0 +1,37 @@
+{
+  "name": "Thoughtweft Imbuer",
+  "abilities": [
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": {
+        "attackersExactly": 1
+      },
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "subtype": "Kithkin",
+                "controller": "you"
+              }
+            },
+            {
+              "count": {
+                "subtype": "Kithkin",
+                "controller": "you"
+              }
+            }
+          ],
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever a creature you control attacks alone, it gets +X/+X until end of turn, where X is the number of Kithkin you control."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Moonglove Extractor",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, you draw a card and lose 1 life."
+    }
+  ]
+}

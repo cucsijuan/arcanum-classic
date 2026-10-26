@@ -1,0 +1,23 @@
+{
+  "name": "Wary Farmer",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "enteredThisTurn": {
+          "types": [
+            "creature"
+          ],
+          "controller": "you",
+          "other": true
+        }
+      },
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if another creature entered the battlefield under your control this turn, surveil 1."
+    }
+  ]
+}

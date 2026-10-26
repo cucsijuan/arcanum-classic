@@ -1,0 +1,48 @@
+{
+  "name": "Descendants' Fury",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batchedPerPlayer": true,
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Sacrifice one of those creatures?",
+          "effects": [
+            {
+              "chooseOneOf": "batch",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "sacrificeIt": "found"
+            },
+            {
+              "if": "youSacrificed",
+              "then": [
+                {
+                  "revealUntil": {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  "sharesCreatureTypeWith": "found",
+                  "to": "battlefield"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more creatures you control deal combat damage to a player, you may sacrifice one of them. If you do, reveal cards from the top of your library until you reveal a creature card that shares a creature type with the sacrificed creature. Put that card onto the battlefield and the rest on the bottom of your library in a random order."
+    }
+  ]
+}

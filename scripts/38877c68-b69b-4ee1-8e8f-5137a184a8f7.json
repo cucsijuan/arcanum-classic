@@ -1,0 +1,21 @@
+{
+  "name": "Spell Snare",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "minManaValue": 2,
+          "maxManaValue": 2
+        },
+        "text": "target spell with mana value 2"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target spell with mana value 2."
+  }
+}

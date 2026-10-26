@@ -1,0 +1,26 @@
+{
+  "name": "Tweeze",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "mayPay": "Discard a card to draw a card?",
+        "cost": {
+          "discard": 1
+        },
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Tweeze deals 3 damage to any target. You may discard a card. If you do, draw a card."
+  }
+}

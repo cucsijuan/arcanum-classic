@@ -1,0 +1,45 @@
+{
+  "name": "Abigale, Eloquent First-Year",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "permanent": true,
+          "loseAbilities": true
+        },
+        {
+          "simultaneously": [
+            {
+              "counters": 1,
+              "what": "target",
+              "kind": "flying"
+            },
+            {
+              "counters": 1,
+              "what": "target",
+              "kind": "first strike"
+            },
+            {
+              "counters": 1,
+              "what": "target",
+              "kind": "lifelink"
+            }
+          ]
+        }
+      ],
+      "text": "When Abigale enters, up to one other target creature loses all abilities. Put a flying counter, a first strike counter, and a lifelink counter on that creature."
+    }
+  ]
+}

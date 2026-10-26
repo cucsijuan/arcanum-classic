@@ -1,0 +1,15 @@
+{
+  "name": "Timeless Lotus",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{W}{U}{B}{R}{G}"
+        }
+      ],
+      "text": "{T}: Add {W}{U}{B}{R}{G}."
+    }
+  ]
+}

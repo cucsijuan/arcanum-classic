@@ -1,0 +1,77 @@
+{
+  "name": "Vernal Sovereign",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 0,
+            "toughness": 0,
+            "colors": [
+              "G",
+              "W"
+            ],
+            "powerFrom": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "toughnessFrom": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "text": "This token's power and toughness are each equal to the number of creatures you control."
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a green and white Elemental creature token with \"This token's power and toughness are each equal to the number of creatures you control.\""
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "power": 0,
+            "toughness": 0,
+            "colors": [
+              "G",
+              "W"
+            ],
+            "powerFrom": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "toughnessFrom": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "text": "This token's power and toughness are each equal to the number of creatures you control."
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a green and white Elemental creature token with \"This token's power and toughness are each equal to the number of creatures you control.\""
+    }
+  ]
+}

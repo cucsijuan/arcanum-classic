@@ -1,0 +1,90 @@
+{
+  "name": "Pyrrhic Strike",
+  "optionalAdditionalCost": {
+    "blight": 2
+  },
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Destroy target artifact or enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            },
+            "text": "target artifact or enchantment"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with mana value 3 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minManaValue": 3
+            },
+            "text": "target creature with mana value 3 or greater"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "whenAdditionalCostPaid": {
+      "chooseCount": 2,
+      "modes": [
+        {
+          "text": "Destroy target artifact or enchantment.",
+          "targets": [
+            {
+              "kind": "permanent",
+              "filter": {
+                "types": [
+                  "artifact",
+                  "enchantment"
+                ]
+              },
+              "text": "target artifact or enchantment"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target creature with mana value 3 or greater.",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "minManaValue": 3
+              },
+              "text": "target creature with mana value 3 or greater"
+            }
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

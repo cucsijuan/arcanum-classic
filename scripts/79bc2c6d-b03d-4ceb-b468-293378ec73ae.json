@@ -1,0 +1,25 @@
+{
+  "name": "Midnight Tilling",
+  "spell": {
+    "effects": [
+      {
+        "mill": 4,
+        "who": "you"
+      },
+      {
+        "takeMilled": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "count": 1
+      }
+    ],
+    "text": "Mill four cards, then you may return a permanent card from among them to your hand."
+  }
+}

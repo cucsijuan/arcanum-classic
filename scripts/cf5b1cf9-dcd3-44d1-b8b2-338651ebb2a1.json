@@ -1,0 +1,16 @@
+{
+  "name": "Blight Rot",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 4,
+        "what": "target",
+        "kind": "-1/-1"
+      }
+    ],
+    "text": "Put four -1/-1 counters on target creature."
+  }
+}

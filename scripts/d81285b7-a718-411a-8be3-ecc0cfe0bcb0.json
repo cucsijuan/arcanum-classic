@@ -1,0 +1,42 @@
+{
+  "name": "Goblin Sharpshooter",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Doesn't untap"
+        ]
+      },
+      "text": "This creature doesn't untap during your untap step."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever a creature dies, untap this creature."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to any target."
+    }
+  ]
+}

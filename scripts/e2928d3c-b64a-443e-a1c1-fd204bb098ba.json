@@ -1,0 +1,62 @@
+{
+  "name": "Unbury",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Return target creature card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "text": "target creature card from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return two target creature cards that share a creature type from your graveyard to your hand.",
+        "targetRule": "shareCreatureType",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "text": "two target creature cards that share a creature type from your graveyard"
+          },
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "text": "two target creature cards that share a creature type from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          },
+          {
+            "bounce": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

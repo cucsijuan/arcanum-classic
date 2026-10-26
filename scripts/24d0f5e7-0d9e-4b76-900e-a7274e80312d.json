@@ -1,0 +1,14 @@
+{
+  "name": "Mulldrifter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When this creature enters, draw two cards."
+    }
+  ]
+}

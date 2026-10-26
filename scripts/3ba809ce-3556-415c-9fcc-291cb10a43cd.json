@@ -1,0 +1,65 @@
+{
+  "name": "Ajani, Outland Chaperone",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Kithkin",
+            "types": "Creature — Kithkin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G",
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "+1: Create a 1/1 green and white Kithkin creature token."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "tapped": true
+          },
+          "text": "target tapped creature"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "−2: Ajani deals 4 damage to target tapped creature."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "lookAtTop": "life",
+          "take": "life",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 3
+          },
+          "to": "battlefield",
+          "rest": "shuffle"
+        }
+      ],
+      "text": "−8: Look at the top X cards of your library, where X is your life total. You may put any number of nonland permanent cards with mana value 3 or less from among them onto the battlefield. Then shuffle."
+    }
+  ]
+}

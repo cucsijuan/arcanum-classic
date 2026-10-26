@@ -1,0 +1,34 @@
+{
+  "name": "Champions of the Perfect",
+  "additionalCost": {
+    "behold": {
+      "subtype": "Elf"
+    },
+    "beholdExile": true
+  },
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast a creature spell, draw a card."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnExiledWithThis": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, return the exiled card to its owner's hand."
+    }
+  ]
+}

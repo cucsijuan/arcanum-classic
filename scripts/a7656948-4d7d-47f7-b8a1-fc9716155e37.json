@@ -1,0 +1,27 @@
+{
+  "name": "Horde of Notions",
+  "abilities": [
+    {
+      "cost": "{W}{U}{B}{R}{G}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "subtype": "Elemental"
+          },
+          "text": "target Elemental card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "castFromGraveyard": {},
+          "card": "target",
+          "free": true,
+          "noExile": true
+        }
+      ],
+      "text": "{W}{U}{B}{R}{G}: You may play target Elemental card from your graveyard without paying its mana cost."
+    }
+  ]
+}

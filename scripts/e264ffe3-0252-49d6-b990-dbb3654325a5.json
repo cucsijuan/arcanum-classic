@@ -1,0 +1,24 @@
+{
+  "name": "Regal Force",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "colors": [
+                "G"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, draw a card for each green creature you control."
+    }
+  ]
+}
