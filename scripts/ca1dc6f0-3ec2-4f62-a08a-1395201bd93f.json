@@ -1,0 +1,17 @@
+{
+  "name": "Hardened Tactician",
+  "abilities": [
+    {
+      "cost": "{1}, sacrificeAny:token",
+      "sacrificeFilter": {
+        "token": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}, Sacrifice a token: Draw a card."
+    }
+  ]
+}

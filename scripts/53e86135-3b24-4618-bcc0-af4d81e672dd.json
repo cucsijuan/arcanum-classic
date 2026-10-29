@@ -1,0 +1,22 @@
+{
+  "name": "Death Begets Life",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature",
+              "enchantment"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "draw": "destroyedThisWay"
+      }
+    ],
+    "text": "Destroy all creatures and enchantments. Draw a card for each permanent destroyed this way."
+  }
+}

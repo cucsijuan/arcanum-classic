@@ -1,0 +1,37 @@
+{
+  "name": "Stormbreath Dragon",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Protection from white"
+        ]
+      },
+      "text": "Protection from white"
+    },
+    {
+      "cost": "{5}{R}{R}",
+      "effects": [
+        {
+          "monstrosity": 3
+        }
+      ],
+      "text": "{5}{R}{R}: Monstrosity 3."
+    },
+    {
+      "trigger": "becomesMonstrous",
+      "effects": [
+        {
+          "damage": "affectedHandSize",
+          "to": "opponents"
+        }
+      ],
+      "text": "When this creature becomes monstrous, it deals damage to each opponent equal to the number of cards in that player's hand."
+    }
+  ]
+}

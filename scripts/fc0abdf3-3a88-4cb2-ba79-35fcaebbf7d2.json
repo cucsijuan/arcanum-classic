@@ -1,0 +1,65 @@
+{
+  "name": "Wail of War",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Creatures target opponent controls get -1/-1 until end of turn.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Return up to two target creature cards from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "optional": true,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "optional": true,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "targetRule": "allDifferent",
+        "effects": [
+          {
+            "bounce": "target"
+          },
+          {
+            "bounce": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

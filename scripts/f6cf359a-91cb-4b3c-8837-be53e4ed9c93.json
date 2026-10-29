@@ -1,0 +1,15 @@
+{
+  "name": "Teval, Arbiter of Virtue",
+  "yourSpellsHaveDelve": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "loseLife": "triggerAmount"
+        }
+      ],
+      "text": "Whenever you cast a spell, you lose life equal to its mana value."
+    }
+  ]
+}

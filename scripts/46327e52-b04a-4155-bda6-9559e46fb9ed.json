@@ -1,0 +1,24 @@
+{
+  "name": "Jaws of Defeat",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": "triggeredPowerToughnessDifference",
+          "who": "target"
+        }
+      ],
+      "text": "Whenever a creature you control enters, target opponent loses life equal to the difference between that creature's power and its toughness."
+    }
+  ]
+}

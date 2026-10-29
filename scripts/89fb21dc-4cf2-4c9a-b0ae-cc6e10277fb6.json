@@ -1,0 +1,31 @@
+{
+  "name": "Fire-Rim Form",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "First strike"
+          ],
+          "what": "attached"
+        }
+      ],
+      "text": "When this Aura enters, enchanted creature gains first strike until end of turn."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets +2/+0."
+    }
+  ]
+}

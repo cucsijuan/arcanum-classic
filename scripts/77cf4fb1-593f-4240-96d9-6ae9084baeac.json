@@ -1,0 +1,26 @@
+{
+  "name": "Thalisse, Reverent Medium",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "tokens": "tokensCreatedThisTurn",
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, create X 1/1 white Spirit creature tokens with flying, where X is the number of tokens you created this turn."
+    }
+  ]
+}

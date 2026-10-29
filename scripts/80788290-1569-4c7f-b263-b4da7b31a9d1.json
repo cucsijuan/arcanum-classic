@@ -1,0 +1,16 @@
+{
+  "name": "Grenzo, Havoc Raiser",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": { "types": ["creature"], "controller": "you" },
+      "text": "Whenever a creature you control deals combat damage to a player, choose one —",
+      "modes": [
+        { "text": "Goad target creature that player controls.", "targets": [ { "kind": "creature", "controlledByTriggeredPlayer": true, "text": "target creature that player controls" } ],
+          "effects": [ { "goad": "target" } ] },
+        { "text": "Exile the top card of that player's library. Until end of turn, you may cast that card and you may spend mana as though it were mana of any color to cast that spell.",
+          "effects": [ { "exileTopPlayable": 1, "of": "triggeredPlayer", "castOnly": true, "anyColorMana": true } ] }
+      ]
+    }
+  ]
+}

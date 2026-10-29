@@ -1,0 +1,42 @@
+{
+  "name": "Ureni, the Song Unending",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Protection from white",
+          "Protection from black"
+        ]
+      },
+      "text": "Protection from white and from black"
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "opponent",
+          "anyNumber": true,
+          "text": "any number of target creatures and/or planeswalkers your opponents control"
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": {
+            "count": {
+              "types": [
+                "land"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When Ureni enters, it deals X damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control, where X is the number of lands you control."
+    }
+  ]
+}

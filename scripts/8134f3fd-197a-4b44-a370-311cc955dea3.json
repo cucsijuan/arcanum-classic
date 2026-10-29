@@ -1,0 +1,38 @@
+{
+  "name": "Ainok Wayfarer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": {
+                "found": {}
+              },
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, mill three cards. You may put a land card from among them into your hand. If you don't, put a +1/+1 counter on this creature."
+    }
+  ]
+}

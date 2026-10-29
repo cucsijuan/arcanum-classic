@@ -1,0 +1,39 @@
+{
+  "name": "Teeming Dragonstorm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create two 2/2 white Soldier creature tokens."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When a Dragon you control enters, return this enchantment to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Osseous Exhale",
+  "optionalAdditionalCost": {
+    "behold": {
+      "subtype": "Dragon"
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        },
+        "text": "target attacking or blocking creature"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ],
+    "text": "Osseous Exhale deals 5 damage to target attacking or blocking creature. If a Dragon was beheld, you gain 2 life."
+  }
+}

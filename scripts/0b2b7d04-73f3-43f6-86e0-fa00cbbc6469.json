@@ -1,0 +1,55 @@
+{
+  "name": "Jeskai Monument",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Island"
+              },
+              {
+                "subtype": "Mountain"
+              },
+              {
+                "subtype": "Plains"
+              }
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic Island, Mountain, or Plains card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{1}{U}{R}{W}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{U}{R}{W}, {T}, Sacrifice this artifact: Create two 1/1 white Bird creature tokens with flying. Activate only as a sorcery."
+    }
+  ]
+}

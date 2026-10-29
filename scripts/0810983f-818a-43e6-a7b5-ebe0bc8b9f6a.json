@@ -1,0 +1,24 @@
+{
+  "name": "Wall of Reverence",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "may": "Gain life equal to that creature's power?",
+          "effects": [
+            {
+              "gainLife": {
+                "power": "target"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may gain life equal to the power of target creature you control."
+    }
+  ]
+}

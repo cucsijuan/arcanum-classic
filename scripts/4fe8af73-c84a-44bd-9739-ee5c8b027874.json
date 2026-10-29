@@ -1,0 +1,24 @@
+{
+  "name": "Crypt of Agadeem",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "addMana": "{B}",
+          "times": {
+            "graveyard": {
+              "types": [
+                "creature"
+              ],
+              "colors": [
+                "B"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{2}, {T}: Add {B} for each black creature card in your graveyard."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Staff of Compleation",
+  "abilities": [
+    {
+      "cost": "{T}, life:1",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "filter": {
+            "ownedByYou": true
+          },
+          "text": "target permanent you own"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}, Pay 1 life: Destroy target permanent you own."
+    },
+    {
+      "cost": "{T}, life:2",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Pay 2 life: Add one mana of any color."
+    },
+    {
+      "cost": "{T}, life:3",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "{T}, Pay 3 life: Proliferate."
+    },
+    {
+      "cost": "{T}, life:4",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Pay 4 life: Draw a card."
+    },
+    {
+      "cost": "{5}",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "{5}: Untap this artifact."
+    }
+  ]
+}

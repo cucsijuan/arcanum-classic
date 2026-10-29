@@ -1,0 +1,23 @@
+{
+  "name": "Delta Bloodflies",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "hasCounters": true
+        }
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, if you control a creature with a counter on it, each opponent loses 1 life."
+    }
+  ]
+}

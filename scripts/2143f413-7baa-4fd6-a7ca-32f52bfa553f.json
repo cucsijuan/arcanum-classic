@@ -1,0 +1,20 @@
+{
+  "name": "Shadrix Silverquill",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "chooseCount": 2,
+      "mayChooseModes": true,
+      "targetRule": "allDifferent",
+      "modes": [
+        { "text": "Target player creates a 2/1 white and black Inkling creature token with flying.", "targets": ["player"],
+          "effects": [ { "tokens": 1, "for": "target", "token": { "name": "Inkling", "types": "Creature — Inkling", "power": 2, "toughness": 1, "colors": ["W", "B"], "keywords": ["Flying"] } } ] },
+        { "text": "Target player draws a card and loses 1 life.", "targets": ["player"],
+          "effects": [ { "draw": 1, "who": "target" }, { "loseLife": 1, "who": "target" } ] },
+        { "text": "Target player puts a +1/+1 counter on each creature they control.", "targets": ["player"],
+          "effects": [ { "counters": 1, "what": { "each": { "types": ["creature"] }, "controlledBy": "target" } } ] }
+      ],
+      "text": "At the beginning of combat on your turn, you may choose two. Each mode must target a different player."
+    }
+  ]
+}

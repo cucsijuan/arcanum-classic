@@ -1,0 +1,25 @@
+{
+  "name": "Veyran, Voice of Duality",
+  "instantSorceryTriggersTwice": true,
+  "abilities": [
+    {
+      "trigger": "castOrCopy",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, Veyran gets +1/+1 until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Sagu Pummeler",
+  "abilities": [
+    {
+      "cost": "{4}{G}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "reach",
+          "what": "target"
+        }
+      ],
+      "text": "Renew — {4}{G}, Exile this card from your graveyard: Put two +1/+1 counters and a reach counter on target creature. Activate only as a sorcery."
+    }
+  ]
+}

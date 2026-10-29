@@ -1,0 +1,27 @@
+{
+  "name": "Cori Mountain Monastery",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Plains"
+        },
+        {
+          "subtype": "Island"
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{3}{R}, {T}",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "{3}{R}, {T}: Exile the top card of your library. Until the end of your next turn, you may play that card."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Glacial Dragonhunt",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      },
+      {
+        "mayPay": "Discard a card? (If it's a nonland card, deal 3 damage to target creature.)",
+        "cost": {
+          "discard": 1
+        },
+        "effects": [
+          {
+            "whenYouDo": {
+              "if": {
+                "atLeast": {
+                  "discarded": {
+                    "not": [
+                      "land"
+                    ]
+                  }
+                },
+                "value": 1
+              },
+              "targets": [
+                "creature"
+              ],
+              "effects": [
+                {
+                  "damage": 3,
+                  "to": "target"
+                }
+              ],
+              "text": "When you discard a nonland card this way, Glacial Dragonhunt deals 3 damage to target creature."
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Draw a card, then you may discard a card. When you discard a nonland card this way, Glacial Dragonhunt deals 3 damage to target creature."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Foreboding Landscape",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Swamp"
+              },
+              {
+                "subtype": "Forest"
+              },
+              {
+                "subtype": "Island"
+              }
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a basic Swamp, Forest, or Island card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Eerie Ultimatum",
+  "spell": {
+    "effects": [ { "returnFromGraveyard": { "types": ["artifact", "creature", "enchantment", "land", "planeswalker", "battle"] }, "count": 999, "upTo": true, "differentNames": true, "to": "battlefield" } ],
+    "text": "Return any number of permanent cards with different names from your graveyard to the battlefield."
+  }
+}

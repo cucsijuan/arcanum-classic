@@ -1,0 +1,17 @@
+{
+  "name": "Stormscale Scion",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Dragon",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Dragons you control get +1/+1."
+    }
+  ]
+}

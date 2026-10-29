@@ -1,0 +1,80 @@
+{
+  "name": "Elspeth, Storm Slayer",
+  "replaces": [
+    "DoubleTokens"
+  ],
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "+1: Create a 1/1 white Soldier creature token."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Flying"
+          ],
+          "untilYourNextTurn": true,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "0: Put a +1/+1 counter on each creature you control. Those creatures gain flying until your next turn."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "minManaValue": 3
+          },
+          "text": "target creature an opponent controls with mana value 3 or greater"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "−3: Destroy target creature an opponent controls with mana value 3 or greater."
+    }
+  ]
+}

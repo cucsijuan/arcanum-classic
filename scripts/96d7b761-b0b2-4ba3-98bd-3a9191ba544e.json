@@ -1,0 +1,16 @@
+{
+  "name": "Deceptive Frostkite",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ],
+    "controller": "you",
+    "minPower": 4
+  },
+  "entersAsCopyAddSubtypes": [
+    "Dragon"
+  ],
+  "entersAsCopyAddKeywords": [
+    "Flying"
+  ]
+}

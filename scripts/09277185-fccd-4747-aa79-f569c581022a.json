@@ -1,0 +1,47 @@
+{
+  "name": "Kishla Trawlers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Exile a creature card from your graveyard to return an instant or sorcery card to your hand?",
+          "cost": {
+            "exileGraveyard": 1,
+            "exileGraveyardFilter": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "instant",
+                        "sorcery"
+                      ]
+                    },
+                    "text": "target instant or sorcery card from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "bounce": "target"
+                  }
+                ],
+                "text": "When you do, return target instant or sorcery card from your graveyard to your hand."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may exile a creature card from your graveyard. When you do, return target instant or sorcery card from your graveyard to your hand."
+    }
+  ]
+}

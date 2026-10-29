@@ -1,0 +1,32 @@
+{
+  "name": "Zurgo Stormrender",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "if": "triggeredWasAttacking",
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "loseLife": 1,
+              "who": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature token you control leaves the battlefield, draw a card if it was attacking. Otherwise, each opponent loses 1 life."
+    }
+  ]
+}

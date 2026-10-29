@@ -1,0 +1,10 @@
+{
+  "name": "Zurgo's Vanguard",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "creature"
+      ]
+    }
+  }
+}

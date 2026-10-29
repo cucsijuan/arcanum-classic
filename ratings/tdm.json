@@ -1,0 +1,1726 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "tdm",
+ "format": "PremierDraft",
+ "games": 552428,
+ "mean": 0.5591,
+ "sd": 0.0333,
+ "cards": {
+  "Abzan Devotee": {
+   "gih": 0.5314,
+   "games": 29224,
+   "ata": 8.97,
+   "picks": 23259
+  },
+  "Abzan Monument": {
+   "gih": 0.5387,
+   "games": 14042,
+   "ata": 7.8,
+   "picks": 10766
+  },
+  "Adorned Crocodile": {
+   "gih": 0.5256,
+   "games": 9707,
+   "ata": 11.59,
+   "picks": 23781
+  },
+  "Aegis Sculptor": {
+   "gih": 0.5389,
+   "games": 12879,
+   "ata": 7.65,
+   "picks": 9633
+  },
+  "Agent of Kotis": {
+   "gih": 0.5233,
+   "games": 23236,
+   "ata": 10.79,
+   "picks": 29433
+  },
+  "Aggressive Negotiations": {
+   "gih": 0.5485,
+   "games": 16446,
+   "ata": 11.07,
+   "picks": 28754
+  },
+  "Ainok Wayfarer": {
+   "gih": 0.5732,
+   "games": 69343,
+   "ata": 6.95,
+   "picks": 39447
+  },
+  "Alchemist's Assistant": {
+   "gih": 0.5399,
+   "games": 14867,
+   "ata": 5.99,
+   "picks": 8685
+  },
+  "Alesha's Legacy": {
+   "gih": 0.5035,
+   "games": 7100,
+   "ata": 11.69,
+   "picks": 21074
+  },
+  "All-Out Assault": {
+   "gih": 0.599,
+   "games": 4703,
+   "ata": 1.79,
+   "picks": 2594
+  },
+  "Ambling Stormshell": {
+   "gih": 0.6021,
+   "games": 16607,
+   "ata": 2.14,
+   "picks": 7363
+  },
+  "Anafenza, Unyielding Lineage": {
+   "gih": 0.5684,
+   "games": 9697,
+   "ata": 1.76,
+   "picks": 4732
+  },
+  "Arashin Sunshield": {
+   "gih": 0.519,
+   "games": 7124,
+   "ata": 11.56,
+   "picks": 24488
+  },
+  "Arid Mesa": {
+   "gih": 0.5466,
+   "games": 686,
+   "ata": 4.69,
+   "picks": 369
+  },
+  "Armament Dragon": {
+   "gih": 0.5534,
+   "games": 16368,
+   "ata": 5.01,
+   "picks": 9791
+  },
+  "Attuned Hunter": {
+   "gih": 0.5354,
+   "games": 15895,
+   "ata": 6.38,
+   "picks": 9931
+  },
+  "Auroral Procession": {
+   "gih": 0.5433,
+   "games": 14550,
+   "ata": 8.53,
+   "picks": 11603
+  },
+  "Avenger of the Fallen": {
+   "gih": 0.5523,
+   "games": 8150,
+   "ata": 2.0,
+   "picks": 4175
+  },
+  "Awaken the Honored Dead": {
+   "gih": 0.5989,
+   "games": 13711,
+   "ata": 2.77,
+   "picks": 6478
+  },
+  "Barrensteppe Siege": {
+   "gih": 0.5184,
+   "games": 8202,
+   "ata": 1.76,
+   "picks": 4292
+  },
+  "Bearer of Glory": {
+   "gih": 0.549,
+   "games": 47236,
+   "ata": 7.39,
+   "picks": 29842
+  },
+  "Betor, Kin to All": {
+   "gih": 0.6206,
+   "games": 6192,
+   "ata": 1.49,
+   "picks": 2925
+  },
+  "Bewildering Blizzard": {
+   "gih": 0.5652,
+   "games": 29825,
+   "ata": 6.03,
+   "picks": 16443
+  },
+  "Bloodfell Caves": {
+   "gih": 0.5489,
+   "games": 45443,
+   "ata": 7.83,
+   "picks": 27415
+  },
+  "Bloomvine Regent": {
+   "gih": 0.5856,
+   "games": 13334,
+   "ata": 1.55,
+   "picks": 5847
+  },
+  "Blossoming Sands": {
+   "gih": 0.5453,
+   "games": 42513,
+   "ata": 8.28,
+   "picks": 26097
+  },
+  "Bone-Cairn Butcher": {
+   "gih": 0.5246,
+   "games": 11514,
+   "ata": 5.54,
+   "picks": 8056
+  },
+  "Boulderborn Dragon": {
+   "gih": 0.5158,
+   "games": 23449,
+   "ata": 10.59,
+   "picks": 31913
+  },
+  "Breaching Dragonstorm": {
+   "gih": 0.5254,
+   "games": 11817,
+   "ata": 7.47,
+   "picks": 10609
+  },
+  "Call the Spirit Dragons": {
+   "gih": 0.4767,
+   "games": 1376,
+   "ata": 6.27,
+   "picks": 2153
+  },
+  "Caustic Exhale": {
+   "gih": 0.5685,
+   "games": 60949,
+   "ata": 4.2,
+   "picks": 32782
+  },
+  "Champion of Dusan": {
+   "gih": 0.5554,
+   "games": 50514,
+   "ata": 7.94,
+   "picks": 31253
+  },
+  "Channeled Dragonfire": {
+   "gih": 0.5697,
+   "games": 24173,
+   "ata": 5.05,
+   "picks": 12623
+  },
+  "Clarion Conqueror": {
+   "gih": 0.5689,
+   "games": 9407,
+   "ata": 2.55,
+   "picks": 4767
+  },
+  "Constrictor Sage": {
+   "gih": 0.5445,
+   "games": 20364,
+   "ata": 6.23,
+   "picks": 11987
+  },
+  "Coordinated Maneuver": {
+   "gih": 0.554,
+   "games": 38156,
+   "ata": 7.7,
+   "picks": 27520
+  },
+  "Cori Mountain Monastery": {
+   "gih": 0.5897,
+   "games": 13258,
+   "ata": 5.08,
+   "picks": 6253
+  },
+  "Cori Mountain Stalwart": {
+   "gih": 0.5612,
+   "games": 22331,
+   "ata": 4.78,
+   "picks": 12205
+  },
+  "Cori-Steel Cutter": {
+   "gih": 0.5959,
+   "games": 13094,
+   "ata": 1.68,
+   "picks": 5977
+  },
+  "Corroding Dragonstorm": {
+   "gih": 0.5064,
+   "games": 7057,
+   "ata": 8.48,
+   "picks": 8412
+  },
+  "Craterhoof Behemoth": {
+   "gih": 0.5761,
+   "games": 4647,
+   "ata": 2.08,
+   "picks": 2446
+  },
+  "Cruel Truths": {
+   "gih": 0.5011,
+   "games": 6616,
+   "ata": 12.02,
+   "picks": 24319
+  },
+  "Dalkovan Encampment": {
+   "gih": 0.5596,
+   "games": 8426,
+   "ata": 4.92,
+   "picks": 4456
+  },
+  "Dalkovan Packbeasts": {
+   "gih": 0.5699,
+   "games": 20998,
+   "ata": 3.77,
+   "picks": 11336
+  },
+  "Death Begets Life": {
+   "gih": 0.6111,
+   "games": 7413,
+   "ata": 2.26,
+   "picks": 3411
+  },
+  "Defibrillating Current": {
+   "gih": 0.5415,
+   "games": 12651,
+   "ata": 6.45,
+   "picks": 8786
+  },
+  "Delta Bloodflies": {
+   "gih": 0.5112,
+   "games": 9290,
+   "ata": 11.46,
+   "picks": 20443
+  },
+  "Descendant of Storms": {
+   "gih": 0.5815,
+   "games": 23188,
+   "ata": 4.02,
+   "picks": 12408
+  },
+  "Desperate Measures": {
+   "gih": 0.5226,
+   "games": 7436,
+   "ata": 8.86,
+   "picks": 8825
+  },
+  "Devoted Duelist": {
+   "gih": 0.5277,
+   "games": 26011,
+   "ata": 9.78,
+   "picks": 26820
+  },
+  "Dirgur Island Dragon": {
+   "gih": 0.5564,
+   "games": 61442,
+   "ata": 6.64,
+   "picks": 30982
+  },
+  "Dismal Backwater": {
+   "gih": 0.5596,
+   "games": 53615,
+   "ata": 8.08,
+   "picks": 30824
+  },
+  "Dispelling Exhale": {
+   "gih": 0.5786,
+   "games": 80398,
+   "ata": 6.53,
+   "picks": 45262
+  },
+  "Disruptive Stormbrood": {
+   "gih": 0.5811,
+   "games": 29215,
+   "ata": 2.69,
+   "picks": 13382
+  },
+  "Dracogenesis": {
+   "gih": 0.403,
+   "games": 67,
+   "ata": 8.77,
+   "picks": 2074
+  },
+  "Dragon Sniper": {
+   "gih": 0.581,
+   "games": 26658,
+   "ata": 4.29,
+   "picks": 12519
+  },
+  "Dragon's Prey": {
+   "gih": 0.5535,
+   "games": 52883,
+   "ata": 4.28,
+   "picks": 27580
+  },
+  "Dragonback Assault": {
+   "gih": 0.6752,
+   "games": 7564,
+   "ata": 1.42,
+   "picks": 3092
+  },
+  "Dragonback Lancer": {
+   "gih": 0.5109,
+   "games": 16832,
+   "ata": 9.66,
+   "picks": 20455
+  },
+  "Dragonbroods' Relic": {
+   "gih": 0.5819,
+   "games": 27501,
+   "ata": 5.77,
+   "picks": 16570
+  },
+  "Dragonclaw Strike": {
+   "gih": 0.5642,
+   "games": 20504,
+   "ata": 6.59,
+   "picks": 12546
+  },
+  "Dragonfire Blade": {
+   "gih": 0.5347,
+   "games": 7255,
+   "ata": 2.6,
+   "picks": 3814
+  },
+  "Dragonologist": {
+   "gih": 0.5911,
+   "games": 15560,
+   "ata": 2.64,
+   "picks": 7012
+  },
+  "Dragonstorm Forecaster": {
+   "gih": 0.5665,
+   "games": 14640,
+   "ata": 7.74,
+   "picks": 16342
+  },
+  "Dragonstorm Globe": {
+   "gih": 0.5629,
+   "games": 59518,
+   "ata": 5.74,
+   "picks": 35436
+  },
+  "Dusyut Earthcarver": {
+   "gih": 0.5561,
+   "games": 29427,
+   "ata": 10.1,
+   "picks": 29492
+  },
+  "Duty Beyond Death": {
+   "gih": 0.558,
+   "games": 17416,
+   "ata": 5.9,
+   "picks": 11287
+  },
+  "Eerie Ultimatum": {
+   "gih": 0.4763,
+   "games": 338,
+   "ata": 5.11,
+   "picks": 314
+  },
+  "Effortless Master": {
+   "gih": 0.5253,
+   "games": 11147,
+   "ata": 8.11,
+   "picks": 9246
+  },
+  "Elspeth, Storm Slayer": {
+   "gih": 0.6681,
+   "games": 6532,
+   "ata": 1.1,
+   "picks": 2829
+  },
+  "Embermouth Sentinel": {
+   "gih": 0.5399,
+   "games": 28676,
+   "ata": 10.2,
+   "picks": 27693
+  },
+  "Emergent Ultimatum": {
+   "gih": 0.5226,
+   "games": 199,
+   "ata": 6.8,
+   "picks": 354
+  },
+  "Encroaching Dragonstorm": {
+   "gih": 0.5464,
+   "games": 16471,
+   "ata": 5.88,
+   "picks": 10799
+  },
+  "Equilibrium Adept": {
+   "gih": 0.5636,
+   "games": 25735,
+   "ata": 5.87,
+   "picks": 14218
+  },
+  "Eshki Dragonclaw": {
+   "gih": 0.6111,
+   "games": 15056,
+   "ata": 2.07,
+   "picks": 6799
+  },
+  "Essence Anchor": {
+   "gih": 0.5251,
+   "games": 6812,
+   "ata": 9.93,
+   "picks": 12254
+  },
+  "Evolving Wilds": {
+   "gih": 0.5551,
+   "games": 72957,
+   "ata": 5.92,
+   "picks": 33395
+  },
+  "Fangkeeper's Familiar": {
+   "gih": 0.6093,
+   "games": 13764,
+   "ata": 2.56,
+   "picks": 6428
+  },
+  "Felothar, Dawn of the Abzan": {
+   "gih": 0.5257,
+   "games": 5273,
+   "ata": 3.4,
+   "picks": 3473
+  },
+  "Feral Deathgorger": {
+   "gih": 0.5303,
+   "games": 29545,
+   "ata": 8.05,
+   "picks": 20818
+  },
+  "Fire-Rim Form": {
+   "gih": 0.5293,
+   "games": 8035,
+   "ata": 11.94,
+   "picks": 26475
+  },
+  "Flamehold Grappler": {
+   "gih": 0.5509,
+   "games": 8946,
+   "ata": 3.81,
+   "picks": 5164
+  },
+  "Fleeting Effigy": {
+   "gih": 0.5554,
+   "games": 14736,
+   "ata": 7.54,
+   "picks": 11288
+  },
+  "Focus the Mind": {
+   "gih": 0.5536,
+   "games": 51791,
+   "ata": 8.72,
+   "picks": 36578
+  },
+  "Forest": {
+   "gih": 0.5521,
+   "games": 297525,
+   "ata": 13.96,
+   "picks": 9876
+  },
+  "Formation Breaker": {
+   "gih": 0.5494,
+   "games": 17145,
+   "ata": 6.11,
+   "picks": 10830
+  },
+  "Fortress Kin-Guard": {
+   "gih": 0.5709,
+   "games": 53048,
+   "ata": 6.81,
+   "picks": 32787
+  },
+  "Fresh Start": {
+   "gih": 0.5758,
+   "games": 35054,
+   "ata": 5.14,
+   "picks": 16701
+  },
+  "Frontier Bivouac": {
+   "gih": 0.5571,
+   "games": 32350,
+   "ata": 4.62,
+   "picks": 14831
+  },
+  "Frontline Rush": {
+   "gih": 0.5764,
+   "games": 22936,
+   "ata": 4.72,
+   "picks": 12908
+  },
+  "Frostcliff Siege": {
+   "gih": 0.5445,
+   "games": 8648,
+   "ata": 2.6,
+   "picks": 4670
+  },
+  "Furious Forebear": {
+   "gih": 0.5549,
+   "games": 20356,
+   "ata": 5.72,
+   "picks": 11385
+  },
+  "Genesis Ultimatum": {
+   "gih": 0.593,
+   "games": 629,
+   "ata": 4.59,
+   "picks": 423
+  },
+  "Glacial Dragonhunt": {
+   "gih": 0.5913,
+   "games": 31103,
+   "ata": 4.4,
+   "picks": 15303
+  },
+  "Glacierwood Siege": {
+   "gih": 0.4971,
+   "games": 3331,
+   "ata": 6.57,
+   "picks": 4319
+  },
+  "Great Arashin City": {
+   "gih": 0.5764,
+   "games": 7615,
+   "ata": 5.69,
+   "picks": 4427
+  },
+  "Gurmag Nightwatch": {
+   "gih": 0.5574,
+   "games": 21132,
+   "ata": 11.08,
+   "picks": 30795
+  },
+  "Gurmag Rakshasa": {
+   "gih": 0.5508,
+   "games": 10864,
+   "ata": 7.71,
+   "picks": 9580
+  },
+  "Hardened Tactician": {
+   "gih": 0.5268,
+   "games": 11761,
+   "ata": 6.21,
+   "picks": 8548
+  },
+  "Herd Heirloom": {
+   "gih": 0.5696,
+   "games": 11019,
+   "ata": 2.08,
+   "picks": 5295
+  },
+  "Heritage Reclamation": {
+   "gih": 0.5018,
+   "games": 7451,
+   "ata": 11.69,
+   "picks": 24759
+  },
+  "Highspire Bell-Ringer": {
+   "gih": 0.5181,
+   "games": 10223,
+   "ata": 11.54,
+   "picks": 24936
+  },
+  "Hollowmurk Siege": {
+   "gih": 0.5493,
+   "games": 8340,
+   "ata": 2.16,
+   "picks": 4341
+  },
+  "Host of the Hereafter": {
+   "gih": 0.5405,
+   "games": 14371,
+   "ata": 5.5,
+   "picks": 8573
+  },
+  "Humbling Elder": {
+   "gih": 0.5511,
+   "games": 16364,
+   "ata": 11.44,
+   "picks": 31765
+  },
+  "Hundred-Battle Veteran": {
+   "gih": 0.4959,
+   "games": 8499,
+   "ata": 8.56,
+   "picks": 9135
+  },
+  "Iceridge Serpent": {
+   "gih": 0.561,
+   "games": 35994,
+   "ata": 10.21,
+   "picks": 35541
+  },
+  "Inevitable Defeat": {
+   "gih": 0.6001,
+   "games": 10041,
+   "ata": 2.6,
+   "picks": 5480
+  },
+  "Inspired Ultimatum": {
+   "gih": 0.6188,
+   "games": 1031,
+   "ata": 3.82,
+   "picks": 553
+  },
+  "Inspirited Vanguard": {
+   "gih": 0.5539,
+   "games": 17874,
+   "ata": 5.37,
+   "picks": 10163
+  },
+  "Iridescent Tiger": {
+   "gih": 0.5647,
+   "games": 14537,
+   "ata": 8.33,
+   "picks": 12816
+  },
+  "Island": {
+   "gih": 0.5532,
+   "games": 304217,
+   "ata": 13.97,
+   "picks": 9957
+  },
+  "Jade-Cast Sentinel": {
+   "gih": 0.523,
+   "games": 5625,
+   "ata": 12.78,
+   "picks": 30480
+  },
+  "Jeskai Brushmaster": {
+   "gih": 0.5201,
+   "games": 8074,
+   "ata": 9.03,
+   "picks": 9171
+  },
+  "Jeskai Devotee": {
+   "gih": 0.5491,
+   "games": 44990,
+   "ata": 8.89,
+   "picks": 32985
+  },
+  "Jeskai Monument": {
+   "gih": 0.5797,
+   "games": 26576,
+   "ata": 6.72,
+   "picks": 16348
+  },
+  "Jeskai Revelation": {
+   "gih": 0.6851,
+   "games": 8792,
+   "ata": 1.81,
+   "picks": 3635
+  },
+  "Jeskai Shrinekeeper": {
+   "gih": 0.5821,
+   "games": 26451,
+   "ata": 4.18,
+   "picks": 13556
+  },
+  "Jungle Hollow": {
+   "gih": 0.5517,
+   "games": 51882,
+   "ata": 6.98,
+   "picks": 26658
+  },
+  "Karakyk Guardian": {
+   "gih": 0.6016,
+   "games": 33685,
+   "ata": 3.31,
+   "picks": 15718
+  },
+  "Kheru Goldkeeper": {
+   "gih": 0.5488,
+   "games": 19437,
+   "ata": 5.71,
+   "picks": 11236
+  },
+  "Kin-Tree Nurturer": {
+   "gih": 0.5483,
+   "games": 22639,
+   "ata": 9.81,
+   "picks": 23240
+  },
+  "Kin-Tree Severance": {
+   "gih": 0.5626,
+   "games": 19068,
+   "ata": 5.14,
+   "picks": 10242
+  },
+  "Kishla Skimmer": {
+   "gih": 0.5744,
+   "games": 29642,
+   "ata": 4.35,
+   "picks": 15040
+  },
+  "Kishla Trawlers": {
+   "gih": 0.573,
+   "games": 32836,
+   "ata": 5.24,
+   "picks": 16264
+  },
+  "Kishla Village": {
+   "gih": 0.5588,
+   "games": 8346,
+   "ata": 7.02,
+   "picks": 4792
+  },
+  "Knockout Maneuver": {
+   "gih": 0.5873,
+   "games": 28791,
+   "ata": 3.76,
+   "picks": 13834
+  },
+  "Kotis, the Fangkeeper": {
+   "gih": 0.5281,
+   "games": 6118,
+   "ata": 3.96,
+   "picks": 3872
+  },
+  "Krotiq Nestguard": {
+   "gih": 0.5095,
+   "games": 7979,
+   "ata": 11.9,
+   "picks": 25267
+  },
+  "Krumar Initiate": {
+   "gih": 0.5253,
+   "games": 13433,
+   "ata": 6.99,
+   "picks": 9365
+  },
+  "Lasyd Prowler": {
+   "gih": 0.5844,
+   "games": 12859,
+   "ata": 2.22,
+   "picks": 5989
+  },
+  "Lie in Wait": {
+   "gih": 0.5705,
+   "games": 25187,
+   "ata": 5.45,
+   "picks": 14011
+  },
+  "Lightfoot Technique": {
+   "gih": 0.533,
+   "games": 13000,
+   "ata": 10.82,
+   "picks": 23900
+  },
+  "Lotuslight Dancers": {
+   "gih": 0.5834,
+   "games": 10662,
+   "ata": 3.92,
+   "picks": 6309
+  },
+  "Loxodon Battle Priest": {
+   "gih": 0.5259,
+   "games": 9406,
+   "ata": 6.58,
+   "picks": 7311
+  },
+  "Maelstrom of the Spirit Dragon": {
+   "gih": 0.5707,
+   "games": 5572,
+   "ata": 6.65,
+   "picks": 4297
+  },
+  "Magmatic Hellkite": {
+   "gih": 0.5877,
+   "games": 12140,
+   "ata": 1.71,
+   "picks": 5668
+  },
+  "Mammoth Bellow": {
+   "gih": 0.55,
+   "games": 23424,
+   "ata": 4.91,
+   "picks": 13014
+  },
+  "Marang River Regent": {
+   "gih": 0.6736,
+   "games": 16373,
+   "ata": 1.42,
+   "picks": 6521
+  },
+  "Mardu Devotee": {
+   "gih": 0.5843,
+   "games": 52511,
+   "ata": 6.54,
+   "picks": 34022
+  },
+  "Mardu Monument": {
+   "gih": 0.5897,
+   "games": 23068,
+   "ata": 6.05,
+   "picks": 14483
+  },
+  "Mardu Siegebreaker": {
+   "gih": 0.5528,
+   "games": 7876,
+   "ata": 2.22,
+   "picks": 4451
+  },
+  "Marsh Flats": {
+   "gih": 0.543,
+   "games": 593,
+   "ata": 4.56,
+   "picks": 346
+  },
+  "Marshal of the Lost": {
+   "gih": 0.5383,
+   "games": 12854,
+   "ata": 5.06,
+   "picks": 8047
+  },
+  "Meticulous Artisan": {
+   "gih": 0.5518,
+   "games": 14194,
+   "ata": 11.27,
+   "picks": 27616
+  },
+  "Mistrise Village": {
+   "gih": 0.5195,
+   "games": 2235,
+   "ata": 9.21,
+   "picks": 4292
+  },
+  "Misty Rainforest": {
+   "gih": 0.5608,
+   "games": 831,
+   "ata": 4.67,
+   "picks": 426
+  },
+  "Molten Exhale": {
+   "gih": 0.5788,
+   "games": 79816,
+   "ata": 3.46,
+   "picks": 39475
+  },
+  "Monastery Messenger": {
+   "gih": 0.533,
+   "games": 25072,
+   "ata": 10.43,
+   "picks": 29006
+  },
+  "Mountain": {
+   "gih": 0.5603,
+   "games": 316192,
+   "ata": 13.96,
+   "picks": 10030
+  },
+  "Mox Jasper": {
+   "gih": 0.4429,
+   "games": 210,
+   "ata": 7.49,
+   "picks": 1659
+  },
+  "Mystic Monastery": {
+   "gih": 0.5572,
+   "games": 30302,
+   "ata": 4.98,
+   "picks": 14125
+  },
+  "Naga Fleshcrafter": {
+   "gih": 0.5643,
+   "games": 13239,
+   "ata": 2.14,
+   "picks": 5975
+  },
+  "Narset's Rebuke": {
+   "gih": 0.558,
+   "games": 49811,
+   "ata": 8.15,
+   "picks": 32542
+  },
+  "Narset, Jeskai Waymaster": {
+   "gih": 0.5591,
+   "games": 8455,
+   "ata": 4.62,
+   "picks": 5253
+  },
+  "Nature's Rhythm": {
+   "gih": 0.5458,
+   "games": 1343,
+   "ata": 8.16,
+   "picks": 3379
+  },
+  "Neriv, Heart of the Storm": {
+   "gih": 0.5542,
+   "games": 3560,
+   "ata": 2.05,
+   "picks": 2093
+  },
+  "New Way Forward": {
+   "gih": 0.548,
+   "games": 7694,
+   "ata": 4.44,
+   "picks": 4864
+  },
+  "Nightblade Brigade": {
+   "gih": 0.53,
+   "games": 22751,
+   "ata": 9.17,
+   "picks": 21133
+  },
+  "Nomad Outpost": {
+   "gih": 0.5504,
+   "games": 25126,
+   "ata": 4.83,
+   "picks": 12405
+  },
+  "Opulent Palace": {
+   "gih": 0.553,
+   "games": 29775,
+   "ata": 4.84,
+   "picks": 13994
+  },
+  "Osseous Exhale": {
+   "gih": 0.5505,
+   "games": 43036,
+   "ata": 6.02,
+   "picks": 25484
+  },
+  "Overwhelming Surge": {
+   "gih": 0.5452,
+   "games": 17514,
+   "ata": 5.37,
+   "picks": 9947
+  },
+  "Perennation": {
+   "gih": 0.5389,
+   "games": 3422,
+   "ata": 2.9,
+   "picks": 2118
+  },
+  "Piercing Exhale": {
+   "gih": 0.5748,
+   "games": 66938,
+   "ata": 5.41,
+   "picks": 35302
+  },
+  "Plains": {
+   "gih": 0.5578,
+   "games": 288324,
+   "ata": 13.96,
+   "picks": 9724
+  },
+  "Poised Practitioner": {
+   "gih": 0.5272,
+   "games": 14933,
+   "ata": 10.39,
+   "picks": 23447
+  },
+  "Purging Stormbrood": {
+   "gih": 0.5666,
+   "games": 20266,
+   "ata": 3.63,
+   "picks": 10511
+  },
+  "Qarsi Revenant": {
+   "gih": 0.6117,
+   "games": 11132,
+   "ata": 1.48,
+   "picks": 5332
+  },
+  "Rainveil Rejuvenator": {
+   "gih": 0.5154,
+   "games": 9153,
+   "ata": 8.35,
+   "picks": 9406
+  },
+  "Rakshasa's Bargain": {
+   "gih": 0.5843,
+   "games": 30645,
+   "ata": 5.66,
+   "picks": 16345
+  },
+  "Rally the Monastery": {
+   "gih": 0.593,
+   "games": 27555,
+   "ata": 3.5,
+   "picks": 13676
+  },
+  "Rebellious Strike": {
+   "gih": 0.5561,
+   "games": 25311,
+   "ata": 10.23,
+   "picks": 29492
+  },
+  "Rediscover the Way": {
+   "gih": 0.5898,
+   "games": 11532,
+   "ata": 3.91,
+   "picks": 6456
+  },
+  "Reigning Victor": {
+   "gih": 0.5594,
+   "games": 27403,
+   "ata": 9.64,
+   "picks": 25996
+  },
+  "Reputable Merchant": {
+   "gih": 0.5279,
+   "games": 11875,
+   "ata": 11.32,
+   "picks": 21689
+  },
+  "Rescue Leopard": {
+   "gih": 0.5452,
+   "games": 23535,
+   "ata": 10.46,
+   "picks": 30180
+  },
+  "Reverberating Summons": {
+   "gih": 0.4859,
+   "games": 3571,
+   "ata": 10.78,
+   "picks": 10211
+  },
+  "Revival of the Ancestors": {
+   "gih": 0.6147,
+   "games": 10293,
+   "ata": 2.35,
+   "picks": 5449
+  },
+  "Riling Dawnbreaker": {
+   "gih": 0.5396,
+   "games": 42301,
+   "ata": 5.94,
+   "picks": 24160
+  },
+  "Ringing Strike Mastery": {
+   "gih": 0.525,
+   "games": 9783,
+   "ata": 11.53,
+   "picks": 23368
+  },
+  "Rite of Renewal": {
+   "gih": 0.524,
+   "games": 7792,
+   "ata": 10.05,
+   "picks": 11046
+  },
+  "Riverwalk Technique": {
+   "gih": 0.5705,
+   "games": 59466,
+   "ata": 9.2,
+   "picks": 41188
+  },
+  "Riverwheel Sweep": {
+   "gih": 0.582,
+   "games": 23523,
+   "ata": 6.87,
+   "picks": 14779
+  },
+  "Roamer's Routine": {
+   "gih": 0.5225,
+   "games": 23307,
+   "ata": 9.72,
+   "picks": 24759
+  },
+  "Roar of Endless Song": {
+   "gih": 0.6538,
+   "games": 16382,
+   "ata": 1.83,
+   "picks": 6910
+  },
+  "Roiling Dragonstorm": {
+   "gih": 0.5904,
+   "games": 34224,
+   "ata": 4.01,
+   "picks": 17019
+  },
+  "Rot-Curse Rakshasa": {
+   "gih": 0.5264,
+   "games": 3203,
+   "ata": 2.29,
+   "picks": 1840
+  },
+  "Rugged Highlands": {
+   "gih": 0.5596,
+   "games": 58017,
+   "ata": 7.74,
+   "picks": 31277
+  },
+  "Ruinous Ultimatum": {
+   "gih": 0.5408,
+   "games": 466,
+   "ata": 4.1,
+   "picks": 328
+  },
+  "Runescale Stormbrood": {
+   "gih": 0.5565,
+   "games": 23879,
+   "ata": 4.73,
+   "picks": 11763
+  },
+  "Sage of the Fang": {
+   "gih": 0.5526,
+   "games": 18525,
+   "ata": 4.9,
+   "picks": 9759
+  },
+  "Sage of the Skies": {
+   "gih": 0.6492,
+   "games": 14557,
+   "ata": 1.46,
+   "picks": 6237
+  },
+  "Sagu Pummeler": {
+   "gih": 0.5522,
+   "games": 55076,
+   "ata": 7.48,
+   "picks": 30762
+  },
+  "Sagu Wildling": {
+   "gih": 0.564,
+   "games": 69163,
+   "ata": 4.38,
+   "picks": 33680
+  },
+  "Salt Road Packbeast": {
+   "gih": 0.5745,
+   "games": 59795,
+   "ata": 5.37,
+   "picks": 36160
+  },
+  "Salt Road Skirmish": {
+   "gih": 0.5527,
+   "games": 17754,
+   "ata": 4.64,
+   "picks": 9646
+  },
+  "Sandskitter Outrider": {
+   "gih": 0.5237,
+   "games": 10148,
+   "ata": 11.24,
+   "picks": 22404
+  },
+  "Sandsteppe Citadel": {
+   "gih": 0.5409,
+   "games": 23781,
+   "ata": 5.03,
+   "picks": 11790
+  },
+  "Sarkhan's Resolve": {
+   "gih": 0.5628,
+   "games": 33708,
+   "ata": 9.49,
+   "picks": 29381
+  },
+  "Sarkhan, Dragon Ascendant": {
+   "gih": 0.5689,
+   "games": 9453,
+   "ata": 2.63,
+   "picks": 4957
+  },
+  "Scalding Tarn": {
+   "gih": 0.5516,
+   "games": 872,
+   "ata": 4.51,
+   "picks": 444
+  },
+  "Scavenger Regent": {
+   "gih": 0.5961,
+   "games": 12549,
+   "ata": 1.37,
+   "picks": 5562
+  },
+  "Scoured Barrens": {
+   "gih": 0.5426,
+   "games": 43406,
+   "ata": 6.93,
+   "picks": 24021
+  },
+  "Seize Opportunity": {
+   "gih": 0.5262,
+   "games": 12011,
+   "ata": 11.4,
+   "picks": 27504
+  },
+  "Severance Priest": {
+   "gih": 0.568,
+   "games": 3947,
+   "ata": 5.58,
+   "picks": 3447
+  },
+  "Shiko, Paragon of the Way": {
+   "gih": 0.6347,
+   "games": 6939,
+   "ata": 1.57,
+   "picks": 3117
+  },
+  "Shock Brigade": {
+   "gih": 0.5625,
+   "games": 52158,
+   "ata": 6.42,
+   "picks": 33241
+  },
+  "Shocking Sharpshooter": {
+   "gih": 0.5771,
+   "games": 25294,
+   "ata": 3.85,
+   "picks": 13239
+  },
+  "Sibsig Appraiser": {
+   "gih": 0.5892,
+   "games": 97063,
+   "ata": 4.89,
+   "picks": 49783
+  },
+  "Sidisi, Regent of the Mire": {
+   "gih": 0.5234,
+   "games": 4110,
+   "ata": 5.56,
+   "picks": 3389
+  },
+  "Sinkhole Surveyor": {
+   "gih": 0.6009,
+   "games": 11195,
+   "ata": 1.65,
+   "picks": 5348
+  },
+  "Skirmish Rhino": {
+   "gih": 0.5508,
+   "games": 10991,
+   "ata": 6.4,
+   "picks": 8112
+  },
+  "Smile at Death": {
+   "gih": 0.5203,
+   "games": 3131,
+   "ata": 2.2,
+   "picks": 1817
+  },
+  "Snakeskin Veil": {
+   "gih": 0.5641,
+   "games": 43549,
+   "ata": 8.73,
+   "picks": 30692
+  },
+  "Snowmelt Stag": {
+   "gih": 0.5435,
+   "games": 12342,
+   "ata": 11.84,
+   "picks": 30125
+  },
+  "Songcrafter Mage": {
+   "gih": 0.5658,
+   "games": 11166,
+   "ata": 4.21,
+   "picks": 6157
+  },
+  "Sonic Shrieker": {
+   "gih": 0.6083,
+   "games": 27113,
+   "ata": 3.25,
+   "picks": 14424
+  },
+  "Spectral Denial": {
+   "gih": 0.5764,
+   "games": 25633,
+   "ata": 7.46,
+   "picks": 16233
+  },
+  "Stadium Headliner": {
+   "gih": 0.5828,
+   "games": 10115,
+   "ata": 2.84,
+   "picks": 5219
+  },
+  "Stalwart Successor": {
+   "gih": 0.5325,
+   "games": 13631,
+   "ata": 5.5,
+   "picks": 8339
+  },
+  "Starry-Eyed Skyrider": {
+   "gih": 0.5217,
+   "games": 14044,
+   "ata": 5.44,
+   "picks": 8936
+  },
+  "Static Snare": {
+   "gih": 0.5648,
+   "games": 24923,
+   "ata": 3.01,
+   "picks": 12311
+  },
+  "Stillness in Motion": {
+   "gih": 0.4431,
+   "games": 246,
+   "ata": 10.32,
+   "picks": 5564
+  },
+  "Stormbeacon Blade": {
+   "gih": 0.5012,
+   "games": 7618,
+   "ata": 8.71,
+   "picks": 8633
+  },
+  "Stormplain Detainment": {
+   "gih": 0.5577,
+   "games": 52184,
+   "ata": 4.37,
+   "picks": 27432
+  },
+  "Stormscale Scion": {
+   "gih": 0.5664,
+   "games": 5104,
+   "ata": 1.8,
+   "picks": 2516
+  },
+  "Stormshriek Feral": {
+   "gih": 0.5522,
+   "games": 46237,
+   "ata": 7.49,
+   "picks": 27307
+  },
+  "Strategic Betrayal": {
+   "gih": 0.5497,
+   "games": 10499,
+   "ata": 7.24,
+   "picks": 7975
+  },
+  "Sultai Devotee": {
+   "gih": 0.5571,
+   "games": 56899,
+   "ata": 7.29,
+   "picks": 31619
+  },
+  "Sultai Monument": {
+   "gih": 0.5695,
+   "games": 25399,
+   "ata": 6.85,
+   "picks": 15310
+  },
+  "Summit Intimidator": {
+   "gih": 0.518,
+   "games": 10230,
+   "ata": 11.62,
+   "picks": 27219
+  },
+  "Sunpearl Kirin": {
+   "gih": 0.5663,
+   "games": 25157,
+   "ata": 3.98,
+   "picks": 12810
+  },
+  "Sunset Strikemaster": {
+   "gih": 0.5788,
+   "games": 29495,
+   "ata": 3.81,
+   "picks": 14236
+  },
+  "Surrak, Elusive Hunter": {
+   "gih": 0.6087,
+   "games": 13589,
+   "ata": 1.58,
+   "picks": 5916
+  },
+  "Swamp": {
+   "gih": 0.5482,
+   "games": 248133,
+   "ata": 13.96,
+   "picks": 9940
+  },
+  "Swiftwater Cliffs": {
+   "gih": 0.5612,
+   "games": 64910,
+   "ata": 6.89,
+   "picks": 31517
+  },
+  "Synchronized Charge": {
+   "gih": 0.5664,
+   "games": 16034,
+   "ata": 6.3,
+   "picks": 10742
+  },
+  "Taigam, Master Opportunist": {
+   "gih": 0.5541,
+   "games": 5625,
+   "ata": 2.04,
+   "picks": 2607
+  },
+  "Teeming Dragonstorm": {
+   "gih": 0.5674,
+   "games": 26658,
+   "ata": 3.38,
+   "picks": 14074
+  },
+  "Tempest Hawk": {
+   "gih": 0.5332,
+   "games": 10657,
+   "ata": 10.2,
+   "picks": 26780
+  },
+  "Temur Battlecrier": {
+   "gih": 0.5913,
+   "games": 11992,
+   "ata": 3.31,
+   "picks": 6261
+  },
+  "Temur Devotee": {
+   "gih": 0.5491,
+   "games": 43920,
+   "ata": 9.47,
+   "picks": 32683
+  },
+  "Temur Monument": {
+   "gih": 0.5641,
+   "games": 28695,
+   "ata": 6.14,
+   "picks": 15395
+  },
+  "Temur Tawnyback": {
+   "gih": 0.5713,
+   "games": 55167,
+   "ata": 8.23,
+   "picks": 36753
+  },
+  "Tersa Lightshatter": {
+   "gih": 0.5893,
+   "games": 12243,
+   "ata": 1.94,
+   "picks": 5668
+  },
+  "Teval, Arbiter of Virtue": {
+   "gih": 0.6162,
+   "games": 7223,
+   "ata": 1.72,
+   "picks": 3170
+  },
+  "The Sibsig Ceremony": {
+   "gih": 0.4,
+   "games": 35,
+   "ata": 10.16,
+   "picks": 4738
+  },
+  "Thornwood Falls": {
+   "gih": 0.5621,
+   "games": 65172,
+   "ata": 6.76,
+   "picks": 31118
+  },
+  "Thunder of Unity": {
+   "gih": 0.5372,
+   "games": 6329,
+   "ata": 4.08,
+   "picks": 4263
+  },
+  "Trade Route Envoy": {
+   "gih": 0.5331,
+   "games": 31094,
+   "ata": 8.86,
+   "picks": 25910
+  },
+  "Tranquil Cove": {
+   "gih": 0.5597,
+   "games": 52806,
+   "ata": 8.22,
+   "picks": 30710
+  },
+  "Traveling Botanist": {
+   "gih": 0.5924,
+   "games": 33115,
+   "ata": 3.13,
+   "picks": 15217
+  },
+  "Twin Bolt": {
+   "gih": 0.5382,
+   "games": 16783,
+   "ata": 10.29,
+   "picks": 24707
+  },
+  "Twinmaw Stormbrood": {
+   "gih": 0.5892,
+   "games": 32306,
+   "ata": 2.17,
+   "picks": 14582
+  },
+  "Ugin, Eye of the Storms": {
+   "gih": 0.6853,
+   "games": 7318,
+   "ata": 1.06,
+   "picks": 2924
+  },
+  "Unburied Earthcarver": {
+   "gih": 0.5088,
+   "games": 12804,
+   "ata": 11.24,
+   "picks": 22354
+  },
+  "Underfoot Underdogs": {
+   "gih": 0.5441,
+   "games": 24455,
+   "ata": 10.36,
+   "picks": 29287
+  },
+  "Undergrowth Leopard": {
+   "gih": 0.544,
+   "games": 33992,
+   "ata": 9.57,
+   "picks": 27428
+  },
+  "Unending Whisper": {
+   "gih": 0.5675,
+   "games": 49770,
+   "ata": 8.93,
+   "picks": 36448
+  },
+  "United Battlefront": {
+   "gih": 0.3716,
+   "games": 218,
+   "ata": 9.37,
+   "picks": 3586
+  },
+  "Unrooted Ancestor": {
+   "gih": 0.4957,
+   "games": 5741,
+   "ata": 9.43,
+   "picks": 8519
+  },
+  "Unsparing Boltcaster": {
+   "gih": 0.542,
+   "games": 12674,
+   "ata": 7.91,
+   "picks": 10435
+  },
+  "Ureni's Rebuff": {
+   "gih": 0.5686,
+   "games": 27687,
+   "ata": 6.21,
+   "picks": 14891
+  },
+  "Ureni, the Song Unending": {
+   "gih": 0.6796,
+   "games": 7797,
+   "ata": 1.47,
+   "picks": 3167
+  },
+  "Venerated Stormsinger": {
+   "gih": 0.5536,
+   "games": 14425,
+   "ata": 5.0,
+   "picks": 8979
+  },
+  "Verdant Catacombs": {
+   "gih": 0.5499,
+   "games": 611,
+   "ata": 4.66,
+   "picks": 355
+  },
+  "Veteran Ice Climber": {
+   "gih": 0.5439,
+   "games": 15890,
+   "ata": 7.55,
+   "picks": 11639
+  },
+  "Voice of Victory": {
+   "gih": 0.6019,
+   "games": 11459,
+   "ata": 1.71,
+   "picks": 5388
+  },
+  "Wail of War": {
+   "gih": 0.5454,
+   "games": 10562,
+   "ata": 8.53,
+   "picks": 10001
+  },
+  "War Effort": {
+   "gih": 0.5666,
+   "games": 19883,
+   "ata": 4.99,
+   "picks": 12321
+  },
+  "Warden of the Grove": {
+   "gih": 0.6096,
+   "games": 13301,
+   "ata": 1.43,
+   "picks": 5747
+  },
+  "Watcher of the Wayside": {
+   "gih": 0.5413,
+   "games": 4055,
+   "ata": 12.64,
+   "picks": 28672
+  },
+  "Wayspeaker Bodyguard": {
+   "gih": 0.5458,
+   "games": 15376,
+   "ata": 6.43,
+   "picks": 10523
+  },
+  "Whirlwing Stormbrood": {
+   "gih": 0.5528,
+   "games": 23889,
+   "ata": 4.22,
+   "picks": 11677
+  },
+  "Wild Ride": {
+   "gih": 0.5161,
+   "games": 8740,
+   "ata": 11.77,
+   "picks": 27776
+  },
+  "Wind-Scarred Crag": {
+   "gih": 0.5521,
+   "games": 54140,
+   "ata": 6.82,
+   "picks": 27247
+  },
+  "Windcrag Siege": {
+   "gih": 0.5886,
+   "games": 10668,
+   "ata": 2.02,
+   "picks": 5259
+  },
+  "Wingblade Disciple": {
+   "gih": 0.5785,
+   "games": 32580,
+   "ata": 4.06,
+   "picks": 15962
+  },
+  "Wingspan Stride": {
+   "gih": 0.4954,
+   "games": 2402,
+   "ata": 12.78,
+   "picks": 24508
+  },
+  "Winternight Stories": {
+   "gih": 0.6077,
+   "games": 16412,
+   "ata": 2.53,
+   "picks": 7429
+  },
+  "Worthy Cost": {
+   "gih": 0.5144,
+   "games": 17520,
+   "ata": 9.68,
+   "picks": 20291
+  },
+  "Yathan Roadwatcher": {
+   "gih": 0.5657,
+   "games": 6487,
+   "ata": 3.98,
+   "picks": 4221
+  },
+  "Yathan Tombguard": {
+   "gih": 0.512,
+   "games": 11926,
+   "ata": 6.29,
+   "picks": 8162
+  },
+  "Zurgo's Vanguard": {
+   "gih": 0.5672,
+   "games": 21089,
+   "ata": 5.25,
+   "picks": 12309
+  },
+  "Zurgo, Thunder's Decree": {
+   "gih": 0.5792,
+   "games": 7728,
+   "ata": 2.5,
+   "picks": 4444
+  }
+ }
+}

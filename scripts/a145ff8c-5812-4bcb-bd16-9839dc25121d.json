@@ -1,0 +1,37 @@
+{
+  "name": "Storm-Kiln Artist",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +1/+0 for each artifact you control."
+    },
+    {
+      "trigger": "castOrCopy",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, create a Treasure token."
+    }
+  ]
+}

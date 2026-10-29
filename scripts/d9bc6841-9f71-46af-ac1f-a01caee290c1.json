@@ -1,0 +1,24 @@
+{
+  "name": "War Effort",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Creatures you control get +1/+0."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "mobilize": 1
+        }
+      ],
+      "text": "Whenever you attack, create a 1/1 red Warrior creature token that's tapped and attacking. Sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Sarkhan, Soul Aflame",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Dragon"
+        },
+        "amount": 1
+      },
+      "text": "Dragon spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Have Sarkhan become a copy of that Dragon until end of turn?",
+          "effects": [
+            {
+              "becomeCopy": "self",
+              "target": "triggered",
+              "exceptName": "Sarkhan, Soul Aflame",
+              "addLegendary": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Dragon you control enters, you may have Sarkhan become a copy of it until end of turn, except its name is Sarkhan, Soul Aflame and it's legendary in addition to its other types."
+    }
+  ]
+}

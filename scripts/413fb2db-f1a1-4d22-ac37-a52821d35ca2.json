@@ -1,0 +1,44 @@
+{
+  "name": "Dragonback Assault",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damage": 3,
+          "to": {
+            "each": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ],
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When this enchantment enters, it deals 3 damage to each creature and each planeswalker."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dragon",
+            "types": "Creature — Dragon",
+            "colors": [
+              "R"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 4/4 red Dragon creature token with flying."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Walking Bulwark",
+  "abilities": [
+    {
+      "cost": "{2}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Defender"
+          },
+          "text": "target creature with defender"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Haste",
+            "Can attack as though it didn't have defender",
+            "Assigns damage by toughness"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}: Until end of turn, target creature with defender gains haste, can attack as though it didn't have defender, and assigns combat damage equal to its toughness rather than its power. Activate only as a sorcery."
+    }
+  ]
+}

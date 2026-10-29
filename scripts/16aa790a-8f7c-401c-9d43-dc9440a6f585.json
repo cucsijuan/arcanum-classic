@@ -1,0 +1,33 @@
+{
+  "name": "Broodcaller Scourge",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon"
+      },
+      "batchedPerPlayer": true,
+      "sumAmounts": true,
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "one": true,
+          "maxManaValue": "triggerAmount"
+        }
+      ],
+      "text": "Whenever one or more Dragons you control deal combat damage to a player, you may put a permanent card with mana value less than or equal to that damage from your hand onto the battlefield."
+    }
+  ]
+}

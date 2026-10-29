@@ -1,0 +1,52 @@
+{
+  "name": "Frontline Rush",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Create two 1/1 red Goblin creature tokens.",
+        "effects": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Goblin",
+              "types": "Creature — Goblin",
+              "colors": [
+                "R"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +X/+X until end of turn, where X is the number of creatures you control.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              },
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              }
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

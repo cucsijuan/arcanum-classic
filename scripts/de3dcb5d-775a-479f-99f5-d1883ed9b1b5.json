@@ -1,0 +1,14 @@
+{
+  "name": "Orzhov Signet",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{W}{B}"
+        }
+      ],
+      "text": "{1}, {T}: Add {W}{B}."
+    }
+  ]
+}

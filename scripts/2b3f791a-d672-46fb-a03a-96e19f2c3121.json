@@ -1,0 +1,43 @@
+{
+  "name": "Felothar the Steadfast",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Assigns damage by toughness"
+        ]
+      },
+      "text": "Each creature you control assigns combat damage equal to its toughness rather than its power."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can attack as though it didn't have defender"
+        ]
+      },
+      "text": "Creatures you control can attack as though they didn't have defender."
+    },
+    {
+      "cost": "{3}, {T}, sacrifice:creature",
+      "effects": [
+        {
+          "draw": "sacrificedToughness"
+        },
+        {
+          "discard": "sacrificedPower"
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice another creature: Draw cards equal to the sacrificed creature's toughness, then discard cards equal to its power."
+    }
+  ]
+}

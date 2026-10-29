@@ -1,0 +1,13 @@
+{
+  "name": "Curse of Opulence",
+  "abilities": [
+    {
+      "trigger": "enchantedPlayerAttacked",
+      "effects": [
+        { "tokens": 1, "token": "Gold" },
+        { "if": { "not": "triggeredPlayerIsYou" }, "then": [ { "tokens": 1, "token": "Gold", "for": "triggeredPlayer" } ] }
+      ],
+      "text": "Whenever enchanted player is attacked, create a Gold token. Each opponent attacking that player does the same."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Shigeki, Jukai Visionary",
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}, returnToHand",
+      "effects": [ { "lookAtTop": 4, "reveal": true, "filter": { "types": ["land"] }, "take": 1, "to": "battlefield", "tapped": true, "rest": "graveyard" } ],
+      "text": "{1}{G}, {T}, Return Shigeki to its owner's hand: Reveal the top four cards of your library. You may put a land card from among them onto the battlefield tapped. Put the rest into your graveyard."
+    },
+    {
+      "cost": "{X}{X}{G}{G}, discardThis",
+      "targets": [ { "kind": "graveyardCard", "controller": "you", "filter": { "notSupertype": "legendary" }, "countOf": "X", "text": "X target nonlegendary cards from your graveyard" } ],
+      "effects": [ { "bounce": "eachTarget" } ],
+      "text": "Channel — {X}{X}{G}{G}, Discard this card: Return X target nonlegendary cards from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Victimize",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "two target creature cards in your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "two target creature cards in your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "if": "youSacrificed",
+        "then": [
+          {
+            "reanimate": "target",
+            "tapped": true
+          },
+          {
+            "reanimate": "target2",
+            "tapped": true
+          }
+        ]
+      }
+    ],
+    "text": "Choose two target creature cards in your graveyard. Sacrifice a creature. If you do, return the chosen cards to the battlefield tapped."
+  }
+}

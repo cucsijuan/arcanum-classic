@@ -1,0 +1,24 @@
+{
+  "name": "Narset, Jeskai Waymaster",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "may": "Discard your hand and draw a card for each spell you've cast this turn?",
+          "effects": [
+            {
+              "discardHand": "you"
+            },
+            {
+              "draw": {
+                "spellsCast": {}
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may discard your hand. If you do, draw cards equal to the number of spells you've cast this turn."
+    }
+  ]
+}

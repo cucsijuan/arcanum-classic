@@ -1,0 +1,100 @@
+{
+  "name": "Ugin, Eye of the Storms",
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "colors": [
+              "W",
+              "U",
+              "B",
+              "R",
+              "G"
+            ]
+          },
+          "text": "up to one target permanent that's one or more colors"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When you cast this spell, exile up to one target permanent that's one or more colors."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colorless": true
+      },
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "colors": [
+              "W",
+              "U",
+              "B",
+              "R",
+              "G"
+            ]
+          },
+          "text": "up to one target permanent that's one or more colors"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Whenever you cast a colorless spell, exile up to one target permanent that's one or more colors."
+    },
+    {
+      "cost": "+2",
+      "effects": [
+        {
+          "gainLife": 3
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "+2: You gain 3 life and draw a card."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "addMana": "{C}{C}{C}"
+        }
+      ],
+      "text": "0: Add {C}{C}{C}."
+    },
+    {
+      "cost": "-11",
+      "effects": [
+        {
+          "search": {
+            "colorless": true,
+            "not": [
+              "land"
+            ]
+          },
+          "count": 99,
+          "to": "exile"
+        },
+        {
+          "castExiledThisWay": true,
+          "found": true,
+          "freeThisTurn": true
+        }
+      ],
+      "text": "−11: Search your library for any number of colorless nonland cards, exile them, then shuffle. Until end of turn, you may cast those cards without paying their mana costs."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Temur Monument",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Forest"
+              },
+              {
+                "subtype": "Island"
+              },
+              {
+                "subtype": "Mountain"
+              }
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic Forest, Island, or Mountain card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{3}{G}{U}{R}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elephant",
+            "types": "Creature — Elephant",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 5
+          }
+        }
+      ],
+      "text": "{3}{G}{U}{R}, {T}, Sacrifice this artifact: Create a 5/5 green Elephant creature token. Activate only as a sorcery."
+    }
+  ]
+}

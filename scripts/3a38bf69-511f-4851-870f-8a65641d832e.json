@@ -1,0 +1,41 @@
+{
+  "name": "Severance Priest",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "exileInstead": true,
+          "optional": true
+        }
+      ],
+      "text": "When this creature enters, target opponent reveals their hand. You may choose a nonland card from it. If you do, exile that card."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "linkedExiledOwnerCreates": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        }
+      ],
+      "text": "When this creature leaves the battlefield, the exiled card's owner creates an X/X white Spirit creature token, where X is the mana value of the exiled card."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Craterhoof Behemoth",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          ],
+          "keywords": [
+            "Trample"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this creature enters, creatures you control gain trample and get +X/+X until end of turn, where X is the number of creatures you control."
+    }
+  ]
+}

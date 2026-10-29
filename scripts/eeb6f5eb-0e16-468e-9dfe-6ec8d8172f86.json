@@ -1,0 +1,20 @@
+{
+  "name": "Storm's Wrath",
+  "spell": {
+    "effects": [
+      {
+        "damage": 4,
+        "to": {
+          "each": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Storm's Wrath deals 4 damage to each creature and each planeswalker."
+  }
+}

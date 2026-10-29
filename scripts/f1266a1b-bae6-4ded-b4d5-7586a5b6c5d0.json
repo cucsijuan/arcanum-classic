@@ -1,0 +1,33 @@
+{
+  "name": "Clarion Conqueror",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "planeswalker"
+          ]
+        },
+        "cantActivate": true
+      },
+      "text": "Activated abilities of artifacts, creatures, and planeswalkers can't be activated."
+    },
+    {
+      "static": {
+        "affects": "permanents:opponents",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "planeswalker"
+          ]
+        },
+        "cantActivate": true
+      },
+      "text": "Activated abilities of artifacts, creatures, and planeswalkers can't be activated."
+    }
+  ]
+}

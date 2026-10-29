@@ -1,0 +1,14 @@
+{
+  "name": "Fortress Kin-Guard",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "endure": 1
+        }
+      ],
+      "text": "When this creature enters, it endures 1."
+    }
+  ]
+}

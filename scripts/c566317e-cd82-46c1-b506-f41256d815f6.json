@@ -1,0 +1,27 @@
+{
+  "name": "Wingblade Disciple",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, create a 1/1 white Bird creature token with flying."
+    }
+  ]
+}

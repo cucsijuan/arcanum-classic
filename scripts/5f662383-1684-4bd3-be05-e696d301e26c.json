@@ -1,0 +1,63 @@
+{
+  "name": "Mardu Monument",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Mountain"
+              },
+              {
+                "subtype": "Plains"
+              },
+              {
+                "subtype": "Swamp"
+              }
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic Mountain, Plains, or Swamp card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{2}{R}{W}{B}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Warrior",
+            "types": "Creature — Warrior",
+            "colors": [
+              "R"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Menace",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{2}{R}{W}{B}, {T}, Sacrifice this artifact: Create three 1/1 red Warrior creature tokens. They gain menace and haste until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

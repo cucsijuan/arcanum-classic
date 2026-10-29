@@ -1,0 +1,33 @@
+{
+  "name": "Warden of the Grove",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "endure": "countersOnSelf",
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever another nontoken creature you control enters, it endures X, where X is the number of counters on this creature."
+    }
+  ]
+}

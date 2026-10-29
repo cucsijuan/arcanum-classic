@@ -1,0 +1,79 @@
+{
+  "name": "Revival of the Ancestors",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "I — Create three 1/1 white Spirit creature tokens."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "targets": [
+        "creature:you",
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "distributeCounters": 3
+        }
+      ],
+      "text": "II — Distribute three +1/+1 counters among one, two, or three target creatures you control."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Trample",
+            "Lifelink"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "III — Creatures you control gain trample and lifelink until end of turn."
+    }
+  ]
+}

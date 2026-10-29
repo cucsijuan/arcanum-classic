@@ -1,0 +1,34 @@
+{
+  "name": "Twinmaw Stormbrood // Charring Bite",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 5
+        }
+      ],
+      "text": "When this creature enters, you gain 5 life."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "without": "Flying"
+          },
+          "text": "target creature without flying"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "Charring Bite deals 5 damage to target creature without flying."
+    }
+  }
+}

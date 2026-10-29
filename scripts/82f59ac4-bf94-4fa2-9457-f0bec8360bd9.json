@@ -1,0 +1,26 @@
+{
+  "name": "Formation Breaker",
+  "cantBeBlockedBy": {
+    "lesserPower": true
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          2
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "hasCounters": true
+          }
+        }
+      },
+      "text": "As long as you control a creature with a counter on it, this creature gets +1/+2."
+    }
+  ]
+}

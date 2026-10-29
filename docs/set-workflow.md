@@ -32,7 +32,9 @@ prints, then commit the file with the set. A new set changes which cards the nic
   cards, "This creature enters prepared" and "Empower Jace N". A script with comments is hand-written and is never overwritten.
 - `tools/set_triage.py "$CARDS" /tmp/plan <code> --out triage.md` reports the cards that still need scripts: those blocked by something
   besides the script, grouped by reason, then script-only cards, fewest new lines first. Each rules line is marked `=` (a script has
-  it), `≈` (same wording, other numbers or mana), `+` (a keyword) or `·` (new), with the reference script. `--write` also copies scripts
+  it), `≈` (same wording, other numbers or mana), `+` (a keyword) or `·` (new), with the reference script. A new line of several
+  sentences gets a sub-list with the same marks for each sentence, when an effect sentence has a reference, so its pieces can be copied
+  from those scripts. The trigger condition, the cost before the colon and each effect are separate sentences; an ability word label ("Renew — ") is dropped first. `--write` also copies scripts
   for cards with the same rules text and composes scripts from existing abilities; without it nothing is written to `scripts/`. After
   `--write`, repeat step 2. Hand-written scripts start from the report's reference scripts.
 - Every other card gets a hand-written `scripts/<oracle id>.json`. Write exactly what the card does: every choice and restriction.

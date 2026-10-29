@@ -1,0 +1,8 @@
+{
+  "name": "Afterlife from the Loam",
+  "spell": {
+    "targets": [ { "kind": "graveyardCard", "controller": "any", "filter": { "types": ["creature"] }, "perPlayer": true, "optional": true, "text": "up to one target creature card in that player's graveyard" } ],
+    "effects": [ { "reanimate": "eachTarget", "addSubtypes": ["Zombie"] } ],
+    "text": "For each player, choose up to one target creature card in that player's graveyard. Put those cards onto the battlefield under your control. They're Zombies in addition to their other types."
+  }
+}

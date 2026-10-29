@@ -1,0 +1,17 @@
+{
+  "name": "Karakyk Guardian",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "not": "dealtDamage"
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "This creature has hexproof as long as it hasn't dealt damage yet."
+    }
+  ]
+}

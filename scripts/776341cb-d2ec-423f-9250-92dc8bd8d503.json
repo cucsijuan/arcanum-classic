@@ -1,0 +1,26 @@
+{
+  "name": "Bitter Triumph",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "discard": 1
+      }
+    },
+    {
+      "cost": {
+        "life": 3
+      }
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature or planeswalker."
+  }
+}

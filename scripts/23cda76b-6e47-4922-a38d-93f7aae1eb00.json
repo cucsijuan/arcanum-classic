@@ -1,0 +1,23 @@
+{
+  "name": "Dirgur Island Dragon // Skimming Strike",
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Tap up to one target creature. Draw a card."
+    }
+  }
+}

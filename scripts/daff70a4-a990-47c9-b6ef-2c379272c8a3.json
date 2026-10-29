@@ -1,0 +1,22 @@
+{
+  "name": "Dragonlord Atarka",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creatureOrPlaneswalker",
+          "controller": "opponent",
+          "anyNumber": true,
+          "text": "any number of target creatures and/or planeswalkers your opponents control"
+        }
+      ],
+      "effects": [
+        {
+          "divideDamage": 5
+        }
+      ],
+      "text": "When Dragonlord Atarka enters, it deals 5 damage divided as you choose among any number of target creatures and/or planeswalkers your opponents control."
+    }
+  ]
+}

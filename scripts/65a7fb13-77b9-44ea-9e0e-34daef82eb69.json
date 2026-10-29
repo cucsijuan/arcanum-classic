@@ -1,0 +1,15 @@
+{
+  "name": "Krumar Initiate",
+  "abilities": [
+    {
+      "cost": "{X}{B}, {T}, life:X",
+      "sorcery": true,
+      "effects": [
+        {
+          "endure": "X"
+        }
+      ],
+      "text": "{X}{B}, {T}, Pay X life: This creature endures X. Activate only as a sorcery."
+    }
+  ]
+}

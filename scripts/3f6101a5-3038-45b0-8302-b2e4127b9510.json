@@ -1,0 +1,86 @@
+{
+  "name": "Rally the Monastery",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "atLeast": {
+        "spellsCast": {}
+      },
+      "value": 1
+    }
+  },
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Create two 1/1 white Monk creature tokens with prowess.",
+        "effects": [
+          {
+            "tokens": 2,
+            "token": {
+              "name": "Monk",
+              "types": "Creature — Monk",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1,
+              "keywords": [
+                "Prowess"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "text": "Up to two target creatures you control each get +2/+2 until end of turn.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "optional": true
+          },
+          {
+            "kind": "creature",
+            "controller": "you",
+            "optional": true
+          }
+        ],
+        "targetRule": "allDifferent",
+        "effects": [
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target"
+          },
+          {
+            "pump": [
+              2,
+              2
+            ],
+            "what": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            },
+            "text": "target creature with power 4 or greater"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

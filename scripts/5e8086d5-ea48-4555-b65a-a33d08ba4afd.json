@@ -1,0 +1,43 @@
+{
+  "name": "Purging Stormbrood // Absorb Essence",
+  "wardLife": 2,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "removeAllCounters": "target"
+        }
+      ],
+      "text": "When this creature enters, remove all counters from up to one target creature."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "keywords": [
+            "Lifelink",
+            "Hexproof"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Target creature gets +2/+2 and gains lifelink and hexproof until end of turn."
+    }
+  }
+}

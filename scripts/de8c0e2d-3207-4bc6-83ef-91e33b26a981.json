@@ -1,0 +1,51 @@
+{
+  "name": "All-Out Assault",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Creatures you control get +1/+1 and have deathtouch."
+    },
+    {
+      "trigger": "enters",
+      "if": "yourMainPhase",
+      "effects": [
+        {
+          "additionalCombatAndMain": true
+        },
+        {
+          "emblem": "All-Out Assault",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "youAttack",
+              "oncePerTurn": true,
+              "effects": [
+                {
+                  "untap": {
+                    "each": {
+                      "types": [
+                        "creature"
+                      ],
+                      "controller": "you"
+                    }
+                  }
+                }
+              ],
+              "text": "When you next attack this turn, untap each creature you control."
+            }
+          ]
+        }
+      ],
+      "text": "When this enchantment enters, if it's your main phase, there is an additional combat phase after this phase followed by an additional main phase. When you next attack this turn, untap each creature you control."
+    }
+  ]
+}

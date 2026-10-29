@@ -1,0 +1,18 @@
+{
+  "name": "Baral and Kari Zev",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": { "types": ["instant", "sorcery"] },
+      "nth": 1,
+      "effects": [
+        { "castFromHandFree": {}, "lesserSharingTypeWithTriggered": true },
+        { "if": { "not": "castThisWay" }, "then": [
+          { "tokens": 1, "token": { "name": "First Mate Ragavan", "types": "Legendary Creature — Monkey Pirate", "power": 2, "toughness": 1, "colors": ["R"], "keywords": [] } },
+          { "pump": [0, 0], "keywords": ["Haste"], "what": "created" }
+        ] }
+      ],
+      "text": "Whenever you cast your first instant or sorcery spell each turn, you may cast a spell with lesser mana value that shares a card type with it from your hand without paying its mana cost. If you don't, create First Mate Ragavan, a legendary 2/1 red Monkey Pirate creature token. It gains haste until end of turn."
+    }
+  ]
+}

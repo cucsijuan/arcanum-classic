@@ -1,0 +1,19 @@
+{
+  "name": "Tempest Hawk",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "search": {
+            "name": "Tempest Hawk"
+          },
+          "reveal": true,
+          "to": "hand",
+          "optional": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you may search your library for a card named Tempest Hawk, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

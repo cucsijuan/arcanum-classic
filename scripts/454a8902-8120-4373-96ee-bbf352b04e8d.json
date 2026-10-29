@@ -1,0 +1,25 @@
+{
+  "name": "Hero of Bladehold",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Soldier",
+            "types": "Creature — Soldier",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          },
+          "tapped": true,
+          "attackingChosenDefender": true
+        }
+      ],
+      "text": "Whenever this creature attacks, create two 1/1 white Soldier creature tokens that are tapped and attacking."
+    }
+  ]
+}

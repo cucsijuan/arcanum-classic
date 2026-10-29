@@ -1,0 +1,21 @@
+{
+  "name": "Necropolis Fiend",
+  "abilities": [
+    {
+      "cost": "{X}, {T}, exileGraveyardCards:X",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "-X",
+            "-X"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{X}, {T}, Exile X cards from your graveyard: Target creature gets -X/-X until end of turn."
+    }
+  ]
+}

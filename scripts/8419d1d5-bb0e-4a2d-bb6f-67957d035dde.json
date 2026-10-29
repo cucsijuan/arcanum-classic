@@ -1,0 +1,55 @@
+{
+  "name": "Thunder of Unity",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "I — You draw two cards and you lose 2 life."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3
+      ],
+      "effects": [
+        {
+          "emblem": "Thunder of Unity",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureEnters",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "effects": [
+                {
+                  "loseLife": 1,
+                  "who": "opponents"
+                },
+                {
+                  "gainLife": 1
+                }
+              ],
+              "text": "Whenever a creature you control enters this turn, each opponent loses 1 life and you gain 1 life."
+            }
+          ]
+        }
+      ],
+      "text": "II, III — Whenever a creature you control enters this turn, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

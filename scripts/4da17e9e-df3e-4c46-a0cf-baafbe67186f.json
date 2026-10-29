@@ -1,0 +1,37 @@
+{
+  "name": "Floral Evoker",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{G}, discard:creature",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{G}, Discard a creature card: Return target land card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

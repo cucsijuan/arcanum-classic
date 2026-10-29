@@ -1,0 +1,62 @@
+{
+  "name": "Wingmantle Chaplain",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Defender"
+            }
+          },
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Bird creature token with flying for each creature with defender you control."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "keyword": "Defender",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Bird",
+            "types": "Creature — Bird",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever another creature you control with defender enters, create a 1/1 white Bird creature token with flying."
+    }
+  ]
+}

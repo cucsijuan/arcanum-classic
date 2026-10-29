@@ -1,0 +1,45 @@
+{
+  "name": "Embermouth Sentinel",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "subtype": "Dragon"
+            }
+          },
+          "then": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "to": "battlefield",
+              "tapped": true,
+              "reveal": true,
+              "optional": true
+            }
+          ],
+          "else": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "to": "top",
+              "reveal": true,
+              "optional": true
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. If you control a Dragon, put that card onto the battlefield tapped instead."
+    }
+  ]
+}

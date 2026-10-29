@@ -1,0 +1,27 @@
+{
+  "name": "Songcrafter Mage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "grantHarmonize": "target"
+        }
+      ],
+      "text": "When this creature enters, target instant or sorcery card in your graveyard gains harmonize until end of turn. Its harmonize cost is equal to its mana cost."
+    }
+  ]
+}

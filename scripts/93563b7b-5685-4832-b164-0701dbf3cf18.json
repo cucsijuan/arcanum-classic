@@ -1,0 +1,53 @@
+{
+  "name": "Abzan Monument",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Plains"
+              },
+              {
+                "subtype": "Swamp"
+              },
+              {
+                "subtype": "Forest"
+              }
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic Plains, Swamp, or Forest card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{1}{W}{B}{G}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 0,
+            "toughness": 0
+          },
+          "size": "greatestToughness"
+        }
+      ],
+      "text": "{1}{W}{B}{G}, {T}, Sacrifice this artifact: Create an X/X white Spirit creature token, where X is the greatest toughness among creatures you control. Activate only as a sorcery."
+    }
+  ]
+}

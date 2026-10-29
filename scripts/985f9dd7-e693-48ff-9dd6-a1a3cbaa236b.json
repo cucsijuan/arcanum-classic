@@ -1,0 +1,28 @@
+{
+  "name": "Magma Opus",
+  "spell": {
+    "targets": [
+      { "kind": "any", "optional": true, "distinctFrom": 0, "text": "any number of targets (4 damage divided)" },
+      { "kind": "any", "optional": true, "distinctFrom": 0, "text": "any number of targets (4 damage divided)" },
+      { "kind": "any", "optional": true, "distinctFrom": 0, "text": "any number of targets (4 damage divided)" },
+      { "kind": "any", "optional": true, "distinctFrom": 0, "text": "any number of targets (4 damage divided)" },
+      { "kind": "permanent", "distinctFrom": 4, "text": "target permanent to tap" },
+      { "kind": "permanent", "distinctFrom": 4, "text": "target permanent to tap" }
+    ],
+    "effects": [
+      { "divideDamage": 4, "notAmongLast": 2 },
+      { "tap": "target5" },
+      { "tap": "target6" },
+      { "tokens": 1, "token": { "name": "Elemental", "types": "Creature — Elemental", "power": 4, "toughness": 4, "colors": ["U", "R"], "keywords": [] } },
+      { "draw": 2 }
+    ],
+    "text": "Magma Opus deals 4 damage divided as you choose among any number of targets. Tap two target permanents. Create a 4/4 blue and red Elemental creature token. Draw two cards."
+  },
+  "abilities": [
+    {
+      "cost": "{U/R}{U/R}, discardThis",
+      "effects": [ { "tokens": 1, "token": "Treasure" } ],
+      "text": "{U/R}{U/R}, Discard this card: Create a Treasure token."
+    }
+  ]
+}

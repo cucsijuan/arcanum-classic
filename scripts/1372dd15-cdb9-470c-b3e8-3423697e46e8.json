@@ -1,0 +1,14 @@
+{
+  "name": "Tree of Redemption",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "exchangeLifeWithToughness": "you"
+        }
+      ],
+      "text": "{T}: Exchange your life total with this creature's toughness."
+    }
+  ]
+}

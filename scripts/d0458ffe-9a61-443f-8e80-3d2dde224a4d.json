@@ -1,0 +1,48 @@
+{
+  "name": "Seize Opportunity",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Exile the top two cards of your library. Until the end of your next turn, you may play those cards.",
+        "effects": [
+          {
+            "exileTopPlayable": 2,
+            "chooseOne": false,
+            "untilNextTurn": true
+          }
+        ]
+      },
+      {
+        "text": "Up to two target creatures each get +2/+1 until end of turn.",
+        "targets": [
+          {
+            "kind": "creature",
+            "optional": true
+          },
+          {
+            "kind": "creature",
+            "optional": true
+          }
+        ],
+        "targetRule": "allDifferent",
+        "effects": [
+          {
+            "pump": [
+              2,
+              1
+            ],
+            "what": "target"
+          },
+          {
+            "pump": [
+              2,
+              1
+            ],
+            "what": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

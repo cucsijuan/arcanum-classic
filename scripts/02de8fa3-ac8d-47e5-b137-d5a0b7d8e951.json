@@ -1,0 +1,25 @@
+{
+  "name": "Dragonstorm Forecaster",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "search": {
+            "anyOf": [
+              {
+                "name": "Dragonstorm Globe"
+              },
+              {
+                "name": "Boulderborn Dragon"
+              }
+            ]
+          },
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{2}, {T}: Search your library for a card named Dragonstorm Globe or Boulderborn Dragon, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

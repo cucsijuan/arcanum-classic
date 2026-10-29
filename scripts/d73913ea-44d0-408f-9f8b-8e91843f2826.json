@@ -1,0 +1,25 @@
+{
+  "name": "Stillness in Motion",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "if": "libraryEmpty",
+          "then": [
+            {
+              "exile": "self"
+            },
+            {
+              "graveyardToLibraryTop": 5
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, mill three cards. Then if your library has no cards in it, exile this enchantment and put five cards from your graveyard on top of your library in any order."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Tempest Technique",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "enchantment"
+              ]
+            }
+          },
+          {
+            "count": {
+              "types": [
+                "enchantment"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 for each enchantment you control."
+    }
+  ]
+}

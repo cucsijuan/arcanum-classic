@@ -1,0 +1,21 @@
+{
+  "name": "Krotiq Nestguard",
+  "abilities": [
+    {
+      "cost": "{2}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Can attack as though it didn't have defender"
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{2}{G}: This creature can attack this turn as though it didn't have defender."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Eshki Dragonclaw",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "all": [
+          {
+            "atLeast": {
+              "spellsCast": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "value": 1
+          },
+          {
+            "atLeast": {
+              "spellsCast": {
+                "not": [
+                  "creature"
+                ]
+              }
+            },
+            "value": 1
+          }
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if you've cast both a creature spell and a noncreature spell this turn, draw a card and put two +1/+1 counters on Eshki Dragonclaw."
+    }
+  ]
+}

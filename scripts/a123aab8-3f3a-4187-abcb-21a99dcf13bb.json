@@ -1,0 +1,46 @@
+{
+  "name": "Riverwalk Technique",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "The owner of target nonland permanent puts it on their choice of the top or bottom of their library.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent"
+          }
+        ],
+        "effects": [
+          {
+            "toLibrary": "target"
+          }
+        ]
+      },
+      {
+        "text": "Counter target noncreature spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            },
+            "text": "target noncreature spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

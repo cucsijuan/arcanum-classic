@@ -1,0 +1,30 @@
+{
+  "name": "Aggressive Negotiations",
+  "spell": {
+    "targets": [
+      "opponent",
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "text": "up to one target creature you control"
+      }
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "exileInstead": true
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose a nonland card from it and exile that card. Put a +1/+1 counter on up to one target creature you control."
+  }
+}

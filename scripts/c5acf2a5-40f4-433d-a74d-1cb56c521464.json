@@ -1,0 +1,10 @@
+{
+  "name": "Arid Mesa",
+  "abilities": [
+    {
+      "cost": "{T}, life:1, sacrifice",
+      "effects": [ { "search": { "types": ["land"], "anyOf": [ { "subtype": "Mountain" }, { "subtype": "Plains" } ] }, "count": 1, "to": "battlefield" } ],
+      "text": "{T}, Pay 1 life, Sacrifice this land: Search your library for a Mountain or Plains card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Inspired Ultimatum",
+  "spell": {
+    "targets": [ "player", "any" ],
+    "effects": [ { "gainLife": 5, "who": "target" }, { "damage": 5, "to": "target2" }, { "draw": 5 } ],
+    "text": "Target player gains 5 life, Inspired Ultimatum deals 5 damage to any target, then you draw five cards."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Monastery Messenger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "not": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "up to one target noncreature, nonland card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "top": true
+        }
+      ],
+      "text": "When this creature enters, put up to one target noncreature, nonland card from your graveyard on top of your library."
+    }
+  ]
+}

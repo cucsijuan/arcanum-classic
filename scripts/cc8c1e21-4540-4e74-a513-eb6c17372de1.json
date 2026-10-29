@@ -1,0 +1,33 @@
+{
+  "name": "Within Range",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Warrior",
+            "types": "Creature — Warrior",
+            "colors": [
+              "R"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create two 1/1 red Warrior creature tokens."
+    },
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "loseLife": "attackersOfAffectedPlayer",
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you attack, each opponent loses life equal to the number of creatures attacking them."
+    }
+  ]
+}

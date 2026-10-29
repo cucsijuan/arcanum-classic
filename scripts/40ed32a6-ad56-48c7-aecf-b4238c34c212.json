@@ -1,0 +1,28 @@
+{
+  "name": "Shiko and Narset, Unified",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "if": {
+            "atLeast": "triggeredSpellPermanentOrPlayerTargets",
+            "value": 1
+          },
+          "then": [
+            {
+              "copySpell": "triggered"
+            }
+          ],
+          "else": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, copy that spell if it targets a permanent or player, and you may choose new targets for the copy. If you don't copy a spell this way, draw a card."
+    }
+  ]
+}

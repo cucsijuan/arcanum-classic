@@ -1,0 +1,20 @@
+{
+  "name": "Colfenor's Urn",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": { "types": ["creature"], "minToughness": 4, "ownedByYou": true },
+      "effects": [ { "may": "Exile it with Colfenor's Urn?", "effects": [ { "exile": "triggered", "linked": true } ] } ],
+      "text": "Whenever a creature with toughness 4 or greater is put into your graveyard from the battlefield, you may exile it."
+    },
+    {
+      "trigger": "eachEndStep",
+      "if": { "atLeast": "cardsExiledWithSource", "value": 3 },
+      "effects": [
+        { "sacrificeIt": "self" },
+        { "if": "youSacrificed", "then": [ { "returnExiledWithThis": true, "to": "battlefield" } ] }
+      ],
+      "text": "At the beginning of the end step, if three or more cards have been exiled with this artifact, sacrifice it. If you do, return those cards to the battlefield under their owner's control."
+    }
+  ]
+}

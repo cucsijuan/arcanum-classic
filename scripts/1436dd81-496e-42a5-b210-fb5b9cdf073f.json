@@ -1,0 +1,14 @@
+{
+  "name": "Selesnya Signet",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addMana": "{G}{W}"
+        }
+      ],
+      "text": "{1}, {T}: Add {G}{W}."
+    }
+  ]
+}

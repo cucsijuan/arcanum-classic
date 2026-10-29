@@ -1,0 +1,64 @@
+{
+  "name": "Heritage Reclamation",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "text": "target artifact"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "text": "target enchantment"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile up to one target card from a graveyard. Draw a card.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "optional": true,
+            "text": "up to one target card from a graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          },
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

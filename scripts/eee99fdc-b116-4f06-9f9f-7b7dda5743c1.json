@@ -1,0 +1,37 @@
+{
+  "name": "Ironwill Forger",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "control": {
+          "commander": true,
+          "ownedByYou": true
+        }
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notSupertype": "legendary"
+          },
+          "text": "target nonlegendary creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Myriad"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Lieutenant — At the beginning of combat on your turn, if you control your commander, target nonlegendary creature you control gains myriad until end of turn."
+    }
+  ]
+}

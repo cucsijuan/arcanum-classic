@@ -1,0 +1,38 @@
+1 Ainok Wayfarer
+1 Attuned Hunter
+1 Bloomvine Regent // Claim Territory
+1 Boulderborn Dragon
+1 Craterhoof Behemoth
+1 Dragon Sniper
+1 Fleeting Effigy
+1 Formation Breaker
+1 Jade-Cast Sentinel
+1 Krotiq Nestguard
+1 Magmatic Hellkite
+1 Meticulous Artisan
+1 Rainveil Rejuvenator
+1 Rescue Leopard
+1 Sagu Wildling // Roost Seek
+1 Sarkhan, Dragon Ascendant
+1 Shocking Sharpshooter
+1 Stormshriek Feral // Flush Out
+1 Summit Intimidator
+1 Sunset Strikemaster
+1 Surrak, Elusive Hunter
+1 Tersa Lightshatter
+1 Breaching Dragonstorm
+1 Dracogenesis
+1 Encroaching Dragonstorm
+1 Fire-Rim Form
+1 Herd Heirloom
+1 Heritage Reclamation
+1 Knockout Maneuver
+1 Molten Exhale
+1 Overwhelming Surge
+1 Piercing Exhale
+1 Reverberating Summons
+1 Rite of Renewal
+1 Sarkhan's Resolve
+1 Seize Opportunity
+12 Mountain
+12 Forest

@@ -1,0 +1,27 @@
+{
+  "name": "Ob Nixilis, the Fallen",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "may": "Have target player lose 3 life and put three +1/+1 counters on Ob Nixilis?",
+          "effects": [
+            {
+              "loseLife": 3,
+              "who": "target"
+            },
+            {
+              "counters": 3,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may have target player lose 3 life. If you do, put three +1/+1 counters on Ob Nixilis."
+    }
+  ]
+}

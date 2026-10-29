@@ -1,0 +1,24 @@
+{
+  "name": "Stadium Headliner",
+  "abilities": [
+    {
+      "cost": "{1}{R}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "{1}{R}, Sacrifice this creature: It deals damage equal to the number of creatures you control to target creature."
+    }
+  ]
+}

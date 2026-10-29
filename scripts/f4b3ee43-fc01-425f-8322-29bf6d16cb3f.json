@@ -1,0 +1,36 @@
+{
+  "name": "Stormbeacon Blade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          3,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +3/+0."
+    },
+    {
+      "trigger": "equippedAttacks",
+      "effects": [
+        {
+          "if": {
+            "atLeast": {
+              "attacking": {
+                "controller": "you"
+              }
+            },
+            "value": 3
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature attacks, draw a card if you control three or more attacking creatures."
+    }
+  ]
+}

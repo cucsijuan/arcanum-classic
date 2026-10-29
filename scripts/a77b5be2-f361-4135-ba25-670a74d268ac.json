@@ -1,0 +1,32 @@
+{
+  "name": "Noxious Gearhulk",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Destroy that creature?",
+          "effects": [
+            {
+              "destroy": "target"
+            },
+            {
+              "gainLife": "destroyedToughness"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may destroy another target creature. If a creature is destroyed this way, you gain life equal to its toughness."
+    }
+  ]
+}

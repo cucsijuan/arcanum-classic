@@ -1,0 +1,29 @@
+{
+  "name": "Wakestone Gargoyle",
+  "abilities": [
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Can attack as though it didn't have defender"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "keyword": "Defender"
+            }
+          }
+        }
+      ],
+      "text": "{1}{W}: Creatures you control with defender can attack this turn as though they didn't have defender."
+    }
+  ]
+}

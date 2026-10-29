@@ -1,0 +1,26 @@
+{
+  "name": "Kishla Village",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Island"
+        },
+        {
+          "subtype": "Swamp"
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{3}{G}, {T}",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "{3}{G}, {T}: Surveil 2."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Frontier Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Khans",
+    "Dragons"
+  ],
+  "abilities": [
+    {
+      "trigger": "mainPhase",
+      "when": {
+        "chosenOption": "Khans"
+      },
+      "effects": [
+        {
+          "addMana": "{G}{G}"
+        }
+      ],
+      "text": "Khans — At the beginning of each of your main phases, add {G}{G}."
+    },
+    {
+      "trigger": "creatureEnters",
+      "when": {
+        "chosenOption": "Dragons"
+      },
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "keyword": "Flying",
+        "controller": "you"
+      },
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "may": "Have that creature fight target creature you don't control?",
+          "effects": [
+            {
+              "fight": "triggered",
+              "with": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Dragons — Whenever a creature you control with flying enters, you may have it fight target creature you don't control."
+    }
+  ]
+}

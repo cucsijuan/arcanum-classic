@@ -1,0 +1,37 @@
+{
+  "name": "Adaptive Training Post",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "if": {
+        "not": {
+          "counters": 3,
+          "kind": "charge"
+        }
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, if this artifact has fewer than three charge counters on it, put a charge counter on it."
+    },
+    {
+      "cost": "removeCounters:3:charge",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true
+        }
+      ],
+      "text": "Remove three charge counters from this artifact: When you next cast an instant or sorcery spell this turn, copy it and you may choose new targets for the copy."
+    }
+  ]
+}

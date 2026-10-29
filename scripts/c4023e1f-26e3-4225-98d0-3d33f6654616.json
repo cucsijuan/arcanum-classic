@@ -1,0 +1,30 @@
+{
+  "name": "Caustic Exhale",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "behold": {
+          "subtype": "Dragon"
+        }
+      }
+    },
+    {
+      "mana": "{1}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          -3,
+          -3
+        ],
+        "what": "target"
+      }
+    ],
+    "text": "Target creature gets -3/-3 until end of turn."
+  }
+}

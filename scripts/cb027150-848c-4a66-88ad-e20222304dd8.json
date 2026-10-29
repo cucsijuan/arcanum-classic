@@ -1,0 +1,10 @@
+{
+  "name": "Scalding Tarn",
+  "abilities": [
+    {
+      "cost": "{T}, life:1, sacrifice",
+      "effects": [ { "search": { "types": ["land"], "anyOf": [ { "subtype": "Island" }, { "subtype": "Mountain" } ] }, "count": 1, "to": "battlefield" } ],
+      "text": "{T}, Pay 1 life, Sacrifice this land: Search your library for an Island or Mountain card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

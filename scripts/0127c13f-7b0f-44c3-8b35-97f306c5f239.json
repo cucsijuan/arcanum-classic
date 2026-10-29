@@ -1,0 +1,14 @@
+{
+  "name": "Strategic Betrayal",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "exilesCreatureAndGraveyard": "target"
+      }
+    ],
+    "text": "Target opponent exiles a creature they control and their graveyard."
+  }
+}

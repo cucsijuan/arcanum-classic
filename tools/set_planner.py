@@ -11,10 +11,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SET_TYPES = {"expansion", "core", "draft_innovation", "commander", "masters"}
 EXCLUDED = {"plst"}  # reprint lists, not sets
 # Ability words have no rules meaning of their own (rule 207.2c): a card with one needs a script, not a new mechanic.
-ABILITY_WORDS = {w.lower() for w in """Adamant Addendum Alliance Battalion Bloodrush Celebration Channel Chroma Cohort Constellation
+ABILITY_WORDS = {w.lower() for w in """Adamant Addendum Alliance Battalion Bloodrush Celebration Channel Chroma Cohort Constellation Flurry
 Converge Corrupted Council's dilemma Coven Delirium Descend Domain Eerie Enrage Fateful hour Ferocious Formidable Grandeur
 Hellbent Heroic Imprint Inspired Join forces Kinship Landfall Lieutenant Magecraft Metalcraft Morbid Pack tactics Paradox
-Parley Radiance Raid Rally Revolt Spell mastery Strive Sweep Tempting offer Threshold Undergrowth Valiant Will of the council
+Parley Radiance Raid Rally Renew Revolt Spell mastery Strive Sweep Tempting offer Threshold Undergrowth Valiant Will of the council
 Secret council Survival Void""".replace("\n", " ").split(" ") if w} | {
     "council's dilemma", "fateful hour", "join forces", "pack tactics", "spell mastery", "tempting offer",
     "will of the council", "secret council"}

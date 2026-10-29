@@ -1,0 +1,17 @@
+{
+  "name": "Nature's Rhythm",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "creature"
+          ]
+        },
+        "to": "battlefield",
+        "maxManaValueX": true
+      }
+    ],
+    "text": "Search your library for a creature card with mana value X or less, put it onto the battlefield, then shuffle."
+  }
+}

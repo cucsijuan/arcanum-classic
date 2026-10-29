@@ -1,0 +1,29 @@
+{
+  "name": "Inevitable Defeat",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "loseLife": 3,
+        "who": "targetController"
+      },
+      {
+        "gainLife": 3
+      }
+    ],
+    "text": "Exile target nonland permanent. Its controller loses 3 life and you gain 3 life."
+  }
+}

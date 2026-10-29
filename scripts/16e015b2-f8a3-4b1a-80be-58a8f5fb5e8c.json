@@ -1,0 +1,17 @@
+{
+  "name": "Frantic Search",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "discard": 2
+      },
+      {
+        "untapUpTo": 3
+      }
+    ],
+    "text": "Draw two cards, then discard two cards. Untap up to three lands."
+  }
+}

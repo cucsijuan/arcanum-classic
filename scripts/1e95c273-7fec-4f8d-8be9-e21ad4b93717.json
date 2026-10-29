@@ -1,0 +1,38 @@
+{
+  "name": "Encroaching Dragonstorm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 2,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "When this enchantment enters, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When a Dragon you control enters, return this enchantment to its owner's hand."
+    }
+  ]
+}

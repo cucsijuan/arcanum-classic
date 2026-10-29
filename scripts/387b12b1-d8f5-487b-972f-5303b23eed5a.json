@@ -1,0 +1,14 @@
+{
+  "name": "Dusyut Earthcarver",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "endure": 3
+        }
+      ],
+      "text": "When this creature enters, it endures 3."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Timeless Witness",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return target card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Molten Exhale",
+  "flashExtraCost": {
+    "behold": {
+      "subtype": "Dragon"
+    }
+  },
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "damage": 4,
+        "to": "target"
+      }
+    ],
+    "text": "Molten Exhale deals 4 damage to target creature or planeswalker."
+  }
+}

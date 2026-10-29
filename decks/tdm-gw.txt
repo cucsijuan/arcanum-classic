@@ -1,0 +1,38 @@
+1 Ainok Wayfarer
+1 Arashin Sunshield
+1 Attuned Hunter
+1 Bearer of Glory
+1 Bloomvine Regent // Claim Territory
+1 Boulderborn Dragon
+1 Clarion Conqueror
+1 Craterhoof Behemoth
+1 Dragon Sniper
+1 Formation Breaker
+1 Furious Forebear
+1 Jade-Cast Sentinel
+1 Krotiq Nestguard
+1 Loxodon Battle Priest
+1 Rainveil Rejuvenator
+1 Riling Dawnbreaker // Signaling Roar
+1 Sage of the Skies
+1 Sagu Wildling // Roost Seek
+1 Salt Road Packbeast
+1 Starry-Eyed Skyrider
+1 Sunpearl Kirin
+1 Surrak, Elusive Hunter
+1 Coordinated Maneuver
+1 Duty Beyond Death
+1 Elspeth, Storm Slayer
+1 Encroaching Dragonstorm
+1 Herd Heirloom
+1 Heritage Reclamation
+1 Knockout Maneuver
+1 Lightfoot Technique
+1 Osseous Exhale
+1 Piercing Exhale
+1 Rally the Monastery
+1 Rebellious Strike
+1 Rite of Renewal
+1 Sarkhan's Resolve
+12 Forest
+12 Plains

@@ -1,0 +1,33 @@
+{
+  "name": "Roiling Dragonstorm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "When this enchantment enters, draw two cards, then discard a card."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When a Dragon you control enters, return this enchantment to its owner's hand."
+    }
+  ]
+}

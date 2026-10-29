@@ -1,0 +1,28 @@
+{
+  "name": "Scavenger Regent // Exude Toxin",
+  "wardCost": {
+    "discard": 1
+  },
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "pump": [
+            "-X",
+            "-X"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "notSubtype": "Dragon",
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "Each non-Dragon creature gets -X/-X until end of turn."
+    }
+  }
+}

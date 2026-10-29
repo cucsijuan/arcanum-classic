@@ -1,0 +1,20 @@
+{
+  "name": "Sage of the Skies",
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "if": {
+        "atLeast": {
+          "spellsCast": {}
+        },
+        "value": 2
+      },
+      "effects": [
+        {
+          "copySpell": "triggered"
+        }
+      ],
+      "text": "When you cast this spell, if you've cast another spell this turn, copy this spell."
+    }
+  ]
+}

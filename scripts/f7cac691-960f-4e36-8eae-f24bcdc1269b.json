@@ -1,0 +1,39 @@
+{
+  "name": "Tip the Scales",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      {
+        "whenYouDo": {
+          "if": "youSacrificed",
+          "amount": "sacrificedToughness",
+          "effects": [
+            {
+              "pump": [
+                "-triggerAmount",
+                "-triggerAmount"
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any"
+                }
+              }
+            }
+          ],
+          "text": "When you do, all creatures get -X/-X until end of turn, where X is the sacrificed creature's toughness."
+        }
+      }
+    ],
+    "text": "Sacrifice a creature. When you do, all creatures get -X/-X until end of turn, where X is the sacrificed creature's toughness."
+  }
+}

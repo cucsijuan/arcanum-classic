@@ -1,0 +1,40 @@
+{
+  "name": "Temur Devotee",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {G}",
+              "effects": [
+                {
+                  "addMana": "{G}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}",
+              "effects": [
+                {
+                  "addMana": "{U}"
+                }
+              ]
+            },
+            {
+              "text": "Add {R}",
+              "effects": [
+                {
+                  "addMana": "{R}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}: Add {G}, {U}, or {R}. Activate only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "name": "Rampart Architect",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wall",
+            "types": "Creature — Wall",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 3,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a 1/3 white Wall creature token with defender."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wall",
+            "types": "Creature — Wall",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 3,
+            "keywords": [
+              "Defender"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a 1/3 white Wall creature token with defender."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "keyword": "Defender",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true,
+          "optional": true
+        }
+      ],
+      "text": "Whenever a creature you control with defender dies, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

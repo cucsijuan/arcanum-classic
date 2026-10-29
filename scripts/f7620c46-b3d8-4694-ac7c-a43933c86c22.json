@@ -1,0 +1,16 @@
+{
+  "name": "Devoted Duelist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

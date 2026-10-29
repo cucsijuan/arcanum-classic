@@ -1,0 +1,66 @@
+{
+  "name": "Nesting Dragon",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Dragon Egg",
+            "types": "Creature — Dragon Egg",
+            "colors": [
+              "R"
+            ],
+            "power": 0,
+            "toughness": 2,
+            "keywords": [
+              "Defender"
+            ],
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "tokens": 1,
+                    "token": {
+                      "name": "Dragon",
+                      "types": "Creature — Dragon",
+                      "colors": [
+                        "R"
+                      ],
+                      "power": 2,
+                      "toughness": 2,
+                      "keywords": [
+                        "Flying"
+                      ],
+                      "abilities": [
+                        {
+                          "cost": "{R}",
+                          "effects": [
+                            {
+                              "pump": [
+                                1,
+                                0
+                              ],
+                              "what": "self"
+                            }
+                          ],
+                          "text": "{R}: This token gets +1/+0 until end of turn."
+                        }
+                      ],
+                      "text": "Flying\n{R}: This token gets +1/+0 until end of turn."
+                    }
+                  }
+                ],
+                "text": "When this token dies, create a 2/2 red Dragon creature token with flying and \"{R}: This token gets +1/+0 until end of turn.\""
+              }
+            ],
+            "text": "Defender\nWhen this token dies, create a 2/2 red Dragon creature token with flying and \"{R}: This token gets +1/+0 until end of turn.\""
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 0/2 red Dragon Egg creature token with defender and \"When this token dies, create a 2/2 red Dragon creature token with flying and '{R}: This token gets +1/+0 until end of turn.'\""
+    }
+  ]
+}

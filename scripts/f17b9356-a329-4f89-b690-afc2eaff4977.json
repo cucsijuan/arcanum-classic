@@ -1,0 +1,41 @@
+{
+  "name": "Sunpearl Kirin",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to one other target nonland permanent you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "token": true
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, return up to one other target nonland permanent you control to its owner's hand. If it was a token, draw a card."
+    }
+  ]
+}

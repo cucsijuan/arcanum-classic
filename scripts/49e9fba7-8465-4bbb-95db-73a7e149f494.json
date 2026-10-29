@@ -1,0 +1,47 @@
+{
+  "name": "Maelstrom of the Spirit Dragon",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "onlyFor": {
+            "anyOf": [
+              {
+                "subtype": "Dragon"
+              },
+              {
+                "subtype": "Omen"
+              }
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Spend this mana only to cast a Dragon spell or an Omen spell."
+    },
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Dragon"
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this land: Search your library for a Dragon card, reveal it, put it into your hand, then shuffle."
+    }
+  ]
+}

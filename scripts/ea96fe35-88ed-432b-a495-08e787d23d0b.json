@@ -1,0 +1,29 @@
+{
+  "name": "Piercing Exhale",
+  "optionalAdditionalCost": {
+    "behold": {
+      "subtype": "Dragon"
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2"
+      },
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "surveil": 2
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature or planeswalker. If a Dragon was beheld, surveil 2."
+  }
+}

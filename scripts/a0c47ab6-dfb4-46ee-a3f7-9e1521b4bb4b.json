@@ -1,0 +1,55 @@
+{
+  "name": "Shalai, Voice of Plenty",
+  "givesHexproof": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "planeswalker"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "You, planeswalkers you control, and other creatures you control have hexproof."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "You, planeswalkers you control, and other creatures you control have hexproof."
+    },
+    {
+      "cost": "{4}{G}{G}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{4}{G}{G}: Put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

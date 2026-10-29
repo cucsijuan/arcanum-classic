@@ -1,0 +1,34 @@
+{
+  "name": "Glacierwood Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Temur",
+    "Sultai"
+  ],
+  "playLandsFromGraveyard": true,
+  "playLandsFromGraveyardOption": "Sultai",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "when": {
+        "chosenOption": "Temur"
+      },
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 4,
+          "who": "target"
+        }
+      ],
+      "text": "Temur — Whenever you cast an instant or sorcery spell, target player mills four cards."
+    }
+  ]
+}

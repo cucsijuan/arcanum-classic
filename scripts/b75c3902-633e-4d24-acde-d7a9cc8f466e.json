@@ -1,0 +1,26 @@
+{
+  "name": "Glorybringer",
+  "exert": true,
+  "abilities": [
+    {
+      "trigger": "exerted",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "notSubtype": "Dragon"
+          },
+          "text": "target non-Dragon creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "You may exert this creature as it attacks. When you do, it deals 4 damage to target non-Dragon creature an opponent controls."
+    }
+  ]
+}

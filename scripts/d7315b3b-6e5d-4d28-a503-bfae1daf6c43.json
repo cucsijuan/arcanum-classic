@@ -1,0 +1,27 @@
+{
+  "name": "Verix Bladewing",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "kicked",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Karox Bladewing",
+            "types": "Legendary Creature — Dragon",
+            "colors": [
+              "R"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When Verix Bladewing enters, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying."
+    }
+  ]
+}

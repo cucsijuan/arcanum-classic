@@ -1,0 +1,23 @@
+{
+  "name": "Tocasia's Welcome",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "maxManaValue": 3
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more creatures you control with mana value 3 or less enter, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

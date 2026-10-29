@@ -1,0 +1,28 @@
+{
+  "name": "Desperate Measures",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          -1
+        ],
+        "what": "target"
+      },
+      {
+        "whenDiesThisTurn": "target",
+        "underYourControl": true,
+        "effects": [
+          {
+            "draw": 2
+          }
+        ],
+        "text": "When it dies under your control this turn, draw two cards."
+      }
+    ],
+    "text": "Target creature gets +1/-1 until end of turn. When it dies under your control this turn, draw two cards."
+  }
+}

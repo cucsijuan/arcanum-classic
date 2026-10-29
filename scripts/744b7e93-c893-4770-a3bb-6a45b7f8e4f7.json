@@ -1,0 +1,11 @@
+{
+  "name": "Expel the Interlopers",
+  "spell": {
+    "effects": [
+      {
+        "chooseNumberDestroyPowerAtLeast": 10
+      }
+    ],
+    "text": "Choose a number between 0 and 10. Destroy all creatures with power greater than or equal to the chosen number."
+  }
+}

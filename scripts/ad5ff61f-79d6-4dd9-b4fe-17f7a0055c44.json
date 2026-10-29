@@ -1,0 +1,29 @@
+{
+  "name": "Reunion of the House",
+  "spell": {
+    "targetsTotalPowerAtMost": 10,
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "anyNumber": true,
+        "optional": true,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "any number of target creature cards with total power 10 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "eachTarget"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Return any number of target creature cards with total power 10 or less from your graveyard to the battlefield. Exile Reunion of the House."
+  }
+}

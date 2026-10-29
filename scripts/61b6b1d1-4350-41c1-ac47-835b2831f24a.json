@@ -1,0 +1,40 @@
+{
+  "name": "Jeskai Revelation",
+  "spell": {
+    "targets": [
+      "spellOrPermanent",
+      "any"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "damage": 4,
+        "to": "target2"
+      },
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Monk",
+          "types": "Creature — Monk",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1,
+          "keywords": [
+            "Prowess"
+          ]
+        }
+      },
+      {
+        "draw": 2
+      },
+      {
+        "gainLife": 4
+      }
+    ],
+    "text": "Return target spell or permanent to its owner's hand. Jeskai Revelation deals 4 damage to any target. Create two 1/1 white Monk creature tokens with prowess. Draw two cards. You gain 4 life."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Barrensteppe Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Abzan",
+    "Mardu"
+  ],
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "when": {
+        "chosenOption": "Abzan"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Abzan — At the beginning of your end step, put a +1/+1 counter on each creature you control."
+    },
+    {
+      "trigger": "endStep",
+      "when": {
+        "chosenOption": "Mardu"
+      },
+      "if": {
+        "yourCreaturesDied": 1
+      },
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Mardu — At the beginning of your end step, if a creature died under your control this turn, each opponent sacrifices a creature of their choice."
+    }
+  ]
+}

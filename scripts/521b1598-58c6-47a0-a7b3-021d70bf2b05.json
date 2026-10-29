@@ -1,0 +1,17 @@
+{
+  "name": "Keiga, the Tide Star",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "gainControl": "target"
+        }
+      ],
+      "text": "When Keiga dies, gain control of target creature."
+    }
+  ]
+}

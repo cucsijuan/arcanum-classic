@@ -1,0 +1,19 @@
+{
+  "name": "Kishla Skimmer",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "filter": {
+        "controller": "you"
+      },
+      "when": "yourTurn",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a card leaves your graveyard during your turn, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Compulsive Research",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 3,
+        "who": "target"
+      },
+      {
+        "unless": "target",
+        "options": [
+          {
+            "discard": 1,
+            "discardFilter": {
+              "types": [
+                "land"
+              ]
+            }
+          }
+        ],
+        "otherwise": [
+          {
+            "discard": 2,
+            "who": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Target player draws three cards. Then that player discards two cards unless they discard a land card."
+  }
+}

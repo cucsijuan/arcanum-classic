@@ -1,0 +1,23 @@
+{
+  "name": "Arbor Adherent",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}: Add one mana of any color."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaOneColor": "greatestOtherToughness"
+        }
+      ],
+      "text": "{T}: Add X mana of any one color, where X is the greatest toughness among other creatures you control."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Pongify",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Ape",
+          "types": "Creature — Ape",
+          "colors": [
+            "G"
+          ],
+          "power": 3,
+          "toughness": 3
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token."
+  }
+}

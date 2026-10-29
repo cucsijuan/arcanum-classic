@@ -1,0 +1,11 @@
+{
+  "name": "Slaughter the Strong",
+  "spell": {
+    "effects": [
+      {
+        "eachKeepsTotalPowerAtMost": 4
+      }
+    ],
+    "text": "Each player chooses any number of creatures they control with total power 4 or less, then sacrifices all other creatures they control."
+  }
+}

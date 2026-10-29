@@ -1,0 +1,45 @@
+{
+  "name": "Lasyd Prowler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Mill cards equal to the number of lands you control?",
+          "effects": [
+            {
+              "mill": {
+                "count": {
+                  "types": [
+                    "land"
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may mill cards equal to the number of lands you control."
+    },
+    {
+      "cost": "{1}{G}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": {
+            "graveyard": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "what": "target"
+        }
+      ],
+      "text": "Renew — {1}{G}, Exile this card from your graveyard: Put X +1/+1 counters on target creature, where X is the number of land cards in your graveyard. Activate only as a sorcery."
+    }
+  ]
+}

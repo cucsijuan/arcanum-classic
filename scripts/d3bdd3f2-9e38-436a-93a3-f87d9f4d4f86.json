@@ -1,0 +1,30 @@
+{
+  "name": "Shiko, Paragon of the Way",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target nonland card with mana value 3 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "castCopiesOfExiledFree": 3
+        }
+      ],
+      "text": "When Shiko enters, exile target nonland card with mana value 3 or less from your graveyard. Copy it, then you may cast the copy without paying its mana cost."
+    }
+  ]
+}

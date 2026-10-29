@@ -25,7 +25,8 @@
       "fin-br", "fin-gw", "fin-rg", "fin-ub", "fin-wu",
       "fra-br", "fra-gw", "fra-rg", "fra-ub", "fra-wu",
       "blb-br", "blb-gw", "blb-rg", "blb-ub", "blb-wu",
-      "ecl-br", "ecl-gw", "ecl-rg", "ecl-ub", "ecl-wu"
+      "ecl-br", "ecl-gw", "ecl-rg", "ecl-ub", "ecl-wu",
+      "tdm-br", "tdm-gw", "tdm-rg", "tdm-ub", "tdm-wu"
     ]
   },
 
@@ -193,8 +194,8 @@
 
 
   // Boosters on the shelf; the featured set changes every Monday (UTC) in this order.
-  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra", "blb", "ecl"],
-  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb", "ecl"],
+  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra", "blb", "ecl", "tdm"],
+  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb", "ecl", "tdm"],
 
   "precons": [
     { "deck": "fdn-br" }, { "deck": "fdn-gw" }, { "deck": "fdn-rg" }, { "deck": "fdn-ub" }, { "deck": "fdn-wu" },
@@ -206,6 +207,7 @@
     { "deck": "fra-br" }, { "deck": "fra-gw" }, { "deck": "fra-rg" }, { "deck": "fra-ub" }, { "deck": "fra-wu" },
     { "deck": "blb-br" }, { "deck": "blb-gw" }, { "deck": "blb-rg" }, { "deck": "blb-ub" }, { "deck": "blb-wu" },
     { "deck": "ecl-br" }, { "deck": "ecl-gw" }, { "deck": "ecl-rg" }, { "deck": "ecl-ub" }, { "deck": "ecl-wu" },
+    { "deck": "tdm-br" }, { "deck": "tdm-gw" }, { "deck": "tdm-rg" }, { "deck": "tdm-ub" }, { "deck": "tdm-wu" },
     // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
     { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
     { "deck": "blb-starter-hare-raising", "with": ["blb-starter-otter-limits"], "name": "Bloomburrow Starter Kit", "price": 2500 },
@@ -217,6 +219,8 @@
     { "deck": "blc-animated-army", "price": 4500 }, { "deck": "blc-family-matters", "price": 4500 },
     { "deck": "blc-peace-offering", "price": 4500 }, { "deck": "blc-squirreled-away", "price": 4500 },
     { "deck": "ecc-blight-curse", "price": 4500 }, { "deck": "ecc-dance-of-the-elements", "price": 4500 },
+    { "deck": "tdc-abzan-armor", "price": 4500 }, { "deck": "tdc-jeskai-striker", "price": 4500 }, { "deck": "tdc-mardu-surge", "price": 4500 },
+    { "deck": "tdc-sultai-arisen", "price": 4500 }, { "deck": "tdc-temur-roar", "price": 4500 },
     // Collector's Editions: the same lists with every card a surge foil, sold separately (priced by the real ones' ratio to the regular decks).
     { "deck": "fic-counter-blitz-collectors-edition", "price": 9500 }, { "deck": "fic-limit-break-collectors-edition", "price": 9500 },
     { "deck": "fic-revival-trance-collectors-edition", "price": 9500 }, { "deck": "fic-scions-spellcraft-collectors-edition", "price": 9500 },
@@ -266,6 +270,7 @@
                 "frc-multiverse-reforged",
                 "blc-animated-army", "blc-family-matters", "blc-peace-offering", "blc-squirreled-away",
                 "ecc-blight-curse", "ecc-dance-of-the-elements",
+                "tdc-abzan-armor", "tdc-jeskai-striker", "tdc-mardu-surge", "tdc-sultai-arisen", "tdc-temur-roar",
                 "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
                 "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
       "prizes": [

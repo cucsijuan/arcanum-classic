@@ -1,0 +1,30 @@
+{
+  "name": "Castle Embereth",
+  "entersTappedUnless": {
+    "control": {
+      "subtype": "Mountain"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{1}{R}{R}, {T}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{1}{R}{R}, {T}: Creatures you control get +1/+0 until end of turn."
+    }
+  ]
+}

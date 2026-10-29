@@ -1,0 +1,32 @@
+{
+  "name": "Towering Titan",
+  "entersWithCounters": "totalToughness",
+  "abilities": [
+    {
+      "cost": "sacrificeAny:creature",
+      "sacrificeFilter": {
+        "keyword": "Defender"
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Trample"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "Sacrifice a creature with defender: All creatures gain trample until end of turn."
+    }
+  ]
+}

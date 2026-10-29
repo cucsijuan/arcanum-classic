@@ -1,0 +1,18 @@
+{
+  "name": "Auroral Procession",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "text": "target card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ],
+    "text": "Return target card from your graveyard to your hand."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Teval's Judgment",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "filter": {
+        "controller": "you"
+      },
+      "batched": true,
+      "modesOncePerTurn": true,
+      "text": "Whenever one or more cards leave your graveyard, choose one that hasn't been chosen this turn —",
+      "modes": [
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "text": "Create a Treasure token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            }
+          ]
+        },
+        {
+          "text": "Create a 2/2 black Zombie Druid creature token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Zombie Druid",
+                "types": "Creature — Zombie Druid",
+                "colors": [
+                  "B"
+                ],
+                "power": 2,
+                "toughness": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

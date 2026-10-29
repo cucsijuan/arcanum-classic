@@ -1,0 +1,18 @@
+{
+  "name": "Reflections of Littjara",
+  "chooseOnEnter": "creatureType",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "chosenType": true
+      },
+      "effects": [
+        {
+          "copySpell": "triggered"
+        }
+      ],
+      "text": "Whenever you cast a spell of the chosen type, copy that spell. (A copy of a permanent spell becomes a token.)"
+    }
+  ]
+}

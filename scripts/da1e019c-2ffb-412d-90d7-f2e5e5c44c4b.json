@@ -1,0 +1,34 @@
+{
+  "name": "Bloomvine Regent // Claim Territory",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Dragon",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever this creature or another Dragon you control enters, you gain 3 life."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "subtype": "Forest",
+            "supertype": "basic"
+          },
+          "count": 2,
+          "split": true,
+          "reveal": true
+        }
+      ],
+      "text": "Search your library for up to two basic Forest cards, reveal them, put one onto the battlefield tapped and the other into your hand, then shuffle."
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Rot-Curse Rakshasa",
+  "abilities": [
+    {
+      "cost": "{X}{B}{B}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "countOf": "X",
+          "text": "each of X target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "decayed",
+          "what": "eachTarget"
+        }
+      ],
+      "text": "Renew — {X}{B}{B}, Exile this card from your graveyard: Put a decayed counter on each of X target creatures. Activate only as a sorcery."
+    }
+  ]
+}

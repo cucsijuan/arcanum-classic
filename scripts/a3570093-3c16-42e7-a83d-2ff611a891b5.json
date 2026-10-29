@@ -1,0 +1,46 @@
+{
+  "name": "Roar of Endless Song",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1,
+        2
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elephant",
+            "types": "Creature — Elephant",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 5
+          }
+        }
+      ],
+      "text": "I, II — Create a 5/5 green Elephant creature token."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "doublePowerAndToughness": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "III — Double the power and toughness of each creature you control until end of turn."
+    }
+  ]
+}

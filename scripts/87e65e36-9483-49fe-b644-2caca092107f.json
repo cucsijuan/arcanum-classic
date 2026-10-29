@@ -1,0 +1,46 @@
+{
+  "name": "Jarad, Golgari Lich Lord",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "Jarad gets +1/+1 for each creature card in your graveyard."
+    },
+    {
+      "cost": "{1}{B}{G}, sacrifice:creature",
+      "effects": [
+        {
+          "loseLife": "sacrificedPower",
+          "who": "opponents"
+        }
+      ],
+      "text": "{1}{B}{G}, Sacrifice another creature: Each opponent loses life equal to the sacrificed creature's power."
+    },
+    {
+      "cost": "sacrificeEach:Swamp+Forest, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "Sacrifice a Swamp and a Forest: Return this card from your graveyard to your hand."
+    }
+  ]
+}

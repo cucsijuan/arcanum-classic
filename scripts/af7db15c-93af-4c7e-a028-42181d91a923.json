@@ -1,0 +1,49 @@
+{
+  "name": "Runescale Stormbrood // Chilling Screech",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "anyOf": [
+          {
+            "not": [
+              "creature"
+            ]
+          },
+          {
+            "subtype": "Dragon"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell or a Dragon spell, this creature gets +2/+0 until end of turn."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "maxManaValue": 2
+          },
+          "text": "target spell with mana value 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "Counter target spell with mana value 2 or less."
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Rite of Renewal",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "up to two target permanent cards from your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "up to two target permanent cards from your graveyard"
+      },
+      "player",
+      {
+        "kind": "graveyardCard",
+        "optional": true,
+        "ownedByTarget": "target3",
+        "text": "up to four target cards from their graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "optional": true,
+        "ownedByTarget": "target3",
+        "text": "up to four target cards from their graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "optional": true,
+        "ownedByTarget": "target3",
+        "text": "up to four target cards from their graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "optional": true,
+        "ownedByTarget": "target3",
+        "text": "up to four target cards from their graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "shuffleIntoLibrary": "eachTarget4"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Return up to two target permanent cards from your graveyard to your hand. Target player shuffles up to four target cards from their graveyard into their library. Exile Rite of Renewal."
+  }
+}

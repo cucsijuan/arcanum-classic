@@ -1,0 +1,34 @@
+{
+  "name": "Static Snare",
+  "costReductionPer": {
+    "types": [
+      "creature"
+    ],
+    "attacking": true,
+    "controller": "any"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this enchantment enters, exile target artifact or creature an opponent controls until this enchantment leaves the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Ikra Shidiqi, the Usurper",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": "triggeredToughness"
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, you gain life equal to that creature's toughness."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Vengeful Ancestor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "goad": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, goad target creature."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "goad": "target"
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, goad target creature."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "goaded": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever a goaded creature attacks, it deals 1 damage to its controller."
+    }
+  ]
+}

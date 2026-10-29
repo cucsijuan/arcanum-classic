@@ -1,0 +1,19 @@
+{
+  "name": "Poised Practitioner",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, put a +1/+1 counter on this creature. Scry 1."
+    }
+  ]
+}

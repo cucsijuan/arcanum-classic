@@ -1,0 +1,20 @@
+{
+  "name": "Alchemist's Assistant",
+  "abilities": [
+    {
+      "cost": "{1}{B}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "lifelink",
+          "what": "target"
+        }
+      ],
+      "text": "Renew — {1}{B}, Exile this card from your graveyard: Put a lifelink counter on target creature. Activate only as a sorcery."
+    }
+  ]
+}

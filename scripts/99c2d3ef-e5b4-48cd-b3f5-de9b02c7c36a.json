@@ -1,0 +1,39 @@
+{
+  "name": "Ureni of the Unwritten",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 8,
+          "take": 1,
+          "to": "battlefield",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dragon"
+          }
+        }
+      ],
+      "text": "Whenever Ureni enters or attacks, look at the top eight cards of your library. You may put a Dragon creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "lookAtTop": 8,
+          "take": 1,
+          "to": "battlefield",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Dragon"
+          }
+        }
+      ],
+      "text": "Whenever Ureni enters or attacks, look at the top eight cards of your library. You may put a Dragon creature card from among them onto the battlefield. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

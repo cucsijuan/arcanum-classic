@@ -1,0 +1,44 @@
+{
+  "name": "The Sibsig Ceremony",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ]
+        },
+        "amount": 2
+      },
+      "text": "Creature spells you cast cost {2} less to cast."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "wasCast": true
+      },
+      "effects": [
+        {
+          "destroy": "triggered"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie Druid",
+            "types": "Creature — Zombie Druid",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever a creature you control enters, if you cast it, destroy that creature, then create a 2/2 black Zombie Druid creature token."
+    }
+  ]
+}

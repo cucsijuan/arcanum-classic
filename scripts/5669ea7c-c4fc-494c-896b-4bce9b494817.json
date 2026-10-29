@@ -1,0 +1,29 @@
+{
+  "name": "Curse of the Swine",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "countOf": "X",
+        "text": "X target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "eachTarget"
+      },
+      {
+        "exiledControllersCreate": {
+          "name": "Boar",
+          "types": "Creature — Boar",
+          "colors": [
+            "G"
+          ],
+          "power": 2,
+          "toughness": 2
+        }
+      }
+    ],
+    "text": "Exile X target creatures. For each creature exiled this way, its controller creates a 2/2 green Boar creature token."
+  }
+}

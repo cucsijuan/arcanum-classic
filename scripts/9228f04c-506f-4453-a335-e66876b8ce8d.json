@@ -1,0 +1,46 @@
+{
+  "name": "Smile at Death",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxPower": 2
+          },
+          "text": "up to two target creature cards with power 2 or less from your graveyard"
+        },
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxPower": 2
+          },
+          "text": "up to two target creature cards with power 2 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "withCounter": "+1/+1"
+        },
+        {
+          "reanimate": "target2",
+          "withCounter": "+1/+1"
+        }
+      ],
+      "text": "At the beginning of your upkeep, return up to two target creature cards with power 2 or less from your graveyard to the battlefield. Put a +1/+1 counter on each of those creatures."
+    }
+  ]
+}

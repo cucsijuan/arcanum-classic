@@ -1,0 +1,45 @@
+{
+  "name": "Frostcliff Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Jeskai",
+    "Temur"
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "batchedPerPlayer": true,
+      "when": {
+        "chosenOption": "Jeskai"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Jeskai — Whenever one or more creatures you control deal combat damage to a player, draw a card."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Trample",
+          "Haste"
+        ],
+        "while": {
+          "chosenOption": "Temur"
+        }
+      },
+      "text": "Temur — Creatures you control get +1/+0 and have trample and haste."
+    }
+  ]
+}

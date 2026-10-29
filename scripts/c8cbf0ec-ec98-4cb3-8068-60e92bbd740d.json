@@ -1,0 +1,48 @@
+{
+  "name": "Teval, the Balanced Scale",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "returnFromGraveyard": {
+            "types": [
+              "land"
+            ],
+            "controller": "you"
+          },
+          "count": 1,
+          "to": "battlefield",
+          "upTo": true,
+          "tapped": true
+        }
+      ],
+      "text": "Whenever Teval attacks, mill three cards. Then you may return a land card from your graveyard to the battlefield tapped."
+    },
+    {
+      "trigger": "leavesGraveyard",
+      "filter": {
+        "controller": "you"
+      },
+      "batched": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie Druid",
+            "types": "Creature — Zombie Druid",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, create a 2/2 black Zombie Druid creature token."
+    }
+  ]
+}

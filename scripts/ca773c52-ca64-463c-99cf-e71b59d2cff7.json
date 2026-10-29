@@ -1,0 +1,20 @@
+{
+  "name": "Descendant of Storms",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Pay {1}{W} for Descendant of Storms to endure 1?",
+          "mana": "{1}{W}",
+          "effects": [
+            {
+              "endure": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may pay {1}{W}. If you do, it endures 1."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Grapple with the Past",
+  "spell": {
+    "effects": [
+      {
+        "mill": 3
+      },
+      {
+        "returnFromGraveyard": {
+          "types": [
+            "creature",
+            "land"
+          ],
+          "controller": "you"
+        },
+        "count": 1,
+        "to": "hand",
+        "upTo": true
+      }
+    ],
+    "text": "Mill three cards, then you may return a creature or land card from your graveyard to your hand."
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Ainok Strike Leader",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "control": {
+          "attacking": true,
+          "anyOf": [
+            {
+              "self": true
+            },
+            {
+              "commander": true
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "colors": [
+              "R"
+            ],
+            "power": 1,
+            "toughness": 1
+          },
+          "attackingEachOpponent": true
+        }
+      ],
+      "text": "Whenever you attack with this creature and/or your commander, for each opponent, create a 1/1 red Goblin creature token that's tapped and attacking that player."
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Indestructible"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "token": true,
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Sacrifice this creature: Creature tokens you control gain indestructible until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Life from the Loam",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "text": "up to three target land cards from your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "bounce": "target3"
+      }
+    ],
+    "text": "Return up to three target land cards from your graveyard to your hand."
+  }
+}

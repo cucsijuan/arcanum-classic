@@ -1,0 +1,69 @@
+{
+  "name": "Prismari Command",
+  "spell": {
+    "text": "Choose two —",
+    "chooseCount": 2,
+    "modes": [
+      {
+        "text": "Prismari Command deals 2 damage to any target.",
+        "targets": [
+          "any"
+        ],
+        "effects": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player draws two cards, then discards two cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "draw": 2,
+            "who": "target"
+          },
+          {
+            "discard": 2,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player creates a Treasure token.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "tokens": 1,
+            "token": "Treasure",
+            "for": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "text": "target artifact"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

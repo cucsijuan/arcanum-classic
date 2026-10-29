@@ -1,0 +1,10 @@
+{
+  "name": "Effortless Master",
+  "entersWithCounters": 2,
+  "entersWithCountersIf": {
+    "atLeast": {
+      "spellsCast": {}
+    },
+    "value": 2
+  }
+}

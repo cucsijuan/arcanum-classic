@@ -1,0 +1,32 @@
+{
+  "name": "Perennation",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "target permanent card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target",
+        "counterKinds": [
+          "hexproof",
+          "indestructible"
+        ]
+      }
+    ],
+    "text": "Return target permanent card from your graveyard to the battlefield with a hexproof counter and an indestructible counter on it."
+  }
+}

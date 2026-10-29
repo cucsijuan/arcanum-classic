@@ -1,0 +1,38 @@
+{
+  "name": "Behind the Scenes",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Skulk"
+        ]
+      },
+      "text": "Creatures you control have skulk."
+    },
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{4}{W}: Creatures you control get +1/+1 until end of turn."
+    }
+  ]
+}

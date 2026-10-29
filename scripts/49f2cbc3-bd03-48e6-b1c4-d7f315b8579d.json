@@ -1,0 +1,18 @@
+{
+  "name": "Taigam, Master Opportunist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "copySpell": "triggered"
+        },
+        {
+          "suspendTriggeredSpell": 4
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, copy it, then exile the spell you cast with four time counters on it. If it doesn't have suspend, it gains suspend."
+    }
+  ]
+}

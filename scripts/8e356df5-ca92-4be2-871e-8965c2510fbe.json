@@ -1,0 +1,28 @@
+{
+  "name": "Tempt with Vengeance",
+  "spell": {
+    "effects": [
+      {
+        "temptingOffer": "Create X 1/1 red Elemental creature tokens with haste?",
+        "effects": [
+          {
+            "tokens": "X",
+            "token": {
+              "name": "Elemental",
+              "types": "Creature — Elemental",
+              "colors": [
+                "R"
+              ],
+              "power": 1,
+              "toughness": 1,
+              "keywords": [
+                "Haste"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Tempting offer — Create X 1/1 red Elemental creature tokens with haste. Each opponent may create X 1/1 red Elemental creature tokens with haste. For each opponent who does, create X 1/1 red Elemental creature tokens with haste."
+  }
+}

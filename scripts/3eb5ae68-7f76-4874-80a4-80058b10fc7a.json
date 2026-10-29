@@ -1,0 +1,30 @@
+{
+  "name": "Caldera Pyremaw",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature. Then this creature deals damage equal to its power to target opponent."
+    }
+  ]
+}

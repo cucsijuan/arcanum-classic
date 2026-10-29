@@ -1,0 +1,20 @@
+{
+  "name": "Mammoth Bellow",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Elephant",
+          "types": "Creature — Elephant",
+          "colors": [
+            "G"
+          ],
+          "power": 5,
+          "toughness": 5
+        }
+      }
+    ],
+    "text": "Create a 5/5 green Elephant creature token."
+  }
+}

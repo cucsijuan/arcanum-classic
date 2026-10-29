@@ -1,0 +1,26 @@
+{
+  "name": "Mistrise Village",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Mountain"
+        },
+        {
+          "subtype": "Forest"
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{U}, {T}",
+      "effects": [
+        {
+          "nextSpellUncounterable": true
+        }
+      ],
+      "text": "{U}, {T}: The next spell you cast this turn can't be countered."
+    }
+  ]
+}

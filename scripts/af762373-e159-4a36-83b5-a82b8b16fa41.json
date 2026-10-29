@@ -1,0 +1,29 @@
+{
+  "name": "Marshal of the Lost",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            {
+              "attacking": {
+                "controller": "any"
+              }
+            },
+            {
+              "attacking": {
+                "controller": "any"
+              }
+            }
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack, target creature gets +X/+X until end of turn, where X is the number of attacking creatures."
+    }
+  ]
+}

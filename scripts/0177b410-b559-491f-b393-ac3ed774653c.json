@@ -1,0 +1,33 @@
+{
+  "name": "Kotis, Sibsig Champion",
+  "graveyardCastOncePerTurn": {
+    "filter": {
+      "types": [
+        "creature"
+      ]
+    },
+    "cost": {
+      "exileGraveyard": 3
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "enteredOrCastFromGraveyard": true
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever one or more creatures you control enter, if one or more of them entered from a graveyard or was cast from a graveyard, put two +1/+1 counters on Kotis."
+    }
+  ]
+}

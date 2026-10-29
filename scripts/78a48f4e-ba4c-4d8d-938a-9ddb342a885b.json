@@ -1,0 +1,47 @@
+{
+  "name": "Junji, the Midnight Sky",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "text": "When Junji dies, choose one —",
+      "modes": [
+        {
+          "text": "Each opponent discards two cards and loses 2 life.",
+          "effects": [
+            {
+              "discard": 2,
+              "who": "opponents"
+            },
+            {
+              "loseLife": 2,
+              "who": "opponents"
+            }
+          ]
+        },
+        {
+          "text": "Put target non-Dragon creature card from a graveyard onto the battlefield under your control. You lose 2 life.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "notSubtype": "Dragon"
+              },
+              "text": "target non-Dragon creature card from a graveyard"
+            }
+          ],
+          "effects": [
+            {
+              "reanimate": "target"
+            },
+            {
+              "loseLife": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

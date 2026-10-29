@@ -1,0 +1,88 @@
+{
+  "name": "Protector of the Wastes",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "up to two target artifacts and/or enchantments controlled by different players"
+        },
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "up to two target artifacts and/or enchantments controlled by different players"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "exile": "target2"
+        }
+      ],
+      "text": "When this creature enters or becomes monstrous, exile up to two target artifacts and/or enchantments controlled by different players."
+    },
+    {
+      "trigger": "becomesMonstrous",
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "up to two target artifacts and/or enchantments controlled by different players"
+        },
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ]
+          },
+          "text": "up to two target artifacts and/or enchantments controlled by different players"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "exile": "target2"
+        }
+      ],
+      "text": "When this creature enters or becomes monstrous, exile up to two target artifacts and/or enchantments controlled by different players."
+    },
+    {
+      "cost": "{4}{W}",
+      "effects": [
+        {
+          "monstrosity": 3
+        }
+      ],
+      "text": "{4}{W}: Monstrosity 3."
+    }
+  ]
+}

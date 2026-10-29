@@ -1,0 +1,38 @@
+{
+  "name": "Dalkovan Encampment",
+  "entersTappedUnless": {
+    "control": {
+      "anyOf": [
+        {
+          "subtype": "Swamp"
+        },
+        {
+          "subtype": "Mountain"
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{2}{W}, {T}",
+      "effects": [
+        {
+          "emblem": "Dalkovan Encampment",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "youAttack",
+              "effects": [
+                {
+                  "mobilize": 2
+                }
+              ],
+              "text": "Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped and attacking. Sacrifice them at the beginning of the next end step."
+            }
+          ]
+        }
+      ],
+      "text": "{2}{W}, {T}: Whenever you attack this turn, create two 1/1 red Warrior creature tokens that are tapped and attacking. Sacrifice them at the beginning of the next end step."
+    }
+  ]
+}

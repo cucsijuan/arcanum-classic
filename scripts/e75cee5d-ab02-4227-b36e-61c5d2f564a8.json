@@ -1,0 +1,27 @@
+{
+  "name": "Wingspan Stride",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has flying."
+    },
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{U}: Return this Aura to its owner's hand."
+    }
+  ]
+}

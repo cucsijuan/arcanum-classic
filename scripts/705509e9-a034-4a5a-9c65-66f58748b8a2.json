@@ -1,0 +1,25 @@
+{
+  "name": "Harrow",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 2,
+        "to": "battlefield"
+      }
+    ],
+    "text": "Search your library for up to two basic land cards, put them onto the battlefield, then shuffle."
+  }
+}

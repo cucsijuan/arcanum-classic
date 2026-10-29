@@ -1,0 +1,23 @@
+{
+  "name": "Inspirited Vanguard",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "endure": 2
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, it endures 2."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "endure": 2
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, it endures 2."
+    }
+  ]
+}

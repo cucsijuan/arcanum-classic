@@ -1,0 +1,14 @@
+{
+  "name": "Ureni's Rebuff",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ],
+    "text": "Return target creature to its owner's hand."
+  }
+}

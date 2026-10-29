@@ -1,0 +1,38 @@
+{
+  "name": "Essence Anchor",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1."
+    },
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "all": [
+          "yourTurn",
+          "cardLeftYourGraveyardThisTurn"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie Druid",
+            "types": "Creature — Zombie Druid",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{T}: Create a 2/2 black Zombie Druid creature token. Activate only during your turn and only if a card left your graveyard this turn."
+    }
+  ]
+}

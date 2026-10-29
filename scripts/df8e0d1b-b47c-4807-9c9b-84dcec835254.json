@@ -1,0 +1,39 @@
+{
+  "name": "Colossal Grave-Reaver",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, mill three cards."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, mill three cards."
+    },
+    {
+      "trigger": "cardPutIntoYourGraveyard",
+      "batched": true,
+      "fromZone": "library",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "putOneOfBatchOntoBattlefield": true
+        }
+      ],
+      "text": "Whenever one or more creature cards are put into your graveyard from your library, put one of them onto the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Anafenza, Unyielding Lineage",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "token": false,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "endure": 2
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, Anafenza endures 2."
+    }
+  ]
+}

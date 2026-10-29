@@ -1,0 +1,15 @@
+{
+  "name": "Steward of the Harvest",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [ { "kind": "graveyardCard", "controller": "you", "filter": { "types": ["land"] }, "optional": true, "upTo": 3, "text": "up to three target land cards from your graveyard" } ],
+      "effects": [ { "exile": "eachTarget", "linked": true } ],
+      "text": "When this creature enters, exile up to three target land cards from your graveyard."
+    },
+    {
+      "static": { "affects": "creatures:you", "pump": [0, 0], "exiledCardAbilities": { "types": ["land"] } },
+      "text": "Creatures you control have all activated abilities of all land cards exiled with this creature."
+    }
+  ]
+}

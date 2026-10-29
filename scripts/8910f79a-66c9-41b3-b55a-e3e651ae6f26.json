@@ -1,0 +1,37 @@
+{
+  "name": "Amphin Mutineer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "notSubtype": "Salamander"
+          },
+          "text": "up to one target non-Salamander creature"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Salamander Warrior",
+            "types": "Creature — Salamander Warrior",
+            "colors": [
+              "U"
+            ],
+            "power": 4,
+            "toughness": 3
+          },
+          "for": "targetController"
+        }
+      ],
+      "text": "When this creature enters, exile up to one target non-Salamander creature. That creature's controller creates a 4/3 blue Salamander Warrior creature token."
+    }
+  ]
+}

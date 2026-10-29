@@ -1,0 +1,28 @@
+{
+  "name": "Armament Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you",
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        },
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "distributeCounters": 3
+        }
+      ],
+      "text": "When this creature enters, distribute three +1/+1 counters among one, two, or three target creatures you control."
+    }
+  ]
+}

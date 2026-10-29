@@ -1,0 +1,30 @@
+{
+  "name": "Sidisi, Regent of the Mire",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:creature",
+      "sorcery": true,
+      "xFromSacrificedManaValue": {
+        "targetOffset": 1
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card with mana value X plus 1 from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "{T}, Sacrifice a creature you control with mana value X other than Sidisi: Return target creature card with mana value X plus 1 from your graveyard to the battlefield. Activate only as a sorcery."
+    }
+  ]
+}

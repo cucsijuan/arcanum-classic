@@ -1,0 +1,24 @@
+{
+  "name": "Welcoming Vampire",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "maxPower": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Necromantic Selection",
+  "spell": {
+    "exileAfter": true,
+    "effects": [
+      { "destroy": { "each": { "types": ["creature"] } } },
+      { "returnFromGraveyard": { "types": ["creature"] }, "to": "battlefield", "anyGraveyard": true, "amongDestroyed": true },
+      { "become": "enteredThisWay", "addColors": ["B"], "addSubtypes": ["Zombie"], "permanent": true }
+    ],
+    "text": "Destroy all creatures, then return a creature card put into a graveyard this way to the battlefield under your control. It's a black Zombie in addition to its other colors and types. Exile Necromantic Selection."
+  }
+}

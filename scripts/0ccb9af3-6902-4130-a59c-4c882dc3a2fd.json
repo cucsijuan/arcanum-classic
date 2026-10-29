@@ -1,0 +1,36 @@
+{
+  "name": "Legion Warboss",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "colors": [
+              "R"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Haste"
+          ]
+        },
+        {
+          "attacksThisCombat": "created"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a 1/1 red Goblin creature token. That token gains haste until end of turn and attacks this combat if able."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Twin Bolt",
+  "spell": {
+    "targets": [
+      "any",
+      {
+        "kind": "any",
+        "optional": true,
+        "text": "any other target"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "divideDamage": 2
+      }
+    ],
+    "text": "Twin Bolt deals 2 damage divided as you choose among one or two targets."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Whirlwing Stormbrood // Dynamic Soar",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "types": [
+                "sorcery"
+              ]
+            },
+            {
+              "subtype": "Dragon"
+            }
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true
+      },
+      "text": "You may cast sorcery spells and Dragon spells as though they had flash."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        }
+      ],
+      "text": "Put three +1/+1 counters on target creature you control."
+    }
+  }
+}

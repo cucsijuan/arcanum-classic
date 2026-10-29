@@ -1,0 +1,45 @@
+{
+  "name": "Dismantling Wave",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "optional": true,
+        "perPlayer": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "up to one target artifact or enchantment that player controls"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      }
+    ],
+    "text": "For each opponent, destroy up to one target artifact or enchantment that player controls."
+  },
+  "abilities": [
+    {
+      "trigger": "cycled",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ],
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When you cycle this card, destroy all artifacts and enchantments."
+    }
+  ]
+}

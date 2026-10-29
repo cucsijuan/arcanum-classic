@@ -1,0 +1,19 @@
+{
+  "name": "Electrodominance",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      },
+      {
+        "castFromHandFree": {},
+        "maxManaValue": "X"
+      }
+    ],
+    "text": "Electrodominance deals X damage to any target. You may cast a spell with mana value X or less from your hand without paying its mana cost."
+  }
+}

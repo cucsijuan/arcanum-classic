@@ -1,0 +1,52 @@
+{
+  "name": "Sultai Monument",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Swamp"
+              },
+              {
+                "subtype": "Forest"
+              },
+              {
+                "subtype": "Island"
+              }
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic Swamp, Forest, or Island card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{2}{B}{G}{U}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Zombie Druid",
+            "types": "Creature — Zombie Druid",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{2}{B}{G}{U}, {T}, Sacrifice this artifact: Create two 2/2 black Zombie Druid creature tokens. Activate only as a sorcery."
+    }
+  ]
+}

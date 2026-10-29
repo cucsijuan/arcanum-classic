@@ -1,0 +1,24 @@
+{
+  "name": "Drownyard Temple",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{3}, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{3}: Return this card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

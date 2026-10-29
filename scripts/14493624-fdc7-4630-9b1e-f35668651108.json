@@ -1,0 +1,15 @@
+{
+  "name": "Baldin, Century Herdmaster",
+  "abilities": [
+    {
+      "static": { "affects": "creatures", "while": "yourTurn", "pump": [0, 0], "keywords": ["Assigns damage by toughness"] },
+      "text": "During your turn, each creature assigns combat damage equal to its toughness rather than its power."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [ { "kind": "creature", "optional": true, "upTo": 100, "text": "up to one hundred target creatures" } ],
+      "effects": [ { "pump": [0, "handSize"], "what": "eachTarget" } ],
+      "text": "Whenever Baldin attacks, up to one hundred target creatures each get +0/+X until end of turn, where X is the number of cards in your hand."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "name": "Underfoot Underdogs",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Goblin",
+            "types": "Creature — Goblin",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 red Goblin creature token."
+    },
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "maxPower": 2
+          },
+          "text": "target creature you control with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Target creature you control with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Host of the Hereafter",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": {
+        "atLeast": "triggeredCounterCount",
+        "value": 1
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "text": "up to one target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "putTriggeredCounters": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, if it had counters on it, put its counters on up to one target creature you control."
+    }
+  ]
+}

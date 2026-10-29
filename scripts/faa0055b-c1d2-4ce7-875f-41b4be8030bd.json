@@ -1,0 +1,39 @@
+{
+  "name": "Synchronized Charge",
+  "spell": {
+    "targets": [
+      "creature:you",
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "distributeCounters": 2
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you",
+            "hasCounters": true
+          }
+        },
+        "keywords": [
+          "Vigilance",
+          "Trample"
+        ]
+      }
+    ],
+    "text": "Distribute two +1/+1 counters among one or two target creatures you control. Creatures you control with counters on them gain vigilance and trample until end of turn."
+  }
+}

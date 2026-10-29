@@ -11,7 +11,8 @@ usage: tools/set_triage.py <cards.jsonl.gz> <dump dir from SupportDump> <set cod
   script gets those abilities, in rules-text order. Only taken from scripts made of abilities alone (no card-wide
   properties that might belong to the line).
 - Everything else goes to the report, grouped by the first reason SupportDump's why.tsv gives, with a reference script
-  for every line that already appears in one.
+  for every line that already appears in one; a new line of several sentences (trigger condition, cost, effects) gets one
+  for each of its sentences that a script has, when one of them is an effect.
 
 Without --write nothing is written to scripts/. Rerun SupportDump afterwards: a written script that still isn't fully
 supported shows up in why.tsv. See docs/set-workflow.md."""
@@ -60,6 +61,24 @@ def shape(line):
 
 def lines(text):
     return [l.strip() for l in text.split("\n") if l.strip()]
+
+
+def sentences(line):
+    """A rules line split into its sentences, a leading "When/Whenever/At …," trigger condition being one of its own."""
+    line = re.sub(r"^[A-Z][^—.:]* — ", "", line)  # an ability word's label ("Renew — ")
+    out = []
+    for part in re.split(r"(?<=\.) (?=[A-Z])", line):
+        trigger = re.match(r"^((?:When|Whenever|At) [^,]*), (.+)$", part)
+        activated = re.match(r"^([^\"]*?\{[^\"]*?): (.+)$", part)  # "{cost}, …: effect"
+        if trigger: out += [trigger.group(1) + ",", trigger.group(2)[0].upper() + trigger.group(2)[1:]]
+        elif activated: out += [activated.group(1) + ":", activated.group(2)]
+        else: out.append(part)
+    return out
+
+
+def telling(sentence):
+    """A sentence whose script reference helps: an effect, not a bare trigger condition, cost or timing restriction."""
+    return not sentence.endswith((",", ":")) and not sentence.startswith("Activate only")
 
 
 def keyword_line(line, keywords):
@@ -116,6 +135,11 @@ def main():
     for line, (oid, name, _) in ability_of.items(): line_ref.setdefault(line, (oid, name))
     shape_ref = {}
     for line, ref in line_ref.items(): shape_ref.setdefault(shape(line), ref)
+    # Sentences of scripted lines, for a new line made partly of wording a script already has.
+    sentence_ref, sentence_shape_ref = {}, {}
+    for line, ref in line_ref.items():
+        for sentence in sentences(line):
+            sentence_ref.setdefault(sentence, ref); sentence_shape_ref.setdefault(shape(sentence), ref)
 
     reused, composed, todo = [], [], []
     for c in sorted(cards, key=lambda c: c["name"]):
@@ -158,7 +182,7 @@ def main():
         w = lambda s="": out.write(s + "\n")
         w(f"# {a.set}: {len(cards)} cards, {full} run, {len(reused)} same text, {len(composed)} same abilities, {len(todo)} to do")
         w(); w("Each rules line: `=` a script has this line, `≈` a script has it with other numbers or mana (file in scripts/), "
-              "`+` one of its keywords, `·` new.")
+              "`+` one of its keywords, `·` new. Under a new line of several sentences, the same marks for each sentence a script has.")
         w(); w(f"## Same text as a scripted card ({len(reused)}{'' if a.write else ', not written'})")
         for c, src, _ in reused: w(f"- {c['name']} ← {src}")
         w(); w(f"## Same abilities as scripted cards ({len(composed)}{'' if a.write else ', not written'})")
@@ -175,7 +199,14 @@ def main():
                         if keyword_line(line, c.get("keywords", [])): w(f"- `+` {line}")
                         elif line in line_ref: w(f"- `=` {line} → {line_ref[line][0]}.json ({line_ref[line][1]})")
                         elif shape(line) in shape_ref: w(f"- `≈` {line} → {shape_ref[shape(line)][0]}.json ({shape_ref[shape(line)][1]})")
-                        else: w(f"- `·` {line}")
+                        else:
+                            w(f"- `·` {line}")
+                            parts = sentences(line)
+                            if len(parts) > 1 and any(telling(p) and (p in sentence_ref or shape(p) in sentence_shape_ref) for p in parts):
+                                for p in parts:
+                                    if p in sentence_ref: w(f"  - `=` {p} → {sentence_ref[p][0]}.json ({sentence_ref[p][1]})")
+                                    elif shape(p) in sentence_shape_ref: w(f"  - `≈` {p} → {sentence_shape_ref[shape(p)][0]}.json ({sentence_shape_ref[shape(p)][1]})")
+                                    else: w(f"  - `·` {p}")
     print(f"{a.set}: {len(cards)} cards, {full} run, {len(reused)} same text, {len(composed)} same abilities, {len(todo)} to do"
           f" → {a.out}{'' if a.write else ' (nothing written: --write)'}")
 

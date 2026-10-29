@@ -1,0 +1,19 @@
+{
+  "name": "Mox Jasper",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "subtype": "Dragon"
+        }
+      },
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Activate only if you control a Dragon."
+    }
+  ]
+}

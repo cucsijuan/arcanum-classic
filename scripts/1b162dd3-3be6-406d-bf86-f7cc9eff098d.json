@@ -1,0 +1,45 @@
+{
+  "name": "Eshki, Temur's Roar",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "if": {
+            "atLeast": "triggeredPower",
+            "value": 4
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "if": {
+            "atLeast": "triggeredPower",
+            "value": 6
+          },
+          "then": [
+            {
+              "damage": {
+                "power": "self"
+              },
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a creature spell, put a +1/+1 counter on Eshki. If that spell's power is 4 or greater, draw a card. If that spell's power is 6 or greater, Eshki deals damage equal to Eshki's power to each opponent."
+    }
+  ]
+}

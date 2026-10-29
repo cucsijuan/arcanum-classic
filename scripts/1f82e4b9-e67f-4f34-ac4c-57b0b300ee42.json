@@ -1,0 +1,34 @@
+{
+  "name": "Mardu Siegebreaker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this creature enters, exile up to one other target creature you control until this creature leaves the battlefield."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "exiledCopyAttackingEachOpponent": true
+        }
+      ],
+      "text": "Whenever this creature attacks, for each opponent, create a tapped token that's a copy of the exiled card attacking that opponent. At the beginning of your next end step, sacrifice those tokens."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Twilight Drover",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a creature token leaves the battlefield, put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{2}{W}, removeCounters:1",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{W}, Remove a +1/+1 counter from this creature: Create two 1/1 white Spirit creature tokens with flying."
+    }
+  ]
+}

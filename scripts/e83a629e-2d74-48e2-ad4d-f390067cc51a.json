@@ -1,0 +1,22 @@
+{
+  "name": "Transcendent Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "targets": [
+        "spell"
+      ],
+      "effects": [
+        {
+          "counter": "target",
+          "exileIfCountered": true
+        },
+        {
+          "castCounteredExiledFree": true
+        }
+      ],
+      "text": "When this creature enters, if you cast it, counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard, then you may cast it without paying its mana cost."
+    }
+  ]
+}

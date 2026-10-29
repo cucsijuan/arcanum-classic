@@ -1,0 +1,44 @@
+{
+  "name": "Wayspeaker Bodyguard",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 2
+          },
+          "text": "target nonland permanent card with mana value 2 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return target nonland permanent card with mana value 2 or less from your graveyard to your hand."
+    },
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, tap target creature an opponent controls."
+    }
+  ]
+}

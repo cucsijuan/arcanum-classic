@@ -1,0 +1,59 @@
+{
+  "name": "Will of the Mardu",
+  "spell": {
+    "text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.",
+    "extraModeIf": {
+      "control": {
+        "commander": true
+      }
+    },
+    "modes": [
+      {
+        "text": "Create a number of 1/1 red Warrior creature tokens equal to the number of creatures target player controls.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "tokens": {
+              "count": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            },
+            "token": {
+              "name": "Warrior",
+              "types": "Creature — Warrior",
+              "colors": [
+                "R"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      },
+      {
+        "text": "Will of the Mardu deals damage to target creature equal to the number of creatures you control.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

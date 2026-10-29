@@ -1,0 +1,12 @@
+{
+  "name": "Dreamroot Cascade",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "other": true
+    },
+    "count": 2
+  }
+}

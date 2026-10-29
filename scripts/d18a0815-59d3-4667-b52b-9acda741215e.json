@@ -1,0 +1,20 @@
+{
+  "name": "Arboreal Grazer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "one": true,
+          "tapped": true
+        }
+      ],
+      "text": "When this creature enters, you may put a land card from your hand onto the battlefield tapped."
+    }
+  ]
+}

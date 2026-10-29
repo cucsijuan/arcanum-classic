@@ -1,0 +1,48 @@
+{
+  "name": "Betor, Kin to All",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "atLeast": "totalToughness",
+        "value": 10
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "atLeast": "totalToughness",
+            "value": 20
+          },
+          "then": [
+            {
+              "untap": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            },
+            {
+              "if": {
+                "atLeast": "totalToughness",
+                "value": 40
+              },
+              "then": [
+                {
+                  "loseLife": "affectedHalfLife",
+                  "who": "opponents"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, if creatures you control have total toughness 10 or greater, draw a card. Then if creatures you control have total toughness 20 or greater, untap each creature you control. Then if creatures you control have total toughness 40 or greater, each opponent loses half their life, rounded up."
+    }
+  ]
+}

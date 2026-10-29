@@ -1,0 +1,39 @@
+{
+  "name": "Loyal Apprentice",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "control": {
+          "commander": true,
+          "ownedByYou": true
+        }
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Thopter",
+            "types": "Artifact Creature — Thopter",
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Lieutenant — At the beginning of combat on your turn, if you control your commander, create a 1/1 colorless Thopter artifact creature token with flying. That token gains haste until end of turn."
+    }
+  ]
+}

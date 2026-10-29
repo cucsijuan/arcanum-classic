@@ -1,0 +1,38 @@
+{
+  "name": "Yathan Roadwatcher",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "filter": {
+                  "types": [
+                    "creature"
+                  ],
+                  "maxManaValue": 3
+                },
+                "text": "target creature card with mana value 3 or less from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "reanimate": "target"
+              }
+            ],
+            "text": "When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield."
+          }
+        }
+      ],
+      "text": "When this creature enters, if you cast it, mill four cards. When you do, return target creature card with mana value 3 or less from your graveyard to the battlefield."
+    }
+  ]
+}

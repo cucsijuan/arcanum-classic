@@ -1,0 +1,20 @@
+{
+  "name": "Dragon's Prey",
+  "costIncreaseIfTargets": {
+    "amount": 2,
+    "filter": {
+      "subtype": "Dragon"
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature."
+  }
+}

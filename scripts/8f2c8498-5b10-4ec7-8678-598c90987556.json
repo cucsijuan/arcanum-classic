@@ -1,0 +1,26 @@
+{
+  "name": "Disciple of Bolas",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "other": true
+          }
+        },
+        {
+          "gainLife": "sacrificedPower"
+        },
+        {
+          "draw": "sacrificedPower"
+        }
+      ],
+      "text": "When this creature enters, sacrifice another creature. You gain X life and draw X cards, where X is that creature's power."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Sagu Wildling // Roost Seek",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, you gain 3 life."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    }
+  }
+}

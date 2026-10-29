@@ -1,0 +1,12 @@
+{
+  "name": "Shattered Sanctum",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "other": true
+    },
+    "count": 2
+  }
+}

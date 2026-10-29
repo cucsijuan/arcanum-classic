@@ -1,0 +1,80 @@
+{
+  "name": "Awaken the Honored Dead",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "I — Destroy target nonland permanent."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "II — Mill three cards."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "mayPay": "Discard a card to return a creature or land card from your graveyard to your hand?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "graveyardCard",
+                    "controller": "you",
+                    "filter": {
+                      "types": [
+                        "creature",
+                        "land"
+                      ]
+                    },
+                    "text": "target creature or land card from your graveyard"
+                  }
+                ],
+                "effects": [
+                  {
+                    "bounce": "target"
+                  }
+                ],
+                "text": "When you do, return target creature or land card from your graveyard to your hand."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "III — You may discard a card. When you do, return target creature or land card from your graveyard to your hand."
+    }
+  ]
+}

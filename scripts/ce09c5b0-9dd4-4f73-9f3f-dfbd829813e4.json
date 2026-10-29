@@ -1,0 +1,15 @@
+{
+  "name": "Iridescent Tiger",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "addMana": "{W}{U}{B}{R}{G}"
+        }
+      ],
+      "text": "When this creature enters, if you cast it, add {W}{U}{B}{R}{G}."
+    }
+  ]
+}

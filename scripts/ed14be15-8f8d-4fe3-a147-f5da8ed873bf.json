@@ -1,0 +1,18 @@
+{
+  "name": "Conduit of Worlds",
+  "playLandsFromGraveyard": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "targets": [ { "kind": "graveyardCard", "controller": "you", "filter": { "types": ["artifact", "creature", "enchantment", "planeswalker", "battle"], "not": ["land"] }, "text": "target nonland permanent card in your graveyard" } ],
+      "effects": [
+        { "if": { "not": { "atLeast": { "spellsCast": {} }, "value": 1 } }, "then": [
+          { "castFromGraveyard": {}, "card": "target", "noExile": true },
+          { "if": "castThisWay", "then": [ { "youCantCastSpellsThisTurn": true } ] }
+        ] }
+      ],
+      "text": "{T}: Choose target nonland permanent card in your graveyard. If you haven't cast a spell this turn, you may cast that card. If you do, you can't cast additional spells this turn. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Naga Fleshcrafter",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ],
+    "controller": "any"
+  },
+  "abilities": [
+    {
+      "cost": "{2}{U}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notSupertype": "legendary"
+          },
+          "text": "target nonlegendary creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "becomeCopy": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "target": "target"
+        }
+      ],
+      "text": "Renew — {2}{U}, Exile this card from your graveyard: Put a +1/+1 counter on target nonlegendary creature you control. Each other creature you control becomes a copy of that creature until end of turn. Activate only as a sorcery."
+    }
+  ]
+}

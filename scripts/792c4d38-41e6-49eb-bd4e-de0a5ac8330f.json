@@ -1,0 +1,12 @@
+{
+  "name": "Redoubled Stormsinger",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        { "copy": { "each": { "types": ["creature"], "token": true, "controller": "you", "enteredThisTurn": true } }, "each": true, "tapped": true, "attacking": true, "atNextEndStep": [ { "sacrificeIt": "triggered" } ] }
+      ],
+      "text": "Whenever this creature attacks, for each creature token you control that entered this turn, create a tapped and attacking token that's a copy of that token. At the beginning of the next end step, sacrifice those tokens."
+    }
+  ]
+}

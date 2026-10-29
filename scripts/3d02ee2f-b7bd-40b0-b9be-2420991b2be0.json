@@ -1,0 +1,49 @@
+{
+  "name": "Abzan Devotee",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {W}",
+              "effects": [
+                {
+                  "addMana": "{W}"
+                }
+              ]
+            },
+            {
+              "text": "Add {B}",
+              "effects": [
+                {
+                  "addMana": "{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}",
+              "effects": [
+                {
+                  "addMana": "{G}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}: Add {W}, {B}, or {G}. Activate only once each turn."
+    },
+    {
+      "cost": "{2}{B}, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{B}: Return this card from your graveyard to your hand."
+    }
+  ]
+}

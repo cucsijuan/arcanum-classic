@@ -1,0 +1,11 @@
+{
+  "name": "Weathered Sentinels",
+  "canAttackPlayersWhoAttackedYou": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [ { "pump": [3, 3], "keywords": ["Indestructible"], "what": "self" } ],
+      "text": "Whenever this creature attacks, it gets +3/+3 and gains indestructible until end of turn."
+    }
+  ]
+}

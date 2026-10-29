@@ -1,0 +1,14 @@
+{
+  "name": "Sandskitter Outrider",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "endure": 2
+        }
+      ],
+      "text": "When this creature enters, it endures 2."
+    }
+  ]
+}

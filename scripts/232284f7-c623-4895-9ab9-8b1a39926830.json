@@ -1,0 +1,20 @@
+{
+  "name": "Wonder",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "keywords": [
+          "Flying"
+        ],
+        "fromGraveyard": true,
+        "while": {
+          "control": {
+            "subtype": "Island"
+          }
+        }
+      },
+      "text": "As long as this card is in your graveyard and you control an Island, creatures you control have flying."
+    }
+  ]
+}

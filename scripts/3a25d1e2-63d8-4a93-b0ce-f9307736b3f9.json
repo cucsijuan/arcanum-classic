@@ -1,0 +1,31 @@
+{
+  "name": "Lord of the Forsaken",
+  "abilities": [
+    {
+      "cost": "{B}, sacrifice:creature",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 3,
+          "who": "target"
+        }
+      ],
+      "text": "{B}, Sacrifice another creature: Target player mills three cards."
+    },
+    {
+      "cost": "life:1",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "types": "{C}",
+          "onlyFor": {
+            "zone": "graveyard"
+          }
+        }
+      ],
+      "text": "Pay 1 life: Add {C}. Spend this mana only to cast a spell from your graveyard."
+    }
+  ]
+}

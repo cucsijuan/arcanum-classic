@@ -1,0 +1,15 @@
+{
+  "name": "Channeled Dragonfire",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "target"
+      }
+    ],
+    "text": "Channeled Dragonfire deals 2 damage to any target."
+  }
+}

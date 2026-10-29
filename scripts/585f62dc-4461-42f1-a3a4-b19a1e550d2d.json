@@ -1,0 +1,22 @@
+{
+  "name": "Overgrown Battlement",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{G}",
+          "times": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Defender"
+            }
+          }
+        }
+      ],
+      "text": "{T}: Add {G} for each creature you control with defender."
+    }
+  ]
+}

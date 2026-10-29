@@ -1,0 +1,43 @@
+{
+  "name": "Starry-Eyed Skyrider",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target creature you control gains flying until end of turn."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true,
+          "attacking": true
+        },
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Attacking tokens you control have flying."
+    }
+  ]
+}

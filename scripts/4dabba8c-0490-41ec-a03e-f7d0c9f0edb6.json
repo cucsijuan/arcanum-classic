@@ -1,0 +1,13 @@
+{
+  "name": "Zenith Festival",
+  "spell": {
+    "effects": [
+      {
+        "exileTopPlayable": "X",
+        "chooseOne": false,
+        "untilNextTurn": true
+      }
+    ],
+    "text": "Exile the top X cards of your library. You may play them until the end of your next turn."
+  }
+}

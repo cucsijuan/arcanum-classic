@@ -1,0 +1,55 @@
+{
+  "name": "Marang River Regent // Coil and Catch",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to two other target nonland permanents"
+        },
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "other": true
+          },
+          "text": "up to two other target nonland permanents"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "bounce": "target2"
+        }
+      ],
+      "text": "When this creature enters, return up to two other target nonland permanents to their owners' hands."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "Draw three cards, then discard a card."
+    }
+  }
+}

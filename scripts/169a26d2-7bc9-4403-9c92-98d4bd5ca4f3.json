@@ -1,0 +1,12 @@
+{
+  "name": "Temple of the Dragon Queen",
+  "chooseOnEnter": "revealOrTapped",
+  "enterReveal": {
+    "subtype": "Dragon"
+  },
+  "enterUntappedIfControl": {
+    "subtype": "Dragon"
+  },
+  "enterAlsoChooseColor": true,
+  "manaFromChosenColor": true
+}

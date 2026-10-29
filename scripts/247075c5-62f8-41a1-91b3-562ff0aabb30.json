@@ -1,0 +1,21 @@
+{
+  "name": "Narset's Rebuke",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "addMana": "{U}{R}{W}"
+      }
+    ],
+    "text": "Narset's Rebuke deals 5 damage to target creature. Add {U}{R}{W}. If that creature would die this turn, exile it instead."
+  }
+}

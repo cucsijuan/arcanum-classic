@@ -1,0 +1,11 @@
+{
+  "name": "Mindblade Render",
+  "abilities": [
+    {
+      "trigger": "opponentsDealtCombatDamage",
+      "if": { "batchHas": { "subtype": "Warrior" } },
+      "effects": [ { "draw": 1 }, { "loseLife": 1 } ],
+      "text": "Whenever your opponents are dealt combat damage, if any of that damage was dealt by a Warrior, you draw a card and you lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Migration Path",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "supertype": "basic",
+          "types": [
+            "land"
+          ]
+        },
+        "count": 2,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+  }
+}

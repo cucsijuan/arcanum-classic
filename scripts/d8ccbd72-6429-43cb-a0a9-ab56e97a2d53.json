@@ -1,0 +1,26 @@
+{
+  "name": "Elsha, Threefold Master",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": {
+            "name": "Monk",
+            "types": "Creature — Monk",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Prowess"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Elsha deals combat damage to a player, create that many 1/1 white Monk creature tokens with prowess."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Wall of Limbs",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "{5}{B}{B}, sacrifice",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "loseLife": {
+            "power": "self"
+          },
+          "who": "target"
+        }
+      ],
+      "text": "{5}{B}{B}, Sacrifice this creature: Target player loses X life, where X is this creature's power."
+    }
+  ]
+}

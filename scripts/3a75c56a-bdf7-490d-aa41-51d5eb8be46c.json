@@ -1,0 +1,23 @@
+{
+  "name": "Aegis Sculptor",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mayPay": "Exile two cards from your graveyard to put a +1/+1 counter on Aegis Sculptor?",
+          "cost": {
+            "exileGraveyard": 2
+          },
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may exile two cards from your graveyard. If you do, put a +1/+1 counter on this creature."
+    }
+  ]
+}

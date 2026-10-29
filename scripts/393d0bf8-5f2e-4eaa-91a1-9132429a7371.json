@@ -1,0 +1,17 @@
+{
+  "name": "Zurgo, Thunder's Decree",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Warrior",
+        "filter": {
+          "token": true
+        },
+        "cantBeSacrificed": true,
+        "while": "yourEndStep"
+      },
+      "text": "During your end step, Warrior tokens you control have \"This token can't be sacrificed.\""
+    }
+  ]
+}

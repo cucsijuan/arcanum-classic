@@ -1,0 +1,22 @@
+{
+  "name": "Satyr Wayfinder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "revealAll": true,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "take": 1,
+          "rest": "graveyard"
+        }
+      ],
+      "text": "When this creature enters, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard."
+    }
+  ]
+}

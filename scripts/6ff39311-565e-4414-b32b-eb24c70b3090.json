@@ -1,0 +1,45 @@
+{
+  "name": "Coordinated Maneuver",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Coordinated Maneuver deals damage equal to the number of creatures you control to target creature or planeswalker.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "damage": {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "text": "target enchantment"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

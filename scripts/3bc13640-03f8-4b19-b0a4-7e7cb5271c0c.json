@@ -1,0 +1,19 @@
+{
+  "name": "Hour of Reckoning",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "token": false,
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Destroy all nontoken creatures."
+  }
+}

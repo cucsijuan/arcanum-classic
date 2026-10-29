@@ -1,0 +1,52 @@
+{
+  "name": "Herd Heirloom",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "onlyFor": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Spend this mana only to cast a creature spell."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "minPower": 4
+          },
+          "text": "target creature you control with power 4 or greater"
+        }
+      ],
+      "effects": [
+        {
+          "become": "target",
+          "keywords": [
+            "Trample"
+          ],
+          "abilities": [
+            {
+              "trigger": "combatDamageToPlayer",
+              "effects": [
+                {
+                  "draw": 1
+                }
+              ],
+              "text": "Whenever this creature deals combat damage to a player, draw a card."
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Until end of turn, target creature you control with power 4 or greater gains trample and \"Whenever this creature deals combat damage to a player, draw a card.\""
+    }
+  ]
+}

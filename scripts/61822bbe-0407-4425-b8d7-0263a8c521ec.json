@@ -1,0 +1,57 @@
+{
+  "name": "Dragonbroods' Relic",
+  "abilities": [
+    {
+      "cost": "{T}, tapPermanents:1:creature",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Tap an untapped creature you control: Add one mana of any color."
+    },
+    {
+      "cost": "{3}{W}{U}{B}{R}{G}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Reliquary Dragon",
+            "types": "Creature — Dragon",
+            "colors": [
+              "W",
+              "U",
+              "B",
+              "R",
+              "G"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "keywords": [
+              "Flying",
+              "Lifelink"
+            ],
+            "abilities": [
+              {
+                "trigger": "enters",
+                "targets": [
+                  "any"
+                ],
+                "effects": [
+                  {
+                    "damage": 3,
+                    "to": "target"
+                  }
+                ],
+                "text": "When this token enters, it deals 3 damage to any target."
+              }
+            ],
+            "text": "Flying, lifelink\nWhen this token enters, it deals 3 damage to any target."
+          }
+        }
+      ],
+      "text": "{3}{W}{U}{B}{R}{G}, Sacrifice this artifact: Create a 4/4 Dragon creature token named Reliquary Dragon that's all colors. It has flying, lifelink, and \"When this token enters, it deals 3 damage to any target.\" Activate only as a sorcery."
+    }
+  ]
+}

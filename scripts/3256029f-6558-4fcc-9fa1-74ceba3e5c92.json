@@ -1,0 +1,42 @@
+{
+  "name": "Harbinger of the Hunt",
+  "abilities": [
+    {
+      "cost": "{2}{R}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "without": "Flying",
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "{2}{R}: This creature deals 1 damage to each creature without flying."
+    },
+    {
+      "cost": "{2}{G}",
+      "effects": [
+        {
+          "damage": 1,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying",
+              "other": true,
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "{2}{G}: This creature deals 1 damage to each other creature with flying."
+    }
+  ]
+}

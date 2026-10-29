@@ -1,0 +1,44 @@
+{
+  "name": "Overwhelming Surge",
+  "spell": {
+    "text": "Choose one or both —",
+    "chooseCount": 2,
+    "upTo": true,
+    "modes": [
+      {
+        "text": "Overwhelming Surge deals 3 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target noncreature artifact.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "artifact"
+              ],
+              "not": [
+                "creature"
+              ]
+            },
+            "text": "target noncreature artifact"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

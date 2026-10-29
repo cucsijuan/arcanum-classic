@@ -1,0 +1,11 @@
+{
+  "name": "Unending Whisper",
+  "spell": {
+    "effects": [
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Draw a card."
+  }
+}

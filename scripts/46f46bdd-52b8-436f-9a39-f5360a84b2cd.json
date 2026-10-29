@@ -1,0 +1,43 @@
+{
+  "name": "Opportunistic Dragon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Human"
+              },
+              {
+                "types": [
+                  "artifact"
+                ]
+              }
+            ]
+          },
+          "text": "target Human or artifact an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileSource": true
+        },
+        {
+          "become": "target",
+          "whileSource": true,
+          "loseAbilities": true,
+          "keywords": [
+            "Can't attack",
+            "Can't block"
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose target Human or artifact an opponent controls. For as long as this creature remains on the battlefield, gain control of that permanent, it loses all abilities, and it can't attack or block."
+    }
+  ]
+}

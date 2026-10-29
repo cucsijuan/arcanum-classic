@@ -1,0 +1,43 @@
+{
+  "name": "Transforming Flourish",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature you don't control"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "if": {
+          "atLeast": "destroyedThisWay",
+          "value": 1
+        },
+        "then": [
+          {
+            "revealUntil": {
+              "not": [
+                "land"
+              ]
+            },
+            "from": "targetController",
+            "castFree": true,
+            "revealerPuts": true,
+            "rest": "exile"
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target artifact or creature you don't control. If that permanent is destroyed this way, its controller exiles cards from the top of their library until they exile a nonland card, then they may cast that card without paying its mana cost."
+  }
+}

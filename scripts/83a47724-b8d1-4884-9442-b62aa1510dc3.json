@@ -1,0 +1,17 @@
+{
+  "name": "Sinkhole Surveyor",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "endure": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, you lose 1 life and this creature endures 1."
+    }
+  ]
+}

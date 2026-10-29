@@ -1,0 +1,21 @@
+{
+  "name": "Axebane Guardian",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Defender"
+            }
+          }
+        }
+      ],
+      "text": "{T}: Add X mana in any combination of colors, where X is the number of creatures you control with defender."
+    }
+  ]
+}

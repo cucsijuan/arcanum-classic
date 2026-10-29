@@ -1,0 +1,37 @@
+{
+  "name": "Veteran Ice Climber",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "This creature can't be blocked."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "player",
+          "optional": true,
+          "text": "up to one target player"
+        }
+      ],
+      "effects": [
+        {
+          "mill": {
+            "power": "self"
+          },
+          "who": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, up to one target player mills cards equal to this creature's power."
+    }
+  ]
+}

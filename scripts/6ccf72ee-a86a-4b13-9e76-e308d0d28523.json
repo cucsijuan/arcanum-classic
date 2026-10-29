@@ -1,0 +1,23 @@
+{
+  "name": "Rainveil Rejuvenator",
+  "tapForMana": "{G}",
+  "manaAmountFrom": {
+    "power": "self"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Mill three cards?",
+          "effects": [
+            {
+              "mill": 3
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may mill three cards."
+    }
+  ]
+}

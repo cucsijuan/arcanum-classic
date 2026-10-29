@@ -1,0 +1,22 @@
+{
+  "name": "New Way Forward",
+  "spell": {
+    "effects": [
+      {
+        "preventNextFromChosenSource": {
+          "effects": [
+            {
+              "damage": "triggerAmount",
+              "to": "triggeredPlayer"
+            },
+            {
+              "draw": "triggerAmount"
+            }
+          ],
+          "text": "When damage is prevented this way, New Way Forward deals that much damage to that source's controller and you draw that many cards."
+        }
+      }
+    ],
+    "text": "The next time a source of your choice would deal damage to you this turn, prevent that damage. When damage is prevented this way, New Way Forward deals that much damage to that source's controller and you draw that many cards."
+  }
+}

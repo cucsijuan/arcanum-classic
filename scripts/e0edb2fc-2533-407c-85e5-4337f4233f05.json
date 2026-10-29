@@ -1,0 +1,78 @@
+{
+  "name": "Kaya, Geist Hunter",
+  "abilities": [
+    {
+      "cost": "+1",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "token": true
+          },
+          "text": "up to one target creature token you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Deathtouch"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "+1: Creatures you control gain deathtouch until end of turn. Put a +1/+1 counter on up to one target creature token you control."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "doubleTokensThisTurn": true
+        }
+      ],
+      "text": "−2: Until end of turn, if one or more tokens would be created under your control, twice that many of those tokens are created instead."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "exileGraveyard": "everyone"
+        },
+        {
+          "tokens": {
+            "exiled": {}
+          },
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "−6: Exile all cards from all graveyards, then create a 1/1 white Spirit creature token with flying for each card exiled this way."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Dauthi Voidwalker",
+  "opponentsCardsExiledWithVoid": true,
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [ { "playOpponentsExiledWithCounterFree": "void" } ],
+      "text": "{T}, Sacrifice this creature: Choose an exiled card an opponent owns with a void counter on it. You may play it this turn without paying its mana cost."
+    }
+  ]
+}

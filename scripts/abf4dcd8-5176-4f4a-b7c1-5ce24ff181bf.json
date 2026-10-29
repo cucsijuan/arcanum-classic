@@ -1,0 +1,24 @@
+{
+  "name": "Diviner of Mist",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "castFromGraveyardFree": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "maxManaValue": 4,
+          "exileAfter": true
+        }
+      ],
+      "text": "Whenever this creature attacks, mill four cards. You may cast an instant or sorcery spell from your graveyard with mana value 4 or less without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+    }
+  ]
+}

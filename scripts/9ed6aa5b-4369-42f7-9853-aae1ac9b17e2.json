@@ -1,0 +1,21 @@
+{
+  "name": "Hundred-Battle Veteran",
+  "graveyardCastCost": {},
+  "graveyardCastFinality": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          4
+        ],
+        "while": {
+          "atLeast": "counterKindsAmongYourCreatures",
+          "value": 3
+        }
+      },
+      "text": "As long as there are three or more different kinds of counters among creatures you control, this creature gets +2/+4."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Unsparing Boltcaster",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "damagedThisTurn": true
+          },
+          "text": "target creature an opponent controls that was dealt damage this turn"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 5 damage to target creature an opponent controls that was dealt damage this turn."
+    }
+  ]
+}

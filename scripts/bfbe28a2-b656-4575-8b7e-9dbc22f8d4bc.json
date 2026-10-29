@@ -1,0 +1,24 @@
+{
+  "name": "Skarrgan Hellkite",
+  "abilities": [
+    {
+      "cost": "{3}{R}",
+      "activateIf": { "counters": 1 },
+      "targets": [
+        "any",
+        {
+          "kind": "any",
+          "optional": true,
+          "text": "any other target"
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "divideDamage": 2
+        }
+      ],
+      "text": "{3}{R}: This creature deals 2 damage divided as you choose among one or two targets. Activate only if this creature has a +1/+1 counter on it."
+    }
+  ]
+}

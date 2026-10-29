@@ -1,0 +1,22 @@
+{
+  "name": "Canopy Gargantuan",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "countersEqualToOwnToughness": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, put a number of +1/+1 counters on each other creature you control equal to that creature's toughness."
+    }
+  ]
+}

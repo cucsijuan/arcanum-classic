@@ -1,0 +1,15 @@
+{
+  "name": "Commander's Insignia",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          "commanderCasts",
+          "commanderCasts"
+        ]
+      },
+      "text": "Creatures you control get +1/+1 for each time you've cast your commander from the command zone this game."
+    }
+  ]
+}

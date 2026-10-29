@@ -1,0 +1,40 @@
+{
+  "name": "Sultai Devotee",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Add {B}",
+              "effects": [
+                {
+                  "addMana": "{B}"
+                }
+              ]
+            },
+            {
+              "text": "Add {G}",
+              "effects": [
+                {
+                  "addMana": "{G}"
+                }
+              ]
+            },
+            {
+              "text": "Add {U}",
+              "effects": [
+                {
+                  "addMana": "{U}"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{1}: Add {B}, {G}, or {U}. Activate only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Wall of Roots",
+  "abilities": [
+    {
+      "cost": "addCounters:1:-0/-1",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "addMana": "{G}"
+        }
+      ],
+      "text": "Put a -0/-1 counter on this creature: Add {G}. Activate only once each turn."
+    }
+  ]
+}

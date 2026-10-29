@@ -1,0 +1,31 @@
+{
+  "name": "Dispelling Exhale",
+  "optionalAdditionalCost": {
+    "behold": {
+      "subtype": "Dragon"
+    }
+  },
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "counter": "target",
+            "unlessPays": 4
+          }
+        ],
+        "else": [
+          {
+            "counter": "target",
+            "unlessPays": 2
+          }
+        ]
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {2}. If a Dragon was beheld, counter that spell unless its controller pays {4} instead."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Kheru Goldkeeper",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "filter": {
+        "controller": "you"
+      },
+      "batched": true,
+      "when": "yourTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard during your turn, create a Treasure token."
+    },
+    {
+      "cost": "{2}{B}{G}{U}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "flying",
+          "what": "target"
+        }
+      ],
+      "text": "Renew — {2}{B}{G}{U}, Exile this card from your graveyard: Put two +1/+1 counters and a flying counter on target creature. Activate only as a sorcery."
+    }
+  ]
+}

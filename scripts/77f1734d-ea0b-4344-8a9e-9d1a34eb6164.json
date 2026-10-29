@@ -1,0 +1,16 @@
+{
+  "name": "Fresh Start",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -5,
+          0
+        ],
+        "losesAbilities": true
+      },
+      "text": "Enchanted creature gets -5/-0 and loses all abilities."
+    }
+  ]
+}

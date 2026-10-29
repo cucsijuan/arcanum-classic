@@ -1,0 +1,38 @@
+{
+  "name": "Gadrak, the Crown-Scourge",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't attack"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "count": 4
+          }
+        }
+      },
+      "text": "Gadrak can't attack unless you control four or more artifacts."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": "nontokenCreaturesDiedThisTurn",
+          "token": "Treasure"
+        }
+      ],
+      "text": "At the beginning of your end step, create a Treasure token for each nontoken creature that died this turn."
+    }
+  ]
+}

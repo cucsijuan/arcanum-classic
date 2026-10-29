@@ -1,0 +1,19 @@
+{
+  "name": "Agent of Kotis",
+  "abilities": [
+    {
+      "cost": "{3}{U}, exileFromGraveyard",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "Renew — {3}{U}, Exile this card from your graveyard: Put two +1/+1 counters on target creature. Activate only as a sorcery."
+    }
+  ]
+}

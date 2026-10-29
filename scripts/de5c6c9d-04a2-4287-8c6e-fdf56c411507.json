@@ -1,0 +1,24 @@
+{
+  "name": "Unrooted Ancestor",
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Indestructible"
+          ],
+          "what": "self"
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: This creature gains indestructible until end of turn. Tap it."
+    }
+  ]
+}

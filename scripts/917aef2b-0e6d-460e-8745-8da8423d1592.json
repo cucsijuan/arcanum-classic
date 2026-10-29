@@ -1,0 +1,24 @@
+{
+  "name": "Riverwheel Sweep",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "counters": 3,
+        "kind": "stun",
+        "what": "target"
+      },
+      {
+        "exileTopPlayable": 2,
+        "chooseOne": true,
+        "untilNextTurn": true
+      }
+    ],
+    "text": "Tap target creature. Put three stun counters on it. Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card."
+  }
+}

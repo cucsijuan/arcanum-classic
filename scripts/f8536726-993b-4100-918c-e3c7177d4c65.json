@@ -1,0 +1,21 @@
+{
+  "name": "Spectral Denial",
+  "costReductionPer": {
+    "types": [
+      "creature"
+    ],
+    "minPower": 4
+  },
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "X"
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {X}."
+  }
+}

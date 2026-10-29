@@ -1,0 +1,14 @@
+{
+  "name": "Salt Road Packbeast",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, draw a card."
+    }
+  ]
+}

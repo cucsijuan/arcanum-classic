@@ -1,0 +1,14 @@
+{
+  "name": "Flamehold Grappler",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "copyNextSpell": true
+        }
+      ],
+      "text": "When this creature enters, copy the next spell you cast this turn when you cast it. You may choose new targets for the copy."
+    }
+  ]
+}

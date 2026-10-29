@@ -1,0 +1,49 @@
+{
+  "name": "Cori-Steel Cutter",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has trample and haste."
+    },
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Monk",
+            "types": "Creature — Monk",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Prowess"
+            ]
+          }
+        },
+        {
+          "may": "Attach Cori-Steel Cutter to the Monk?",
+          "effects": [
+            {
+              "attach": "created"
+            }
+          ]
+        }
+      ],
+      "text": "Flurry — Whenever you cast your second spell each turn, create a 1/1 white Monk creature token with prowess. You may attach this Equipment to it."
+    }
+  ]
+}

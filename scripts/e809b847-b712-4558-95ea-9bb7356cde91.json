@@ -1,0 +1,33 @@
+{
+  "name": "Dragonfire Blade",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Hexproof from monocolored"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has hexproof from monocolored."
+    },
+    {
+      "cost": "{4}",
+      "sorcery": true,
+      "equip": true,
+      "costReductionPerTargetColor": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip {4}. This ability costs {1} less to activate for each color of the creature it targets."
+    }
+  ]
+}

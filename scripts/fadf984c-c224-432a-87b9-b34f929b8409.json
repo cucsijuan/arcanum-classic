@@ -1,0 +1,20 @@
+{
+  "name": "Temur Battlecrier",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {},
+        "amount": {
+          "count": {
+            "types": [
+              "creature"
+            ],
+            "minPower": 4
+          }
+        },
+        "while": "yourTurn"
+      },
+      "text": "During your turn, spells you cast cost {1} less to cast for each creature you control with power 4 or greater."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Tasigur, the Golden Fang",
+  "abilities": [
+    {
+      "cost": "{2}{G/U}{G/U}",
+      "effects": [
+        {
+          "mill": 2
+        },
+        {
+          "opponentChoosesFromYourGraveyard": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "{2}{G/U}{G/U}: Mill two cards, then return a nonland card of an opponent's choice from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Meren of Clan Nel Toth",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "getExperienceCounter": true
+        }
+      ],
+      "text": "Whenever another creature you control dies, you get an experience counter."
+    },
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "returnToBattlefieldOrHandByManaValue": "target",
+          "maxManaValue": "experience"
+        }
+      ],
+      "text": "At the beginning of your end step, choose target creature card in your graveyard. If that card's mana value is less than or equal to the number of experience counters you have, return it to the battlefield. Otherwise, put it into your hand."
+    }
+  ]
+}

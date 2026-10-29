@@ -1,0 +1,64 @@
+{
+  "name": "Hollowmurk Siege",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Sultai",
+    "Abzan"
+  ],
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "when": {
+        "chosenOption": "Sultai"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Sultai — Whenever a counter is put on a creature you control, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "trigger": "youAttack",
+      "when": {
+        "chosenOption": "Abzan"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Menace"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Abzan — Whenever you attack, put a +1/+1 counter on target attacking creature. It gains menace until end of turn."
+    }
+  ]
+}

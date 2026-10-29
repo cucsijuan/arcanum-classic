@@ -1,0 +1,47 @@
+{
+  "name": "Expansion // Explosion",
+  "split": [
+    {
+      "spell": {
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "types": [
+                "instant",
+                "sorcery"
+              ],
+              "maxManaValue": 4
+            },
+            "text": "target instant or sorcery spell with mana value 4 or less"
+          }
+        ],
+        "effects": [
+          {
+            "copySpell": "target"
+          }
+        ],
+        "text": "Copy target instant or sorcery spell with mana value 4 or less. You may choose new targets for the copy."
+      }
+    },
+    {
+      "spell": {
+        "targets": [
+          "any",
+          "player"
+        ],
+        "effects": [
+          {
+            "damage": "X",
+            "to": "target"
+          },
+          {
+            "draw": "X",
+            "who": "target2"
+          }
+        ],
+        "text": "Explosion deals X damage to any target. Target player draws X cards."
+      }
+    }
+  ]
+}

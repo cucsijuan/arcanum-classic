@@ -1,0 +1,30 @@
+{
+  "name": "Nyx Weaver",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "mill": 2
+        }
+      ],
+      "text": "At the beginning of your upkeep, mill two cards."
+    },
+    {
+      "cost": "{1}{B}{G}, exile",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{B}{G}, Exile this creature: Return target card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Ghostly Prison",
+  "attackTax": "{2}",
+  "attackTaxPlayerOnly": true
+}

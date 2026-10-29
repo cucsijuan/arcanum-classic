@@ -1,0 +1,29 @@
+{
+  "name": "Winternight Stories",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "unless": "you",
+        "options": [
+          {
+            "discard": 1,
+            "discardFilter": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ],
+        "otherwise": [
+          {
+            "discard": 2
+          }
+        ]
+      }
+    ],
+    "text": "Draw three cards. Then discard two cards unless you discard a creature card."
+  }
+}

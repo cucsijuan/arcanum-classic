@@ -1,0 +1,63 @@
+{
+  "name": "Assault Formation",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Assigns damage by toughness"
+        ]
+      },
+      "text": "Each creature you control assigns combat damage equal to its toughness rather than its power."
+    },
+    {
+      "cost": "{G}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "keyword": "Defender"
+          },
+          "text": "target creature with defender"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "keywords": [
+            "Can attack as though it didn't have defender"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{G}: Target creature with defender can attack this turn as though it didn't have defender."
+    },
+    {
+      "cost": "{2}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{2}{G}: Creatures you control get +0/+1 until end of turn."
+    }
+  ]
+}

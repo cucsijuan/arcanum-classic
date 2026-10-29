@@ -1,0 +1,25 @@
+{
+  "name": "Sonic Shrieker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        },
+        {
+          "gainLife": 2
+        },
+        {
+          "discard": 1,
+          "who": "playersDamagedThisWay"
+        }
+      ],
+      "text": "When this creature enters, it deals 2 damage to any target and you gain 2 life. If a player is dealt damage this way, they discard a card."
+    }
+  ]
+}
