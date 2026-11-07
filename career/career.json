@@ -240,7 +240,11 @@
   // constructed (a career deck) and commander (a career Commander deck; pods of "players" play "rounds" games against
   // computer players bringing the "decks" listed; prizes by games won). Prizes: the first
   // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
-  // anyone). Draft events take the week's featured set unless "set" names one; the drafted cards are the player's.
+  // anyone). A prize may add "sealed" boosters: [{ "set": a code, "featured" or "event", "kind": "" or "collector"…, "count" }].
+  // An online event's "online": { "prizes": [...] } pays those when played against people (its "prizes" then serve the
+  // version against the computer, unscaled); without them, online pays its "prizes" and the version against the computer
+  // pays them scaled by "offlineScale".
+  // Draft events take the week's featured set unless "set" names one; the drafted cards are the player's.
   // Constructed events take a "format": a format id from formats/ ("standard", "modern"…), the decks must be legal in it;
   // empty or absent: any cards (casual). Commander events always use the Commander format.
   "events": [
