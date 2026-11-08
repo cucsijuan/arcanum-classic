@@ -1,0 +1,16 @@
+{
+  "name": "Jet Medallion",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "colors": [
+            "B"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Black spells you cast cost {1} less to cast."
+    }
+  ]
+}

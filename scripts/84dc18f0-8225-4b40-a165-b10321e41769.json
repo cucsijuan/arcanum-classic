@@ -1,0 +1,15 @@
+{
+  "name": "Nykthos, Shrine to Nyx",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1,
+          "devotionToThatColor": true
+        }
+      ],
+      "text": "{2}, {T}: Choose a color. Add an amount of mana of that color equal to your devotion to that color."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Bloodghast",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Haste"
+        ],
+        "while": {
+          "opponentLifeAtMost": 10
+        }
+      },
+      "text": "This creature has haste as long as an opponent has 10 or less life."
+    },
+    {
+      "trigger": "landfall",
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "may": "Return this card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may return this card from your graveyard to the battlefield."
+    }
+  ]
+}

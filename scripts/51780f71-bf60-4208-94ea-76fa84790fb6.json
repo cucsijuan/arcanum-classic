@@ -1,0 +1,17 @@
+{
+  "name": "Drivnod, Carnage Dominus",
+  "yourDyingTriggersExtra": true,
+  "abilities": [
+    {
+      "cost": "{B/P}{B/P}, exileGraveyardCards:3:creature",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "indestructible",
+          "what": "self"
+        }
+      ],
+      "text": "{B/P}{B/P}, Exile three creature cards from your graveyard: Put an indestructible counter on Drivnod."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Jadar, Ghoulcaller of Nephalia",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "not": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "keyword": "Decayed"
+          }
+        }
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Decayed"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, if you control no creatures with decayed, create a 2/2 black Zombie creature token with decayed."
+    }
+  ]
+}

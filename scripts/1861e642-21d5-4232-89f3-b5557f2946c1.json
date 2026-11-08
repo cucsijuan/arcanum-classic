@@ -1,0 +1,14 @@
+{
+  "name": "Phyrexian Tower",
+  "abilities": [
+    {
+      "cost": "{T}, sacrificeAny:creature",
+      "effects": [
+        {
+          "addMana": "{B}{B}"
+        }
+      ],
+      "text": "{T}, Sacrifice a creature: Add {B}{B}."
+    }
+  ]
+}

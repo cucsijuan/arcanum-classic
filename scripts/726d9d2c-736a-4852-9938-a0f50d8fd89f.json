@@ -1,0 +1,23 @@
+{
+  "name": "Marionette Apprentice",
+  "abilities": [
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "types": [
+          "creature",
+          "artifact"
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever another creature or artifact you control is put into a graveyard from the battlefield, each opponent loses 1 life."
+    }
+  ]
+}

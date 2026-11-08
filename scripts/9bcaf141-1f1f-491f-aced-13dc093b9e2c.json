@@ -1,0 +1,45 @@
+{
+  "name": "Pawn of Ulamog",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "token": false
+      },
+      "effects": [
+        {
+          "may": "Create a 0/1 Eldrazi Spawn token?",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Eldrazi Spawn",
+                "types": "Creature — Eldrazi Spawn",
+                "power": 0,
+                "toughness": 1,
+                "colors": [],
+                "abilities": [
+                  {
+                    "cost": "sacrifice",
+                    "effects": [
+                      {
+                        "addMana": "{C}"
+                      }
+                    ],
+                    "text": "Sacrifice this token: Add {C}."
+                  }
+                ],
+                "text": "Sacrifice this token: Add {C}."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature or another nontoken creature you control dies, you may create a 0/1 colorless Eldrazi Spawn creature token. It has \"Sacrifice this token: Add {C}.\""
+    }
+  ]
+}

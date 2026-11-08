@@ -1,0 +1,57 @@
+{
+  "name": "Black Market Connections",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "chooseCount": 3,
+      "upTo": true,
+      "modes": [
+        {
+          "text": "Sell Contraband — Create a Treasure token. You lose 1 life.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Treasure"
+            },
+            {
+              "loseLife": 1
+            }
+          ]
+        },
+        {
+          "text": "Buy Information — Draw a card. You lose 2 life.",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "loseLife": 2
+            }
+          ]
+        },
+        {
+          "text": "Hire a Mercenary — Create a 3/2 colorless Shapeshifter creature token with changeling. You lose 3 life.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Shapeshifter",
+                "types": "Creature — Shapeshifter",
+                "power": 3,
+                "toughness": 2,
+                "colors": [],
+                "keywords": [
+                  "Changeling"
+                ]
+              }
+            },
+            {
+              "loseLife": 3
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your first main phase, choose one or more —"
+    }
+  ]
+}

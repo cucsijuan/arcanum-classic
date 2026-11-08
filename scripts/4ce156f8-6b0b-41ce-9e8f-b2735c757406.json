@@ -1,0 +1,33 @@
+{
+  "name": "Flare of Malice",
+  "alternativeCost": {
+    "cost": "{0}",
+    "extra": {
+      "sacrifice": {
+        "types": [
+          "creature"
+        ],
+        "colors": [
+          "B"
+        ],
+        "token": false
+      }
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 1,
+        "who": "opponents",
+        "filter": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ],
+          "greatestManaValueAmongTheirs": true
+        }
+      }
+    ],
+    "text": "You may sacrifice a nontoken black creature rather than pay this spell's mana cost. Each opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control."
+  }
+}

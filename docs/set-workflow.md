@@ -36,7 +36,7 @@ prints, then commit the file with the set. A new set changes which cards the nic
   sentences gets a sub-list with the same marks for each sentence, when an effect sentence has a reference, so its pieces can be copied
   from those scripts. The trigger condition, the cost before the colon and each effect are separate sentences; an ability word label ("Renew — ") is dropped first. `--write` also copies scripts
   for cards with the same rules text and composes scripts from existing abilities; without it nothing is written to `scripts/`. After
-  `--write`, repeat step 2. Hand-written scripts start from the report's reference scripts.
+  `--write`, repeat step 2. Hand-written scripts start from the report's reference scripts. The last argument can also be `@file` (the cards named in the file, one per line) instead of a set code; a double-faced card is looked up by its front face's name in `support.tsv`.
 - Every other card gets a hand-written `scripts/<oracle id>.json`. Write exactly what the card does: every choice and restriction.
 - A mechanic the engine lacks goes into the engine first (see `engine-map.md`), with a test, then the script uses it.
 - New keywords go into `tools/engine-mechanics.txt` so the planner knows them.

@@ -1,0 +1,14 @@
+{
+  "name": "Ashnod's Altar",
+  "abilities": [
+    {
+      "cost": "sacrificeAny:creature",
+      "effects": [
+        {
+          "addMana": "{C}{C}"
+        }
+      ],
+      "text": "Sacrifice a creature: Add {C}{C}."
+    }
+  ]
+}

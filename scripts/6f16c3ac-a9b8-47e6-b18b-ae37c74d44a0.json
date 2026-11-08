@@ -1,0 +1,29 @@
+{
+  "name": "Nether Traitor",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "fromGraveyard": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "ownedByYou": true,
+        "other": true
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {B} to return this card to the battlefield?",
+          "mana": "{B}",
+          "effects": [
+            {
+              "reanimate": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature is put into your graveyard from the battlefield, you may pay {B}. If you do, return this card from your graveyard to the battlefield."
+    }
+  ]
+}

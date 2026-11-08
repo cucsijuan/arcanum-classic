@@ -1,0 +1,43 @@
+{
+  "name": "Endrek Sahr, Master Breeder",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": "triggerAmount",
+          "token": {
+            "name": "Thrull",
+            "types": "Creature — Thrull",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a creature spell, create X 1/1 black Thrull creature tokens, where X is that spell's mana value."
+    },
+    {
+      "trigger": "state",
+      "when": {
+        "control": {
+          "subtype": "Thrull"
+        },
+        "count": 7
+      },
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "When you control seven or more Thrulls, sacrifice Endrek Sahr."
+    }
+  ]
+}

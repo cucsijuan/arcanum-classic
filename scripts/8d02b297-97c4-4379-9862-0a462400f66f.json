@@ -1,0 +1,14 @@
+{
+  "name": "Phyrexian Altar",
+  "abilities": [
+    {
+      "cost": "sacrificeAny:creature",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Sacrifice a creature: Add one mana of any color."
+    }
+  ]
+}

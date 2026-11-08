@@ -1,0 +1,21 @@
+{
+  "name": "Accursed Marauder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "token": false
+          },
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player sacrifices a nontoken creature of their choice."
+    }
+  ]
+}

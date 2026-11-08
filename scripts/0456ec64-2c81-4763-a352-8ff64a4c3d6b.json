@@ -1,0 +1,22 @@
+{
+  "name": "Deadly Rollick",
+  "alternativeCost": {
+    "cost": "{0}",
+    "if": {
+      "control": {
+        "commander": true
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "If you control a commander, you may cast this spell without paying its mana cost. Exile target creature."
+  }
+}

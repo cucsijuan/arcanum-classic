@@ -95,24 +95,28 @@ def main_types(type_line):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("cards"); ap.add_argument("dump"); ap.add_argument("set")
+    ap.add_argument("cards"); ap.add_argument("dump"); ap.add_argument("set", help="a set code, or @file: the cards named in the file (one per line)")
     ap.add_argument("--out", default="triage.md")
     ap.add_argument("--write", action="store_true", help="write the reused and composed scripts into scripts/")
     a = ap.parse_args()
 
     support = dict(l.rstrip("\n").split("\t", 1) for l in open(os.path.join(a.dump, "support.tsv"), encoding="utf-8"))
+    # Double-faced cards are listed by their front face's name.
+    supported = lambda name: support.get(name) or support.get(name.split(" // ")[0])
     why = collections.defaultdict(list)
     for l in open(os.path.join(a.dump, "why.tsv"), encoding="utf-8"):
         name, reason = l.rstrip("\n").split("\t", 1)
         why[name].append(reason)
 
     cards, by_id = [], {}
+    named = {l.strip() for l in open(a.set[1:], encoding="utf-8") if l.strip()} if a.set.startswith("@") else None
     with gzip.open(a.cards, "rt", encoding="utf-8") as f:
         for l in f:
             c = json.loads(l)
             if c.get("layout") == "token" or "Token" in c.get("type_line", ""): continue
             by_id[c["oracle_id"]] = c
-            if any(p.get("set") == a.set for p in c.get("printings", [])): cards.append(c)
+            if (c["name"] in named or c["name"].split(" // ")[0] in named) if named is not None \
+                    else any(p.get("set") == a.set for p in c.get("printings", [])): cards.append(c)
 
     # What the module already implements: whole texts (hand-written scripts) and single abilities by their text.
     whole, ability_of = {}, {}
@@ -122,7 +126,7 @@ def main():
         if card is None or "card_faces" in card: continue
         try: script = load_script(os.path.join(SCRIPTS, file))
         except (ValueError, OSError): continue
-        if support.get(card["name"]) != "Full": continue
+        if supported(card["name"]) != "Full": continue
         text = normalize(card.get("oracle_text", ""), card["name"])
         if not script.get("generated"):
             whole.setdefault((text, main_types(card["type_line"])), (oid, card["name"], script))
@@ -143,7 +147,7 @@ def main():
 
     reused, composed, todo = [], [], []
     for c in sorted(cards, key=lambda c: c["name"]):
-        if support.get(c["name"]) == "Full": continue
+        if supported(c["name"]) == "Full": continue
         path = os.path.join(SCRIPTS, c["oracle_id"] + ".json")
         if os.path.exists(path) and not load_script(path).get("generated"):
             todo.append(c); continue  # hand-written but incomplete: a person finishes it
@@ -177,7 +181,7 @@ def main():
     for c in todo:
         blockers = [r for r in reasons(c) if r != "needs a script"]
         groups[re.sub(r"\b\d+\b", "N", blockers[0]) if blockers else ""].append(c)
-    full = sum(support.get(c["name"]) == "Full" for c in cards)
+    full = sum(supported(c["name"]) == "Full" for c in cards)
     with open(a.out, "w", encoding="utf-8") as out:
         w = lambda s="": out.write(s + "\n")
         w(f"# {a.set}: {len(cards)} cards, {full} run, {len(reused)} same text, {len(composed)} same abilities, {len(todo)} to do")
