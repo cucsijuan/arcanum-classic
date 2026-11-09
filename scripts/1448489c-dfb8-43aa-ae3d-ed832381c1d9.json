@@ -1,0 +1,37 @@
+{
+  "name": "Scrabbling Skullcrab",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, target player mills two cards.",
+      "targets": [
+        "player"
+      ]
+    },
+    {
+      "trigger": "youFullyUnlockRoom",
+      "effects": [
+        {
+          "mill": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, target player mills two cards.",
+      "targets": [
+        "player"
+      ]
+    }
+  ]
+}

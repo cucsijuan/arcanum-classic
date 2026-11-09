@@ -1,0 +1,17 @@
+{
+  "name": "Rakdos, Lord of Riots",
+  "castOnlyIf": "opponentLostLife",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ]
+        },
+        "amount": "opponentsLifeLostThisTurn"
+      },
+      "text": "Creature spells you cast cost {1} less to cast for each 1 life your opponents have lost this turn."
+    }
+  ]
+}

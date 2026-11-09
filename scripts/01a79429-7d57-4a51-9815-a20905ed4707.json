@@ -1,0 +1,15 @@
+{
+  "name": "Rashmi, Eternities Crafter",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 1,
+      "effects": [
+        {
+          "revealTopCastIfLesser": true
+        }
+      ],
+      "text": "Whenever you cast your first spell each turn, reveal the top card of your library. You may cast it without paying its mana cost if it's a spell with lesser mana value. If you don't cast it, put that card into your hand."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Oblivious Bookworm",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "if": {
+                "not": "faceDownActivityThisTurn"
+              },
+              "then": [
+                {
+                  "discard": 1,
+                  "who": "you"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may draw a card. If you do, discard a card unless a permanent entered the battlefield face down under your control this turn or you turned a permanent face up this turn."
+    }
+  ]
+}

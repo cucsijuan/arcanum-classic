@@ -1,0 +1,21 @@
+{
+  "name": "Moon-Blessed Cleric",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "to": "top",
+          "reveal": true,
+          "optional": true
+        }
+      ],
+      "text": "Divine Intervention — When this creature enters, you may search your library for an enchantment card, reveal it, then shuffle and put that card on top."
+    }
+  ]
+}

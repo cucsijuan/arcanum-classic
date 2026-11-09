@@ -1,0 +1,32 @@
+{
+  "name": "Damn",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target",
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy target creature. A creature destroyed this way can't be regenerated."
+  },
+  "overload": "{2}{W}{W}",
+  "overloaded": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        },
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy each creature. A creature destroyed this way can't be regenerated."
+  }
+}

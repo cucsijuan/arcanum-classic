@@ -1,0 +1,27 @@
+{
+  "name": "Archetype of Imagination",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Creatures you control have flying."
+    },
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "loseKeywords": [
+          "Flying"
+        ]
+      },
+      "text": "Creatures your opponents control lose flying and can't have or gain flying."
+    }
+  ]
+}

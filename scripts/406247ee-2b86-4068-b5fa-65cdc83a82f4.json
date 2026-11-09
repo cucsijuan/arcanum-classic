@@ -1,0 +1,29 @@
+{
+  "name": "Shardmage's Rescue",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ],
+        "while": "sourceEnteredThisTurn"
+      },
+      "text": "As long as this Aura entered this turn, enchanted creature has hexproof."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1."
+    }
+  ]
+}

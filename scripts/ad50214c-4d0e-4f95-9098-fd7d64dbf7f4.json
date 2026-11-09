@@ -1,0 +1,36 @@
+{
+  "name": "Broodspinner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this creature enters, surveil 2."
+    },
+    {
+      "cost": "{4}{B}{G}, {T}, sacrifice",
+      "effects": [
+        {
+          "tokens": "cardTypesInGraveyard",
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "colors": [
+              "B",
+              "G"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "{4}{B}{G}, {T}, Sacrifice this creature: Create a number of 1/1 black and green Insect creature tokens with flying equal to the number of card types among cards in your graveyard."
+    }
+  ]
+}

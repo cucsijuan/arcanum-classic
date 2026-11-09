@@ -1,0 +1,14 @@
+{
+  "name": "Unsettling Twins",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "When this creature enters, manifest dread."
+    }
+  ]
+}

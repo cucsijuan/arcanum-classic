@@ -1,0 +1,10 @@
+{
+  "name": "One with the Multiverse",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {},
+  "rules": [
+    "FreeFromHandOrTopOncePerTurn"
+  ]
+}

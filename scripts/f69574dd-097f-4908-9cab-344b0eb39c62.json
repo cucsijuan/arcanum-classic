@@ -1,0 +1,28 @@
+{
+  "name": "Leyline of Resonance",
+  "startsOnBattlefield": true,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "spellTargets": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "spellTargetsOnlyOne": true,
+      "effects": [
+        {
+          "copySpell": "triggered"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell that targets only a single creature you control, copy that spell. You may choose new targets for the copy."
+    }
+  ]
+}

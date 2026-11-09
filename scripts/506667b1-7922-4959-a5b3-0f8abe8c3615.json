@@ -1,0 +1,24 @@
+{
+  "name": "Deadbridge Chant",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 10,
+          "who": "you"
+        }
+      ],
+      "text": "When this enchantment enters, mill ten cards."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "randomGraveyardCardBack": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, choose a card at random in your graveyard. If it's a creature card, put it onto the battlefield. Otherwise, put it into your hand."
+    }
+  ]
+}

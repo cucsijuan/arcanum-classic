@@ -1,0 +1,35 @@
+{
+  "name": "Worldspine Wurm",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 3,
+          "token": {
+            "name": "Wurm",
+            "types": "Creature — Wurm",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 5,
+            "keywords": [
+              "Trample"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create three 5/5 green Wurm creature tokens with trample."
+    },
+    {
+      "trigger": "thisPutIntoGraveyard",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "When Worldspine Wurm is put into a graveyard from anywhere, shuffle it into its owner's library."
+    }
+  ]
+}

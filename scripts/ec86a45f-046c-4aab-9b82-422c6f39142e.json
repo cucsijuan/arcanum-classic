@@ -1,0 +1,25 @@
+{
+  "name": "Ghostly Keybearer",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "subtype": "Room"
+          },
+          "text": "up to one target Room you control"
+        }
+      ],
+      "effects": [
+        {
+          "unlockDoor": "target"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, unlock a locked door of up to one target Room you control."
+    }
+  ]
+}

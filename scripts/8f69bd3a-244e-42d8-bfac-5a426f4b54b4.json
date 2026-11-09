@@ -1,0 +1,6 @@
+{
+  "name": "Razortrap Gorge",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

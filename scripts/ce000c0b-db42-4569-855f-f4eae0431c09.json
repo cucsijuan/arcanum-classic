@@ -1,0 +1,14 @@
+{
+  "name": "Ripchain Razorkin",
+  "abilities": [
+    {
+      "cost": "{2}{R}, sacrificeAny:land",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}{R}, Sacrifice a land: Draw a card."
+    }
+  ]
+}

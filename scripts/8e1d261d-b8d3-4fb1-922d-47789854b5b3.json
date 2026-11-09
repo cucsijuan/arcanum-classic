@@ -1,0 +1,14 @@
+{
+  "name": "Giant Adephage",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "copy": "self"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a token that's a copy of this creature."
+    }
+  ]
+}

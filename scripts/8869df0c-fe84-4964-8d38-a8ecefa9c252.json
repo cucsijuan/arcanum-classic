@@ -1,0 +1,64 @@
+{
+  "name": "Experimental Lab // Staff Room",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "manifestDread": true
+            },
+            {
+              "counters": 2,
+              "what": "created"
+            },
+            {
+              "counters": 1,
+              "what": "created",
+              "kind": "trample"
+            }
+          ],
+          "text": "When you unlock this door, manifest dread, then put two +1/+1 counters and a trample counter on that creature."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "creatureCombatDamageToPlayer",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "effects": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Turn that creature face up.",
+                  "effects": [
+                    {
+                      "turnFaceUp": "triggered"
+                    }
+                  ]
+                },
+                {
+                  "text": "Put a +1/+1 counter on it.",
+                  "effects": [
+                    {
+                      "counters": 1,
+                      "what": "triggered"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "text": "Whenever a creature you control deals combat damage to a player, turn that creature face up or put a +1/+1 counter on it."
+        }
+      ]
+    }
+  ]
+}

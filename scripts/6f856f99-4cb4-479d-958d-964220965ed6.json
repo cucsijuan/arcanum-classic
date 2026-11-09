@@ -1,0 +1,21 @@
+{
+  "name": "Wilderness Reclamation",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "untap": {
+            "each": {
+              "types": [
+                "land"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, untap all lands you control."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Mask of Griselbrand",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "Lifelink"
+        ]
+      },
+      "text": "Equipped creature has flying and lifelink."
+    },
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "mayPay": "Pay X life, where X is its power, to draw X cards?",
+          "lifeFrom": "triggeredPower",
+          "effects": [
+            {
+              "draw": "triggeredPower"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature dies, you may pay X life, where X is its power. If you do, draw X cards.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "name": "Tectonic Giant",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "text": "Whenever this creature attacks or becomes the target of a spell an opponent controls, choose one —",
+      "modes": [
+        {
+          "text": "This creature deals 3 damage to each opponent.",
+          "effects": [
+            {
+              "damage": 3,
+              "to": "opponents"
+            }
+          ]
+        },
+        {
+          "text": "Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",
+          "effects": [
+            {
+              "exileTopPlayable": 2,
+              "untilNextTurn": true,
+              "chooseOne": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "trigger": "becomesTargetOfOpponentSpell",
+      "text": "Whenever this creature attacks or becomes the target of a spell an opponent controls, choose one —",
+      "modes": [
+        {
+          "text": "This creature deals 3 damage to each opponent.",
+          "effects": [
+            {
+              "damage": 3,
+              "to": "opponents"
+            }
+          ]
+        },
+        {
+          "text": "Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",
+          "effects": [
+            {
+              "exileTopPlayable": 2,
+              "untilNextTurn": true,
+              "chooseOne": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Coral Barrier",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Squid",
+            "types": "Creature — Squid",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "U"
+            ],
+            "keywords": [
+              "Islandwalk"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 blue Squid creature token with islandwalk."
+    }
+  ]
+}

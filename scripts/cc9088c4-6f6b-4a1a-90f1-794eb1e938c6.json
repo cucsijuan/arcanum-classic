@@ -1,0 +1,63 @@
+{
+  "name": "Phenomenon Investigators",
+  "chooseOnEnter": "option",
+  "enterOptions": [
+    "Believe",
+    "Doubt"
+  ],
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "token": false
+      },
+      "when": {
+        "chosenOption": "Believe"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Horror",
+            "types": "Enchantment Creature — Horror",
+            "colors": [
+              "B"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Believe — Whenever a nontoken creature you control dies, create a 2/2 black Horror enchantment creature token."
+    },
+    {
+      "trigger": "endStep",
+      "when": {
+        "chosenOption": "Doubt"
+      },
+      "effects": [
+        {
+          "mayPay": "Return a nonland permanent you own to your hand to draw a card?",
+          "cost": {
+            "returnToHand": {
+              "not": [
+                "land"
+              ],
+              "ownedByYou": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Doubt — At the beginning of your end step, you may return a nonland permanent you own to your hand. If you do, draw a card."
+    }
+  ]
+}

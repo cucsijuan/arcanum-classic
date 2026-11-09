@@ -1,0 +1,43 @@
+{
+  "name": "Popular Egotist",
+  "abilities": [
+    {
+      "cost": "{1}{B}, sacrifice:creature|enchantment",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "{1}{B}, Sacrifice another creature or enchantment: This creature gains indestructible until end of turn. Tap it."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "controller": "any"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever you sacrifice a permanent, target opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

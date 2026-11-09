@@ -1,0 +1,30 @@
+{
+  "name": "Ragged Playmate",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "maxPower": 2
+          },
+          "text": "target creature with power 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{1}, {T}: Target creature with power 2 or less can't be blocked this turn."
+    }
+  ]
+}

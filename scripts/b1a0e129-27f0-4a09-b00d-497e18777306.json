@@ -1,0 +1,20 @@
+{
+  "name": "Abhorrent Oculus",
+  "additionalCost": {
+    "exileGraveyard": 6
+  },
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "when": {
+        "not": "yourTurn"
+      },
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "At the beginning of each opponent's upkeep, manifest dread."
+    }
+  ]
+}

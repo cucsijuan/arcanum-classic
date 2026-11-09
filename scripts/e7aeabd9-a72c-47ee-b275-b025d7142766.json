@@ -1,0 +1,14 @@
+{
+  "name": "Bashful Beastie",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "When this creature dies, manifest dread."
+    }
+  ]
+}

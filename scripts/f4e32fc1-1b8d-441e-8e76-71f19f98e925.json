@@ -1,0 +1,7 @@
+{
+  "name": "Leyline of the Void",
+  "startsOnBattlefield": true,
+  "rules": [
+    "OpponentsCardsExiledInsteadOfGraveyard"
+  ]
+}

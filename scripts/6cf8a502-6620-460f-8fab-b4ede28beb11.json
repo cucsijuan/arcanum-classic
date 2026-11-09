@@ -1,0 +1,31 @@
+{
+  "name": "Curator Beastie",
+  "othersEnterWithCounters": 2,
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ],
+    "colorless": true,
+    "controller": "you"
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, manifest dread."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, manifest dread."
+    }
+  ]
+}

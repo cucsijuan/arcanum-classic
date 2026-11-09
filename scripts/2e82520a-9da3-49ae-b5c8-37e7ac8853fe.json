@@ -1,0 +1,40 @@
+{
+  "name": "Split Up",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Destroy all tapped creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "tapped": true
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all untapped creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any",
+                "tapped": false
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

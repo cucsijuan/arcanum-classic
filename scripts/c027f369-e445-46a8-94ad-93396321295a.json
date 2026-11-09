@@ -1,0 +1,31 @@
+{
+  "name": "Rip, Spawn Hunter",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "revealTopDifferentPowers": {
+            "power": "self"
+          },
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "subtype": "Vehicle"
+              }
+            ]
+          }
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if Rip is tapped, reveal the top X cards of your library, where X is its power. Put any number of creature and/or Vehicle cards with different powers from among them into your hand. Put the rest on the bottom of your library in a random order."
+    }
+  ]
+}

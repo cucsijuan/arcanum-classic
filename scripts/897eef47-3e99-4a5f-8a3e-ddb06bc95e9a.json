@@ -1,0 +1,46 @@
+{
+  "name": "Meat Locker // Drowned Diner",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "tap": "target"
+            },
+            {
+              "counters": 2,
+              "kind": "stun",
+              "what": "target"
+            }
+          ],
+          "text": "When you unlock this door, tap up to one target creature and put two stun counters on it.",
+          "targets": [
+            {
+              "kind": "creature",
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "draw": 3
+            },
+            {
+              "discard": 1,
+              "who": "you"
+            }
+          ],
+          "text": "When you unlock this door, draw three cards, then discard a card."
+        }
+      ]
+    }
+  ]
+}

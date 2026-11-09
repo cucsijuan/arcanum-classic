@@ -1,0 +1,26 @@
+{
+  "name": "Unnerving Grasp",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "optional": true,
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "up to one target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "manifestDread": true
+      }
+    ],
+    "text": "Return up to one target nonland permanent to its owner's hand. Manifest dread."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Star Athlete",
+  "blitz": "{3}{R}",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "up to one target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "unlessSacrificesTarget": "target",
+          "otherwise": [
+            {
+              "damage": 5,
+              "to": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, choose up to one target nonland permanent. Its controller may sacrifice it. If they don't, this creature deals 5 damage to that player."
+    }
+  ]
+}

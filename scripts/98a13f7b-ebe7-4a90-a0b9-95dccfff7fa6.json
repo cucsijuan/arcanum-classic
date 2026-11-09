@@ -1,0 +1,63 @@
+{
+  "name": "The Tale of Tamiyo",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1,
+        2,
+        3
+      ],
+      "effects": [
+        {
+          "millTwoWhileSharingType": true
+        }
+      ],
+      "text": "I, II, III — Mill two cards. If two cards that share a card type were milled this way, draw a card and repeat this process."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        4
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "upTo": 99,
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "instant"
+                ]
+              },
+              {
+                "types": [
+                  "sorcery"
+                ]
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ],
+                "subtype": "Tamiyo"
+              }
+            ]
+          },
+          "text": "any number of target instant, sorcery, and/or Tamiyo planeswalker cards from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "eachTarget"
+        },
+        {
+          "castCopy": "exiled",
+          "payManaCost": true
+        }
+      ],
+      "text": "IV — Exile any number of target instant, sorcery, and/or Tamiyo planeswalker cards from your graveyard. Copy them. You may cast any number of the copies."
+    }
+  ]
+}

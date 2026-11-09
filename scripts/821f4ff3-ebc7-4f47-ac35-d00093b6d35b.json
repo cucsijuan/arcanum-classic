@@ -1,0 +1,26 @@
+{
+  "name": "Possessed Goat",
+  "abilities": [
+    {
+      "cost": "{3}, discard",
+      "onlyOnce": true,
+      "effects": [
+        {
+          "counters": 3,
+          "what": "self"
+        },
+        {
+          "become": "self",
+          "addColors": [
+            "B"
+          ],
+          "addSubtypes": [
+            "Demon"
+          ],
+          "permanent": true
+        }
+      ],
+      "text": "{3}, Discard a card: Put three +1/+1 counters on this creature and it becomes a black Demon in addition to its other colors and types. Activate only once."
+    }
+  ]
+}

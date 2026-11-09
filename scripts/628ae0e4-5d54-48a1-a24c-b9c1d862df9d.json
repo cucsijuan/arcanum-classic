@@ -1,0 +1,21 @@
+{
+  "name": "Fear of Impostors",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "spell"
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        },
+        {
+          "manifestDread": true,
+          "who": "targetController"
+        }
+      ],
+      "text": "When this creature enters, counter target spell. Its controller manifests dread."
+    }
+  ]
+}

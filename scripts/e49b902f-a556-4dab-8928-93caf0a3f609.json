@@ -1,0 +1,49 @@
+{
+  "name": "Spiked Corridor // Torture Pit",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "tokens": 3,
+              "token": {
+                "name": "Devil",
+                "types": "Creature — Devil",
+                "colors": [
+                  "R"
+                ],
+                "power": 1,
+                "toughness": 1,
+                "abilities": [
+                  {
+                    "trigger": "dies",
+                    "targets": [
+                      "any"
+                    ],
+                    "effects": [
+                      {
+                        "damage": 1,
+                        "to": "target"
+                      }
+                    ],
+                    "text": "When this token dies, it deals 1 damage to any target."
+                  }
+                ]
+              }
+            }
+          ],
+          "text": "When you unlock this door, create three 1/1 red Devil creature tokens with \"When this token dies, it deals 1 damage to any target.\""
+        }
+      ]
+    },
+    {
+      "damageBonus": {
+        "amount": 2,
+        "noncombat": true,
+        "toOpponentPlayers": true
+      }
+    }
+  ]
+}

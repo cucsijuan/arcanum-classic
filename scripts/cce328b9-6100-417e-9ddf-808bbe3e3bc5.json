@@ -1,0 +1,26 @@
+{
+  "name": "Hushwood Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Forest"
+            },
+            {
+              "subtype": "Plains"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{W}"
+        }
+      ],
+      "text": "{T}: Add {W}. Activate only if you control a Forest or a Plains."
+    }
+  ]
+}

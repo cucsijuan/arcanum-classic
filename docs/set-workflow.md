@@ -38,6 +38,7 @@ prints, then commit the file with the set. A new set changes which cards the nic
   for cards with the same rules text and composes scripts from existing abilities; without it nothing is written to `scripts/`. After
   `--write`, repeat step 2. Hand-written scripts start from the report's reference scripts. The last argument can also be `@file` (the cards named in the file, one per line) instead of a set code; a double-faced card is looked up by its front face's name in `support.tsv`.
 - Every other card gets a hand-written `scripts/<oracle id>.json`. Write exactly what the card does: every choice and restriction.
+  A Room (one card with two door halves, both permanents) is scripted as `"split": [door, door]`, each door with its own abilities and rules.
 - A mechanic the engine lacks goes into the engine first (see `engine-map.md`), with a test, then the script uses it.
 - New keywords go into `tools/engine-mechanics.txt` so the planner knows them.
 - Repeat step 2 until every card of the set is supported.

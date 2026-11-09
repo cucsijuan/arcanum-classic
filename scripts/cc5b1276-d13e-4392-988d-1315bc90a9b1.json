@@ -1,0 +1,41 @@
+{
+  "name": "Veteran Survivor",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, exile up to one target card from a graveyard.",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          3,
+          3
+        ],
+        "keywords": [
+          "Hexproof"
+        ],
+        "while": {
+          "atLeast": "cardsExiledWithSource",
+          "value": 3
+        }
+      },
+      "text": "As long as there are three or more cards exiled with this creature, it gets +3/+3 and has hexproof."
+    }
+  ]
+}

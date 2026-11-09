@@ -1,0 +1,17 @@
+{
+  "name": "Cautious Survivor",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, you gain 2 life."
+    }
+  ]
+}

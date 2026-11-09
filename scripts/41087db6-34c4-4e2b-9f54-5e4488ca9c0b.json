@@ -1,0 +1,26 @@
+{
+  "name": "Blood Seeker",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "may": "Have that player lose 1 life?",
+          "effects": [
+            {
+              "loseLife": 1,
+              "who": "triggeredController"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature an opponent controls enters, you may have that player lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Monstrous Emergence",
+  "additionalCost": {
+    "behold": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": "beheldPower",
+        "to": "target"
+      }
+    ],
+    "text": "Monstrous Emergence deals damage equal to the power of the creature you chose or the card you revealed to target creature."
+  }
+}

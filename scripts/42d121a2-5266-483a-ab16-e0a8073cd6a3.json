@@ -1,0 +1,17 @@
+{
+  "name": "Halimar Depths",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 3,
+          "take": 0,
+          "rest": "top",
+          "restAnyOrder": true
+        }
+      ],
+      "text": "When this land enters, look at the top three cards of your library, then put them back in any order."
+    }
+  ]
+}

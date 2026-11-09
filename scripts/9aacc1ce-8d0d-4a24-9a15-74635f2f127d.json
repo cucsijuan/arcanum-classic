@@ -1,0 +1,61 @@
+{
+  "name": "Athreos, Shroud-Veiled",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "removeTypes": [
+          "creature"
+        ],
+        "while": {
+          "not": {
+            "atLeast": {
+              "devotion": [
+                "W",
+                "B"
+              ]
+            },
+            "value": 7
+          }
+        }
+      },
+      "text": "As long as your devotion to white and black is less than seven, Athreos isn't a creature."
+    },
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "coin"
+        }
+      ],
+      "text": "At the beginning of your end step, put a coin counter on another target creature."
+    },
+    {
+      "trigger": "creatureDiesOrExiled",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "hasCounterKind": "coin"
+      },
+      "effects": [
+        {
+          "reanimate": "triggered"
+        }
+      ],
+      "text": "Whenever a creature with a coin counter on it dies or is put into exile, return that card to the battlefield under your control."
+    }
+  ]
+}

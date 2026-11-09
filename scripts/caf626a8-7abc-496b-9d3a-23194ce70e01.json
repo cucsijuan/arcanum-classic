@@ -1,0 +1,46 @@
+{
+  "name": "Kefnet the Mindful",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ],
+        "while": {
+          "not": {
+            "atLeast": "handSize",
+            "value": 7
+          }
+        }
+      },
+      "text": "Kefnet can't attack or block unless you have seven or more cards in hand."
+    },
+    {
+      "cost": "{3}{U}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "may": "Return a land you control to its owner's hand?",
+          "effects": [
+            {
+              "choose": {
+                "types": [
+                  "land"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "bounce": "chosen"
+            }
+          ]
+        }
+      ],
+      "text": "{3}{U}: Draw a card, then you may return a land you control to its owner's hand."
+    }
+  ]
+}

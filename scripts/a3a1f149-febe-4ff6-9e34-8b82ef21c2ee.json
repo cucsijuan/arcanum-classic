@@ -1,0 +1,54 @@
+{
+  "name": "Fear of Sleep Paralysis",
+  "rules": [
+    "OpponentsStunCountersStay"
+  ],
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "Eerie — Whenever this creature or another enchantment you control enters and whenever you fully unlock a Room, tap up to one target creature and put a stun counter on it.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ]
+    },
+    {
+      "trigger": "youFullyUnlockRoom",
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "Eerie — Whenever this creature or another enchantment you control enters and whenever you fully unlock a Room, tap up to one target creature and put a stun counter on it.",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ]
+    }
+  ]
+}

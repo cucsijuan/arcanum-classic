@@ -1,0 +1,14 @@
+{
+  "name": "Scroll of Fate",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "manifestFromHand": true
+        }
+      ],
+      "text": "{T}: Manifest a card from your hand."
+    }
+  ]
+}

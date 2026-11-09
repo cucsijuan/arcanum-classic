@@ -1,0 +1,48 @@
+{
+  "name": "Smoky Lounge // Misty Salon",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "precombatMain",
+          "effects": [
+            {
+              "addMana": "{R}{R}",
+              "onlyFor": {
+                "subtype": "Room"
+              },
+              "forUnlock": true
+            }
+          ],
+          "text": "At the beginning of your first main phase, add {R}{R}. Spend this mana only to cast Room spells and unlock doors."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "tokens": 1,
+              "size": "yourUnlockedDoors",
+              "token": {
+                "name": "Spirit",
+                "types": "Creature — Spirit",
+                "colors": [
+                  "U"
+                ],
+                "power": 0,
+                "toughness": 0,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ],
+          "text": "When you unlock this door, create an X/X blue Spirit creature token with flying, where X is the number of unlocked doors among Rooms you control."
+        }
+      ]
+    }
+  ]
+}

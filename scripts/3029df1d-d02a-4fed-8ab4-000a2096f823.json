@@ -1,0 +1,39 @@
+{
+  "name": "Return to Dust",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment"
+      },
+      {
+        "kind": "permanent",
+        "optional": true,
+        "onlyIfMainPhase": true,
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "up to one other target artifact or enchantment"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "exile": "target2"
+      }
+    ],
+    "text": "Exile target artifact or enchantment. If you cast this spell during your main phase, you may exile up to one other target artifact or enchantment."
+  }
+}

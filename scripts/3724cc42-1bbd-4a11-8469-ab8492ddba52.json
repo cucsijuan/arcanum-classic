@@ -1,0 +1,21 @@
+{
+  "name": "Fear of Lost Teeth",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this creature dies, it deals 1 damage to any target and you gain 1 life."
+    }
+  ]
+}

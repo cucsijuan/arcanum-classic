@@ -1,0 +1,16 @@
+{
+  "name": "Valgavoth's Onslaught",
+  "spell": {
+    "effects": [
+      {
+        "manifestDread": true,
+        "times": "X"
+      },
+      {
+        "counters": "X",
+        "what": "created"
+      }
+    ],
+    "text": "Manifest dread X times, then put X +1/+1 counters on each of those creatures."
+  }
+}

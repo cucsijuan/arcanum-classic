@@ -1,0 +1,35 @@
+{
+  "name": "Theater of Horrors",
+  "rules": [
+    "PlayExiledWithThisOnYourTurnIfOpponentLostLife"
+  ],
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "exileTop": 1,
+          "linked": true
+        }
+      ],
+      "text": "At the beginning of your upkeep, exile the top card of your library."
+    },
+    {
+      "cost": "{3}{R}",
+      "targets": [
+        {
+          "kind": "playerOrPlaneswalker",
+          "controller": "opponent",
+          "text": "target opponent or planeswalker"
+        }
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{3}{R}: This enchantment deals 1 damage to target opponent or planeswalker."
+    }
+  ]
+}

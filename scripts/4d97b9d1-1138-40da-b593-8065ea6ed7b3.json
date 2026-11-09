@@ -1,0 +1,18 @@
+{
+  "name": "Grievous Wound",
+  "rules": [
+    "EnchantedPlayerCantGainLife"
+  ],
+  "abilities": [
+    {
+      "trigger": "enchantedPlayerDealtDamage",
+      "effects": [
+        {
+          "loseLife": "affectedHalfLife",
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever enchanted player is dealt damage, they lose half their life, rounded up."
+    }
+  ]
+}

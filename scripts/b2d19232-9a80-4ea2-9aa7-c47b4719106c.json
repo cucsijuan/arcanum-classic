@@ -1,0 +1,22 @@
+{
+  "name": "Greater Tanuki",
+  "abilities": [
+    {
+      "cost": "{2}{G}, discardThis",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "Channel — {2}{G}, Discard this card: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

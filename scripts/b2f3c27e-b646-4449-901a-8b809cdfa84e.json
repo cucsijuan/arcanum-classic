@@ -1,0 +1,83 @@
+{
+  "name": "Get Out",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Counter target creature or enchantment spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "types": [
+                "creature",
+                "enchantment"
+              ]
+            },
+            "text": "target creature or enchantment spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return one or two target creatures and/or enchantments you own to your hand.",
+        "targetRule": "allDifferent",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "any",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                }
+              ],
+              "ownedByYou": true
+            },
+            "text": "target creature or enchantment you own"
+          },
+          {
+            "kind": "permanent",
+            "controller": "any",
+            "optional": true,
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                }
+              ],
+              "ownedByYou": true
+            },
+            "text": "another target creature or enchantment you own"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          },
+          {
+            "bounce": "target2"
+          }
+        ]
+      }
+    ]
+  }
+}

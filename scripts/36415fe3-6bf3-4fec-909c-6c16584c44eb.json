@@ -1,0 +1,37 @@
+{
+  "name": "Shroudstomper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, each opponent loses 2 life. You gain 2 life and draw a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, each opponent loses 2 life. You gain 2 life and draw a card."
+    }
+  ]
+}

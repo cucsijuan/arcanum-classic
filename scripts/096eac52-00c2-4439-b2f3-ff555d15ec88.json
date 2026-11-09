@@ -1,0 +1,54 @@
+{
+  "name": "Marina Vendrell's Grimoire",
+  "replaces": [
+    "NoMaximumHandSize"
+  ],
+  "rules": [
+    "NoLossForZeroLife"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "draw": 5
+        }
+      ],
+      "text": "When Marina Vendrell's Grimoire enters, if you cast it, draw five cards."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "draw": "triggerAmount"
+        }
+      ],
+      "text": "Whenever you gain life, draw that many cards."
+    },
+    {
+      "trigger": "playerLosesLife",
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "discard": "triggerAmount",
+          "who": "you"
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": "handSize",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "loseGame": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you lose life, discard that many cards. Then if you have no cards in hand, you lose the game."
+    }
+  ]
+}

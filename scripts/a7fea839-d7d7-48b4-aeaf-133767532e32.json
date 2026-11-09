@@ -1,0 +1,25 @@
+{
+  "name": "Rite of the Moth",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "target creature card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target",
+        "counters": 1,
+        "counterKind": "finality"
+      }
+    ],
+    "text": "Return target creature card from your graveyard to the battlefield with a finality counter on it."
+  }
+}

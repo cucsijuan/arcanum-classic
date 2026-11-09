@@ -1,0 +1,32 @@
+{
+  "name": "Fear of the Dark",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "not": {
+          "defendingPlayerControls": {
+            "types": [
+              "creature"
+            ],
+            "subtype": "Glimmer"
+          }
+        }
+      },
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace",
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, if defending player controls no Glimmer creatures, it gains menace and deathtouch until end of turn."
+    }
+  ]
+}

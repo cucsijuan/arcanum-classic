@@ -1,0 +1,39 @@
+{
+  "name": "Vengeful Possession",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "gainControl": "target",
+        "untilEndOfTurn": true
+      },
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      {
+        "mayPay": "Discard a card to draw a card?",
+        "cost": {
+          "discard": 1
+        },
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Gain control of target creature until end of turn. Untap it. It gains haste until end of turn. You may discard a card. If you do, draw a card."
+  }
+}

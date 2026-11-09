@@ -1,0 +1,34 @@
+{
+  "name": "Kardur, Doomscourge",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "opponentsCreaturesMustAttackOthers": true
+        }
+      ],
+      "text": "When Kardur enters, until your next turn, creatures your opponents control attack each combat if able and attack a player other than you if able."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attacking": true
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever an attacking creature dies, each opponent loses 1 life and you gain 1 life."
+    }
+  ]
+}

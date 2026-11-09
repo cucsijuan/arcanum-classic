@@ -1,0 +1,19 @@
+{
+  "name": "Stormfist Crusader",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "everyone"
+        },
+        {
+          "loseLife": 1,
+          "who": "everyone"
+        }
+      ],
+      "text": "At the beginning of your upkeep, each player draws a card and loses 1 life."
+    }
+  ]
+}

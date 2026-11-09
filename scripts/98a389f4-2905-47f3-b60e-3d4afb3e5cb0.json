@@ -1,0 +1,37 @@
+{
+  "name": "Enduring Innocence",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "batched": true,
+      "oncePerTurn": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "maxPower": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "reanimate": "self",
+          "ownerControl": true,
+          "setTypes": [
+            "enchantment"
+          ]
+        }
+      ],
+      "text": "When Enduring Innocence dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)"
+    }
+  ]
+}

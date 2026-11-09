@@ -1,0 +1,19 @@
+{
+  "name": "Eureka Moment",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "putFromHand": {
+          "types": [
+            "land"
+          ]
+        },
+        "one": true
+      }
+    ],
+    "text": "Draw two cards. You may put a land card from your hand onto the battlefield."
+  }
+}

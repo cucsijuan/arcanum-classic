@@ -1,0 +1,53 @@
+{
+  "name": "Ob Nixilis Reignited",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "+1: You draw a card and you lose 1 life."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "−3: Destroy target creature."
+    },
+    {
+      "cost": "-8",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "emblem": "Ob Nixilis Reignited",
+          "for": "target",
+          "abilities": [
+            {
+              "trigger": "anyPlayerDraws",
+              "effects": [
+                {
+                  "loseLife": 2
+                }
+              ],
+              "text": "Whenever a player draws a card, you lose 2 life."
+            }
+          ]
+        }
+      ],
+      "text": "−8: Target opponent gets an emblem with \"Whenever a player draws a card, you lose 2 life.\""
+    }
+  ]
+}

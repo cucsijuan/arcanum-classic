@@ -1,0 +1,53 @@
+{
+  "name": "Piracy Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target creature gains islandwalk until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Islandwalk"
+            ]
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +2/-1 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              -1
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player discards a card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discard": 1,
+            "who": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Phantasmal Image",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ]
+  },
+  "entersAsCopyAddSubtypes": [
+    "Illusion"
+  ],
+  "entersAsCopyAddAbilities": [
+    {
+      "trigger": "becomesTargetOfAny",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "When this creature becomes the target of a spell or ability, sacrifice it."
+    }
+  ]
+}

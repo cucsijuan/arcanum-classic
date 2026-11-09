@@ -1,0 +1,38 @@
+{
+  "name": "Violent Urge",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "First strike"
+        ]
+      },
+      {
+        "if": {
+          "cardTypesInGraveyard": 4
+        },
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Double strike"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gets +1/+0 and gains first strike until end of turn. Delirium — If there are four or more card types among cards in your graveyard, that creature gains double strike until end of turn."
+  }
+}

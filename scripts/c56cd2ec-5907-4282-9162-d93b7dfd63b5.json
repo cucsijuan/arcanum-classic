@@ -1,0 +1,6 @@
+{
+  "name": "Lakeside Shack",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "The Jolly Balloon Man",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target",
+          "setPower": 1,
+          "setToughness": 1,
+          "addSubtypes": [
+            "Balloon"
+          ],
+          "addColors": [
+            "R"
+          ],
+          "addKeywords": [
+            "Flying",
+            "Haste"
+          ],
+          "sacrificeAtEndStep": true
+        }
+      ],
+      "text": "{1}, {T}: Create a token that's a copy of another target creature you control, except it's a 1/1 red Balloon creature in addition to its other colors and types and it has flying and haste. Sacrifice it at the beginning of the next end step. Activate only as a sorcery."
+    }
+  ]
+}

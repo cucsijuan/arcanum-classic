@@ -1,0 +1,35 @@
+{
+  "name": "Underwater Tunnel // Slimy Aquarium",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "surveil": 2
+            }
+          ],
+          "text": "When you unlock this door, surveil 2."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "manifestDread": true
+            },
+            {
+              "counters": 1,
+              "what": "created"
+            }
+          ],
+          "text": "When you unlock this door, manifest dread, then put a +1/+1 counter on that creature."
+        }
+      ]
+    }
+  ]
+}

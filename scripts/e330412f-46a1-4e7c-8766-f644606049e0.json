@@ -1,0 +1,18 @@
+{
+  "name": "Into the Pit",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {
+    "not": [
+      "land"
+    ]
+  },
+  "playFromLibraryTopCost": {
+    "sacrifice": {
+      "not": [
+        "land"
+      ]
+    }
+  }
+}

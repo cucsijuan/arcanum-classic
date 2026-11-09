@@ -1,0 +1,35 @@
+{
+  "name": "Mirror Room // Fractured Realm",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "copy": "target",
+              "addSubtypes": [
+                "Reflection"
+              ]
+            }
+          ],
+          "text": "When you unlock this door, create a token that's a copy of target creature you control, except it's a Reflection in addition to its other creature types.",
+          "targets": [
+            "creature:you"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "static": {
+            "affects": "permanents:you",
+            "extraTriggers": true
+          },
+          "text": "If a triggered ability of a permanent you control triggers, that ability triggers an additional time."
+        }
+      ]
+    }
+  ]
+}

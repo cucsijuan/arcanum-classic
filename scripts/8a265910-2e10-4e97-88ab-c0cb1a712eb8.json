@@ -1,0 +1,30 @@
+{
+  "name": "Cursed Windbreaker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        },
+        {
+          "attach": "created"
+        }
+      ],
+      "text": "When this Equipment enters, manifest dread, then attach this Equipment to that creature."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature has flying."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Dazzling Theater // Prop Room",
+  "split": [
+    {
+      "spellsHaveConvoke": {
+        "types": [
+          "creature"
+        ]
+      }
+    },
+    {
+      "rules": [
+        "UntapYourCreaturesDuringOthersUntap"
+      ]
+    }
+  ]
+}

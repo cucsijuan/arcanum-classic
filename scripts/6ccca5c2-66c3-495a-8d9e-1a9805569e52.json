@@ -1,0 +1,6 @@
+{
+  "name": "Etched Cornfield",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

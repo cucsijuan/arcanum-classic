@@ -1,0 +1,60 @@
+{
+  "name": "Toby, Beastie Befriender",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "colors": [
+              "W"
+            ],
+            "power": 4,
+            "toughness": 4,
+            "abilities": [
+              {
+                "static": {
+                  "affects": "self",
+                  "keywords": [
+                    "Can't attack alone",
+                    "Can't block alone"
+                  ]
+                },
+                "text": "This token can't attack or block alone."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "When Toby enters, create a 4/4 white Beast creature token with \"This token can't attack or block alone.\""
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "creature"
+            ],
+            "token": true
+          },
+          "count": 4
+        }
+      },
+      "text": "As long as you control four or more creature tokens, creature tokens you control have flying."
+    }
+  ]
+}

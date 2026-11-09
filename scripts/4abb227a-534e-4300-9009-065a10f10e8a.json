@@ -1,0 +1,17 @@
+{
+  "name": "Inquisitive Glimmer",
+  "unlockCostsLess": 1,
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Enchantment spells you cast cost {1} less to cast."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sacrifice",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "addMana": "{B}",
+        "times": "sacrificedManaValue"
+      }
+    ],
+    "text": "As an additional cost to cast this spell, sacrifice a creature.\nAdd an amount of {B} equal to the sacrificed creature's mana value."
+  }
+}

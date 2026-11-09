@@ -1,0 +1,23 @@
+{
+  "name": "Glimmerburst",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Glimmer",
+          "types": "Enchantment Creature — Glimmer",
+          "colors": [
+            "W"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      }
+    ],
+    "text": "Draw two cards. Create a 1/1 white Glimmer enchantment creature token."
+  }
+}

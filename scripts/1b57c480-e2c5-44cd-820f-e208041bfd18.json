@@ -1,0 +1,19 @@
+{
+  "name": "Dauthi Mercenary",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{B}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}{B}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

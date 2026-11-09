@@ -1,0 +1,24 @@
+{
+  "name": "Nowhere to Run",
+  "rules": [
+    "OpponentsCreaturesTargetableAndWardless"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            -3
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this enchantment enters, target creature an opponent controls gets -3/-3 until end of turn."
+    }
+  ]
+}

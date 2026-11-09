@@ -1,0 +1,37 @@
+{
+  "name": "Dream Eater",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 4
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "permanent",
+                "controller": "opponent",
+                "optional": true,
+                "filter": {
+                  "not": [
+                    "land"
+                  ]
+                },
+                "text": "up to one target nonland permanent an opponent controls"
+              }
+            ],
+            "effects": [
+              {
+                "bounce": "target"
+              }
+            ],
+            "text": "When you do, you may return target nonland permanent an opponent controls to its owner's hand."
+          }
+        }
+      ],
+      "text": "When this creature enters, surveil 4. When you do, you may return target nonland permanent an opponent controls to its owner's hand."
+    }
+  ]
+}

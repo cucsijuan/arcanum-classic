@@ -1,0 +1,15 @@
+{
+  "name": "Exhume",
+  "spell": {
+    "effects": [
+      {
+        "eachPlayerReanimates": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    ],
+    "text": "Each player puts a creature card from their graveyard onto the battlefield."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Omnivorous Flytrap",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "distributeCounters": 2
+        },
+        {
+          "if": {
+            "cardTypesInGraveyard": 6
+          },
+          "then": [
+            {
+              "doubleCounters": "eachTarget",
+              "kind": "+1/+1"
+            }
+          ]
+        }
+      ],
+      "text": "Delirium — Whenever this creature enters or attacks, if there are four or more card types among cards in your graveyard, distribute two +1/+1 counters among one or two target creatures. Then if there are six or more card types among cards in your graveyard, double the number of +1/+1 counters on those creatures.",
+      "targets": [
+        "creature",
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "targetRule": "allDifferent",
+      "if": {
+        "cardTypesInGraveyard": 4
+      }
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "distributeCounters": 2
+        },
+        {
+          "if": {
+            "cardTypesInGraveyard": 6
+          },
+          "then": [
+            {
+              "doubleCounters": "eachTarget",
+              "kind": "+1/+1"
+            }
+          ]
+        }
+      ],
+      "text": "Delirium — Whenever this creature enters or attacks, if there are four or more card types among cards in your graveyard, distribute two +1/+1 counters among one or two target creatures. Then if there are six or more card types among cards in your graveyard, double the number of +1/+1 counters on those creatures.",
+      "targets": [
+        "creature",
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "targetRule": "allDifferent",
+      "if": {
+        "cardTypesInGraveyard": 4
+      }
+    }
+  ]
+}

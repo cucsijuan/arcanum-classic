@@ -1,0 +1,35 @@
+{
+  "name": "Twitching Doll",
+  "extraMana": [
+    {
+      "types": "any",
+      "addsCounter": "nest"
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "tokens": {
+            "counters": "any"
+          },
+          "token": {
+            "name": "Spider",
+            "types": "Creature — Spider",
+            "colors": [
+              "G"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": [
+              "Reach"
+            ]
+          }
+        }
+      ],
+      "text": "{T}, Sacrifice this creature: Create a 2/2 green Spider creature token with reach for each counter on this creature. Activate only as a sorcery."
+    }
+  ]
+}

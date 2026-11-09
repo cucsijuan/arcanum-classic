@@ -1,0 +1,26 @@
+{
+  "name": "Gloomlake Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Island"
+            },
+            {
+              "subtype": "Swamp"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{B}"
+        }
+      ],
+      "text": "{T}: Add {B}. Activate only if you control an Island or a Swamp."
+    }
+  ]
+}

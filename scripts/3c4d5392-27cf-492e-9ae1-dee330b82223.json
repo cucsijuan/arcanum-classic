@@ -1,0 +1,22 @@
+{
+  "name": "Moldgraf Monstrosity",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "exile": "self"
+        },
+        {
+          "reanimateRandom": 2,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, exile it, then return two creature cards at random from your graveyard to the battlefield."
+    }
+  ]
+}

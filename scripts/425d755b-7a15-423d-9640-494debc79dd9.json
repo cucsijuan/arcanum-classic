@@ -1,0 +1,39 @@
+{
+  "name": "Norin, Swift Survivalist",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "Norin can't block."
+    },
+    {
+      "trigger": "creatureBecomesBlocked",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Exile that creature? (You may play that card from exile this turn.)",
+          "effects": [
+            {
+              "exile": "triggered",
+              "mayPlayThisTurn": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control becomes blocked, you may exile it. You may play that card from exile this turn."
+    }
+  ]
+}

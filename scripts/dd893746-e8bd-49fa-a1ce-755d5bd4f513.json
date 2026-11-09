@@ -1,0 +1,51 @@
+{
+  "name": "Let's Play a Game",
+  "spell": {
+    "chooseCount": 1,
+    "allModesIf": {
+      "cardTypesInGraveyard": 4
+    },
+    "modes": [
+      {
+        "text": "Creatures your opponents control get -1/-1 until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              -1,
+              -1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Each opponent discards two cards.",
+        "effects": [
+          {
+            "discard": 2,
+            "who": "opponents"
+          }
+        ]
+      },
+      {
+        "text": "Each opponent loses 3 life and you gain 3 life.",
+        "effects": [
+          {
+            "loseLife": 3,
+            "who": "opponents"
+          },
+          {
+            "gainLife": 3
+          }
+        ]
+      }
+    ]
+  }
+}

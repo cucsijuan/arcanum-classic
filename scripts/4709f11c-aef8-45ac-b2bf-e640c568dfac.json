@@ -1,0 +1,37 @@
+{
+  "name": "Mayhem Devil",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "controller": "any"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target."
+    },
+    {
+      "trigger": "opponentSacrifices",
+      "filter": {
+        "controller": "any"
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a player sacrifices a permanent, this creature deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Floodpits Drowner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target creature an opponent controls and put a stun counter on it."
+    },
+    {
+      "cost": "{1}{U}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "hasCounterKind": "stun"
+          },
+          "text": "target creature with a stun counter on it"
+        }
+      ],
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        },
+        {
+          "shuffleIntoLibrary": "target"
+        }
+      ],
+      "text": "{1}{U}, {T}: Shuffle this creature and target creature with a stun counter on it into their owners' libraries."
+    }
+  ]
+}

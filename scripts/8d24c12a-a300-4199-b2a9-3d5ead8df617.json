@@ -1,0 +1,45 @@
+{
+  "name": "Reluctant Role Model",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "counterChoice": [
+            "flying",
+            "lifelink",
+            "+1/+1"
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, put a flying, lifelink, or +1/+1 counter on it."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": "triggeredHadCounters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "Whenever this creature or another creature you control dies, if it had counters on it, put those counters on up to one target creature."
+    }
+  ]
+}

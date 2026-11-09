@@ -1,0 +1,25 @@
+{
+  "name": "The Rollercrusher Ride",
+  "rules": [
+    "YourNoncombatDamageDoubledWithDelirium"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "upTo": "X",
+          "text": "up to X target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "damage": "X",
+          "to": "eachTarget"
+        }
+      ],
+      "text": "When The Rollercrusher Ride enters, it deals X damage to each of up to X target creatures."
+    }
+  ]
+}

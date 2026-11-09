@@ -1,0 +1,26 @@
+{
+  "name": "Maddening Hex",
+  "abilities": [
+    {
+      "trigger": "enchantedPlayerCastsSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "rollDie": 6
+        },
+        {
+          "damage": "rolled",
+          "to": "triggeredPlayer"
+        },
+        {
+          "attachToRandomOtherOpponent": true
+        }
+      ],
+      "text": "Whenever enchanted player casts a noncreature spell, roll a d6. This Aura deals damage to that player equal to the result. Then attach this Aura to another one of your opponents chosen at random."
+    }
+  ]
+}

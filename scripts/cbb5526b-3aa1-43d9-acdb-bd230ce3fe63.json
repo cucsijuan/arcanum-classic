@@ -1,0 +1,43 @@
+{
+  "name": "Glimmer Seeker",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Glimmer"
+            }
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ],
+          "else": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Glimmer",
+                "types": "Enchantment Creature — Glimmer",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, draw a card if you control a Glimmer creature. If you don't control a Glimmer creature, create a 1/1 white Glimmer enchantment creature token."
+    }
+  ]
+}

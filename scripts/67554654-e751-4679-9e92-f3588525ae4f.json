@@ -1,0 +1,24 @@
+{
+  "name": "Enter the Enigma",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Target creature can't be blocked this turn. Draw a card."
+  }
+}

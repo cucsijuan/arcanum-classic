@@ -1,0 +1,56 @@
+{
+  "name": "Demonic Covenant",
+  "abilities": [
+    {
+      "trigger": "yourCreaturesAttackPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Demon"
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever one or more Demons you control attack a player, you draw a card and lose 1 life."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Demon",
+            "types": "Creature — Demon",
+            "colors": [
+              "B"
+            ],
+            "power": 5,
+            "toughness": 5,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        },
+        {
+          "mill": 2,
+          "who": "you"
+        },
+        {
+          "if": "milledShareAllTypes",
+          "then": [
+            {
+              "sacrificeIt": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, create a 5/5 black Demon creature token with flying, then mill two cards. If two cards that share all their card types were milled this way, sacrifice this enchantment."
+    }
+  ]
+}

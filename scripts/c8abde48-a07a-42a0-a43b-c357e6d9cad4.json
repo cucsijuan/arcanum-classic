@@ -1,0 +1,52 @@
+{
+  "name": "Secret Arcade // Dusty Parlor",
+  "split": [
+    {
+      "rules": [
+        "YourNonlandPermanentsAndPermanentSpellsAreEnchantments"
+      ],
+      "abilities": [
+        {
+          "static": {
+            "affects": "permanents:you",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "addTypes": [
+              "enchantment"
+            ]
+          },
+          "text": "Nonland permanents you control and permanent spells you control are enchantments in addition to their other types."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "castSpell",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "targets": [
+            {
+              "kind": "creature",
+              "optional": true,
+              "text": "up to one target creature"
+            }
+          ],
+          "effects": [
+            {
+              "counters": "triggerAmount",
+              "what": "target"
+            }
+          ],
+          "text": "Whenever you cast an enchantment spell, put a number of +1/+1 counters equal to that spell's mana value on up to one target creature."
+        }
+      ]
+    }
+  ]
+}

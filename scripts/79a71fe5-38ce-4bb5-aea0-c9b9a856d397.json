@@ -1,0 +1,9 @@
+{
+  "name": "Mirrormade",
+  "entersAsCopy": {
+    "types": [
+      "artifact",
+      "enchantment"
+    ]
+  }
+}

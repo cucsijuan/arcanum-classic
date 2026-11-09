@@ -1,0 +1,36 @@
+{
+  "name": "Altanak, the Thrice-Called",
+  "abilities": [
+    {
+      "trigger": "becomesTarget",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever Altanak becomes the target of a spell or ability an opponent controls, draw a card."
+    },
+    {
+      "cost": "{1}{G}, discardThis",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{1}{G}, Discard this card: Return target land card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

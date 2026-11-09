@@ -1,0 +1,25 @@
+{
+  "name": "Vanish from Sight",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ],
+    "text": "Target nonland permanent's owner puts it on their choice of the top or bottom of their library. Surveil 1."
+  }
+}

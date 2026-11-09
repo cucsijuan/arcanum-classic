@@ -1,0 +1,21 @@
+{
+  "name": "Timely Ward",
+  "flashIfTargets": {
+    "commander": true
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Enchanted creature has indestructible."
+    }
+  ]
+}

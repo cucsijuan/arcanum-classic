@@ -1,0 +1,16 @@
+{
+  "name": "Marvin, Murderous Mimic",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "yourCreaturesAbilities": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "text": "Marvin has all activated abilities of creatures you control that don't have the same name as this creature."
+    }
+  ]
+}

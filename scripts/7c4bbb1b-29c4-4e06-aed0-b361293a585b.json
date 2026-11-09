@@ -1,0 +1,32 @@
+{
+  "name": "Arabella, Abandoned Doll",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "maxPower": 2
+            }
+          },
+          "to": "opponents"
+        },
+        {
+          "gainLife": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "maxPower": 2
+            }
+          }
+        }
+      ],
+      "text": "Whenever Arabella attacks, it deals X damage to each opponent and you gain X life, where X is the number of creatures you control with power 2 or less."
+    }
+  ]
+}

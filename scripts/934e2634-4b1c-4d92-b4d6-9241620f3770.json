@@ -1,0 +1,33 @@
+{
+  "name": "Splitskin Doll",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "not": {
+              "control": {
+                "types": [
+                  "creature"
+                ],
+                "other": true,
+                "maxPower": 2
+              }
+            }
+          },
+          "then": [
+            {
+              "discard": 1,
+              "who": "you"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, draw a card. Then discard a card unless you control another creature with power 2 or less."
+    }
+  ]
+}

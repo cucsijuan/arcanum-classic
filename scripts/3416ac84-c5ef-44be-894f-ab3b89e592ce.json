@@ -1,0 +1,13 @@
+{
+  "name": "Undead Sprinter",
+  "graveyardCastIf": {
+    "creatureDied": {
+      "types": [
+        "creature"
+      ],
+      "notSubtype": "Zombie"
+    }
+  },
+  "entersWithCounters": 1,
+  "entersWithCountersIf": "castFromGraveyard"
+}

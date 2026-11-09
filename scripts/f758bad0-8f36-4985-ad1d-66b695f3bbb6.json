@@ -1,0 +1,25 @@
+{
+  "name": "Orphans of the Wheat",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tapAnyNumber": {
+            "types": [
+              "creature"
+            ]
+          }
+        },
+        {
+          "pump": [
+            "tapped",
+            "tapped"
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, tap any number of untapped creatures you control. This creature gets +1/+1 until end of turn for each creature tapped this way."
+    }
+  ]
+}

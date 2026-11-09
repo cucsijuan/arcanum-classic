@@ -1,0 +1,31 @@
+{
+  "name": "Persistent Constrictor",
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "when": {
+        "not": "yourTurn"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "controlledByTriggeredPlayer": true,
+          "text": "up to one target creature they control"
+        }
+      ],
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "counters": 1,
+          "kind": "-1/-1",
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of each opponent's upkeep, they lose 1 life and you put a -1/-1 counter on up to one target creature they control."
+    }
+  ]
+}

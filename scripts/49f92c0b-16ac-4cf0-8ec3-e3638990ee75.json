@@ -1,0 +1,9 @@
+{
+  "name": "Haunted Screen",
+  "extraMana": [
+    {
+      "types": "{G}{U}{R}",
+      "lifeCost": 1
+    }
+  ]
+}

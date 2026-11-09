@@ -1,0 +1,38 @@
+{
+  "name": "Arvinox, the Mind Flail",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "removeTypes": [
+          "creature"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "notOwnedByYou": true
+            },
+            "count": 3
+          }
+        }
+      },
+      "text": "Arvinox isn't a creature unless you control three or more permanents you don't own."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "of": "opponents",
+          "fromBottom": true,
+          "faceDown": true,
+          "forever": true,
+          "chooseOne": false,
+          "permanentsOnly": true,
+          "anyColorMana": true
+        }
+      ],
+      "text": "At the beginning of your end step, exile the bottom card of each opponent's library face down. For as long as those cards remain exiled, you may look at them, you may cast permanent spells from among them, and you may spend mana as though it were mana of any color to cast those spells."
+    }
+  ]
+}

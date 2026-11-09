@@ -1,0 +1,1726 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "dsk",
+ "format": "PremierDraft",
+ "games": 1011949,
+ "mean": 0.5512,
+ "sd": 0.0365,
+ "cards": {
+  "Abandoned Campground": {
+   "gih": 0.5472,
+   "games": 47339,
+   "ata": 8.74,
+   "picks": 29719
+  },
+  "Abhorrent Oculus": {
+   "gih": 0.5935,
+   "games": 11142,
+   "ata": 1.48,
+   "picks": 4700
+  },
+  "Acrobatic Cheerleader": {
+   "gih": 0.5353,
+   "games": 66630,
+   "ata": 7.46,
+   "picks": 44435
+  },
+  "Altanak, the Thrice-Called": {
+   "gih": 0.5393,
+   "games": 33370,
+   "ata": 4.1,
+   "picks": 18326
+  },
+  "Anthropede": {
+   "gih": 0.5028,
+   "games": 19487,
+   "ata": 10.87,
+   "picks": 39706
+  },
+  "Appendage Amalgam": {
+   "gih": 0.5157,
+   "games": 38377,
+   "ata": 9.72,
+   "picks": 37254
+  },
+  "Arabella, Abandoned Doll": {
+   "gih": 0.5959,
+   "games": 38357,
+   "ata": 4.35,
+   "picks": 23227
+  },
+  "Attack-in-the-Box": {
+   "gih": 0.5041,
+   "games": 8139,
+   "ata": 10.53,
+   "picks": 17665
+  },
+  "Balemurk Leech": {
+   "gih": 0.5056,
+   "games": 32230,
+   "ata": 9.91,
+   "picks": 37556
+  },
+  "Balustrade Wurm": {
+   "gih": 0.5851,
+   "games": 20658,
+   "ata": 1.61,
+   "picks": 9062
+  },
+  "Baseball Bat": {
+   "gih": 0.5118,
+   "games": 13595,
+   "ata": 7.89,
+   "picks": 16142
+  },
+  "Bashful Beastie": {
+   "gih": 0.5491,
+   "games": 82562,
+   "ata": 8.02,
+   "picks": 50962
+  },
+  "Bear Trap": {
+   "gih": 0.5154,
+   "games": 11600,
+   "ata": 11.67,
+   "picks": 43381
+  },
+  "Beastie Beatdown": {
+   "gih": 0.5756,
+   "games": 38131,
+   "ata": 5.51,
+   "picks": 24953
+  },
+  "Bedhead Beastie": {
+   "gih": 0.5107,
+   "games": 31145,
+   "ata": 10.54,
+   "picks": 45178
+  },
+  "Betrayer's Bargain": {
+   "gih": 0.5786,
+   "games": 55743,
+   "ata": 4.01,
+   "picks": 26906
+  },
+  "Blazemire Verge": {
+   "gih": 0.5452,
+   "games": 8814,
+   "ata": 6.16,
+   "picks": 7330
+  },
+  "Bleeding Woods": {
+   "gih": 0.5359,
+   "games": 42830,
+   "ata": 9.16,
+   "picks": 31246
+  },
+  "Boilerbilges Ripper": {
+   "gih": 0.5319,
+   "games": 21358,
+   "ata": 11.06,
+   "picks": 48073
+  },
+  "Bottomless Pool // Locker Room": {
+   "gih": 0.5734,
+   "games": 52390,
+   "ata": 3.44,
+   "picks": 23441
+  },
+  "Break Down the Door": {
+   "gih": 0.557,
+   "games": 45187,
+   "ata": 4.92,
+   "picks": 22125
+  },
+  "Broodspinner": {
+   "gih": 0.5895,
+   "games": 42498,
+   "ata": 4.29,
+   "picks": 24041
+  },
+  "Cackling Slasher": {
+   "gih": 0.4647,
+   "games": 6691,
+   "ata": 12.01,
+   "picks": 35368
+  },
+  "Cathartic Parting": {
+   "gih": 0.539,
+   "games": 29339,
+   "ata": 7.47,
+   "picks": 21682
+  },
+  "Cautious Survivor": {
+   "gih": 0.5257,
+   "games": 28645,
+   "ata": 10.35,
+   "picks": 40951
+  },
+  "Central Elevator // Promising Stairs": {
+   "gih": 0.5169,
+   "games": 8036,
+   "ata": 6.3,
+   "picks": 8067
+  },
+  "Chainsaw": {
+   "gih": 0.601,
+   "games": 22655,
+   "ata": 1.85,
+   "picks": 9866
+  },
+  "Charred Foyer // Warped Space": {
+   "gih": 0.4976,
+   "games": 6196,
+   "ata": 3.21,
+   "picks": 3693
+  },
+  "Clammy Prowler": {
+   "gih": 0.5138,
+   "games": 21093,
+   "ata": 10.9,
+   "picks": 41766
+  },
+  "Clockwork Percussionist": {
+   "gih": 0.5713,
+   "games": 111153,
+   "ata": 6.94,
+   "picks": 66828
+  },
+  "Collected Company": {
+   "gih": 0.5353,
+   "games": 779,
+   "ata": 3.09,
+   "picks": 565
+  },
+  "Come Back Wrong": {
+   "gih": 0.5627,
+   "games": 16271,
+   "ata": 2.42,
+   "picks": 7710
+  },
+  "Commune with Evil": {
+   "gih": 0.5631,
+   "games": 24959,
+   "ata": 7.48,
+   "picks": 19284
+  },
+  "Conductive Machete": {
+   "gih": 0.5529,
+   "games": 48396,
+   "ata": 5.55,
+   "picks": 24864
+  },
+  "Coordinated Clobbering": {
+   "gih": 0.5556,
+   "games": 34774,
+   "ata": 4.85,
+   "picks": 18895
+  },
+  "Cracked Skull": {
+   "gih": 0.5213,
+   "games": 17064,
+   "ata": 11.2,
+   "picks": 41543
+  },
+  "Creeping Peeper": {
+   "gih": 0.5172,
+   "games": 54566,
+   "ata": 9.08,
+   "picks": 46566
+  },
+  "Cryptid Inspector": {
+   "gih": 0.5253,
+   "games": 55863,
+   "ata": 8.46,
+   "picks": 43972
+  },
+  "Cult Healer": {
+   "gih": 0.531,
+   "games": 39289,
+   "ata": 9.27,
+   "picks": 40763
+  },
+  "Cursed Recording": {
+   "gih": 0.5006,
+   "games": 4003,
+   "ata": 7.8,
+   "picks": 8865
+  },
+  "Cursed Windbreaker": {
+   "gih": 0.5694,
+   "games": 42633,
+   "ata": 5.2,
+   "picks": 21951
+  },
+  "Cynical Loner": {
+   "gih": 0.5484,
+   "games": 28062,
+   "ata": 6.81,
+   "picks": 17961
+  },
+  "Daggermaw Megalodon": {
+   "gih": 0.5253,
+   "games": 49243,
+   "ata": 9.74,
+   "picks": 45098
+  },
+  "Damnation": {
+   "gih": 0.5938,
+   "games": 1551,
+   "ata": 1.85,
+   "picks": 719
+  },
+  "Dashing Bloodsucker": {
+   "gih": 0.5209,
+   "games": 18747,
+   "ata": 7.62,
+   "picks": 15944
+  },
+  "Dazzling Theater // Prop Room": {
+   "gih": 0.3986,
+   "games": 2228,
+   "ata": 7.06,
+   "picks": 4820
+  },
+  "Defiant Survivor": {
+   "gih": 0.5484,
+   "games": 40250,
+   "ata": 3.78,
+   "picks": 19371
+  },
+  "Defiled Crypt // Cadaver Lab": {
+   "gih": 0.5326,
+   "games": 29587,
+   "ata": 5.28,
+   "picks": 18564
+  },
+  "Demonic Counsel": {
+   "gih": 0.5121,
+   "games": 1531,
+   "ata": 8.34,
+   "picks": 6316
+  },
+  "Derelict Attic // Widow's Walk": {
+   "gih": 0.5312,
+   "games": 31417,
+   "ata": 9.91,
+   "picks": 37748
+  },
+  "Dissection Tools": {
+   "gih": 0.625,
+   "games": 26505,
+   "ata": 1.41,
+   "picks": 10564
+  },
+  "Disturbing Mirth": {
+   "gih": 0.5841,
+   "games": 31787,
+   "ata": 6.24,
+   "picks": 24899
+  },
+  "Diversion Specialist": {
+   "gih": 0.5342,
+   "games": 29532,
+   "ata": 7.01,
+   "picks": 20901
+  },
+  "Dollmaker's Shop // Porcelain Gallery": {
+   "gih": 0.6232,
+   "games": 10700,
+   "ata": 1.38,
+   "picks": 4576
+  },
+  "Don't Make a Sound": {
+   "gih": 0.5507,
+   "games": 38309,
+   "ata": 10.04,
+   "picks": 47871
+  },
+  "Doomsday Excruciator": {
+   "gih": 0.4371,
+   "games": 2768,
+   "ata": 7.4,
+   "picks": 6058
+  },
+  "Drag to the Roots": {
+   "gih": 0.5672,
+   "games": 35709,
+   "ata": 5.16,
+   "picks": 20607
+  },
+  "Duskmourn's Domination": {
+   "gih": 0.5486,
+   "games": 24838,
+   "ata": 8.07,
+   "picks": 20992
+  },
+  "Emerge from the Cocoon": {
+   "gih": 0.5387,
+   "games": 32627,
+   "ata": 9.31,
+   "picks": 40400
+  },
+  "Enduring Courage": {
+   "gih": 0.5629,
+   "games": 18954,
+   "ata": 1.91,
+   "picks": 8884
+  },
+  "Enduring Curiosity": {
+   "gih": 0.6052,
+   "games": 22420,
+   "ata": 1.67,
+   "picks": 9496
+  },
+  "Enduring Innocence": {
+   "gih": 0.5986,
+   "games": 19458,
+   "ata": 1.57,
+   "picks": 8794
+  },
+  "Enduring Tenacity": {
+   "gih": 0.5173,
+   "games": 8574,
+   "ata": 3.68,
+   "picks": 5504
+  },
+  "Enduring Vitality": {
+   "gih": 0.5652,
+   "games": 17567,
+   "ata": 2.0,
+   "picks": 8280
+  },
+  "Enter the Enigma": {
+   "gih": 0.5059,
+   "games": 10100,
+   "ata": 11.54,
+   "picks": 44182
+  },
+  "Entity Tracker": {
+   "gih": 0.6123,
+   "games": 23918,
+   "ata": 1.86,
+   "picks": 9811
+  },
+  "Erratic Apparition": {
+   "gih": 0.5274,
+   "games": 41824,
+   "ata": 9.88,
+   "picks": 43464
+  },
+  "Etched Cornfield": {
+   "gih": 0.5244,
+   "games": 28923,
+   "ata": 9.68,
+   "picks": 27309
+  },
+  "Ethereal Armor": {
+   "gih": 0.5759,
+   "games": 35835,
+   "ata": 4.16,
+   "picks": 19139
+  },
+  "Exorcise": {
+   "gih": 0.5663,
+   "games": 40343,
+   "ata": 3.59,
+   "picks": 19407
+  },
+  "Expropriate": {
+   "gih": 0.5636,
+   "games": 346,
+   "ata": 6.98,
+   "picks": 591
+  },
+  "Fanatic of the Harrowing": {
+   "gih": 0.5434,
+   "games": 36466,
+   "ata": 10.14,
+   "picks": 43990
+  },
+  "Fear of Abduction": {
+   "gih": 0.5623,
+   "games": 35633,
+   "ata": 3.93,
+   "picks": 18970
+  },
+  "Fear of Being Hunted": {
+   "gih": 0.5697,
+   "games": 47067,
+   "ata": 4.65,
+   "picks": 24292
+  },
+  "Fear of Burning Alive": {
+   "gih": 0.5747,
+   "games": 46615,
+   "ata": 4.0,
+   "picks": 24572
+  },
+  "Fear of Exposure": {
+   "gih": 0.527,
+   "games": 32506,
+   "ata": 5.06,
+   "picks": 17333
+  },
+  "Fear of Failed Tests": {
+   "gih": 0.5092,
+   "games": 11166,
+   "ata": 9.07,
+   "picks": 15162
+  },
+  "Fear of Falling": {
+   "gih": 0.555,
+   "games": 43036,
+   "ata": 4.66,
+   "picks": 20719
+  },
+  "Fear of Immobility": {
+   "gih": 0.5491,
+   "games": 61750,
+   "ata": 8.27,
+   "picks": 45823
+  },
+  "Fear of Impostors": {
+   "gih": 0.5381,
+   "games": 29638,
+   "ata": 6.22,
+   "picks": 17786
+  },
+  "Fear of Infinity": {
+   "gih": 0.5326,
+   "games": 24230,
+   "ata": 6.48,
+   "picks": 18368
+  },
+  "Fear of Isolation": {
+   "gih": 0.5931,
+   "games": 57904,
+   "ata": 3.43,
+   "picks": 25767
+  },
+  "Fear of Lost Teeth": {
+   "gih": 0.5434,
+   "games": 53663,
+   "ata": 9.01,
+   "picks": 43575
+  },
+  "Fear of Missing Out": {
+   "gih": 0.5978,
+   "games": 22565,
+   "ata": 1.98,
+   "picks": 10038
+  },
+  "Fear of Surveillance": {
+   "gih": 0.5551,
+   "games": 98692,
+   "ata": 5.69,
+   "picks": 49617
+  },
+  "Fear of the Dark": {
+   "gih": 0.5087,
+   "games": 22675,
+   "ata": 10.7,
+   "picks": 35269
+  },
+  "Final Vengeance": {
+   "gih": 0.5645,
+   "games": 74731,
+   "ata": 7.53,
+   "picks": 50878
+  },
+  "Flesh Burrower": {
+   "gih": 0.5423,
+   "games": 80350,
+   "ata": 7.45,
+   "picks": 46616
+  },
+  "Floodfarm Verge": {
+   "gih": 0.5492,
+   "games": 11584,
+   "ata": 5.68,
+   "picks": 7438
+  },
+  "Floodpits Drowner": {
+   "gih": 0.5858,
+   "games": 58526,
+   "ata": 3.58,
+   "picks": 25917
+  },
+  "Forest": {
+   "gih": 0.547,
+   "games": 452560,
+   "ata": 13.95,
+   "picks": 49311
+  },
+  "Found Footage": {
+   "gih": 0.5394,
+   "games": 15299,
+   "ata": 11.72,
+   "picks": 48758
+  },
+  "Frantic Strength": {
+   "gih": 0.5348,
+   "games": 21899,
+   "ata": 11.11,
+   "picks": 43059
+  },
+  "Friendly Ghost": {
+   "gih": 0.5538,
+   "games": 52073,
+   "ata": 8.87,
+   "picks": 45337
+  },
+  "Friendly Teddy": {
+   "gih": 0.5134,
+   "games": 25164,
+   "ata": 11.09,
+   "picks": 49180
+  },
+  "Funeral Room // Awakening Hall": {
+   "gih": 0.557,
+   "games": 7197,
+   "ata": 2.14,
+   "picks": 3635
+  },
+  "Get Out": {
+   "gih": 0.5517,
+   "games": 32405,
+   "ata": 6.92,
+   "picks": 21051
+  },
+  "Ghost Vacuum": {
+   "gih": 0.5611,
+   "games": 18138,
+   "ata": 2.46,
+   "picks": 8480
+  },
+  "Ghostly Dancers": {
+   "gih": 0.643,
+   "games": 22270,
+   "ata": 1.43,
+   "picks": 9451
+  },
+  "Ghostly Keybearer": {
+   "gih": 0.5307,
+   "games": 30239,
+   "ata": 5.59,
+   "picks": 17806
+  },
+  "Give In to Violence": {
+   "gih": 0.5075,
+   "games": 9497,
+   "ata": 11.79,
+   "picks": 37921
+  },
+  "Glassworks // Shattered Yard": {
+   "gih": 0.5684,
+   "games": 115919,
+   "ata": 4.67,
+   "picks": 59114
+  },
+  "Glimmer Seeker": {
+   "gih": 0.5675,
+   "games": 39304,
+   "ata": 3.53,
+   "picks": 18982
+  },
+  "Glimmerburst": {
+   "gih": 0.5719,
+   "games": 103198,
+   "ata": 7.21,
+   "picks": 60876
+  },
+  "Glimmerlight": {
+   "gih": 0.5669,
+   "games": 120532,
+   "ata": 7.32,
+   "picks": 68913
+  },
+  "Gloomlake Verge": {
+   "gih": 0.5335,
+   "games": 8963,
+   "ata": 6.03,
+   "picks": 7271
+  },
+  "Grab the Prize": {
+   "gih": 0.5313,
+   "games": 24188,
+   "ata": 10.99,
+   "picks": 47388
+  },
+  "Grand Entryway // Elegant Rotunda": {
+   "gih": 0.5469,
+   "games": 90973,
+   "ata": 5.59,
+   "picks": 50094
+  },
+  "Grasping Longneck": {
+   "gih": 0.5366,
+   "games": 52759,
+   "ata": 9.42,
+   "picks": 45373
+  },
+  "Greenhouse // Rickety Gazebo": {
+   "gih": 0.4975,
+   "games": 9577,
+   "ata": 9.0,
+   "picks": 15631
+  },
+  "Gremlin Tamer": {
+   "gih": 0.5971,
+   "games": 45418,
+   "ata": 3.62,
+   "picks": 23613
+  },
+  "Grievous Wound": {
+   "gih": 0.4341,
+   "games": 1412,
+   "ata": 8.24,
+   "picks": 5260
+  },
+  "Growing Dread": {
+   "gih": 0.5764,
+   "games": 40997,
+   "ata": 5.1,
+   "picks": 23552
+  },
+  "Hallowed Haunting": {
+   "gih": 0.5152,
+   "games": 990,
+   "ata": 2.42,
+   "picks": 573
+  },
+  "Hand That Feeds": {
+   "gih": 0.5475,
+   "games": 82374,
+   "ata": 8.31,
+   "picks": 56291
+  },
+  "Hardened Escort": {
+   "gih": 0.5356,
+   "games": 42806,
+   "ata": 8.93,
+   "picks": 38829
+  },
+  "Haunted Screen": {
+   "gih": 0.5188,
+   "games": 14500,
+   "ata": 8.72,
+   "picks": 16195
+  },
+  "Hauntwoods Shrieker": {
+   "gih": 0.5738,
+   "games": 9674,
+   "ata": 1.52,
+   "picks": 4351
+  },
+  "Hedge Shredder": {
+   "gih": 0.5286,
+   "games": 15379,
+   "ata": 2.34,
+   "picks": 7695
+  },
+  "Horrid Vigor": {
+   "gih": 0.5356,
+   "games": 26423,
+   "ata": 10.61,
+   "picks": 41518
+  },
+  "House Cartographer": {
+   "gih": 0.5441,
+   "games": 34597,
+   "ata": 4.98,
+   "picks": 18180
+  },
+  "Hushwood Verge": {
+   "gih": 0.5316,
+   "games": 7400,
+   "ata": 6.29,
+   "picks": 6861
+  },
+  "Impossible Inferno": {
+   "gih": 0.5397,
+   "games": 47164,
+   "ata": 9.78,
+   "picks": 53846
+  },
+  "Infernal Phantom": {
+   "gih": 0.5161,
+   "games": 23743,
+   "ata": 6.61,
+   "picks": 18004
+  },
+  "Innocuous Rat": {
+   "gih": 0.5534,
+   "games": 71489,
+   "ata": 7.96,
+   "picks": 47065
+  },
+  "Inquisitive Glimmer": {
+   "gih": 0.574,
+   "games": 37685,
+   "ata": 4.51,
+   "picks": 20834
+  },
+  "Insidious Fungus": {
+   "gih": 0.5651,
+   "games": 44706,
+   "ata": 4.79,
+   "picks": 21789
+  },
+  "Intruding Soulrager": {
+   "gih": 0.5302,
+   "games": 16729,
+   "ata": 9.22,
+   "picks": 21055
+  },
+  "Irreverent Gremlin": {
+   "gih": 0.5726,
+   "games": 54458,
+   "ata": 4.23,
+   "picks": 26598
+  },
+  "Island": {
+   "gih": 0.5476,
+   "games": 444021,
+   "ata": 13.95,
+   "picks": 49183
+  },
+  "Jump Scare": {
+   "gih": 0.5557,
+   "games": 50927,
+   "ata": 9.23,
+   "picks": 48843
+  },
+  "Kaito, Bane of Nightmares": {
+   "gih": 0.5759,
+   "games": 7302,
+   "ata": 1.94,
+   "picks": 3862
+  },
+  "Keys to the House": {
+   "gih": 0.5076,
+   "games": 18196,
+   "ata": 9.14,
+   "picks": 19434
+  },
+  "Killer's Mask": {
+   "gih": 0.5124,
+   "games": 11739,
+   "ata": 8.98,
+   "picks": 15183
+  },
+  "Kona, Rescue Beastie": {
+   "gih": 0.5035,
+   "games": 10096,
+   "ata": 2.73,
+   "picks": 5592
+  },
+  "Lakeside Shack": {
+   "gih": 0.551,
+   "games": 49905,
+   "ata": 8.92,
+   "picks": 32176
+  },
+  "Let's Play a Game": {
+   "gih": 0.5575,
+   "games": 17407,
+   "ata": 7.86,
+   "picks": 17334
+  },
+  "Leyline of Hope": {
+   "gih": 0.4237,
+   "games": 118,
+   "ata": 9.35,
+   "picks": 6472
+  },
+  "Leyline of Mutation": {
+   "gih": 0.4286,
+   "games": 14,
+   "ata": 9.95,
+   "picks": 8065
+  },
+  "Leyline of Resonance": {
+   "gih": 0.365,
+   "games": 137,
+   "ata": 8.99,
+   "picks": 6488
+  },
+  "Leyline of Transformation": {
+   "gih": 0.4,
+   "games": 55,
+   "ata": 9.87,
+   "picks": 7752
+  },
+  "Leyline of the Void": {
+   "gih": 0.4087,
+   "games": 115,
+   "ata": 9.43,
+   "picks": 6639
+  },
+  "Lionheart Glimmer": {
+   "gih": 0.5545,
+   "games": 32546,
+   "ata": 4.4,
+   "picks": 17340
+  },
+  "Live or Die": {
+   "gih": 0.5515,
+   "games": 33999,
+   "ata": 4.37,
+   "picks": 17959
+  },
+  "Living Phone": {
+   "gih": 0.5154,
+   "games": 18808,
+   "ata": 10.73,
+   "picks": 40812
+  },
+  "Maddening Hex": {
+   "gih": 0.4739,
+   "games": 690,
+   "ata": 4.62,
+   "picks": 603
+  },
+  "Malevolent Chandelier": {
+   "gih": 0.5111,
+   "games": 21579,
+   "ata": 11.61,
+   "picks": 51111
+  },
+  "Manifest Dread": {
+   "gih": 0.5617,
+   "games": 106989,
+   "ata": 6.68,
+   "picks": 59308
+  },
+  "Marina Vendrell": {
+   "gih": 0.494,
+   "games": 2567,
+   "ata": 8.09,
+   "picks": 8147
+  },
+  "Marina Vendrell's Grimoire": {
+   "gih": 0.3463,
+   "games": 205,
+   "ata": 9.6,
+   "picks": 7547
+  },
+  "Marvin, Murderous Mimic": {
+   "gih": 0.5018,
+   "games": 4093,
+   "ata": 7.27,
+   "picks": 5845
+  },
+  "Meat Locker // Drowned Diner": {
+   "gih": 0.5539,
+   "games": 98640,
+   "ata": 6.27,
+   "picks": 53222
+  },
+  "Meathook Massacre II": {
+   "gih": 0.4959,
+   "games": 3807,
+   "ata": 3.52,
+   "picks": 2913
+  },
+  "Miasma Demon": {
+   "gih": 0.536,
+   "games": 21649,
+   "ata": 6.56,
+   "picks": 15673
+  },
+  "Midnight Mayhem": {
+   "gih": 0.6076,
+   "games": 39185,
+   "ata": 4.82,
+   "picks": 25392
+  },
+  "Mirror Room // Fractured Realm": {
+   "gih": 0.5516,
+   "games": 8499,
+   "ata": 2.63,
+   "picks": 4062
+  },
+  "Moldering Gym // Weight Room": {
+   "gih": 0.5421,
+   "games": 73292,
+   "ata": 7.29,
+   "picks": 45909
+  },
+  "Monstrous Emergence": {
+   "gih": 0.5615,
+   "games": 101958,
+   "ata": 5.4,
+   "picks": 53003
+  },
+  "Most Valuable Slayer": {
+   "gih": 0.5486,
+   "games": 98132,
+   "ata": 7.19,
+   "picks": 59847
+  },
+  "Mountain": {
+   "gih": 0.5512,
+   "games": 468518,
+   "ata": 13.95,
+   "picks": 49426
+  },
+  "Murder": {
+   "gih": 0.5506,
+   "games": 69945,
+   "ata": 5.73,
+   "picks": 39417
+  },
+  "Murky Sewer": {
+   "gih": 0.5376,
+   "games": 35698,
+   "ata": 9.33,
+   "picks": 29399
+  },
+  "Nashi, Searcher in the Dark": {
+   "gih": 0.5354,
+   "games": 9109,
+   "ata": 4.72,
+   "picks": 7308
+  },
+  "Neglected Manor": {
+   "gih": 0.5292,
+   "games": 30725,
+   "ata": 9.34,
+   "picks": 26552
+  },
+  "Niko, Light of Hope": {
+   "gih": 0.5996,
+   "games": 10374,
+   "ata": 1.81,
+   "picks": 4794
+  },
+  "Norin, Swift Survivalist": {
+   "gih": 0.5459,
+   "games": 29596,
+   "ata": 7.28,
+   "picks": 21273
+  },
+  "Nowhere to Run": {
+   "gih": 0.5744,
+   "games": 43288,
+   "ata": 3.28,
+   "picks": 19983
+  },
+  "Noxious Revival": {
+   "gih": 0.4098,
+   "games": 366,
+   "ata": 6.04,
+   "picks": 454
+  },
+  "Oblivious Bookworm": {
+   "gih": 0.5989,
+   "games": 49478,
+   "ata": 4.16,
+   "picks": 28124
+  },
+  "Omnivorous Flytrap": {
+   "gih": 0.5766,
+   "games": 21165,
+   "ata": 1.7,
+   "picks": 9253
+  },
+  "Optimistic Scavenger": {
+   "gih": 0.605,
+   "games": 49118,
+   "ata": 2.81,
+   "picks": 23837
+  },
+  "Orphans of the Wheat": {
+   "gih": 0.5337,
+   "games": 27016,
+   "ata": 5.8,
+   "picks": 16916
+  },
+  "Osseous Sticktwister": {
+   "gih": 0.5636,
+   "games": 42082,
+   "ata": 3.61,
+   "picks": 19880
+  },
+  "Overgrown Zealot": {
+   "gih": 0.547,
+   "games": 38232,
+   "ata": 4.41,
+   "picks": 19421
+  },
+  "Overlord of the Balemurk": {
+   "gih": 0.6184,
+   "games": 10157,
+   "ata": 1.48,
+   "picks": 4439
+  },
+  "Overlord of the Boilerbilges": {
+   "gih": 0.6401,
+   "games": 11477,
+   "ata": 1.35,
+   "picks": 4823
+  },
+  "Overlord of the Floodpits": {
+   "gih": 0.6309,
+   "games": 11308,
+   "ata": 1.47,
+   "picks": 4627
+  },
+  "Overlord of the Hauntwoods": {
+   "gih": 0.5662,
+   "games": 8975,
+   "ata": 1.47,
+   "picks": 4176
+  },
+  "Overlord of the Mistmoors": {
+   "gih": 0.6812,
+   "games": 11250,
+   "ata": 1.19,
+   "picks": 4548
+  },
+  "Painter's Studio // Defaced Gallery": {
+   "gih": 0.5729,
+   "games": 49208,
+   "ata": 4.76,
+   "picks": 25803
+  },
+  "Paranormal Analyst": {
+   "gih": 0.5637,
+   "games": 40070,
+   "ata": 4.82,
+   "picks": 23388
+  },
+  "Patched Plaything": {
+   "gih": 0.5387,
+   "games": 35761,
+   "ata": 4.87,
+   "picks": 19600
+  },
+  "Patchwork Beastie": {
+   "gih": 0.576,
+   "games": 47973,
+   "ata": 4.51,
+   "picks": 24835
+  },
+  "Peculiar Lighthouse": {
+   "gih": 0.5326,
+   "games": 36837,
+   "ata": 9.74,
+   "picks": 32760
+  },
+  "Peer Past the Veil": {
+   "gih": 0.5324,
+   "games": 9777,
+   "ata": 6.69,
+   "picks": 8654
+  },
+  "Phantasmal Image": {
+   "gih": 0.5751,
+   "games": 1692,
+   "ata": 2.65,
+   "picks": 765
+  },
+  "Piggy Bank": {
+   "gih": 0.5768,
+   "games": 54429,
+   "ata": 4.0,
+   "picks": 25523
+  },
+  "Piranha Fly": {
+   "gih": 0.5427,
+   "games": 48773,
+   "ata": 9.73,
+   "picks": 49623
+  },
+  "Plains": {
+   "gih": 0.5519,
+   "games": 469103,
+   "ata": 13.94,
+   "picks": 49109
+  },
+  "Popular Egotist": {
+   "gih": 0.5453,
+   "games": 26319,
+   "ata": 6.87,
+   "picks": 18806
+  },
+  "Possessed Goat": {
+   "gih": 0.5219,
+   "games": 21430,
+   "ata": 10.33,
+   "picks": 36132
+  },
+  "Pyroclasm": {
+   "gih": 0.524,
+   "games": 14236,
+   "ata": 8.06,
+   "picks": 17196
+  },
+  "Ragged Playmate": {
+   "gih": 0.5463,
+   "games": 75736,
+   "ata": 8.9,
+   "picks": 56853
+  },
+  "Rampaging Soulrager": {
+   "gih": 0.4959,
+   "games": 20327,
+   "ata": 11.41,
+   "picks": 46240
+  },
+  "Raucous Carnival": {
+   "gih": 0.541,
+   "games": 41161,
+   "ata": 9.29,
+   "picks": 30677
+  },
+  "Razorkin Hordecaller": {
+   "gih": 0.5873,
+   "games": 53615,
+   "ata": 3.87,
+   "picks": 26475
+  },
+  "Razorkin Needlehead": {
+   "gih": 0.5644,
+   "games": 16221,
+   "ata": 2.88,
+   "picks": 7913
+  },
+  "Razortrap Gorge": {
+   "gih": 0.5327,
+   "games": 37080,
+   "ata": 9.5,
+   "picks": 30160
+  },
+  "Reluctant Role Model": {
+   "gih": 0.5676,
+   "games": 18275,
+   "ata": 1.84,
+   "picks": 8303
+  },
+  "Restricted Office // Lecture Hall": {
+   "gih": 0.5533,
+   "games": 12895,
+   "ata": 4.01,
+   "picks": 7593
+  },
+  "Resurrected Cultist": {
+   "gih": 0.5166,
+   "games": 31459,
+   "ata": 10.5,
+   "picks": 41556
+  },
+  "Rip, Spawn Hunter": {
+   "gih": 0.5363,
+   "games": 8875,
+   "ata": 4.02,
+   "picks": 6347
+  },
+  "Ripchain Razorkin": {
+   "gih": 0.529,
+   "games": 21416,
+   "ata": 11.11,
+   "picks": 46570
+  },
+  "Rite of the Moth": {
+   "gih": 0.5448,
+   "games": 21591,
+   "ata": 6.59,
+   "picks": 17213
+  },
+  "Roaring Furnace // Steaming Sauna": {
+   "gih": 0.6,
+   "games": 20922,
+   "ata": 3.08,
+   "picks": 10586
+  },
+  "Rootwise Survivor": {
+   "gih": 0.5436,
+   "games": 22981,
+   "ata": 6.79,
+   "picks": 16815
+  },
+  "Sacrifice": {
+   "gih": 0.4512,
+   "games": 82,
+   "ata": 8.04,
+   "picks": 473
+  },
+  "Savior of the Small": {
+   "gih": 0.5098,
+   "games": 19603,
+   "ata": 5.9,
+   "picks": 13489
+  },
+  "Saw": {
+   "gih": 0.5242,
+   "games": 8804,
+   "ata": 10.3,
+   "picks": 19145
+  },
+  "Sawblade Skinripper": {
+   "gih": 0.5552,
+   "games": 29151,
+   "ata": 6.27,
+   "picks": 21124
+  },
+  "Say Its Name": {
+   "gih": 0.5505,
+   "games": 79466,
+   "ata": 7.11,
+   "picks": 58868
+  },
+  "Scorching Dragonfire": {
+   "gih": 0.5737,
+   "games": 126765,
+   "ata": 4.02,
+   "picks": 64536
+  },
+  "Scrabbling Skullcrab": {
+   "gih": 0.5081,
+   "games": 23805,
+   "ata": 6.93,
+   "picks": 18679
+  },
+  "Screaming Nemesis": {
+   "gih": 0.6168,
+   "games": 11245,
+   "ata": 1.62,
+   "picks": 4839
+  },
+  "Seized from Slumber": {
+   "gih": 0.5599,
+   "games": 67114,
+   "ata": 6.74,
+   "picks": 40714
+  },
+  "Shardmage's Rescue": {
+   "gih": 0.5656,
+   "games": 40659,
+   "ata": 4.2,
+   "picks": 20888
+  },
+  "Sheltered by Ghosts": {
+   "gih": 0.6165,
+   "games": 49222,
+   "ata": 2.28,
+   "picks": 22454
+  },
+  "Shepherding Spirits": {
+   "gih": 0.5198,
+   "games": 40222,
+   "ata": 9.39,
+   "picks": 38706
+  },
+  "Shrewd Storyteller": {
+   "gih": 0.5148,
+   "games": 14282,
+   "ata": 7.56,
+   "picks": 14508
+  },
+  "Shroudstomper": {
+   "gih": 0.546,
+   "games": 21079,
+   "ata": 6.53,
+   "picks": 18020
+  },
+  "Silent Hallcreeper": {
+   "gih": 0.6024,
+   "games": 23517,
+   "ata": 1.68,
+   "picks": 9679
+  },
+  "Skullsnap Nuisance": {
+   "gih": 0.5219,
+   "games": 16707,
+   "ata": 8.39,
+   "picks": 17664
+  },
+  "Slavering Branchsnapper": {
+   "gih": 0.5398,
+   "games": 72718,
+   "ata": 8.38,
+   "picks": 44811
+  },
+  "Smoky Lounge // Misty Salon": {
+   "gih": 0.5216,
+   "games": 25991,
+   "ata": 6.87,
+   "picks": 23783
+  },
+  "Soul Warden": {
+   "gih": 0.5367,
+   "games": 449,
+   "ata": 4.95,
+   "picks": 399
+  },
+  "Spectral Snatcher": {
+   "gih": 0.5236,
+   "games": 52038,
+   "ata": 9.27,
+   "picks": 40666
+  },
+  "Spineseeker Centipede": {
+   "gih": 0.5703,
+   "games": 113407,
+   "ata": 5.36,
+   "picks": 59001
+  },
+  "Split Up": {
+   "gih": 0.575,
+   "games": 14876,
+   "ata": 2.19,
+   "picks": 7394
+  },
+  "Splitskin Doll": {
+   "gih": 0.585,
+   "games": 49931,
+   "ata": 3.61,
+   "picks": 23795
+  },
+  "Sporogenic Infection": {
+   "gih": 0.5556,
+   "games": 32960,
+   "ata": 5.14,
+   "picks": 17571
+  },
+  "Stalked Researcher": {
+   "gih": 0.5402,
+   "games": 68247,
+   "ata": 9.22,
+   "picks": 52557
+  },
+  "Stay Hidden, Stay Silent": {
+   "gih": 0.5854,
+   "games": 57763,
+   "ata": 3.55,
+   "picks": 25531
+  },
+  "Strangled Cemetery": {
+   "gih": 0.5361,
+   "games": 44885,
+   "ata": 8.77,
+   "picks": 29672
+  },
+  "Surgical Suite // Hospital Room": {
+   "gih": 0.5728,
+   "games": 40577,
+   "ata": 3.18,
+   "picks": 19589
+  },
+  "Swamp": {
+   "gih": 0.535,
+   "games": 357730,
+   "ata": 13.95,
+   "picks": 48953
+  },
+  "Terramorphic Expanse": {
+   "gih": 0.5509,
+   "games": 143338,
+   "ata": 6.19,
+   "picks": 64011
+  },
+  "The Jolly Balloon Man": {
+   "gih": 0.5395,
+   "games": 15276,
+   "ata": 3.08,
+   "picks": 8737
+  },
+  "The Mindskinner": {
+   "gih": 0.5568,
+   "games": 11964,
+   "ata": 4.28,
+   "picks": 7306
+  },
+  "The Rollercrusher Ride": {
+   "gih": 0.6027,
+   "games": 12534,
+   "ata": 1.57,
+   "picks": 5336
+  },
+  "The Swarmweaver": {
+   "gih": 0.6435,
+   "games": 23495,
+   "ata": 1.87,
+   "picks": 10164
+  },
+  "The Tale of Tamiyo": {
+   "gih": 0.4907,
+   "games": 536,
+   "ata": 9.09,
+   "picks": 7213
+  },
+  "The Wandering Rescuer": {
+   "gih": 0.5884,
+   "games": 9188,
+   "ata": 1.37,
+   "picks": 4243
+  },
+  "Thornspire Verge": {
+   "gih": 0.5429,
+   "games": 10619,
+   "ata": 6.07,
+   "picks": 7899
+  },
+  "Threats Around Every Corner": {
+   "gih": 0.5838,
+   "games": 48294,
+   "ata": 3.73,
+   "picks": 23945
+  },
+  "Ticket Booth // Tunnel of Hate": {
+   "gih": 0.5517,
+   "games": 70976,
+   "ata": 8.42,
+   "picks": 54408
+  },
+  "Toby, Beastie Befriender": {
+   "gih": 0.6137,
+   "games": 20461,
+   "ata": 1.85,
+   "picks": 9066
+  },
+  "Trapped in the Screen": {
+   "gih": 0.5736,
+   "games": 105966,
+   "ata": 3.54,
+   "picks": 52083
+  },
+  "Trial of Agony": {
+   "gih": 0.5395,
+   "games": 27930,
+   "ata": 6.85,
+   "picks": 20444
+  },
+  "Tunnel Surveyor": {
+   "gih": 0.5564,
+   "games": 92810,
+   "ata": 7.29,
+   "picks": 55633
+  },
+  "Turn Inside Out": {
+   "gih": 0.5709,
+   "games": 88145,
+   "ata": 7.92,
+   "picks": 60376
+  },
+  "Twist Reality": {
+   "gih": 0.5533,
+   "games": 56917,
+   "ata": 9.42,
+   "picks": 51371
+  },
+  "Twitching Doll": {
+   "gih": 0.5812,
+   "games": 20197,
+   "ata": 1.71,
+   "picks": 9128
+  },
+  "Tyvar, the Pummeler": {
+   "gih": 0.63,
+   "games": 10864,
+   "ata": 1.47,
+   "picks": 4624
+  },
+  "Unable to Scream": {
+   "gih": 0.5674,
+   "games": 117937,
+   "ata": 5.41,
+   "picks": 58639
+  },
+  "Undead Sprinter": {
+   "gih": 0.5716,
+   "games": 14125,
+   "ata": 3.89,
+   "picks": 8914
+  },
+  "Under the Skin": {
+   "gih": 0.5965,
+   "games": 59259,
+   "ata": 3.2,
+   "picks": 27080
+  },
+  "Underwater Tunnel // Slimy Aquarium": {
+   "gih": 0.547,
+   "games": 94567,
+   "ata": 7.24,
+   "picks": 52826
+  },
+  "Unholy Annex // Ritual Chamber": {
+   "gih": 0.647,
+   "games": 22560,
+   "ata": 1.67,
+   "picks": 9559
+  },
+  "Unholy Heat": {
+   "gih": 0.5793,
+   "games": 1716,
+   "ata": 2.69,
+   "picks": 807
+  },
+  "Unidentified Hovership": {
+   "gih": 0.6074,
+   "games": 19391,
+   "ata": 1.88,
+   "picks": 9145
+  },
+  "Unnerving Grasp": {
+   "gih": 0.6028,
+   "games": 63509,
+   "ata": 3.45,
+   "picks": 28405
+  },
+  "Unsettling Twins": {
+   "gih": 0.5676,
+   "games": 80289,
+   "ata": 7.38,
+   "picks": 53764
+  },
+  "Unstoppable Slasher": {
+   "gih": 0.6143,
+   "games": 20687,
+   "ata": 1.5,
+   "picks": 8827
+  },
+  "Untimely Malfunction": {
+   "gih": 0.5304,
+   "games": 10334,
+   "ata": 9.45,
+   "picks": 17495
+  },
+  "Unwanted Remake": {
+   "gih": 0.4798,
+   "games": 8041,
+   "ata": 8.63,
+   "picks": 11473
+  },
+  "Unwilling Vessel": {
+   "gih": 0.5339,
+   "games": 40006,
+   "ata": 4.47,
+   "picks": 19803
+  },
+  "Valgavoth's Faithful": {
+   "gih": 0.5381,
+   "games": 26235,
+   "ata": 5.77,
+   "picks": 16075
+  },
+  "Valgavoth's Lair": {
+   "gih": 0.5331,
+   "games": 18522,
+   "ata": 4.08,
+   "picks": 7935
+  },
+  "Valgavoth's Onslaught": {
+   "gih": 0.6591,
+   "games": 26682,
+   "ata": 1.41,
+   "picks": 10608
+  },
+  "Valgavoth, Terror Eater": {
+   "gih": 0.5426,
+   "games": 6060,
+   "ata": 1.85,
+   "picks": 3467
+  },
+  "Vanish from Sight": {
+   "gih": 0.5679,
+   "games": 82849,
+   "ata": 8.96,
+   "picks": 61785
+  },
+  "Vengeful Possession": {
+   "gih": 0.5688,
+   "games": 26596,
+   "ata": 7.29,
+   "picks": 21541
+  },
+  "Veteran Survivor": {
+   "gih": 0.5653,
+   "games": 31681,
+   "ata": 5.07,
+   "picks": 17736
+  },
+  "Vicious Clown": {
+   "gih": 0.5392,
+   "games": 49911,
+   "ata": 9.72,
+   "picks": 50368
+  },
+  "Victor, Valgavoth's Seneschal": {
+   "gih": 0.5085,
+   "games": 9222,
+   "ata": 4.04,
+   "picks": 6598
+  },
+  "Vile Mutilator": {
+   "gih": 0.5487,
+   "games": 29545,
+   "ata": 5.05,
+   "picks": 17003
+  },
+  "Violent Urge": {
+   "gih": 0.53,
+   "games": 22179,
+   "ata": 7.86,
+   "picks": 19824
+  },
+  "Walk-In Closet // Forgotten Cellar": {
+   "gih": 0.4979,
+   "games": 1651,
+   "ata": 6.55,
+   "picks": 2851
+  },
+  "Waltz of Rage": {
+   "gih": 0.5631,
+   "games": 16508,
+   "ata": 3.13,
+   "picks": 9592
+  },
+  "Wary Watchdog": {
+   "gih": 0.5565,
+   "games": 100589,
+   "ata": 6.86,
+   "picks": 55016
+  },
+  "Wickerfolk Thresher": {
+   "gih": 0.547,
+   "games": 45124,
+   "ata": 3.51,
+   "picks": 21237
+  },
+  "Wildfire Wickerfolk": {
+   "gih": 0.5865,
+   "games": 37387,
+   "ata": 5.17,
+   "picks": 23947
+  },
+  "Winter's Intervention": {
+   "gih": 0.5489,
+   "games": 60467,
+   "ata": 8.1,
+   "picks": 42973
+  },
+  "Winter, Misanthropic Guide": {
+   "gih": 0.4784,
+   "games": 3081,
+   "ata": 7.81,
+   "picks": 6687
+  },
+  "Withering Torment": {
+   "gih": 0.5424,
+   "games": 37448,
+   "ata": 3.86,
+   "picks": 18064
+  },
+  "Zimone, All-Questioning": {
+   "gih": 0.6173,
+   "games": 22875,
+   "ata": 2.3,
+   "picks": 10578
+  }
+ }
+}

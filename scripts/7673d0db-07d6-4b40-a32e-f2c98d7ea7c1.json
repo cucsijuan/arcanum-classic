@@ -1,0 +1,18 @@
+{
+  "name": "Intruding Soulrager",
+  "abilities": [
+    {
+      "cost": "{T}, sacrificeAny:Room",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Sacrifice a Room: This creature deals 2 damage to each opponent. Draw a card."
+    }
+  ]
+}

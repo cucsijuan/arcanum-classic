@@ -1,0 +1,35 @@
+{
+  "name": "Saw",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +2/+0."
+    },
+    {
+      "trigger": "equippedAttacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a permanent other than that creature or this Equipment to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "other": true,
+              "notAttachedToSource": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature attacks, you may sacrifice a permanent other than that creature or this Equipment. If you do, draw a card."
+    }
+  ]
+}

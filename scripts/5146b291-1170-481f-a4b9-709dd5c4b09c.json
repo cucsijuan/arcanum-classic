@@ -1,0 +1,11 @@
+{
+  "name": "Overgrown Zealot",
+  "extraMana": [
+    {
+      "types": "any",
+      "amount": 2,
+      "onlyFor": "none",
+      "forFaceUp": true
+    }
+  ]
+}

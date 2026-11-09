@@ -1,0 +1,52 @@
+{
+  "name": "Titania, Nature's Force",
+  "rules": [
+    "PlayForestsFromGraveyard"
+  ],
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "subtype": "Forest",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "Whenever a Forest you control enters, create a 5/3 green Elemental creature token."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "subtype": "Elemental",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Mill three cards?",
+          "effects": [
+            {
+              "mill": 3,
+              "who": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an Elemental you control dies, you may mill three cards."
+    }
+  ]
+}

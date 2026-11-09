@@ -1,0 +1,25 @@
+{
+  "name": "Spiteful Visions",
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "At the beginning of each player's draw step, that player draws an additional card."
+    },
+    {
+      "trigger": "anyPlayerDraws",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever a player draws a card, this enchantment deals 1 damage to that player."
+    }
+  ]
+}

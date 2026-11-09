@@ -1,0 +1,46 @@
+{
+  "name": "Massacre Girl",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            -1,
+            -1
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "other": true
+            }
+          }
+        },
+        {
+          "wheneverCreatureDiesThisTurn": [
+            {
+              "pump": [
+                -1,
+                -1
+              ],
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any",
+                  "other": true
+                }
+              }
+            }
+          ],
+          "text": "Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn."
+        }
+      ],
+      "text": "When Massacre Girl enters, each other creature gets -1/-1 until end of turn. Whenever a creature dies this turn, each creature other than Massacre Girl gets -1/-1 until end of turn."
+    }
+  ]
+}

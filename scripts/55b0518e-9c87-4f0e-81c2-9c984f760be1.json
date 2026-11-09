@@ -1,0 +1,27 @@
+{
+  "name": "Twist Reality",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Counter target spell.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Manifest dread.",
+        "effects": [
+          {
+            "manifestDread": true
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Silent Hallcreeper",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "This creature can't be blocked."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "modesOnce": true,
+      "text": "Whenever this creature deals combat damage to a player, choose one that hasn't been chosen —",
+      "modes": [
+        {
+          "text": "Put two +1/+1 counters on this creature.",
+          "effects": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Draw a card.",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "text": "This creature becomes a copy of another target creature you control.",
+          "targets": [
+            {
+              "kind": "creature",
+              "controller": "you",
+              "filter": {
+                "other": true
+              },
+              "text": "another target creature you control"
+            }
+          ],
+          "effects": [
+            {
+              "becomeCopy": "self",
+              "target": "target",
+              "lasting": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

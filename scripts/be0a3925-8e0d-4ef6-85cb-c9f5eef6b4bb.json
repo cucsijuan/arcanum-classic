@@ -1,0 +1,27 @@
+{
+  "name": "Turn Inside Out",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "whenDiesThisTurn": "target",
+        "effects": [
+          {
+            "manifestDread": true
+          }
+        ],
+        "text": "When it dies this turn, manifest dread."
+      }
+    ],
+    "text": "Target creature gets +3/+0 until end of turn. When it dies this turn, manifest dread."
+  }
+}

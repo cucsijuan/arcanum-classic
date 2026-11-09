@@ -1,0 +1,30 @@
+{
+  "name": "Final Vengeance",
+  "additionalCost": {
+    "sacrifice": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "types": [
+            "enchantment"
+          ]
+        }
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target creature."
+  }
+}

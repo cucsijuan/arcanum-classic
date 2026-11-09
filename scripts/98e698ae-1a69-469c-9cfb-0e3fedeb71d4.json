@@ -1,0 +1,31 @@
+{
+  "name": "Enduring Tenacity",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": "triggerAmount",
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you gain life, target opponent loses that much life."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "reanimate": "self",
+          "ownerControl": true,
+          "setTypes": [
+            "enchantment"
+          ]
+        }
+      ],
+      "text": "When Enduring Tenacity dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)"
+    }
+  ]
+}

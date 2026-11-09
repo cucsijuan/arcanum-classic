@@ -1,0 +1,36 @@
+{
+  "name": "Painter's Studio // Defaced Gallery",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "exileTopPlayable": 2,
+              "untilNextTurn": true
+            }
+          ],
+          "text": "When you unlock this door, exile the top two cards of your library. You may play them until the end of your next turn."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youAttack",
+          "effects": [
+            {
+              "pump": [
+                1,
+                0
+              ],
+              "what": "attackers"
+            }
+          ],
+          "text": "Whenever you attack, attacking creatures you control get +1/+0 until end of turn."
+        }
+      ]
+    }
+  ]
+}

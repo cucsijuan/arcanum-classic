@@ -1,0 +1,16 @@
+{
+  "name": "Monologue Tax",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever an opponent casts their second spell each turn, you create a Treasure token."
+    }
+  ]
+}

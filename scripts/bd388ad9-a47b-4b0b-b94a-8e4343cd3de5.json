@@ -1,0 +1,64 @@
+{
+  "name": "Unholy Annex // Ritual Chamber",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "endStep",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "if": {
+                "control": {
+                  "subtype": "Demon"
+                }
+              },
+              "then": [
+                {
+                  "loseLife": 2,
+                  "who": "opponents"
+                },
+                {
+                  "gainLife": 2
+                }
+              ],
+              "else": [
+                {
+                  "loseLife": 2
+                }
+              ]
+            }
+          ],
+          "text": "At the beginning of your end step, draw a card. If you control a Demon, each opponent loses 2 life and you gain 2 life. Otherwise, you lose 2 life."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Demon",
+                "types": "Creature — Demon",
+                "colors": [
+                  "B"
+                ],
+                "power": 6,
+                "toughness": 6,
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            }
+          ],
+          "text": "When you unlock this door, create a 6/6 black Demon creature token with flying."
+        }
+      ]
+    }
+  ]
+}

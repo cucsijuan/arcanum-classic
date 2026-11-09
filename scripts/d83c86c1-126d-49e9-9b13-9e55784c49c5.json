@@ -1,0 +1,23 @@
+{
+  "name": "Leechridden Swamp",
+  "abilities": [
+    {
+      "cost": "{B}, {T}",
+      "activateIf": {
+        "control": {
+          "colors": [
+            "B"
+          ]
+        },
+        "count": 2
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "{B}, {T}: Each opponent loses 1 life. Activate only if you control two or more black permanents."
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "name": "Grist, the Hunger Tide",
+  "creatureOffBattlefield": [
+    1,
+    1,
+    "Insect"
+  ],
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "colors": [
+              "B",
+              "G"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        },
+        {
+          "mill": 1
+        },
+        {
+          "if": {
+            "atLeast": {
+              "milled": {
+                "subtype": "Insect"
+              }
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "counters": 1,
+              "kind": "loyalty",
+              "what": "self"
+            },
+            {
+              "repeatProcess": true
+            }
+          ]
+        }
+      ],
+      "text": "+1: Create a 1/1 black and green Insect creature token, then mill a card. If an Insect card was milled this way, put a loyalty counter on Grist and repeat this process."
+    },
+    {
+      "cost": "-2",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a creature?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creatureOrPlaneswalker"
+                ],
+                "effects": [
+                  {
+                    "destroy": "target"
+                  }
+                ],
+                "text": "Destroy target creature or planeswalker."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "−2: You may sacrifice a creature. When you do, destroy target creature or planeswalker."
+    },
+    {
+      "cost": "-5",
+      "effects": [
+        {
+          "loseLife": {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "−5: Each opponent loses life equal to the number of creature cards in your graveyard."
+    }
+  ]
+}

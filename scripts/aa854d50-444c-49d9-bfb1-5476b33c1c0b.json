@@ -1,0 +1,45 @@
+{
+  "name": "Scute Swarm",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "land"
+              ]
+            },
+            "count": 6
+          },
+          "then": [
+            {
+              "copy": "self"
+            }
+          ],
+          "else": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Insect",
+                "types": "Creature — Insect",
+                "colors": [
+                  "G"
+                ],
+                "power": 1,
+                "toughness": 1
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 1/1 green Insect creature token. If you control six or more lands, create a token that's a copy of this creature instead."
+    }
+  ]
+}

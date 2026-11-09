@@ -1,0 +1,18 @@
+{
+  "name": "Winter, Misanthropic Guide",
+  "rules": [
+    "OpponentsHandSizeSevenMinusCardTypes"
+  ],
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "draw": 2,
+          "who": "everyone"
+        }
+      ],
+      "text": "At the beginning of your upkeep, each player draws two cards."
+    }
+  ]
+}

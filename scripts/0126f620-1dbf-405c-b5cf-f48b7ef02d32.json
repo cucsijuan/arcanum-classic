@@ -1,0 +1,19 @@
+{
+  "name": "Dirtwater Wraith",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{B}: This creature gets +1/+0 until end of turn."
+    }
+  ]
+}

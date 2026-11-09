@@ -1,0 +1,43 @@
+{
+  "name": "Whisperwood Elemental",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "manifest": 1
+        }
+      ],
+      "text": "At the beginning of your end step, manifest the top card of your library."
+    },
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "become": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "token": false,
+              "faceDown": false
+            }
+          },
+          "abilities": [
+            {
+              "trigger": "dies",
+              "effects": [
+                {
+                  "manifest": 1
+                }
+              ],
+              "text": "When this creature dies, manifest the top card of your library."
+            }
+          ]
+        }
+      ],
+      "text": "Sacrifice this creature: Until end of turn, face-up nontoken creatures you control gain \"When this creature dies, manifest the top card of your library.\""
+    }
+  ]
+}

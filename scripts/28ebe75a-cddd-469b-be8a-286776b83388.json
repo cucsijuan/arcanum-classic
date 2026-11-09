@@ -1,0 +1,29 @@
+{
+  "name": "Stormcaller's Boon",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Sacrifice this enchantment: Creatures you control gain flying until end of turn."
+    }
+  ]
+}

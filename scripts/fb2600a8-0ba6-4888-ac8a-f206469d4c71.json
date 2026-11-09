@@ -1,0 +1,34 @@
+{
+  "name": "Fear of Immobility",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "if": {
+            "not": {
+              "targetControlledByYou": "target"
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "kind": "stun",
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, tap up to one target creature. If an opponent controls that creature, put a stun counter on it."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Polluted Cistern // Dim Oubliette",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "cardPutIntoYourGraveyard",
+          "fromZone": "library",
+          "batched": true,
+          "effects": [
+            {
+              "loseLife": "cardTypesAmongBatch",
+              "who": "opponents"
+            }
+          ],
+          "text": "Whenever one or more cards are put into your graveyard from your library, each opponent loses 1 life for each card type among those cards."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "mill": 3,
+              "who": "you"
+            },
+            {
+              "returnFromGraveyard": {
+                "types": [
+                  "creature"
+                ]
+              },
+              "count": 1,
+              "to": "battlefield"
+            }
+          ],
+          "text": "When you unlock this door, mill three cards, then return a creature card from your graveyard to the battlefield."
+        }
+      ]
+    }
+  ]
+}

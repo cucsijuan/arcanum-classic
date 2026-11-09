@@ -1,0 +1,98 @@
+{
+  "name": "Wrenn and Seven",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "lookAtTop": 4,
+          "revealAll": true,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "take": -1,
+          "required": true,
+          "to": "hand",
+          "rest": "graveyard"
+        }
+      ],
+      "text": "+1: Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "0: Put any number of land cards from your hand onto the battlefield tapped."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Treefolk",
+            "types": "Creature — Treefolk",
+            "colors": [
+              "G"
+            ],
+            "power": 0,
+            "toughness": 0,
+            "keywords": [
+              "Reach"
+            ],
+            "powerFrom": {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            "toughnessFrom": {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "text": "−3: Create a green Treefolk creature token with reach and \"This token's power and toughness are each equal to the number of lands you control.\""
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "returnFromGraveyardAll": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          }
+        },
+        {
+          "emblem": "Wrenn and Seven",
+          "replaces": [
+            "NoMaximumHandSize"
+          ],
+          "emblemText": "You have no maximum hand size."
+        }
+      ],
+      "text": "−8: Return all permanent cards from your graveyard to your hand. You get an emblem with \"You have no maximum hand size.\""
+    }
+  ]
+}

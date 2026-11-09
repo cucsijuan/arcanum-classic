@@ -1,0 +1,22 @@
+{
+  "name": "Leyline of Hope",
+  "startsOnBattlefield": true,
+  "replaces": [
+    "ExtraLifeGain"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "lifeAboveStarting": 7
+        }
+      },
+      "text": "As long as you have at least 7 life more than your starting life total, creatures you control get +2/+2."
+    }
+  ]
+}

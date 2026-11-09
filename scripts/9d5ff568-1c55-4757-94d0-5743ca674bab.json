@@ -1,0 +1,27 @@
+{
+  "name": "Cynical Loner",
+  "cantBeBlockedBy": {
+    "subtype": "Glimmer"
+  },
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "may": "Search your library for a card and put it into your graveyard?",
+          "effects": [
+            {
+              "search": {},
+              "count": 1,
+              "to": "graveyard"
+            }
+          ]
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, you may search your library for a card, put it into your graveyard, then shuffle."
+    }
+  ]
+}

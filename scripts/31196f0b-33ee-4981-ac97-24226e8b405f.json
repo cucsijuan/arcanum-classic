@@ -1,0 +1,31 @@
+{
+  "name": "Overlord of the Floodpits",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, draw two cards, then discard a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, draw two cards, then discard a card."
+    }
+  ]
+}

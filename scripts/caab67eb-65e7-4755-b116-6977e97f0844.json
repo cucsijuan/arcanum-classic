@@ -1,0 +1,7 @@
+{
+  "name": "Leyline of Mutation",
+  "startsOnBattlefield": true,
+  "rules": [
+    "YourSpellsForFiveColors"
+  ]
+}

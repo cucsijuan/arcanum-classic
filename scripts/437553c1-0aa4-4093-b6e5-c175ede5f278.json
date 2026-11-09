@@ -1,0 +1,22 @@
+{
+  "name": "Malevolent Chandelier",
+  "abilities": [
+    {
+      "cost": "{2}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{2}: Put target card from a graveyard on the bottom of its owner's library. Activate only as a sorcery."
+    }
+  ]
+}

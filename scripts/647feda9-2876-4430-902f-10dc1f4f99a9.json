@@ -1,0 +1,28 @@
+{
+  "name": "Ursine Monstrosity",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mill": 1,
+          "who": "you"
+        },
+        {
+          "attacksRandomOpponent": true
+        },
+        {
+          "pump": [
+            "cardTypesInGraveyard",
+            "cardTypesInGraveyard"
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, mill a card and choose an opponent at random. This creature attacks that player this combat if able. Until end of turn, this creature gains indestructible and gets +1/+1 for each card type among cards in your graveyard."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Boilerbilges Ripper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature or enchantment?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                }
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "any"
+                ],
+                "effects": [
+                  {
+                    "damage": 2,
+                    "to": "target"
+                  }
+                ],
+                "text": "When you do, this creature deals 2 damage to any target."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may sacrifice another creature or enchantment. When you do, this creature deals 2 damage to any target."
+    }
+  ]
+}

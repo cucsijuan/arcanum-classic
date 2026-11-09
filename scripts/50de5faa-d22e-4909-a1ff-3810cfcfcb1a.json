@@ -1,0 +1,45 @@
+{
+  "name": "Dissection Tools",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        },
+        {
+          "attach": "created"
+        }
+      ],
+      "text": "When this Equipment enters, manifest dread, then attach this Equipment to that creature."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Deathtouch",
+          "Lifelink"
+        ]
+      },
+      "text": "Equipped creature gets +2/+2 and has deathtouch and lifelink."
+    },
+    {
+      "cost": "sacrificeAny:creature",
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip—Sacrifice a creature."
+    }
+  ]
+}

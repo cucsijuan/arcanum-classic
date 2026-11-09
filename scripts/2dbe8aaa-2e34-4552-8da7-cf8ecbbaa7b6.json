@@ -1,0 +1,20 @@
+{
+  "name": "Biomass Mutation",
+  "spell": {
+    "effects": [
+      {
+        "become": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "powerFrom": "X",
+        "toughnessFrom": "X"
+      }
+    ],
+    "text": "Creatures you control have base power and toughness X/X until end of turn."
+  }
+}

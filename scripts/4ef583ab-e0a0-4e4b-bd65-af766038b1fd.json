@@ -1,0 +1,44 @@
+{
+  "name": "Ghost Vacuum",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "{T}: Exile target card from a graveyard."
+    },
+    {
+      "cost": "{6}, {T}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "reanimate": {
+            "exiledWithThis": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "counters": 1,
+          "counterKind": "flying",
+          "addSubtypes": [
+            "Spirit"
+          ],
+          "setPower": 1,
+          "setToughness": 1
+        }
+      ],
+      "text": "{6}, {T}, Sacrifice this artifact: Put each creature card exiled with this artifact onto the battlefield under your control with a flying counter on it. Each of them is a 1/1 Spirit in addition to its other types. Activate only as a sorcery."
+    }
+  ]
+}

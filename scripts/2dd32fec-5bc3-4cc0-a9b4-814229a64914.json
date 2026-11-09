@@ -1,0 +1,21 @@
+{
+  "name": "Balustrade Wurm",
+  "uncounterable": true,
+  "abilities": [
+    {
+      "cost": "{2}{G}{G}, fromGraveyard",
+      "sorcery": true,
+      "activateIf": {
+        "cardTypesInGraveyard": 4
+      },
+      "effects": [
+        {
+          "reanimate": "self",
+          "counters": 1,
+          "counterKind": "finality"
+        }
+      ],
+      "text": "Delirium — {2}{G}{G}: Return this card from your graveyard to the battlefield with a finality counter on it. Activate only if there are four or more card types among cards in your graveyard and only as a sorcery."
+    }
+  ]
+}

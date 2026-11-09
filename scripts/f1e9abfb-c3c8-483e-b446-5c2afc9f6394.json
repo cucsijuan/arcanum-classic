@@ -1,0 +1,26 @@
+{
+  "name": "Floodfarm Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Plains"
+            },
+            {
+              "subtype": "Island"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{U}"
+        }
+      ],
+      "text": "{T}: Add {U}. Activate only if you control a Plains or an Island."
+    }
+  ]
+}

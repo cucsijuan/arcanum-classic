@@ -1,0 +1,33 @@
+{
+  "name": "Sawblade Skinripper",
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:creature|enchantment",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}, Sacrifice another creature or enchantment: Put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "sacrificedThisTurn": {
+          "controller": "any"
+        }
+      },
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": "permanentsSacrificedThisTurn",
+          "to": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, if you sacrificed one or more permanents this turn, this creature deals that much damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Dauthi Jackal",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{B}{B}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "inCombat": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{B}{B}, Sacrifice this creature: Destroy target blocking creature."
+    }
+  ]
+}

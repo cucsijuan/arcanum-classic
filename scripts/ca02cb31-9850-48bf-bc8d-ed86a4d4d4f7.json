@@ -1,0 +1,50 @@
+{
+  "name": "Giggling Skitterspike",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, blocks, or becomes the target of a spell, it deals damage equal to its power to each opponent."
+    },
+    {
+      "trigger": "blocks",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, blocks, or becomes the target of a spell, it deals damage equal to its power to each opponent."
+    },
+    {
+      "trigger": "becomesTargetOfSpell",
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever this creature attacks, blocks, or becomes the target of a spell, it deals damage equal to its power to each opponent."
+    },
+    {
+      "cost": "{5}",
+      "effects": [
+        {
+          "monstrosity": 5
+        }
+      ],
+      "text": "{5}: Monstrosity 5."
+    }
+  ]
+}

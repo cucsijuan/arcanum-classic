@@ -1,0 +1,6 @@
+{
+  "name": "Murky Sewer",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

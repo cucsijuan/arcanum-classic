@@ -1,0 +1,32 @@
+{
+  "name": "Cryptid Inspector",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "controller": "you",
+        "faceDown": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a face-down permanent you control enters and whenever this creature or another permanent you control is turned face up, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "yourPermanentTurnedFaceUp",
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a face-down permanent you control enters and whenever this creature or another permanent you control is turned face up, put a +1/+1 counter on this creature."
+    }
+  ]
+}

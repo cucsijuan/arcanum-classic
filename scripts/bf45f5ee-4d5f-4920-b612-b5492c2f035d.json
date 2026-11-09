@@ -1,0 +1,17 @@
+{
+  "name": "Aminatou, Veil Piercer",
+  "rules": [
+    "HandEnchantmentsHaveMiracle"
+  ],
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 2."
+    }
+  ]
+}

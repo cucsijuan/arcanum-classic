@@ -1,0 +1,18 @@
+{
+  "name": "Ingenuity Engine",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrificeAny:artifact",
+      "targets": [
+        "artifact:you"
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice an artifact: Return target artifact you control to its owner's hand."
+    }
+  ]
+}

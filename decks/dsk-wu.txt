@@ -1,0 +1,38 @@
+1 Clammy Prowler
+1 Creeping Peeper
+1 Daggermaw Megalodon
+1 Enduring Curiosity
+1 Enduring Innocence
+1 Fear of Abduction
+1 Fear of Failed Tests
+1 Fear of Falling
+1 Fear of Immobility
+1 Fear of Impostors
+1 Fear of Isolation
+1 Fear of Surveillance
+1 Floodpits Drowner
+1 Friendly Ghost
+1 Friendly Teddy
+1 Ghostly Keybearer
+1 Hardened Escort
+1 Inquisitive Glimmer
+1 Lionheart Glimmer
+1 Living Phone
+1 Malevolent Chandelier
+1 Marvin, Murderous Mimic
+1 Don't Make a Sound
+1 Duskmourn's Domination
+1 Emerge from the Cocoon
+1 Enter the Enigma
+1 Ethereal Armor
+1 Exorcise
+1 Get Out
+1 Ghost Vacuum
+1 Glimmerburst
+1 Jump Scare
+1 Leyline of Hope
+1 Leyline of Transformation
+1 Marina Vendrell's Grimoire
+1 Seized from Slumber
+12 Plains
+12 Island

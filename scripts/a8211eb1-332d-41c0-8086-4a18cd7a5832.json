@@ -1,0 +1,22 @@
+{
+  "name": "Soltari Emissary",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Shadow"
+          ]
+        }
+      ],
+      "text": "{W}: This creature gains shadow until end of turn."
+    }
+  ]
+}

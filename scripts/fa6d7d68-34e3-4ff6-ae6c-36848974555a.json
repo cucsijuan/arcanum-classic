@@ -1,0 +1,51 @@
+{
+  "name": "Wickerfolk Thresher",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "cardTypesInGraveyard": 4
+      },
+      "effects": [
+        {
+          "if": {
+            "topOfLibrary": {
+              "types": [
+                "land"
+              ]
+            }
+          },
+          "then": [
+            {
+              "may": "Put the land card on top of your library onto the battlefield? (Otherwise it goes into your hand.)",
+              "effects": [
+                {
+                  "lookAtTop": 1,
+                  "filter": {
+                    "types": [
+                      "land"
+                    ]
+                  },
+                  "take": 1,
+                  "to": "battlefield",
+                  "rest": "top"
+                }
+              ],
+              "else": [
+                {
+                  "topCardToHand": "you"
+                }
+              ]
+            }
+          ],
+          "else": [
+            {
+              "topCardToHand": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Delirium — Whenever this creature attacks, if there are four or more card types among cards in your graveyard, look at the top card of your library. If it's a land card, you may put it onto the battlefield. If you don't put the card onto the battlefield, put it into your hand."
+    }
+  ]
+}

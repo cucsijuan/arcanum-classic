@@ -1,0 +1,33 @@
+{
+  "name": "Sporogenic Infection",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "target",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "notAttachedToSource": true
+          }
+        }
+      ],
+      "text": "When this Aura enters, target player sacrifices a creature of their choice other than enchanted creature."
+    },
+    {
+      "trigger": "attachedDealtDamage",
+      "effects": [
+        {
+          "destroy": "attached"
+        }
+      ],
+      "text": "When enchanted creature is dealt damage, destroy it."
+    }
+  ]
+}

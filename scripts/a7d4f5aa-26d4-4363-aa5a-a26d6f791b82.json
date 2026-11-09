@@ -1,0 +1,24 @@
+{
+  "name": "Deathmist Raptor",
+  "abilities": [
+    {
+      "trigger": "yourPermanentTurnedFaceUp",
+      "filter": {
+        "controller": "you"
+      },
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "may": "Return this card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "self",
+              "faceUpOrDown": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a permanent you control is turned face up, you may return this card from your graveyard to the battlefield face up or face down."
+    }
+  ]
+}

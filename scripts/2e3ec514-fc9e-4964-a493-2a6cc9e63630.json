@@ -1,0 +1,21 @@
+{
+  "name": "The Mindskinner",
+  "rules": [
+    "YourDamageToOpponentsMillsInstead"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "The Mindskinner can't be blocked."
+    }
+  ]
+}

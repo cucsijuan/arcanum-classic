@@ -1,0 +1,35 @@
+{
+  "name": "Nightmare Shepherd",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "token": false
+      },
+      "effects": [
+        {
+          "may": "Exile it and create a 1/1 Nightmare token copy of it?",
+          "effects": [
+            {
+              "exile": "triggered"
+            },
+            {
+              "copy": "exiled",
+              "setPower": 1,
+              "setToughness": 1,
+              "addSubtypes": [
+                "Nightmare"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of that creature, except it's 1/1 and it's a Nightmare in addition to its other types."
+    }
+  ]
+}

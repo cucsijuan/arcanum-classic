@@ -1,0 +1,34 @@
+{
+  "name": "Beanstalk Giant // Fertile Footsteps",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "adventure": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield"
+        }
+      ],
+      "text": "Search your library for a basic land card, put it onto the battlefield, then shuffle."
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Castle Vantress",
+  "entersTappedUnless": {
+    "control": {
+      "subtype": "Island"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{2}{U}{U}, {T}",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "{2}{U}{U}, {T}: Scry 2."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Osseous Sticktwister",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "cardTypesInGraveyard": 4
+      },
+      "effects": [
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "sacrifice": {
+                "not": [
+                  "land"
+                ]
+              }
+            },
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "damage": {
+                "power": "self"
+              },
+              "to": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Delirium — At the beginning of your end step, if there are four or more card types among cards in your graveyard, each opponent may sacrifice a nonland permanent of their choice or discard a card. Then this creature deals damage equal to its power to each opponent who didn't sacrifice a permanent or discard a card this way."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Life Insurance",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "token": false
+      },
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever a nontoken creature dies, you lose 1 life and create a Treasure token."
+    }
+  ]
+}

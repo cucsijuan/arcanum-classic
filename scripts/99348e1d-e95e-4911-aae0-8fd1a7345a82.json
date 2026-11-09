@@ -1,0 +1,29 @@
+{
+  "name": "Skullsnap Nuisance",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, surveil 1."
+    },
+    {
+      "trigger": "youFullyUnlockRoom",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, surveil 1."
+    }
+  ]
+}

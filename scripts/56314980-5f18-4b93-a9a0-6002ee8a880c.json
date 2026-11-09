@@ -1,0 +1,22 @@
+{
+  "name": "Shriekwood Devourer",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "untapUpTo": {
+            "greatestPowerAmong": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "attacking": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever you attack with one or more creatures, untap up to X lands, where X is the greatest power among those creatures."
+    }
+  ]
+}

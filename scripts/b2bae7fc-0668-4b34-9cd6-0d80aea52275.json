@@ -1,0 +1,13 @@
+{
+  "name": "Tainted Peak",
+  "extraMana": [
+    {
+      "types": "{B}{R}",
+      "while": {
+        "control": {
+          "subtype": "Swamp"
+        }
+      }
+    }
+  ]
+}

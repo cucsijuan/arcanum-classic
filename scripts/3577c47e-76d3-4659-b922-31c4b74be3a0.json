@@ -1,0 +1,25 @@
+{
+  "name": "Enduring Vitality",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "grantsMana": "any"
+      },
+      "text": "Creatures you control have \"{T}: Add one mana of any color.\""
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "reanimate": "self",
+          "ownerControl": true,
+          "setTypes": [
+            "enchantment"
+          ]
+        }
+      ],
+      "text": "When Enduring Vitality dies, if it was a creature, return it to the battlefield under its owner's control. It's an enchantment. (It's not a creature.)"
+    }
+  ]
+}

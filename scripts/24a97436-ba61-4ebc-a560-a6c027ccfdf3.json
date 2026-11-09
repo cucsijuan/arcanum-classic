@@ -1,0 +1,6 @@
+{
+  "name": "Raucous Carnival",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

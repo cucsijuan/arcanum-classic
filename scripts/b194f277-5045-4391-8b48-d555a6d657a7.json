@@ -1,0 +1,24 @@
+{
+  "name": "The Lord of Pain",
+  "opponentsCantGainLife": true,
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "nth": 1,
+      "targets": [
+        {
+          "kind": "player",
+          "notTriggeredPlayer": true,
+          "text": "another target player"
+        }
+      ],
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever a player casts their first spell each turn, choose another target player. The Lord of Pain deals damage equal to that spell's mana value to the chosen player."
+    }
+  ]
+}

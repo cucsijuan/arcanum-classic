@@ -1,0 +1,40 @@
+{
+  "name": "Goryo's Vengeance",
+  "splice": "{2}{B}",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "supertype": "legendary"
+        },
+        "text": "target legendary creature card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "become": "enteredThisWay",
+        "keywords": [
+          "Haste"
+        ],
+        "permanent": true
+      },
+      {
+        "atNextEndStepAbout": "enteredThisWay",
+        "effects": [
+          {
+            "exile": "triggered"
+          }
+        ]
+      }
+    ],
+    "text": "Return target legendary creature card from your graveyard to the battlefield. That creature gains haste. Exile it at the beginning of the next end step."
+  }
+}

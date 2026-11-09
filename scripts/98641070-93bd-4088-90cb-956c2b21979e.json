@@ -1,0 +1,21 @@
+{
+  "name": "Suspended Sentence",
+  "spell": {
+    "targets": [
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "loseLife": 3,
+        "who": "targetController"
+      },
+      {
+        "suspendWhenResolves": 3
+      }
+    ],
+    "text": "Destroy target creature an opponent controls. That player loses 3 life. Exile Suspended Sentence with three time counters on it."
+  }
+}

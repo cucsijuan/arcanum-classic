@@ -1,0 +1,25 @@
+{
+  "name": "Unseen Walker",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{1}{G}{G}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Forestwalk"
+          ]
+        }
+      ],
+      "text": "{1}{G}{G}: Target creature gains forestwalk until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Blackcleave Cliffs",
+  "entersTappedUnless": {
+    "not": {
+      "control": {
+        "types": [
+          "land"
+        ],
+        "other": true
+      },
+      "count": 3
+    }
+  }
+}

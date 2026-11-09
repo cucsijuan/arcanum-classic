@@ -1,0 +1,23 @@
+{
+  "name": "Tunnel Surveyor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Glimmer",
+            "types": "Enchantment Creature — Glimmer",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Glimmer enchantment creature token."
+    }
+  ]
+}

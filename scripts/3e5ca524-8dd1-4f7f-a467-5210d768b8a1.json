@@ -1,0 +1,23 @@
+{
+  "name": "Rampaging Ferocidon",
+  "playersCantGainLife": true,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "other": true
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "triggeredController"
+        }
+      ],
+      "text": "Whenever another creature enters, this creature deals 1 damage to that creature's controller."
+    }
+  ]
+}

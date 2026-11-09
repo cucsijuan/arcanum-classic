@@ -1,0 +1,14 @@
+{
+  "name": "Diversion Specialist",
+  "abilities": [
+    {
+      "cost": "{1}, sacrifice:creature|enchantment",
+      "effects": [
+        {
+          "exileTopPlayable": 1
+        }
+      ],
+      "text": "{1}, Sacrifice another creature or enchantment: Exile the top card of your library. You may play it this turn."
+    }
+  ]
+}

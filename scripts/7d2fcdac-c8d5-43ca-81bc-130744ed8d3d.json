@@ -1,0 +1,19 @@
+{
+  "name": "Cave Sense",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Mountainwalk"
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 and has mountainwalk."
+    }
+  ]
+}

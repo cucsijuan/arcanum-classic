@@ -1,0 +1,47 @@
+{
+  "name": "Coordinated Clobbering",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "filter": {
+          "tapped": false
+        },
+        "text": "target untapped creature you control"
+      },
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "filter": {
+          "tapped": false
+        },
+        "text": "up to one other target untapped creature you control"
+      },
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "tap": "target2"
+      },
+      {
+        "simultaneously": [
+          {
+            "bite": "target",
+            "to": "target3"
+          },
+          {
+            "bite": "target2",
+            "to": "target3"
+          }
+        ]
+      }
+    ],
+    "text": "Tap one or two target untapped creatures you control. They each deal damage equal to their power to target creature an opponent controls."
+  }
+}

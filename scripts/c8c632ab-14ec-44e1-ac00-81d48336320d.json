@@ -1,0 +1,6 @@
+{
+  "name": "Neglected Manor",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

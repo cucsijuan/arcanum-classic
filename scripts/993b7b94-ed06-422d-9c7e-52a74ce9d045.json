@@ -1,0 +1,50 @@
+{
+  "name": "Derelict Attic // Widow's Walk",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "draw": 2
+            },
+            {
+              "loseLife": 2
+            }
+          ],
+          "text": "When you unlock this door, you draw two cards and you lose 2 life."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "creatureAttacks",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "when": {
+            "attackersExactly": 1
+          },
+          "effects": [
+            {
+              "pump": [
+                1,
+                0
+              ],
+              "what": "triggered",
+              "keywords": [
+                "Deathtouch"
+              ]
+            }
+          ],
+          "text": "Whenever a creature you control attacks alone, it gets +1/+0 and gains deathtouch until end of turn."
+        }
+      ]
+    }
+  ]
+}

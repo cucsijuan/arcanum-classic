@@ -1,0 +1,39 @@
+{
+  "name": "Zimone's Hypothesis",
+  "spell": {
+    "effects": [
+      {
+        "may": "Put a +1/+1 counter on a creature?",
+        "effects": [
+          {
+            "choose": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any"
+            }
+          },
+          {
+            "counters": 1,
+            "what": "chosen"
+          }
+        ]
+      },
+      {
+        "chooseParity": true
+      },
+      {
+        "bounce": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "powerParityChosen": true
+          }
+        }
+      }
+    ],
+    "text": "You may put a +1/+1 counter on a creature. Then choose odd or even. Return each creature with power of the chosen quality to its owner's hand."
+  }
+}

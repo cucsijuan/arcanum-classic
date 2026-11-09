@@ -1,0 +1,37 @@
+{
+  "name": "Hedge Shredder",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Mill two cards?",
+          "effects": [
+            {
+              "mill": 2,
+              "who": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this Vehicle attacks, you may mill two cards."
+    },
+    {
+      "trigger": "cardPutIntoYourGraveyard",
+      "fromZone": "library",
+      "batched": true,
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "reanimate": "batch",
+          "tapped": true
+        }
+      ],
+      "text": "Whenever one or more land cards are put into your graveyard from your library, put them onto the battlefield tapped."
+    }
+  ]
+}

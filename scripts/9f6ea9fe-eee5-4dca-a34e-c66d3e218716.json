@@ -1,0 +1,21 @@
+{
+  "name": "Master of the Pearl Trident",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true,
+        "subtype": "Merfolk",
+        "keywords": [
+          "Islandwalk"
+        ]
+      },
+      "text": "Other Merfolk creatures you control get +1/+1 and have islandwalk."
+    }
+  ]
+}

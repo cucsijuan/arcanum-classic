@@ -1,0 +1,26 @@
+{
+  "name": "Impossible Inferno",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "if": {
+          "cardTypesInGraveyard": 4
+        },
+        "then": [
+          {
+            "exileTopPlayable": 1,
+            "untilNextTurn": true
+          }
+        ]
+      }
+    ],
+    "text": "Impossible Inferno deals 6 damage to target creature. Delirium — If there are four or more card types among cards in your graveyard, exile the top card of your library. You may play it until the end of your next turn."
+  }
+}

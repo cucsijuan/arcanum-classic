@@ -1,0 +1,20 @@
+{
+  "name": "Resurrected Cultist",
+  "abilities": [
+    {
+      "cost": "{2}{B}{B}, fromGraveyard",
+      "sorcery": true,
+      "activateIf": {
+        "cardTypesInGraveyard": 4
+      },
+      "effects": [
+        {
+          "reanimate": "self",
+          "counters": 1,
+          "counterKind": "finality"
+        }
+      ],
+      "text": "Delirium — {2}{B}{B}: Return this card from your graveyard to the battlefield with a finality counter on it. Activate only if there are four or more card types among cards in your graveyard and only as a sorcery."
+    }
+  ]
+}

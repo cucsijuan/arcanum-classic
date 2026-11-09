@@ -1,0 +1,21 @@
+{
+  "name": "Mulch",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 4,
+        "revealAll": true,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "take": -1,
+        "required": true,
+        "to": "hand",
+        "rest": "graveyard"
+      }
+    ],
+    "text": "Reveal the top four cards of your library. Put all land cards revealed this way into your hand and the rest into your graveyard."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Overlord of the Boilerbilges",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, it deals 4 damage to any target.",
+      "targets": [
+        "any"
+      ]
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, it deals 4 damage to any target.",
+      "targets": [
+        "any"
+      ]
+    }
+  ]
+}

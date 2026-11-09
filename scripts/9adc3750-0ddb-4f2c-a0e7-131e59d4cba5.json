@@ -1,0 +1,50 @@
+{
+  "name": "Cursed Recording",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "time"
+        },
+        {
+          "if": {
+            "counters": 7,
+            "kind": "time"
+          },
+          "then": [
+            {
+              "removeCounters": {
+                "counters": "time"
+              },
+              "what": "self",
+              "kind": "time"
+            },
+            {
+              "damage": 20,
+              "to": "you"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, put a time counter on this artifact. Then if there are seven or more time counters on it, remove those counters and it deals 20 damage to you."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true
+        }
+      ],
+      "text": "{T}: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy."
+    }
+  ]
+}

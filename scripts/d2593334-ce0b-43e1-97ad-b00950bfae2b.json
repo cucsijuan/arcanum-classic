@@ -1,0 +1,57 @@
+{
+  "name": "Unwilling Vessel",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "possession"
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, put a possession counter on this creature."
+    },
+    {
+      "trigger": "youFullyUnlockRoom",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "possession"
+        }
+      ],
+      "text": "Eerie — Whenever an enchantment you control enters and whenever you fully unlock a Room, put a possession counter on this creature."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "size": {
+            "counters": "any"
+          },
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, create an X/X blue Spirit creature token with flying, where X is the number of counters on this creature."
+    }
+  ]
+}

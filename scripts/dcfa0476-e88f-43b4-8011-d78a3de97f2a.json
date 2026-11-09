@@ -1,0 +1,38 @@
+{
+  "name": "Spineseeker Centipede",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this creature enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          2
+        ],
+        "keywords": [
+          "Vigilance"
+        ],
+        "while": {
+          "cardTypesInGraveyard": 4
+        }
+      },
+      "text": "Delirium — This creature gets +1/+2 and has vigilance as long as there are four or more card types among cards in your graveyard."
+    }
+  ]
+}

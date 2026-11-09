@@ -1,0 +1,32 @@
+{
+  "name": "Cracked Skull",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "optional": true
+        }
+      ],
+      "text": "When this Aura enters, look at target player's hand. You may choose a nonland card from it. That player discards that card."
+    },
+    {
+      "trigger": "attachedDealtDamage",
+      "effects": [
+        {
+          "destroy": "attached"
+        }
+      ],
+      "text": "When enchanted creature is dealt damage, destroy it."
+    }
+  ]
+}

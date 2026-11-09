@@ -1,0 +1,45 @@
+{
+  "name": "Anthropede",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card or pay {2}?",
+          "options": [
+            {
+              "cost": {
+                "discard": 1
+              }
+            },
+            {
+              "mana": "{2}"
+            }
+          ],
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "permanent",
+                    "filter": {
+                      "subtype": "Room"
+                    },
+                    "text": "target Room"
+                  }
+                ],
+                "effects": [
+                  {
+                    "destroy": "target"
+                  }
+                ],
+                "text": "When you do, destroy target Room."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard a card or pay {2}. When you do, destroy target Room."
+    }
+  ]
+}

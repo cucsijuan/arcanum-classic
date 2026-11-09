@@ -1,0 +1,40 @@
+{
+  "name": "Sheltered by Ghosts",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this Aura enters, exile target nonland permanent an opponent controls until this Aura leaves the battlefield."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Lifelink"
+        ],
+        "grantsWard": "{2}"
+      },
+      "text": "Enchanted creature gets +1/+0 and has lifelink and ward {2}."
+    }
+  ]
+}

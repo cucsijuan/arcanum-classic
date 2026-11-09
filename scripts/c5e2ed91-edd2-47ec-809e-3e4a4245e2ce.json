@@ -1,0 +1,22 @@
+{
+  "name": "Shore Snapper",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Islandwalk"
+          ]
+        }
+      ],
+      "text": "{U}: This creature gains islandwalk until end of turn."
+    }
+  ]
+}

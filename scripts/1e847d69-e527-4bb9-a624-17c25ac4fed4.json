@@ -1,0 +1,30 @@
+{
+  "name": "Cramped Vents // Access Maze",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "damage": 6,
+              "to": "target"
+            },
+            {
+              "gainLife": "excessDamage"
+            }
+          ],
+          "text": "When you unlock this door, this Room deals 6 damage to target creature an opponent controls. You gain life equal to the excess damage dealt this way.",
+          "targets": [
+            "creature:opponent"
+          ]
+        }
+      ]
+    },
+    {
+      "rules": [
+        "LifeCastFromHandOncePerTurn"
+      ]
+    }
+  ]
+}

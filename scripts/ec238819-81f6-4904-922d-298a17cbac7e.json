@@ -1,0 +1,21 @@
+{
+  "name": "Shrewd Storyteller",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, put a +1/+1 counter on target creature.",
+      "targets": [
+        "creature"
+      ]
+    }
+  ]
+}

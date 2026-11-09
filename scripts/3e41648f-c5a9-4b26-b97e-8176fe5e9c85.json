@@ -1,0 +1,37 @@
+{
+  "name": "Brash Taunter",
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever this creature is dealt damage, it deals that much damage to target opponent."
+    },
+    {
+      "cost": "{2}{R}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "fight": "self",
+          "with": "target"
+        }
+      ],
+      "text": "{2}{R}, {T}: This creature fights another target creature."
+    }
+  ]
+}

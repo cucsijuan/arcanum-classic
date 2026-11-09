@@ -1,0 +1,21 @@
+{
+  "name": "Demon of Fate's Design",
+  "rules": [
+    "LifeCastEnchantmentOncePerTurn"
+  ],
+  "abilities": [
+    {
+      "cost": "{2}{B}, sacrifice:enchantment",
+      "effects": [
+        {
+          "pump": [
+            "sacrificedManaValue",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{2}{B}, Sacrifice another enchantment: This creature gets +X/+0 until end of turn, where X is the sacrificed enchantment's mana value."
+    }
+  ]
+}

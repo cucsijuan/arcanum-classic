@@ -1,0 +1,38 @@
+{
+  "name": "Break Down the Door",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Exile target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Exile target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Manifest dread.",
+        "effects": [
+          {
+            "manifestDread": true
+          }
+        ]
+      }
+    ]
+  }
+}

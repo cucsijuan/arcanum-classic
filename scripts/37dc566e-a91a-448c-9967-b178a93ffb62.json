@@ -1,0 +1,25 @@
+{
+  "name": "The Master of Keys",
+  "rules": [
+    "GraveyardEnchantmentsHaveEscape"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": "X",
+          "what": "self"
+        },
+        {
+          "mill": {
+            "quantity": "X",
+            "times": 2
+          },
+          "who": "you"
+        }
+      ],
+      "text": "When The Master of Keys enters, put X +1/+1 counters on it and mill twice X cards."
+    }
+  ]
+}

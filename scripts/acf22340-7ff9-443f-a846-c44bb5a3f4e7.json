@@ -1,0 +1,15 @@
+{
+  "name": "Creeping Peeper",
+  "extraMana": [
+    {
+      "types": "{U}",
+      "onlyFor": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "forUnlock": true,
+      "forFaceUp": true
+    }
+  ]
+}

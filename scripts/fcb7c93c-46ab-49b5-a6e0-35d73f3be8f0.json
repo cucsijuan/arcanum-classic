@@ -1,0 +1,27 @@
+{
+  "name": "Screaming Nemesis",
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "targets": [
+        {
+          "kind": "any",
+          "filter": {
+            "other": true
+          },
+          "text": "any other target"
+        }
+      ],
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "target"
+        },
+        {
+          "cantGainLifeForRestOfGame": "playersDamagedThisWay"
+        }
+      ],
+      "text": "Whenever this creature is dealt damage, it deals that much damage to any other target. If a player is dealt damage this way, they can't gain life for the rest of the game."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Convert to Slime",
+  "spell": {
+    "targets": [
+      {
+        "kind": "artifact",
+        "optional": true
+      },
+      {
+        "kind": "creature",
+        "optional": true
+      },
+      {
+        "kind": "enchantment",
+        "optional": true
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      },
+      {
+        "if": {
+          "cardTypesInGraveyard": 4
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "size": "destroyedManaValue",
+            "token": {
+              "name": "Ooze",
+              "types": "Creature — Ooze",
+              "colors": [
+                "G"
+              ],
+              "power": 0,
+              "toughness": 0
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Destroy up to one target artifact, up to one target creature, and up to one target enchantment. Delirium — Then if there are four or more card types among cards in your graveyard, create an X/X green Ooze creature token, where X is the total mana value of permanents destroyed this way."
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Fear of Missing Out",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discard": 1,
+          "who": "you"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, discard a card, then draw a card."
+    },
+    {
+      "trigger": "attacks",
+      "nth": 1,
+      "if": {
+        "cardTypesInGraveyard": 4
+      },
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "Delirium — Whenever this creature attacks for the first time each turn, if there are four or more card types among cards in your graveyard, untap target creature. After this phase, there is an additional combat phase."
+    }
+  ]
+}

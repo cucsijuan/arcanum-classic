@@ -1,0 +1,33 @@
+{
+  "name": "Unstoppable Slasher",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "loseLife": "affectedHalfLife",
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, they lose half their life, rounded up."
+    },
+    {
+      "trigger": "dies",
+      "if": {
+        "not": {
+          "sourceHadCounters": "any"
+        }
+      },
+      "effects": [
+        {
+          "reanimate": "self",
+          "ownerControl": true,
+          "tapped": true,
+          "counters": 2,
+          "counterKind": "stun"
+        }
+      ],
+      "text": "When this creature dies, if it had no counters on it, return it to the battlefield tapped under its owner's control with two stun counters on it."
+    }
+  ]
+}

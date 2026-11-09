@@ -1,0 +1,8 @@
+{
+  "name": "Leyline of Transformation",
+  "startsOnBattlefield": true,
+  "chooseOnEnter": "creatureType",
+  "rules": [
+    "YourCreaturesAreChosenType"
+  ]
+}

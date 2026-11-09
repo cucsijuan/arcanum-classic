@@ -1,0 +1,26 @@
+{
+  "name": "Under the Skin",
+  "spell": {
+    "effects": [
+      {
+        "manifestDread": true
+      },
+      {
+        "returnFromGraveyard": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "count": 1,
+        "upTo": true,
+        "to": "hand"
+      }
+    ],
+    "text": "Manifest dread. You may return a permanent card from your graveyard to your hand."
+  }
+}

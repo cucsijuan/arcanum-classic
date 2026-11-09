@@ -1,0 +1,19 @@
+{
+  "name": "Meteoric Mace",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          4,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Equipped creature gets +4/+0 and has trample."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Miasma Demon",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discardAnyNumber": true
+        },
+        {
+          "if": {
+            "atLeast": {
+              "discarded": {}
+            },
+            "value": 1
+          },
+          "then": [
+            {
+              "whenYouDo": {
+                "amount": {
+                  "discarded": {}
+                },
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "upTo": "triggerAmount",
+                    "text": "up to that many target creatures"
+                  }
+                ],
+                "effects": [
+                  {
+                    "pump": [
+                      -2,
+                      -2
+                    ],
+                    "what": "eachTarget"
+                  }
+                ],
+                "text": "Up to that many target creatures each get -2/-2 until end of turn."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard any number of cards. When you do, up to that many target creatures each get -2/-2 until end of turn."
+    }
+  ]
+}

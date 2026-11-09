@@ -1,0 +1,16 @@
+{
+  "name": "Commune with Evil",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 4,
+        "take": 1,
+        "rest": "graveyard"
+      },
+      {
+        "gainLife": 3
+      }
+    ],
+    "text": "Look at the top four cards of your library. Put one of them into your hand and the rest into your graveyard. You gain 3 life."
+  }
+}

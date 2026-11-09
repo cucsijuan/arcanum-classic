@@ -1,0 +1,19 @@
+{
+  "name": "Dryad's Favor",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Forestwalk"
+        ]
+      },
+      "text": "Enchanted creature has forestwalk."
+    }
+  ]
+}

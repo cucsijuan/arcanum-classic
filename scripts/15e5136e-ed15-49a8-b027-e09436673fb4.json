@@ -1,0 +1,23 @@
+{
+  "name": "Culling Ritual",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "controller": "any",
+            "not": [
+              "land"
+            ],
+            "maxManaValue": 2
+          }
+        }
+      },
+      {
+        "addManaCombination": "destroyedThisWay",
+        "types": "{B}{G}"
+      }
+    ],
+    "text": "Destroy each nonland permanent with mana value 2 or less. Add {B} or {G} for each permanent destroyed this way."
+  }
+}

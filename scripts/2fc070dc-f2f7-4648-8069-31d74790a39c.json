@@ -1,0 +1,27 @@
+{
+  "name": "Hall of Heliod's Generosity",
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "text": "target enchantment card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "top": true
+        }
+      ],
+      "text": "{1}{W}, {T}: Put target enchantment card from your graveyard on top of your library."
+    }
+  ]
+}

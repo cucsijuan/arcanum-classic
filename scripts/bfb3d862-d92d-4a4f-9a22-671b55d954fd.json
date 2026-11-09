@@ -1,0 +1,41 @@
+{
+  "name": "Betrayer's Bargain",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "sacrifice": {
+          "anyOf": [
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "mana": "{2}"
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ],
+    "text": "As an additional cost to cast this spell, sacrifice a creature or enchantment or pay {2}. Betrayer's Bargain deals 5 damage to target creature. If that creature would die this turn, exile it instead."
+  }
+}

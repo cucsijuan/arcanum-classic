@@ -1,0 +1,17 @@
+{
+  "name": "Defiant Survivor",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, manifest dread."
+    }
+  ]
+}

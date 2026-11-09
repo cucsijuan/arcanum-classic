@@ -1,0 +1,15 @@
+{
+  "name": "Valgavoth, Terror Eater",
+  "wardCost": {
+    "sacrifice": {
+      "not": [
+        "land"
+      ]
+    },
+    "sacrificeCount": 3
+  },
+  "rules": [
+    "OpponentsCardsExiledWithThis",
+    "PlayExiledWithThisOnYourTurnForLife"
+  ]
+}

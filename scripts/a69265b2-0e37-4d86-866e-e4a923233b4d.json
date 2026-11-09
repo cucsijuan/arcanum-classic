@@ -1,0 +1,28 @@
+{
+  "name": "Expropriate",
+  "spell": {
+    "exileAfter": true,
+    "effects": [
+      {
+        "vote": [
+          "time",
+          "money"
+        ]
+      },
+      {
+        "repeat": {
+          "votes": 0
+        },
+        "effects": [
+          {
+            "extraTurn": true
+          }
+        ]
+      },
+      {
+        "gainVotersPermanents": 1
+      }
+    ],
+    "text": "Council's dilemma — Starting with you, each player votes for time or money. For each time vote, take an extra turn after this one. For each money vote, choose a permanent owned by the voter and gain control of it. Exile Expropriate."
+  }
+}

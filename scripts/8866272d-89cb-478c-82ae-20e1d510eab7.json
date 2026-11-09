@@ -1,0 +1,53 @@
+{
+  "name": "Funeral Charm",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Target player discards a card.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discard": 1,
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets +2/-1 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              2,
+              -1
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gains swampwalk until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Swampwalk"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

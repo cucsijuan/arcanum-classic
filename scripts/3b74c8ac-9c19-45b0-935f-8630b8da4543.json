@@ -1,0 +1,15 @@
+{
+  "name": "Clockwork Percussionist",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "untilNextTurn": true
+        }
+      ],
+      "text": "When this creature dies, exile the top card of your library. You may play it until the end of your next turn."
+    }
+  ]
+}

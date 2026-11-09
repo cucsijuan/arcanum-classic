@@ -1,0 +1,25 @@
+{
+  "name": "Nightshade Harvester",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "triggeredController"
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a land an opponent controls enters, that player loses 1 life. Put a +1/+1 counter on this creature."
+    }
+  ]
+}

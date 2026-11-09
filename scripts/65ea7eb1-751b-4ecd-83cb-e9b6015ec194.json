@@ -1,0 +1,44 @@
+{
+  "name": "Soaring Lightbringer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Other enchantment creatures you control have flying."
+    },
+    {
+      "trigger": "youAttackPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Glimmer",
+            "types": "Enchantment Creature — Glimmer",
+            "colors": [
+              "W"
+            ],
+            "power": 1,
+            "toughness": 1
+          },
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever you attack a player, create a 1/1 white Glimmer enchantment creature token that's tapped and attacking that player."
+    }
+  ]
+}

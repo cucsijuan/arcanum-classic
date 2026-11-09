@@ -1,0 +1,6 @@
+{
+  "name": "Abandoned Campground",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

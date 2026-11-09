@@ -1,0 +1,51 @@
+{
+  "name": "Ancient Cellarspawn",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "anyOf": [
+            {
+              "subtype": "Demon"
+            },
+            {
+              "subtype": "Horror"
+            },
+            {
+              "subtype": "Nightmare"
+            }
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Each spell you cast that's a Demon, Horror, or Nightmare costs {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "if": {
+        "atLeast": {
+          "diff": [
+            "triggerAmount",
+            "manaSpent"
+          ]
+        },
+        "value": 1
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": {
+            "diff": [
+              "triggerAmount",
+              "manaSpent"
+            ]
+          },
+          "who": "target"
+        }
+      ],
+      "text": "Whenever you cast a spell, if the amount of mana spent to cast it was less than its mana value, target opponent loses life equal to the difference."
+    }
+  ]
+}

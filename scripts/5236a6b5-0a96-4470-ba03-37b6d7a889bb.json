@@ -1,0 +1,37 @@
+{
+  "name": "Midnight Mayhem",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 3,
+        "token": {
+          "name": "Gremlin",
+          "types": "Creature — Gremlin",
+          "colors": [
+            "R"
+          ],
+          "power": 1,
+          "toughness": 1
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "subtype": "Gremlin",
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Menace",
+          "Lifelink",
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Create three 1/1 red Gremlin creature tokens. Gremlins you control gain menace, lifelink, and haste until end of turn."
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Fear of Abduction",
+  "additionalCost": {
+    "exileYouControl": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "When this creature enters, exile target creature an opponent controls."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "returnExiledWithThis": true
+        }
+      ],
+      "text": "When this creature leaves the battlefield, put each card exiled with it into its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Spirit-Sister's Call",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "text": "target permanent card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "sacrificeSharingTypeToReturnTarget": true
+        }
+      ],
+      "text": "At the beginning of your end step, choose target permanent card in your graveyard. You may sacrifice a permanent that shares a card type with the chosen card. If you do, return the chosen card from your graveyard to the battlefield and it gains \"If this permanent would leave the battlefield, exile it instead of putting it anywhere else.\""
+    }
+  ]
+}

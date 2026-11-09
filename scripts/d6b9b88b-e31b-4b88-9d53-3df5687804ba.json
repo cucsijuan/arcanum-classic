@@ -1,0 +1,19 @@
+{
+  "name": "Burrowing",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Mountainwalk"
+        ]
+      },
+      "text": "Enchanted creature has mountainwalk."
+    }
+  ]
+}

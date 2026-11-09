@@ -1,0 +1,28 @@
+{
+  "name": "Trapped in the Screen",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment"
+            ]
+          },
+          "text": "target artifact, creature, or enchantment an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this enchantment enters, exile target artifact, creature, or enchantment an opponent controls until this enchantment leaves the battlefield."
+    }
+  ]
+}

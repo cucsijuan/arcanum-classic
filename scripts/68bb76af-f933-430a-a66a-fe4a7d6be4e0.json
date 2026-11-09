@@ -1,0 +1,54 @@
+{
+  "name": "Surgical Suite // Hospital Room",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ],
+          "text": "When you unlock this door, return target creature card with mana value 3 or less from your graveyard to the battlefield.",
+          "targets": [
+            {
+              "kind": "graveyardCard",
+              "controller": "you",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "maxManaValue": 3
+              },
+              "text": "target creature card with mana value 3 or less from your graveyard"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youAttack",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "attacking": true
+              },
+              "text": "target attacking creature"
+            }
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": "target"
+            }
+          ],
+          "text": "Whenever you attack, put a +1/+1 counter on target attacking creature."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Unidentified Hovership",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "maxToughness": 5
+          },
+          "text": "up to one target creature with toughness 5 or less"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "When this Vehicle enters, exile up to one target creature with toughness 5 or less."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "manifestDread": true,
+          "who": "exiledWithThisOwner"
+        }
+      ],
+      "text": "When this Vehicle leaves the battlefield, the exiled card's owner manifests dread."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Valgavoth, Harrower of Souls",
+  "wardCost": {
+    "life": 2
+  },
+  "abilities": [
+    {
+      "trigger": "opponentLosesLife",
+      "when": "triggeredPlayerFirstLossOnTheirTurn",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent loses life for the first time during each of their turns, put a +1/+1 counter on Valgavoth and draw a card."
+    }
+  ]
+}

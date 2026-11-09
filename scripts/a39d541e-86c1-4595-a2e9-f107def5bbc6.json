@@ -1,0 +1,45 @@
+{
+  "name": "Funeral Room // Awakening Hall",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "creatureDies",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "effects": [
+            {
+              "loseLife": 1,
+              "who": "opponents"
+            },
+            {
+              "gainLife": 1
+            }
+          ],
+          "text": "Whenever a creature you control dies, each opponent loses 1 life and you gain 1 life."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "reanimateAll": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          ],
+          "text": "When you unlock this door, return all creature cards from your graveyard to the battlefield."
+        }
+      ]
+    }
+  ]
+}

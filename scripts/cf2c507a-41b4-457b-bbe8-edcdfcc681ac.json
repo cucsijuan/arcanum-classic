@@ -1,0 +1,41 @@
+{
+  "name": "Glitch Interpreter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "not": {
+          "control": {
+            "faceDown": true
+          }
+        }
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        },
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "When this creature enters, if you control no face-down permanents, return this creature to its owner's hand and manifest dread."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batchedPerPlayer": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "colorless": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more colorless creatures you control deal combat damage to a player, draw a card."
+    }
+  ]
+}

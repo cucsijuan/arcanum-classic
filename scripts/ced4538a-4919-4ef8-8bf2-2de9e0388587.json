@@ -1,0 +1,19 @@
+{
+  "name": "Leshrac's Rite",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Swampwalk"
+        ]
+      },
+      "text": "Enchanted creature has swampwalk."
+    }
+  ]
+}

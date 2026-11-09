@@ -1,0 +1,41 @@
+{
+  "name": "Zimone, Mystery Unraveler",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "nthResolutionThisTurn": [
+            [
+              {
+                "manifestDread": true
+              }
+            ]
+          ],
+          "otherwise": [
+            {
+              "may": "Turn a permanent you control face up?",
+              "effects": [
+                {
+                  "choose": {
+                    "controller": "you",
+                    "faceDown": true
+                  }
+                },
+                {
+                  "turnFaceUp": "chosen"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, manifest dread if this is the first time this ability has resolved this turn. Otherwise, you may turn a permanent you control face up."
+    }
+  ]
+}

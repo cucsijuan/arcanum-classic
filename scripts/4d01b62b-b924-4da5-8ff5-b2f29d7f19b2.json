@@ -1,0 +1,47 @@
+{
+  "name": "Ticket Booth // Tunnel of Hate",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "manifestDread": true
+            }
+          ],
+          "text": "When you unlock this door, manifest dread."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youAttack",
+          "targets": [
+            {
+              "kind": "creature",
+              "filter": {
+                "attacking": true
+              },
+              "text": "target attacking creature"
+            }
+          ],
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Double strike"
+              ]
+            }
+          ],
+          "text": "Whenever you attack, target attacking creature gains double strike until end of turn."
+        }
+      ]
+    }
+  ]
+}

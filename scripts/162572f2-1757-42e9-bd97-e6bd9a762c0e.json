@@ -1,0 +1,34 @@
+{
+  "name": "Ashaya, Soul of the Wild",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": false
+        },
+        "addTypes": [
+          "land"
+        ],
+        "addSubtypes": [
+          "Forest"
+        ]
+      },
+      "text": "Nontoken creatures you control are Forest lands in addition to their other types."
+    }
+  ]
+}

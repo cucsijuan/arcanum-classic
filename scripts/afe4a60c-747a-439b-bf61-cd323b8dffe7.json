@@ -1,0 +1,31 @@
+{
+  "name": "Clammy Prowler",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true,
+            "attacking": true
+          },
+          "text": "another target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, another target attacking creature can't be blocked this turn."
+    }
+  ]
+}

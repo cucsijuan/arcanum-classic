@@ -1,0 +1,19 @@
+{
+  "name": "Fishliver Oil",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Islandwalk"
+        ]
+      },
+      "text": "Enchanted creature has islandwalk."
+    }
+  ]
+}

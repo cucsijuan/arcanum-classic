@@ -1,0 +1,21 @@
+{
+  "name": "Deathcap Cultivator",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch"
+        ],
+        "while": {
+          "cardTypesInGraveyard": 4
+        }
+      },
+      "text": "Delirium — This creature has deathtouch as long as there are four or more card types among cards in your graveyard."
+    }
+  ]
+}

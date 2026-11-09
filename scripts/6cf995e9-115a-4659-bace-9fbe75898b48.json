@@ -1,0 +1,35 @@
+{
+  "name": "Patchwork Beastie",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ],
+        "while": {
+          "not": {
+            "cardTypesInGraveyard": 4
+          }
+        }
+      },
+      "text": "Delirium — This creature can't attack or block unless there are four or more card types among cards in your graveyard."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "may": "Mill a card?",
+          "effects": [
+            {
+              "mill": 1,
+              "who": "you"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may mill a card."
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Obscura Storefront",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        },
+        {
+          "whenYouDo": {
+            "if": "youSacrificed",
+            "effects": [
+              {
+                "search": {
+                  "types": [
+                    "land"
+                  ],
+                  "supertype": "basic",
+                  "anyOf": [
+                    {
+                      "subtype": "Plains"
+                    },
+                    {
+                      "subtype": "Island"
+                    },
+                    {
+                      "subtype": "Swamp"
+                    }
+                  ]
+                },
+                "count": 1,
+                "to": "battlefield",
+                "tapped": true
+              },
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life."
+          }
+        }
+      ],
+      "text": "When this land enters, sacrifice it. When you do, search your library for a basic Plains, Island, or Swamp card, put it onto the battlefield tapped, then shuffle and you gain 1 life."
+    }
+  ]
+}

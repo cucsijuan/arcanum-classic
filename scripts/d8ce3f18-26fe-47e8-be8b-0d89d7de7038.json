@@ -1,0 +1,20 @@
+{
+  "name": "Acrobatic Cheerleader",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "not": "untapped"
+      },
+      "onlyOnce": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "flying"
+        }
+      ],
+      "text": "Survival — At the beginning of your second main phase, if this creature is tapped, put a flying counter on it. This ability triggers only once."
+    }
+  ]
+}

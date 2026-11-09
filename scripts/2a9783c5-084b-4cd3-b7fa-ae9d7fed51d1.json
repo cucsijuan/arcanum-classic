@@ -1,0 +1,34 @@
+{
+  "name": "Come Back Wrong",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "returnFromGraveyard": {
+          "types": [
+            "creature"
+          ]
+        },
+        "anyGraveyard": true,
+        "amongDestroyed": true,
+        "to": "battlefield"
+      },
+      {
+        "atNextEndStepOf": "you",
+        "about": "enteredThisWay",
+        "effects": [
+          {
+            "sacrificeIt": "triggered"
+          }
+        ],
+        "text": "At the beginning of your next end step, sacrifice it."
+      }
+    ],
+    "text": "Destroy target creature. If a creature card is put into a graveyard this way, return it to the battlefield under your control. Sacrifice it at the beginning of your next end step."
+  }
+}

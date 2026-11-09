@@ -1,0 +1,42 @@
+{
+  "name": "Temur War Shaman",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifest": 1
+        }
+      ],
+      "text": "When this creature enters, manifest the top card of your library."
+    },
+    {
+      "trigger": "yourPermanentTurnedFaceUp",
+      "filter": {
+        "controller": "you",
+        "types": [
+          "creature"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "text": "target creature you don't control"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Have that creature fight target creature you don't control?",
+          "effects": [
+            {
+              "fight": "triggered",
+              "with": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a permanent you control is turned face up, if it's a creature, you may have it fight target creature you don't control."
+    }
+  ]
+}

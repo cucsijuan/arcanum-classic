@@ -1,0 +1,47 @@
+{
+  "name": "Vile Mutilator",
+  "additionalCost": {
+    "sacrifice": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "types": [
+            "enchantment"
+          ]
+        }
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "enchantment"
+            ],
+            "token": false
+          }
+        },
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "token": false
+          }
+        }
+      ],
+      "text": "When this creature enters, each opponent sacrifices a nontoken enchantment of their choice, then sacrifices a nontoken creature of their choice."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Cave People",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            -2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +1/-2 until end of turn."
+    },
+    {
+      "cost": "{1}{R}{R}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Mountainwalk"
+          ]
+        }
+      ],
+      "text": "{1}{R}{R}, {T}: Target creature gains mountainwalk until end of turn."
+    }
+  ]
+}

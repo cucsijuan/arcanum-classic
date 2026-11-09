@@ -1,0 +1,45 @@
+{
+  "name": "Disturbing Mirth",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another enchantment or creature to draw two cards?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                },
+                {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this enchantment enters, you may sacrifice another enchantment or creature. If you do, draw two cards."
+    },
+    {
+      "trigger": "selfSacrificed",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "When you sacrifice this enchantment, manifest dread."
+    }
+  ]
+}

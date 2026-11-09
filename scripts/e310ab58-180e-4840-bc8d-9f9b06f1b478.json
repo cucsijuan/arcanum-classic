@@ -1,0 +1,61 @@
+{
+  "name": "Hallowed Haunting",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying",
+          "Vigilance"
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "count": 7
+        }
+      },
+      "text": "As long as you control seven or more enchantments, creatures you control have flying and vigilance."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "enchantment"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit Cleric",
+            "types": "Creature — Spirit Cleric",
+            "colors": [
+              "W"
+            ],
+            "power": 0,
+            "toughness": 0,
+            "powerFrom": {
+              "count": {
+                "subtype": "Spirit"
+              }
+            },
+            "toughnessFrom": {
+              "count": {
+                "subtype": "Spirit"
+              }
+            },
+            "text": "This token's power and toughness are each equal to the number of Spirits you control."
+          }
+        }
+      ],
+      "text": "Whenever you cast an enchantment spell, create a white Spirit Cleric creature token with \"This token's power and toughness are each equal to the number of Spirits you control.\""
+    }
+  ]
+}

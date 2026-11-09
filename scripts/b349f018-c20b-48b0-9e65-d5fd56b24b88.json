@@ -1,0 +1,24 @@
+{
+  "name": "Entreat the Angels",
+  "miracle": "{X}{W}{W}",
+  "spell": {
+    "effects": [
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Angel",
+          "types": "Creature — Angel",
+          "colors": [
+            "W"
+          ],
+          "power": 4,
+          "toughness": 4,
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ],
+    "text": "Create X 4/4 white Angel creature tokens with flying."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Damnation",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        },
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy all creatures. They can't be regenerated."
+  }
+}

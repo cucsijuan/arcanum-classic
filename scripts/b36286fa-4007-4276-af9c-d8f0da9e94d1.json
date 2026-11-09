@@ -1,0 +1,44 @@
+{
+  "name": "Restricted Office // Lecture Hall",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "destroy": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any",
+                  "minPower": 3
+                }
+              }
+            }
+          ],
+          "text": "When you unlock this door, destroy all creatures with power 3 or greater."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "static": {
+            "affects": "permanents:you",
+            "other": true,
+            "pump": [
+              0,
+              0
+            ],
+            "keywords": [
+              "Hexproof"
+            ]
+          },
+          "text": "Other permanents you control have hexproof."
+        }
+      ]
+    }
+  ]
+}

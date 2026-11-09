@@ -1,0 +1,33 @@
+{
+  "name": "Prognostic Sphinx",
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Hexproof"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "Discard a card: This creature gains hexproof until end of turn. Tap it."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "scry": 3
+        }
+      ],
+      "text": "Whenever this creature attacks, scry 3."
+    }
+  ]
+}

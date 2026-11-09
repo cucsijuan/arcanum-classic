@@ -1,0 +1,38 @@
+{
+  "name": "Rakdos Charm",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Exile target player's graveyard.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "exileGraveyard": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Each creature deals 1 damage to its controller.",
+        "effects": [
+          {
+            "eachCreatureDamagesController": 1
+          }
+        ]
+      }
+    ]
+  }
+}

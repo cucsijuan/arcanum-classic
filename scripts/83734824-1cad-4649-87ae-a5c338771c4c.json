@@ -1,0 +1,12 @@
+{
+  "name": "Skaab Ruinator",
+  "additionalCost": {
+    "exileGraveyard": 3,
+    "exileGraveyardFilter": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "graveyardCastIf": "always"
+}

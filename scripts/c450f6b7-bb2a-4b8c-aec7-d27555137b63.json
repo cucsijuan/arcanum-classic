@@ -1,0 +1,56 @@
+{
+  "name": "Retreat to Coralhelm",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "text": "Landfall — Whenever a land you control enters, choose one —",
+      "modes": [
+        {
+          "text": "You may tap or untap target creature.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "chooseEffect": [
+                {
+                  "text": "Tap it.",
+                  "effects": [
+                    {
+                      "tap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Untap it.",
+                  "effects": [
+                    {
+                      "untap": "target"
+                    }
+                  ]
+                },
+                {
+                  "text": "Do nothing.",
+                  "effects": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Scry 1.",
+          "effects": [
+            {
+              "scry": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

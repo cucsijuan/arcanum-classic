@@ -1,0 +1,94 @@
+{
+  "name": "Kaito, Bane of Nightmares",
+  "ninjutsu": "{1}{U}{B}",
+  "abilities": [
+    {
+      "cost": "{1}{U}{B}, ninjutsu",
+      "effects": [
+        {
+          "ninjutsuEnter": true
+        }
+      ],
+      "text": "Ninjutsu {1}{U}{B}"
+    },
+    {
+      "static": {
+        "affects": "self",
+        "addTypes": [
+          "creature"
+        ],
+        "addSubtypes": [
+          "Ninja"
+        ],
+        "setPower": 3,
+        "setToughness": 4,
+        "keywords": [
+          "Hexproof"
+        ],
+        "while": {
+          "all": [
+            "yourTurn",
+            {
+              "counters": 1,
+              "kind": "loyalty"
+            }
+          ]
+        }
+      },
+      "text": "During your turn, as long as Kaito has one or more loyalty counters on him, he's a 3/4 Ninja creature and has hexproof."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "emblem": "Kaito, Bane of Nightmares",
+          "abilities": [
+            {
+              "static": {
+                "affects": "creatures:you",
+                "filter": {
+                  "subtype": "Ninja"
+                },
+                "pump": [
+                  1,
+                  1
+                ]
+              },
+              "text": "Ninjas you control get +1/+1."
+            }
+          ]
+        }
+      ],
+      "text": "+1: You get an emblem with \"Ninjas you control get +1/+1.\""
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "surveil": 2
+        },
+        {
+          "draw": "opponentsWhoLostLifeThisTurn"
+        }
+      ],
+      "text": "0: Surveil 2. Then draw a card for each opponent who lost life this turn."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 2,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "−2: Tap target creature. Put two stun counters on it."
+    }
+  ]
+}

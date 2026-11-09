@@ -1,0 +1,158 @@
+{
+  "name": "Professor Onyx",
+  "abilities": [
+    {
+      "trigger": "castOrCopy",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, each opponent loses 2 life and you gain 2 life."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "lookAtTop": 3,
+          "take": 1,
+          "rest": "graveyard"
+        }
+      ],
+      "text": "+1: You lose 1 life. Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard."
+    },
+    {
+      "cost": "-3",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "greatestPower": true
+          }
+        }
+      ],
+      "text": "−3: Each opponent sacrifices a creature with the greatest power among creatures that player controls."
+    },
+    {
+      "cost": "-8",
+      "effects": [
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        },
+        {
+          "unless": "opponents",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "loseLife": 3,
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "−8: Each opponent may discard a card. If they don't, they lose 3 life. Repeat this process six more times."
+    }
+  ]
+}

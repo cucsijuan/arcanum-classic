@@ -1,0 +1,15 @@
+{
+  "name": "Benthic Djinn",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 2
+        }
+      ],
+      "text": "At the beginning of your upkeep, you lose 2 life."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "River Merfolk",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Mountainwalk"
+          ]
+        }
+      ],
+      "text": "{U}: This creature gains mountainwalk until end of turn."
+    }
+  ]
+}

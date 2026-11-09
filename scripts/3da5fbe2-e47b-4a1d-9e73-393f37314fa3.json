@@ -1,0 +1,27 @@
+{
+  "name": "Beastie Beatdown",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "if": {
+          "cardTypesInGraveyard": 4
+        },
+        "then": [
+          {
+            "counters": 2,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "bite": "target",
+        "to": "target2"
+      }
+    ],
+    "text": "Choose target creature you control and target creature an opponent controls. Delirium — If there are four or more card types among cards in your graveyard, put two +1/+1 counters on the creature you control. The creature you control deals damage equal to its power to the creature an opponent controls."
+  }
+}

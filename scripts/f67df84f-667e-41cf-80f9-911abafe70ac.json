@@ -1,0 +1,12 @@
+{
+  "name": "Citanul Hierophants",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "grantsMana": "{G}"
+      },
+      "text": "Creatures you control have \"{T}: Add {G}.\""
+    }
+  ]
+}

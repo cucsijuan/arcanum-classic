@@ -1,0 +1,51 @@
+{
+  "name": "Chainsaw",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "When this Equipment enters, it deals 3 damage to up to one target creature."
+    },
+    {
+      "trigger": "creatureDies",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "rev"
+        }
+      ],
+      "text": "Whenever one or more creatures die, put a rev counter on this Equipment."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "counters": "rev"
+          },
+          0
+        ]
+      },
+      "text": "Equipped creature gets +X/+0, where X is the number of rev counters on this Equipment."
+    }
+  ]
+}

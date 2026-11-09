@@ -1,0 +1,30 @@
+{
+  "name": "Jump Scare",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": "target",
+        "keywords": [
+          "Flying"
+        ]
+      },
+      {
+        "become": "target",
+        "addTypes": [
+          "enchantment"
+        ],
+        "addSubtypes": [
+          "Horror"
+        ]
+      }
+    ],
+    "text": "Until end of turn, target creature gets +2/+2, gains flying, and becomes a Horror enchantment creature in addition to its other types."
+  }
+}

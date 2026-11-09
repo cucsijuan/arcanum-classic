@@ -1,0 +1,20 @@
+{
+  "name": "Don't Make a Sound",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "{2}",
+        "ifPaid": [
+          {
+            "surveil": 2
+          }
+        ]
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {2}. If they do, surveil 2."
+  }
+}

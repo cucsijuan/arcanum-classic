@@ -1,0 +1,13 @@
+{
+  "name": "Tainted Field",
+  "extraMana": [
+    {
+      "types": "{W}{B}",
+      "while": {
+        "control": {
+          "subtype": "Swamp"
+        }
+      }
+    }
+  ]
+}

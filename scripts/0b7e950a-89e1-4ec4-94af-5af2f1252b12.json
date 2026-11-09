@@ -1,0 +1,6 @@
+{
+  "name": "Patched Plaything",
+  "entersWithCounters": 2,
+  "entersWithCounterKind": "-1/-1",
+  "entersWithCountersIf": "castFromHand"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Charred Foyer // Warped Space",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "upkeep",
+          "effects": [
+            {
+              "exileTopPlayable": 1
+            }
+          ],
+          "text": "At the beginning of your upkeep, exile the top card of your library. You may play it this turn."
+        }
+      ]
+    },
+    {
+      "rules": [
+        "FreeFromExileOncePerTurn"
+      ]
+    }
+  ]
+}

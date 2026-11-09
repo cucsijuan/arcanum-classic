@@ -1,0 +1,41 @@
+{
+  "name": "Séance Board",
+  "tapForMana": "any",
+  "manaAmountFrom": {
+    "counters": "soul"
+  },
+  "manaOnlyFor": {
+    "anyOf": [
+      {
+        "types": [
+          "instant"
+        ]
+      },
+      {
+        "types": [
+          "sorcery"
+        ]
+      },
+      {
+        "subtype": "Demon"
+      },
+      {
+        "subtype": "Spirit"
+      }
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "soul"
+        }
+      ],
+      "text": "Morbid — At the beginning of each end step, if a creature died this turn, put a soul counter on this artifact."
+    }
+  ]
+}

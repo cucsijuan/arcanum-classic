@@ -1,0 +1,20 @@
+{
+  "name": "Fear of Exposure",
+  "additionalCost": {
+    "tap": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "types": [
+            "land"
+          ]
+        }
+      ]
+    },
+    "tapCount": 2
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Augur of Autumn",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {
+    "types": [
+      "land"
+    ]
+  },
+  "castFromLibraryTop": {
+    "types": [
+      "creature"
+    ]
+  },
+  "castFromLibraryTopIf": "coven"
+}

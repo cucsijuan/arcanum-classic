@@ -1,0 +1,30 @@
+{
+  "name": "Demonic Counsel",
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "cardTypesInGraveyard": 4
+        },
+        "then": [
+          {
+            "search": {},
+            "count": 1,
+            "to": "hand"
+          }
+        ],
+        "else": [
+          {
+            "search": {
+              "subtype": "Demon"
+            },
+            "count": 1,
+            "reveal": true,
+            "to": "hand"
+          }
+        ]
+      }
+    ],
+    "text": "Search your library for a Demon card, reveal it, put it into your hand, then shuffle. Delirium — If there are four or more card types among cards in your graveyard, instead search your library for any card, put it into your hand, then shuffle."
+  }
+}

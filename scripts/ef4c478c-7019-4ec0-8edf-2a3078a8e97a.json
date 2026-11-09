@@ -1,0 +1,28 @@
+{
+  "name": "Drag to the Roots",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "cardTypesInGraveyard": 4
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target nonland permanent."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Arixmethes, Slumbering Isle",
+  "entersTapped": true,
+  "entersWithCounters": 5,
+  "entersWithCounterKind": "slumber",
+  "extraMana": [
+    {
+      "types": "{G}{U}",
+      "oneOfEach": true
+    }
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "setTypes": [
+          "land"
+        ],
+        "while": {
+          "counters": 1,
+          "kind": "slumber"
+        }
+      },
+      "text": "As long as Arixmethes has a slumber counter on it, it's a land."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "may": "Remove a slumber counter from Arixmethes?",
+          "effects": [
+            {
+              "removeCounters": 1,
+              "what": "self",
+              "kind": "slumber"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a spell, you may remove a slumber counter from Arixmethes."
+    }
+  ]
+}

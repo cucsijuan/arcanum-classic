@@ -1,0 +1,36 @@
+{
+  "name": "Glassworks // Shattered Yard",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "damage": 4,
+              "to": "target"
+            }
+          ],
+          "text": "When you unlock this door, this Room deals 4 damage to target creature an opponent controls.",
+          "targets": [
+            "creature:opponent"
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "endStep",
+          "effects": [
+            {
+              "damage": 1,
+              "to": "opponents"
+            }
+          ],
+          "text": "At the beginning of your end step, this Room deals 1 damage to each opponent."
+        }
+      ]
+    }
+  ]
+}

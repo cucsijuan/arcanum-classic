@@ -1,0 +1,44 @@
+{
+  "name": "Marina Vendrell",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": 7,
+          "filter": {
+            "types": [
+              "enchantment"
+            ]
+          },
+          "take": -1,
+          "to": "hand",
+          "required": true,
+          "revealAll": true
+        }
+      ],
+      "text": "When Marina Vendrell enters, reveal the top seven cards of your library. Put all enchantment cards from among them into your hand and the rest on the bottom of your library in a random order."
+    },
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "subtype": "Room"
+          },
+          "text": "target Room you control"
+        }
+      ],
+      "effects": [
+        {
+          "unlockDoor": "target",
+          "orLock": true
+        }
+      ],
+      "text": "{T}: Lock or unlock a door of target Room you control. Activate only as a sorcery."
+    }
+  ]
+}

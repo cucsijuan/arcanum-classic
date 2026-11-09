@@ -1,0 +1,27 @@
+{
+  "name": "Growing Dread",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        }
+      ],
+      "text": "When this enchantment enters, manifest dread."
+    },
+    {
+      "trigger": "yourPermanentTurnedFaceUp",
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "triggered"
+        }
+      ],
+      "text": "Whenever you turn a permanent face up, put a +1/+1 counter on it."
+    }
+  ]
+}

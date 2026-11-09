@@ -1,0 +1,26 @@
+{
+  "name": "Ondu Spiritdancer",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Create a token that's a copy of it?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "copy": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an enchantment you control enters, you may create a token that's a copy of it. Do this only once each turn."
+    }
+  ]
+}

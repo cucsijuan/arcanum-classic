@@ -1,0 +1,18 @@
+{
+  "name": "Fear of Being Hunted",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Must be blocked"
+        ]
+      },
+      "text": "This creature must be blocked if able."
+    }
+  ]
+}

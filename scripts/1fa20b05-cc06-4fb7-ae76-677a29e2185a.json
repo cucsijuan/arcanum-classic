@@ -1,0 +1,33 @@
+{
+  "name": "Yedora, Grave Gardener",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "token": false
+      },
+      "effects": [
+        {
+          "may": "Return it to the battlefield face down? (It's a Forest land.)",
+          "effects": [
+            {
+              "reanimate": "triggered",
+              "ownerControl": true,
+              "faceDown": true,
+              "faceDownAs": {
+                "name": "Face-down Forest",
+                "types": "Land — Forest"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, you may return it to the battlefield face down under its owner's control. It's a Forest land."
+    }
+  ]
+}

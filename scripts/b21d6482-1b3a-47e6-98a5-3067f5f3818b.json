@@ -1,0 +1,23 @@
+{
+  "name": "Aether Gale",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "countOf": 6,
+        "text": "six target nonland permanents"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      }
+    ],
+    "text": "Return six target nonland permanents to their owners' hands."
+  }
+}

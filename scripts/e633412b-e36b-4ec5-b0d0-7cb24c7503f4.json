@@ -1,0 +1,57 @@
+{
+  "name": "Dollmaker's Shop // Porcelain Gallery",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "yourCreaturesAttackPlayer",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "notSubtype": "Toy"
+          },
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Toy",
+                "types": "Artifact Creature — Toy",
+                "colors": [
+                  "W"
+                ],
+                "power": 1,
+                "toughness": 1
+              }
+            }
+          ],
+          "text": "Whenever one or more non-Toy creatures you control attack a player, create a 1/1 white Toy artifact creature token."
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "static": {
+            "affects": "creatures:you",
+            "setPower": {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "setToughness": {
+              "count": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          },
+          "text": "Creatures you control have base power and toughness each equal to the number of creatures you control."
+        }
+      ]
+    }
+  ]
+}

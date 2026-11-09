@@ -1,0 +1,33 @@
+{
+  "name": "Sandwurm Convergence",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "filter": {
+          "keyword": "Flying"
+        },
+        "cantAttackYou": true
+      },
+      "text": "Creatures with flying can't attack you or planeswalkers you control."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Wurm",
+            "types": "Creature — Wurm",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 5
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, create a 5/5 green Wurm creature token."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Greenhouse // Rickety Gazebo",
+  "split": [
+    {
+      "abilities": [
+        {
+          "static": {
+            "affects": "permanents:you",
+            "filter": {
+              "types": [
+                "land"
+              ]
+            },
+            "grantsMana": "any"
+          },
+          "text": "Lands you control have \"{T}: Add one mana of any color.\""
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "mill": 4,
+              "who": "you"
+            },
+            {
+              "takeMilled": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              },
+              "count": 2
+            }
+          ],
+          "text": "When you unlock this door, mill four cards, then return up to two permanent cards from among them to your hand."
+        }
+      ]
+    }
+  ]
+}

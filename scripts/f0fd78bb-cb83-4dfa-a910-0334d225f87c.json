@@ -1,0 +1,31 @@
+{
+  "name": "Attack-in-the-Box",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Have this creature get +4/+0 until end of turn (and sacrifice it at the beginning of the next end step)?",
+          "effects": [
+            {
+              "pump": [
+                4,
+                0
+              ],
+              "what": "self"
+            },
+            {
+              "atNextEndStepAbout": "self",
+              "effects": [
+                {
+                  "sacrificeIt": "triggered"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may have it get +4/+0 until end of turn. If you do, sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

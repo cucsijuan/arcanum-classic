@@ -1,0 +1,67 @@
+{
+  "name": "Untimely Malfunction",
+  "spell": {
+    "chooseCount": 1,
+    "modes": [
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Change the target of target spell or ability with a single target.",
+        "targets": [
+          {
+            "kind": "spellOrAbility",
+            "singleTarget": true,
+            "text": "target spell or ability with a single target"
+          }
+        ],
+        "effects": [
+          {
+            "changeTarget": "target"
+          }
+        ]
+      },
+      {
+        "text": "One or two target creatures can't block this turn.",
+        "targetRule": "allDifferent",
+        "targets": [
+          "creature",
+          {
+            "kind": "creature",
+            "optional": true
+          }
+        ],
+        "effects": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Can't block"
+            ]
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target2",
+            "keywords": [
+              "Can't block"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

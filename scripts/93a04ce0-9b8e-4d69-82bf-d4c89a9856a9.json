@@ -1,0 +1,30 @@
+{
+  "name": "Killer's Mask",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "manifestDread": true
+        },
+        {
+          "attach": "created"
+        }
+      ],
+      "text": "When this Equipment enters, manifest dread, then attach this Equipment to that creature."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Equipped creature has menace."
+    }
+  ]
+}

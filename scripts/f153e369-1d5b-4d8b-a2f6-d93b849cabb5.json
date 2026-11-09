@@ -1,0 +1,63 @@
+{
+  "name": "Niko, Light of Hope",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Shard",
+            "types": "Enchantment — Shard",
+            "abilities": [
+              {
+                "cost": "{2}, sacrifice",
+                "effects": [
+                  {
+                    "scry": 1
+                  },
+                  {
+                    "draw": 1
+                  }
+                ],
+                "text": "{2}, Sacrifice this token: Scry 1, then draw a card."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "When Niko enters, create two Shard tokens."
+    },
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notSupertype": "legendary"
+          },
+          "text": "target nonlegendary creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "shardsBecomeCopies": "target"
+        },
+        {
+          "atNextEndStepAbout": "target",
+          "effects": [
+            {
+              "reanimate": "triggered",
+              "ownerControl": true
+            }
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Exile target nonlegendary creature you control. Shards you control become copies of it until the next end step. Return it to the battlefield under its owner's control at the beginning of the next end step."
+    }
+  ]
+}

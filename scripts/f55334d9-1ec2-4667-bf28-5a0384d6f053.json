@@ -1,0 +1,41 @@
+{
+  "name": "Thunderfoot Baloth",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "control": {
+            "commander": true,
+            "ownedByYou": true
+          }
+        }
+      },
+      "text": "Lieutenant — As long as you control your commander, this creature gets +2/+2 and other creatures you control get +2/+2 and have trample."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          2,
+          2
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "while": {
+          "control": {
+            "commander": true,
+            "ownedByYou": true
+          }
+        }
+      },
+      "text": "Lieutenant — As long as you control your commander, this creature gets +2/+2 and other creatures you control get +2/+2 and have trample."
+    }
+  ]
+}

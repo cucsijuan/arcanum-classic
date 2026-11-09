@@ -1,0 +1,32 @@
+{
+  "name": "Starfield Mystic",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "enchantment"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Enchantment spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever an enchantment you control is put into a graveyard from the battlefield, put a +1/+1 counter on this creature."
+    }
+  ]
+}

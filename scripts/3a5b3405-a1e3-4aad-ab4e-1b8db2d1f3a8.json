@@ -1,0 +1,6 @@
+{
+  "name": "Strangled Cemetery",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

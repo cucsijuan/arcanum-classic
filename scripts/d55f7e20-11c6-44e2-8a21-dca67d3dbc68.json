@@ -1,0 +1,6 @@
+{
+  "name": "Peculiar Lighthouse",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

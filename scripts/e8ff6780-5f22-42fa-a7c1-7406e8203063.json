@@ -1,0 +1,17 @@
+{
+  "name": "Redress Fate",
+  "miracle": "{3}{W}",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        }
+      }
+    ],
+    "text": "Return all artifact and enchantment cards from your graveyard to the battlefield."
+  }
+}

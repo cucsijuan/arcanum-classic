@@ -1,0 +1,61 @@
+{
+  "name": "The Eldest Reborn",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          }
+        }
+      ],
+      "text": "I — Each opponent sacrifices a creature or planeswalker of their choice."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "II — Each opponent discards a card."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature",
+              "planeswalker"
+            ]
+          },
+          "text": "target creature or planeswalker card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "III — Put target creature or planeswalker card from a graveyard onto the battlefield under your control."
+    }
+  ]
+}

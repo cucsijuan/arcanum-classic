@@ -1,0 +1,50 @@
+{
+  "name": "Insidious Fungus",
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice",
+      "text": "{2}, Sacrifice this creature: Choose one —",
+      "modes": [
+        {
+          "text": "Destroy target artifact.",
+          "targets": [
+            "artifact"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Destroy target enchantment.",
+          "targets": [
+            "enchantment"
+          ],
+          "effects": [
+            {
+              "destroy": "target"
+            }
+          ]
+        },
+        {
+          "text": "Draw a card. Then you may put a land card from your hand onto the battlefield tapped.",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "putFromHand": {
+                "types": [
+                  "land"
+                ]
+              },
+              "one": true,
+              "tapped": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

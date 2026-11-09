@@ -1,0 +1,36 @@
+{
+  "name": "Formless Genesis",
+  "graveyardCastCost": {
+    "discard": 1,
+    "discardFilter": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "size": {
+          "graveyard": {
+            "types": [
+              "land"
+            ]
+          }
+        },
+        "token": {
+          "name": "Shapeshifter",
+          "types": "Creature — Shapeshifter",
+          "power": 0,
+          "toughness": 0,
+          "keywords": [
+            "Changeling",
+            "Deathtouch"
+          ]
+        }
+      }
+    ],
+    "text": "Create an X/X colorless Shapeshifter creature token with changeling and deathtouch, where X is the number of land cards in your graveyard."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Gleeful Arsonist",
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever an opponent casts a noncreature spell, this creature deals damage equal to its power to that player."
+    }
+  ]
+}

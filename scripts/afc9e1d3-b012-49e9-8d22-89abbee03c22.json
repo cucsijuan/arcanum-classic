@@ -1,0 +1,31 @@
+{
+  "name": "Primordial Mist",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "may": "Manifest the top card of your library?",
+          "effects": [
+            {
+              "manifest": 1
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may manifest the top card of your library."
+    },
+    {
+      "cost": "",
+      "exileYouControl": {
+        "faceDown": true
+      },
+      "effects": [
+        {
+          "exiledForCostPlayable": true
+        }
+      ],
+      "text": "Exile a face-down permanent you control face up: You may play that card this turn."
+    }
+  ]
+}

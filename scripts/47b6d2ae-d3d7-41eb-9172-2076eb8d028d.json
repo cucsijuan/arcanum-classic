@@ -1,0 +1,6 @@
+{
+  "name": "Bleeding Woods",
+  "entersTappedUnless": {
+    "aPlayerLifeAtMost": 13
+  }
+}

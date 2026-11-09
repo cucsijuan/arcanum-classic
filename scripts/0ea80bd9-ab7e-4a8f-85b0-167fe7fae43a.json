@@ -1,0 +1,47 @@
+{
+  "name": "Cathartic Parting",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment an opponent controls"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "upTo": 4,
+        "text": "up to four target cards from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "shuffleIntoLibrary": "target"
+      },
+      {
+        "may": "Shuffle the targeted cards from your graveyard into your library?",
+        "effects": [
+          {
+            "shuffleIntoLibrary": "target2"
+          },
+          {
+            "shuffleIntoLibrary": "target3"
+          },
+          {
+            "shuffleIntoLibrary": "target4"
+          },
+          {
+            "shuffleIntoLibrary": "target5"
+          }
+        ]
+      }
+    ],
+    "text": "The owner of target artifact or enchantment an opponent controls shuffles it into their library. You may shuffle up to four target cards from your graveyard into your library."
+  }
+}

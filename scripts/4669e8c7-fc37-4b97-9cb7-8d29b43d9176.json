@@ -1,0 +1,33 @@
+{
+  "name": "Overlord of the Hauntwoods",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Everywhere",
+            "types": "Land — Plains Island Swamp Mountain Forest"
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, create a tapped colorless land token named Everywhere that is every basic land type."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Everywhere",
+            "types": "Land — Plains Island Swamp Mountain Forest"
+          },
+          "tapped": true
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, create a tapped colorless land token named Everywhere that is every basic land type."
+    }
+  ]
+}

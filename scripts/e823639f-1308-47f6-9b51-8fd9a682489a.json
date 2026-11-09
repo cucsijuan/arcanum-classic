@@ -1,0 +1,18 @@
+{
+  "name": "Gnarlwood Dryad",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          2
+        ],
+        "while": {
+          "cardTypesInGraveyard": 4
+        }
+      },
+      "text": "Delirium — This creature gets +2/+2 as long as there are four or more card types among cards in your graveyard."
+    }
+  ]
+}

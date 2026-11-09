@@ -1,0 +1,43 @@
+{
+  "name": "Keys to the House",
+  "abilities": [
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "count": 1,
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "subtype": "Room"
+          },
+          "text": "target Room you control"
+        }
+      ],
+      "effects": [
+        {
+          "unlockDoor": "target",
+          "orLock": true
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this artifact: Lock or unlock a door of target Room you control. Activate only as a sorcery."
+    }
+  ]
+}

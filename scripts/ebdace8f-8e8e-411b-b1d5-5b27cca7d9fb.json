@@ -1,0 +1,23 @@
+{
+  "name": "Duskmourn's Domination",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "givesControl": true
+      },
+      "text": "You control enchanted creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -3,
+          0
+        ],
+        "losesAbilities": true
+      },
+      "text": "Enchanted creature gets -3/-0 and loses all abilities."
+    }
+  ]
+}

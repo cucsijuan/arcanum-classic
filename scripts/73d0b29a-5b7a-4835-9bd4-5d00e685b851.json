@@ -1,0 +1,25 @@
+{
+  "name": "Weatherseed Elf",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Forestwalk"
+          ]
+        }
+      ],
+      "text": "{T}: Target creature gains forestwalk until end of turn."
+    }
+  ]
+}

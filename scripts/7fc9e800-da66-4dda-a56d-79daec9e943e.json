@@ -1,0 +1,41 @@
+{
+  "name": "Kianne, Corrupted Memory",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "not": [
+            "creature"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true,
+        "while": "sourcePowerEven"
+      },
+      "text": "As long as Kianne's power is even, you may cast noncreature spells as though they had flash."
+    },
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ]
+        },
+        "amount": 0,
+        "grantsFlash": true,
+        "while": "sourcePowerOdd"
+      },
+      "text": "As long as Kianne's power is odd, you may cast creature spells as though they had flash."
+    },
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw a card, put a +1/+1 counter on Kianne."
+    }
+  ]
+}

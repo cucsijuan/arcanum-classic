@@ -1,0 +1,65 @@
+{
+  "name": "Overlord of the Balemurk",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        },
+        {
+          "returnFromGraveyard": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ],
+                "notSubtype": "Avatar"
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              }
+            ]
+          },
+          "count": 1,
+          "upTo": true,
+          "to": "hand"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, mill four cards, then you may return a non-Avatar creature card or a planeswalker card from your graveyard to your hand."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mill": 4,
+          "who": "you"
+        },
+        {
+          "returnFromGraveyard": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ],
+                "notSubtype": "Avatar"
+              },
+              {
+                "types": [
+                  "planeswalker"
+                ]
+              }
+            ]
+          },
+          "count": 1,
+          "upTo": true,
+          "to": "hand"
+        }
+      ],
+      "text": "Whenever this permanent enters or attacks, mill four cards, then you may return a non-Avatar creature card or a planeswalker card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Tainted Isle",
+  "extraMana": [
+    {
+      "types": "{U}{B}",
+      "while": {
+        "control": {
+          "subtype": "Swamp"
+        }
+      }
+    }
+  ]
+}

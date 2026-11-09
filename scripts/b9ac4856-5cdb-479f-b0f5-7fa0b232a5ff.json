@@ -1,0 +1,44 @@
+{
+  "name": "Bottomless Pool // Locker Room",
+  "split": [
+    {
+      "abilities": [
+        {
+          "trigger": "youUnlockThisDoor",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ],
+          "text": "When you unlock this door, return up to one target creature to its owner's hand.",
+          "targets": [
+            {
+              "kind": "creature",
+              "optional": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "abilities": [
+        {
+          "trigger": "creatureCombatDamageToPlayer",
+          "batchedPerPlayer": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ],
+          "text": "Whenever one or more creatures you control deal combat damage to a player, draw a card."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Unable to Scream",
+  "rules": [
+    "EnchantedCantBeTurnedFaceUp"
+  ],
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "losesAbilities": true,
+        "addTypes": [
+          "artifact",
+          "creature"
+        ],
+        "addSubtypes": [
+          "Toy"
+        ],
+        "setPower": 0,
+        "setToughness": 2
+      },
+      "text": "Enchanted creature loses all abilities and is a Toy artifact creature with base power and toughness 0/2 in addition to its other types."
+    }
+  ]
+}

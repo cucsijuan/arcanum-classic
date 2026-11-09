@@ -1,0 +1,30 @@
+{
+  "name": "Demolisher Spawn",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "cardTypesInGraveyard": 4
+      },
+      "effects": [
+        {
+          "pump": [
+            4,
+            4
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "any",
+              "attacking": true,
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Delirium — Whenever this creature attacks, if there are four or more card types among cards in your graveyard, other attacking creatures get +4/+4 until end of turn."
+    }
+  ]
+}

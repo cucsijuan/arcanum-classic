@@ -1,0 +1,26 @@
+{
+  "name": "Thornspire Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Mountain"
+            },
+            {
+              "subtype": "Forest"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{G}"
+        }
+      ],
+      "text": "{T}: Add {G}. Activate only if you control a Mountain or a Forest."
+    }
+  ]
+}

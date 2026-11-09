@@ -1,0 +1,17 @@
+{
+  "name": "Vashta Nerada",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "morbid",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Morbid — At the beginning of each end step, if a creature died this turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

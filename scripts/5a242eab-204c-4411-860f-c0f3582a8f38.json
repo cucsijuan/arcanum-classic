@@ -1,0 +1,58 @@
+{
+  "name": "Tyvar, the Pummeler",
+  "abilities": [
+    {
+      "cost": "tapCreatures:1",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "Tap another untapped creature you control: Tyvar gains indestructible until end of turn. Tap it."
+    },
+    {
+      "cost": "{3}{G}{G}",
+      "effects": [
+        {
+          "pump": [
+            {
+              "greatestPowerAmong": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "greatestPowerAmong": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "{3}{G}{G}: Creatures you control get +X/+X until end of turn, where X is the greatest power among creatures you control."
+    }
+  ]
+}

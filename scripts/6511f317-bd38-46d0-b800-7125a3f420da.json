@@ -1,0 +1,27 @@
+{
+  "name": "Aesi, Tyrant of Gyre Strait",
+  "replaces": [
+    "AdditionalLandPlay"
+  ],
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, you may draw a card."
+    }
+  ]
+}
