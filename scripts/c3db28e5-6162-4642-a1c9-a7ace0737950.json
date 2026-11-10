@@ -1,0 +1,34 @@
+{
+  "name": "Smothering Abomination",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, sacrifice a creature."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you sacrifice a creature, draw a card."
+    }
+  ]
+}

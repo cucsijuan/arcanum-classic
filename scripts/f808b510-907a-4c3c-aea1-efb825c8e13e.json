@@ -1,0 +1,12 @@
+{
+  "name": "Scorched Geyser",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "supertype": "basic"
+    },
+    "count": 2
+  }
+}

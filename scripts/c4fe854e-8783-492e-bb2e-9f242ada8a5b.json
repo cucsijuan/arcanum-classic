@@ -1,0 +1,61 @@
+{
+  "name": "Blight Mound",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Pest",
+          "attacking": true
+        },
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Attacking Pests you control get +1/+0 and have menace."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "token": false
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "dies",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "When this token dies, you gain 1 life."
+              }
+            ],
+            "text": "When this token dies, you gain 1 life."
+          }
+        }
+      ],
+      "text": "Whenever a nontoken creature you control dies, create a 1/1 black and green Pest creature token with \"When this token dies, you gain 1 life.\""
+    }
+  ]
+}

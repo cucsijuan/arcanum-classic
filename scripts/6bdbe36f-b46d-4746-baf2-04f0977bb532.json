@@ -1,0 +1,70 @@
+{
+  "name": "Nexus Mentality",
+  "spell": {
+    "text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.",
+    "extraModeIf": {
+      "control": {
+        "commander": true
+      }
+    },
+    "modes": [
+      {
+        "text": "Move all counters from target nonland permanent you control onto another target nonland permanent you control.",
+        "targetRule": "allDifferent",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent you control"
+          },
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "another target nonland permanent you control"
+          }
+        ],
+        "effects": [
+          {
+            "moveAllCounters": {
+              "from": "target",
+              "to": "target2"
+            }
+          }
+        ]
+      },
+      {
+        "text": "Remove all counters from target nonland permanent you control. Draw a card for each counter removed this way.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent you control"
+          }
+        ],
+        "effects": [
+          {
+            "removeAllCounters": "target"
+          },
+          {
+            "draw": "countersRemovedThisWay"
+          }
+        ]
+      }
+    ]
+  }
+}

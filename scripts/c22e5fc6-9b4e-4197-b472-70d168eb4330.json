@@ -1,0 +1,28 @@
+{
+  "name": "Redemption Arc",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature has indestructible and is goaded."
+    },
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "exile": "attached"
+        }
+      ],
+      "text": "{1}{W}: Exile enchanted creature."
+    }
+  ]
+}

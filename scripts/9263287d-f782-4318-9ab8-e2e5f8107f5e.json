@@ -1,0 +1,37 @@
+{
+  "name": "Resonating Lute",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "grantsMana": "any",
+        "grantsManaAmount": 2,
+        "grantsManaOnlyFor": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        }
+      },
+      "text": "Lands you control have \"{T}: Add two mana of any one color. Spend this mana only to cast instant and sorcery spells.\""
+    },
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "atLeast": "handSize",
+        "value": 7
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}: Draw a card. Activate only if you have seven or more cards in your hand."
+    }
+  ]
+}

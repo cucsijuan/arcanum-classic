@@ -1,0 +1,34 @@
+{
+  "name": "Scathing Shadelock // Venomous Words",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your first main phase, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Target creature you control gets +2/+0 and gains deathtouch until end of turn."
+    }
+  }
+}

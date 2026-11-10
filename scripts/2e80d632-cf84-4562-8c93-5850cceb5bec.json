@@ -1,0 +1,35 @@
+{
+  "name": "Tackle Artist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ],
+          "else": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature. If five or more mana was spent to cast that spell, put two +1/+1 counters on this creature instead."
+    }
+  ]
+}

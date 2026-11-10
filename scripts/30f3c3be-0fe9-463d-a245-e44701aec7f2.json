@@ -1,0 +1,31 @@
+{
+  "name": "Blossoming Bogbeast",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "gainLife": 2
+        },
+        {
+          "pump": [
+            "lifeGained",
+            "lifeGained"
+          ],
+          "keywords": [
+            "Trample"
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, you gain 2 life. Then creatures you control gain trample and get +X/+X until end of turn, where X is the amount of life you gained this turn."
+    }
+  ]
+}

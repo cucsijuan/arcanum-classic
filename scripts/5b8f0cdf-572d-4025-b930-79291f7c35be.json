@@ -1,0 +1,20 @@
+{
+  "name": "Vanishing Verse",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "monocolored": true
+        },
+        "text": "target monocolored permanent"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target monocolored permanent."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Fractal Tender",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "youPutCounterOnSelfThisTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": 3,
+          "what": "created"
+        }
+      ],
+      "text": "At the beginning of each end step, if you put a counter on this creature this turn, create a 0/0 green and blue Fractal creature token and put three +1/+1 counters on it."
+    }
+  ]
+}

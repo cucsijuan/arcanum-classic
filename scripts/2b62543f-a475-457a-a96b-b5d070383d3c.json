@@ -1,0 +1,19 @@
+{
+  "name": "Goldvein Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": {
+            "power": "self"
+          },
+          "token": "Treasure",
+          "tapped": true
+        }
+      ],
+      "text": "When this creature dies, create a number of tapped Treasure tokens equal to its power."
+    }
+  ]
+}

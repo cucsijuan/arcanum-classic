@@ -1,0 +1,46 @@
+{
+  "name": "Tanazir Quandrix",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "doubleCounters": "target",
+          "kind": "+1/+1"
+        }
+      ],
+      "text": "When Tanazir Quandrix enters, double the number of +1/+1 counters on target creature you control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Have the base power and toughness of your other creatures become Tanazir Quandrix's until end of turn?",
+          "effects": [
+            {
+              "become": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you",
+                  "other": true
+                }
+              },
+              "powerFrom": {
+                "power": "self"
+              },
+              "toughnessFrom": {
+                "toughness": "self"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Tanazir Quandrix attacks, you may have the base power and toughness of other creatures you control become equal to Tanazir Quandrix's power and toughness until end of turn."
+    }
+  ]
+}

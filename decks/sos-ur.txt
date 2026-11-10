@@ -1,0 +1,38 @@
+1 Abstract Paintmage (SOS) 171
+1 Biblioplex Tomekeeper (SOS) 247
+1 Charging Strifeknight (SOS) 110
+1 Garrison Excavator (SOS) 116
+1 Hydro-Channeler (SOS) 54
+1 Mage Tower Referee (SOS) 249
+1 Matterbending Mage (SOS) 59
+1 Mica, Reader of Ruins (SOS) 124
+1 Orysa, Tide Choreographer (SOS) 62
+1 Prismari, the Inspiration (SOS) 212
+1 Rearing Embermare (SOS) 127
+1 Rubble Rouser (SOS) 128
+1 Stadium Tidalmage (SOS) 232
+1 The Dawning Archaic (SOS) 1
+1 Zaffai and the Tempests (SOS) 246
+1 Zealous Lorecaster (SOS) 137
+1 Ancestral Anger (SOS) 106
+1 Artistic Process (SOS) 108
+1 Banishing Betrayal (SOS) 38
+1 Brush Off (SOS) 39
+1 Chase Inspiration (SOS) 41
+1 Choreographed Sparks (SOS) 111
+1 Diary of Dreams (SOS) 248
+1 Divergent Equation (SOS) 43
+1 Duel Tactics (SOS) 112
+1 Essence Scatter (SOS) 47
+1 Flashback (SOS) 115
+1 Flow State (SOS) 49
+1 Fractal Anomaly (SOS) 50
+1 Fractalize (SOS) 51
+1 Heated Argument (SOS) 118
+1 Homesickness (SOS) 53
+1 Impractical Joke (SOS) 119
+1 Living History (SOS) 121
+1 Mana Sculpt (SOS) 57
+1 Mathemagics (SOS) 58
+12 Island (SOS) 268
+12 Mountain (SOS) 270

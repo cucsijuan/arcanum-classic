@@ -1,0 +1,39 @@
+{
+  "name": "Sage's Reverie",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": {
+            "count": {
+              "subtype": "Aura",
+              "attachedToCreature": true
+            }
+          }
+        }
+      ],
+      "text": "When this Aura enters, draw a card for each Aura you control that's attached to a creature."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          {
+            "count": {
+              "subtype": "Aura",
+              "attachedToCreature": true
+            }
+          },
+          {
+            "count": {
+              "subtype": "Aura",
+              "attachedToCreature": true
+            }
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +1/+1 for each Aura you control that's attached to a creature."
+    }
+  ]
+}

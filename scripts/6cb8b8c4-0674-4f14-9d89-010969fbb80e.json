@@ -1,0 +1,55 @@
+{
+  "name": "Grave Researcher // Reanimate",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        },
+        {
+          "if": {
+            "graveyard": 3,
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "then": [
+            {
+              "becomePrepared": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        },
+        {
+          "loseLife": {
+            "manaValue": "target"
+          }
+        }
+      ],
+      "text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value."
+    }
+  }
+}

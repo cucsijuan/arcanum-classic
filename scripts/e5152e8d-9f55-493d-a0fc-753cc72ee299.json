@@ -1,0 +1,40 @@
+{
+  "name": "Emeritus of Abundance // Regrowth",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": {
+        "control": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 8
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, if you control eight or more lands, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Return target card from your graveyard to your hand."
+    }
+  }
+}

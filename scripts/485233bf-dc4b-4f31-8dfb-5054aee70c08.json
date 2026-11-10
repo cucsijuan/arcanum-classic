@@ -1,0 +1,35 @@
+{
+  "name": "Molten-Core Maestro",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "addMana": "{R}",
+              "times": {
+                "power": "self"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, put a +1/+1 counter on this creature. If five or more mana was spent to cast that spell, add an amount of {R} equal to this creature's power."
+    }
+  ]
+}

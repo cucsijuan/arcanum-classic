@@ -1,0 +1,25 @@
+{
+  "name": "Flusterstorm",
+  "storm": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "target instant or sorcery spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "{1}"
+      }
+    ],
+    "text": "Counter target instant or sorcery spell unless its controller pays {1}."
+  }
+}

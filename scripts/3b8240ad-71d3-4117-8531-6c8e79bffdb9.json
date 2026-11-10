@@ -1,0 +1,46 @@
+{
+  "name": "Scolding Administrator",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "spellTargets": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Repartee — Whenever you cast an instant or sorcery spell that targets a creature, put a +1/+1 counter on this creature."
+    },
+    {
+      "trigger": "dies",
+      "if": {
+        "sourceHadCounters": "any"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "When this creature dies, if it had counters on it, put those counters on up to one target creature."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Prismari Pianist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "triggered": {
+              "minManaValue": 5
+            }
+          },
+          "then": [
+            {
+              "tokens": 3,
+              "token": {
+                "name": "Elemental",
+                "types": "Creature — Elemental",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "U",
+                  "R"
+                ]
+              }
+            }
+          ],
+          "else": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Elemental",
+                "types": "Creature — Elemental",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "U",
+                  "R"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue and red Elemental creature token. If that spell's mana value is 5 or greater, create three of those tokens instead."
+    }
+  ]
+}

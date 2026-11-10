@@ -1,0 +1,31 @@
+{
+  "name": "Nev, the Practical Dean",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounters": true
+        },
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Creatures you control with counters on them have trample."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true
+      },
+      "nth": 1,
+      "effects": [
+        {
+          "counters": "triggeredSpellX",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast your first spell with {X} in its mana cost each turn, put X +1/+1 counters on Nev."
+    }
+  ]
+}

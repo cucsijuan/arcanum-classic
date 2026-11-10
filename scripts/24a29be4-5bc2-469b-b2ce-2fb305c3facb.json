@@ -1,0 +1,37 @@
+{
+  "name": "Emeritus of Ideation // Ancestral Recall",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Exile eight cards from your graveyard to make this creature prepared?",
+          "cost": {
+            "exileGraveyard": 8
+          },
+          "effects": [
+            {
+              "becomePrepared": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may exile eight cards from your graveyard. If you do, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 3,
+          "who": "target"
+        }
+      ],
+      "text": "Target player draws three cards."
+    }
+  }
+}

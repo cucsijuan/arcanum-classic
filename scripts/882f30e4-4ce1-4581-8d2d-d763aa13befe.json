@@ -1,0 +1,37 @@
+{
+  "name": "Elemental Mascot",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "exileTopPlayable": 1,
+              "untilNextTurn": true,
+              "chooseOne": false
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn. If five or more mana was spent to cast that spell, exile the top card of your library. You may play that card until the end of your next turn."
+    }
+  ]
+}

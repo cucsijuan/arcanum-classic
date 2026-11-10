@@ -1,0 +1,16 @@
+{
+  "name": "Relic Retriever",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": "cardLeftYourGraveyardThisTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "At the beginning of each end step, if a card left your graveyard this turn, create a Treasure token."
+    }
+  ]
+}

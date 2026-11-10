@@ -1,0 +1,22 @@
+{
+  "name": "Impractical Joke",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creatureOrPlaneswalker",
+        "optional": true,
+        "text": "up to one target creature or planeswalker"
+      }
+    ],
+    "effects": [
+      {
+        "damageCantBePrevented": true
+      },
+      {
+        "damage": 3,
+        "to": "target"
+      }
+    ],
+    "text": "Damage can't be prevented this turn. Impractical Joke deals 3 damage to up to one target creature or planeswalker."
+  }
+}

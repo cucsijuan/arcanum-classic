@@ -1,0 +1,54 @@
+{
+  "name": "Hofri Ghostforge",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Spirit",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Spirits you control get +1/+1 and have trample and haste."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "token": false
+      },
+      "effects": [
+        {
+          "exile": "triggered"
+        },
+        {
+          "copy": "exiled",
+          "addSubtypes": [
+            "Spirit"
+          ],
+          "abilities": [
+            {
+              "trigger": "leaves",
+              "effects": [
+                {
+                  "returnCopiedCardToGraveyard": true
+                }
+              ],
+              "text": "When this token leaves the battlefield, return the exiled card to its owner's graveyard."
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, exile it. If you do, create a token that's a copy of that creature, except it's a Spirit in addition to its other types and it has \"When this token leaves the battlefield, return the exiled card to its owner's graveyard.\""
+    }
+  ]
+}

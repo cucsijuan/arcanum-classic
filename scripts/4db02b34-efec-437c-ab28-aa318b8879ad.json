@@ -1,0 +1,38 @@
+{
+  "name": "Rabid Attack",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "optional": true,
+        "anyNumber": true,
+        "text": "any number of target creatures you control"
+      }
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "eachTarget"
+      },
+      {
+        "become": "eachTarget",
+        "abilities": [
+          {
+            "trigger": "dies",
+            "effects": [
+              {
+                "draw": 1
+              }
+            ],
+            "text": "When this creature dies, draw a card."
+          }
+        ]
+      }
+    ],
+    "text": "Until end of turn, any number of target creatures you control each get +1/+0 and gain \"When this creature dies, draw a card.\""
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Killian, Decisive Mentor",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "any",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "goad": "target"
+        }
+      ],
+      "text": "Whenever an enchantment you control enters, tap up to one target creature and goad it."
+    },
+    {
+      "trigger": "creaturesAttackMatching",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "enchantedByYours": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more creatures that are enchanted by an Aura you control attack, draw a card."
+    }
+  ]
+}

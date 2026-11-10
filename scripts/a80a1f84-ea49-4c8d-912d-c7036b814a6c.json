@@ -1,0 +1,56 @@
+{
+  "name": "Augusta, Order Returned",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "exileFromGraveyardChosen": {}
+            }
+          ]
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": {
+                "exiled": {
+                  "not": [
+                    "land"
+                  ]
+                }
+              },
+              "value": 1
+            },
+            "amount": {
+              "exiled": {
+                "not": [
+                  "land"
+                ]
+              }
+            },
+            "targets": [
+              {
+                "kind": "creature",
+                "controller": "any",
+                "filter": {
+                  "attacking": true
+                },
+                "text": "target attacking creature"
+              }
+            ],
+            "effects": [
+              {
+                "counters": "triggerAmount",
+                "what": "target"
+              }
+            ],
+            "text": "When one or more nonland cards are exiled this way, put that many +1/+1 counters on target attacking creature."
+          }
+        }
+      ],
+      "text": "Whenever Augusta attacks, each player exiles a card from their graveyard. When one or more nonland cards are exiled this way, put that many +1/+1 counters on target attacking creature."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Ajani's Chosen",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Cat",
+            "types": "Creature — Cat",
+            "colors": [
+              "W"
+            ],
+            "power": 2,
+            "toughness": 2,
+            "keywords": []
+          }
+        },
+        {
+          "if": {
+            "triggered": {
+              "subtype": "Aura"
+            }
+          },
+          "then": [
+            {
+              "may": "Attach that Aura to the Cat token?",
+              "effects": [
+                {
+                  "attach": "triggered",
+                  "to": "created"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever an enchantment you control enters, create a 2/2 white Cat creature token. If that enchantment is an Aura, you may attach it to the token."
+    }
+  ]
+}

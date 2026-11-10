@@ -1,0 +1,38 @@
+{
+  "name": "Joined Researchers // Secret Rendezvous",
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "if": {
+        "opponentHasMore": "cards"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of each end step, if an opponent has more cards in hand than you, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "draw": 3
+            },
+            {
+              "draw": 3,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "You and target opponent each draw three cards."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Winds of Rath",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "enchanted": false
+          }
+        },
+        "noRegeneration": true
+      }
+    ],
+    "text": "Destroy all creatures that aren't enchanted. They can't be regenerated."
+  }
+}

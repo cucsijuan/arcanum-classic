@@ -1,0 +1,23 @@
+{
+  "name": "Spell Pierce",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "not": [
+            "creature"
+          ]
+        },
+        "text": "target noncreature spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "{2}"
+      }
+    ],
+    "text": "Counter target noncreature spell unless its controller pays {2}."
+  }
+}

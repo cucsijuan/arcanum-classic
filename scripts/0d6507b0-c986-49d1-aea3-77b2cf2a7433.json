@@ -1,0 +1,35 @@
+{
+  "name": "Borrowed Knowledge",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Discard your hand, then draw cards equal to the number of cards in target opponent's hand.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "discardHand": "you"
+          },
+          {
+            "draw": "targetHandSize"
+          }
+        ]
+      },
+      {
+        "text": "Discard your hand, then draw cards equal to the number of cards discarded this way.",
+        "effects": [
+          {
+            "discardHand": "you"
+          },
+          {
+            "draw": {
+              "discarded": {}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

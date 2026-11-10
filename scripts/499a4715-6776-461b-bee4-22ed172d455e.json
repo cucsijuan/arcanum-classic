@@ -1,0 +1,36 @@
+{
+  "name": "Winds of Abandon",
+  "spell": {
+    "targets": [
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "controllersSearchBasicPerExiled": true
+      }
+    ],
+    "text": "Exile target creature you don't control. For each creature exiled this way, its controller searches their library for a basic land card. Those players put those cards onto the battlefield tapped, then shuffle."
+  },
+  "overload": "{4}{W}{W}",
+  "overloaded": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      },
+      {
+        "controllersSearchBasicPerExiled": true
+      }
+    ],
+    "text": "Exile each creature you don't control. For each creature exiled this way, its controller searches their library for a basic land card. Those players put those cards onto the battlefield tapped, then shuffle."
+  }
+}

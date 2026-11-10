@@ -1,0 +1,39 @@
+{
+  "name": "Shielded by Faith",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Enchanted creature has indestructible."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "may": "Attach Shielded by Faith to that creature?",
+          "effects": [
+            {
+              "attach": "self",
+              "to": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature enters, you may attach this Aura to that creature."
+    }
+  ]
+}

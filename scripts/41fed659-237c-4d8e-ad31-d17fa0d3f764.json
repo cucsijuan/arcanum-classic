@@ -1,0 +1,35 @@
+{
+  "name": "Ozolith, the Shattered Spire",
+  "plusOneCountersPlusOneOn": {
+    "types": [
+      "artifact",
+      "creature"
+    ]
+  },
+  "abilities": [
+    {
+      "cost": "{1}{G}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{1}{G}, {T}: Put a +1/+1 counter on target artifact or creature you control. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Dirgur Focusmage // Braingeyser",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Instant and sorcery spells you cast cost {1} less to cast."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "minManaValue": 5,
+        "castFromHand": true
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell with mana value 5 or greater from your hand, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": "X",
+          "who": "target"
+        }
+      ],
+      "text": "Target player draws X cards."
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Dualcaster Mage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery spell"
+        }
+      ],
+      "effects": [
+        {
+          "copySpell": "target"
+        }
+      ],
+      "text": "When this creature enters, copy target instant or sorcery spell. You may choose new targets for the copy."
+    }
+  ]
+}

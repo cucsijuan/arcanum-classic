@@ -91,8 +91,14 @@ Sets with scenes so far: ltr, hob, hoc, ltc.
 ## 6. Decks
 
 - Two-color sample decks: `tools/build_set_decks.py "$CARDS" sets/<code>.json [printings file]` writes `decks/<code>-<pair>.txt`.
+  `--pairs WB,UR,...` builds other color pairs than the five allied ones (for a set built around enemy pairs), e.g.
+  `tools/build_set_decks.py "$CARDS" sets/<code>.json "$CARDS" --pairs WB,UR,BG,RW,GU`.
 - Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line. The exact list,
   with collector numbers, foil flags and the basic land printings, can be taken from the deck files a public card database publishes (they list each card's set, number and finish).
+- Other official decks: 60-card theme decks as `decks/<code>-theme-<name>.txt` and 40-card Welcome Decks as
+  `decks/<code>-welcome-<color>.txt`, with the "official decklist" header line, taken from the same public deck files as the commander
+  precons. Theme decks are sold in the career store at their retail price. Welcome Decks are free in real life, so they are shipped as
+  decks only and are not listed in `career/career.json`.
 
 ## 7. Draft ratings
 
@@ -104,6 +110,9 @@ public datasets fails the download and gets no file; the computer drafters then 
 
 Add the set to `career/career.json`: `sets` and `featured` (booster shelf), the sample decks to `starter` and `precons`, and commander
 precons to `precons` with a price and to the commander night's `decks`.
+
+When the scripts use new vocabulary, the manifest's `apiVersion` must match the engine's `ContentModule.SupportedApiVersion`
+(`src/Arcanum.Data/Modules/ContentModule.cs` in the main repository).
 
 ## 9. Soak
 

@@ -1,0 +1,36 @@
+{
+  "name": "Parasitic Impetus",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          2,
+          2
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature gets +2/+2 and is goaded."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "triggeredController"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, its controller loses 2 life and you gain 2 life."
+    }
+  ]
+}

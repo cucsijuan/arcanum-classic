@@ -1,0 +1,29 @@
+{
+  "name": "Defacing Duskmage // Vandal's Edit",
+  "abilities": [
+    {
+      "trigger": "opponentDraws",
+      "nth": 2,
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever an opponent draws their second card each turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "loseLife": 2,
+          "who": "everyone"
+        }
+      ],
+      "text": "Draw two cards. Each player loses 2 life."
+    }
+  }
+}

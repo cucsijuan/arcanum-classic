@@ -1,0 +1,35 @@
+{
+  "name": "Mana Sculpt",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "if": {
+          "control": {
+            "subtype": "Wizard"
+          }
+        },
+        "then": [
+          {
+            "atYourNextMainPhase": {
+              "effects": [
+                {
+                  "addMana": "{C}",
+                  "times": "triggerAmount"
+                }
+              ],
+              "text": "Add an amount of {C} equal to the amount of mana spent to cast the countered spell."
+            },
+            "amount": "manaSpentOnTarget"
+          }
+        ]
+      },
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target spell. If you control a Wizard, add an amount of {C} equal to the amount of mana spent to cast that spell at the beginning of your next main phase."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Prismari Charm",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Surveil 2, then draw a card.",
+        "effects": [
+          {
+            "surveil": 2
+          },
+          {
+            "draw": 1
+          }
+        ]
+      },
+      {
+        "text": "Prismari Charm deals 1 damage to each of one or two targets.",
+        "targetRule": "allDifferent",
+        "targets": [
+          "any",
+          {
+            "kind": "any",
+            "optional": true
+          }
+        ],
+        "effects": [
+          {
+            "damage": 1,
+            "to": "target"
+          },
+          {
+            "damage": 1,
+            "to": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Return target nonland permanent to its owner's hand.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

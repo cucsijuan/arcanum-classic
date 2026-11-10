@@ -1,0 +1,11 @@
+{
+  "name": "Ad Nauseam",
+  "spell": {
+    "effects": [
+      {
+        "revealToHandLoseLifeRepeat": true
+      }
+    ],
+    "text": "Reveal the top card of your library and put that card into your hand. You lose life equal to its mana value. You may repeat this process any number of times."
+  }
+}

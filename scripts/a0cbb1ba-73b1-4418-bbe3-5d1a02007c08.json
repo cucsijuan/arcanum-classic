@@ -1,0 +1,23 @@
+{
+  "name": "Vibrant Outburst",
+  "spell": {
+    "targets": [
+      "any",
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "tap": "target2"
+      }
+    ],
+    "text": "Vibrant Outburst deals 3 damage to any target. Tap up to one target creature."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Laelia, the Blade Reforged",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "exileTopPlayable": 1
+        }
+      ],
+      "text": "Whenever Laelia attacks, exile the top card of your library. You may play that card this turn."
+    },
+    {
+      "trigger": "exiledFromLibraryOrGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever one or more cards are put into exile from your library and/or your graveyard, put a +1/+1 counter on Laelia."
+    }
+  ]
+}

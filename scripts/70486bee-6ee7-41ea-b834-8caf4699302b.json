@@ -1,0 +1,23 @@
+{
+  "name": "Daze",
+  "alternativeCost": {
+    "cost": "{0}",
+    "extra": {
+      "returnToHand": {
+        "subtype": "Island"
+      }
+    }
+  },
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "{1}"
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {1}."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Transcendent Envoy",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "subtype": "Aura"
+        },
+        "amount": 1
+      },
+      "text": "Aura spells you cast cost {1} less to cast."
+    }
+  ]
+}

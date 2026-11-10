@@ -1,0 +1,32 @@
+{
+  "name": "Veinwitch Coven",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "mayPay": "Pay {B} to return target creature card from your graveyard to your hand?",
+          "mana": "{B}",
+          "effects": [
+            {
+              "bounce": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, you may pay {B}. If you do, return target creature card from your graveyard to your hand."
+    }
+  ]
+}

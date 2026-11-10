@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Steppe",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Stirring Honormancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": {
+            "count": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          "take": 1,
+          "required": true,
+          "rest": "graveyard"
+        }
+      ],
+      "text": "When this creature enters, look at the top X cards of your library, where X is the number of creatures you control. Put one of those cards into your hand and the rest into your graveyard."
+    }
+  ]
+}

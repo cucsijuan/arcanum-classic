@@ -1,0 +1,42 @@
+{
+  "name": "Expressive Firedancer",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        },
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "self",
+              "keywords": [
+                "Double strike"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, this creature gets +1/+1 until end of turn. If five or more mana was spent to cast that spell, this creature also gains double strike until end of turn."
+    }
+  ]
+}

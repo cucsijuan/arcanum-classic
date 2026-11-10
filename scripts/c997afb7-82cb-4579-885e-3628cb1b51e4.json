@@ -1,0 +1,17 @@
+{
+  "name": "Rapturous Moment",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "discard": 2
+      },
+      {
+        "addMana": "{U}{U}{R}{R}{R}"
+      }
+    ],
+    "text": "Draw three cards, then discard two cards. Add {U}{U}{R}{R}{R}."
+  }
+}

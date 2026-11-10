@@ -1,0 +1,55 @@
+{
+  "name": "Requisition Raid",
+  "spell": {
+    "text": "Spree",
+    "chooseCount": 3,
+    "upTo": true,
+    "modes": [
+      {
+        "cost": "{1}",
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "cost": "{1}",
+        "text": "Destroy target enchantment.",
+        "targets": [
+          "enchantment"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "cost": "{1}",
+        "text": "Put a +1/+1 counter on each creature target player controls.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              },
+              "controlledBy": "target"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

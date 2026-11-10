@@ -1,0 +1,85 @@
+{
+  "name": "Eidolon of Countless Battles",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              },
+              {
+                "count": {
+                  "subtype": "Aura"
+                }
+              }
+            ]
+          },
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              },
+              {
+                "count": {
+                  "subtype": "Aura"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "This creature and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              },
+              {
+                "count": {
+                  "subtype": "Aura"
+                }
+              }
+            ]
+          },
+          {
+            "sum": [
+              {
+                "count": {
+                  "types": [
+                    "creature"
+                  ]
+                }
+              },
+              {
+                "count": {
+                  "subtype": "Aura"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "text": "This creature and enchanted creature each get +1/+1 for each creature you control and +1/+1 for each Aura you control."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Guardian of Faith",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "anyNumber": true,
+          "filter": {
+            "other": true
+          },
+          "text": "any number of other target creatures you control"
+        }
+      ],
+      "effects": [
+        {
+          "phaseOut": "eachTarget"
+        }
+      ],
+      "text": "When this creature enters, any number of other target creatures you control phase out."
+    }
+  ]
+}

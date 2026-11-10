@@ -1,0 +1,49 @@
+{
+  "name": "Essenceknit Scholar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "attacks",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "Whenever this token attacks, you gain 1 life."
+              }
+            ],
+            "text": "Whenever this token attacks, you gain 1 life."
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 black and green Pest creature token with \"Whenever this token attacks, you gain 1 life.\""
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "yourCreaturesDied": 1
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if a creature died under your control this turn, draw a card."
+    }
+  ]
+}

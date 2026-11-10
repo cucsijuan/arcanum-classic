@@ -1,0 +1,31 @@
+{
+  "name": "Eiganjo Dynastorian // Replenish",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "when": {
+        "attackers": 2
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever you attack with two or more creatures, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "reanimateAll": {
+            "types": [
+              "enchantment"
+            ]
+          }
+        }
+      ],
+      "text": "Return all enchantment cards from your graveyard to the battlefield."
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Glimpse of Nature",
+  "spell": {
+    "effects": [
+      {
+        "emblem": "Glimpse of Nature",
+        "untilEndOfTurn": true,
+        "abilities": [
+          {
+            "trigger": "castSpell",
+            "filter": {
+              "types": [
+                "creature"
+              ]
+            },
+            "effects": [
+              {
+                "draw": 1
+              }
+            ],
+            "text": "Whenever you cast a creature spell this turn, draw a card."
+          }
+        ]
+      }
+    ],
+    "text": "Whenever you cast a creature spell this turn, draw a card."
+  }
+}

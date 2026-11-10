@@ -1,0 +1,36 @@
+{
+  "name": "Brazen Borrower // Petty Theft",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can block only creatures with flying"
+        ]
+      },
+      "text": "This creature can block only creatures with flying."
+    }
+  ],
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "Return target nonland permanent an opponent controls to its owner's hand."
+    }
+  }
+}

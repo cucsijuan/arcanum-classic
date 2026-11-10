@@ -1,0 +1,42 @@
+{
+  "name": "Wight of the Reliquary",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          },
+          {
+            "graveyard": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        ]
+      },
+      "text": "This creature gets +1/+1 for each creature card in your graveyard."
+    },
+    {
+      "cost": "{T}, sacrifice:creature",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ]
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "{T}, Sacrifice another creature: Search your library for a land card, put it onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Leitmotif Composer",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, draw a card."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "minManaValue": 5
+      },
+      "effects": [
+        {
+          "copy": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell with mana value 5 or greater, create a token that's a copy of this creature."
+    },
+    {
+      "cost": "{2}{U}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "name": "Leitmotif Composer",
+              "controller": "any"
+            }
+          },
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{2}{U}: Creatures named Leitmotif Composer can't be blocked this turn."
+    }
+  ]
+}

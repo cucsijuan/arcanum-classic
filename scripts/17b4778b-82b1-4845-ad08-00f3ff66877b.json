@@ -1,0 +1,33 @@
+{
+  "name": "Perpetual Timepiece",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "mill": 2,
+          "who": "you"
+        }
+      ],
+      "text": "{T}: Mill two cards."
+    },
+    {
+      "cost": "{2}, exile",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "anyNumber": true,
+          "text": "any number of target cards from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "shuffleIntoLibrary": "eachTarget"
+        }
+      ],
+      "text": "{2}, Exile this artifact: Shuffle any number of target cards from your graveyard into your library."
+    }
+  ]
+}

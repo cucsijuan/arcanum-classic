@@ -1,0 +1,45 @@
+{
+  "name": "Decisive Denial",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Target creature you control fights target creature you don't control.",
+        "targets": [
+          "creature:you",
+          {
+            "kind": "creature",
+            "controller": "opponent",
+            "text": "target creature you don't control"
+          }
+        ],
+        "effects": [
+          {
+            "fight": "target",
+            "with": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Counter target noncreature spell unless its controller pays {3}.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "not": [
+                "creature"
+              ]
+            },
+            "text": "target noncreature spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{3}"
+          }
+        ]
+      }
+    ]
+  }
+}

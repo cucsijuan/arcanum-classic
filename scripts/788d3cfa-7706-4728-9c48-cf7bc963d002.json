@@ -1,0 +1,24 @@
+{
+  "name": "Skycoach Conductor // All Aboard",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "notSubtype": "Pilot"
+          },
+          "text": "target non-Pilot creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "target"
+        }
+      ],
+      "text": "Exile target non-Pilot creature you control, then return that card to the battlefield under its owner's control."
+    }
+  }
+}

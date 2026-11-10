@@ -1,0 +1,15 @@
+{
+  "name": "Summoned Dromedary",
+  "abilities": [
+    {
+      "cost": "{1}{W}, fromGraveyard",
+      "sorcery": true,
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{1}{W}: Return this card from your graveyard to your hand. Activate only as a sorcery."
+    }
+  ]
+}

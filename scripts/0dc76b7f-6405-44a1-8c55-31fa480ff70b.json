@@ -1,0 +1,67 @@
+{
+  "name": "Ral Zarek, Guest Lecturer",
+  "abilities": [
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "+1: Surveil 2."
+    },
+    {
+      "cost": "-1",
+      "targets": [
+        {
+          "kind": "player",
+          "optional": true,
+          "anyNumber": true,
+          "text": "any number of target players"
+        }
+      ],
+      "effects": [
+        {
+          "discard": 1,
+          "who": "eachTarget"
+        }
+      ],
+      "text": "−1: Any number of target players each discard a card."
+    },
+    {
+      "cost": "-2",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target creature card with mana value 3 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "−2: Return target creature card with mana value 3 or less from your graveyard to the battlefield."
+    },
+    {
+      "cost": "-7",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "flipCoinsSkipTurns": 5,
+          "who": "target"
+        }
+      ],
+      "text": "−7: Flip five coins. Target opponent skips their next X turns, where X is the number of coins that came up heads."
+    }
+  ]
+}

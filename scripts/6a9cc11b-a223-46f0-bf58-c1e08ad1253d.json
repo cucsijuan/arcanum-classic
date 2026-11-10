@@ -1,0 +1,57 @@
+{
+  "name": "Forum Filibuster",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "power": 2,
+            "toughness": 1,
+            "colors": [
+              "W",
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        },
+        {
+          "whenYouDo": {
+            "if": "createdThisWay",
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "optional": true,
+                "filter": {
+                  "anyOf": [
+                    {
+                      "subtype": "Aura"
+                    },
+                    {
+                      "subtype": "Equipment"
+                    }
+                  ]
+                },
+                "text": "up to one target Aura or Equipment card from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "reanimate": "target",
+                "attachTo": "created"
+              }
+            ],
+            "text": "Return up to one target Aura or Equipment card from your graveyard to the battlefield attached to that token."
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 2/1 white and black Inkling creature token with flying. When you do, return up to one target Aura or Equipment card from your graveyard to the battlefield attached to that token."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Tragedy Feaster",
+  "wardCost": {
+    "discard": 1
+  },
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "if": {
+            "not": "gainedLife"
+          },
+          "then": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Infusion — At the beginning of your end step, sacrifice a permanent unless you gained life this turn."
+    }
+  ]
+}

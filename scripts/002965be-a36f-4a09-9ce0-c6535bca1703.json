@@ -1,0 +1,32 @@
+{
+  "name": "Veil of Summer",
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "opponentCastSpellThisTurn": {
+            "colors": [
+              "U",
+              "B"
+            ]
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      },
+      {
+        "yourSpellsCantBeCounteredThisTurn": true
+      },
+      {
+        "hexproofFromColorsThisTurn": [
+          "U",
+          "B"
+        ]
+      }
+    ],
+    "text": "Draw a card if an opponent has cast a blue or black spell this turn. Spells you control can't be countered this turn. You and permanents you control gain hexproof from blue and from black until end of turn."
+  }
+}

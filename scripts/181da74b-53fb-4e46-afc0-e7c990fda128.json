@@ -1,0 +1,31 @@
+{
+  "name": "Efflorescence",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 2,
+        "what": "target"
+      },
+      {
+        "if": "gainedLife",
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample",
+              "Indestructible"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Put two +1/+1 counters on target creature.\nInfusion — If you gained life this turn, that creature also gains trample and indestructible until end of turn."
+  }
+}

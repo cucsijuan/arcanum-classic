@@ -1,0 +1,32 @@
+{
+  "name": "Venerable Warsinger",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValueTriggerAmount": true
+          },
+          "text": "target creature card with mana value X or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, you may return target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of damage this creature dealt to that player."
+    }
+  ]
+}

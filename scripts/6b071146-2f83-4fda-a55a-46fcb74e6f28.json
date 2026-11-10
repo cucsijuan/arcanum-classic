@@ -1,0 +1,59 @@
+{
+  "name": "Deekah, Fractal Theorist",
+  "abilities": [
+    {
+      "trigger": "castOrCopy",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": "triggerAmount",
+          "what": "created"
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it, where X is that spell's mana value."
+    },
+    {
+      "cost": "{3}{U}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "token": true
+          },
+          "text": "target creature token"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{3}{U}: Target creature token can't be blocked this turn."
+    }
+  ]
+}

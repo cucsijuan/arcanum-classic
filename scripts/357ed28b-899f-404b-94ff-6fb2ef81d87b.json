@@ -1,0 +1,25 @@
+{
+  "name": "Alchemist's Refuge",
+  "abilities": [
+    {
+      "cost": "{G}{U}, {T}",
+      "effects": [
+        {
+          "emblem": "Alchemist's Refuge",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "spellCost": {
+                "spells": {},
+                "amount": 0,
+                "grantsFlash": true
+              },
+              "text": "You may cast spells this turn as though they had flash."
+            }
+          ]
+        }
+      ],
+      "text": "{G}{U}, {T}: You may cast spells this turn as though they had flash."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "Pick Your Poison",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Each opponent sacrifices an artifact of their choice.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "who": "opponents"
+          }
+        ]
+      },
+      {
+        "text": "Each opponent sacrifices an enchantment of their choice.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "who": "opponents"
+          }
+        ]
+      },
+      {
+        "text": "Each opponent sacrifices a creature with flying of their choice.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "filter": {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            },
+            "who": "opponents"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Priest of Forgotten Gods",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice:creature*2",
+      "targets": [
+        {
+          "kind": "player",
+          "optional": true,
+          "anyNumber": true,
+          "text": "any number of target players"
+        }
+      ],
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "eachTarget"
+        },
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "eachTarget"
+        },
+        {
+          "addMana": "{B}{B}"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}, Sacrifice two other creatures: Any number of target players each lose 2 life and sacrifice a creature of their choice. You add {B}{B} and draw a card."
+    }
+  ]
+}

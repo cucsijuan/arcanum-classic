@@ -1,0 +1,15 @@
+{
+  "name": "Study Hall",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1,
+          "rider": "ScryCommanderCasts"
+        }
+      ],
+      "text": "{1}, {T}: Add one mana of any color. When you spend this mana to cast your commander, scry X, where X is the number of times it's been cast from the command zone this game."
+    }
+  ]
+}

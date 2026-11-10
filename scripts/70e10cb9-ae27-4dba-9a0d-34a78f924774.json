@@ -1,0 +1,33 @@
+{
+  "name": "Aziza, Mage Tower Captain",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "mayPay": "Tap three untapped creatures you control to copy that spell?",
+          "cost": {
+            "tap": {
+              "types": [
+                "creature"
+              ]
+            },
+            "tapCount": 3
+          },
+          "effects": [
+            {
+              "copySpell": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, you may tap three untapped creatures you control. If you do, copy that spell. You may choose new targets for the copy."
+    }
+  ]
+}

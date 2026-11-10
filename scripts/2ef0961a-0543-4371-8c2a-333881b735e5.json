@@ -1,0 +1,34 @@
+{
+  "name": "Tomik, Wielder of Law",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "planeswalker"
+      ],
+      "controller": "you"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "playerAttacks",
+      "when": {
+        "not": "triggeredPlayerIsYou"
+      },
+      "if": {
+        "atLeast": "triggeredPlayerAttackersAtYou",
+        "value": 2
+      },
+      "effects": [
+        {
+          "loseLife": 3,
+          "who": "triggeredPlayer"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent attacks with creatures, if two or more of those creatures are attacking you and/or planeswalkers you control, that opponent loses 3 life and you draw a card."
+    }
+  ]
+}

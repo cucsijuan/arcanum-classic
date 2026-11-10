@@ -1,0 +1,33 @@
+{
+  "name": "Galazeth Prismari",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When Galazeth Prismari enters, create a Treasure token."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "grantsMana": "any",
+        "grantsManaOnlyFor": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        }
+      },
+      "text": "Artifacts you control have \"{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.\""
+    }
+  ]
+}

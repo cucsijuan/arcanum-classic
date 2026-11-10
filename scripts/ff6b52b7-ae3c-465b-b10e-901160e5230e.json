@@ -1,0 +1,25 @@
+{
+  "name": "Nils, Discipline Enforcer",
+  "attackTaxPerCounter": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "any",
+          "perPlayer": true,
+          "optional": true,
+          "text": "up to one target creature that player controls"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "eachTarget"
+        }
+      ],
+      "text": "At the beginning of your end step, for each player, put a +1/+1 counter on up to one target creature that player controls."
+    }
+  ]
+}

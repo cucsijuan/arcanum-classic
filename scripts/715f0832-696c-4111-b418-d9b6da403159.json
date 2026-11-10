@@ -1,0 +1,38 @@
+{
+  "name": "Berta, Wise Extrapolator",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "onSelf": true,
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Whenever one or more +1/+1 counters are put on Berta, add one mana of any color."
+    },
+    {
+      "cost": "{X}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": "X",
+          "what": "created"
+        }
+      ],
+      "text": "{X}, {T}: Create a 0/0 green and blue Fractal creature token and put X +1/+1 counters on it."
+    }
+  ]
+}

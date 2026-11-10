@@ -1,0 +1,42 @@
+{
+  "name": "Sevinne's Reclamation",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ],
+          "maxManaValue": 3
+        },
+        "text": "target permanent card with mana value 3 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "if": "castFromGraveyard",
+        "then": [
+          {
+            "may": "Copy Sevinne's Reclamation?",
+            "effects": [
+              {
+                "copySpell": "self"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Return target permanent card with mana value 3 or less from your graveyard to the battlefield. If this spell was cast from a graveyard, you may copy this spell and may choose a new target for the copy."
+  }
+}

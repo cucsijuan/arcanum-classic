@@ -1,0 +1,34 @@
+{
+  "name": "Lumaret's Favor",
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "effects": [
+        {
+          "if": "gainedLife",
+          "then": [
+            {
+              "copySpell": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Infusion — When you cast this spell, copy it if you gained life this turn. You may choose new targets for the copy."
+    }
+  ],
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          4
+        ],
+        "what": "target"
+      }
+    ],
+    "text": "Target creature gets +2/+4 until end of turn."
+  }
+}

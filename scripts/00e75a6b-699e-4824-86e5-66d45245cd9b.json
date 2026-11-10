@@ -1,0 +1,24 @@
+{
+  "name": "Oracle's Restoration",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      },
+      {
+        "gainLife": 1
+      }
+    ],
+    "text": "Target creature you control gets +1/+1 until end of turn. You draw a card and gain 1 life."
+  }
+}

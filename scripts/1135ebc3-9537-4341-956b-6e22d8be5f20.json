@@ -1,0 +1,36 @@
+{
+  "name": "Troyan, Gutsy Explorer",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{G}{U}",
+          "onlyFor": {
+            "anyOf": [
+              {
+                "minManaValue": 5
+              },
+              {
+                "hasX": true
+              }
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Add {G}{U}. Spend this mana only to cast spells with mana value 5 or greater or spells with {X} in their mana costs."
+    },
+    {
+      "cost": "{U}, {T}",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "discard": 1
+        }
+      ],
+      "text": "{U}, {T}: Draw a card, then discard a card."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Flickering Ward",
+  "chooseOnEnter": "color",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "protectionFromChosenColor": true
+      },
+      "text": "Enchanted creature has protection from the chosen color. This effect doesn't remove this Aura."
+    },
+    {
+      "cost": "{W}",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{W}: Return this Aura to its owner's hand."
+    }
+  ]
+}

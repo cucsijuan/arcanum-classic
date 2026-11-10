@@ -1,0 +1,60 @@
+{
+  "name": "Emeritus of Truce // Swords to Plowshares",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "for": "target",
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "colors": [
+              "W",
+              "B"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        },
+        {
+          "if": {
+            "opponentHasMore": "creatures"
+          },
+          "then": [
+            {
+              "becomePrepared": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target player creates a 1/1 white and black Inkling creature token with flying. Then if an opponent controls more creatures than you, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "gainLife": {
+            "power": "target"
+          },
+          "who": "targetController"
+        }
+      ],
+      "text": "Exile target creature. Its controller gains life equal to its power."
+    }
+  }
+}

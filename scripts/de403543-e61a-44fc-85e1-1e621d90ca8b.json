@@ -1,0 +1,47 @@
+{
+  "name": "Steal the Show",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Target player discards any number of cards, then draws that many cards.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "discardAnyNumber": true,
+            "who": "target"
+          },
+          {
+            "draw": {
+              "discarded": {}
+            },
+            "who": "target"
+          }
+        ]
+      },
+      {
+        "text": "Steal the Show deals damage equal to the number of instant and sorcery cards in your graveyard to target creature or planeswalker.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "damage": {
+              "graveyard": {
+                "types": [
+                  "instant",
+                  "sorcery"
+                ]
+              }
+            },
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Rootha, Mercurial Artist",
+  "abilities": [
+    {
+      "cost": "{2}, returnToHand",
+      "targets": [
+        {
+          "kind": "spell",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery spell you control"
+        }
+      ],
+      "effects": [
+        {
+          "copySpell": "target"
+        }
+      ],
+      "text": "{2}, Return Rootha to its owner's hand: Copy target instant or sorcery spell you control. You may choose new targets for the copy."
+    }
+  ]
+}

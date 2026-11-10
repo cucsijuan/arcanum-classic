@@ -1,0 +1,16 @@
+{
+  "name": "Quandrix, the Proof",
+  "abilities": [
+    {
+      "spellsHaveCascade": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "controller": "you",
+        "castFromHand": true
+      },
+      "text": "Instant and sorcery spells you cast from your hand have cascade."
+    }
+  ]
+}

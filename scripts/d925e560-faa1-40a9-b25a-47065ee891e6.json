@@ -1,0 +1,30 @@
+{
+  "name": "Guardian Augmenter",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "commander": true
+        },
+        "pump": [
+          2,
+          2
+        ]
+      },
+      "text": "Commander creatures you control get +2/+2."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "commander": true
+        },
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Commanders you control have hexproof."
+    }
+  ]
+}

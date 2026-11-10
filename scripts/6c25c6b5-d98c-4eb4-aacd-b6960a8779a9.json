@@ -1,0 +1,39 @@
+{
+  "name": "Herald of Amity",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "revealTopCastFree": 8,
+          "filter": {
+            "subtype": "Aura"
+          },
+          "exileRestToBottom": true
+        }
+      ],
+      "text": "When this creature enters, exile the top eight cards of your library. You may cast an Aura spell from among them without paying its mana cost. Then put the rest on the bottom of your library in a random order."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "subtype": "Aura"
+              }
+            },
+            {
+              "count": {
+                "subtype": "Aura"
+              }
+            }
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it gets +X/+X until end of turn, where X is the number of Auras you control."
+    }
+  ]
+}

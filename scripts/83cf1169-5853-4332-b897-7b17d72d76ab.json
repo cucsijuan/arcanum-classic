@@ -1,0 +1,28 @@
+{
+  "name": "Twinflame",
+  "extraTargetCost": "{2}{R}",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "you",
+        "anyNumber": true,
+        "text": "any number of target creatures you control"
+      }
+    ],
+    "targetRule": "allDifferent",
+    "effects": [
+      {
+        "copy": "eachTarget",
+        "each": true,
+        "haste": true,
+        "atNextEndStep": [
+          {
+            "exile": "triggered"
+          }
+        ]
+      }
+    ],
+    "text": "Strive — This spell costs {2}{R} more to cast for each target beyond the first. Choose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Mathemagics",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": {
+          "twoToThe": "X"
+        },
+        "who": "target"
+      }
+    ],
+    "text": "Target player draws 2ˣ cards."
+  }
+}

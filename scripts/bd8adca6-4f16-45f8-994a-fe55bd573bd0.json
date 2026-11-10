@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Wilderness",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Pursue the Past",
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 2
+      },
+      {
+        "mayPay": "Discard a card to draw two cards?",
+        "cost": {
+          "discard": 1
+        },
+        "effects": [
+          {
+            "draw": 2
+          }
+        ]
+      }
+    ],
+    "text": "You gain 2 life. You may discard a card. If you do, draw two cards."
+  }
+}

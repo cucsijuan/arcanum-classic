@@ -1,0 +1,23 @@
+{
+  "name": "Harmonic Prodigy",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "anyOf": [
+            {
+              "subtype": "Shaman"
+            },
+            {
+              "subtype": "Wizard",
+              "other": true
+            }
+          ]
+        },
+        "extraTriggers": true
+      },
+      "text": "If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."
+    }
+  ]
+}

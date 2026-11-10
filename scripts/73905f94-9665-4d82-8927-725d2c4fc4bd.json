@@ -1,0 +1,42 @@
+{
+  "name": "Dissection Practice",
+  "spell": {
+    "targets": [
+      "opponent",
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      }
+    ],
+    "effects": [
+      {
+        "loseLife": 1,
+        "who": "target"
+      },
+      {
+        "gainLife": 1
+      },
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target2"
+      },
+      {
+        "pump": [
+          -1,
+          -1
+        ],
+        "what": "target3"
+      }
+    ],
+    "text": "Target opponent loses 1 life and you gain 1 life.\nUp to one target creature gets +1/+1 until end of turn.\nUp to one target creature gets -1/-1 until end of turn."
+  }
+}

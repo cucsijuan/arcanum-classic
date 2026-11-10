@@ -1,0 +1,25 @@
+{
+  "name": "Helping Hand",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "maxManaValue": 3
+        },
+        "text": "target creature card with mana value 3 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target",
+        "tapped": true
+      }
+    ],
+    "text": "Return target creature card with mana value 3 or less from your graveyard to the battlefield tapped."
+  }
+}

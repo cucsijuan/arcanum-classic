@@ -1,0 +1,35 @@
+{
+  "name": "Coercive Impetus",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature gets +1/+1 and is goaded."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, you draw a card and lose 1 life."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Benevolent Hydra",
+  "entersWithCounters": "X",
+  "plusOneCountersPlusOneOn": {
+    "types": [
+      "creature"
+    ],
+    "other": true
+  },
+  "abilities": [
+    {
+      "cost": "{T}, removeCounters:1",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "{T}, Remove a +1/+1 counter from this creature: Put a +1/+1 counter on another target creature you control."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Mica, Reader of Ruins",
+  "wardLife": 3,
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "mayPay": "Sacrifice an artifact to copy that spell?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          "effects": [
+            {
+              "copySpell": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, you may sacrifice an artifact. If you do, copy that spell and you may choose new targets for the copy."
+    }
+  ]
+}

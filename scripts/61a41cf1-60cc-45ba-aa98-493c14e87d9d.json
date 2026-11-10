@@ -1,0 +1,28 @@
+{
+  "name": "Lorehold, the Historian",
+  "rules": [
+    "handInstantsAndSorceriesHaveMiracleTwo"
+  ],
+  "abilities": [
+    {
+      "trigger": "eachUpkeep",
+      "when": {
+        "not": "yourTurn"
+      },
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of each opponent's upkeep, you may discard a card. If you do, draw a card."
+    }
+  ]
+}

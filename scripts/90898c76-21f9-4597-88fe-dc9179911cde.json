@@ -1,0 +1,20 @@
+{
+  "name": "Vicious Rivalry",
+  "payXLife": true,
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "artifact",
+              "creature"
+            ],
+            "maxManaValueX": true
+          }
+        }
+      }
+    ],
+    "text": "As an additional cost to cast this spell, pay X life.\nDestroy all artifacts and creatures with mana value X or less."
+  }
+}

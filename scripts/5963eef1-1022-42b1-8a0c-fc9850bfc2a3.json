@@ -1,0 +1,29 @@
+{
+  "name": "Emeritus of Conflict // Lightning Bolt",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 3,
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever you cast your third spell each turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Lightning Bolt deals 3 damage to any target."
+    }
+  }
+}

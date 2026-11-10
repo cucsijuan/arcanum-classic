@@ -1,0 +1,39 @@
+{
+  "name": "Strixhaven Skycoach",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Search your library for a basic land card?",
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 1,
+              "reveal": true,
+              "to": "hand"
+            }
+          ]
+        }
+      ],
+      "text": "When this Vehicle enters, you may search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "crew:2",
+      "effects": [
+        {
+          "become": "self",
+          "addTypes": [
+            "creature"
+          ]
+        }
+      ],
+      "text": "Crew 2"
+    }
+  ]
+}

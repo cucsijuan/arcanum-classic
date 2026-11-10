@@ -1,0 +1,20 @@
+{
+  "name": "Disdainful Stroke",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "minManaValue": 4
+        },
+        "text": "target spell with mana value 4 or greater"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target spell with mana value 4 or greater."
+  }
+}

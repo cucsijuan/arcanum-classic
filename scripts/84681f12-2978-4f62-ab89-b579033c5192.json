@@ -1,0 +1,29 @@
+{
+  "name": "Divergent Equation",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "optional": true,
+        "upTo": "X",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "up to X target instant and/or sorcery cards from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "eachTarget"
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Return up to X target instant and/or sorcery cards from your graveyard to your hand.\nExile Divergent Equation."
+  }
+}

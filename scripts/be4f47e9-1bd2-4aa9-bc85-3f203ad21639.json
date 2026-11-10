@@ -1,0 +1,43 @@
+{
+  "name": "Rionya, Fire Dancer",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target",
+          "count": {
+            "sum": [
+              1,
+              {
+                "spellsCast": {
+                  "types": [
+                    "instant",
+                    "sorcery"
+                  ]
+                }
+              }
+            ]
+          },
+          "haste": true,
+          "atNextEndStep": [
+            {
+              "exile": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create X tokens that are copies of another target creature you control, where X is one plus the number of instant and sorcery spells you've cast this turn. They gain haste. Exile them at the beginning of the next end step."
+    }
+  ]
+}

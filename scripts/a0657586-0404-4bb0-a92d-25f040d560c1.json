@@ -1,0 +1,24 @@
+{
+  "name": "Aberrant Manawurm",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            "manaSpent",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature gets +X/+0 until end of turn, where X is the amount of mana spent to cast that spell."
+    }
+  ]
+}

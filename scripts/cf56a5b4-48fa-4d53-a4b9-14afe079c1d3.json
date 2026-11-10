@@ -1,0 +1,21 @@
+{
+  "name": "Orysa, Tide Choreographer",
+  "costReduction": {
+    "amount": 3,
+    "if": {
+      "atLeast": "totalToughness",
+      "value": 10
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "When Orysa enters, draw two cards."
+    }
+  ]
+}

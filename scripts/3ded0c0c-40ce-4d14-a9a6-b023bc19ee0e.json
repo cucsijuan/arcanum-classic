@@ -1,0 +1,26 @@
+{
+  "name": "Triumph of the Hordes",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Trample",
+          "Infect"
+        ]
+      }
+    ],
+    "text": "Until end of turn, creatures you control get +1/+1 and gain trample and infect."
+  }
+}

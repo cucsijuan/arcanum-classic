@@ -1,0 +1,15 @@
+{
+  "name": "Prismari, the Inspiration",
+  "wardLife": 5,
+  "abilities": [
+    {
+      "spellsHaveStorm": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "text": "Instant and sorcery spells you cast have storm."
+    }
+  ]
+}

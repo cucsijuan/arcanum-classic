@@ -1,0 +1,31 @@
+{
+  "name": "Mistveil Plains",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{W}, {T}",
+      "activateIf": {
+        "control": {
+          "colors": [
+            "W"
+          ]
+        },
+        "count": 2
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "text": "target card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{W}, {T}: Put target card from your graveyard on the bottom of your library. Activate only if you control two or more white permanents."
+    }
+  ]
+}

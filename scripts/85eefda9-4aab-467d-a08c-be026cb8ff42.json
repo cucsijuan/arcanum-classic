@@ -1,0 +1,48 @@
+{
+  "name": "Amalia Benavides Aguirre",
+  "wardLife": 3,
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "explore": "self"
+        },
+        {
+          "if": {
+            "all": [
+              {
+                "atLeast": {
+                  "power": "self"
+                },
+                "value": 20
+              },
+              {
+                "not": {
+                  "atLeast": {
+                    "power": "self"
+                  },
+                  "value": 21
+                }
+              }
+            ]
+          },
+          "then": [
+            {
+              "destroy": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any",
+                  "other": true
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you gain life, Amalia Benavides Aguirre explores. Then destroy all other creatures if its power is exactly 20."
+    }
+  ]
+}

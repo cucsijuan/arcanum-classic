@@ -1,0 +1,25 @@
+{
+  "name": "Molten Note",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": "manaSpentOnThis",
+        "to": "target"
+      },
+      {
+        "untap": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "Molten Note deals damage to target creature equal to the amount of mana spent to cast this spell. Untap all creatures you control."
+  }
+}

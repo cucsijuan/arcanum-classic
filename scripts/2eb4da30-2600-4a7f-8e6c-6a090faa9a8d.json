@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Moor",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

@@ -1,0 +1,22 @@
+# Eerie — one of the set's two 60-card theme decks (official decklist).
+Deck
+2 Quill-Blade Laureate // Twofold Intent (SOS) 27
+5 Plains (SOS) 272
+4 Plains (SOS) 273
+4 Island (SOS) 274
+3 Island (SOS) 275
+2 Feather of Flight (BLB) 13
+2 Enduring Innocence (DSK) 6
+4 Ethereal Armor (DSK) 7
+4 Optimistic Scavenger (DSK) 21
+3 Shardmage's Rescue (DSK) 29
+4 Sheltered by Ghosts (DSK) 30
+3 Entity Tracker (DSK) 53
+2 Silent Hallcreeper (DSK) 72
+3 Gremlin Tamer (DSK) 215
+2 Valgavoth's Lair (DSK) 271
+3 Banishing Light (EOE) 6
+2 Angelic Destiny (FDN) 565
+2 Temple of Enlightenment (FDN) 698
+2 Lost in the Maze (MKM) 64
+4 Tranquil Cove (TDM) 270

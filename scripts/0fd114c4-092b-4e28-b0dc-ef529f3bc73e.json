@@ -1,0 +1,34 @@
+{
+  "name": "Jeska's Will",
+  "spell": {
+    "text": "Choose one. If you control a commander as you cast this spell, you may choose both instead.",
+    "extraModeIf": {
+      "control": {
+        "commander": true
+      }
+    },
+    "modes": [
+      {
+        "text": "Add {R} for each card in target opponent's hand.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "addMana": "{R}",
+            "times": "targetHandSize"
+          }
+        ]
+      },
+      {
+        "text": "Exile the top three cards of your library. You may play them this turn.",
+        "effects": [
+          {
+            "exileTopPlayable": 3,
+            "chooseOne": false
+          }
+        ]
+      }
+    ]
+  }
+}

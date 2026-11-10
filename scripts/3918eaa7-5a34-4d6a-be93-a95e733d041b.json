@@ -1,0 +1,33 @@
+{
+  "name": "Merchant of Venom",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "who": "everyone"
+        }
+      ],
+      "text": "When this creature enters, each player sacrifices a creature of their choice."
+    },
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a player sacrifices a permanent, put a +1/+1 counter on this creature."
+    }
+  ]
+}

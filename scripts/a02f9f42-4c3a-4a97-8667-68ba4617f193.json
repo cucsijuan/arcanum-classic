@@ -1,0 +1,28 @@
+{
+  "name": "Practiced Scrollsmith",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "target noncreature, nonland card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "mayCastUntilEndOfNextTurn": true
+        }
+      ],
+      "text": "When this creature enters, exile target noncreature, nonland card from your graveyard. Until the end of your next turn, you may cast that card."
+    }
+  ]
+}

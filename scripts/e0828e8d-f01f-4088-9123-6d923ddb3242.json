@@ -1,0 +1,33 @@
+{
+  "name": "Ancestral Anger",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          {
+            "sum": [
+              1,
+              {
+                "graveyard": {
+                  "name": "Ancestral Anger"
+                }
+              }
+            ]
+          },
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Target creature gains trample and gets +X/+0 until end of turn, where X is 1 plus the number of cards named Ancestral Anger in your graveyard. Draw a card."
+  }
+}

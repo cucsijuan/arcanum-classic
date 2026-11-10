@@ -1,0 +1,23 @@
+{
+  "name": "Together as One",
+  "spell": {
+    "targets": [
+      "player",
+      "any"
+    ],
+    "effects": [
+      {
+        "draw": "colorsSpentToCast",
+        "who": "target"
+      },
+      {
+        "damage": "colorsSpentToCast",
+        "to": "target2"
+      },
+      {
+        "gainLife": "colorsSpentToCast"
+      }
+    ],
+    "text": "Converge — Target player draws X cards, Together as One deals X damage to any target, and you gain X life, where X is the number of colors of mana spent to cast this spell."
+  }
+}

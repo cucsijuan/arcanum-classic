@@ -1,0 +1,19 @@
+{
+  "name": "Spirit Mascot",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, put a +1/+1 counter on this creature."
+    }
+  ]
+}

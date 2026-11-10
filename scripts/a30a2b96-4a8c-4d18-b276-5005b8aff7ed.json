@@ -1,0 +1,40 @@
+{
+  "name": "Tester of the Tangential",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "mayPayX": "Pay {X} to move X +1/+1 counters from this creature onto another target creature?",
+          "effects": [
+            {
+              "whenYouDo": {
+                "amount": "X",
+                "targets": [
+                  {
+                    "kind": "creature",
+                    "filter": {
+                      "other": true
+                    },
+                    "text": "another target creature"
+                  }
+                ],
+                "effects": [
+                  {
+                    "moveCountersOfKind": {
+                      "from": "self",
+                      "to": "target"
+                    },
+                    "count": "triggerAmount"
+                  }
+                ],
+                "text": "Move X +1/+1 counters from this creature onto another target creature."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, you may pay {X}. When you do, move X +1/+1 counters from this creature onto another target creature."
+    }
+  ]
+}

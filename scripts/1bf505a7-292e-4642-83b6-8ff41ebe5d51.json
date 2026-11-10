@@ -1,0 +1,14 @@
+{
+  "name": "Blazing Firesinger // Seething Song",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "addMana": "{R}{R}{R}{R}{R}"
+        }
+      ],
+      "text": "Add {R}{R}{R}{R}{R}."
+    }
+  }
+}

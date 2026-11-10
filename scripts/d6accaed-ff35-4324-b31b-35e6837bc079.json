@@ -1,0 +1,34 @@
+{
+  "name": "Encouraging Aviator // Jump",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, it becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Target creature gains flying until end of turn."
+    }
+  }
+}

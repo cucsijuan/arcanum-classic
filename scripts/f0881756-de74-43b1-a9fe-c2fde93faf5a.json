@@ -1,0 +1,57 @@
+{
+  "name": "Subterranean Tremors",
+  "spell": {
+    "effects": [
+      {
+        "damage": "X",
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "without": "Flying"
+          }
+        }
+      },
+      {
+        "if": {
+          "atLeast": "X",
+          "value": 4
+        },
+        "then": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "artifact"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "if": {
+          "atLeast": "X",
+          "value": 8
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Lizard",
+              "types": "Creature — Lizard",
+              "power": 8,
+              "toughness": 8,
+              "colors": [
+                "R"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Subterranean Tremors deals X damage to each creature without flying. If X is 4 or more, destroy all artifacts. If X is 8 or more, create an 8/8 red Lizard creature token."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "name": "Eldrazi Conscription",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          10,
+          10
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "sacrifice": 2,
+                "filter": {},
+                "who": "triggeredPlayer"
+              }
+            ],
+            "text": "Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents of their choice.)"
+          }
+        ]
+      },
+      "text": "Enchanted creature gets +10/+10 and has trample and annihilator 2."
+    }
+  ]
+}

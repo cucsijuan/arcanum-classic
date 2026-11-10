@@ -1,0 +1,28 @@
+{
+  "name": "Breena, the Demagogue",
+  "abilities": [
+    {
+      "trigger": "playerAttacksYourOpponent",
+      "if": "defenderHasMoreLifeThanAnotherOpponent",
+      "effects": [
+        {
+          "draw": 1,
+          "who": "triggeredPlayer"
+        },
+        {
+          "choose": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        {
+          "counters": 2,
+          "what": "chosen"
+        }
+      ],
+      "text": "Whenever a player attacks one of your opponents, if that opponent has more life than another of your opponents, that attacking player draws a card and you put two +1/+1 counters on a creature you control."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Chains of Custody",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this Aura enters, exile target nonland permanent an opponent controls until this Aura leaves the battlefield."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "grantsWard": "{2}"
+      },
+      "text": "Enchanted creature has ward {2}."
+    }
+  ]
+}

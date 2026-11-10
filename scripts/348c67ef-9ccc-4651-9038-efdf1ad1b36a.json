@@ -1,0 +1,47 @@
+{
+  "name": "Rootha, Mastering the Moment",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "if": {
+        "atLeast": {
+          "spellsCast": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "value": 1
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "size": {
+            "greatestManaValueCast": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            }
+          },
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "colors": [
+              "U",
+              "R"
+            ],
+            "power": 0,
+            "toughness": 0,
+            "keywords": [
+              "Flying",
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of combat on your turn, if you've cast an instant or sorcery spell this turn, create an X/X blue and red Elemental creature token with flying and haste, where X is the greatest mana value among instant and sorcery spells you've cast this turn."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "name": "Kirol, History Buff // Pack a Punch",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, Kirol becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "mill": 1
+        },
+        {
+          "counters": 2,
+          "what": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Trample"
+          ]
+        }
+      ],
+      "text": "Mill a card. Put two +1/+1 counters on target creature. It gains trample until end of turn."
+    }
+  }
+}

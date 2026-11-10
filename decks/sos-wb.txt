@@ -1,0 +1,38 @@
+1 Arnyn, Deathbloom Botanist (SOS) 74
+1 Ascendant Dustspeaker (SOS) 8
+1 Biblioplex Tomekeeper (SOS) 247
+1 Burrog Banemaker (SOS) 75
+1 Eager Glyphmage (SOS) 11
+1 Ennis, Debate Moderator (SOS) 14
+1 Eternal Student (SOS) 82
+1 Imperious Inkmage (SOS) 195
+1 Mage Tower Referee (SOS) 249
+1 Nita, Forum Conciliator (SOS) 206
+1 Owlin Historian (SOS) 24
+1 Postmortem Professor (SOS) 93
+1 Shattered Acolyte (SOS) 31
+1 Silverquill, the Disputant (SOS) 226
+1 Sneering Shadewriter (SOS) 101
+1 Soaring Stoneglider (SOS) 32
+1 Stirring Honormancer (SOS) 234
+1 Stone Docent (SOS) 36
+1 Summoned Dromedary (SOS) 37
+1 The Dawning Archaic (SOS) 1
+1 Ajani's Response (SOS) 6
+1 Antiquities on the Loose (SOS) 7
+1 Cost of Brilliance (SOS) 77
+1 Daydream (SOS) 9
+1 Diary of Dreams (SOS) 248
+1 Dig Site Inventory (SOS) 10
+1 Dissection Practice (SOS) 79
+1 End of the Hunt (SOS) 81
+1 Erode (SOS) 15
+1 Fix What's Broken (SOS) 188
+1 Group Project (SOS) 17
+1 Harsh Annotation (SOS) 18
+1 Interjection (SOS) 22
+1 Killian's Confidence (SOS) 197
+1 Last Gasp (SOS) 86
+1 Masterful Flourish (SOS) 89
+12 Plains (SOS) 267
+12 Swamp (SOS) 269

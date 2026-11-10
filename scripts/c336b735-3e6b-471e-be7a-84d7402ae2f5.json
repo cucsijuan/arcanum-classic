@@ -1,0 +1,20 @@
+{
+  "name": "Creative Technique",
+  "spell": {
+    "effects": [
+      {
+        "shuffle": "you"
+      },
+      {
+        "revealUntil": {
+          "not": [
+            "land"
+          ]
+        },
+        "castFree": true,
+        "hitStaysExiled": true
+      }
+    ],
+    "text": "Shuffle your library, then reveal cards from the top of it until you reveal a nonland card. Exile that card and put the rest on the bottom of your library in a random order. You may cast the exiled card without paying its mana cost."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Renegade Bull",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "pump": [
+            "triggerAmount",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, this creature gets +X/+0 until end of turn, where X is that spell's mana value."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "up to one target instant or sorcery card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "castCopy": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, exile up to one target instant or sorcery card from your graveyard and copy it. You may cast the copy without paying its mana cost."
+    }
+  ]
+}

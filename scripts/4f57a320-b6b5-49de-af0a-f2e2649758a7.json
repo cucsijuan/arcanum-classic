@@ -1,0 +1,32 @@
+{
+  "name": "Angel of Indemnity",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 4
+          },
+          "text": "target permanent card with mana value 4 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this creature enters, return target permanent card with mana value 4 or less from your graveyard to the battlefield."
+    }
+  ]
+}

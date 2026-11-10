@@ -1,0 +1,35 @@
+{
+  "name": "Thunderdrum Soloist",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "damage": 3,
+              "to": "opponents"
+            }
+          ],
+          "else": [
+            {
+              "damage": 1,
+              "to": "opponents"
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, this creature deals 1 damage to each opponent. If five or more mana was spent to cast that spell, this creature deals 3 damage to each opponent instead."
+    }
+  ]
+}

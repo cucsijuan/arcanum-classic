@@ -1,0 +1,42 @@
+{
+  "name": "Homesickness",
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      "player",
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      },
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to two target creatures"
+      }
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      },
+      {
+        "tap": "target2"
+      },
+      {
+        "tap": "target3"
+      },
+      {
+        "counters": 1,
+        "kind": "stun",
+        "what": "target2"
+      },
+      {
+        "counters": 1,
+        "kind": "stun",
+        "what": "target3"
+      }
+    ],
+    "text": "Target player draws two cards. Tap up to two target creatures. Put a stun counter on each of them."
+  }
+}

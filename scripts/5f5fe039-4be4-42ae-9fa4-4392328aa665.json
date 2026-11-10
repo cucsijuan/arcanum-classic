@@ -1,0 +1,7 @@
+{
+  "name": "Topiary Lecturer",
+  "tapForMana": "{G}",
+  "manaAmountFrom": {
+    "power": "self"
+  }
+}

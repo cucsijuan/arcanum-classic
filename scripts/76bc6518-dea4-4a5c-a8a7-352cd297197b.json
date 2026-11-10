@@ -1,0 +1,19 @@
+{
+  "name": "Ominous Harvest",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "draw": 1,
+        "who": "target"
+      },
+      {
+        "loseLife": 1,
+        "who": "target"
+      }
+    ],
+    "text": "Target player draws a card and loses 1 life."
+  }
+}

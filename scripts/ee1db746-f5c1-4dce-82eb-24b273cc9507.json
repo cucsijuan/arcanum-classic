@@ -1,0 +1,61 @@
+{
+  "name": "Witherbloom Charm",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "You may sacrifice a permanent. If you do, draw two cards.",
+        "effects": [
+          {
+            "mayPay": "Sacrifice a permanent to draw two cards?",
+            "cost": {
+              "sacrifice": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              }
+            },
+            "effects": [
+              {
+                "draw": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "text": "You gain 5 life.",
+        "effects": [
+          {
+            "gainLife": 5
+          }
+        ]
+      },
+      {
+        "text": "Destroy target nonland permanent with mana value 2 or less.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "not": [
+                "land"
+              ],
+              "maxManaValue": 2
+            },
+            "text": "target nonland permanent with mana value 2 or less"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

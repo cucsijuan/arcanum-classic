@@ -1,0 +1,19 @@
+{
+  "name": "Stonecoil Serpent",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Protection from multicolored"
+        ]
+      },
+      "text": "Protection from multicolored"
+    }
+  ]
+}

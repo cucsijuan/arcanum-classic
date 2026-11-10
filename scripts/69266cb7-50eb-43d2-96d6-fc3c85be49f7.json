@@ -1,0 +1,37 @@
+{
+  "name": "Magus of the Library",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "all": [
+          {
+            "atLeast": "handSize",
+            "value": 7
+          },
+          {
+            "not": {
+              "atLeast": "handSize",
+              "value": 8
+            }
+          }
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}: Draw a card. Activate only if you have exactly seven cards in hand."
+    }
+  ]
+}

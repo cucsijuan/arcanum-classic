@@ -1,0 +1,39 @@
+{
+  "name": "Serra Paragon",
+  "graveyardCastOncePerTurn": {
+    "filter": {
+      "anyOf": [
+        {
+          "types": [
+            "land"
+          ]
+        },
+        {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "planeswalker",
+            "battle"
+          ],
+          "maxManaValue": 3
+        }
+      ]
+    },
+    "lands": true,
+    "grants": [
+      {
+        "trigger": "putIntoGraveyard",
+        "effects": [
+          {
+            "exile": "self"
+          },
+          {
+            "gainLife": 2
+          }
+        ],
+        "text": "When this permanent is put into a graveyard from the battlefield, exile it and you gain 2 life."
+      }
+    ]
+  }
+}

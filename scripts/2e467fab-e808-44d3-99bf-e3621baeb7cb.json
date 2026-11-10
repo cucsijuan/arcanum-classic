@@ -1,0 +1,26 @@
+{
+  "name": "Erode",
+  "spell": {
+    "targets": [
+      "creatureOrPlaneswalker"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "to": "battlefield",
+        "tapped": true,
+        "who": "targetController",
+        "optional": true
+      }
+    ],
+    "text": "Destroy target creature or planeswalker. Its controller may search their library for a basic land card, put it onto the battlefield tapped, then shuffle."
+  }
+}

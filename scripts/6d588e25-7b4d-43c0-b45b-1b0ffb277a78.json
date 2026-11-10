@@ -1,0 +1,29 @@
+{
+  "name": "Elementalist's Palette",
+  "tapForMana": "{C}",
+  "manaAmountFrom": {
+    "counters": "charge"
+  },
+  "manaOnlyForXCosts": true,
+  "extraMana": [
+    {
+      "types": "any"
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a spell with {X} in its mana cost, put two charge counters on this artifact."
+    }
+  ]
+}

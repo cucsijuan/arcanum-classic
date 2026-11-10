@@ -1,0 +1,67 @@
+{
+  "name": "Lorehold Charm",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Each opponent sacrifices a nontoken artifact of their choice.",
+        "effects": [
+          {
+            "sacrifice": 1,
+            "who": "opponents",
+            "filter": {
+              "types": [
+                "artifact"
+              ],
+              "token": false
+            }
+          }
+        ]
+      },
+      {
+        "text": "Return target artifact or creature card with mana value 2 or less from your graveyard to the battlefield.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature"
+              ],
+              "maxManaValue": 2
+            },
+            "text": "target artifact or creature card with mana value 2 or less from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target"
+          }
+        ]
+      },
+      {
+        "text": "Creatures you control get +1/+1 and gain trample until end of turn.",
+        "effects": [
+          {
+            "pump": [
+              1,
+              1
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            "keywords": [
+              "Trample"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

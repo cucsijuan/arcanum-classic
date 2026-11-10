@@ -1,0 +1,27 @@
+{
+  "name": "Ingenious Prodigy",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "counters": 1
+      },
+      "effects": [
+        {
+          "may": "Remove a +1/+1 counter from this creature to draw a card?",
+          "effects": [
+            {
+              "removeCounters": 1,
+              "what": "self"
+            },
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this creature has one or more +1/+1 counters on it, you may remove a +1/+1 counter from it. If you do, draw a card."
+    }
+  ]
+}

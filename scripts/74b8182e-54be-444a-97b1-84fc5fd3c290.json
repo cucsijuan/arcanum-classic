@@ -1,0 +1,25 @@
+{
+  "name": "End of the Hunt",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "choose": {
+          "types": [
+            "creature",
+            "planeswalker"
+          ],
+          "controller": "you",
+          "greatestManaValueAmongTheirs": true
+        },
+        "chooser": "target"
+      },
+      {
+        "exile": "chosen"
+      }
+    ],
+    "text": "Target opponent exiles a creature or planeswalker they control with the greatest mana value among creatures and planeswalkers they control."
+  }
+}

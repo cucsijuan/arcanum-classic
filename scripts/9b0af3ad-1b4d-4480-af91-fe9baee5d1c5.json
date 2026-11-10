@@ -1,0 +1,38 @@
+{
+  "name": "Haliya, Guided by Light",
+  "warp": "{W}",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "creature",
+          "artifact"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever Haliya or another creature or artifact you control enters, you gain 1 life."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "if": {
+            "gainedLife": 3
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, draw a card if you've gained 3 or more life this turn."
+    }
+  ]
+}

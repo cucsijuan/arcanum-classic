@@ -1,0 +1,26 @@
+{
+  "name": "Containment Construct",
+  "abilities": [
+    {
+      "trigger": "playerDiscards",
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "if": "triggeredInGraveyard",
+          "then": [
+            {
+              "may": "Exile the discarded card? You may play it this turn.",
+              "effects": [
+                {
+                  "exile": "triggered",
+                  "mayPlayThisTurn": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you discard a card, you may exile that card from your graveyard. If you do, you may play that card this turn."
+    }
+  ]
+}

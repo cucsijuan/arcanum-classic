@@ -1,0 +1,13 @@
+{
+  "name": "Soaring Stoneglider",
+  "additionalCostOptions": [
+    {
+      "cost": {
+        "exileGraveyard": 2
+      }
+    },
+    {
+      "mana": "{1}{W}"
+    }
+  ]
+}

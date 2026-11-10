@@ -1,0 +1,24 @@
+# Black Deck — one of the set's five 40-card Welcome Decks (official decklist).
+Deck
+2 Gutless Plunderer (FDN) 60
+1 Sanguine Syphoner (FDN) 68
+1 Vampire Gourmand (FDN) 74
+1 Vengeful Bloodwitch (FDN) 76
+2 Eaten Alive (FDN) 172
+2 Hero's Downfall (FDN) 175
+1 Macabre Waltz (FDN) 177
+1 Stromkirk Bloodthief (FDN) 185
+1 Zombify (FDN) 187
+1 Rogue's Passage (FDN) 264
+16 Swamp (FDN) 276
+1 Crossway Troublemakers (FDN) 518
+1 Vampire Neonate (FDN) 531
+1 Vampire Spawn (FDN) 532
+1 Bloodtithe Collector (FDN) 751
+1 Gatekeeper of Malakir (FDN) 752
+1 Kalastria Highborn (FDN) 753
+1 Massacre Wurm (FDN) 754
+1 Pulse Tracker (FDN) 755
+1 Vampire Interloper (FDN) 756
+1 Vampire Nighthawk (FDN) 757
+1 Vampire Soulcaller (FDN) 758

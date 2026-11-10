@@ -1,0 +1,26 @@
+{
+  "name": "Mazirek, Kraul Death Priest",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "controller": "any",
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever a player sacrifices another permanent, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

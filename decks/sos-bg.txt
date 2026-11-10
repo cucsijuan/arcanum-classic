@@ -1,0 +1,38 @@
+1 Aberrant Manawurm (SOS) 138
+1 Arnyn, Deathbloom Botanist (SOS) 74
+1 Biblioplex Tomekeeper (SOS) 247
+1 Blech, Loafing Pest (SOS) 176
+1 Bogwater Lumaret (SOS) 177
+1 Burrog Banemaker (SOS) 75
+1 Emil, Vastlands Roamer (SOS) 146
+1 Environmental Scientist (SOS) 147
+1 Essenceknit Scholar (SOS) 187
+1 Eternal Student (SOS) 82
+1 Mage Tower Referee (SOS) 249
+1 Mindful Biomancer (SOS) 154
+1 Noxious Newt (SOS) 155
+1 Pest Mascot (SOS) 209
+1 Pestbrood Sloth (SOS) 157
+1 Postmortem Professor (SOS) 93
+1 Shopkeeper's Bane (SOS) 159
+1 Slumbering Trudge (SOS) 160
+1 Sneering Shadewriter (SOS) 101
+1 Teacher's Pest (SOS) 238
+1 The Dawning Archaic (SOS) 1
+1 Witherbloom, the Balancer (SOS) 245
+1 Additive Evolution (SOS) 139
+1 Burrog Barrage (SOS) 141
+1 Cauldron of Essence (SOS) 179
+1 Chelonian Tackle (SOS) 142
+1 Comforting Counsel (SOS) 143
+1 Cost of Brilliance (SOS) 77
+1 Diary of Dreams (SOS) 248
+1 Dina's Guidance (SOS) 184
+1 Dissection Practice (SOS) 79
+1 End of the Hunt (SOS) 81
+1 Glorious Decay (SOS) 150
+1 Grapple with Death (SOS) 192
+1 Last Gasp (SOS) 86
+1 Masterful Flourish (SOS) 89
+12 Swamp (SOS) 269
+12 Forest (SOS) 271

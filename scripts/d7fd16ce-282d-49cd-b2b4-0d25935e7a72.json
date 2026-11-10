@@ -1,0 +1,25 @@
+{
+  "name": "Mycoloth",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": {
+            "counters": "+1/+1"
+          },
+          "token": {
+            "name": "Saproling",
+            "types": "Creature — Saproling",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create a 1/1 green Saproling creature token for each +1/+1 counter on this creature."
+    }
+  ]
+}

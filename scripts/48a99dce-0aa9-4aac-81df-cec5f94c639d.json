@@ -1,0 +1,48 @@
+{
+  "name": "Archon of Sun's Grace",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Pegasus"
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Lifelink"
+        ]
+      },
+      "text": "Pegasus creatures you control have lifelink."
+    },
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "types": [
+          "enchantment"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pegasus",
+            "types": "Creature — Pegasus",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Constellation — Whenever an enchantment you control enters, create a 2/2 white Pegasus creature token with flying."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Crackle with Power",
+  "spell": {
+    "targets": [
+      {
+        "kind": "any",
+        "optional": true,
+        "upTo": "X",
+        "text": "each of up to X targets"
+      }
+    ],
+    "effects": [
+      {
+        "damage": {
+          "quantity": "X",
+          "times": 5
+        },
+        "to": "eachTarget"
+      }
+    ],
+    "text": "Crackle with Power deals five times X damage to each of up to X targets."
+  }
+}

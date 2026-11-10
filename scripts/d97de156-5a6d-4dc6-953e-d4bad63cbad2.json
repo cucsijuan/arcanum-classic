@@ -1,0 +1,41 @@
+{
+  "name": "Elite Interceptor // Rejoinder",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Tap it",
+              "effects": [
+                {
+                  "tap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Untap it",
+              "effects": [
+                {
+                  "untap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Neither",
+              "effects": []
+            }
+          ]
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "You may tap or untap target creature.\nDraw a card."
+    }
+  }
+}

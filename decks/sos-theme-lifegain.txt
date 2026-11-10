@@ -1,0 +1,22 @@
+# Lifegain — one of the set's two 60-card theme decks (official decklist).
+Deck
+3 Foolish Fate (SOS) 83
+2 Silverquill Charm (SOS) 225
+5 Plains (SOS) 272
+4 Plains (SOS) 273
+4 Swamp (SOS) 276
+4 Swamp (SOS) 277
+3 Essence Channeler (BLB) 12
+3 Starscape Cleric (BLB) 116
+3 Zoraline, Cosmos Caller (BLB) 242
+1 Mudflat Village (BLB) 257
+2 Nowhere to Run (DSK) 111
+2 Requiting Hex (ECL) 116
+2 Haliya, Guided by Light (EOE) 19
+2 Fiendish Panda (FDN) 120
+2 Temple of Silence (FDN) 704
+4 Hinterland Sanctifier (FDN) 730
+4 Deep-Cavern Bat (LCI) 102
+3 Amalia Benavides Aguirre (LCI) 221
+3 Case of the Uneaten Feast (MKM) 10
+4 Scoured Barrens (TDM) 267

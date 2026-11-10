@@ -1,0 +1,29 @@
+{
+  "name": "Emeritus of Woe // Demonic Tutor",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": {
+        "atLeast": "creaturesDiedThisTurn",
+        "value": 2
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if two or more creatures died this turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "search": {}
+        }
+      ],
+      "text": "Search your library for a card, put that card into your hand, then shuffle."
+    }
+  }
+}

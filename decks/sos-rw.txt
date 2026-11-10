@@ -1,0 +1,38 @@
+1 Ascendant Dustspeaker (SOS) 8
+1 Aziza, Mage Tower Captain (SOS) 174
+1 Biblioplex Tomekeeper (SOS) 247
+1 Charging Strifeknight (SOS) 110
+1 Colossus of the Blood Age (SOS) 181
+1 Eager Glyphmage (SOS) 11
+1 Ennis, Debate Moderator (SOS) 14
+1 Garrison Excavator (SOS) 116
+1 Hardened Academic (SOS) 194
+1 Lorehold, the Historian (SOS) 201
+1 Mage Tower Referee (SOS) 249
+1 Mica, Reader of Ruins (SOS) 124
+1 Owlin Historian (SOS) 24
+1 Practiced Scrollsmith (SOS) 210
+1 Rearing Embermare (SOS) 127
+1 Rubble Rouser (SOS) 128
+1 Shattered Acolyte (SOS) 31
+1 Soaring Stoneglider (SOS) 32
+1 Spirit Mascot (SOS) 230
+1 Startled Relic Sloth (SOS) 233
+1 Stone Docent (SOS) 36
+1 Summoned Dromedary (SOS) 37
+1 Ajani's Response (SOS) 6
+1 Ancestral Anger (SOS) 106
+1 Antiquities on the Loose (SOS) 7
+1 Ark of Hunger (SOS) 173
+1 Artistic Process (SOS) 108
+1 Borrowed Knowledge (SOS) 178
+1 Choreographed Sparks (SOS) 111
+1 Daydream (SOS) 9
+1 Diary of Dreams (SOS) 248
+1 Dig Site Inventory (SOS) 10
+1 Duel Tactics (SOS) 112
+1 Erode (SOS) 15
+1 Flashback (SOS) 115
+1 Group Project (SOS) 17
+12 Mountain (SOS) 270
+12 Plains (SOS) 267

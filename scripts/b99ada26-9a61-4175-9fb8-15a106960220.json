@@ -1,0 +1,32 @@
+{
+  "name": "Ohran Frostfang",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "attacking": true
+        },
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Attacking creatures you control have deathtouch."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, draw a card."
+    }
+  ]
+}

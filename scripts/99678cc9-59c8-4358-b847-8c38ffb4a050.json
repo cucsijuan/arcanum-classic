@@ -1,0 +1,58 @@
+{
+  "name": "Practiced Offense",
+  "spell": {
+    "targets": [
+      "player",
+      "creature"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          },
+          "controlledBy": "target"
+        }
+      },
+      {
+        "chooseEffect": [
+          {
+            "text": "Double strike",
+            "effects": [
+              {
+                "pump": [
+                  0,
+                  0
+                ],
+                "what": "target2",
+                "keywords": [
+                  "Double strike"
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Lifelink",
+            "effects": [
+              {
+                "pump": [
+                  0,
+                  0
+                ],
+                "what": "target2",
+                "keywords": [
+                  "Lifelink"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Put a +1/+1 counter on each creature target player controls. Target creature gains your choice of double strike or lifelink until end of turn."
+  }
+}

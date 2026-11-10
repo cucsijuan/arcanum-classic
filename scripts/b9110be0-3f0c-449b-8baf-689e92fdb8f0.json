@@ -1,0 +1,20 @@
+{
+  "name": "Embrace the Paradox",
+  "spell": {
+    "effects": [
+      {
+        "draw": 3
+      },
+      {
+        "putFromHand": {
+          "types": [
+            "land"
+          ]
+        },
+        "one": true,
+        "tapped": true
+      }
+    ],
+    "text": "Draw three cards. You may put a land card from your hand onto the battlefield tapped."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "name": "Jadzi, Steward of Fate // Oracle's Gift",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 2
+        }
+      ],
+      "text": "When Jadzi enters, draw two cards, then discard two cards."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": "X",
+          "what": {
+            "each": {
+              "subtype": "Fractal",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Create X 0/0 green and blue Fractal creature tokens, then put X +1/+1 counters on each Fractal you control."
+    }
+  }
+}

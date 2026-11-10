@@ -1,0 +1,9 @@
+{
+  "name": "Library of Leng",
+  "replaces": [
+    "NoMaximumHandSize"
+  ],
+  "rules": [
+    "EffectDiscardsMayGoOnTop"
+  ]
+}

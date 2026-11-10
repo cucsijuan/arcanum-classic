@@ -1,0 +1,111 @@
+{
+  "name": "Scriv, the Obligator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Contract",
+            "types": "Enchantment — Aura",
+            "colors": [
+              "W"
+            ],
+            "keywords": [],
+            "aura": "creature",
+            "text": "Enchant creature\nWhenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life.",
+            "abilities": [
+              {
+                "trigger": "enchantedAttacks",
+                "effects": [
+                  {
+                    "if": {
+                      "triggered": {
+                        "attackingYourOpponent": true
+                      }
+                    },
+                    "then": [
+                      {
+                        "pump": [
+                          2,
+                          0
+                        ],
+                        "what": "triggered"
+                      }
+                    ],
+                    "else": [
+                      {
+                        "loseLife": 2,
+                        "who": "triggeredController"
+                      }
+                    ]
+                  }
+                ],
+                "text": "Whenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life."
+              }
+            ]
+          },
+          "attachTo": "target"
+        }
+      ],
+      "text": "Whenever Scriv enters or attacks, create a white Aura enchantment token named Contract attached to target creature an opponent controls. The token has enchant creature and \"Whenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life.\""
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Contract",
+            "types": "Enchantment — Aura",
+            "colors": [
+              "W"
+            ],
+            "keywords": [],
+            "aura": "creature",
+            "text": "Enchant creature\nWhenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life.",
+            "abilities": [
+              {
+                "trigger": "enchantedAttacks",
+                "effects": [
+                  {
+                    "if": {
+                      "triggered": {
+                        "attackingYourOpponent": true
+                      }
+                    },
+                    "then": [
+                      {
+                        "pump": [
+                          2,
+                          0
+                        ],
+                        "what": "triggered"
+                      }
+                    ],
+                    "else": [
+                      {
+                        "loseLife": 2,
+                        "who": "triggeredController"
+                      }
+                    ]
+                  }
+                ],
+                "text": "Whenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life."
+              }
+            ]
+          },
+          "attachTo": "target"
+        }
+      ],
+      "text": "Whenever Scriv enters or attacks, create a white Aura enchantment token named Contract attached to target creature an opponent controls. The token has enchant creature and \"Whenever enchanted creature attacks, it gets +2/+0 until end of turn if it's attacking one of your opponents. Otherwise, its controller loses 2 life.\""
+    }
+  ]
+}

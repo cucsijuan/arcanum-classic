@@ -1,0 +1,25 @@
+{
+  "name": "Return to the Ranks",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "maxManaValue": 2
+        },
+        "countOf": "X",
+        "text": "X target creature cards with mana value 2 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "eachTarget"
+      }
+    ],
+    "text": "Return X target creature cards with mana value 2 or less from your graveyard to the battlefield."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Immoral Bargain",
+  "additionalSacrificeAny": {
+    "types": [
+      "creature"
+    ]
+  },
+  "sacrificeAnyNoReduction": true,
+  "xIsSacrificeCount": true,
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "countOf": "X",
+        "text": "X target nonland permanents"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      }
+    ],
+    "text": "As an additional cost to cast this spell, sacrifice X creatures.\nDestroy X target nonland permanents."
+  }
+}

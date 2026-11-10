@@ -1,0 +1,40 @@
+{
+  "name": "Eriette of the Charmed Apple",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "filter": {
+          "enchantedByYours": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "cantAttackYouOrPlaneswalkers": true
+      },
+      "text": "Each creature that's enchanted by an Aura you control can't attack you or planeswalkers you control."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "loseLife": {
+            "count": {
+              "subtype": "Aura"
+            }
+          },
+          "who": "opponents"
+        },
+        {
+          "gainLife": {
+            "count": {
+              "subtype": "Aura"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, each opponent loses X life and you gain X life, where X is the number of Auras you control."
+    }
+  ]
+}

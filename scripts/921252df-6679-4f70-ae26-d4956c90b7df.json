@@ -1,0 +1,38 @@
+{
+  "name": "Hardened Academic",
+  "abilities": [
+    {
+      "cost": "discard",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "Discard a card: This creature gains lifelink until end of turn."
+    },
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, put a +1/+1 counter on target creature you control."
+    }
+  ]
+}

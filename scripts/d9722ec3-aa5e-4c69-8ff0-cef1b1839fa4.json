@@ -1,0 +1,22 @@
+{
+  "name": "Wisdom of Ages",
+  "spell": {
+    "effects": [
+      {
+        "returnFromGraveyardAll": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        }
+      },
+      {
+        "noMaxHandSize": true
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Return all instant and sorcery cards from your graveyard to your hand. You have no maximum hand size for the rest of the game.\nExile Wisdom of Ages."
+  }
+}

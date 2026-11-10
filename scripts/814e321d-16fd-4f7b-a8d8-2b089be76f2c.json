@@ -1,0 +1,45 @@
+{
+  "name": "Resculpt",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            }
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "tokens": 1,
+        "for": "targetController",
+        "token": {
+          "name": "Elemental",
+          "types": "Creature — Elemental",
+          "power": 4,
+          "toughness": 4,
+          "colors": [
+            "U",
+            "R"
+          ]
+        }
+      }
+    ],
+    "text": "Exile target artifact or creature. Its controller creates a 4/4 blue and red Elemental creature token."
+  }
+}

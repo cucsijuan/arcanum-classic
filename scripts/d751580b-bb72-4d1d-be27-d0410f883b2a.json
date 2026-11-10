@@ -1,0 +1,54 @@
+{
+  "name": "Inspired Skypainter // Maestro's Gift",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "When this creature enters and whenever one or more creature tokens you control deal combat damage to a player, this creature becomes prepared."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "token": true
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "When this creature enters and whenever one or more creature tokens you control deal combat damage to a player, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "Create a token that's a copy of target creature you control. That token gains haste until end of turn."
+    }
+  }
+}

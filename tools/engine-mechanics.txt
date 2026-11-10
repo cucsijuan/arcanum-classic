@@ -111,3 +111,13 @@ Survival
 Megamorph
 Retrace
 Coven
+Increment
+Paradigm
+Infusion
+Repartee
+Opus
+Casualty
+Devoid
+Echo
+Gravestorm
+Backup

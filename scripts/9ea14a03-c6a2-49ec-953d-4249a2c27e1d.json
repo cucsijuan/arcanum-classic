@@ -1,0 +1,23 @@
+{
+  "name": "Mirrorwing Dragon",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "targetsSource": true,
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ],
+        "singleTarget": true,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "copyForEachOtherCreatureItCouldTarget": true
+        }
+      ],
+      "text": "Whenever a player casts an instant or sorcery spell that targets only this creature, that player copies that spell for each other creature they control that the spell could target. Each copy targets a different one of those creatures."
+    }
+  ]
+}

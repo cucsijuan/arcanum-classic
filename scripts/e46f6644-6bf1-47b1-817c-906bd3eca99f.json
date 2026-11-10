@@ -1,0 +1,21 @@
+{
+  "name": "Deep-Cavern Bat",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "exileFromHandUntilLeaves": {
+            "not": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, look at target opponent's hand. You may exile a nonland card from it until this creature leaves the battlefield."
+    }
+  ]
+}

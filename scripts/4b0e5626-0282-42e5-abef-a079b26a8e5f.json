@@ -1,0 +1,26 @@
+{
+  "name": "Poisoner's Apprentice",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "if": "gainedLife",
+          "then": [
+            {
+              "pump": [
+                -4,
+                -4
+              ],
+              "what": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Infusion — When this creature enters, target creature an opponent controls gets -4/-4 until end of turn if you gained life this turn."
+    }
+  ]
+}

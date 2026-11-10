@@ -1,0 +1,27 @@
+{
+  "name": "Heated Argument",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "mayPay": "Exile a card from your graveyard to deal 2 damage to that creature's controller?",
+        "cost": {
+          "exileGraveyard": 1
+        },
+        "effects": [
+          {
+            "damage": 2,
+            "to": "targetController"
+          }
+        ]
+      }
+    ],
+    "text": "Heated Argument deals 6 damage to target creature. You may exile a card from your graveyard. If you do, Heated Argument also deals 2 damage to that creature's controller."
+  }
+}

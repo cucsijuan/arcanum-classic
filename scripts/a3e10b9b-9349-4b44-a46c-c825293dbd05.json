@@ -1,0 +1,43 @@
+{
+  "name": "The Dawning Archaic",
+  "costReduction": {
+    "amount": 1,
+    "perGraveyardCard": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Cast target instant or sorcery card from your graveyard without paying its mana cost?",
+          "effects": [
+            {
+              "castFromGraveyard": {},
+              "card": "target",
+              "free": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever The Dawning Archaic attacks, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead."
+    }
+  ]
+}

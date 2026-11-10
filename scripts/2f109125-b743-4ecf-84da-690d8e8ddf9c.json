@@ -1,0 +1,30 @@
+{
+  "name": "Ceaseless Conflict",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "tokens": "yourNontokenCreaturesDestroyedThisWay",
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "colors": [
+            "R",
+            "W"
+          ],
+          "power": 3,
+          "toughness": 2
+        }
+      }
+    ],
+    "text": "Destroy all creatures. Then create a 3/2 red and white Spirit creature token for each nontoken creature you controlled that was destroyed this way."
+  }
+}

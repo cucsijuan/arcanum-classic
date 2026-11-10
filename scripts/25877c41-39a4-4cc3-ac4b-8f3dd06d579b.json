@@ -1,0 +1,47 @@
+{
+  "name": "Stensian Sanguinist // Exsanguinate",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        },
+        {
+          "whenDealsCombatDamageThisCombat": "target",
+          "effects": [
+            {
+              "becomePrepared": "self"
+            }
+          ],
+          "text": "Whenever that creature deals combat damage to a player this combat, this creature becomes prepared."
+        }
+      ],
+      "text": "Whenever you attack, target creature gains deathtouch until end of turn. Whenever that creature deals combat damage to a player this combat, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "loseLife": "X",
+          "who": "opponents"
+        },
+        {
+          "gainLife": "lifeLostThisWay"
+        }
+      ],
+      "text": "Each opponent loses X life. You gain life equal to the life lost this way."
+    }
+  }
+}

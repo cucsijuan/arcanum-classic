@@ -1,0 +1,24 @@
+{
+  "name": "Open the Way",
+  "maxX": {
+    "sum": [
+      "opponentCount",
+      1
+    ]
+  },
+  "spell": {
+    "effects": [
+      {
+        "revealUntil": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": "X",
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "Reveal cards from the top of your library until you reveal X land cards. Put those land cards onto the battlefield tapped and the rest on the bottom of your library in a random order."
+  }
+}

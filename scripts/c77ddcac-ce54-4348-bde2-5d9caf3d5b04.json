@@ -1,0 +1,41 @@
+{
+  "name": "Spiritcall Enthusiast // Scrollboost",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "batched": true,
+      "filter": {
+        "token": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever one or more tokens you control enter, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targetRule": "allDifferent",
+      "targets": [
+        "creature",
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "eachTarget"
+        }
+      ],
+      "text": "One or two target creatures each get +2/+2 until end of turn."
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Goldspan Dragon",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever this creature attacks or becomes the target of a spell, create a Treasure token."
+    },
+    {
+      "trigger": "becomesTargetOfSpell",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever this creature attacks or becomes the target of a spell, create a Treasure token."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Treasure",
+        "grantsMana": "any",
+        "grantsManaAmount": 2
+      },
+      "text": "Treasures you control have \"{T}, Sacrifice this artifact: Add two mana of any one color.\""
+    }
+  ]
+}

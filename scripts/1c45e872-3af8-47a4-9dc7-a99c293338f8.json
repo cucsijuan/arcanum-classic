@@ -1,0 +1,39 @@
+{
+  "name": "Stadium Tidalmage",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Draw a card, then discard a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may draw a card. If you do, discard a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "may": "Draw a card, then discard a card?",
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may draw a card. If you do, discard a card."
+    }
+  ]
+}

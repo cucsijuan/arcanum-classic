@@ -1,0 +1,31 @@
+{
+  "name": "Witherbloom, the Balancer",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "creature"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": {
+          "count": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      "text": "Instant and sorcery spells you cast have affinity for creatures."
+    }
+  ]
+}

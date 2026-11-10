@@ -1,0 +1,81 @@
+{
+  "name": "Intermediate Chirography",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "colors": [
+              "W",
+              "B"
+            ],
+            "power": 2,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this Class enters, create a 2/1 white and black Inkling creature token with flying."
+    },
+    {
+      "cost": "{1}{B}",
+      "levelUp": 2,
+      "text": "{1}{B}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "playerLosesLife",
+      "when": {
+        "all": [
+          "triggeredPlayerIsYou",
+          "triggeredPlayerFirstLossThisTurn"
+        ]
+      },
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you lose life for the first time each turn, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "cost": "{2}{B}",
+      "levelUp": 3,
+      "text": "{2}{B}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "eachEndStep",
+      "if": "modifiedCreatureDiedThisTurn",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Inkling",
+            "types": "Creature — Inkling",
+            "colors": [
+              "W",
+              "B"
+            ],
+            "power": 2,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "At the beginning of each end step, if a modified creature died under your control this turn, create a 2/1 white and black Inkling creature token with flying."
+    }
+  ]
+}

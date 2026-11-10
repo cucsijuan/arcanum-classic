@@ -1,0 +1,88 @@
+{
+  "name": "Guardian Scalelord",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "other": true
+            }
+          },
+          "then": [
+            {
+              "become": "target",
+              "keywords": [
+                "Flying"
+              ],
+              "abilities": [
+                {
+                  "trigger": "attacks",
+                  "targets": [
+                    {
+                      "kind": "graveyardCard",
+                      "controller": "you",
+                      "filter": {
+                        "types": [
+                          "artifact",
+                          "creature",
+                          "enchantment",
+                          "planeswalker",
+                          "battle"
+                        ],
+                        "maxManaValueSourcePower": true
+                      },
+                      "text": "target nonland permanent card with mana value X or less from your graveyard"
+                    }
+                  ],
+                  "effects": [
+                    {
+                      "reanimate": "target"
+                    }
+                  ],
+                  "text": "Whenever this creature attacks, return target nonland permanent card with mana value X or less from your graveyard to the battlefield, where X is this creature's power."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Backup 1 (When this creature enters, put a +1/+1 counter on target creature. If that's another creature, it gains the following abilities until end of turn.)"
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValueSourcePower": true
+          },
+          "text": "target nonland permanent card with mana value X or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, return target nonland permanent card with mana value X or less from your graveyard to the battlefield, where X is this creature's power."
+    }
+  ]
+}

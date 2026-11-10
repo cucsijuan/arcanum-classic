@@ -1,0 +1,69 @@
+{
+  "name": "Great Hall of the Biblioplex",
+  "extraMana": [
+    {
+      "types": "any",
+      "lifeCost": 1,
+      "onlyFor": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{5}",
+      "effects": [
+        {
+          "if": {
+            "not": {
+              "sourceIs": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          },
+          "then": [
+            {
+              "become": "self",
+              "power": 2,
+              "toughness": 4,
+              "addTypes": [
+                "creature"
+              ],
+              "addSubtypes": [
+                "Wizard"
+              ],
+              "permanent": true,
+              "abilities": [
+                {
+                  "trigger": "castSpell",
+                  "filter": {
+                    "types": [
+                      "instant",
+                      "sorcery"
+                    ]
+                  },
+                  "effects": [
+                    {
+                      "pump": [
+                        1,
+                        0
+                      ],
+                      "what": "self"
+                    }
+                  ],
+                  "text": "Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "{5}: If this land isn't a creature, it becomes a 2/4 Wizard creature with \"Whenever you cast an instant or sorcery spell, this creature gets +1/+0 until end of turn.\" It's still a land."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "Pest Infestation",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "optional": true,
+        "upTo": "X",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            }
+          ]
+        },
+        "text": "up to X target artifacts and/or enchantments"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "eachTarget"
+      },
+      {
+        "tokens": {
+          "sum": [
+            "X",
+            "X"
+          ]
+        },
+        "token": {
+          "name": "Pest",
+          "types": "Creature — Pest",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "B",
+            "G"
+          ],
+          "keywords": [],
+          "abilities": [
+            {
+              "trigger": "dies",
+              "effects": [
+                {
+                  "gainLife": 1
+                }
+              ],
+              "text": "When this token dies, you gain 1 life."
+            }
+          ],
+          "text": "When this token dies, you gain 1 life."
+        }
+      }
+    ],
+    "text": "Destroy up to X target artifacts and/or enchantments. Create twice X 1/1 black and green Pest creature tokens with \"When this token dies, you gain 1 life.\""
+  }
+}

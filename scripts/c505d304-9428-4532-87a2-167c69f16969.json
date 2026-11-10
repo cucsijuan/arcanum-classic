@@ -1,0 +1,30 @@
+{
+  "name": "Pox Plague",
+  "spell": {
+    "effects": [
+      {
+        "loseLife": "affectedHalfLifeRoundedDown",
+        "who": "everyone"
+      },
+      {
+        "discard": "affectedHalfHandRoundedDown",
+        "who": "everyone"
+      },
+      {
+        "sacrifice": "affectedHalfPermanentsRoundedDown",
+        "who": "everyone",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "land",
+            "planeswalker",
+            "battle"
+          ]
+        }
+      }
+    ],
+    "text": "Each player loses half their life, then discards half the cards in their hand, then sacrifices half the permanents they control of their choice. Round down each time."
+  }
+}

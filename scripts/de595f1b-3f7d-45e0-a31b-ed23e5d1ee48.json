@@ -1,0 +1,37 @@
+{
+  "name": "The Goose Mother",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "halfUp": "X"
+          },
+          "token": "Food"
+        }
+      ],
+      "text": "When The Goose Mother enters, create half X Food tokens, rounded up."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a Food to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "subtype": "Food"
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever The Goose Mother attacks, you may sacrifice a Food. If you do, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Skycoach Waypoint",
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "becomePrepared": "target"
+        }
+      ],
+      "text": "{3}, {T}: Target creature becomes prepared."
+    }
+  ]
+}

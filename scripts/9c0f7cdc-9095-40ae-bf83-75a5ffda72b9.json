@@ -1,0 +1,81 @@
+{
+  "name": "Quandrix Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Return target creature or planeswalker to its owner's hand.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      },
+      {
+        "text": "Counter target artifact or enchantment spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "types": [
+                "artifact",
+                "enchantment"
+              ]
+            }
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Put two +1/+1 counters on target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target player shuffles up to three target cards from their graveyard into their library.",
+        "targetRule": "allDifferent",
+        "targets": [
+          "player",
+          {
+            "kind": "graveyardCard",
+            "optional": true,
+            "ownedByTarget": "target",
+            "text": "up to three target cards from their graveyard"
+          },
+          {
+            "kind": "graveyardCard",
+            "optional": true,
+            "ownedByTarget": "target",
+            "text": "up to three target cards from their graveyard"
+          },
+          {
+            "kind": "graveyardCard",
+            "optional": true,
+            "ownedByTarget": "target",
+            "text": "up to three target cards from their graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "shuffleIntoLibrary": "eachTarget2"
+          }
+        ]
+      }
+    ]
+  }
+}

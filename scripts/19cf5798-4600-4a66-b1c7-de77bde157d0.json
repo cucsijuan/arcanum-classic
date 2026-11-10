@@ -1,0 +1,31 @@
+{
+  "name": "Tablet of Discovery",
+  "extraMana": [
+    {
+      "types": "{R}",
+      "amount": 2,
+      "onlyFor": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 1
+        },
+        {
+          "castFromGraveyardThisTurn": {
+            "milled": {}
+          }
+        }
+      ],
+      "text": "When this artifact enters, mill a card. You may play that card this turn."
+    }
+  ]
+}

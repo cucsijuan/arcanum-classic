@@ -1,0 +1,29 @@
+{
+  "name": "Zimone, Infinite Analyst",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "hasX": true
+        },
+        "amount": "countersOnSelf",
+        "firstOfTurn": true
+      },
+      "text": "The first spell you cast with {X} in its mana cost each turn costs {1} less to cast for each +1/+1 counter on Zimone."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true
+      },
+      "nth": 1,
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast your first spell with {X} in its mana cost each turn, put two +1/+1 counters on Zimone."
+    }
+  ]
+}

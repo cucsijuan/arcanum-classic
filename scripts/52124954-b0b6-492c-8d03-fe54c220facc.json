@@ -1,0 +1,24 @@
+{
+  "name": "Stress Dream",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 5,
+        "to": "target"
+      },
+      {
+        "lookAtTop": 2,
+        "take": 1,
+        "required": true
+      }
+    ],
+    "text": "Stress Dream deals 5 damage to up to one target creature. Look at the top two cards of your library. Put one of those cards into your hand and the other on the bottom of your library."
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Bring to Light",
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "creature",
+            "instant",
+            "sorcery"
+          ],
+          "maxManaValueColorsSpent": true
+        },
+        "count": 1,
+        "to": "exile"
+      },
+      {
+        "castFreeNow": "exiled"
+      }
+    ],
+    "text": "Converge — Search your library for a creature, instant, or sorcery card with mana value less than or equal to the number of colors of mana spent to cast this spell, exile that card, then shuffle. You may cast that card without paying its mana cost."
+  }
+}

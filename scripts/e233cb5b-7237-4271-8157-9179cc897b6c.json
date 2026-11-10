@@ -1,0 +1,17 @@
+{
+  "name": "Killian, Ink Duelist",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {},
+        "amount": 2,
+        "ifTargets": {
+          "types": [
+            "creature"
+          ]
+        }
+      },
+      "text": "Spells you cast that target a creature cost {2} less to cast."
+    }
+  ]
+}

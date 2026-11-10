@@ -1,0 +1,30 @@
+{
+  "name": "Petrified Hamlet",
+  "replaces": [
+    "StopsChosenNameAbilities"
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "chooseLandCardName": true
+        }
+      ],
+      "text": "When this land enters, choose a land card name."
+    },
+    {
+      "static": {
+        "affects": "permanents",
+        "filter": {
+          "types": [
+            "land"
+          ],
+          "chosenName": true
+        },
+        "grantsMana": "{C}"
+      },
+      "text": "Lands with the chosen name have \"{T}: Add {C}.\""
+    }
+  ]
+}

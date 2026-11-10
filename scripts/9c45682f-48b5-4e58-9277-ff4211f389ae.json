@@ -1,0 +1,37 @@
+{
+  "name": "Antiquities on the Loose",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "colors": [
+            "R",
+            "W"
+          ],
+          "power": 2,
+          "toughness": 2
+        }
+      },
+      {
+        "if": {
+          "not": "castFromHand"
+        },
+        "then": [
+          {
+            "counters": 1,
+            "what": {
+              "each": {
+                "subtype": "Spirit",
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Create two 2/2 red and white Spirit creature tokens. Then if this spell was cast from anywhere other than your hand, put a +1/+1 counter on each Spirit you control."
+  }
+}

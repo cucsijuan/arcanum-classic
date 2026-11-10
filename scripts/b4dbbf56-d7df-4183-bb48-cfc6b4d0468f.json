@@ -1,0 +1,50 @@
+{
+  "name": "Armored Skyhunter",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "lookAtTop": 6,
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Aura"
+              },
+              {
+                "subtype": "Equipment"
+              }
+            ]
+          },
+          "to": "battlefield"
+        },
+        {
+          "if": {
+            "foundHas": {
+              "subtype": "Equipment"
+            }
+          },
+          "then": [
+            {
+              "may": "Attach the Equipment to a creature you control?",
+              "effects": [
+                {
+                  "attach": "found",
+                  "to": {
+                    "choose": {
+                      "types": [
+                        "creature"
+                      ],
+                      "controller": "you"
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, look at the top six cards of your library. You may put an Aura or Equipment card from among them onto the battlefield. If an Equipment is put onto the battlefield this way, you may attach it to a creature you control. Put the rest of those cards on the bottom of your library in a random order."
+    }
+  ]
+}

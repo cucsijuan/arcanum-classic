@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Fen",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

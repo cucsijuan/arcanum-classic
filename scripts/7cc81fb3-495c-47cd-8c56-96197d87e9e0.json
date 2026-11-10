@@ -1,0 +1,81 @@
+{
+  "name": "Witherbloom Command",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Target player mills three cards, then you return a land card from your graveyard to your hand.",
+        "targets": [
+          "player"
+        ],
+        "effects": [
+          {
+            "mill": 3,
+            "who": "target"
+          },
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "land"
+              ],
+              "controller": "you"
+            },
+            "count": 1
+          }
+        ]
+      },
+      {
+        "text": "Destroy target noncreature, nonland permanent with mana value 2 or less.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "any",
+            "filter": {
+              "not": [
+                "creature",
+                "land"
+              ],
+              "maxManaValue": 2
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -3/-1 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -3,
+              -1
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target opponent loses 2 life and you gain 2 life.",
+        "targets": [
+          "opponent"
+        ],
+        "effects": [
+          {
+            "loseLife": 2,
+            "who": "target"
+          },
+          {
+            "gainLife": 2
+          }
+        ]
+      }
+    ]
+  }
+}

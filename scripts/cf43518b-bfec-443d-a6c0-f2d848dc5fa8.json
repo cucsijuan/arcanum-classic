@@ -1,0 +1,27 @@
+{
+  "name": "Rapier Wit",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "if": "yourTurn",
+        "then": [
+          {
+            "counters": 1,
+            "kind": "stun",
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Tap target creature. If it's your turn, put a stun counter on it.\nDraw a card."
+  }
+}

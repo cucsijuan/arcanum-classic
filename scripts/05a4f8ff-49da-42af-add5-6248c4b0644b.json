@@ -1,0 +1,24 @@
+{
+  "name": "Darksteel Mutation",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setTypes": [
+          "artifact",
+          "creature"
+        ],
+        "setSubtypes": [
+          "Insect"
+        ],
+        "setPower": 0,
+        "setToughness": 1,
+        "losesAbilities": true,
+        "keywords": [
+          "Indestructible"
+        ]
+      },
+      "text": "Enchanted creature is an Insect artifact creature with base power and toughness 0/1 and has indestructible, and it loses all other abilities, card types, and creature types."
+    }
+  ]
+}

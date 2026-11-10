@@ -1,0 +1,74 @@
+{
+  "name": "Quintorius, History Chaser",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "R",
+              "W"
+            ],
+            "power": 3,
+            "toughness": 2,
+            "keywords": []
+          }
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token."
+    },
+    {
+      "cost": "+1",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw two cards, then mill a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 2
+            },
+            {
+              "mill": 1
+            }
+          ]
+        }
+      ],
+      "text": "+1: You may discard a card. If you do, draw two cards, then mill a card."
+    },
+    {
+      "cost": "-4",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Spirit",
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Double strike",
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "−4: Spirits you control gain double strike and vigilance until end of turn."
+    }
+  ]
+}

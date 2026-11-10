@@ -1,0 +1,42 @@
+{
+  "name": "Rubble Rouser",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may discard a card. If you do, draw a card."
+    },
+    {
+      "cost": "{T}, exileGraveyardCards:1",
+      "effects": [
+        {
+          "addMana": "{R}"
+        },
+        {
+          "whenYouDo": {
+            "effects": [
+              {
+                "damage": 1,
+                "to": "opponents"
+              }
+            ],
+            "text": "This creature deals 1 damage to each opponent."
+          }
+        }
+      ],
+      "text": "{T}, Exile a card from your graveyard: Add {R}. When you do, this creature deals 1 damage to each opponent."
+    }
+  ]
+}

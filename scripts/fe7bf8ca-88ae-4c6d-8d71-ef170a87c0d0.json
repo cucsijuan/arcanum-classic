@@ -1,0 +1,41 @@
+{
+  "name": "Brotherhood's End",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Brotherhood's End deals 3 damage to each creature and each planeswalker.",
+        "effects": [
+          {
+            "damage": 3,
+            "to": {
+              "each": {
+                "types": [
+                  "creature",
+                  "planeswalker"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all artifacts with mana value 3 or less.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "artifact"
+                ],
+                "controller": "any",
+                "maxManaValue": 3
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

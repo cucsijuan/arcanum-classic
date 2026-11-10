@@ -1,0 +1,43 @@
+{
+  "name": "Sundering Archaic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "maxManaValueColorsSpent": true
+          },
+          "text": "target nonland permanent an opponent controls with mana value less than or equal to the number of colors of mana spent to cast this creature"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Converge — When this creature enters, exile target nonland permanent an opponent controls with mana value less than or equal to the number of colors of mana spent to cast this creature."
+    },
+    {
+      "cost": "{2}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{2}: Put target card from a graveyard on the bottom of its owner's library."
+    }
+  ]
+}

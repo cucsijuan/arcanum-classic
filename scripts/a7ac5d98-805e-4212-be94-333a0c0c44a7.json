@@ -1,0 +1,57 @@
+{
+  "name": "Brudiclad, Telchor Engineer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "token": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creature tokens you control have haste."
+    },
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Phyrexian Myr",
+            "types": "Artifact Creature — Phyrexian Myr",
+            "colors": [
+              "U"
+            ],
+            "power": 2,
+            "toughness": 1,
+            "keywords": []
+          }
+        },
+        {
+          "choose": {
+            "token": true,
+            "controller": "you"
+          },
+          "optional": true
+        },
+        {
+          "becomeCopy": {
+            "each": {
+              "token": true,
+              "controller": "you"
+            }
+          },
+          "target": "chosen",
+          "lasting": true
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a 2/1 blue Phyrexian Myr artifact creature token. Then you may choose a token you control. If you do, each other token you control becomes a copy of that token."
+    }
+  ]
+}

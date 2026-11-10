@@ -1,0 +1,44 @@
+{
+  "name": "Monstrous Rage",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Monster Role",
+          "types": "Enchantment — Aura Role",
+          "colors": [],
+          "aura": "creature",
+          "text": "Enchant creature\nEnchanted creature gets +1/+1 and has trample.",
+          "abilities": [
+            {
+              "static": {
+                "affects": "enchanted",
+                "pump": [
+                  1,
+                  1
+                ],
+                "keywords": [
+                  "Trample"
+                ]
+              },
+              "text": "Enchanted creature gets +1/+1 and has trample."
+            }
+          ]
+        },
+        "attachTo": "target"
+      }
+    ],
+    "text": "Target creature gets +2/+0 until end of turn. Create a Monster Role token attached to it."
+  }
+}

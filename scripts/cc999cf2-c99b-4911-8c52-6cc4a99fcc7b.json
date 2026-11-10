@@ -1,0 +1,38 @@
+{
+  "name": "Emeria, the Sky Ruin",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "control": {
+          "subtype": "Plains"
+        },
+        "count": 7
+      },
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Return target creature card from your graveyard to the battlefield?",
+          "effects": [
+            {
+              "reanimate": "target"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control seven or more Plains, you may return target creature card from your graveyard to the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Balefire Liege",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "colors": [
+            "R"
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other red creatures you control get +1/+1."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "colors": [
+            "W"
+          ]
+        },
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other white creatures you control get +1/+1."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "R"
+        ]
+      },
+      "targets": [
+        "playerOrPlaneswalker"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you cast a red spell, this creature deals 3 damage to target player or planeswalker."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "colors": [
+          "W"
+        ]
+      },
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "Whenever you cast a white spell, you gain 3 life."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Pigment Wrangler // Striking Palette",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true
+        }
+      ],
+      "text": "When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy."
+    }
+  }
+}

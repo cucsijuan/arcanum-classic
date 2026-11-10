@@ -1,0 +1,16 @@
+{
+  "name": "Brain Freeze",
+  "storm": true,
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": 3,
+        "who": "target"
+      }
+    ],
+    "text": "Target player mills three cards."
+  }
+}

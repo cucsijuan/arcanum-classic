@@ -1,0 +1,22 @@
+{
+  "name": "Grim Haruspex",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true,
+        "token": false
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever another nontoken creature you control dies, draw a card."
+    }
+  ]
+}

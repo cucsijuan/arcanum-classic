@@ -3,12 +3,13 @@
 """
 Builds two-color sample decks from a card set, using only cards the engine supports.
 
-Usage: tools/build_set_decks.py <card-file.jsonl[.gz]> <sets/code.json> [<printings-file.jsonl[.gz]>]
+Usage: tools/build_set_decks.py <card-file.jsonl[.gz]> <sets/code.json> [<printings-file.jsonl[.gz]>] [--pairs WB,UR,...]
 
 For each color pair: 36 nonland cards of those colors (or colorless) from the set, favoring creatures and a
 reasonable curve, 22 creatures and 14 other spells when possible, one copy each (two when the pool is short), plus 12 + 12 basic lands.
 Writes decks/<code>-<pair>.txt. With the printings file every line names the card's printing in the set
-("1 Name (CODE) 123"), so the decks show that set's art; basic lands come from the set too.
+("1 Name (CODE) 123"), so the decks show that set's art; basic lands come from the set too. --pairs picks the color pairs
+(default the five allied pairs), for a set built around other pairs.
 """
 import gzip
 import json
@@ -20,6 +21,7 @@ ROOT = os.path.join(HERE, "..")
 sys.path.insert(0, HERE)
 from build_commander_decks import scripted_ids, supported  # noqa: E402
 
+BASICS = {"W": "Plains", "U": "Island", "B": "Swamp", "R": "Mountain", "G": "Forest"}
 PAIRS = {"WU": ("Plains", "Island"), "UB": ("Island", "Swamp"), "BR": ("Swamp", "Mountain"),
          "RG": ("Mountain", "Forest"), "GW": ("Forest", "Plains")}
 
@@ -45,6 +47,11 @@ def set_printings(path, code):
 
 
 def main():
+    global PAIRS
+    if "--pairs" in sys.argv:
+        i = sys.argv.index("--pairs")
+        PAIRS = {pair: (BASICS[pair[0]], BASICS[pair[1]]) for pair in sys.argv[i + 1].split(",")}
+        del sys.argv[i:i + 2]
     if len(sys.argv) < 3:
         print(__doc__)
         return 1

@@ -1,0 +1,19 @@
+{
+  "name": "Thornfist Striker",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Trample"
+        ],
+        "while": "gainedLife"
+      },
+      "text": "Infusion — Creatures you control get +1/+0 and have trample as long as you gained life this turn."
+    }
+  ]
+}

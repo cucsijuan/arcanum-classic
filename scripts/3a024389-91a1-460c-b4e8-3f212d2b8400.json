@@ -1,0 +1,46 @@
+{
+  "name": "Lost in the Maze",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "countOf": "X",
+          "text": "X target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": {
+            "eachTarget": {
+              "controller": "opponent"
+            }
+          }
+        }
+      ],
+      "text": "When this enchantment enters, tap X target creatures. Put a stun counter on each of those creatures you don't control."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "tapped": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      "text": "Tapped creatures you control have hexproof."
+    }
+  ]
+}

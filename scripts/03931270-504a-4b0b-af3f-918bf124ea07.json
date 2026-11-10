@@ -1,0 +1,23 @@
+{
+  "name": "Maelstrom Artisan // Rocket Volley",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "land",
+          "filter": {
+            "notSupertype": "basic"
+          },
+          "text": "target nonbasic land"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Destroy target nonbasic land."
+    }
+  }
+}

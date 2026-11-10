@@ -1,0 +1,40 @@
+{
+  "name": "Postmortem Professor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't block"
+        ]
+      },
+      "text": "This creature can't block."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature attacks, each opponent loses 1 life and you gain 1 life."
+    },
+    {
+      "cost": "{1}{B}, exileGraveyardCards:1:instant|sorcery, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self"
+        }
+      ],
+      "text": "{1}{B}, Exile an instant or sorcery card from your graveyard: Return this card from your graveyard to the battlefield."
+    }
+  ]
+}

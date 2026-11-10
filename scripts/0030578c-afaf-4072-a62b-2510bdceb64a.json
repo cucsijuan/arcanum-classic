@@ -1,0 +1,61 @@
+{
+  "name": "Lattice Library",
+  "entersWithCounters": "X",
+  "entersWithCounterKind": "study",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": {
+            "counters": "study"
+          },
+          "what": "created"
+        }
+      ],
+      "text": "When this enchantment enters and whenever you cast your first spell with {X} in its mana cost each turn, create a 0/0 green and blue Fractal creature token. Put a number of +1/+1 counters on it equal to the number of study counters on this enchantment."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true
+      },
+      "nth": 1,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": {
+            "counters": "study"
+          },
+          "what": "created"
+        }
+      ],
+      "text": "When this enchantment enters and whenever you cast your first spell with {X} in its mana cost each turn, create a 0/0 green and blue Fractal creature token. Put a number of +1/+1 counters on it equal to the number of study counters on this enchantment."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+1 Aberrant Manawurm (SOS) 138
+1 Biblioplex Tomekeeper (SOS) 247
+1 Emil, Vastlands Roamer (SOS) 146
+1 Environmental Scientist (SOS) 147
+1 Fractal Mascot (SOS) 189
+1 Geometer's Arthropod (SOS) 191
+1 Hydro-Channeler (SOS) 54
+1 Mage Tower Referee (SOS) 249
+1 Matterbending Mage (SOS) 59
+1 Mindful Biomancer (SOS) 154
+1 Noxious Newt (SOS) 155
+1 Orysa, Tide Choreographer (SOS) 62
+1 Paradox Surveyor (SOS) 208
+1 Pestbrood Sloth (SOS) 157
+1 Pterafractyl (SOS) 215
+1 Quandrix, the Proof (SOS) 218
+1 Shopkeeper's Bane (SOS) 159
+1 Slumbering Trudge (SOS) 160
+1 The Dawning Archaic (SOS) 1
+1 Additive Evolution (SOS) 139
+1 Applied Geometry (SOS) 172
+1 Banishing Betrayal (SOS) 38
+1 Brush Off (SOS) 39
+1 Burrog Barrage (SOS) 141
+1 Chase Inspiration (SOS) 41
+1 Chelonian Tackle (SOS) 142
+1 Comforting Counsel (SOS) 143
+1 Diary of Dreams (SOS) 248
+1 Divergent Equation (SOS) 43
+1 Embrace the Paradox (SOS) 186
+1 Essence Scatter (SOS) 47
+1 Flow State (SOS) 49
+1 Fractal Anomaly (SOS) 50
+1 Fractalize (SOS) 51
+1 Glorious Decay (SOS) 150
+1 Growth Curve (SOS) 193
+12 Forest (SOS) 271
+12 Island (SOS) 268

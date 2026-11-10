@@ -1,0 +1,29 @@
+{
+  "name": "Quandrix Apprentice",
+  "abilities": [
+    {
+      "trigger": "castOrCopy",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "lookAtTop": 3,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "take": 1,
+          "to": "hand",
+          "reveal": true,
+          "restAnyOrder": true
+        }
+      ],
+      "text": "Magecraft — Whenever you cast or copy an instant or sorcery spell, look at the top three cards of your library. You may reveal a land card from among them and put that card into your hand. Put the rest on the bottom of your library in any order."
+    }
+  ]
+}

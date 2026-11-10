@@ -1,0 +1,11 @@
+{
+  "name": "Turbulent Springs",
+  "entersTappedUnless": {
+    "opponentsControlTotal": {
+      "types": [
+        "land"
+      ]
+    },
+    "count": 8
+  }
+}

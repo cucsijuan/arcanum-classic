@@ -1,0 +1,54 @@
+{
+  "name": "Moment of Reckoning",
+  "spell": {
+    "chooseCount": 4,
+    "upTo": true,
+    "modesRepeat": true,
+    "text": "Choose up to four. You may choose the same mode more than once.",
+    "modes": [
+      {
+        "text": "Destroy target nonland permanent.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "not": [
+                "land"
+              ]
+            },
+            "text": "target nonland permanent"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return target nonland permanent card from your graveyard to the battlefield.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact",
+                "creature",
+                "enchantment",
+                "planeswalker",
+                "battle"
+              ]
+            },
+            "text": "target nonland permanent card from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "reanimate": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

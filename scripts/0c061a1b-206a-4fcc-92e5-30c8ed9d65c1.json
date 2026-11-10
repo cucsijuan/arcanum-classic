@@ -1,0 +1,67 @@
+{
+  "name": "Artistic Process",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Artistic Process deals 6 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 6,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Artistic Process deals 2 damage to each creature you don't control.",
+        "effects": [
+          {
+            "damage": 2,
+            "to": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "opponent"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Create a 3/3 blue and red Elemental creature token with flying. It gains haste until end of turn.",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Elemental",
+              "types": "Creature — Elemental",
+              "power": 3,
+              "toughness": 3,
+              "colors": [
+                "U",
+                "R"
+              ],
+              "keywords": [
+                "Flying"
+              ]
+            }
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "created",
+            "keywords": [
+              "Haste"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

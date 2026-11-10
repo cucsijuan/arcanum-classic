@@ -1,0 +1,25 @@
+# White Deck — one of the set's five 40-card Welcome Decks (official decklist).
+Deck
+1 Dauntless Veteran (FDN) 8
+2 Helpful Hunter (FDN) 16
+1 Joust Through (FDN) 19
+1 Ajani's Pridemate (FDN) 135
+1 Banishing Light (FDN) 138
+1 Cathar Commando (FDN) 139
+16 Plains (FDN) 272
+1 Bishop's Soldier (FDN) 491
+1 Moment of Triumph (FDN) 500
+1 Pacifism (FDN) 501
+1 Hinterland Sanctifier (FDN) 730
+1 Crusader of Odric (FDN) 731
+1 Dazzling Angel (FDN) 732
+1 Exemplar of Light (FDN) 733
+2 Healer's Hawk (FDN) 734
+1 Herald of Faith (FDN) 735
+1 Inspiring Overseer (FDN) 736
+1 Linden, the Steadfast Queen (FDN) 737
+1 Lyra Dawnbringer (FDN) 738
+1 Prayer of Binding (FDN) 739
+1 Serra Angel (FDN) 740
+1 Diamond Mare (FDN) 770
+1 Cryptic Caves (FDN) 771

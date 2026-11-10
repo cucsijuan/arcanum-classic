@@ -1,0 +1,35 @@
+{
+  "name": "Biblioplex Tomekeeper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 1,
+      "upTo": true,
+      "text": "When this creature enters, choose up to one —",
+      "modes": [
+        {
+          "text": "Target creature becomes prepared.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "becomePrepared": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target creature becomes unprepared.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "becomeUnprepared": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "Conspiracy Theorist",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Pay {1} and discard a card to draw a card?",
+          "mana": "{1}",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may pay {1} and discard a card. If you do, draw a card."
+    },
+    {
+      "trigger": "playerDiscards",
+      "when": "triggeredPlayerIsYou",
+      "batched": true,
+      "filter": {
+        "not": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "choose": {
+            "not": [
+              "land"
+            ],
+            "zone": "graveyard"
+          },
+          "among": "batch",
+          "optional": true
+        },
+        {
+          "exile": "chosen",
+          "mayPlayThisTurn": true
+        }
+      ],
+      "text": "Whenever you discard one or more nonland cards, you may exile one of them from your graveyard. If you do, you may cast it this turn."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Pestbrood Sloth",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "attacks",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "Whenever this token attacks, you gain 1 life."
+              }
+            ],
+            "text": "Whenever this token attacks, you gain 1 life."
+          }
+        }
+      ],
+      "text": "When this creature dies, create two 1/1 black and green Pest creature tokens with \"Whenever this token attacks, you gain 1 life.\""
+    }
+  ]
+}

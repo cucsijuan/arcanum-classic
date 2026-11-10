@@ -1,0 +1,24 @@
+{
+  "name": "Crop Rotation",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "search": {
+          "types": [
+            "land"
+          ]
+        },
+        "count": 1,
+        "to": "battlefield"
+      }
+    ],
+    "text": "Search your library for a land card, put that card onto the battlefield, then shuffle."
+  }
+}

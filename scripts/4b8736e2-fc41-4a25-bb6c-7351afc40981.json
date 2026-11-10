@@ -1,0 +1,15 @@
+{
+  "name": "Pensive Professor",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "onSelf": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more +1/+1 counters are put on this creature, draw a card."
+    }
+  ]
+}

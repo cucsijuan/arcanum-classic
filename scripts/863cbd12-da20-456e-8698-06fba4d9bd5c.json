@@ -1,0 +1,15 @@
+{
+  "name": "Arcane Omens",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": "colorsSpentToCast",
+        "who": "target"
+      }
+    ],
+    "text": "Converge — Target player discards X cards, where X is the number of colors of mana spent to cast this spell."
+  }
+}

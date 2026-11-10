@@ -1,0 +1,68 @@
+{
+  "name": "Final Act",
+  "spell": {
+    "chooseCount": 5,
+    "upTo": true,
+    "text": "Choose one or more —",
+    "modes": [
+      {
+        "text": "Destroy all creatures.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all planeswalkers.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "planeswalker"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Destroy all battles.",
+        "effects": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "battle"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      {
+        "text": "Exile all graveyards.",
+        "effects": [
+          {
+            "exileGraveyard": "everyone"
+          }
+        ]
+      },
+      {
+        "text": "Each opponent loses all counters.",
+        "effects": [
+          {
+            "removeAllCounters": "opponents"
+          }
+        ]
+      }
+    ]
+  }
+}

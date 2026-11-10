@@ -1,0 +1,13 @@
+{
+  "name": "Slumbering Trudge",
+  "entersWithCounters": {
+    "sum": [
+      3,
+      "-X"
+    ]
+  },
+  "entersWithCounterKind": "stun",
+  "entersTappedUnless": {
+    "castXAtLeast": 3
+  }
+}

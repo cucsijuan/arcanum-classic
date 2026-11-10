@@ -1,0 +1,15 @@
+{
+  "name": "Sylvan Library",
+  "abilities": [
+    {
+      "trigger": "eachDrawStep",
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "drawTwoPayOrReturnDrawn": true
+        }
+      ],
+      "text": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library."
+    }
+  ]
+}

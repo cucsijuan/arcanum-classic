@@ -1,0 +1,46 @@
+{
+  "name": "Killian's Confidence",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          1
+        ],
+        "what": "target"
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Target creature gets +1/+1 until end of turn. Draw a card."
+  },
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batched": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "mayPay": "Pay {W/B} to return Killian's Confidence from your graveyard to your hand?",
+          "mana": "{W/B}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever one or more creatures you control deal combat damage to a player, you may pay {W/B}. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

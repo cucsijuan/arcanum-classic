@@ -1,0 +1,32 @@
+{
+  "name": "Determined Iteration",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "populate": true
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "created",
+          "keywords": [
+            "Haste"
+          ]
+        },
+        {
+          "atNextEndStepAbout": "created",
+          "effects": [
+            {
+              "sacrificeIt": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, populate. The token created this way gains haste. Sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

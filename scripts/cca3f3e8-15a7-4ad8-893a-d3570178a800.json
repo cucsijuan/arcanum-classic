@@ -1,0 +1,22 @@
+{
+  "name": "Fractal Mascot",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target creature an opponent controls. Put a stun counter on it."
+    }
+  ]
+}

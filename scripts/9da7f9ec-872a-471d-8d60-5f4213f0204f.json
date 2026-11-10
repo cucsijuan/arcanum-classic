@@ -1,0 +1,16 @@
+{
+  "name": "Ulna Alley Shopkeep",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": "gainedLife"
+      },
+      "text": "Infusion — This creature gets +2/+0 as long as you gained life this turn."
+    }
+  ]
+}

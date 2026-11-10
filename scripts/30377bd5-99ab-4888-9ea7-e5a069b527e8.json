@@ -1,0 +1,50 @@
+{
+  "name": "Return the Favor",
+  "spell": {
+    "text": "Spree",
+    "chooseCount": 2,
+    "upTo": true,
+    "modes": [
+      {
+        "cost": "{1}",
+        "text": "Copy target instant spell, sorcery spell, activated ability, or triggered ability. You may choose new targets for the copy.",
+        "targets": [
+          {
+            "kind": "spellOrAbility",
+            "filter": {
+              "types": [
+                "instant",
+                "sorcery"
+              ]
+            },
+            "text": "target instant spell, sorcery spell, activated ability, or triggered ability"
+          }
+        ],
+        "effects": [
+          {
+            "copySpell": "target"
+          },
+          {
+            "copyAbility": "target"
+          }
+        ]
+      },
+      {
+        "cost": "{1}",
+        "text": "Change the target of target spell or ability with a single target.",
+        "targets": [
+          {
+            "kind": "spellOrAbility",
+            "singleTarget": true,
+            "text": "target spell or ability with a single target"
+          }
+        ],
+        "effects": [
+          {
+            "changeTarget": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

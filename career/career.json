@@ -27,7 +27,8 @@
       "blb-br", "blb-gw", "blb-rg", "blb-ub", "blb-wu",
       "ecl-br", "ecl-gw", "ecl-rg", "ecl-ub", "ecl-wu",
       "tdm-br", "tdm-gw", "tdm-rg", "tdm-ub", "tdm-wu",
-      "dsk-br", "dsk-gw", "dsk-rg", "dsk-ub", "dsk-wu"
+      "dsk-br", "dsk-gw", "dsk-rg", "dsk-ub", "dsk-wu",
+      "sos-wb", "sos-ur", "sos-bg", "sos-rw", "sos-gu"
     ]
   },
 
@@ -195,8 +196,8 @@
 
 
   // Boosters on the shelf; the featured set changes every Monday (UTC) in this order.
-  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra", "blb", "ecl", "tdm", "dsk"],
-  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb", "ecl", "tdm", "dsk"],
+  "sets": ["fdn", "m19", "ori", "hob", "ltr", "m10", "fin", "fra", "blb", "ecl", "tdm", "dsk", "sos"],
+  "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb", "ecl", "tdm", "dsk", "sos"],
 
   "precons": [
     { "deck": "fdn-br" }, { "deck": "fdn-gw" }, { "deck": "fdn-rg" }, { "deck": "fdn-ub" }, { "deck": "fdn-wu" },
@@ -210,6 +211,9 @@
     { "deck": "ecl-br" }, { "deck": "ecl-gw" }, { "deck": "ecl-rg" }, { "deck": "ecl-ub" }, { "deck": "ecl-wu" },
     { "deck": "tdm-br" }, { "deck": "tdm-gw" }, { "deck": "tdm-rg" }, { "deck": "tdm-ub" }, { "deck": "tdm-wu" },
     { "deck": "dsk-br" }, { "deck": "dsk-gw" }, { "deck": "dsk-rg" }, { "deck": "dsk-ub" }, { "deck": "dsk-wu" },
+    { "deck": "sos-wb" }, { "deck": "sos-ur" }, { "deck": "sos-bg" }, { "deck": "sos-rw" }, { "deck": "sos-gu" },
+    // The set's two 60-card theme decks, sold separately.
+    { "deck": "sos-theme-eerie", "price": 2400 }, { "deck": "sos-theme-lifegain", "price": 2400 },
     // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
     { "deck": "fin-starter-red-white", "with": ["fin-starter-blue-black"], "name": "Final Fantasy Starter Kit", "price": 2500 },
     { "deck": "blb-starter-hare-raising", "with": ["blb-starter-otter-limits"], "name": "Bloomburrow Starter Kit", "price": 2500 },
@@ -225,6 +229,9 @@
     { "deck": "tdc-sultai-arisen", "price": 4500 }, { "deck": "tdc-temur-roar", "price": 4500 },
     { "deck": "dsc-death-toll", "price": 4500 }, { "deck": "dsc-endless-punishment", "price": 4500 },
     { "deck": "dsc-jump-scare", "price": 4500 }, { "deck": "dsc-miracle-worker", "price": 4500 },
+    { "deck": "soc-lorehold-spirit", "price": 4500 }, { "deck": "soc-prismari-artistry", "price": 4500 },
+    { "deck": "soc-quandrix-unlimited", "price": 4500 }, { "deck": "soc-silverquill-influence", "price": 4500 },
+    { "deck": "soc-witherbloom-pestilence", "price": 4500 },
     // Collector's Editions: the same lists with every card a surge foil, sold separately (priced by the real ones' ratio to the regular decks).
     { "deck": "fic-counter-blitz-collectors-edition", "price": 9500 }, { "deck": "fic-limit-break-collectors-edition", "price": 9500 },
     { "deck": "fic-revival-trance-collectors-edition", "price": 9500 }, { "deck": "fic-scions-spellcraft-collectors-edition", "price": 9500 },
@@ -280,6 +287,7 @@
                 "ecc-blight-curse", "ecc-dance-of-the-elements",
                 "tdc-abzan-armor", "tdc-jeskai-striker", "tdc-mardu-surge", "tdc-sultai-arisen", "tdc-temur-roar",
                 "dsc-death-toll", "dsc-endless-punishment", "dsc-jump-scare", "dsc-miracle-worker",
+                "soc-lorehold-spirit", "soc-prismari-artistry", "soc-quandrix-unlimited", "soc-silverquill-influence", "soc-witherbloom-pestilence",
                 "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
                 "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
       "prizes": [

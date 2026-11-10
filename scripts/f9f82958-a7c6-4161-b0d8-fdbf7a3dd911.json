@@ -1,0 +1,20 @@
+{
+  "name": "Entrancing Melody",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "manaValueIsX": true
+        },
+        "text": "target creature with mana value X"
+      }
+    ],
+    "effects": [
+      {
+        "gainControl": "target"
+      }
+    ],
+    "text": "Gain control of target creature with mana value X."
+  }
+}

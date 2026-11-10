@@ -1,0 +1,20 @@
+{
+  "name": "Squee, Goblin Nabob",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "fromGraveyard": true,
+      "effects": [
+        {
+          "may": "Return Squee from your graveyard to your hand?",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may return this card from your graveyard to your hand."
+    }
+  ]
+}

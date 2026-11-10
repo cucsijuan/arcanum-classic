@@ -1,0 +1,32 @@
+{
+  "name": "Diary of Dreams",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "page",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, put a page counter on this artifact."
+    },
+    {
+      "cost": "{5}, {T}",
+      "costReductionPerCounter": "page",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{5}, {T}: Draw a card. This ability costs {1} less to activate for each page counter on this artifact."
+    }
+  ]
+}

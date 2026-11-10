@@ -1,0 +1,20 @@
+{
+  "name": "Awaken the Woods",
+  "spell": {
+    "effects": [
+      {
+        "tokens": "X",
+        "token": {
+          "name": "Forest Dryad",
+          "types": "Land Creature — Forest Dryad",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "G"
+          ]
+        }
+      }
+    ],
+    "text": "Create X 1/1 green Forest Dryad land creature tokens. (They're affected by summoning sickness.)"
+  }
+}

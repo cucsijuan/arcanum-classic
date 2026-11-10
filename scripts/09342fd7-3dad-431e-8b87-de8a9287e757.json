@@ -1,0 +1,49 @@
+{
+  "name": "Fractal Harness",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "counters": "X",
+          "what": "created"
+        },
+        {
+          "attach": "self",
+          "to": "created"
+        }
+      ],
+      "text": "When this Equipment enters, create a 0/0 green and blue Fractal creature token. Put X +1/+1 counters on it and attach this Equipment to it."
+    },
+    {
+      "trigger": "creatureAttacks",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "doubleCounters": "triggered",
+          "kind": "+1/+1"
+        }
+      ],
+      "text": "Whenever equipped creature attacks, double the number of +1/+1 counters on it."
+    }
+  ]
+}

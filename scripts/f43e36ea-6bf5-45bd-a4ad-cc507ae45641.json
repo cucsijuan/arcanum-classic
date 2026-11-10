@@ -1,0 +1,52 @@
+{
+  "name": "Quandrix Charm",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Counter target spell unless its controller pays {2}.",
+        "targets": [
+          "spell"
+        ],
+        "effects": [
+          {
+            "counter": "target",
+            "unlessPays": "{2}"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target enchantment.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "types": [
+                "enchantment"
+              ]
+            },
+            "text": "target enchantment"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature has base power and toughness 5/5 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "power": 5,
+            "toughness": 5
+          }
+        ]
+      }
+    ]
+  }
+}

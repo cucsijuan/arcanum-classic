@@ -1,0 +1,31 @@
+{
+  "name": "Naktamun Lorespinner // Wheel of Fortune",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "anyPlayerHandAtMost": 1
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if a player has one or fewer cards in hand, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "discardHand": "everyone"
+        },
+        {
+          "draw": 7,
+          "who": "everyone"
+        }
+      ],
+      "text": "Each player discards their hand, then draws seven cards."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Startled Relic Sloth",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true,
+          "text": "up to one target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, exile up to one target card from a graveyard."
+    }
+  ]
+}

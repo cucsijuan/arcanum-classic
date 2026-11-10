@@ -1,0 +1,33 @@
+{
+  "name": "Fractalize",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "powerFrom": {
+          "sum": [
+            "X",
+            1
+          ]
+        },
+        "toughnessFrom": {
+          "sum": [
+            "X",
+            1
+          ]
+        },
+        "setSubtypes": [
+          "Fractal"
+        ],
+        "setColors": [
+          "G",
+          "U"
+        ]
+      }
+    ],
+    "text": "Until end of turn, target creature becomes a green and blue Fractal with base power and toughness each equal to X plus 1."
+  }
+}

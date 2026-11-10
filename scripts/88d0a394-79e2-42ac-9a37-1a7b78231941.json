@@ -1,0 +1,27 @@
+{
+  "name": "Thunderclap Drake",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "amount": 1
+      },
+      "text": "Instant and sorcery spells you cast cost {1} less to cast."
+    },
+    {
+      "cost": "{2}{U}, sacrifice",
+      "effects": [
+        {
+          "copyNextInstantOrSorcery": true,
+          "copies": "commanderCasts"
+        }
+      ],
+      "text": "{2}{U}, Sacrifice this creature: When you next cast an instant or sorcery spell this turn, copy it for each time you've cast your commander from the command zone this game. You may choose new targets for the copies."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Owlin Spiralmancer",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true
+      },
+      "nth": 1,
+      "effects": [
+        {
+          "may": "Copy that spell?",
+          "effects": [
+            {
+              "copySpell": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast your first spell with {X} in its mana cost each turn, you may copy it. You may choose new targets for the copy."
+    }
+  ]
+}

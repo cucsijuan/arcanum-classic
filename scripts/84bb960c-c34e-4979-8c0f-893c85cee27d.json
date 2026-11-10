@@ -1,0 +1,26 @@
+{
+  "name": "Leech Collector // Bloodletting",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "nth": 1,
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Whenever you gain life for the first time each turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "opponents"
+        }
+      ],
+      "text": "Each opponent loses 2 life."
+    }
+  }
+}

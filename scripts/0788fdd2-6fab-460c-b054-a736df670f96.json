@@ -1,0 +1,37 @@
+{
+  "name": "Colossus of the Blood Age",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "damage": 3,
+          "to": "opponents"
+        },
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, it deals 3 damage to each opponent and you gain 3 life."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "discardAnyNumber": true
+        },
+        {
+          "draw": {
+            "sum": [
+              {
+                "discarded": {}
+              },
+              1
+            ]
+          }
+        }
+      ],
+      "text": "When this creature dies, discard any number of cards, then draw that many cards plus one."
+    }
+  ]
+}

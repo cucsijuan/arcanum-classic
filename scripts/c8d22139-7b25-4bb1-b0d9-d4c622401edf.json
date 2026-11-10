@@ -1,0 +1,19 @@
+{
+  "name": "Germination Practicum",
+  "spell": {
+    "effects": [
+      {
+        "counters": 2,
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      }
+    ],
+    "text": "Put two +1/+1 counters on each creature you control."
+  }
+}

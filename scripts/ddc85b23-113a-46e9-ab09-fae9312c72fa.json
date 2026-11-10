@@ -1,0 +1,37 @@
+{
+  "name": "Spirit of Resilience",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "becomeCopy": "self",
+          "target": "batch",
+          "mayChooseAmong": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, put a +1/+1 counter on this creature, then you may have this creature become a copy of an artifact or creature card from among those cards until end of turn."
+    }
+  ]
+}

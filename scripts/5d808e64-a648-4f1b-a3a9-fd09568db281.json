@@ -1,0 +1,28 @@
+{
+  "name": "Garrison Excavator",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "R",
+              "W"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, create a 2/2 red and white Spirit creature token."
+    }
+  ]
+}

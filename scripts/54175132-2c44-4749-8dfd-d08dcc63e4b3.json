@@ -1,0 +1,25 @@
+{
+  "name": "Elusive Otter // Grove's Bounty",
+  "cantBeBlockedBy": {
+    "lesserPower": true
+  },
+  "adventure": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "anyNumber": true,
+          "text": "any number of target creatures you control"
+        }
+      ],
+      "targetRule": "allDifferent",
+      "effects": [
+        {
+          "distributeCounters": "X"
+        }
+      ],
+      "text": "Distribute X +1/+1 counters among any number of target creatures you control."
+    }
+  }
+}

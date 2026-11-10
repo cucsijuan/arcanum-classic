@@ -1,0 +1,49 @@
+{
+  "name": "Surge to Victory",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "instant",
+            "sorcery"
+          ]
+        },
+        "text": "target instant or sorcery card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      },
+      {
+        "pump": [
+          {
+            "manaValue": "exiled"
+          },
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "whenYourCreatureDealsCombatDamageThisTurn": "exiled",
+        "effects": [
+          {
+            "castCopy": "triggered"
+          }
+        ],
+        "text": "Whenever a creature you control deals combat damage to a player this turn, copy the exiled card. You may cast the copy without paying its mana cost."
+      }
+    ],
+    "text": "Exile target instant or sorcery card from your graveyard. Creatures you control get +X/+0 until end of turn, where X is that card's mana value. Whenever a creature you control deals combat damage to a player this turn, copy the exiled card. You may cast the copy without paying its mana cost."
+  }
+}

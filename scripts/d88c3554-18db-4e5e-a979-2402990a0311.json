@@ -1,0 +1,16 @@
+{
+  "name": "Echocasting Symposium",
+  "spell": {
+    "targets": [
+      "player",
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "copy": "target2",
+        "for": "target"
+      }
+    ],
+    "text": "Target player creates a token that's a copy of target creature you control."
+  }
+}

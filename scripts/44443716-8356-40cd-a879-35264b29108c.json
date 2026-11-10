@@ -1,0 +1,35 @@
+{
+  "name": "Scheming Silvertongue // Sign in Blood",
+  "abilities": [
+    {
+      "trigger": "yourSecondMainPhase",
+      "if": {
+        "gainedLife": 2
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your second main phase, if you gained 2 or more life this turn, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "draw": 2,
+          "who": "target"
+        },
+        {
+          "loseLife": 2,
+          "who": "target"
+        }
+      ],
+      "text": "Target player draws two cards and loses 2 life."
+    }
+  }
+}

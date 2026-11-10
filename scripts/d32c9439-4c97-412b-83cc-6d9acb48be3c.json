@@ -1,0 +1,38 @@
+{
+  "name": "Exhibition Tidecaller",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "mill": 10,
+              "who": "target"
+            }
+          ],
+          "else": [
+            {
+              "mill": 3,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, target player mills three cards. If five or more mana was spent to cast that spell, that player mills ten cards instead."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Dina, Soul Steeper",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever you gain life, each opponent loses 1 life."
+    },
+    {
+      "cost": "{1}, sacrifice:creature",
+      "effects": [
+        {
+          "pump": [
+            "sacrificedPower",
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{1}, Sacrifice another creature: Dina gets +X/+0 until end of turn, where X is the sacrificed creature's power."
+    }
+  ]
+}

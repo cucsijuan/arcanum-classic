@@ -1,0 +1,9 @@
+{
+  "name": "Astral Cornucopia",
+  "entersWithCounters": "X",
+  "entersWithCounterKind": "charge",
+  "tapForMana": "{W}{U}{B}{R}{G}",
+  "manaAmountFrom": {
+    "counters": "charge"
+  }
+}

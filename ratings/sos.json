@@ -1,0 +1,2086 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "sos",
+ "format": "PremierDraft",
+ "games": 582914,
+ "mean": 0.5588,
+ "sd": 0.0351,
+ "cards": {
+  "Aberrant Manawurm": {
+   "gih": 0.5002,
+   "games": 7363,
+   "ata": 9.06,
+   "picks": 8722
+  },
+  "Abigale, Poet Laureate": {
+   "gih": 0.5512,
+   "games": 16948,
+   "ata": 5.03,
+   "picks": 9967
+  },
+  "Abrade": {
+   "gih": 0.5852,
+   "games": 34666,
+   "ata": 3.37,
+   "picks": 14790
+  },
+  "Abstract Paintmage": {
+   "gih": 0.5041,
+   "games": 11117,
+   "ata": 7.68,
+   "picks": 9661
+  },
+  "Ad Nauseam": {
+   "gih": 0.4,
+   "games": 40,
+   "ata": 8.05,
+   "picks": 418
+  },
+  "Additive Evolution": {
+   "gih": 0.5776,
+   "games": 21226,
+   "ata": 4.48,
+   "picks": 11662
+  },
+  "Adrix and Nev, Twincasters": {
+   "gih": 0.4937,
+   "games": 316,
+   "ata": 4.5,
+   "picks": 373
+  },
+  "Adventurous Eater": {
+   "gih": 0.5438,
+   "games": 31703,
+   "ata": 8.18,
+   "picks": 22572
+  },
+  "Ajani's Response": {
+   "gih": 0.5801,
+   "games": 59865,
+   "ata": 6.07,
+   "picks": 32739
+  },
+  "Akroma's Will": {
+   "gih": 0.5943,
+   "games": 1654,
+   "ata": 2.1,
+   "picks": 791
+  },
+  "Ambitious Augmenter": {
+   "gih": 0.6061,
+   "games": 11843,
+   "ata": 2.18,
+   "picks": 5889
+  },
+  "Ancestral Anger": {
+   "gih": 0.5298,
+   "games": 7762,
+   "ata": 11.07,
+   "picks": 28705
+  },
+  "Angel's Grace": {
+   "gih": 0.4167,
+   "games": 108,
+   "ata": 9.43,
+   "picks": 933
+  },
+  "Antiquities on the Loose": {
+   "gih": 0.6554,
+   "games": 16458,
+   "ata": 1.94,
+   "picks": 7193
+  },
+  "Applied Geometry": {
+   "gih": 0.5835,
+   "games": 13451,
+   "ata": 2.47,
+   "picks": 6503
+  },
+  "Arcane Omens": {
+   "gih": 0.5984,
+   "games": 25568,
+   "ata": 6.42,
+   "picks": 17525
+  },
+  "Archaeomancer": {
+   "gih": 0.5394,
+   "games": 1016,
+   "ata": 6.66,
+   "picks": 658
+  },
+  "Archaic's Agony": {
+   "gih": 0.5657,
+   "games": 18582,
+   "ata": 8.18,
+   "picks": 16161
+  },
+  "Archmage Emeritus": {
+   "gih": 0.4892,
+   "games": 883,
+   "ata": 3.15,
+   "picks": 472
+  },
+  "Ark of Hunger": {
+   "gih": 0.6352,
+   "games": 18329,
+   "ata": 1.99,
+   "picks": 7954
+  },
+  "Armageddon": {
+   "gih": 0.4972,
+   "games": 704,
+   "ata": 4.59,
+   "picks": 570
+  },
+  "Arnyn, Deathbloom Botanist": {
+   "gih": 0.5041,
+   "games": 8468,
+   "ata": 7.26,
+   "picks": 7721
+  },
+  "Artistic Process": {
+   "gih": 0.5779,
+   "games": 29447,
+   "ata": 4.75,
+   "picks": 14199
+  },
+  "Ascendant Dustspeaker": {
+   "gih": 0.5592,
+   "games": 36319,
+   "ata": 8.81,
+   "picks": 29025
+  },
+  "Awaken the Woods": {
+   "gih": 0.5477,
+   "games": 734,
+   "ata": 3.36,
+   "picks": 431
+  },
+  "Aziza, Mage Tower Captain": {
+   "gih": 0.5388,
+   "games": 8525,
+   "ata": 4.5,
+   "picks": 5498
+  },
+  "Banishing Betrayal": {
+   "gih": 0.5559,
+   "games": 38820,
+   "ata": 8.91,
+   "picks": 28848
+  },
+  "Berserk": {
+   "gih": 0.4717,
+   "games": 212,
+   "ata": 6.95,
+   "picks": 421
+  },
+  "Berta, Wise Extrapolator": {
+   "gih": 0.5602,
+   "games": 11071,
+   "ata": 2.43,
+   "picks": 5422
+  },
+  "Biblioplex Tomekeeper": {
+   "gih": 0.4561,
+   "games": 1094,
+   "ata": 12.46,
+   "picks": 23109
+  },
+  "Big Score": {
+   "gih": 0.561,
+   "games": 2428,
+   "ata": 4.83,
+   "picks": 1255
+  },
+  "Bitter Triumph": {
+   "gih": 0.5784,
+   "games": 24718,
+   "ata": 3.37,
+   "picks": 11541
+  },
+  "Blazing Firesinger": {
+   "gih": 0.5072,
+   "games": 8914,
+   "ata": 8.44,
+   "picks": 9856
+  },
+  "Blech, Loafing Pest": {
+   "gih": 0.5979,
+   "games": 8150,
+   "ata": 2.55,
+   "picks": 4761
+  },
+  "Bogwater Lumaret": {
+   "gih": 0.5585,
+   "games": 30732,
+   "ata": 6.36,
+   "picks": 21397
+  },
+  "Borrowed Knowledge": {
+   "gih": 0.4646,
+   "games": 777,
+   "ata": 11.54,
+   "picks": 10806
+  },
+  "Brain Freeze": {
+   "gih": 0.55,
+   "games": 2269,
+   "ata": 5.37,
+   "picks": 1438
+  },
+  "Bring to Light": {
+   "gih": 0.5392,
+   "games": 714,
+   "ata": 7.11,
+   "picks": 1088
+  },
+  "Brotherhood's End": {
+   "gih": 0.5829,
+   "games": 2750,
+   "ata": 3.62,
+   "picks": 1430
+  },
+  "Brush Off": {
+   "gih": 0.5806,
+   "games": 27000,
+   "ata": 6.44,
+   "picks": 15310
+  },
+  "Bulk Up": {
+   "gih": 0.5093,
+   "games": 3831,
+   "ata": 10.31,
+   "picks": 9101
+  },
+  "Burrog Banemaker": {
+   "gih": 0.5494,
+   "games": 28093,
+   "ata": 8.52,
+   "picks": 22486
+  },
+  "Burrog Barrage": {
+   "gih": 0.5557,
+   "games": 35574,
+   "ata": 7.81,
+   "picks": 25258
+  },
+  "Burst Lightning": {
+   "gih": 0.5937,
+   "games": 36485,
+   "ata": 3.26,
+   "picks": 15583
+  },
+  "Campus Composer": {
+   "gih": 0.5421,
+   "games": 17673,
+   "ata": 6.54,
+   "picks": 10841
+  },
+  "Cauldron of Essence": {
+   "gih": 0.5491,
+   "games": 7794,
+   "ata": 2.73,
+   "picks": 4648
+  },
+  "Charging Strifeknight": {
+   "gih": 0.5723,
+   "games": 27875,
+   "ata": 5.86,
+   "picks": 14570
+  },
+  "Chase Inspiration": {
+   "gih": 0.5488,
+   "games": 13120,
+   "ata": 11.3,
+   "picks": 27053
+  },
+  "Cheerful Osteomancer": {
+   "gih": 0.5152,
+   "games": 21620,
+   "ata": 9.31,
+   "picks": 22238
+  },
+  "Chelonian Tackle": {
+   "gih": 0.5094,
+   "games": 6631,
+   "ata": 9.31,
+   "picks": 9072
+  },
+  "Choreographed Sparks": {
+   "gih": 0.4526,
+   "games": 1023,
+   "ata": 8.95,
+   "picks": 4624
+  },
+  "Codie, Vociferous Codex": {
+   "gih": 0.555,
+   "games": 555,
+   "ata": 6.6,
+   "picks": 582
+  },
+  "Colorstorm Stallion": {
+   "gih": 0.6266,
+   "games": 15625,
+   "ata": 2.06,
+   "picks": 6917
+  },
+  "Colossus of the Blood Age": {
+   "gih": 0.5881,
+   "games": 32927,
+   "ata": 4.61,
+   "picks": 16932
+  },
+  "Comforting Counsel": {
+   "gih": 0.4678,
+   "games": 2580,
+   "ata": 6.65,
+   "picks": 3330
+  },
+  "Conciliator's Duelist": {
+   "gih": 0.5993,
+   "games": 10718,
+   "ata": 2.89,
+   "picks": 5881
+  },
+  "Cost of Brilliance": {
+   "gih": 0.5755,
+   "games": 38527,
+   "ata": 8.26,
+   "picks": 28981
+  },
+  "Crackle with Power": {
+   "gih": 0.6308,
+   "games": 2210,
+   "ata": 2.28,
+   "picks": 900
+  },
+  "Crop Rotation": {
+   "gih": 0.374,
+   "games": 123,
+   "ata": 9.62,
+   "picks": 966
+  },
+  "Cuboid Colony": {
+   "gih": 0.5605,
+   "games": 17578,
+   "ata": 5.93,
+   "picks": 10830
+  },
+  "Culling Ritual": {
+   "gih": 0.5085,
+   "games": 411,
+   "ata": 7.56,
+   "picks": 859
+  },
+  "Culling the Weak": {
+   "gih": 0.4359,
+   "games": 78,
+   "ata": 9.34,
+   "picks": 873
+  },
+  "Cyclonic Rift": {
+   "gih": 0.5897,
+   "games": 1521,
+   "ata": 2.05,
+   "picks": 682
+  },
+  "Daydream": {
+   "gih": 0.4939,
+   "games": 4894,
+   "ata": 9.42,
+   "picks": 9486
+  },
+  "Daze": {
+   "gih": 0.595,
+   "games": 2504,
+   "ata": 5.29,
+   "picks": 1446
+  },
+  "Deathcap Glade": {
+   "gih": 0.5676,
+   "games": 9406,
+   "ata": 5.13,
+   "picks": 5086
+  },
+  "Decorum Dissertation": {
+   "gih": 0.5649,
+   "games": 4702,
+   "ata": 2.05,
+   "picks": 2565
+  },
+  "Deduce": {
+   "gih": 0.5797,
+   "games": 24604,
+   "ata": 6.89,
+   "picks": 13244
+  },
+  "Deflecting Palm": {
+   "gih": 0.4648,
+   "games": 327,
+   "ata": 8.12,
+   "picks": 899
+  },
+  "Deluge Virtuoso": {
+   "gih": 0.5257,
+   "games": 21719,
+   "ata": 9.65,
+   "picks": 24098
+  },
+  "Diary of Dreams": {
+   "gih": 0.5176,
+   "games": 14219,
+   "ata": 7.9,
+   "picks": 11307
+  },
+  "Dig Site Inventory": {
+   "gih": 0.5614,
+   "games": 39861,
+   "ata": 7.79,
+   "picks": 28335
+  },
+  "Dina's Guidance": {
+   "gih": 0.4592,
+   "games": 638,
+   "ata": 8.65,
+   "picks": 3911
+  },
+  "Disdainful Stroke": {
+   "gih": 0.5745,
+   "games": 25718,
+   "ata": 6.4,
+   "picks": 13318
+  },
+  "Dismember": {
+   "gih": 0.5994,
+   "games": 3577,
+   "ata": 1.88,
+   "picks": 1509
+  },
+  "Dissection Practice": {
+   "gih": 0.5841,
+   "games": 18675,
+   "ata": 5.66,
+   "picks": 11049
+  },
+  "Divergent Equation": {
+   "gih": 0.5806,
+   "games": 30720,
+   "ata": 5.94,
+   "picks": 16330
+  },
+  "Dreamroot Cascade": {
+   "gih": 0.5636,
+   "games": 11528,
+   "ata": 4.79,
+   "picks": 5967
+  },
+  "Dualcaster Mage": {
+   "gih": 0.5099,
+   "games": 810,
+   "ata": 3.96,
+   "picks": 450
+  },
+  "Duel Tactics": {
+   "gih": 0.5581,
+   "games": 10226,
+   "ata": 9.07,
+   "picks": 12005
+  },
+  "Duty Beyond Death": {
+   "gih": 0.5212,
+   "games": 3256,
+   "ata": 10.12,
+   "picks": 8896
+  },
+  "Eager Glyphmage": {
+   "gih": 0.5671,
+   "games": 39503,
+   "ata": 8.63,
+   "picks": 31188
+  },
+  "Echocasting Symposium": {
+   "gih": 0.5842,
+   "games": 6626,
+   "ata": 1.74,
+   "picks": 3025
+  },
+  "Efflorescence": {
+   "gih": 0.5033,
+   "games": 2702,
+   "ata": 12.12,
+   "picks": 20064
+  },
+  "Elemental Mascot": {
+   "gih": 0.5497,
+   "games": 33205,
+   "ata": 8.96,
+   "picks": 27153
+  },
+  "Elite Interceptor": {
+   "gih": 0.5965,
+   "games": 73258,
+   "ata": 4.98,
+   "picks": 39907
+  },
+  "Embrace the Paradox": {
+   "gih": 0.5628,
+   "games": 41175,
+   "ata": 8.61,
+   "picks": 29983
+  },
+  "Emeritus of Abundance": {
+   "gih": 0.6006,
+   "games": 5986,
+   "ata": 1.6,
+   "picks": 2858
+  },
+  "Emeritus of Conflict": {
+   "gih": 0.5552,
+   "games": 6158,
+   "ata": 2.29,
+   "picks": 2846
+  },
+  "Emeritus of Ideation": {
+   "gih": 0.6513,
+   "games": 7247,
+   "ata": 1.38,
+   "picks": 3059
+  },
+  "Emeritus of Truce": {
+   "gih": 0.5899,
+   "games": 6387,
+   "ata": 1.81,
+   "picks": 3007
+  },
+  "Emeritus of Woe": {
+   "gih": 0.5953,
+   "games": 6153,
+   "ata": 1.46,
+   "picks": 2892
+  },
+  "Emil, Vastlands Roamer": {
+   "gih": 0.5372,
+   "games": 15692,
+   "ata": 6.12,
+   "picks": 9269
+  },
+  "Empty the Warrens": {
+   "gih": 0.5599,
+   "games": 1068,
+   "ata": 6.81,
+   "picks": 1092
+  },
+  "Encouraging Aviator": {
+   "gih": 0.5116,
+   "games": 10011,
+   "ata": 7.82,
+   "picks": 9322
+  },
+  "End of the Hunt": {
+   "gih": 0.5874,
+   "games": 25456,
+   "ata": 4.07,
+   "picks": 13010
+  },
+  "Ennis, Debate Moderator": {
+   "gih": 0.5149,
+   "games": 10679,
+   "ata": 7.57,
+   "picks": 9549
+  },
+  "Environmental Scientist": {
+   "gih": 0.6098,
+   "games": 29677,
+   "ata": 3.11,
+   "picks": 14714
+  },
+  "Erode": {
+   "gih": 0.5677,
+   "games": 10441,
+   "ata": 2.77,
+   "picks": 5183
+  },
+  "Essence Scatter": {
+   "gih": 0.5713,
+   "games": 62891,
+   "ata": 6.79,
+   "picks": 34681
+  },
+  "Essenceknit Scholar": {
+   "gih": 0.5804,
+   "games": 17131,
+   "ata": 4.41,
+   "picks": 10169
+  },
+  "Eternal Student": {
+   "gih": 0.5463,
+   "games": 16228,
+   "ata": 6.52,
+   "picks": 11161
+  },
+  "Exhibition Tidecaller": {
+   "gih": 0.6049,
+   "games": 15716,
+   "ata": 2.4,
+   "picks": 7105
+  },
+  "Expressive Firedancer": {
+   "gih": 0.5577,
+   "games": 40495,
+   "ata": 8.53,
+   "picks": 31903
+  },
+  "Expressive Iteration": {
+   "gih": 0.5824,
+   "games": 3391,
+   "ata": 3.81,
+   "picks": 1561
+  },
+  "Feed the Swarm": {
+   "gih": 0.5528,
+   "games": 19499,
+   "ata": 4.57,
+   "picks": 9877
+  },
+  "Fields of Strife": {
+   "gih": 0.5759,
+   "games": 79849,
+   "ata": 7.69,
+   "picks": 44266
+  },
+  "Fix What's Broken": {
+   "gih": 0.4729,
+   "games": 1626,
+   "ata": 7.62,
+   "picks": 3828
+  },
+  "Flashback": {
+   "gih": 0.5469,
+   "games": 8547,
+   "ata": 5.38,
+   "picks": 5307
+  },
+  "Flow State": {
+   "gih": 0.5717,
+   "games": 29086,
+   "ata": 4.59,
+   "picks": 14126
+  },
+  "Flusterstorm": {
+   "gih": 0.4839,
+   "games": 310,
+   "ata": 7.09,
+   "picks": 477
+  },
+  "Follow the Lumarets": {
+   "gih": 0.5231,
+   "games": 12606,
+   "ata": 10.83,
+   "picks": 22267
+  },
+  "Foolish Fate": {
+   "gih": 0.5917,
+   "games": 25953,
+   "ata": 3.16,
+   "picks": 12388
+  },
+  "Force of Will": {
+   "gih": 0.5662,
+   "games": 975,
+   "ata": 3.17,
+   "picks": 585
+  },
+  "Forest": {
+   "gih": 0.5496,
+   "games": 228144,
+   "ata": 13.92,
+   "picks": 31153
+  },
+  "Forum Necroscribe": {
+   "gih": 0.5198,
+   "games": 13404,
+   "ata": 5.77,
+   "picks": 8781
+  },
+  "Forum of Amity": {
+   "gih": 0.5651,
+   "games": 59195,
+   "ata": 7.88,
+   "picks": 37614
+  },
+  "Fractal Anomaly": {
+   "gih": 0.4827,
+   "games": 2258,
+   "ata": 10.92,
+   "picks": 10184
+  },
+  "Fractal Mascot": {
+   "gih": 0.5462,
+   "games": 24984,
+   "ata": 9.83,
+   "picks": 25369
+  },
+  "Fractal Tender": {
+   "gih": 0.535,
+   "games": 14964,
+   "ata": 6.43,
+   "picks": 9995
+  },
+  "Fractalize": {
+   "gih": 0.5191,
+   "games": 4460,
+   "ata": 10.32,
+   "picks": 10302
+  },
+  "Fracture": {
+   "gih": 0.347,
+   "games": 219,
+   "ata": 9.06,
+   "picks": 897
+  },
+  "Garrison Excavator": {
+   "gih": 0.5749,
+   "games": 25307,
+   "ata": 5.32,
+   "picks": 14174
+  },
+  "Geometer's Arthropod": {
+   "gih": 0.5455,
+   "games": 4568,
+   "ata": 6.36,
+   "picks": 4818
+  },
+  "Germination Practicum": {
+   "gih": 0.5909,
+   "games": 5857,
+   "ata": 1.56,
+   "picks": 2833
+  },
+  "Giant Growth": {
+   "gih": 0.5186,
+   "games": 3814,
+   "ata": 10.46,
+   "picks": 8461
+  },
+  "Glimpse of Nature": {
+   "gih": 0.45,
+   "games": 80,
+   "ata": 9.31,
+   "picks": 960
+  },
+  "Glorious Decay": {
+   "gih": 0.5116,
+   "games": 3024,
+   "ata": 12.13,
+   "picks": 20885
+  },
+  "Goblin Glasswright": {
+   "gih": 0.5436,
+   "games": 47690,
+   "ata": 7.47,
+   "picks": 30372
+  },
+  "Graduation Day": {
+   "gih": 0.5206,
+   "games": 7652,
+   "ata": 7.89,
+   "picks": 8419
+  },
+  "Grapple with Death": {
+   "gih": 0.5655,
+   "games": 41384,
+   "ata": 5.41,
+   "picks": 24260
+  },
+  "Grave Researcher": {
+   "gih": 0.557,
+   "games": 9385,
+   "ata": 2.19,
+   "picks": 4720
+  },
+  "Great Hall of the Biblioplex": {
+   "gih": 0.5938,
+   "games": 15062,
+   "ata": 4.42,
+   "picks": 6964
+  },
+  "Grim Haruspex": {
+   "gih": 0.5424,
+   "games": 837,
+   "ata": 3.01,
+   "picks": 469
+  },
+  "Group Project": {
+   "gih": 0.5744,
+   "games": 27160,
+   "ata": 5.4,
+   "picks": 14827
+  },
+  "Growth Curve": {
+   "gih": 0.4936,
+   "games": 2360,
+   "ata": 10.9,
+   "picks": 8693
+  },
+  "Hardened Academic": {
+   "gih": 0.612,
+   "games": 13821,
+   "ata": 2.69,
+   "picks": 6775
+  },
+  "Harmonized Trio": {
+   "gih": 0.5321,
+   "games": 6861,
+   "ata": 4.35,
+   "picks": 4767
+  },
+  "Harsh Annotation": {
+   "gih": 0.5102,
+   "games": 4004,
+   "ata": 9.43,
+   "picks": 7105
+  },
+  "Heated Argument": {
+   "gih": 0.5617,
+   "games": 53531,
+   "ata": 7.55,
+   "picks": 31733
+  },
+  "Helping Hand": {
+   "gih": 0.5383,
+   "games": 10221,
+   "ata": 8.17,
+   "picks": 9597
+  },
+  "Homesickness": {
+   "gih": 0.5605,
+   "games": 21947,
+   "ata": 6.63,
+   "picks": 12718
+  },
+  "Honorbound Page": {
+   "gih": 0.5394,
+   "games": 22197,
+   "ata": 9.44,
+   "picks": 25145
+  },
+  "Hop to It": {
+   "gih": 0.5587,
+   "games": 17777,
+   "ata": 7.03,
+   "picks": 12132
+  },
+  "Hungry Graffalon": {
+   "gih": 0.5132,
+   "games": 7044,
+   "ata": 11.55,
+   "picks": 20622
+  },
+  "Hydro-Channeler": {
+   "gih": 0.5502,
+   "games": 48630,
+   "ata": 8.07,
+   "picks": 29899
+  },
+  "Imperious Inkmage": {
+   "gih": 0.5769,
+   "games": 34634,
+   "ata": 9.0,
+   "picks": 28643
+  },
+  "Impractical Joke": {
+   "gih": 0.5914,
+   "games": 36701,
+   "ata": 3.37,
+   "picks": 16314
+  },
+  "Improvisation Capstone": {
+   "gih": 0.6285,
+   "games": 8399,
+   "ata": 1.78,
+   "picks": 3619
+  },
+  "Infirmary Healer": {
+   "gih": 0.5407,
+   "games": 16533,
+   "ata": 7.03,
+   "picks": 10432
+  },
+  "Informed Inkwright": {
+   "gih": 0.6168,
+   "games": 14717,
+   "ata": 1.84,
+   "picks": 6531
+  },
+  "Inkling Mascot": {
+   "gih": 0.5695,
+   "games": 39063,
+   "ata": 8.16,
+   "picks": 29355
+  },
+  "Inkshape Demonstrator": {
+   "gih": 0.573,
+   "games": 21943,
+   "ata": 5.7,
+   "picks": 12452
+  },
+  "Interjection": {
+   "gih": 0.5596,
+   "games": 16953,
+   "ata": 10.33,
+   "picks": 27113
+  },
+  "Island": {
+   "gih": 0.5483,
+   "games": 267725,
+   "ata": 13.92,
+   "picks": 31419
+  },
+  "Jadzi, Steward of Fate": {
+   "gih": 0.5948,
+   "games": 15291,
+   "ata": 1.96,
+   "picks": 6689
+  },
+  "Jeska's Will": {
+   "gih": 0.3905,
+   "games": 105,
+   "ata": 7.77,
+   "picks": 469
+  },
+  "Joined Researchers": {
+   "gih": 0.5505,
+   "games": 9297,
+   "ata": 5.24,
+   "picks": 5540
+  },
+  "Killian's Confidence": {
+   "gih": 0.5714,
+   "games": 18199,
+   "ata": 5.47,
+   "picks": 11428
+  },
+  "Kirol, History Buff": {
+   "gih": 0.5671,
+   "games": 23908,
+   "ata": 5.73,
+   "picks": 13129
+  },
+  "Knockout Maneuver": {
+   "gih": 0.5703,
+   "games": 18579,
+   "ata": 5.47,
+   "picks": 10301
+  },
+  "Landscape Painter": {
+   "gih": 0.5383,
+   "games": 33189,
+   "ata": 9.02,
+   "picks": 26182
+  },
+  "Last Gasp": {
+   "gih": 0.577,
+   "games": 54802,
+   "ata": 4.82,
+   "picks": 28991
+  },
+  "Lecturing Scornmage": {
+   "gih": 0.5866,
+   "games": 20573,
+   "ata": 4.79,
+   "picks": 11827
+  },
+  "Leech Collector": {
+   "gih": 0.5227,
+   "games": 11929,
+   "ata": 6.8,
+   "picks": 8526
+  },
+  "Library of Alexandria": {
+   "gih": 0.6009,
+   "games": 1566,
+   "ata": 2.67,
+   "picks": 712
+  },
+  "Living End": {
+   "gih": 0.25,
+   "games": 32,
+   "ata": 7.69,
+   "picks": 411
+  },
+  "Living History": {
+   "gih": 0.5711,
+   "games": 23180,
+   "ata": 7.04,
+   "picks": 14909
+  },
+  "Lluwen, Exchange Student": {
+   "gih": 0.5655,
+   "games": 15057,
+   "ata": 5.02,
+   "picks": 9204
+  },
+  "Locust Spray": {
+   "gih": 0.5309,
+   "games": 5634,
+   "ata": 9.75,
+   "picks": 9263
+  },
+  "Lorehold Charm": {
+   "gih": 0.543,
+   "games": 12406,
+   "ata": 8.21,
+   "picks": 11753
+  },
+  "Lorehold, the Historian": {
+   "gih": 0.5858,
+   "games": 6953,
+   "ata": 1.51,
+   "picks": 3137
+  },
+  "Lumaret's Favor": {
+   "gih": 0.5338,
+   "games": 3535,
+   "ata": 10.69,
+   "picks": 9351
+  },
+  "Maelstrom Artisan": {
+   "gih": 0.5239,
+   "games": 3722,
+   "ata": 6.96,
+   "picks": 4361
+  },
+  "Mage Tower Referee": {
+   "gih": 0.5473,
+   "games": 16997,
+   "ata": 10.62,
+   "picks": 28166
+  },
+  "Magmablood Archaic": {
+   "gih": 0.5723,
+   "games": 13653,
+   "ata": 2.5,
+   "picks": 6402
+  },
+  "Magus of the Library": {
+   "gih": 0.436,
+   "games": 328,
+   "ata": 6.53,
+   "picks": 414
+  },
+  "Mana Sculpt": {
+   "gih": 0.5803,
+   "games": 12168,
+   "ata": 4.15,
+   "picks": 6444
+  },
+  "Masterful Flourish": {
+   "gih": 0.5598,
+   "games": 16907,
+   "ata": 10.36,
+   "picks": 23742
+  },
+  "Mathemagics": {
+   "gih": 0.6195,
+   "games": 8439,
+   "ata": 2.42,
+   "picks": 3663
+  },
+  "Matterbending Mage": {
+   "gih": 0.5855,
+   "games": 31620,
+   "ata": 4.56,
+   "picks": 15271
+  },
+  "Melancholic Poet": {
+   "gih": 0.5651,
+   "games": 41231,
+   "ata": 7.25,
+   "picks": 25945
+  },
+  "Mica, Reader of Ruins": {
+   "gih": 0.5362,
+   "games": 7784,
+   "ata": 9.13,
+   "picks": 11186
+  },
+  "Mind Roots": {
+   "gih": 0.5317,
+   "games": 11859,
+   "ata": 7.1,
+   "picks": 9547
+  },
+  "Mind into Matter": {
+   "gih": 0.5831,
+   "games": 12712,
+   "ata": 2.67,
+   "picks": 6323
+  },
+  "Mindful Biomancer": {
+   "gih": 0.5367,
+   "games": 25433,
+   "ata": 9.41,
+   "picks": 22791
+  },
+  "Molten Note": {
+   "gih": 0.6013,
+   "games": 34173,
+   "ata": 4.67,
+   "picks": 17311
+  },
+  "Molten-Core Maestro": {
+   "gih": 0.5977,
+   "games": 15778,
+   "ata": 1.93,
+   "picks": 6760
+  },
+  "Moment of Reckoning": {
+   "gih": 0.6365,
+   "games": 13744,
+   "ata": 2.46,
+   "picks": 6992
+  },
+  "Monstrous Rage": {
+   "gih": 0.5668,
+   "games": 15027,
+   "ata": 7.47,
+   "picks": 11720
+  },
+  "Moseo, Vein's New Dean": {
+   "gih": 0.6045,
+   "games": 11722,
+   "ata": 1.97,
+   "picks": 5709
+  },
+  "Mountain": {
+   "gih": 0.5605,
+   "games": 323556,
+   "ata": 13.91,
+   "picks": 31608
+  },
+  "Murmuring Mystic": {
+   "gih": 0.5614,
+   "games": 1605,
+   "ata": 3.01,
+   "picks": 711
+  },
+  "Muse Seeker": {
+   "gih": 0.5335,
+   "games": 17919,
+   "ata": 6.56,
+   "picks": 11417
+  },
+  "Muse's Encouragement": {
+   "gih": 0.5336,
+   "games": 22013,
+   "ata": 10.34,
+   "picks": 27397
+  },
+  "Nita, Forum Conciliator": {
+   "gih": 0.5166,
+   "games": 4766,
+   "ata": 5.74,
+   "picks": 4429
+  },
+  "Noxious Newt": {
+   "gih": 0.5568,
+   "games": 42297,
+   "ata": 6.3,
+   "picks": 23767
+  },
+  "Old-Growth Educator": {
+   "gih": 0.5423,
+   "games": 12587,
+   "ata": 6.52,
+   "picks": 8523
+  },
+  "Oracle's Restoration": {
+   "gih": 0.5046,
+   "games": 5666,
+   "ata": 11.75,
+   "picks": 19746
+  },
+  "Orysa, Tide Choreographer": {
+   "gih": 0.5408,
+   "games": 12417,
+   "ata": 7.54,
+   "picks": 10251
+  },
+  "Owlin Historian": {
+   "gih": 0.559,
+   "games": 38841,
+   "ata": 8.65,
+   "picks": 28988
+  },
+  "Page, Loose Leaf": {
+   "gih": 0.5258,
+   "games": 8942,
+   "ata": 11.37,
+   "picks": 26729
+  },
+  "Paradox Gardens": {
+   "gih": 0.5633,
+   "games": 69113,
+   "ata": 7.29,
+   "picks": 38278
+  },
+  "Paradox Surveyor": {
+   "gih": 0.5879,
+   "games": 23605,
+   "ata": 5.46,
+   "picks": 13548
+  },
+  "Pensive Professor": {
+   "gih": 0.5896,
+   "games": 13860,
+   "ata": 2.11,
+   "picks": 6224
+  },
+  "Pest Mascot": {
+   "gih": 0.5413,
+   "games": 27112,
+   "ata": 7.35,
+   "picks": 19698
+  },
+  "Pestbrood Sloth": {
+   "gih": 0.5919,
+   "games": 23866,
+   "ata": 4.52,
+   "picks": 12395
+  },
+  "Petrified Hamlet": {
+   "gih": 0.4667,
+   "games": 150,
+   "ata": 10.0,
+   "picks": 5234
+  },
+  "Pick Your Poison": {
+   "gih": 0.4741,
+   "games": 1099,
+   "ata": 11.25,
+   "picks": 8219
+  },
+  "Pigment Wrangler": {
+   "gih": 0.5191,
+   "games": 16816,
+   "ata": 6.08,
+   "picks": 10462
+  },
+  "Plains": {
+   "gih": 0.5733,
+   "games": 293369,
+   "ata": 13.9,
+   "picks": 31360
+  },
+  "Planar Engineering": {
+   "gih": 0.5629,
+   "games": 5539,
+   "ata": 5.69,
+   "picks": 4688
+  },
+  "Poisoner's Apprentice": {
+   "gih": 0.5585,
+   "games": 14764,
+   "ata": 5.6,
+   "picks": 9776
+  },
+  "Pongify": {
+   "gih": 0.4866,
+   "games": 337,
+   "ata": 8.69,
+   "picks": 790
+  },
+  "Postmortem Professor": {
+   "gih": 0.6025,
+   "games": 11179,
+   "ata": 2.47,
+   "picks": 5645
+  },
+  "Potioner's Trove": {
+   "gih": 0.5697,
+   "games": 69083,
+   "ata": 5.76,
+   "picks": 38827
+  },
+  "Pox Plague": {
+   "gih": 0.3922,
+   "games": 51,
+   "ata": 10.06,
+   "picks": 5159
+  },
+  "Practiced Offense": {
+   "gih": 0.6514,
+   "games": 16375,
+   "ata": 1.74,
+   "picks": 7200
+  },
+  "Practiced Scrollsmith": {
+   "gih": 0.595,
+   "games": 32922,
+   "ata": 4.33,
+   "picks": 16775
+  },
+  "Preordain": {
+   "gih": 0.5639,
+   "games": 2339,
+   "ata": 4.91,
+   "picks": 1195
+  },
+  "Primary Research": {
+   "gih": 0.5529,
+   "games": 19782,
+   "ata": 5.88,
+   "picks": 12510
+  },
+  "Prismari Charm": {
+   "gih": 0.5703,
+   "games": 24637,
+   "ata": 5.9,
+   "picks": 13298
+  },
+  "Prismari, the Inspiration": {
+   "gih": 0.5519,
+   "games": 4961,
+   "ata": 2.34,
+   "picks": 2436
+  },
+  "Prismatic Ending": {
+   "gih": 0.5767,
+   "games": 2322,
+   "ata": 5.42,
+   "picks": 1512
+  },
+  "Procrastinate": {
+   "gih": 0.5306,
+   "games": 20632,
+   "ata": 10.14,
+   "picks": 25076
+  },
+  "Proctor's Gaze": {
+   "gih": 0.5794,
+   "games": 27185,
+   "ata": 5.12,
+   "picks": 14550
+  },
+  "Professor Dellian Fel": {
+   "gih": 0.6247,
+   "games": 6131,
+   "ata": 1.33,
+   "picks": 2862
+  },
+  "Pterafractyl": {
+   "gih": 0.5405,
+   "games": 29251,
+   "ata": 8.88,
+   "picks": 24099
+  },
+  "Pull from the Grave": {
+   "gih": 0.5277,
+   "games": 16484,
+   "ata": 10.24,
+   "picks": 24168
+  },
+  "Pursue the Past": {
+   "gih": 0.5945,
+   "games": 55444,
+   "ata": 7.45,
+   "picks": 39001
+  },
+  "Pyretic Ritual": {
+   "gih": 0.4634,
+   "games": 123,
+   "ata": 9.49,
+   "picks": 926
+  },
+  "Quandrix Charm": {
+   "gih": 0.5749,
+   "games": 18601,
+   "ata": 6.83,
+   "picks": 12126
+  },
+  "Quandrix, the Proof": {
+   "gih": 0.6148,
+   "games": 6796,
+   "ata": 1.46,
+   "picks": 3019
+  },
+  "Quick Study": {
+   "gih": 0.562,
+   "games": 40838,
+   "ata": 8.76,
+   "picks": 29191
+  },
+  "Quill-Blade Laureate": {
+   "gih": 0.575,
+   "games": 25735,
+   "ata": 4.42,
+   "picks": 12794
+  },
+  "Rabid Attack": {
+   "gih": 0.5079,
+   "games": 4426,
+   "ata": 9.91,
+   "picks": 8991
+  },
+  "Ral Zarek, Guest Lecturer": {
+   "gih": 0.5413,
+   "games": 3809,
+   "ata": 1.66,
+   "picks": 2155
+  },
+  "Rancorous Archaic": {
+   "gih": 0.5403,
+   "games": 18444,
+   "ata": 10.59,
+   "picks": 28276
+  },
+  "Rapier Wit": {
+   "gih": 0.543,
+   "games": 16865,
+   "ata": 10.16,
+   "picks": 26039
+  },
+  "Rapturous Moment": {
+   "gih": 0.5364,
+   "games": 13170,
+   "ata": 7.98,
+   "picks": 11739
+  },
+  "Rearing Embermare": {
+   "gih": 0.5017,
+   "games": 5519,
+   "ata": 11.7,
+   "picks": 25683
+  },
+  "Rehearsed Debater": {
+   "gih": 0.5541,
+   "games": 29185,
+   "ata": 9.31,
+   "picks": 28349
+  },
+  "Render Speechless": {
+   "gih": 0.5794,
+   "games": 35085,
+   "ata": 8.92,
+   "picks": 32675
+  },
+  "Repel Calamity": {
+   "gih": 0.5949,
+   "games": 32626,
+   "ata": 4.04,
+   "picks": 14994
+  },
+  "Reprieve": {
+   "gih": 0.5925,
+   "games": 3396,
+   "ata": 4.03,
+   "picks": 1701
+  },
+  "Requisition Raid": {
+   "gih": 0.5033,
+   "games": 4329,
+   "ata": 9.54,
+   "picks": 8389
+  },
+  "Resonating Lute": {
+   "gih": 0.5686,
+   "games": 12267,
+   "ata": 2.88,
+   "picks": 6455
+  },
+  "Restoration Seminar": {
+   "gih": 0.5842,
+   "games": 5989,
+   "ata": 2.04,
+   "picks": 3049
+  },
+  "Return the Favor": {
+   "gih": 0.5298,
+   "games": 6234,
+   "ata": 9.79,
+   "picks": 10185
+  },
+  "Return to the Ranks": {
+   "gih": 0.5079,
+   "games": 506,
+   "ata": 7.61,
+   "picks": 896
+  },
+  "Root Manipulation": {
+   "gih": 0.535,
+   "games": 6804,
+   "ata": 8.89,
+   "picks": 8695
+  },
+  "Royal Treatment": {
+   "gih": 0.5643,
+   "games": 14578,
+   "ata": 7.43,
+   "picks": 10396
+  },
+  "Rubble Rouser": {
+   "gih": 0.5837,
+   "games": 66058,
+   "ata": 6.5,
+   "picks": 38264
+  },
+  "Run Behind": {
+   "gih": 0.5727,
+   "games": 56393,
+   "ata": 8.07,
+   "picks": 34343
+  },
+  "Sanar, Unfinished Genius": {
+   "gih": 0.5904,
+   "games": 30407,
+   "ata": 4.26,
+   "picks": 14784
+  },
+  "Scathing Shadelock": {
+   "gih": 0.5276,
+   "games": 10154,
+   "ata": 7.32,
+   "picks": 8100
+  },
+  "Scheming Silvertongue": {
+   "gih": 0.5915,
+   "games": 11239,
+   "ata": 1.94,
+   "picks": 5453
+  },
+  "Scolding Administrator": {
+   "gih": 0.6076,
+   "games": 23011,
+   "ata": 4.25,
+   "picks": 13065
+  },
+  "Seize the Spoils": {
+   "gih": 0.5507,
+   "games": 37506,
+   "ata": 9.01,
+   "picks": 31242
+  },
+  "Send in the Pest": {
+   "gih": 0.5543,
+   "games": 31413,
+   "ata": 8.03,
+   "picks": 25295
+  },
+  "Shamanic Revelation": {
+   "gih": 0.5017,
+   "games": 594,
+   "ata": 6.62,
+   "picks": 813
+  },
+  "Shared Roots": {
+   "gih": 0.5556,
+   "games": 19142,
+   "ata": 5.4,
+   "picks": 10824
+  },
+  "Shattered Acolyte": {
+   "gih": 0.5664,
+   "games": 44953,
+   "ata": 8.11,
+   "picks": 29995
+  },
+  "Shattered Sanctum": {
+   "gih": 0.5774,
+   "games": 9964,
+   "ata": 5.17,
+   "picks": 5622
+  },
+  "Sheoldred's Edict": {
+   "gih": 0.53,
+   "games": 1368,
+   "ata": 4.36,
+   "picks": 805
+  },
+  "Shopkeeper's Bane": {
+   "gih": 0.5389,
+   "games": 19794,
+   "ata": 9.88,
+   "picks": 20628
+  },
+  "Silverquill Charm": {
+   "gih": 0.5983,
+   "games": 21513,
+   "ata": 5.15,
+   "picks": 12652
+  },
+  "Silverquill, the Disputant": {
+   "gih": 0.5571,
+   "games": 4572,
+   "ata": 1.82,
+   "picks": 2465
+  },
+  "Skycoach Conductor": {
+   "gih": 0.5694,
+   "games": 11780,
+   "ata": 2.69,
+   "picks": 5720
+  },
+  "Skycoach Waypoint": {
+   "gih": 0.5166,
+   "games": 3111,
+   "ata": 11.13,
+   "picks": 9446
+  },
+  "Sleight of Hand": {
+   "gih": 0.5597,
+   "games": 18450,
+   "ata": 7.52,
+   "picks": 11516
+  },
+  "Slumbering Trudge": {
+   "gih": 0.5996,
+   "games": 12273,
+   "ata": 2.28,
+   "picks": 5981
+  },
+  "Smallpox": {
+   "gih": 0.4742,
+   "games": 97,
+   "ata": 9.48,
+   "picks": 899
+  },
+  "Snarl Song": {
+   "gih": 0.6153,
+   "games": 36350,
+   "ata": 4.41,
+   "picks": 18965
+  },
+  "Sneering Shadewriter": {
+   "gih": 0.5331,
+   "games": 20120,
+   "ata": 9.85,
+   "picks": 22972
+  },
+  "Snooping Page": {
+   "gih": 0.5634,
+   "games": 19379,
+   "ata": 5.15,
+   "picks": 11487
+  },
+  "Soaring Stoneglider": {
+   "gih": 0.5468,
+   "games": 17735,
+   "ata": 6.11,
+   "picks": 10628
+  },
+  "Social Snub": {
+   "gih": 0.5228,
+   "games": 2322,
+   "ata": 10.62,
+   "picks": 9386
+  },
+  "Spectacle Summit": {
+   "gih": 0.5674,
+   "games": 81664,
+   "ata": 7.16,
+   "picks": 42452
+  },
+  "Spectacular Skywhale": {
+   "gih": 0.5252,
+   "games": 16465,
+   "ata": 5.97,
+   "picks": 10145
+  },
+  "Spell Pierce": {
+   "gih": 0.5553,
+   "games": 10825,
+   "ata": 9.07,
+   "picks": 10589
+  },
+  "Spellbook Seeker": {
+   "gih": 0.5145,
+   "games": 14793,
+   "ata": 10.24,
+   "picks": 22756
+  },
+  "Spirit Mascot": {
+   "gih": 0.566,
+   "games": 47920,
+   "ata": 7.79,
+   "picks": 32206
+  },
+  "Spiritcall Enthusiast": {
+   "gih": 0.5256,
+   "games": 9891,
+   "ata": 7.84,
+   "picks": 10152
+  },
+  "Splatter Technique": {
+   "gih": 0.6099,
+   "games": 15271,
+   "ata": 2.36,
+   "picks": 7038
+  },
+  "Stadium Tidalmage": {
+   "gih": 0.544,
+   "games": 25360,
+   "ata": 10.15,
+   "picks": 27974
+  },
+  "Stand Up for Yourself": {
+   "gih": 0.5769,
+   "games": 26950,
+   "ata": 4.82,
+   "picks": 13347
+  },
+  "Stargaze": {
+   "gih": 0.559,
+   "games": 7114,
+   "ata": 9.85,
+   "picks": 10951
+  },
+  "Startled Relic Sloth": {
+   "gih": 0.5769,
+   "games": 27995,
+   "ata": 4.73,
+   "picks": 14556
+  },
+  "Steal the Show": {
+   "gih": 0.547,
+   "games": 6516,
+   "ata": 6.06,
+   "picks": 4935
+  },
+  "Stirring Honormancer": {
+   "gih": 0.5849,
+   "games": 21978,
+   "ata": 5.72,
+   "picks": 13943
+  },
+  "Stirring Hopesinger": {
+   "gih": 0.6302,
+   "games": 15136,
+   "ata": 1.58,
+   "picks": 6455
+  },
+  "Stock Up": {
+   "gih": 0.6021,
+   "games": 34564,
+   "ata": 3.16,
+   "picks": 14997
+  },
+  "Stone Docent": {
+   "gih": 0.5719,
+   "games": 57671,
+   "ata": 7.32,
+   "picks": 34640
+  },
+  "Stormcarved Coast": {
+   "gih": 0.5721,
+   "games": 13650,
+   "ata": 4.76,
+   "picks": 6554
+  },
+  "Stress Dream": {
+   "gih": 0.5979,
+   "games": 36356,
+   "ata": 3.75,
+   "picks": 16994
+  },
+  "Strife Scholar": {
+   "gih": 0.5148,
+   "games": 14597,
+   "ata": 10.62,
+   "picks": 25575
+  },
+  "Strixhaven Skycoach": {
+   "gih": 0.5933,
+   "games": 39095,
+   "ata": 4.62,
+   "picks": 19141
+  },
+  "Studious First-Year": {
+   "gih": 0.5686,
+   "games": 50001,
+   "ata": 4.83,
+   "picks": 27723
+  },
+  "Subterranean Tremors": {
+   "gih": 0.5913,
+   "games": 1823,
+   "ata": 2.1,
+   "picks": 805
+  },
+  "Summoned Dromedary": {
+   "gih": 0.5498,
+   "games": 17713,
+   "ata": 6.49,
+   "picks": 11452
+  },
+  "Sundering Archaic": {
+   "gih": 0.588,
+   "games": 31892,
+   "ata": 5.53,
+   "picks": 17744
+  },
+  "Sundown Pass": {
+   "gih": 0.5714,
+   "games": 12936,
+   "ata": 4.99,
+   "picks": 6479
+  },
+  "Suspend Aggression": {
+   "gih": 0.5831,
+   "games": 12788,
+   "ata": 4.49,
+   "picks": 7189
+  },
+  "Swamp": {
+   "gih": 0.5603,
+   "games": 247650,
+   "ata": 13.91,
+   "picks": 31551
+  },
+  "Sylvan Library": {
+   "gih": 0.497,
+   "games": 495,
+   "ata": 3.63,
+   "picks": 373
+  },
+  "Tablet of Discovery": {
+   "gih": 0.571,
+   "games": 25951,
+   "ata": 5.4,
+   "picks": 14570
+  },
+  "Tackle Artist": {
+   "gih": 0.5333,
+   "games": 27019,
+   "ata": 9.56,
+   "picks": 26165
+  },
+  "Tam, Observant Sequencer": {
+   "gih": 0.5289,
+   "games": 15580,
+   "ata": 5.53,
+   "picks": 9380
+  },
+  "Teacher's Pest": {
+   "gih": 0.5535,
+   "games": 14644,
+   "ata": 5.31,
+   "picks": 9106
+  },
+  "Tenured Concocter": {
+   "gih": 0.5238,
+   "games": 16336,
+   "ata": 10.63,
+   "picks": 21793
+  },
+  "Terramorphic Expanse": {
+   "gih": 0.5661,
+   "games": 80057,
+   "ata": 6.02,
+   "picks": 37024
+  },
+  "Tester of the Tangential": {
+   "gih": 0.5415,
+   "games": 15825,
+   "ata": 6.55,
+   "picks": 10314
+  },
+  "Textbook Tabulator": {
+   "gih": 0.5268,
+   "games": 16808,
+   "ata": 10.49,
+   "picks": 24637
+  },
+  "The Dawning Archaic": {
+   "gih": 0.5393,
+   "games": 4914,
+   "ata": 1.82,
+   "picks": 2335
+  },
+  "Thornfist Striker": {
+   "gih": 0.5619,
+   "games": 14708,
+   "ata": 6.71,
+   "picks": 9923
+  },
+  "Thunderdrum Soloist": {
+   "gih": 0.5573,
+   "games": 20093,
+   "ata": 6.06,
+   "picks": 11434
+  },
+  "Titan's Grave": {
+   "gih": 0.5575,
+   "games": 58238,
+   "ata": 7.64,
+   "picks": 33947
+  },
+  "Together as One": {
+   "gih": 0.6555,
+   "games": 18523,
+   "ata": 2.01,
+   "picks": 8242
+  },
+  "Tome Blast": {
+   "gih": 0.579,
+   "games": 75740,
+   "ata": 5.32,
+   "picks": 37595
+  },
+  "Topiary Lecturer": {
+   "gih": 0.5502,
+   "games": 14761,
+   "ata": 5.96,
+   "picks": 9243
+  },
+  "Tragedy Feaster": {
+   "gih": 0.557,
+   "games": 7734,
+   "ata": 3.1,
+   "picks": 4380
+  },
+  "Transcendent Archaic": {
+   "gih": 0.5737,
+   "games": 20906,
+   "ata": 7.12,
+   "picks": 14846
+  },
+  "Traumatic Critique": {
+   "gih": 0.6063,
+   "games": 16695,
+   "ata": 2.11,
+   "picks": 7331
+  },
+  "Triumph of the Hordes": {
+   "gih": 0.5038,
+   "games": 262,
+   "ata": 5.64,
+   "picks": 355
+  },
+  "Ulna Alley Shopkeep": {
+   "gih": 0.5013,
+   "games": 5877,
+   "ata": 11.54,
+   "picks": 21248
+  },
+  "Unsubtle Mockery": {
+   "gih": 0.5802,
+   "games": 75081,
+   "ata": 4.63,
+   "picks": 36083
+  },
+  "Vampiric Tutor": {
+   "gih": 0.4737,
+   "games": 456,
+   "ata": 4.12,
+   "picks": 392
+  },
+  "Vastlands Scavenger": {
+   "gih": 0.5713,
+   "games": 9625,
+   "ata": 2.28,
+   "picks": 4956
+  },
+  "Veil of Summer": {
+   "gih": 0.5,
+   "games": 146,
+   "ata": 9.37,
+   "picks": 1007
+  },
+  "Vibrant Outburst": {
+   "gih": 0.5884,
+   "games": 30384,
+   "ata": 4.12,
+   "picks": 14680
+  },
+  "Vicious Rivalry": {
+   "gih": 0.5881,
+   "games": 10513,
+   "ata": 2.89,
+   "picks": 5611
+  },
+  "Visionary's Dance": {
+   "gih": 0.5621,
+   "games": 60235,
+   "ata": 7.38,
+   "picks": 34291
+  },
+  "Wander Off": {
+   "gih": 0.5615,
+   "games": 46808,
+   "ata": 5.2,
+   "picks": 24981
+  },
+  "Wild Hypothesis": {
+   "gih": 0.5252,
+   "games": 14639,
+   "ata": 10.58,
+   "picks": 20942
+  },
+  "Wildgrowth Archaic": {
+   "gih": 0.57,
+   "games": 11679,
+   "ata": 1.92,
+   "picks": 5479
+  },
+  "Wilt in the Heat": {
+   "gih": 0.578,
+   "games": 58369,
+   "ata": 6.95,
+   "picks": 36617
+  },
+  "Winds of Abandon": {
+   "gih": 0.6301,
+   "games": 1898,
+   "ata": 2.15,
+   "picks": 827
+  },
+  "Wisdom of Ages": {
+   "gih": 0.5806,
+   "games": 14528,
+   "ata": 4.56,
+   "picks": 7568
+  },
+  "Witherbloom Charm": {
+   "gih": 0.542,
+   "games": 12754,
+   "ata": 6.83,
+   "picks": 8888
+  },
+  "Witherbloom, the Balancer": {
+   "gih": 0.5058,
+   "games": 3300,
+   "ata": 2.06,
+   "picks": 1902
+  },
+  "Withering Curse": {
+   "gih": 0.5439,
+   "games": 2984,
+   "ata": 2.86,
+   "picks": 2068
+  },
+  "Zaffai and the Tempests": {
+   "gih": 0.5245,
+   "games": 4970,
+   "ata": 6.26,
+   "picks": 4724
+  },
+  "Zealous Lorecaster": {
+   "gih": 0.5525,
+   "games": 40655,
+   "ata": 9.36,
+   "picks": 32539
+  },
+  "Zimone's Experiment": {
+   "gih": 0.5253,
+   "games": 8197,
+   "ata": 8.83,
+   "picks": 9813
+  },
+  "Zombify": {
+   "gih": 0.4696,
+   "games": 2268,
+   "ata": 10.09,
+   "picks": 7631
+  }
+ }
+}

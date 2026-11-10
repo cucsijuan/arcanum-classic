@@ -1,0 +1,11 @@
+{
+  "name": "Pyretic Ritual",
+  "spell": {
+    "effects": [
+      {
+        "addMana": "{R}{R}{R}"
+      }
+    ],
+    "text": "Add {R}{R}{R}."
+  }
+}

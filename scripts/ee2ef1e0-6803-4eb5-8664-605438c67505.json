@@ -1,0 +1,46 @@
+{
+  "name": "Zimone, Quandrix Prodigy",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "one": true,
+          "tapped": true
+        }
+      ],
+      "text": "{1}, {T}: You may put a land card from your hand onto the battlefield tapped."
+    },
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "land"
+              ]
+            },
+            "count": 8
+          },
+          "then": [
+            {
+              "draw": 2
+            }
+          ],
+          "else": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "{4}, {T}: Draw a card. If you control eight or more lands, draw two cards instead."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Dina, Essence Brewer",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you sacrifice a creature, draw a card. This ability triggers only once each turn."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice:creature",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "gainLife": "sacrificedPower"
+        },
+        {
+          "counters": "sacrificedPower",
+          "what": "target"
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice another creature: You gain X life and put X +1/+1 counters on target creature you control, where X is the sacrificed creature's power."
+    }
+  ]
+}

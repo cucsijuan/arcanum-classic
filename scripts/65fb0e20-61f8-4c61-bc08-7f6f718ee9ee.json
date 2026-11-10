@@ -1,0 +1,40 @@
+{
+  "name": "Primo, the Unbounded",
+  "entersWithCounters": "X",
+  "entersWithXCountersTimes": 2,
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "basePower": 0
+      },
+      "batchedPerPlayer": true,
+      "sumAmounts": true,
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0,
+            "keywords": []
+          }
+        },
+        {
+          "counters": "triggerAmount",
+          "what": "created"
+        }
+      ],
+      "text": "Whenever one or more creatures you control with base power 0 deal combat damage to a player, create a 0/0 green and blue Fractal creature token. Put a number of +1/+1 counters on it equal to the damage dealt."
+    }
+  ]
+}

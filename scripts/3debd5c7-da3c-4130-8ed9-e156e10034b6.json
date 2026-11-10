@@ -1,0 +1,35 @@
+{
+  "name": "Arnyn, Deathbloom Botanist",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "anyOf": [
+          {
+            "maxPower": 1
+          },
+          {
+            "maxToughness": 1
+          }
+        ]
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "loseLife": 2,
+          "who": "target"
+        },
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever a creature you control with power or toughness 1 or less dies, target opponent loses 2 life and you gain 2 life."
+    }
+  ]
+}

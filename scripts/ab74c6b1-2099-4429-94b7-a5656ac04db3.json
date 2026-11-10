@@ -1,0 +1,60 @@
+{
+  "name": "Kinetic Ooze",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "any",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment"
+            ],
+            "maxManaValueSourceX": true
+          },
+          "text": "up to one target artifact or enchantment with mana value X or less"
+        },
+        {
+          "kind": "creature",
+          "controller": "any",
+          "anyNumber": true,
+          "filter": {
+            "other": true
+          },
+          "text": "any number of other target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "if": {
+            "castXAtLeast": 5
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        },
+        {
+          "if": {
+            "castXAtLeast": 10
+          },
+          "then": [
+            {
+              "doubleCounters": "eachTarget2",
+              "kind": "+1/+1"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, destroy up to one target artifact or enchantment with mana value X or less. If X is 5 or more, you draw a card. If X is 10 or more, double the number of +1/+1 counters on any number of other target creatures."
+    }
+  ]
+}

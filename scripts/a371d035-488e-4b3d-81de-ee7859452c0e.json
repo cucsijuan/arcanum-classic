@@ -1,0 +1,65 @@
+{
+  "name": "Lorehold Archivist // Restore Relic",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "graveyard": 3,
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if there are three or more artifact and/or creature cards in your graveyard, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              }
+            ]
+          },
+          "text": "target artifact or creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "Exile target artifact or creature card from your graveyard. Create a token that's a copy of it."
+    }
+  }
+}

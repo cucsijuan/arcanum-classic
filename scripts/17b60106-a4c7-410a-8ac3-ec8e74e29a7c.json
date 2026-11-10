@@ -1,0 +1,37 @@
+{
+  "name": "Mystic Sanctuary",
+  "entersTappedUnless": {
+    "control": {
+      "subtype": "Island",
+      "other": true
+    },
+    "count": 3
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "untapped",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "top": true
+        }
+      ],
+      "text": "When this land enters untapped, you may put target instant or sorcery card from your graveyard on top of your library."
+    }
+  ]
+}

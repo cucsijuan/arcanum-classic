@@ -1,0 +1,37 @@
+{
+  "name": "Cyclonic Rift",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "opponent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent you don't control"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      }
+    ],
+    "text": "Return target nonland permanent you don't control to its owner's hand."
+  },
+  "overload": "{6}{U}",
+  "overloaded": {
+    "effects": [
+      {
+        "bounceAll": {
+          "not": [
+            "land"
+          ],
+          "controller": "opponent"
+        }
+      }
+    ],
+    "text": "Return each nonland permanent you don't control to its owner's hand."
+  }
+}

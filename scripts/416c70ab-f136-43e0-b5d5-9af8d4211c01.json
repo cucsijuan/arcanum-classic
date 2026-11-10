@@ -1,0 +1,58 @@
+{
+  "name": "Deluge Virtuoso",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target creature an opponent controls and put a stun counter on it."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "if": {
+            "atLeast": "manaSpent",
+            "value": 5
+          },
+          "then": [
+            {
+              "pump": [
+                2,
+                2
+              ],
+              "what": "self"
+            }
+          ],
+          "else": [
+            {
+              "pump": [
+                1,
+                1
+              ],
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, this creature gets +1/+1 until end of turn. If five or more mana was spent to cast that spell, this creature gets +2/+2 until end of turn instead."
+    }
+  ]
+}

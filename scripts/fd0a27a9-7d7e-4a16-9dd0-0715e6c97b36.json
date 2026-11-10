@@ -1,0 +1,27 @@
+{
+  "name": "Restoration Seminar",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature",
+            "enchantment",
+            "planeswalker",
+            "battle"
+          ]
+        },
+        "text": "target nonland permanent card from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      }
+    ],
+    "text": "Return target nonland permanent card from your graveyard to the battlefield."
+  }
+}

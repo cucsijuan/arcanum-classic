@@ -1,0 +1,34 @@
+{
+  "name": "Mind Roots",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "discard": 2,
+        "who": "target"
+      },
+      {
+        "choose": {
+          "types": [
+            "land"
+          ]
+        },
+        "among": {
+          "discarded": {
+            "types": [
+              "land"
+            ]
+          }
+        },
+        "optional": true
+      },
+      {
+        "reanimate": "chosen",
+        "tapped": true
+      }
+    ],
+    "text": "Target player discards two cards. Put up to one land card discarded this way onto the battlefield tapped under your control."
+  }
+}

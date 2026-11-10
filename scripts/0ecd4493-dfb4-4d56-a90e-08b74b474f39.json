@@ -1,0 +1,30 @@
+{
+  "name": "Tenured Concocter",
+  "abilities": [
+    {
+      "trigger": "becomesTarget",
+      "effects": [
+        {
+          "may": "Draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature becomes the target of a spell or ability an opponent controls, you may draw a card."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": "gainedLife"
+      },
+      "text": "Infusion — This creature gets +2/+0 as long as you gained life this turn."
+    }
+  ]
+}

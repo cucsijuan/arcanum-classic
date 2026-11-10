@@ -1,0 +1,22 @@
+{
+  "name": "Lifeblood Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": {
+            "power": "self"
+          }
+        },
+        {
+          "draw": {
+            "power": "self"
+          }
+        }
+      ],
+      "text": "When this creature dies, you gain life and draw cards equal to its power."
+    }
+  ]
+}

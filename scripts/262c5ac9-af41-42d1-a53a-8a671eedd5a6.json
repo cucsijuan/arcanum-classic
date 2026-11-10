@@ -1,0 +1,25 @@
+{
+  "name": "Duel Tactics",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 1,
+        "to": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Can't block"
+        ]
+      }
+    ],
+    "text": "Duel Tactics deals 1 damage to target creature. It can't block this turn."
+  }
+}

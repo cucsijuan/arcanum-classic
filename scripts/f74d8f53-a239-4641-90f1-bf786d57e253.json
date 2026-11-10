@@ -1,0 +1,25 @@
+{
+  "name": "Brass Infiniscope",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "amount": 2,
+      "whenNextCast": {
+        "spells": {
+          "hasX": true
+        },
+        "effects": [
+          {
+            "draw": 1
+          },
+          {
+            "gainLife": {
+              "halfDown": "triggeredSpellX"
+            }
+          }
+        ],
+        "text": "When you next cast a spell with {X} in its mana cost this turn, you draw a card and gain half X life, rounded down."
+      }
+    }
+  ]
+}

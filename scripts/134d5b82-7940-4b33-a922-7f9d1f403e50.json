@@ -1,0 +1,26 @@
+{
+  "name": "Lotus Field",
+  "entersTapped": true,
+  "extraMana": [
+    {
+      "types": "any",
+      "amount": 3
+    }
+  ],
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 2,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "When this land enters, sacrifice two lands."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "name": "Berserk",
+  "castOnlyIf": {
+    "all": [
+      {
+        "not": {
+          "step": "CombatDamage"
+        }
+      },
+      {
+        "not": {
+          "step": "EndCombat"
+        }
+      },
+      {
+        "not": {
+          "step": "PostcombatMain"
+        }
+      },
+      {
+        "not": {
+          "step": "End"
+        }
+      },
+      {
+        "not": {
+          "step": "Cleanup"
+        }
+      }
+    ]
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          {
+            "power": "target"
+          },
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Trample"
+        ]
+      },
+      {
+        "atNextEndStepAbout": "target",
+        "effects": [
+          {
+            "if": {
+              "triggered": {
+                "attackedThisTurn": true
+              }
+            },
+            "then": [
+              {
+                "destroy": "triggered"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Target creature gains trample and gets +X/+0 until end of turn, where X is its power. At the beginning of the next end step, destroy that creature if it attacked this turn."
+  }
+}

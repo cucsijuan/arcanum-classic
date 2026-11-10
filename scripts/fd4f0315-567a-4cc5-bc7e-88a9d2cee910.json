@@ -1,0 +1,15 @@
+{
+  "name": "Improvisation Capstone",
+  "spell": {
+    "effects": [
+      {
+        "exileTop": 0,
+        "untilTotalManaValue": 4
+      },
+      {
+        "castExiledFreeAnyNumber": true
+      }
+    ],
+    "text": "Exile cards from the top of your library until you exile cards with total mana value 4 or greater. You may cast any number of spells from among them without paying their mana costs."
+  }
+}

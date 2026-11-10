@@ -1,0 +1,35 @@
+{
+  "name": "Furygale Flocking",
+  "costReduction": {
+    "amount": 1,
+    "perGraveyardCard": {
+      "types": [
+        "instant",
+        "sorcery"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "forEachOpponentMustAttack": true,
+        "hasteUntilEndOfTurn": true,
+        "token": {
+          "name": "Elemental",
+          "types": "Creature — Elemental",
+          "colors": [
+            "U",
+            "R"
+          ],
+          "power": 3,
+          "toughness": 3,
+          "keywords": [
+            "Flying"
+          ]
+        }
+      }
+    ],
+    "text": "For each opponent, create two 3/3 blue and red Elemental creature tokens with flying that attack that opponent this turn if able. They gain haste until end of turn."
+  }
+}

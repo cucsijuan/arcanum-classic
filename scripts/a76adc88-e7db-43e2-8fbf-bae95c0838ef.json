@@ -1,0 +1,47 @@
+{
+  "name": "Living History",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "R",
+              "W"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this enchantment enters, create a 2/2 red and white Spirit creature token."
+    },
+    {
+      "trigger": "youAttack",
+      "if": "cardLeftYourGraveyardThisTurn",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack, if a card left your graveyard this turn, target attacking creature gets +2/+0 until end of turn."
+    }
+  ]
+}

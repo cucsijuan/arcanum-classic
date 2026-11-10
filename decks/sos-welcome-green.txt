@@ -1,0 +1,23 @@
+# Green Deck — one of the set's five 40-card Welcome Decks (official decklist).
+Deck
+1 Elvish Regrower (FDN) 104
+1 Treetop Snarespinner (FDN) 114
+1 Affectionate Indrik (FDN) 211
+2 Bite Down (FDN) 212
+1 Blanchwood Armor (FDN) 213
+1 Broken Wings (FDN) 214
+1 Bushwhack (FDN) 215
+2 Llanowar Elves (FDN) 227
+1 Mild-Mannered Librarian (FDN) 228
+1 Wary Thespian (FDN) 235
+1 Rogue's Passage (FDN) 264
+17 Forest (FDN) 280
+1 Magnigoth Sentry (FDN) 556
+1 Thornweald Archer (FDN) 559
+2 Thrashing Brontodon (FDN) 560
+1 Wildheart Invoker (FDN) 561
+1 Pelakka Wurm (FDN) 765
+1 Primal Might (FDN) 766
+1 Springbloom Druid (FDN) 767
+1 Surrak, the Hunt Caller (FDN) 768
+1 Vizier of the Menagerie (FDN) 769

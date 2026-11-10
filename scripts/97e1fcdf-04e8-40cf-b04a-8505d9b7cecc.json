@@ -1,0 +1,38 @@
+{
+  "name": "Ennis, Debate Moderator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "target"
+        }
+      ],
+      "text": "When Ennis enters, exile up to one other target creature you control. Return that card to the battlefield under its owner's control at the beginning of the next end step."
+    },
+    {
+      "trigger": "endStep",
+      "if": {
+        "cardsExiledThisTurn": 1
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if one or more cards were put into exile this turn, put a +1/+1 counter on Ennis."
+    }
+  ]
+}

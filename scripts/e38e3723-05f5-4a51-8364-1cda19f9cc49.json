@@ -1,0 +1,35 @@
+{
+  "name": "Steelbane Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "cost": "{2}{G}, removeCounters:1",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            ]
+          },
+          "text": "target artifact or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{2}{G}, Remove a +1/+1 counter from this creature: Destroy target artifact or enchantment."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "name": "Moseo, Vein's New Dean",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "attacks",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "Whenever this token attacks, you gain 1 life."
+              }
+            ],
+            "text": "Whenever this token attacks, you gain 1 life."
+          }
+        }
+      ],
+      "text": "When Moseo enters, create a 1/1 black and green Pest creature token with \"Whenever this token attacks, you gain 1 life.\""
+    },
+    {
+      "trigger": "endStep",
+      "if": "gainedLife",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "maxManaValueLifeGained": true
+          },
+          "text": "up to one target creature card with mana value X or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "Infusion — At the beginning of your end step, if you gained life this turn, return up to one target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of life you gained this turn."
+    }
+  ]
+}

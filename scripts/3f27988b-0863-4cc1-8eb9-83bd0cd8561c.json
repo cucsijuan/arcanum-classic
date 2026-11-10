@@ -1,0 +1,18 @@
+{
+  "name": "Mage Tower Referee",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "multicolored": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you cast a multicolored spell, put a +1/+1 counter on this creature."
+    }
+  ]
+}

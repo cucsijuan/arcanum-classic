@@ -1,0 +1,40 @@
+{
+  "name": "Ghoulish Impetus",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Deathtouch"
+        ],
+        "goads": true
+      },
+      "text": "Enchanted creature gets +1/+1, has deathtouch, and is goaded."
+    },
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "atNextEndStepAbout": "triggered",
+          "effects": [
+            {
+              "reanimate": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When enchanted creature dies, return this card to the battlefield at the beginning of the next end step."
+    }
+  ]
+}

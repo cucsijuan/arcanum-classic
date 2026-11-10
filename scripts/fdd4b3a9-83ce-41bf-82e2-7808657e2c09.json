@@ -1,0 +1,30 @@
+{
+  "name": "Transcendent Archaic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "may": "Draw X cards, where X is the number of colors of mana spent to cast this creature?",
+          "effects": [
+            {
+              "draw": "colorsSpentToCast"
+            },
+            {
+              "if": {
+                "atLeast": "drawnThisWay",
+                "value": 1
+              },
+              "then": [
+                {
+                  "discard": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Converge — When this creature enters, you may draw X cards, where X is the number of colors of mana spent to cast this spell. If you draw one or more cards this way, discard two cards."
+    }
+  ]
+}

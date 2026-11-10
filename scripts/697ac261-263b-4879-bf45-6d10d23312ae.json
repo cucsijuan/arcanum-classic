@@ -1,0 +1,54 @@
+{
+  "name": "Ao, the Dawn Sky",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "chooseCount": 1,
+      "modes": [
+        {
+          "text": "Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order.",
+          "effects": [
+            {
+              "lookAtTop": 7,
+              "filter": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "planeswalker",
+                  "battle"
+                ]
+              },
+              "to": "battlefield",
+              "maxTotalManaValue": 4
+            }
+          ]
+        },
+        {
+          "text": "Put two +1/+1 counters on each permanent you control that's a creature or Vehicle.",
+          "effects": [
+            {
+              "counters": 2,
+              "what": {
+                "each": {
+                  "anyOf": [
+                    {
+                      "types": [
+                        "creature"
+                      ]
+                    },
+                    {
+                      "subtype": "Vehicle"
+                    }
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When Ao dies, choose one — Look at the top seven cards of your library. Put any number of nonland permanent cards with total mana value 4 or less from among them onto the battlefield. Put the rest on the bottom of your library in a random order; or put two +1/+1 counters on each permanent you control that's a creature or Vehicle."
+    }
+  ]
+}

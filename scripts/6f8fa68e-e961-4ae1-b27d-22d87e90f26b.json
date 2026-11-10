@@ -1,0 +1,24 @@
+{
+  "name": "Procrastinate",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "counters": {
+          "sum": [
+            "X",
+            "X"
+          ]
+        },
+        "kind": "stun",
+        "what": "target"
+      }
+    ],
+    "text": "Tap target creature. Put twice X stun counters on it."
+  }
+}

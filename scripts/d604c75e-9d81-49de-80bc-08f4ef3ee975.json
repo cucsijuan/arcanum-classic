@@ -1,0 +1,25 @@
+{
+  "name": "Potioner's Trove",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "atLeast": {
+          "spellsCast": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "value": 1
+      },
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{T}: You gain 2 life. Activate only if you've cast an instant or sorcery spell this turn."
+    }
+  ]
+}

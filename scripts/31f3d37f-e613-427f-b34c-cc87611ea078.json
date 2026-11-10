@@ -1,0 +1,33 @@
+{
+  "name": "Muse Seeker",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": "manaSpent",
+              "value": 5
+            }
+          },
+          "then": [
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Opus — Whenever you cast an instant or sorcery spell, draw a card. Then discard a card unless five or more mana was spent to cast that spell."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Cost of Brilliance",
+  "spell": {
+    "targets": [
+      "player",
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      }
+    ],
+    "effects": [
+      {
+        "draw": 2,
+        "who": "target"
+      },
+      {
+        "loseLife": 2,
+        "who": "target"
+      },
+      {
+        "counters": 1,
+        "what": "target2"
+      }
+    ],
+    "text": "Target player draws two cards and loses 2 life. Put a +1/+1 counter on up to one target creature."
+  }
+}

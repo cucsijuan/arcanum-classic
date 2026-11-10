@@ -1,0 +1,10 @@
+{
+  "name": "Silverquill, the Disputant",
+  "spellsHaveCasualty": {
+    "types": [
+      "instant",
+      "sorcery"
+    ]
+  },
+  "spellsHaveCasualtyN": 1
+}

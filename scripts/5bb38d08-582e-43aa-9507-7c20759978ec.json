@@ -1,0 +1,39 @@
+{
+  "name": "Follow the Lumarets",
+  "spell": {
+    "effects": [
+      {
+        "if": "gainedLife",
+        "then": [
+          {
+            "lookAtTop": 4,
+            "filter": {
+              "types": [
+                "creature",
+                "land"
+              ]
+            },
+            "take": 2,
+            "to": "hand",
+            "reveal": true
+          }
+        ],
+        "else": [
+          {
+            "lookAtTop": 4,
+            "filter": {
+              "types": [
+                "creature",
+                "land"
+              ]
+            },
+            "take": 1,
+            "to": "hand",
+            "reveal": true
+          }
+        ]
+      }
+    ],
+    "text": "Infusion — Look at the top four cards of your library. You may reveal a creature or land card from among them and put it into your hand. If you gained life this turn, you may instead reveal two creature and/or land cards from among them and put them into your hand. Put the rest on the bottom of your library in a random order."
+  }
+}

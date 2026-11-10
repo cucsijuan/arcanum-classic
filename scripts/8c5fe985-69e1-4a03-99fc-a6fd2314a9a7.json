@@ -1,0 +1,62 @@
+{
+  "name": "Professor Dellian Fel",
+  "abilities": [
+    {
+      "cost": "+2",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "+2: You gain 3 life."
+    },
+    {
+      "cost": "0",
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "loseLife": 1
+        }
+      ],
+      "text": "0: You draw a card and lose 1 life."
+    },
+    {
+      "cost": "-3",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "−3: Destroy target creature."
+    },
+    {
+      "cost": "-6",
+      "effects": [
+        {
+          "emblem": "Professor Dellian Fel emblem",
+          "abilities": [
+            {
+              "trigger": "gainLife",
+              "targets": [
+                "opponent"
+              ],
+              "effects": [
+                {
+                  "loseLife": "triggerAmount",
+                  "who": "target"
+                }
+              ],
+              "text": "Whenever you gain life, target opponent loses that much life."
+            }
+          ]
+        }
+      ],
+      "text": "−6: You get an emblem with \"Whenever you gain life, target opponent loses that much life.\""
+    }
+  ]
+}

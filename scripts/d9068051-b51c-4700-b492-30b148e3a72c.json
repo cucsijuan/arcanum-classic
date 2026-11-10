@@ -1,0 +1,54 @@
+{
+  "name": "Yavimaya Bloomsage // Channel",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "if": {
+            "atLeast": {
+              "power": "target"
+            },
+            "value": 7
+          },
+          "then": [
+            {
+              "becomePrepared": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, put a +1/+1 counter on target creature you control. Then if that creature has power 7 or greater, this creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "emblem": "Channel",
+          "untilEndOfTurn": true,
+          "emblemText": "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}.",
+          "abilities": [
+            {
+              "cost": "life:1",
+              "effects": [
+                {
+                  "addMana": "{C}"
+                }
+              ],
+              "text": "Pay 1 life: Add {C}."
+            }
+          ]
+        }
+      ],
+      "text": "Until end of turn, any time you could activate a mana ability, you may pay 1 life. If you do, add {C}."
+    }
+  }
+}

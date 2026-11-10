@@ -1,0 +1,46 @@
+{
+  "name": "Root Manipulation",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          2
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      {
+        "become": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        },
+        "abilities": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "gainLife": 1
+              }
+            ],
+            "text": "Whenever this creature attacks, you gain 1 life."
+          }
+        ]
+      }
+    ],
+    "text": "Until end of turn, creatures you control get +2/+2 and gain menace and \"Whenever this creature attacks, you gain 1 life.\""
+  }
+}

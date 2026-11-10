@@ -1,0 +1,41 @@
+{
+  "name": "Splatter Technique",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Draw four cards.",
+        "effects": [
+          {
+            "draw": 4
+          }
+        ]
+      },
+      {
+        "text": "Splatter Technique deals 4 damage to each creature and planeswalker.",
+        "effects": [
+          {
+            "damage": 4,
+            "to": {
+              "each": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "planeswalker"
+                    ]
+                  }
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

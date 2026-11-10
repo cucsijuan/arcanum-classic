@@ -1,0 +1,49 @@
+{
+  "name": "Lluwen, Exchange Student // Pest Friend",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "cost": "exileGraveyardCards:1:creature",
+      "sorcery": true,
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "Exile a creature card from your graveyard: Lluwen becomes prepared. Activate only as a sorcery."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Pest",
+            "types": "Creature — Pest",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B",
+              "G"
+            ],
+            "keywords": [],
+            "abilities": [
+              {
+                "trigger": "attacks",
+                "effects": [
+                  {
+                    "gainLife": 1
+                  }
+                ],
+                "text": "Whenever this token attacks, you gain 1 life."
+              }
+            ],
+            "text": "Whenever this token attacks, you gain 1 life."
+          }
+        }
+      ],
+      "text": "Create a 1/1 black and green Pest creature token with \"Whenever this token attacks, you gain 1 life.\""
+    }
+  }
+}

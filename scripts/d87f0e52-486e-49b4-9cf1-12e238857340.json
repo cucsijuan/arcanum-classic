@@ -1,0 +1,31 @@
+{
+  "name": "Ambitious Augmenter",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "if": {
+        "sourceHadCounters": "any"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Fractal",
+            "types": "Creature — Fractal",
+            "colors": [
+              "G",
+              "U"
+            ],
+            "power": 0,
+            "toughness": 0
+          }
+        },
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "created"
+        }
+      ],
+      "text": "When this creature dies, if it had one or more counters on it, create a 0/0 green and blue Fractal creature token, then put this creature's counters on that token."
+    }
+  ]
+}

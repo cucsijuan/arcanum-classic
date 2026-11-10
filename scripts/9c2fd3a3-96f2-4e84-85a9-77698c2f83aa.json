@@ -1,0 +1,33 @@
+{
+  "name": "Volcanic Salvo",
+  "costReduction": {
+    "amount": 0,
+    "byTotalPower": true
+  },
+  "spell": {
+    "targetRule": "allDifferent",
+    "targets": [
+      {
+        "kind": "creatureOrPlaneswalker",
+        "optional": true,
+        "text": "up to two target creatures and/or planeswalkers"
+      },
+      {
+        "kind": "creatureOrPlaneswalker",
+        "optional": true,
+        "text": "up to two target creatures and/or planeswalkers"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "damage": 6,
+        "to": "target2"
+      }
+    ],
+    "text": "This spell costs {X} less to cast, where X is the total power of creatures you control.\nVolcanic Salvo deals 6 damage to each of up to two target creatures and/or planeswalkers."
+  }
+}

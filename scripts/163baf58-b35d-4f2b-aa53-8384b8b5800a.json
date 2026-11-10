@@ -1,0 +1,18 @@
+{
+  "name": "Replication Technique",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "controller": "you",
+        "text": "target permanent you control"
+      }
+    ],
+    "effects": [
+      {
+        "copy": "target"
+      }
+    ],
+    "text": "Create a token that's a copy of target permanent you control."
+  }
+}

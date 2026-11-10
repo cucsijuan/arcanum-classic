@@ -1,0 +1,41 @@
+{
+  "name": "Primary Research",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "maxManaValue": 3
+          },
+          "text": "target nonland permanent card with mana value 3 or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this enchantment enters, return target nonland permanent card with mana value 3 or less from your graveyard to the battlefield."
+    },
+    {
+      "trigger": "endStep",
+      "if": "cardLeftYourGraveyardThisTurn",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, if a card left your graveyard this turn, draw a card."
+    }
+  ]
+}

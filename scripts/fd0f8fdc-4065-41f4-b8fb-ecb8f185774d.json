@@ -1,0 +1,45 @@
+{
+  "name": "Royal Treatment",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Hexproof"
+        ]
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Royal Role",
+          "types": "Enchantment — Aura Role",
+          "colors": [],
+          "aura": "creature",
+          "text": "Enchant creature\nEnchanted creature gets +1/+1 and has ward {1}.",
+          "abilities": [
+            {
+              "static": {
+                "affects": "enchanted",
+                "pump": [
+                  1,
+                  1
+                ],
+                "grantsWard": "{1}"
+              },
+              "text": "Enchanted creature gets +1/+1 and has ward {1}."
+            }
+          ]
+        },
+        "attachTo": "target"
+      }
+    ],
+    "text": "Target creature you control gains hexproof until end of turn. Create a Royal Role token attached to that creature."
+  }
+}

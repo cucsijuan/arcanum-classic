@@ -1,0 +1,30 @@
+{
+  "name": "Defiling Daemogoth",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, you gain 1 life."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "loseLife": "lifeGained",
+          "who": "opponents"
+        }
+      ],
+      "text": "At the beginning of your end step, each opponent loses X life, where X is the amount of life you gained this turn."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Mana Bloom",
+  "entersWithCounters": "X",
+  "entersWithCounterKind": "charge",
+  "abilities": [
+    {
+      "cost": "removeCounters:1:charge",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Remove a charge counter from this enchantment: Add one mana of any color. Activate only once each turn."
+    },
+    {
+      "trigger": "upkeep",
+      "if": {
+        "not": {
+          "atLeast": {
+            "counters": "charge"
+          },
+          "value": 1
+        }
+      },
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "At the beginning of your upkeep, if this enchantment has no charge counters on it, return it to its owner's hand."
+    }
+  ]
+}

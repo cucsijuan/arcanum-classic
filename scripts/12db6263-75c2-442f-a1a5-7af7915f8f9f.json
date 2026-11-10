@@ -1,0 +1,14 @@
+{
+  "name": "Umbral Collar Zealot",
+  "abilities": [
+    {
+      "cost": "sacrifice:creature|artifact",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "Sacrifice another creature or artifact: Surveil 1."
+    }
+  ]
+}

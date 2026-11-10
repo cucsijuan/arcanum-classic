@@ -1,0 +1,22 @@
+{
+  "name": "Hydroid Krasis",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "effects": [
+        {
+          "gainLife": {
+            "halfDown": "spellX"
+          }
+        },
+        {
+          "draw": {
+            "halfDown": "spellX"
+          }
+        }
+      ],
+      "text": "When you cast this spell, you gain half X life and draw half X cards. Round down each time."
+    }
+  ]
+}

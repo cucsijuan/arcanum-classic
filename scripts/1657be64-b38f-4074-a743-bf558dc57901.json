@@ -1,0 +1,31 @@
+{
+  "name": "Harsh Annotation",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Inkling",
+          "types": "Creature — Inkling",
+          "power": 1,
+          "toughness": 1,
+          "colors": [
+            "W",
+            "B"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        },
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target creature. Its controller creates a 1/1 white and black Inkling creature token with flying."
+  }
+}

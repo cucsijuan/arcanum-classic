@@ -1,0 +1,20 @@
+{
+  "name": "Old-Growth Educator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "if": "gainedLife",
+          "then": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Infusion — When this creature enters, put two +1/+1 counters on it if you gained life this turn."
+    }
+  ]
+}

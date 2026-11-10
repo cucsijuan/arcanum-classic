@@ -1,0 +1,31 @@
+{
+  "name": "Vastlands Scavenger // Bind to Life",
+  "entersPrepared": true,
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "mill": 7
+        },
+        {
+          "choose": {
+            "types": [
+              "creature"
+            ]
+          },
+          "among": {
+            "milled": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "reanimate": "chosen"
+        }
+      ],
+      "text": "Mill seven cards. Then put a creature card from among them onto the battlefield."
+    }
+  }
+}

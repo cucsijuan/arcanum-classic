@@ -1,0 +1,11 @@
+{
+  "name": "Abstract Performance",
+  "spell": {
+    "effects": [
+      {
+        "exiledPilesOpponentChooses": 4
+      }
+    ],
+    "text": "Exile the top four cards of your library in a face-down pile, then exile the top four cards of your library in a face-up pile. An opponent chooses one of those piles. Put that pile into your graveyard. Look at the cards in the other pile. You may cast a spell from among them without paying its mana cost. Put the rest into your hand."
+  }
+}

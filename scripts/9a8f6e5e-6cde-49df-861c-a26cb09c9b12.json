@@ -1,0 +1,35 @@
+{
+  "name": "Muddle, the Ever-Changing",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "notSupertype": "legendary"
+          },
+          "text": "up to one target nonlegendary creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "becomeCopy": "self",
+          "target": "target",
+          "keywords": [
+            "Myriad"
+          ]
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell, Muddle becomes a copy of up to one target nonlegendary creature you control until end of turn, except it has myriad."
+    }
+  ]
+}

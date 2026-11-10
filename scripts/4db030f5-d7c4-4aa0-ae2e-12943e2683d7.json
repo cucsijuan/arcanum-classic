@@ -1,0 +1,51 @@
+{
+  "name": "Unbound Flourishing",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true,
+        "types": [
+          "artifact",
+          "creature",
+          "enchantment",
+          "land",
+          "planeswalker",
+          "battle"
+        ]
+      },
+      "effects": [
+        {
+          "doubleTriggeredSpellX": true
+        }
+      ],
+      "text": "Whenever you cast a permanent spell with a mana cost that contains {X}, double the value of X."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "hasX": true,
+        "types": [
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "copySpell": "triggered"
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell or activate an ability, if that spell's mana cost or that ability's activation cost contains {X}, copy that spell or ability. You may choose new targets for the copy."
+    },
+    {
+      "trigger": "youActivateNonManaAbility",
+      "if": "triggeredAbilityCostHasX",
+      "effects": [
+        {
+          "copyTriggeredAbility": true
+        }
+      ],
+      "text": "Whenever you cast an instant or sorcery spell or activate an ability, if that spell's mana cost or that ability's activation cost contains {X}, copy that spell or ability. You may choose new targets for the copy."
+    }
+  ]
+}

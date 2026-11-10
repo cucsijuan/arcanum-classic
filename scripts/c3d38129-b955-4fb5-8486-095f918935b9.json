@@ -1,0 +1,61 @@
+{
+  "name": "Quintorius, Loremaster",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "not": [
+              "creature",
+              "land"
+            ]
+          },
+          "text": "target noncreature, nonland card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Spirit",
+            "types": "Creature — Spirit",
+            "colors": [
+              "R",
+              "W"
+            ],
+            "power": 3,
+            "toughness": 2,
+            "keywords": []
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, exile target noncreature, nonland card from your graveyard. Create a 3/2 red and white Spirit creature token."
+    },
+    {
+      "cost": "{1}{R}{W}, {T}, sacrificeAny:Spirit",
+      "targets": [
+        {
+          "kind": "exiledCard",
+          "controller": "any",
+          "filter": {
+            "exiledWithSource": true
+          },
+          "text": "target card exiled with Quintorius"
+        }
+      ],
+      "effects": [
+        {
+          "castExiledFreeThisTurnBottomInstead": "target"
+        }
+      ],
+      "text": "{1}{R}{W}, {T}, Sacrifice a Spirit: Choose target card exiled with Quintorius. You may cast that card this turn without paying its mana cost. If that spell would be put into a graveyard, put it on the bottom of its owner's library instead."
+    }
+  ]
+}

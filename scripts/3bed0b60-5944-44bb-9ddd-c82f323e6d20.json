@@ -1,0 +1,22 @@
+{
+  "name": "Wilt in the Heat",
+  "costReduction": {
+    "amount": 2,
+    "if": "cardLeftYourGraveyardThisTurn"
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "exileIfDies": "target"
+      },
+      {
+        "damage": 5,
+        "to": "target"
+      }
+    ],
+    "text": "This spell costs {2} less to cast if one or more cards left your graveyard this turn.\nWilt in the Heat deals 5 damage to target creature. If that creature would die this turn, exile it instead."
+  }
+}

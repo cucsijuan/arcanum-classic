@@ -1,0 +1,15 @@
+{
+  "name": "Daydream",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "blink": "target",
+        "counters": 1
+      }
+    ],
+    "text": "Exile target creature you control, then return that card to the battlefield under its owner's control with a +1/+1 counter on it."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Planar Engineering",
+  "spell": {
+    "effects": [
+      {
+        "sacrifice": 2,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      {
+        "search": {
+          "types": [
+            "land"
+          ],
+          "supertype": "basic"
+        },
+        "count": 4,
+        "to": "battlefield",
+        "tapped": true
+      }
+    ],
+    "text": "Sacrifice two lands. Search your library for four basic land cards, put them onto the battlefield tapped, then shuffle."
+  }
+}

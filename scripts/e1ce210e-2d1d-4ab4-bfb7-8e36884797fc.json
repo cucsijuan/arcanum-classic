@@ -1,0 +1,30 @@
+{
+  "name": "Group Project",
+  "flashback": "{0}",
+  "flashbackExtra": {
+    "tap": {
+      "types": [
+        "creature"
+      ]
+    },
+    "tapCount": 3
+  },
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": {
+          "name": "Spirit",
+          "types": "Creature — Spirit",
+          "colors": [
+            "R",
+            "W"
+          ],
+          "power": 2,
+          "toughness": 2
+        }
+      }
+    ],
+    "text": "Create a 2/2 red and white Spirit creature token."
+  }
+}

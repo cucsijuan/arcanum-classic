@@ -1,0 +1,28 @@
+{
+  "name": "Mindful Biomancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "When this creature enters, you gain 1 life."
+    },
+    {
+      "cost": "{2}{G}",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "pump": [
+            2,
+            2
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "{2}{G}: This creature gets +2/+2 until end of turn. Activate only once each turn."
+    }
+  ]
+}

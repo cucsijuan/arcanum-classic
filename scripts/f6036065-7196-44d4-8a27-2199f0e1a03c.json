@@ -1,0 +1,32 @@
+{
+  "name": "Harmonized Trio // Brainstorm",
+  "abilities": [
+    {
+      "cost": "{T}, tapPermanents:2",
+      "tapFilter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "becomePrepared": "self"
+        }
+      ],
+      "text": "{T}, Tap two untapped creatures you control: This creature becomes prepared."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "handToTop": 2
+        }
+      ],
+      "text": "Draw three cards, then put two cards from your hand on top of your library in any order."
+    }
+  }
+}

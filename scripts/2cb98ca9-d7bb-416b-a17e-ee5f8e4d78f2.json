@@ -1,0 +1,32 @@
+{
+  "name": "Prismatic Ending",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "maxManaValueColorsSpent": true
+          }
+        },
+        "then": [
+          {
+            "exile": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Converge — Exile target nonland permanent if its mana value is less than or equal to the number of colors of mana spent to cast this spell."
+  }
+}

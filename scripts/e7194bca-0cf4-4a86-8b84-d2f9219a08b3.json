@@ -1,0 +1,46 @@
+{
+  "name": "Flow State",
+  "spell": {
+    "effects": [
+      {
+        "if": {
+          "all": [
+            {
+              "graveyard": 1,
+              "filter": {
+                "types": [
+                  "instant"
+                ]
+              }
+            },
+            {
+              "graveyard": 1,
+              "filter": {
+                "types": [
+                  "sorcery"
+                ]
+              }
+            }
+          ]
+        },
+        "then": [
+          {
+            "lookAtTop": 3,
+            "take": 2,
+            "required": true,
+            "restAnyOrder": true
+          }
+        ],
+        "else": [
+          {
+            "lookAtTop": 3,
+            "take": 1,
+            "required": true,
+            "restAnyOrder": true
+          }
+        ]
+      }
+    ],
+    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. If there is an instant card and a sorcery card in your graveyard, instead put two of them into your hand and the rest on the bottom of your library in any order."
+  }
+}

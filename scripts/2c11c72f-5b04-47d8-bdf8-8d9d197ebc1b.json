@@ -1,0 +1,31 @@
+{
+  "name": "Gift of Immortality",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "reanimate": "triggered",
+          "ownerControl": true
+        },
+        {
+          "atNextEndStepAbout": "enteredThisWay",
+          "effects": [
+            {
+              "reanimate": "self",
+              "attachTo": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "When enchanted creature dies, return that card to the battlefield under its owner's control. Return this card to the battlefield attached to that creature at the beginning of the next end step."
+    }
+  ]
+}

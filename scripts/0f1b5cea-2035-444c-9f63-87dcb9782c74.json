@@ -1,0 +1,45 @@
+{
+  "name": "Gyome, Master Chef",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": {
+            "enteredThisTurn": {
+              "types": [
+                "creature"
+              ],
+              "token": false
+            },
+            "evenIfGone": true
+          },
+          "token": "Food"
+        }
+      ],
+      "text": "At the beginning of your end step, create a number of Food tokens equal to the number of nontoken creatures you had enter the battlefield under your control this turn."
+    },
+    {
+      "cost": "{1}, sacrificeAny:Food",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{1}, Sacrifice a Food: Target creature gains indestructible until end of turn. Tap it."
+    }
+  ]
+}

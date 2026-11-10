@@ -1,0 +1,28 @@
+{
+  "name": "Snarl Song",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 2,
+        "token": {
+          "name": "Fractal",
+          "types": "Creature — Fractal",
+          "colors": [
+            "G",
+            "U"
+          ],
+          "power": 0,
+          "toughness": 0
+        }
+      },
+      {
+        "counters": "colorsSpentToCast",
+        "what": "created"
+      },
+      {
+        "gainLife": "colorsSpentToCast"
+      }
+    ],
+    "text": "Converge — Create two 0/0 green and blue Fractal creature tokens. Put X +1/+1 counters on each of them and you gain X life, where X is the number of colors of mana spent to cast this spell."
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Ark of Hunger",
+  "abilities": [
+    {
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        },
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, this artifact deals 1 damage to each opponent and you gain 1 life."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "mill": 1
+        },
+        {
+          "castFromGraveyardThisTurn": {
+            "milled": {}
+          }
+        }
+      ],
+      "text": "{T}: Mill a card. You may play that card this turn."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Withering Curse",
+  "spell": {
+    "effects": [
+      {
+        "if": "gainedLife",
+        "then": [
+          {
+            "destroy": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ],
+        "else": [
+          {
+            "pump": [
+              -2,
+              -2
+            ],
+            "what": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "text": "All creatures get -2/-2 until end of turn.\nInfusion — If you gained life this turn, destroy all creatures instead."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Sanar, Unfinished Genius // Wild Idea",
+  "entersPrepared": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "atLeast": {
+          "spellsCast": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          }
+        },
+        "value": 1
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{T}: Create a Treasure token. Activate only if you've cast an instant or sorcery spell this turn."
+    }
+  ],
+  "prepare": {
+    "spell": {
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "reveal": true
+        }
+      ],
+      "text": "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle."
+    }
+  }
+}

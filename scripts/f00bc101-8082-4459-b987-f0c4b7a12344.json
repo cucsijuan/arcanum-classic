@@ -1,0 +1,52 @@
+{
+  "name": "Advanced Reconstruction",
+  "abilities": [
+    {
+      "trigger": "precombatMain",
+      "effects": [
+        {
+          "mill": 1
+        },
+        {
+          "exileRandomFromGraveyardPlayable": true
+        }
+      ],
+      "text": "At the beginning of your first main phase, mill a card, then exile a card from your graveyard at random. You may play the exiled card this turn."
+    },
+    {
+      "cost": "{1}{R}",
+      "levelUp": 2,
+      "text": "{1}{R}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "leavesGraveyard",
+      "batched": true,
+      "filter": {
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever one or more cards leave your graveyard, this Class deals 2 damage to each opponent."
+    },
+    {
+      "cost": "{1}{R}",
+      "levelUp": 3,
+      "text": "{1}{R}: Level 3"
+    },
+    {
+      "level": 3,
+      "spellCost": {
+        "spells": {
+          "inHand": false
+        },
+        "amount": 2
+      },
+      "text": "Spells you cast from anywhere other than your hand cost {2} less to cast."
+    }
+  ]
+}
