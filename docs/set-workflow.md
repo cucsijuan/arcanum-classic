@@ -67,11 +67,12 @@ Pack check for every booster kind (the main booster and each kind under `booster
 pack of the wrong size, and it prints the unsupported cards it sees:
 
 ```sh
-ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_BOOSTER_SET=<code> \
+ARCANUM_MODULE_PATH=$PWD ARCANUM_BOOSTER_SET=<code> \
   dotnet test "$ENGINE/tests/Arcanum.Data.Tests" --filter ModuleBoostersOpenWhenProvided --logger "console;verbosity=detailed"
 ```
 
-`ARCANUM_MODULE_PATH` must be absolute.
+`ARCANUM_MODULE_PATH` must be absolute. The tests in this section and in section 9 find the card data by themselves: the game's
+card data for this module version (the game must have been started once with that version). `ARCANUM_CARD_FILE` overrides it.
 
 ## 5. Scenes
 
@@ -117,7 +118,7 @@ When the scripts use new vocabulary, the manifest's `apiVersion` must match the 
 ## 9. Soak
 
 ```sh
-ARCANUM_MODULE_PATH=$PWD ARCANUM_CARD_FILE="$CARDS" ARCANUM_SMOKE_SET=<code> ARCANUM_SMOKE_GAMES=500 \
+ARCANUM_MODULE_PATH=$PWD ARCANUM_SMOKE_SET=<code> ARCANUM_SMOKE_GAMES=500 \
   dotnet test "$ENGINE/tests/Arcanum.Data.Tests" --filter SetGamesPlayWithoutErrorsWhenProvided --logger "console;verbosity=detailed"
 ```
 
