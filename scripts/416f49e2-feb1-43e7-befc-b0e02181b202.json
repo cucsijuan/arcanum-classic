@@ -1,0 +1,24 @@
+{
+  "name": "Robe of Stars",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          3
+        ]
+      },
+      "text": "Equipped creature gets +0/+3."
+    },
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "phaseOut": "attached"
+        }
+      ],
+      "text": "Astral Projection — {1}{W}: Equipped creature phases out."
+    }
+  ]
+}

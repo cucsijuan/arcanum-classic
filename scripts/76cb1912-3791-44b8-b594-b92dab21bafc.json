@@ -1,0 +1,39 @@
+{
+  "name": "Tannuk, Memorial Ensign",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        },
+        {
+          "if": {
+            "all": [
+              {
+                "resolvedThisTurn": 2
+              },
+              {
+                "not": {
+                  "resolvedThisTurn": 3
+                }
+              }
+            ]
+          },
+          "then": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, Tannuk deals 1 damage to each opponent. If this is the second time this ability has resolved this turn, draw a card.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

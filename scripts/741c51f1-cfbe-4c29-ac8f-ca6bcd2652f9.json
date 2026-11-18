@@ -1,0 +1,37 @@
+{
+  "name": "Wandering Fumarole",
+  "abilities": [
+    {
+      "cost": "{2}{U}{R}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 1,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "U",
+            "R"
+          ],
+          "abilities": [
+            {
+              "cost": "{0}",
+              "effects": [
+                {
+                  "switchPowerToughness": "self"
+                }
+              ],
+              "text": "{0}: Switch this creature's power and toughness until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "{2}{U}{R}: Until end of turn, this land becomes a 1/4 blue and red Elemental creature with \"{0}: Switch this creature's power and toughness until end of turn.\" It's still a land."
+    }
+  ]
+}

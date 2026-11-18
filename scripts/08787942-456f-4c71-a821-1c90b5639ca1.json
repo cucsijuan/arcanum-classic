@@ -1,0 +1,25 @@
+{
+  "name": "Photosynthetic Physician",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{G}, exileFromGraveyard",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Officer",
+            "types": "Creature — Officer",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "{G}, Exile this card from your graveyard: Create a 1/1 red Officer creature token. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

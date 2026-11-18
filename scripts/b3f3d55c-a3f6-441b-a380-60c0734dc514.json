@@ -1,0 +1,59 @@
+{
+  "name": "Larval Scoutlander",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a land or Lander to search for two basic lands?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "land"
+                  ]
+                },
+                {
+                  "subtype": "Lander"
+                }
+              ]
+            }
+          },
+          "effects": [
+            {
+              "search": {
+                "supertype": "basic",
+                "types": [
+                  "land"
+                ]
+              },
+              "count": 2,
+              "to": "battlefield",
+              "tapped": true
+            }
+          ]
+        }
+      ],
+      "text": "When this Spacecraft enters, you may sacrifice a land or Lander. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 3,
+        "setToughness": 3
+      },
+      "text": "7+ | Flying"
+    }
+  ]
+}

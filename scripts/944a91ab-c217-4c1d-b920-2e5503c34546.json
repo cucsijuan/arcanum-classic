@@ -1,0 +1,36 @@
+{
+  "name": "Sunstar Expansionist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature enters, if an opponent controls more lands than you, create a Lander token.",
+      "if": {
+        "opponentHasMore": "lands"
+      }
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, this creature gets +1/+0 until end of turn.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

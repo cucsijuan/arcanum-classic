@@ -1,0 +1,27 @@
+{
+  "name": "Emergency Eject",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        },
+        "text": "target nonland permanent"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Lander",
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target nonland permanent. Its controller creates a Lander token."
+  }
+}

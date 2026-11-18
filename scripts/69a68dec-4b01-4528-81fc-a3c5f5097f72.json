@@ -1,0 +1,16 @@
+{
+  "name": "Insatiable Skittermaw",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Void — At the beginning of your end step, if a nonland permanent left the battlefield this turn or a spell was warped this turn, put a +1/+1 counter on this creature.",
+      "if": "void"
+    }
+  ]
+}

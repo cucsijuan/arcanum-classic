@@ -1,0 +1,37 @@
+{
+  "name": "Blast Zone",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "charge",
+  "abilities": [
+    {
+      "cost": "{X}{X}, {T}",
+      "effects": [
+        {
+          "counters": "X",
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "{X}{X}, {T}: Put X charge counters on this land."
+    },
+    {
+      "cost": "{3}, {T}, sacrifice",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "not": [
+                "land"
+              ],
+              "controller": "any"
+            }
+          },
+          "manaValueIs": {
+            "counters": "charge"
+          }
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice this land: Destroy each nonland permanent with mana value equal to the number of charge counters on this land."
+    }
+  ]
+}

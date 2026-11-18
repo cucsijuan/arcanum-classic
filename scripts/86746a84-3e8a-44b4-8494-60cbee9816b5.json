@@ -1,0 +1,15 @@
+{
+  "name": "Galactic Wayfarer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature enters, create a Lander token."
+    }
+  ]
+}

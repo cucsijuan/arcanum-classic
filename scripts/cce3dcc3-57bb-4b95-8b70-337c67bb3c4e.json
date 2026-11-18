@@ -1,0 +1,54 @@
+{
+  "name": "Extinguisher Battleship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "target noncreature permanent"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        },
+        {
+          "damage": 4,
+          "to": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "When this Spacecraft enters, destroy target noncreature permanent. Then this Spacecraft deals 4 damage to each creature."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 5,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Trample"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 10,
+        "setToughness": 10
+      },
+      "text": "5+ | Flying, trample"
+    }
+  ]
+}

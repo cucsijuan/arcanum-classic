@@ -1,0 +1,30 @@
+{
+  "name": "Sami, Ship's Engineer",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          },
+          "tapped": true
+        }
+      ],
+      "text": "At the beginning of your end step, if you control two or more tapped creatures, create a tapped 2/2 colorless Robot artifact creature token.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "tapped": true
+        },
+        "count": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Icetill Explorer",
+  "replaces": [
+    "AdditionalLandPlay",
+    "LandsFromGraveyard"
+  ],
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "mill": 1
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, mill a card.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

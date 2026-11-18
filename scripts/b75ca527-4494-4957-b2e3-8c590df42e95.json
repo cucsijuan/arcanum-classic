@@ -1,0 +1,18 @@
+{
+  "name": "Dauntless Scrapbot",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileGraveyard": "opponents"
+        },
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature enters, exile each opponent's graveyard. Create a Lander token."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Exploration Broodship",
+  "replaces": [
+    "AdditionalLandPlay"
+  ],
+  "additionalLandPlayIf": {
+    "counters": 3,
+    "kind": "charge"
+  },
+  "graveyardCastOncePerTurn": {
+    "filter": {
+      "types": [
+        "artifact",
+        "creature",
+        "enchantment",
+        "planeswalker",
+        "battle"
+      ]
+    },
+    "cost": {
+      "sacrifice": {
+        "types": [
+          "land"
+        ]
+      }
+    },
+    "while": {
+      "counters": 8,
+      "kind": "charge"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 4
+      },
+      "text": "8+ | Flying Once during each of your turns, you may cast a permanent spell from your graveyard by sacrificing a land in addition to paying its other costs."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Depthshaker Titan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "artifact",
+          "controller": "you",
+          "optional": true,
+          "anyNumber": true,
+          "filter": {
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "any number of target noncreature artifacts you control"
+        }
+      ],
+      "effects": [
+        {
+          "become": "eachTarget",
+          "power": 3,
+          "toughness": 3,
+          "addTypes": [
+            "artifact",
+            "creature"
+          ],
+          "permanent": true
+        },
+        {
+          "atNextEndStepAbout": "eachTarget",
+          "effects": [
+            {
+              "sacrificeIt": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, any number of target noncreature artifacts you control become 3/3 artifact creatures. Sacrifice them at the beginning of the next end step."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Melee",
+          "Trample",
+          "Haste"
+        ]
+      },
+      "text": "Each artifact creature you control has melee, trample, and haste."
+    }
+  ]
+}

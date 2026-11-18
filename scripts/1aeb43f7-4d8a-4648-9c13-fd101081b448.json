@@ -1,0 +1,40 @@
+{
+  "name": "Mechanozoa",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "creature"
+                ]
+              }
+            ]
+          },
+          "text": "target artifact or creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "counters": 1,
+          "kind": "stun",
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, tap target artifact or creature an opponent controls and put a stun counter on it."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Breeding Pool",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Plasma Bolt",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "if": "void",
+        "then": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ],
+        "else": [
+          {
+            "damage": 2,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Plasma Bolt deals 2 damage to any target. Void — Plasma Bolt deals 3 damage instead if a nonland permanent left the battlefield this turn or a spell was warped this turn."
+  }
+}

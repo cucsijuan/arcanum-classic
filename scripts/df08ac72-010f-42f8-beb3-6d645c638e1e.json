@@ -1,0 +1,34 @@
+{
+  "name": "Uthros, Titanic Godcore",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{U}, {T}",
+            "effects": [
+              {
+                "addMana": "{U}",
+                "times": {
+                  "count": {
+                    "types": [
+                      "artifact"
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "{U}, {T}: Add {U} for each artifact you control."
+          }
+        ]
+      },
+      "text": "12+ | {U}, {T}: Add {U} for each artifact you control."
+    }
+  ]
+}

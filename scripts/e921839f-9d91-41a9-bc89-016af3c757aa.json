@@ -1,0 +1,37 @@
+{
+  "name": "Consult the Star Charts",
+  "spell": {
+    "effects": [
+      {
+        "if": "kicked",
+        "then": [
+          {
+            "lookAtTop": {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            "take": 2,
+            "required": true
+          }
+        ],
+        "else": [
+          {
+            "lookAtTop": {
+              "count": {
+                "types": [
+                  "land"
+                ]
+              }
+            },
+            "take": 1,
+            "required": true
+          }
+        ]
+      }
+    ],
+    "text": "Look at the top X cards of your library, where X is the number of lands you control. Put one of those cards into your hand. If this spell was kicked, put two of those cards into your hand instead. Put the rest on the bottom of your library in a random order."
+  }
+}

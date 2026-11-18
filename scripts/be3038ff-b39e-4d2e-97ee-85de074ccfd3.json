@@ -1,0 +1,21 @@
+{
+  "name": "Sinister Cryologist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -3,
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "When this creature enters, target creature an opponent controls gets -3/-0 until end of turn."
+    }
+  ]
+}

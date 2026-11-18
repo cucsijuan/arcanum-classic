@@ -1,0 +1,22 @@
+{
+  "name": "Cloud Key",
+  "chooseOnEnter": "cardType",
+  "chooseCardTypeFrom": [
+    "artifact",
+    "creature",
+    "enchantment",
+    "instant",
+    "sorcery"
+  ],
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "chosenCardType": true
+        },
+        "amount": 1
+      },
+      "text": "Spells you cast of the chosen type cost {1} less to cast."
+    }
+  ]
+}

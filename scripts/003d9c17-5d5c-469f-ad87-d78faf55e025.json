@@ -1,0 +1,30 @@
+{
+  "name": "Seedship Agrarian",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, create a Lander token."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a +1/+1 counter on this creature.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

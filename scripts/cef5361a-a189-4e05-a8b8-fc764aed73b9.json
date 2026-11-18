@@ -1,0 +1,20 @@
+{
+  "name": "All-Fates Scroll",
+  "abilities": [
+    {
+      "cost": "{7}, {T}, sacrifice",
+      "effects": [
+        {
+          "draw": {
+            "differentlyNamed": {
+              "types": [
+                "land"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "{7}, {T}, Sacrifice this artifact: Draw X cards, where X is the number of differently named lands you control."
+    }
+  ]
+}

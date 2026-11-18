@@ -1,0 +1,23 @@
+{
+  "name": "Knight Luminary",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Human Soldier creature token."
+    }
+  ]
+}

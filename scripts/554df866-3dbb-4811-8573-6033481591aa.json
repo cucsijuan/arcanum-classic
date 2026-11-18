@@ -1,0 +1,97 @@
+{
+  "name": "Inspirit, Flagship Vessel",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 1,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "trigger": "beginCombat",
+            "targets": [
+              {
+                "kind": "permanent",
+                "optional": true,
+                "filter": {
+                  "types": [
+                    "artifact"
+                  ],
+                  "other": true
+                },
+                "text": "up to one other target artifact"
+              }
+            ],
+            "effects": [
+              {
+                "chooseEffect": [
+                  {
+                    "text": "A +1/+1 counter",
+                    "effects": [
+                      {
+                        "counters": 1,
+                        "what": "target"
+                      }
+                    ]
+                  },
+                  {
+                    "text": "Two charge counters",
+                    "effects": [
+                      {
+                        "counters": 2,
+                        "kind": "charge",
+                        "what": "target"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "text": "At the beginning of combat on your turn, put your choice of a +1/+1 counter or two charge counters on up to one other target artifact."
+          }
+        ]
+      },
+      "text": "1+ | At the beginning of combat on your turn, put your choice of a +1/+1 counter or two charge counters on up to one other target artifact."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 5,
+        "setToughness": 5
+      },
+      "text": "8+ | Flying Other artifacts you control have hexproof and indestructible."
+    },
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "other": true,
+        "keywords": [
+          "Hexproof",
+          "Indestructible"
+        ],
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        }
+      },
+      "text": "8+ | Flying Other artifacts you control have hexproof and indestructible."
+    }
+  ]
+}

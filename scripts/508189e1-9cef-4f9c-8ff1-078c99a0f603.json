@@ -1,0 +1,17 @@
+{
+  "name": "Sunken Citadel",
+  "chooseOnEnter": "color",
+  "manaFromChosenColor": true,
+  "extraMana": [
+    {
+      "types": "chosen",
+      "amount": 2,
+      "onlyFor": {
+        "types": [
+          "land"
+        ]
+      },
+      "abilitiesOnly": true
+    }
+  ]
+}

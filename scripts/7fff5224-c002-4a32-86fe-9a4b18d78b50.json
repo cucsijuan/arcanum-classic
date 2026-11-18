@@ -1,0 +1,29 @@
+{
+  "name": "Hissing Quagmire",
+  "abilities": [
+    {
+      "cost": "{1}{B}{G}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 2,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "B",
+            "G"
+          ],
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{1}{B}{G}: Until end of turn, this land becomes a 2/2 black and green Elemental creature with deathtouch. It's still a land."
+    }
+  ]
+}

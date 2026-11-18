@@ -1,0 +1,36 @@
+{
+  "name": "World Breaker",
+  "abilities": [
+    {
+      "trigger": "castThis",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment",
+              "land"
+            ]
+          },
+          "text": "target artifact, enchantment, or land"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "When you cast this spell, exile target artifact, enchantment, or land."
+    },
+    {
+      "cost": "{2}{C}, sacrificeAny:land, fromGraveyard",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "{2}{C}, Sacrifice a land: Return this card from your graveyard to your hand."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Solar Array",
+  "extraMana": [
+    {
+      "types": "any",
+      "whenNextCast": {
+        "spells": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "effects": [
+          {
+            "gainSunburst": "triggered"
+          }
+        ],
+        "text": "When you next cast an artifact spell this turn, that spell gains sunburst."
+      }
+    }
+  ]
+}

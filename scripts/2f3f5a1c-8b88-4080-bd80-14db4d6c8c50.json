@@ -1,0 +1,25 @@
+{
+  "name": "Eusocial Engineering",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create a 2/2 colorless Robot artifact creature token.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

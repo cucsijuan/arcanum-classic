@@ -1,0 +1,12 @@
+{
+  "name": "Phyrexian Metamorph",
+  "entersAsCopy": {
+    "types": [
+      "artifact",
+      "creature"
+    ]
+  },
+  "entersAsCopyAddTypes": [
+    "artifact"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Wake the Past",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "artifact"
+          ]
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "enteredThisWay",
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Return all artifact cards from your graveyard to the battlefield. They gain haste until end of turn."
+  }
+}

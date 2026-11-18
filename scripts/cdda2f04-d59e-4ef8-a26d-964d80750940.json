@@ -1,0 +1,62 @@
+{
+  "name": "Terminal Velocity",
+  "spell": {
+    "effects": [
+      {
+        "putFromHand": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            }
+          ]
+        },
+        "one": true
+      },
+      {
+        "become": "enteredThisWay",
+        "permanent": true,
+        "keywords": [
+          "Haste"
+        ],
+        "abilities": [
+          {
+            "trigger": "leaves",
+            "effects": [
+              {
+                "damage": {
+                  "manaValue": "self"
+                },
+                "to": {
+                  "each": {
+                    "types": [
+                      "creature"
+                    ],
+                    "controller": "any"
+                  }
+                }
+              }
+            ],
+            "text": "When this permanent leaves the battlefield, it deals damage equal to its mana value to each creature."
+          },
+          {
+            "trigger": "endStep",
+            "effects": [
+              {
+                "sacrificeIt": "self"
+              }
+            ],
+            "text": "At the beginning of your end step, sacrifice this permanent."
+          }
+        ]
+      }
+    ],
+    "text": "You may put an artifact or creature card from your hand onto the battlefield. That permanent gains haste, \"When this permanent leaves the battlefield, it deals damage equal to its mana value to each creature,\" and \"At the beginning of your end step, sacrifice this permanent.\""
+  }
+}

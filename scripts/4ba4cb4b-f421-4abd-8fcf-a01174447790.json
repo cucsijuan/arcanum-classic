@@ -1,0 +1,40 @@
+{
+  "name": "Selfcraft Mechan",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice an artifact?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creature"
+                ],
+                "effects": [
+                  {
+                    "counters": 1,
+                    "what": "target"
+                  },
+                  {
+                    "draw": 1
+                  }
+                ],
+                "text": "When you do, put a +1/+1 counter on target creature and draw a card."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may sacrifice an artifact. When you do, put a +1/+1 counter on target creature and draw a card."
+    }
+  ]
+}

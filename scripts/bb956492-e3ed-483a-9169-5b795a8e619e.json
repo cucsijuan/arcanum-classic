@@ -1,0 +1,34 @@
+{
+  "name": "Astelli Reclaimer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact",
+              "enchantment",
+              "planeswalker",
+              "battle"
+            ],
+            "not": [
+              "creature",
+              "land"
+            ],
+            "maxManaValueSpent": true
+          },
+          "text": "target noncreature, nonland permanent card with mana value X or less from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When this creature enters, return target noncreature, nonland permanent card with mana value X or less from your graveyard to the battlefield, where X is the amount of mana spent to cast this creature."
+    }
+  ]
+}

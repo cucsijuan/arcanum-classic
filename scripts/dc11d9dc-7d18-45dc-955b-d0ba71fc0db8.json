@@ -1,0 +1,22 @@
+{
+  "name": "Surge Conductor",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever another nontoken artifact you control enters, proliferate.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you",
+        "other": true,
+        "token": false
+      }
+    }
+  ]
+}

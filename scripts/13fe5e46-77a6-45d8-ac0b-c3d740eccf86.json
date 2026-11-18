@@ -1,0 +1,16 @@
+{
+  "name": "Splendid Reclamation",
+  "spell": {
+    "effects": [
+      {
+        "reanimateAll": {
+          "types": [
+            "land"
+          ]
+        },
+        "tapped": true
+      }
+    ],
+    "text": "Return all land cards from your graveyard to the battlefield tapped."
+  }
+}

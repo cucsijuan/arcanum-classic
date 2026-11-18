@@ -1,0 +1,15 @@
+{
+  "name": "Sami's Curiosity",
+  "spell": {
+    "effects": [
+      {
+        "gainLife": 2
+      },
+      {
+        "tokens": 1,
+        "token": "Lander"
+      }
+    ],
+    "text": "You gain 2 life. Create a Lander token."
+  }
+}

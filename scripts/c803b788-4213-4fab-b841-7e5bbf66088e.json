@@ -1,0 +1,17 @@
+{
+  "name": "Jhoira, Weatherlight Captain",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast a historic spell, draw a card.",
+      "filter": {
+        "historic": true
+      }
+    }
+  ]
+}

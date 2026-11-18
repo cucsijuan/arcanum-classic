@@ -1,0 +1,19 @@
+{
+  "name": "Disruptor Pistol",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 5,
+          "to": "target"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this artifact: It deals 5 damage to target creature."
+    }
+  ]
+}

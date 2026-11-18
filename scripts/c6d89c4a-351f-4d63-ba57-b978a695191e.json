@@ -1,0 +1,42 @@
+{
+  "name": "Seedship Impact",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment"
+      }
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "maxManaValue": 2
+          }
+        },
+        "then": [
+          {
+            "destroy": "target"
+          },
+          {
+            "tokens": 1,
+            "token": "Lander"
+          }
+        ],
+        "else": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target artifact or enchantment. If its mana value was 2 or less, create a Lander token."
+  }
+}

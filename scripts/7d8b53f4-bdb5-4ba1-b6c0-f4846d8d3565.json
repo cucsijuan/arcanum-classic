@@ -1,0 +1,22 @@
+{
+  "name": "Emissary Escort",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "greatestManaValue": {
+              "types": [
+                "artifact"
+              ],
+              "other": true
+            }
+          },
+          0
+        ]
+      },
+      "text": "This creature gets +X/+0, where X is the greatest mana value among other artifacts you control."
+    }
+  ]
+}

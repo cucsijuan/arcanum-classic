@@ -1,0 +1,29 @@
+{
+  "name": "Lumbering Falls",
+  "abilities": [
+    {
+      "cost": "{2}{G}{U}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 3,
+          "toughness": 3,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "G",
+            "U"
+          ],
+          "keywords": [
+            "Hexproof"
+          ]
+        }
+      ],
+      "text": "{2}{G}{U}: Until end of turn, this land becomes a 3/3 green and blue Elemental creature with hexproof. It's still a land."
+    }
+  ]
+}

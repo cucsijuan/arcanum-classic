@@ -1,0 +1,35 @@
+{
+  "name": "Centaur Vinecrasher",
+  "entersWithCounters": {
+    "graveyard": {
+      "types": [
+        "land"
+      ]
+    },
+    "of": "everyone"
+  },
+  "abilities": [
+    {
+      "trigger": "cardPutIntoAnyGraveyard",
+      "fromGraveyard": true,
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {G}{G} to return this card to your hand?",
+          "mana": "{G}{G}",
+          "effects": [
+            {
+              "bounce": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a land card is put into a graveyard from anywhere, you may pay {G}{G}. If you do, return this card from your graveyard to your hand."
+    }
+  ]
+}

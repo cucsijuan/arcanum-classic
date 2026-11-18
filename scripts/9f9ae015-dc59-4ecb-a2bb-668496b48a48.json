@@ -1,0 +1,32 @@
+{
+  "name": "Thaumaton Torpedo",
+  "abilities": [
+    {
+      "cost": "{6}, {T}, sacrifice",
+      "costReductionIf": {
+        "attackedWith": 1,
+        "filter": {
+          "subtype": "Spacecraft"
+        }
+      },
+      "costReductionAmount": 3,
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "text": "target nonland permanent"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{6}, {T}, Sacrifice this artifact: Destroy target nonland permanent. This ability costs {3} less to activate if you attacked with a Spacecraft this turn."
+    }
+  ]
+}

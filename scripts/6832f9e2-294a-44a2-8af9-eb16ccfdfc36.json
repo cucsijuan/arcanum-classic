@@ -1,0 +1,22 @@
+{
+  "name": "Empowered Autogenerator",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        },
+        {
+          "addManaOneColor": {
+            "counters": "charge"
+          }
+        }
+      ],
+      "text": "{T}: Put a charge counter on this artifact. Add X mana of any one color, where X is the number of charge counters on this artifact."
+    }
+  ]
+}

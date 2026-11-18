@@ -1,0 +1,38 @@
+{
+  "name": "Pain for All",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "any",
+          "filter": {
+            "notAttachedToSource": true
+          },
+          "text": "any other target"
+        }
+      ],
+      "effects": [
+        {
+          "damage": {
+            "power": "attached"
+          },
+          "to": "target",
+          "from": "attached"
+        }
+      ],
+      "text": "When this Aura enters, enchanted creature deals damage equal to its power to any other target."
+    },
+    {
+      "trigger": "attachedDealtDamage",
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "opponents",
+          "from": "triggered"
+        }
+      ],
+      "text": "Whenever enchanted creature is dealt damage, it deals that much damage to each opponent."
+    }
+  ]
+}

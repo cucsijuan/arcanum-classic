@@ -1,0 +1,33 @@
+{
+  "name": "Ruinous Rampage",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Ruinous Rampage deals 3 damage to each opponent.",
+        "effects": [
+          {
+            "damage": 3,
+            "to": "opponents"
+          }
+        ]
+      },
+      {
+        "text": "Exile all artifacts with mana value 3 or less.",
+        "effects": [
+          {
+            "exile": {
+              "each": {
+                "types": [
+                  "artifact"
+                ],
+                "maxManaValue": 3,
+                "controller": "any"
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

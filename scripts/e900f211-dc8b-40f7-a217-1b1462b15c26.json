@@ -1,0 +1,29 @@
+{
+  "name": "Stirring Wildwood",
+  "abilities": [
+    {
+      "cost": "{1}{G}{W}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 3,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "G",
+            "W"
+          ],
+          "keywords": [
+            "Reach"
+          ]
+        }
+      ],
+      "text": "{1}{G}{W}: Until end of turn, this land becomes a 3/4 green and white Elemental creature with reach. It's still a land."
+    }
+  ]
+}

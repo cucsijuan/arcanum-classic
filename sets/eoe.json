@@ -1,0 +1,944 @@
+{
+  "code": "eoe",
+  "name": "Edge of Eternities",
+  "released": "2025-08-01",
+  "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/619697_in_1000x1000.jpg",
+    "seals": [
+      0.06,
+      0.06
+    ]
+  },
+  "limited": {
+    "boostersPerPlayer": 3,
+    "sealedBoosters": 6
+  },
+  "cards": [
+    "Adagia, Windswept Bastion",
+    "All-Fates Scroll",
+    "All-Fates Stalker",
+    "Alpharael, Dreaming Acolyte",
+    "Alpharael, Stonechosen",
+    "Annul",
+    "Anticausal Vestige",
+    "Archenemy's Charm",
+    "Astelli Reclaimer",
+    "Atmospheric Greenhouse",
+    "Atomic Microsizer",
+    "Auxiliary Boosters",
+    "Banishing Light",
+    "Beamsaw Prospector",
+    "Beyond the Quiet",
+    "Bioengineered Future",
+    "Biomechan Engineer",
+    "Biosynthic Burst",
+    "Biotech Specialist",
+    "Blade of the Swarm",
+    "Blooming Stinger",
+    "Bombard",
+    "Breeding Pool",
+    "Brightspear Zealot",
+    "Broodguard Elite",
+    "Bygone Colossus",
+    "Cerebral Download",
+    "Chorale of the Void",
+    "Chrome Companion",
+    "Close Encounter",
+    "Cloudsculpt Technician",
+    "Codecracker Hound",
+    "Comet Crawler",
+    "Command Bridge",
+    "Consult the Star Charts",
+    "Cosmogoyf",
+    "Cosmogrand Zenith",
+    "Cryogen Relic",
+    "Cryoshatter",
+    "Cut Propulsion",
+    "Dark Endurance",
+    "Dauntless Scrapbot",
+    "Dawnsire, Sunstar Dreadnought",
+    "Dawnstrike Vanguard",
+    "Debris Field Crusher",
+    "Decode Transmissions",
+    "Depressurize",
+    "Desculpting Blast",
+    "Devastating Onslaught",
+    "Diplomatic Relations",
+    "Divert Disaster",
+    "Dockworker Drone",
+    "Drill Too Deep",
+    "Drix Fatemaker",
+    "Dual-Sun Adepts",
+    "Dual-Sun Technique",
+    "Dubious Delicacy",
+    "Dyadrine, Synthesis Amalgam",
+    "Edge Rover",
+    "Elegy Acolyte",
+    "Embrace Oblivion",
+    "Emergency Eject",
+    "Emissary Escort",
+    "Entropic Battlecruiser",
+    "Eumidian Terrabotanist",
+    "Eusocial Engineering",
+    "Evendo, Waking Haven",
+    "Exalted Sunborn",
+    "Exosuit Savior",
+    "Extinguisher Battleship",
+    "Faller's Faithful",
+    "Famished Worldsire",
+    "Fell Gravship",
+    "Flight-Deck Coordinator",
+    "Focus Fire",
+    "Forest",
+    "Frenzied Baloth",
+    "Frontline War-Rager",
+    "Full Bore",
+    "Fungal Colossus",
+    "Galactic Wayfarer",
+    "Galvanizing Sawship",
+    "Gene Pollinator",
+    "Genemorph Imago",
+    "Germinating Wurm",
+    "Gigastorm Titan",
+    "Glacier Godmaw",
+    "Godless Shrine",
+    "Gravblade Heavy",
+    "Gravkill",
+    "Gravpack Monoist",
+    "Haliya, Ascendant Cadet",
+    "Haliya, Guided by Light",
+    "Hardlight Containment",
+    "Harmonious Grovestrider",
+    "Hemosymbic Mite",
+    "Honor",
+    "Honored Knight-Captain",
+    "Hullcarver",
+    "Hylderblade",
+    "Hymn of the Faller",
+    "Icecave Crasher",
+    "Icetill Explorer",
+    "Illvoi Galeblade",
+    "Illvoi Infiltrator",
+    "Illvoi Light Jammer",
+    "Illvoi Operative",
+    "Infinite Guideline Station",
+    "Insatiable Skittermaw",
+    "Interceptor Mechan",
+    "Intrepid Tenderfoot",
+    "Invasive Maneuvers",
+    "Island",
+    "Kav Landseeker",
+    "Kavaron Harrier",
+    "Kavaron Skywarden",
+    "Kavaron Turbodrone",
+    "Kavaron, Memorial World",
+    "Knight Luminary",
+    "Larval Scoutlander",
+    "Lashwhip Predator",
+    "Lightless Evangel",
+    "Lightstall Inquisitor",
+    "Lithobraking",
+    "Loading Zone",
+    "Lost in Space",
+    "Lumen-Class Frigate",
+    "Luxknight Breacher",
+    "Mechan Assembler",
+    "Mechan Navigator",
+    "Mechan Shieldmate",
+    "Mechanozoa",
+    "Melded Moxite",
+    "Meltstrider Eulogist",
+    "Meltstrider's Gear",
+    "Meltstrider's Resolve",
+    "Memorial Team Leader",
+    "Memorial Vault",
+    "Mental Modulation",
+    "Mightform Harmonizer",
+    "Mm'menon, Uthros Exile",
+    "Mm'menon, the Right Hand",
+    "Molecular Modifier",
+    "Monoist Circuit-Feeder",
+    "Monoist Sentry",
+    "Moonlit Meditation",
+    "Mountain",
+    "Mouth of the Storm",
+    "Mutinous Massacre",
+    "Nanoform Sentinel",
+    "Nebula Dragon",
+    "Nova Hellkite",
+    "Nutrient Block",
+    "Orbital Plunge",
+    "Oreplate Pangolin",
+    "Ouroboroid",
+    "Pain for All",
+    "Perigee Beckoner",
+    "Pinnacle Emissary",
+    "Pinnacle Kill-Ship",
+    "Pinnacle Starcage",
+    "Plains",
+    "Plasma Bolt",
+    "Possibility Technician",
+    "Pull Through the Weft",
+    "Pulsar Squadron Ace",
+    "Quantum Riddler",
+    "Radiant Strike",
+    "Ragost, Deft Gastronaut",
+    "Rayblade Trooper",
+    "Red Tiger Mechan",
+    "Remnant Elemental",
+    "Requiem Monolith",
+    "Reroute Systems",
+    "Rescue Skiff",
+    "Rig for War",
+    "Roving Actuator",
+    "Ruinous Rampage",
+    "Rust Harvester",
+    "Sacred Foundry",
+    "Sami's Curiosity",
+    "Sami, Ship's Engineer",
+    "Sami, Wildcat Captain",
+    "Scour for Scrap",
+    "Scout for Survivors",
+    "Scrounge for Eternity",
+    "Seam Rip",
+    "Secluded Starforge",
+    "Seedship Agrarian",
+    "Seedship Broodtender",
+    "Seedship Impact",
+    "Selfcraft Mechan",
+    "Shattered Wings",
+    "Singularity Rupture",
+    "Sinister Cryologist",
+    "Skystinger",
+    "Slagdrill Scrapper",
+    "Sledge-Class Seedship",
+    "Sothera, the Supervoid",
+    "Space-Time Anomaly",
+    "Specimen Freighter",
+    "Squire's Lightblade",
+    "Starbreach Whale",
+    "Starfield Shepherd",
+    "Starfield Vocalist",
+    "Starfighter Pilot",
+    "Starport Security",
+    "Starwinder",
+    "Station Monitor",
+    "Steelswarm Operator",
+    "Stomping Ground",
+    "Sunset Saboteur",
+    "Sunstar Chaplain",
+    "Sunstar Expansionist",
+    "Sunstar Lightsmith",
+    "Survey Mechan",
+    "Susur Secundi, Void Altar",
+    "Susurian Dirgecraft",
+    "Susurian Voidborn",
+    "Swamp",
+    "Swarm Culler",
+    "Synthesizer Labship",
+    "Syr Vondam, Sunstar Exemplar",
+    "Syr Vondam, the Lucent",
+    "Systems Override",
+    "Tannuk, Memorial Ensign",
+    "Tannuk, Steadfast Second",
+    "Tapestry Warden",
+    "Temporal Intervention",
+    "Terminal Velocity",
+    "Terrapact Intimidator",
+    "Terrasymbiosis",
+    "Territorial Bruntar",
+    "Tezzeret, Cruel Captain",
+    "Thaumaton Torpedo",
+    "Thawbringer",
+    "The Dominion Bracelet",
+    "The Endstone",
+    "The Eternity Elevator",
+    "The Seriema",
+    "Thrumming Hivepool",
+    "Timeline Culler",
+    "Tractor Beam",
+    "Tragic Trajectory",
+    "Umbral Collar Zealot",
+    "Unravel",
+    "Uthros Psionicist",
+    "Uthros Scanship",
+    "Uthros, Titanic Godcore",
+    "Vaultguard Trooper",
+    "Virulent Silencer",
+    "Virus Beetle",
+    "Voidforged Titan",
+    "Vote Out",
+    "Warmaker Gunship",
+    "Watery Grave",
+    "Weapons Manufacturing",
+    "Wedgelight Rammer",
+    "Weftblade Enhancer",
+    "Weftstalker Ardent",
+    "Weftwalking",
+    "Wurmwall Sweeper",
+    "Xu-Ifit, Osteoharmonist",
+    "Zealous Display",
+    "Zero Point Ballad",
+    "Zookeeper Mechan"
+  ],
+  "booster": {
+    "name": "Play Booster",
+    "description": "14 cards: 6 commons, a common (a Special Guests card instead in 1.8% of boosters), 3 uncommons, a wildcard of any rarity (a common 12.5%, an uncommon 62.5%, a rare 10.6%, a Stellar Sights rare 10% or mythic rare 2.5%, a viewport land rare 1%, or a mythic rare, a mythic rare viewport land or a triumphant or surreal space card), a rare (80.4%) or mythic rare (14.2%) or a triumphant (rare 2%) or surreal space (rare 2%) card or a mythic rare viewport land, a traditional foil of any rarity (a common 58%, an uncommon 32%, a rare 6.4%, a mythic rare 1.1%, a Stellar Sights rare 1%, or a Stellar Sights mythic rare or a viewport, triumphant or surreal space card) and a land (a basic 64%, foil 16%; a borderless celestial basic 16%, foil 4%). Published only as less than 1%, so derived: within the triumphant and surreal space cards a mythic rare is half as likely as a rare (per card), so the rare slot's triumphant and surreal space mythic rares are 0.33% and 0.27% and its mythic rare viewport land the 0.79% left to 100%; the wildcard's 0.9% left to 100% is shared among its mythic rares, mythic rare viewport lands and triumphant and surreal space cards as in the rare slot (0.65%, 0.04%, 0.11% and 0.10%); the foil's Stellar Sights mythic rares are 0.25% (half a rare's per-card odds) and its viewport, triumphant and surreal space cards share the 1.25% left as in the Collector Booster's foil Booster Fun slot. Each booster also holds a double-sided token, which isn't a game card.",
+    "sheets": {
+      "common": {
+        "rarity": "common",
+        "numbers": [
+          "1-261"
+        ]
+      },
+      "foil_common": {
+        "rarity": "common",
+        "numbers": [
+          "1-261"
+        ],
+        "foil": true
+      },
+      "uncommon": {
+        "rarity": "uncommon",
+        "numbers": [
+          "1-261"
+        ]
+      },
+      "foil_uncommon": {
+        "rarity": "uncommon",
+        "numbers": [
+          "1-261"
+        ],
+        "foil": true
+      },
+      "rare": {
+        "rarity": "rare",
+        "numbers": [
+          "1-261"
+        ]
+      },
+      "foil_rare": {
+        "rarity": "rare",
+        "numbers": [
+          "1-261"
+        ],
+        "foil": true
+      },
+      "mythic": {
+        "rarity": "mythic",
+        "numbers": [
+          "1-261"
+        ]
+      },
+      "foil_mythic": {
+        "rarity": "mythic",
+        "numbers": [
+          "1-261"
+        ],
+        "foil": true
+      },
+      "ssR": {
+        "rarity": "rare",
+        "numbers": [
+          "1-45"
+        ],
+        "set": "eos"
+      },
+      "foil_ssR": {
+        "rarity": "rare",
+        "numbers": [
+          "1-45"
+        ],
+        "foil": true,
+        "set": "eos"
+      },
+      "ssM": {
+        "rarity": "mythic",
+        "numbers": [
+          "1-45"
+        ],
+        "set": "eos"
+      },
+      "foil_ssM": {
+        "rarity": "mythic",
+        "numbers": [
+          "1-45"
+        ],
+        "foil": true,
+        "set": "eos"
+      },
+      "vpR": {
+        "rarity": "rare",
+        "numbers": [
+          "277-286"
+        ]
+      },
+      "foil_vpR": {
+        "rarity": "rare",
+        "numbers": [
+          "277-286"
+        ],
+        "foil": true
+      },
+      "vpM": {
+        "rarity": "mythic",
+        "numbers": [
+          "277-286"
+        ]
+      },
+      "foil_vpM": {
+        "rarity": "mythic",
+        "numbers": [
+          "277-286"
+        ],
+        "foil": true
+      },
+      "triR": {
+        "rarity": "rare",
+        "numbers": [
+          "287-302"
+        ]
+      },
+      "foil_triR": {
+        "rarity": "rare",
+        "numbers": [
+          "287-302"
+        ],
+        "foil": true
+      },
+      "triM": {
+        "rarity": "mythic",
+        "numbers": [
+          "287-302"
+        ]
+      },
+      "foil_triM": {
+        "rarity": "mythic",
+        "numbers": [
+          "287-302"
+        ],
+        "foil": true
+      },
+      "surR": {
+        "rarity": "rare",
+        "numbers": [
+          "303-316"
+        ]
+      },
+      "foil_surR": {
+        "rarity": "rare",
+        "numbers": [
+          "303-316"
+        ],
+        "foil": true
+      },
+      "surM": {
+        "rarity": "mythic",
+        "numbers": [
+          "303-316"
+        ]
+      },
+      "foil_surM": {
+        "rarity": "mythic",
+        "numbers": [
+          "303-316"
+        ],
+        "foil": true
+      },
+      "basic": {
+        "numbers": [
+          "267-276"
+        ]
+      },
+      "foil_basic": {
+        "numbers": [
+          "267-276"
+        ],
+        "foil": true
+      },
+      "celestial": {
+        "numbers": [
+          "262-266"
+        ]
+      },
+      "foil_celestial": {
+        "numbers": [
+          "262-266"
+        ],
+        "foil": true
+      },
+      "spg": {
+        "rarity": "mythic",
+        "numbers": [
+          "119-128"
+        ],
+        "set": "spg"
+      }
+    },
+    "slots": [
+      {
+        "count": 6,
+        "sheets": {
+          "common": 1
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "common": 982,
+          "spg": 18
+        }
+      },
+      {
+        "count": 3,
+        "sheets": {
+          "uncommon": 1
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "common": 12500,
+          "uncommon": 62500,
+          "rare": 10600,
+          "ssR": 10000,
+          "ssM": 2500,
+          "vpR": 1000,
+          "mythic": 652,
+          "vpM": 36,
+          "triR": 92,
+          "triM": 15,
+          "surR": 92,
+          "surM": 13
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "rare": 80400,
+          "mythic": 14200,
+          "triR": 2000,
+          "triM": 333,
+          "surR": 2000,
+          "surM": 273,
+          "vpM": 794
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "foil_common": 58000,
+          "foil_uncommon": 32000,
+          "foil_rare": 6400,
+          "foil_mythic": 1100,
+          "foil_ssR": 1000,
+          "foil_ssM": 250,
+          "foil_vpR": 197,
+          "foil_vpM": 99,
+          "foil_triR": 428,
+          "foil_triM": 66,
+          "foil_surR": 395,
+          "foil_surM": 66
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "basic": 64000,
+          "foil_basic": 16000,
+          "celestial": 16000,
+          "foil_celestial": 4000
+        }
+      }
+    ]
+  },
+  "boosters": {
+    "collector": {
+      "name": "Collector Booster",
+      "pack": {
+        "image": "https://tcgplayer-cdn.tcgplayer.com/product/619696_in_1000x1000.jpg",
+        "seals": [
+          0.06,
+          0.06
+        ]
+      },
+      "description": "15 cards: 5 traditional foil commons, 4 traditional foil uncommons, a borderless celestial basic land (traditional foil 66.6% or galaxy foil 33.3%), a traditional foil rare (86%) or mythic rare (14%), a Commander card (a borderless mythic rare 9% or an extended-art rare 91%), a Booster Fun card (extended-art rare 47%, mythic rare 5%; viewport land rare 7%, mythic rare 4%; triumphant rare 17%, mythic rare 3%; surreal space rare 15%, mythic rare 2%), a Stellar Sights land (rare 36%, mythic rare 9%; poster rare 18%, mythic rare 4%; traditional foil rare 12%, mythic rare 3%; traditional foil poster rare 6%, mythic rare 1.5%; galaxy foil rare 6%, mythic rare 1.5%; galaxy foil poster rare 3% or mythic rare) and a foil Booster Fun card (traditional foil extended-art rare 38%, mythic rare 4%; viewport land rare 6%, mythic rare 3%; triumphant rare 13%, mythic rare 2%; surreal space rare 12%, mythic rare 2%; a Special Guests card 6%; a Japan showcase card 9% or in fracture foil 1%; galaxy foil viewport land rare 2%, mythic rare 1%; or the singularity foil headliner). Published only as less than 1%, so derived: the galaxy foil poster mythic rare is 0.75% (half a rare's per-card odds, as in the other Stellar Sights land treatments), and the singularity foil headliner is 0.2%, a galaxy foil mythic rare viewport land's per-card odds. The published odds of the Stellar Sights land slot add up to slightly over 100% after rounding, so they are used as relative weights. Galaxy, singularity and fracture foils are shown as traditional foils except fracture foil, which has its own printing. Each booster also holds a traditional foil double-sided token or an art card, which aren't game cards.",
+      "sheets": {
+        "foil_common": {
+          "rarity": "common",
+          "numbers": [
+            "1-261"
+          ],
+          "foil": true
+        },
+        "foil_uncommon": {
+          "rarity": "uncommon",
+          "numbers": [
+            "1-261"
+          ],
+          "foil": true
+        },
+        "foil_rare": {
+          "rarity": "rare",
+          "numbers": [
+            "1-261"
+          ],
+          "foil": true
+        },
+        "foil_mythic": {
+          "rarity": "mythic",
+          "numbers": [
+            "1-261"
+          ],
+          "foil": true
+        },
+        "ssR": {
+          "rarity": "rare",
+          "numbers": [
+            "1-45"
+          ],
+          "set": "eos"
+        },
+        "foil_ssR": {
+          "rarity": "rare",
+          "numbers": [
+            "1-45"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "ssM": {
+          "rarity": "mythic",
+          "numbers": [
+            "1-45"
+          ],
+          "set": "eos"
+        },
+        "foil_ssM": {
+          "rarity": "mythic",
+          "numbers": [
+            "1-45"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "posterR": {
+          "rarity": "rare",
+          "numbers": [
+            "46-90"
+          ],
+          "set": "eos"
+        },
+        "foil_posterR": {
+          "rarity": "rare",
+          "numbers": [
+            "46-90"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "posterM": {
+          "rarity": "mythic",
+          "numbers": [
+            "46-90"
+          ],
+          "set": "eos"
+        },
+        "foil_posterM": {
+          "rarity": "mythic",
+          "numbers": [
+            "46-90"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "vpR": {
+          "rarity": "rare",
+          "numbers": [
+            "277-286"
+          ]
+        },
+        "foil_vpR": {
+          "rarity": "rare",
+          "numbers": [
+            "277-286"
+          ],
+          "foil": true
+        },
+        "vpM": {
+          "rarity": "mythic",
+          "numbers": [
+            "277-286"
+          ]
+        },
+        "foil_vpM": {
+          "rarity": "mythic",
+          "numbers": [
+            "277-286"
+          ],
+          "foil": true
+        },
+        "triR": {
+          "rarity": "rare",
+          "numbers": [
+            "287-302"
+          ]
+        },
+        "foil_triR": {
+          "rarity": "rare",
+          "numbers": [
+            "287-302"
+          ],
+          "foil": true
+        },
+        "triM": {
+          "rarity": "mythic",
+          "numbers": [
+            "287-302"
+          ]
+        },
+        "foil_triM": {
+          "rarity": "mythic",
+          "numbers": [
+            "287-302"
+          ],
+          "foil": true
+        },
+        "surR": {
+          "rarity": "rare",
+          "numbers": [
+            "303-316"
+          ]
+        },
+        "foil_surR": {
+          "rarity": "rare",
+          "numbers": [
+            "303-316"
+          ],
+          "foil": true
+        },
+        "surM": {
+          "rarity": "mythic",
+          "numbers": [
+            "303-316"
+          ]
+        },
+        "foil_surM": {
+          "rarity": "mythic",
+          "numbers": [
+            "303-316"
+          ],
+          "foil": true
+        },
+        "eaR": {
+          "rarity": "rare",
+          "numbers": [
+            "317-356"
+          ]
+        },
+        "foil_eaR": {
+          "rarity": "rare",
+          "numbers": [
+            "317-356"
+          ],
+          "foil": true
+        },
+        "eaM": {
+          "rarity": "mythic",
+          "numbers": [
+            "317-356"
+          ]
+        },
+        "foil_eaM": {
+          "rarity": "mythic",
+          "numbers": [
+            "317-356"
+          ],
+          "foil": true
+        },
+        "galR": {
+          "rarity": "rare",
+          "numbers": [
+            "91-135"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "galM": {
+          "rarity": "mythic",
+          "numbers": [
+            "91-135"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "galPosterR": {
+          "rarity": "rare",
+          "numbers": [
+            "136-180"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "galPosterM": {
+          "rarity": "mythic",
+          "numbers": [
+            "136-180"
+          ],
+          "foil": true,
+          "set": "eos"
+        },
+        "galaxy_vpR": {
+          "rarity": "rare",
+          "numbers": [
+            "372-381"
+          ],
+          "foil": true
+        },
+        "galaxy_vpM": {
+          "rarity": "mythic",
+          "numbers": [
+            "372-381"
+          ],
+          "foil": true
+        },
+        "foil_celestial": {
+          "numbers": [
+            "262-266"
+          ],
+          "foil": true
+        },
+        "galaxy_celestial": {
+          "numbers": [
+            "367-371"
+          ],
+          "foil": true
+        },
+        "foil_spg": {
+          "rarity": "mythic",
+          "numbers": [
+            "119-128"
+          ],
+          "foil": true,
+          "set": "spg"
+        },
+        "japan": {
+          "numbers": [
+            "357-366"
+          ],
+          "foil": true
+        },
+        "fracture_japan": {
+          "numbers": [
+            "383-392"
+          ],
+          "foil": true
+        },
+        "singularity": {
+          "numbers": [
+            "382"
+          ],
+          "foil": true
+        },
+        "eocM": {
+          "rarity": "mythic",
+          "numbers": [
+            "1-4"
+          ],
+          "set": "eoc"
+        },
+        "eocEA": {
+          "rarity": "rare",
+          "numbers": [
+            "25-44"
+          ],
+          "set": "eoc"
+        }
+      },
+      "slots": [
+        {
+          "count": 5,
+          "sheets": {
+            "foil_common": 1
+          }
+        },
+        {
+          "count": 4,
+          "sheets": {
+            "foil_uncommon": 1
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_celestial": 666,
+            "galaxy_celestial": 333
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_rare": 86,
+            "foil_mythic": 14
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "eocM": 9,
+            "eocEA": 91
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "eaR": 47000,
+            "eaM": 5000,
+            "vpR": 7000,
+            "vpM": 4000,
+            "triR": 17000,
+            "triM": 3000,
+            "surR": 15000,
+            "surM": 2000
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "ssR": 36000,
+            "ssM": 9000,
+            "posterR": 18000,
+            "posterM": 4000,
+            "foil_ssR": 12000,
+            "foil_ssM": 3000,
+            "foil_posterR": 6000,
+            "foil_posterM": 1500,
+            "galR": 6000,
+            "galM": 1500,
+            "galPosterR": 3000,
+            "galPosterM": 750
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_eaR": 38000,
+            "foil_eaM": 4000,
+            "foil_vpR": 6000,
+            "foil_vpM": 3000,
+            "foil_triR": 13000,
+            "foil_triM": 2000,
+            "foil_surR": 12000,
+            "foil_surM": 2000,
+            "foil_spg": 6000,
+            "japan": 9000,
+            "fracture_japan": 1000,
+            "galaxy_vpR": 2000,
+            "galaxy_vpM": 1000,
+            "singularity": 200
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Faller's Faithful",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "damagedThisTurn": false
+            }
+          },
+          "then": [
+            {
+              "destroy": "target"
+            },
+            {
+              "draw": 2,
+              "who": "targetController"
+            }
+          ],
+          "else": [
+            {
+              "destroy": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, destroy up to one other target creature. If that creature wasn't dealt damage this turn, its controller draws two cards."
+    }
+  ]
+}

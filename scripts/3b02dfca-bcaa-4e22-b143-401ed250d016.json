@@ -1,0 +1,31 @@
+{
+  "name": "Titan Forge",
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "{3}, {T}: Put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}, removeCounters:3:charge",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Golem",
+            "types": "Artifact Creature — Golem",
+            "power": 9,
+            "toughness": 9
+          }
+        }
+      ],
+      "text": "{T}, Remove three charge counters from this artifact: Create a 9/9 colorless Golem artifact creature token."
+    }
+  ]
+}

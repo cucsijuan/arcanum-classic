@@ -1,0 +1,39 @@
+{
+  "name": "Sledge-Class Seedship",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "putFromHand": {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                "one": true
+              }
+            ],
+            "text": "Whenever this Spacecraft attacks, you may put a creature card from your hand onto the battlefield."
+          }
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 5
+      },
+      "text": "7+ | Flying Whenever this Spacecraft attacks, you may put a creature card from your hand onto the battlefield."
+    }
+  ]
+}

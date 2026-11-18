@@ -1,0 +1,13 @@
+{
+  "name": "Gigastorm Titan",
+  "costReduction": {
+    "amount": 3,
+    "if": {
+      "atLeast": {
+        "spellsCast": {}
+      },
+      "value": 1
+    }
+  },
+  "abilities": []
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Mutinous Massacre",
+  "spell": {
+    "effects": [
+      {
+        "chooseParity": true
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "manaValueParityChosen": true
+          }
+        }
+      },
+      {
+        "gainControl": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        },
+        "untilEndOfTurn": true
+      },
+      {
+        "untap": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        },
+        "keywords": [
+          "Haste"
+        ]
+      }
+    ],
+    "text": "Choose odd or even. Destroy each creature with mana value of the chosen quality. Then gain control of all creatures until end of turn. Untap them. They gain haste until end of turn. (Zero is even.)"
+  }
+}

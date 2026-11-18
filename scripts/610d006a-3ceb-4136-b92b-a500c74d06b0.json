@@ -1,0 +1,24 @@
+{
+  "name": "Frontline War-Rager",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on this creature.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "tapped": true
+        },
+        "count": 2
+      }
+    }
+  ]
+}

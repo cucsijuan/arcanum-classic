@@ -1,0 +1,37 @@
+{
+  "name": "Embrace Oblivion",
+  "additionalCost": {
+    "sacrifice": {
+      "types": [
+        "artifact",
+        "creature"
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "subtype": "Spacecraft"
+            }
+          ]
+        },
+        "text": "target creature or Spacecraft"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature or Spacecraft."
+  }
+}

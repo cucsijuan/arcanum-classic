@@ -1,0 +1,45 @@
+{
+  "name": "Cosmogrand Zenith",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "nth": 2,
+      "text": "Whenever you cast your second spell each turn, choose one —",
+      "modes": [
+        {
+          "text": "Create two 1/1 white Human Soldier creature tokens.",
+          "effects": [
+            {
+              "tokens": 2,
+              "token": {
+                "name": "Human Soldier",
+                "types": "Creature — Human Soldier",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "W"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on each creature you control.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

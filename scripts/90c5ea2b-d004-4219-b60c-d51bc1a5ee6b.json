@@ -1,0 +1,59 @@
+{
+  "name": "Entropic Battlecruiser",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 1,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "trigger": "opponentDiscards",
+            "effects": [
+              {
+                "loseLife": 3,
+                "who": "triggeredPlayer"
+              }
+            ],
+            "text": "Whenever an opponent discards a card, they lose 3 life."
+          }
+        ]
+      },
+      "text": "1+ | Whenever an opponent discards a card, they lose 3 life."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Deathtouch"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "discard": 1,
+                "who": "opponents",
+                "otherwiseLoseLife": 3
+              }
+            ],
+            "text": "Whenever this Spacecraft attacks, each opponent discards a card. Each opponent who can't loses 3 life."
+          }
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 3,
+        "setToughness": 10
+      },
+      "text": "8+ | Flying, deathtouch Whenever this Spacecraft attacks, each opponent discards a card. Each opponent who can't loses 3 life."
+    }
+  ]
+}

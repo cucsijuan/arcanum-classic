@@ -1,0 +1,30 @@
+{
+  "name": "Uurg, Spawn of Turg",
+  "powerFrom": {
+    "graveyard": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "surveil": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, surveil 1."
+    },
+    {
+      "cost": "{B}{G}, sacrificeAny:land",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{B}{G}, Sacrifice a land: You gain 2 life."
+    }
+  ]
+}

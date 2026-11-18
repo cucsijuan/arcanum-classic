@@ -1,0 +1,50 @@
+{
+  "name": "Threefold Thunderhulk",
+  "entersWithCounters": 3,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "power": "self"
+          },
+          "token": {
+            "name": "Gnome",
+            "types": "Artifact Creature — Gnome",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": {
+            "power": "self"
+          },
+          "token": {
+            "name": "Gnome",
+            "types": "Artifact Creature — Gnome",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, create a number of 1/1 colorless Gnome artifact creature tokens equal to its power."
+    },
+    {
+      "cost": "{2}, sacrifice:artifact",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{2}, Sacrifice another artifact: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

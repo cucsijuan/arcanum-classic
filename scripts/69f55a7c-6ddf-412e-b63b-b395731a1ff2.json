@@ -1,0 +1,37 @@
+{
+  "name": "Secluded Starforge",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, tapPermanents:X:artifact",
+      "sorcery": true,
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            "X",
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}, {T}, Tap X untapped artifacts you control: Target creature gets +X/+0 until end of turn. Activate only as a sorcery."
+    },
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{5}, {T}: Create a 2/2 colorless Robot artifact creature token."
+    }
+  ]
+}

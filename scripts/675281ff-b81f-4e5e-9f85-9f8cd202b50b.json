@@ -1,0 +1,28 @@
+{
+  "name": "Inkmoth Nexus",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 1,
+          "toughness": 1,
+          "addTypes": [
+            "artifact",
+            "creature"
+          ],
+          "addSubtypes": [
+            "Phyrexian",
+            "Blinkmoth"
+          ],
+          "keywords": [
+            "Flying",
+            "Infect"
+          ]
+        }
+      ],
+      "text": "{1}: This land becomes a 1/1 Phyrexian Blinkmoth artifact creature with flying and infect until end of turn. It's still a land."
+    }
+  ]
+}

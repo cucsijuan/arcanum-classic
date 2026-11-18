@@ -1,0 +1,25 @@
+{
+  "name": "Mystifying Maze",
+  "abilities": [
+    {
+      "cost": "{4}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "flicker": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{4}, {T}: Exile target attacking creature an opponent controls. At the beginning of the next end step, return it to the battlefield tapped under its owner's control."
+    }
+  ]
+}

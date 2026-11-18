@@ -1,0 +1,44 @@
+{
+  "name": "Cryogen Relic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, draw a card."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, draw a card."
+    },
+    {
+      "cost": "{1}{U}, sacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "tapped": true
+          },
+          "text": "up to one target tapped creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target",
+          "kind": "stun"
+        }
+      ],
+      "text": "{1}{U}, Sacrifice this artifact: Put a stun counter on up to one target tapped creature. (If a permanent with a stun counter would become untapped, remove one from it instead.)"
+    }
+  ]
+}

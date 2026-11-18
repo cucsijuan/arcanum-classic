@@ -1,0 +1,46 @@
+{
+  "name": "Warmaker Gunship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "text": "target creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          "to": "target"
+        }
+      ],
+      "text": "When this Spacecraft enters, it deals damage equal to the number of artifacts you control to target creature an opponent controls."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 6,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 3
+      },
+      "text": "6+ | Flying"
+    }
+  ]
+}

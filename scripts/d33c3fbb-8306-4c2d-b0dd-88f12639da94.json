@@ -1,0 +1,9 @@
+{
+  "name": "Grove of the Burnwillows",
+  "extraMana": [
+    {
+      "types": "{R}{G}",
+      "opponentsGainLife": 1
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Rust Harvester",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, exileGraveyardCards:1:artifact",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "{2}, {T}, Exile an artifact card from your graveyard: Put a +1/+1 counter on this creature, then it deals damage equal to its power to any target."
+    }
+  ]
+}

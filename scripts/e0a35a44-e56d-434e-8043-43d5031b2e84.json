@@ -1,0 +1,44 @@
+{
+  "name": "Perigee Beckoner",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": "target"
+        },
+        {
+          "become": "target",
+          "abilities": [
+            {
+              "trigger": "dies",
+              "effects": [
+                {
+                  "reanimate": "self",
+                  "tapped": true,
+                  "ownerControl": true
+                }
+              ],
+              "text": "When this creature dies, return it to the battlefield tapped under its owner's control."
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, until end of turn, another target creature you control gets +2/+0 and gains \"When this creature dies, return it to the battlefield tapped under its owner's control.\""
+    }
+  ]
+}

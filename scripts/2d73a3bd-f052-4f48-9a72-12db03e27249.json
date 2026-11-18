@@ -1,0 +1,76 @@
+{
+  "name": "Soul of Windgrace",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "returnFromGraveyard": {
+            "types": [
+              "land"
+            ]
+          },
+          "to": "battlefield",
+          "anyGraveyard": true,
+          "upTo": true,
+          "tapped": true
+        }
+      ],
+      "text": "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "returnFromGraveyard": {
+            "types": [
+              "land"
+            ]
+          },
+          "to": "battlefield",
+          "anyGraveyard": true,
+          "upTo": true,
+          "tapped": true
+        }
+      ],
+      "text": "Whenever Soul of Windgrace enters or attacks, you may put a land card from a graveyard onto the battlefield tapped under your control."
+    },
+    {
+      "cost": "{G}, discard:land",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{G}, Discard a land card: You gain 3 life."
+    },
+    {
+      "cost": "{1}{R}, discard:land",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{1}{R}, Discard a land card: Draw a card."
+    },
+    {
+      "cost": "{2}{B}, discard:land",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Indestructible"
+          ]
+        },
+        {
+          "tap": "self"
+        }
+      ],
+      "text": "{2}{B}, Discard a land card: Soul of Windgrace gains indestructible until end of turn. Tap it."
+    }
+  ]
+}

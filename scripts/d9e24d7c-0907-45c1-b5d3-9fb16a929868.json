@@ -1,0 +1,21 @@
+{
+  "name": "Organic Extinction",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "not": [
+              "artifact"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Destroy all nonartifact creatures."
+  }
+}

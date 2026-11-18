@@ -1,0 +1,21 @@
+{
+  "name": "Chrome Host Seedshark",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "incubate": {
+            "manaValue": "triggered"
+          }
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, incubate X, where X is that spell's mana value.",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      }
+    }
+  ]
+}

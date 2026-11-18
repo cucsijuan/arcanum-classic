@@ -1,0 +1,19 @@
+{
+  "name": "Trelane, Squire of Gothos",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Can't be blocked"
+        ]
+      },
+      "text": "Trelane, Squire of Gothos can't be blocked."
+    }
+  ]
+}

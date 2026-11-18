@@ -1,0 +1,43 @@
+{
+  "name": "Contested War Zone",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any"
+      },
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "gainControl": "self",
+          "to": "triggeredController"
+        }
+      ],
+      "text": "Whenever a creature deals combat damage to you, that creature's controller gains control of this land."
+    },
+    {
+      "cost": "{1}, {T}",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "{1}, {T}: Attacking creatures get +1/+0 until end of turn."
+    }
+  ]
+}

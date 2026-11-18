@@ -1,0 +1,30 @@
+{
+  "name": "Mental Modulation",
+  "costReduction": {
+    "amount": 1,
+    "if": "yourTurn"
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "tap": "target"
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Tap target artifact or creature.\nDraw a card."
+  }
+}

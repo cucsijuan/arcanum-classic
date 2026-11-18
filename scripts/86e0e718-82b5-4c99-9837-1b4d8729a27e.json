@@ -1,0 +1,38 @@
+{
+  "name": "Melded Moxite",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw two cards?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters, you may discard a card. If you do, draw two cards."
+    },
+    {
+      "cost": "{3}, sacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          },
+          "tapped": true
+        }
+      ],
+      "text": "{3}, Sacrifice this artifact: Create a tapped 2/2 colorless Robot artifact creature token."
+    }
+  ]
+}

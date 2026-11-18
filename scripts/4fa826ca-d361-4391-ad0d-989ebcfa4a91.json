@@ -1,0 +1,50 @@
+{
+  "name": "Kavaron, Memorial World",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{1}{R}, {T}, sacrificeAny:land",
+            "effects": [
+              {
+                "tokens": 1,
+                "token": {
+                  "name": "Robot",
+                  "types": "Artifact Creature — Robot",
+                  "power": 2,
+                  "toughness": 2
+                }
+              },
+              {
+                "pump": [
+                  1,
+                  0
+                ],
+                "what": {
+                  "each": {
+                    "types": [
+                      "creature"
+                    ],
+                    "controller": "you"
+                  }
+                },
+                "keywords": [
+                  "Haste"
+                ]
+              }
+            ],
+            "text": "{1}{R}, {T}, Sacrifice a land: Create a 2/2 colorless Robot artifact creature token, then creatures you control get +1/+0 and gain haste until end of turn."
+          }
+        ]
+      },
+      "text": "12+ | {1}{R}, {T}, Sacrifice a land: Create a 2/2 colorless Robot artifact creature token, then creatures you control get +1/+0 and gain haste until end of turn."
+    }
+  ]
+}

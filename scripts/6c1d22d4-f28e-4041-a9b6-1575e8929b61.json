@@ -1,0 +1,14 @@
+{
+  "name": "Nexus of Fate",
+  "replaces": [
+    "ShuffleIntoLibraryInsteadOfGraveyard"
+  ],
+  "spell": {
+    "effects": [
+      {
+        "extraTurn": true
+      }
+    ],
+    "text": "Take an extra turn after this one."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Sunstar Lightsmith",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature and draw a card.",
+      "nth": 2
+    }
+  ]
+}

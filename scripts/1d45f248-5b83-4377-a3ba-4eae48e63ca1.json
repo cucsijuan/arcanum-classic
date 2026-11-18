@@ -1,0 +1,29 @@
+{
+  "name": "Planetary Annihilation",
+  "spell": {
+    "effects": [
+      {
+        "sacrificeAllBut": 6,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "who": "everyone",
+        "exactly": true
+      },
+      {
+        "damage": 6,
+        "to": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Each player chooses six lands they control, then sacrifices the rest. Planetary Annihilation deals 6 damage to each creature."
+  }
+}

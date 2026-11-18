@@ -1,0 +1,30 @@
+{
+  "name": "Biosynthic Burst",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "counters": 1,
+        "what": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Reach",
+          "Trample",
+          "Indestructible"
+        ]
+      },
+      {
+        "untap": "target"
+      }
+    ],
+    "text": "Put a +1/+1 counter on target creature you control. It gains reach, trample, and indestructible until end of turn. Untap it."
+  }
+}

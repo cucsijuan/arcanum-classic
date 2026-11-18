@@ -1,0 +1,10 @@
+{
+  "name": "Cosmogoyf",
+  "powerFrom": {
+    "ownedInExile": {}
+  },
+  "toughnessFrom": {
+    "ownedInExile": {},
+    "offset": 1
+  }
+}

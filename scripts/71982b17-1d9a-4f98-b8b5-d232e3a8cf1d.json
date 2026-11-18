@@ -1,0 +1,51 @@
+{
+  "name": "Scrounge for Eternity",
+  "additionalCost": {
+    "sacrifice": {
+      "anyOf": [
+        {
+          "types": [
+            "artifact"
+          ]
+        },
+        {
+          "types": [
+            "creature"
+          ]
+        }
+      ]
+    }
+  },
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "subtype": "Spacecraft"
+            }
+          ],
+          "maxManaValue": 5
+        },
+        "text": "target creature or Spacecraft card with mana value 5 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Lander"
+      }
+    ],
+    "text": "Return target creature or Spacecraft card with mana value 5 or less from your graveyard to the battlefield. Then create a Lander token."
+  }
+}

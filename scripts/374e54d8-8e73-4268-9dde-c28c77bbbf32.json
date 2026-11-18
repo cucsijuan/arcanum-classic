@@ -1,0 +1,28 @@
+{
+  "name": "Aftermath Analyst",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "When this creature enters, mill three cards."
+    },
+    {
+      "cost": "{3}{G}, sacrifice",
+      "effects": [
+        {
+          "reanimateAll": {
+            "types": [
+              "land"
+            ]
+          },
+          "tapped": true
+        }
+      ],
+      "text": "{3}{G}, Sacrifice this creature: Return all land cards from your graveyard to the battlefield tapped."
+    }
+  ]
+}

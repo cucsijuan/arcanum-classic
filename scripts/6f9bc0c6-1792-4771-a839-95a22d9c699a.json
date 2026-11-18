@@ -1,0 +1,36 @@
+{
+  "name": "Meltstrider's Resolve",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "optional": true,
+          "text": "up to one target creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "fight": "attached",
+          "with": "target"
+        }
+      ],
+      "text": "When this Aura enters, enchanted creature fights up to one target creature an opponent controls."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          2
+        ],
+        "keywords": [
+          "Can't be blocked by more than one creature"
+        ]
+      },
+      "text": "Enchanted creature gets +0/+2 and can't be blocked by more than one creature."
+    }
+  ]
+}

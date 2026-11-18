@@ -1,0 +1,17 @@
+{
+  "name": "Harmonious Grovestrider",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  }
+}

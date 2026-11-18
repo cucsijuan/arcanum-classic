@@ -1,0 +1,21 @@
+{
+  "name": "Insight Engine",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        },
+        {
+          "draw": {
+            "counters": "charge"
+          }
+        }
+      ],
+      "text": "{2}, {T}: Put a charge counter on this artifact, then draw a card for each charge counter on it."
+    }
+  ]
+}

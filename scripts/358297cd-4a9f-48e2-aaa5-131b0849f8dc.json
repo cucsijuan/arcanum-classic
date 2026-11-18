@@ -1,0 +1,26 @@
+{
+  "name": "Long-Range Sensor",
+  "abilities": [
+    {
+      "trigger": "youAttackPlayer",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you attack a player, put a charge counter on this artifact."
+    },
+    {
+      "cost": "{1}, removeCounters:2:charge",
+      "effects": [
+        {
+          "discover": 4
+        }
+      ],
+      "text": "{1}, Remove two charge counters from this artifact: Discover 4. Activate only as a sorcery.",
+      "sorcery": true
+    }
+  ]
+}

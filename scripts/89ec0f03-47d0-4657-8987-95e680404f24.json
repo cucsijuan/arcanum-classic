@@ -1,0 +1,34 @@
+{
+  "name": "Dual-Sun Technique",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Double strike"
+        ]
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "hasCounterKind": "+1/+1"
+          }
+        },
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control gains double strike until end of turn. If it has a +1/+1 counter on it, draw a card."
+  }
+}

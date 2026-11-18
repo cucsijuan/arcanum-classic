@@ -1,0 +1,29 @@
+{
+  "name": "Diplomatic Relations",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "pump": [
+          1,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Vigilance"
+        ]
+      },
+      {
+        "damage": {
+          "power": "target"
+        },
+        "to": "target2",
+        "from": "target"
+      }
+    ],
+    "text": "Target creature you control gets +1/+0 and gains vigilance until end of turn. It deals damage equal to its power to target creature an opponent controls."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Luxknight Breacher",
+  "entersWithCounters": {
+    "count": {
+      "anyOf": [
+        {
+          "types": [
+            "creature"
+          ]
+        },
+        {
+          "types": [
+            "artifact"
+          ]
+        }
+      ],
+      "other": true
+    }
+  },
+  "abilities": []
+}

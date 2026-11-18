@@ -1,0 +1,14 @@
+{
+  "name": "Paradox Haze",
+  "abilities": [
+    {
+      "trigger": "enchantedPlayersFirstUpkeep",
+      "effects": [
+        {
+          "additionalUpkeepStep": true
+        }
+      ],
+      "text": "At the beginning of enchanted player's first upkeep each turn, that player gets an additional upkeep step after this step."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Operations Officer",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this creature enters, draw a card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature attacks, put a +1/+1 counter on it."
+    }
+  ]
+}

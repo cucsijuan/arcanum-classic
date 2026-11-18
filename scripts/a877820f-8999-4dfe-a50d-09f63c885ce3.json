@@ -1,0 +1,15 @@
+{
+  "name": "Spock, Logical Choice",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{T}: Draw a card."
+    }
+  ]
+}

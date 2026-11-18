@@ -1,0 +1,5 @@
+{
+  "name": "Frenzied Baloth",
+  "yourCreatureSpellsCantBeCountered": true,
+  "combatDamageCantBePrevented": true
+}

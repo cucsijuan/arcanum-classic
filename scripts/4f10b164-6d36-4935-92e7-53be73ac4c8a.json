@@ -1,0 +1,27 @@
+{
+  "name": "Orbital Plunge",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 6,
+        "to": "target"
+      },
+      {
+        "if": {
+          "atLeast": "excessDamage",
+          "value": 1
+        },
+        "then": [
+          {
+            "tokens": 1,
+            "token": "Lander"
+          }
+        ]
+      }
+    ],
+    "text": "Orbital Plunge deals 6 damage to target creature. If excess damage was dealt this way, create a Lander token."
+  }
+}

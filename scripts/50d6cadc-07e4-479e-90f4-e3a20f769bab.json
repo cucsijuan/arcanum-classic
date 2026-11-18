@@ -1,0 +1,28 @@
+{
+  "name": "Susur Secundi, Void Altar",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{1}{B}, {T}, life:2, sacrificeAny:creature",
+            "sorcery": true,
+            "effects": [
+              {
+                "draw": "sacrificedPower"
+              }
+            ],
+            "text": "{1}{B}, {T}, Pay 2 life, Sacrifice a creature: Draw cards equal to the sacrificed creature's power. Activate only as a sorcery."
+          }
+        ]
+      },
+      "text": "12+ | {1}{B}, {T}, Pay 2 life, Sacrifice a creature: Draw cards equal to the sacrificed creature's power. Activate only as a sorcery."
+    }
+  ]
+}

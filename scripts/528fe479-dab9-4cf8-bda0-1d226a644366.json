@@ -1,0 +1,16 @@
+{
+  "name": "Kav Landseeker",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander",
+          "sacrificeAtEndStepOfYourNextTurn": true
+        }
+      ],
+      "text": "When this creature enters, create a Lander token. At the beginning of the end step on your next turn, sacrifice that token."
+    }
+  ]
+}

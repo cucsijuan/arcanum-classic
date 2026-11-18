@@ -1,0 +1,39 @@
+{
+  "name": "Lumen-Class Frigate",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          1,
+          1
+        ],
+        "while": {
+          "counters": 2,
+          "kind": "charge"
+        }
+      },
+      "text": "2+ | Other creatures you control get +1/+1."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Lifelink"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 3,
+        "setToughness": 5
+      },
+      "text": "12+ | Flying, lifelink"
+    }
+  ]
+}

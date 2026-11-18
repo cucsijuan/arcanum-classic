@@ -1,0 +1,39 @@
+{
+  "name": "The Dominion Bracelet",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +1/+1."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "grants": [
+          {
+            "cost": "{15}, exileGranter",
+            "costReductionFrom": {
+              "power": "self"
+            },
+            "sorcery": true,
+            "targets": [
+              "opponent"
+            ],
+            "effects": [
+              {
+                "controlPlayerNextTurn": "target"
+              }
+            ],
+            "text": "{15}, Exile The Dominion Bracelet: You control target opponent during their next turn. This ability costs {X} less to activate, where X is this creature's power. Activate only as a sorcery."
+          }
+        ]
+      },
+      "text": "Equipped creature has \"{15}, Exile The Dominion Bracelet: You control target opponent during their next turn. This ability costs {X} less to activate, where X is this creature's power. Activate only as a sorcery.\""
+    }
+  ]
+}

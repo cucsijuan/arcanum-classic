@@ -1,0 +1,27 @@
+{
+  "name": "Seam Rip",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "opponent",
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "maxManaValue": 2
+          },
+          "text": "target nonland permanent an opponent controls with mana value 2 or less"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this enchantment enters, exile target nonland permanent an opponent controls with mana value 2 or less until this enchantment leaves the battlefield."
+    }
+  ]
+}

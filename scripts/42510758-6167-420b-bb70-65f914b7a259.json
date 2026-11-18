@@ -1,0 +1,28 @@
+{
+  "name": "Decode Transmissions",
+  "spell": {
+    "effects": [
+      {
+        "if": "void",
+        "then": [
+          {
+            "draw": 2
+          },
+          {
+            "loseLife": 2,
+            "who": "opponents"
+          }
+        ],
+        "else": [
+          {
+            "draw": 2
+          },
+          {
+            "loseLife": 2
+          }
+        ]
+      }
+    ],
+    "text": "You draw two cards and lose 2 life.\nVoid — If a nonland permanent left the battlefield this turn or a spell was warped this turn, instead you draw two cards and each opponent loses 2 life."
+  }
+}

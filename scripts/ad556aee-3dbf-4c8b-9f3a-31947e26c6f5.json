@@ -1,0 +1,39 @@
+{
+  "name": "Pinnacle Kill-Ship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "damage": 10,
+          "to": "target"
+        }
+      ],
+      "text": "When this Spacecraft enters, it deals 10 damage to up to one target creature."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 7,
+        "setToughness": 7
+      },
+      "text": "7+ | Flying"
+    }
+  ]
+}

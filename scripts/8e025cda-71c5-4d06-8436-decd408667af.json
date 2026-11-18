@@ -1,0 +1,28 @@
+{
+  "name": "Mightform Harmonizer",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "pump": [
+            {
+              "power": "target"
+            },
+            0
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, double the power of target creature you control until end of turn.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

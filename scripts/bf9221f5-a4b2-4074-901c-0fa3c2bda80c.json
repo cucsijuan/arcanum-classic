@@ -15,14 +15,16 @@
           },
           "then": [
             {
-              "bounce": {
-                "choose": {
-                  "types": [
-                    "creature"
-                  ],
-                  "other": true
-                }
+              "choose": {
+                "types": [
+                  "creature"
+                ],
+                "other": true,
+                "controller": "you"
               }
+            },
+            {
+              "bounce": "chosen"
             },
             {
               "counters": 1,

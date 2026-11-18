@@ -1,0 +1,29 @@
+{
+  "name": "Shambling Vent",
+  "abilities": [
+    {
+      "cost": "{1}{W}{B}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 3,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "W",
+            "B"
+          ],
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{1}{W}{B}: Until end of turn, this land becomes a 2/3 white and black Elemental creature with lifelink. It's still a land."
+    }
+  ]
+}

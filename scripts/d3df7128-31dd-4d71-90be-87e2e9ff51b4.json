@@ -1,0 +1,23 @@
+{
+  "name": "Dust Bowl",
+  "abilities": [
+    {
+      "cost": "{3}, {T}, sacrificeAny:land",
+      "targets": [
+        {
+          "kind": "land",
+          "filter": {
+            "notSupertype": "basic"
+          },
+          "text": "target nonbasic land"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{3}, {T}, Sacrifice a land: Destroy target nonbasic land."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "Dawnsire, Sunstar Dreadnought",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 10,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "trigger": "youAttack",
+            "targets": [
+              {
+                "kind": "creatureOrPlaneswalker",
+                "optional": true,
+                "text": "up to one target creature or planeswalker"
+              }
+            ],
+            "effects": [
+              {
+                "damage": 100,
+                "to": "target"
+              }
+            ],
+            "text": "Whenever you attack, Dawnsire deals 100 damage to up to one target creature or planeswalker."
+          }
+        ]
+      },
+      "text": "10+ | Whenever you attack, Dawnsire deals 100 damage to up to one target creature or planeswalker."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 20,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 20,
+        "setToughness": 20
+      },
+      "text": "20+ | Flying"
+    }
+  ]
+}

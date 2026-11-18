@@ -1,0 +1,21 @@
+{
+  "name": "Terrain Generator",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "one": true,
+          "tapped": true
+        }
+      ],
+      "text": "{2}, {T}: You may put a basic land card from your hand onto the battlefield tapped."
+    }
+  ]
+}

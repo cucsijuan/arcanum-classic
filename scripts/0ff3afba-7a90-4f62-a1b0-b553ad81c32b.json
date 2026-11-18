@@ -1,0 +1,39 @@
+{
+  "name": "Zealous Display",
+  "spell": {
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      {
+        "if": {
+          "not": "yourTurn"
+        },
+        "then": [
+          {
+            "untap": {
+              "each": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Creatures you control get +2/+0 until end of turn. If it's not your turn, untap those creatures."
+  }
+}

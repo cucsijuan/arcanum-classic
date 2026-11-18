@@ -1,0 +1,40 @@
+{
+  "name": "Zero Point Ballad",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "maxToughnessX": true
+          }
+        }
+      },
+      {
+        "loseLife": "X"
+      },
+      {
+        "if": {
+          "atLeast": "X",
+          "value": 6
+        },
+        "then": [
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "to": "battlefield",
+            "anyGraveyard": true,
+            "amongDestroyed": true
+          }
+        ]
+      }
+    ],
+    "text": "Destroy all creatures with toughness X or less. You lose X life. If X is 6 or more, return a creature card put into a graveyard this way to the battlefield under your control."
+  }
+}

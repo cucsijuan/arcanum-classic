@@ -1,0 +1,23 @@
+{
+  "name": "Karn's Bastion",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{4}, {T}",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "{4}, {T}: Proliferate."
+    }
+  ]
+}

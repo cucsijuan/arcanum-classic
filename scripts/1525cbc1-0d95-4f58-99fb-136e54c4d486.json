@@ -1,0 +1,34 @@
+{
+  "name": "Unravel",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "if": {
+          "lessThan": [
+            "manaSpentOnTarget",
+            {
+              "manaValue": "target"
+            }
+          ]
+        },
+        "then": [
+          {
+            "counter": "target"
+          },
+          {
+            "draw": 1
+          }
+        ],
+        "else": [
+          {
+            "counter": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Counter target spell. If the amount of mana spent to cast that spell was less than its mana value, you draw a card."
+  }
+}

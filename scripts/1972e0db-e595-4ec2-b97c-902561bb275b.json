@@ -1,0 +1,29 @@
+{
+  "name": "Kavaron Harrier",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Pay {2}?",
+          "mana": "{2}",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Robot",
+                "types": "Artifact Creature — Robot",
+                "power": 2,
+                "toughness": 2
+              },
+              "tapped": true,
+              "attacking": true,
+              "sacrificeAtEndOfCombat": true
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may pay {2}. If you do, create a 2/2 colorless Robot artifact creature token that's tapped and attacking. Sacrifice that token at end of combat."
+    }
+  ]
+}

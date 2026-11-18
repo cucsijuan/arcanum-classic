@@ -1,0 +1,24 @@
+{
+  "name": "M'Ress, Crew Coordinator",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Officer",
+            "types": "Creature — Officer",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, create two 1/1 red Officer creature tokens."
+    }
+  ]
+}

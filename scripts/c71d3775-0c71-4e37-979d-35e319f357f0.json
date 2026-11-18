@@ -1,0 +1,17 @@
+{
+  "name": "Memorial Team Leader",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          1,
+          0
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, other creatures you control get +1/+0."
+    }
+  ]
+}

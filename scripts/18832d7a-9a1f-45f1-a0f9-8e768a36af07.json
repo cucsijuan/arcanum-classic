@@ -1,0 +1,21 @@
+{
+  "name": "Assault Drone",
+  "generated": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        }
+      },
+      "text": "Artifact creatures you control get +1/+0."
+    }
+  ]
+}

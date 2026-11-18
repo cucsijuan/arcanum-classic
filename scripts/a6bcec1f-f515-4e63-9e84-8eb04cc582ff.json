@@ -1,0 +1,61 @@
+{
+  "name": "The Seriema",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "creature"
+            ],
+            "supertype": "legendary"
+          },
+          "to": "hand",
+          "reveal": true
+        }
+      ],
+      "text": "When The Seriema enters, search your library for a legendary creature card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 5,
+        "setToughness": 5
+      },
+      "text": "7+ | Flying Other tapped legendary creatures you control have indestructible."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "tapped": true,
+          "supertype": "legendary"
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Indestructible"
+        ],
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        }
+      },
+      "text": "7+ | Other tapped legendary creatures you control have indestructible."
+    }
+  ]
+}

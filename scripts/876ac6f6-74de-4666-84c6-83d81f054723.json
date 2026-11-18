@@ -1,0 +1,30 @@
+{
+  "name": "Celestial Colonnade",
+  "abilities": [
+    {
+      "cost": "{3}{W}{U}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 4,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "W",
+            "U"
+          ],
+          "keywords": [
+            "Flying",
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "{3}{W}{U}: Until end of turn, this land becomes a 4/4 white and blue Elemental creature with flying and vigilance. It's still a land."
+    }
+  ]
+}

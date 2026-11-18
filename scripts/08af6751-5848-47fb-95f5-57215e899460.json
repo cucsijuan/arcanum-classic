@@ -1,0 +1,20 @@
+{
+  "name": "Weftwalking",
+  "firstSpellEachTurnFree": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "shuffleHandIntoLibrary": "you",
+          "withGraveyard": true
+        },
+        {
+          "draw": 7
+        }
+      ],
+      "text": "When this enchantment enters, if you cast it, shuffle your hand and graveyard into your library, then draw seven cards.",
+      "if": "wasCast"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Hymn of the Faller",
+  "spell": {
+    "effects": [
+      {
+        "surveil": 1
+      },
+      {
+        "draw": 1
+      },
+      {
+        "loseLife": 1
+      },
+      {
+        "if": "void",
+        "then": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ],
+    "text": "Surveil 1, then you draw a card and lose 1 life.\nVoid — If a nonland permanent left the battlefield this turn or a spell was warped this turn, draw another card."
+  }
+}

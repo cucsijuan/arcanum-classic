@@ -1,0 +1,47 @@
+{
+  "name": "Sprouting Goblin",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Plains"
+              },
+              {
+                "subtype": "Island"
+              },
+              {
+                "subtype": "Swamp"
+              },
+              {
+                "subtype": "Mountain"
+              },
+              {
+                "subtype": "Forest"
+              }
+            ]
+          },
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "When this creature enters, if it was kicked, search your library for a land card with a basic land type, reveal it, put it into your hand, then shuffle.",
+      "if": "kicked"
+    },
+    {
+      "cost": "{R}, {T}, sacrificeAny:land",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{R}, {T}, Sacrifice a land: Draw a card."
+    }
+  ]
+}

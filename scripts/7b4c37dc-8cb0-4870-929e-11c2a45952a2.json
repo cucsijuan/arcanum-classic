@@ -1,0 +1,36 @@
+{
+  "name": "Uthros Scanship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "discard": 1,
+          "who": "you"
+        }
+      ],
+      "text": "When this Spacecraft enters, draw two cards, then discard a card."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 4
+      },
+      "text": "8+ | Flying"
+    }
+  ]
+}

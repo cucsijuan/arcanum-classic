@@ -1,0 +1,20 @@
+{
+  "name": "Alpharael, Stonechosen",
+  "wardCost": {
+    "discard": 1,
+    "discardAtRandom": true
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "loseLife": "affectedHalfLife",
+          "who": "defendingPlayer"
+        }
+      ],
+      "text": "Void — Whenever Alpharael attacks, if a nonland permanent left the battlefield this turn or a spell was warped this turn, defending player loses half their life, rounded up.",
+      "if": "void"
+    }
+  ]
+}

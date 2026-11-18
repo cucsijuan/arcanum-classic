@@ -1,0 +1,21 @@
+{
+  "name": "Brightspear Zealot",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          2,
+          0
+        ],
+        "while": {
+          "atLeast": {
+            "spellsCast": {}
+          },
+          "value": 2
+        }
+      },
+      "text": "This creature gets +2/+0 as long as you've cast two or more spells this turn."
+    }
+  ]
+}

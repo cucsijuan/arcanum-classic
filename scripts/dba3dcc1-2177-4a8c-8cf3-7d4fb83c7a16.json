@@ -1,0 +1,44 @@
+{
+  "name": "Baloth Prime",
+  "entersTapped": true,
+  "entersWithCounters": 6,
+  "entersWithCounterKind": "stun",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "tokens": 1,
+          "tapped": true,
+          "token": {
+            "name": "Beast",
+            "types": "Creature — Beast",
+            "colors": [
+              "G"
+            ],
+            "power": 4,
+            "toughness": 4
+          }
+        },
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice a land, create a tapped 4/4 green Beast creature token and untap this creature.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    },
+    {
+      "cost": "{4}, sacrificeAny:land",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "{4}, Sacrifice a land: You gain 2 life."
+    }
+  ]
+}

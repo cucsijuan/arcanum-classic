@@ -1,0 +1,33 @@
+{
+  "name": "Biotech Specialist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature enters, create a Lander token."
+    },
+    {
+      "trigger": "youSacrifice",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": 2,
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you sacrifice an artifact, this creature deals 2 damage to target opponent.",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      }
+    }
+  ]
+}

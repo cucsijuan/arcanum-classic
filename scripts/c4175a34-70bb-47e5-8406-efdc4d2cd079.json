@@ -1,0 +1,20 @@
+{
+  "name": "Sami, Wildcat Captain",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "controller": "you"
+        },
+        "amount": {
+          "count": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      "text": "Spells you cast have affinity for artifacts. (They cost {1} less to cast for each artifact you control.)"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Lashwhip Predator",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "opponentsControlTotal": {
+        "types": [
+          "creature"
+        ]
+      },
+      "count": 3
+    }
+  },
+  "abilities": []
+}

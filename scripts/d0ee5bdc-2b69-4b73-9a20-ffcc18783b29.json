@@ -1,0 +1,9 @@
+{
+  "name": "Mana Confluence",
+  "extraMana": [
+    {
+      "types": "any",
+      "lifeCost": 1
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Lightstall Inquisitor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileFromHand": 1,
+          "who": "opponents",
+          "ownerMayPlay": true,
+          "playCostMore": 1,
+          "landsEnterTapped": true
+        }
+      ],
+      "text": "When this creature enters, each opponent exiles a card from their hand and may play that card for as long as it remains exiled. Each spell cast this way costs {1} more to cast. Each land played this way enters tapped."
+    }
+  ]
+}

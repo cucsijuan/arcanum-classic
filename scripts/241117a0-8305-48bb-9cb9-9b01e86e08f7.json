@@ -1,0 +1,15 @@
+{
+  "name": "Space-Time Anomaly",
+  "spell": {
+    "targets": [
+      "player"
+    ],
+    "effects": [
+      {
+        "mill": "life",
+        "who": "target"
+      }
+    ],
+    "text": "Target player mills cards equal to your life total."
+  }
+}

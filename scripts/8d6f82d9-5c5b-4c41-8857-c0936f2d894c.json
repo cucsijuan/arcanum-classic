@@ -1,0 +1,66 @@
+{
+  "name": "Hearthhull, the Worldseed",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 2,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{1}, {T}, sacrificeAny:land",
+            "effects": [
+              {
+                "draw": 2
+              },
+              {
+                "additionalLand": true
+              }
+            ],
+            "text": "{1}, {T}, Sacrifice a land: Draw two cards. You may play an additional land this turn."
+          }
+        ]
+      },
+      "text": "2+ | {1}, {T}, Sacrifice a land: Draw two cards. You may play an additional land this turn."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Vigilance",
+          "Haste"
+        ],
+        "grants": [
+          {
+            "trigger": "youSacrifice",
+            "filter": {
+              "types": [
+                "land"
+              ]
+            },
+            "effects": [
+              {
+                "loseLife": 2,
+                "who": "opponents"
+              }
+            ],
+            "text": "Whenever you sacrifice a land, each opponent loses 2 life."
+          }
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 6,
+        "setToughness": 7
+      },
+      "text": "8+ | Flying, vigilance, haste Whenever you sacrifice a land, each opponent loses 2 life."
+    }
+  ]
+}

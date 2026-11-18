@@ -1,0 +1,27 @@
+{
+  "name": "Mountain Valley",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Mountain"
+              },
+              {
+                "subtype": "Forest"
+              }
+            ]
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a Mountain or Forest card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

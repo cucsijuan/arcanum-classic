@@ -1,0 +1,38 @@
+1 Biotech Specialist
+1 Blooming Stinger
+1 Chrome Companion
+1 Edge Rover
+1 Eumidian Terrabotanist
+1 Frenzied Baloth
+1 Frontline War-Rager
+1 Fungal Colossus
+1 Galactic Wayfarer
+1 Gene Pollinator
+1 Glacier Godmaw
+1 Harmonious Grovestrider
+1 Hemosymbic Mite
+1 Icecave Crasher
+1 Icetill Explorer
+1 Intrepid Tenderfoot
+1 Kav Landseeker
+1 Kavaron Harrier
+1 Kavaron Turbodrone
+1 Lashwhip Predator
+1 Meltstrider Eulogist
+1 Molecular Modifier
+1 Bioengineered Future
+1 Biosynthic Burst
+1 Bombard
+1 Close Encounter
+1 Cut Propulsion
+1 Devastating Onslaught
+1 Diplomatic Relations
+1 Drill Too Deep
+1 Full Bore
+1 Invasive Maneuvers
+1 Lithobraking
+1 Melded Moxite
+1 Meltstrider's Gear
+1 Meltstrider's Resolve
+12 Mountain
+12 Forest

@@ -1,0 +1,21 @@
+{
+  "name": "Divert Disaster",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": "{2}",
+        "ifPaid": [
+          {
+            "tokens": 1,
+            "token": "Lander"
+          }
+        ]
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {2}. If they do, you create a Lander token."
+  }
+}

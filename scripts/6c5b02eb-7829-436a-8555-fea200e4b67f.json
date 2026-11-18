@@ -1,0 +1,12 @@
+{
+  "name": "Oracle of Mul Daya",
+  "replaces": [
+    "AdditionalLandPlay"
+  ],
+  "playWithTopCardRevealed": true,
+  "playFromLibraryTop": {
+    "types": [
+      "land"
+    ]
+  }
+}

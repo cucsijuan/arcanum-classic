@@ -1,0 +1,19 @@
+{
+  "name": "Gaze of Granite",
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "not": [
+              "land"
+            ],
+            "controller": "any",
+            "maxManaValueX": true
+          }
+        }
+      }
+    ],
+    "text": "Destroy each nonland permanent with mana value X or less."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Cascading Cataracts",
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "addManaCombination": 5
+        }
+      ],
+      "text": "{5}, {T}: Add five mana in any combination of colors."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Groundskeeper",
+  "abilities": [
+    {
+      "cost": "{1}{G}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "text": "target basic land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{G}: Return target basic land card from your graveyard to your hand."
+    }
+  ]
+}

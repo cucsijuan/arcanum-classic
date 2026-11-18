@@ -1,0 +1,25 @@
+{
+  "name": "Beyond the Quiet",
+  "spell": {
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "subtype": "Spacecraft"
+              }
+            ],
+            "controller": "any"
+          }
+        }
+      }
+    ],
+    "text": "Exile all creatures and Spacecraft."
+  }
+}

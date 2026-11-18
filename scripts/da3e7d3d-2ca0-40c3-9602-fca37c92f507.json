@@ -1,0 +1,35 @@
+{
+  "name": "Emry, Lurker of the Loch",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 4
+        }
+      ],
+      "text": "When Emry enters, mill four cards."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "text": "target artifact card in your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "castFromGraveyardThisTurn": "target"
+        }
+      ],
+      "text": "{T}: Choose target artifact card in your graveyard. You may cast that card this turn."
+    }
+  ]
+}

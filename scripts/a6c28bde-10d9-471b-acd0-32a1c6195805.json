@@ -1,0 +1,36 @@
+{
+  "name": "Swarm Culler",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature or artifact to draw a card?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                }
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you may sacrifice another creature or artifact. If you do, draw a card."
+    }
+  ]
+}

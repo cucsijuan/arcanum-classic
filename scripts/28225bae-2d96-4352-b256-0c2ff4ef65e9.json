@@ -1,0 +1,53 @@
+{
+  "name": "Syr Vondam, the Lucent",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever Syr Vondam enters or attacks, other creatures you control get +1/+0 and gain deathtouch until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever Syr Vondam enters or attacks, other creatures you control get +1/+0 and gain deathtouch until end of turn."
+    }
+  ]
+}

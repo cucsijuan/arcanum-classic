@@ -1,0 +1,43 @@
+{
+  "name": "Seedship Broodtender",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        }
+      ],
+      "text": "When this creature enters, mill three cards."
+    },
+    {
+      "cost": "{3}{B}{G}, sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "subtype": "Spacecraft"
+              }
+            ]
+          },
+          "text": "target creature or Spacecraft card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "{3}{B}{G}, Sacrifice this creature: Return target creature or Spacecraft card from your graveyard to the battlefield. Activate only as a sorcery."
+    }
+  ]
+}

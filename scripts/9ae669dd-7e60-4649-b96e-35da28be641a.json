@@ -1,0 +1,42 @@
+{
+  "name": "Korvold, Fae-Cursed King",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "text": "Whenever Korvold enters or attacks, sacrifice another permanent."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "text": "Whenever Korvold enters or attacks, sacrifice another permanent."
+    },
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you sacrifice a permanent, put a +1/+1 counter on Korvold and draw a card."
+    }
+  ]
+}

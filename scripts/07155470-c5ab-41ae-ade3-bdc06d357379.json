@@ -1,0 +1,24 @@
+{
+  "name": "Nanoform Sentinel",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "other": true
+          },
+          "text": "another target permanent"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, untap another target permanent. This ability triggers only once each turn.",
+      "oncePerTurn": true
+    }
+  ]
+}

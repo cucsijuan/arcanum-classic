@@ -1,0 +1,39 @@
+{
+  "name": "Wedgelight Rammer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When this Spacecraft enters, create a 2/2 colorless Robot artifact creature token."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 9,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "First strike"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 3,
+        "setToughness": 4
+      },
+      "text": "9+ | Flying, first strike"
+    }
+  ]
+}

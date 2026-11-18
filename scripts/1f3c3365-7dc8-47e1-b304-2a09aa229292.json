@@ -1,0 +1,33 @@
+{
+  "name": "Szarel, Genesis Shepherd",
+  "playLandsFromGraveyard": true,
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": {
+            "power": "self"
+          },
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you sacrifice another nontoken permanent during your turn, put a number of +1/+1 counters equal to Szarel's power on up to one other target creature.",
+      "filter": {
+        "other": true,
+        "token": false
+      },
+      "when": "yourTurn"
+    }
+  ]
+}

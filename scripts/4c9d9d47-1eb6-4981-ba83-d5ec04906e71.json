@@ -1,0 +1,62 @@
+{
+  "name": "Systems Override",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "gainControl": "target",
+        "untilEndOfTurn": true
+      },
+      {
+        "untap": "target"
+      },
+      {
+        "pump": [
+          0,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Haste"
+        ]
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "subtype": "Spacecraft"
+          }
+        },
+        "then": [
+          {
+            "counters": 10,
+            "kind": "charge",
+            "what": "target"
+          },
+          {
+            "atNextEndStepAbout": "target",
+            "effects": [
+              {
+                "removeCounters": 10,
+                "kind": "charge",
+                "what": "triggered"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Gain control of target artifact or creature until end of turn. Untap that permanent. It gains haste until end of turn. If it's a Spacecraft, put ten charge counters on it. If you do, remove ten charge counters from it at the beginning of the next end step."
+  }
+}

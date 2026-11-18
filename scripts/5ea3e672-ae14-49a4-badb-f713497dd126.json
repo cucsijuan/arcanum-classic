@@ -1,0 +1,25 @@
+{
+  "name": "Crystalline Crawler",
+  "entersWithCounters": "colorsSpentToCast",
+  "abilities": [
+    {
+      "cost": "removeCounters:1",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Remove a +1/+1 counter from this creature: Add one mana of any color."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{T}: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

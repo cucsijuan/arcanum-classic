@@ -1,0 +1,42 @@
+{
+  "name": "Scour for Scrap",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Search your library for an artifact card, reveal it, put it into your hand, then shuffle.",
+        "effects": [
+          {
+            "search": {
+              "types": [
+                "artifact"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "text": "Return target artifact card from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "text": "target artifact card from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

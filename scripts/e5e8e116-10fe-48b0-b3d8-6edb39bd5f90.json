@@ -1,0 +1,59 @@
+{
+  "name": "Alibou, Ancient Witness",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Other artifact creatures you control have haste."
+    },
+    {
+      "trigger": "youAttackWith",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "tapped": true
+            }
+          },
+          "to": "target"
+        },
+        {
+          "scry": {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "tapped": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever one or more artifact creatures you control attack, Alibou deals X damage to any target and you scry X, where X is the number of tapped artifacts you control.",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      }
+    }
+  ]
+}

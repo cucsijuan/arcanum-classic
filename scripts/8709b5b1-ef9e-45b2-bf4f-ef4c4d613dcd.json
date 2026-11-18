@@ -1,0 +1,27 @@
+{
+  "name": "Rocky Tar Pit",
+  "abilities": [
+    {
+      "cost": "{T}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "anyOf": [
+              {
+                "subtype": "Swamp"
+              },
+              {
+                "subtype": "Mountain"
+              }
+            ]
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "{T}, Sacrifice this land: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

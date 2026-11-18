@@ -1,0 +1,14 @@
+{
+  "name": "Power Depot",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "abilitiesToo": true
+    }
+  ]
+}

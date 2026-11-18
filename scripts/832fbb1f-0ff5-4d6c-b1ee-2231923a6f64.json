@@ -1,0 +1,26 @@
+{
+  "name": "Mouth of the Storm",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            -3,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "opponent"
+            }
+          },
+          "untilYourNextTurn": true
+        }
+      ],
+      "text": "When this creature enters, creatures your opponents control get -3/-0 until your next turn."
+    }
+  ]
+}

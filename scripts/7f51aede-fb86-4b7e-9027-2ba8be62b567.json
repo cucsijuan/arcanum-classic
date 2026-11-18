@@ -1,0 +1,13 @@
+{
+  "name": "Uthros Psionicist",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {},
+        "amount": 2,
+        "nth": 2
+      },
+      "text": "The second spell you cast each turn costs {2} less to cast."
+    }
+  ]
+}

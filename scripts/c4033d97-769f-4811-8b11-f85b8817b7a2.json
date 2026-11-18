@@ -1,0 +1,28 @@
+{
+  "name": "Endless Sands",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "{2}, {T}: Exile target creature you control."
+    },
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "effects": [
+        {
+          "returnExiledWithThis": true,
+          "to": "battlefield"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice this land: Return each creature card exiled with this land to the battlefield under its owner's control."
+    }
+  ]
+}

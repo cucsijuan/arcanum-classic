@@ -1,0 +1,50 @@
+{
+  "name": "Adagia, Windswept Bastion",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{3}{W}, {T}",
+            "sorcery": true,
+            "targets": [
+              {
+                "kind": "permanent",
+                "controller": "you",
+                "filter": {
+                  "anyOf": [
+                    {
+                      "types": [
+                        "artifact"
+                      ]
+                    },
+                    {
+                      "types": [
+                        "enchantment"
+                      ]
+                    }
+                  ]
+                },
+                "text": "target artifact or enchantment you control"
+              }
+            ],
+            "effects": [
+              {
+                "copy": "target",
+                "addLegendary": true
+              }
+            ],
+            "text": "{3}{W}, {T}: Create a token that's a copy of target artifact or enchantment you control, except it's legendary. Activate only as a sorcery."
+          }
+        ]
+      },
+      "text": "12+ | {3}{W}, {T}: Create a token that's a copy of target artifact or enchantment you control, except it's legendary. Activate only as a sorcery."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Lost in Space",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            }
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      },
+      {
+        "surveil": 1
+      }
+    ],
+    "text": "Target artifact or creature's owner puts it on their choice of the top or bottom of their library. Surveil 1."
+  }
+}

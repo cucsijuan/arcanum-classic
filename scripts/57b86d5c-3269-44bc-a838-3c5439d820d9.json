@@ -1,0 +1,39 @@
+{
+  "name": "Mirrorpool",
+  "abilities": [
+    {
+      "cost": "{2}{C}, {T}, sacrifice",
+      "targets": [
+        {
+          "kind": "spell",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "instant",
+              "sorcery"
+            ]
+          },
+          "text": "target instant or sorcery spell you control"
+        }
+      ],
+      "effects": [
+        {
+          "copySpell": "target"
+        }
+      ],
+      "text": "{2}{C}, {T}, Sacrifice this land: Copy target instant or sorcery spell you control. You may choose new targets for the copy."
+    },
+    {
+      "cost": "{4}{C}, {T}, sacrifice",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "{4}{C}, {T}, Sacrifice this land: Create a token that's a copy of target creature you control."
+    }
+  ]
+}

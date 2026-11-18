@@ -1,0 +1,30 @@
+{
+  "name": "Juri, Master of the Revue",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice a permanent, put a +1/+1 counter on Juri."
+    },
+    {
+      "trigger": "dies",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": {
+            "power": "self"
+          },
+          "to": "target"
+        }
+      ],
+      "text": "When Juri dies, it deals damage equal to its power to any target."
+    }
+  ]
+}

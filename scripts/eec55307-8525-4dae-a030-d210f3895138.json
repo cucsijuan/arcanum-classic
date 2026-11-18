@@ -1,0 +1,21 @@
+{
+  "name": "Sam Kirk, Xenoanthropologist",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "opponentCastsSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Whenever an opponent casts a creature spell, investigate."
+    }
+  ]
+}

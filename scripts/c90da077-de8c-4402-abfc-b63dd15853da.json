@@ -1,0 +1,19 @@
+{
+  "name": "Broodguard Elite",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "leaves",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "When this creature leaves the battlefield, put its counters on target creature you control."
+    }
+  ]
+}

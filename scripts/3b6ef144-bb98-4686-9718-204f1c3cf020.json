@@ -1,0 +1,25 @@
+{
+  "name": "Worldsoul's Rage",
+  "spell": {
+    "targets": [
+      "any"
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "target"
+      },
+      {
+        "putFromHand": {
+          "types": [
+            "land"
+          ]
+        },
+        "orGraveyard": true,
+        "upTo": "X",
+        "tapped": true
+      }
+    ],
+    "text": "Worldsoul's Rage deals X damage to any target. Put up to X land cards from your hand and/or graveyard onto the battlefield tapped."
+  }
+}

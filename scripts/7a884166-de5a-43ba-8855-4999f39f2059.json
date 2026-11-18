@@ -1,0 +1,14 @@
+{
+  "name": "Kilo, Apogee Mind",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever Kilo becomes tapped, proliferate."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mechan Shieldmate",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can attack as though it didn't have defender"
+        ],
+        "while": {
+          "enteredThisTurn": {
+            "types": [
+              "artifact"
+            ],
+            "controller": "you"
+          }
+        }
+      },
+      "text": "As long as an artifact entered the battlefield under your control this turn, this creature can attack as though it didn't have defender."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Tannuk, Steadfast Second",
+  "grantsWarp": {
+    "filter": {
+      "anyOf": [
+        {
+          "types": [
+            "artifact"
+          ]
+        },
+        {
+          "types": [
+            "creature"
+          ],
+          "colors": [
+            "R"
+          ]
+        }
+      ]
+    },
+    "cost": "{2}{R}"
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Other creatures you control have haste."
+    }
+  ]
+}

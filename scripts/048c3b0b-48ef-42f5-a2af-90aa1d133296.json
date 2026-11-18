@@ -1,0 +1,42 @@
+{
+  "name": "Atomic Microsizer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Equipped creature gets +1/+0."
+    },
+    {
+      "trigger": "equippedAttacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        },
+        {
+          "become": "target",
+          "power": 1,
+          "toughness": 1
+        }
+      ],
+      "text": "Whenever equipped creature attacks, choose up to one target creature. That creature can't be blocked this turn and has base power and toughness 1/1 until end of turn."
+    }
+  ]
+}

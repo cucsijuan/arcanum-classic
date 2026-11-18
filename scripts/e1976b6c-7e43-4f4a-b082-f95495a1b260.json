@@ -1,0 +1,30 @@
+{
+  "name": "Singularity Rupture",
+  "spell": {
+    "targets": [
+      {
+        "kind": "player",
+        "optional": true,
+        "anyNumber": true,
+        "text": "any number of target players"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "mill": "halfLibrary",
+        "who": "eachTarget"
+      }
+    ],
+    "text": "Destroy all creatures, then any number of target players each mill half their library, rounded down."
+  }
+}

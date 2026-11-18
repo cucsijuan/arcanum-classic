@@ -1,0 +1,41 @@
+{
+  "name": "Atmospheric Greenhouse",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When this Spacecraft enters, put a +1/+1 counter on each creature you control."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Trample"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 5,
+        "setToughness": 4
+      },
+      "text": "8+ | Flying, trample"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Cerebral Download",
+  "spell": {
+    "effects": [
+      {
+        "surveil": {
+          "count": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      {
+        "draw": 3
+      }
+    ],
+    "text": "Surveil X, where X is the number of artifacts you control. Then draw three cards."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Gene Pollinator",
+  "abilities": [
+    {
+      "cost": "{T}, tapPermanents:1",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}, Tap an untapped permanent you control: Add one mana of any color."
+    }
+  ]
+}

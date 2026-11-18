@@ -1,0 +1,78 @@
+{
+  "name": "Archenemy's Charm",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Exile target creature or planeswalker.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Return one or two target creature and/or planeswalker cards from your graveyard to your hand.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ]
+            },
+            "text": "target creature or planeswalker card from your graveyard"
+          },
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "optional": true,
+            "distinctFrom": 0,
+            "filter": {
+              "types": [
+                "creature",
+                "planeswalker"
+              ]
+            },
+            "text": "another target creature or planeswalker card from your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "bounce": "target"
+          },
+          {
+            "bounce": "target2"
+          }
+        ]
+      },
+      {
+        "text": "Put two +1/+1 counters on target creature you control. It gains lifelink until end of turn.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          },
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Lifelink"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

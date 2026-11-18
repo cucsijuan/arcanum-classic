@@ -1,0 +1,45 @@
+{
+  "name": "Moraug, Fury of Akoum",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          "affectedAttacksThisTurn",
+          0
+        ]
+      },
+      "text": "Each creature you control gets +1/+0 for each time it has attacked this turn."
+    },
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "additionalCombatAfterThisMain": true,
+          "atItsBeginning": {
+            "effects": [
+              {
+                "untap": {
+                  "each": {
+                    "types": [
+                      "creature"
+                    ],
+                    "controller": "you"
+                  }
+                }
+              }
+            ],
+            "text": "At the beginning of that combat, untap all creatures you control."
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, if it's your main phase, there's an additional combat phase after this phase. At the beginning of that combat, untap all creatures you control.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "if": "yourMainPhase"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Universal Surveillance",
+  "spell": {
+    "effects": [
+      {
+        "draw": "X"
+      }
+    ],
+    "text": "Draw X cards."
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "name": "Loamcrafter Faun",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discardAnyNumber": true,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "atLeast": {
+                "discarded": {}
+              },
+              "value": 1
+            },
+            "amount": {
+              "discarded": {}
+            },
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "filter": {
+                  "types": [
+                    "artifact",
+                    "creature",
+                    "enchantment",
+                    "planeswalker",
+                    "battle"
+                  ],
+                  "not": [
+                    "land"
+                  ]
+                },
+                "optional": true,
+                "upTo": "triggerAmount",
+                "text": "up to that many target nonland permanent cards from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "bounce": "eachTarget"
+              }
+            ],
+            "text": "Return up to that many target nonland permanent cards from your graveyard to your hand."
+          }
+        }
+      ],
+      "text": "When this creature enters, you may discard one or more land cards. When you do, return up to that many target nonland permanent cards from your graveyard to your hand."
+    }
+  ]
+}

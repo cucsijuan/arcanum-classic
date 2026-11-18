@@ -1,0 +1,37 @@
+{
+  "name": "Moxite Refinery",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, removeXCountersFrom:artifact|creature",
+      "sorcery": true,
+      "text": "{2}, {T}, Remove X counters from an artifact or creature you control: Choose one. Activate only as a sorcery.",
+      "modes": [
+        {
+          "text": "Put X charge counters on target artifact.",
+          "targets": [
+            "artifact"
+          ],
+          "effects": [
+            {
+              "counters": "X",
+              "kind": "charge",
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "Put X +1/+1 counters on target creature.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "counters": "X",
+              "what": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

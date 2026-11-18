@@ -1,0 +1,19 @@
+{
+  "name": "Burgeoning",
+  "abilities": [
+    {
+      "trigger": "opponentPlaysLand",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "one": true
+        }
+      ],
+      "text": "Whenever an opponent plays a land, you may put a land card from your hand onto the battlefield."
+    }
+  ]
+}

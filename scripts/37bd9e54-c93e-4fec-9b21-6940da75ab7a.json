@@ -1,0 +1,73 @@
+{
+  "name": "Pull Through the Weft",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "upTo": 2,
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "planeswalker"
+              ]
+            },
+            {
+              "types": [
+                "battle"
+              ]
+            }
+          ],
+          "not": [
+            "land"
+          ]
+        },
+        "text": "up to two target nonland permanent cards from your graveyard"
+      },
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "upTo": 2,
+        "filter": {
+          "types": [
+            "land"
+          ]
+        },
+        "text": "up to two target land cards from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "bounce": "target"
+      },
+      {
+        "bounce": "target2"
+      },
+      {
+        "reanimate": "target3",
+        "tapped": true
+      },
+      {
+        "reanimate": "target4",
+        "tapped": true
+      }
+    ],
+    "text": "Return up to two target nonland permanent cards from your graveyard to your hand, then return up to two target land cards from your graveyard to the battlefield tapped."
+  }
+}

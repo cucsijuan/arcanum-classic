@@ -1,0 +1,28 @@
+{
+  "name": "Bioengineered Future",
+  "othersEnterWithCounters": {
+    "enteredThisTurn": {
+      "types": [
+        "land"
+      ]
+    },
+    "evenIfGone": true
+  },
+  "othersEnterFilter": {
+    "types": [
+      "creature"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this enchantment enters, create a Lander token."
+    }
+  ]
+}

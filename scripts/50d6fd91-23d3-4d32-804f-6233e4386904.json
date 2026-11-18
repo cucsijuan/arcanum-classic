@@ -1,0 +1,24 @@
+{
+  "name": "Ouroboroid",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "counters": {
+            "power": "self"
+          },
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put X +1/+1 counters on each creature you control, where X is this creature's power."
+    }
+  ]
+}

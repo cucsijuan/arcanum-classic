@@ -1,0 +1,34 @@
+{
+  "name": "Survey Mechan",
+  "abilities": [
+    {
+      "cost": "{10}, sacrifice",
+      "costReductionFrom": {
+        "differentlyNamed": {
+          "types": [
+            "land"
+          ]
+        }
+      },
+      "targets": [
+        "any",
+        "player"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        },
+        {
+          "draw": 3,
+          "who": "target2"
+        },
+        {
+          "gainLife": 3,
+          "who": "target2"
+        }
+      ],
+      "text": "{10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control."
+    }
+  ]
+}

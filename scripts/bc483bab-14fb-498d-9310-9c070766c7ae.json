@@ -1,0 +1,34 @@
+{
+  "name": "Darksteel Reactor",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "may": "Put a charge counter on this artifact?",
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "charge",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your upkeep, you may put a charge counter on this artifact."
+    },
+    {
+      "trigger": "state",
+      "effects": [
+        {
+          "winGame": true
+        }
+      ],
+      "text": "When this artifact has twenty or more charge counters on it, you win the game.",
+      "when": {
+        "counters": 20,
+        "kind": "charge"
+      }
+    }
+  ]
+}

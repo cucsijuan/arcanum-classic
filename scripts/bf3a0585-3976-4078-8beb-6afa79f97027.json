@@ -1,0 +1,43 @@
+{
+  "name": "Genemorph Imago",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "if": {
+            "control": {
+              "types": [
+                "land"
+              ]
+            },
+            "count": 6
+          },
+          "then": [
+            {
+              "become": "target",
+              "power": 6,
+              "toughness": 6
+            }
+          ],
+          "else": [
+            {
+              "become": "target",
+              "power": 3,
+              "toughness": 3
+            }
+          ]
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, target creature has base power and toughness 3/3 until end of turn. If you control six or more lands, that creature has base power and toughness 6/6 until end of turn instead.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

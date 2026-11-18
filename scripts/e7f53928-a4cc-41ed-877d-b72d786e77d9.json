@@ -1,0 +1,33 @@
+{
+  "name": "Famished Worldsire",
+  "devour": 3,
+  "devourFilter": {
+    "types": [
+      "land"
+    ]
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "lookAtTop": {
+            "power": "self"
+          },
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "take": {
+            "power": "self"
+          },
+          "to": "battlefield",
+          "tapped": true,
+          "rest": "shuffle"
+        }
+      ],
+      "text": "When this creature enters, look at the top X cards of your library, where X is this creature's power. Put any number of land cards from among them onto the battlefield tapped, then shuffle."
+    }
+  ]
+}

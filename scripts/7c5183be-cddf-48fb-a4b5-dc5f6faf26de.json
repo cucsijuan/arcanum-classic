@@ -1,0 +1,22 @@
+{
+  "name": "Cloudsculpt Technician",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          1,
+          0
+        ],
+        "while": {
+          "control": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      "text": "As long as you control an artifact, this creature gets +1/+0."
+    }
+  ]
+}

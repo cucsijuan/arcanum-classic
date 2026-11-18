@@ -1,0 +1,33 @@
+{
+  "name": "Biomechan Engineer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature enters, create a Lander token."
+    },
+    {
+      "cost": "{8}",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "{8}: Draw two cards and create a 2/2 colorless Robot artifact creature token."
+    }
+  ]
+}

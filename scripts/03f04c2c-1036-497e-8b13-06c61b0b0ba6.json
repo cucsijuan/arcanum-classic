@@ -1,0 +1,24 @@
+{
+  "name": "Territorial Bruntar",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "revealUntil": {
+            "not": [
+              "land"
+            ]
+          },
+          "castThisTurn": true
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, exile cards from the top of your library until you exile a nonland card. You may cast that card this turn.",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Experimental Augury",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 3,
+        "take": 1,
+        "required": true,
+        "restAnyOrder": true
+      },
+      {
+        "proliferate": true
+      }
+    ],
+    "text": "Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. Proliferate."
+  }
+}

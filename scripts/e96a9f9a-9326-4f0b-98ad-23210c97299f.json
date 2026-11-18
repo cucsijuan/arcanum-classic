@@ -1,0 +1,16 @@
+{
+  "name": "Savvy Profiteer",
+  "generated": true,
+  "abilities": [
+    {
+      "cost": "{3}, {T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{3}, {T}: Create a Treasure token."
+    }
+  ]
+}

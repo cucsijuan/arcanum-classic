@@ -36,12 +36,14 @@
           ],
           "else": [
             {
-              "counters": 1,
-              "what": {
-                "choose": {
-                  "subtype": "Snail"
-                }
+              "choose": {
+                "subtype": "Snail",
+                "controller": "you"
               }
+            },
+            {
+              "counters": 1,
+              "what": "chosen"
             }
           ]
         }

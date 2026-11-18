@@ -1,0 +1,39 @@
+{
+  "name": "Susurian Dirgecraft",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "token": false
+          }
+        }
+      ],
+      "text": "When this Spacecraft enters, each opponent sacrifices a nontoken creature of their choice."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 7,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 3
+      },
+      "text": "7+ | Flying"
+    }
+  ]
+}

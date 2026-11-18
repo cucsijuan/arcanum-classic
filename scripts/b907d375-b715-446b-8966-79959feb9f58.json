@@ -1,0 +1,16 @@
+{
+  "name": "Edge Rover",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander",
+          "for": "everyone"
+        }
+      ],
+      "text": "When this creature dies, each player creates a Lander token."
+    }
+  ]
+}

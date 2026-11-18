@@ -1,0 +1,33 @@
+{
+  "name": "Cryoshatter",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          -5,
+          0
+        ]
+      },
+      "text": "Enchanted creature gets -5/-0."
+    },
+    {
+      "trigger": "attachedBecomesTapped",
+      "effects": [
+        {
+          "destroy": "triggered"
+        }
+      ],
+      "text": "When enchanted creature becomes tapped or is dealt damage, destroy it."
+    },
+    {
+      "trigger": "attachedDealtDamage",
+      "effects": [
+        {
+          "destroy": "triggered"
+        }
+      ],
+      "text": "When enchanted creature becomes tapped or is dealt damage, destroy it."
+    }
+  ]
+}

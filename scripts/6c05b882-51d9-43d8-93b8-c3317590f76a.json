@@ -1,0 +1,24 @@
+{
+  "name": "Mm'menon, Uthros Exile",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever an artifact you control enters, put a +1/+1 counter on target creature.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      }
+    }
+  ]
+}

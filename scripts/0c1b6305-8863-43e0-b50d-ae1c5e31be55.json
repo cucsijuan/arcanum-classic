@@ -1,0 +1,40 @@
+{
+  "name": "Comet Crawler",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another creature or artifact to give this creature +2/+0?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                }
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "pump": [
+                2,
+                0
+              ],
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may sacrifice another creature or artifact. If you do, this creature gets +2/+0 until end of turn."
+    }
+  ]
+}

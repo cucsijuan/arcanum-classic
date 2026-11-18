@@ -1,0 +1,25 @@
+{
+  "name": "Shuttle Crew",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "opponent",
+          "kind": "creature",
+          "filter": {
+            "tapped": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "damage": 4,
+          "to": "target"
+        }
+      ],
+      "text": "When this creature enters, it deals 4 damage to target tapped creature an opponent controls."
+    }
+  ]
+}

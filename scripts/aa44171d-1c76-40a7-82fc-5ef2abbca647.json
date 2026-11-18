@@ -1,0 +1,15 @@
+{
+  "name": "Patrolling Peacemaker",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "opponentCommitsCrime",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever an opponent commits a crime, proliferate."
+    }
+  ]
+}

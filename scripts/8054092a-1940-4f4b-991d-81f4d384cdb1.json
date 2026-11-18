@@ -1,0 +1,28 @@
+{
+  "name": "Hardlight Containment",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield."
+    },
+    {
+      "static": {
+        "affects": "enchanted",
+        "pump": [
+          0,
+          0
+        ],
+        "grantsWard": "{1}"
+      },
+      "text": "Enchanted permanent has ward {1}."
+    }
+  ]
+}

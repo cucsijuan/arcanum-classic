@@ -1,0 +1,48 @@
+{
+  "name": "Blinkmoth Nexus",
+  "abilities": [
+    {
+      "cost": "{1}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 1,
+          "toughness": 1,
+          "addTypes": [
+            "artifact",
+            "creature"
+          ],
+          "addSubtypes": [
+            "Blinkmoth"
+          ],
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "{1}: This land becomes a 1/1 Blinkmoth artifact creature with flying until end of turn. It's still a land."
+    },
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "subtype": "Blinkmoth"
+          },
+          "text": "target Blinkmoth creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{1}, {T}: Target Blinkmoth creature gets +1/+1 until end of turn."
+    }
+  ]
+}

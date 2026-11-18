@@ -1,0 +1,14 @@
+{
+  "name": "Tezzeret's Gambit",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      },
+      {
+        "proliferate": true
+      }
+    ],
+    "text": "Draw two cards, then proliferate."
+  }
+}

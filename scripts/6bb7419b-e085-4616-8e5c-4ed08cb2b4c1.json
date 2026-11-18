@@ -1,0 +1,21 @@
+{
+  "name": "Skystinger",
+  "abilities": [
+    {
+      "trigger": "blocksCreature",
+      "effects": [
+        {
+          "pump": [
+            5,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever this creature blocks a creature with flying, this creature gets +5/+0 until end of turn.",
+      "filter": {
+        "keyword": "Flying"
+      }
+    }
+  ]
+}

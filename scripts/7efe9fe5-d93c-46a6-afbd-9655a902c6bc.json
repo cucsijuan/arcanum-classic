@@ -1,0 +1,14 @@
+{
+  "name": "Vote Out",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target creature."
+  }
+}

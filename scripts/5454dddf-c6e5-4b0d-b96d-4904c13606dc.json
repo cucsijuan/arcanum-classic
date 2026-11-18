@@ -1,0 +1,32 @@
+{
+  "name": "Starport Security",
+  "abilities": [
+    {
+      "cost": "{3}{W}, {T}",
+      "costReductionIf": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "hasCounterKind": "+1/+1"
+        }
+      },
+      "costReductionAmount": 2,
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{3}{W}, {T}: Tap another target creature. This ability costs {2} less to activate if you control a creature with a +1/+1 counter on it."
+    }
+  ]
+}

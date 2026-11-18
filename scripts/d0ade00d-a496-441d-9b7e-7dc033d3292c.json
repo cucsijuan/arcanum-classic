@@ -1,0 +1,50 @@
+{
+  "name": "Titania, Protector of Argoth",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target"
+        }
+      ],
+      "text": "When Titania enters, return target land card from your graveyard to the battlefield."
+    },
+    {
+      "trigger": "permanentDies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Elemental",
+            "types": "Creature — Elemental",
+            "colors": [
+              "G"
+            ],
+            "power": 5,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "Whenever a land you control is put into a graveyard from the battlefield, create a 5/3 green Elemental creature token.",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "controller": "you"
+      }
+    }
+  ]
+}

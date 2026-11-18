@@ -1,0 +1,32 @@
+{
+  "name": "Command Decision",
+  "generated": true,
+  "spell": {
+    "modes": [
+      {
+        "text": "Destroy target creature with power 4 or greater.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "minPower": 4
+            }
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Draw a card.",
+        "effects": [
+          {
+            "draw": 1
+          }
+        ]
+      }
+    ]
+  }
+}

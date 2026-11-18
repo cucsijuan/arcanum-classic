@@ -1,0 +1,29 @@
+{
+  "name": "Illvoi Infiltrator",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ],
+        "while": {
+          "atLeast": {
+            "spellsCast": {}
+          },
+          "value": 2
+        }
+      },
+      "text": "This creature can't be blocked if you've cast two or more spells this turn."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, draw a card."
+    }
+  ]
+}

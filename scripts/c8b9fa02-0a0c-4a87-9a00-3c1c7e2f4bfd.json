@@ -1,0 +1,77 @@
+{
+  "name": "Warping Wail",
+  "spell": {
+    "modes": [
+      {
+        "text": "Exile target creature with power or toughness 1 or less.",
+        "targets": [
+          {
+            "kind": "creature",
+            "filter": {
+              "anyOf": [
+                {
+                  "maxPower": 1
+                },
+                {
+                  "maxToughness": 1
+                }
+              ]
+            },
+            "text": "target creature with power or toughness 1 or less"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          }
+        ]
+      },
+      {
+        "text": "Counter target sorcery spell.",
+        "targets": [
+          {
+            "kind": "spell",
+            "filter": {
+              "types": [
+                "sorcery"
+              ]
+            },
+            "text": "target sorcery spell"
+          }
+        ],
+        "effects": [
+          {
+            "counter": "target"
+          }
+        ]
+      },
+      {
+        "text": "Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this token: Add {C}.\"",
+        "effects": [
+          {
+            "tokens": 1,
+            "token": {
+              "name": "Eldrazi Scion",
+              "types": "Creature — Eldrazi Scion",
+              "power": 1,
+              "toughness": 1,
+              "colors": [],
+              "abilities": [
+                {
+                  "cost": "sacrifice",
+                  "effects": [
+                    {
+                      "addMana": "{C}"
+                    }
+                  ],
+                  "text": "Sacrifice this token: Add {C}."
+                }
+              ],
+              "text": "Sacrifice this token: Add {C}."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

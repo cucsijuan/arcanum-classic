@@ -1,0 +1,71 @@
+{
+  "name": "Gavel of the Righteous",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a charge counter on this Equipment."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "counters": "any"
+          },
+          {
+            "counters": "any"
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 for each counter on this Equipment."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike"
+        ],
+        "while": {
+          "counters": 4,
+          "kind": "any"
+        }
+      },
+      "text": "As long as this Equipment has four or more counters on it, equipped creature has double strike."
+    },
+    {
+      "cost": "{3}",
+      "costOptions": [
+        {
+          "cost": "{3}",
+          "label": "Pay {3}"
+        },
+        {
+          "cost": "removeCounterFrom:self",
+          "label": "Remove a counter from this Equipment"
+        }
+      ],
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip—Pay {3} or remove a counter from this Equipment."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Beamsaw Prospector",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Lander"
+        }
+      ],
+      "text": "When this creature dies, create a Lander token."
+    }
+  ]
+}

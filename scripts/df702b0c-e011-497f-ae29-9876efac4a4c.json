@@ -1,0 +1,16 @@
+{
+  "name": "Moonlit Meditation",
+  "aura": {
+    "kind": "permanent",
+    "controller": "you",
+    "filter": {
+      "types": [
+        "artifact",
+        "creature"
+      ]
+    },
+    "text": "artifact or creature you control"
+  },
+  "firstTokensCopyEnchanted": true,
+  "abilities": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Annul",
+  "spell": {
+    "targets": [
+      {
+        "kind": "spell",
+        "filter": {
+          "types": [
+            "artifact",
+            "enchantment"
+          ]
+        },
+        "text": "target artifact or enchantment spell"
+      }
+    ],
+    "effects": [
+      {
+        "counter": "target"
+      }
+    ],
+    "text": "Counter target artifact or enchantment spell."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "Radiant Strike",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "tapped": true
+            }
+          ]
+        },
+        "text": "target artifact or tapped creature"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "gainLife": 3
+      }
+    ],
+    "text": "Destroy target artifact or tapped creature. You gain 3 life."
+  }
+}

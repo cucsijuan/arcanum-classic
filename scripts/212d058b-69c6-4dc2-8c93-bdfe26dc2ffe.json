@@ -1,0 +1,33 @@
+{
+  "name": "Hammer of Purphoros",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ]
+      },
+      "text": "Creatures you control have haste."
+    },
+    {
+      "cost": "{2}{R}, {T}, sacrificeAny:land",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Golem",
+            "types": "Enchantment Artifact Creature — Golem",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "{2}{R}, {T}, Sacrifice a land: Create a 3/3 colorless Golem enchantment artifact creature token."
+    }
+  ]
+}

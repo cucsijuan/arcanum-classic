@@ -1,0 +1,21 @@
+{
+  "name": "Meltstrider Eulogist",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with a +1/+1 counter on it dies, draw a card.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "hasCounterKind": "+1/+1"
+      }
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Sliver Overlord",
+  "abilities": [
+    {
+      "cost": "{3}",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Sliver"
+          },
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{3}: Search your library for a Sliver card, reveal that card, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{3}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "subtype": "Sliver"
+          },
+          "text": "target Sliver"
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target"
+        }
+      ],
+      "text": "{3}: Gain control of target Sliver."
+    }
+  ]
+}

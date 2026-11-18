@@ -1,0 +1,25 @@
+{
+  "name": "Starwinder",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Draw that many cards?",
+          "effects": [
+            {
+              "draw": "triggerAmount"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a creature you control deals combat damage to a player, you may draw that many cards.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      }
+    }
+  ]
+}

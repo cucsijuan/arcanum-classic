@@ -1,0 +1,38 @@
+{
+  "name": "Tal Shiar Operative",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "modes": [
+        {
+          "text": "Target creature you control gains deathtouch until end of turn.",
+          "targets": [
+            "creature:you"
+          ],
+          "effects": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Deathtouch"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Surveil 1.",
+          "effects": [
+            {
+              "surveil": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks choose one —"
+    }
+  ]
+}

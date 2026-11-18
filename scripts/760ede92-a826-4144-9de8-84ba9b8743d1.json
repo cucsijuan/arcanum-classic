@@ -1,0 +1,63 @@
+{
+  "name": "Sothera, the Supervoid",
+  "abilities": [
+    {
+      "trigger": "creatureDies",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "choose": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              }
+            },
+            {
+              "exile": "chosen",
+              "linked": true
+            }
+          ],
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever a creature you control dies, each opponent chooses a creature they control and exiles it.",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      }
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        },
+        {
+          "chooseOneOf": {
+            "exiledWithThis": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        },
+        {
+          "reanimate": "found",
+          "counters": 2
+        }
+      ],
+      "text": "At the beginning of your end step, if a player controls no creatures, sacrifice Sothera, then put a creature card exiled with it onto the battlefield under your control with two additional +1/+1 counters on it.",
+      "if": {
+        "aPlayerControlsNone": {
+          "types": [
+            "creature"
+          ]
+        }
+      }
+    }
+  ]
+}

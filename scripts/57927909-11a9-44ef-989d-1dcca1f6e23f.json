@@ -1,0 +1,23 @@
+{
+  "name": "Flight-Deck Coordinator",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "At the beginning of your end step, if you control two or more tapped creatures, you gain 2 life.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "tapped": true
+        },
+        "count": 2
+      }
+    }
+  ]
+}

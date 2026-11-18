@@ -1,0 +1,48 @@
+{
+  "name": "Sunstar Chaplain",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on target creature you control.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "tapped": true
+        },
+        "count": 2
+      }
+    },
+    {
+      "cost": "{2}, removePlusOneCounterFrom:creature",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "target artifact or creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        }
+      ],
+      "text": "{2}, Remove a +1/+1 counter from a creature you control: Tap target artifact or creature."
+    }
+  ]
+}

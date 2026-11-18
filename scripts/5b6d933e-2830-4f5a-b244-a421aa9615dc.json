@@ -1,0 +1,42 @@
+{
+  "name": "Eumidian Hatchery",
+  "abilities": [
+    {
+      "cost": "{T}, life:1",
+      "effects": [
+        {
+          "addMana": "{B}"
+        },
+        {
+          "counters": 1,
+          "kind": "hatchling",
+          "what": "self"
+        }
+      ],
+      "text": "{T}, Pay 1 life: Add {B}. Put a hatchling counter on this land."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "tokens": {
+            "counters": "hatchling"
+          },
+          "token": {
+            "name": "Insect",
+            "types": "Creature — Insect",
+            "colors": [
+              "B"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "When this land is put into a graveyard from the battlefield, for each hatchling counter on it, create a 1/1 black Insect creature token with flying."
+    }
+  ]
+}

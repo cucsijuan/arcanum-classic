@@ -1,0 +1,48 @@
+{
+  "name": "Haliya, Ascendant Cadet",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Haliya enters or attacks, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Haliya enters or attacks, put a +1/+1 counter on target creature you control."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more creatures you control with +1/+1 counters on them deal combat damage to a player, draw a card.",
+      "batchedPerPlayer": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "hasCounterKind": "+1/+1"
+      }
+    }
+  ]
+}

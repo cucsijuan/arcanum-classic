@@ -1,0 +1,32 @@
+{
+  "name": "Dawnstrike Vanguard",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, if you control two or more tapped creatures, put a +1/+1 counter on each creature you control other than this creature.",
+      "if": {
+        "control": {
+          "types": [
+            "creature"
+          ],
+          "tapped": true
+        },
+        "count": 2
+      }
+    }
+  ]
+}

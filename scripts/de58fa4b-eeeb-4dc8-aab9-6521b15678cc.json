@@ -1,0 +1,28 @@
+{
+  "name": "Mm'menon, the Right Hand",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "castFromLibraryTop": {
+    "types": [
+      "artifact"
+    ]
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "grantsMana": "{U}",
+        "grantsManaOnlyFor": {
+          "notCastFromHand": true
+        }
+      },
+      "text": "Artifacts you control have \"{T}: Add {U}. Spend this mana only to cast a spell from anywhere other than your hand.\""
+    }
+  ]
+}

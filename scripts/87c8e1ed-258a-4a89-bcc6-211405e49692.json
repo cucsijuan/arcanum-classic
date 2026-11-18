@@ -1,0 +1,26 @@
+{
+  "name": "Command Bridge",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "unless": "you",
+          "options": [
+            {
+              "tap": {},
+              "tapCount": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "sacrificeIt": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this land enters, sacrifice it unless you tap an untapped permanent you control."
+    }
+  ]
+}

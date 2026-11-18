@@ -1,0 +1,32 @@
+{
+  "name": "The Endstone",
+  "abilities": [
+    {
+      "trigger": "youPlayLand",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you play a land or cast a spell, draw a card."
+    },
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you play a land or cast a spell, draw a card."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "lifeBecomes": "halfStartingLife"
+        }
+      ],
+      "text": "At the beginning of your end step, your life total becomes half your starting life total, rounded up."
+    }
+  ]
+}

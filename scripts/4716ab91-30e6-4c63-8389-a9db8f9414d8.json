@@ -1,0 +1,17 @@
+{
+  "name": "Tekuthal, Inquiry Dominus",
+  "proliferateTwice": true,
+  "abilities": [
+    {
+      "cost": "{1}{U/P}{U/P}, removeCountersFromAmong:3:artifact|creature|planeswalker:other",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "indestructible",
+          "what": "self"
+        }
+      ],
+      "text": "{1}{U/P}{U/P}, Remove three counters from among other artifacts, creatures, and planeswalkers you control: Put an indestructible counter on Tekuthal."
+    }
+  ]
+}

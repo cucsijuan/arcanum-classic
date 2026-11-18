@@ -1,0 +1,41 @@
+{
+  "name": "Lavaclaw Reaches",
+  "abilities": [
+    {
+      "cost": "{1}{B}{R}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 2,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "B",
+            "R"
+          ],
+          "abilities": [
+            {
+              "cost": "{X}",
+              "effects": [
+                {
+                  "pump": [
+                    "X",
+                    0
+                  ],
+                  "what": "self"
+                }
+              ],
+              "text": "{X}: This creature gets +X/+0 until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "{1}{B}{R}: Until end of turn, this land becomes a 2/2 black and red Elemental creature with \"{X}: This creature gets +X/+0 until end of turn.\" It's still a land."
+    }
+  ]
+}

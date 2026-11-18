@@ -1,0 +1,14 @@
+{
+  "name": "Eldrazi Temple",
+  "extraMana": [
+    {
+      "types": "{C}",
+      "amount": 2,
+      "onlyFor": {
+        "colorless": true,
+        "subtype": "Eldrazi"
+      },
+      "abilitiesToo": true
+    }
+  ]
+}

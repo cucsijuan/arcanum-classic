@@ -1,0 +1,27 @@
+{
+  "name": "Dark Endurance",
+  "costReduction": {
+    "amount": 1,
+    "ifTargets": {
+      "blocking": true
+    }
+  },
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "pump": [
+          2,
+          0
+        ],
+        "what": "target",
+        "keywords": [
+          "Indestructible"
+        ]
+      }
+    ],
+    "text": "Target creature gets +2/+0 and gains indestructible until end of turn."
+  }
+}

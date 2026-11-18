@@ -1,0 +1,28 @@
+{
+  "name": "Lux Cannon",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "counters": 1,
+          "kind": "charge",
+          "what": "self"
+        }
+      ],
+      "text": "{T}: Put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}, removeCounters:3:charge",
+      "targets": [
+        "permanent"
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{T}, Remove three charge counters from this artifact: Destroy target permanent."
+    }
+  ]
+}

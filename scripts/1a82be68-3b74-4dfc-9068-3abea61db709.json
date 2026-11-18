@@ -1,0 +1,48 @@
+{
+  "name": "Fell Gravship",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mill": 3
+        },
+        {
+          "returnFromGraveyard": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "subtype": "Spacecraft"
+              }
+            ]
+          },
+          "count": 1
+        }
+      ],
+      "text": "When this Spacecraft enters, mill three cards, then return a creature or Spacecraft card from your graveyard to your hand."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 8,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying",
+          "Lifelink"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 3,
+        "setToughness": 2
+      },
+      "text": "8+ | Flying, lifelink"
+    }
+  ]
+}

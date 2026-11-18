@@ -1,0 +1,30 @@
+{
+  "name": "Terrapact Intimidator",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "may": "Have them create two Lander tokens? (If you don't, two +1/+1 counters go on their creature.)",
+          "who": "target",
+          "effects": [
+            {
+              "tokens": 2,
+              "token": "Lander"
+            }
+          ],
+          "else": [
+            {
+              "counters": 2,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, target opponent may have you create two Lander tokens. If they don't, put two +1/+1 counters on this creature."
+    }
+  ]
+}

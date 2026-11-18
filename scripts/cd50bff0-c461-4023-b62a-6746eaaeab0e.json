@@ -1,0 +1,45 @@
+{
+  "name": "Chorale of the Void",
+  "abilities": [
+    {
+      "trigger": "enchantedAttacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "controlledByDefendingPlayer": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from defending player's graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever enchanted creature attacks, put target creature card from defending player's graveyard onto the battlefield under your control tapped and attacking."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "if": {
+            "not": "void"
+          },
+          "then": [
+            {
+              "sacrificeIt": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Void — At the beginning of your end step, sacrifice this Aura unless a nonland permanent left the battlefield this turn or a spell was warped this turn."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Needle Spires",
+  "abilities": [
+    {
+      "cost": "{2}{R}{W}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 2,
+          "toughness": 1,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Elemental"
+          ],
+          "setColors": [
+            "R",
+            "W"
+          ],
+          "keywords": [
+            "Double strike"
+          ]
+        }
+      ],
+      "text": "{2}{R}{W}: Until end of turn, this land becomes a 2/1 red and white Elemental creature with double strike. It's still a land."
+    }
+  ]
+}

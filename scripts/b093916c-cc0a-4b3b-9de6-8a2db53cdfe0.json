@@ -1,0 +1,33 @@
+{
+  "name": "Dominion Assault Force",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Exile target card from a graveyard.",
+          "targets": [
+            {
+              "kind": "graveyardCard"
+            }
+          ],
+          "effects": [
+            {
+              "exile": "target"
+            }
+          ]
+        },
+        {
+          "text": "Surveil 1.",
+          "effects": [
+            {
+              "surveil": 1
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters choose one —"
+    }
+  ]
+}

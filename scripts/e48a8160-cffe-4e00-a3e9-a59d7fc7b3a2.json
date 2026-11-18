@@ -1,0 +1,40 @@
+{
+  "name": "Weapons Manufacturing",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Munitions",
+            "types": "Artifact",
+            "abilities": [
+              {
+                "trigger": "leaves",
+                "targets": [
+                  "any"
+                ],
+                "effects": [
+                  {
+                    "damage": 2,
+                    "to": "target"
+                  }
+                ],
+                "text": "When this token leaves the battlefield, it deals 2 damage to any target."
+              }
+            ]
+          }
+        }
+      ],
+      "text": "Whenever a nontoken artifact you control enters, create a colorless artifact token named Munitions with \"When this token leaves the battlefield, it deals 2 damage to any target.\"",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you",
+        "token": false
+      }
+    }
+  ]
+}

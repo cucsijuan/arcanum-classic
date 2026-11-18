@@ -1,0 +1,34 @@
+{
+  "name": "Dyadrine, Synthesis Amalgam",
+  "entersWithCounters": "manaSpentOnThis",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "mayPay": "Remove a +1/+1 counter from each of two creatures you control to draw a card and create a Robot?",
+          "cost": {
+            "removeCountersFromCreatures": 2,
+            "removeCountersKind": "+1/+1",
+            "removeCountersFromDifferent": true
+          },
+          "effects": [
+            {
+              "draw": 1
+            },
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Robot",
+                "types": "Artifact Creature — Robot",
+                "power": 2,
+                "toughness": 2
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, you may remove a +1/+1 counter from each of two creatures you control. If you do, draw a card and create a 2/2 colorless Robot artifact creature token."
+    }
+  ]
+}

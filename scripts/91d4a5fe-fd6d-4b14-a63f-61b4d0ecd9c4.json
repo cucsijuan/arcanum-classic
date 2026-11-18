@@ -1,0 +1,45 @@
+{
+  "name": "Inventors' Fair",
+  "abilities": [
+    {
+      "trigger": "upkeep",
+      "if": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "count": 3
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "At the beginning of your upkeep, if you control three or more artifacts, you gain 1 life."
+    },
+    {
+      "cost": "{4}, {T}, sacrifice",
+      "activateIf": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "count": 3
+      },
+      "effects": [
+        {
+          "search": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "reveal": true,
+          "to": "hand"
+        }
+      ],
+      "text": "{4}, {T}, Sacrifice Inventors' Fair: Search your library for an artifact card, reveal it, put it into your hand, then shuffle. Activate only if you control three or more artifacts."
+    }
+  ]
+}

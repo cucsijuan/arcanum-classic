@@ -1,0 +1,14 @@
+{
+  "name": "Pentad Prism",
+  "abilities": [
+    {
+      "cost": "removeCounters:1:charge",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "Remove a charge counter from this artifact: Add one mana of any color."
+    }
+  ]
+}

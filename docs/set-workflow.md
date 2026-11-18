@@ -72,7 +72,7 @@ ARCANUM_MODULE_PATH=$PWD ARCANUM_BOOSTER_SET=<code> \
 ```
 
 `ARCANUM_MODULE_PATH` must be absolute. The tests in this section and in section 9 find the card data by themselves: the game's
-card data for this module version (the game must have been started once with that version). `ARCANUM_CARD_FILE` overrides it.
+card data for this module version (the game must have been started once with that version). `ARCANUM_CARD_FILE` overrides it; when the manifest version is bumped before the game has cached that version's card data, point it at the previous version's cards file.
 
 ## 5. Scenes
 

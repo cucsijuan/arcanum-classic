@@ -1,0 +1,37 @@
+{
+  "name": "Auxiliary Boosters",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        },
+        {
+          "attach": "self",
+          "to": "created"
+        }
+      ],
+      "text": "When this Equipment enters, create a 2/2 colorless Robot artifact creature token and attach this Equipment to it."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          2
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature gets +1/+2 and has flying."
+    }
+  ]
+}

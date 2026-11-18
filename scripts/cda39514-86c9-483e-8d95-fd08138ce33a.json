@@ -1,0 +1,58 @@
+{
+  "name": "Infinite Guideline Station",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "multicolored": true
+            }
+          },
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          },
+          "tapped": true
+        }
+      ],
+      "text": "When Infinite Guideline Station enters, create a tapped 2/2 colorless Robot artifact creature token for each multicolored permanent you control."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "draw": {
+                  "count": {
+                    "multicolored": true
+                  }
+                }
+              }
+            ],
+            "text": "Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control."
+          }
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 7,
+        "setToughness": 15
+      },
+      "text": "12+ | Flying Whenever Infinite Guideline Station attacks, draw a card for each multicolored permanent you control."
+    }
+  ]
+}

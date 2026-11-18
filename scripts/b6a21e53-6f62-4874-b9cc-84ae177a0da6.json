@@ -1,0 +1,31 @@
+{
+  "name": "Saru, Unthreatened",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "controller": "you",
+          "kind": "creature",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof"
+          ]
+        }
+      ],
+      "text": "When Saru, Unthreatened enters, another target creature you control gains hexproof until end of turn."
+    }
+  ]
+}

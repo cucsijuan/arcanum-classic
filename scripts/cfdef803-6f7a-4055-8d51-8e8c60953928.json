@@ -1,0 +1,27 @@
+{
+  "name": "Cha'DIch Investigator",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Klingon Warrior",
+            "types": "Creature — Klingon Warrior",
+            "power": 2,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ],
+            "keywords": [
+              "Haste"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/1 red Klingon Warrior creature token with haste."
+    }
+  ]
+}

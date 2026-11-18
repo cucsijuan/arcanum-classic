@@ -1,0 +1,14 @@
+{
+  "name": "Crystal Quarry",
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "addMana": "{W}{U}{B}{R}{G}"
+        }
+      ],
+      "text": "{5}, {T}: Add {W}{U}{B}{R}{G}."
+    }
+  ]
+}

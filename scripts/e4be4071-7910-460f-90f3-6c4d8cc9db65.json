@@ -1,0 +1,46 @@
+{
+  "name": "Alpharael, Dreaming Acolyte",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "unless": "you",
+          "options": [
+            {
+              "discard": 1,
+              "discardFilter": {
+                "types": [
+                  "artifact"
+                ]
+              }
+            }
+          ],
+          "otherwise": [
+            {
+              "discard": 2
+            }
+          ]
+        }
+      ],
+      "text": "When Alpharael enters, draw two cards. Then discard two cards unless you discard an artifact card."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "During your turn, Alpharael has deathtouch."
+    }
+  ]
+}

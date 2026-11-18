@@ -1,0 +1,5 @@
+{
+  "name": "Watery Grave",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

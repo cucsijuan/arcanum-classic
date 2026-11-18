@@ -1,0 +1,43 @@
+{
+  "name": "Lux Artillery",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "gainSunburst": "triggered"
+        }
+      ],
+      "text": "Whenever you cast an artifact creature spell, it gains sunburst.",
+      "filter": {
+        "allTypes": [
+          "artifact",
+          "creature"
+        ]
+      }
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "damage": 10,
+          "to": "opponents"
+        }
+      ],
+      "text": "At the beginning of your end step, if there are thirty or more counters among artifacts and creatures you control, this artifact deals 10 damage to each opponent.",
+      "if": {
+        "atLeast": {
+          "countersAmong": {
+            "types": [
+              "artifact",
+              "creature"
+            ],
+            "controller": "you"
+          },
+          "kind": "any"
+        },
+        "value": 30
+      }
+    }
+  ]
+}

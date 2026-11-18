@@ -1,0 +1,28 @@
+{
+  "name": "Mechan Assembler",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "Whenever another artifact you control enters, create a 2/2 colorless Robot artifact creature token. This ability triggers only once each turn.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "oncePerTurn": true
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Syndicate Liquidators",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "counters": 2,
+          "what": "target"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put two +1/+1 counters on target creature you control."
+    }
+  ]
+}

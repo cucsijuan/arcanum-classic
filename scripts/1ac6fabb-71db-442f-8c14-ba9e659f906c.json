@@ -1,0 +1,30 @@
+{
+  "name": "Chrome Companion",
+  "abilities": [
+    {
+      "trigger": "becomesTapped",
+      "effects": [
+        {
+          "gainLife": 1
+        }
+      ],
+      "text": "Whenever this creature becomes tapped, you gain 1 life."
+    },
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "toLibrary": "target",
+          "bottom": true
+        }
+      ],
+      "text": "{2}, {T}: Put target card from a graveyard on the bottom of its owner's library."
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "name": "Sacred Foundry",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

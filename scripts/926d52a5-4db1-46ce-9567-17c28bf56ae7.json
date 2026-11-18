@@ -1,0 +1,23 @@
+{
+  "name": "Weftstalker Ardent",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "damage": 1,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever another creature or artifact you control enters, this creature deals 1 damage to each opponent.",
+      "filter": {
+        "types": [
+          "creature",
+          "artifact"
+        ],
+        "controller": "you",
+        "other": true
+      }
+    }
+  ]
+}

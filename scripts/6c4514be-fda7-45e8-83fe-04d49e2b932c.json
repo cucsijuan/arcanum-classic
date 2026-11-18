@@ -1,0 +1,39 @@
+{
+  "name": "Focus Fire",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "inCombat": true
+        },
+        "text": "target attacking or blocking creature"
+      }
+    ],
+    "effects": [
+      {
+        "damage": {
+          "sum": [
+            2,
+            {
+              "count": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "creature"
+                    ]
+                  },
+                  {
+                    "subtype": "Spacecraft"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "to": "target"
+      }
+    ],
+    "text": "Focus Fire deals X damage to target attacking or blocking creature, where X is 2 plus the number of creatures and/or Spacecraft you control."
+  }
+}

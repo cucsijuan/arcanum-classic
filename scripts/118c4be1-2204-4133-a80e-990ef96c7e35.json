@@ -1,0 +1,41 @@
+{
+  "name": "Lithobraking",
+  "spell": {
+    "effects": [
+      {
+        "tokens": 1,
+        "token": "Lander"
+      },
+      {
+        "mayPay": "Sacrifice an artifact to deal 2 damage to each creature?",
+        "cost": {
+          "sacrifice": {
+            "types": [
+              "artifact"
+            ]
+          }
+        },
+        "effects": [
+          {
+            "whenYouDo": {
+              "effects": [
+                {
+                  "damage": 2,
+                  "to": {
+                    "each": {
+                      "types": [
+                        "creature"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "text": "When you do, Lithobraking deals 2 damage to each creature."
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Create a Lander token. Then you may sacrifice an artifact. When you do, Lithobraking deals 2 damage to each creature."
+  }
+}

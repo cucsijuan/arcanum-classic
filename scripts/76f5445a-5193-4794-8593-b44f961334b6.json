@@ -1,0 +1,50 @@
+{
+  "name": "Ragost, Deft Gastronaut",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "addSubtypes": [
+          "Food"
+        ],
+        "grants": [
+          {
+            "cost": "{2}, {T}, sacrifice",
+            "effects": [
+              {
+                "gainLife": 3
+              }
+            ],
+            "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+          }
+        ]
+      },
+      "text": "Artifacts you control are Foods in addition to their other types and have \"{2}, {T}, Sacrifice this artifact: You gain 3 life.\""
+    },
+    {
+      "cost": "{1}, {T}, sacrificeAny:Food",
+      "effects": [
+        {
+          "damage": 3,
+          "to": "opponents"
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice a Food: Ragost deals 3 damage to each opponent."
+    },
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "untap": "self"
+        }
+      ],
+      "text": "At the beginning of each end step, if you gained life this turn, untap Ragost.",
+      "if": "gainedLife"
+    }
+  ]
+}

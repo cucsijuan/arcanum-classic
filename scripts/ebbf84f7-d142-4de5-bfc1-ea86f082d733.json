@@ -1,0 +1,24 @@
+{
+  "name": "Possibility Technician",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "exileTopPlayable": 1,
+          "forever": true,
+          "while": {
+            "control": {
+              "subtype": "Kavu"
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature or another Kavu you control enters, exile the top card of your library. For as long as that card remains exiled, you may play it if you control a Kavu.",
+      "filter": {
+        "subtype": "Kavu",
+        "controller": "you"
+      }
+    }
+  ]
+}

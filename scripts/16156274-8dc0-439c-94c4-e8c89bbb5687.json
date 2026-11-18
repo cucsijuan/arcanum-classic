@@ -1,0 +1,19 @@
+{
+  "name": "Loading Zone",
+  "doublesCountersOnYour": {
+    "anyOf": [
+      {
+        "types": [
+          "creature"
+        ]
+      },
+      {
+        "subtype": "Spacecraft"
+      },
+      {
+        "subtype": "Planet"
+      }
+    ]
+  },
+  "abilities": []
+}

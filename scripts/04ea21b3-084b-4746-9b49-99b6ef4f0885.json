@@ -1,0 +1,41 @@
+{
+  "name": "Thrumming Hivepool",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "subtype": "Sliver"
+    }
+  },
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Sliver",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Double strike",
+          "Haste"
+        ]
+      },
+      "text": "Slivers you control have double strike and haste."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "tokens": 2,
+          "token": {
+            "name": "Sliver",
+            "types": "Creature — Sliver",
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "At the beginning of your upkeep, create two 1/1 colorless Sliver creature tokens."
+    }
+  ]
+}

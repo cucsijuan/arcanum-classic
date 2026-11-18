@@ -1,0 +1,5 @@
+{
+  "name": "Stomping Ground",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

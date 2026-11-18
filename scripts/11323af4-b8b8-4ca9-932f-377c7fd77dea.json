@@ -1,0 +1,30 @@
+{
+  "name": "The Eternity Elevator",
+  "tapForMana": "{C}",
+  "manaAmount": 3,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 20,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{T}",
+            "effects": [
+              {
+                "addManaOneColor": {
+                  "counters": "charge"
+                }
+              }
+            ],
+            "text": "{T}: Add X mana of any one color, where X is the number of charge counters on The Eternity Elevator."
+          }
+        ]
+      },
+      "text": "20+ | {T}: Add X mana of any one color, where X is the number of charge counters on The Eternity Elevator."
+    }
+  ]
+}

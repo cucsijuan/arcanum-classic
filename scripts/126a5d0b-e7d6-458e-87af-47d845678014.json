@@ -1,0 +1,49 @@
+{
+  "name": "Cyberdrive Awakener",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Other artifact creatures you control have flying."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "become": {
+            "each": {
+              "types": [
+                "artifact"
+              ],
+              "controller": "you",
+              "not": [
+                "creature"
+              ]
+            }
+          },
+          "power": 4,
+          "toughness": 4,
+          "addTypes": [
+            "artifact",
+            "creature"
+          ]
+        }
+      ],
+      "text": "When this creature enters, each noncreature artifact you control becomes a 4/4 artifact creature until end of turn."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "Evendo, Waking Haven",
+  "entersTapped": true,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "cost": "{G}, {T}",
+            "effects": [
+              {
+                "addMana": "{G}",
+                "times": {
+                  "count": {
+                    "types": [
+                      "creature"
+                    ]
+                  }
+                }
+              }
+            ],
+            "text": "{G}, {T}: Add {G} for each creature you control."
+          }
+        ]
+      },
+      "text": "12+ | {G}, {T}: Add {G} for each creature you control."
+    }
+  ]
+}

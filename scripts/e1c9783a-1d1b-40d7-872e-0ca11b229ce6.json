@@ -1,0 +1,74 @@
+{
+  "name": "Uthros Research Craft",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 3,
+          "kind": "charge"
+        },
+        "grants": [
+          {
+            "trigger": "castSpell",
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "effects": [
+              {
+                "draw": 1
+              },
+              {
+                "counters": 1,
+                "kind": "charge",
+                "what": "self"
+              }
+            ],
+            "text": "Whenever you cast an artifact spell, draw a card. Put a charge counter on this Spacecraft."
+          }
+        ]
+      },
+      "text": "3+ | Whenever you cast an artifact spell, draw a card. Put a charge counter on this Spacecraft."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 0,
+        "setToughness": 8
+      },
+      "text": "12+ | Flying This Spacecraft gets +1/+0 for each artifact you control."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          0
+        ],
+        "while": {
+          "counters": 12,
+          "kind": "charge"
+        }
+      },
+      "text": "12+ | Flying This Spacecraft gets +1/+0 for each artifact you control."
+    }
+  ]
+}

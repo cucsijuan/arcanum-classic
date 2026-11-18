@@ -1,0 +1,25 @@
+{
+  "name": "Mindless Automaton",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "cost": "{1}, discard:1",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{1}, Discard a card: Put a +1/+1 counter on this creature."
+    },
+    {
+      "cost": "removeCounters:2",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Remove two +1/+1 counters from this creature: Draw a card."
+    }
+  ]
+}

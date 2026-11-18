@@ -1,0 +1,32 @@
+{
+  "name": "Wurmwall Sweeper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "surveil": 2
+        }
+      ],
+      "text": "When this Spacecraft enters, surveil 2."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 4,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 2,
+        "setToughness": 2
+      },
+      "text": "4+ | Flying"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Oreplate Pangolin",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "mayPay": "Pay {1} to put a +1/+1 counter on this creature?",
+          "mana": "{1}",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another artifact you control enters, you may pay {1}. If you do, put a +1/+1 counter on this creature.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you",
+        "other": true
+      }
+    }
+  ]
+}

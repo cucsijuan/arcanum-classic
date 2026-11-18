@@ -1,0 +1,14 @@
+{
+  "name": "Fungal Colossus",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": {
+      "differentlyNamed": {
+        "types": [
+          "land"
+        ]
+      }
+    }
+  },
+  "abilities": []
+}

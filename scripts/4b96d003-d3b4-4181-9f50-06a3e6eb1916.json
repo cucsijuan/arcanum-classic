@@ -1,0 +1,39 @@
+{
+  "name": "Full Bore",
+  "spell": {
+    "targets": [
+      "creature:you"
+    ],
+    "effects": [
+      {
+        "pump": [
+          3,
+          2
+        ],
+        "what": "target"
+      },
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "castForWarp": true
+          }
+        },
+        "then": [
+          {
+            "pump": [
+              0,
+              0
+            ],
+            "what": "target",
+            "keywords": [
+              "Trample",
+              "Haste"
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Target creature you control gets +3/+2 until end of turn. If that creature was cast for its warp cost, it also gains trample and haste until end of turn."
+  }
+}

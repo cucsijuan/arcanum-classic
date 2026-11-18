@@ -1,0 +1,29 @@
+{
+  "name": "Evendo Brushrazer",
+  "castExiledWithThis": {
+    "filter": {},
+    "yourTurn": true,
+    "play": true,
+    "while": {
+      "sacrificedThisTurn": {
+        "token": false
+      }
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "filter": {
+        "token": false,
+        "controller": "any"
+      },
+      "effects": [
+        {
+          "exileTop": 1,
+          "linked": true
+        }
+      ],
+      "text": "Whenever you sacrifice a nontoken permanent, exile the top card of your library."
+    }
+  ]
+}

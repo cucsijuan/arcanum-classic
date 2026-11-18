@@ -1,0 +1,13 @@
+{
+  "name": "Echoing Deeps",
+  "entersAsCopy": {
+    "types": [
+      "land"
+    ]
+  },
+  "entersAsCopyFromGraveyards": true,
+  "entersTappedAsCopy": true,
+  "entersAsCopyAddSubtypes": [
+    "Cave"
+  ]
+}

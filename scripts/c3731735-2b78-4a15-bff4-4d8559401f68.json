@@ -1,0 +1,21 @@
+{
+  "name": "Sunset Saboteur",
+  "wardCost": {
+    "discard": 1
+  },
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, put a +1/+1 counter on target creature an opponent controls."
+    }
+  ]
+}

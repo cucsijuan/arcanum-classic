@@ -1,0 +1,31 @@
+{
+  "name": "Lightless Evangel",
+  "abilities": [
+    {
+      "trigger": "youSacrifice",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you sacrifice another creature or artifact, put a +1/+1 counter on this creature.",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "types": [
+              "artifact"
+            ]
+          }
+        ],
+        "other": true,
+        "controller": "any"
+      }
+    }
+  ]
+}

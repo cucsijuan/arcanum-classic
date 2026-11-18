@@ -1,0 +1,35 @@
+{
+  "name": "Honored Knight-Captain",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Human Soldier",
+            "types": "Creature — Human Soldier",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 1/1 white Human Soldier creature token."
+    },
+    {
+      "cost": "{4}{W}{W}, sacrifice",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Equipment"
+          },
+          "to": "battlefield"
+        }
+      ],
+      "text": "{4}{W}{W}, Sacrifice this creature: Search your library for an Equipment card, put it onto the battlefield, then shuffle."
+    }
+  ]
+}

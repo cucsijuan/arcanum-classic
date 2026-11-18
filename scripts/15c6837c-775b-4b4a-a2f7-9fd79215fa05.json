@@ -1,0 +1,29 @@
+{
+  "name": "Gravkill",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "subtype": "Spacecraft"
+            }
+          ]
+        },
+        "text": "target creature or Spacecraft"
+      }
+    ],
+    "effects": [
+      {
+        "exile": "target"
+      }
+    ],
+    "text": "Exile target creature or Spacecraft."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "name": "Specimen Freighter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "notSubtype": "Spacecraft"
+          },
+          "text": "up to two target non-Spacecraft creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "notSubtype": "Spacecraft"
+          },
+          "text": "up to two target non-Spacecraft creatures"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "eachTarget"
+        }
+      ],
+      "text": "When this Spacecraft enters, return up to two target non-Spacecraft creatures to their owners' hands.",
+      "targetRule": "allDifferent"
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 9,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "grants": [
+          {
+            "trigger": "attacks",
+            "effects": [
+              {
+                "mill": 4,
+                "who": "defendingPlayer"
+              }
+            ],
+            "text": "Whenever this Spacecraft attacks, defending player mills four cards."
+          }
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 4,
+        "setToughness": 7
+      },
+      "text": "9+ | Flying Whenever this Spacecraft attacks, defending player mills four cards."
+    }
+  ]
+}

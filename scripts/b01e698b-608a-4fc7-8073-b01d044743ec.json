@@ -1,0 +1,20 @@
+{
+  "name": "Thespian's Stage",
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        "land"
+      ],
+      "effects": [
+        {
+          "becomeCopy": "self",
+          "target": "target",
+          "lasting": true,
+          "keepThisAbility": true
+        }
+      ],
+      "text": "{2}, {T}: This land becomes a copy of target land, except it has this ability."
+    }
+  ]
+}

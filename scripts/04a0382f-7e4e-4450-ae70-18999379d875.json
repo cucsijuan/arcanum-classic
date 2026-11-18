@@ -1,0 +1,23 @@
+{
+  "name": "Nutrient Block",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    },
+    {
+      "trigger": "putIntoGraveyard",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact is put into a graveyard from the battlefield, draw a card."
+    }
+  ]
+}

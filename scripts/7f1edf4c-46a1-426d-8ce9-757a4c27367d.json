@@ -1,0 +1,14 @@
+{
+  "name": "Slagdrill Scrapper",
+  "abilities": [
+    {
+      "cost": "{2}, {T}, sacrifice:artifact|land",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice another artifact or land: Draw a card."
+    }
+  ]
+}

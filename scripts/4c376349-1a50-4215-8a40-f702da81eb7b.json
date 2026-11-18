@@ -1,0 +1,30 @@
+{
+  "name": "Invasive Maneuvers",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "if": {
+          "control": {
+            "subtype": "Spacecraft"
+          }
+        },
+        "then": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ],
+        "else": [
+          {
+            "damage": 3,
+            "to": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Invasive Maneuvers deals 3 damage to target creature. It deals 5 damage instead if you control a Spacecraft."
+  }
+}

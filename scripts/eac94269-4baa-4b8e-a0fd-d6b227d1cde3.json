@@ -1,0 +1,14 @@
+{
+  "name": "Thrummingbird",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "proliferate": true
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, proliferate."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Eumidian Wastewaker",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "discardOrSacrifice": [
+            "you",
+            "defendingPlayer"
+          ]
+        },
+        {
+          "draw": {
+            "putIntoGraveyardThisWay": {
+              "types": [
+                "land"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "Whenever this creature attacks, you and defending player each discard a card or sacrifice a permanent. You draw a card for each land card put into a graveyard this way."
+    }
+  ]
+}

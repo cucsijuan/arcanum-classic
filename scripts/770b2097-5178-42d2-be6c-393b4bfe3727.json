@@ -1,0 +1,25 @@
+{
+  "name": "Steelswarm Operator",
+  "extraMana": [
+    {
+      "types": "{U}",
+      "amount": 1,
+      "onlyFor": {
+        "types": [
+          "artifact"
+        ]
+      }
+    },
+    {
+      "types": "{U}",
+      "amount": 2,
+      "onlyFor": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "abilitiesToo": true,
+      "abilitiesOnly": true
+    }
+  ]
+}

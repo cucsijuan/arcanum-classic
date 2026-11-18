@@ -1,0 +1,26 @@
+{
+  "name": "Neelix, Moral Support",
+  "generated": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When Neelix, Moral Support enters, create a Food token."
+    },
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on Neelix, Moral Support."
+    }
+  ]
+}

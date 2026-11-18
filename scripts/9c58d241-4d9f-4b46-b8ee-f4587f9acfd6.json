@@ -1,0 +1,44 @@
+{
+  "name": "Plaza of Heroes",
+  "extraMana": [
+    {
+      "types": "any",
+      "onlyFor": {
+        "supertype": "legendary"
+      }
+    },
+    {
+      "colorsAmong": {
+        "supertype": "legendary"
+      }
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{3}, {T}, exile",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "supertype": "legendary"
+          },
+          "text": "target legendary creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Hexproof",
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{3}, {T}, Exile this land: Target legendary creature gains hexproof and indestructible until end of turn."
+    }
+  ]
+}

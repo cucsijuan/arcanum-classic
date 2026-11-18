@@ -1,0 +1,12 @@
+{
+  "name": "Ripples of Potential",
+  "spell": {
+    "effects": [
+      {
+        "proliferate": true,
+        "thenPhaseOutChosen": true
+      }
+    ],
+    "text": "Proliferate, then choose any number of permanents you control that had a counter put on them this way. Those permanents phase out."
+  }
+}

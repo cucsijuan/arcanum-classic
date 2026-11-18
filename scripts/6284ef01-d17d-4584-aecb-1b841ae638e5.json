@@ -1,0 +1,6 @@
+{
+  "name": "Deafening Silence",
+  "rules": [
+    "EachPlayerOneNoncreatureSpellPerTurn"
+  ]
+}

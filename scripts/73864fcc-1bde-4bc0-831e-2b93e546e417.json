@@ -1,0 +1,5 @@
+{
+  "name": "Godless Shrine",
+  "chooseOnEnter": "payLifeOrTapped",
+  "enterLife": 2
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Golem Foundry",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "may": "Put a charge counter on this artifact?",
+          "effects": [
+            {
+              "counters": 1,
+              "kind": "charge",
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast an artifact spell, you may put a charge counter on this artifact.",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      }
+    },
+    {
+      "cost": "removeCounters:3:charge",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Golem",
+            "types": "Artifact Creature — Golem",
+            "power": 3,
+            "toughness": 3
+          }
+        }
+      ],
+      "text": "Remove three charge counters from this artifact: Create a 3/3 colorless Golem artifact creature token."
+    }
+  ]
+}

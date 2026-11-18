@@ -1,0 +1,23 @@
+{
+  "name": "Temporal Intervention",
+  "costReduction": {
+    "amount": 2,
+    "if": "void"
+  },
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "not": [
+            "land"
+          ]
+        }
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose a nonland card from it. That player discards that card."
+  }
+}

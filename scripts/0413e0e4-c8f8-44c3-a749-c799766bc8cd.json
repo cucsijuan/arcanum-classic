@@ -1,0 +1,46 @@
+{
+  "name": "Drill Too Deep",
+  "spell": {
+    "modes": [
+      {
+        "text": "Put five charge counters on target Spacecraft or Planet you control.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "controller": "you",
+            "filter": {
+              "anyOf": [
+                {
+                  "subtype": "Spacecraft"
+                },
+                {
+                  "subtype": "Planet"
+                }
+              ]
+            },
+            "text": "target Spacecraft or Planet you control"
+          }
+        ],
+        "effects": [
+          {
+            "counters": 5,
+            "kind": "charge",
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Choose one —"
+  }
+}

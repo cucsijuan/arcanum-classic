@@ -1,0 +1,29 @@
+{
+  "name": "Scout for Survivors",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "upTo": 3,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "text": "up to three target creature cards with total mana value 3 or less from your graveyard"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "eachTarget"
+      },
+      {
+        "counters": 1,
+        "what": "enteredThisWay"
+      }
+    ],
+    "text": "Return up to three target creature cards with total mana value 3 or less from your graveyard to the battlefield. Put a +1/+1 counter on each of them.",
+    "targetsTotalManaValueAtMost": 3
+  }
+}
