@@ -34,6 +34,10 @@
   "images": {
     "urlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&exact={name}",
     "minIntervalMs": 120,
+    "byNameMinIntervalMs": 500,
+    "fileByIdTemplate": "https://cards.scryfall.io/large/front/{id0}/{id1}/{id}.jpg",
+    "fileBackByIdTemplate": "https://cards.scryfall.io/large/back/{id0}/{id1}/{id}.jpg",
+    "fileMinIntervalMs": 20,
     "byIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large",
     "backUrlTemplate": "https://api.scryfall.com/cards/named?format=image&version=large&face=back&exact={name}",
     "backByIdTemplate": "https://api.scryfall.com/cards/{id}?format=image&version=large&face=back"
