@@ -1,0 +1,42 @@
+{
+  "name": "Leonardo, Leader in Blue",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "sneaked",
+      "effects": [
+        {
+          "pump": [
+            2,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "When Leonardo enters, if his sneak cost was paid, creatures you control get +2/+0 until end of turn."
+    },
+    {
+      "cost": "{1}{W}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "First strike"
+          ]
+        }
+      ],
+      "text": "{1}{W}: Leonardo gains first strike until end of turn."
+    }
+  ]
+}

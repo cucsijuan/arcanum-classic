@@ -1,0 +1,22 @@
+{
+  "name": "Genghis Frog",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "subtype": "Mutant"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever Genghis Frog or another Mutant you control enters, create a Mutagen token."
+    }
+  ]
+}

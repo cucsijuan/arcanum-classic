@@ -1,0 +1,30 @@
+{
+  "name": "Improvised Arsenal",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ]
+            }
+          },
+          0
+        ]
+      },
+      "text": "Equipped creature gets +1/+0 for each artifact you control."
+    },
+    {
+      "cost": "{4}{R}",
+      "effects": [
+        {
+          "copy": "self"
+        }
+      ],
+      "text": "{4}{R}: Create a token that's a copy of this Equipment."
+    }
+  ]
+}

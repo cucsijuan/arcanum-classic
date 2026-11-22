@@ -1,0 +1,39 @@
+{
+  "name": "Trouble in Pairs",
+  "opponentsSkipExtraTurns": true,
+  "abilities": [
+    {
+      "trigger": "playerAttacks",
+      "if": {
+        "atLeast": "triggerAmount",
+        "value": 2
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent attacks you with two or more creatures, you draw a card."
+    },
+    {
+      "trigger": "opponentDraws",
+      "nth": 2,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent draws their second card each turn, you draw a card."
+    },
+    {
+      "trigger": "opponentCastsSpell",
+      "nth": 2,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent casts their second spell each turn, you draw a card."
+    }
+  ]
+}

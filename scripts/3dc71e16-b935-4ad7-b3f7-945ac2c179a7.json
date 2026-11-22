@@ -1,0 +1,47 @@
+{
+  "name": "Chrome Dome",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "pump": [
+          1,
+          0
+        ]
+      },
+      "text": "Other artifact creatures you control get +1/+0."
+    },
+    {
+      "cost": "{5}",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "other": true
+          },
+          "text": "another target artifact you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target",
+          "addKeywords": [
+            "Haste"
+          ],
+          "sacrificeAtEndStep": true
+        }
+      ],
+      "text": "{5}: Create a token that's a copy of another target artifact you control. That token gains haste. Sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

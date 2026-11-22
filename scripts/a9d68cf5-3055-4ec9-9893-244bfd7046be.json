@@ -1,0 +1,25 @@
+{
+  "name": "Action News Crew",
+  "abilities": [
+    {
+      "cost": "{6}, discardThis",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Channel — {6}, Discard this card: Put a +1/+1 counter on each creature you control. Draw a card."
+    }
+  ]
+}

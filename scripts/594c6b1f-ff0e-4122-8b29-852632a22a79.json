@@ -1,0 +1,16 @@
+{
+  "name": "Michelangelo, Game Master",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put a +1/+1 counter on Michelangelo."
+    }
+  ]
+}

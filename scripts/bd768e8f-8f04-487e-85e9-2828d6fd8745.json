@@ -1,0 +1,56 @@
+{
+  "name": "The Cloning of Shredder",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        },
+        {
+          "copy": "exiled",
+          "notLegendary": true,
+          "addSubtypes": [
+            "Mutant"
+          ]
+        }
+      ],
+      "text": "I — Exile target creature card from your graveyard. Create a token that's a copy of it, except it isn't legendary and is a Mutant in addition to its other types."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2,
+        3
+      ],
+      "effects": [
+        {
+          "copy": {
+            "exiledWithThis": {}
+          },
+          "notLegendary": true,
+          "addSubtypes": [
+            "Mutant"
+          ]
+        }
+      ],
+      "text": "II, III — Create a token that's a copy of a card exiled with this Saga, except it isn't legendary and is a Mutant in addition to its other types."
+    }
+  ]
+}

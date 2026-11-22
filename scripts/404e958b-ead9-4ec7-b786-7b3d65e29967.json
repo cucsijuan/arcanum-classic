@@ -1,0 +1,50 @@
+{
+  "name": "Mouser Foundry",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 1,
+            "toughness": 1,
+            "colors": []
+          }
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, create a 1/1 colorless Robot artifact creature token."
+    },
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 1,
+            "toughness": 1,
+            "colors": []
+          }
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, create a 1/1 colorless Robot artifact creature token."
+    },
+    {
+      "cost": "{4}{R}, sacrifice",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{4}{R}, Sacrifice this artifact: It deals 3 damage to target creature."
+    }
+  ]
+}

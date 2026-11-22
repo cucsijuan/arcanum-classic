@@ -1,0 +1,18 @@
+{
+  "name": "Return to the Sewers",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "toLibrary": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Mutagen"
+      }
+    ],
+    "text": "Target creature's owner puts it on their choice of the top or bottom of their library. You create a Mutagen token."
+  }
+}

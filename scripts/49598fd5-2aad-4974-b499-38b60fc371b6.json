@@ -1,0 +1,36 @@
+{
+  "name": "Null Group Biological Assets",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "while": "yourTurn",
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "First strike"
+        ]
+      },
+      "text": "During your turn, this creature has first strike."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, you may discard a card. If you do, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Mutant Chain Reaction",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "optional": true,
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "artifact"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "creature"
+              ],
+              "keyword": "Flying"
+            }
+          ]
+        },
+        "text": "up to one target artifact, enchantment, or creature with flying"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 1,
+        "token": "Mutagen"
+      }
+    ],
+    "text": "Destroy up to one target artifact, enchantment, or creature with flying. Create a Mutagen token."
+  }
+}

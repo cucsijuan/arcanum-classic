@@ -1,0 +1,11 @@
+{
+  "name": "Utrom Monitor",
+  "costReduction": {
+    "amount": 1,
+    "perPermanent": {
+      "types": [
+        "artifact"
+      ]
+    }
+  }
+}

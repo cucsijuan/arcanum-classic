@@ -1,0 +1,37 @@
+{
+  "name": "Wooden Cane",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Mutant",
+            "types": "Creature — Mutant",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "R"
+            ]
+          }
+        },
+        {
+          "attach": "self",
+          "to": "created"
+        }
+      ],
+      "text": "When this Equipment enters, create a 2/2 red Mutant creature token, then attach this Equipment to it."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    }
+  ]
+}

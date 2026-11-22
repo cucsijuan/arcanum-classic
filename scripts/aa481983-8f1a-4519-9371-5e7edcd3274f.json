@@ -1,0 +1,55 @@
+{
+  "name": "Everything Pizza",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ]
+          },
+          "reveal": true
+        }
+      ],
+      "text": "When this artifact enters, search your library for a basic land card, reveal it, put it into your hand, then shuffle."
+    },
+    {
+      "cost": "{2}{W}{U}{B}{R}{G}, {T}, sacrifice",
+      "targets": [
+        "player",
+        "any",
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "gainLife": 3,
+          "who": "target"
+        },
+        {
+          "draw": 1,
+          "who": "target"
+        },
+        {
+          "discard": 1,
+          "who": "opponents"
+        },
+        {
+          "damage": 3,
+          "to": "target2"
+        },
+        {
+          "counters": 3,
+          "what": "target3"
+        }
+      ],
+      "text": "{2}{W}{U}{B}{R}{G}, {T}, Sacrifice this artifact: Target player gains 3 life and draws a card. Each of your opponents discards a card. This artifact deals 3 damage to any target. Put three +1/+1 counters on up to one target creature."
+    }
+  ]
+}

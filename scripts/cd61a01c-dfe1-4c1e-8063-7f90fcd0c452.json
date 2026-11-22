@@ -1,0 +1,33 @@
+{
+  "name": "Donatello's Science Lesson",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "upTo": 2,
+        "text": "up to two target creatures"
+      },
+      {
+        "kind": "player",
+        "upTo": 2,
+        "text": "up to two target players"
+      }
+    ],
+    "effects": [
+      {
+        "tap": {
+          "eachTarget": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      },
+      {
+        "draw": 1,
+        "who": "eachTarget"
+      }
+    ],
+    "text": "Tap up to two target creatures. Up to two target players each draw a card."
+  }
+}

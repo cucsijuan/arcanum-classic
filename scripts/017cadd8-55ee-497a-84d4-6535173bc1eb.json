@@ -1,0 +1,22 @@
+{
+  "name": "Foe-liage",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ],
+        "controller": "any"
+      },
+      "if": "yourTurn",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a land enters during your turn, put a +1/+1 counter on this creature."
+    }
+  ]
+}

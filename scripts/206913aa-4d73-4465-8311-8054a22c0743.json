@@ -1,0 +1,21 @@
+{
+  "name": "Ray Fillet, Wave Warrior",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "hasCounters": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever a creature you control with a counter on it deals combat damage to a player, draw a card."
+    }
+  ]
+}

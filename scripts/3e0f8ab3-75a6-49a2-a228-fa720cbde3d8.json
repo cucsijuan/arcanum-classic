@@ -1,0 +1,15 @@
+{
+  "name": "Kitsune's Technique",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "mill": "halfLibraryUp",
+        "who": "target"
+      }
+    ],
+    "text": "Target opponent mills half their library, rounded up."
+  }
+}

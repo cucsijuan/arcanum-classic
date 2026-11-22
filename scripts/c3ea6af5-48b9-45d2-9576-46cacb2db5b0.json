@@ -1,0 +1,54 @@
+{
+  "name": "Dark Leo & Shredder",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "subtype": "Ninja",
+        "filter": {
+          "attacking": true
+        },
+        "pump": [
+          0,
+          0
+        ],
+        "keywords": [
+          "Deathtouch"
+        ]
+      },
+      "text": "Attacking Ninjas you control have deathtouch."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "colors": [
+              "B"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        },
+        {
+          "if": {
+            "control": {
+              "subtype": "Ninja"
+            },
+            "count": 5
+          },
+          "then": [
+            {
+              "loseLife": "affectedHalfLife",
+              "who": "triggeredPlayer"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Dark Leo & Shredder deal combat damage to a player, create a 1/1 black Ninja creature token. Then if you control five or more Ninjas, that player loses half their life, rounded up."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Leonardo, Big Brother",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "other": true
+            }
+          },
+          0
+        ]
+      },
+      "text": "Leonardo gets +1/+0 for each other creature you control."
+    }
+  ]
+}

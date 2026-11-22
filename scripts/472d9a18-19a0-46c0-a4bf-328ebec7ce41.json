@@ -1,0 +1,24 @@
+{
+  "name": "Mutagen Man, Living Ooze",
+  "abilityCost": {
+    "sources": {
+      "types": [
+        "artifact"
+      ],
+      "token": true
+    },
+    "amount": 1
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When Mutagen Man enters, create X Mutagen tokens."
+    }
+  ]
+}

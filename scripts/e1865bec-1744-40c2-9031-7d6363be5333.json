@@ -1,0 +1,103 @@
+{
+  "name": "The Last Ronin",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "types": [
+                "creature"
+              ]
+            }
+          }
+        }
+      ],
+      "text": "I — Destroy all creatures."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "graveyardCard",
+                "controller": "you",
+                "filter": {
+                  "types": [
+                    "creature"
+                  ]
+                },
+                "text": "target creature card from your graveyard"
+              }
+            ],
+            "effects": [
+              {
+                "bounce": "target"
+              }
+            ],
+            "text": "When you do, return target creature card from your graveyard to your hand."
+          }
+        }
+      ],
+      "text": "II — Mill four cards. When you do, return target creature card from your graveyard to your hand."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "emblem": "The Last Ronin",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureAttacks",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "when": {
+                "attackersExactly": 1
+              },
+              "effects": [
+                {
+                  "counters": 3,
+                  "what": "triggered"
+                },
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "triggered",
+                  "keywords": [
+                    "Trample",
+                    "Lifelink",
+                    "Indestructible"
+                  ]
+                }
+              ],
+              "text": "Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "III — Whenever a creature you control attacks alone this turn, put three +1/+1 counters on it. It gains trample, lifelink, and indestructible until end of turn."
+    }
+  ]
+}

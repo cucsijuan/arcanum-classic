@@ -1,0 +1,46 @@
+{
+  "name": "The Neutrinos",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, The Neutrinos get +1/+0 until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "ownedByYou": true
+          },
+          "optional": true,
+          "text": "up to one target creature you own"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "target",
+          "underYourControl": true,
+          "attacking": true
+        }
+      ],
+      "text": "Whenever The Neutrinos attack, exile up to one target creature you own, then return it to the battlefield under your control tapped and attacking."
+    }
+  ]
+}

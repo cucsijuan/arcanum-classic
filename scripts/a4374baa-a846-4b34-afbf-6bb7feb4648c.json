@@ -1,0 +1,46 @@
+{
+  "name": "Electric Seaweed",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "wheneverCreatureDiesThisTurn": [
+            {
+              "damage": 1,
+              "to": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "notSubtype": "Wall"
+                }
+              }
+            }
+          ],
+          "filter": {
+            "types": [
+              "creature"
+            ],
+            "other": true
+          },
+          "text": "Whenever another creature dies this turn, this creature deals 1 damage to each non-Wall creature."
+        }
+      ],
+      "text": "When this creature enters, until end of turn, whenever another creature dies, this creature deals 1 damage to each non-Wall creature."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 1,
+          "to": "target"
+        }
+      ],
+      "text": "{T}: This creature deals 1 damage to any target."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Continue?",
+  "spell": {
+    "targets": [
+      {
+        "kind": "graveyardCard",
+        "controller": "you",
+        "upTo": 4,
+        "filter": {
+          "types": [
+            "creature"
+          ],
+          "fromBattlefieldThisTurn": true
+        },
+        "text": "up to four target creature cards in your graveyard that were put there from the battlefield this turn"
+      }
+    ],
+    "effects": [
+      {
+        "reanimate": "eachTarget"
+      }
+    ],
+    "text": "Choose up to four target creature cards in your graveyard that were put there from the battlefield this turn. Return them to the battlefield."
+  }
+}

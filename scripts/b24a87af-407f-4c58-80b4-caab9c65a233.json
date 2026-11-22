@@ -1,0 +1,15 @@
+{
+  "name": "Crustacean Commando",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When this creature enters, create a Mutagen token."
+    }
+  ]
+}

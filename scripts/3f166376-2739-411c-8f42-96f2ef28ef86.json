@@ -1,0 +1,17 @@
+{
+  "name": "April O'Neil, Kunoichi Trainee",
+  "cantBeBlockedBy": {
+    "minPower": 3
+  },
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "scry": 2
+        }
+      ],
+      "text": "When April O'Neil enters, scry 2."
+    }
+  ]
+}

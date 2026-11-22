@@ -1,0 +1,1300 @@
+{
+ "credit": "Card ratings: 17Lands public data (CC BY 4.0), 17lands.com/public_datasets",
+ "set": "tmt",
+ "format": "PremierDraft",
+ "games": 180204,
+ "mean": 0.5736,
+ "sd": 0.0397,
+ "cards": {
+  "Action News Crew": {
+   "gih": 0.5478,
+   "games": 16064,
+   "ata": 8.6,
+   "picks": 13298
+  },
+  "Agent Bishop, Man in Black": {
+   "gih": 0.6485,
+   "games": 5004,
+   "ata": 1.53,
+   "picks": 1504
+  },
+  "All Will Be One": {
+   "gih": 0.6316,
+   "games": 38,
+   "ata": 6.24,
+   "picks": 111
+  },
+  "Anchovy & Banana Pizza": {
+   "gih": 0.5756,
+   "games": 25792,
+   "ata": 4.52,
+   "picks": 14568
+  },
+  "April O'Neil, Hacktivist": {
+   "gih": 0.6469,
+   "games": 6335,
+   "ata": 2.34,
+   "picks": 2117
+  },
+  "April O'Neil, Kunoichi Trainee": {
+   "gih": 0.5861,
+   "games": 24475,
+   "ata": 5.96,
+   "picks": 14375
+  },
+  "April, Reporter of the Weird": {
+   "gih": 0.5,
+   "games": 2206,
+   "ata": 9.27,
+   "picks": 4197
+  },
+  "Arcbound Ravager": {
+   "gih": 0.5891,
+   "games": 275,
+   "ata": 3.67,
+   "picks": 144
+  },
+  "Armaggon, Future Shark": {
+   "gih": 0.6466,
+   "games": 4853,
+   "ata": 2.17,
+   "picks": 1676
+  },
+  "Ashcoat of the Shadow Swarm": {
+   "gih": 0.5312,
+   "games": 64,
+   "ata": 5.81,
+   "picks": 96
+  },
+  "Baxter Stockman": {
+   "gih": 0.6071,
+   "games": 14280,
+   "ata": 4.67,
+   "picks": 7296
+  },
+  "Bebop & Rocksteady": {
+   "gih": 0.5753,
+   "games": 2178,
+   "ata": 3.98,
+   "picks": 1220
+  },
+  "Bebop, Warthog Warrior": {
+   "gih": 0.534,
+   "games": 6543,
+   "ata": 10.54,
+   "picks": 11590
+  },
+  "Bespoke B?": {
+   "gih": 0.5609,
+   "games": 10650,
+   "ata": 5.55,
+   "picks": 5960
+  },
+  "Bot Bashing Time": {
+   "gih": 0.5404,
+   "games": 12481,
+   "ata": 9.04,
+   "picks": 12250
+  },
+  "Brainstorm": {
+   "gih": 0.6027,
+   "games": 146,
+   "ata": 6.58,
+   "picks": 121
+  },
+  "Brilliance Unleashed": {
+   "gih": 0.6265,
+   "games": 17495,
+   "ata": 4.42,
+   "picks": 8433
+  },
+  "Broadcast Takeover": {
+   "gih": 0.4062,
+   "games": 32,
+   "ata": 8.47,
+   "picks": 1057
+  },
+  "Buzz Bots": {
+   "gih": 0.5899,
+   "games": 27942,
+   "ata": 6.79,
+   "picks": 16622
+  },
+  "Casey Jones, Jury-Rig Justiciar": {
+   "gih": 0.6259,
+   "games": 13482,
+   "ata": 5.03,
+   "picks": 6908
+  },
+  "Casey Jones, Vigilante": {
+   "gih": 0.523,
+   "games": 1195,
+   "ata": 6.13,
+   "picks": 1310
+  },
+  "Chrome Dome": {
+   "gih": 0.6068,
+   "games": 5030,
+   "ata": 2.28,
+   "picks": 1808
+  },
+  "Conqueror's Flail": {
+   "gih": 0.4934,
+   "games": 152,
+   "ata": 4.36,
+   "picks": 97
+  },
+  "Cool but Rude": {
+   "gih": 0.5078,
+   "games": 1406,
+   "ata": 4.3,
+   "picks": 1084
+  },
+  "Courier of Comestibles": {
+   "gih": 0.6276,
+   "games": 15933,
+   "ata": 4.35,
+   "picks": 8058
+  },
+  "Cowabunga!": {
+   "gih": 0.5362,
+   "games": 4892,
+   "ata": 11.19,
+   "picks": 11257
+  },
+  "Crustacean Commando": {
+   "gih": 0.5126,
+   "games": 6818,
+   "ata": 10.66,
+   "picks": 12641
+  },
+  "Cytoplast Manipulator": {
+   "gih": 0.5311,
+   "games": 209,
+   "ata": 4.22,
+   "picks": 131
+  },
+  "Dark Leo & Shredder": {
+   "gih": 0.6274,
+   "games": 2477,
+   "ata": 2.04,
+   "picks": 844
+  },
+  "Death in the Family": {
+   "gih": 0.5887,
+   "games": 11437,
+   "ata": 3.92,
+   "picks": 5425
+  },
+  "Dimension X": {
+   "gih": 0.5808,
+   "games": 11844,
+   "ata": 9.25,
+   "picks": 10580
+  },
+  "Dimensional Exile": {
+   "gih": 0.5916,
+   "games": 11615,
+   "ata": 3.34,
+   "picks": 5514
+  },
+  "Does Machines": {
+   "gih": 0.6133,
+   "games": 5146,
+   "ata": 2.93,
+   "picks": 1857
+  },
+  "Don & Leo, Problem Solvers": {
+   "gih": 0.6338,
+   "games": 5656,
+   "ata": 1.55,
+   "picks": 1688
+  },
+  "Don & Raph, Hard Science": {
+   "gih": 0.5227,
+   "games": 2338,
+   "ata": 4.3,
+   "picks": 1363
+  },
+  "Donatello's Technique": {
+   "gih": 0.5302,
+   "games": 4136,
+   "ata": 7.88,
+   "picks": 4504
+  },
+  "Donatello, Gadget Master": {
+   "gih": 0.581,
+   "games": 4002,
+   "ata": 2.99,
+   "picks": 1675
+  },
+  "Donatello, Mutant Mechanic": {
+   "gih": 0.5961,
+   "games": 2543,
+   "ata": 2.07,
+   "picks": 859
+  },
+  "Donatello, Turtle Techie": {
+   "gih": 0.5863,
+   "games": 28141,
+   "ata": 7.49,
+   "picks": 17287
+  },
+  "Donatello, Way with Machines": {
+   "gih": 0.5725,
+   "games": 10703,
+   "ata": 4.51,
+   "picks": 4977
+  },
+  "Doubling Season": {
+   "gih": 0.3933,
+   "games": 89,
+   "ata": 5.05,
+   "picks": 88
+  },
+  "Dream Beavers": {
+   "gih": 0.6448,
+   "games": 13394,
+   "ata": 3.43,
+   "picks": 6134
+  },
+  "EPF Point Squad": {
+   "gih": 0.5319,
+   "games": 9590,
+   "ata": 8.69,
+   "picks": 10136
+  },
+  "East Wind Avatar": {
+   "gih": 0.542,
+   "games": 7428,
+   "ata": 9.81,
+   "picks": 10516
+  },
+  "Escape Tunnel": {
+   "gih": 0.5781,
+   "games": 25764,
+   "ata": 7.09,
+   "picks": 11763
+  },
+  "Everything Pizza": {
+   "gih": 0.6342,
+   "games": 14795,
+   "ata": 5.44,
+   "picks": 9305
+  },
+  "Featherbrained Filcher": {
+   "gih": 0.584,
+   "games": 8736,
+   "ata": 5.68,
+   "picks": 5718
+  },
+  "Foot Elite": {
+   "gih": 0.5483,
+   "games": 9935,
+   "ata": 8.96,
+   "picks": 10501
+  },
+  "Foot Headquarters": {
+   "gih": 0.5795,
+   "games": 17440,
+   "ata": 8.33,
+   "picks": 10675
+  },
+  "Foot Mystic": {
+   "gih": 0.5214,
+   "games": 3918,
+   "ata": 10.9,
+   "picks": 10193
+  },
+  "Foot Ninjas": {
+   "gih": 0.5683,
+   "games": 17838,
+   "ata": 8.14,
+   "picks": 13365
+  },
+  "Forest": {
+   "gih": 0.5622,
+   "games": 71004,
+   "ata": 13.93,
+   "picks": 8141
+  },
+  "Frog Butler": {
+   "gih": 0.6103,
+   "games": 30701,
+   "ata": 4.58,
+   "picks": 16748
+  },
+  "Fugitive Droid": {
+   "gih": 0.5631,
+   "games": 8112,
+   "ata": 6.67,
+   "picks": 5306
+  },
+  "General Traag, Heart of Stone": {
+   "gih": 0.5824,
+   "games": 10204,
+   "ata": 5.51,
+   "picks": 5891
+  },
+  "Genghis Frog": {
+   "gih": 0.5862,
+   "games": 9974,
+   "ata": 5.27,
+   "picks": 5827
+  },
+  "Go Ninja Go": {
+   "gih": 0.5419,
+   "games": 5326,
+   "ata": 6.99,
+   "picks": 4910
+  },
+  "Groundchuck & Dirtbag": {
+   "gih": 0.5884,
+   "games": 3712,
+   "ata": 2.82,
+   "picks": 1463
+  },
+  "Grounded for Life": {
+   "gih": 0.5662,
+   "games": 14713,
+   "ata": 7.29,
+   "picks": 10628
+  },
+  "Guac & Marshmallow Pizza": {
+   "gih": 0.545,
+   "games": 8641,
+   "ata": 10.04,
+   "picks": 12280
+  },
+  "Hamato Guardian Stance": {
+   "gih": 0.5655,
+   "games": 5050,
+   "ata": 11.13,
+   "picks": 12259
+  },
+  "Hard-Won Jitte": {
+   "gih": 0.483,
+   "games": 1532,
+   "ata": 9.6,
+   "picks": 3656
+  },
+  "Henchbots": {
+   "gih": 0.5056,
+   "games": 5105,
+   "ata": 6.7,
+   "picks": 4097
+  },
+  "High-Flying Ace": {
+   "gih": 0.5541,
+   "games": 11442,
+   "ata": 9.22,
+   "picks": 11578
+  },
+  "Ice Cream Kitty": {
+   "gih": 0.5538,
+   "games": 18551,
+   "ata": 8.26,
+   "picks": 13885
+  },
+  "Illegitimate Business": {
+   "gih": 0.5874,
+   "games": 19046,
+   "ata": 8.07,
+   "picks": 11010
+  },
+  "Improvised Arsenal": {
+   "gih": 0.5797,
+   "games": 3907,
+   "ata": 3.18,
+   "picks": 1636
+  },
+  "Insectoid Exterminator": {
+   "gih": 0.5247,
+   "games": 5344,
+   "ata": 10.62,
+   "picks": 10312
+  },
+  "Island": {
+   "gih": 0.5733,
+   "games": 86108,
+   "ata": 13.93,
+   "picks": 8221
+  },
+  "Jennika's Technique": {
+   "gih": 0.5818,
+   "games": 1535,
+   "ata": 10.04,
+   "picks": 4649
+  },
+  "Jennika, Bad Apple Big Sister": {
+   "gih": 0.568,
+   "games": 17113,
+   "ata": 8.79,
+   "picks": 13870
+  },
+  "Karai's Technique": {
+   "gih": 0.5787,
+   "games": 10337,
+   "ata": 4.44,
+   "picks": 5696
+  },
+  "Karai, Future of the Foot": {
+   "gih": 0.5888,
+   "games": 10574,
+   "ata": 4.0,
+   "picks": 5407
+  },
+  "Kitsune's Technique": {
+   "gih": 0.3443,
+   "games": 183,
+   "ata": 8.08,
+   "picks": 1276
+  },
+  "Kitsune, Dragon's Daughter": {
+   "gih": 0.6275,
+   "games": 5616,
+   "ata": 2.68,
+   "picks": 2061
+  },
+  "Koya, Death from Above": {
+   "gih": 0.5926,
+   "games": 13182,
+   "ata": 4.07,
+   "picks": 6527
+  },
+  "Krang & Shredder": {
+   "gih": 0.5791,
+   "games": 4616,
+   "ata": 1.57,
+   "picks": 1474
+  },
+  "Krang, Master Mind": {
+   "gih": 0.6001,
+   "games": 4711,
+   "ata": 2.62,
+   "picks": 1725
+  },
+  "Krang, Utrom Warlord": {
+   "gih": 0.5455,
+   "games": 1505,
+   "ata": 2.45,
+   "picks": 777
+  },
+  "Leader's Talent": {
+   "gih": 0.5627,
+   "games": 2982,
+   "ata": 1.9,
+   "picks": 1167
+  },
+  "Leatherhead, Swamp Stalker": {
+   "gih": 0.6139,
+   "games": 4123,
+   "ata": 2.27,
+   "picks": 1460
+  },
+  "Leonardo's Technique": {
+   "gih": 0.5351,
+   "games": 1723,
+   "ata": 3.76,
+   "picks": 1016
+  },
+  "Leonardo, Big Brother": {
+   "gih": 0.5718,
+   "games": 20468,
+   "ata": 7.12,
+   "picks": 12566
+  },
+  "Leonardo, Cutting Edge": {
+   "gih": 0.564,
+   "games": 3092,
+   "ata": 2.73,
+   "picks": 1352
+  },
+  "Leonardo, Leader in Blue": {
+   "gih": 0.5937,
+   "games": 11384,
+   "ata": 4.05,
+   "picks": 5421
+  },
+  "Leonardo, Sewer Samurai": {
+   "gih": 0.6272,
+   "games": 2170,
+   "ata": 1.99,
+   "picks": 734
+  },
+  "Lessons from Life": {
+   "gih": 0.6041,
+   "games": 12764,
+   "ata": 5.11,
+   "picks": 7172
+  },
+  "Lita, Little Orphan Amphibian": {
+   "gih": 0.5977,
+   "games": 10873,
+   "ata": 3.25,
+   "picks": 5205
+  },
+  "Lord Dregg, Insect Invader": {
+   "gih": 0.5787,
+   "games": 9500,
+   "ata": 4.6,
+   "picks": 4919
+  },
+  "Madame Null, Power Broker": {
+   "gih": 0.5804,
+   "games": 3758,
+   "ata": 2.25,
+   "picks": 1444
+  },
+  "Make Your Move": {
+   "gih": 0.5477,
+   "games": 11007,
+   "ata": 8.78,
+   "picks": 10330
+  },
+  "Manhole Missile": {
+   "gih": 0.5995,
+   "games": 28808,
+   "ata": 5.42,
+   "picks": 16786
+  },
+  "Mechanized Ninja Cavalry": {
+   "gih": 0.593,
+   "games": 29943,
+   "ata": 5.5,
+   "picks": 16319
+  },
+  "Metalhead": {
+   "gih": 0.6243,
+   "games": 18588,
+   "ata": 3.96,
+   "picks": 8311
+  },
+  "Metallic Mimic": {
+   "gih": 0.5439,
+   "games": 342,
+   "ata": 2.42,
+   "picks": 134
+  },
+  "Michelangelo's Technique": {
+   "gih": 0.5578,
+   "games": 1592,
+   "ata": 4.28,
+   "picks": 1066
+  },
+  "Michelangelo, Game Master": {
+   "gih": 0.5498,
+   "games": 17087,
+   "ata": 8.05,
+   "picks": 11060
+  },
+  "Michelangelo, Improviser": {
+   "gih": 0.5757,
+   "games": 1513,
+   "ata": 2.29,
+   "picks": 624
+  },
+  "Michelangelo, Mutant BFF": {
+   "gih": 0.588,
+   "games": 10115,
+   "ata": 4.05,
+   "picks": 4607
+  },
+  "Michelangelo, Weirdness to 11": {
+   "gih": 0.6108,
+   "games": 4075,
+   "ata": 2.3,
+   "picks": 1472
+  },
+  "Mighty Mutanimals": {
+   "gih": 0.652,
+   "games": 14722,
+   "ata": 2.76,
+   "picks": 6241
+  },
+  "Mikey & Don, Party Planners": {
+   "gih": 0.6269,
+   "games": 4924,
+   "ata": 1.8,
+   "picks": 1557
+  },
+  "Mikey & Leo, Chaos & Order": {
+   "gih": 0.5724,
+   "games": 3040,
+   "ata": 2.16,
+   "picks": 1198
+  },
+  "Mind Transfer Protocol": {
+   "gih": 0.575,
+   "games": 12650,
+   "ata": 10.17,
+   "picks": 15881
+  },
+  "Mona Lisa, Science Geek": {
+   "gih": 0.5646,
+   "games": 10336,
+   "ata": 5.29,
+   "picks": 5463
+  },
+  "Mondo Gecko": {
+   "gih": 0.548,
+   "games": 1887,
+   "ata": 3.39,
+   "picks": 999
+  },
+  "Mountain": {
+   "gih": 0.5783,
+   "games": 75375,
+   "ata": 13.93,
+   "picks": 8220
+  },
+  "Mouser Attack!": {
+   "gih": 0.4923,
+   "games": 2078,
+   "ata": 11.76,
+   "picks": 10449
+  },
+  "Mouser Foundry": {
+   "gih": 0.5978,
+   "games": 28859,
+   "ata": 6.12,
+   "picks": 17809
+  },
+  "Mouser Mark III": {
+   "gih": 0.5594,
+   "games": 15810,
+   "ata": 9.44,
+   "picks": 14967
+  },
+  "Mutagen Man, Living Ooze": {
+   "gih": 0.5916,
+   "games": 4060,
+   "ata": 2.2,
+   "picks": 1420
+  },
+  "Mutant Chain Reaction": {
+   "gih": 0.5184,
+   "games": 3449,
+   "ata": 11.41,
+   "picks": 10135
+  },
+  "Mutant Town": {
+   "gih": 0.5933,
+   "games": 19789,
+   "ata": 8.3,
+   "picks": 12135
+  },
+  "Mutant Town Musicians": {
+   "gih": 0.5417,
+   "games": 3925,
+   "ata": 11.59,
+   "picks": 11360
+  },
+  "Negate": {
+   "gih": 0.4914,
+   "games": 1052,
+   "ata": 12.13,
+   "picks": 11501
+  },
+  "New Generation's Technique": {
+   "gih": 0.5423,
+   "games": 2941,
+   "ata": 8.79,
+   "picks": 4106
+  },
+  "Ninja Teen": {
+   "gih": 0.6024,
+   "games": 3521,
+   "ata": 2.28,
+   "picks": 1369
+  },
+  "Nobody": {
+   "gih": 0.5859,
+   "games": 28765,
+   "ata": 7.55,
+   "picks": 19042
+  },
+  "North Wind Avatar": {
+   "gih": 0.6222,
+   "games": 3589,
+   "ata": 2.69,
+   "picks": 1331
+  },
+  "Northampton Farm": {
+   "gih": 0.561,
+   "games": 2073,
+   "ata": 6.41,
+   "picks": 1540
+  },
+  "Novel Nunchaku": {
+   "gih": 0.5887,
+   "games": 11793,
+   "ata": 4.49,
+   "picks": 6029
+  },
+  "Null Group Biological Assets": {
+   "gih": 0.5319,
+   "games": 4134,
+   "ata": 11.3,
+   "picks": 11706
+  },
+  "Old Hob, Alleycat Blues": {
+   "gih": 0.5309,
+   "games": 4376,
+   "ata": 6.74,
+   "picks": 4121
+  },
+  "Omni-Cheese Pizza": {
+   "gih": 0.5866,
+   "games": 23733,
+   "ata": 8.14,
+   "picks": 17622
+  },
+  "Ooze Spill": {
+   "gih": 0.613,
+   "games": 12403,
+   "ata": 6.68,
+   "picks": 7808
+  },
+  "Oroku Saki, Shredder Rising": {
+   "gih": 0.5825,
+   "games": 23408,
+   "ata": 6.47,
+   "picks": 14574
+  },
+  "Pain 101": {
+   "gih": 0.5299,
+   "games": 5371,
+   "ata": 10.73,
+   "picks": 10663
+  },
+  "Paramecia Coloniex": {
+   "gih": 0.5457,
+   "games": 4904,
+   "ata": 8.28,
+   "picks": 5143
+  },
+  "Party Dude": {
+   "gih": 0.5108,
+   "games": 1488,
+   "ata": 4.2,
+   "picks": 1018
+  },
+  "Path to Exile": {
+   "gih": 0.5623,
+   "games": 265,
+   "ata": 3.51,
+   "picks": 123
+  },
+  "Pizza Face, Gastromancer": {
+   "gih": 0.5779,
+   "games": 10766,
+   "ata": 4.34,
+   "picks": 5714
+  },
+  "Plague of Vermin": {
+   "gih": 0.0,
+   "games": 1,
+   "ata": 8.12,
+   "picks": 108
+  },
+  "Plains": {
+   "gih": 0.5808,
+   "games": 80418,
+   "ata": 13.93,
+   "picks": 8106
+  },
+  "Prehistoric Pet": {
+   "gih": 0.584,
+   "games": 3233,
+   "ata": 3.01,
+   "picks": 1435
+  },
+  "Primordial Pachyderm": {
+   "gih": 0.5818,
+   "games": 22131,
+   "ata": 7.95,
+   "picks": 15057
+  },
+  "Punk Frogs": {
+   "gih": 0.5136,
+   "games": 2177,
+   "ata": 11.65,
+   "picks": 11959
+  },
+  "Purple Dragon Punks": {
+   "gih": 0.5498,
+   "games": 7681,
+   "ata": 10.71,
+   "picks": 13479
+  },
+  "Putrid Pals": {
+   "gih": 0.4878,
+   "games": 4211,
+   "ata": 10.35,
+   "picks": 9070
+  },
+  "Quintessential Katana": {
+   "gih": 0.5754,
+   "games": 8320,
+   "ata": 5.58,
+   "picks": 5030
+  },
+  "Ragamuffin Raptor": {
+   "gih": 0.5698,
+   "games": 23273,
+   "ata": 8.11,
+   "picks": 15328
+  },
+  "Raph & Leo, Sibling Rivals": {
+   "gih": 0.5537,
+   "games": 2337,
+   "ata": 2.33,
+   "picks": 1034
+  },
+  "Raph & Mikey, Troublemakers": {
+   "gih": 0.6148,
+   "games": 4720,
+   "ata": 1.76,
+   "picks": 1492
+  },
+  "Raphael's Technique": {
+   "gih": 0.4091,
+   "games": 176,
+   "ata": 8.9,
+   "picks": 1525
+  },
+  "Raphael, Most Attitude": {
+   "gih": 0.5228,
+   "games": 4093,
+   "ata": 7.22,
+   "picks": 3689
+  },
+  "Raphael, Ninja Destroyer": {
+   "gih": 0.511,
+   "games": 910,
+   "ata": 3.56,
+   "picks": 579
+  },
+  "Raphael, Tough Turtle": {
+   "gih": 0.5518,
+   "games": 12428,
+   "ata": 8.64,
+   "picks": 11170
+  },
+  "Raphael, the Nightwatcher": {
+   "gih": 0.5944,
+   "games": 3444,
+   "ata": 2.67,
+   "picks": 1471
+  },
+  "Rat King, Verminister": {
+   "gih": 0.61,
+   "games": 4349,
+   "ata": 2.22,
+   "picks": 1567
+  },
+  "Ravenous Robots": {
+   "gih": 0.6259,
+   "games": 4392,
+   "ata": 2.62,
+   "picks": 1530
+  },
+  "Ray Fillet, Man Ray": {
+   "gih": 0.574,
+   "games": 10123,
+   "ata": 5.26,
+   "picks": 5542
+  },
+  "Renet, Temporal Apprentice": {
+   "gih": 0.5238,
+   "games": 2205,
+   "ata": 4.34,
+   "picks": 1442
+  },
+  "Retro-Mutation": {
+   "gih": 0.5537,
+   "games": 12627,
+   "ata": 9.22,
+   "picks": 12902
+  },
+  "Return to the Sewers": {
+   "gih": 0.5907,
+   "games": 28890,
+   "ata": 8.27,
+   "picks": 20200
+  },
+  "Rhythm of the Wild": {
+   "gih": 0.3191,
+   "games": 47,
+   "ata": 7.88,
+   "picks": 117
+  },
+  "Rock Soldiers": {
+   "gih": 0.5052,
+   "games": 3050,
+   "ata": 11.52,
+   "picks": 11735
+  },
+  "Rocksteady, Crash Courser": {
+   "gih": 0.5446,
+   "games": 12004,
+   "ata": 9.63,
+   "picks": 11680
+  },
+  "Sally Pride, Lioness Leader": {
+   "gih": 0.6994,
+   "games": 5402,
+   "ata": 1.63,
+   "picks": 1711
+  },
+  "Savanti Romero, Time's Exile": {
+   "gih": 0.6061,
+   "games": 4263,
+   "ata": 2.05,
+   "picks": 1505
+  },
+  "Saved by the Shell": {
+   "gih": 0.5838,
+   "games": 8844,
+   "ata": 6.08,
+   "picks": 5302
+  },
+  "Sewer-veillance Cam": {
+   "gih": 0.5944,
+   "games": 30375,
+   "ata": 7.17,
+   "picks": 18856
+  },
+  "Shadowspear": {
+   "gih": 0.6334,
+   "games": 401,
+   "ata": 2.14,
+   "picks": 136
+  },
+  "Shark Shredder, Killer Clone": {
+   "gih": 0.5914,
+   "games": 4033,
+   "ata": 1.81,
+   "picks": 1383
+  },
+  "Shredder's Armor": {
+   "gih": 0.4752,
+   "games": 928,
+   "ata": 10.54,
+   "picks": 4198
+  },
+  "Shredder's Revenge": {
+   "gih": 0.5583,
+   "games": 7302,
+   "ata": 10.5,
+   "picks": 11527
+  },
+  "Shredder's Technique": {
+   "gih": 0.5795,
+   "games": 11045,
+   "ata": 3.52,
+   "picks": 5151
+  },
+  "Shredder, Unrelenting": {
+   "gih": 0.5673,
+   "games": 8252,
+   "ata": 5.21,
+   "picks": 4582
+  },
+  "Silverclad Ferocidons": {
+   "gih": 0.3896,
+   "games": 77,
+   "ata": 5.29,
+   "picks": 97
+  },
+  "Skateboard": {
+   "gih": 0.5077,
+   "games": 2001,
+   "ata": 9.36,
+   "picks": 3975
+  },
+  "Slash, Reptile Rampager": {
+   "gih": 0.5702,
+   "games": 3092,
+   "ata": 2.38,
+   "picks": 1228
+  },
+  "Slithering Cryptid": {
+   "gih": 0.5579,
+   "games": 18305,
+   "ata": 8.71,
+   "picks": 13902
+  },
+  "South Wind Avatar": {
+   "gih": 0.5657,
+   "games": 3228,
+   "ata": 2.27,
+   "picks": 1214
+  },
+  "Spicy Oatmeal Pizza": {
+   "gih": 0.578,
+   "games": 13225,
+   "ata": 4.46,
+   "picks": 6634
+  },
+  "Splinter's Technique": {
+   "gih": 0.4928,
+   "games": 897,
+   "ata": 6.07,
+   "picks": 1141
+  },
+  "Splinter, Hamato Yoshi": {
+   "gih": 0.6018,
+   "games": 9978,
+   "ata": 4.22,
+   "picks": 5063
+  },
+  "Splinter, Radical Rat": {
+   "gih": 0.567,
+   "games": 2850,
+   "ata": 2.66,
+   "picks": 1172
+  },
+  "Squirrelanoids": {
+   "gih": 0.5812,
+   "games": 22199,
+   "ata": 6.88,
+   "picks": 13800
+  },
+  "Stockman, Mad Fly-entist": {
+   "gih": 0.5418,
+   "games": 6430,
+   "ata": 10.95,
+   "picks": 13566
+  },
+  "Stomped by the Foot": {
+   "gih": 0.5783,
+   "games": 25449,
+   "ata": 5.87,
+   "picks": 14446
+  },
+  "Super Shredder": {
+   "gih": 0.6033,
+   "games": 2889,
+   "ata": 1.55,
+   "picks": 912
+  },
+  "Swamp": {
+   "gih": 0.5758,
+   "games": 89686,
+   "ata": 13.93,
+   "picks": 8101
+  },
+  "Sword of Sinew and Steel": {
+   "gih": 0.5669,
+   "games": 284,
+   "ata": 1.98,
+   "picks": 112
+  },
+  "TCRI Building": {
+   "gih": 0.6062,
+   "games": 22436,
+   "ata": 8.52,
+   "picks": 12726
+  },
+  "Tainted Treats": {
+   "gih": 0.6097,
+   "games": 12735,
+   "ata": 4.07,
+   "picks": 6349
+  },
+  "Technodrome": {
+   "gih": 0.5813,
+   "games": 2773,
+   "ata": 2.27,
+   "picks": 1080
+  },
+  "Teleportation Circle": {
+   "gih": 0.6098,
+   "games": 246,
+   "ata": 3.3,
+   "picks": 125
+  },
+  "Tenderize": {
+   "gih": 0.5768,
+   "games": 23549,
+   "ata": 6.44,
+   "picks": 14107
+  },
+  "The Cloning of Shredder": {
+   "gih": 0.6116,
+   "games": 3357,
+   "ata": 1.83,
+   "picks": 1145
+  },
+  "The Last Ronin": {
+   "gih": 0.6908,
+   "games": 3810,
+   "ata": 1.83,
+   "picks": 1120
+  },
+  "The Last Ronin's Technique": {
+   "gih": 0.5978,
+   "games": 11487,
+   "ata": 3.82,
+   "picks": 5768
+  },
+  "The Neutrinos": {
+   "gih": 0.5485,
+   "games": 6381,
+   "ata": 5.65,
+   "picks": 4917
+  },
+  "The Ooze": {
+   "gih": 0.5866,
+   "games": 4591,
+   "ata": 1.61,
+   "picks": 1490
+  },
+  "Tokka & Rahzar, Terrible Twos": {
+   "gih": 0.5184,
+   "games": 1387,
+   "ata": 4.53,
+   "picks": 1026
+  },
+  "Transdimensional Bovine": {
+   "gih": 0.5978,
+   "games": 4167,
+   "ata": 2.86,
+   "picks": 1637
+  },
+  "Triceraton Commander": {
+   "gih": 0.6215,
+   "games": 2970,
+   "ata": 1.85,
+   "picks": 1036
+  },
+  "Trouble in Pairs": {
+   "gih": 0.4638,
+   "games": 69,
+   "ata": 5.99,
+   "picks": 102
+  },
+  "Tunnel Rats": {
+   "gih": 0.5484,
+   "games": 10180,
+   "ata": 10.1,
+   "picks": 12836
+  },
+  "Turncoat Kunoichi": {
+   "gih": 0.6214,
+   "games": 4456,
+   "ata": 2.17,
+   "picks": 1575
+  },
+  "Turtle Blimp": {
+   "gih": 0.5968,
+   "games": 14838,
+   "ata": 6.59,
+   "picks": 8477
+  },
+  "Turtle Lair": {
+   "gih": 0.5809,
+   "games": 6883,
+   "ata": 7.6,
+   "picks": 4494
+  },
+  "Turtle Power!": {
+   "gih": 0.4646,
+   "games": 325,
+   "ata": 7.47,
+   "picks": 1155
+  },
+  "Turtle Van": {
+   "gih": 0.5747,
+   "games": 4479,
+   "ata": 1.7,
+   "picks": 1508
+  },
+  "Turtles Forever": {
+   "gih": 0.5136,
+   "games": 516,
+   "ata": 7.68,
+   "picks": 1327
+  },
+  "Turtles in Time": {
+   "gih": 0.5041,
+   "games": 242,
+   "ata": 7.12,
+   "picks": 1026
+  },
+  "Umezawa's Jitte": {
+   "gih": 0.7173,
+   "games": 513,
+   "ata": 1.4,
+   "picks": 154
+  },
+  "Undercity Sewers": {
+   "gih": 0.6036,
+   "games": 280,
+   "ata": 5.93,
+   "picks": 163
+  },
+  "Underworld Breach": {
+   "gih": 0.5294,
+   "games": 17,
+   "ata": 7.65,
+   "picks": 100
+  },
+  "Uneasy Alliance": {
+   "gih": 0.5772,
+   "games": 22271,
+   "ata": 5.89,
+   "picks": 13248
+  },
+  "Utrom Scientists": {
+   "gih": 0.5441,
+   "games": 12914,
+   "ata": 9.49,
+   "picks": 12986
+  },
+  "Venus, Torn Between Worlds": {
+   "gih": 0.5351,
+   "games": 5599,
+   "ata": 6.22,
+   "picks": 3973
+  },
+  "Waves of Aggression": {
+   "gih": 0.3297,
+   "games": 91,
+   "ata": 4.73,
+   "picks": 86
+  },
+  "Weather Maker": {
+   "gih": 0.6153,
+   "games": 4850,
+   "ata": 2.5,
+   "picks": 1795
+  },
+  "West Wind Avatar": {
+   "gih": 0.5872,
+   "games": 11020,
+   "ata": 5.05,
+   "picks": 5748
+  },
+  "Wingnut, Bat on the Belfry": {
+   "gih": 0.5308,
+   "games": 5021,
+   "ata": 7.01,
+   "picks": 4277
+  },
+  "Zog, Triceraton Castaway": {
+   "gih": 0.5193,
+   "games": 3655,
+   "ata": 11.37,
+   "picks": 11280
+  },
+  "Zoo Escapees": {
+   "gih": 0.5407,
+   "games": 13144,
+   "ata": 9.18,
+   "picks": 11779
+  }
+ }
+}

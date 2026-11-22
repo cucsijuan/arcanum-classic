@@ -1,0 +1,27 @@
+{
+  "name": "Donatello, Rad Scientist",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "upTo": 3,
+          "text": "up to three target creatures your opponents control"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "eachTarget"
+        },
+        {
+          "counters": 1,
+          "what": "eachTarget",
+          "kind": "stun"
+        }
+      ],
+      "text": "When Donatello enters, tap up to three target creatures your opponents control. Put a stun counter on each of them."
+    }
+  ]
+}

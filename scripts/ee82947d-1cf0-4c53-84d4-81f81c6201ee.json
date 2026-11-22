@@ -1,0 +1,34 @@
+{
+  "name": "Shredder, Shadow Master",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "if": "triggeredAttacksPlayer",
+      "effects": [
+        {
+          "myriad": true,
+          "mandatory": true,
+          "playerOnly": true,
+          "notLegendary": true,
+          "sacrificeAtEndOfCombat": true
+        }
+      ],
+      "text": "Whenever Shredder attacks a player, for each other opponent, create a token that's a copy of Shredder tapped and attacking that player, except it isn't legendary. Sacrifice those tokens at end of combat."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "eachPlayer": [
+            {
+              "loseLife": "affectedHalfLife",
+              "who": "you"
+            }
+          ],
+          "who": "triggeredPlayer"
+        }
+      ],
+      "text": "Whenever Shredder deals combat damage to a player, that player loses half their life, rounded up."
+    }
+  ]
+}

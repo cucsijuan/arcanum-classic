@@ -1,0 +1,16 @@
+{
+  "name": "High Score",
+  "creaturePlusOneCountersPlusOne": true,
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "greatestPower",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "At the beginning of your end step, draw a card if you control a creature with the greatest power among creatures on the battlefield."
+    }
+  ]
+}

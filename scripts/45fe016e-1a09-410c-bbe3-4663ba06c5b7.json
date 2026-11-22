@@ -1,0 +1,6 @@
+{
+  "name": "Spire Garden",
+  "entersTappedUnless": {
+    "opponents": 2
+  }
+}

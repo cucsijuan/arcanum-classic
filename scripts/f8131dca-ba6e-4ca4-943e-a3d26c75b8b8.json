@@ -1,0 +1,36 @@
+{
+  "name": "Ice Cream Kitty",
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice:creature",
+      "sacrificeFilter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "token": true
+          }
+        ]
+      },
+      "sorcery": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice another creature or token: Draw a card. Activate only as a sorcery."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this creature: You gain 3 life."
+    }
+  ]
+}

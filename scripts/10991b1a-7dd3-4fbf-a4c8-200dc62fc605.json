@@ -1,0 +1,30 @@
+{
+  "name": "Waves of Aggression",
+  "graveyardCastCost": {
+    "discard": 1,
+    "discardFilter": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "untap": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "attackedThisTurn": true
+          }
+        }
+      },
+      {
+        "additionalCombatAndMain": true
+      }
+    ],
+    "text": "Untap all creatures that attacked this turn. After this main phase, there is an additional combat phase followed by an additional main phase."
+  }
+}

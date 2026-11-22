@@ -1,0 +1,54 @@
+{
+  "name": "Ninja Teen",
+  "graveyardSneak": {
+    "filter": {
+      "types": [
+        "creature"
+      ]
+    },
+    "cost": "{3}{B}"
+  },
+  "cardRulesLevel": 3,
+  "abilities": [
+    {
+      "trigger": "permanentLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "loseLife": 1,
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever a creature you control leaves the battlefield, each opponent loses 1 life."
+    },
+    {
+      "cost": "{1}{B}",
+      "levelUp": 2,
+      "text": "{1}{B}: Level 2"
+    },
+    {
+      "level": 2,
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Creatures you control get +1/+0 and have menace."
+    },
+    {
+      "cost": "{B}",
+      "levelUp": 3,
+      "text": "{B}: Level 3"
+    }
+  ]
+}

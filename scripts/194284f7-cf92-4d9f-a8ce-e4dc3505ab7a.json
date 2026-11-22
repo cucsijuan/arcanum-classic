@@ -1,0 +1,11 @@
+{
+  "name": "Donatello's Technique",
+  "spell": {
+    "effects": [
+      {
+        "draw": 2
+      }
+    ],
+    "text": "Draw two cards."
+  }
+}

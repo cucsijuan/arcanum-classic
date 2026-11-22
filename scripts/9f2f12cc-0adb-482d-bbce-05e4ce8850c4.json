@@ -1,0 +1,33 @@
+{
+  "name": "Heroes in a Half Shell",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "batchedPerPlayer": true,
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Mutant"
+          },
+          {
+            "subtype": "Ninja"
+          },
+          {
+            "subtype": "Turtle"
+          }
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "batch"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever one or more Mutants, Ninjas, and/or Turtles you control deal combat damage to a player, put a +1/+1 counter on each of those creatures and draw a card."
+    }
+  ]
+}

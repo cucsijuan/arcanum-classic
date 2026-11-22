@@ -1,0 +1,28 @@
+{
+  "name": "Prehistoric Pet",
+  "cantBeBlockedBy": {
+    "greaterPower": true
+  },
+  "abilities": [
+    {
+      "cost": "{1}{W}, {T}",
+      "activateIf": "yourTurn",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "{1}{W}, {T}: Return another target creature you control to its owner's hand. Activate only during your turn."
+    }
+  ]
+}

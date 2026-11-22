@@ -1,0 +1,33 @@
+{
+  "name": "Go Ninja Go",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Exile target creature you control, then return it to the battlefield under its owner's control.",
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "blink": "target"
+          }
+        ]
+      },
+      {
+        "text": "Go Ninja Go deals damage equal to the greatest power among creatures you control to target creature an opponent controls.",
+        "targets": [
+          "creature:opponent"
+        ],
+        "effects": [
+          {
+            "damage": "greatestPower",
+            "to": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

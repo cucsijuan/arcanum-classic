@@ -1,0 +1,33 @@
+{
+  "name": "Splinter, the Mentor",
+  "abilities": [
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever Splinter or another nontoken creature you control leaves the battlefield, create a Mutagen token."
+    },
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever Splinter or another nontoken creature you control leaves the battlefield, create a Mutagen token."
+    }
+  ]
+}

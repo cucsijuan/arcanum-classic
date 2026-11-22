@@ -1,0 +1,15 @@
+{
+  "name": "Insectoid Exterminator",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "scry": 1
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, scry 1."
+    }
+  ]
+}

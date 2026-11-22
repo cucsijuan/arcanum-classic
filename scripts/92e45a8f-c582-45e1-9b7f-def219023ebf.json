@@ -1,0 +1,71 @@
+{
+  "name": "West Wind Avatar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a token or a land to gain 3 life?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "token": true
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                }
+              ]
+            }
+          },
+          "effects": [
+            {
+              "gainLife": 3
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may sacrifice a token or a land. If you do, you gain 3 life."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "mayPay": "Sacrifice a token or a land to gain 3 life?",
+          "cost": {
+            "sacrifice": {
+              "anyOf": [
+                {
+                  "token": true
+                },
+                {
+                  "types": [
+                    "land"
+                  ]
+                }
+              ]
+            }
+          },
+          "effects": [
+            {
+              "gainLife": 3
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this creature enters or attacks, you may sacrifice a token or a land. If you do, you gain 3 life."
+    },
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, draw a card."
+    }
+  ]
+}

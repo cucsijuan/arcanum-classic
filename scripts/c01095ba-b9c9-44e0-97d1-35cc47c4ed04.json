@@ -1,0 +1,56 @@
+{
+  "name": "Splinter & Leo, Father & Son",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "upTo": true,
+      "targetRule": "allDifferent",
+      "text": "When Splinter & Leo enter, choose one or both. Each mode must target a different player.",
+      "modes": [
+        {
+          "text": "Target player creates a 2/2 red Mutant creature token.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "tokens": 1,
+              "token": {
+                "name": "Mutant",
+                "types": "Creature — Mutant",
+                "power": 2,
+                "toughness": 2,
+                "colors": [
+                  "R"
+                ]
+              },
+              "for": "target"
+            }
+          ]
+        },
+        {
+          "text": "Put a +1/+1 counter on each other creature target player controls.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "any",
+                  "other": true
+                },
+                "controlledBy": "target"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Armaggon, Future Shark",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "allDifferent",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to three target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to three target creatures"
+        },
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to three target creatures"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "eachTarget"
+        }
+      ],
+      "text": "When Armaggon enters, destroy up to three target creatures."
+    }
+  ]
+}

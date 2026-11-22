@@ -1,0 +1,17 @@
+{
+  "name": "Bebop, Warthog Warrior",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Rhino"
+        },
+        "keywords": [
+          "Menace"
+        ]
+      },
+      "text": "Rhinos you control have menace."
+    }
+  ]
+}

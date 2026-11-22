@@ -1,0 +1,32 @@
+{
+  "name": "Tempestra, Dame of Games",
+  "abilities": [
+    {
+      "cost": "{2}{R}, {T}, sacrifice:artifact",
+      "sacrificeFilter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          },
+          "text": "another target creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target",
+          "haste": true,
+          "notLegendary": true,
+          "sacrificeAtEndStep": true
+        }
+      ],
+      "text": "{2}{R}, {T}, Sacrifice an artifact: Create a token that's a copy of another target creature you control, except it isn't legendary. It gains haste. Sacrifice it at the beginning of the next end step."
+    }
+  ]
+}

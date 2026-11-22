@@ -1,0 +1,56 @@
+{
+  "name": "Biogenic Ooze",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ooze",
+            "types": "Creature — Ooze",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create a 2/2 green Ooze creature token."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "subtype": "Ooze",
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "At the beginning of your end step, put a +1/+1 counter on each Ooze you control."
+    },
+    {
+      "cost": "{1}{G}{G}{G}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ooze",
+            "types": "Creature — Ooze",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "G"
+            ]
+          }
+        }
+      ],
+      "text": "{1}{G}{G}{G}: Create a 2/2 green Ooze creature token."
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "Casey Jones, Back Alley Brute",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever Casey Jones attacks, put a +1/+1 counter on target attacking creature."
+    },
+    {
+      "trigger": "countersPlaced",
+      "batched": true,
+      "sumAmounts": true,
+      "placedByYou": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you put one or more +1/+1 counters on a creature you control, Casey Jones deals that much damage to target opponent."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Casey Jones, Asphalt Hooligan",
+  "abilities": [
+    {
+      "cost": "{4}",
+      "anyPlayer": true,
+      "effects": [
+        {
+          "doublePower": "self"
+        }
+      ],
+      "text": "{4}: Double Casey Jones's power until end of turn. Any player may activate this ability."
+    }
+  ]
+}

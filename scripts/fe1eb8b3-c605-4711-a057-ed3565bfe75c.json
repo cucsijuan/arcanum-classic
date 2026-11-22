@@ -1,0 +1,37 @@
+{
+  "name": "Michelangelo, Mutant BFF",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "hasCounters": true
+        },
+        "keywords": [
+          "Can't be blocked by more than one creature"
+        ]
+      },
+      "text": "Each creature you control with a counter on it can't be blocked by more than one creature."
+    },
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever Michelangelo enters or attacks, create a Mutagen token."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever Michelangelo enters or attacks, create a Mutagen token."
+    }
+  ]
+}

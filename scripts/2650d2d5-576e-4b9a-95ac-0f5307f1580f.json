@@ -1,0 +1,24 @@
+{
+  "name": "Triceraton Regenta",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "untap": "target"
+        }
+      ],
+      "text": "Whenever this creature attacks, untap up to one other target creature."
+    }
+  ]
+}

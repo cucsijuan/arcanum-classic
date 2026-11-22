@@ -1,0 +1,14 @@
+{
+  "name": "Purple Dragon Punks",
+  "extraMana": [
+    {
+      "types": "{R}",
+      "onlyFor": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "anyAbility": true
+    }
+  ]
+}

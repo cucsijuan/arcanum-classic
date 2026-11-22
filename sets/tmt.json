@@ -1,0 +1,1782 @@
+{
+  "code": "tmt",
+  "name": "Teenage Mutant Ninja Turtles",
+  "released": "2026-03-06",
+  "pack": {
+    "image": "https://tcgplayer-cdn.tcgplayer.com/product/657848_in_1000x1000.jpg",
+    "seals": [
+      0.06,
+      0.06
+    ]
+  },
+  "limited": {
+    "boostersPerPlayer": 3,
+    "sealedBoosters": 6
+  },
+  "cards": [
+    "Action News Crew",
+    "Agent Bishop, Man in Black",
+    "Anchovy & Banana Pizza",
+    "April O'Neil, Hacktivist",
+    "April O'Neil, Kunoichi Trainee",
+    "April, Reporter of the Weird",
+    "Armaggon, Future Shark",
+    "Baxter Stockman",
+    "Bebop & Rocksteady",
+    "Bebop, Warthog Warrior",
+    "Bespoke Bō",
+    "Bot Bashing Time",
+    "Brilliance Unleashed",
+    "Broadcast Takeover",
+    "Buzz Bots",
+    "Casey Jones, Jury-Rig Justiciar",
+    "Casey Jones, Vigilante",
+    "Chrome Dome",
+    "Cool but Rude",
+    "Courier of Comestibles",
+    "Cowabunga!",
+    "Crustacean Commando",
+    "Dark Leo & Shredder",
+    "Death in the Family",
+    "Dimension X",
+    "Dimensional Exile",
+    "Does Machines",
+    "Don & Leo, Problem Solvers",
+    "Don & Raph, Hard Science",
+    "Donatello's Technique",
+    "Donatello, Gadget Master",
+    "Donatello, Mutant Mechanic",
+    "Donatello, Turtle Techie",
+    "Donatello, Way with Machines",
+    "Dream Beavers",
+    "EPF Point Squad",
+    "East Wind Avatar",
+    "Escape Tunnel",
+    "Everything Pizza",
+    "Featherbrained Filcher",
+    "Foot Elite",
+    "Foot Headquarters",
+    "Foot Mystic",
+    "Foot Ninjas",
+    "Forest",
+    "Frog Butler",
+    "Fugitive Droid",
+    "General Traag, Heart of Stone",
+    "Genghis Frog",
+    "Go Ninja Go",
+    "Groundchuck & Dirtbag",
+    "Grounded for Life",
+    "Guac & Marshmallow Pizza",
+    "Hamato Guardian Stance",
+    "Hard-Won Jitte",
+    "Henchbots",
+    "High-Flying Ace",
+    "Ice Cream Kitty",
+    "Illegitimate Business",
+    "Improvised Arsenal",
+    "Insectoid Exterminator",
+    "Island",
+    "Jennika's Technique",
+    "Jennika, Bad Apple Big Sister",
+    "Karai's Technique",
+    "Karai, Future of the Foot",
+    "Kitsune's Technique",
+    "Kitsune, Dragon's Daughter",
+    "Koya, Death from Above",
+    "Krang & Shredder",
+    "Krang, Master Mind",
+    "Krang, Utrom Warlord",
+    "Leader's Talent",
+    "Leatherhead, Swamp Stalker",
+    "Leonardo's Technique",
+    "Leonardo, Big Brother",
+    "Leonardo, Cutting Edge",
+    "Leonardo, Leader in Blue",
+    "Leonardo, Sewer Samurai",
+    "Lessons from Life",
+    "Lita, Little Orphan Amphibian",
+    "Lord Dregg, Insect Invader",
+    "Madame Null, Power Broker",
+    "Make Your Move",
+    "Manhole Missile",
+    "Mechanized Ninja Cavalry",
+    "Metalhead",
+    "Michelangelo's Technique",
+    "Michelangelo, Game Master",
+    "Michelangelo, Improviser",
+    "Michelangelo, Mutant BFF",
+    "Michelangelo, Weirdness to 11",
+    "Mighty Mutanimals",
+    "Mikey & Don, Party Planners",
+    "Mikey & Leo, Chaos & Order",
+    "Mind Transfer Protocol",
+    "Mona Lisa, Science Geek",
+    "Mondo Gecko",
+    "Mountain",
+    "Mouser Attack!",
+    "Mouser Foundry",
+    "Mouser Mark III",
+    "Mutagen Man, Living Ooze",
+    "Mutant Chain Reaction",
+    "Mutant Town",
+    "Mutant Town Musicians",
+    "Negate",
+    "New Generation's Technique",
+    "Ninja Teen",
+    "Nobody",
+    "North Wind Avatar",
+    "Northampton Farm",
+    "Novel Nunchaku",
+    "Null Group Biological Assets",
+    "Old Hob, Alleycat Blues",
+    "Omni-Cheese Pizza",
+    "Ooze Spill",
+    "Oroku Saki, Shredder Rising",
+    "Pain 101",
+    "Paramecia Coloniex",
+    "Party Dude",
+    "Pizza Face, Gastromancer",
+    "Plains",
+    "Prehistoric Pet",
+    "Primordial Pachyderm",
+    "Punk Frogs",
+    "Purple Dragon Punks",
+    "Putrid Pals",
+    "Quintessential Katana",
+    "Ragamuffin Raptor",
+    "Raph & Leo, Sibling Rivals",
+    "Raph & Mikey, Troublemakers",
+    "Raphael's Technique",
+    "Raphael, Most Attitude",
+    "Raphael, Ninja Destroyer",
+    "Raphael, Tough Turtle",
+    "Raphael, the Nightwatcher",
+    "Rat King, Verminister",
+    "Ravenous Robots",
+    "Ray Fillet, Man Ray",
+    "Renet, Temporal Apprentice",
+    "Retro-Mutation",
+    "Return to the Sewers",
+    "Rock Soldiers",
+    "Rocksteady, Crash Courser",
+    "Sally Pride, Lioness Leader",
+    "Savanti Romero, Time's Exile",
+    "Saved by the Shell",
+    "Sewer-veillance Cam",
+    "Shark Shredder, Killer Clone",
+    "Shredder's Armor",
+    "Shredder's Revenge",
+    "Shredder's Technique",
+    "Shredder, Unrelenting",
+    "Skateboard",
+    "Slash, Reptile Rampager",
+    "Slithering Cryptid",
+    "South Wind Avatar",
+    "Spicy Oatmeal Pizza",
+    "Splinter's Technique",
+    "Splinter, Hamato Yoshi",
+    "Splinter, Radical Rat",
+    "Squirrelanoids",
+    "Stockman, Mad Fly-entist",
+    "Stomped by the Foot",
+    "Super Shredder",
+    "Swamp",
+    "TCRI Building",
+    "Tainted Treats",
+    "Technodrome",
+    "Tenderize",
+    "The Cloning of Shredder",
+    "The Last Ronin",
+    "The Last Ronin's Technique",
+    "The Neutrinos",
+    "The Ooze",
+    "Tokka & Rahzar, Terrible Twos",
+    "Transdimensional Bovine",
+    "Triceraton Commander",
+    "Tunnel Rats",
+    "Turncoat Kunoichi",
+    "Turtle Blimp",
+    "Turtle Lair",
+    "Turtle Power!",
+    "Turtle Van",
+    "Turtles Forever",
+    "Turtles in Time",
+    "Uneasy Alliance",
+    "Utrom Scientists",
+    "Venus, Torn Between Worlds",
+    "Weather Maker",
+    "West Wind Avatar",
+    "Wingnut, Bat on the Belfry",
+    "Zog, Triceraton Castaway",
+    "Zoo Escapees"
+  ],
+  "booster": {
+    "name": "Play Booster",
+    "description": "14 cards: 7 commons (in 4.2% of the boosters one is a scene card, and in 1 of 28 a source material card replaces one), 2 uncommons (in 3.9% of the boosters one is a scene card, in 7.8% a sewer frame card), a legendary Turtle of any rarity (a common 64.1%, an uncommon 13.1%, a rare 6.9%, a mythic rare 3.4%; a scene common 4.6%, uncommon 6.5% or rare 1%; or a silhouette mythic rare), a wildcard of any rarity (a common 24.9%, an uncommon 62.1%, a rare 7.6%, a scene uncommon 1.3%, a sewer frame uncommon 2.6%, or a mythic rare, a scene common or rare, a sewer frame rare or mythic rare or a silhouette mythic rare), a rare (84.9%) or mythic rare (9.2%) or a sewer frame rare (4.1%), a scene rare, a sewer frame mythic rare or a silhouette mythic rare, a traditional foil of any rarity (a common 61.5%, an uncommon 27.7%, a rare 6.7%, or a mythic rare, a scene, sewer frame or silhouette card) and a land (a common dual land 48%, foil 12%; a rooftop basic 32%, foil 8%). The legendary Turtle cards (Jennika and the four brothers' cards) appear only in their own slot and the foil slot, as the published counts of the common and uncommon slots show; the replacement odds of the common and uncommon slots are read as per booster. Published only as less than 1%, so derived: what is left to 100% in a slot is shared evenly among the treatments published as less than 1% (the legendary Turtle slot's silhouettes 0.4%; the wildcard's six 0.25% each; the rare slot's three 0.6% each; the foil's eight 0.5125% each). Each booster also holds a double-sided token, which isn't a game card.",
+    "sheets": {
+      "common": {
+        "numbers": [
+          "1",
+          "3",
+          "5",
+          "7",
+          "8",
+          "9",
+          "20",
+          "28",
+          "32",
+          "33",
+          "45",
+          "47",
+          "51",
+          "52",
+          "53",
+          "54",
+          "56",
+          "57",
+          "59",
+          "63",
+          "64",
+          "68",
+          "69",
+          "76",
+          "81",
+          "82",
+          "84",
+          "85",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "100",
+          "107",
+          "111",
+          "113",
+          "114",
+          "116",
+          "125",
+          "129",
+          "130",
+          "131",
+          "133",
+          "138",
+          "145",
+          "146",
+          "147",
+          "150",
+          "156",
+          "159",
+          "161",
+          "164",
+          "165",
+          "168",
+          "176"
+        ]
+      },
+      "sceneC": {
+        "numbers": [
+          "209"
+        ]
+      },
+      "pza": {
+        "numbers": [
+          "1-20"
+        ],
+        "set": "pza"
+      },
+      "uncommon": {
+        "numbers": [
+          "4",
+          "6",
+          "11",
+          "12",
+          "19",
+          "21",
+          "23",
+          "30",
+          "31",
+          "39",
+          "40",
+          "44",
+          "48",
+          "49",
+          "61",
+          "62",
+          "65",
+          "70",
+          "74",
+          "75",
+          "77",
+          "79",
+          "87",
+          "90",
+          "91",
+          "93",
+          "99",
+          "109",
+          "110",
+          "112",
+          "123",
+          "126",
+          "127",
+          "132",
+          "136",
+          "137",
+          "139",
+          "141",
+          "148",
+          "149",
+          "151",
+          "152",
+          "155",
+          "160",
+          "163",
+          "170",
+          "173",
+          "174",
+          "178",
+          "180",
+          "190"
+        ]
+      },
+      "sceneU": {
+        "numbers": [
+          "206",
+          "207",
+          "210"
+        ]
+      },
+      "sewerU": {
+        "numbers": [
+          "223",
+          "228",
+          "232",
+          "236",
+          "240",
+          "244"
+        ]
+      },
+      "ltC": {
+        "numbers": [
+          "10",
+          "14",
+          "37",
+          "104",
+          "118"
+        ]
+      },
+      "ltU": {
+        "numbers": [
+          "16",
+          "38",
+          "101",
+          "120"
+        ]
+      },
+      "ltR": {
+        "numbers": [
+          "15",
+          "35",
+          "103",
+          "121"
+        ]
+      },
+      "ltM": {
+        "numbers": [
+          "17",
+          "36",
+          "102",
+          "119"
+        ]
+      },
+      "ltSceneC": {
+        "numbers": [
+          "203"
+        ]
+      },
+      "ltSceneU": {
+        "numbers": [
+          "196",
+          "197",
+          "198",
+          "199"
+        ]
+      },
+      "ltSceneR": {
+        "numbers": [
+          "211",
+          "212",
+          "213",
+          "214"
+        ]
+      },
+      "ltSil": {
+        "numbers": [
+          "215",
+          "216",
+          "218",
+          "219"
+        ]
+      },
+      "rare": {
+        "numbers": [
+          "2",
+          "13",
+          "18",
+          "22",
+          "24",
+          "26",
+          "27",
+          "29",
+          "34",
+          "41",
+          "42",
+          "43",
+          "50",
+          "58",
+          "66",
+          "67",
+          "71",
+          "72",
+          "73",
+          "78",
+          "80",
+          "88",
+          "89",
+          "92",
+          "105",
+          "106",
+          "108",
+          "115",
+          "117",
+          "122",
+          "124",
+          "128",
+          "134",
+          "135",
+          "140",
+          "143",
+          "144",
+          "153",
+          "157",
+          "158",
+          "166",
+          "167",
+          "169",
+          "171",
+          "172",
+          "177",
+          "181",
+          "182",
+          "188"
+        ]
+      },
+      "mythic": {
+        "numbers": [
+          "25",
+          "46",
+          "55",
+          "60",
+          "83",
+          "86",
+          "142",
+          "154",
+          "162",
+          "175",
+          "179"
+        ]
+      },
+      "sceneR": {
+        "numbers": [
+          "200",
+          "201",
+          "202",
+          "204",
+          "205",
+          "208"
+        ]
+      },
+      "sewerR": {
+        "numbers": [
+          "224",
+          "225",
+          "227",
+          "229",
+          "230",
+          "233",
+          "235",
+          "237",
+          "238",
+          "239",
+          "241",
+          "242",
+          "243",
+          "245",
+          "246",
+          "247",
+          "249",
+          "250",
+          "251",
+          "252"
+        ]
+      },
+      "sewerM": {
+        "numbers": [
+          "226",
+          "231",
+          "234",
+          "248"
+        ]
+      },
+      "sil": {
+        "numbers": [
+          "217",
+          "220",
+          "221",
+          "222"
+        ]
+      },
+      "foil_common": {
+        "numbers": [
+          "1",
+          "3",
+          "5",
+          "7",
+          "8",
+          "9",
+          "10",
+          "14",
+          "20",
+          "28",
+          "32",
+          "33",
+          "37",
+          "45",
+          "47",
+          "51",
+          "52",
+          "53",
+          "54",
+          "56",
+          "57",
+          "59",
+          "63",
+          "64",
+          "68",
+          "69",
+          "76",
+          "81",
+          "82",
+          "84",
+          "85",
+          "94",
+          "95",
+          "96",
+          "97",
+          "98",
+          "100",
+          "104",
+          "107",
+          "111",
+          "113",
+          "114",
+          "116",
+          "118",
+          "125",
+          "129",
+          "130",
+          "131",
+          "133",
+          "138",
+          "145",
+          "146",
+          "147",
+          "150",
+          "156",
+          "159",
+          "161",
+          "164",
+          "165",
+          "168",
+          "176"
+        ],
+        "foil": true
+      },
+      "foil_uncommon": {
+        "numbers": [
+          "4",
+          "6",
+          "11",
+          "12",
+          "16",
+          "19",
+          "21",
+          "23",
+          "30",
+          "31",
+          "38",
+          "39",
+          "40",
+          "44",
+          "48",
+          "49",
+          "61",
+          "62",
+          "65",
+          "70",
+          "74",
+          "75",
+          "77",
+          "79",
+          "87",
+          "90",
+          "91",
+          "93",
+          "99",
+          "101",
+          "109",
+          "110",
+          "112",
+          "120",
+          "123",
+          "126",
+          "127",
+          "132",
+          "136",
+          "137",
+          "139",
+          "141",
+          "148",
+          "149",
+          "151",
+          "152",
+          "155",
+          "160",
+          "163",
+          "170",
+          "173",
+          "174",
+          "178",
+          "180",
+          "190"
+        ],
+        "foil": true
+      },
+      "foil_rare": {
+        "numbers": [
+          "2",
+          "13",
+          "15",
+          "18",
+          "22",
+          "24",
+          "26",
+          "27",
+          "29",
+          "34",
+          "35",
+          "41",
+          "42",
+          "43",
+          "50",
+          "58",
+          "66",
+          "67",
+          "71",
+          "72",
+          "73",
+          "78",
+          "80",
+          "88",
+          "89",
+          "92",
+          "103",
+          "105",
+          "106",
+          "108",
+          "115",
+          "117",
+          "121",
+          "122",
+          "124",
+          "128",
+          "134",
+          "135",
+          "140",
+          "143",
+          "144",
+          "153",
+          "157",
+          "158",
+          "166",
+          "167",
+          "169",
+          "171",
+          "172",
+          "177",
+          "181",
+          "182",
+          "188"
+        ],
+        "foil": true
+      },
+      "foil_mythic": {
+        "numbers": [
+          "17",
+          "25",
+          "36",
+          "46",
+          "55",
+          "60",
+          "83",
+          "86",
+          "102",
+          "119",
+          "142",
+          "154",
+          "162",
+          "175",
+          "179"
+        ],
+        "foil": true
+      },
+      "foil_sceneC": {
+        "numbers": [
+          "203",
+          "209"
+        ],
+        "foil": true
+      },
+      "foil_sceneU": {
+        "numbers": [
+          "196",
+          "197",
+          "198",
+          "199",
+          "206",
+          "207",
+          "210"
+        ],
+        "foil": true
+      },
+      "foil_sceneR": {
+        "numbers": [
+          "200",
+          "201",
+          "202",
+          "204",
+          "205",
+          "208",
+          "211",
+          "212",
+          "213",
+          "214"
+        ],
+        "foil": true
+      },
+      "foil_sewerU": {
+        "numbers": [
+          "223",
+          "228",
+          "232",
+          "236",
+          "240",
+          "244"
+        ],
+        "foil": true
+      },
+      "foil_sewerR": {
+        "numbers": [
+          "224",
+          "225",
+          "227",
+          "229",
+          "230",
+          "233",
+          "235",
+          "237",
+          "238",
+          "239",
+          "241",
+          "242",
+          "243",
+          "245",
+          "246",
+          "247",
+          "249",
+          "250",
+          "251",
+          "252"
+        ],
+        "foil": true
+      },
+      "foil_sewerM": {
+        "numbers": [
+          "226",
+          "231",
+          "234",
+          "248"
+        ],
+        "foil": true
+      },
+      "foil_sil": {
+        "numbers": [
+          "215",
+          "216",
+          "217",
+          "218",
+          "219",
+          "220",
+          "221",
+          "222"
+        ],
+        "foil": true
+      },
+      "dual": {
+        "numbers": [
+          "183",
+          "184",
+          "185",
+          "186",
+          "187",
+          "189"
+        ]
+      },
+      "foil_dual": {
+        "numbers": [
+          "183",
+          "184",
+          "185",
+          "186",
+          "187",
+          "189"
+        ],
+        "foil": true
+      },
+      "rooftop": {
+        "numbers": [
+          "191-195"
+        ]
+      },
+      "foil_rooftop": {
+        "numbers": [
+          "191-195"
+        ],
+        "foil": true
+      }
+    },
+    "slots": [
+      {
+        "count": 5,
+        "sheets": {
+          "common": 1
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "common": 95800,
+          "sceneC": 4200
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "common": 27,
+          "pza": 1
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "uncommon": 1
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "uncommon": 88300,
+          "sceneU": 3900,
+          "sewerU": 7800
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "ltC": 64100,
+          "ltU": 13100,
+          "ltR": 6900,
+          "ltM": 3400,
+          "ltSceneC": 4600,
+          "ltSceneU": 6500,
+          "ltSceneR": 1000,
+          "ltSil": 400
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "common": 24900,
+          "uncommon": 62100,
+          "rare": 7600,
+          "mythic": 250,
+          "sceneC": 250,
+          "sceneU": 1300,
+          "sceneR": 250,
+          "sewerU": 2600,
+          "sewerR": 250,
+          "sewerM": 250,
+          "sil": 250
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "rare": 84900,
+          "mythic": 9200,
+          "sceneR": 600,
+          "sewerR": 4100,
+          "sewerM": 600,
+          "sil": 600
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "foil_common": 61500,
+          "foil_uncommon": 27700,
+          "foil_rare": 6700,
+          "foil_mythic": 512,
+          "foil_sceneC": 512,
+          "foil_sceneU": 512,
+          "foil_sceneR": 512,
+          "foil_sewerU": 512,
+          "foil_sewerR": 512,
+          "foil_sewerM": 512,
+          "foil_sil": 512
+        }
+      },
+      {
+        "count": 1,
+        "sheets": {
+          "dual": 48000,
+          "foil_dual": 12000,
+          "rooftop": 32000,
+          "foil_rooftop": 8000
+        }
+      }
+    ]
+  },
+  "boosters": {
+    "collector": {
+      "name": "Collector Booster",
+      "pack": {
+        "image": "https://tcgplayer-cdn.tcgplayer.com/product/657851_in_1000x1000.jpg",
+        "seals": [
+          0.06,
+          0.06
+        ]
+      },
+      "description": "15 cards: 5 traditional foil commons (a main set common 88.4%, a common dual land 8.7% or a scene common 2.9%), 3 traditional foil uncommons (main set 80.9%, scene 10.3%, sewer frame 8.8%), a Commander deck common or uncommon reprint (a common 51.9%, surge foil 23.1%; an uncommon 17.3%, surge foil 7.7%), a basic land (a traditional foil pizza basic 66.7%, surge foil 11.1%; a surge foil rooftop basic 22.2%), a traditional foil rare (87.6%) or mythic rare (12.4%), two Booster Fun or Commander cards (a silhouette mythic rare 2.9%; a scene rare 5.8%; a sewer frame rare 13.2% or mythic rare 1.4%; an extended-art rare 16.1% or mythic rare; a borderless Commander deck mythic rare 2.2%; a new Commander rare 26.2% or mythic rare, or a Commander deck rare reprint 19%; in surge foil a new Commander rare 6.1% or mythic rare or a rare reprint 4.4%; a surge foil pixel rare 1.3% or mythic rare 0.6%), a source material card (traditional foil 25%) and a foil Booster Fun card (a scene rare 13.2%; a sewer frame rare 29.7% or mythic rare 3.3%; an extended-art rare 36.3% or mythic rare; a silhouette mythic rare 6.6%; a Japan showcase card 9% or in fracture foil; or a headliner). Published only as less than 1% or a low rate, so derived: what is left to 100% in a slot is shared evenly among those treatments (0.27% each for the extended-art mythic rare and the new Commander mythic rare in non-foil and surge foil; 0.63% each for the foil extended-art mythic rare, the fracture foil Japan showcase card and the headliner). Fracture foil has its own printing; the other foils are shown as traditional or surge foils. Each booster also holds an art card or a double-sided token, which aren't game cards.",
+      "sheets": {
+        "foil_common": {
+          "numbers": [
+            "1",
+            "3",
+            "5",
+            "7",
+            "8",
+            "9",
+            "10",
+            "14",
+            "20",
+            "28",
+            "32",
+            "33",
+            "37",
+            "45",
+            "47",
+            "51",
+            "52",
+            "53",
+            "54",
+            "56",
+            "57",
+            "59",
+            "63",
+            "64",
+            "68",
+            "69",
+            "76",
+            "81",
+            "82",
+            "84",
+            "85",
+            "94",
+            "95",
+            "96",
+            "97",
+            "98",
+            "100",
+            "104",
+            "107",
+            "111",
+            "113",
+            "114",
+            "116",
+            "118",
+            "125",
+            "129",
+            "130",
+            "131",
+            "133",
+            "138",
+            "145",
+            "146",
+            "147",
+            "150",
+            "156",
+            "159",
+            "161",
+            "164",
+            "165",
+            "168",
+            "176"
+          ],
+          "foil": true
+        },
+        "foil_dual": {
+          "numbers": [
+            "183",
+            "184",
+            "185",
+            "186",
+            "187",
+            "189"
+          ],
+          "foil": true
+        },
+        "foil_sceneC": {
+          "numbers": [
+            "203",
+            "209"
+          ],
+          "foil": true
+        },
+        "foil_uncommon": {
+          "numbers": [
+            "4",
+            "6",
+            "11",
+            "12",
+            "16",
+            "19",
+            "21",
+            "23",
+            "30",
+            "31",
+            "38",
+            "39",
+            "40",
+            "44",
+            "48",
+            "49",
+            "61",
+            "62",
+            "65",
+            "70",
+            "74",
+            "75",
+            "77",
+            "79",
+            "87",
+            "90",
+            "91",
+            "93",
+            "99",
+            "101",
+            "109",
+            "110",
+            "112",
+            "120",
+            "123",
+            "126",
+            "127",
+            "132",
+            "136",
+            "137",
+            "139",
+            "141",
+            "148",
+            "149",
+            "151",
+            "152",
+            "155",
+            "160",
+            "163",
+            "170",
+            "173",
+            "174",
+            "178",
+            "180",
+            "190"
+          ],
+          "foil": true
+        },
+        "foil_sceneU": {
+          "numbers": [
+            "196",
+            "197",
+            "198",
+            "199",
+            "206",
+            "207",
+            "210"
+          ],
+          "foil": true
+        },
+        "foil_sewerU": {
+          "numbers": [
+            "223",
+            "228",
+            "232",
+            "236",
+            "240",
+            "244"
+          ],
+          "foil": true
+        },
+        "tmcC": {
+          "numbers": [
+            "50",
+            "60",
+            "63",
+            "65",
+            "70",
+            "77",
+            "78",
+            "79",
+            "82"
+          ],
+          "set": "tmc"
+        },
+        "surge_tmcC": {
+          "numbers": [
+            "50",
+            "60",
+            "63",
+            "65",
+            "70",
+            "77",
+            "78",
+            "79",
+            "82"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "tmcU": {
+          "numbers": [
+            "48",
+            "51",
+            "57",
+            "59"
+          ],
+          "set": "tmc"
+        },
+        "surge_tmcU": {
+          "numbers": [
+            "48",
+            "51",
+            "57",
+            "59"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "foil_pizza": {
+          "numbers": [
+            "253-257"
+          ],
+          "foil": true
+        },
+        "surge_pizza": {
+          "numbers": [
+            "310-314"
+          ],
+          "foil": true,
+          "surge": true
+        },
+        "surge_rooftop": {
+          "numbers": [
+            "305-309"
+          ],
+          "foil": true,
+          "surge": true
+        },
+        "foil_rare": {
+          "numbers": [
+            "2",
+            "13",
+            "15",
+            "18",
+            "22",
+            "24",
+            "26",
+            "27",
+            "29",
+            "34",
+            "35",
+            "41",
+            "42",
+            "43",
+            "50",
+            "58",
+            "66",
+            "67",
+            "71",
+            "72",
+            "73",
+            "78",
+            "80",
+            "88",
+            "89",
+            "92",
+            "103",
+            "105",
+            "106",
+            "108",
+            "115",
+            "117",
+            "121",
+            "122",
+            "124",
+            "128",
+            "134",
+            "135",
+            "140",
+            "143",
+            "144",
+            "153",
+            "157",
+            "158",
+            "166",
+            "167",
+            "169",
+            "171",
+            "172",
+            "177",
+            "181",
+            "182",
+            "188"
+          ],
+          "foil": true
+        },
+        "foil_mythic": {
+          "numbers": [
+            "17",
+            "25",
+            "36",
+            "46",
+            "55",
+            "60",
+            "83",
+            "86",
+            "102",
+            "119",
+            "142",
+            "154",
+            "162",
+            "175",
+            "179"
+          ],
+          "foil": true
+        },
+        "sil": {
+          "numbers": [
+            "215-222"
+          ]
+        },
+        "sceneR": {
+          "numbers": [
+            "200",
+            "201",
+            "202",
+            "204",
+            "205",
+            "208",
+            "211",
+            "212",
+            "213",
+            "214"
+          ]
+        },
+        "sewerR": {
+          "numbers": [
+            "224",
+            "225",
+            "227",
+            "229",
+            "230",
+            "233",
+            "235",
+            "237",
+            "238",
+            "239",
+            "241",
+            "242",
+            "243",
+            "245",
+            "246",
+            "247",
+            "249",
+            "250",
+            "251",
+            "252"
+          ]
+        },
+        "sewerM": {
+          "numbers": [
+            "226",
+            "231",
+            "234",
+            "248"
+          ]
+        },
+        "eaR": {
+          "numbers": [
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "264",
+            "265",
+            "266",
+            "267",
+            "268",
+            "269",
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276",
+            "277",
+            "278",
+            "279",
+            "280"
+          ]
+        },
+        "eaM": {
+          "numbers": [
+            "263"
+          ]
+        },
+        "tmcBorderless": {
+          "numbers": [
+            "1-6"
+          ],
+          "set": "tmc"
+        },
+        "tmcNewR": {
+          "numbers": [
+            "7",
+            "8",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "set": "tmc"
+        },
+        "tmcNewM": {
+          "numbers": [
+            "9"
+          ],
+          "set": "tmc"
+        },
+        "tmcReprintR": {
+          "numbers": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "49",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "58",
+            "61",
+            "62",
+            "64",
+            "66",
+            "67",
+            "68",
+            "69",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "80",
+            "81"
+          ],
+          "set": "tmc"
+        },
+        "surge_tmcNewR": {
+          "numbers": [
+            "7",
+            "8",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "surge_tmcNewM": {
+          "numbers": [
+            "9"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "surge_tmcReprintR": {
+          "numbers": [
+            "44",
+            "45",
+            "46",
+            "47",
+            "49",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "58",
+            "61",
+            "62",
+            "64",
+            "66",
+            "67",
+            "68",
+            "69",
+            "71",
+            "72",
+            "73",
+            "74",
+            "75",
+            "76",
+            "80",
+            "81"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "pixelR": {
+          "numbers": [
+            "86",
+            "87",
+            "88",
+            "90",
+            "93",
+            "94",
+            "95",
+            "97"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "pixelM": {
+          "numbers": [
+            "83",
+            "84",
+            "85",
+            "89",
+            "91",
+            "92",
+            "96"
+          ],
+          "foil": true,
+          "surge": true,
+          "set": "tmc"
+        },
+        "pza": {
+          "numbers": [
+            "1-20"
+          ],
+          "set": "pza"
+        },
+        "foil_pza": {
+          "numbers": [
+            "1-20"
+          ],
+          "foil": true,
+          "set": "pza"
+        },
+        "foil_sceneR": {
+          "numbers": [
+            "200",
+            "201",
+            "202",
+            "204",
+            "205",
+            "208",
+            "211",
+            "212",
+            "213",
+            "214"
+          ],
+          "foil": true
+        },
+        "foil_sewerR": {
+          "numbers": [
+            "224",
+            "225",
+            "227",
+            "229",
+            "230",
+            "233",
+            "235",
+            "237",
+            "238",
+            "239",
+            "241",
+            "242",
+            "243",
+            "245",
+            "246",
+            "247",
+            "249",
+            "250",
+            "251",
+            "252"
+          ],
+          "foil": true
+        },
+        "foil_sewerM": {
+          "numbers": [
+            "226",
+            "231",
+            "234",
+            "248"
+          ],
+          "foil": true
+        },
+        "foil_eaR": {
+          "numbers": [
+            "258",
+            "259",
+            "260",
+            "261",
+            "262",
+            "264",
+            "265",
+            "266",
+            "267",
+            "268",
+            "269",
+            "270",
+            "271",
+            "272",
+            "273",
+            "274",
+            "275",
+            "276",
+            "277",
+            "278",
+            "279",
+            "280"
+          ],
+          "foil": true
+        },
+        "foil_eaM": {
+          "numbers": [
+            "263"
+          ],
+          "foil": true
+        },
+        "foil_sil": {
+          "numbers": [
+            "215-222"
+          ],
+          "foil": true
+        },
+        "japan": {
+          "numbers": [
+            "281-290"
+          ],
+          "foil": true
+        },
+        "fracture_japan": {
+          "numbers": [
+            "291-300"
+          ],
+          "foil": true
+        },
+        "headliner": {
+          "numbers": [
+            "301-304"
+          ],
+          "foil": true
+        }
+      },
+      "slots": [
+        {
+          "count": 5,
+          "sheets": {
+            "foil_common": 88400,
+            "foil_dual": 8700,
+            "foil_sceneC": 2900
+          }
+        },
+        {
+          "count": 3,
+          "sheets": {
+            "foil_uncommon": 80900,
+            "foil_sceneU": 10300,
+            "foil_sewerU": 8800
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "tmcC": 51900,
+            "surge_tmcC": 23100,
+            "tmcU": 17300,
+            "surge_tmcU": 7700
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_pizza": 66700,
+            "surge_pizza": 11100,
+            "surge_rooftop": 22200
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_rare": 87600,
+            "foil_mythic": 12400
+          }
+        },
+        {
+          "count": 2,
+          "sheets": {
+            "sil": 2900,
+            "sceneR": 5800,
+            "sewerR": 13200,
+            "sewerM": 1400,
+            "eaR": 16100,
+            "eaM": 267,
+            "tmcBorderless": 2200,
+            "tmcNewR": 26200,
+            "tmcNewM": 267,
+            "tmcReprintR": 19000,
+            "surge_tmcNewR": 6100,
+            "surge_tmcNewM": 267,
+            "surge_tmcReprintR": 4400,
+            "pixelR": 1300,
+            "pixelM": 600
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "pza": 75000,
+            "foil_pza": 25000
+          }
+        },
+        {
+          "count": 1,
+          "sheets": {
+            "foil_sceneR": 13200,
+            "foil_sewerR": 29700,
+            "foil_sewerM": 3300,
+            "foil_eaR": 36300,
+            "foil_eaM": 633,
+            "foil_sil": 6600,
+            "japan": 9000,
+            "fracture_japan": 633,
+            "headliner": 633
+          }
+        }
+      ]
+    }
+  }
+}

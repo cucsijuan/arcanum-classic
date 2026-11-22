@@ -1,0 +1,26 @@
+{
+  "name": "Donatello, Gadget Master",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "text": "target artifact you control"
+        }
+      ],
+      "effects": [
+        {
+          "copy": "target"
+        }
+      ],
+      "text": "Whenever Donatello deals combat damage to a player, create a token that's a copy of target artifact you control."
+    }
+  ]
+}

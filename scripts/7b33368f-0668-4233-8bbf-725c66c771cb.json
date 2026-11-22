@@ -1,0 +1,48 @@
+{
+  "name": "Donnie & April, Adorkable Duo",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "upTo": true,
+      "targetRule": "allDifferent",
+      "text": "When Donnie & April enter, choose one or both. Each mode must target a different player.",
+      "modes": [
+        {
+          "text": "Target player draws two cards.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "draw": 2,
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target player returns an artifact, instant, or sorcery card from their graveyard to their hand.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "eachPlayer": [
+                {
+                  "returnFromGraveyard": {
+                    "types": [
+                      "artifact",
+                      "instant",
+                      "sorcery"
+                    ]
+                  }
+                }
+              ],
+              "who": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

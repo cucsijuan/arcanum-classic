@@ -1,0 +1,34 @@
+{
+  "name": "Manhole Missile",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "damage": 3,
+        "to": "target"
+      },
+      {
+        "if": {
+          "atLeast": "handSize",
+          "value": 1
+        },
+        "then": [
+          {
+            "may": "Put a card from your hand on the bottom of your library? If you do, draw a card.",
+            "effects": [
+              {
+                "handToBottom": 1
+              },
+              {
+                "draw": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "text": "Manhole Missile deals 3 damage to target creature. You may put a card from your hand on the bottom of your library. If you do, draw a card."
+  }
+}

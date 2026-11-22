@@ -1,0 +1,24 @@
+{
+  "name": "Foot Mystic",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "colors": [
+              "B"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "Disappear — When this creature enters, if a permanent left the battlefield under your control this turn, create a 1/1 black Ninja creature token."
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Sewer-veillance Cam",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Tap it",
+              "effects": [
+                {
+                  "tap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Untap it",
+              "effects": [
+                {
+                  "untap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Neither",
+              "effects": []
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, you may tap or untap target creature."
+    },
+    {
+      "trigger": "leaves",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Tap it",
+              "effects": [
+                {
+                  "tap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Untap it",
+              "effects": [
+                {
+                  "untap": "target"
+                }
+              ]
+            },
+            {
+              "text": "Neither",
+              "effects": []
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters or leaves the battlefield, you may tap or untap target creature."
+    },
+    {
+      "cost": "{3}{U}, sacrifice",
+      "effects": [
+        {
+          "draw": 2
+        }
+      ],
+      "text": "{3}{U}, Sacrifice this artifact: Draw two cards."
+    }
+  ]
+}

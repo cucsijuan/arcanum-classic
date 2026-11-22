@@ -1,0 +1,48 @@
+{
+  "name": "Turtle Van",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "crewedSourceThisTurn": true
+          },
+          "text": "target creature that crewed it this turn"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "anyOf": [
+                {
+                  "subtype": "Mutant"
+                },
+                {
+                  "subtype": "Ninja"
+                },
+                {
+                  "subtype": "Turtle"
+                }
+              ]
+            }
+          },
+          "then": [
+            {
+              "doubleCounters": "target",
+              "kind": "+1/+1"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever this Vehicle attacks, put a +1/+1 counter on target creature that crewed it this turn. Then if that creature is a Mutant, Ninja, or Turtle, double the number of +1/+1 counters on it."
+    }
+  ]
+}

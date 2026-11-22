@@ -1,0 +1,25 @@
+{
+  "name": "Big Apple, 3 a.m.",
+  "chooseOnEnter": "color",
+  "manaFromChosenColor": true,
+  "abilities": [
+    {
+      "cost": "{5}, {T}",
+      "effects": [
+        {
+          "tokens": "opponentCount",
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "{5}, {T}: Create a 1/1 black Rat creature token for each opponent you have."
+    }
+  ]
+}

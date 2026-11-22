@@ -1,0 +1,24 @@
+{
+  "name": "Raphael, Ninja Destroyer",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Must be blocked"
+        ]
+      },
+      "text": "Raphael must be blocked if able."
+    },
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "addManaUntilEndOfTurn": "{R}",
+          "times": "triggerAmount"
+        }
+      ],
+      "text": "Enrage — Whenever Raphael is dealt damage, add that much {R}. Until end of turn, you don't lose this mana as steps and phases end."
+    }
+  ]
+}

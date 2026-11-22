@@ -1,0 +1,26 @@
+{
+  "name": "Mondo Gecko",
+  "abilities": [
+    {
+      "cost": "{1}, discard",
+      "effects": [
+        {
+          "chooseColor": true
+        },
+        {
+          "becomeChosenColorHexproof": "self"
+        }
+      ],
+      "text": "{1}, Discard a card: Until end of turn, Mondo Gecko becomes the color of your choice and gains hexproof from that color."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "draw": "colorsAmongYourPermanents"
+        }
+      ],
+      "text": "Whenever Mondo Gecko deals combat damage to a player, draw a card for each color among permanents you control."
+    }
+  ]
+}

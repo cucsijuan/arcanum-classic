@@ -1,0 +1,50 @@
+{
+  "name": "Baxter Stockman",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "colors": [],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "When Baxter Stockman enters, create a 1/1 colorless Robot artifact creature token."
+    },
+    {
+      "trigger": "beginCombat",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "text": "target artifact creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            3,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "First strike",
+            "Vigilance"
+          ]
+        }
+      ],
+      "text": "At the beginning of combat on your turn, target artifact creature you control gets +3/+0 and gains first strike and vigilance until end of turn."
+    }
+  ]
+}

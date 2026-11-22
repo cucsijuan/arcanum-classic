@@ -1,0 +1,40 @@
+{
+  "name": "Karai's Technique",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Target creature gets +3/+3 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              3,
+              3
+            ],
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Target creature gets -3/-3 until end of turn.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "pump": [
+              -3,
+              -3
+            ],
+            "what": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

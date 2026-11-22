@@ -1,0 +1,47 @@
+{
+  "name": "Shredder's Armor",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          2,
+          1
+        ]
+      },
+      "text": "Equipped creature gets +2/+1."
+    },
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control."
+    },
+    {
+      "cost": "sacrifice:creature",
+      "sacrificeFilter": {
+        "not": [
+          "land"
+        ]
+      },
+      "oncePerTurn": true,
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip—Sacrifice another nonland permanent. Activate only once each turn."
+    }
+  ]
+}

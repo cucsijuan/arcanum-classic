@@ -1,0 +1,37 @@
+{
+  "name": "Uneasy Alliance",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ]
+      },
+      "text": "Enchanted creature can't attack or block."
+    },
+    {
+      "cost": "{5}, sacrifice",
+      "sorcery": true,
+      "effects": [
+        {
+          "exile": "attached"
+        },
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "colors": [
+              "B"
+            ],
+            "power": 1,
+            "toughness": 1
+          }
+        }
+      ],
+      "text": "{5}, Sacrifice this Aura: Exile enchanted creature. You create a 1/1 black Ninja creature token. Activate only as a sorcery."
+    }
+  ]
+}

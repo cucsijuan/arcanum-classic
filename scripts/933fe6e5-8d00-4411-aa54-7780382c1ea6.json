@@ -1,0 +1,15 @@
+{
+  "name": "Leonardo, Cutting Edge",
+  "abilities": [
+    {
+      "trigger": "gainLife",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you gain life, put a +1/+1 counter on Leonardo, Cutting Edge."
+    }
+  ]
+}

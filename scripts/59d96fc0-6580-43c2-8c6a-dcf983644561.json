@@ -1,0 +1,55 @@
+{
+  "name": "Shredder, Unrelenting",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever Shredder enters or attacks, another target creature you control gains deathtouch until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "other": true
+          }
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "Whenever Shredder enters or attacks, another target creature you control gains deathtouch until end of turn."
+    }
+  ]
+}

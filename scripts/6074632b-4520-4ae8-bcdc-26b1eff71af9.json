@@ -1,0 +1,21 @@
+{
+  "name": "Savanti Romero, Time's Exile",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": "countersOnSelf"
+        },
+        {
+          "loseLife": "countersOnSelf"
+        }
+      ],
+      "text": "At the beginning of combat on your turn, put a +1/+1 counter on Savanti Romero. Then you draw X cards and lose X life, where X is the number of counters on Savanti Romero."
+    }
+  ]
+}

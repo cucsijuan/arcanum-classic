@@ -1,0 +1,57 @@
+{
+  "name": "Leonardo, the Balance",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "filter": {
+        "token": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Put a +1/+1 counter on each creature you control?",
+          "oncePerTurn": true,
+          "effects": [
+            {
+              "counters": 1,
+              "what": {
+                "each": {
+                  "types": [
+                    "creature"
+                  ],
+                  "controller": "you"
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a token you control enters, you may put a +1/+1 counter on each creature you control. Do this only once each turn."
+    },
+    {
+      "cost": "{W}{U}{B}{R}{G}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Menace",
+            "Trample",
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{W}{U}{B}{R}{G}: Creatures you control gain menace, trample, and lifelink until end of turn."
+    }
+  ]
+}

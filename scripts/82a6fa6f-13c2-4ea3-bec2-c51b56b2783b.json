@@ -1,0 +1,45 @@
+{
+  "name": "The Ooze",
+  "abilities": [
+    {
+      "trigger": "permanentLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": {
+        "atLeast": "triggeredPlusOneCounters",
+        "value": 1
+      },
+      "effects": [
+        {
+          "tokens": "triggeredPlusOneCounters",
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever a creature you control with a +1/+1 counter on it leaves the battlefield, create a Mutagen token for each +1/+1 counter on it."
+    },
+    {
+      "cost": "{T}",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "text": "target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "{T}: Exile target card from a graveyard. Create a Mutagen token."
+    }
+  ]
+}

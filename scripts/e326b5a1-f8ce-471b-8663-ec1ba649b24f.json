@@ -1,0 +1,23 @@
+{
+  "name": "Game Over",
+  "costReduction": {
+    "amount": 2,
+    "if": {
+      "aPlayerLifeAtMost": "halfStarting"
+    }
+  },
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      }
+    ],
+    "text": "Destroy all creatures."
+  }
+}

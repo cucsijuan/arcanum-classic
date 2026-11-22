@@ -1,0 +1,45 @@
+{
+  "name": "Lita, Little Orphan Amphibian",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "modesOncePerTurn": true,
+      "text": "Alliance — Whenever another creature you control enters, choose one that hasn't been chosen this turn —",
+      "modes": [
+        {
+          "text": "Put a +1/+1 counter on Lita.",
+          "effects": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        },
+        {
+          "text": "Create a Food token.",
+          "effects": [
+            {
+              "tokens": 1,
+              "token": "Food"
+            }
+          ]
+        },
+        {
+          "text": "Scry 1.",
+          "effects": [
+            {
+              "scry": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

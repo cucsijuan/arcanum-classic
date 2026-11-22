@@ -1,0 +1,23 @@
+{
+  "name": "Renet, Temporal Apprentice",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "bounce": {
+            "each": {
+              "not": [
+                "land"
+              ],
+              "other": true,
+              "enteredThisTurn": true,
+              "controller": "any"
+            }
+          }
+        }
+      ],
+      "text": "When Renet enters, return each other nonland permanent that entered this turn to its owner's hand."
+    }
+  ]
+}

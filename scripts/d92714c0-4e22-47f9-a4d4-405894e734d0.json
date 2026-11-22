@@ -1,0 +1,46 @@
+{
+  "name": "Shredder's Technique",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "creature",
+            "enchantment"
+          ]
+        },
+        "text": "target creature or enchantment"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "if": {
+          "all": [
+            {
+              "atLeast": "destroyedThisWay",
+              "value": 1
+            },
+            {
+              "target": "target",
+              "is": {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            }
+          ]
+        },
+        "then": [
+          {
+            "loseLife": 2
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target creature or enchantment. If an enchantment was destroyed this way, you lose 2 life."
+  }
+}

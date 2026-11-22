@@ -1,0 +1,29 @@
+{
+  "name": "Food Chain",
+  "abilities": [
+    {
+      "cost": "{0}",
+      "exileYouControl": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "addManaOneColor": {
+            "sum": [
+              1,
+              "exiledForCostManaValue"
+            ]
+          },
+          "onlyFor": {
+            "types": [
+              "creature"
+            ]
+          }
+        }
+      ],
+      "text": "Exile a creature you control: Add X mana of any one color, where X is 1 plus the exiled creature's mana value. Spend this mana only to cast creature spells."
+    }
+  ]
+}

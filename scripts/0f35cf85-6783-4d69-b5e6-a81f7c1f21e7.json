@@ -1,0 +1,27 @@
+{
+  "name": "Turncoat Kunoichi",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "if": "sneaked",
+          "then": [
+            {
+              "exile": "target"
+            }
+          ],
+          "else": [
+            {
+              "exileUntilLeaves": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose target creature an opponent controls. Exile that creature until this creature leaves the battlefield. If this creature's sneak cost was paid, instead exile the chosen creature."
+    }
+  ]
+}

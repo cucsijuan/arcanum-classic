@@ -1,0 +1,15 @@
+{
+  "name": "Vigor",
+  "preventsDamageToYourOtherCreaturesForCounters": true,
+  "abilities": [
+    {
+      "trigger": "thisPutIntoGraveyard",
+      "effects": [
+        {
+          "shuffleIntoLibrary": "self"
+        }
+      ],
+      "text": "When Vigor is put into a graveyard from anywhere, shuffle it into its owner's library."
+    }
+  ]
+}

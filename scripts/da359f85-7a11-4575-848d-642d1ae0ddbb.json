@@ -1,0 +1,58 @@
+{
+  "name": "Rat King, Pale Piper",
+  "abilities": [
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Rat King or another nontoken creature you control leaves the battlefield, create a 1/1 black Rat creature token."
+    },
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever Rat King or another nontoken creature you control leaves the battlefield, create a 1/1 black Rat creature token."
+    },
+    {
+      "cost": "{2}, sacrificeAny:token",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Sacrifice a token: Draw a card."
+    }
+  ]
+}

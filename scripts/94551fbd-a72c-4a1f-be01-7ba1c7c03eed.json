@@ -1,0 +1,63 @@
+{
+  "name": "Baxter, Fly in the Ointment",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "hasCounters": true
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever Baxter enters or attacks, each creature you control with a counter on it gains flying until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you",
+              "hasCounters": true
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever Baxter enters or attacks, each creature you control with a counter on it gains flying until end of turn."
+    },
+    {
+      "trigger": "draw",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever you draw a card, put a +1/+1 counter on Baxter."
+    }
+  ]
+}

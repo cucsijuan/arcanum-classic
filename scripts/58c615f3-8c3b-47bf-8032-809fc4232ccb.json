@@ -1,0 +1,33 @@
+{
+  "name": "Ninja Pizza",
+  "abilities": [
+    {
+      "static": {
+        "affects": "permanents:you",
+        "subtype": "Food",
+        "grants": [
+          {
+            "cost": "{T}, sacrifice",
+            "effects": [
+              {
+                "addManaAnyColor": 1
+              }
+            ],
+            "text": "{T}, Sacrifice this artifact: Add one mana of any color."
+          }
+        ]
+      },
+      "text": "Foods you control have \"{T}, Sacrifice this artifact: Add one mana of any color.\""
+    },
+    {
+      "trigger": "yourSecondMainPhase",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "At the beginning of your second main phase, create a Food token."
+    }
+  ]
+}

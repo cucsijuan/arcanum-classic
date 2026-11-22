@@ -1,0 +1,60 @@
+{
+  "name": "Ashcoat of the Shadow Swarm",
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "pump": [
+            {
+              "count": {
+                "subtype": "Rat"
+              }
+            },
+            {
+              "count": {
+                "subtype": "Rat"
+              }
+            }
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "subtype": "Rat",
+              "other": true,
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Ashcoat attacks or blocks, other Rats you control get +X/+X until end of turn, where X is the number of Rats you control."
+    },
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "may": "Mill four cards?",
+          "effects": [
+            {
+              "mill": 4,
+              "who": "you"
+            },
+            {
+              "returnFromGraveyard": {
+                "types": [
+                  "creature"
+                ],
+                "subtype": "Rat"
+              },
+              "count": 2,
+              "upTo": true
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you may mill four cards. If you do, return up to two Rat creature cards from your graveyard to your hand."
+    }
+  ]
+}

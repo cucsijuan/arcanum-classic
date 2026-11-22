@@ -1,0 +1,32 @@
+{
+  "name": "Omni-Cheese Pizza",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When this artifact enters, draw a card."
+    },
+    {
+      "cost": "{1}, {T}, sacrifice",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{1}, {T}, Sacrifice this artifact: Add one mana of any color."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Big Mother Mouser",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "doubleCounters": "self",
+          "kind": "+1/+1"
+        }
+      ],
+      "text": "Whenever this creature attacks, double the number of +1/+1 counters on it."
+    },
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "tokens": "triggeredPlusOneCounters",
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 1,
+            "toughness": 1,
+            "colors": []
+          }
+        }
+      ],
+      "text": "When this creature dies, create a number of 1/1 colorless Robot artifact creature tokens equal to the number of +1/+1 counters on this creature."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "Arcbound Ravager",
+  "abilities": [
+    {
+      "cost": "sacrificeAny:artifact",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Sacrifice an artifact: Put a +1/+1 counter on this creature."
+    }
+  ]
+}

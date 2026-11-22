@@ -1,0 +1,24 @@
+{
+  "name": "Plague of Vermin",
+  "spell": {
+    "effects": [
+      {
+        "payLifeRounds": [
+          {
+            "tokens": "X",
+            "token": {
+              "name": "Rat",
+              "types": "Creature — Rat",
+              "power": 1,
+              "toughness": 1,
+              "colors": [
+                "B"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Starting with you, each player may pay any amount of life. Repeat this process until no one pays life. Each player creates a 1/1 black Rat creature token for each 1 life they paid this way."
+  }
+}

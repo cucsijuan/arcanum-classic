@@ -1,0 +1,32 @@
+{
+  "name": "Mind Transfer Protocol",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "power": 4,
+        "toughness": 5,
+        "addTypes": [
+          "artifact",
+          "creature"
+        ]
+      },
+      {
+        "draw": 1
+      }
+    ],
+    "text": "Until end of turn, target artifact or creature becomes an artifact creature with base power and toughness 4/5.\nDraw a card."
+  }
+}

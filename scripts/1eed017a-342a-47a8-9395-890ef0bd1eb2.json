@@ -1,0 +1,62 @@
+{
+  "name": "Foot Chopper",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        },
+        {
+          "attach": "self",
+          "to": "created"
+        }
+      ],
+      "text": "When this Equipment enters, create a 1/1 black Ninja creature token, then attach this Equipment to it."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "keywords": [
+          "Flying"
+        ]
+      },
+      "text": "Equipped creature has flying."
+    },
+    {
+      "trigger": "equippedCombatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Sacrifice the equipped creature to draw cards equal to its power?",
+          "effects": [
+            {
+              "sacrificeIt": "attached"
+            },
+            {
+              "whenYouDo": {
+                "effects": [
+                  {
+                    "draw": {
+                      "power": "attached"
+                    }
+                  }
+                ],
+                "text": "Draw cards equal to its power."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage to a player, you may sacrifice it. If you do, draw cards equal to its power."
+    }
+  ]
+}

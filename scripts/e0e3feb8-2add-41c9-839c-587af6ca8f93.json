@@ -1,0 +1,22 @@
+{
+  "name": "Michelangelo, On the Scene",
+  "entersWithCounters": {
+    "count": {
+      "types": [
+        "land"
+      ],
+      "controller": "you"
+    }
+  },
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "bounce": "self"
+        }
+      ],
+      "text": "When Michelangelo dies, return this card to your hand."
+    }
+  ]
+}

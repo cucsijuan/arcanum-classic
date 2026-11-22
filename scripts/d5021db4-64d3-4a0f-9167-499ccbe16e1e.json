@@ -1,0 +1,21 @@
+{
+  "name": "Storm of Steel",
+  "spell": {
+    "targets": [
+      "any",
+      {
+        "kind": "any",
+        "optional": true,
+        "text": "up to one other target"
+      }
+    ],
+    "effects": [
+      {
+        "damage": 2,
+        "to": "eachTarget"
+      }
+    ],
+    "text": "Storm of Steel deals 2 damage to each of one or two targets.",
+    "targetRule": "allDifferent"
+  }
+}

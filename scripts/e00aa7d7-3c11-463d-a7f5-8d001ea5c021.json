@@ -1,0 +1,14 @@
+{
+  "name": "Prehistoric Turtlesaurus",
+  "costReduction": {
+    "amount": 1,
+    "if": {
+      "control": {
+        "types": [
+          "creature"
+        ],
+        "hasCounterKind": "+1/+1"
+      }
+    }
+  }
+}

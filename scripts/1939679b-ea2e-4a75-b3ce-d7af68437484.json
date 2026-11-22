@@ -1,0 +1,27 @@
+{
+  "name": "Michelangelo, Improviser",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "putFromHand": {
+            "types": [
+              "creature"
+            ]
+          },
+          "one": true
+        },
+        {
+          "putFromHand": {
+            "types": [
+              "land"
+            ]
+          },
+          "one": true
+        }
+      ],
+      "text": "Whenever Michelangelo deals combat damage to a player, you may put a creature card and/or a land card from your hand onto the battlefield."
+    }
+  ]
+}

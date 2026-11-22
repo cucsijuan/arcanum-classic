@@ -1,0 +1,28 @@
+{
+  "name": "Teleportation Circle",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "up to one target artifact or creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "blink": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, exile up to one target artifact or creature you control, then return that card to the battlefield under its owner's control."
+    }
+  ]
+}

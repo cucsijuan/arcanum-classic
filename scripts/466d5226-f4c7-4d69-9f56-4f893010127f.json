@@ -1,0 +1,17 @@
+{
+  "name": "Krang, the All-Powerful",
+  "drawTriggersTwice": true,
+  "abilities": [
+    {
+      "trigger": "anyPlayerDraws",
+      "nth": 2,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever a player draws their second card each turn, put a +1/+1 counter on Krang."
+    }
+  ]
+}

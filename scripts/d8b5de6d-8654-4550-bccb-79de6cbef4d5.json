@@ -1,0 +1,21 @@
+{
+  "name": "Retro-Mutation",
+  "aura": "creature",
+  "abilities": [
+    {
+      "static": {
+        "affects": "enchanted",
+        "setSubtypes": [
+          "Turtle"
+        ],
+        "setPower": 0,
+        "setToughness": 1,
+        "losesAbilities": true,
+        "keywords": [
+          "Can't attack"
+        ]
+      },
+      "text": "Enchanted creature is a Turtle with base power and toughness 0/1. It can't attack and loses all abilities."
+    }
+  ]
+}

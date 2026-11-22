@@ -1,0 +1,9 @@
+{
+  "name": "Grand Coliseum",
+  "extraMana": [
+    {
+      "types": "any",
+      "damage": 1
+    }
+  ]
+}

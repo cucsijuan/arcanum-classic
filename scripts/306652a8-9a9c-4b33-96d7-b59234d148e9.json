@@ -1,0 +1,14 @@
+{
+  "name": "Foot Ninjas",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature enters, you gain 3 life."
+    }
+  ]
+}

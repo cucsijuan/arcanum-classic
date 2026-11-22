@@ -1,0 +1,37 @@
+{
+  "name": "Venus, Torn Between Worlds",
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "counters": "triggerAmount",
+          "what": "self"
+        }
+      ],
+      "text": "Whenever Venus is dealt damage, put that many +1/+1 counters on her."
+    },
+    {
+      "trigger": "creatureCombatDamageToPlayer",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "hasCounters": true
+      },
+      "effects": [
+        {
+          "mayPay": "Pay {U} to draw a card?",
+          "effects": [
+            {
+              "draw": 1
+            }
+          ],
+          "mana": "{U}"
+        }
+      ],
+      "text": "Whenever a creature you control with a counter on it deals combat damage to a player, you may pay {U}. If you do, draw a card."
+    }
+  ]
+}

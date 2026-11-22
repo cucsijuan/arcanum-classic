@@ -1,0 +1,26 @@
+{
+  "name": "Endless Foot Assault",
+  "squad": "{1}{W}",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "tokens": 1,
+          "tapped": true,
+          "attackingEachOpponent": true,
+          "token": {
+            "name": "Ninja",
+            "types": "Creature — Ninja",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you attack, for each opponent, create a 1/1 black Ninja creature token that's tapped and attacking that player."
+    }
+  ]
+}

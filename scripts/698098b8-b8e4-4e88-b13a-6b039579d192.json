@@ -1,0 +1,24 @@
+{
+  "name": "Ray Fillet, Man Ray",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When Ray Fillet enters, create a Mutagen token."
+    },
+    {
+      "cost": "{2}, removePlusOneCounterFrom:creature",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{2}, Remove a +1/+1 counter from a creature you control: Draw a card."
+    }
+  ]
+}

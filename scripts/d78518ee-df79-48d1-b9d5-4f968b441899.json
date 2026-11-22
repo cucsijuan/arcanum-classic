@@ -1,0 +1,16 @@
+{
+  "name": "Coin of Mastery",
+  "countersPerArtifactManaSpent": true,
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "{T}: Create a Treasure token."
+    }
+  ]
+}

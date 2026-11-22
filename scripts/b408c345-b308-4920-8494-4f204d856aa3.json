@@ -1,0 +1,15 @@
+{
+  "name": "North Wind Avatar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": "wasCast",
+      "effects": [
+        {
+          "outsideCardToHand": true
+        }
+      ],
+      "text": "When this creature enters, if you cast it, you may put a card you own from outside the game into your hand."
+    }
+  ]
+}

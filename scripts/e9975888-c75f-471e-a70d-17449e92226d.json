@@ -1,0 +1,30 @@
+{
+  "name": "Pain 101",
+  "spell": {
+    "targets": [
+      "creature"
+    ],
+    "effects": [
+      {
+        "become": "target",
+        "keywords": [
+          "Deathtouch"
+        ],
+        "abilities": [
+          {
+            "trigger": "dies",
+            "effects": [
+              {
+                "reanimate": "self",
+                "tapped": true,
+                "ownerControl": true
+              }
+            ],
+            "text": "When this creature dies, return it to the battlefield tapped under its owner's control."
+          }
+        ]
+      }
+    ],
+    "text": "Until end of turn, target creature gains deathtouch and \"When this creature dies, return it to the battlefield tapped under its owner's control.\""
+  }
+}

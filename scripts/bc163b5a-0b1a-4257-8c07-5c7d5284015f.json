@@ -1,0 +1,26 @@
+{
+  "name": "Casey Jones, Vigilante",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 3
+        },
+        {
+          "atNextUpkeep": {
+            "effects": [
+              {
+                "discard": 3,
+                "random": true
+              }
+            ],
+            "text": "At the beginning of your next upkeep, discard three cards at random."
+          },
+          "yours": true
+        }
+      ],
+      "text": "When Casey Jones enters, draw three cards. At the beginning of your next upkeep, discard three cards at random."
+    }
+  ]
+}

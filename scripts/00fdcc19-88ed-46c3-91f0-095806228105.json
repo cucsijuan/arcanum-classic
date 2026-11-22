@@ -1,0 +1,57 @@
+{
+  "name": "Waste Not",
+  "abilities": [
+    {
+      "trigger": "opponentDiscards",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Zombie",
+            "types": "Creature — Zombie",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "B"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token."
+    },
+    {
+      "trigger": "opponentDiscards",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "addMana": "{B}{B}"
+        }
+      ],
+      "text": "Whenever an opponent discards a land card, add {B}{B}."
+    },
+    {
+      "trigger": "opponentDiscards",
+      "filter": {
+        "not": [
+          "creature",
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent discards a noncreature, nonland card, draw a card."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Mole Module",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "mill": 4
+        },
+        {
+          "takeMilled": {
+            "types": [
+              "artifact",
+              "creature",
+              "enchantment",
+              "land",
+              "planeswalker",
+              "battle"
+            ]
+          },
+          "count": 1,
+          "to": "battlefield"
+        }
+      ],
+      "text": "Whenever this Vehicle deals combat damage to a player, mill four cards. You may put a permanent card from among them onto the battlefield."
+    }
+  ]
+}

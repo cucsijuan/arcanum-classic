@@ -1,0 +1,59 @@
+{
+  "name": "Old Hob, Alleycat Blues",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "effects": [
+        {
+          "tokens": 1,
+          "hasteUntilEndOfTurn": true,
+          "token": {
+            "name": "Mutant",
+            "types": "Creature — Mutant",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "R"
+            ]
+          }
+        },
+        {
+          "atNextEndStepAbout": "created",
+          "effects": [
+            {
+              "destroy": "triggered"
+            }
+          ],
+          "text": "Destroy it at the beginning of the next end step."
+        }
+      ],
+      "text": "At the beginning of combat on your turn, create a 2/2 red Mutant creature token. It gains haste until end of turn. Destroy it at the beginning of the next end step."
+    },
+    {
+      "cost": "{1}{W}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true,
+            "token": true
+          },
+          "text": "target attacking creature token"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Indestructible"
+          ]
+        }
+      ],
+      "text": "{1}{W}: Target attacking creature token gains indestructible until end of turn."
+    }
+  ]
+}

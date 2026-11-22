@@ -1,0 +1,15 @@
+{
+  "name": "Zoo Escapees",
+  "abilities": [
+    {
+      "trigger": "leaves",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When this creature leaves the battlefield, create a Mutagen token."
+    }
+  ]
+}

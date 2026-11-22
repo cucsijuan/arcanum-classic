@@ -1,0 +1,40 @@
+{
+  "name": "The Last Ronin's Technique",
+  "spell": {
+    "effects": [
+      {
+        "if": "sneaked",
+        "then": [
+          {
+            "tokens": 3,
+            "attacking": true,
+            "token": {
+              "name": "Ninja Turtle Spirit",
+              "types": "Creature — Ninja Turtle Spirit",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ],
+        "else": [
+          {
+            "tokens": 3,
+            "token": {
+              "name": "Ninja Turtle Spirit",
+              "types": "Creature — Ninja Turtle Spirit",
+              "colors": [
+                "W"
+              ],
+              "power": 1,
+              "toughness": 1
+            }
+          }
+        ]
+      }
+    ],
+    "text": "Create three 1/1 white Ninja Turtle Spirit creature tokens. If this spell's sneak cost was paid, they enter tapped and attacking."
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Krang & Shredder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileUntilLinked": {
+            "not": [
+              "land"
+            ]
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever Krang & Shredder enter or attack, each opponent exiles cards from the top of their library until they exile a nonland card."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "exileUntilLinked": {
+            "not": [
+              "land"
+            ]
+          },
+          "who": "opponents"
+        }
+      ],
+      "text": "Whenever Krang & Shredder enter or attack, each opponent exiles cards from the top of their library until they exile a nonland card."
+    },
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "castOneExiledWithThisFree": true
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, you may cast a card exiled with Krang & Shredder without paying its mana cost."
+    }
+  ]
+}

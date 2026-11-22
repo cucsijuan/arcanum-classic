@@ -1,0 +1,14 @@
+{
+  "name": "Don & Raph, Hard Science",
+  "abilities": [
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "nextNoncreatureSpellAffinityForArtifacts": true
+        }
+      ],
+      "text": "Whenever Don & Raph attack, the next noncreature spell you cast this turn has affinity for artifacts."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Fast Forward",
+  "costReduction": {
+    "amount": 0,
+    "amountFrom": "opponentsAttackedThisTurn"
+  },
+  "spell": {
+    "effects": [
+      {
+        "goad": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "opponent"
+          }
+        }
+      }
+    ],
+    "text": "Goad all creatures your opponents control."
+  }
+}

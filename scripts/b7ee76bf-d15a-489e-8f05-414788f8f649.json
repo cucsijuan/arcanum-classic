@@ -1,0 +1,19 @@
+{
+  "name": "Super Shredder",
+  "abilities": [
+    {
+      "trigger": "permanentLeaves",
+      "filter": {
+        "controller": "any",
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another permanent leaves the battlefield, put a +1/+1 counter on Super Shredder."
+    }
+  ]
+}

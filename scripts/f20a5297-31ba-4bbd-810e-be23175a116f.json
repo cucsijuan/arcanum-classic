@@ -1,0 +1,45 @@
+{
+  "name": "Casey & Raph, Hotheads",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "upTo": true,
+      "targetRule": "allDifferent",
+      "text": "When Casey & Raph enter, choose one or both. Each mode must target a different player.",
+      "modes": [
+        {
+          "text": "Target player exiles the top card of their library. Until that player's next end step, they may play that card without paying its mana cost.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "eachPlayer": [
+                {
+                  "exileTopPlayable": 1,
+                  "free": true,
+                  "untilYourNextEndStep": true
+                }
+              ],
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target player creates two Treasure tokens.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "tokens": 2,
+              "token": "Treasure",
+              "for": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

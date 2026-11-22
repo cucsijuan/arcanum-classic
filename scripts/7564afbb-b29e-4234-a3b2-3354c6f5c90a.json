@@ -1,0 +1,62 @@
+{
+  "name": "Special Move",
+  "spell": {
+    "chooseCount": 2,
+    "text": "Choose two —",
+    "modes": [
+      {
+        "text": "Jump Kick — Destroy target artifact.",
+        "targets": [
+          "artifact"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Dash Attack — Put two +1/+1 counters on target attacking or blocking creature you control.",
+        "targets": [
+          {
+            "kind": "creature",
+            "controller": "you",
+            "filter": {
+              "inCombat": true
+            },
+            "text": "target attacking or blocking creature you control"
+          }
+        ],
+        "effects": [
+          {
+            "counters": 2,
+            "what": "target"
+          }
+        ]
+      },
+      {
+        "text": "Foot Toss — Target creature you control deals damage equal to its power to any other target. Then sacrifice it.",
+        "targets": [
+          "creature:you",
+          {
+            "kind": "any",
+            "text": "any other target"
+          }
+        ],
+        "effects": [
+          {
+            "damage": {
+              "power": "target"
+            },
+            "from": "target",
+            "to": "target2"
+          },
+          {
+            "sacrificeIt": "target"
+          }
+        ],
+        "targetRule": "allDifferent"
+      }
+    ]
+  }
+}

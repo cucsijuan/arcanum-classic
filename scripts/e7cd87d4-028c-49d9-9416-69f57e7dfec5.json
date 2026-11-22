@@ -1,0 +1,40 @@
+{
+  "name": "Koya, Death from Above",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target"
+        },
+        {
+          "atNextEndStepAbout": "exiled",
+          "effects": [
+            {
+              "mayPay": "Pay {3}{B}? (If you don't, the exiled card returns to the battlefield.)",
+              "mana": "{3}{B}",
+              "effects": [],
+              "else": [
+                {
+                  "reanimate": "triggered",
+                  "ownerControl": true
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "When Koya enters, exile up to one other target creature. At the beginning of the next end step, you may pay {3}{B}. If you don't, return that card to the battlefield under its owner's control."
+    }
+  ]
+}

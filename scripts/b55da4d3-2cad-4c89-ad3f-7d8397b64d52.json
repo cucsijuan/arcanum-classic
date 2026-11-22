@@ -1,0 +1,23 @@
+{
+  "name": "Jennika, Bad Apple Big Sister",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Mutant",
+            "types": "Creature — Mutant",
+            "colors": [
+              "R"
+            ],
+            "power": 2,
+            "toughness": 2
+          }
+        }
+      ],
+      "text": "When Jennika enters, create a 2/2 red Mutant creature token."
+    }
+  ]
+}

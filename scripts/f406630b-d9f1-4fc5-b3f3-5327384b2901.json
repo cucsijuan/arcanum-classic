@@ -1,0 +1,26 @@
+{
+  "name": "Shellshock",
+  "spell": {
+    "targetRule": "differentControllers",
+    "targets": [
+      {
+        "kind": "creature",
+        "controller": "opponent",
+        "optional": true,
+        "anyNumber": true,
+        "text": "for each opponent, up to one target creature that player controls"
+      }
+    ],
+    "effects": [
+      {
+        "damage": "X",
+        "to": "eachTarget"
+      },
+      {
+        "tokens": "damagedThisWay",
+        "token": "Mutagen"
+      }
+    ],
+    "text": "For each opponent, choose up to one target creature that player controls. Shellshock deals X damage to each of those creatures. You create a Mutagen token for each creature dealt damage this way."
+  }
+}

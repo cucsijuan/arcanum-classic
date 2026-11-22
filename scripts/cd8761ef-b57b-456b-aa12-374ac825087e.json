@@ -1,0 +1,16 @@
+{
+  "name": "Roadkill Rodney",
+  "squad": "{3}",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever this creature deals combat damage to a player, create a Mutagen token."
+    }
+  ]
+}

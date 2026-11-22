@@ -1,0 +1,28 @@
+{
+  "name": "All Will Be One",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "placedByYou": true,
+      "orPlayer": true,
+      "filter": {
+        "controller": "any"
+      },
+      "targets": [
+        {
+          "kind": "any",
+          "controller": "opponent",
+          "text": "target opponent, creature an opponent controls, or planeswalker an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "damage": "triggerAmount",
+          "to": "target"
+        }
+      ],
+      "text": "Whenever you put one or more counters on a permanent or player, this enchantment deals that much damage to target opponent, creature an opponent controls, or planeswalker an opponent controls."
+    }
+  ]
+}

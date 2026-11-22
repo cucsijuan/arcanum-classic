@@ -1,0 +1,36 @@
+{
+  "name": "Lord Dregg, Insect Invader",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Insect Warrior",
+            "types": "Creature — Insect Warrior",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ],
+            "keywords": [
+              "Flying"
+            ]
+          }
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Insect Warrior creature token with flying."
+    },
+    {
+      "cost": "{3}{G}, sacrificeAny:token",
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "{3}{G}, Sacrifice a token: Draw a card."
+    }
+  ]
+}

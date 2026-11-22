@@ -1,0 +1,15 @@
+{
+  "name": "Tunnel Rats",
+  "abilities": [
+    {
+      "cost": "{4}{B}, fromGraveyard",
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        }
+      ],
+      "text": "{4}{B}: Return this card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

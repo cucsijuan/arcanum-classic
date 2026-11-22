@@ -1,0 +1,42 @@
+{
+  "name": "Krang, Master Mind",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "lessThan": [
+          "handSize",
+          4
+        ]
+      },
+      "effects": [
+        {
+          "draw": {
+            "diff": [
+              4,
+              "handSize"
+            ]
+          }
+        }
+      ],
+      "text": "When Krang enters, if you have fewer than four cards in hand, draw cards equal to the difference."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "pump": [
+          {
+            "count": {
+              "types": [
+                "artifact"
+              ],
+              "other": true
+            }
+          },
+          0
+        ]
+      },
+      "text": "Krang gets +1/+0 for each other artifact you control."
+    }
+  ]
+}

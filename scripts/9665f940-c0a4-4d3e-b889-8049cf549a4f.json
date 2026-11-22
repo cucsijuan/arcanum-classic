@@ -1,0 +1,35 @@
+{
+  "name": "Spicy Oatmeal Pizza",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "simultaneously": [
+            {
+              "damage": 4,
+              "to": "target"
+            },
+            {
+              "damage": 3,
+              "to": "you"
+            }
+          ]
+        }
+      ],
+      "text": "When this artifact enters, it deals 4 damage to any target and 3 damage to you."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this artifact: You gain 3 life."
+    }
+  ]
+}

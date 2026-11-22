@@ -1,0 +1,34 @@
+{
+  "name": "Exploding Barrel",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        },
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "pressure"
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Put a pressure counter on this artifact."
+    },
+    {
+      "cost": "{8}, {T}, sacrifice",
+      "sorcery": true,
+      "costReductionPerCounter": "pressure",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "damage": 20,
+          "to": "target"
+        }
+      ],
+      "text": "{8}, {T}, Sacrifice this artifact: It deals 20 damage to target creature. This ability costs {1} less to activate for each pressure counter on this artifact. Activate only as a sorcery."
+    }
+  ]
+}

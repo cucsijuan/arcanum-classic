@@ -1,0 +1,14 @@
+{
+  "name": "April O'Neil, Hacktivist",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "draw": "cardTypesAmongSpellsCastThisTurn"
+        }
+      ],
+      "text": "At the beginning of your end step, draw a card for each card type among spells you've cast this turn."
+    }
+  ]
+}

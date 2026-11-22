@@ -1,0 +1,24 @@
+{
+  "name": "Mouser Mark III",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack"
+        ],
+        "while": {
+          "not": {
+            "control": {
+              "types": [
+                "artifact"
+              ],
+              "other": true
+            }
+          }
+        }
+      },
+      "text": "This creature can't attack unless you control another artifact."
+    }
+  ]
+}

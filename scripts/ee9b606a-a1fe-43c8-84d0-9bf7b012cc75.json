@@ -1,0 +1,47 @@
+{
+  "name": "Leatherhead, Swamp Stalker",
+  "entersWithCounters": 1,
+  "entersWithCounterKind": "hexproof",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "mayPay": "Remove a counter from Leatherhead to destroy an artifact or enchantment that player controls?",
+          "cost": {
+            "removeCountersFrom": {
+              "self": true
+            },
+            "removeCountersFromCreatures": 1
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  {
+                    "kind": "permanent",
+                    "filter": {
+                      "types": [
+                        "artifact",
+                        "enchantment"
+                      ]
+                    },
+                    "controlledByTriggeredPlayer": true,
+                    "text": "target artifact or enchantment that player controls"
+                  }
+                ],
+                "effects": [
+                  {
+                    "destroy": "target"
+                  }
+                ],
+                "text": "When you do, destroy target artifact or enchantment that player controls."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Leatherhead deals combat damage to a player, you may remove a counter from her. When you do, destroy target artifact or enchantment that player controls."
+    }
+  ]
+}

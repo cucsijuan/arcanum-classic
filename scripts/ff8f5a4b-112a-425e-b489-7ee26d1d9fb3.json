@@ -1,0 +1,33 @@
+{
+  "name": "Voracious Hydra",
+  "entersWithCounters": "X",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "modes": [
+        {
+          "text": "Double the number of +1/+1 counters on this creature.",
+          "effects": [
+            {
+              "doubleCounters": "self",
+              "kind": "+1/+1"
+            }
+          ]
+        },
+        {
+          "text": "This creature fights target creature you don't control.",
+          "targets": [
+            "creature:opponent"
+          ],
+          "effects": [
+            {
+              "fight": "self",
+              "with": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, choose one —"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Donatello, Way with Machines",
+  "abilities": [
+    {
+      "trigger": "permanentEnters",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Whenever an artifact you control enters, put a +1/+1 counter on Donatello.",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      }
+    }
+  ]
+}

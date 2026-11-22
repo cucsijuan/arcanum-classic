@@ -1,0 +1,50 @@
+{
+  "name": "Ravenous Robots",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "types": [
+          "artifact"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Robot",
+            "types": "Artifact Creature — Robot",
+            "power": 1,
+            "toughness": 1,
+            "colors": []
+          }
+        }
+      ],
+      "text": "Whenever you cast an artifact spell, create a 1/1 colorless Robot artifact creature token."
+    },
+    {
+      "cost": "{R}, {T}",
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "token": true,
+              "controller": "you"
+            }
+          },
+          "keywords": [
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}, {T}: Creature tokens you control gain haste until end of turn."
+    }
+  ]
+}

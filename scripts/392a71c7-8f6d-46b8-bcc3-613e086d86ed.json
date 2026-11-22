@@ -1,0 +1,88 @@
+{
+  "name": "Wingnut, Bat on the Belfry",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you",
+        "other": true
+      },
+      "effects": [
+        {
+          "chooseEffect": [
+            {
+              "text": "Flying",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Flying"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Menace",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Menace"
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Haste",
+              "effects": [
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "self",
+                  "keywords": [
+                    "Haste"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Alliance — Whenever another creature you control enters, Wingnut gains your choice of flying, menace, or haste until end of turn."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            0
+          ],
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "attacking": true,
+              "other": true
+            }
+          }
+        }
+      ],
+      "text": "Whenever Wingnut attacks, each other attacking creature gets +1/+0 until end of turn."
+    }
+  ]
+}

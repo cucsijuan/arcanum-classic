@@ -1,0 +1,9 @@
+{
+  "name": "Transdimensional Bovine",
+  "extraMana": [
+    {
+      "types": "any",
+      "amount": 2
+    }
+  ]
+}

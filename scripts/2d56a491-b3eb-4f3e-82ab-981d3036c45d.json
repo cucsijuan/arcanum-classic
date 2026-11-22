@@ -1,0 +1,23 @@
+{
+  "name": "Krang, Utrom Warlord",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "filter": {
+          "types": [
+            "artifact"
+          ]
+        },
+        "keywords": [
+          "Flying",
+          "Trample",
+          "Indestructible",
+          "Haste"
+        ]
+      },
+      "text": "Other artifact creatures you control have flying, trample, indestructible, and haste."
+    }
+  ]
+}

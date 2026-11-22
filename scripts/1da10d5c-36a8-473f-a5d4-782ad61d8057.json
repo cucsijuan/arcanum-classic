@@ -1,0 +1,65 @@
+{
+  "name": "Umezawa's Jitte",
+  "abilities": [
+    {
+      "trigger": "creatureCombatDamage",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "any",
+        "attachedToSource": true
+      },
+      "effects": [
+        {
+          "counters": 2,
+          "what": "self",
+          "kind": "charge"
+        }
+      ],
+      "text": "Whenever equipped creature deals combat damage, put two charge counters on Umezawa's Jitte."
+    },
+    {
+      "cost": "removeCounters:1:charge",
+      "chooseCount": 1,
+      "text": "Remove a charge counter from Umezawa's Jitte: Choose one —",
+      "modes": [
+        {
+          "text": "Equipped creature gets +2/+2 until end of turn.",
+          "effects": [
+            {
+              "pump": [
+                2,
+                2
+              ],
+              "what": "attached"
+            }
+          ]
+        },
+        {
+          "text": "Target creature gets -1/-1 until end of turn.",
+          "targets": [
+            "creature"
+          ],
+          "effects": [
+            {
+              "pump": [
+                -1,
+                -1
+              ],
+              "what": "target"
+            }
+          ]
+        },
+        {
+          "text": "You gain 2 life.",
+          "effects": [
+            {
+              "gainLife": 2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

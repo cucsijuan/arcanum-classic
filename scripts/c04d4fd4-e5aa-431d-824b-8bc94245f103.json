@@ -1,0 +1,45 @@
+{
+  "name": "Fugitive Droid",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked"
+        ],
+        "while": {
+          "enteredThisTurn": {
+            "types": [
+              "artifact"
+            ]
+          }
+        }
+      },
+      "text": "This creature can't be blocked if an artifact entered the battlefield under your control this turn."
+    },
+    {
+      "cost": "{U}, sacrifice",
+      "targets": [
+        {
+          "kind": "spell",
+          "filter": {
+            "targets": {
+              "types": [
+                "artifact",
+                "creature"
+              ],
+              "controller": "you"
+            }
+          },
+          "text": "target spell that targets an artifact or creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "counter": "target"
+        }
+      ],
+      "text": "{U}, Sacrifice this creature: Counter target spell that targets an artifact or creature you control."
+    }
+  ]
+}

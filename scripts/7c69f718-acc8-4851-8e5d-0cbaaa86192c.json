@@ -1,0 +1,6 @@
+{
+  "name": "Undergrowth Stadium",
+  "entersTappedUnless": {
+    "opponents": 2
+  }
+}

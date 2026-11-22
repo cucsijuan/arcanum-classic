@@ -1,0 +1,75 @@
+{
+  "name": "Pizza Face, Gastromancer",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        }
+      ],
+      "text": "When Pizza Face enters, create a Food token."
+    },
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ],
+            "other": true
+          },
+          "optional": true,
+          "text": "up to one other target artifact or creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        },
+        {
+          "if": {
+            "not": {
+              "target": "target",
+              "is": {
+                "types": [
+                  "creature"
+                ]
+              }
+            }
+          },
+          "then": [
+            {
+              "become": "target",
+              "permanent": true,
+              "power": 0,
+              "toughness": 0,
+              "addTypes": [
+                "creature"
+              ],
+              "addSubtypes": [
+                "Mutant"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, put three +1/+1 counters on up to one other target artifact or creature. If it isn't a creature, it becomes a 0/0 Mutant creature in addition to its other types."
+    },
+    {
+      "cost": "{10}, {T}, sacrifice",
+      "effects": [
+        {
+          "gainLife": 15
+        }
+      ],
+      "text": "{10}, {T}, Sacrifice Pizza Face: You gain 15 life."
+    }
+  ]
+}

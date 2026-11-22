@@ -1,0 +1,17 @@
+{
+  "name": "Splinter, Hamato Yoshi",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "other": true,
+        "subtype": "Ninja",
+        "pump": [
+          1,
+          1
+        ]
+      },
+      "text": "Other Ninjas you control get +1/+1."
+    }
+  ]
+}

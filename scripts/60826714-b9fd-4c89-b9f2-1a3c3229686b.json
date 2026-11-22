@@ -1,0 +1,42 @@
+{
+  "name": "Tainted Treats",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "text": "target artifact or creature"
+      }
+    ],
+    "effects": [
+      {
+        "if": {
+          "target": "target",
+          "is": {
+            "maxManaValue": 4
+          }
+        },
+        "then": [
+          {
+            "destroy": "target"
+          },
+          {
+            "tokens": 1,
+            "token": "Food"
+          }
+        ],
+        "else": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ],
+    "text": "Destroy target artifact or creature. If its mana value was 4 or less, create a Food token."
+  }
+}

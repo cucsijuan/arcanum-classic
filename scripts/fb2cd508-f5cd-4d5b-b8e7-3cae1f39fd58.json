@@ -1,0 +1,40 @@
+{
+  "name": "Splinter, Radical Rat",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Ninja"
+        },
+        "extraTriggers": true
+      },
+      "text": "If a triggered ability of a Ninja creature you control triggers, that ability triggers an additional time."
+    },
+    {
+      "cost": "{1}{U}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "subtype": "Ninja"
+          },
+          "text": "target Ninja"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{1}{U}: Target Ninja can't be blocked this turn."
+    }
+  ]
+}

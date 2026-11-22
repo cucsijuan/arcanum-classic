@@ -1,0 +1,18 @@
+{
+  "name": "Raphael, Tag Team Tough",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "untap": "attackers"
+        },
+        {
+          "additionalCombat": true
+        }
+      ],
+      "text": "Whenever Raphael deals combat damage to a player for the first time each turn, untap all attacking creatures. After this combat phase, there is an additional combat phase."
+    }
+  ]
+}

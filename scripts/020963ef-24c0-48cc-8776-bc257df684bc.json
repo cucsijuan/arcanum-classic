@@ -1,0 +1,22 @@
+{
+  "name": "April O'Neil, Human Element",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "types": [
+          "artifact",
+          "instant",
+          "sorcery"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever a player casts an artifact, instant, or sorcery spell, you create a Mutagen token."
+    }
+  ]
+}

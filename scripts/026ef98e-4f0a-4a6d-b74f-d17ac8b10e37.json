@@ -1,0 +1,53 @@
+{
+  "name": "Cytoplast Manipulator",
+  "entersWithCounters": 2,
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "any"
+      },
+      "if": {
+        "counters": 1
+      },
+      "effects": [
+        {
+          "may": "Move a +1/+1 counter from this creature onto the creature that entered?",
+          "effects": [
+            {
+              "moveCounter": {
+                "kind": "+1/+1",
+                "from": "self",
+                "to": "triggered"
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Graft 2 (This creature enters with two +1/+1 counters on it. Whenever another creature enters, you may move a +1/+1 counter from this creature onto it.)"
+    },
+    {
+      "cost": "{U}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "hasCounterKind": "+1/+1"
+          },
+          "text": "target creature with a +1/+1 counter on it"
+        }
+      ],
+      "effects": [
+        {
+          "gainControl": "target",
+          "whileSource": true
+        }
+      ],
+      "text": "{U}, {T}: Gain control of target creature with a +1/+1 counter on it for as long as this creature remains on the battlefield."
+    }
+  ]
+}

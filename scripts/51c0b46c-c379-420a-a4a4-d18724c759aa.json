@@ -1,0 +1,42 @@
+{
+  "name": "Technodrome",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't attack",
+          "Can't block"
+        ],
+        "while": {
+          "lessThan": [
+            {
+              "power": "self"
+            },
+            6
+          ]
+        }
+      },
+      "text": "This creature can't attack or block unless its power is 6 or greater."
+    },
+    {
+      "cost": "{T}, sacrifice:artifact",
+      "sacrificeFilter": {
+        "types": [
+          "artifact"
+        ],
+        "other": true
+      },
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "{T}, Sacrifice another artifact: Draw a card. Put a +1/+1 counter on this creature."
+    }
+  ]
+}

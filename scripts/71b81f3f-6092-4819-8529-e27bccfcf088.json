@@ -1,0 +1,34 @@
+{
+  "name": "Ragamuffin Raptor",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "creature"
+                ]
+              },
+              {
+                "subtype": "Food"
+              }
+            ]
+          },
+          "text": "up to one target creature or Food card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When this creature enters, return up to one target creature or Food card from your graveyard to your hand."
+    }
+  ]
+}

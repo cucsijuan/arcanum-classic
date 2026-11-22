@@ -1,0 +1,55 @@
+{
+  "name": "Metalhead",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ],
+            "other": true
+          },
+          "optional": true,
+          "text": "up to one other target artifact or creature"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        }
+      ],
+      "text": "When Metalhead enters, return up to one other target artifact or creature to its owner's hand."
+    },
+    {
+      "cost": "{R}, sacrifice:artifact",
+      "sacrificeFilter": {
+        "types": [
+          "artifact"
+        ],
+        "other": true
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "self",
+          "keywords": [
+            "Menace",
+            "Haste"
+          ]
+        }
+      ],
+      "text": "{R}, Sacrifice another artifact: Put a +1/+1 counter on Metalhead. He gains menace and haste until end of turn."
+    }
+  ]
+}

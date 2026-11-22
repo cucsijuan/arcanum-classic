@@ -1,0 +1,17 @@
+{
+  "name": "Super Combo",
+  "replicate": "{2}",
+  "spell": {
+    "targets": [
+      "creature:you",
+      "creature:opponent"
+    ],
+    "effects": [
+      {
+        "bite": "target",
+        "to": "target2"
+      }
+    ],
+    "text": "Target creature you control deals damage equal to its power to target creature an opponent controls."
+  }
+}

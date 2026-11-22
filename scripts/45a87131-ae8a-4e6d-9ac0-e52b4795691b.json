@@ -1,0 +1,40 @@
+{
+  "name": "Splinter, Aging Champion",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "tapped": true
+          },
+          "text": "up to one target tapped creature"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When Splinter enters, destroy up to one target tapped creature."
+    },
+    {
+      "trigger": "leaves",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "draw": 1
+        },
+        {
+          "draw": 1,
+          "who": "target"
+        }
+      ],
+      "text": "When Splinter leaves the battlefield, you and another target player each draw a card."
+    }
+  ]
+}

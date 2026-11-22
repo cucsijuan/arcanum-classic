@@ -1,0 +1,21 @@
+{
+  "name": "Donatello, Turtle Techie",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "if": {
+        "control": {
+          "types": [
+            "artifact"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "When Donatello enters, if you control an artifact, draw a card."
+    }
+  ]
+}

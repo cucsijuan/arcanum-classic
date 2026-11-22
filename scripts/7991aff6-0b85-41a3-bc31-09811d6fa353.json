@@ -1,0 +1,19 @@
+{
+  "name": "Raph's Bravado",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures",
+        "filter": {
+          "attacking": true
+        },
+        "pump": [
+          1,
+          0
+        ],
+        "while": "yourTurn"
+      },
+      "text": "During your turn, attacking creatures get +1/+0."
+    }
+  ]
+}

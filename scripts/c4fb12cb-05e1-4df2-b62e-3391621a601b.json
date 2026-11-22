@@ -1,0 +1,26 @@
+{
+  "name": "Here Comes a New Hero!",
+  "spell": {
+    "targets": [
+      "player",
+      {
+        "kind": "creature",
+        "optional": true,
+        "filter": {
+          "maxManaValueX": true
+        },
+        "text": "up to one target creature with mana value X or less"
+      }
+    ],
+    "effects": [
+      {
+        "draw": "X",
+        "who": "target"
+      },
+      {
+        "copy": "target2"
+      }
+    ],
+    "text": "Target player draws X cards. Create a token that's a copy of up to one target creature with mana value X or less."
+  }
+}

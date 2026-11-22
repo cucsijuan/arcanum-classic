@@ -1,0 +1,29 @@
+{
+  "name": "Rock Soldiers",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "up to one target noncreature artifact"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "When this creature enters, destroy up to one target noncreature artifact."
+    }
+  ]
+}

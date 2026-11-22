@@ -1,0 +1,26 @@
+{
+  "name": "Rocksteady, Crash Courser",
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "keywords": [
+          "Can't be blocked by more than one creature"
+        ]
+      },
+      "text": "Rocksteady can't be blocked by more than one creature."
+    },
+    {
+      "static": {
+        "affects": "creatures:you",
+        "filter": {
+          "subtype": "Boar"
+        },
+        "keywords": [
+          "Can't be blocked by more than one creature"
+        ]
+      },
+      "text": "Boars you control can't be blocked by more than one creature."
+    }
+  ]
+}

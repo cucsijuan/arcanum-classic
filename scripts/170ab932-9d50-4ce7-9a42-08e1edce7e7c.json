@@ -1,0 +1,16 @@
+{
+  "name": "Michelangelo, Weirdness to 11",
+  "creaturePlusOneCountersPlusOne": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When Michelangelo enters, create a Mutagen token."
+    }
+  ]
+}

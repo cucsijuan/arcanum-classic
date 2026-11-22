@@ -1,0 +1,69 @@
+{
+  "name": "Kitsune, Dragon's Daughter",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "other target creature"
+        },
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "other target creature controlled by a different player"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exchange control of the two target creatures?",
+          "effects": [
+            {
+              "exchangeControl": "target",
+              "with": "target2"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Kitsune enters or deals combat damage to a player, you may exchange control of two other target creatures controlled by different players."
+    },
+    {
+      "trigger": "combatDamageToPlayer",
+      "targetRule": "differentControllers",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "other target creature"
+        },
+        {
+          "kind": "creature",
+          "filter": {
+            "other": true
+          },
+          "text": "other target creature controlled by a different player"
+        }
+      ],
+      "effects": [
+        {
+          "may": "Exchange control of the two target creatures?",
+          "effects": [
+            {
+              "exchangeControl": "target",
+              "with": "target2"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Kitsune enters or deals combat damage to a player, you may exchange control of two other target creatures controlled by different players."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Northampton Farm",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{1}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "ownedByYou": true
+          },
+          "text": "target creature you own"
+        }
+      ],
+      "effects": [
+        {
+          "exile": "target",
+          "linked": true
+        }
+      ],
+      "text": "{1}, {T}: Exile target creature you own."
+    },
+    {
+      "cost": "{2}, {T}, sacrifice",
+      "effects": [
+        {
+          "returnLinkedCreatureRestToHand": true
+        }
+      ],
+      "text": "{2}, {T}, Sacrifice this land: Return a creature card exiled with this land to the battlefield under your control. Return each other card exiled with this land to its owner's hand."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Bebop, Skull & Crossbones",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "effects": [
+        {
+          "may": "Draw X cards and lose X life (X = Bebop's counters)?",
+          "effects": [
+            {
+              "draw": "countersOnSelf"
+            },
+            {
+              "loseLife": "countersOnSelf"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Bebop deals combat damage to a player, you may draw X cards, where X is the number of counters on Bebop. If you do, you lose X life."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Turtles in Time",
+  "spell": {
+    "effects": [
+      {
+        "bounce": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "eachPlayer": [
+          {
+            "may": "Shuffle your hand and graveyard into your library, then draw seven cards?",
+            "effects": [
+              {
+                "shuffleHandIntoLibrary": "you",
+                "withGraveyard": true
+              },
+              {
+                "draw": 7
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Return all creatures to their owners' hands. Each player may shuffle their hand and graveyard into their library, then each player who does draws seven cards.\nExile Turtles in Time."
+  }
+}

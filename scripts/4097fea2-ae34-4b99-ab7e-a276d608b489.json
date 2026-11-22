@@ -1,0 +1,47 @@
+{
+  "name": "Weather Maker",
+  "abilities": [
+    {
+      "trigger": "landfall",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "charge"
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a charge counter on this artifact."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaAnyColor": 1
+        }
+      ],
+      "text": "{T}: Add one mana of any color."
+    },
+    {
+      "cost": "{T}, removeCounters:2:charge",
+      "effects": [
+        {
+          "addMana": "{C}{C}"
+        }
+      ],
+      "text": "{T}, Remove two charge counters from this artifact: Add {C}{C}."
+    },
+    {
+      "cost": "{T}, removeCounters:3:charge",
+      "targets": [
+        "any"
+      ],
+      "effects": [
+        {
+          "damage": 3,
+          "to": "target"
+        }
+      ],
+      "text": "{T}, Remove three charge counters from this artifact: It deals 3 damage to any target."
+    }
+  ]
+}

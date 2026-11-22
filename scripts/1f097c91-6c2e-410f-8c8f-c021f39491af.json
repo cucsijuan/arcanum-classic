@@ -1,0 +1,24 @@
+{
+  "name": "Henchbots",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "opponent",
+          "filter": {
+            "tapped": true
+          },
+          "text": "target tapped creature an opponent controls"
+        }
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this creature enters, exile target tapped creature an opponent controls until this creature leaves the battlefield."
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "name": "Donatello, Mutant Mechanic",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "artifact"
+            ]
+          },
+          "text": "target artifact you control"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 3,
+          "what": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "not": [
+                "creature"
+              ]
+            }
+          },
+          "then": [
+            {
+              "become": "target",
+              "power": 0,
+              "toughness": 0,
+              "addTypes": [
+                "creature"
+              ],
+              "addSubtypes": [
+                "Robot"
+              ],
+              "permanent": true
+            }
+          ]
+        }
+      ],
+      "text": "{T}: Put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types. Activate only as a sorcery."
+    },
+    {
+      "trigger": "permanentDies",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "you"
+      },
+      "if": "triggeredHadCounters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact",
+              "creature"
+            ]
+          },
+          "text": "up to one target artifact or creature you control"
+        }
+      ],
+      "effects": [
+        {
+          "takeCountersOfTriggered": true,
+          "onto": "target"
+        }
+      ],
+      "text": "Whenever an artifact you control is put into a graveyard from the battlefield, if it had counters on it, put those counters on up to one target artifact or creature you control."
+    }
+  ]
+}

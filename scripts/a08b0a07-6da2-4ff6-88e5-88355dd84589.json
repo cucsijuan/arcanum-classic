@@ -1,0 +1,34 @@
+{
+  "name": "Bebop & Rocksteady",
+  "abilities": [
+    {
+      "trigger": "attacksOrBlocks",
+      "effects": [
+        {
+          "unless": "you",
+          "options": [
+            {
+              "discard": 1
+            }
+          ],
+          "otherwise": [
+            {
+              "sacrifice": 1,
+              "filter": {
+                "types": [
+                  "artifact",
+                  "creature",
+                  "enchantment",
+                  "land",
+                  "planeswalker",
+                  "battle"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "Whenever Bebop & Rocksteady attack or block, sacrifice a permanent unless you discard a card."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Shark Shredder, Killer Clone",
+  "abilities": [
+    {
+      "trigger": "combatDamageToPlayer",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "any",
+          "controlledByTriggeredPlayer": true,
+          "optional": true,
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "up to one target creature card from that player's graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "target",
+          "tapped": true,
+          "attackingTriggeredPlayer": true
+        }
+      ],
+      "text": "Whenever Shark Shredder deals combat damage to a player, put up to one target creature card from that player's graveyard onto the battlefield under your control. It enters tapped and attacking that player."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "name": "Turtle Lair",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addMana": "{C}"
+        }
+      ],
+      "text": "{T}: Add {C}."
+    },
+    {
+      "cost": "{T}",
+      "effects": [
+        {
+          "addManaCombination": 1,
+          "onlyFor": {
+            "anyOf": [
+              {
+                "subtype": "Ninja"
+              },
+              {
+                "subtype": "Turtle"
+              }
+            ]
+          }
+        }
+      ],
+      "text": "{T}: Add one mana of any color. Spend this mana only to cast a Ninja or Turtle spell."
+    },
+    {
+      "cost": "{3}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "anyOf": [
+              {
+                "subtype": "Ninja"
+              },
+              {
+                "subtype": "Turtle"
+              }
+            ]
+          },
+          "text": "target Ninja or Turtle"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Can't be blocked"
+          ]
+        }
+      ],
+      "text": "{3}, {T}: Target Ninja or Turtle can't be blocked this turn."
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Courier of Comestibles",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Food"
+          },
+          "optional": true,
+          "reveal": true
+        },
+        {
+          "if": {
+            "not": {
+              "atLeast": "foundThisWay",
+              "value": 1
+            }
+          },
+          "then": [
+            {
+              "tokens": 1,
+              "token": "Food"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, you may search your library for a Food card, reveal it, put it into your hand, then shuffle. If you don't put a card into your hand this way, create a Food token."
+    }
+  ]
+}

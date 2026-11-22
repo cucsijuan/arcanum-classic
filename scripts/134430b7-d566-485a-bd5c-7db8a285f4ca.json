@@ -1,0 +1,69 @@
+{
+  "name": "Leader's Talent",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": 1,
+          "what": "target"
+        }
+      ],
+      "text": "Whenever you attack, put a +1/+1 counter on target attacking creature."
+    },
+    {
+      "cost": "{2}{W}",
+      "levelUp": 2,
+      "text": "{2}{W}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "permanentLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "if": "triggeredHadCounters",
+      "effects": [
+        {
+          "gainLife": 2
+        }
+      ],
+      "text": "Whenever a creature you control leaves the battlefield, if it had a counter on it, you gain 2 life."
+    },
+    {
+      "cost": "{3}{W}",
+      "levelUp": 3,
+      "text": "{3}{W}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "castSpell",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever you cast a spell, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

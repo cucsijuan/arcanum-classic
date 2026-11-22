@@ -1,0 +1,20 @@
+{
+  "name": "Mona Lisa, Ever Adaptable",
+  "abilities": [
+    {
+      "trigger": "anyPlayerCastsSpell",
+      "filter": {
+        "types": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "Whenever a player casts a creature spell, you create a Mutagen token."
+    }
+  ]
+}

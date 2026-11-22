@@ -1,0 +1,50 @@
+{
+  "name": "Rat King, Verminister",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "if": "yourPermanentLeft",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Rat",
+            "types": "Creature — Rat",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "B"
+            ]
+          }
+        },
+        {
+          "counters": 1,
+          "what": "self"
+        }
+      ],
+      "text": "Disappear — At the beginning of your end step, if a permanent left the battlefield under your control this turn, create a 1/1 black Rat creature token and put a +1/+1 counter on Rat King."
+    },
+    {
+      "cost": "{T}, sacrificeAny:Rat*3",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "creature"
+            ]
+          },
+          "text": "target creature card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimateWithSameName": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{T}, Sacrifice three Rats: Return target creature card and all other cards with the same name as that card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

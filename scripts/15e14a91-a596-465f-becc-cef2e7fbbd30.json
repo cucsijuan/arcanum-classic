@@ -1,0 +1,60 @@
+{
+  "name": "Mikey & Mona, Mutant Sitters",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "chooseCount": 2,
+      "upTo": true,
+      "targetRule": "allDifferent",
+      "text": "When Mikey & Mona enter, choose one or both. Each mode must target a different player.",
+      "modes": [
+        {
+          "text": "Target player chooses a creature they control and puts two +1/+1 counters on it.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "eachPlayer": [
+                {
+                  "choose": {
+                    "types": [
+                      "creature"
+                    ],
+                    "controller": "you"
+                  }
+                },
+                {
+                  "counters": 2,
+                  "what": "chosen"
+                }
+              ],
+              "who": "target"
+            }
+          ]
+        },
+        {
+          "text": "Target player returns a creature or land card from their graveyard to their hand.",
+          "targets": [
+            "player"
+          ],
+          "effects": [
+            {
+              "eachPlayer": [
+                {
+                  "returnFromGraveyard": {
+                    "types": [
+                      "creature",
+                      "land"
+                    ]
+                  }
+                }
+              ],
+              "who": "target"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

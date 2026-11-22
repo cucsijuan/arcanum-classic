@@ -1,0 +1,17 @@
+{
+  "name": "Dimensional Exile",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:opponent"
+      ],
+      "effects": [
+        {
+          "exileUntilLeaves": "target"
+        }
+      ],
+      "text": "When this Aura enters, exile target creature an opponent controls until this Aura leaves the battlefield."
+    }
+  ]
+}

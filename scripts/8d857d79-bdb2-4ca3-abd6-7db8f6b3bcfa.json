@@ -1,0 +1,28 @@
+{
+  "name": "Tokka & Rahzar, Unsupervised",
+  "abilities": [
+    {
+      "trigger": "creatureLeaves",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "token": false,
+        "controller": "you",
+        "other": true
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "Whenever another nontoken creature you control leaves the battlefield, put a +1/+1 counter on Tokka & Rahzar and create a Treasure token. This ability triggers only once each turn."
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hidden Hideout",
+  "extraMana": [
+    {
+      "commanderIdentity": true
+    }
+  ],
+  "abilities": [
+    {
+      "cost": "{2}, {T}",
+      "targets": [
+        {
+          "kind": "creature",
+          "controller": "you",
+          "filter": {
+            "hasCounters": true
+          },
+          "text": "target creature you control with a counter on it"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            0,
+            0
+          ],
+          "what": "target",
+          "keywords": [
+            "Lifelink"
+          ]
+        }
+      ],
+      "text": "{2}, {T}: Target creature you control with a counter on it gains lifelink until end of turn."
+    }
+  ]
+}

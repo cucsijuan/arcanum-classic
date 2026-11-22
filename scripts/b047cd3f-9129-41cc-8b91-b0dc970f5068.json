@@ -1,0 +1,70 @@
+{
+  "name": "Brilliance Unleashed",
+  "spell": {
+    "chooseCount": 2,
+    "upTo": true,
+    "text": "Choose one or both —",
+    "modes": [
+      {
+        "text": "Brilliance Unleashed deals 5 damage to target creature.",
+        "targets": [
+          "creature"
+        ],
+        "effects": [
+          {
+            "damage": 5,
+            "to": "target"
+          }
+        ]
+      },
+      {
+        "text": "Choose target artifact card in your graveyard. Return it to the battlefield if it's an artifact creature card. Otherwise, return it to the battlefield and it's a 3/3 Robot artifact creature with flying.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "you",
+            "filter": {
+              "types": [
+                "artifact"
+              ]
+            },
+            "text": "target artifact card in your graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "if": {
+              "target": "target",
+              "is": {
+                "types": [
+                  "creature"
+                ]
+              }
+            },
+            "then": [
+              {
+                "reanimate": "target"
+              }
+            ],
+            "else": [
+              {
+                "reanimate": "target",
+                "setPower": 3,
+                "setToughness": 3,
+                "addTypes": [
+                  "creature"
+                ],
+                "addSubtypes": [
+                  "Robot"
+                ],
+                "keywords": [
+                  "Flying"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

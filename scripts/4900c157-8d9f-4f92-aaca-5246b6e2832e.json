@@ -1,0 +1,29 @@
+{
+  "name": "April O'Neil, Live on the Scene",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "anyOf": [
+          {
+            "subtype": "Mutant"
+          },
+          {
+            "subtype": "Ninja"
+          },
+          {
+            "subtype": "Turtle"
+          }
+        ],
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "Whenever a Mutant, Ninja, or Turtle you control enters, investigate."
+    }
+  ]
+}

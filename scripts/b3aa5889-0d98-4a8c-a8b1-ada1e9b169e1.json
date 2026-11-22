@@ -1,0 +1,16 @@
+{
+  "name": "Silverclad Ferocidons",
+  "abilities": [
+    {
+      "trigger": "dealtDamage",
+      "effects": [
+        {
+          "sacrifice": 1,
+          "who": "opponents",
+          "filter": {}
+        }
+      ],
+      "text": "Enrage — Whenever this creature is dealt damage, each opponent sacrifices a permanent of their choice."
+    }
+  ]
+}

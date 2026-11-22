@@ -1,0 +1,38 @@
+{
+  "name": "General Traag, Heart of Stone",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "mayPay": "Sacrifice another artifact?",
+          "cost": {
+            "sacrifice": {
+              "types": [
+                "artifact"
+              ],
+              "other": true
+            }
+          },
+          "effects": [
+            {
+              "whenYouDo": {
+                "targets": [
+                  "creature"
+                ],
+                "effects": [
+                  {
+                    "damage": 4,
+                    "to": "target"
+                  }
+                ],
+                "text": "When you do, General Traag deals 4 damage to target creature."
+              }
+            }
+          ]
+        }
+      ],
+      "text": "When General Traag enters, you may sacrifice another artifact. When you do, General Traag deals 4 damage to target creature."
+    }
+  ]
+}

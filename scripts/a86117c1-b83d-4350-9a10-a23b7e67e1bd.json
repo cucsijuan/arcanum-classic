@@ -1,0 +1,23 @@
+{
+  "name": "Mikey & Leo, Chaos & Order",
+  "abilities": [
+    {
+      "trigger": "countersPlaced",
+      "counterKind": "any",
+      "placedByYou": true,
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "controller": "you"
+      },
+      "oncePerTurn": true,
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever you put a counter on a creature you control, draw a card. This ability triggers only once each turn."
+    }
+  ]
+}

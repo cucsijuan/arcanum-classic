@@ -1,0 +1,45 @@
+{
+  "name": "Triceraton Commander",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": "X",
+          "token": {
+            "name": "Dinosaur Soldier",
+            "types": "Creature — Dinosaur Soldier",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "W"
+            ]
+          }
+        }
+      ],
+      "text": "When this creature enters, create X 2/2 white Dinosaur Soldier creature tokens."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": {
+            "each": {
+              "subtype": "Dinosaur",
+              "controller": "you",
+              "other": true
+            }
+          },
+          "keywords": [
+            "Flying"
+          ]
+        }
+      ],
+      "text": "Whenever this creature attacks, Dinosaurs you control other than this creature get +1/+1 and gain flying until end of turn."
+    }
+  ]
+}

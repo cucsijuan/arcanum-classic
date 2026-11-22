@@ -1,0 +1,48 @@
+{
+  "name": "Sally Pride, Lioness Leader",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": {
+            "count": {
+              "types": [
+                "creature"
+              ],
+              "token": false,
+              "controller": "you"
+            }
+          },
+          "token": {
+            "name": "Mutant",
+            "types": "Creature — Mutant",
+            "power": 2,
+            "toughness": 2,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "When Sally Pride enters, create X 2/2 red Mutant creature tokens, where X is the number of nontoken creatures you control."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "counters": 1,
+          "what": {
+            "each": {
+              "types": [
+                "creature"
+              ],
+              "controller": "you"
+            }
+          }
+        }
+      ],
+      "text": "Whenever Sally Pride attacks, put a +1/+1 counter on each creature you control."
+    }
+  ]
+}

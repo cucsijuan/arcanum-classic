@@ -1,0 +1,31 @@
+{
+  "name": "Nobody",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "types": [
+              "artifact"
+            ],
+            "other": true
+          },
+          "text": "up to one other target artifact you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "scry": 1
+        }
+      ],
+      "text": "When this creature enters, return up to one other target artifact you control to its owner's hand. Scry 1."
+    }
+  ]
+}

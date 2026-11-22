@@ -1,0 +1,16 @@
+{
+  "name": "Raphael, the Muscle",
+  "doublesDamageOfYourCreaturesWithCounters": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Mutagen"
+        }
+      ],
+      "text": "When Raphael enters, create a Mutagen token."
+    }
+  ]
+}

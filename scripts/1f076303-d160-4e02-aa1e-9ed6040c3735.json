@@ -1,0 +1,59 @@
+{
+  "name": "Cool but Rude",
+  "abilities": [
+    {
+      "trigger": "youAttack",
+      "effects": [
+        {
+          "mayPay": "Discard a card to draw a card?",
+          "cost": {
+            "discard": 1
+          },
+          "effects": [
+            {
+              "draw": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, you may discard a card. If you do, draw a card."
+    },
+    {
+      "cost": "{1}{R}",
+      "levelUp": 2,
+      "text": "{1}{R}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "playerDiscards",
+      "when": "triggeredPlayerIsYou",
+      "effects": [
+        {
+          "damage": 2,
+          "to": "opponents"
+        }
+      ],
+      "text": "Whenever you discard a card, this Class deals 2 damage to each opponent."
+    },
+    {
+      "cost": "{1}{R}",
+      "levelUp": 3,
+      "text": "{1}{R}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "becomesLevel",
+      "effects": [
+        {
+          "search": {},
+          "to": "hand"
+        },
+        {
+          "discard": 1,
+          "random": true
+        }
+      ],
+      "text": "When this Class becomes level 3, search your library for a card, put it into your hand, shuffle, then discard a card at random."
+    }
+  ]
+}

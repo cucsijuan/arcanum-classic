@@ -1,0 +1,47 @@
+{
+  "name": "Quintessential Katana",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "grants": [
+          {
+            "trigger": "dealsCombatDamage",
+            "effects": [
+              {
+                "untap": "self"
+              },
+              {
+                "gainLife": 2
+              }
+            ],
+            "text": "Whenever this creature deals combat damage, untap it and you gain 2 life."
+          }
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has \"Whenever this creature deals combat damage, untap it and you gain 2 life.\""
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "subtype": "Ninja",
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "may": "Attach Quintessential Katana to it?",
+          "effects": [
+            {
+              "attach": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever a Ninja you control enters, you may attach this Equipment to it."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Underworld Breach",
+  "rules": [
+    "GraveyardNonlandCardsHaveEscape"
+  ],
+  "abilities": [
+    {
+      "trigger": "eachEndStep",
+      "effects": [
+        {
+          "sacrificeIt": "self"
+        }
+      ],
+      "text": "At the beginning of the end step, sacrifice this enchantment."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "name": "Party Dude",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food",
+          "for": "everyone"
+        }
+      ],
+      "text": "When this Class enters, each player creates a Food token."
+    },
+    {
+      "cost": "{1}{G}",
+      "levelUp": 2,
+      "text": "{1}{G}: Level 2"
+    },
+    {
+      "level": 2,
+      "trigger": "permanentDies",
+      "filter": {
+        "types": [
+          "artifact"
+        ],
+        "controller": "opponent"
+      },
+      "effects": [
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an artifact an opponent controls is put into a graveyard from the battlefield, draw a card."
+    },
+    {
+      "cost": "{4}{G}",
+      "levelUp": 3,
+      "text": "{4}{G}: Level 3"
+    },
+    {
+      "level": 3,
+      "trigger": "opponentsAttacked",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "optional": true,
+          "text": "up to one target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "pump": [
+            "handSize",
+            "handSize"
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "Whenever one or more of your opponents are attacked, up to one target attacking creature gets +X/+X until end of turn, where X is the number of cards in your hand."
+    }
+  ]
+}

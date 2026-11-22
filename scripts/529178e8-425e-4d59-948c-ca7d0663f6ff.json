@@ -1,0 +1,25 @@
+{
+  "name": "Mikey & Don, Party Planners",
+  "replaces": [
+    "LookAtLibraryTop"
+  ],
+  "playFromLibraryTop": {
+    "anyOf": [
+      {
+        "types": [
+          "land"
+        ]
+      },
+      {
+        "subtype": "Mutant"
+      },
+      {
+        "subtype": "Ninja"
+      },
+      {
+        "subtype": "Turtle"
+      }
+    ]
+  },
+  "playFromLibraryTopCounter": true
+}

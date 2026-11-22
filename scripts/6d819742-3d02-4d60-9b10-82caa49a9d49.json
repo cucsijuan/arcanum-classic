@@ -1,0 +1,49 @@
+{
+  "name": "Novel Nunchaku",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        },
+        {
+          "whenYouDo": {
+            "targets": [
+              {
+                "kind": "creature",
+                "controller": "opponent",
+                "optional": true,
+                "text": "up to one target creature an opponent controls"
+              }
+            ],
+            "effects": [
+              {
+                "fight": "attached",
+                "with": "target"
+              }
+            ],
+            "text": "When you do, equipped creature fights up to one target creature an opponent controls."
+          }
+        }
+      ],
+      "text": "When this Equipment enters, attach it to target creature you control. When you do, equipped creature fights up to one target creature an opponent controls."
+    },
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          1
+        ],
+        "keywords": [
+          "Trample"
+        ]
+      },
+      "text": "Equipped creature gets +1/+1 and has trample."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Michelangelo's Technique",
+  "spell": {
+    "effects": [
+      {
+        "lookAtTop": 8,
+        "filter": {
+          "types": [
+            "creature"
+          ]
+        },
+        "to": "battlefield",
+        "maxTotalManaValue": 6,
+        "take": 2
+      }
+    ],
+    "text": "Look at the top eight cards of your library. Put up to two creature cards with total mana value 6 or less from among them onto the battlefield and the rest on the bottom of your library in a random order."
+  }
+}
