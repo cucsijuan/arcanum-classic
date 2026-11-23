@@ -128,3 +128,5 @@ A game still running after 30 s is reported with its turn, its event count and i
 ## 10. Release
 
 Bump the module version (and the engine API version when the module needs new engine features), then follow the release workflow.
+The workflow makes `card-data.bin` with `tools/PrepareCardData` from the game repository's `main` branch, so that branch must
+have the tool before the tag is pushed.

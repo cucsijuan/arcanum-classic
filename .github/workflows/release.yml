@@ -22,8 +22,24 @@ jobs:
             exit 1
           fi
 
+      - uses: actions/checkout@v4
+        with:
+          repository: cucsijuan/arcanum
+          path: game
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      # The zip brings the card data already made from the source (card-data.bin at the module's
+      # root), so the game has nothing to download or prepare after installing it.
       - name: Build the zip
-        run: git archive --format=zip --prefix=arcanum-classic/ -o "arcanum-classic-$GITHUB_REF_NAME.zip" HEAD
+        run: |
+          mkdir -p "$RUNNER_TEMP/extra/arcanum-classic"
+          dotnet run --project game/tools/PrepareCardData -c Release -- . "$RUNNER_TEMP/extra/arcanum-classic"
+          git archive --format=zip --prefix=arcanum-classic/ -o "arcanum-classic-$GITHUB_REF_NAME.zip" HEAD
+          zip="$PWD/arcanum-classic-$GITHUB_REF_NAME.zip"
+          (cd "$RUNNER_TEMP/extra" && zip -q "$zip" arcanum-classic/card-data.bin)
 
       - name: Publish the release
         env:
@@ -31,4 +47,4 @@ jobs:
         run: |
           gh release create "$GITHUB_REF_NAME" "arcanum-classic-$GITHUB_REF_NAME.zip" \
             --title "Classic $GITHUB_REF_NAME" \
-            --notes "Install: download arcanum-classic-$GITHUB_REF_NAME.zip, then in Arcanum open Extras → Install module from zip… and choose it. The first start after installing downloads the card data (a few minutes)."
+            --notes "Install: download arcanum-classic-$GITHUB_REF_NAME.zip, then in Arcanum open Extras → Install module from zip… and choose it. The card data comes in the zip; card pictures are downloaded when first shown."
