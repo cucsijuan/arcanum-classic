@@ -1,0 +1,41 @@
+{
+  "name": "Get Lost",
+  "spell": {
+    "targets": [
+      {
+        "kind": "permanent",
+        "filter": {
+          "anyOf": [
+            {
+              "types": [
+                "creature"
+              ]
+            },
+            {
+              "types": [
+                "enchantment"
+              ]
+            },
+            {
+              "types": [
+                "planeswalker"
+              ]
+            }
+          ]
+        },
+        "text": "target creature, enchantment, or planeswalker"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      },
+      {
+        "tokens": 2,
+        "token": "Map",
+        "for": "targetController"
+      }
+    ],
+    "text": "Destroy target creature, enchantment, or planeswalker. Its controller creates two Map tokens."
+  }
+}

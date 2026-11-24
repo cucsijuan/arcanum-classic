@@ -1,0 +1,84 @@
+{
+  "name": "The Naked Time",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [
+        1
+      ],
+      "effects": [
+        {
+          "search": {
+            "supertype": "basic",
+            "types": [
+              "land"
+            ],
+            "subtype": "Mountain"
+          },
+          "count": 1,
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "I — Search your library for a basic Mountain card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        2
+      ],
+      "effects": [
+        {
+          "emblem": "The Naked Time",
+          "untilEndOfTurn": true,
+          "abilities": [
+            {
+              "trigger": "creatureEnters",
+              "filter": {
+                "types": [
+                  "creature"
+                ],
+                "controller": "you"
+              },
+              "effects": [
+                {
+                  "counters": 1,
+                  "what": "triggered"
+                },
+                {
+                  "pump": [
+                    0,
+                    0
+                  ],
+                  "what": "triggered",
+                  "keywords": [
+                    "Haste"
+                  ]
+                }
+              ],
+              "text": "Whenever a creature you control enters this turn, put a +1/+1 counter on it and it gains haste until end of turn."
+            }
+          ]
+        }
+      ],
+      "text": "II — Whenever a creature you control enters this turn, put a +1/+1 counter on it and it gains haste until end of turn."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [
+        3
+      ],
+      "effects": [
+        {
+          "sacrifice": 1,
+          "filter": {
+            "types": [
+              "land"
+            ]
+          }
+        }
+      ],
+      "text": "III — Sacrifice a land."
+    }
+  ]
+}

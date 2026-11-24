@@ -1,0 +1,18 @@
+{
+  "name": "Greedy Freebooter",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "scry": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Treasure"
+        }
+      ],
+      "text": "When this creature dies, scry 1 and create a Treasure token."
+    }
+  ]
+}

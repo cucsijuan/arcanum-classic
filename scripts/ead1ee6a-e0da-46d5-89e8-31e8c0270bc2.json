@@ -1,0 +1,16 @@
+{
+  "name": "No More Lies",
+  "spell": {
+    "targets": [
+      "spell"
+    ],
+    "effects": [
+      {
+        "counter": "target",
+        "unlessPays": 3,
+        "exileIfCountered": true
+      }
+    ],
+    "text": "Counter target spell unless its controller pays {3}. If that spell is countered this way, exile it instead of putting it into its owner's graveyard."
+  }
+}

@@ -1,21 +1,17 @@
 # Azorius control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914641).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Captain Marvel, Earth's Protector -> Lyra Dawnbringer; Get Lost -> Harsh Annotation; No More Lies -> Refute.
-#   Multiversal Passage -> Plains; Captain Marvel, Earth's Protector -> Lyra Dawnbringer; Rest in Peace -> Soul-Guide Lantern.
-#   Doorkeeper Thrull -> Karn, Argent Defender, Clarion Conqueror.
 1 Emeritus of Ideation
-1 Lyra Dawnbringer
+1 Captain Marvel, Earth's Protector
 1 Pinnacle Starcage
 2 Spell Snare
-4 Harsh Annotation
-3 Refute
+4 Get Lost
+3 No More Lies
 4 Consult the Star Charts
 4 Countersculpt
 3 Jace's Machinations
 3 Day of Judgment
 4 Seam Rip
 4 The Theorist, Jace Beleren
-3 Plains
+2 Plains
 2 Island
 1 Cavern of Souls
 4 Hallowed Fountain
@@ -23,19 +19,19 @@
 1 Restless Anchorage
 2 Meticulous Archive
 4 Floodfarm Verge
+1 Multiversal Passage
 3 Petrified Hamlet
 2 Theorist's Sanctum
 
 Sideboard
 1 Emeritus of Ideation
-1 Lyra Dawnbringer
+1 Captain Marvel, Earth's Protector
 1 Spell Snare
 1 Negate
 1 Flashfreeze
 1 Annul
-1 Soul-Guide Lantern
-2 Karn, Argent Defender
-1 Clarion Conqueror
+1 Rest in Peace
+3 Doorkeeper Thrull
 1 Voice of Victory
 1 Ultima
 1 Erode

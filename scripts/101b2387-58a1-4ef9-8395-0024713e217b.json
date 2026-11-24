@@ -1,0 +1,55 @@
+{
+  "name": "Test of Courage",
+  "spell": {
+    "text": "Choose one —",
+    "modes": [
+      {
+        "text": "Alter the Past — Exile target card from a graveyard. You gain 2 life.",
+        "targets": [
+          {
+            "kind": "graveyardCard",
+            "controller": "any",
+            "text": "target card from a graveyard"
+          }
+        ],
+        "effects": [
+          {
+            "exile": "target"
+          },
+          {
+            "gainLife": 2
+          }
+        ]
+      },
+      {
+        "text": "Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "anyOf": [
+                {
+                  "types": [
+                    "artifact"
+                  ]
+                },
+                {
+                  "types": [
+                    "enchantment"
+                  ]
+                }
+              ],
+              "maxManaValue": 3
+            },
+            "text": "target artifact or enchantment with mana value 3 or less"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

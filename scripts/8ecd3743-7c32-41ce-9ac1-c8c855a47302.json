@@ -1,0 +1,42 @@
+{
+  "name": "Nurturing Pixie",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "permanent",
+          "controller": "you",
+          "optional": true,
+          "filter": {
+            "not": [
+              "land"
+            ],
+            "notSubtype": "Faerie"
+          },
+          "text": "up to one target non-Faerie, nonland permanent you control"
+        }
+      ],
+      "effects": [
+        {
+          "bounce": "target"
+        },
+        {
+          "if": {
+            "target": "target",
+            "is": {
+              "zone": "hand"
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "self"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, return up to one target non-Faerie, nonland permanent you control to its owner's hand. If a permanent was returned this way, put a +1/+1 counter on this creature."
+    }
+  ]
+}

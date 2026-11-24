@@ -1,0 +1,19 @@
+{
+  "name": "Lavaspur Boots",
+  "abilities": [
+    {
+      "static": {
+        "affects": "equipped",
+        "pump": [
+          1,
+          0
+        ],
+        "keywords": [
+          "Haste"
+        ],
+        "grantsWard": "{1}"
+      },
+      "text": "Equipped creature gets +1/+0 and has haste and ward {1}."
+    }
+  ]
+}

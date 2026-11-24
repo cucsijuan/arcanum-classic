@@ -1,0 +1,21 @@
+{
+  "name": "Captain Marvel, Earth's Protector",
+  "abilities": [
+    {
+      "cost": "{5}{W}{W}",
+      "powerUp": true,
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "indestructible"
+        }
+      ],
+      "text": "Power-up — {5}{W}{W}: Put a +1/+1 counter and an indestructible counter on Captain Marvel."
+    }
+  ]
+}

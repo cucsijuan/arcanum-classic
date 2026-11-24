@@ -1,0 +1,26 @@
+{
+  "name": "Wolverine, Fierce Fighter",
+  "damageHealsOtherDamage": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "filter": {
+            "other": true
+          },
+          "text": "up to one other target creature"
+        }
+      ],
+      "effects": [
+        {
+          "fight": "self",
+          "with": "target"
+        }
+      ],
+      "text": "When Wolverine enters, he fights up to one other target creature."
+    }
+  ]
+}

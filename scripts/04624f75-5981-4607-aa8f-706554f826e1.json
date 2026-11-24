@@ -1,0 +1,61 @@
+{
+  "name": "Captain Jean-Luc Picard",
+  "abilities": [
+    {
+      "static": {
+        "affects": "creatures:you",
+        "pump": [
+          1,
+          1
+        ],
+        "other": true
+      },
+      "text": "Other creatures you control get +1/+1."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "anyOf": [
+          {
+            "types": [
+              "creature"
+            ]
+          },
+          {
+            "subtype": "Spacecraft"
+          }
+        ]
+      },
+      "effects": [
+        {
+          "tokens": 1,
+          "token": {
+            "name": "Officer",
+            "types": "Creature — Officer",
+            "power": 1,
+            "toughness": 1,
+            "colors": [
+              "R"
+            ]
+          }
+        }
+      ],
+      "text": "Whenever you cast a creature or Spacecraft spell, create a 1/1 red Officer creature token."
+    },
+    {
+      "cost": "tapCreatures:7:Officer",
+      "effects": [
+        {
+          "search": {
+            "subtype": "Spacecraft"
+          },
+          "count": 1,
+          "to": "battlefield",
+          "withCounter": "charge",
+          "withCounterCount": 7
+        }
+      ],
+      "text": "Tap seven untapped Officers you control: Search your library for a Spacecraft card, put it onto the battlefield with seven charge counters on it, then shuffle."
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "name": "Obsessive Pursuit",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this enchantment enters and at the beginning of your upkeep, you lose 1 life and create a Clue token."
+    },
+    {
+      "trigger": "upkeep",
+      "effects": [
+        {
+          "loseLife": 1
+        },
+        {
+          "tokens": 1,
+          "token": "Clue"
+        }
+      ],
+      "text": "When this enchantment enters and at the beginning of your upkeep, you lose 1 life and create a Clue token."
+    },
+    {
+      "trigger": "youAttack",
+      "targets": [
+        {
+          "kind": "creature",
+          "filter": {
+            "attacking": true
+          },
+          "text": "target attacking creature"
+        }
+      ],
+      "effects": [
+        {
+          "counters": "youSacrificedThisTurn",
+          "what": "target"
+        },
+        {
+          "if": {
+            "atLeast": "youSacrificedThisTurn",
+            "value": 3
+          },
+          "then": [
+            {
+              "pump": [
+                0,
+                0
+              ],
+              "what": "target",
+              "keywords": [
+                "Lifelink"
+              ]
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you attack, put X +1/+1 counters on target attacking creature, where X is the number of permanents you've sacrificed this turn. If X is three or more, that creature gains lifelink until end of turn."
+    }
+  ]
+}

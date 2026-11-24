@@ -1,28 +1,26 @@
 # Boros dragons: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914938).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   The Naked Time -> Erode, Thunder Magic; Momo, Friendly Flier -> Dragonlord's Servant; Multiversal Passage -> Plains, Mountain.
-#   Inspiring Vantage -> Sundown Pass; Sunbillow Verge -> Plains, Mountain; Doorkeeper Thrull -> Karn, Argent Defender.
-#   Rest in Peace -> Soul-Guide Lantern.
-4 Erode
+2 Erode
 4 Burst Lightning
-2 Thunder Magic
+4 The Naked Time
 3 Magmatic Hellkite
 3 Voice of Victory
 4 Sarkhan, Dragon Ascendant
 4 Nova Hellkite
-4 Dragonlord's Servant
+4 Momo, Friendly Flier
 4 Smaug the Magnificent
 4 Clarion Conqueror
-5 Plains
-7 Mountain
-4 Sundown Pass
+2 Plains
+2 Multiversal Passage
+4 Mountain
+4 Inspiring Vantage
 4 Cavern of Souls
 4 Sacred Foundry
+4 Sunbillow Verge
 
 Sideboard
 2 Ultima
 2 Sheltered by Ghosts
 3 Sunspine Lynx
-2 Karn, Argent Defender
-3 Soul-Guide Lantern
+2 Doorkeeper Thrull
+3 Rest in Peace
 3 Authority of the Consuls

@@ -1,0 +1,38 @@
+{
+  "name": "Lively Dirge",
+  "spell": {
+    "text": "Spree",
+    "chooseCount": 2,
+    "upTo": true,
+    "modes": [
+      {
+        "cost": "{1}",
+        "text": "Search your library for a card, put it into your graveyard, then shuffle.",
+        "effects": [
+          {
+            "search": {},
+            "count": 1,
+            "to": "graveyard"
+          }
+        ]
+      },
+      {
+        "cost": "{2}",
+        "text": "Return up to two creature cards with total mana value 4 or less from your graveyard to the battlefield.",
+        "effects": [
+          {
+            "returnFromGraveyard": {
+              "types": [
+                "creature"
+              ]
+            },
+            "count": 2,
+            "upTo": true,
+            "to": "battlefield",
+            "totalManaValueAtMost": 4
+          }
+        ]
+      }
+    ]
+  }
+}

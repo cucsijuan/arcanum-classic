@@ -1,0 +1,26 @@
+{
+  "name": "Wastewood Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Swamp"
+            },
+            {
+              "subtype": "Forest"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{B}"
+        }
+      ],
+      "text": "{T}: Add {B}. Activate only if you control a Swamp or a Forest."
+    }
+  ]
+}

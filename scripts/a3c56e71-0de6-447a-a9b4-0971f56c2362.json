@@ -1,0 +1,41 @@
+{
+  "name": "Momo, Friendly Flier",
+  "abilities": [
+    {
+      "spellCost": {
+        "spells": {
+          "types": [
+            "creature"
+          ],
+          "keyword": "Flying",
+          "notSubtype": "Lemur"
+        },
+        "amount": 1,
+        "firstOfTurn": true,
+        "while": "yourTurn"
+      },
+      "text": "The first non-Lemur creature spell with flying you cast during each of your turns costs {1} less to cast."
+    },
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you",
+        "keyword": "Flying"
+      },
+      "effects": [
+        {
+          "pump": [
+            1,
+            1
+          ],
+          "what": "self"
+        }
+      ],
+      "text": "Whenever another creature you control with flying enters, Momo gets +1/+1 until end of turn."
+    }
+  ]
+}

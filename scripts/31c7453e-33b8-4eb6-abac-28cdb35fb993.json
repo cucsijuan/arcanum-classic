@@ -1,0 +1,30 @@
+{
+  "name": "Salt Vampire",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discardChosen": "target",
+          "filter": {
+            "not": [
+              "land"
+            ]
+          },
+          "exileInstead": true,
+          "optional": true,
+          "then": [
+            {
+              "draw": 1,
+              "who": "target"
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, look at target opponent's hand. You may choose a nonland card from it. If you do, that player exiles that card, then draws a card."
+    }
+  ]
+}

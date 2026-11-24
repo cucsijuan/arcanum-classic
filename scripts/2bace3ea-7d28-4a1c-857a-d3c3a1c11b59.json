@@ -1,0 +1,33 @@
+{
+  "name": "Wan Shi Tong, Librarian",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "counters": "X",
+          "what": "self"
+        },
+        {
+          "draw": {
+            "halfDown": "X"
+          }
+        }
+      ],
+      "text": "When Wan Shi Tong enters, put X +1/+1 counters on him. Then draw half X cards, rounded down."
+    },
+    {
+      "trigger": "opponentSearchesLibrary",
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self"
+        },
+        {
+          "draw": 1
+        }
+      ],
+      "text": "Whenever an opponent searches their library, put a +1/+1 counter on Wan Shi Tong and draw a card."
+    }
+  ]
+}

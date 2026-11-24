@@ -1,0 +1,41 @@
+{
+  "name": "Molten Collapse",
+  "spell": {
+    "text": "Choose one. If you descended this turn, you may choose both instead.",
+    "extraModeIf": "descended",
+    "modes": [
+      {
+        "text": "Destroy target creature or planeswalker.",
+        "targets": [
+          "creatureOrPlaneswalker"
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      },
+      {
+        "text": "Destroy target noncreature, nonland permanent with mana value 1 or less.",
+        "targets": [
+          {
+            "kind": "permanent",
+            "filter": {
+              "not": [
+                "creature",
+                "land"
+              ],
+              "maxManaValue": 1
+            },
+            "text": "target noncreature, nonland permanent with mana value 1 or less"
+          }
+        ],
+        "effects": [
+          {
+            "destroy": "target"
+          }
+        ]
+      }
+    ]
+  }
+}

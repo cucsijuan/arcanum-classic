@@ -1,0 +1,26 @@
+{
+  "name": "The Wondrous Wasp",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "creature",
+          "optional": true,
+          "text": "up to one target creature"
+        }
+      ],
+      "effects": [
+        {
+          "tap": "target"
+        },
+        {
+          "become": "target",
+          "whileSource": true,
+          "loseAbilities": true
+        }
+      ],
+      "text": "Wasp's Sting — When The Wondrous Wasp enters, tap up to one target creature. It loses all abilities for as long as The Wondrous Wasp remains on the battlefield."
+    }
+  ]
+}

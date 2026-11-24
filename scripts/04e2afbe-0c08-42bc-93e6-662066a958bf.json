@@ -1,0 +1,29 @@
+{
+  "name": "Deadly Cover-Up",
+  "optionalAdditionalCost": {
+    "collectEvidence": 6
+  },
+  "spell": {
+    "effects": [
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any"
+          }
+        }
+      },
+      {
+        "if": "additionalCostPaid",
+        "then": [
+          {
+            "exileFromOpponentsGraveyardThenNamesakes": true
+          }
+        ]
+      }
+    ],
+    "text": "Destroy all creatures. If evidence was collected, exile a card from an opponent's graveyard. Then search its owner's graveyard, hand, and library for any number of cards with that name and exile them. That player shuffles, then draws a card for each card exiled from their hand this way."
+  }
+}

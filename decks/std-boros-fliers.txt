@@ -1,35 +1,35 @@
 # Boros fliers: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915740).
 # Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Nurturing Pixie -> Sunpearl Kirin; Momo, Friendly Flier -> Healer's Hawk; Captain Jean-Luc Picard -> Mabel, Valley Hero.
-#   Torch the Tower -> Thunder Magic; The Naked Time -> Practiced Offense, Burst Lightning; Inspiring Vantage -> Sundown Pass.
-#   Sunbillow Verge -> Plains, Mountain; Abandoned Air Temple -> Plains; Rest in Peace -> Soul-Guide Lantern.
-#   Curious Farm Animals -> Cathar Commando; Q, Stacking the Deck -> Strongbox Raider; The Wrath of Khan -> Burn, Burn, Tree and Fern.
-3 Sunpearl Kirin
+#   Q, Stacking the Deck -> Strongbox Raider; The Wrath of Khan -> Burn, Burn, Tree and Fern.
+3 Nurturing Pixie
 4 Sage of the Skies
 4 Voice of Victory
 1 Stadium Headliner
 2 Haliya, Guided by Light
 4 Starfield Shepherd
-4 Healer's Hawk
+4 Momo, Friendly Flier
 1 Guiding Hydra
-3 Mabel, Valley Hero
-2 Burst Lightning
-4 Thunder Magic
+3 Captain Jean-Luc Picard
+1 Burst Lightning
+4 Torch the Tower
 2 Erode
-4 Practiced Offense
-7 Plains
-5 Mountain
-4 Sundown Pass
+1 Practiced Offense
+4 The Naked Time
+3 Plains
+3 Mountain
+4 Inspiring Vantage
 4 Sacred Foundry
+4 Sunbillow Verge
 2 Starting Town
+2 Abandoned Air Temple
 
 Sideboard
 1 Erode
-2 Soul-Guide Lantern
+2 Rest in Peace
 2 Clarion Conqueror
 2 Seam Rip
 1 Spectacular Spider-Man
-1 Cathar Commando
+1 Curious Farm Animals
 1 Morningtide's Light
 1 Pyrrhic Strike
 2 Ark of Hunger

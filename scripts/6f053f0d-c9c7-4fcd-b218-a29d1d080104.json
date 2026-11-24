@@ -1,0 +1,15 @@
+{
+  "name": "Ancient Vendetta",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "nameAndExile": "target",
+        "upTo": 4
+      }
+    ],
+    "text": "Choose a card name. Search target opponent's graveyard, hand, and library for up to four cards with that name and exile them. Then that player shuffles."
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Intimidation Tactics",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "discardChosen": "target",
+        "filter": {
+          "types": [
+            "artifact",
+            "creature"
+          ]
+        },
+        "exileInstead": true
+      }
+    ],
+    "text": "Target opponent reveals their hand. You choose an artifact or creature card from it. Exile that card."
+  }
+}

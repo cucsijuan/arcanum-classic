@@ -1,0 +1,31 @@
+{
+  "name": "Day of Black Sun",
+  "spell": {
+    "effects": [
+      {
+        "become": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "maxManaValueX": true
+          }
+        },
+        "loseAbilities": true
+      },
+      {
+        "destroy": {
+          "each": {
+            "types": [
+              "creature"
+            ],
+            "controller": "any",
+            "maxManaValueX": true
+          }
+        }
+      }
+    ],
+    "text": "Each creature with mana value X or less loses all abilities until end of turn. Destroy those creatures."
+  }
+}

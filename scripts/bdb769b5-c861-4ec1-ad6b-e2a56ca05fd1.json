@@ -1,0 +1,34 @@
+{
+  "name": "Aunt May",
+  "abilities": [
+    {
+      "trigger": "creatureEnters",
+      "filter": {
+        "types": [
+          "creature"
+        ],
+        "other": true,
+        "controller": "you"
+      },
+      "effects": [
+        {
+          "gainLife": 1
+        },
+        {
+          "if": {
+            "triggered": {
+              "subtype": "Spider"
+            }
+          },
+          "then": [
+            {
+              "counters": 1,
+              "what": "triggered"
+            }
+          ]
+        }
+      ],
+      "text": "Whenever another creature you control enters, you gain 1 life. If it's a Spider, put a +1/+1 counter on it."
+    }
+  ]
+}

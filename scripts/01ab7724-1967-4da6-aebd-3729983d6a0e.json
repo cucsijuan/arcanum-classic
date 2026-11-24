@@ -1,0 +1,29 @@
+{
+  "name": "Bloodthorn Flail",
+  "abilities": [
+    {
+      "cost": "{3}",
+      "costOptions": [
+        {
+          "cost": "{3}",
+          "label": "Pay {3}"
+        },
+        {
+          "cost": "discard",
+          "label": "Discard a card"
+        }
+      ],
+      "sorcery": true,
+      "equip": true,
+      "targets": [
+        "creature:you"
+      ],
+      "effects": [
+        {
+          "attach": "target"
+        }
+      ],
+      "text": "Equip—Pay {3} or discard a card."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "Georgiou, Terran Emperor",
+  "rules": [
+    "NoLossForZeroLife"
+  ],
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "effects": [
+        {
+          "loseLife": 3
+        },
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "not": {
+              "life": 1
+            }
+          },
+          "then": [
+            {
+              "tokens": 10,
+              "token": {
+                "name": "Officer",
+                "types": "Creature — Officer",
+                "power": 1,
+                "toughness": 1,
+                "colors": [
+                  "R"
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "text": "At the beginning of your end step, you lose 3 life and draw a card. Then if your life total is 0 or less, create ten 1/1 red Officer creature tokens."
+    }
+  ]
+}

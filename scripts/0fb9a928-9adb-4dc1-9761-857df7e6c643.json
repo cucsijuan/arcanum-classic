@@ -1,0 +1,47 @@
+{
+  "name": "Steamcore Scholar",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "draw": 2
+        },
+        {
+          "unless": "you",
+          "options": [
+            {
+              "discard": 1,
+              "discardFilter": {
+                "anyOf": [
+                  {
+                    "types": [
+                      "instant"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "sorcery"
+                    ]
+                  },
+                  {
+                    "types": [
+                      "creature"
+                    ],
+                    "keyword": "Flying"
+                  }
+                ]
+              }
+            }
+          ],
+          "otherwise": [
+            {
+              "discard": 2
+            }
+          ]
+        }
+      ],
+      "text": "When this creature enters, draw two cards. Then discard two cards unless you discard an instant or sorcery card or a creature card with flying."
+    }
+  ]
+}

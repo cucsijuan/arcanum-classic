@@ -1,31 +1,29 @@
 # Dimir tempo: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915185).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Spyglass Siren -> Harrier Strix; Wan Shi Tong, Librarian -> Glamermite; The Wondrous Wasp -> Glamermite.
-#   Shoot the Sheriff -> Long Goodbye; We Say Thee Nay! -> Dazzling Denial; Restless Reef -> Undercity Sewers.
-#   Hidden Lair -> Shipwreck Marsh, Island; Wan Shi Tong, Librarian -> Glamermite; Day of Black Sun -> Zero Point Ballad.
-3 Harrier Strix
+3 Spyglass Siren
 4 Enduring Curiosity
 4 Floodpits Drowner
-3 Glamermite
+1 Wan Shi Tong, Librarian
 4 Dream Beavers
+2 The Wondrous Wasp
 1 Spell Pierce
 2 Spell Snare
 2 Bitter Triumph
-2 Long Goodbye
+2 Shoot the Sheriff
 3 Requiting Hex
-3 Dazzling Denial
+3 We Say Thee Nay!
 1 Strategic Betrayal
 4 Kaito, Bane of Nightmares
-6 Island
+5 Island
 4 Swamp
 4 Watery Grave
-2 Shipwreck Marsh
-2 Undercity Sewers
+1 Shipwreck Marsh
+2 Restless Reef
 4 Gloomlake Verge
 2 Soulstone Sanctuary
+2 Hidden Lair
 
 Sideboard
-1 Glamermite
+1 Wan Shi Tong, Librarian
 1 Requiting Hex
 2 Strategic Betrayal
 3 Duress
@@ -34,4 +32,4 @@ Sideboard
 1 Annul
 1 Ghost Vacuum
 1 Qarsi Revenant
-2 Zero Point Ballad
+2 Day of Black Sun

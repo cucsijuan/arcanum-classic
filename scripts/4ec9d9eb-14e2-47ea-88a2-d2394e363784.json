@@ -1,0 +1,15 @@
+{
+  "name": "Spyglass Siren",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Map"
+        }
+      ],
+      "text": "When this creature enters, create a Map token."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Sunbillow Verge",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "control": {
+          "anyOf": [
+            {
+              "subtype": "Mountain"
+            },
+            {
+              "subtype": "Plains"
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{R}"
+        }
+      ],
+      "text": "{T}: Add {R}. Activate only if you control a Mountain or a Plains."
+    }
+  ]
+}

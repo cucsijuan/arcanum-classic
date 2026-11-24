@@ -1,0 +1,41 @@
+{
+  "name": "U.S.S. Discovery, at Black Alert",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "discover": 5
+        }
+      ],
+      "text": "Whenever U.S.S. Discovery enters or attacks, discover 5."
+    },
+    {
+      "trigger": "attacks",
+      "effects": [
+        {
+          "discover": 5
+        }
+      ],
+      "text": "Whenever U.S.S. Discovery enters or attacks, discover 5."
+    },
+    {
+      "static": {
+        "affects": "self",
+        "while": {
+          "counters": 6,
+          "kind": "charge"
+        },
+        "keywords": [
+          "Flying"
+        ],
+        "addTypes": [
+          "creature"
+        ],
+        "setPower": 5,
+        "setToughness": 5
+      },
+      "text": "6+ | Flying"
+    }
+  ]
+}

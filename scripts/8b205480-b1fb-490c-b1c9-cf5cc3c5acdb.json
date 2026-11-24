@@ -1,0 +1,48 @@
+{
+  "name": "Sandman, Shifting Scoundrel",
+  "powerFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "toughnessFrom": {
+    "count": {
+      "types": [
+        "land"
+      ]
+    }
+  },
+  "cantBeBlockedBy": {
+    "maxPower": 2
+  },
+  "abilities": [
+    {
+      "cost": "{3}{G}{G}, fromGraveyard",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "controller": "you",
+          "filter": {
+            "types": [
+              "land"
+            ]
+          },
+          "text": "target land card from your graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "reanimate": "self",
+          "tapped": true
+        },
+        {
+          "reanimate": "target",
+          "tapped": true
+        }
+      ],
+      "text": "{3}{G}{G}: Return this card and target land card from your graveyard to the battlefield tapped."
+    }
+  ]
+}

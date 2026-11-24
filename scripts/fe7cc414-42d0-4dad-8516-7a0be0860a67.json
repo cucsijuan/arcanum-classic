@@ -1,0 +1,25 @@
+{
+  "name": "M.O.D.O.K.",
+  "abilities": [
+    {
+      "cost": "life:3",
+      "activateIf": "yourTurn",
+      "effects": [
+        {
+          "connive": "self"
+        }
+      ],
+      "text": "Mental Organism — Pay 3 life: M.O.D.O.K. connives. Activate only during your turn."
+    },
+    {
+      "static": {
+        "affects": "creatures:opponents",
+        "pump": [
+          -1,
+          -1
+        ]
+      },
+      "text": "Designed Only for Killing — Creatures your opponents control get -1/-1."
+    }
+  ]
+}

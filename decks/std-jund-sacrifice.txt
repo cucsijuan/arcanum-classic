@@ -1,31 +1,28 @@
 # Jund sacrifice: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915183).
 # Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Greedy Freebooter -> Common Crook; Wolverine, Fierce Fighter -> Hivespine Wolverine; Torch the Tower -> Thunder Magic.
-#   Lively Dirge -> Valgavoth's Faithful; Obsessive Pursuit -> Scavenger's Talent, Cauldron of Essence; Blooming Marsh -> Deathcap Glade.
-#   Wastewood Verge -> Overgrown Tomb; Chandra, Spark Hunter -> Witherbloom Charm; Guerrilla Gorilla -> Undergrowth Leopard.
-#   Storm, Windrider -> Leatherhead, Swamp Stalker.
-4 Common Crook
+#   Chandra, Spark Hunter -> Witherbloom Charm; Storm, Windrider -> Leatherhead, Swamp Stalker.
+4 Greedy Freebooter
 3 Goldvein Hydra
 3 Umbral Collar Zealot
 4 Gene Pollinator
 4 Biotech Specialist
-1 Hivespine Wolverine
+1 Wolverine, Fierce Fighter
 4 The Sackville-Bagginses
 1 Smaug the Magnificent
 1 The Ooze
-4 Thunder Magic
+4 Torch the Tower
 1 Witherbloom Charm
-4 Valgavoth's Faithful
-2 Scavenger's Talent
-2 Cauldron of Essence
+4 Lively Dirge
+4 Obsessive Pursuit
 1 Swamp
 1 Mountain
 1 Forest
-4 Deathcap Glade
+4 Blooming Marsh
 3 Blood Crypt
 4 Stomping Ground
-2 Overgrown Tomb
+1 Overgrown Tomb
 2 Blazemire Verge
+1 Wastewood Verge
 4 Starting Town
 
 Sideboard
@@ -38,4 +35,4 @@ Sideboard
 1 Fire Magic
 1 Elegy Acolyte
 2 Leatherhead, Swamp Stalker
-1 Undergrowth Leopard
+1 Guerrilla Gorilla

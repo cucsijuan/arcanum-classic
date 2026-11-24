@@ -1,0 +1,42 @@
+{
+  "name": "Restless Reef",
+  "abilities": [
+    {
+      "cost": "{2}{U}{B}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 4,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Shark"
+          ],
+          "setColors": [
+            "U",
+            "B"
+          ],
+          "keywords": [
+            "Deathtouch"
+          ]
+        }
+      ],
+      "text": "{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        "player"
+      ],
+      "effects": [
+        {
+          "mill": 4,
+          "who": "target"
+        }
+      ],
+      "text": "Whenever this land attacks, target player mills four cards."
+    }
+  ]
+}

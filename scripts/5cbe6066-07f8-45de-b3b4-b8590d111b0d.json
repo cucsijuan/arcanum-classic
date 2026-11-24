@@ -1,0 +1,12 @@
+{
+  "name": "Ravenous Cosmozoan",
+  "costReduction": {
+    "amount": 1,
+    "perGraveyardCard": {
+      "not": [
+        "creature",
+        "land"
+      ]
+    }
+  }
+}

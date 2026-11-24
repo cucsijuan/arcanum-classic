@@ -1,0 +1,24 @@
+{
+  "name": "Engineered Explosives",
+  "abilities": [
+    {
+      "cost": "{2}, sacrifice",
+      "effects": [
+        {
+          "destroy": {
+            "each": {
+              "not": [
+                "land"
+              ],
+              "controller": "any"
+            }
+          },
+          "manaValueIs": {
+            "counters": "charge"
+          }
+        }
+      ],
+      "text": "{2}, Sacrifice this artifact: Destroy each nonland permanent with mana value equal to the number of charge counters on this artifact."
+    }
+  ]
+}

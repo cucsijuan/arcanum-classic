@@ -1,0 +1,75 @@
+{
+  "name": "Earthbender Ascension",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "you",
+          "text": "target land you control"
+        }
+      ],
+      "effects": [
+        {
+          "earthbend": 2
+        },
+        {
+          "search": {
+            "types": [
+              "land"
+            ],
+            "supertype": "basic"
+          },
+          "to": "battlefield",
+          "tapped": true
+        }
+      ],
+      "text": "When this enchantment enters, earthbend 2. Then search your library for a basic land card, put it onto the battlefield tapped, then shuffle."
+    },
+    {
+      "trigger": "landfall",
+      "filter": {
+        "types": [
+          "land"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "quest"
+        },
+        {
+          "whenYouDo": {
+            "if": {
+              "counters": 4,
+              "kind": "quest"
+            },
+            "targets": [
+              "creature:you"
+            ],
+            "effects": [
+              {
+                "counters": 1,
+                "what": "target"
+              },
+              {
+                "pump": [
+                  0,
+                  0
+                ],
+                "what": "target",
+                "keywords": [
+                  "Trample"
+                ]
+              }
+            ],
+            "text": "When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn."
+          }
+        }
+      ],
+      "text": "Landfall — Whenever a land you control enters, put a quest counter on this enchantment. When you do, if it has four or more quest counters on it, put a +1/+1 counter on target creature you control. It gains trample until end of turn."
+    }
+  ]
+}

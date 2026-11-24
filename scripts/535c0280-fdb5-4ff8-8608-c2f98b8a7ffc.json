@@ -1,0 +1,37 @@
+{
+  "name": "Anthropological Mission",
+  "abilities": [
+    {
+      "trigger": "castSpell",
+      "filter": {
+        "not": [
+          "creature"
+        ]
+      },
+      "effects": [
+        {
+          "counters": 1,
+          "what": "self",
+          "kind": "quest"
+        },
+        {
+          "draw": 1
+        },
+        {
+          "if": {
+            "not": {
+              "counters": 3,
+              "kind": "quest"
+            }
+          },
+          "then": [
+            {
+              "discard": 1
+            }
+          ]
+        }
+      ],
+      "text": "Whenever you cast a noncreature spell, put a quest counter on this enchantment. Draw a card. Then discard a card unless this enchantment has three or more quest counters on it."
+    }
+  ]
+}

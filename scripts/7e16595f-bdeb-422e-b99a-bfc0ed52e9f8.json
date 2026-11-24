@@ -1,0 +1,46 @@
+{
+  "name": "Restless Cottage",
+  "abilities": [
+    {
+      "cost": "{2}{B}{G}",
+      "effects": [
+        {
+          "become": "self",
+          "power": 4,
+          "toughness": 4,
+          "addTypes": [
+            "creature"
+          ],
+          "addSubtypes": [
+            "Horror"
+          ],
+          "setColors": [
+            "B",
+            "G"
+          ]
+        }
+      ],
+      "text": "{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a land."
+    },
+    {
+      "trigger": "attacks",
+      "targets": [
+        {
+          "kind": "graveyardCard",
+          "optional": true,
+          "text": "up to one target card from a graveyard"
+        }
+      ],
+      "effects": [
+        {
+          "tokens": 1,
+          "token": "Food"
+        },
+        {
+          "exile": "target"
+        }
+      ],
+      "text": "Whenever this land attacks, create a Food token and exile up to one target card from a graveyard."
+    }
+  ]
+}

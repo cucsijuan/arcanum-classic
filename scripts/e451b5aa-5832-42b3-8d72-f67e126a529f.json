@@ -1,0 +1,44 @@
+{
+  "name": "Curious Farm Animals",
+  "abilities": [
+    {
+      "trigger": "dies",
+      "effects": [
+        {
+          "gainLife": 3
+        }
+      ],
+      "text": "When this creature dies, you gain 3 life."
+    },
+    {
+      "cost": "{2}, sacrifice",
+      "targets": [
+        {
+          "kind": "permanent",
+          "optional": true,
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            ]
+          },
+          "text": "up to one target artifact or enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "{2}, Sacrifice this creature: Destroy up to one target artifact or enchantment."
+    }
+  ]
+}

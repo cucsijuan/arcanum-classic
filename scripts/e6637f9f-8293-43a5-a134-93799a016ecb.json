@@ -1,0 +1,47 @@
+{
+  "name": "Secret Identity",
+  "spell": {
+    "modes": [
+      {
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "setSubtypes": [
+              "Citizen"
+            ],
+            "power": 1,
+            "toughness": 1,
+            "keywords": [
+              "Hexproof"
+            ]
+          }
+        ],
+        "text": "Conceal — Until end of turn, target creature you control becomes a Citizen with base power and toughness 1/1 and gains hexproof."
+      },
+      {
+        "targets": [
+          "creature:you"
+        ],
+        "effects": [
+          {
+            "become": "target",
+            "setSubtypes": [
+              "Hero"
+            ],
+            "power": 3,
+            "toughness": 4,
+            "keywords": [
+              "Flying",
+              "Vigilance"
+            ]
+          }
+        ],
+        "text": "Reveal — Until end of turn, target creature you control becomes a Hero with base power and toughness 3/4 and gains flying and vigilance."
+      }
+    ],
+    "text": "Choose one —"
+  }
+}

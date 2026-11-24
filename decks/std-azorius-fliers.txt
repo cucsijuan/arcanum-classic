@@ -1,32 +1,30 @@
 # Azorius fliers: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915739).
 # Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Steamcore Scholar -> Inspiring Overseer; Nurturing Pixie -> Sunpearl Kirin; Curious Farm Animals -> Featherbrained Filcher.
-#   Momo, Friendly Flier -> Healer's Hawk; The Wondrous Wasp -> Glamermite; Get Lost -> Harsh Annotation.
-#   Multiversal Passage -> Plains; Gleaming Bastion -> Deserted Beach; Rest in Peace -> Soul-Guide Lantern.
-#   No More Lies -> Dazzling Denial; Avatar's Wrath -> Day of Judgment.
-4 Inspiring Overseer
-1 Sunpearl Kirin
+#   Avatar's Wrath -> Day of Judgment.
+4 Steamcore Scholar
+1 Nurturing Pixie
 4 Sage of the Skies
 4 Starfield Shepherd
 4 Quantum Riddler
-1 Featherbrained Filcher
-4 Healer's Hawk
-2 Glamermite
+1 Curious Farm Animals
+4 Momo, Friendly Flier
+2 The Wondrous Wasp
 1 Guiding Hydra
 4 Springleaf Drum
-2 Harsh Annotation
+2 Get Lost
 4 Daydream
 4 Practiced Offense
-8 Plains
+6 Plains
 1 Island
 4 Hallowed Fountain
 4 Floodfarm Verge
-4 Deserted Beach
+2 Multiversal Passage
+4 Gleaming Bastion
 
 Sideboard
 1 Spell Pierce
-2 Soul-Guide Lantern
-2 Dazzling Denial
+2 Rest in Peace
+2 No More Lies
 2 Clarion Conqueror
 4 Seam Rip
 2 Day of Judgment

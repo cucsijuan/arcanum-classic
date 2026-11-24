@@ -1,0 +1,14 @@
+{
+  "name": "Multiversal Passage",
+  "chooseOnEnter": "basicLandType",
+  "enterLife": 2,
+  "abilities": [
+    {
+      "static": {
+        "affects": "self",
+        "setChosenLandType": true
+      },
+      "text": "This land is the chosen type."
+    }
+  ]
+}

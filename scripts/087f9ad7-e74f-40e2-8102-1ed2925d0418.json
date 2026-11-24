@@ -1,0 +1,15 @@
+{
+  "name": "Rest in Peace",
+  "allExiledInsteadOfGraveyard": true,
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        {
+          "exileGraveyard": "everyone"
+        }
+      ],
+      "text": "When this enchantment enters, exile all graveyards."
+    }
+  ]
+}

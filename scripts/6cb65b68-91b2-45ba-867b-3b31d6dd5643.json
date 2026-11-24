@@ -1,0 +1,38 @@
+{
+  "name": "Guerrilla Gorilla",
+  "abilities": [
+    {
+      "cost": "sacrifice",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "permanent",
+          "filter": {
+            "anyOf": [
+              {
+                "types": [
+                  "artifact"
+                ]
+              },
+              {
+                "types": [
+                  "enchantment"
+                ]
+              }
+            ],
+            "not": [
+              "creature"
+            ]
+          },
+          "text": "target noncreature artifact or noncreature enchantment"
+        }
+      ],
+      "effects": [
+        {
+          "destroy": "target"
+        }
+      ],
+      "text": "Sacrifice this creature: Destroy target noncreature artifact or noncreature enchantment. Activate only as a sorcery."
+    }
+  ]
+}

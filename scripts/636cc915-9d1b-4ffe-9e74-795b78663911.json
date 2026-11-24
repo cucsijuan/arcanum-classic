@@ -1,0 +1,20 @@
+{
+  "name": "Superior Spider-Man",
+  "entersAsCopy": {
+    "types": [
+      "creature"
+    ]
+  },
+  "entersAsCopyFromGraveyards": true,
+  "entersAsCopyKeepName": true,
+  "entersAsCopySetPT": [
+    4,
+    4
+  ],
+  "entersAsCopyAddSubtypes": [
+    "Spider",
+    "Human",
+    "Hero"
+  ],
+  "entersAsCopyExileOriginal": true
+}

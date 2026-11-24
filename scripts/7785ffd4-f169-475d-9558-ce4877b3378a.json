@@ -1,0 +1,61 @@
+{
+  "name": "Gleaming Bastion",
+  "abilities": [
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "not": {
+          "all": [
+            {
+              "not": "sourceEnteredThisTurn"
+            },
+            {
+              "not": {
+                "control": {
+                  "types": [
+                    "land"
+                  ],
+                  "supertype": "basic"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{W}"
+        }
+      ],
+      "text": "{T}: Add {W} or {U}. Activate only if this land entered this turn or if you control a basic land."
+    },
+    {
+      "cost": "{T}",
+      "activateIf": {
+        "not": {
+          "all": [
+            {
+              "not": "sourceEnteredThisTurn"
+            },
+            {
+              "not": {
+                "control": {
+                  "types": [
+                    "land"
+                  ],
+                  "supertype": "basic"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "effects": [
+        {
+          "addMana": "{U}"
+        }
+      ],
+      "text": "{T}: Add {W} or {U}. Activate only if this land entered this turn or if you control a basic land."
+    }
+  ]
+}

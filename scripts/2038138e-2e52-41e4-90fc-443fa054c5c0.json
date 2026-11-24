@@ -1,0 +1,26 @@
+{
+  "name": "Shoot the Sheriff",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "filter": {
+          "notSubtypes": [
+            "Assassin",
+            "Mercenary",
+            "Pirate",
+            "Rogue",
+            "Warlock"
+          ]
+        },
+        "text": "target non-outlaw creature"
+      }
+    ],
+    "effects": [
+      {
+        "destroy": "target"
+      }
+    ],
+    "text": "Destroy target non-outlaw creature."
+  }
+}

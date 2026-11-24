@@ -1,0 +1,30 @@
+{
+  "name": "Ba Sing Se",
+  "entersTappedUnless": {
+    "control": {
+      "types": [
+        "land"
+      ],
+      "supertype": "basic"
+    }
+  },
+  "abilities": [
+    {
+      "cost": "{2}{G}, {T}",
+      "sorcery": true,
+      "targets": [
+        {
+          "kind": "land",
+          "controller": "you",
+          "text": "target land you control"
+        }
+      ],
+      "effects": [
+        {
+          "earthbend": 2
+        }
+      ],
+      "text": "{2}{G}, {T}: Earthbend 2. Activate only as a sorcery."
+    }
+  ]
+}

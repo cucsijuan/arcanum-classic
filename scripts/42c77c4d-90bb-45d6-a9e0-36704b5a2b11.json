@@ -1,0 +1,34 @@
+{
+  "name": "Armus, Skin of Evil",
+  "abilities": [
+    {
+      "trigger": "endStep",
+      "targets": [
+        "opponent"
+      ],
+      "effects": [
+        {
+          "discard": 2,
+          "who": "target"
+        }
+      ],
+      "text": "At the beginning of your end step, target opponent discards two cards."
+    },
+    {
+      "cost": "{2}{B}, discardThis",
+      "targets": [
+        "creature"
+      ],
+      "effects": [
+        {
+          "pump": [
+            -4,
+            -4
+          ],
+          "what": "target"
+        }
+      ],
+      "text": "{2}{B}, Discard this card: Target creature gets -4/-4 until end of turn."
+    }
+  ]
+}

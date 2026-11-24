@@ -1,0 +1,14 @@
+{
+  "name": "Spirebluff Canal",
+  "entersTappedUnless": {
+    "not": {
+      "control": {
+        "types": [
+          "land"
+        ],
+        "other": true
+      },
+      "count": 3
+    }
+  }
+}
