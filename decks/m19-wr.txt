@@ -1,0 +1,15 @@
+# M19: the white-red archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: tokens and going wide.
+4 Banefire (M19) 130
+4 Dismissive Pyromancer (M19) 136
+4 Lightning Strike (M19) 152
+4 Resplendent Angel (M19) 34
+2 Sarkhan, Fireblood (M19) 154
+4 Sigiled Sword of Valeron (M19) 244
+2 Ajani, Adversary of Tyrants (M19) 3
+4 Leonin Warleader (M19) 23
+4 Demanding Dragon (M19) 135
+2 Lathliss, Dragon Queen (M19) 149
+2 Lena, Selfless Champion (M19) 21
+11 Plains (M19) 261
+13 Mountain (M19) 273

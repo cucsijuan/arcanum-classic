@@ -1,0 +1,15 @@
+# DSK: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 54755 games of WB decks, 52.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Possessed Goat (DSK) 25
+4 Nowhere to Run (DSK) 111
+4 Splitskin Doll (DSK) 33
+4 Commune with Evil (DSK) 87
+4 Split Up (DSK) 32
+2 Toby, Beastie Befriender (DSK) 35
+4 Fanatic of the Harrowing (DSK) 96
+4 Overlord of the Balemurk (DSK) 113
+4 Overlord of the Mistmoors (DSK) 23
+2 Valgavoth, Terror Eater (DSK) 120
+4 Neglected Manor (DSK) 264
+10 Plains (DSK) 272
+10 Swamp (DSK) 274

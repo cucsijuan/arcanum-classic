@@ -1,0 +1,17 @@
+# FDN: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 43341 games of UG decks, 52.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Llanowar Elves (FDN) 227
+4 Essence Scatter (FDN) 153
+4 Scavenging Ooze (FDN) 232
+4 Felling Blow (FDN) 105
+2 Loot, Exuberant Explorer (FDN) 106
+4 Spinner of Souls (FDN) 112
+4 Leyline Axe (FDN) 129
+2 Zimone, Paradox Sculptor (FDN) 126
+2 Tatyova, Benthic Druid (FDN) 247
+2 Vivien Reid (FDN) 234
+2 Affectionate Indrik (FDN) 211
+2 Koma, World-Eater (FDN) 121
+4 Thornwood Falls (FDN) 269
+5 Island (FDN) 274
+15 Forest (FDN) 280

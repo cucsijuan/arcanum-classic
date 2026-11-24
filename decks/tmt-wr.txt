@@ -1,0 +1,18 @@
+# TMT: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 17293 games of WR decks, 55.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Dimensional Exile (TMT) 4
+4 Go Ninja Go (TMT) 149
+4 Mechanized Ninja Cavalry (TMT) 156
+2 Raphael, Tough Turtle (TMT) 104
+2 The Ooze (TMT) 177
+4 Triceraton Commander (TMT) 25
+2 Agent Bishop, Man in Black (TMT) 2
+4 Mutant Town Musicians (TMT) 97
+2 Raph & Leo, Sibling Rivals (TMT) 166
+4 Mighty Mutanimals (TMT) 21
+2 The Neutrinos (TMT) 160
+2 Old Hob, Alleycat Blues (TMT) 99
+2 Sally Pride, Lioness Leader (TMT) 24
+4 Dimension X (TMT) 183
+13 Plains (TMT) 191
+7 Mountain (TMT) 194

@@ -1,0 +1,13 @@
+# BLB: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 109145 games of UG decks, 54.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Mistbreath Elder (BLB) 184
+4 Dour Port-Mage (BLB) 47
+4 Pond Prophet (BLB) 229
+4 Three Tree Scribe (BLB) 199
+4 Long River Lurker (BLB) 57
+4 Patchwork Banner (BLB) 247
+4 Dreamdew Entrancer (BLB) 211
+4 Polliwallop (BLB) 189
+4 Fecund Greenshell (BLB) 171
+9 Island (BLB) 266
+15 Forest (BLB) 278

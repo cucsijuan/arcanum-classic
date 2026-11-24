@@ -1,38 +1,13 @@
-1 Beamsaw Prospector
-1 Blade of the Swarm
-1 Chrome Companion
-1 Comet Crawler
-1 Faller's Faithful
-1 Frontline War-Rager
-1 Gravblade Heavy
-1 Gravpack Monoist
-1 Hullcarver
-1 Kav Landseeker
-1 Kavaron Harrier
-1 Kavaron Turbodrone
-1 Lightless Evangel
-1 Molecular Modifier
-1 Monoist Circuit-Feeder
-1 Monoist Sentry
-1 Nebula Dragon
-1 Oreplate Pangolin
-1 Remnant Elemental
-1 Rust Harvester
-1 Slagdrill Scrapper
-1 Sunset Saboteur
-1 Archenemy's Charm
-1 Bombard
-1 Cut Propulsion
-1 Dark Endurance
-1 Depressurize
-1 Devastating Onslaught
-1 Drill Too Deep
-1 Dubious Delicacy
-1 Embrace Oblivion
-1 Full Bore
-1 Gravkill
-1 Invasive Maneuvers
-1 Lithobraking
-1 Melded Moxite
-12 Swamp
-12 Mountain
+# EOE: the black-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 58131 games of BR decks, 55.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Melded Moxite (EOE) 143
+4 Sunset Saboteur (EOE) 116
+4 Terrapact Intimidator (EOE) 164
+4 Possibility Technician (EOE) 153
+4 Systems Override (EOE) 161
+4 Elegy Acolyte (EOE) 97
+4 Interceptor Mechan (EOE) 220
+4 Nova Hellkite (EOE) 148
+4 Mutinous Massacre (EOE) 222
+10 Swamp (EOE) 264
+14 Mountain (EOE) 265

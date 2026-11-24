@@ -91,9 +91,25 @@ Sets with scenes so far: ltr, hob, hoc, ltc.
 
 ## 6. Decks
 
-- Two-color sample decks: `tools/build_set_decks.py "$CARDS" sets/<code>.json [printings file]` writes `decks/<code>-<pair>.txt`.
-  `--pairs WB,UR,...` builds other color pairs than the five allied ones (for a set built around enemy pairs), e.g.
-  `tools/build_set_decks.py "$CARDS" sets/<code>.json "$CARDS" --pairs WB,UR,BG,RW,GU`.
+- Archetype decks: one 60-card deck per archetype, `decks/<code>-<colors>.txt` (colors lowercase in WUBRG order, e.g. `tdm-wbg`).
+  Run step 7 first, then:
+  1. `tools/archetype_stats.py <code>` sums up the 17Lands game data in `~/.cache/arcanum/17lands` into `archetypes.<code>.json`.
+  2. `tools/build_archetype_decks.py "$CARDS" <support.tsv> <code>` writes the decks; `--dry-run` lists them without writing.
+     The archetypes are the color combinations played in at least 3% of the set's games. The deck rules are in the script's docstring.
+     A card's score is its win rate in the archetype, plus a synergy bonus for how much more the archetype's stronger players
+     play it than the neighboring two-color archetypes that share a color with it. Cards that the neighbors play much more are
+     left out. A creature type that the archetype's decks play heavily is its tribe: its creatures and the cards naming it get a bonus.
+  A set without 17Lands public data (m19, ori, m10) gets its decks from a ratings file made by hand (a JSON object of card name
+  to rating, from draftsim.com pick orders for m19 and ori; m10 uses an expert review's per-color pick order), passed with
+  `--ratings <json> --archetypes WU,UB,... --source <text>`. Its theme file, `tools/themes/<code>.json` (archetype -> note, card text
+  regex and creature types, from the set's two-color signpost cards; m10 has none, so its themes follow each color pair's shared
+  mechanics), is passed with `--themes <json>`. Cards matching a theme get a bonus, and the deck header prints the theme's note.
+  A stats file may carry a `source` field, which the deck header names instead of the 17Lands line. fra's `archetypes.fra.json` is made
+  from 17Lands card data per archetype (the set has no public game data yet), so its 13 decks are built like the data sets' decks.
+- Competitive Standard decks: `decks/std-<archetype>.txt` (no set code), made by hand from a current tournament meta list. Cards the game
+  doesn't support yet are replaced by a card that does the same job in that deck's plan (found by searching for cards with the same
+  effect), at a close cost and in the deck's colors, not just any card of the color. Each file's header lists the replacements.
+  Refresh them when the format changes.
 - Commander precons: the official decklists as `decks/<code>-<name>.txt`, with the "official decklist" header line. The exact list,
   with collector numbers, foil flags and the basic land printings, can be taken from the deck files a public card database publishes (they list each card's set, number and finish).
 - Other official decks: 60-card theme decks as `decks/<code>-theme-<name>.txt` and 40-card Welcome Decks as
@@ -109,8 +125,11 @@ public datasets fails the download and gets no file; the computer drafters then 
 
 ## 8. Career
 
-Add the set to `career/career.json`: `sets` and `featured` (booster shelf), the sample decks to `starter` and `precons`, and commander
-precons to `precons` with a price and to the commander night's `decks`.
+Add the set to `career/career.json`: `sets` and `featured` (booster shelf), and commander precons to `precons` with a price and to
+the commander night's `decks`. The archetype decks go to the regulars' `decks` (`opponents`) and to the `decks` of the constructed
+events that take all archetype decks (the Saturday tournament and the monthly championship). The starter decks and the store's
+60-card decks are the ten official Foundations Starter Decks (`fdn-starter-*`), so a new set's archetype decks go to neither
+`starter` nor `precons`; a set's official 60-card products (theme decks, starter kits) do go to `precons`.
 
 When the scripts use new vocabulary, the manifest's `apiVersion` must match the engine's `ContentModule.SupportedApiVersion`
 (`src/Arcanum.Data/Modules/ContentModule.cs` in the main repository).

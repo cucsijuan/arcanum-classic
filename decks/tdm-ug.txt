@@ -1,0 +1,15 @@
+# TDM: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 20977 games of UG decks, 54.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Auroral Procession (TDM) 169
+2 Herd Heirloom (TDM) 144
+4 Kishla Skimmer (TDM) 201
+4 Piercing Exhale (TDM) 151
+4 Knockout Maneuver (TDM) 147
+2 Surrak, Elusive Hunter (TDM) 161
+4 Warden of the Grove (TDM) 166
+4 Naga Fleshcrafter (TDM) 52
+4 Ambling Stormshell (TDM) 37
+4 Marang River Regent // Coil and Catch (TDM) 51
+4 Thornwood Falls (TDM) 269
+11 Island (TDM) 273
+9 Forest (TDM) 276

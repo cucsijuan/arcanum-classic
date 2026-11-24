@@ -1,0 +1,15 @@
+# BLB: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 152863 games of BG decks, 55.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Bonecache Overseer (BLB) 85
+4 Cache Grab (BLB) 167
+4 Thornvault Forager (BLB) 197
+4 Vinereap Mentor (BLB) 238
+2 Camellia, the Seedmiser (BLB) 207
+4 Consumed by Greed (BLB) 87
+2 Heaped Harvest (BLB) 175
+4 Honored Dreyleader (BLB) 178
+4 Treetop Sentries (BLB) 201
+2 Maha, Its Feathers Night (BLB) 100
+2 Ygra, Eater of All (BLB) 241
+12 Swamp (BLB) 270
+12 Forest (BLB) 278

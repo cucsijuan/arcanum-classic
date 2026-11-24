@@ -1,0 +1,15 @@
+# BLB: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 91224 games of WR decks, 54.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Flowerfoot Swordmaster (BLB) 14
+4 Heartfire Hero (BLB) 138
+4 Emberheart Challenger (BLB) 133
+4 Manifold Mouse (BLB) 143
+4 Short Bow (BLB) 248
+4 Valley Questcaller (BLB) 36
+2 Mabel, Heir to Cragflame (BLB) 224
+4 Valley Rally (BLB) 159
+4 Whiskervale Forerunner (BLB) 40
+2 Dragonhawk, Fate's Tempest (BLB) 132
+1 Season of the Burrow (BLB) 29
+10 Plains (BLB) 262
+13 Mountain (BLB) 274

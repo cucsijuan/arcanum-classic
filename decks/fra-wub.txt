@@ -1,0 +1,20 @@
+# FRA: the white-blue-black archetype, 60 cards.
+# Built from 17Lands card data: 28694 games of WUB decks, 54.0% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Campus Crier (FRA) 4
+4 Multiply by Zero (FRA) 58
+2 Proft, Consulting Detective (FRA) 218
+2 Surveillance Phantasm (FRA) 42
+4 Keeper of the Quiet Hour (FRA) 171
+2 Lyra, Tolarian Archangel (FRA) 217
+4 Murmuring Volume (FRA) 174
+4 Recursive Recruitment (FRA) 147
+4 Sphinx of False Conclusions (FRA) 40
+2 Garruk, Veiled Butcher (FRA) 229
+4 Hexhaven Battalion (FRA) 12
+4 Deserted Beach (FRA) 176
+4 Shipwreck Marsh (FRA) 189
+4 Meticulous Commons (FRA) 184
+4 Fatehold Annex (FRA) 177
+2 Plains (FRA) 281
+4 Island (FRA) 283
+2 Swamp (FRA) 285

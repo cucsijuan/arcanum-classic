@@ -1,38 +1,15 @@
-1 Alpharael, Dreaming Acolyte
-1 Beamsaw Prospector
-1 Blade of the Swarm
-1 Chrome Companion
-1 Cloudsculpt Technician
-1 Comet Crawler
-1 Emissary Escort
-1 Faller's Faithful
-1 Gigastorm Titan
-1 Gravblade Heavy
-1 Gravpack Monoist
-1 Hullcarver
-1 Illvoi Galeblade
-1 Illvoi Infiltrator
-1 Illvoi Operative
-1 Lightless Evangel
-1 Mechan Assembler
-1 Mechan Navigator
-1 Mechan Shieldmate
-1 Mm'menon, the Right Hand
-1 Monoist Circuit-Feeder
-1 Monoist Sentry
-1 Annul
-1 Archenemy's Charm
-1 Atomic Microsizer
-1 Cerebral Download
-1 Consult the Star Charts
-1 Cryogen Relic
-1 Cryoshatter
-1 Dark Endurance
-1 Depressurize
-1 Desculpting Blast
-1 Divert Disaster
-1 Dubious Delicacy
-1 Embrace Oblivion
-1 Gravkill
-12 Island
-12 Swamp
+# EOE: the blue-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 62670 games of UB decks, 55.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Nutrient Block (EOE) 243
+4 Synthesizer Labship (EOE) 81
+4 Cryogen Relic (EOE) 52
+4 Sunset Saboteur (EOE) 116
+2 Alpharael, Dreaming Acolyte (EOE) 212
+4 Codecracker Hound (EOE) 50
+4 Dubious Delicacy (EOE) 96
+4 Elegy Acolyte (EOE) 97
+4 Quantum Riddler (EOE) 72
+4 Monoist Circuit-Feeder (EOE) 110
+4 Watery Grave (EOE) 261
+9 Island (EOE) 263
+11 Swamp (EOE) 264

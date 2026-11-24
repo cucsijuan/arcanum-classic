@@ -1,0 +1,14 @@
+# ORI: the white-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: renown and +1/+1 counters.
+4 Hangarback Walker (ORI) 229
+2 Celestial Flare (ORI) 8
+4 Swift Reckoning (ORI) 35
+4 Undercity Troll (ORI) 202
+4 Managorger Hydra (ORI) 186
+4 Archangel of Tithes (ORI) 4
+4 Kytheon's Irregulars (ORI) 24
+2 Hixus, Prison Warden (ORI) 19
+4 Outland Colossus (ORI) 193
+4 Gideon's Phalanx (ORI) 14
+17 Plains (ORI) 253
+7 Forest (ORI) 269

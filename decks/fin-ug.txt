@@ -1,0 +1,17 @@
+# FIN: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 49347 games of UG decks, 55.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Esper Origins // Summon: Esper Maduin (FIN) 185
+2 Jill, Shiva's Dominant // Shiva, Warden of Ice (FIN) 58
+2 Chocobo Kick (FIN) 178
+4 PuPu UFO (FIN) 266
+2 Ignis Scientia (FIN) 227
+4 Summon: Fenrir (FIN) 203
+4 Swallowed by Leviathan (FIN) 79
+2 Sazh Katzroy (FIN) 199
+2 The Lunar Whale (FIN) 60
+4 Summon: Titan (FIN) 204
+2 Omega, Heartless Evolution (FIN) 236
+4 Travel the Overworld (FIN) 82
+4 Guadosalam, Farplane Gateway (FIN) 281
+9 Island (FIN) 297
+11 Forest (FIN) 306

@@ -1,0 +1,16 @@
+# LTR: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 52946 games of BG decks, 55.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Delighted Halfling (LTR) 158
+4 Gollum's Bite (LTR) 85
+4 Orcish Bowmasters (LTR) 103
+2 Claim the Precious (LTR) 81
+4 Nazgûl (LTR) 100
+2 Sméagol, Helpful Guide (LTR) 231
+2 Old Man Willow (LTR) 217
+2 Radagast the Brown (LTR) 184
+4 Rise of the Witch-king (LTR) 221
+4 Enraged Huorn (LTR) 162
+2 Quickbeam, Upstart Ent (LTR) 183
+2 Shelob, Child of Ungoliant (LTR) 230
+12 Swamp (LTR) 266
+12 Forest (LTR) 270

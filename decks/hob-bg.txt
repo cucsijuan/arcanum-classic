@@ -1,0 +1,15 @@
+# HOB: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 57277 games of BG decks, 56.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Nighthowl Pursuer (HOB) 78
+4 Desolation Prowler (HOB) 64
+4 Quarrel (HOB) 135
+4 Warg Tactics (HOB) 139
+4 Chief Warg's Company (HOB) 151
+4 Duskwatch Hunter (HOB) 153
+4 Rhovanion Rampager (HOB) 82
+4 Head of the Hunt (HOB) 75
+2 Beorn the Fierce (HOB) 119
+2 Tom, Bert, and William (HOB) 169
+4 Mirkwood (HOB) 188
+12 Swamp (HOB) 191
+8 Forest (HOB) 193

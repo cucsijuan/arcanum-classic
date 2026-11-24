@@ -1,0 +1,19 @@
+# LTR: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 48138 games of WG decks, 52.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Delighted Halfling (LTR) 158
+2 Flowering of the White Tree (LTR) 15
+2 Frodo Baggins (LTR) 205
+2 Meriadoc Brandybuck (LTR) 177
+4 Mushroom Watchdogs (LTR) 180
+2 Samwise Gamgee (LTR) 222
+2 Aragorn, Company Leader (LTR) 191
+2 Arwen, Mortal Queen (LTR) 193
+2 Horn of Gondor (LTR) 240
+2 Peregrin Took (LTR) 181
+2 Rosie Cotton of South Lane (LTR) 27
+2 Bill the Pony (LTR) 3
+2 Butterbur, Bree Innkeeper (LTR) 197
+2 Radagast the Brown (LTR) 184
+4 Banish from Edoras (LTR) 1
+11 Plains (LTR) 262
+13 Forest (LTR) 270

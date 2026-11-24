@@ -1,0 +1,14 @@
+# M19: the black-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: creatures dying.
+4 Abnormal Endurance (M19) 85
+4 Dryad Greenseeker (M19) 178
+4 Death Baron (M19) 90
+2 Isareth the Awakener (M19) 104
+4 Sigiled Sword of Valeron (M19) 244
+4 Demon of Catastrophes (M19) 91
+4 Poison-Tip Archer (M19) 220
+4 Bone Dragon (M19) 88
+2 Vivien Reid (M19) 208
+4 Pelakka Wurm (M19) 192
+14 Swamp (M19) 269
+10 Forest (M19) 277

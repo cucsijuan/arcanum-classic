@@ -1,0 +1,15 @@
+# ORI: the white-black archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: enchantments.
+4 Hangarback Walker (ORI) 229
+4 Reave Soul (ORI) 115
+2 Swift Reckoning (ORI) 35
+4 Blessed Spirits (ORI) 7
+4 Blood-Cursed Knight (ORI) 211
+4 Archangel of Tithes (ORI) 4
+4 Kytheon's Irregulars (ORI) 24
+2 Hixus, Prison Warden (ORI) 19
+4 Tragic Arrogance (ORI) 38
+4 Sentinel of the Eternal Watch (ORI) 30
+4 Caves of Koilos (ORI) 245
+17 Plains (ORI) 253
+3 Swamp (ORI) 261

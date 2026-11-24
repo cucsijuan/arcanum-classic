@@ -1,0 +1,10 @@
+{"WU": {"note": "artifacts and fliers", "text": "\\bartifact|\\bflying\\b"},
+ "UB": {"note": "drawing and discarding", "text": "draw|discard"},
+ "BR": {"note": "sacrifice", "text": "sacrifice"},
+ "RG": {"note": "dragons and big creatures", "text": "power 4 or greater|power 5|\\bDragon", "types": ["Dragon"]},
+ "WG": {"note": "enchantments and auras", "text": "\\benchant|\\bAura\\b"},
+ "WB": {"note": "life gain", "text": "gain[s]? \\d* ?life|lifelink|gained life"},
+ "UR": {"note": "instants and sorceries", "text": "\\binstant\\b|\\bsorcery\\b|\\bInstant\\b|\\bSorcery\\b"},
+ "BG": {"note": "creatures dying", "text": "\\bdies\\b|deathtouch"},
+ "WR": {"note": "tokens and going wide", "text": "create[s]? .*token|creatures you control get|three or more creatures|\\bhaste\\b"},
+ "UG": {"note": "+1/+1 counters and fliers", "text": "\\+1/\\+1 counter|\\bflying\\b"}}

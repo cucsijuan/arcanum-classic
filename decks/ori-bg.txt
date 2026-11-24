@@ -1,0 +1,16 @@
+# ORI: the black-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: elves.
+2 Liliana, Heretical Healer // Liliana, Defiant Necromancer (ORI) 106
+2 Nissa, Vastwood Seer // Nissa, Sage Animist (ORI) 189
+4 Dwynen's Elite (ORI) 173
+4 Leaf Gilder (ORI) 184
+4 Reave Soul (ORI) 115
+4 Deadbridge Shaman (ORI) 91
+4 Managorger Hydra (ORI) 186
+2 Dwynen, Gilt-Leaf Daen (ORI) 172
+2 Eyeblight Massacre (ORI) 96
+4 Wild Instincts (ORI) 206
+4 Gilt-Leaf Winnower (ORI) 99
+4 Llanowar Wastes (ORI) 248
+10 Swamp (ORI) 261
+10 Forest (ORI) 269

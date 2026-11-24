@@ -1,0 +1,32 @@
+# Rakdos aggro: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914440).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Carnage, Crimson Chaos -> Alesha, Who Laughs at Fate; Multiversal Passage -> Swamp, Mountain; Quag Feast -> Bitter Triumph.
+#   Bloodthorn Flail -> Ragged Short Spear; Eddie Brock -> Requiting Hex; Eddie Brock -> Requiting Hex.
+#   Chandra, Spark Hunter -> Pinecone Strike; Molten Collapse -> Scorching Dragonfire.
+5 Swamp
+4 Dark Matter Manipulator
+4 Alesha, Who Laughs at Fate
+4 Bloodghast
+4 Cool but Rude
+4 Moonshadow
+2 Requiting Hex
+1 Iron-Shield Elf
+4 Mountain
+4 Masked Meower
+4 Starting Town
+2 Bitter Triumph
+3 Ragged Short Spear
+3 Fanatical Firebrand
+4 Blazemire Verge
+4 Blood Crypt
+4 Darklight Phoenix
+
+Sideboard
+2 Requiting Hex
+1 Karn, Argent Defender
+3 Pinecone Strike
+2 Ghost Vacuum
+2 Scorching Dragonfire
+1 Feed the Swarm
+2 Duress
+2 Deathmark

@@ -1,0 +1,15 @@
+# TDM: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 50443 games of WR decks, 58.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Stadium Headliner (TDM) 122
+4 Cori-Steel Cutter (TDM) 103
+4 Frontline Rush (TDM) 186
+4 Shocking Sharpshooter (TDM) 121
+4 Voice of Victory (TDM) 33
+2 Cori Mountain Stalwart (TDM) 175
+4 Sage of the Skies (TDM) 22
+4 Windcrag Siege (TDM) 235
+2 Elspeth, Storm Slayer (TDM) 11
+4 Twinmaw Stormbrood // Charring Bite (TDM) 232
+4 Wind-Scarred Crag (TDM) 271
+10 Plains (TDM) 272
+10 Mountain (TDM) 275

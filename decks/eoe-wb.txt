@@ -1,0 +1,16 @@
+# EOE: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 53910 games of WB decks, 55.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Hylderblade (EOE) 106
+4 Sunset Saboteur (EOE) 116
+4 Sunstar Chaplain (EOE) 40
+2 Syr Vondam, Sunstar Exemplar (EOE) 231
+4 Cosmogrand Zenith (EOE) 9
+4 Fell Gravship (EOE) 101
+2 The Seriema (EOE) 35
+4 All-Fates Stalker (EOE) 3
+4 Elegy Acolyte (EOE) 97
+2 Syr Vondam, the Lucent (EOE) 232
+2 Anticausal Vestige (EOE) 1
+4 Godless Shrine (EOE) 254
+9 Plains (EOE) 262
+11 Swamp (EOE) 264

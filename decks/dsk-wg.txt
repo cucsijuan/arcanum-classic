@@ -1,0 +1,16 @@
+# DSK: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 48718 games of WG decks, 52.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Valgavoth's Onslaught (DSK) 204
+4 House Cartographer (DSK) 185
+4 Reluctant Role Model (DSK) 26
+4 Sheltered by Ghosts (DSK) 30
+4 Defiant Survivor (DSK) 175
+2 Tyvar, the Pummeler (DSK) 202
+4 Unidentified Hovership (DSK) 37
+2 Rip, Spawn Hunter (DSK) 228
+4 Savior of the Small (DSK) 27
+4 Dissection Tools (DSK) 245
+4 Hushwood Verge (DSK) 261
+4 Etched Cornfield (DSK) 258
+9 Plains (DSK) 272
+7 Forest (DSK) 276

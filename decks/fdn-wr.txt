@@ -1,0 +1,16 @@
+# FDN: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 57482 games of WR decks, 55.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Frenzied Goblin (FDN) 199
+2 Giada, Font of Hope (FDN) 141
+4 Searslicer Goblin (FDN) 93
+4 Skyknight Squire (FDN) 23
+2 Arahbo, the First Fang (FDN) 2
+4 Celestial Armor (FDN) 5
+4 Goblin Surprise (FDN) 200
+2 Krenko, Mob Boss (FDN) 204
+4 Leyline Axe (FDN) 129
+4 Twinflame Tyrant (FDN) 97
+2 Chandra, Flameshaper (FDN) 81
+4 Wind-Scarred Crag (FDN) 271
+6 Plains (FDN) 272
+14 Mountain (FDN) 278

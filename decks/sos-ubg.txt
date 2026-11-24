@@ -1,0 +1,19 @@
+# SOS: the blue-black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 23123 games of UBG decks, 52.7% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Studious First-Year // Rampant Growth (SOS) 162
+4 Environmental Scientist (SOS) 147
+4 Noxious Newt (SOS) 155
+2 Jadzi, Steward of Fate // Oracle's Gift (SOS) 55
+4 Potioner's Trove (SOS) 251
+4 Strixhaven Skycoach (SOS) 252
+2 Professor Dellian Fel (SOS) 214
+4 Vicious Rivalry (SOS) 241
+4 Arcane Omens (SOS) 73
+4 Together as One (SOS) 4
+4 Dreamroot Cascade (SOS) 254
+4 Deathcap Glade (SOS) 253
+4 Titan's Grave (SOS) 266
+4 Paradox Gardens (SOS) 258
+1 Island (SOS) 268
+2 Swamp (SOS) 269
+5 Forest (SOS) 271

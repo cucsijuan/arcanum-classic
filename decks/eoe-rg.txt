@@ -1,38 +1,15 @@
-1 Biotech Specialist
-1 Blooming Stinger
-1 Chrome Companion
-1 Edge Rover
-1 Eumidian Terrabotanist
-1 Frenzied Baloth
-1 Frontline War-Rager
-1 Fungal Colossus
-1 Galactic Wayfarer
-1 Gene Pollinator
-1 Glacier Godmaw
-1 Harmonious Grovestrider
-1 Hemosymbic Mite
-1 Icecave Crasher
-1 Icetill Explorer
-1 Intrepid Tenderfoot
-1 Kav Landseeker
-1 Kavaron Harrier
-1 Kavaron Turbodrone
-1 Lashwhip Predator
-1 Meltstrider Eulogist
-1 Molecular Modifier
-1 Bioengineered Future
-1 Biosynthic Burst
-1 Bombard
-1 Close Encounter
-1 Cut Propulsion
-1 Devastating Onslaught
-1 Diplomatic Relations
-1 Drill Too Deep
-1 Full Bore
-1 Invasive Maneuvers
-1 Lithobraking
-1 Melded Moxite
-1 Meltstrider's Gear
-1 Meltstrider's Resolve
-12 Mountain
-12 Forest
+# EOE: the red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 60806 games of RG decks, 56.3% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Meltstrider's Resolve (EOE) 199
+4 Biotech Specialist (EOE) 214
+4 Terrapact Intimidator (EOE) 164
+4 Larval Scoutlander (EOE) 194
+4 Possibility Technician (EOE) 153
+2 Tannuk, Memorial Ensign (EOE) 233
+4 Orbital Plunge (EOE) 149
+4 Ouroboroid (EOE) 201
+4 Nova Hellkite (EOE) 148
+4 Glacier Godmaw (EOE) 188
+4 Stomping Ground (EOE) 258
+10 Mountain (EOE) 265
+10 Forest (EOE) 266

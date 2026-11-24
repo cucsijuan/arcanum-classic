@@ -1,0 +1,36 @@
+# Dimir control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915732).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Deadly Cover-Up -> Zero Point Ballad; Multiversal Passage -> Island, Swamp; Restless Reef -> Undercity Sewers, Island.
+#   Superior Spider-Man -> Null Summoner; Day of Black Sun -> Zero Point Ballad; Deadly Cover-Up -> Darkness Descends.
+#   Day of Black Sun -> Darkness Descends; M.O.D.O.K. -> Fear of Impostors.
+3 Bitter Triumph
+2 Cavern of Souls
+2 Zero Point Ballad
+4 Deceit
+4 Swamp
+4 Gloomlake Verge
+3 Island
+2 Overlord of the Balemurk
+3 Requiting Hex
+4 Undercity Sewers
+4 Seasoned Cryomancer
+4 Shipwreck Marsh
+2 Strategic Betrayal
+4 Null Summoner
+3 Duress
+2 The Theorist, Jace Beleren
+2 Theorix Charm
+3 Uldaros Theorix
+4 Watery Grave
+1 Winternight Stories
+
+Sideboard
+3 Darkness Descends
+1 Emeritus of Ideation
+2 Doomsday Excruciator
+1 Disdainful Stroke
+2 Flashfreeze
+2 Ghost Vacuum
+1 Fear of Impostors
+2 Qarsi Revenant
+1 Spell Snare

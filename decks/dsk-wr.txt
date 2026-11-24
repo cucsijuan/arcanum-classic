@@ -1,0 +1,16 @@
+# DSK: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 140873 games of WR decks, 56.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Clockwork Percussionist (DSK) 130
+2 Norin, Swift Survivalist (DSK) 145
+2 Turn Inside Out (DSK) 160
+2 Arabella, Abandoned Doll (DSK) 208
+4 Ragged Playmate (DSK) 150
+4 Sheltered by Ghosts (DSK) 30
+4 Splitskin Doll (DSK) 33
+4 Screaming Nemesis (DSK) 157
+2 Toby, Beastie Befriender (DSK) 35
+4 Midnight Mayhem (DSK) 222
+4 Ghostly Dancers (DSK) 13
+4 Raucous Carnival (DSK) 266
+10 Plains (DSK) 272
+10 Mountain (DSK) 275

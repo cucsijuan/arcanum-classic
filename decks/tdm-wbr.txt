@@ -1,0 +1,20 @@
+# TDM: the white-black-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 75233 games of WBR decks, 55.7% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Mardu Devotee (TDM) 16
+4 Mardu Monument (TDM) 245
+4 Shocking Sharpshooter (TDM) 121
+4 Voice of Victory (TDM) 33
+2 Dalkovan Packbeasts (TDM) 7
+4 Reigning Victor (TDM) 216
+2 Tersa Lightshatter (TDM) 127
+2 Zurgo, Thunder's Decree (TDM) 237
+4 Inevitable Defeat (TDM) 194
+2 Neriv, Heart of the Storm (TDM) 210
+4 All-Out Assault (TDM) 167
+4 Nomad Outpost (TDM) 263
+4 Scoured Barrens (TDM) 267
+4 Bloodfell Caves (TDM) 250
+4 Wind-Scarred Crag (TDM) 271
+3 Plains (TDM) 272
+2 Swamp (TDM) 274
+3 Mountain (TDM) 275

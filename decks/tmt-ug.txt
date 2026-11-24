@@ -1,0 +1,18 @@
+# TMT: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 15878 games of UG decks, 53.2% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Courier of Comestibles (TMT) 112
+4 Frog Butler (TMT) 114
+2 Genghis Frog (TMT) 148
+2 Michelangelo, Weirdness to 11 (TMT) 121
+2 Mutagen Man, Living Ooze (TMT) 124
+4 Novel Nunchaku (TMT) 127
+4 Slithering Cryptid (TMT) 168
+2 April O'Neil, Hacktivist (TMT) 29
+4 Lessons from Life (TMT) 155
+2 Mikey & Don, Party Planners (TMT) 157
+2 Turtle Blimp (TMT) 180
+2 Venus, Torn Between Worlds (TMT) 136
+2 Kitsune, Dragon's Daughter (TMT) 41
+4 Mutant Town (TMT) 187
+7 Island (TMT) 192
+13 Forest (TMT) 195

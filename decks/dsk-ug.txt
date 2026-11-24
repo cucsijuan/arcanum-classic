@@ -1,0 +1,15 @@
+# DSK: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 117510 games of UG decks, 55.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Valgavoth's Onslaught (DSK) 204
+4 Growing Dread (DSK) 216
+4 Oblivious Bookworm (DSK) 225
+4 Paranormal Analyst (DSK) 69
+4 Abhorrent Oculus (DSK) 42
+2 Tyvar, the Pummeler (DSK) 202
+4 Unnerving Grasp (DSK) 80
+2 Zimone, All-Questioning (DSK) 241
+4 Threats Around Every Corner (DSK) 200
+4 Dissection Tools (DSK) 245
+4 Lakeside Shack (DSK) 262
+10 Island (DSK) 273
+10 Forest (DSK) 276

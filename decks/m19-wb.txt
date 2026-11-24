@@ -1,0 +1,15 @@
+# M19: the white-black archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: life gain.
+4 Nightmare's Thirst (M19) 111
+4 Ajani's Pridemate (M19) 5
+2 Diamond Mare (M19) 231
+4 Graveyard Marshal (M19) 99
+2 Isareth the Awakener (M19) 104
+4 Resplendent Angel (M19) 34
+4 Sigiled Sword of Valeron (M19) 244
+2 Ajani, Adversary of Tyrants (M19) 3
+4 Leonin Warleader (M19) 23
+4 Vampire Sovereign (M19) 125
+2 Lena, Selfless Champion (M19) 21
+13 Plains (M19) 261
+11 Swamp (M19) 269

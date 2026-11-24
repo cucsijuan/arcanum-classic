@@ -1,0 +1,33 @@
+# Orzhov lifegain: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915402).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Concealed Courtyard -> Shattered Sanctum; Salt Vampire -> Deep-Cavern Bat; Multiversal Passage -> Plains, Swamp.
+#   Aunt May -> Liliana the Faultless.
+6 Plains
+4 Godless Shrine
+3 Shattered Sanctum
+4 Amalia Benavides Aguirre
+4 Case of the Uneaten Feast
+4 Lunar Convocation
+4 Hinterland Sanctifier
+1 Great Arashin City
+3 Deep-Cavern Bat
+4 Starting Town
+3 Haliya, Guided by Light
+3 Swamp
+3 Erode
+3 Liliana the Faultless
+3 Moseo, Vein's New Dean
+4 Enlightened Confidant
+3 Starscape Cleric
+1 Dalkovan Encampment
+
+Sideboard
+2 Ghost Vacuum
+2 Seam Rip
+1 Pyrrhic Strike
+2 Strategic Betrayal
+1 Zoraline, Cosmos Caller
+2 Cathar Commando
+2 Crystal Barricade
+2 Cavern of Souls
+1 Vicious Rivalry

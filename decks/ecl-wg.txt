@@ -1,0 +1,15 @@
+# ECL: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 72721 games of WG decks, 56.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Figure of Fable (ECL) 224
+4 Eclipsed Kithkin (ECL) 220
+4 Kinscaer Sentry (ECL) 22
+4 Thoughtweft Lieutenant (ECL) 246
+2 Ajani, Outland Chaperone (ECL) 4
+4 Brigid's Command (ECL) 208
+4 Crossroads Watcher (ECL) 173
+2 Gallant Fowlknight (ECL) 17
+4 Thoughtweft Imbuer (ECL) 38
+4 Kinbinding (ECL) 20
+4 Temple Garden (ECL) 268
+13 Plains (ECL) 269
+7 Forest (ECL) 273

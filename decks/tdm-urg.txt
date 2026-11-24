@@ -1,0 +1,19 @@
+# TDM: the blue-red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 92612 games of URG decks, 55.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Spectral Denial (TDM) 58
+4 Roiling Dragonstorm (TDM) 55
+4 Temur Devotee (TDM) 61
+4 Temur Monument (TDM) 248
+4 Temur Battlecrier (TDM) 228
+4 Temur Tawnyback (TDM) 229
+2 Eshki Dragonclaw (TDM) 182
+4 Roar of Endless Song (TDM) 220
+4 Marang River Regent // Coil and Catch (TDM) 51
+2 Ureni, the Song Unending (TDM) 233
+4 Frontier Bivouac (TDM) 256
+4 Thornwood Falls (TDM) 269
+4 Rugged Highlands (TDM) 265
+4 Swiftwater Cliffs (TDM) 268
+4 Island (TDM) 273
+2 Mountain (TDM) 275
+2 Forest (TDM) 276

@@ -1,0 +1,16 @@
+# LTR: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 35421 games of UG decks, 50.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Elven Farsight (LTR) 161
+2 Arwen Undómiel (LTR) 194
+2 Council's Deliberation (LTR) 46
+4 Fall of Gil-galad (LTR) 165
+4 Lothlórien Lookout (LTR) 175
+4 Chance-Met Elves (LTR) 157
+2 Elrond, Lord of Rivendell (LTR) 49
+2 Galadriel of Lothlórien (LTR) 206
+2 Celeborn the Wise (LTR) 156
+2 Elrond, Master of Healing (LTR) 200
+4 Galadhrim Guide (LTR) 168
+4 Horses of the Bruinen (LTR) 55
+9 Island (LTR) 264
+15 Forest (LTR) 270

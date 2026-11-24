@@ -1,0 +1,16 @@
+# EOE: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 23275 games of WR decks, 53.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Kavaron Harrier (EOE) 139
+4 Lumen-Class Frigate (EOE) 25
+4 Rig for War (EOE) 156
+4 Cosmogrand Zenith (EOE) 9
+2 The Seriema (EOE) 35
+4 Warmaker Gunship (EOE) 167
+4 All-Fates Stalker (EOE) 3
+2 Sami, Ship's Engineer (EOE) 225
+2 Tannuk, Steadfast Second (EOE) 162
+4 Nova Hellkite (EOE) 148
+2 Sami, Wildcat Captain (EOE) 226
+4 Sacred Foundry (EOE) 256
+8 Plains (EOE) 262
+12 Mountain (EOE) 265

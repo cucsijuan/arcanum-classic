@@ -1,38 +1,17 @@
-1 Dragonmaster Outcast (FDN) 622
-1 Fanatical Firebrand (FDN) 195
-1 Frenzied Goblin (FDN) 199
-1 Ghitu Lavarunner (FDN) 623
-1 Kellan, Planar Trailblazer (FDN) 91
-1 Llanowar Elves (FDN) 227
-1 Mild-Mannered Librarian (FDN) 228
-1 Mold Adder (FDN) 640
-1 Stromkirk Noble (FDN) 632
-1 Wildwood Scourge (FDN) 236
-1 Axgard Cavalry (FDN) 189
-1 Bear Cub (FDN) 552
-1 Courageous Goblin (FDN) 82
-1 Dragonlord's Servant (FDN) 536
-1 Druid of the Cowl (FDN) 554
-1 Dwynen's Elite (FDN) 218
-1 Firebrand Archer (FDN) 196
-1 Fynn, the Fangbearer (FDN) 637
-1 Gnarlid Colony (FDN) 224
-1 Heartfire Immolator (FDN) 201
-1 Kargan Dragonrider (FDN) 541
-1 Nessian Hornbeetle (FDN) 229
-1 Adventuring Gear (FDN) 249
-1 Boltwave (FDN) 79
-1 Burst Lightning (FDN) 192
-1 Bushwhack (FDN) 215
-1 Crash Through (FDN) 620
-1 Giant Growth (FDN) 223
-1 Kindled Fury (FDN) 542
-1 Primal Might (FDN) 643
-1 Snakeskin Veil (FDN) 233
-1 Soul-Guide Lantern (FDN) 680
-1 Abrade (FDN) 188
-1 Bite Down (FDN) 212
-1 Bulk Up (FDN) 80
-1 Dragon Fodder (FDN) 535
-12 Mountain (FDN) 278
-12 Forest (FDN) 280
+# FDN: the red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 57787 games of RG decks, 55.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Burst Lightning (FDN) 192
+2 Kellan, Planar Trailblazer (FDN) 91
+4 Nessian Hornbeetle (FDN) 229
+2 Ruby, Daring Tracker (FDN) 245
+4 Scavenging Ooze (FDN) 232
+4 Spinner of Souls (FDN) 112
+4 Sylvan Scavenging (FDN) 113
+4 Ashroot Animist (FDN) 117
+2 Gorehorn Raider (FDN) 89
+2 Vivien Reid (FDN) 234
+2 Chandra, Flameshaper (FDN) 81
+2 Drakuseth, Maw of Flames (FDN) 193
+4 Rugged Highlands (FDN) 265
+9 Mountain (FDN) 278
+11 Forest (FDN) 280

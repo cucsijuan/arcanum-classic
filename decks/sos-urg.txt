@@ -1,0 +1,19 @@
+# SOS: the blue-red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 46677 games of URG decks, 53.2% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Studious First-Year // Rampant Growth (SOS) 162
+4 Environmental Scientist (SOS) 147
+4 Mathemagics (SOS) 58
+4 Traumatic Critique (SOS) 239
+4 Colorstorm Stallion (SOS) 180
+4 Potioner's Trove (SOS) 251
+4 Planar Engineering (SOS) 158
+4 Splatter Technique (SOS) 231
+2 Quandrix, the Proof (SOS) 218
+4 Together as One (SOS) 4
+4 Dreamroot Cascade (SOS) 254
+4 Stormcarved Coast (SOS) 263
+4 Paradox Gardens (SOS) 258
+4 Spectacle Summit (SOS) 262
+4 Island (SOS) 268
+2 Mountain (SOS) 270
+2 Forest (SOS) 271

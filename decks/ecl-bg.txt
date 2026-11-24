@@ -1,0 +1,16 @@
+# ECL: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 111191 games of BG decks, 56.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Trystan, Callous Cultivator // Trystan, Penitent Culler (ECL) 199
+2 Dawnhand Dissident (ECL) 98
+2 Lluwen, Imperfect Naturalist (ECL) 232
+4 Lys Alana Dignitary (ECL) 180
+4 Midnight Tilling (ECL) 182
+4 Morcant's Eyes (ECL) 185
+4 Eclipsed Elf (ECL) 218
+4 Morcant's Loyalist (ECL) 236
+4 Champions of the Perfect (ECL) 171
+2 High Perfect Morcant (ECL) 229
+4 Gloom Ripper (ECL) 102
+4 Overgrown Tomb (ECL) 266
+9 Swamp (ECL) 271
+11 Forest (ECL) 273

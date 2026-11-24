@@ -1,0 +1,31 @@
+# Mono-green landfall: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914931).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Ba Sing Se -> Forest; Earthbender Ascension -> Ride the Shoopuf; Defend the Rider -> Snakeskin Veil.
+#   Hard-Hitting Question -> Rabid Bite; Sandman, Shifting Scoundrel -> Mirkwood Pathmaker; Hard-Hitting Question -> Rabid Bite.
+#   Torpor Orb -> Karn, Argent Defender; Test of Courage -> Heritage Reclamation.
+16 Forest
+4 Carnivorous Cultivator
+1 Cavern of Souls
+1 Cryptic Caves
+4 Ride the Shoopuf
+4 Elven Passage
+1 Escape Tunnel
+2 Snakeskin Veil
+4 Fabled Passage
+4 Icetill Explorer
+4 Llanowar Elves
+4 Mightform Harmonizer
+4 Mossborn Hydra
+4 Sazh's Chocobo
+1 Rabid Bite
+1 Mirkwood Pathmaker
+1 Leatherhead, Swamp Stalker
+
+Sideboard
+3 Rabid Bite
+4 Sapling Nursery
+1 Karn, Argent Defender
+3 Surrak, Elusive Hunter
+2 Heritage Reclamation
+1 Warg Tactics
+1 Pick Your Poison

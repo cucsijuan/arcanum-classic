@@ -1,0 +1,14 @@
+# M19: the blue-red archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: instants and sorceries.
+4 Banefire (M19) 130
+4 Dismissive Pyromancer (M19) 136
+4 Lightning Strike (M19) 152
+4 Mystic Archaeologist (M19) 63
+4 Enigma Drake (M19) 216
+4 Spit Flame (M19) 160
+4 Volley Veteran (M19) 168
+4 Demanding Dragon (M19) 135
+2 Tezzeret, Artifice Master (M19) 79
+2 Lathliss, Dragon Queen (M19) 149
+6 Island (M19) 265
+18 Mountain (M19) 273

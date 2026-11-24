@@ -1,0 +1,36 @@
+# Golgari midrange: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915789).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Wastewood Verge -> Temple of Malady; Restless Cottage -> Underground Mortuary, Forest, Swamp; Ba Sing Se -> Forest.
+#   Deadly Cover-Up -> Zero Point Ballad; U.S.S. Discovery, at Black Alert -> Elvish Regrower; Georgiou, Terran Emperor -> Arbiter of Woe.
+#   Engineered Explosives -> Darkness Descends; Day of Black Sun -> Darkness Descends.
+6 Forest
+4 Temple of Malady
+2 Underground Mortuary
+4 Swamp
+4 Overgrown Tomb
+4 Deathcap Glade
+4 Environmental Scientist
+4 Simulacrum Shaper
+4 Vraska, the Cutting Glare
+2 Emeritus of Abundance
+4 Duress
+3 Witherbloom Charm
+1 Ral Zarek, Guest Lecturer
+1 Maelstrom Pulse
+2 Zero Point Ballad
+2 Bitter Triumph
+2 Elvish Regrower
+2 Professor Dellian Fel
+2 Garruk, Veiled Butcher
+3 Requiting Hex
+
+Sideboard
+1 Arbiter of Woe
+2 Darkness Descends
+1 Soul-Guide Lantern
+2 Ghost Vacuum
+1 Qarsi Revenant
+2 Strategic Betrayal
+1 Vicious Rivalry
+2 Inside Information
+3 Terminal Criticism

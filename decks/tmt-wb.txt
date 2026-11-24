@@ -1,0 +1,18 @@
+# TMT: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 40782 games of WB decks, 59.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Dream Beavers (TMT) 62
+2 Leonardo, Leader in Blue (TMT) 16
+2 Dark Leo & Shredder (TMT) 142
+2 Splinter, Hamato Yoshi (TMT) 79
+2 The Ooze (TMT) 177
+4 Triceraton Commander (TMT) 25
+2 Uneasy Alliance (TMT) 28
+2 Agent Bishop, Man in Black (TMT) 2
+2 Koya, Death from Above (TMT) 11
+4 Ninja Teen (TMT) 67
+4 Turncoat Kunoichi (TMT) 26
+2 Leonardo, Sewer Samurai (TMT) 17
+4 Mighty Mutanimals (TMT) 21
+4 Foot Headquarters (TMT) 185
+15 Plains (TMT) 191
+5 Swamp (TMT) 193

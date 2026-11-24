@@ -1,0 +1,15 @@
+# EOE: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 54714 games of WG decks, 55.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Hemosymbic Mite (EOE) 190
+2 Meltstrider's Resolve (EOE) 199
+2 Dyadrine, Synthesis Amalgam (EOE) 216
+4 Lumen-Class Frigate (EOE) 25
+4 Sunstar Chaplain (EOE) 40
+4 Cosmogrand Zenith (EOE) 9
+4 Meltstrider Eulogist (EOE) 197
+2 The Seriema (EOE) 35
+4 Ouroboroid (EOE) 201
+4 Exalted Sunborn (EOE) 15
+2 Haliya, Ascendant Cadet (EOE) 218
+14 Plains (EOE) 262
+10 Forest (EOE) 266

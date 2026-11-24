@@ -1,0 +1,13 @@
+# M10: the blue-green archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: fliers and big creatures.
+4 Deadly Recluse (M10) 175
+4 Ice Cage (M10) 56
+4 Merfolk Looter (M10) 61
+4 Awakener Druid (M10) 167
+4 Illusionary Servant (M10) 57
+4 Cudgel Troll (M10) 174
+4 Snapping Drake (M10) 72
+4 Overrun (M10) 198
+4 Howl of the Night Pack (M10) 187
+9 Island (M10) 234
+15 Forest (M10) 246

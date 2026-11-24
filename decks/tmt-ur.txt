@@ -1,0 +1,16 @@
+# TMT: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 40121 games of UR decks, 58.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Casey Jones, Jury-Rig Justiciar (TMT) 87
+4 Chrome Dome (TMT) 172
+4 Does Machines (TMT) 34
+4 Ravenous Robots (TMT) 106
+4 Nobody (TMT) 161
+4 Ooze Spill (TMT) 48
+2 Weather Maker (TMT) 182
+2 April O'Neil, Hacktivist (TMT) 29
+2 Metalhead (TMT) 44
+4 North Wind Avatar (TMT) 162
+4 Brilliance Unleashed (TMT) 141
+4 TCRI Building (TMT) 189
+12 Island (TMT) 192
+8 Mountain (TMT) 194

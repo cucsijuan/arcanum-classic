@@ -1,0 +1,13 @@
+# M10: the white-red archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: attacking.
+4 Fireball (M10) 136
+4 Blinding Mage (M10) 5
+4 Pacifism (M10) 22
+4 White Knight (M10) 41
+4 Goblin Artillery (M10) 138
+4 Seismic Strike (M10) 154
+4 Dragon Whelp (M10) 133
+4 Razorfoot Griffin (M10) 25
+4 Serra Angel (M10) 29
+13 Plains (M10) 230
+11 Mountain (M10) 242

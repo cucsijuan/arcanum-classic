@@ -1,0 +1,16 @@
+# FDN: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 123391 games of WB decks, 55.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Healer's Hawk (FDN) 142
+2 Giada, Font of Hope (FDN) 141
+4 Sanguine Syphoner (FDN) 68
+4 Vampire Gourmand (FDN) 74
+2 Arahbo, the First Fang (FDN) 2
+4 Celestial Armor (FDN) 5
+4 Marauding Blight-Priest (FDN) 178
+2 Elenda, Saint of Dusk (FDN) 119
+4 Leyline Axe (FDN) 129
+4 Bloodthirsty Conqueror (FDN) 58
+2 Liliana, Dreadhorde General (FDN) 176
+4 Scoured Barrens (FDN) 266
+7 Plains (FDN) 272
+13 Swamp (FDN) 276

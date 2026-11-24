@@ -1,0 +1,15 @@
+# M19: the blue-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: +1/+1 counters and fliers.
+4 Hungering Hydra (M19) 189
+4 Dryad Greenseeker (M19) 178
+4 Plummet (M19) 193
+2 Sai, Master Thopterist (M19) 69
+4 Sigiled Sword of Valeron (M19) 244
+4 Skyscanner (M19) 245
+2 Goreclaw, Terror of Qal Sisma (M19) 186
+4 Skyrider Patrol (M19) 224
+2 Tezzeret, Artifice Master (M19) 79
+2 Vivien Reid (M19) 208
+4 Windreader Sphinx (M19) 84
+11 Island (M19) 265
+13 Forest (M19) 277

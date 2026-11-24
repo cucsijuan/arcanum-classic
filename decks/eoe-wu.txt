@@ -1,38 +1,13 @@
-1 Brightspear Zealot
-1 Chrome Companion
-1 Cloudsculpt Technician
-1 Cosmogrand Zenith
-1 Dawnstrike Vanguard
-1 Dockworker Drone
-1 Dual-Sun Adepts
-1 Emissary Escort
-1 Exosuit Savior
-1 Flight-Deck Coordinator
-1 Gigastorm Titan
-1 Honored Knight-Captain
-1 Illvoi Galeblade
-1 Illvoi Infiltrator
-1 Illvoi Operative
-1 Lightstall Inquisitor
-1 Luxknight Breacher
-1 Mechan Assembler
-1 Mechan Navigator
-1 Mechan Shieldmate
-1 Mm'menon, the Right Hand
-1 Mouth of the Storm
-1 Annul
-1 Atomic Microsizer
-1 Auxiliary Boosters
-1 Banishing Light
-1 Beyond the Quiet
-1 Cerebral Download
-1 Consult the Star Charts
-1 Cryogen Relic
-1 Cryoshatter
-1 Desculpting Blast
-1 Divert Disaster
-1 Dual-Sun Technique
-1 Emergency Eject
-1 Focus Fire
-12 Plains
-12 Island
+# EOE: the white-blue archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 53269 games of WU decks, 55.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Illvoi Galeblade (EOE) 58
+4 Mental Modulation (EOE) 67
+4 Station Monitor (EOE) 230
+4 Sunstar Chaplain (EOE) 40
+4 Codecracker Hound (EOE) 50
+4 Cosmogrand Zenith (EOE) 9
+4 Space-Time Anomaly (EOE) 229
+4 Tractor Beam (EOE) 82
+4 Quantum Riddler (EOE) 72
+7 Plains (EOE) 262
+17 Island (EOE) 263

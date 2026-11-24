@@ -1,0 +1,16 @@
+# SOS: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 55753 games of UG decks, 55.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Ambitious Augmenter (SOS) 140
+4 Cuboid Colony (SOS) 183
+4 Mind into Matter (SOS) 202
+4 Quandrix Charm (SOS) 217
+4 Paradox Surveyor (SOS) 208
+4 Topiary Lecturer (SOS) 165
+4 Applied Geometry (SOS) 172
+2 Berta, Wise Extrapolator (SOS) 175
+4 Embrace the Paradox (SOS) 186
+2 Quandrix, the Proof (SOS) 218
+4 Paradox Gardens (SOS) 258
+4 Dreamroot Cascade (SOS) 254
+7 Island (SOS) 268
+9 Forest (SOS) 271

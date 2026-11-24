@@ -1,0 +1,14 @@
+# ORI: the white-red archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: renown and attacking.
+4 Hangarback Walker (ORI) 229
+4 Consul's Lieutenant (ORI) 11
+2 Sword of the Animist (ORI) 240
+4 Topan Freeblade (ORI) 36
+4 Exquisite Firecraft (ORI) 143
+4 Iroas's Champion (ORI) 214
+4 Kytheon's Irregulars (ORI) 24
+2 Pia and Kiran Nalaar (ORI) 157
+4 Tragic Arrogance (ORI) 38
+4 Sentinel of the Eternal Watch (ORI) 30
+17 Plains (ORI) 253
+7 Mountain (ORI) 265

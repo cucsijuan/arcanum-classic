@@ -1,0 +1,45 @@
+# Four-color control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914988).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Firebending Lesson -> Burst Lightning; Lightning Helix -> Lightning Strike; No More Lies -> Refute.
+#   Sunbillow Verge -> Sundown Pass; Get Lost -> Harsh Annotation; Ancient Vendetta -> Duress.
+#   Deadly Cover-Up -> Day of Judgment; Outrageous Robbery -> Duress; Thor, God of Thunder -> Negate.
+4 Great Hall of the Biblioplex
+3 Steam Vents
+2 Gloomlake Verge
+2 Hallowed Fountain
+1 Together as One
+2 Burst Lightning
+2 Flashback
+2 Twinned Vision
+2 Day of Judgment
+3 Consult the Star Charts
+3 Lightning Strike
+3 Refute
+3 Stock Up
+4 Jeskai Revelation
+4 Inevitable Defeat
+4 Tablet of Discovery
+1 North Wind Avatar
+1 Deserted Beach
+1 Cori Mountain Monastery
+1 Blood Crypt
+1 Blazemire Verge
+1 Island
+1 Mistrise Village
+2 Sundown Pass
+1 Stormcarved Coast
+1 Shattered Sanctum
+1 Plains
+2 Godless Shrine
+2 Sacred Foundry
+
+Sideboard
+1 Ultima
+2 Fire Magic
+2 Flashfreeze
+2 Harsh Annotation
+2 Return the Favor
+2 Strategic Betrayal
+2 Duress
+1 Day of Judgment
+1 Negate

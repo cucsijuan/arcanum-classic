@@ -1,0 +1,18 @@
+# FIN: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 63167 games of WB decks, 56.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Cecil, Dark Knight // Cecil, Redeemed Paladin (FIN) 91
+2 Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN) 16
+2 Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (FIN) 115
+4 Dark Confidant (FIN) 94
+4 Dragoon's Lance (FIN) 17
+2 Judge Magister Gabranth (FIN) 230
+4 Al Bhed Salvagers (FIN) 88
+4 Dark Knight's Greatsword (FIN) 95
+2 Rufus Shinra (FIN) 238
+4 Phantom Train (FIN) 110
+2 Squall, SeeD Mercenary (FIN) 243
+2 Moogles' Valor (FIN) 27
+2 Ardyn, the Usurper (FIN) 89
+4 Insomnia, Crown City (FIN) 282
+7 Plains (FIN) 294
+13 Swamp (FIN) 300

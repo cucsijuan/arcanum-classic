@@ -1,0 +1,15 @@
+# LTR: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 161015 games of UR decks, 56.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Fear, Fire, Foes! (LTR) 125
+4 Erebor Flamesmith (LTR) 122
+4 Rally at the Hornburg (LTR) 142
+4 Soothing of Sméagol (LTR) 70
+2 Bilbo, Retired Burglar (LTR) 196
+4 Fiery Inscription (LTR) 126
+4 Flame of Anor (LTR) 203
+2 Horn of Gondor (LTR) 240
+4 Rangers of Ithilien (LTR) 66
+2 Gandalf the Grey (LTR) 207
+2 Éomer of the Riddermark (LTR) 121
+10 Island (LTR) 264
+14 Mountain (LTR) 268

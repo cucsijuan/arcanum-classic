@@ -1,0 +1,17 @@
+# FRA: the white-red archetype, 60 cards.
+# Built from 17Lands card data: 32768 games of WR decks, 53.2% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Ajani's Anguish (FRA) 72
+4 Campus Crier (FRA) 4
+2 Gallia, the Merrymaker (FRA) 245
+4 Repurposed Enforcer (FRA) 19
+4 Solitary Cell (FRA) 149
+4 Graft Surgeon (FRA) 10
+2 Keeper of the Quiet Hour (FRA) 171
+2 Lyra, Archangel of Dawn (FRA) 201
+2 Mabel, Valley Hero (FRA) 274
+2 Pia, Determined Rebuilder (FRA) 250
+2 Chandra, Torch of Defiance (FRA) 244
+4 Warrior's Blades (FRA) 163
+4 Dedicated Commons (FRA) 175
+10 Plains (FRA) 281
+10 Mountain (FRA) 287

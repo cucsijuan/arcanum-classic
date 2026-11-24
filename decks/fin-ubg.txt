@@ -1,0 +1,19 @@
+# FIN: the blue-black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 37276 games of UBG decks, 54.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Esper Origins // Summon: Esper Maduin (FIN) 185
+2 Jill, Shiva's Dominant // Shiva, Warden of Ice (FIN) 58
+4 PuPu UFO (FIN) 266
+4 Town Greeter (FIN) 209
+4 Summon: Fenrir (FIN) 203
+4 Swallowed by Leviathan (FIN) 79
+4 Reach the Horizon (FIN) 195
+2 Sazh Katzroy (FIN) 199
+4 Evil Reawakened (FIN) 98
+2 Sin, Spira's Punishment (FIN) 242
+2 Ardyn, the Usurper (FIN) 89
+4 Guadosalam, Farplane Gateway (FIN) 281
+4 Treno, Dark City (FIN) 290
+4 Gohn, Town of Ruin (FIN) 278
+2 Island (FIN) 297
+4 Swamp (FIN) 300
+6 Forest (FIN) 306

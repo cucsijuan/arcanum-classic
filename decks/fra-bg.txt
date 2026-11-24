@@ -1,0 +1,17 @@
+# FRA: the black-green archetype, 60 cards.
+# Built from 17Lands card data: 58685 games of BG decks, 54.9% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+2 Dark Matter Manipulator (FRA) 52
+4 Ferocity of the Hunt (FRA) 134
+2 Liliana the Repentant (FRA) 231
+2 Marwyn, the Preserver (FRA) 263
+4 Something Worth Saving (FRA) 114
+4 Primal Witchstalker (FRA) 144
+4 Theoretical Necromancer (FRA) 69
+2 Vraska, the Cutting Glare (FRA) 278
+4 Rewrite Regrets (FRA) 62
+2 Garruk, Veiled Butcher (FRA) 229
+2 Hapatra, the Desert Fang (FRA) 271
+4 Vinelasher Adept (FRA) 119
+4 Formidable Commons (FRA) 178
+11 Swamp (FRA) 285
+9 Forest (FRA) 289

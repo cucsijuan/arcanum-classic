@@ -1,0 +1,14 @@
+# EOE: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 34412 games of BG decks, 53.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Meltstrider's Resolve (EOE) 199
+2 Broodguard Elite (EOE) 175
+4 Seedship Broodtender (EOE) 227
+4 Sunset Saboteur (EOE) 116
+4 Dubious Delicacy (EOE) 96
+4 Fell Gravship (EOE) 101
+2 Xu-Ifit, Osteoharmonist (EOE) 127
+4 Elegy Acolyte (EOE) 97
+4 Harmonious Grovestrider (EOE) 189
+4 Monoist Circuit-Feeder (EOE) 110
+15 Swamp (EOE) 264
+9 Forest (EOE) 266

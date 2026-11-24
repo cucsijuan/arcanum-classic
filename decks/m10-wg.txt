@@ -1,0 +1,13 @@
+# M10: the white-green archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: creature boosts.
+4 Harm's Way (M10) 14
+4 Blinding Mage (M10) 5
+4 Pacifism (M10) 22
+4 White Knight (M10) 41
+4 Awakener Druid (M10) 167
+4 Centaur Courser (M10) 172
+4 Armored Ascension (M10) 3
+4 Cudgel Troll (M10) 174
+4 Overrun (M10) 198
+11 Plains (M10) 230
+13 Forest (M10) 246

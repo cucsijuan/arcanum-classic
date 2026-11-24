@@ -1,0 +1,15 @@
+# HOB: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 22251 games of UG decks, 52.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Elvenking's Harper (HOB) 38
+4 Quarrel (HOB) 135
+4 Woodland Weavemaster (HOB) 143
+4 Down in the Valley (HOB) 124
+4 Mirkwood Nurturer (HOB) 160
+4 Mirkwood Pathmaker (HOB) 129
+4 Thranduil's Company (HOB) 168
+2 Thranduil, Sindarin Liege // Silvan Rally (HOB) 166
+2 Beorn the Fierce (HOB) 119
+4 Cantankerous Keepers (HOB) 122
+4 Elvenking's Halls (HOB) 182
+7 Island (HOB) 190
+13 Forest (HOB) 193

@@ -1,0 +1,16 @@
+# ECL: the blue-red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 16758 games of URG decks, 52.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Oko, Lorwyn Liege // Oko, Shadowmoor Scion (ECL) 61
+4 Explosive Prodigy (ECL) 136
+4 Foraging Wickermaw (ECL) 256
+4 Puca's Eye (ECL) 259
+4 Changeling Wayfinder (ECL) 1
+4 Noggle Robber (ECL) 237
+3 Gathering Stone (ECL) 257
+2 Sanar, Innovative First-Year (ECL) 241
+4 Vibrance (ECL) 249
+4 Sunderflock (ECL) 74
+4 Steam Vents (ECL) 267
+5 Island (ECL) 270
+10 Mountain (ECL) 272
+6 Forest (ECL) 273

@@ -1,38 +1,14 @@
-1 Agate-Blade Assassin
-1 Alania's Pathmaker
-1 Barkform Harvester
-1 Bonebind Orator
-1 Bonecache Overseer
-1 Brambleguard Captain
-1 Brazen Collector
-1 Byway Barterer
-1 Cindering Cutthroat
-1 Daggerfang Duo
-1 Downwind Ambusher
-1 Dragonhawk, Fate's Tempest
-1 Fireglass Mentor
-1 Flamecache Gecko
-1 Frilled Sparkshooter
-1 Gev, Scaled Scorch
-1 Glidedive Duo
-1 Harnesser of Storms
-1 Hearthborn Battler
-1 Hired Claw
-1 Huskburster Swarm
-1 Kindlespark Duo
-1 Agate Assault
-1 Blooming Blast
-1 Coiling Rebirth
-1 Conduct Electricity
-1 Consumed by Greed
-1 Cruelclaw's Heist
-1 Diresight
-1 Early Winter
-1 Fell
-1 Festival of Embers
-1 Hazel's Nocturne
-1 Heirloom Epic
-1 Hoarder's Overflow
-1 Might of the Meek
-12 Swamp
-12 Mountain
+# BLB: the black-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 81966 games of BR decks, 56.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Hired Claw (BLB) 140
+4 Fell (BLB) 95
+4 Fireglass Mentor (BLB) 213
+4 Flamecache Gecko (BLB) 135
+2 Gev, Scaled Scorch (BLB) 214
+2 Starscape Cleric (BLB) 116
+4 Scales of Shale (BLB) 110
+4 Thought-Stalker Warlock (BLB) 118
+4 Valley Flamecaller (BLB) 158
+4 Reptilian Recruiter (BLB) 149
+10 Swamp (BLB) 270
+14 Mountain (BLB) 274

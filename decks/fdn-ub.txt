@@ -1,38 +1,16 @@
-1 Aegis Turtle (FDN) 150
-1 Diregraf Ghoul (FDN) 171
-1 Infestation Sage (FDN) 64
-1 Pulse Tracker (FDN) 612
-1 Spectral Sailor (FDN) 164
-1 Vampire Neonate (FDN) 531
-1 Brineborn Cutthroat (FDN) 152
-1 Burglar Rat (FDN) 170
-1 Burrog Befuddler (FDN) 504
-1 Drake Hatcher (FDN) 35
-1 Elementalist Adept (FDN) 36
-1 Fog Bank (FDN) 591
-1 Gatekeeper of Malakir (FDN) 713
-1 Harbinger of the Tides (FDN) 593
-1 Hungry Ghoul (FDN) 62
-1 Kalastria Highborn (FDN) 607
-1 Kitesail Corsair (FDN) 510
-1 Knight of Malice (FDN) 608
-1 Mischievous Mystic (FDN) 47
-1 Mystic Archaeologist (FDN) 511
-1 Nullpriest of Oblivion (FDN) 611
-1 Reassembling Skeleton (FDN) 182
-1 Adventuring Gear (FDN) 249
-1 An Offer You Can't Refuse (FDN) 160
-1 Deathmark (FDN) 601
-1 Dive Down (FDN) 588
-1 Duress (FDN) 606
-1 Eaten Alive (FDN) 172
-1 Fleeting Distraction (FDN) 155
-1 Opt (FDN) 512
-1 Soul-Guide Lantern (FDN) 680
-1 Stab (FDN) 71
-1 Undying Malice (FDN) 528
-1 Unsummon (FDN) 599
-1 Vampiric Rites (FDN) 615
-1 Witness Protection (FDN) 168
-12 Island (FDN) 274
-12 Swamp (FDN) 276
+# FDN: the blue-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 104183 games of UB decks, 54.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Stab (FDN) 71
+4 Mischievous Mystic (FDN) 47
+4 Pilfer (FDN) 181
+2 Tinybones, Bauble Burglar (FDN) 72
+4 Dreadwing Scavenger (FDN) 118
+2 Kiora, the Rising Tide (FDN) 45
+2 Vampire Nighthawk (FDN) 186
+4 Micromancer (FDN) 158
+4 Solemn Simulacrum (FDN) 257
+4 Blasphemous Edict (FDN) 57
+2 Liliana, Dreadhorde General (FDN) 176
+4 Dismal Backwater (FDN) 261
+6 Island (FDN) 274
+14 Swamp (FDN) 276

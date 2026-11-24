@@ -1,0 +1,11 @@
+{"_": "The set has no two-color signposts; themes follow its color pairs' shared mechanics.",
+ "WU": {"note": "fliers", "text": "\\bflying\\b"},
+ "UB": {"note": "fliers and card draw", "text": "\\bflying\\b|draw"},
+ "WB": {"note": "life gain and fliers", "text": "lifelink|gain[s]? \\d* ?life|\\bflying\\b"},
+ "RG": {"note": "big creatures", "text": "\\btrample\\b|power 4|\\+\\d/\\+\\d"},
+ "BR": {"note": "removal and damage", "text": "deals? \\d+ damage|destroy target|-\\d/-\\d"},
+ "WG": {"note": "creature boosts", "text": "creatures you control get|\\+\\d/\\+\\d"},
+ "UR": {"note": "instants, sorceries and fliers", "text": "\\binstant\\b|\\bsorcery\\b|\\bInstant\\b|\\bSorcery\\b|\\bflying\\b"},
+ "BG": {"note": "deathtouch and the graveyard", "text": "deathtouch|graveyard|\\bdies\\b"},
+ "WR": {"note": "attacking", "text": "first strike|\\bhaste\\b|attacking|whenever .* attacks"},
+ "UG": {"note": "fliers and big creatures", "text": "\\bflying\\b|\\btrample\\b"}}

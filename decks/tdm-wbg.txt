@@ -1,0 +1,19 @@
+# TDM: the white-black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 46781 games of WBG decks, 53.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Abzan Devotee (TDM) 68
+4 Abzan Monument (TDM) 238
+4 Ainok Wayfarer (TDM) 134
+4 Sage of the Skies (TDM) 22
+4 Severance Priest (TDM) 222
+4 Skirmish Rhino (TDM) 224
+4 Revival of the Ancestors (TDM) 218
+2 Betor, Kin to All (TDM) 172
+2 Elspeth, Storm Slayer (TDM) 11
+4 Armament Dragon (TDM) 168
+4 Scoured Barrens (TDM) 267
+4 Blossoming Sands (TDM) 251
+4 Jungle Hollow (TDM) 258
+4 Sandsteppe Citadel (TDM) 266
+2 Plains (TDM) 272
+3 Swamp (TDM) 274
+3 Forest (TDM) 276

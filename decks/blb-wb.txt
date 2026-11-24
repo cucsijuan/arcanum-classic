@@ -1,0 +1,14 @@
+# BLB: the white-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 107443 games of WB decks, 55.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Scavenger's Talent (BLB) 111
+4 Essence Channeler (BLB) 12
+4 Starscape Cleric (BLB) 116
+4 Valley Questcaller (BLB) 36
+4 Darkstar Augur (BLB) 90
+4 Moonstone Harbinger (BLB) 101
+2 Zoraline, Cosmos Caller (BLB) 242
+2 Hazel's Nocturne (BLB) 97
+4 Sinister Monolith (BLB) 113
+4 Starseer Mentor (BLB) 233
+8 Plains (BLB) 262
+16 Swamp (BLB) 270

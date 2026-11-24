@@ -1,38 +1,15 @@
-1 Adept Watershaper
-1 Burdened Stoneback
-1 Champion of the Clachan
-1 Champions of the Shoal
-1 Curious Colossus
-1 Deepchannel Duelist
-1 Deepway Navigator
-1 Eclipsed Merrow
-1 Encumbered Reejerey
-1 Flitterwing Nuisance
-1 Flock Impostor
-1 Foraging Wickermaw
-1 Gallant Fowlknight
-1 Glamer Gifter
-1 Glamermite
-1 Glen Elendra Guardian
-1 Goldmeadow Nomad
-1 Gravelgill Scoundrel
-1 Illusion Spinners
-1 Kinsbaile Aspirant
-1 Kinscaer Sentry
-1 Kithkeeper
-1 Ajani, Outland Chaperone
-1 Aquitect's Defenses
-1 Bark of Doran
-1 Blossombind
-1 Clachan Festival
-1 Crib Swap
-1 Dawn-Blessed Pennant
-1 Firdoch Core
-1 Glen Elendra's Answer
-1 Keep Out
-1 Kinbinding
-1 Liminal Hold
-1 Mirrorform
-1 Morningtide's Light
-12 Plains
-12 Island
+# ECL: the white-blue archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 94969 games of WU decks, 56.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Sygg, Wanderwine Wisdom // Sygg, Wanderbrine Shield (ECL) 76
+4 Deepchannel Duelist (ECL) 213
+4 Gravelgill Scoundrel (ECL) 53
+4 Silvergill Mentor (ECL) 69
+2 Wanderbrine Preacher (ECL) 41
+4 Eclipsed Merrow (ECL) 221
+4 Sygg's Command (ECL) 244
+4 Champions of the Shoal (ECL) 46
+4 Disruptor of Currents (ECL) 47
+4 Wanderwine Farewell (ECL) 83
+4 Hallowed Fountain (ECL) 265
+6 Plains (ECL) 269
+14 Island (ECL) 270

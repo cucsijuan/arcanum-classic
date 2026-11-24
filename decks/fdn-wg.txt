@@ -1,0 +1,16 @@
+# FDN: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 61345 games of WG decks, 54.3% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Llanowar Elves (FDN) 227
+4 Anthem of Champions (FDN) 116
+2 Giada, Font of Hope (FDN) 141
+4 Scavenging Ooze (FDN) 232
+2 Arahbo, the First Fang (FDN) 2
+4 Celestial Armor (FDN) 5
+2 Dazzling Angel (FDN) 9
+4 Spinner of Souls (FDN) 112
+4 Leyline Axe (FDN) 129
+4 Serra Angel (FDN) 147
+2 Ghalta, Primal Hunger (FDN) 222
+4 Blossoming Sands (FDN) 260
+10 Plains (FDN) 272
+10 Forest (FDN) 280

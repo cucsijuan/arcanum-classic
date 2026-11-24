@@ -1,0 +1,18 @@
+# FRA: the blue-green archetype, 60 cards.
+# Built from 17Lands card data: 37750 games of UG decks, 52.3% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+2 Arcane Amphisbaena (FRA) 97
+4 Avatar of Burgeoning Echoes (FRA) 122
+2 Fblthp, Knows the Way (FRA) 258
+4 Tam's Resistance (FRA) 153
+2 Chandra, Chill of Compliance (FRA) 212
+2 Kiora of Salt and Sand (FRA) 273
+4 Simulacrum Shaper (FRA) 113
+2 Way of the Paradox (FRA) 267
+4 Sphinx of False Conclusions (FRA) 40
+2 The Theorist, Jace Beleren (FRA) 43
+2 Garruk, Curse Breaker (FRA) 259
+2 Way of the Mind Sculptor (FRA) 224
+4 Mind Meanderer (FRA) 141
+4 Transformative Commons (FRA) 193
+10 Island (FRA) 283
+10 Forest (FRA) 289

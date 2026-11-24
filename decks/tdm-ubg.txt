@@ -1,0 +1,19 @@
+# TDM: the blue-black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 79588 games of UBG decks, 54.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Sultai Devotee (TDM) 160
+4 Sultai Monument (TDM) 247
+4 Awaken the Honored Dead (TDM) 170
+4 Lie in Wait (TDM) 203
+4 Rakshasa's Bargain (TDM) 214
+4 Fangkeeper's Familiar (TDM) 183
+2 Kheru Goldkeeper (TDM) 199
+4 Lotuslight Dancers (TDM) 204
+2 Teval, Arbiter of Virtue (TDM) 230
+4 Marang River Regent // Coil and Catch (TDM) 51
+4 Dismal Backwater (TDM) 254
+4 Jungle Hollow (TDM) 258
+4 Thornwood Falls (TDM) 269
+4 Opulent Palace (TDM) 264
+3 Island (TDM) 273
+2 Swamp (TDM) 274
+3 Forest (TDM) 276

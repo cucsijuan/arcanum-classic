@@ -1,0 +1,28 @@
+# Selesnya aggro: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914989).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Abandoned Air Temple -> Plains; Ba Sing Se -> Forest; Doorkeeper Thrull -> Clarion Conqueror.
+#   Rest in Peace -> Soul-Guide Lantern; Avatar's Wrath -> Day of Judgment; Lavaspur Boots -> Skateboard.
+4 Ambitious Augmenter
+4 Bejeweled Warg
+4 Llanowar Elves
+4 Michelangelo, Weirdness to 11
+4 Pawpatch Recruit
+3 Leatherhead, Swamp Stalker
+3 Ouroboroid
+3 Surrak, Elusive Hunter
+4 Vigorbloom Charm
+4 Practiced Offense
+7 Forest
+4 Hushwood Verge
+4 Temple Garden
+4 Plains
+2 Demolition Field
+2 Overgrown Farmland
+
+Sideboard
+3 Clarion Conqueror
+3 Soul-Guide Lantern
+3 Voice of Victory
+2 Day of Judgment
+2 Skateboard
+2 Vivien Reid

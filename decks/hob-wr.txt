@@ -1,0 +1,20 @@
+# HOB: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 52797 games of WR decks, 56.5% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Dwarven Mauler (HOB) 95
+2 Dwalin, Weaponmaster (HOB) 154
+4 Dwarven Mattock (HOB) 172
+4 Dáin's Company (HOB) 152
+2 Kíli the Resourceful (HOB) 17
+2 Thorin Oakenshield (HOB) 165
+2 Bombur, Gentle Dreamer (HOB) 88
+2 Dáin Ironfoot (HOB) 91
+2 Ori, Keeper of Songs (HOB) 23
+2 The Black Arrow (HOB) 171
+2 Fíli the Pathfinder (HOB) 14
+2 Settle the Wreckage (HOB) 26
+2 Thorin, Mountain-king (HOB) 114
+2 The Arkenstone // Seek the Heart (HOB) 170
+2 Bifur, Melodic Rider (HOB) 147
+4 Iron Hills (HOB) 185
+10 Plains (HOB) 189
+10 Mountain (HOB) 192

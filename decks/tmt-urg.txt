@@ -1,0 +1,18 @@
+# TMT: the blue-red-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 6710 games of URG decks, 56.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Courier of Comestibles (TMT) 112
+4 Frog Butler (TMT) 114
+2 Michelangelo, Weirdness to 11 (TMT) 121
+4 Omni-Cheese Pizza (TMT) 176
+4 Ooze Spill (TMT) 48
+2 April O'Neil, Hacktivist (TMT) 29
+2 Donatello, Turtle Techie (TMT) 37
+4 Lessons from Life (TMT) 155
+2 Metalhead (TMT) 44
+4 Turtle Blimp (TMT) 180
+2 Kitsune, Dragon's Daughter (TMT) 41
+2 Krang, Master Mind (TMT) 43
+4 TCRI Building (TMT) 189
+4 Mutant Town (TMT) 187
+10 Island (TMT) 192
+6 Forest (TMT) 195

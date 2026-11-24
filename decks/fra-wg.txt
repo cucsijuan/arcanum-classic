@@ -1,0 +1,18 @@
+# FRA: the white-green archetype, 60 cards.
+# Built from 17Lands card data: 78985 games of WG decks, 53.9% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Emergency Phytomedic // Seed Suture (FRA) 130
+2 Ajani Resolute (FRA) 195
+4 Medic's Kitesail (FRA) 173
+4 Solarium Sentry (FRA) 148
+4 Vigorbloom Charm (FRA) 160
+4 Greenhouse Propagator (FRA) 104
+2 Koth of the Homestead (FRA) 199
+2 Lyra, Archangel of Dawn (FRA) 201
+4 Bloombrute (FRA) 124
+2 Titanbones, Towering Heart (FRA) 266
+2 Garruk, Curse Breaker (FRA) 259
+2 Kwia Vigorbloom (FRA) 140
+4 Vigorbloom Annex (FRA) 194
+4 Overgrown Farmland (FRA) 185
+8 Plains (FRA) 281
+8 Forest (FRA) 289

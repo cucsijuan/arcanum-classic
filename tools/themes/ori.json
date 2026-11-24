@@ -1,0 +1,10 @@
+{"WU": {"note": "fliers", "text": "\\bflying\\b"},
+ "UB": {"note": "the graveyard and spells", "text": "graveyard|\\bmill|\\binstant\\b|\\bsorcery\\b|\\bInstant\\b|\\bSorcery\\b"},
+ "BR": {"note": "sacrifice", "text": "sacrifice|\\bdies\\b"},
+ "RG": {"note": "lands and big creatures", "text": "\\blands? you control|power 3 or greater|power 4 or greater|\\btrample\\b|renown"},
+ "WG": {"note": "renown and +1/+1 counters", "text": "renown|\\+1/\\+1 counter"},
+ "WB": {"note": "enchantments", "text": "\\benchant|\\bAura\\b"},
+ "UR": {"note": "artifacts and thopters", "text": "\\bartifact|Thopter|spell mastery", "types": ["Thopter"]},
+ "BG": {"note": "elves", "types": ["Elf"], "text": "\\bElf\\b|\\bElves\\b"},
+ "WR": {"note": "renown and attacking", "text": "renown|first strike|double strike|whenever .* attacks|attacking creature"},
+ "UG": {"note": "flash and tapping", "text": "\\bflash\\b|tap or untap|\\btap target"}}

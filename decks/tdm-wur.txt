@@ -1,0 +1,19 @@
+# TDM: the white-blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 69224 games of WUR decks, 54.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Cori-Steel Cutter (TDM) 103
+4 Jeskai Devotee (TDM) 110
+4 Jeskai Monument (TDM) 244
+2 Narset, Jeskai Waymaster (TDM) 209
+4 Rediscover the Way (TDM) 215
+4 Sage of the Skies (TDM) 22
+4 Jeskai Brushmaster (TDM) 195
+4 Jeskai Shrinekeeper (TDM) 197
+2 Shiko, Paragon of the Way (TDM) 223
+4 Jeskai Revelation (TDM) 196
+4 Mystic Monastery (TDM) 262
+4 Wind-Scarred Crag (TDM) 271
+4 Swiftwater Cliffs (TDM) 268
+4 Tranquil Cove (TDM) 270
+3 Plains (TDM) 272
+2 Island (TDM) 273
+3 Mountain (TDM) 275

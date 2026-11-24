@@ -1,0 +1,15 @@
+# ECL: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 83939 games of UR decks, 55.7% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Ashling, Rekindled // Ashling, Rimebound (ECL) 124
+4 Soulbright Seeker (ECL) 157
+4 Flamebraider (ECL) 139
+4 Sear (ECL) 154
+4 Eclipsed Flamekin (ECL) 219
+4 Rimekin Recluse (ECL) 66
+2 Sanar, Innovative First-Year (ECL) 241
+4 Twinflame Travelers (ECL) 248
+4 Spinerock Tyrant (ECL) 159
+4 Sunderflock (ECL) 74
+4 Steam Vents (ECL) 267
+9 Island (ECL) 270
+11 Mountain (ECL) 272

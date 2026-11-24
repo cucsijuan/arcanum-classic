@@ -1,0 +1,15 @@
+# DSK: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 81880 games of BG decks, 54.3% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Valgavoth's Onslaught (DSK) 204
+4 Broodspinner (DSK) 211
+4 Osseous Sticktwister (DSK) 112
+4 Twitching Doll (DSK) 201
+2 Tyvar, the Pummeler (DSK) 202
+4 Under the Skin (DSK) 203
+4 Unstoppable Slasher (DSK) 119
+4 Drag to the Roots (DSK) 213
+2 The Swarmweaver (DSK) 236
+4 Dissection Tools (DSK) 245
+4 Strangled Cemetery (DSK) 268
+8 Swamp (DSK) 274
+12 Forest (DSK) 276

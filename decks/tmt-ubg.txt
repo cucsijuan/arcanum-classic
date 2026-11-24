@@ -1,0 +1,19 @@
+# TMT: the blue-black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 12001 games of UBG decks, 56.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Courier of Comestibles (TMT) 112
+4 Frog Butler (TMT) 114
+4 Omni-Cheese Pizza (TMT) 176
+2 The Ooze (TMT) 177
+4 Transdimensional Bovine (TMT) 134
+4 Weather Maker (TMT) 182
+2 April O'Neil, Hacktivist (TMT) 29
+4 Lessons from Life (TMT) 155
+2 Mikey & Don, Party Planners (TMT) 157
+2 Ragamuffin Raptor (TMT) 130
+2 Groundchuck & Dirtbag (TMT) 115
+2 Armaggon, Future Shark (TMT) 58
+4 Mutant Town (TMT) 187
+4 Illegitimate Business (TMT) 186
+4 Island (TMT) 192
+2 Swamp (TMT) 193
+10 Forest (TMT) 195

@@ -1,0 +1,15 @@
+# ORI: the blue-red archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: artifacts and thopters.
+4 Hangarback Walker (ORI) 229
+4 Ravaging Blaze (ORI) 159
+4 Runed Servitor (ORI) 238
+2 Sword of the Animist (ORI) 240
+4 Exquisite Firecraft (ORI) 143
+4 Thopter Engineer (ORI) 165
+2 Pia and Kiran Nalaar (ORI) 157
+4 Whirler Rogue (ORI) 83
+4 Chandra's Ignition (ORI) 137
+4 Mage-Ring Responder (ORI) 232
+4 Shivan Reef (ORI) 251
+4 Island (ORI) 257
+16 Mountain (ORI) 265

@@ -1,0 +1,14 @@
+# EOE: the blue-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 70827 games of UG decks, 57.2% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Meltstrider's Resolve (EOE) 199
+4 Biomechan Engineer (EOE) 213
+4 Genemorph Imago (EOE) 217
+4 Codecracker Hound (EOE) 50
+4 Larval Scoutlander (EOE) 194
+4 Ouroboroid (EOE) 201
+4 Quantum Riddler (EOE) 72
+4 Glacier Godmaw (EOE) 188
+4 Mouth of the Storm (EOE) 70
+4 Breeding Pool (EOE) 251
+9 Island (EOE) 263
+11 Forest (EOE) 266

@@ -1,0 +1,18 @@
+# FIN: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 87880 games of BG decks, 56.7% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Esper Origins // Summon: Esper Maduin (FIN) 185
+2 Exdeath, Void Warlock // Neo Exdeath, Dimension's End (FIN) 220
+2 Chocobo Kick (FIN) 178
+4 Resentful Revelation (FIN) 114
+2 Torgal, A Fine Hound (FIN) 208
+4 Fight On! (FIN) 100
+4 Shinra Reinforcements (FIN) 118
+2 Jenova, Ancient Calamity (FIN) 228
+2 Sazh Katzroy (FIN) 199
+2 Vanille, Cheerful l'Cie (FIN) 211
+2 Cloud of Darkness (FIN) 217
+4 Summon: Primal Odin (FIN) 121
+2 Ardyn, the Usurper (FIN) 89
+4 Gohn, Town of Ruin (FIN) 278
+14 Swamp (FIN) 300
+6 Forest (FIN) 306

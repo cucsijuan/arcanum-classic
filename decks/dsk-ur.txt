@@ -1,0 +1,14 @@
+# DSK: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 52177 games of UR decks, 52.1% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Unable to Scream (DSK) 78
+4 Chainsaw (DSK) 128
+4 Intruding Soulrager (DSK) 218
+4 Silent Hallcreeper (DSK) 72
+4 Entity Tracker (DSK) 53
+4 Rampaging Soulrager (DSK) 151
+4 Screaming Nemesis (DSK) 157
+4 Vanish from Sight (DSK) 82
+4 Overlord of the Boilerbilges (DSK) 146
+4 Peculiar Lighthouse (DSK) 265
+9 Island (DSK) 273
+11 Mountain (DSK) 275

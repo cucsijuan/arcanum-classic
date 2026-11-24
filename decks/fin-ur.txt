@@ -1,0 +1,17 @@
+# FIN: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 104526 games of UR decks, 57.3% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Jill, Shiva's Dominant // Shiva, Warden of Ice (FIN) 58
+2 The Emperor of Palamecia // The Lord Master of Hell (FIN) 219
+4 Blazing Bomb (FIN) 130
+4 Choco-Comet (FIN) 132
+4 Sahagin (FIN) 71
+2 Ultros, Obnoxious Octopus (FIN) 83
+4 Combat Tutorial (FIN) 48
+2 Shantotto, Tactician Magician (FIN) 241
+2 Swallowed by Leviathan (FIN) 79
+2 Vivi Ornitier (FIN) 248
+4 Memories Returning (FIN) 63
+4 Nibelheim Aflame (FIN) 146
+4 Baron, Airship Kingdom (FIN) 273
+10 Island (FIN) 297
+10 Mountain (FIN) 303

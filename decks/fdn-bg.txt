@@ -1,0 +1,16 @@
+# FDN: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 47161 games of BG decks, 51.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Llanowar Elves (FDN) 227
+4 Mild-Mannered Librarian (FDN) 228
+4 Scavenging Ooze (FDN) 232
+2 Tinybones, Bauble Burglar (FDN) 72
+2 Wary Thespian (FDN) 235
+4 Spinner of Souls (FDN) 112
+4 Sylvan Scavenging (FDN) 113
+4 Leyline Axe (FDN) 129
+4 Wardens of the Cycle (FDN) 125
+2 Vivien Reid (FDN) 234
+2 Liliana, Dreadhorde General (FDN) 176
+4 Jungle Hollow (FDN) 263
+4 Swamp (FDN) 276
+16 Forest (FDN) 280

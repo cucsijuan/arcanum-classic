@@ -1,0 +1,13 @@
+# M10: the blue-red archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: instants, sorceries and fliers.
+4 Fireball (M10) 136
+4 Essence Scatter (M10) 51
+4 Merfolk Looter (M10) 61
+4 Sparkmage Apprentice (M10) 158
+4 Illusionary Servant (M10) 57
+4 Seismic Strike (M10) 154
+4 Dragon Whelp (M10) 133
+4 Sleep (M10) 71
+4 Air Elemental (M10) 42
+15 Island (M10) 234
+9 Mountain (M10) 242

@@ -1,0 +1,15 @@
+# M19: the white-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: enchantments and auras.
+4 Hungering Hydra (M19) 189
+2 Ajani's Pridemate (M19) 5
+4 Dryad Greenseeker (M19) 178
+4 Thorn Lieutenant (M19) 203
+4 Resplendent Angel (M19) 34
+4 Sigiled Sword of Valeron (M19) 244
+2 Ajani, Adversary of Tyrants (M19) 3
+2 Goreclaw, Terror of Qal Sisma (M19) 186
+4 Hieromancer's Cage (M19) 14
+2 Vivien Reid (M19) 208
+4 Prodigious Growth (M19) 194
+10 Plains (M19) 261
+14 Forest (M19) 277

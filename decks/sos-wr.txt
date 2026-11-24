@@ -1,0 +1,16 @@
+# SOS: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 120113 games of WR decks, 57.7% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Elite Interceptor // Rejoinder (SOS) 12
+4 Hardened Academic (SOS) 194
+2 Kirol, History Buff // Pack a Punch (SOS) 198
+4 Living History (SOS) 121
+4 Molten Note (SOS) 204
+4 Antiquities on the Loose (SOS) 7
+4 Practiced Offense (SOS) 25
+4 Ark of Hunger (SOS) 173
+4 Garrison Excavator (SOS) 116
+2 Lorehold, the Historian (SOS) 201
+4 Fields of Strife (SOS) 255
+4 Sundown Pass (SOS) 264
+10 Plains (SOS) 267
+6 Mountain (SOS) 270

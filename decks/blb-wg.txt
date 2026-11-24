@@ -1,0 +1,14 @@
+# BLB: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 136832 games of WG decks, 55.6% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Seasoned Warrenguard (BLB) 30
+4 Burrowguard Mentor (BLB) 206
+4 Carrot Cake (BLB) 7
+2 Finneas, Ace Archer (BLB) 212
+4 Valley Questcaller (BLB) 36
+2 Druid of the Spade (BLB) 170
+4 Harvestrite Host (BLB) 15
+4 Hop to It (BLB) 16
+4 Warren Warleader (BLB) 38
+4 Season of the Burrow (BLB) 29
+20 Plains (BLB) 262
+4 Forest (BLB) 278

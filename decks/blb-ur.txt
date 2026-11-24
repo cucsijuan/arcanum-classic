@@ -1,0 +1,14 @@
+# BLB: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 38679 games of UR decks, 50.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Stormchaser's Talent (BLB) 75
+4 Coruscation Mage (BLB) 131
+2 Kitsa, Otterball Elite (BLB) 54
+4 Otterball Antics (BLB) 63
+4 Thundertrap Trainer (BLB) 78
+4 Pearl of Wisdom (BLB) 64
+4 Valley Floodcaller (BLB) 79
+2 Ral, Crackling Wit (BLB) 230
+4 Wishing Well (BLB) 81
+4 Daring Waverider (BLB) 44
+21 Island (BLB) 266
+3 Mountain (BLB) 274

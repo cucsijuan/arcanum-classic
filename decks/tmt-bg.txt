@@ -1,0 +1,18 @@
+# TMT: the black-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 21473 games of BG decks, 55.2% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Courier of Comestibles (TMT) 112
+4 Frog Butler (TMT) 114
+4 Ice Cream Kitty (TMT) 150
+2 Rat King, Verminister (TMT) 71
+2 Bebop & Rocksteady (TMT) 140
+2 Madame Null, Power Broker (TMT) 66
+4 Tainted Treats (TMT) 170
+4 Anchovy & Banana Pizza (TMT) 57
+2 Lord Dregg, Insect Invader (TMT) 65
+2 Pizza Face, Gastromancer (TMT) 163
+2 Savanti Romero, Time's Exile (TMT) 72
+2 Groundchuck & Dirtbag (TMT) 115
+2 Armaggon, Future Shark (TMT) 58
+4 Illegitimate Business (TMT) 186
+12 Swamp (TMT) 193
+8 Forest (TMT) 195

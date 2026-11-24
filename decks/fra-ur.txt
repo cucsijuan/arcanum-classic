@@ -1,0 +1,17 @@
+# FRA: the blue-red archetype, 60 cards.
+# Built from 17Lands card data: 73306 games of UR decks, 55.1% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Diviner of Victory // Unwind History (FRA) 28
+4 Cryotheory Adept (FRA) 27
+2 Geist of Saint Thalia (FRA) 214
+4 Twinned Vision (FRA) 157
+4 Clash of Elements (FRA) 126
+4 Divining Duelist (FRA) 29
+2 Sphinx's Approach (FRA) 41
+2 Saheeli, Jewel of Avishkar (FRA) 275
+4 Sphinx of False Conclusions (FRA) 40
+2 The Theorist, Jace Beleren (FRA) 43
+2 Jace, Reality Sculptor (FRA) 216
+2 Kiora of Fire and Ashes (FRA) 247
+4 Innovative Commons (FRA) 182
+15 Island (FRA) 283
+5 Mountain (FRA) 287

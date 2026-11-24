@@ -17,20 +17,10 @@
     "cash": 1000,
     "boosters": 3,
     "decks": [
-      "fdn-br", "fdn-gw", "fdn-rg", "fdn-ub", "fdn-wu",
-      "m19-br", "m19-gw", "m19-rg", "m19-ub", "m19-wu",
-      "ori-br", "ori-gw", "ori-rg", "ori-ub", "ori-wu",
-      "hob-br", "hob-gw", "hob-rg", "hob-ub", "hob-wu",
-      "m10-br", "m10-gw", "m10-rg", "m10-ub", "m10-wu",
-      "fin-br", "fin-gw", "fin-rg", "fin-ub", "fin-wu",
-      "fra-br", "fra-gw", "fra-rg", "fra-ub", "fra-wu",
-      "blb-br", "blb-gw", "blb-rg", "blb-ub", "blb-wu",
-      "ecl-br", "ecl-gw", "ecl-rg", "ecl-ub", "ecl-wu",
-      "tdm-br", "tdm-gw", "tdm-rg", "tdm-ub", "tdm-wu",
-      "dsk-br", "dsk-gw", "dsk-rg", "dsk-ub", "dsk-wu",
-      "sos-wb", "sos-ur", "sos-bg", "sos-rw", "sos-gu",
-      "eoe-br", "eoe-gw", "eoe-rg", "eoe-ub", "eoe-wu",
-      "tmt-br", "tmt-gw", "tmt-rg", "tmt-ub", "tmt-wu"
+      "fdn-starter-arcane-aerialists", "fdn-starter-cat-attack", "fdn-starter-graveyard-gifts",
+      "fdn-starter-learn-from-the-land", "fdn-starter-might-of-the-legion", "fdn-starter-morbid-machinations",
+      "fdn-starter-path-of-power", "fdn-starter-reckless-raid", "fdn-starter-vampiric-hunger",
+      "fdn-starter-wondrous-wizardry"
     ]
   },
 
@@ -202,20 +192,11 @@
   "featured": ["fdn", "hob", "m19", "ltr", "ori", "m10", "fin", "fra", "blb", "ecl", "tdm", "dsk", "sos", "eoe", "tmt"],
 
   "precons": [
-    { "deck": "fdn-br" }, { "deck": "fdn-gw" }, { "deck": "fdn-rg" }, { "deck": "fdn-ub" }, { "deck": "fdn-wu" },
-    { "deck": "m19-br" }, { "deck": "m19-gw" }, { "deck": "m19-rg" }, { "deck": "m19-ub" }, { "deck": "m19-wu" },
-    { "deck": "ori-br" }, { "deck": "ori-gw" }, { "deck": "ori-rg" }, { "deck": "ori-ub" }, { "deck": "ori-wu" },
-    { "deck": "hob-br" }, { "deck": "hob-gw" }, { "deck": "hob-rg" }, { "deck": "hob-ub" }, { "deck": "hob-wu" },
-    { "deck": "m10-br" }, { "deck": "m10-gw" }, { "deck": "m10-rg" }, { "deck": "m10-ub" }, { "deck": "m10-wu" },
-    { "deck": "fin-br" }, { "deck": "fin-gw" }, { "deck": "fin-rg" }, { "deck": "fin-ub" }, { "deck": "fin-wu" },
-    { "deck": "fra-br" }, { "deck": "fra-gw" }, { "deck": "fra-rg" }, { "deck": "fra-ub" }, { "deck": "fra-wu" },
-    { "deck": "blb-br" }, { "deck": "blb-gw" }, { "deck": "blb-rg" }, { "deck": "blb-ub" }, { "deck": "blb-wu" },
-    { "deck": "ecl-br" }, { "deck": "ecl-gw" }, { "deck": "ecl-rg" }, { "deck": "ecl-ub" }, { "deck": "ecl-wu" },
-    { "deck": "tdm-br" }, { "deck": "tdm-gw" }, { "deck": "tdm-rg" }, { "deck": "tdm-ub" }, { "deck": "tdm-wu" },
-    { "deck": "dsk-br" }, { "deck": "dsk-gw" }, { "deck": "dsk-rg" }, { "deck": "dsk-ub" }, { "deck": "dsk-wu" },
-    { "deck": "sos-wb" }, { "deck": "sos-ur" }, { "deck": "sos-bg" }, { "deck": "sos-rw" }, { "deck": "sos-gu" },
-    { "deck": "eoe-br" }, { "deck": "eoe-gw" }, { "deck": "eoe-rg" }, { "deck": "eoe-ub" }, { "deck": "eoe-wu" },
-    { "deck": "tmt-br" }, { "deck": "tmt-gw" }, { "deck": "tmt-rg" }, { "deck": "tmt-ub" }, { "deck": "tmt-wu" },
+    // The set's ten Starter Decks (official lists; also the starter decks).
+    { "deck": "fdn-starter-arcane-aerialists" }, { "deck": "fdn-starter-cat-attack" }, { "deck": "fdn-starter-graveyard-gifts" },
+    { "deck": "fdn-starter-learn-from-the-land" }, { "deck": "fdn-starter-might-of-the-legion" }, { "deck": "fdn-starter-morbid-machinations" },
+    { "deck": "fdn-starter-path-of-power" }, { "deck": "fdn-starter-reckless-raid" }, { "deck": "fdn-starter-vampiric-hunger" },
+    { "deck": "fdn-starter-wondrous-wizardry" },
     // The set's two 60-card theme decks, sold separately.
     { "deck": "sos-theme-eerie", "price": 2400 }, { "deck": "sos-theme-lifegain", "price": 2400 },
     // The set's Starter Kit: two 60-card decks built to play against each other, sold together (a foil mythic in each).
@@ -254,7 +235,7 @@
   // tournaments' table on one mat for both players, with the event's name on its crest), "roundMinutes" (the Swiss
   // rounds' time limit: then no new game begins and a game in progress gets five more turns; the playoff is untimed).
   // Kinds: draft,
-  // constructed (a career deck) and commander (a career Commander deck; pods of "players" play "rounds" games against
+  // constructed (a career deck; "decks": the visitors' decks, the store's precons when absent) and commander (a career Commander deck; pods of "players" play "rounds" games against
   // computer players bringing the "decks" listed; prizes by games won). Prizes: the first
   // one that fits the player's result ("wins": at least that many match wins; "place": that place or better; neither:
   // anyone). A prize may add "sealed" boosters: [{ "set": a code, "featured" or "event", "kind": "" or "collector"…, "count" }].
@@ -296,8 +277,7 @@
                 "soc-lorehold-spirit", "soc-prismari-artistry", "soc-quandrix-unlimited", "soc-silverquill-influence", "soc-witherbloom-pestilence",
                 "eoc-counter-intelligence", "eoc-world-shaper",
                 "tmc-turtle-power",
-                "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex",
-                "commander-white", "commander-blue", "commander-black", "commander-red", "commander-green"],
+                "fdc-calling-all-angels", "fdc-keen-engineering", "fdc-wretched-ranks", "fdc-reign-of-dragons", "fdc-tramplesaurus-rex"],
       "prizes": [
         { "wins": 2, "boosters": 3, "reputation": 8 },
         { "wins": 1, "boosters": 2, "reputation": 5 },
@@ -307,6 +287,27 @@
     {
       "id": "saturday", "name": "Saturday tournament", "when": "Saturday", "kind": "constructed",
       "players": 8, "rounds": 3, "bestOf": 1, "entry": 2000,
+      // The visitors' decks.
+      "decks": ["std-azorius-control", "std-azorius-fliers", "std-boros-dragons", "std-boros-fliers", "std-dimir-control", "std-dimir-reanimator", "std-dimir-tempo", "std-four-color-control",
+                "std-golgari-control", "std-izzet-control", "std-izzet-prowess", "std-jund-sacrifice", "std-mono-green-landfall", "std-orzhov-lifegain", "std-rakdos-aggro", "std-selesnya-aggro",
+                "blb-bg", "blb-br", "blb-rg", "blb-ub", "blb-ug", "blb-ur", "blb-wb", "blb-wg",
+                "blb-wr", "blb-wu", "dsk-bg", "dsk-br", "dsk-rg", "dsk-ub", "dsk-ug", "dsk-ur",
+                "dsk-wb", "dsk-wg", "dsk-wr", "dsk-wu", "ecl-bg", "ecl-br", "ecl-ur", "ecl-urg",
+                "ecl-wg", "ecl-wu", "eoe-bg", "eoe-br", "eoe-rg", "eoe-ub", "eoe-ug", "eoe-ur",
+                "eoe-wb", "eoe-wg", "eoe-wr", "eoe-wu", "fdn-bg", "fdn-br", "fdn-rg", "fdn-ub",
+                "fdn-ug", "fdn-ur", "fdn-wb", "fdn-wg", "fdn-wr", "fdn-wu", "fin-bg", "fin-br",
+                "fin-rg", "fin-ub", "fin-ubg", "fin-ug", "fin-ur", "fin-wb", "fin-wg", "fin-wr",
+                "fin-wu", "fra-bg", "fra-br", "fra-brg", "fra-rg", "fra-ub", "fra-ubg", "fra-ug", "fra-ur", "fra-wb",
+                "fra-wg", "fra-wr", "fra-wu", "fra-wub", "hob-bg", "hob-br",
+                "hob-ub", "hob-ug", "hob-wr", "hob-wu", "ltr-bg", "ltr-br", "ltr-ub", "ltr-ug",
+                "ltr-ur", "ltr-wb", "ltr-wg", "ltr-wr", "ltr-wu", "m10-bg", "m10-br", "m10-rg",
+                "m10-ub", "m10-ug", "m10-ur", "m10-wb", "m10-wg", "m10-wr", "m10-wu", "m19-bg",
+                "m19-br", "m19-rg", "m19-ub", "m19-ug", "m19-ur", "m19-wb", "m19-wg", "m19-wr",
+                "m19-wu", "ori-bg", "ori-br", "ori-rg", "ori-ub", "ori-ug", "ori-ur", "ori-wb",
+                "ori-wg", "ori-wr", "ori-wu", "sos-bg", "sos-ubg", "sos-ug", "sos-ur", "sos-urg",
+                "sos-wb", "sos-wr", "sos-wur", "tdm-ubg", "tdm-ug", "tdm-urg", "tdm-wbg", "tdm-wbr",
+                "tdm-wr", "tdm-wur", "tmt-bg", "tmt-ubg", "tmt-ug", "tmt-ur", "tmt-urg", "tmt-wb",
+                "tmt-wr"],
       "prizes": [
         { "place": 1, "cash": 10000, "boosters": 4, "tokens": 1, "reputation": 15 },
         { "place": 2, "cash": 5000, "boosters": 2, "reputation": 10 },
@@ -318,6 +319,27 @@
       // A local event, no qualification: open to anyone and cheap, a way to earn the money for the regional qualifier.
       "id": "championship", "name": "Monthly championship", "when": "lastSunday", "kind": "constructed",
       "players": 16, "rounds": 4, "bestOf": 3, "entry": 2500,
+      // The visitors' decks.
+      "decks": ["std-azorius-control", "std-azorius-fliers", "std-boros-dragons", "std-boros-fliers", "std-dimir-control", "std-dimir-reanimator", "std-dimir-tempo", "std-four-color-control",
+                "std-golgari-control", "std-izzet-control", "std-izzet-prowess", "std-jund-sacrifice", "std-mono-green-landfall", "std-orzhov-lifegain", "std-rakdos-aggro", "std-selesnya-aggro",
+                "blb-bg", "blb-br", "blb-rg", "blb-ub", "blb-ug", "blb-ur", "blb-wb", "blb-wg",
+                "blb-wr", "blb-wu", "dsk-bg", "dsk-br", "dsk-rg", "dsk-ub", "dsk-ug", "dsk-ur",
+                "dsk-wb", "dsk-wg", "dsk-wr", "dsk-wu", "ecl-bg", "ecl-br", "ecl-ur", "ecl-urg",
+                "ecl-wg", "ecl-wu", "eoe-bg", "eoe-br", "eoe-rg", "eoe-ub", "eoe-ug", "eoe-ur",
+                "eoe-wb", "eoe-wg", "eoe-wr", "eoe-wu", "fdn-bg", "fdn-br", "fdn-rg", "fdn-ub",
+                "fdn-ug", "fdn-ur", "fdn-wb", "fdn-wg", "fdn-wr", "fdn-wu", "fin-bg", "fin-br",
+                "fin-rg", "fin-ub", "fin-ubg", "fin-ug", "fin-ur", "fin-wb", "fin-wg", "fin-wr",
+                "fin-wu", "fra-bg", "fra-br", "fra-brg", "fra-rg", "fra-ub", "fra-ubg", "fra-ug", "fra-ur", "fra-wb",
+                "fra-wg", "fra-wr", "fra-wu", "fra-wub", "hob-bg", "hob-br",
+                "hob-ub", "hob-ug", "hob-wr", "hob-wu", "ltr-bg", "ltr-br", "ltr-ub", "ltr-ug",
+                "ltr-ur", "ltr-wb", "ltr-wg", "ltr-wr", "ltr-wu", "m10-bg", "m10-br", "m10-rg",
+                "m10-ub", "m10-ug", "m10-ur", "m10-wb", "m10-wg", "m10-wr", "m10-wu", "m19-bg",
+                "m19-br", "m19-rg", "m19-ub", "m19-ug", "m19-ur", "m19-wb", "m19-wg", "m19-wr",
+                "m19-wu", "ori-bg", "ori-br", "ori-rg", "ori-ub", "ori-ug", "ori-ur", "ori-wb",
+                "ori-wg", "ori-wr", "ori-wu", "sos-bg", "sos-ubg", "sos-ug", "sos-ur", "sos-urg",
+                "sos-wb", "sos-wr", "sos-wur", "tdm-ubg", "tdm-ug", "tdm-urg", "tdm-wbg", "tdm-wbr",
+                "tdm-wr", "tdm-wur", "tmt-bg", "tmt-ubg", "tmt-ug", "tmt-ur", "tmt-urg", "tmt-wb",
+                "tmt-wr"],
       "prizes": [
         { "place": 1, "cash": 15000, "boosters": 5, "reputation": 25 },
         { "place": 2, "cash": 8000, "boosters": 3, "reputation": 15 },
@@ -332,6 +354,9 @@
       // finalist when 33 or more played) is invited to the next regional championship.
       "id": "regional-qualifier", "name": "Regional qualifier", "when": "firstFriday", "days": 3, "kind": "constructed", "format": "standard",
       "players": 16, "playersMax": 64, "rounds": 0, "bestOf": 3, "topCut": 8, "roundMinutes": 50, "entry": 4000,
+      // The visitors' decks.
+      "decks": ["std-azorius-control", "std-azorius-fliers", "std-boros-dragons", "std-boros-fliers", "std-dimir-control", "std-dimir-reanimator", "std-dimir-tempo", "std-four-color-control",
+                "std-golgari-control", "std-izzet-control", "std-izzet-prowess", "std-jund-sacrifice", "std-mono-green-landfall", "std-orzhov-lifegain", "std-rakdos-aggro", "std-selesnya-aggro"],
       "prizes": [
         { "place": 1, "cash": 25000, "boosters": 6, "reputation": 40, "qualifies": "regional-championship" },
         { "place": 2, "minPlayers": 33, "cash": 12000, "boosters": 4, "reputation": 25, "qualifies": "regional-championship" },
@@ -348,6 +373,9 @@
       "id": "regional-championship", "name": "Regional championship", "when": "thirdSaturday", "months": [3, 6, 9, 12], "days": 2,
       "kind": "constructed", "format": "standard", "invitational": true, "tournamentMat": true,
       "players": 128, "playersMax": 256, "rounds": 14, "cutAfter": 8, "cutPoints": 18, "bestOf": 3, "topCut": 8, "roundMinutes": 50, "entry": 7500,
+      // The visitors' decks.
+      "decks": ["std-azorius-control", "std-azorius-fliers", "std-boros-dragons", "std-boros-fliers", "std-dimir-control", "std-dimir-reanimator", "std-dimir-tempo", "std-four-color-control",
+                "std-golgari-control", "std-izzet-control", "std-izzet-prowess", "std-jund-sacrifice", "std-mono-green-landfall", "std-orzhov-lifegain", "std-rakdos-aggro", "std-selesnya-aggro"],
       "prizes": [
         { "place": 1, "cash": 150000, "boosters": 24, "reputation": 150 },
         { "place": 2, "cash": 80000, "boosters": 12, "reputation": 100 },
@@ -366,17 +394,17 @@
 
   // The store's regulars: the daily matches' opponents.
   "opponents": [
-    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["fdn-br", "m19-rg", "ori-rg", "fin-br"], "tier": 1, "rival": true },
-    { "id": "theo", "name": "Theo Marsh", "style": "Big creatures, bigger smiles.", "decks": ["hob-gw", "m10-gw", "fdn-gw", "fin-gw"], "tier": 0 },
-    { "id": "ines", "name": "Ines Calder", "style": "Counts every card and answers every threat.", "decks": ["fdn-ub", "m19-ub", "ori-ub", "fin-ub"], "tier": 1 },
-    { "id": "kofi", "name": "Kofi Mensah", "style": "Flyers, tricks and a grin when the trick works.", "decks": ["fdn-wu", "m19-wu", "hob-wu", "fin-wu"], "tier": 0 },
-    { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["hob-br", "m10-br", "ori-br", "fin-rg"], "tier": 0 },
-    { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["m10-rg", "m10-wu", "m19-gw", "fin-starter-red-white", "fin-starter-blue-black"], "tier": 0 },
-    { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-gw", "ori-wu", "fin-wu"], "tier": 2 },
-    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["fdn-rg", "m19-br", "hob-rg", "fin-rg"], "tier": 3, "rival": true },
-    { "id": "arjun", "name": "Arjun Mehta", "style": "Never attacks before turn five, then never stops.", "decks": ["hob-ub", "m19-ub", "m10-ub", "fin-ub"], "tier": 0 },
-    { "id": "camila", "name": "Camila Rojas", "style": "Burns first, asks questions later.", "decks": ["m10-rg", "fdn-br", "hob-rg", "fin-br"], "tier": 0 },
-    { "id": "felix", "name": "Felix Brandt", "style": "Swears by small white flyers, and lots of them.", "decks": ["ori-wu", "m19-wu", "fdn-wu", "fin-wu"], "tier": 0 },
-    { "id": "bea", "name": "Bea Fontaine", "style": "Trades for the shiniest rares and plays them all.", "decks": ["ori-gw", "m19-br", "fdn-rg", "fin-gw"], "tier": 1 }
+    { "id": "rosa", "name": "Rosa Quintero", "style": "Attacks every turn and dares you to keep up.", "decks": ["std-boros-dragons", "std-rakdos-aggro", "fdn-br", "blb-wr", "dsk-wr"], "tier": 1, "rival": true },
+    { "id": "theo", "name": "Theo Marsh", "style": "Big creatures, bigger smiles.", "decks": ["fdn-wg", "blb-bg", "tdm-wbg", "hob-bg", "std-mono-green-landfall"], "tier": 0 },
+    { "id": "ines", "name": "Ines Calder", "style": "Counts every card and answers every threat.", "decks": ["std-dimir-control", "std-azorius-control", "fdn-ub", "eoe-ub", "sos-ubg"], "tier": 1 },
+    { "id": "kofi", "name": "Kofi Mensah", "style": "Flyers, tricks and a grin when the trick works.", "decks": ["fdn-wu", "dsk-wu", "ltr-wu", "m19-wu", "std-azorius-fliers"], "tier": 0 },
+    { "id": "lena", "name": "Lena Varga", "style": "Plays whatever came out of the last booster.", "decks": ["ecl-br", "eoe-rg", "fin-wr", "tmt-ur", "fra-rg", "m10-br"], "tier": 0 },
+    { "id": "sam", "name": "Sam Okafor", "style": "New to the game and learning fast.", "decks": ["fdn-starter-cat-attack", "fdn-starter-might-of-the-legion", "m10-rg", "m19-wg", "fin-starter-red-white", "fin-starter-blue-black"], "tier": 0 },
+    { "id": "marcus", "name": "Marcus Bell", "style": "The store's old-timer; has seen every trick twice.", "decks": ["m10-ub", "ori-wu", "m19-ub", "ltr-wb", "ori-bg"], "tier": 2 },
+    { "id": "yuki", "name": "Yuki Arai", "style": "Saturday tournament regular, practicing on weekdays.", "decks": ["std-jund-sacrifice", "std-dimir-tempo", "std-four-color-control", "std-izzet-prowess", "std-dimir-reanimator"], "tier": 3, "rival": true },
+    { "id": "arjun", "name": "Arjun Mehta", "style": "Never attacks before turn five, then never stops.", "decks": ["std-izzet-control", "std-golgari-control", "sos-ubg", "tdm-ubg", "fin-ub"], "tier": 0 },
+    { "id": "camila", "name": "Camila Rojas", "style": "Burns first, asks questions later.", "decks": ["fdn-ur", "eoe-wr", "tdm-wbr", "m19-br", "std-boros-fliers"], "tier": 0 },
+    { "id": "felix", "name": "Felix Brandt", "style": "Swears by small white flyers, and lots of them.", "decks": ["fdn-wb", "eoe-wb", "tmt-wb", "blb-wu", "std-orzhov-lifegain"], "tier": 0 },
+    { "id": "bea", "name": "Bea Fontaine", "style": "Trades for the shiniest rares and plays them all.", "decks": ["std-selesnya-aggro", "fra-ub", "fin-ubg", "sos-wur", "tdm-wur"], "tier": 1 }
   ]
 }

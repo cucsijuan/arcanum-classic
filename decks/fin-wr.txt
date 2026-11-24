@@ -1,0 +1,18 @@
+# FIN: the white-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 61693 games of WR decks, 56.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN) 16
+2 Joshua, Phoenix's Dominant // Phoenix, Warden of Fire (FIN) 229
+2 Freya Crescent (FIN) 138
+4 Battle Menu (FIN) 9
+4 Dragoon's Lance (FIN) 17
+2 Giott, King of the Dwarves (FIN) 223
+4 Item Shopkeep (FIN) 142
+2 Firion, Wild Rose Warrior (FIN) 137
+2 Lightning, Army of One (FIN) 233
+4 Samurai's Katana (FIN) 154
+4 White Auracite (FIN) 41
+2 Zidane, Tantalus Thief (FIN) 251
+2 Gilgamesh, Master-at-Arms (FIN) 139
+4 Rabanastre, Royal City (FIN) 287
+10 Plains (FIN) 294
+10 Mountain (FIN) 303

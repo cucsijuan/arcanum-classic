@@ -1,0 +1,17 @@
+# LTR: the black-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 198691 games of BR decks, 58.4% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Fear, Fire, Foes! (LTR) 125
+4 Call of the Ring (LTR) 79
+2 Gollum, Patient Plotter (LTR) 84
+2 Mauhúr, Uruk-hai Captain (LTR) 214
+4 Orcish Bowmasters (LTR) 103
+2 Grishnákh, Brash Instigator (LTR) 134
+2 Horn of Gondor (LTR) 240
+4 Nazgûl (LTR) 100
+4 Foray of Orcs (LTR) 128
+2 Gothmog, Morgul Lieutenant (LTR) 87
+2 There and Back Again (LTR) 151
+2 Éomer of the Riddermark (LTR) 121
+2 The Balrog, Durin's Bane (LTR) 195
+12 Swamp (LTR) 266
+12 Mountain (LTR) 268

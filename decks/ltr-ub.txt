@@ -1,0 +1,14 @@
+# LTR: the blue-black archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 125581 games of UB decks, 56.0% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Deceive the Messenger (LTR) 47
+4 Gollum's Bite (LTR) 85
+2 Goldberry, River-Daughter (LTR) 52
+4 Orcish Bowmasters (LTR) 103
+4 Pelargir Survivor (LTR) 64
+4 Saruman's Trickery (LTR) 68
+4 Sauron's Ransom (LTR) 225
+4 Rangers of Ithilien (LTR) 66
+4 The Torment of Gollum (LTR) 110
+2 The Mouth of Sauron (LTR) 216
+15 Island (LTR) 264
+9 Swamp (LTR) 266

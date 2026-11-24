@@ -1,0 +1,13 @@
+# EOE: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 39114 games of UR decks, 53.8% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Rust Harvester (EOE) 159
+4 Cryogen Relic (EOE) 52
+4 Emissary Escort (EOE) 56
+4 Terrapact Intimidator (EOE) 164
+4 Pinnacle Emissary (EOE) 223
+4 Warmaker Gunship (EOE) 167
+4 Orbital Plunge (EOE) 149
+4 Nova Hellkite (EOE) 148
+4 Anticausal Vestige (EOE) 1
+7 Island (EOE) 263
+17 Mountain (EOE) 265

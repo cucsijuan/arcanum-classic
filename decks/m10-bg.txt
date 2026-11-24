@@ -1,0 +1,13 @@
+# M10: the black-green archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: deathtouch and the graveyard.
+4 Black Knight (M10) 85
+4 Consume Spirit (M10) 89
+4 Doom Blade (M10) 93
+4 Awakener Druid (M10) 167
+4 Centaur Courser (M10) 172
+4 Cudgel Troll (M10) 174
+4 Tendrils of Corruption (M10) 114
+4 Acidic Slime (M10) 165
+4 Howl of the Night Pack (M10) 187
+10 Swamp (M10) 238
+14 Forest (M10) 246

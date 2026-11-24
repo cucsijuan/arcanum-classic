@@ -1,0 +1,38 @@
+# Izzet control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915731).
+# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
+#   Anthropological Mission -> Stock Up, Consult the Star Charts; Multiversal Passage -> Island; Engineered Explosives -> Fire Magic.
+#   Riverpyre Verge -> Stormcarved Coast, Island; Spirebluff Canal -> Temple of Epiphany, Restless Spire; Torch the Tower -> Thunder Magic.
+#   Avengers Disassembled -> Slagstorm; Riverchurn Monument -> Soul-Guide Lantern; Torpor Orb -> Karn, Argent Defender.
+2 Stock Up
+4 Consult the Star Charts
+1 Burst Lightning
+2 Spell Snare
+2 Fire Magic
+4 Flashback
+2 Great Hall of the Biblioplex
+1 Impractical Joke
+3 Into the Flood Maw
+4 Steam Vents
+2 Long River's Pull
+8 Island
+3 Ral, Crackling Wit
+4 Stormcarved Coast
+1 Sear
+4 Opt
+2 Temple of Epiphany
+2 Restless Spire
+4 Sleight of Hand
+2 Thunder Magic
+1 Traumatic Critique
+2 Spell Pierce
+
+Sideboard
+1 Spell Snare
+2 Slagstorm
+2 Bothersome Noisemaker
+1 Broadside Barrage
+2 Flashfreeze
+1 Soul-Guide Lantern
+2 Stock Up
+2 Karn, Argent Defender
+2 Annul

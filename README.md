@@ -20,7 +20,7 @@ builds the zip. It checks out the game repository's `main` branch to run `tools/
 | `sources.json` | Card data, image, commander statistics and deck search sources. The release workflow downloads the card data from them; the game downloads it only when a zip doesn't bring `card-data.bin`, and fetches the images and the rest at runtime |
 | `scripts/` | Card ability scripts |
 | `formats/` | Deck construction rules |
-| `decks/` | Sample decks |
+| `decks/` | Decks: archetype decks per set, competitive Standard decks, and official decks (starter decks, precons) |
 | `sets/` | Card sets: their cards, how their boosters are made (sheets and slots) and limited settings |
 | `ratings/` | Draft statistics per set (from `tools/draft_ratings.py`) |
 | `cubes/` | Cube lists for cube drafts (deck-list format) |
@@ -41,8 +41,9 @@ flag, basic or not, names, collector numbers, or another set's numbers) and `slo
 which sheets, with relative weights (`{"count": 1, "sheets": {"rare": 857, "mythic": 143}}`). Cards are not repeated
 within a booster except in `wildcard` slots. `limited` sets the boosters per player in a draft and in sealed.
 
-`tools/build_set_decks.py` builds sample decks for a set (with the printings file, every line names the set's
-printing); `tools/build_cube.py` builds a 360-card cube of supported cards.
+`tools/build_archetype_decks.py` builds one 60-card deck per archetype of a set, from the 17Lands game data (or a ratings
+file, with optional themes, for sets without it; every line names the set's printing). `tools/archetype_stats.py` summarizes that game data first.
+`tools/build_cube.py` builds a 360-card cube of supported cards.
 
 `tools/draft_ratings.py <set> [format]` writes `ratings/<set>.json`, the draft statistics (win rate with a card in hand,
 average pick) that the computer drafters and career drafts use. Sets without public datasets have no file.

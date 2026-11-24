@@ -1,0 +1,13 @@
+# M10: the white-black archetype, 60 cards.
+# Built from the commons and uncommons pick order of a 2009 expert review (each color's top 20): the best rated cards of the archetype's colors, favoring its theme: life gain and fliers.
+4 Harm's Way (M10) 14
+4 Doom Blade (M10) 93
+4 Pacifism (M10) 22
+4 White Knight (M10) 41
+4 Griffin Sentinel (M10) 12
+4 Kelinore Bat (M10) 101
+4 Howling Banshee (M10) 99
+4 Tendrils of Corruption (M10) 114
+4 Serra Angel (M10) 29
+14 Plains (M10) 230
+10 Swamp (M10) 238

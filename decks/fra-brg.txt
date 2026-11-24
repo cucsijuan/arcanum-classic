@@ -1,0 +1,21 @@
+# FRA: the black-red-green archetype, 60 cards.
+# Built from 17Lands card data: 28200 games of BRG decks, 54.9% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Carnivorous Cultivator // Enroot (FRA) 100
+2 Fblthp, Knows the Way (FRA) 258
+2 Liliana the Repentant (FRA) 231
+4 Something Worth Saving (FRA) 114
+4 Keeper of the Quiet Hour (FRA) 171
+4 Murmuring Volume (FRA) 174
+2 Aerid Konstrari (FRA) 121
+4 Rewrite Regrets (FRA) 62
+2 Garruk, Veiled Butcher (FRA) 229
+2 Hapatra, the Desert Fang (FRA) 271
+2 Kiora of Fire and Ashes (FRA) 247
+4 Craftwork Crusher (FRA) 127
+4 Formidable Commons (FRA) 178
+4 Stingerquill Annex (FRA) 190
+4 Konstrari Annex (FRA) 183
+4 Rockfall Vale (FRA) 186
+2 Swamp (FRA) 285
+2 Mountain (FRA) 287
+4 Forest (FRA) 289

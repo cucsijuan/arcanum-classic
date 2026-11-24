@@ -1,0 +1,17 @@
+# FIN: the white-green archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 43682 games of WG decks, 56.2% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+2 Dion, Bahamut's Dominant // Bahamut, Warden of Light (FIN) 16
+4 Esper Origins // Summon: Esper Maduin (FIN) 185
+4 Dragoon's Lance (FIN) 17
+2 Garnet, Princess of Alexandria (FIN) 222
+2 Torgal, A Fine Hound (FIN) 208
+4 Bard's Bow (FIN) 174
+4 Summon: Fenrir (FIN) 203
+2 Sazh Katzroy (FIN) 199
+4 White Auracite (FIN) 41
+2 Rinoa Heartilly (FIN) 237
+2 Yuna, Hope of Spira (FIN) 250
+4 Summon: Knights of Round (FIN) 36
+4 Windurst, Federation Center (FIN) 292
+12 Plains (FIN) 294
+8 Forest (FIN) 306

@@ -1,0 +1,16 @@
+# FDN: the blue-red archetype, 60 cards.
+# Built from 17Lands public game data (CC BY 4.0): 58148 games of UR decks, 52.9% won; cards by win rate in hand and by how much more this archetype's stronger players play them than its neighbors', curve and creatures as their decks.
+4 Burst Lightning (FDN) 192
+2 Kellan, Planar Trailblazer (FDN) 91
+2 Balmor, Battlemage Captain (FDN) 237
+4 Drake Hatcher (FDN) 35
+4 Mischievous Mystic (FDN) 47
+4 Faebloom Trick (FDN) 38
+4 Fiery Annihilation (FDN) 86
+2 Bigfin Bouncer (FDN) 31
+4 Micromancer (FDN) 158
+4 Arcane Epiphany (FDN) 29
+2 Chandra, Flameshaper (FDN) 81
+4 Swiftwater Cliffs (FDN) 268
+13 Island (FDN) 274
+7 Mountain (FDN) 278

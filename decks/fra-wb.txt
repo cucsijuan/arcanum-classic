@@ -1,0 +1,16 @@
+# FRA: the white-black archetype, 60 cards.
+# Built from 17Lands card data: 33234 games of WB decks, 53.7% won; cards by win rate in the deck and by how much more this archetype plays them than its neighbors.
+4 Blessed Ghoul (FRA) 123
+2 Edgar, Ancient Bloodlord (FRA) 270
+4 Enlightened Confidant (FRA) 5
+4 Medic's Kitesail (FRA) 173
+4 Repurposed Enforcer (FRA) 19
+2 Gideon the Oathless (FRA) 230
+2 Lyra, Archangel of Dawn (FRA) 201
+4 Sanctum Lurker (FRA) 64
+4 Vindictive Triumph (FRA) 162
+2 Darklight Phoenix (FRA) 53
+4 Twisted Fates (FRA) 158
+4 Meticulous Commons (FRA) 184
+10 Plains (FRA) 281
+10 Swamp (FRA) 285

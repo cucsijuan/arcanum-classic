@@ -1,0 +1,15 @@
+# ORI: the blue-green archetype, 60 cards.
+# Built from Draftsim's pick order ratings (draftsim.com): the best rated cards of the archetype's colors, favoring its theme: flash and tapping.
+4 Hangarback Walker (ORI) 229
+4 Harbinger of the Tides (ORI) 58
+2 Sword of the Animist (ORI) 240
+4 Titanic Growth (ORI) 201
+4 Bounding Krasis (ORI) 212
+4 Managorger Hydra (ORI) 186
+4 Whirler Rogue (ORI) 83
+4 Wild Instincts (ORI) 206
+4 Outland Colossus (ORI) 193
+2 Alhammarret, High Arbiter (ORI) 43
+4 Yavimaya Coast (ORI) 252
+10 Island (ORI) 257
+10 Forest (ORI) 269
