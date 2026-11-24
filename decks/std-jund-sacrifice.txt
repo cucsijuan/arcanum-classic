@@ -1,6 +1,4 @@
 # Jund sacrifice: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915183).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Chandra, Spark Hunter -> Witherbloom Charm; Storm, Windrider -> Leatherhead, Swamp Stalker.
 4 Greedy Freebooter
 3 Goldvein Hydra
 3 Umbral Collar Zealot
@@ -29,10 +27,11 @@ Sideboard
 3 Duress
 1 Assassin's Trophy
 2 Bitter Triumph
-1 Witherbloom Charm
+1 Chandra, Spark Hunter
 1 Strategic Betrayal
 2 Surrak, Elusive Hunter
 1 Fire Magic
 1 Elegy Acolyte
-2 Leatherhead, Swamp Stalker
+1 Leatherhead, Swamp Stalker
 1 Guerrilla Gorilla
+1 Storm, Windrider

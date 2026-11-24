@@ -1,0 +1,28 @@
+{
+  "name": "The Wrath of Khan",
+  "abilities": [
+    {
+      "trigger": "chapter",
+      "chapters": [1],
+      "targets": ["creature:opponent"],
+      "effects": [
+        { "damage": 4, "to": "target" },
+        { "atNextCombatThisTurn": "target", "effects": [ { "gainControl": "triggered", "untilEndOfTurn": true }, { "untap": "triggered" }, { "pump": [0, 0], "what": "triggered", "keywords": ["Haste"] } ],
+          "text": "At the beginning of the next combat this turn, gain control of that creature until end of turn. Untap it. It gains haste until end of turn." }
+      ],
+      "text": "I — This Saga deals 4 damage to target creature an opponent controls. At the beginning of the next combat this turn, gain control of that creature until end of turn. Untap it. It gains haste until end of turn."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [2],
+      "effects": [ { "may": "Exile a card from your hand?", "effects": [ { "exileFromOwnHand": 1 }, { "if": { "atLeast": { "exiled": {} }, "value": 1 }, "then": [ { "draw": 1 } ] } ] } ],
+      "text": "II — You may exile a card from your hand. If you do, draw a card."
+    },
+    {
+      "trigger": "chapter",
+      "chapters": [3],
+      "effects": [ { "sacrifice": 1, "who": "opponents", "filter": { "token": false } } ],
+      "text": "III — Each opponent sacrifices a nontoken permanent of their choice."
+    }
+  ]
+}

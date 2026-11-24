@@ -1,0 +1,18 @@
+{
+  "name": "Riverchurn Monument",
+  "abilities": [
+    {
+      "cost": "{1}, {T}",
+      "targets": [ { "kind": "player", "optional": true, "anyNumber": true, "text": "any number of target players" } ],
+      "effects": [ { "mill": 2, "who": "eachTarget" } ],
+      "text": "{1}, {T}: Any number of target players each mill two cards."
+    },
+    {
+      "cost": "{2}{U}{U}, {T}",
+      "onlyOnce": true,
+      "targets": [ { "kind": "player", "optional": true, "anyNumber": true, "text": "any number of target players" } ],
+      "effects": [ { "mill": { "graveyard": {}, "of": "affected" }, "who": "eachTarget" } ],
+      "text": "Exhaust — {2}{U}{U}, {T}: Any number of target players each mill cards equal to the number of cards in their graveyard."
+    }
+  ]
+}

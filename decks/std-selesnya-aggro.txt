@@ -1,6 +1,4 @@
 # Selesnya aggro: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914989).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Avatar's Wrath -> Day of Judgment.
 4 Ambitious Augmenter
 4 Bejeweled Warg
 4 Llanowar Elves
@@ -24,6 +22,6 @@ Sideboard
 3 Doorkeeper Thrull
 3 Rest in Peace
 3 Voice of Victory
-2 Day of Judgment
+2 Avatar's Wrath
 2 Lavaspur Boots
 2 Vivien Reid

@@ -1,6 +1,4 @@
 # Azorius fliers: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915739).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Avatar's Wrath -> Day of Judgment.
 4 Steamcore Scholar
 1 Nurturing Pixie
 4 Sage of the Skies
@@ -27,5 +25,5 @@ Sideboard
 2 No More Lies
 2 Clarion Conqueror
 4 Seam Rip
-2 Day of Judgment
+2 Avatar's Wrath
 2 The Theorist, Jace Beleren

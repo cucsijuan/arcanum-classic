@@ -1,0 +1,32 @@
+{
+  "name": "Avatar's Wrath",
+  "spell": {
+    "targets": [
+      {
+        "kind": "creature",
+        "optional": true,
+        "text": "up to one target creature"
+      }
+    ],
+    "effects": [
+      {
+        "exile": {
+          "each": {
+            "types": [
+              "creature"
+            ]
+          },
+          "exceptTargets": true
+        },
+        "airbend": true
+      },
+      {
+        "opponentsCastOnlyFromHandUntilYourNextTurn": true
+      },
+      {
+        "exileThisSpell": true
+      }
+    ],
+    "text": "Choose up to one target creature, then airbend all other creatures. (Exile them. While each one is exiled, its owner may cast it for {2} rather than its mana cost.) Until your next turn, your opponents can't cast spells from anywhere other than their hands. Exile Avatar's Wrath."
+  }
+}

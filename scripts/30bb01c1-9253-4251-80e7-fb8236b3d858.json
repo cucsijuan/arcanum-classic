@@ -1,0 +1,26 @@
+{
+  "name": "Chandra, Spark Hunter",
+  "abilities": [
+    {
+      "trigger": "beginCombat",
+      "targets": [ { "kind": "permanent", "controller": "you", "filter": { "subtype": "Vehicle" }, "optional": true, "text": "up to one target Vehicle you control" } ],
+      "effects": [ { "become": "target", "addTypes": ["artifact", "creature"], "keywords": ["Haste"] } ],
+      "text": "At the beginning of combat on your turn, choose up to one target Vehicle you control. Until end of turn, it becomes an artifact creature and gains haste."
+    },
+    {
+      "cost": "+2",
+      "effects": [ { "mayPay": "Sacrifice an artifact or discard a card?", "options": [ { "cost": { "sacrifice": { "types": ["artifact"] } } }, { "cost": { "discard": 1 } } ], "effects": [ { "draw": 1 } ] } ],
+      "text": "+2: You may sacrifice an artifact or discard a card. If you do, draw a card."
+    },
+    {
+      "cost": "0",
+      "effects": [ { "tokens": 1, "token": { "name": "Vehicle", "types": "Artifact — Vehicle", "power": 3, "toughness": 2, "colors": [], "abilities": [ { "cost": "crew:1", "effects": [ { "become": "self", "addTypes": ["creature"] } ], "text": "Crew 1" } ] } } ],
+      "text": "0: Create a 3/2 colorless Vehicle artifact token with crew 1."
+    },
+    {
+      "cost": "-7",
+      "effects": [ { "emblem": "Chandra, Spark Hunter emblem", "abilities": [ { "trigger": "permanentEnters", "filter": { "types": ["artifact"], "controller": "you" }, "targets": ["any"], "effects": [ { "damage": 3, "to": "target" } ], "text": "Whenever an artifact you control enters, this emblem deals 3 damage to any target." } ] } ],
+      "text": "−7: You get an emblem with \"Whenever an artifact you control enters, this emblem deals 3 damage to any target.\""
+    }
+  ]
+}

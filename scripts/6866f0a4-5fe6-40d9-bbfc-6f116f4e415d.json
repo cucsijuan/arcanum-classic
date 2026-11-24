@@ -1,0 +1,16 @@
+{
+  "name": "Q, Stacking the Deck",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "effects": [
+        { "shuffle": "you" },
+        { "exileUntil": { "not": ["land"] }, "gains": [
+          { "cost": "exileCardFromHand", "fromExile": true, "activateIf": "yourTurn",
+            "effects": [ { "castCopy": "self", "payManaCost": true } ],
+            "text": "Exile a card from your hand: Create a copy of this card. You may cast the copy. Activate only during your turn and only if this card is exiled." } ] }
+      ],
+      "text": "When Q enters, shuffle your library, then exile cards from the top of your library until you exile a nonland card. That nonland card gains \"Exile a card from your hand: Create a copy of this card. You may cast the copy. Activate only during your turn and only if this card is exiled.\""
+    }
+  ]
+}

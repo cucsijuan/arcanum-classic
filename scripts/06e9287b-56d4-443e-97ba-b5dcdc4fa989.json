@@ -1,0 +1,15 @@
+{
+  "name": "Storm, Windrider",
+  "abilities": [
+    {
+      "static": { "affects": "creatures", "filter": { "keyword": "Flying" }, "cantAttackYou": true, "cantBlockYourCreatures": true },
+      "text": "Creatures with flying can't attack you or block creatures you control."
+    },
+    {
+      "trigger": "castSpell",
+      "spellTargets": { "types": ["creature"] },
+      "effects": [ { "pump": [0, 0], "what": "batch", "keywords": ["Flying"] } ],
+      "text": "Whenever you cast a spell that targets one or more creatures, those creatures gain flying until end of turn."
+    }
+  ]
+}

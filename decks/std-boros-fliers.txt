@@ -1,6 +1,4 @@
 # Boros fliers: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915740).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Q, Stacking the Deck -> Strongbox Raider; The Wrath of Khan -> Burn, Burn, Tree and Fern.
 3 Nurturing Pixie
 4 Sage of the Skies
 4 Voice of Victory
@@ -33,5 +31,5 @@ Sideboard
 1 Morningtide's Light
 1 Pyrrhic Strike
 2 Ark of Hunger
-1 Strongbox Raider
-1 Burn, Burn, Tree and Fern
+1 Q, Stacking the Deck
+1 The Wrath of Khan

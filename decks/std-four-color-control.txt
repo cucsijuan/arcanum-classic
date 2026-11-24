@@ -1,6 +1,4 @@
 # Four-color control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914988).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Outrageous Robbery -> Duress; Thor, God of Thunder -> Negate.
 4 Great Hall of the Biblioplex
 3 Steam Vents
 2 Gloomlake Verge
@@ -41,5 +39,5 @@ Sideboard
 2 Strategic Betrayal
 1 Ancient Vendetta
 1 Deadly Cover-Up
-1 Duress
-1 Negate
+1 Outrageous Robbery
+1 Thor, God of Thunder

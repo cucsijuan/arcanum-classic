@@ -1,0 +1,18 @@
+{
+  "name": "Thor, God of Thunder",
+  "abilities": [
+    {
+      "trigger": "enters",
+      "targets": [ { "kind": "graveyardCard", "controller": "you", "filter": { "anyOf": [ { "subtype": "Equipment" }, { "types": ["instant"] }, { "types": ["sorcery"] } ] }, "text": "target Equipment, instant, or sorcery card from your graveyard" } ],
+      "effects": [ { "exile": "target", "ownerMayPlayUntilEndOfNextTurn": true } ],
+      "text": "When Thor enters, exile target Equipment, instant, or sorcery card from your graveyard. Until the end of your next turn, you may play that card."
+    },
+    {
+      "trigger": "castSpell",
+      "filter": { "not": ["creature"] },
+      "targets": ["any"],
+      "effects": [ { "damage": "triggerAmount", "to": "target" } ],
+      "text": "Whenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target."
+    }
+  ]
+}

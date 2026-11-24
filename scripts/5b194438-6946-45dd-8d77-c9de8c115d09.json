@@ -1,0 +1,19 @@
+{
+  "name": "Outrageous Robbery",
+  "spell": {
+    "targets": [
+      "opponent"
+    ],
+    "effects": [
+      {
+        "exileTopPlayable": "X",
+        "of": "target",
+        "faceDown": true,
+        "forever": true,
+        "chooseOne": false,
+        "anyMana": true
+      }
+    ],
+    "text": "Target opponent exiles the top X cards of their library face down. You may look at and play those cards for as long as they remain exiled. If you cast a spell this way, you may spend mana as though it were mana of any type to cast it."
+  }
+}

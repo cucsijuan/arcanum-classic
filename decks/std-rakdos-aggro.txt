@@ -1,6 +1,4 @@
 # Rakdos aggro: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 914440).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Chandra, Spark Hunter -> Pinecone Strike.
 3 Swamp
 4 Dark Matter Manipulator
 4 Carnage, Crimson Chaos
@@ -25,7 +23,8 @@ Sideboard
 1 Requiting Hex
 1 Eddie Brock
 1 Karn, Argent Defender
-3 Pinecone Strike
+2 Pinecone Strike
+1 Chandra, Spark Hunter
 2 Ghost Vacuum
 2 Molten Collapse
 1 Feed the Swarm

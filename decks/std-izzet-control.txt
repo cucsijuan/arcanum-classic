@@ -1,6 +1,4 @@
 # Izzet control: a competitive Standard list, from a top-finishing tournament deck of November 2026 (list 915731).
-# Cards the game doesn't have yet are replaced with ones it has, doing the same job for the deck's plan, at a close cost and in its colors:
-#   Riverchurn Monument -> Soul-Guide Lantern.
 4 Anthropological Mission
 1 Burst Lightning
 2 Consult the Star Charts
@@ -32,7 +30,7 @@ Sideboard
 2 Bothersome Noisemaker
 1 Broadside Barrage
 2 Flashfreeze
-1 Soul-Guide Lantern
+1 Riverchurn Monument
 2 Stock Up
 2 Torpor Orb
 2 Annul
